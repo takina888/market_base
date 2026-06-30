@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "dataset": "market_base_rice_rankings",
+    "version": "v1_schema",
+    "created_at": "2026-06-29",
+    "source_primary": "FAOSTAT",
+    "note_ja": "初期状態ではランキング未生成。update_rice_data_faostat.py 実行後に生成。"
+  },
+  "rankings": {
+    "rice_production_paddy_tonnes": {
+      "metric_name_ja": "米生産量",
+      "items": [],
+      "missing_entity_count": 196
+    },
+    "rice_import_quantity_tonnes": {
+      "metric_name_ja": "米輸入量",
+      "items": [],
+      "missing_entity_count": 196
+    },
+    "rice_export_quantity_tonnes": {
+      "metric_name_ja": "米輸出量",
+      "items": [],
+      "missing_entity_count": 196
+    },
+    "rice_food_supply_kg_capita_year": {
+      "metric_name_ja": "1人当たり米供給量",
+      "items": [],
+      "missing_entity_count": 196
+    }
+  }
+}
