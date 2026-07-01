@@ -1,8 +1,0 @@
-{
-  "status": "PASS",
-  "file_count": 23,
-  "entity_count": 196,
-  "flag_count": 196,
-  "errors": [],
-  "purpose": "Clean public upload package only. No V82/V83/V84 audit/manifests included."
-}
