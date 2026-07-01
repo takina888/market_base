@@ -1,0 +1,14 @@
+{
+  "faostat": {
+    "production_crops_livestock_normalized_zip": "https://bulks-faostat.fao.org/production/Production_Crops_Livestock_E_All_Data_(Normalized).zip",
+    "trade_crops_livestock_normalized_zip": "https://bulks-faostat.fao.org/production/Trade_CropsLivestock_E_All_Data_(Normalized).zip",
+    "food_balance_sheets_normalized_zip": "https://bulks-faostat.fao.org/production/FoodBalanceSheets_E_All_Data_(Normalized).zip",
+    "food_balance_sheets_historic_normalized_zip": "https://bulks-faostat.fao.org/production/FoodBalanceSheetsHistoric_E_All_Data_(Normalized).zip"
+  },
+  "wdi": {
+    "wdi_csv_zip": "https://databank.worldbank.org/data/download/WDI_CSV.zip"
+  },
+  "school_meals": {
+    "note": "Stable one-click API/bulk URL varies by provider. Put WFP/GCNF/UNESCO exports in raw/school_meals/. The update script ingests XLSX/CSV files named by indicator code such as SML_TOTAL_CHILDREN, EDU_ENR_PRI, EDU_ENR_PRE, QLT_GDQS_MENU."
+  }
+}

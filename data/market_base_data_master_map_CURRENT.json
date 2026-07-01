@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "dataset": "MARKET_BASE_DATA_MASTER_MAP",
+    "version": "v113_data_master_unified",
+    "created_at": "2026-07-01T08:58:00Z",
+    "purpose": "Prevent data from scattering across duplicate files. Defines the single editable master for each duplicated category and marks compatibility files as generated copies.",
+    "policy_ja": "同じ項目の正本は1つだけ。追加・修正はCURRENTファイルだけに行い、v1/v2/v94やembeddedは生成物として扱う。"
+  },
+  "masters": {
+    "retail_presence": {
+      "editable_master": "data/market_base_retail_presence_master_CURRENT.json",
+      "generated_files": [
+        "data/market_base_retail_channels_full196_rc.json",
+        "embedded-retail-presence-data.js",
+        "embedded-retail-data.js"
+      ],
+      "do_not_edit_directly": [
+        "data/market_base_retail_channels_full196_rc.json",
+        "embedded-retail-presence-data.js",
+        "embedded-retail-data.js"
+      ],
+      "status": "unified_in_v112"
+    },
+    "rice_data": {
+      "editable_master": "data/market_base_rice_data_CURRENT.json",
+      "compatibility_files": [
+        "data/market_base_rice_data_v1.json",
+        "data/market_base_rice_data_v2.json"
+      ],
+      "status": "unified_in_v113",
+      "note_ja": "v1/v2は互換用コピー。手で編集しない。"
+    },
+    "rice_rankings": {
+      "editable_master": "data/market_base_rice_rankings_CURRENT.json",
+      "compatibility_files": [
+        "data/market_base_rice_rankings_v1.json",
+        "data/market_base_rice_rankings_v2.json"
+      ],
+      "status": "unified_in_v113",
+      "note_ja": "国別米データCURRENTから生成。手で編集しない。"
+    },
+    "school_meals_data": {
+      "editable_master": "data/market_base_school_meals_data_CURRENT.json",
+      "compatibility_files": [
+        "data/market_base_school_meals_data_v1.json",
+        "data/market_base_school_meals_data_v94.json"
+      ],
+      "generated_audit_files": [
+        "data/market_base_school_meals_coverage_report_v103.json",
+        "data/market_base_school_meals_source_manifest_v103.json"
+      ],
+      "status": "unified_in_v113",
+      "note_ja": "v1/v94は互換用コピー。手で編集しない。"
+    },
+    "school_meals_rankings": {
+      "editable_master": "data/market_base_school_meals_rankings_CURRENT.json",
+      "compatibility_files": [
+        "data/market_base_school_meals_rankings_v1.json"
+      ],
+      "status": "unified_in_v113",
+      "note_ja": "学校給食データCURRENTから生成。手で編集しない。"
+    },
+    "basic_stats": {
+      "editable_master": "data/market_base_entities_basic_stats_full196_rc.json",
+      "derived_rankings": [
+        "data/market_base_rankings_basic_stats_full196_rc.json"
+      ],
+      "status": "already_separate_roles"
+    },
+    "japan_related": {
+      "editable_master": "data/market_base_japan_related_data_v1.json",
+      "derived_rankings": [
+        "data/market_base_japan_related_rankings_v1.json"
+      ],
+      "status": "already_separate_roles"
+    }
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "version": "v103_school_meals_hardened",
+    "created_at": "2026-07-01"
+  },
+  "metric_coverage": {
+    "school_meals_total_children": 149,
+    "primary_enrollment_children": 149,
+    "pre_primary_enrollment_children": 172,
+    "school_meal_menu_gdqs_score": 29,
+    "school_meal_children_per_primary_enrollment_pct": 149
+  },
+  "country_status_counts": {
+    "loaded_full": 134,
+    "loaded_partial": 57,
+    "not_loaded": 5
+  },
+  "row_stats": [
+    {
+      "file": "EDU_ENR_PRE_2026-07-01.xlsx",
+      "rows_total": 1115,
+      "rows_valid_values": 778,
+      "accepted_or_replaced": 187
+    },
+    {
+      "file": "EDU_ENR_PRI_2026-07-01.xlsx",
+      "rows_total": 1115,
+      "rows_valid_values": 261,
+      "accepted_or_replaced": 149
+    },
+    {
+      "file": "QLT_GDQS_MENU_2026-07-01.xlsx",
+      "rows_total": 1115,
+      "rows_valid_values": 29,
+      "accepted_or_replaced": 29
+    },
+    {
+      "file": "SML_TOTAL_CHILDREN_2026-07-01.xlsx",
+      "rows_total": 1115,
+      "rows_valid_values": 261,
+      "accepted_or_replaced": 149
+    }
+  ],
+  "low_coverage_countries": [
+    {
+      "entity_id": "AL",
+      "iso3": "ALB",
+      "name_ja": "アルバニア",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "AU",
+      "iso3": "AUS",
+      "name_ja": "オーストラリア",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "AZ",
+      "iso3": "AZE",
+      "name_ja": "アゼルバイジャン",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "BH",
+      "iso3": "BHR",
+      "name_ja": "バーレーン",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "BY",
+      "iso3": "BLR",
+      "name_ja": "ベラルーシ",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "CU",
+      "iso3": "CUB",
+      "name_ja": "キューバ",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "DE",
+      "iso3": "DEU",
+      "name_ja": "ドイツ",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "DK",
+      "iso3": "DNK",
+      "name_ja": "デンマーク",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "ER",
+      "iso3": "ERI",
+      "name_ja": "エリトリア",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "FJ",
+      "iso3": "FJI",
+      "name_ja": "フィジー",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "FM",
+      "iso3": "FSM",
+      "name_ja": "ミクロネシア連邦",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "GA",
+      "iso3": "GAB",
+      "name_ja": "ガボン",
+      "metrics_loaded": 0,
+      "status": "not_loaded"
+    },
+    {
+      "entity_id": "GB",
+      "iso3": "GBR",
+      "name_ja": "イギリス",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "GE",
+      "iso3": "GEO",
+      "name_ja": "ジョージア",
+      "metrics_loaded": 0,
+      "status": "not_loaded"
+    },
+    {
+      "entity_id": "GQ",
+      "iso3": "GNQ",
+      "name_ja": "赤道ギニア",
+      "metrics_loaded": 0,
+      "status": "not_loaded"
+    },
+    {
+      "entity_id": "HK",
+      "iso3": "HKG",
+      "name_ja": "香港（中国）",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "ID",
+      "iso3": "IDN",
+      "name_ja": "インドネシア",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "KM",
+      "iso3": "COM",
+      "name_ja": "コモロ",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "KP",
+      "iso3": "PRK",
+      "name_ja": "北朝鮮",
+      "metrics_loaded": 0,
+      "status": "not_loaded"
+    },
+    {
+      "entity_id": "KW",
+      "iso3": "KWT",
+      "name_ja": "クウェート",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "LI",
+      "iso3": "LIE",
+      "name_ja": "リヒテンシュタイン",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "ME",
+      "iso3": "MNE",
+      "name_ja": "モンテネグロ",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "MO",
+      "iso3": "MAC",
+      "name_ja": "マカオ（中国）",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "MV",
+      "iso3": "MDV",
+      "name_ja": "モルディブ",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "NI",
+      "iso3": "NIC",
+      "name_ja": "ニカラグア",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "NO",
+      "iso3": "NOR",
+      "name_ja": "ノルウェー",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "NR",
+      "iso3": "NRU",
+      "name_ja": "ナウル",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "OM",
+      "iso3": "OMN",
+      "name_ja": "オマーン",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "PG",
+      "iso3": "PNG",
+      "name_ja": "パプアニューギニア",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "PY",
+      "iso3": "PRY",
+      "name_ja": "パラグアイ",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "QA",
+      "iso3": "QAT",
+      "name_ja": "カタール",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "RS",
+      "iso3": "SRB",
+      "name_ja": "セルビア",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "SA",
+      "iso3": "SAU",
+      "name_ja": "サウジアラビア",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "SB",
+      "iso3": "SLB",
+      "name_ja": "ソロモン諸島",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "SC",
+      "iso3": "SYC",
+      "name_ja": "セーシェル",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "SG",
+      "iso3": "SGP",
+      "name_ja": "シンガポール",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "SR",
+      "iso3": "SUR",
+      "name_ja": "スリナム",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "SV",
+      "iso3": "SLV",
+      "name_ja": "エルサルバドル",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "TM",
+      "iso3": "TKM",
+      "name_ja": "トルクメニスタン",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "TO",
+      "iso3": "TON",
+      "name_ja": "トンガ",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "TR",
+      "iso3": "TUR",
+      "name_ja": "トルコ",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "TV",
+      "iso3": "TUV",
+      "name_ja": "ツバル",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "TW",
+      "iso3": "TWN",
+      "name_ja": "台湾",
+      "metrics_loaded": 0,
+      "status": "not_loaded"
+    },
+    {
+      "entity_id": "VE",
+      "iso3": "VEN",
+      "name_ja": "ベネズエラ",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "VN",
+      "iso3": "VNM",
+      "name_ja": "ベトナム",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "VU",
+      "iso3": "VUT",
+      "name_ja": "バヌアツ",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    },
+    {
+      "entity_id": "WS",
+      "iso3": "WSM",
+      "name_ja": "サモア",
+      "metrics_loaded": 1,
+      "status": "loaded_partial"
+    }
+  ]
+}

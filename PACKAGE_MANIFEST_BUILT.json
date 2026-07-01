@@ -1,0 +1,22 @@
+{
+  "file_count": 53,
+  "root_items": [
+    "index.html",
+    "assets",
+    "data",
+    "embedded-data.js",
+    "embedded-retail-data.js",
+    "embedded-retail-presence-data.js",
+    "manifest.json",
+    "sw.js",
+    "version.txt",
+    ".nojekyll",
+    "docs",
+    "scripts",
+    ".github"
+  ],
+  "note": "Upload contents of this folder to GitHub Pages repository root.",
+  "file_count_actual_after_manifest": 54,
+  "version": "v119-market-retail-ui-tone",
+  "upload_note_jp": "このフォルダの中身をGitHub Pagesリポジトリ直下へアップロード。ZIPをそのまま置かない。"
+}
