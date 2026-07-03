@@ -1,0 +1,2 @@
+V170_SPLASH_FAILSAFE_20260703
+Based on V169 safe standalone. Adds inline splash fail-safe in index.html, cache-busted asset URLs, and service-worker cache recovery so the app cannot remain stuck on the splash screen if external JS/cache fails.

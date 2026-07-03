@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0B3A82" />
+  <title>MARKET BASE</title>
+  <meta name="description" content="MARKET BASEで国・地域、市場、小売、ランキング、比較、出典を確認できます。" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=170" />
+  <meta name="market-base-build" content="V170_SPLASH_FAILSAFE_20260703" />
+<style>.cvs-home-card{text-decoration:none;color:inherit;background:linear-gradient(135deg,#fff 0%,#f6f9ff 58%,#eef6ff 100%);}</style>
+</head>
+<body>
+  <div id="appSplash" class="app-splash" aria-label="MARKET BASE loading" role="status">
+    <div class="splash-card">
+      <div class="splash-mark" aria-hidden="true">MB</div>
+      <div class="splash-title">MARKET BASE</div>
+      <div class="splash-line">Market Intelligence</div>
+    </div>
+  </div>
+
+  <script>
+    // V170 failsafe: never leave the splash screen blocking the app.
+    (function(){
+      function hideSplash(){
+        var splash=document.getElementById('appSplash');
+        if(!splash) return;
+        splash.classList.add('is-hidden');
+        setTimeout(function(){ if(splash && splash.parentNode) splash.parentNode.removeChild(splash); }, 500);
+      }
+      window.__mbHideSplash=hideSplash;
+      window.addEventListener('load', function(){ setTimeout(hideSplash, 700); });
+      setTimeout(hideSplash, 1600);
+      window.addEventListener('error', function(){ setTimeout(hideSplash, 100); });
+      window.addEventListener('unhandledrejection', function(){ setTimeout(hideSplash, 100); });
+    })();
+  </script>
+
+  <header class="app-header">
+    <div class="brand-block">
+      <div class="logo-mark" aria-hidden="true">MB</div>
+      <div>
+        <p class="eyebrow">Country / Area Market Intelligence</p>
+        <h1>MARKET BASE</h1>
+        <p class="release-badge" data-home-i18n="releaseBadge">196の国・地域</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <span class="header-chip">196</span>
+      <select id="langSelect" aria-label="Language">
+        <option value="ja">日本語</option>
+        <option value="en">English</option>
+        <option value="zh_tw">繁體中文</option>
+        <option value="zh_cn">简体中文</option>
+      </select>
+    </div>
+  </header>
+
+  <main id="home" class="app-shell">
+
+    <section class="target-home-reference" aria-label="MARKET BASE target reference home layout">
+      <div class="target-title-row">
+        <h2>MARKET BASE</h2>
+        <span>196</span>
+      </div>
+      <div class="target-lang-segment" aria-label="Language quick selector">
+        <button type="button" data-lang-button="ja" class="active">日本語</button>
+        <button type="button" data-lang-button="en">EN</button>
+        <button type="button" data-lang-button="zh_tw">繁中</button>
+        <button type="button" data-lang-button="zh_cn">簡中</button>
+      </div>
+      <button type="button" class="target-search-box" data-jump="countries">
+        <span>⌕</span><b data-home-i18n="targetSearchLabel">国名・地域・キーワードで検索</b>
+      </button>
+
+      <h3 class="target-section-title" data-home-i18n="howToFind">探し方</h3>
+      <div class="target-route-list">
+        <button data-jump="countries"><span class="target-icon">◎</span><strong data-home-i18n="findByCountry">国から探す</strong><em data-home-i18n="findByCountryLead">196の国・地域から選ぶ</em><b>›</b></button>
+        <button data-jump="rankings"><span class="target-icon">▥</span><strong data-home-i18n="findByRanking">ランキングから探す</strong><em data-home-i18n="findByRankingLead">指標のランキングを見る</em><b>›</b></button>
+        <button data-jump="countries"><span class="target-icon">◇</span><strong data-home-i18n="findByRegion">地域から探す</strong><em data-home-i18n="findByRegionLead">地域ごとに国を一覧で見る</em><b>›</b></button>
+      </div>
+
+      <div class="target-row-head"><h3 data-home-i18n="recentCountries">最近見た国</h3><button data-jump="countries" data-home-i18n="viewAll">すべて見る ›</button></div>
+      <div id="targetRecentGrid" class="target-recent-grid" aria-label="最近見た国"></div>
+
+      <h3 class="target-section-title" data-home-i18n="findByRegion">地域から探す</h3>
+      <div class="target-region-grid">
+        <button data-region-preset="Asia" data-subregion-preset="Eastern Asia" data-home-i18n="eastAsia">東アジア</button>
+        <button data-region-preset="Asia" data-subregion-preset="South-eastern Asia" data-home-i18n="southeastAsia">東南アジア</button>
+        <button data-region-preset="Europe" data-home-i18n="europe">ヨーロッパ</button>
+        <button data-region-preset="Americas" data-subregion-preset="Northern America" data-home-i18n="northAmerica">北米</button>
+        <button data-region-preset="Americas" data-subregions-preset="Central America|South America|Caribbean" data-home-i18n="latinAmerica">中南米</button>
+        <button data-region-preset="Asia" data-subregion-preset="Western Asia" data-home-i18n="middleEast">中東</button>
+        <button data-region-preset="Africa" data-home-i18n="africa">アフリカ</button>
+        <button data-region-preset="Oceania" data-home-i18n="oceania">オセアニア</button>
+      </div>
+
+
+
+      <h3 class="target-section-title" data-home-i18n="findByCompany">企業名から探す</h3>
+      <section class="company-search-panel" aria-label="企業名から探す">
+        <label class="company-search-box"><span>⌕</span><input id="homeCompanySearchInput" type="search" placeholder="例：CU / Carrefour / AEON" data-home-i18n-placeholder="companySearchPlaceholder" oninput="renderCompanyHomeSearch()"></label>
+        <div class="company-home-filter-row">
+          <select id="homeCompanyRegionFilter" onchange="updateCompanyHomeFilter('region', this.value)"><option value="all" data-home-i18n="allRegions">地域すべて</option></select>
+          <select id="homeCompanyEntityFilter" onchange="updateCompanyHomeFilter('entity', this.value)"><option value="all" data-home-i18n="allCountriesAreas">国・地域すべて</option></select>
+        </div>
+        <div id="homeCompanySearchResults" class="company-search-results"></div>
+      </section>
+
+      <h3 class="target-section-title" data-home-i18n="popularRankings">人気ランキング</h3>
+      <div class="target-ranking-grid">
+        <button data-jump="rankings"><span>人</span><b data-home-i18n="population">人口</b></button>
+        <button data-jump="rankings"><span>$</span><b>GDP</b></button>
+        <button data-jump="rice"><span>米</span><b data-home-i18n="riceProduction">米生産量</b></button>
+        <button data-jump="japan"><span>日</span><b data-home-i18n="overseasJapanese">在留邦人数</b></button>
+      </div>
+    </section>
+
+    <section class="hero-panel">
+      <div class="hero-copy">
+        <span class="pill">196 AREAS</span>
+        <h2 data-i18n="heroTitle">196の国・地域を、ひと目で比較。</h2>
+        
+        <div class="hero-actions">
+          <button class="primary-action" data-jump="countries" data-i18n="heroSearch">国・地域を探す</button>
+          <button class="secondary-action" data-jump="rankings" data-home-i18n="viewRankings">ランキングを見る</button>
+        </div>
+      </div>
+      <div class="status-board" aria-label="Coverage summary">
+        <div class="status-card status-main"><strong id="entityCount">196</strong><span data-i18n="kpiEntities">国・地域</span></div>
+        <div class="status-card"><strong>5</strong><span data-i18n="kpiMetrics">基本指標</span></div>
+        <div class="status-card warn"><strong>191/196</strong><span data-i18n="kpiGdp">GDP系</span></div>
+        <div class="status-card"><strong>更新中</strong><span data-i18n="kpiRelease">データ</span></div>
+      </div>
+    </section>
+
+
+
+    <section class="visual-reference-panel recent-routes-panel" aria-label="Recent areas and main routes">
+      <div class="visual-reference-head">
+        <span class="pill light" data-home-i18n="recentBadge">RECENT AREAS</span>
+        <h3 data-home-i18n="recentTitle">最近見た国・地域</h3>
+        
+      </div>
+      <div id="recentEntityGrid" class="visual-market-grid recent-market-grid" aria-label="最近見た国・地域"></div>
+      <div class="recent-helper-row">
+        <button data-jump="countries" class="recent-helper-btn" data-home-i18n="findCountries">国・地域一覧から探す</button>
+        <button data-clear-recent class="recent-helper-btn subtle" data-home-i18n="clearHistory">履歴をクリア</button>
+      </div>
+      
+      <div class="visual-action-grid compact-route-grid">
+        <button data-jump="market"><b>🏪</b><span data-home-i18n="marketRetail">市場・小売</span></button>
+        <button data-jump="rice"><b>🍚</b><span data-home-i18n="riceData">米データ</span></button>
+        <button data-jump="school"><b>🏫</b><span data-home-i18n="schoolMeals">学校給食</span></button>
+        <button data-jump="japan"><b>🇯🇵</b><span data-home-i18n="japanRelated">日本関連</span></button>
+        <button data-jump="rankings"><b>📊</b><span data-home-i18n="rankings">ランキング</span></button>
+        <button data-jump="compare"><b>⇄</b><span data-home-i18n="compare">比較</span></button>
+      </div>
+      <button data-jump="market" class="school-ck-home-card retail-home-card" aria-label="国別小売データベースへ移動" data-retail-i18n-aria="dbTitle">
+        <span class="school-ck-home-icon retail-home-icon">🏪</span>
+        <span class="school-ck-home-text retail-home-text">
+          <strong data-retail-i18n="dbTitle">国別小売データベース</strong>
+          <em data-retail-i18n="dbHomeLead">小売チェーン、店舗数、プロフィール本文、出典を国ごとに確認できます。</em>
+        </span>
+        <span class="school-ck-home-arrow retail-home-arrow" data-retail-i18n="more">詳しく見る →</span>
+      </button>
+      <a href="cvs-vendor.html" class="school-ck-home-card cvs-home-card" aria-label="国別コンビニ食品ベンダー工場データベースへ移動">
+        <span class="school-ck-home-icon cvs-home-icon">🏭</span>
+        <span class="school-ck-home-text cvs-home-text">
+          <strong>国別コンビニ食品ベンダー工場データベース</strong>
+          <em>コンビニ向け食品を製造する会社、工場・拠点、顧客チェーン、確認状況を国ごとに整理しています。</em>
+        </span>
+        <span class="school-ck-home-arrow cvs-home-arrow">詳しく見る →</span>
+      </a>
+      <button data-jump="school" class="school-ck-home-card" aria-label="国別学校給食データベースへ移動" data-school-i18n-aria="dbTitle">
+        <span class="school-ck-home-icon">🏫</span>
+        <span class="school-ck-home-text">
+          <strong data-school-i18n="dbTitle">国別学校給食データベース</strong>
+          <em data-school-i18n="dbHomeLead">学校給食制度、中央厨房、調理設備業者、入札・事例リンクを国ごとに確認できます。</em>
+        </span>
+        <span class="school-ck-home-arrow" data-school-i18n="more">詳しく見る →</span>
+      </button>
+    </section>
+
+    <section class="market-entry-panel" aria-label="Original MARKET BASE scope">
+      <div class="market-entry-head">
+        <h3 data-home-i18n="marketEntryTitle">国・地域から市場へ進む</h3>
+        
+      </div>
+      <div class="market-domain-grid">
+        <button data-jump="market" class="market-domain-card">
+          <span class="domain-icon">🏪</span><strong data-home-i18n="marketRetail">市場・小売</strong>
+        </button>
+        <button data-jump="rice" class="market-domain-card">
+          <span class="domain-icon">🍚</span><strong data-home-i18n="riceData">米データ</strong>
+        </button>
+        <button data-jump="school" class="market-domain-card">
+          <span class="domain-icon">🏫</span><strong data-home-i18n="schoolMeals">学校給食</strong>
+        </button>
+        <button data-jump="japan" class="market-domain-card">
+          <span class="domain-icon">🇯🇵</span><strong data-home-i18n="japanRelated">日本関連</strong>
+        </button>
+      </div>
+    </section>
+
+
+
+    <section class="region-route-panel" aria-label="Region route quick access">
+      <div class="market-entry-head">
+        <h3>地域から探す</h3>
+        
+      </div>
+      <div class="region-route-grid">
+        <button data-region-preset="Asia"><b>🌏</b><span>アジア</span></button>
+        <button data-region-preset="Europe"><b>🏛️</b><span>ヨーロッパ</span></button>
+        <button data-region-preset="Americas"><b>🗽</b><span>南北アメリカ</span></button>
+        <button data-region-preset="Africa"><b>🐘</b><span>アフリカ</span></button>
+        <button data-region-preset="Oceania"><b>🌊</b><span>オセアニア</span></button>
+      </div>
+    </section>
+
+    <section class="workflow-panel workflow-panel-compact" aria-label="Recommended usage flow">
+      <div class="workflow-head">
+        <h3 data-i18n="workflowTitle">迷わず使う</h3>
+        <p data-i18n="workflowLead">探す・比べる・確認する導線を短くしました。</p>
+      </div>
+      <div class="workflow-steps">
+        <button data-jump="countries"><b>1</b><span data-i18n="workflowStep1">国・地域を探す</span></button>
+        <button data-jump="rankings"><b>2</b><span data-i18n="workflowStep2">ランキングを見る</span></button>
+        <button data-jump="compare"><b>3</b><span data-i18n="workflowStep3">2地域を比較</span></button>
+        <button data-jump="market"><b>4</b><span data-home-i18n="viewMarketInfo">市場情報を見る</span></button>
+        <button data-jump="countries"><b>5</b><span data-home-i18n="viewSourcesInCountry">国詳細で出典を見る</span></button>
+      </div>
+    </section>
+
+    <section class="metric-overview" aria-label="Metric coverage overview">
+      <div class="metric-overview-head">
+        <div>
+          <h3 data-i18n="overviewTitle">基本指標のカバー状況</h3>
+          <p data-i18n="overviewLead">カードを押すと、その指標のランキングへ移動します。</p>
+        </div>
+      </div>
+      <div id="metricOverview" class="metric-overview-grid"></div>
+    </section>
+
+    <section class="focus-panel" aria-label="Known gap and quick compare">
+      <article class="focus-card">
+        <h3 data-i18n="gapPanelTitle">未完5地域の扱い</h3>
+        <p data-i18n="gapPanelText">196枠から外さず、GDP系だけ未採用・ランキング対象外として表示します。</p>
+        <div id="knownGapList" class="gap-list"></div>
+      </article>
+      <article class="focus-card">
+        <h3 data-i18n="quickCompareTitle">すぐ比較</h3>
+        <p data-i18n="quickCompareText">代表的な組み合わせで比較画面を開きます。</p>
+        <div class="preset-buttons">
+          <button data-preset="JP,TW">🇯🇵 日本 / 🇹🇼 台湾</button>
+          <button data-preset="US,CN">🇺🇸 米国 / 🇨🇳 中国</button>
+          <button data-preset="HK,MO">🇭🇰 香港 / 🇲🇴 マカオ</button>
+          <button data-preset="KP,JP">🇰🇵 北朝鮮 / 🇯🇵 日本</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="release-summary-strip" aria-label="Release summary">
+      <span><span data-home-i18n="countriesAreasShort">国・地域</span> <b>196</b></span>
+      <span><span data-home-i18n="basicMetrics">基本指標</span> <b>5</b></span>
+      <span>GDP <b>191/196</b></span>
+      <span><span data-home-i18n="dataLabel">データ</span> <b data-home-i18n="updated">更新済み</b></span>
+    </section>
+
+    <nav class="tabs" aria-label="Main navigation">
+      <button class="tab" data-view="countries" data-i18n="tabCountries">国・地域</button>
+      <button class="tab" data-view="market" data-home-i18n="marketRetail">市場・小売</button>
+      <button class="tab" data-view="rice" data-home-i18n="riceData">米データ</button>
+      <button class="tab" data-view="school" data-home-i18n="schoolMeals">学校給食</button>
+      <button class="tab" data-view="japan" data-home-i18n="japanRelated">日本関連</button>
+      <button class="tab" data-view="rankings" data-i18n="tabRankings">ランキング</button>
+      <button class="tab" data-view="compare" data-i18n="tabCompare">比較</button>
+    </nav>
+
+    <nav class="bottom-nav" aria-label="Mobile navigation">
+      <button class="bottom-tab active" data-home="true"><span>⌂</span><span data-home-i18n="home">ホーム</span></button>
+      <button class="bottom-tab" data-view="countries"><span>▤</span><span data-home-i18n="countryList">国一覧</span></button>
+      <button class="bottom-tab" data-view="compare"><span>▥</span><span data-home-i18n="compare">比較</span></button>
+      <button class="bottom-tab" data-view="rankings"><span>▥</span><span data-home-i18n="rankings">ランキング</span></button>
+    </nav>
+
+    <section id="countries" class="view">
+      <div class="section-head">
+        <div><h3 data-i18n="countriesTitle">国・地域一覧</h3><p data-i18n="countriesLead">検索・地域フィルタから詳細を確認できます。</p></div>
+        <div id="countryCount" class="count-chip">196</div>
+      </div>
+      <div class="toolbar country-toolbar">
+        <input id="searchInput" type="search" placeholder="国・地域を検索" />
+        <select id="regionFilter"><option value="all">すべての地域</option></select>
+        <select id="subregionFilter"><option value="all" data-home-i18n="allSubregions">小地域すべて</option></select>
+        <select id="incomeFilter"><option value="all" data-home-i18n="allIncomeGroups">所得分類すべて</option></select>
+        <label class="toggle-line"><input id="gapOnlyToggle" type="checkbox" /> <span data-i18n="gdpGapOnly">GDP未完のみ</span></label>
+      </div>
+      <div id="quickSearchChips" class="quick-chip-row" aria-label="Quick search presets">
+        <button data-search-preset="日本">🇯🇵 日本</button>
+        <button data-search-preset="台湾">🇹🇼 台湾</button>
+        <button data-search-preset="香港">🇭🇰 香港</button>
+        <button data-search-preset="米国">🇺🇸 米国</button>
+        <button data-search-preset="中国">🇨🇳 中国</button>
+        <button data-search-preset="北朝鮮">🇰🇵 北朝鮮</button>
+        <button data-clear-search data-i18n="clearSearch">検索解除</button>
+      </div>
+      <div id="countryList" class="country-list"></div>
+    </section>
+
+    <section id="market" class="view">
+      <div class="section-head">
+        <div><h3 data-home-i18n="marketRetail">市場・小売</h3></div>
+        <div class="count-chip" data-home-i18n="marketShort">市場</div>
+      </div>
+      <div id="marketPanel" class="market-scope-panel"></div>
+    </section>
+
+    <section id="rice" class="view">
+      <div class="section-head">
+        <div><h3 data-home-i18n="riceData">米データ</h3></div>
+        <div id="riceCoverage" class="count-chip" data-home-i18n="preparing">整備中</div>
+      </div>
+      <div id="ricePanel" class="market-scope-panel"></div>
+      <div class="rice-ranking-block">
+        <div class="section-head compact-head">
+          <div><h3 data-home-i18n="riceRankings">米ランキング</h3></div>
+          <select id="riceMetricSelect" aria-label="Rice metric">
+            <option value="rice_production_paddy_tonnes" data-home-i18n="riceProduction">米生産量</option>
+            <option value="rice_area_harvested_ha" data-home-i18n="riceArea">米収穫面積</option>
+            <option value="rice_yield_kg_per_ha" data-home-i18n="riceYield">米単収</option>
+            <option value="rice_import_quantity_tonnes" data-home-i18n="riceImportQty">米輸入量</option>
+            <option value="rice_export_quantity_tonnes" data-home-i18n="riceExportQty">米輸出量</option>
+            <option value="rice_import_value_1000_usd" data-home-i18n="riceImportValue">米輸入額</option>
+            <option value="rice_export_value_1000_usd" data-home-i18n="riceExportValue">米輸出額</option>
+            <option value="rice_domestic_supply_tonnes" data-home-i18n="riceDomesticSupply">国内供給量</option>
+            <option value="rice_food_use_tonnes" data-home-i18n="riceFoodUse">食品用途量</option>
+            <option value="rice_feed_use_tonnes" data-home-i18n="riceFeedUse">飼料用途量</option>
+            <option value="rice_processing_use_tonnes" data-home-i18n="riceProcessingUse">加工用途量</option>
+            <option value="rice_seed_use_tonnes" data-home-i18n="riceSeedUse">種子用途量</option>
+            <option value="rice_losses_tonnes" data-home-i18n="riceLosses">損失量</option>
+            <option value="rice_stock_variation_tonnes" data-home-i18n="riceStockVariation">在庫変動量</option>
+            <option value="rice_other_uses_tonnes" data-home-i18n="riceOtherUses">その他用途量</option>
+            <option value="rice_food_supply_kg_capita_year" data-home-i18n="riceFoodSupplyPerCapita">1人当たり米供給量</option>
+            <option value="rice_kcal_supply_capita_day" data-home-i18n="riceKcalSupply">1人当たりカロリー供給</option>
+            <option value="rice_protein_supply_g_capita_day" data-home-i18n="riceProteinSupply">1人当たりタンパク質供給</option>
+            <option value="rice_fat_supply_g_capita_day" data-home-i18n="riceFatSupply">1人当たり脂質供給</option>
+          </select>
+        </div>
+        <div id="riceRankingList" class="ranking-list"></div>
+      </div>
+    </section>
+
+    <section id="school" class="view">
+      <div class="section-head">
+        <div>
+          <h3 data-school-i18n="dbTitle">国別学校給食データベース</h3>
+          <p class="section-lead" data-school-i18n="dbLead">国ごとに、学校給食制度、中央厨房、調理設備業者、入札・事例リンクを整理しています。</p>
+        </div>
+      </div>
+      <div id="schoolPanel" class="market-scope-panel"></div>
+    </section>
+
+    <section id="japan" class="view">
+      <div class="section-head">
+        <div><h3 data-home-i18n="japanRelated">日本関連</h3></div>
+        <div class="count-chip" data-home-i18n="japanShort">日本</div>
+      </div>
+      <div id="japanPanel" class="market-scope-panel"></div>
+      <div class="japan-ranking-block">
+        <div class="section-head compact-head">
+          <div><h3 data-home-i18n="japanRelatedRankings">日本関連ランキング</h3></div>
+          <select id="japanMetricSelect" aria-label="Japan-related metric">
+            <option value="japan_relation_summary" data-home-i18n="japanRelationSummary">日本との関係まとめ</option>
+            <option value="overseas_japanese_residents_total" data-home-i18n="overseasJapanese">在留邦人数</option>
+            <option value="overseas_japanese_residents_mofa_region_totals" data-home-i18n="overseasJapaneseRegionTotal">在留邦人数 地域合計</option>
+            <option value="overseas_japanese_long_term_residents" data-home-i18n="longTermResidents">長期滞在者数</option>
+            <option value="overseas_japanese_permanent_residents" data-home-i18n="permanentResidents">永住者数</option>
+            <option value="overseas_japanese_residents_yoy_rate" data-home-i18n="overseasJapaneseYoy">在留邦人数 前年比</option>
+            <option value="japanese_restaurants_count" data-home-i18n="japaneseRestaurants">日本食レストラン数</option>
+            <option value="japanese_restaurants_app_region_totals" data-home-i18n="japaneseRestaurantsRegionTotal">日本食レストラン数 地域合計</option>
+            <option value="japanese_retail_foodservice_presence" data-home-i18n="japaneseRetailFoodservice">日系小売・外食の存在</option>
+          </select>
+        </div>
+        <div id="japanRankingList" class="ranking-list japan-ranking-list"></div>
+      </div>
+    </section>
+
+    <section id="rankings" class="view">
+      <div class="section-head">
+        <div><h3 data-i18n="rankingsTitle">ランキング</h3><p data-i18n="rankingsLead">採用済みデータだけで順位を作成しています。</p></div>
+      </div>
+      <div class="toolbar rank-toolbar">
+        <select id="metricSelect"></select>
+        <select id="rankLimit" aria-label="Ranking display limit">
+          <option value="20" data-i18n="rankLimit20">上位20件</option>
+          <option value="50" data-i18n="rankLimit50">上位50件</option>
+          <option value="all" data-i18n="rankLimitAll">全件表示</option>
+        </select>
+        <div id="rankingCoverage" class="coverage-chip"></div>
+      </div>
+      <p class="notice soft-notice" data-i18n="rankingNotice">収録済みの値だけで順位を表示します。</p>
+      <div id="rankingList" class="ranking-list"></div>
+    </section>
+
+    <section id="compare" class="view">
+      <div class="section-head">
+        <div><h3 data-i18n="compareTitle">比較</h3><p data-i18n="compareLead">2つの国・地域を選び、5つの基本指標を横並びで確認します。</p></div>
+      </div>
+      <div class="compare-selects">
+        <select id="compareA"></select>
+        <select id="compareB"></select>
+      </div>
+      <div id="compareTable" class="compare-table"></div>
+    </section>
+
+    <section id="sources" class="view">
+      <div class="section-head">
+        <div><h3 data-i18n="sourcesTitle">出典</h3><p data-i18n="sourcesLead">各データの年・出典・状態を確認できます。</p></div>
+      </div>
+      <p class="notice soft-notice" data-i18n="sourceNotice">出典・年・収録状況を確認できます。</p>
+      <div class="toolbar source-toolbar">
+        <select id="sourceMetricFilter"><option value="all">すべての指標</option></select>
+        <select id="sourceStatusFilter"><option value="all">すべての状態</option><option value="missing">未取得のみ</option><option value="ready">取得済みのみ</option></select>
+        <select id="sourceLimit" aria-label="Source display limit">
+          <option value="60" data-i18n="sourceLimit60">60件まで</option>
+          <option value="200" data-i18n="sourceLimit200">200件まで</option>
+          <option value="all" data-i18n="sourceLimitAll">全件表示</option>
+        </select>
+      </div>
+      <div id="sourceList" class="source-list"></div>
+    </section>
+
+    <section id="qa" class="view">
+      <div class="section-head">
+        <div><h3 data-i18n="qaTitle">データ状態</h3><p data-i18n="qaLead">データの収録状況と未取得項目を確認できます。</p></div>
+      </div>
+      <p class="notice soft-notice" data-i18n="qaNotice">196の国・地域を維持したまま、収録状況を確認します。</p>
+      <div id="qaPanel" class="qa-panel"></div>
+    </section>
+  </main>
+
+  <dialog id="detailDialog">
+    <button id="closeDialog" class="close" aria-label="Close">×</button>
+    <div id="detailContent"></div>
+  </dialog>
+
+  <script src="embedded-data.js?v=170"></script>
+  <script src="embedded-retail-data.js?v=170"></script>
+  <script src="embedded-retail-presence-data.js?v=170"></script>
+  <script src="assets/flags/flag-svg-data.js"></script>
+  <script src="assets/js/app.js?v=170"></script>
+  <script>
+    // V170: remove stale service worker caches during recovery builds.
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(regs){
+        regs.forEach(function(reg){ reg.unregister(); });
+      }).catch(function(){});
+      if (window.caches) {
+        caches.keys().then(function(keys){ keys.forEach(function(k){ caches.delete(k); }); }).catch(function(){});
+      }
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "version": "v103_school_meals_hardened",
+    "created_at": "2026-07-01"
+  },
+  "sources": [
+    {
+      "file": "EDU_ENR_PRE_2026-07-01.xlsx",
+      "bytes": 322745,
+      "sha256": "701d376a4b0a1544fbf74f48d63159dcb176c3ed29738f2d39a68b0d57af95a8",
+      "metadata": [
+        {
+          "code": "EDU_ENR_PRE",
+          "name": "Enrolment (Pre-primary)",
+          "definition": "Individuals officially registered in a pre-primary school level educational programme, regardless of age.",
+          "unit": "# of children",
+          "theme": "Education",
+          "sources": "UNESCO",
+          "geographiccoverage": "Global",
+          "lastupdate": "2025-06-25",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "file": "EDU_ENR_PRI_2026-07-01.xlsx",
+      "bytes": 335183,
+      "sha256": "a603e7c074343914390b2926d934ef9fda44f44f30fcacf7ce404f7604aad9ab",
+      "metadata": [
+        {
+          "code": "EDU_ENR_PRI",
+          "name": "Enrolment (Primary)",
+          "definition": "Individuals officially registered in a primary school level educational programme, regardless of age.",
+          "unit": "# of children",
+          "theme": "Education",
+          "sources": "Annual Country Reports (2023), Coutry Office Estimations, Direct government data, GCNF, Global Survey of School Meal Programs (2021), Global Survey of School Meal Programs (2024), Social & Industrial Foodservice Institute in WFP, State of School Feeding Worldwide (2020), WFP, WFP estimations (2019)",
+          "geographiccoverage": "Global",
+          "lastupdate": "2025-06-25",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "file": "QLT_GDQS_MENU_2026-07-01.xlsx",
+      "bytes": 332628,
+      "sha256": "780d99a26221d1129f548798ba706af4c48bfb19e469e60c3d4ba483094506cd",
+      "metadata": [
+        {
+          "code": "QLT_GDQS_MENU",
+          "name": "Global Diet Quality Score (GDQS) - Menu",
+          "definition": "Assesses the nutritional quality of menus in schools and provides insights across four different sub-metrics: Healthy GDQS+, Unhealthy GDQS-, Fortification and Biofortification, and Food Group Diversity.",
+          "unit": "Nutritional Score",
+          "theme": "Nutritional Quality",
+          "sources": "GCNF, Global Survey of School Meal Programs (2021), Global Survey of School Meal Programs (2024)",
+          "geographiccoverage": "Global",
+          "lastupdate": "2025-09-12",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "file": "SML_TOTAL_CHILDREN_2026-07-01.xlsx",
+      "bytes": 343163,
+      "sha256": "6da7f97c3a237714f26f95c299808ee97df33b6f3c042d102b49cc902d77f39b",
+      "metadata": [
+        {
+          "code": "SML_TOTAL_CHILDREN",
+          "name": "Children receiving school Meals (Total)",
+          "definition": "Number of children, across all education levels, who regularly receive food through school meals programmes. This includes full meals, snacks, or food-related support (e.g. take-home rations, vouchers, or cash), whether provided for free or paid.",
+          "unit": "# of children",
+          "theme": "School Meals",
+          "sources": "Annual Country Reports (2023), Coutry Office Estimations, Direct government data, GCNF, Global Survey of School Meal Programs (2021), Global Survey of School Meal Programs (2024), Social & Industrial Foodservice Institute in WFP, State of School Feeding Worldwide (2020), WFP, WFP estimations (2019)",
+          "geographiccoverage": "Global",
+          "lastupdate": "2025-06-25",
+          "comment": null
+        }
+      ]
+    }
+  ]
+}

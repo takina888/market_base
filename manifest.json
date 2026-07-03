@@ -1,0 +1,10 @@
+{
+  "name": "MARKET BASE",
+  "short_name": "MARKET BASE",
+  "description": "Country and market data viewer",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b5dcc",
+  "icons": []
+}
