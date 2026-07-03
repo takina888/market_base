@@ -2468,3 +2468,28 @@ html, body {
 
 /* V134 splash screen */
 .app-splash{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;background:linear-gradient(180deg,#F8FBFF 0%,#EDF5FF 100%);transition:opacity .34s ease,visibility .34s ease;pointer-events:none}.app-splash.is-hidden{opacity:0;visibility:hidden}.splash-card{display:grid;justify-items:center;gap:10px;transform:translateY(-10px);animation:splashRise .62s ease both}.splash-mark{width:74px;height:74px;border-radius:24px;background:linear-gradient(135deg,#0A2D68,#2E66D0);display:grid;place-items:center;color:#fff;font-weight:950;letter-spacing:.05em;font-size:26px;box-shadow:0 18px 50px rgba(10,45,104,.22)}.splash-title{font-size:30px;line-height:1;font-weight:950;letter-spacing:.06em;color:#0A2D68}.splash-line{font-size:13px;font-weight:900;color:#6B7890;letter-spacing:.12em;text-transform:uppercase}@keyframes splashRise{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:translateY(-10px) scale(1)}}@media (max-width:520px){.splash-mark{width:66px;height:66px;border-radius:22px;font-size:23px}.splash-title{font-size:27px}}
+
+
+/* V181: improve readability of store/profile description text */
+.retail-profile-body p,
+.retail-note,
+.retail-note-compact,
+.retail-profile-excerpt,
+.company-result-card em,
+.profile-info-row strong {
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+.retail-profile-body h4 {
+  font-size: 1.02rem;
+}
+
+
+/* V183: show scope/as-of note for aggregate store counts */
+.retail-aggregate-card .retail-aggregate-scope{
+  display:block;
+  margin-top:4px;
+  font-size:0.86rem;
+  line-height:1.45;
+  opacity:.86;
+}

@@ -1,1 +1,1 @@
-MARKET BASE V157 / clean upload only / 2026-07-03
+MARKET BASE V183 / aggregate store count scope labels / 2026-07-03

@@ -17,9 +17,9 @@ const MARKET_DOMAINS = {
 };
 const I18N = {
   ja:{heroTitle:'196の国・地域を、ひと目で比較。',heroText:'基本統計を入口に、市場・小売、米データ、学校給食、日本関連情報を国・地域ごとに確認できます。',heroSearch:'国・地域を探す',heroQa:'データ状態を見る',kpiEntities:'国・地域',kpiMetrics:'基本指標',kpiGdp:'GDP系',kpiRelease:'データ',scopeTitle:'196枠は維持',scopeText:'台湾・香港（中国）・マカオ（中国）を含む',rankTitle:'ランキングは採用値のみ',rankText:'欠損値は順位から除外',gapTitle:'GDP未完5地域',gapText:'国・地域ページには残し、未採用として表示',tabCountries:'国・地域',tabRankings:'ランキング',tabCompare:'比較',tabSources:'出典',tabQA:'データ状態',countriesTitle:'国・地域一覧',countriesLead:'検索・地域フィルタから詳細を確認できます。',rankingsTitle:'ランキング',rankingsLead:'採用済みデータだけで順位を作成しています。',compareTitle:'比較',compareLead:'2つの国・地域を選び、基本統計・米データ・小売・学校給食・日本関連を横並びで確認します。',sourcesTitle:'出典',sourcesLead:'各データの年・出典・状態を確認できます。',qaTitle:'データ状態',qaLead:'データの収録状況と未取得項目を確認できます。',rankingNotice:'人口・面積・人口密度は196/196、GDP系は191/196です。',sourceNotice:'未採用・欠損値は — と status で表示し、ランキングには入れません。',qaNotice:'196枠は維持し、GDP系5地域は未完として扱います。一部のGDP指標は未取得として表示します。',detail:'詳細',search:'国・地域を検索',allRegions:'すべての地域',allMetrics:'すべての指標',allStatus:'すべての状態',missingOnly:'未取得のみ',readyOnly:'取得済みのみ',coverage:'対象',adoptedOnly:'採用済みデータのみ',missing:'未採用・未取得',noResults:'該当なし',source:'出典',overviewTitle:'基本指標のカバー状況',overviewLead:'カードを押すと、その指標のランキングへ移動します。',gapPanelTitle:'未完5地域の扱い',gapPanelText:'196枠から外さず、GDP系だけ未採用・ランキング対象外として表示します。',quickCompareTitle:'すぐ比較',quickCompareText:'代表的な組み合わせで比較画面を開きます。',rcNoticeTitle:'支援196個國家／地區',rcNoticeText:'196の国・地域を対象に、基本統計・市場情報・出典を確認できます。GDP系の一部は未取得として表示します。',workflowTitle:'迷わず使う',workflowLead:'探す・比べる・確認する導線を短くしました。',workflowStep1:'国・地域を探す',workflowStep2:'ランキングを見る',workflowStep3:'2地域を比較',workflowStep4:'出典を確認',workflowStep5:'出典を確認',gdpGapOnly:'GDP未完のみ',clearSearch:'検索解除',rankLimit20:'上位20件',rankLimit50:'上位50件',rankLimitAll:'全件表示',sourceLimit60:'60件まで',sourceLimit200:'200件まで',sourceLimitAll:'全件表示',showingLimited:'一部表示中'},
-  en:{heroTitle:'Compare 196 countries and areas at a glance.',heroText:'Use core statistics as the entry point to review market/retail, rice, school meals, and Japan-related information by country or area.',heroSearch:'Find countries/areas',heroQa:'View data status',kpiEntities:'countries/areas',kpiMetrics:'metrics',kpiGdp:'GDP metrics',kpiRelease:'data',scopeTitle:'196 scope kept',scopeText:'Includes Taiwan, Hong Kong (China), and Macao (China)',rankTitle:'Rankings use adopted values',rankText:'Missing values are excluded from ranks',gapTitle:'5 GDP gaps',gapText:'Kept in entity pages and shown as not adopted',tabCountries:'Countries/Areas',tabRankings:'Rankings',tabCompare:'Compare',tabSources:'Sources',tabQA:'データ状態',countriesTitle:'Countries / Areas',countriesLead:'Search and filter by region to open details.',rankingsTitle:'Rankings',rankingsLead:'Ranks are built only from adopted values.',compareTitle:'Compare',compareLead:'Select two countries/areas and compare core stats, rice, retail, school meals, and Japan-related data.',sourcesTitle:'Sources',sourcesLead:'Check year, source, and status for each data point.',qaTitle:'Data status',qaLead:'Data coverage summary for the 196-country/area dataset.',rankingNotice:'Population, area, and density are 196/196. GDP metrics are 191/196.',sourceNotice:'Missing or not-adopted values are shown with — and status, and are excluded from rankings.',qaNotice:'The 196 scope is kept. GDP metrics for 5 areas remain incomplete. Some GDP metrics remain marked as missing.',detail:'Detail',search:'Search country/area',allRegions:'すべての地域',allMetrics:'すべての指標',allStatus:'すべての状態',missingOnly:'未取得のみ',readyOnly:'取得済みのみ',coverage:'Coverage',adoptedOnly:'adopted values only',missing:'missing / not adopted',noResults:'No results',source:'source',overviewTitle:'Basic metric coverage',overviewLead:'Tap a card to open that metric ranking.',gapPanelTitle:'How the 5 gaps are handled',gapPanelText:'They remain in the 196 scope, with GDP metrics shown as not adopted and excluded from affected rankings.',quickCompareTitle:'Quick compare',quickCompareText:'Open representative country/area pairs in the compare view.',rcNoticeTitle:'196 countries and areas',rcNoticeText:'Covers 196 countries and areas. Some GDP metrics are shown as missing when not available.',workflowTitle:'Fast flow',workflowLead:'Shorter path for search, ranking, comparison, and sources.',workflowStep1:'Find countries/areas',workflowStep2:'View rankings',workflowStep3:'Compare two areas',workflowStep4:'Check sources',workflowStep5:'Check sources',gdpGapOnly:'GDP gaps only',clearSearch:'Clear search',rankLimit20:'Top 20',rankLimit50:'Top 50',rankLimitAll:'Show all',sourceLimit60:'Show 60',sourceLimit200:'Show 200',sourceLimitAll:'Show all',showingLimited:'showing limited results'},
-  zh_tw:{heroTitle:'一眼比較196個國家／地區。',heroText:'以基本統計為入口，依國家・地區確認市場・零售、稻米、學校供餐與日本相關資訊。',heroSearch:'搜尋國家／地區',heroQa:'查看資料狀態',kpiEntities:'國家／地區',kpiMetrics:'基本指標',kpiGdp:'GDP指標',kpiRelease:'資料',scopeTitle:'維持196範圍',scopeText:'包含台灣、香港（中國）、澳門（中國）',rankTitle:'排名只用採用值',rankText:'缺漏值不進入排名',gapTitle:'5個GDP未完',gapText:'保留於頁面並顯示為未採用',tabCountries:'國家／地區',tabRankings:'排名',tabCompare:'比較',tabSources:'來源',tabQA:'データ状態',countriesTitle:'國家／地區列表',countriesLead:'可搜尋並依地區篩選。',rankingsTitle:'排名',rankingsLead:'僅以已採用資料建立排名。',compareTitle:'比較',compareLead:'選擇兩個國家／地區，橫向比較基本統計、稻米、零售、學校供餐與日本相關資料。',sourcesTitle:'來源',sourcesLead:'確認各資料的年份、來源與狀態。',qaTitle:'資料狀態',qaLead:'資料收錄狀況摘要。',rankingNotice:'人口、面積、人口密度為196/196，GDP指標為191/196。',sourceNotice:'未採用或缺漏值以 — 與status顯示，不進入排名。',qaNotice:'維持196範圍，GDP指標有5個地區未完。部分GDP指標以未取得顯示。',detail:'詳情',search:'搜尋國家／地區',allRegions:'すべての地域',allMetrics:'すべての指標',allStatus:'すべての状態',missingOnly:'未取得のみ',readyOnly:'取得済みのみ',coverage:'對象',adoptedOnly:'僅已採用資料',missing:'未採用／未取得',noResults:'無結果',source:'來源',overviewTitle:'基本指標覆蓋狀態',overviewLead:'點選卡片即可切換到該指標排名。',gapPanelTitle:'5個未完地區的處理',gapPanelText:'不從196範圍移除，GDP指標顯示為未採用並排除於相關排名。',quickCompareTitle:'快速比較',quickCompareText:'用代表性組合開啟比較畫面。',rcNoticeTitle:'支援196個國家／地區',rcNoticeText:'支援196個國家／地區。部分GDP資料以未取得顯示。',workflowTitle:'快速使用流程',workflowLead:'縮短搜尋、排名、比較與來源的動線。',workflowStep1:'搜尋國家／地區',workflowStep2:'查看排名',workflowStep3:'比較兩個地區',workflowStep4:'確認來源',workflowStep5:'確認來源',gdpGapOnly:'僅GDP未完',clearSearch:'清除搜尋',rankLimit20:'前20筆',rankLimit50:'前50筆',rankLimitAll:'顯示全部',sourceLimit60:'最多60筆',sourceLimit200:'最多200筆',sourceLimitAll:'顯示全部',showingLimited:'部分顯示中'},
-  zh_cn:{heroTitle:'一眼比较196个国家／地区。',heroText:'以基本统计为入口，按国家／地区确认市场零售、稻米、学校供餐与日本相关信息。',heroSearch:'搜索国家／地区',heroQa:'查看数据状态',kpiEntities:'国家／地区',kpiMetrics:'基本指标',kpiGdp:'GDP指标',kpiRelease:'数据',scopeTitle:'维持196范围',scopeText:'包含台湾、香港（中国）、澳门（中国）',rankTitle:'排名只用采用值',rankText:'缺漏值不进入排名',gapTitle:'5个GDP未完',gapText:'保留于页面并显示为未采用',tabCountries:'国家／地区',tabRankings:'排名',tabCompare:'比较',tabSources:'来源',tabQA:'データ状態',countriesTitle:'国家／地区列表',countriesLead:'可搜索并按地区筛选。',rankingsTitle:'排名',rankingsLead:'仅以已采用数据建立排名。',compareTitle:'比较',compareLead:'选择两个国家／地区，横向比较基本统计、稻米、零售、学校供餐与日本相关数据。',sourcesTitle:'来源',sourcesLead:'确认各数据的年份、来源与状态。',qaTitle:'数据状态',qaLead:'数据收录状况摘要。',rankingNotice:'人口、面积、人口密度为196/196，GDP指标为191/196。',sourceNotice:'未采用或缺漏值以 — 和status显示，不进入排名。',qaNotice:'维持196范围，GDP指标有5个地区未完。部分GDP指标以未取得显示。',detail:'详情',search:'搜索国家／地区',allRegions:'すべての地域',allMetrics:'すべての指標',allStatus:'すべての状態',missingOnly:'未取得のみ',readyOnly:'取得済みのみ',coverage:'对象',adoptedOnly:'仅已采用数据',missing:'未采用／未取得',noResults:'无结果',source:'来源',overviewTitle:'基本指标覆盖状态',overviewLead:'点击卡片即可切换到该指标排名。',gapPanelTitle:'5个未完地区的处理',gapPanelText:'不从196范围移除，GDP指标显示为未采用并排除于相关排名。',quickCompareTitle:'快速比较',quickCompareText:'用代表性组合打开比较画面。',rcNoticeTitle:'支持196个国家／地区',rcNoticeText:'支持196个国家／地区。部分GDP数据以未取得显示。',workflowTitle:'快速使用流程',workflowLead:'缩短搜索、排名、比较与来源的动线。',workflowStep1:'搜索国家／地区',workflowStep2:'查看排名',workflowStep3:'比较两个地区',workflowStep4:'确认来源',workflowStep5:'确认来源',gdpGapOnly:'仅GDP未完',clearSearch:'清除搜索',rankLimit20:'前20条',rankLimit50:'前50条',rankLimitAll:'显示全部',sourceLimit60:'最多60条',sourceLimit200:'最多200条',sourceLimitAll:'显示全部',showingLimited:'部分显示中'}
+  en:{heroTitle:'Compare 196 countries and areas at a glance.',heroText:'Use core statistics as the entry point to review market/retail, rice, school meals, and Japan-related information by country or area.',heroSearch:'Find countries/areas',heroQa:'View data status',kpiEntities:'countries/areas',kpiMetrics:'metrics',kpiGdp:'GDP metrics',kpiRelease:'data',scopeTitle:'196 scope kept',scopeText:'Includes Taiwan, Hong Kong (China), and Macao (China)',rankTitle:'Rankings use adopted values',rankText:'Missing values are excluded from ranks',gapTitle:'5 GDP gaps',gapText:'Kept in entity pages and shown as not adopted',tabCountries:'Countries/Areas',tabRankings:'Rankings',tabCompare:'Compare',tabSources:'Sources',tabQA:'Data status',countriesTitle:'Countries / Areas',countriesLead:'Search and filter by region to open details.',rankingsTitle:'Rankings',rankingsLead:'Ranks are built only from adopted values.',compareTitle:'Compare',compareLead:'Select two countries/areas and compare core stats, rice, retail, school meals, and Japan-related data.',sourcesTitle:'Sources',sourcesLead:'Check year, source, and status for each data point.',qaTitle:'Data status',qaLead:'Data coverage summary for the 196-country/area dataset.',rankingNotice:'Population, area, and density are 196/196. GDP metrics are 191/196.',sourceNotice:'Missing or not-adopted values are shown with — and status, and are excluded from rankings.',qaNotice:'The 196 scope is kept. GDP metrics for 5 areas remain incomplete. Some GDP metrics remain marked as missing.',detail:'Detail',search:'Search country/area',allRegions:'All regions',allMetrics:'All metrics',allStatus:'All status',missingOnly:'Missing only',readyOnly:'Ready only',coverage:'Coverage',adoptedOnly:'adopted values only',missing:'missing / not adopted',noResults:'No results',source:'source',overviewTitle:'Basic metric coverage',overviewLead:'Tap a card to open that metric ranking.',gapPanelTitle:'How the 5 gaps are handled',gapPanelText:'They remain in the 196 scope, with GDP metrics shown as not adopted and excluded from affected rankings.',quickCompareTitle:'Quick compare',quickCompareText:'Open representative country/area pairs in the compare view.',rcNoticeTitle:'196 countries and areas',rcNoticeText:'Covers 196 countries and areas. Some GDP metrics are shown as missing when not available.',workflowTitle:'Fast flow',workflowLead:'Shorter path for search, ranking, comparison, and sources.',workflowStep1:'Find countries/areas',workflowStep2:'View rankings',workflowStep3:'Compare two areas',workflowStep4:'Check sources',workflowStep5:'Check sources',gdpGapOnly:'GDP gaps only',clearSearch:'Clear search',rankLimit20:'Top 20',rankLimit50:'Top 50',rankLimitAll:'Show all',sourceLimit60:'Show 60',sourceLimit200:'Show 200',sourceLimitAll:'Show all',showingLimited:'showing limited results'},
+  zh_tw:{heroTitle:'一眼比較196個國家／地區。',heroText:'以基本統計為入口，依國家・地區確認市場・零售、稻米、學校供餐與日本相關資訊。',heroSearch:'搜尋國家／地區',heroQa:'查看資料狀態',kpiEntities:'國家／地區',kpiMetrics:'基本指標',kpiGdp:'GDP指標',kpiRelease:'資料',scopeTitle:'維持196範圍',scopeText:'包含台灣、香港（中國）、澳門（中國）',rankTitle:'排名只用採用值',rankText:'缺漏值不進入排名',gapTitle:'5個GDP未完',gapText:'保留於頁面並顯示為未採用',tabCountries:'國家／地區',tabRankings:'排名',tabCompare:'比較',tabSources:'來源',tabQA:'資料狀態',countriesTitle:'國家／地區列表',countriesLead:'可搜尋並依地區篩選。',rankingsTitle:'排名',rankingsLead:'僅以已採用資料建立排名。',compareTitle:'比較',compareLead:'選擇兩個國家／地區，橫向比較基本統計、稻米、零售、學校供餐與日本相關資料。',sourcesTitle:'來源',sourcesLead:'確認各資料的年份、來源與狀態。',qaTitle:'資料狀態',qaLead:'資料收錄狀況摘要。',rankingNotice:'人口、面積、人口密度為196/196，GDP指標為191/196。',sourceNotice:'未採用或缺漏值以 — 與狀態顯示，不進入排名。',qaNotice:'維持196範圍，GDP指標有5個地區未完。部分GDP指標以未取得顯示。',detail:'詳情',search:'搜尋國家／地區',allRegions:'所有地區',allMetrics:'所有指標',allStatus:'所有狀態',missingOnly:'僅未取得',readyOnly:'僅已取得',coverage:'對象',adoptedOnly:'僅已採用資料',missing:'未採用／未取得',noResults:'無結果',source:'來源',overviewTitle:'基本指標覆蓋狀態',overviewLead:'點選卡片即可切換到該指標排名。',gapPanelTitle:'5個未完地區的處理',gapPanelText:'不從196範圍移除，GDP指標顯示為未採用並排除於相關排名。',quickCompareTitle:'快速比較',quickCompareText:'用代表性組合開啟比較畫面。',rcNoticeTitle:'支援196個國家／地區',rcNoticeText:'支援196個國家／地區。部分GDP資料以未取得顯示。',workflowTitle:'快速使用流程',workflowLead:'縮短搜尋、排名、比較與來源的動線。',workflowStep1:'搜尋國家／地區',workflowStep2:'查看排名',workflowStep3:'比較兩個地區',workflowStep4:'確認來源',workflowStep5:'確認來源',gdpGapOnly:'僅GDP未完',clearSearch:'清除搜尋',rankLimit20:'前20筆',rankLimit50:'前50筆',rankLimitAll:'顯示全部',sourceLimit60:'最多60筆',sourceLimit200:'最多200筆',sourceLimitAll:'顯示全部',showingLimited:'部分顯示中'},
+  zh_cn:{heroTitle:'一眼比较196个国家／地区。',heroText:'以基本统计为入口，按国家／地区确认市场零售、稻米、学校供餐与日本相关信息。',heroSearch:'搜索国家／地区',heroQa:'查看数据状态',kpiEntities:'国家／地区',kpiMetrics:'基本指标',kpiGdp:'GDP指标',kpiRelease:'数据',scopeTitle:'维持196范围',scopeText:'包含台湾、香港（中国）、澳门（中国）',rankTitle:'排名只用采用值',rankText:'缺漏值不进入排名',gapTitle:'5个GDP未完',gapText:'保留于页面并显示为未采用',tabCountries:'国家／地区',tabRankings:'排名',tabCompare:'比较',tabSources:'来源',tabQA:'数据状态',countriesTitle:'国家／地区列表',countriesLead:'可搜索并按地区筛选。',rankingsTitle:'排名',rankingsLead:'仅以已采用数据建立排名。',compareTitle:'比较',compareLead:'选择两个国家／地区，横向比较基本统计、稻米、零售、学校供餐与日本相关数据。',sourcesTitle:'来源',sourcesLead:'确认各数据的年份、来源与状态。',qaTitle:'数据状态',qaLead:'数据收录状况摘要。',rankingNotice:'人口、面积、人口密度为196/196，GDP指标为191/196。',sourceNotice:'未采用或缺漏值以 — 和状态显示，不进入排名。',qaNotice:'维持196范围，GDP指标有5个地区未完。部分GDP指标以未取得显示。',detail:'详情',search:'搜索国家／地区',allRegions:'所有地区',allMetrics:'所有指标',allStatus:'所有状态',missingOnly:'仅未取得',readyOnly:'仅已取得',coverage:'对象',adoptedOnly:'仅已采用数据',missing:'未采用／未取得',noResults:'无结果',source:'来源',overviewTitle:'基本指标覆盖状态',overviewLead:'点击卡片即可切换到该指标排名。',gapPanelTitle:'5个未完地区的处理',gapPanelText:'不从196范围移除，GDP指标显示为未采用并排除于相关排名。',quickCompareTitle:'快速比较',quickCompareText:'用代表性组合打开比较画面。',rcNoticeTitle:'支持196个国家／地区',rcNoticeText:'支持196个国家／地区。部分GDP数据以未取得显示。',workflowTitle:'快速使用流程',workflowLead:'缩短搜索、排名、比较与来源的动线。',workflowStep1:'搜索国家／地区',workflowStep2:'查看排名',workflowStep3:'比较两个地区',workflowStep4:'确认来源',workflowStep5:'确认来源',gdpGapOnly:'仅GDP未完',clearSearch:'清除搜索',rankLimit20:'前20条',rankLimit50:'前50条',rankLimitAll:'显示全部',sourceLimit60:'最多60条',sourceLimit200:'最多200条',sourceLimitAll:'显示全部',showingLimited:'部分显示中'}
 };
 let lang='ja';
 let entities=[];
@@ -446,17 +446,66 @@ function retailCountFromItem(item){
   const n=retailCountNumber(item.store_count);
   return Number.isFinite(n) ? n : null;
 }
+
+function retailIsAggregateCountRecord(item){
+  const idName=[
+    item?.chain_id,
+    item?.chain_name,
+    item?.channel_type,
+    item?.retail_format_display_ja,
+    item?.source_name
+  ].filter(Boolean).join(' ').toLowerCase();
+  const note=String(item?.note || '').toLowerCase();
+  if(/\baggregate\b|合計|総数|\bcombined\b|four major|convenience store total|chains aggregate|major convenience-store chains/.test(idName)) return true;
+  if(/franchise association|industry association|jfa/.test(idName) && /\btotal\b|合計|総数/.test(idName + ' ' + note)) return true;
+  if(/combined store count|combined stores|four major chains|aggregate only|not split by chain|combined store count of/.test(note)) return true;
+  return false;
+}
+
+
+function retailAggregateScopeLabel(item){
+  const name=String(item?.chain_name || item?.source_name || '').toLowerCase();
+  const source=String(item?.source_name || '').toLowerCase();
+  const date=retailDataDateLabel(item || {});
+  const info=retailInfoLabel(item || {});
+  if(name.includes('japan franchise association') || source.includes('jfa')) return `JFA統計ベース・${safe(date)}・${safe(info)}`;
+  if(name.includes('four major convenience-store chains aggregate') || name.includes('four major')) return `主要4チェーン合計・${safe(date)}・${safe(info)}`;
+  if(name.includes('aggregate') || name.includes('combined')) return `合計レコード・${safe(date)}・${safe(info)}`;
+  return `${safe(date)}・${safe(info)}`;
+}
+
 function retailAggregate(items){
   const order=['convenience_store','supermarket','gms','hypermarket','other'];
-  const result=Object.fromEntries(order.map(k=>[k,{key:k, chains:0, withCounts:0, stores:0, examples:[]}]));
+  const result=Object.fromEntries(order.map(k=>[k,{key:k, chains:0, withCounts:0, stores:0, aggregateStores:[], individualStores:0, examples:[], aggregateExamples:[], aggregateScopes:[], aggregateMode:false}]));
   (items||[]).forEach(item=>{
     const key=retailCategoryKey(item);
     const bucket=result[key] || result.other;
     bucket.chains += 1;
     const n=retailCountFromItem(item);
-    if(Number.isFinite(n)){ bucket.withCounts += 1; bucket.stores += n; }
     const name=item.chain_name || item.retail_format_display_ja || item.channel_type;
     if(name && bucket.examples.length<4) bucket.examples.push(name);
+    if(Number.isFinite(n)){
+      const isAggregate=retailIsAggregateCountRecord(item);
+      if(isAggregate){
+        bucket.aggregateStores.push(n);
+        if(name && bucket.aggregateExamples.length<3) bucket.aggregateExamples.push(name);
+        const scope=retailAggregateScopeLabel(item);
+        if(scope && bucket.aggregateScopes.length<3) bucket.aggregateScopes.push(scope);
+      }else{
+        bucket.withCounts += 1;
+        bucket.individualStores += n;
+      }
+    }
+  });
+  order.forEach(k=>{
+    const bucket=result[k];
+    if(bucket.aggregateStores.length){
+      bucket.aggregateMode=true;
+      bucket.stores=Math.max(...bucket.aggregateStores);
+      bucket.withCounts=bucket.aggregateStores.length;
+    }else{
+      bucket.stores=bucket.individualStores;
+    }
   });
   return order.map(k=>result[k]).filter(x=>x.chains>0);
 }
@@ -465,18 +514,27 @@ function retailAggregateCards(items, scopeLabel='収録チェーン集計'){
   if(!groups.length) return '';
   const cards=groups.map(g=>{
     const value=g.withCounts ? `${Math.round(g.stores).toLocaleString()}店` : '店舗数未集計';
-    const quality=g.withCounts ? `${g.withCounts}/${g.chains}件に店舗数` : `${g.chains}チェーン・展開確認`;
-    const examples=g.examples.length ? `<small>${safe(g.examples.join(' / '))}</small>` : '';
-    return `<article class="retail-aggregate-card retail-aggregate-${safe(g.key)}"><strong>${safe(retailCategoryLabel(g.key))}</strong><span>${safe(value)}</span><em>${safe(quality)}</em>${examples}</article>`;
+    const quality=g.withCounts
+      ? (g.aggregateMode ? `合計値を使用・個別チェーンは重複除外` : `${g.withCounts}/${g.chains}件に店舗数`)
+      : `${g.chains}チェーン・展開確認`;
+    const examples=g.aggregateMode && g.aggregateExamples.length
+      ? `<small>合計元：${safe(g.aggregateExamples.join(' / '))}</small>`
+      : (g.examples.length ? `<small>${safe(g.examples.join(' / '))}</small>` : '');
+    const scope=g.aggregateMode && g.aggregateScopes.length
+      ? `<small class="retail-aggregate-scope">範囲：${g.aggregateScopes.join(' / ')}</small>`
+      : '';
+    return `<article class="retail-aggregate-card retail-aggregate-${safe(g.key)}"><strong>${safe(retailCategoryLabel(g.key))}</strong><span>${safe(value)}</span><em>${safe(quality)}</em>${examples}${scope}</article>`;
   }).join('');
   return `<div class="retail-aggregate-block"><div class="retail-aggregate-head"><strong>${safe(scopeLabel)}</strong></div><div class="retail-aggregate-grid">${cards}</div></div>`;
 }
 function storeCountText(record){
   const n=Number(record.store_count);
   const value=Number.isFinite(n) ? n.toLocaleString() : safe(record.store_count);
-  const unitRaw=record.unit || '';
-  const unit=(unitRaw==='stores' || unitRaw==='outlets') ? '店' : (unitRaw || '');
-  return `${value}${unit}`;
+  const unitRaw=String(record.unit || '').trim();
+  if(/^stores\+$/i.test(unitRaw)) return `${value}店舗以上`;
+  if(/^stores?$/i.test(unitRaw) || /^outlets?$/i.test(unitRaw)) return `${value}店`;
+  if(/^warehouses?$/i.test(unitRaw)) return `${value}倉庫店`;
+  return `${value}${unitRaw || '店'}`;
 }
 function retailInfoClass(record){
   const t=record.display_info_type || '';
@@ -537,10 +595,36 @@ function retailStoreCountLine(record){
   const date=retailDataDateLabel(record);
   return `<em>${storeCountText(record)}</em><span class="retail-info-chip">${safe(date)}・${safe(info)}</span>`;
 }
+
+function openRetailRecordDetail(encodedChainName, encodedEntityId){
+  const chainName=decodeURIComponent(encodedChainName || '');
+  const entityId=decodeURIComponent(encodedEntityId || '');
+  const records=(retailData?.records || []);
+  const record=records.find(r=>String(r.chain_name||'')===chainName && (!entityId || String(r.entity_id||'')===entityId));
+  if(!record) return;
+  const e=entities.find(x=>x.entity_id===record.entity_id);
+  const link=sourceLink(retailSourceUrl(record), '出典');
+  const note=retailJapaneseNote(record);
+  const count=retailStoreCountLine(record);
+  const rows=[
+    ['国・地域', e ? `${flagText(e)} ${safe(nameOf(e))}` : safe(record.entity_id || '')],
+    ['業態・カテゴリ', safe(retailChannelLabel(record.retail_format_display_ja || record.channel_type || record.retail_format_id || '小売'))],
+    ['店舗数', count],
+    ['情報区分', safe(retailInfoLabel(record))],
+    ['ブランド発祥', brandOriginText(record) || ''],
+    ['出典', link]
+  ].filter(r=>r[1]!=='' && r[1]!==undefined && r[1]!==null).map(r=>`<div class="profile-info-row"><span>${r[0]}</span><strong>${r[1]}</strong></div>`).join('');
+  document.getElementById('detailContent').innerHTML=`<div class="detail-header retail-profile-detail-header"><div class="detail-flag retail-profile-initial">${safe((record.chain_name||'小売').slice(0,2))}</div><div class="detail-title-block"><h2>${safe(record.chain_name || '小売データ')}</h2><p class="country-sub">${e?`${flagText(e)} ${safe(nameOf(e))}`:''}｜${safe(retailChannelLabel(record.retail_format_display_ja || record.channel_type || '小売'))}</p><div class="detail-mini-tabs"><span>小売データ</span><span>店舗数</span><span>出典</span></div></div></div><section class="detail-section retail-profile-detail"><h3>${safe(record.chain_name || '小売データ')}</h3>${rows}<article class="market-note-card retail-profile-body"><h4>店舗本文</h4><p>${note?safe(note):'小売データとして登録されています。'}</p></article></section>`;
+  const dialog=document.getElementById('detailDialog');
+  if(!dialog.open) dialog.showModal();
+}
+
 function retailRecordCard(record){
   const origin=brandOriginText(record);
   const link=sourceLink(retailSourceUrl(record), '出典');
-  return `<article class="market-data-card retail-record-card ${retailInfoClass(record)}"><div class="retail-card-head"><strong>${safe(record.chain_name || record.retail_format_display_ja || '小売データ')}</strong><span>${safe(retailChannelLabel(record.retail_format_display_ja || record.channel_type || record.retail_format_id || '小売'))}</span></div>${retailStoreCountLine(record)}${origin?`<span class="retail-origin-chip">${origin}</span>`:''}<p class="retail-note">${safe(retailJapaneseNote(record))}</p><div class="retail-source-line">${link}</div></article>`;
+  const chainName=encodeURIComponent(record.chain_name || record.retail_format_display_ja || '小売データ');
+  const entityId=encodeURIComponent(record.entity_id || '');
+  return `<article class="market-data-card retail-record-card ${retailInfoClass(record)}" role="button" tabindex="0" onclick="openRetailRecordDetail('${chainName}','${entityId}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openRetailRecordDetail('${chainName}','${entityId}')}"><div class="retail-card-head"><strong>${safe(record.chain_name || record.retail_format_display_ja || '小売データ')}</strong><span>${safe(retailChannelLabel(record.retail_format_display_ja || record.channel_type || record.retail_format_id || '小売'))}</span></div>${retailStoreCountLine(record)}${origin?`<span class="retail-origin-chip">${origin}</span>`:''}<p class="retail-note">${safe(retailJapaneseNote(record))}</p><div class="retail-source-line" onclick="event.stopPropagation()">${link}</div><div class="retail-source-line"><button class="retail-more-button" type="button" onclick="event.stopPropagation();openRetailRecordDetail('${chainName}','${entityId}')">詳細を開く</button></div></article>`;
 }
 function retailPresenceCard(chain){
   const counts=storeCountsFromChain(chain);
@@ -554,7 +638,9 @@ function retailPresenceCard(chain){
   const countryLine=country ? `<span class="retail-country-chip">${flagText(country)} ${safe(nameOf(country))}</span>` : '';
   const link=sourceLink(retailSourceUrl(chain), '出典');
   const note=retailJapaneseNote(chain);
-  return `<article class="market-data-card retail-presence-card retail-compact-card ${retailInfoClass(chain)}"><div class="retail-card-top"><div><strong>${safe(chain.chain_name || '小売チェーン')}</strong>${countryLine}</div><span class="retail-category-pill">${safe(retailChannelLabel(chain.channel_type || '小売'))}</span></div><div class="retail-card-facts"><span class="retail-store-pill">${safe(countText)}</span><span class="retail-info-chip">${safe(date)}・${safe(info)}</span>${origin?`<span class="retail-origin-chip">${origin}</span>`:''}</div>${note?`<p class="retail-note retail-note-compact">${safe(note)}</p>`:''}<div class="retail-source-line">${link}</div></article>`;
+  const chainId=encodeURIComponent(chain.chain_id || '');
+  const chainName=encodeURIComponent(chain.chain_name || '');
+  return `<article class="market-data-card retail-presence-card retail-compact-card ${retailInfoClass(chain)}" role="button" tabindex="0" onclick="openRetailChainDetail('${safe(chain.entity_id||'')}','${chainId}','${chainName}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openRetailChainDetail('${safe(chain.entity_id||'')}','${chainId}','${chainName}')}"><div class="retail-card-top"><div><strong>${safe(chain.chain_name || '小売チェーン')}</strong>${countryLine}</div><span class="retail-category-pill">${safe(retailChannelLabel(chain.channel_type || '小売'))}</span></div><div class="retail-card-facts"><span class="retail-store-pill">${safe(countText)}</span><span class="retail-info-chip">${safe(date)}・${safe(info)}</span>${origin?`<span class="retail-origin-chip">${origin}</span>`:''}</div>${note?`<p class="retail-note retail-note-compact">${safe(note)}</p>`:''}<div class="retail-source-line" onclick="event.stopPropagation()">${link}</div><div class="retail-source-line"><button class="retail-more-button" type="button" onclick="event.stopPropagation();openRetailChainDetail('${safe(chain.entity_id||'')}','${chainId}','${chainName}')">詳細を開く</button></div></article>`;
 }
 function retailCompactSummary(items){
   const total=items.length;
@@ -616,7 +702,11 @@ function filteredRetailProfiles(){
 function linkedStoreCountLine(profile){
   const link=profile?.linked_retail_presence;
   const counts=link?.store_counts || [];
-  if(!counts.length) return `<span class="retail-store-pill profile-store-unlinked">店舗数リンク未設定</span>`;
+  if(!counts.length){
+    const hasCompanyInfo = !!String(profile?.profile_text || profile?.operator || profile?.official_website || '').trim();
+    const label = hasCompanyInfo ? '店舗情報あり' : '店舗数未登録';
+    return `<span class="retail-store-pill profile-store-unlinked">${label}</span>`;
+  }
   const text=counts.map(c=>storeCountText({store_count:c.store_count, unit:c.unit})).join(' / ');
   const date=counts.map(c=>c.data_date).find(Boolean) || link.as_of_date || '時点未設定';
   const info=counts.map(c=>c.display_info_type || c.source_type).find(Boolean) || link.display_info_type || '確認済みデータ';
@@ -662,6 +752,42 @@ function profileInfoRows(profile){
   if(!rows.length) return '';
   return `<div class="retail-profile-info-grid">${rows.map(([k,v])=>`<div><span>${safe(k)}</span><strong>${safe(v)}</strong></div>`).join('')}</div>`;
 }
+
+function openRetailChainDetail(entityId, encodedChainId, encodedChainName){
+  const chainId=decodeURIComponent(encodedChainId || '');
+  const chainName=decodeURIComponent(encodedChainName || '');
+  const chains=allRetailPresenceChains();
+  const chain=chains.find(c=>String(c.entity_id||'')===String(entityId||'') && (
+    (chainId && String(c.chain_id||'')===chainId) ||
+    (chainName && String(c.chain_name||'')===chainName)
+  ));
+  if(!chain) return;
+  const e=entities.find(x=>x.entity_id===chain.entity_id);
+  const counts=storeCountsFromChain(chain);
+  const countLine=counts.length
+    ? counts.map(c=>storeCountText({...c, chain_name:chain.chain_name, brand_origin_country:chain.brand_origin_country})).filter(Boolean).join(' / ')
+    : '店舗数未確認';
+  const info=retailInfoLabel(chain);
+  const date=retailDataDateLabel(chain);
+  const origin=brandOriginText(chain);
+  const note=retailJapaneseNote(chain);
+  const link=sourceLink(retailSourceUrl(chain), '出典');
+  const rows=[
+    ['国・地域', e ? `${flagText(e)} ${safe(nameOf(e))}` : safe(chain.entity_id || '')],
+    ['業態・カテゴリ', safe(retailChannelLabel(chain.channel_type || chain.retail_format_display_ja || chain.retail_format_id || '小売'))],
+    ['店舗数', safe(countLine)],
+    ['情報区分', safe(info)],
+    ['時点', safe(date)],
+    ['運営会社', safe(chain.operator_local_name || '')],
+    ['ブランド発祥', origin || ''],
+    ['出典', link]
+  ].filter(r=>r[1]!=='' && r[1]!==undefined && r[1]!==null).map(r=>`<div class="profile-info-row"><span>${r[0]}</span><strong>${r[1]}</strong></div>`).join('');
+  const body=note ? safe(note).replace(/\n/g,'<br>') : 'このチェーンは小売存在データとして登録されています。企業プロフィール本文は未登録ですが、店舗数・業態・出典情報を表示しています。';
+  document.getElementById('detailContent').innerHTML=`<div class="detail-header retail-profile-detail-header"><div class="detail-flag retail-profile-initial">${safe((chain.chain_name||'小売').slice(0,2))}</div><div class="detail-title-block"><h2>${safe(chain.chain_name || '小売チェーン')}</h2><p class="country-sub">${e?`${flagText(e)} ${safe(nameOf(e))}`:''}｜${safe(retailChannelLabel(chain.channel_type || '小売'))}</p><div class="detail-mini-tabs"><span>チェーン情報</span><span>店舗数</span><span>出典</span></div></div></div><section class="detail-section retail-profile-detail"><h3>${e?`${flagText(e)} ${safe(nameOf(e))}`:'国・地域'}｜${safe(retailChannelLabel(chain.channel_type || '小売'))}</h3>${rows}<article class="market-note-card retail-profile-body"><h4>店舗本文</h4><p>${body}</p></article><p class="source-line">企業プロフィールが未作成のチェーンも、国別小売データとして詳細を表示します。</p></section>`;
+  const dialog=document.getElementById('detailDialog');
+  if(!dialog.open) dialog.showModal();
+}
+
 function openRetailProfile(profileId){
   const profile=allRetailProfiles().find(p=>p.profile_id===profileId);
   if(!profile) return;
@@ -699,8 +825,9 @@ function marketFilterOptions(){
   ].filter(Boolean))];
   return {entityIds:regionFilteredEntityIds, regions, cats};
 }
-function retailFilteredChains(){
+function retailFilteredChains(includeAggregates=false){
   let items=allRetailPresenceChains();
+  if(!includeAggregates) items=items.filter(x=>!retailIsAggregateCountRecord(x));
   const q=String(marketFilters.q||'').trim().toLowerCase();
   if(q) items=items.filter(x=>marketSearchText(x).includes(q));
   if(marketFilters.region && marketFilters.region!=='all') items=items.filter(x=>entityForRetailItem(x)?.region===marketFilters.region);
@@ -760,12 +887,13 @@ function resetMarketFilters(){
 function retailSummaryCards(){
   const all=allRetailPresenceChains();
   if(all.length){
-    const filtered=retailFilteredChains();
+    const aggregateFiltered=retailFilteredChains(true);
+    const filtered=retailFilteredChains(false);
     const hasFilter=Object.values(marketFilters).some(v=>v && v!=='all');
     const shown=filtered.slice(0, marketVisibleLimit);
     const resultHead=`<div class="market-result-head market-result-head-v119"><strong>${filtered.length.toLocaleString()}件</strong><span>${hasFilter?'条件に合うチェーン':'収録チェーン'} / 全${all.length.toLocaleString()}件中 ${shown.length.toLocaleString()}件を表示</span></div>`;
     const more=filtered.length>shown.length ? `<article class="market-data-card retail-more-card"><strong>ほか ${(filtered.length-shown.length).toLocaleString()}件</strong><button class="retail-more-button" type="button" onclick="marketVisibleLimit+=40; renderMarketScope();">もっと見る</button><em>詳細データ保持済み</em></article>` : '';
-    return marketFilterControls() + retailAggregateCards(filtered,'絞り込み範囲の小売集計') + retailCompactSummary(filtered) + retailProfileSummaryBlock() + resultHead + shown.map(retailPresenceCard).join('') + more;
+    return marketFilterControls() + retailAggregateCards(aggregateFiltered,'絞り込み範囲の小売集計') + retailCompactSummary(filtered) + retailProfileSummaryBlock() + resultHead + shown.map(retailPresenceCard).join('') + more;
   }
   const records=(retailData?.records || []).filter(r=>r.store_count !== null && r.store_count !== undefined && r.store_count !== '');
   if(!records.length) return MARKET_DOMAINS.market.items.map(x=>notCollectedCard(x[0],x[1])).join('');
@@ -773,7 +901,10 @@ function retailSummaryCards(){
 }
 function retailEntityCards(entity){
   const chains=retailChainsForEntity(entity.entity_id);
-  if(chains.length) return retailAggregateCards(chains,`${safe(nameOf(entity))}の小売集計`) + retailCompactSummary(chains) + retailLimitedCards(chains, retailPresenceCard, 5, `retail:entity:${entity.entity_id}`);
+  if(chains.length){
+    const displayChains=chains.filter(x=>!retailIsAggregateCountRecord(x));
+    return retailAggregateCards(chains,`${safe(nameOf(entity))}の小売集計`) + retailCompactSummary(displayChains) + retailLimitedCards(displayChains, retailPresenceCard, 5, `retail:entity:${entity.entity_id}`);
+  }
   const records=retailRecordsForEntity(entity.entity_id);
   if(!records.length) return MARKET_DOMAINS.market.items.map(x=>notCollectedCard(x[0],x[1])).join('');
   return retailAggregateCards(records,`${safe(nameOf(entity))}の小売集計`) + retailCompactSummary(records) + retailLimitedCards(records, retailRecordCard, 5, `retail:entity:${entity.entity_id}`);
@@ -1547,10 +1678,17 @@ function companySearchRecordText(obj){
 function companyStoreTextFromProfile(profile){
   const link=profile?.linked_retail_presence;
   const counts=link?.store_counts || [];
-  if(!counts.length) return '店舗数未リンク';
+  if(!counts.length){
+    const hasCompanyInfo = !!String(profile?.profile_text || profile?.operator || profile?.official_website || '').trim();
+    return hasCompanyInfo ? '店舗情報あり' : '店舗数未登録';
+  }
   return counts.map(c=>storeCountText({store_count:c.store_count, unit:c.unit})).join(' / ');
 }
 function companyStoreTextFromChain(chain){
+  const counts=storeCountsFromChain(chain);
+  if(counts.length){
+    return counts.map(c=>storeCountText({...c, chain_name:chain.chain_name, brand_origin_country:chain.brand_origin_country})).filter(Boolean).join(' / ');
+  }
   const n=retailCountFromItem(chain);
   if(Number.isFinite(n)) return `${Math.round(n).toLocaleString()}店`;
   return '店舗数未確認';
@@ -1594,18 +1732,23 @@ function companySearchResults(qRaw){
     results.push({kind:'profile', id:p.profile_id, entity_id:p.entity_id, country:e?nameOf(e):p.country_area_ja, flag:e?flagText(e):'', name:p.display_name_ja || p.original_name || '小売店', sub:p.sub_name_ja || p.original_name || '', category:p.category_ja || '小売', storeText:companyStoreTextFromProfile(p), hasText:!!p.profile_text, score:hasTextQuery?((String(p.display_name_ja||'').toLowerCase()===q||String(p.sub_name_ja||'').toLowerCase()===q)?0:1):1});
   });
   allRetailPresenceChains().forEach(c=>{
+    if(retailIsAggregateCountRecord(c)) return;
     if(!companySearchEntityAllowed(c.entity_id)) return;
     if(hasTextQuery && !companySearchRecordText(c).includes(q)) return;
     const e=entities.find(x=>x.entity_id===c.entity_id);
     const p=allRetailProfiles().find(x=>x.entity_id===c.entity_id && companySearchRecordText(x).includes(String(c.chain_name||'').toLowerCase()));
-    const key=`c:${c.entity_id}:${c.chain_name}`;
+    const key=`c:${c.entity_id}:${c.chain_id||c.chain_name}`;
     if(seen.has(key)) return; seen.add(key);
-    results.push({kind:p?'profile':'chain', id:p?.profile_id || '', entity_id:c.entity_id, country:e?nameOf(e):c.country_area, flag:e?flagText(e):'', name:c.chain_name || c.source_name || '小売チェーン', sub:p?.display_name_ja || '', category:retailCategoryLabel(retailCategoryKey(c)), storeText:companyStoreTextFromChain(c), hasText:!!p?.profile_text, score:hasTextQuery?(String(c.chain_name||'').toLowerCase()===q?0:2):2});
+    results.push({kind:p?'profile':'chain', id:p?.profile_id || c.chain_id || '', chain_name:c.chain_name || c.source_name || '小売チェーン', entity_id:c.entity_id, country:e?nameOf(e):c.country_area, flag:e?flagText(e):'', name:c.chain_name || c.source_name || '小売チェーン', sub:p?.display_name_ja || '', category:retailCategoryLabel(retailCategoryKey(c)), storeText:companyStoreTextFromChain(c), hasText:!!p?.profile_text, score:hasTextQuery?(String(c.chain_name||'').toLowerCase()===q?0:2):2});
   });
   return results.sort((a,b)=>a.score-b.score || String(a.country).localeCompare(String(b.country),'ja') || String(a.name).localeCompare(String(b.name),'ja')).slice(0,18);
 }
-function openCompanySearchResult(kind, id, entityId, query){
+function openCompanySearchResult(kind, id, entityId, query, chainName){
   if(kind==='profile' && id){ openRetailProfile(id); return; }
+  if(kind==='chain'){
+    openRetailChainDetail(entityId || '', encodeURIComponent(id || ''), encodeURIComponent(chainName || query || ''));
+    return;
+  }
   marketFilters.q=query || '';
   marketFilters.entity=entityId || 'all';
   marketVisibleLimit=36;
@@ -1637,7 +1780,7 @@ function renderCompanyHomeSearch(){
     el.innerHTML='<div class="company-search-empty">該当なし</div>';
     return;
   }
-  el.innerHTML=results.map(r=>`<button type="button" class="company-result-card" onclick="openCompanySearchResult('${safe(r.kind)}','${safe(r.id)}','${safe(r.entity_id)}','${safe(q)}')"><strong>${safe(r.name)}</strong><span>${safe(r.flag)} ${safe(r.country)}｜${safe(r.category)}</span><em>${safe(r.storeText)}${r.hasText?'｜企業情報あり':''}</em></button>`).join('');
+  el.innerHTML=results.map(r=>`<button type="button" class="company-result-card" onclick="openCompanySearchResult('${safe(r.kind)}','${safe(r.id)}','${safe(r.entity_id)}','${safe(q)}','${safe(r.chain_name||r.name||'')}')"><strong>${safe(r.name)}</strong><span>${safe(r.flag)} ${safe(r.country)}｜${safe(r.category)}</span><em>${safe(r.storeText)}${r.hasText?'｜企業情報あり':''}</em></button>`).join('');
 }
 
 function renderAll(){
