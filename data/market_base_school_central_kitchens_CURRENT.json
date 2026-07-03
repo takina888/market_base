@@ -1,0 +1,3868 @@
+{
+  "meta": {
+    "dataset": "market_base_school_central_kitchens",
+    "version": "v2_from_WORLD_SCHOOL_CENTRAL_KITCHEN_v33_v160_ui_audit_fix",
+    "created_at": "2026-07-03",
+    "source_workbook": "LATEST_world_school_central_kitchen_research_20260702_v33.xlsx",
+    "record_count": 40,
+    "equipment_vendor_country_count": 11,
+    "equipment_vendor_total": 56,
+    "operator_total": 0,
+    "note": "国別の学校給食・中央厨房・調理設備業者データ。学校給食ランキングとは別データ。",
+    "updated_at": "2026-07-03"
+  },
+  "records": [
+    {
+      "entity_id": "EG",
+      "name_ja": "エジプト",
+      "name_en": "Egypt",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "programs": [
+        {
+          "program_name": "National School Nutrition Program",
+          "operator": "Ministry of Education（General Directorate of Nutrition）等",
+          "target": "4〜12歳児童等",
+          "central_kitchen_model": "学校給食制度。中央厨房型は情報整理中",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "多くは学校内厨房ではない。米飯・主食設備は情報整理中",
+          "delivery_temperature_note": "情報整理中",
+          "equipment_status_note": "専用厨房のある学校は少数。大量調理機械は情報整理中",
+          "procurement_status_note": "設備調達・入札情報は整理中",
+          "next_check": "学校給食の調理・製造主体、包装品供給、厨房設備会社",
+          "source_url": "https://gcnf.org/wp-content/uploads/2021/03/CR_Egypt_09_2020.pdf",
+          "review_status": "低所得・下位中所得・援助機関主導の学校給食。追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "National School Nutrition Program",
+          "url": "https://gcnf.org/wp-content/uploads/2021/03/CR_Egypt_09_2020.pdf"
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "GH",
+      "name_ja": "ガーナ",
+      "name_en": "Ghana",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "programs": [
+        {
+          "program_name": "Ghana School Feeding Programme",
+          "operator": "政府・地方・caterers等",
+          "target": "基礎教育児童等",
+          "central_kitchen_model": "学校給食制度。中央厨房型は情報整理中",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "地元食材。設備は caterer/学校別確認",
+          "delivery_temperature_note": "学校提供・配送は地域別確認",
+          "equipment_status_note": "caterer側の加熱調理、保温配送、洗浄、器具を確認対象",
+          "procurement_status_note": "設備会社・入札情報は情報整理中",
+          "next_check": "caterer厨房、設備会社、中央厨房型有無",
+          "source_url": "https://schoolmealscoalition.org/sites/default/files/2025-09/SMC_CountryProgr...",
+          "review_status": "低所得・下位中所得・援助機関主導の学校給食。追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "Ghana School Feeding Programme",
+          "url": "https://schoolmealscoalition.org/sites/default/files/2025-09/SMC_CountryProgr..."
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "KE",
+      "name_ja": "ケニア",
+      "name_en": "Kenya",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "programs": [
+        {
+          "program_name": "Food4Education Giga Kitchen等",
+          "operator": "Food4Education等",
+          "target": "学校児童",
+          "central_kitchen_model": "大量調理厨房から学校へ配送",
+          "school_count": "情報整理中",
+          "scale": "例：大量調理施設の報道あり",
+          "rice_note": "米・豆料理等。設備は情報整理中",
+          "delivery_temperature_note": "学校配送",
+          "equipment_status_note": "大量調理、保温容器、配送容器、洗浄、温度管理を確認対象",
+          "procurement_status_note": "設備会社・入札情報は情報整理中",
+          "next_check": "厨房設備、食数、保温配送、機器メーカー",
+          "source_url": "https://reasonstobecheerful.world/kenya-giga-kitchen-school-meals/",
+          "review_status": "低所得・下位中所得・援助機関主導の学校給食。追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "Food4Education Giga Kitchen等",
+          "url": "https://reasonstobecheerful.world/kenya-giga-kitchen-school-meals/"
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "CI",
+      "name_ja": "コートジボワール",
+      "name_en": "Côte d’Ivoire",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "programs": [
+        {
+          "program_name": "School canteen supply model / DNC",
+          "operator": "National Canteen Directorate（DNC）等",
+          "target": "学校給食対象児童",
+          "central_kitchen_model": "食材供給・地域倉庫・学校管理委員会中心。中央厨房型は情報整理中",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "地域食材。米飯・主食設備は情報整理中",
+          "delivery_temperature_note": "地域倉庫から学校へ供給",
+          "equipment_status_note": "学校調理機器、保管、食材処理、調理器具を確認対象",
+          "procurement_status_note": "DNCが供給・学校食堂を支援。調理設備業者は情報整理中",
+          "next_check": "厨房型有無、学校食堂設備、調理機器調達",
+          "source_url": "https://centrodeexcelencia.org.br/wp-content/uploads/2023/10/Modelos-de-A.E._...",
+          "review_status": "低所得・下位中所得・援助機関主導の学校給食。追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "School canteen supply model / DNC",
+          "url": "https://centrodeexcelencia.org.br/wp-content/uploads/2023/10/Modelos-de-A.E._..."
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "NG",
+      "name_ja": "ナイジェリア",
+      "name_en": "Nigeria",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "programs": [
+        {
+          "program_name": "National Home-Grown School Feeding Programme",
+          "operator": "連邦・州政府、学校給食関係機関等",
+          "target": "公立小学校児童",
+          "central_kitchen_model": "地域調理・学校給食型。中央厨房型は情報整理中",
+          "school_count": "情報整理中",
+          "scale": "拡大目標等は別途確認",
+          "rice_note": "地元食材。主食・米飯設備は地域別確認",
+          "delivery_temperature_note": "地域調理・配送は州別確認",
+          "equipment_status_note": "学校・地域調理機器、保温容器、配送容器、洗浄設備を確認対象",
+          "procurement_status_note": "調理設備調達・入札は情報整理中",
+          "next_check": "州別の調理方式、厨房設備、設備会社、配送方式",
+          "source_url": "https://www.nhgsfp.gov.ng/",
+          "review_status": "低所得・下位中所得・援助機関主導の学校給食。追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "National Home-Grown School Feeding Programme",
+          "url": "https://www.nhgsfp.gov.ng/"
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "BW",
+      "name_ja": "ボツワナ",
+      "name_en": "Botswana",
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "programs": [
+        {
+          "program_name": "National Primary School Feeding Programme",
+          "operator": "中央政府、District councils、学校等",
+          "target": "公立小学校1〜7年生",
+          "central_kitchen_model": "中央集権型の食材購買・倉庫配送。中央厨房型は情報整理中",
+          "school_count": "全国公立小学校対象",
+          "scale": "330,000人超に日次食提供",
+          "rice_note": "ソルガム等。調理機械は学校・地区側確認",
+          "delivery_temperature_note": "中央倉庫→地区倉庫→学校の食材配送",
+          "equipment_status_note": "倉庫、学校調理設備、ソルガム処理、学校厨房機器を確認対象。中央調理機械は情報整理中",
+          "procurement_status_note": "政府購買・倉庫配送型。厨房機械入札は情報整理中",
+          "next_check": "学校調理機器、食材処理設備、倉庫配送、地区別調達",
+          "source_url": "https://centrodeexcelencia.org.br/wp-content/uploads/2023/10/Modelos-de-A.E._...",
+          "review_status": "低所得・下位中所得・援助機関主導の学校給食。追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "National Primary School Feeding Programme",
+          "url": "https://centrodeexcelencia.org.br/wp-content/uploads/2023/10/Modelos-de-A.E._..."
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "MA",
+      "name_ja": "モロッコ",
+      "name_en": "Morocco",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "programs": [
+        {
+          "program_name": "School canteens / boarding school canteens",
+          "operator": "Ministry of National Education等、地域政府、catering providers",
+          "target": "小中学校等",
+          "central_kitchen_model": "学校食堂・ケータリング型。中央厨房型は情報整理中",
+          "school_count": "情報整理中",
+          "scale": "一次：1,207,137人、二次：235,660人の記載あり",
+          "rice_note": "穀物、豆類、卵、乳製品等。調理設備は情報整理中",
+          "delivery_temperature_note": "ケータリング、輸送、加工・準備の民間関与記載あり",
+          "equipment_status_note": "調理、加工、輸送、器具/equipment provisionを確認対象",
+          "procurement_status_note": "競争入札、民間の trading/catering/transport/processing/preparation/equipment provisio...",
+          "next_check": "catering業者、調理機械、器具供給、設備会社",
+          "source_url": "https://gcnf.org/wp-content/uploads/2024/12/Morocco_2024_Report_R3.pdf",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "School canteens / boarding school canteens",
+          "url": "https://gcnf.org/wp-content/uploads/2024/12/Morocco_2024_Report_R3.pdf"
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "LY",
+      "name_ja": "リビア",
+      "name_en": "Libya",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "programs": [
+        {
+          "program_name": "WFP・教育省 Central Kitchen Project",
+          "operator": "WFP、リビア教育省",
+          "target": "ベンガジ周辺校の児童",
+          "central_kitchen_model": "中央厨房でランチボックスを準備し近隣校へ供給",
+          "school_count": "13校に近い厨房立地",
+          "scale": "食数は出典本文では情報整理中。別資料で7,000人規模の記載あり",
+          "rice_note": "サンドイッチ、果物、乳飲料、デーツバー、水。米飯設備は対象外または情報整理中",
+          "delivery_temperature_note": "ランチボックス配送",
+          "equipment_status_note": "WFPがessential kitchen equipmentを提供。調理、取扱、包装トレーニングあり",
+          "procurement_status_note": "WFP/教育省主導。個別調理設備メーカーは情報整理中",
+          "next_check": "厨房機器、包装機器、冷蔵保管、配送容器、調達先",
+          "source_url": "https://www.wfp.org/news/wfp-and-libyan-ministry-education-launch-central-kit...",
+          "review_status": "低所得・下位中所得・援助機関主導の学校給食。追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "WFP・教育省 Central Kitchen Project",
+          "url": "https://www.wfp.org/news/wfp-and-libyan-ministry-education-launch-central-kit..."
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "ZA",
+      "name_ja": "南アフリカ",
+      "name_en": "South Africa",
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "programs": [
+        {
+          "program_name": "学校給食制度関連",
+          "operator": "政府・学校等",
+          "target": "学校児童",
+          "central_kitchen_model": "セントラルキッチン型は情報整理中",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "情報整理中",
+          "delivery_temperature_note": "情報整理中",
+          "equipment_status_note": "調理設備情報は整理中",
+          "procurement_status_note": "設備調達・入札情報は整理中",
+          "next_check": "中央厨房型の有無、設備会社、調達資料",
+          "source_url": "",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "US",
+      "name_ja": "アメリカ",
+      "name_en": "United States",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "programs": [
+        {
+          "program_name": "School district central production kitchen",
+          "operator": "学区、School Food Authority等",
+          "target": "K-12学校",
+          "central_kitchen_model": "中央生産厨房から各校へ供給",
+          "school_count": "学区別",
+          "scale": "例：Boulder Valley 17,000食/日",
+          "rice_note": "スクラッチ調理、主食設備は学区別確認",
+          "delivery_temperature_note": "学校配送、温度管理",
+          "equipment_status_note": "調理機器、ブラストチラー、保温・保冷配送、K-12向け設備が確認対象",
+          "procurement_status_note": "学区・事業者別に調達。機器メーカーはK-12向け製品情報あり",
+          "next_check": "学区別厨房、機器メーカー、保温配送、洗浄ライン",
+          "source_url": "https://food.bvsd.org/",
+          "review_status": "高所得。学校給食・中央厨房／公共給食／給食事業者の調理設備情報を確認対象。"
+        }
+      ],
+      "equipment_vendors": [
+        {
+          "entity_id": "US",
+          "country_ja": "米国",
+          "company_name": "RATIONAL",
+          "company_url": "https://www.rational-online.com/",
+          "vendor_type": "加熱調理機器メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "iCombi、iVario、加熱調理",
+              "evidence": "公式K-12事例にBernalillo Public Schoolsの全8校でRATIONAL iCombiおよびiVarioを使用との記載。",
+              "evidence_url": "https://www.rational-online.com/en_us/industry/catering-in-education-c/k-12/",
+              "note": "Bernalillo Public Schools",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "Bernalillo Public Schools",
+              "equipment": "iCombi、iVario、加熱調理",
+              "evidence": "公式K-12事例にBernalillo Public Schoolsの全8校でRATIONAL iCombiおよびiVarioを使用との記載。",
+              "evidence_url": "https://www.rational-online.com/en_us/industry/catering-in-education-c/k-12/",
+              "note": "中央厨房型か各校厨房型かは案件別確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "Madera Unified School District / Santa Clara Unified School District",
+              "equipment": "combi oven、iVario、加熱調理",
+              "evidence": "K-12/学校区で食数・厨房数・機器数が掲載",
+              "evidence_url": "https://www.rational-online.com/en_us/industry/catering-in-education-c/k-12/\nhttps://www.rational-online.com/en_xx/references/educational-establishment/us-santa-clara.php",
+              "note": "",
+              "source_sheet": "v31_設備業者補充"
+            },
+            {
+              "project_or_case": "Bernalillo Public Schools",
+              "equipment": "iCombi Pro, iCombi XS, iVario",
+              "evidence": "RATIONAL公式事例にBernalillo Public Schoolsの8校厨房と導入機器が掲載",
+              "evidence_url": "https://www.rational-online.com/en_us/references/k-12-schools/bernalillo-public-schools.php",
+              "note": "K-12学校区の設備事例",
+              "source_sheet": "v32_設備業者補充"
+            },
+            {
+              "project_or_case": "Santa Clara Unified School District",
+              "equipment": "RATIONAL combi ovens",
+              "evidence": "RATIONAL公式事例に14 kitchens、32 RATIONAL combi ovensが掲載",
+              "evidence_url": "https://www.rational-online.com/en_au/references/nursery-school-catering/us-santa-clara.php",
+              "note": "K-12学校区の設備事例",
+              "source_sheet": "v32_設備業者補充"
+            },
+            {
+              "project_or_case": "Madera Unified School District",
+              "equipment": "iCombi Pro",
+              "evidence": "RATIONAL公式K-12参照ページにMadera Unified School Districtの事例が掲載",
+              "evidence_url": "https://www.rational-online.com/en_us/references/k-12-schools/us-madera-unified-school-district.php",
+              "note": "学校区の調理設備事例",
+              "source_sheet": "v32_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "iCombi、iVario、加熱調理",
+            "combi oven、iVario、加熱調理",
+            "iCombi Pro, iCombi XS, iVario",
+            "RATIONAL combi ovens",
+            "iCombi Pro"
+          ],
+          "source_urls": [
+            "https://www.rational-online.com/en_us/industry/catering-in-education-c/k-12/",
+            "https://www.rational-online.com/en_xx/references/educational-establishment/us-santa-clara.php",
+            "https://www.rational-online.com/en_us/references/k-12-schools/bernalillo-public-schools.php",
+            "https://www.rational-online.com/en_au/references/nursery-school-catering/us-santa-clara.php",
+            "https://www.rational-online.com/en_us/references/k-12-schools/us-madera-unified-school-district.php"
+          ],
+          "notes": [
+            "Bernalillo Public Schools",
+            "中央厨房型か各校厨房型かは案件別確認が必要",
+            "K-12学校区の設備事例",
+            "学校区の調理設備事例"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v31_設備業者補充",
+            "v32_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "US",
+          "country_ja": "米国",
+          "company_name": "Alto-Shaam",
+          "company_url": "https://www.alto-shaam.com/en/industries/k-12-solutions",
+          "vendor_type": "加熱・保温機器メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "コンビオーブン、加熱、保温、陳列保温",
+              "evidence": "公式K-12ページにPascagoula-Gautier School Districtでcombi ovensとheated shelf merchandisersを導入し9,500食/日と記載。",
+              "evidence_url": "https://www.alto-shaam.com/en/industries/k-12-solutions",
+              "note": "Pascagoula-Gautier School District",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "Pascagoula-Gautier School District",
+              "equipment": "コンビオーブン、加熱、保温、陳列保温",
+              "evidence": "公式K-12ページにPascagoula-Gautier School Districtでcombi ovensとheated shelf merchandisersを導入し9,500食/日と記載。",
+              "evidence_url": "https://www.alto-shaam.com/en/industries/k-12-solutions",
+              "note": "中央厨房型か各校厨房型かは追加確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "K-12 foodservice",
+              "equipment": "holding cabinet、加熱・保温系設備、K-12向けサポート",
+              "evidence": "会社公式K-12ページ、SNF Equipment Grants",
+              "evidence_url": "",
+              "note": "",
+              "source_sheet": "v24_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "コンビオーブン、加熱、保温、陳列保温",
+            "holding cabinet、加熱・保温系設備、K-12向けサポート"
+          ],
+          "source_urls": [
+            "https://www.alto-shaam.com/en/industries/k-12-solutions"
+          ],
+          "notes": [
+            "Pascagoula-Gautier School District",
+            "中央厨房型か各校厨房型かは追加確認が必要"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v24_調理設備業者追加"
+          ]
+        },
+        {
+          "entity_id": "US",
+          "country_ja": "米国",
+          "company_name": "Boelter",
+          "company_url": "",
+          "vendor_type": "厨房設備・設計供給会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "厨房機器、 serving line、prep kitchen、 cafeteria equipment",
+              "evidence": "公式K-12ページに複数のRecent K-12 Foodservice Projectsが掲載。",
+              "evidence_url": "https://www.boelter.com/markets/k-12-schools",
+              "note": "Wheeling School District、Sun Prairie High School等",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "Wheeling School District、Sun Prairie High School等",
+              "equipment": "厨房機器、 serving line、prep kitchen、 cafeteria equipment",
+              "evidence": "公式K-12ページに複数のRecent K-12 Foodservice Projectsが掲載。",
+              "evidence_url": "https://www.boelter.com/markets/k-12-schools",
+              "note": "機器メーカー・型式は案件別確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            }
+          ],
+          "equipment_set": [
+            "厨房機器、 serving line、prep kitchen、 cafeteria equipment"
+          ],
+          "source_urls": [
+            "https://www.boelter.com/markets/k-12-schools"
+          ],
+          "notes": [
+            "Wheeling School District、Sun Prairie High School等",
+            "機器メーカー・型式は案件別確認が必要"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分"
+          ]
+        },
+        {
+          "entity_id": "US",
+          "country_ja": "米国",
+          "company_name": "XLT Ovens",
+          "company_url": "",
+          "vendor_type": "オーブン・フード機器メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "オーブン、フード、加熱調理",
+              "evidence": "公式学校厨房ケースページでLawton Elementary、Lyman Highが掲載。",
+              "evidence_url": "https://xltovens.com/xlt-customer-case-studies/school-cafeteria-and-school-kitchen-equipment/",
+              "note": "Lawton Elementary、Lyman High",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "Lawton Elementary、Lyman High",
+              "equipment": "オーブン、フード、加熱調理",
+              "evidence": "公式学校厨房ケースページでLawton Elementary、Lyman Highが掲載。",
+              "evidence_url": "https://xltovens.com/xlt-customer-case-studies/school-cafeteria-and-school-kitchen-equipment/",
+              "note": "中央厨房向け実績は情報整理中",
+              "source_sheet": "実績業者_v19_校名区分"
+            }
+          ],
+          "equipment_set": [
+            "オーブン、フード、加熱調理"
+          ],
+          "source_urls": [
+            "https://xltovens.com/xlt-customer-case-studies/school-cafeteria-and-school-kitchen-equipment/"
+          ],
+          "notes": [
+            "Lawton Elementary、Lyman High",
+            "中央厨房向け実績は情報整理中"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分"
+          ]
+        },
+        {
+          "entity_id": "US",
+          "country_ja": "米国",
+          "company_name": "Low Temp Industries（LTI）",
+          "company_url": "",
+          "vendor_type": "serving line・学校食堂設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "serving line、frost top、配膳・冷却関連設備",
+              "evidence": "公式K-12 case studiesにTruman High School Cafeteria Renovation、Fayette County High School Cafeteriaが掲載。",
+              "evidence_url": "https://lowtempind.com/market-served/k-12/",
+              "note": "Truman High School Cafeteria、Fayette County High School Cafeteria",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "Truman High School Cafeteria、Fayette County High School Cafeteria",
+              "equipment": "serving line、frost top、配膳・冷却関連設備",
+              "evidence": "公式K-12 case studiesにTruman High School Cafeteria Renovation、Fayette County High School Cafeteriaが掲載。",
+              "evidence_url": "https://lowtempind.com/market-served/k-12/",
+              "note": "中央厨房の調理機器は情報整理中",
+              "source_sheet": "実績業者_v19_校名区分"
+            }
+          ],
+          "equipment_set": [
+            "serving line、frost top、配膳・冷却関連設備"
+          ],
+          "source_urls": [
+            "https://lowtempind.com/market-served/k-12/"
+          ],
+          "notes": [
+            "Truman High School Cafeteria、Fayette County High School Cafeteria",
+            "中央厨房の調理機器は情報整理中"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分"
+          ]
+        },
+        {
+          "entity_id": "US",
+          "country_ja": "米国",
+          "company_name": "Vollrath",
+          "company_url": "",
+          "vendor_type": "学校食堂設備メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "冷蔵サラダバー、Hot/Cold Drop-Ins、serving equipment",
+              "evidence": "K-12公式ページに学校食堂設備を掲載。報道でBridgeportの高校がVollrathのSerVue Touchless Refrigerated Slide-Inを導入と記載。",
+              "evidence_url": "https://www.vollrathfoodservice.com/food-service-industries/school-cafeteria-equipment / https://www.ctpost.com/news/article/bridgeport-school-touchless-salad-bar-20220027.php",
+              "note": "Bridgeport high school touchless salad bar",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "Bridgeport high school touchless salad bar",
+              "equipment": "冷蔵サラダバー、Hot/Cold Drop-Ins、serving equipment",
+              "evidence": "K-12公式ページに学校食堂設備を掲載。報道でBridgeportの高校がVollrathのSerVue Touchless Refrigerated Slide-Inを導入と記載。",
+              "evidence_url": "https://www.vollrathfoodservice.com/food-service-industries/school-cafeteria-equipment / https://www.ctpost.com/news/article/bridgeport-school-touchless-salad-bar-20220027.php",
+              "note": "中央厨房向け実績は情報整理中",
+              "source_sheet": "実績業者_v19_校名区分"
+            }
+          ],
+          "equipment_set": [
+            "冷蔵サラダバー、Hot/Cold Drop-Ins、serving equipment"
+          ],
+          "source_urls": [
+            "https://www.vollrathfoodservice.com/food-service-industries/school-cafeteria-equipment / https://www.ctpost.com/news/article/bridgeport-school-touchless-salad-bar-20220027.php"
+          ],
+          "notes": [
+            "Bridgeport high school touchless salad bar",
+            "中央厨房向け実績は情報整理中"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分"
+          ]
+        },
+        {
+          "entity_id": "US",
+          "country_ja": "米国",
+          "company_name": "Low Temp Industries / LTI",
+          "company_url": "https://lowtempind.com/",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "K-12 foodservice case studies",
+              "equipment": "serving lines、QuickSwitch technology、frost tops等",
+              "evidence": "",
+              "evidence_url": "https://lowtempind.com/market-served/k-12/",
+              "note": "K-12事例として高校カフェテリア改修を掲載",
+              "source_sheet": "v21_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "serving lines、QuickSwitch technology、frost tops等"
+          ],
+          "source_urls": [
+            "https://lowtempind.com/market-served/k-12/"
+          ],
+          "notes": [
+            "K-12事例として高校カフェテリア改修を掲載"
+          ],
+          "source_sheets": [
+            "v21_調理設備業者追加"
+          ]
+        },
+        {
+          "entity_id": "US",
+          "country_ja": "米国",
+          "company_name": "The Vollrath Co.",
+          "company_url": "https://www.vollrathfoodservice.com/",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "Bridgeport Fairchild Wheeler Interdistrict Magnet Campus",
+              "equipment": "SerVue Touchless Refrigerated Slide-In salad bar",
+              "evidence": "",
+              "evidence_url": "https://www.ctpost.com/news/article/bridgeport-school-touchless-salad-bar-20220027.php",
+              "note": "学校でのtouchless salad bar導入記事にメーカー名掲載",
+              "source_sheet": "v21_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "SerVue Touchless Refrigerated Slide-In salad bar"
+          ],
+          "source_urls": [
+            "https://www.ctpost.com/news/article/bridgeport-school-touchless-salad-bar-20220027.php"
+          ],
+          "notes": [
+            "学校でのtouchless salad bar導入記事にメーカー名掲載"
+          ],
+          "source_sheets": [
+            "v21_調理設備業者追加"
+          ]
+        },
+        {
+          "entity_id": "US",
+          "country_ja": "米国",
+          "company_name": "Vulcan",
+          "company_url": "https://schoolnutrition.org/snf/equipment-grants/",
+          "vendor_type": "学校厨房設備メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "SNF Equipment Grants",
+              "equipment": "学校厨房設備助成対象企業",
+              "evidence": "SNF Equipment Grants に企業名掲載",
+              "evidence_url": "",
+              "note": "",
+              "source_sheet": "v24_調理設備業者追加"
+            },
+            {
+              "project_or_case": "K-12 schools / institutional kitchens",
+              "equipment": "convection oven、combi oven、steamer、braising pan、kettle、range、heated holding cabinet",
+              "evidence": "Just 4 SchoolsとしてK-12向け製品群を掲載。個別納入先は未記載。",
+              "evidence_url": "https://www.vulcanequipment.com/k12",
+              "note": "",
+              "source_sheet": "v31_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "学校厨房設備助成対象企業",
+            "convection oven、combi oven、steamer、braising pan、kettle、range、heated holding cabinet"
+          ],
+          "source_urls": [
+            "https://www.vulcanequipment.com/k12"
+          ],
+          "notes": [],
+          "source_sheets": [
+            "v24_調理設備業者追加",
+            "v31_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "US",
+          "country_ja": "米国",
+          "company_name": "Hobart",
+          "company_url": "https://schoolnutrition.org/snf/equipment-grants/",
+          "vendor_type": "洗浄・厨房設備メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "SNF Equipment Grants",
+              "equipment": "学校厨房設備助成対象企業",
+              "evidence": "SNF Equipment Grants に企業名掲載",
+              "evidence_url": "",
+              "note": "",
+              "source_sheet": "v24_調理設備業者追加"
+            },
+            {
+              "project_or_case": "Albany Unified School District central kitchen",
+              "equipment": "CLeN Ventless Conveyor Type Dishmachine",
+              "evidence": "中央厨房への設置事例が掲載",
+              "evidence_url": "https://blog.hobartcorp.com/blog/top-5-dishwasher-innovations-for-k-12-foodservice-programs",
+              "note": "",
+              "source_sheet": "v31_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "学校厨房設備助成対象企業",
+            "CLeN Ventless Conveyor Type Dishmachine"
+          ],
+          "source_urls": [
+            "https://blog.hobartcorp.com/blog/top-5-dishwasher-innovations-for-k-12-foodservice-programs"
+          ],
+          "notes": [],
+          "source_sheets": [
+            "v24_調理設備業者追加",
+            "v31_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "US",
+          "country_ja": "米国",
+          "company_name": "Cambro",
+          "company_url": "https://www.cambro.com/",
+          "vendor_type": "保温配送・搬送・容器",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "K-12 schools",
+              "equipment": "Meal Delivery Carts、Food Transport Carts、insulated carriers、temperature maintenance tools",
+              "evidence": "K-12向け製品群と50年以上の学校向け実績を掲載。個別納入先は未記載。",
+              "evidence_url": "https://www.cambro.com/k12/\nhttps://www.cambro.com/K12resources/",
+              "note": "",
+              "source_sheet": "v31_設備業者補充"
+            },
+            {
+              "project_or_case": "K-12 school foodservice",
+              "equipment": "配膳、保管、配送、フードサービス用品",
+              "evidence": "K-12 schools向け製品ソリューションを掲載",
+              "evidence_url": "https://www.cambro.com/k12/",
+              "note": "学校給食の配送・保管系設備として採用",
+              "source_sheet": "v33_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "Meal Delivery Carts、Food Transport Carts、insulated carriers、temperature maintenance tools",
+            "配膳、保管、配送、フードサービス用品"
+          ],
+          "source_urls": [
+            "https://www.cambro.com/k12/",
+            "https://www.cambro.com/K12resources/"
+          ],
+          "notes": [
+            "学校給食の配送・保管系設備として採用"
+          ],
+          "source_sheets": [
+            "v31_設備業者補充",
+            "v33_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "US",
+          "country_ja": "米国",
+          "company_name": "Norris Products Corp.",
+          "company_url": "https://schoolnutrition.org/snf/programs-and-events/food-delivery-systems/",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "School Nutrition Foundation Food Delivery Systems",
+              "equipment": "保温バッグ、ハンドカート",
+              "evidence": "school nutrition programs向けのinsulated bags and hand carts providerとして掲載",
+              "evidence_url": "https://schoolnutrition.org/snf/programs-and-events/food-delivery-systems/",
+              "note": "会社リンクが同一覧経由のため後で公式リンク確認",
+              "source_sheet": "v33_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "保温バッグ、ハンドカート"
+          ],
+          "source_urls": [
+            "https://schoolnutrition.org/snf/programs-and-events/food-delivery-systems/"
+          ],
+          "notes": [
+            "会社リンクが同一覧経由のため後で公式リンク確認"
+          ],
+          "source_sheets": [
+            "v33_設備業者補充"
+          ]
+        }
+      ],
+      "operators": [],
+      "sources": [
+        {
+          "label": "School district central production kitchen",
+          "url": "https://food.bvsd.org/"
+        },
+        {
+          "label": "RATIONAL",
+          "url": "https://www.rational-online.com/en_us/industry/catering-in-education-c/k-12/"
+        },
+        {
+          "label": "RATIONAL",
+          "url": "https://www.rational-online.com/en_xx/references/educational-establishment/us-santa-clara.php"
+        },
+        {
+          "label": "RATIONAL",
+          "url": "https://www.rational-online.com/en_us/references/k-12-schools/bernalillo-public-schools.php"
+        },
+        {
+          "label": "Alto-Shaam",
+          "url": "https://www.alto-shaam.com/en/industries/k-12-solutions"
+        },
+        {
+          "label": "Boelter",
+          "url": "https://www.boelter.com/markets/k-12-schools"
+        },
+        {
+          "label": "XLT Ovens",
+          "url": "https://xltovens.com/xlt-customer-case-studies/school-cafeteria-and-school-kitchen-equipment/"
+        },
+        {
+          "label": "Low Temp Industries（LTI）",
+          "url": "https://lowtempind.com/market-served/k-12/"
+        },
+        {
+          "label": "Vollrath",
+          "url": "https://www.vollrathfoodservice.com/food-service-industries/school-cafeteria-equipment / https://www.ctpost.com/news/article/bridgeport-school-touchless-salad-bar-20220027.php"
+        },
+        {
+          "label": "The Vollrath Co.",
+          "url": "https://www.ctpost.com/news/article/bridgeport-school-touchless-salad-bar-20220027.php"
+        },
+        {
+          "label": "Vulcan",
+          "url": "https://www.vulcanequipment.com/k12"
+        },
+        {
+          "label": "Hobart",
+          "url": "https://blog.hobartcorp.com/blog/top-5-dishwasher-innovations-for-k-12-foodservice-programs"
+        }
+      ],
+      "equipment_vendor_count": 12,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": true
+    },
+    {
+      "entity_id": "CA",
+      "name_ja": "カナダ",
+      "name_en": "Canada",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "programs": [
+        {
+          "program_name": "School food central kitchen examples",
+          "operator": "学校区、NPO、自治体等",
+          "target": "学校児童",
+          "central_kitchen_model": "地域・学校区単位の中央調理例あり",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "主食設備は施設別確認",
+          "delivery_temperature_note": "学校配送",
+          "equipment_status_note": "調理、冷却、保温配送、洗浄設備を確認対象",
+          "procurement_status_note": "設備会社・入札情報は情報整理中",
+          "next_check": "州・学校区別の中央厨房、調理設備、配送方式",
+          "source_url": "",
+          "review_status": "高所得。学校給食・中央厨房／公共給食／給食事業者の調理設備情報を確認対象。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "CL",
+      "name_ja": "チリ",
+      "name_en": "Chile",
+      "region": "Americas",
+      "subregion": "South America",
+      "programs": [
+        {
+          "program_name": "JUNAEB school feeding supply model",
+          "operator": "JUNAEB、供給会社等",
+          "target": "学校児童",
+          "central_kitchen_model": "供給会社が調理・配送を担うモデル",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "主食設備は事業者別確認",
+          "delivery_temperature_note": "学校配送",
+          "equipment_status_note": "調理、包装、配送、温度管理、洗浄設備を確認対象",
+          "procurement_status_note": "供給会社契約は確認対象。調理設備業者は情報整理中",
+          "next_check": "供給会社、厨房設備、調達条件",
+          "source_url": "",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "BR",
+      "name_ja": "ブラジル",
+      "name_en": "Brazil",
+      "region": "Americas",
+      "subregion": "South America",
+      "programs": [
+        {
+          "program_name": "School feeding central kitchen / school kitchen model",
+          "operator": "自治体、学校給食制度関係者",
+          "target": "学校児童",
+          "central_kitchen_model": "中央厨房と学校内厨房の両形態が資料上確認できる",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "米・豆料理等。設備は情報整理中",
+          "delivery_temperature_note": "学校配送または校内提供",
+          "equipment_status_note": "大型調理、保温配送、冷蔵冷凍、洗浄設備を確認対象",
+          "procurement_status_note": "設備会社・入札情報は情報整理中",
+          "next_check": "自治体別中央厨房、設備調達、機械会社",
+          "source_url": "https://www.fao.org/school-food/areas-work/school-food-nutrition",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "School feeding central kitchen / school kitchen model",
+          "url": "https://www.fao.org/school-food/areas-work/school-food-nutrition"
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "MX",
+      "name_ja": "メキシコ",
+      "name_en": "Mexico",
+      "region": "Americas",
+      "subregion": "Central America",
+      "programs": [
+        {
+          "program_name": "学校給食制度関連",
+          "operator": "政府・学校等",
+          "target": "学校児童",
+          "central_kitchen_model": "セントラルキッチン型は情報整理中",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "情報整理中",
+          "delivery_temperature_note": "情報整理中",
+          "equipment_status_note": "調理設備情報は整理中",
+          "procurement_status_note": "設備調達・入札情報は整理中",
+          "next_check": "中央厨房型の有無、設備会社、調達資料",
+          "source_url": "",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "AE",
+      "name_ja": "アラブ首長国連邦",
+      "name_en": "United Arab Emirates",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "programs": [
+        {
+          "program_name": "School catering central kitchen",
+          "operator": "給食・ケータリング事業者等",
+          "target": "学校",
+          "central_kitchen_model": "中央厨房で学校食を調理・配送する事業者型",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "米飯含むメニュー情報整理中",
+          "delivery_temperature_note": "学校配送、温度管理",
+          "equipment_status_note": "大量調理、冷却、保温配送、包装、洗浄設備を確認対象",
+          "procurement_status_note": "民間給食事業者型。設備調達先は情報整理中",
+          "next_check": "事業者別厨房、設備会社、配送温度管理",
+          "source_url": "",
+          "review_status": "高所得。学校給食・中央厨房／公共給食／給食事業者の調理設備情報を確認対象。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "IN",
+      "name_ja": "インド",
+      "name_en": "India",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "programs": [
+        {
+          "program_name": "Akshaya Patra Foundation Centralised Kitchens",
+          "operator": "Akshaya Patra Foundation、学校給食制度と連携",
+          "target": "政府校・政府支援校の児童",
+          "central_kitchen_model": "中央厨房で原料受入・保管・調理・配送を一元管理",
+          "school_count": "23,111校",
+          "scale": "児童2,336,838人、78厨房。中央厨房は通常最大100,000食/日規模",
+          "rice_note": "南部では米飯、北部ではチャパティ。rice, roti, khichdi, sambar 等",
+          "delivery_temperature_note": "中央厨房から学校へ配送",
+          "equipment_status_note": "炊飯、ロティ製造、蒸煮、大釜、搬送機器の確認対象。ロティ機械化の公式説明あり",
+          "procurement_status_note": "団体運営。個別厨房の設備調達先・入札方式は情報整理中",
+          "next_check": "厨房別の米飯ライン、ロティライン、配送容器、調理設備メーカー、保守体制",
+          "source_url": "https://www.akshayapatra.org/centralised-kitchens",
+          "review_status": "低所得・下位中所得・援助機関主導の学校給食。追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "Akshaya Patra Foundation Centralised Kitchens",
+          "url": "https://www.akshayapatra.org/centralised-kitchens"
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "ID",
+      "name_ja": "インドネシア",
+      "name_en": "Indonesia",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "programs": [
+        {
+          "program_name": "MBG／SPPG",
+          "operator": "政府、SPPG運営者等",
+          "target": "学校・児童等",
+          "central_kitchen_model": "給食用厨房から学校等へ提供",
+          "school_count": "全国で厨房整備が進行",
+          "scale": "提供人数・厨房数は時点別に変動",
+          "rice_note": "米飯・主食設備はSPPG別確認",
+          "delivery_temperature_note": "学校配送",
+          "equipment_status_note": "炊飯、加熱調理、保温配送、食器洗浄、冷蔵冷凍、温度管理を確認対象",
+          "procurement_status_note": "厨房設備会社候補あり。入札・調達単位は情報整理中",
+          "next_check": "SPPG別の調理設備、厨房設備会社、炊飯能力",
+          "source_url": "https://bahterakitchenequipment.com/",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [
+        {
+          "entity_id": "ID",
+          "country_ja": "インドネシア",
+          "company_name": "Fomac",
+          "company_url": "https://www.fomac.co.id/",
+          "vendor_type": "食品機械・厨房機械",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "MBG厨房向けチェックリスト",
+              "equipment": "Cooking Mixer、Rice Steamer、Vegetable Cutter",
+              "evidence": "",
+              "evidence_url": "https://www.fomac.co.id/blog/checklist-peralatan-yang-dibutuhkan-dapur-mbg-untuk-500%E2%80%932000-porsi-hari",
+              "note": "SPPG納入実績は情報整理中",
+              "source_sheet": "v20_調理設備業者"
+            },
+            {
+              "project_or_case": "MBG厨房向け機器リスト",
+              "equipment": "Rice Steamer、Cooking Mixer、Vegetable Cutter",
+              "evidence": "",
+              "evidence_url": "https://www.fomac.co.id/blog/checklist-peralatan-yang-dibutuhkan-dapur-mbg-untuk-500%E2%80%932000-porsi-hari",
+              "note": "MBG厨房向け機器として掲載",
+              "source_sheet": "v30_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "Cooking Mixer、Rice Steamer、Vegetable Cutter",
+            "Rice Steamer、Cooking Mixer、Vegetable Cutter"
+          ],
+          "source_urls": [
+            "https://www.fomac.co.id/blog/checklist-peralatan-yang-dibutuhkan-dapur-mbg-untuk-500%E2%80%932000-porsi-hari"
+          ],
+          "notes": [
+            "SPPG納入実績は情報整理中",
+            "MBG厨房向け機器として掲載"
+          ],
+          "source_sheets": [
+            "v20_調理設備業者",
+            "v30_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "ID",
+          "country_ja": "インドネシア",
+          "company_name": "Crown Horeca",
+          "company_url": "https://crownhoreca.com/",
+          "vendor_type": "業務用厨房機器販売",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "MBG厨房向け設備記事",
+              "equipment": "産業用コンロ、Chiller、SUS304 food tray、sink、dishwasher、trolley",
+              "evidence": "",
+              "evidence_url": "https://crownhoreca.com/rekomendasi-peralatan-masak-horeca-untuk-kebutuhan-makanan-bergizi-gratis-mbg/",
+              "note": "SPPG納入実績は情報整理中",
+              "source_sheet": "v20_調理設備業者"
+            },
+            {
+              "project_or_case": "MBG厨房向け設備記事",
+              "equipment": "Chiller、Dishwasher、SUS304 tray、trolley",
+              "evidence": "",
+              "evidence_url": "https://crownhoreca.com/rekomendasi-peralatan-masak-horeca-untuk-kebutuhan-makanan-bergizi-gratis-mbg/",
+              "note": "MBG厨房向け設備として掲載",
+              "source_sheet": "v30_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "産業用コンロ、Chiller、SUS304 food tray、sink、dishwasher、trolley",
+            "Chiller、Dishwasher、SUS304 tray、trolley"
+          ],
+          "source_urls": [
+            "https://crownhoreca.com/rekomendasi-peralatan-masak-horeca-untuk-kebutuhan-makanan-bergizi-gratis-mbg/"
+          ],
+          "notes": [
+            "SPPG納入実績は情報整理中",
+            "MBG厨房向け設備として掲載"
+          ],
+          "source_sheets": [
+            "v20_調理設備業者",
+            "v30_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "ID",
+          "country_ja": "インドネシア",
+          "company_name": "Bahtera Kitchen Equipment",
+          "company_url": "",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "MBG・商業厨房向け stainless kitchen equipment",
+              "equipment": "ステンレス厨房設備、業務用厨房設備",
+              "evidence": "",
+              "evidence_url": "",
+              "note": "調理設備メーカーではなく厨房設備会社として区分。SPPG納入実績は情報整理中",
+              "source_sheet": "v20_調理設備業者"
+            }
+          ],
+          "equipment_set": [
+            "ステンレス厨房設備、業務用厨房設備"
+          ],
+          "source_urls": [],
+          "notes": [
+            "調理設備メーカーではなく厨房設備会社として区分。SPPG納入実績は情報整理中"
+          ],
+          "source_sheets": [
+            "v20_調理設備業者"
+          ]
+        }
+      ],
+      "operators": [],
+      "sources": [
+        {
+          "label": "MBG／SPPG",
+          "url": "https://bahterakitchenequipment.com/"
+        },
+        {
+          "label": "Fomac",
+          "url": "https://www.fomac.co.id/blog/checklist-peralatan-yang-dibutuhkan-dapur-mbg-untuk-500%E2%80%932000-porsi-hari"
+        },
+        {
+          "label": "Crown Horeca",
+          "url": "https://crownhoreca.com/rekomendasi-peralatan-masak-horeca-untuk-kebutuhan-makanan-bergizi-gratis-mbg/"
+        }
+      ],
+      "equipment_vendor_count": 3,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": true
+    },
+    {
+      "entity_id": "KH",
+      "name_ja": "カンボジア",
+      "name_en": "Cambodia",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "programs": [
+        {
+          "program_name": "National Home-Grown School Feeding Programme",
+          "operator": "MoEYS、WFP、地域コミュニティ等",
+          "target": "学校児童",
+          "central_kitchen_model": "学校・コミュニティ調理型。中央厨房型は情報整理中",
+          "school_count": "1,100校超の記載あり",
+          "scale": "地域により異なる",
+          "rice_note": "温かい朝食。米・地元食材。厨房・ストーブ・器具が確認対象",
+          "delivery_temperature_note": "学校内提供中心",
+          "equipment_status_note": "学校厨房、ストーブ、調理器具、洗浄、保管を確認対象。中央厨房機械は情報整理中",
+          "procurement_status_note": "地域・学校単位。調理設備業者は情報整理中",
+          "next_check": "学校厨房設備、ストーブ、調理器具、食材保管、設備供給会社",
+          "source_url": "https://gcnf.org/cambodia-community-roots-brighter-futures-how-cambodian-pare...",
+          "review_status": "低所得・下位中所得・援助機関主導の学校給食。追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "National Home-Grown School Feeding Programme",
+          "url": "https://gcnf.org/cambodia-community-roots-brighter-futures-how-cambodian-pare..."
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "SG",
+      "name_ja": "シンガポール",
+      "name_en": "Singapore",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "programs": [
+        {
+          "program_name": "Central Kitchen Meal Model",
+          "operator": "教育省、中央厨房事業者",
+          "target": "食堂出店者の確保に課題がある学校等",
+          "central_kitchen_model": "中央厨房で調理し、学校へ配送",
+          "school_count": "Yusof Ishak Secondary Schoolで先行、13校で追加試行",
+          "scale": "情報整理中",
+          "rice_note": "メニュー・米飯関連は情報整理中",
+          "delivery_temperature_note": "温度管理された輸送・保管、ラベル管理",
+          "equipment_status_note": "中央厨房事業者の調理設備、再加熱・保温・配送設備を確認対象",
+          "procurement_status_note": "事業者名・設備調達先は情報整理中",
+          "next_check": "中央厨房事業者名、厨房所在地、調理機械、保温配送、温度記録",
+          "source_url": "https://www.moe.gov.sg/news/edtalks/how-school-canteens-offer-healthy-and-aff...",
+          "review_status": "高所得。学校給食・中央厨房／公共給食／給食事業者の調理設備情報を確認対象。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "Central Kitchen Meal Model",
+          "url": "https://www.moe.gov.sg/news/edtalks/how-school-canteens-offer-healthy-and-aff..."
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "LK",
+      "name_ja": "スリランカ",
+      "name_en": "Sri Lanka",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "programs": [
+        {
+          "program_name": "National School Meal Programme",
+          "operator": "教育省 School Health and Nutrition Branch、caterers等",
+          "target": "小学校児童",
+          "central_kitchen_model": "全国管理・caterer調達型。中央厨房型は情報整理中",
+          "school_count": "情報整理中",
+          "scale": "1,070,000人（GCNF 2022）／別資料で1.38百万人の記載あり",
+          "rice_note": "米、ダール等。米飯設備は caterer/学校別確認",
+          "delivery_temperature_note": "transport/storage/handling費用項目あり",
+          "equipment_status_note": "caterer側の炊飯・加熱・保温配送・洗浄設備を確認対象",
+          "procurement_status_note": "caterersが食材調達。調理設備業者は情報整理中",
+          "next_check": "caterer名、厨房所在地、炊飯設備、保温配送、洗浄設備",
+          "source_url": "https://gcnf.org/wp-content/uploads/2024/07/Sri_Lanka_2024_Report_R2.pdf",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "National School Meal Programme",
+          "url": "https://gcnf.org/wp-content/uploads/2024/07/Sri_Lanka_2024_Report_R2.pdf"
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "TH",
+      "name_ja": "タイ",
+      "name_en": "Thailand",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "programs": [
+        {
+          "program_name": "学校給食制度関連",
+          "operator": "政府・学校等",
+          "target": "学校児童",
+          "central_kitchen_model": "セントラルキッチン型は情報整理中",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "情報整理中",
+          "delivery_temperature_note": "情報整理中",
+          "equipment_status_note": "調理設備情報は整理中",
+          "procurement_status_note": "設備調達・入札情報は整理中",
+          "next_check": "中央厨房型の有無、設備会社、調達資料",
+          "source_url": "",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "TR",
+      "name_ja": "トルコ",
+      "name_en": "Türkiye",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "programs": [
+        {
+          "program_name": "学校食堂・pilot school lunch programme",
+          "operator": "保健省、教育関係機関等",
+          "target": "学校児童",
+          "central_kitchen_model": "2022時点で全国学校給食制度なし。中央厨房型は情報整理中",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "情報整理中",
+          "delivery_temperature_note": "情報整理中",
+          "equipment_status_note": "調理設備情報は整理中",
+          "procurement_status_note": "設備調達・入札情報は整理中",
+          "next_check": "pilot lunch の厨房方式、中央厨房型の有無、学校食堂設備",
+          "source_url": "https://www.fao.org/platforms/school-food/around-the-world/europe-and-central...",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "学校食堂・pilot school lunch programme",
+          "url": "https://www.fao.org/platforms/school-food/around-the-world/europe-and-central..."
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "BD",
+      "name_ja": "バングラデシュ",
+      "name_en": "Bangladesh",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "programs": [
+        {
+          "program_name": "School Feeding Programme in Poverty Prone Areas 等",
+          "operator": "Ministry of Primary & Mass Education、WFP等",
+          "target": "貧困地域の児童",
+          "central_kitchen_model": "中央厨房型は情報整理中。食材中央調達・学校側調理寄り",
+          "school_count": "情報整理中",
+          "scale": "政府拡大計画：400,000人・2,000校等の報道あり",
+          "rice_note": "米、レンズ豆、油、強化ビスケット等が中央調達。調理設備は学校側確認",
+          "delivery_temperature_note": "食材・加工・輸送サービスあり",
+          "equipment_status_note": "調理器具、学校厨房、食材輸送、 utensils が確認対象。中央厨房機械は情報整理中",
+          "procurement_status_note": "民間が trading, processing, transport, utensils に関与。調理設備業者は情報整理中",
+          "next_check": "中央厨房型有無、学校厨房設備、調達入札、器具供給会社",
+          "source_url": "https://gcnf.org/wp-content/uploads/2022/09/Bangladesh_2021_final.pdf",
+          "review_status": "低所得・下位中所得・援助機関主導の学校給食。追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "School Feeding Programme in Poverty Prone Areas 等",
+          "url": "https://gcnf.org/wp-content/uploads/2022/09/Bangladesh_2021_final.pdf"
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "PK",
+      "name_ja": "パキスタン",
+      "name_en": "Pakistan",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "programs": [
+        {
+          "program_name": "Allah Walay Central Kitchen Islamabad",
+          "operator": "Allah Walay Trust、National Nutrition Initiative等",
+          "target": "都市部・農村部の児童",
+          "central_kitchen_model": "中央厨房から学校給食を提供",
+          "school_count": "情報整理中",
+          "scale": "60,000人/日",
+          "rice_note": "主食・米飯設備は情報整理中",
+          "delivery_temperature_note": "学校へ配送",
+          "equipment_status_note": "大量調理、配膳・包装、保温配送、洗浄設備を確認対象",
+          "procurement_status_note": "NGO/Trust運営。調理設備調達先は情報整理中",
+          "next_check": "厨房所在地、食数内訳、調理ライン、保温配送、調理設備業者",
+          "source_url": "https://allahwale.org/campaigns/school-meal-program/",
+          "review_status": "低所得・下位中所得・援助機関主導の学校給食。追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "Allah Walay Central Kitchen Islamabad",
+          "url": "https://allahwale.org/campaigns/school-meal-program/"
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "PH",
+      "name_ja": "フィリピン",
+      "name_en": "Philippines",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "programs": [
+        {
+          "program_name": "School-Based Feeding Program 中央厨房モデル",
+          "operator": "DepEd、Jollibee Group Foundation、地方等",
+          "target": "公立小学校児童",
+          "central_kitchen_model": "周辺校向け給食を集中調理",
+          "school_count": "中央厨房41件の設立支援実績",
+          "scale": "27万人超の児童への提供実績記載あり",
+          "rice_note": "米飯・主食設備は情報整理中",
+          "delivery_temperature_note": "周辺校へ配布",
+          "equipment_status_note": "調理機械、保温容器、配送容器、学校配布用機器を確認対象",
+          "procurement_status_note": "中央厨房モデルの運営資料あり。調理設備調達先は情報整理中",
+          "next_check": "厨房別設備、調理設備業者、食数、配送方法",
+          "source_url": "https://www.jollibeegroup.com/news/jollibee-group-foundation-deped-to-expand-...",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "School-Based Feeding Program 中央厨房モデル",
+          "url": "https://www.jollibeegroup.com/news/jollibee-group-foundation-deped-to-expand-..."
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "VN",
+      "name_ja": "ベトナム",
+      "name_en": "Vietnam",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "programs": [
+        {
+          "program_name": "School meal central kitchen model 事例",
+          "operator": "学校・地域・研究事例等",
+          "target": "学校児童",
+          "central_kitchen_model": "複数校分を1厨房で調達・調理・包装する事例あり",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "米飯提供の情報整理中。設備は情報整理中",
+          "delivery_temperature_note": "学校へ配送",
+          "equipment_status_note": "調理、包装、配送容器、温度管理機器を確認対象",
+          "procurement_status_note": "設備会社・入札情報は情報整理中",
+          "next_check": "中央厨房事例の所在地、運営主体、調理設備、調達先",
+          "source_url": "https://www.ghspjournal.org/content/10/6/e2100391",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "School meal central kitchen model 事例",
+          "url": "https://www.ghspjournal.org/content/10/6/e2100391"
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "MY",
+      "name_ja": "マレーシア",
+      "name_en": "Malaysia",
+      "region": "Asia",
+      "subregion": "South-eastern Asia",
+      "programs": [
+        {
+          "program_name": "学校給食制度関連",
+          "operator": "政府・学校等",
+          "target": "学校児童",
+          "central_kitchen_model": "セントラルキッチン型は情報整理中",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "情報整理中",
+          "delivery_temperature_note": "情報整理中",
+          "equipment_status_note": "調理設備情報は整理中",
+          "procurement_status_note": "設備調達・入札情報は整理中",
+          "next_check": "中央厨房型の有無、設備会社、調達資料",
+          "source_url": "",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "LB",
+      "name_ja": "レバノン",
+      "name_en": "Lebanon",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "programs": [
+        {
+          "program_name": "WFP Lebanon School Kitchens / Satellite Healthy Kitchens",
+          "operator": "WFP、MEHE、協力団体",
+          "target": "公立学校児童",
+          "central_kitchen_model": "既存学校厨房を拡張し、近隣校へ供給する衛星厨房型",
+          "school_count": "3衛星厨房＋近隣8校",
+          "scale": "追加4,000人分のカバレッジ増加",
+          "rice_note": "冷食・サンドイッチ系。米飯設備は情報整理中",
+          "delivery_temperature_note": "近隣校へ配送。冷蔵保管能力の拡張記載あり",
+          "equipment_status_note": "追加厨房設備、冷蔵保管、包装・配膳、洗浄を確認対象",
+          "procurement_status_note": "WFP/MEHE主導。設備調達先・調理設備メーカーは情報整理中",
+          "next_check": "厨房設備明細、冷蔵設備、包装機器、洗浄設備、設備会社",
+          "source_url": "https://help.wfp.org/lebanon/docs/school-kitchens",
+          "review_status": "低所得・下位中所得・援助機関主導の学校給食。追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "WFP Lebanon School Kitchens / Satellite Healthy Kitchens",
+          "url": "https://help.wfp.org/lebanon/docs/school-kitchens"
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "CN",
+      "name_ja": "中国",
+      "name_en": "China",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "programs": [
+        {
+          "program_name": "中央厨房＋学校内最終調理モデル等",
+          "operator": "地方政府、学校、供餐企業等",
+          "target": "学校",
+          "central_kitchen_model": "中央厨房で調達・下処理・配送、学校側で最終調理する例あり",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "净菜、半製品、米飯関連は都市別確認",
+          "delivery_temperature_note": "冷鏈配送、学校側調理",
+          "equipment_status_note": "下処理、冷蔵冷凍、包装、配送温度、学校側加熱機器を確認対象",
+          "procurement_status_note": "入札情報・設備会社は都市別確認",
+          "next_check": "都市別制度、供餐企業、調理設備、配送温度",
+          "source_url": "https://www.bjdch.gov.cn/ywdt/dcyw/202502/t20250225_4018781.html",
+          "review_status": "上位中所得。制度／CK／調理設備業者は次に確認。"
+        }
+      ],
+      "equipment_vendors": [
+        {
+          "entity_id": "CN",
+          "country_ja": "中国",
+          "company_name": "青岛瑞丰德商贸有限公司",
+          "company_url": "",
+          "vendor_type": "厨房設備・商貿会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "山东省轻工工程学校 2022年学校炊事机械采购项目",
+              "equipment": "电磁汤锅、电磁灶、电饼铛、全自动压面机、和面机、电炸锅、双门蒸饭车",
+              "evidence": "",
+              "evidence_url": "https://ggzy.qingdao.gov.cn/TradeDetals-ZtbShow/118154-5070-1-2-3/87f470dc-a258-4d31-ad72-c49590aa61d8",
+              "note": "成交公告に中标人、設備名、数量、単価掲載",
+              "source_sheet": "v20_調理設備業者"
+            },
+            {
+              "project_or_case": "山东省轻工工程学校 学校炊事机械采购项目",
+              "equipment": "电磁汤锅、电磁灶、压面机、和面机、蒸饭车",
+              "evidence": "",
+              "evidence_url": "https://ggzy.qingdao.gov.cn/TradeDetals-ZtbShow/118154-5070-1-2-3/87f470dc-a258-4d31-ad72-c49590aa61d8",
+              "note": "学校炊事机械采购の成交公告",
+              "source_sheet": "v30_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "电磁汤锅、电磁灶、电饼铛、全自动压面机、和面机、电炸锅、双门蒸饭车",
+            "电磁汤锅、电磁灶、压面机、和面机、蒸饭车"
+          ],
+          "source_urls": [
+            "https://ggzy.qingdao.gov.cn/TradeDetals-ZtbShow/118154-5070-1-2-3/87f470dc-a258-4d31-ad72-c49590aa61d8"
+          ],
+          "notes": [
+            "成交公告に中标人、設備名、数量、単価掲載",
+            "学校炊事机械采购の成交公告"
+          ],
+          "source_sheets": [
+            "v20_調理設備業者",
+            "v30_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "CN",
+          "country_ja": "中国",
+          "company_name": "江西省金辉厨具工程有限公司",
+          "company_url": "",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "固镇县仲兴初级中学、宋店中学食堂设备采购项目",
+              "equipment": "食堂厨房设备、厨具",
+              "evidence": "",
+              "evidence_url": "https://www.ahjxgs.com/v7list.php?id=3870",
+              "note": "中标候选人として掲載",
+              "source_sheet": "v20_調理設備業者"
+            }
+          ],
+          "equipment_set": [
+            "食堂厨房设备、厨具"
+          ],
+          "source_urls": [
+            "https://www.ahjxgs.com/v7list.php?id=3870"
+          ],
+          "notes": [
+            "中标候选人として掲載"
+          ],
+          "source_sheets": [
+            "v20_調理設備業者"
+          ]
+        },
+        {
+          "entity_id": "CN",
+          "country_ja": "中国",
+          "company_name": "山东宇丰商用厨具有限公司",
+          "company_url": "",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "固镇县仲兴初级中学、宋店中学食堂设备采购项目／阜南县中小学食堂厨房设备采购及安装実績",
+              "equipment": "食堂厨房设备、厨具",
+              "evidence": "",
+              "evidence_url": "https://www.ahjxgs.com/v7list.php?id=3870",
+              "note": "中标候选人、企業業績掲載",
+              "source_sheet": "v20_調理設備業者"
+            }
+          ],
+          "equipment_set": [
+            "食堂厨房设备、厨具"
+          ],
+          "source_urls": [
+            "https://www.ahjxgs.com/v7list.php?id=3870"
+          ],
+          "notes": [
+            "中标候选人、企業業績掲載"
+          ],
+          "source_sheets": [
+            "v20_調理設備業者"
+          ]
+        },
+        {
+          "entity_id": "CN",
+          "country_ja": "中国",
+          "company_name": "合肥华鑫不锈钢厨房设备有限公司",
+          "company_url": "",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "固镇县仲兴初级中学、宋店中学食堂设备采购项目／学校厨房设备実績",
+              "equipment": "不锈钢厨房设备、学校厨房设备",
+              "evidence": "",
+              "evidence_url": "https://www.ahjxgs.com/v7list.php?id=3870",
+              "note": "中标候选人、企業業績掲載",
+              "source_sheet": "v20_調理設備業者"
+            }
+          ],
+          "equipment_set": [
+            "不锈钢厨房设备、学校厨房设备"
+          ],
+          "source_urls": [
+            "https://www.ahjxgs.com/v7list.php?id=3870"
+          ],
+          "notes": [
+            "中标候选人、企業業績掲載"
+          ],
+          "source_sheets": [
+            "v20_調理設備業者"
+          ]
+        },
+        {
+          "entity_id": "CN",
+          "country_ja": "中国",
+          "company_name": "兰州裕盛实业有限公司",
+          "company_url": "",
+          "vendor_type": "厨房設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "兰州大学学生食堂设备及中央厨房设备（洗碗设备）采购项目",
+              "equipment": "洗碗设备",
+              "evidence": "",
+              "evidence_url": "https://zbb.lzu.edu.cn/jieguogonggao/huowulei/2019/0711/217827.html",
+              "note": "拟中标人として掲載",
+              "source_sheet": "v20_調理設備業者"
+            },
+            {
+              "project_or_case": "兰州大学 学生食堂设备及中央厨房设备（洗碗设备）采购项目",
+              "equipment": "洗碗设备",
+              "evidence": "",
+              "evidence_url": "https://zbb.lzu.edu.cn/jieguogonggao/huowulei/2019/0711/217827.html",
+              "note": "学生食堂設備・中央厨房設備の中标公告",
+              "source_sheet": "v30_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "洗碗设备"
+          ],
+          "source_urls": [
+            "https://zbb.lzu.edu.cn/jieguogonggao/huowulei/2019/0711/217827.html"
+          ],
+          "notes": [
+            "拟中标人として掲載",
+            "学生食堂設備・中央厨房設備の中标公告"
+          ],
+          "source_sheets": [
+            "v20_調理設備業者",
+            "v30_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "CN",
+          "country_ja": "中国",
+          "company_name": "昆明金马不锈钢厨具有限公司",
+          "company_url": "https://www.kmjmcj.cn/",
+          "vendor_type": "厨房設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "丽江师范高等专科学校 食堂厨房设备采购项目",
+              "equipment": "水池、工作台、收餐柜、洗碗池、冷藏操作台、留样柜、冷蔵・冷凍系設備等",
+              "evidence": "",
+              "evidence_url": "https://www.ljnu.edu.cn/info/1017/11594.htm",
+              "note": "中标公告に供应商名称、主要設備、数量、単価掲載",
+              "source_sheet": "v20_調理設備業者"
+            },
+            {
+              "project_or_case": "丽江师范高等专科学校 食堂厨房设备采购项目",
+              "equipment": "水池、工作台、洗碗池、冷蔵・冷凍系設備",
+              "evidence": "",
+              "evidence_url": "https://www.ljnu.edu.cn/info/1017/11594.htm",
+              "note": "学校食堂厨房设备采购の中标公告",
+              "source_sheet": "v30_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "水池、工作台、收餐柜、洗碗池、冷藏操作台、留样柜、冷蔵・冷凍系設備等",
+            "水池、工作台、洗碗池、冷蔵・冷凍系設備"
+          ],
+          "source_urls": [
+            "https://www.ljnu.edu.cn/info/1017/11594.htm"
+          ],
+          "notes": [
+            "中标公告に供应商名称、主要設備、数量、単価掲載",
+            "学校食堂厨房设备采购の中标公告"
+          ],
+          "source_sheets": [
+            "v20_調理設備業者",
+            "v30_設備業者補充"
+          ]
+        }
+      ],
+      "operators": [],
+      "sources": [
+        {
+          "label": "中央厨房＋学校内最終調理モデル等",
+          "url": "https://www.bjdch.gov.cn/ywdt/dcyw/202502/t20250225_4018781.html"
+        },
+        {
+          "label": "青岛瑞丰德商贸有限公司",
+          "url": "https://ggzy.qingdao.gov.cn/TradeDetals-ZtbShow/118154-5070-1-2-3/87f470dc-a258-4d31-ad72-c49590aa61d8"
+        },
+        {
+          "label": "江西省金辉厨具工程有限公司",
+          "url": "https://www.ahjxgs.com/v7list.php?id=3870"
+        },
+        {
+          "label": "兰州裕盛实业有限公司",
+          "url": "https://zbb.lzu.edu.cn/jieguogonggao/huowulei/2019/0711/217827.html"
+        },
+        {
+          "label": "昆明金马不锈钢厨具有限公司",
+          "url": "https://www.ljnu.edu.cn/info/1017/11594.htm"
+        }
+      ],
+      "equipment_vendor_count": 6,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": true
+    },
+    {
+      "entity_id": "TW",
+      "name_ja": "台湾",
+      "name_en": "Taiwan",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "programs": [
+        {
+          "program_name": "推動偏鄉學校中央廚房計畫",
+          "operator": "教育部、地方政府、拠点校・中央厨房等",
+          "target": "偏郷学校、周辺小規模校",
+          "central_kitchen_model": "拠点校・中央厨房が周辺校へ供給（以大帶小）",
+          "school_count": "情報整理中",
+          "scale": "関連経費：63.1億元超",
+          "rice_note": "学校給食。炊飯設備・米飯処理能力は個別仕様書で確認が必要",
+          "delivery_temperature_note": "クラウドGPSで配送ルート・時間・温度を追跡",
+          "equipment_status_note": "冷凍冷蔵設備、厨房設備、熟食運送温度監控設備の記載あり。個別機械明細は未取得",
+          "procurement_status_note": "個別設備採購案件あり。公開招標、最有利標、最低標などの例あり",
+          "next_check": "県市別の設備採購、炊飯・洗米・洗浄・保温配送設備、得標廠商、仕様書",
+          "source_url": "https://www.edu.tw/News_Plan_Content.aspx?n=D33B55D537402BAA&s=D0A197A244A871...",
+          "review_status": "高所得。学校給食・中央厨房／公共給食／給食事業者の調理設備情報を確認対象。"
+        }
+      ],
+      "equipment_vendors": [
+        {
+          "entity_id": "TW",
+          "country_ja": "台湾",
+          "company_name": "RATIONAL",
+          "company_url": "https://www.rational-online.com/",
+          "vendor_type": "加熱調理機器メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "iCombi Pro、加熱調理",
+              "evidence": "公式事例に台湾・麥寮國小で3校、1日1,500食、1中央厨房の記載。",
+              "evidence_url": "https://www.rational-online.com/en_sg/references/educational-establishment/sg-mailiao-elementary-school.php",
+              "note": "麥寮國小中央厨房事例",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "麥寮國小中央厨房事例",
+              "equipment": "iCombi Pro、加熱調理",
+              "evidence": "公式事例に台湾・麥寮國小で3校、1日1,500食、1中央厨房の記載。",
+              "evidence_url": "https://www.rational-online.com/en_sg/references/educational-establishment/sg-mailiao-elementary-school.php",
+              "note": "台湾代理店・保守窓口は追加確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "麥寮國小中央厨房事例",
+              "equipment": "iCombi Pro、加熱調理",
+              "evidence": "",
+              "evidence_url": "https://www.rational-online.com/en_sg/references/educational-establishment/sg-mailiao-elementary-school.php",
+              "note": "3校・1日1,500食・1中央厨房の事例",
+              "source_sheet": "v20_調理設備業者"
+            },
+            {
+              "project_or_case": "麥寮國小中央厨房事例",
+              "equipment": "iCombi Pro、加熱調理",
+              "evidence": "",
+              "evidence_url": "https://www.rational-online.com/en_sg/references/educational-establishment/sg-mailiao-elementary-school.php",
+              "note": "3校・1日1,500食・1中央厨房の事例",
+              "source_sheet": "v30_設備業者補充"
+            },
+            {
+              "project_or_case": "Mailiao Elementary School 中央厨房",
+              "equipment": "加熱調理機器、スマート厨房ソリューション",
+              "evidence": "3 schools, 1500 meals in a day, 1 Central Kitchen の事例掲載",
+              "evidence_url": "https://www.rational-online.com/en_sg/references/educational-establishment/sg-mailiao-elementary-school.php",
+              "note": "台湾の学校中央厨房事例として採用",
+              "source_sheet": "v33_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "iCombi Pro、加熱調理",
+            "加熱調理機器、スマート厨房ソリューション"
+          ],
+          "source_urls": [
+            "https://www.rational-online.com/en_sg/references/educational-establishment/sg-mailiao-elementary-school.php"
+          ],
+          "notes": [
+            "麥寮國小中央厨房事例",
+            "台湾代理店・保守窓口は追加確認が必要",
+            "3校・1日1,500食・1中央厨房の事例",
+            "台湾の学校中央厨房事例として採用"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者",
+            "v30_設備業者補充",
+            "v33_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "TW",
+          "country_ja": "台湾",
+          "company_name": "紘福不銹鋼工業有限公司",
+          "company_url": "",
+          "vendor_type": "厨房設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "厨房設備、ステンレス設備",
+              "evidence": "苗栗県啟明國小の中央厨房計画設備採購で最有利標廠商として掲載。",
+              "evidence_url": "https://www.miaoli.gov.tw/bidding/News_Content.aspx?n=1094&s=463094",
+              "note": "啟明國小110年推動偏鄉學校中央廚房計畫-設備採購",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "啟明國小110年推動偏鄉學校中央廚房計畫-設備採購",
+              "equipment": "厨房設備、ステンレス設備",
+              "evidence": "苗栗県啟明國小の中央厨房計画設備採購で最有利標廠商として掲載。",
+              "evidence_url": "https://www.miaoli.gov.tw/bidding/News_Content.aspx?n=1094&s=463094",
+              "note": "具体機器内訳は仕様書確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "苗栗県啟明國小中央厨房計画設備採購",
+              "equipment": "厨房設備、ステンレス設備",
+              "evidence": "",
+              "evidence_url": "https://www.miaoli.gov.tw/bidding/News_Content.aspx?n=1094&s=463094",
+              "note": "得標廠商。調理設備メーカーではなく厨房設備会社として区分",
+              "source_sheet": "v20_調理設備業者"
+            },
+            {
+              "project_or_case": "苗栗県啟明國小中央厨房計画設備採購",
+              "equipment": "厨房設備、ステンレス設備",
+              "evidence": "",
+              "evidence_url": "https://www.miaoli.gov.tw/bidding/News_Content.aspx?n=1094&s=463094",
+              "note": "得標廠商として掲載",
+              "source_sheet": "v30_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "厨房設備、ステンレス設備"
+          ],
+          "source_urls": [
+            "https://www.miaoli.gov.tw/bidding/News_Content.aspx?n=1094&s=463094"
+          ],
+          "notes": [
+            "啟明國小110年推動偏鄉學校中央廚房計畫-設備採購",
+            "具体機器内訳は仕様書確認が必要",
+            "得標廠商。調理設備メーカーではなく厨房設備会社として区分",
+            "得標廠商として掲載"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者",
+            "v30_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "TW",
+          "country_ja": "台湾",
+          "company_name": "程洹榮企業社",
+          "company_url": "",
+          "vendor_type": "厨房設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "厨房設備",
+              "evidence": "南投県隆華國小および東埔國小の偏鄉學校中央廚房計畫・廚房設備採購で得標廠商として掲載。",
+              "evidence_url": "https://www.ezbid.tw/detail/3.76.48.98.21/111-03-03-01-F / https://www.ezbid.tw/detail/3.76.48.98.18/111-002-F",
+              "note": "隆華國小、東埔國小案件",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "隆華國小、東埔國小案件",
+              "equipment": "厨房設備",
+              "evidence": "南投県隆華國小および東埔國小の偏鄉學校中央廚房計畫・廚房設備採購で得標廠商として掲載。",
+              "evidence_url": "https://www.ezbid.tw/detail/3.76.48.98.21/111-03-03-01-F / https://www.ezbid.tw/detail/3.76.48.98.18/111-002-F",
+              "note": "具体機器内訳は仕様書確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "南投県隆華國小、東埔國小 偏鄉學校中央廚房計畫・廚房設備採購",
+              "equipment": "厨房設備",
+              "evidence": "",
+              "evidence_url": "https://www.ezbid.tw/detail/3.76.48.98.21/111-03-03-01-F\nhttps://www.ezbid.tw/detail/3.76.48.98.18/111-002-F",
+              "note": "得標廠商",
+              "source_sheet": "v20_調理設備業者"
+            }
+          ],
+          "equipment_set": [
+            "厨房設備"
+          ],
+          "source_urls": [
+            "https://www.ezbid.tw/detail/3.76.48.98.21/111-03-03-01-F / https://www.ezbid.tw/detail/3.76.48.98.18/111-002-F",
+            "https://www.ezbid.tw/detail/3.76.48.98.21/111-03-03-01-F",
+            "https://www.ezbid.tw/detail/3.76.48.98.18/111-002-F"
+          ],
+          "notes": [
+            "隆華國小、東埔國小案件",
+            "具体機器内訳は仕様書確認が必要",
+            "得標廠商"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者"
+          ]
+        },
+        {
+          "entity_id": "TW",
+          "country_ja": "台湾",
+          "company_name": "以利亞工業股份有限公司",
+          "company_url": "",
+          "vendor_type": "厨房設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "厨房設備",
+              "evidence": "偏鄉學校中央廚房計畫-廚房設備で得標廠商として掲載。",
+              "evidence_url": "https://ezbid.tw/detail/3.76.48.97.92/1100908",
+              "note": "偏鄉學校中央廚房計畫-廚房設備",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "偏鄉學校中央廚房計畫-廚房設備",
+              "equipment": "厨房設備",
+              "evidence": "偏鄉學校中央廚房計畫-廚房設備で得標廠商として掲載。",
+              "evidence_url": "https://ezbid.tw/detail/3.76.48.97.92/1100908",
+              "note": "具体機器内訳は仕様書確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "偏鄉學校中央廚房計畫の廚房設備案件",
+              "equipment": "厨房設備",
+              "evidence": "",
+              "evidence_url": "https://ezbid.tw/detail/3.76.48.97.92/1100908",
+              "note": "得標廠商",
+              "source_sheet": "v20_調理設備業者"
+            }
+          ],
+          "equipment_set": [
+            "厨房設備"
+          ],
+          "source_urls": [
+            "https://ezbid.tw/detail/3.76.48.97.92/1100908"
+          ],
+          "notes": [
+            "偏鄉學校中央廚房計畫-廚房設備",
+            "具体機器内訳は仕様書確認が必要",
+            "得標廠商"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者"
+          ]
+        },
+        {
+          "entity_id": "TW",
+          "country_ja": "台湾",
+          "company_name": "越鋼不銹鋼有限公司",
+          "company_url": "",
+          "vendor_type": "ステンレス厨房設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "ステンレス厨房設備、厨房設備",
+              "evidence": "高雄市桃源区樟山國小の中央厨房計画・厨房設備改善採購案で得標廠商として掲載。",
+              "evidence_url": "https://bid.twincn.com/item.aspx?sn=13984095870",
+              "note": "樟山國小厨房設備改善採購案",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "樟山國小厨房設備改善採購案",
+              "equipment": "ステンレス厨房設備、厨房設備",
+              "evidence": "高雄市桃源区樟山國小の中央厨房計画・厨房設備改善採購案で得標廠商として掲載。",
+              "evidence_url": "https://bid.twincn.com/item.aspx?sn=13984095870",
+              "note": "具体機器内訳は仕様書確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "高雄市桃源区樟山國小 中央厨房計画・厨房設備改善採購案",
+              "equipment": "ステンレス厨房設備、厨房設備",
+              "evidence": "",
+              "evidence_url": "https://bid.twincn.com/item.aspx?sn=13984095870",
+              "note": "得標廠商。ステンレス厨房設備会社として区分",
+              "source_sheet": "v20_調理設備業者"
+            }
+          ],
+          "equipment_set": [
+            "ステンレス厨房設備、厨房設備"
+          ],
+          "source_urls": [
+            "https://bid.twincn.com/item.aspx?sn=13984095870"
+          ],
+          "notes": [
+            "樟山國小厨房設備改善採購案",
+            "具体機器内訳は仕様書確認が必要",
+            "得標廠商。ステンレス厨房設備会社として区分"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者"
+          ]
+        },
+        {
+          "entity_id": "TW",
+          "country_ja": "台湾",
+          "company_name": "益展不銹鋼廚具有限公司",
+          "company_url": "",
+          "vendor_type": "ステンレス厨房設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "ステンレス厨房設備、厨房設備",
+              "evidence": "南投県雙冬國小の偏鄉學校中央廚房計畫・廚房設備採購で得標廠商として掲載。",
+              "evidence_url": "https://ezbid.tw/detail/3.76.48.97.37/1100916",
+              "note": "雙冬國小厨房設備採購",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "雙冬國小厨房設備採購",
+              "equipment": "ステンレス厨房設備、厨房設備",
+              "evidence": "南投県雙冬國小の偏鄉學校中央廚房計畫・廚房設備採購で得標廠商として掲載。",
+              "evidence_url": "https://ezbid.tw/detail/3.76.48.97.37/1100916",
+              "note": "具体機器内訳は仕様書確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "南投県雙冬國小 偏鄉學校中央廚房計畫・廚房設備採購",
+              "equipment": "ステンレス厨房設備、厨房設備",
+              "evidence": "",
+              "evidence_url": "https://ezbid.tw/detail/3.76.48.97.37/1100916",
+              "note": "得標廠商。ステンレス厨房設備会社として区分",
+              "source_sheet": "v20_調理設備業者"
+            }
+          ],
+          "equipment_set": [
+            "ステンレス厨房設備、厨房設備"
+          ],
+          "source_urls": [
+            "https://ezbid.tw/detail/3.76.48.97.37/1100916"
+          ],
+          "notes": [
+            "雙冬國小厨房設備採購",
+            "具体機器内訳は仕様書確認が必要",
+            "得標廠商。ステンレス厨房設備会社として区分"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者"
+          ]
+        },
+        {
+          "entity_id": "TW",
+          "country_ja": "台湾",
+          "company_name": "永源不銹鋼有限公司",
+          "company_url": "",
+          "vendor_type": "ステンレス厨房設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "ステンレス厨房設備、厨房設備",
+              "evidence": "南投県の推動偏遠學校中央廚房計畫・廚房設備で得標廠商として掲載。",
+              "evidence_url": "https://ezbid.tw/detail/3.76.48.96.31/110-09-01-1",
+              "note": "推動偏遠學校中央廚房計畫-廚房設備",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "推動偏遠學校中央廚房計畫-廚房設備",
+              "equipment": "ステンレス厨房設備、厨房設備",
+              "evidence": "南投県の推動偏遠學校中央廚房計畫・廚房設備で得標廠商として掲載。",
+              "evidence_url": "https://ezbid.tw/detail/3.76.48.96.31/110-09-01-1",
+              "note": "具体機器内訳は仕様書確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "南投県 推動偏遠學校中央廚房計畫-廚房設備",
+              "equipment": "ステンレス厨房設備、厨房設備",
+              "evidence": "",
+              "evidence_url": "https://ezbid.tw/detail/3.76.48.96.31/110-09-01-1",
+              "note": "得標廠商。ステンレス厨房設備会社として区分",
+              "source_sheet": "v20_調理設備業者"
+            }
+          ],
+          "equipment_set": [
+            "ステンレス厨房設備、厨房設備"
+          ],
+          "source_urls": [
+            "https://ezbid.tw/detail/3.76.48.96.31/110-09-01-1"
+          ],
+          "notes": [
+            "推動偏遠學校中央廚房計畫-廚房設備",
+            "具体機器内訳は仕様書確認が必要",
+            "得標廠商。ステンレス厨房設備会社として区分"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者"
+          ]
+        },
+        {
+          "entity_id": "TW",
+          "country_ja": "台湾",
+          "company_name": "志豪工業有限公司",
+          "company_url": "",
+          "vendor_type": "厨房設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "厨房設備",
+              "evidence": "嘉義県精忠國小の中央厨房計画・厨房設備改善採購で得標廠商として掲載。",
+              "evidence_url": "https://ezbid.tw/detail/3.76.60.97.2/gces11005",
+              "note": "精忠國小厨房設備改善採購",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "精忠國小厨房設備改善採購",
+              "equipment": "厨房設備",
+              "evidence": "嘉義県精忠國小の中央厨房計画・厨房設備改善採購で得標廠商として掲載。",
+              "evidence_url": "https://ezbid.tw/detail/3.76.60.97.2/gces11005",
+              "note": "具体機器内訳は仕様書確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "嘉義県精忠國小 中央厨房計画・厨房設備改善採購",
+              "equipment": "厨房設備",
+              "evidence": "",
+              "evidence_url": "https://ezbid.tw/detail/3.76.60.97.2/gces11005",
+              "note": "得標廠商",
+              "source_sheet": "v20_調理設備業者"
+            }
+          ],
+          "equipment_set": [
+            "厨房設備"
+          ],
+          "source_urls": [
+            "https://ezbid.tw/detail/3.76.60.97.2/gces11005"
+          ],
+          "notes": [
+            "精忠國小厨房設備改善採購",
+            "具体機器内訳は仕様書確認が必要",
+            "得標廠商"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者"
+          ]
+        }
+      ],
+      "operators": [],
+      "sources": [
+        {
+          "label": "推動偏鄉學校中央廚房計畫",
+          "url": "https://www.edu.tw/News_Plan_Content.aspx?n=D33B55D537402BAA&s=D0A197A244A871..."
+        },
+        {
+          "label": "RATIONAL",
+          "url": "https://www.rational-online.com/en_sg/references/educational-establishment/sg-mailiao-elementary-school.php"
+        },
+        {
+          "label": "紘福不銹鋼工業有限公司",
+          "url": "https://www.miaoli.gov.tw/bidding/News_Content.aspx?n=1094&s=463094"
+        },
+        {
+          "label": "程洹榮企業社",
+          "url": "https://www.ezbid.tw/detail/3.76.48.98.21/111-03-03-01-F / https://www.ezbid.tw/detail/3.76.48.98.18/111-002-F"
+        },
+        {
+          "label": "程洹榮企業社",
+          "url": "https://www.ezbid.tw/detail/3.76.48.98.21/111-03-03-01-F"
+        },
+        {
+          "label": "程洹榮企業社",
+          "url": "https://www.ezbid.tw/detail/3.76.48.98.18/111-002-F"
+        },
+        {
+          "label": "以利亞工業股份有限公司",
+          "url": "https://ezbid.tw/detail/3.76.48.97.92/1100908"
+        },
+        {
+          "label": "越鋼不銹鋼有限公司",
+          "url": "https://bid.twincn.com/item.aspx?sn=13984095870"
+        },
+        {
+          "label": "益展不銹鋼廚具有限公司",
+          "url": "https://ezbid.tw/detail/3.76.48.97.37/1100916"
+        },
+        {
+          "label": "永源不銹鋼有限公司",
+          "url": "https://ezbid.tw/detail/3.76.48.96.31/110-09-01-1"
+        },
+        {
+          "label": "志豪工業有限公司",
+          "url": "https://ezbid.tw/detail/3.76.60.97.2/gces11005"
+        }
+      ],
+      "equipment_vendor_count": 8,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": true
+    },
+    {
+      "entity_id": "JP",
+      "name_ja": "日本",
+      "name_en": "Japan",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "programs": [
+        {
+          "program_name": "学校給食センター／共同調理場",
+          "operator": "自治体、委託事業者等",
+          "target": "小中学校",
+          "central_kitchen_model": "複数校分を共同調理し配送",
+          "school_count": "自治体別",
+          "scale": "例：3,000食、6,000〜7,000食程度など",
+          "rice_note": "炊飯設備、洗米、食缶、配缶、洗浄ラインが確認対象",
+          "delivery_temperature_note": "食缶配送、配送車、温度管理",
+          "equipment_status_note": "学校給食センター向け炊飯、洗米、加熱、洗浄、消毒保管、配缶、保温配送設備が多い",
+          "procurement_status_note": "PFI等の一体発注例と、厨房機器購入の個別入札例あり。調理設備部分のみ確認対象",
+          "next_check": "代表センター別の炊飯ライン、機器メーカー、入札資料、納入実績",
+          "source_url": "https://www.mext.go.jp/a_menu/shotou/zyosei/mext_01284.html",
+          "review_status": "高所得。学校給食・中央厨房／公共給食／給食事業者の調理設備情報を確認対象。"
+        }
+      ],
+      "equipment_vendors": [
+        {
+          "entity_id": "JP",
+          "country_ja": "日本",
+          "company_name": "中西製作所",
+          "company_url": "https://www.nakanishi.co.jp/",
+          "vendor_type": "厨房調理設備メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "炊飯、洗米、加熱調理、洗浄、消毒保管など",
+              "evidence": "公式の学校給食納入実績に学校給食センター名と食数が掲載されている。",
+              "evidence_url": "https://www.nakanishi.co.jp/strengths/school/works.html",
+              "note": "例：静岡市門屋学校給食センター10,000食、岡崎市東部学校給食センター13,000食など",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "例：静岡市門屋学校給食センター10,000食、岡崎市東部学校給食センター13,000食など",
+              "equipment": "炊飯、洗米、加熱調理、洗浄、消毒保管など",
+              "evidence": "公式の学校給食納入実績に学校給食センター名と食数が掲載されている。",
+              "evidence_url": "https://www.nakanishi.co.jp/strengths/school/works.html",
+              "note": "個別機器構成は施設別に仕様確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "学校給食センター納入実績",
+              "equipment": "炊飯、洗米、加熱調理、洗浄、消毒保管等",
+              "evidence": "",
+              "evidence_url": "https://www.nakanishi.co.jp/strengths/school/works.html",
+              "note": "学校給食センター名・食数掲載あり",
+              "source_sheet": "v20_調理設備業者"
+            },
+            {
+              "project_or_case": "学校給食センター納入実績",
+              "equipment": "炊飯、洗米、加熱調理、洗浄、消毒保管",
+              "evidence": "",
+              "evidence_url": "https://www.nakanishi.co.jp/strengths/school/works.html",
+              "note": "学校給食センター名・食数掲載あり",
+              "source_sheet": "v30_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "炊飯、洗米、加熱調理、洗浄、消毒保管など",
+            "炊飯、洗米、加熱調理、洗浄、消毒保管等",
+            "炊飯、洗米、加熱調理、洗浄、消毒保管"
+          ],
+          "source_urls": [
+            "https://www.nakanishi.co.jp/strengths/school/works.html"
+          ],
+          "notes": [
+            "例：静岡市門屋学校給食センター10,000食、岡崎市東部学校給食センター13,000食など",
+            "個別機器構成は施設別に仕様確認が必要",
+            "学校給食センター名・食数掲載あり"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者",
+            "v30_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "JP",
+          "country_ja": "日本",
+          "company_name": "AIHO（アイホー）",
+          "company_url": "https://www.aiho.co.jp/",
+          "vendor_type": "厨房調理設備メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "炊飯、加熱調理、洗浄、衛生管理、学校給食設備",
+              "evidence": "公式の学校給食ページに大型学校給食センターから単独校までの実績多数と記載。古賀市学校給食センターの実績ページあり。",
+              "evidence_url": "https://www.aiho.co.jp/solution/school/ / https://www.aiho.co.jp/works/koga/",
+              "note": "学校給食・炊飯・セントラルキッチンを公式カテゴリとして掲載",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "学校給食・炊飯・セントラルキッチンを公式カテゴリとして掲載",
+              "equipment": "炊飯、加熱調理、洗浄、衛生管理、学校給食設備",
+              "evidence": "公式の学校給食ページに大型学校給食センターから単独校までの実績多数と記載。古賀市学校給食センターの実績ページあり。",
+              "evidence_url": "https://www.aiho.co.jp/solution/school/ / https://www.aiho.co.jp/works/koga/",
+              "note": "個別案件の機器明細は追加確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "学校給食設備・給食センター事例",
+              "equipment": "炊飯、加熱、洗浄、衛生管理",
+              "evidence": "",
+              "evidence_url": "https://www.aiho.co.jp/solution/school/",
+              "note": "学校給食設備ページあり",
+              "source_sheet": "v30_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "炊飯、加熱調理、洗浄、衛生管理、学校給食設備",
+            "炊飯、加熱、洗浄、衛生管理"
+          ],
+          "source_urls": [
+            "https://www.aiho.co.jp/solution/school/ / https://www.aiho.co.jp/works/koga/",
+            "https://www.aiho.co.jp/solution/school/"
+          ],
+          "notes": [
+            "学校給食・炊飯・セントラルキッチンを公式カテゴリとして掲載",
+            "個別案件の機器明細は追加確認が必要",
+            "学校給食設備ページあり"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v30_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "JP",
+          "country_ja": "日本",
+          "company_name": "タニコー",
+          "company_url": "https://www.tanico.co.jp/",
+          "vendor_type": "厨房調理設備メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "加熱調理、ステンレス厨房機器、給食センター向け設備",
+              "evidence": "公式ページでPFI事業に参加し、多くの給食センターに製品納入と記載。",
+              "evidence_url": "https://www.tanico.co.jp/category/pfi/",
+              "note": "PFI給食センターでの製品納入",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "PFI給食センターでの製品納入",
+              "equipment": "加熱調理、ステンレス厨房機器、給食センター向け設備",
+              "evidence": "公式ページでPFI事業に参加し、多くの給食センターに製品納入と記載。",
+              "evidence_url": "https://www.tanico.co.jp/category/pfi/",
+              "note": "炊飯機器の有無は案件別確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "PFI給食センター向け製品納入",
+              "equipment": "加熱調理、ステンレス厨房機器、給食センター向け設備",
+              "evidence": "",
+              "evidence_url": "https://www.tanico.co.jp/category/pfi/",
+              "note": "PFI事業における給食センター製品納入を掲載",
+              "source_sheet": "v20_調理設備業者"
+            },
+            {
+              "project_or_case": "PFI給食センター向け製品納入",
+              "equipment": "加熱調理、ステンレス厨房機器",
+              "evidence": "",
+              "evidence_url": "https://www.tanico.co.jp/category/pfi/",
+              "note": "PFI給食センター製品納入掲載",
+              "source_sheet": "v30_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "加熱調理、ステンレス厨房機器、給食センター向け設備",
+            "加熱調理、ステンレス厨房機器"
+          ],
+          "source_urls": [
+            "https://www.tanico.co.jp/category/pfi/"
+          ],
+          "notes": [
+            "PFI給食センターでの製品納入",
+            "炊飯機器の有無は案件別確認が必要",
+            "PFI事業における給食センター製品納入を掲載",
+            "PFI給食センター製品納入掲載"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者",
+            "v30_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "JP",
+          "country_ja": "日本",
+          "company_name": "フジマック",
+          "company_url": "https://www.fujimak.co.jp/",
+          "vendor_type": "厨房調理設備メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "コンビオーブン、ブラストチラー、冷蔵冷凍、加熱調理、洗浄、衛生管理",
+              "evidence": "公式ページに給食設備（医療・福祉・学校）および学校給食セントラルキッチン、単独校の設計例が掲載されている。",
+              "evidence_url": "https://www.fujimak.co.jp/works/large-equipment/foodservice/ / https://www.fujimak.co.jp/works/kitchen-design/cat4/post_21.html",
+              "note": "学校給食単独校600食、学校給食セントラルキッチン1000食の設計例",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "学校給食単独校600食、学校給食セントラルキッチン1000食の設計例",
+              "equipment": "コンビオーブン、ブラストチラー、冷蔵冷凍、加熱調理、洗浄、衛生管理",
+              "evidence": "公式ページに給食設備（医療・福祉・学校）および学校給食セントラルキッチン、単独校の設計例が掲載されている。",
+              "evidence_url": "https://www.fujimak.co.jp/works/large-equipment/foodservice/ / https://www.fujimak.co.jp/works/kitchen-design/cat4/post_21.html",
+              "note": "施設別の納入機器リストは追加確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "学校給食セントラルキッチン、単独校設計例",
+              "equipment": "コンビオーブン、ブラストチラー、冷蔵冷凍、加熱調理、洗浄、衛生管理",
+              "evidence": "",
+              "evidence_url": "https://www.fujimak.co.jp/works/large-equipment/foodservice/\nhttps://www.fujimak.co.jp/works/kitchen-design/cat4/post_21.html",
+              "note": "学校給食セントラルキッチン1,000食の設計例",
+              "source_sheet": "v20_調理設備業者"
+            },
+            {
+              "project_or_case": "学校給食セントラルキッチン設計例",
+              "equipment": "スチコン、冷蔵冷凍、加熱、洗浄",
+              "evidence": "",
+              "evidence_url": "https://www.fujimak.co.jp/works/large-equipment/foodservice/",
+              "note": "学校給食設備ページあり",
+              "source_sheet": "v30_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "コンビオーブン、ブラストチラー、冷蔵冷凍、加熱調理、洗浄、衛生管理",
+            "スチコン、冷蔵冷凍、加熱、洗浄"
+          ],
+          "source_urls": [
+            "https://www.fujimak.co.jp/works/large-equipment/foodservice/ / https://www.fujimak.co.jp/works/kitchen-design/cat4/post_21.html",
+            "https://www.fujimak.co.jp/works/large-equipment/foodservice/",
+            "https://www.fujimak.co.jp/works/kitchen-design/cat4/post_21.html"
+          ],
+          "notes": [
+            "学校給食単独校600食、学校給食セントラルキッチン1000食の設計例",
+            "施設別の納入機器リストは追加確認が必要",
+            "学校給食セントラルキッチン1,000食の設計例",
+            "学校給食設備ページあり"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者",
+            "v30_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "JP",
+          "country_ja": "日本",
+          "company_name": "日本給食設備",
+          "company_url": "https://www.nikkyu.co.jp/",
+          "vendor_type": "給食厨房設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "学校給食厨房設備、調理機器、洗浄、保管、配膳関連",
+              "evidence": "公式ページで学校給食の自校方式・親子方式・給食センター方式に対応した設計施工を記載。",
+              "evidence_url": "https://www.nikkyu.co.jp/",
+              "note": "学校給食分野を公式に掲載",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "学校給食分野を公式に掲載",
+              "equipment": "学校給食厨房設備、調理機器、洗浄、保管、配膳関連",
+              "evidence": "公式ページで学校給食の自校方式・親子方式・給食センター方式に対応した設計施工を記載。",
+              "evidence_url": "https://www.nikkyu.co.jp/",
+              "note": "機械ごとのメーカー・型式は追加確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "学校給食の自校方式・親子方式・給食センター方式",
+              "equipment": "学校給食厨房設備、調理機器、洗浄、保管、配膳関連",
+              "evidence": "",
+              "evidence_url": "https://www.nikkyu.co.jp/",
+              "note": "学校給食方式への対応を掲載",
+              "source_sheet": "v20_調理設備業者"
+            }
+          ],
+          "equipment_set": [
+            "学校給食厨房設備、調理機器、洗浄、保管、配膳関連"
+          ],
+          "source_urls": [
+            "https://www.nikkyu.co.jp/"
+          ],
+          "notes": [
+            "学校給食分野を公式に掲載",
+            "機械ごとのメーカー・型式は追加確認が必要",
+            "学校給食方式への対応を掲載"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者"
+          ]
+        },
+        {
+          "entity_id": "JP",
+          "country_ja": "日本",
+          "company_name": "マルゼン",
+          "company_url": "https://www.maruzen-kitchen.co.jp/",
+          "vendor_type": "厨房調理設備メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "加熱調理、厨房設備、給食センター厨房設備",
+              "evidence": "公式の納入実績例に給食センター・小中学校が掲載。おいらせ町学校給食センター厨房設備整備工事の契約相手として公表資料あり。",
+              "evidence_url": "https://www.maruzen-kitchen.co.jp/company/ex/ / https://www.town.oirase.aomori.jp/uploaded/attachment/3453.pdf",
+              "note": "公共資料では学校給食センター厨房設備整備工事の契約相手として記載",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "公共資料では学校給食センター厨房設備整備工事の契約相手として記載",
+              "equipment": "加熱調理、厨房設備、給食センター厨房設備",
+              "evidence": "公式の納入実績例に給食センター・小中学校が掲載。おいらせ町学校給食センター厨房設備整備工事の契約相手として公表資料あり。",
+              "evidence_url": "https://www.maruzen-kitchen.co.jp/company/ex/ / https://www.town.oirase.aomori.jp/uploaded/attachment/3453.pdf",
+              "note": "個別設備明細は案件仕様書確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "給食センター・小中学校、給食センター厨房設備整備工事",
+              "equipment": "加熱調理、厨房設備、給食センター厨房設備",
+              "evidence": "",
+              "evidence_url": "https://www.maruzen-kitchen.co.jp/company/ex/\nhttps://www.town.oirase.aomori.jp/uploaded/attachment/3453.pdf",
+              "note": "納入実績と公共資料に給食センター案件あり",
+              "source_sheet": "v20_調理設備業者"
+            },
+            {
+              "project_or_case": "給食センター・小中学校納入実績",
+              "equipment": "加熱調理、厨房設備",
+              "evidence": "",
+              "evidence_url": "https://www.maruzen-kitchen.co.jp/company/ex/",
+              "note": "納入実績例あり",
+              "source_sheet": "v30_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "加熱調理、厨房設備、給食センター厨房設備",
+            "加熱調理、厨房設備"
+          ],
+          "source_urls": [
+            "https://www.maruzen-kitchen.co.jp/company/ex/ / https://www.town.oirase.aomori.jp/uploaded/attachment/3453.pdf",
+            "https://www.maruzen-kitchen.co.jp/company/ex/",
+            "https://www.town.oirase.aomori.jp/uploaded/attachment/3453.pdf"
+          ],
+          "notes": [
+            "公共資料では学校給食センター厨房設備整備工事の契約相手として記載",
+            "個別設備明細は案件仕様書確認が必要",
+            "納入実績と公共資料に給食センター案件あり",
+            "納入実績例あり"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者",
+            "v30_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "JP",
+          "country_ja": "日本",
+          "company_name": "日本調理機",
+          "company_url": "https://www.nitcho.co.jp/",
+          "vendor_type": "厨房調理設備メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "洗浄機、消毒保管機、給食センター厨房機器",
+              "evidence": "公式の沿革に都内初の給食センターを手掛け、全国の給食センター成約へ結実した旨の記載。",
+              "evidence_url": "https://www.nitcho.co.jp/company/history.html",
+              "note": "給食センター分野の歴史実績",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "給食センター分野の歴史実績",
+              "equipment": "洗浄機、消毒保管機、給食センター厨房機器",
+              "evidence": "公式の沿革に都内初の給食センターを手掛け、全国の給食センター成約へ結実した旨の記載。",
+              "evidence_url": "https://www.nitcho.co.jp/company/history.html",
+              "note": "現在の学校給食案件別実績は追加確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            },
+            {
+              "project_or_case": "給食センター分野の実績",
+              "equipment": "洗浄機、消毒保管機、給食センター厨房機器",
+              "evidence": "",
+              "evidence_url": "https://www.nitcho.co.jp/company/history.html",
+              "note": "沿革に給食センター分野の記載",
+              "source_sheet": "v20_調理設備業者"
+            },
+            {
+              "project_or_case": "給食センター厨房機器",
+              "equipment": "洗浄機、消毒保管機",
+              "evidence": "",
+              "evidence_url": "https://www.nitcho.co.jp/company/history.html",
+              "note": "給食センター分野の記載あり",
+              "source_sheet": "v30_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "洗浄機、消毒保管機、給食センター厨房機器",
+            "洗浄機、消毒保管機"
+          ],
+          "source_urls": [
+            "https://www.nitcho.co.jp/company/history.html"
+          ],
+          "notes": [
+            "給食センター分野の歴史実績",
+            "現在の学校給食案件別実績は追加確認が必要",
+            "沿革に給食センター分野の記載",
+            "給食センター分野の記載あり"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分",
+            "v20_調理設備業者",
+            "v30_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "JP",
+          "country_ja": "日本",
+          "company_name": "AIHO／アイホー",
+          "company_url": "https://www.aiho.co.jp/",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "学校給食設備、古賀市学校給食センター等",
+              "equipment": "炊飯、加熱調理、洗浄、衛生管理等",
+              "evidence": "",
+              "evidence_url": "https://www.aiho.co.jp/solution/school/\nhttps://www.aiho.co.jp/works/koga/",
+              "note": "大型学校給食センターから単独校までの実績掲載",
+              "source_sheet": "v20_調理設備業者"
+            }
+          ],
+          "equipment_set": [
+            "炊飯、加熱調理、洗浄、衛生管理等"
+          ],
+          "source_urls": [
+            "https://www.aiho.co.jp/solution/school/",
+            "https://www.aiho.co.jp/works/koga/"
+          ],
+          "notes": [
+            "大型学校給食センターから単独校までの実績掲載"
+          ],
+          "source_sheets": [
+            "v20_調理設備業者"
+          ]
+        }
+      ],
+      "operators": [],
+      "sources": [
+        {
+          "label": "学校給食センター／共同調理場",
+          "url": "https://www.mext.go.jp/a_menu/shotou/zyosei/mext_01284.html"
+        },
+        {
+          "label": "中西製作所",
+          "url": "https://www.nakanishi.co.jp/strengths/school/works.html"
+        },
+        {
+          "label": "AIHO（アイホー）",
+          "url": "https://www.aiho.co.jp/solution/school/ / https://www.aiho.co.jp/works/koga/"
+        },
+        {
+          "label": "AIHO（アイホー）",
+          "url": "https://www.aiho.co.jp/solution/school/"
+        },
+        {
+          "label": "タニコー",
+          "url": "https://www.tanico.co.jp/category/pfi/"
+        },
+        {
+          "label": "フジマック",
+          "url": "https://www.fujimak.co.jp/works/large-equipment/foodservice/ / https://www.fujimak.co.jp/works/kitchen-design/cat4/post_21.html"
+        },
+        {
+          "label": "フジマック",
+          "url": "https://www.fujimak.co.jp/works/large-equipment/foodservice/"
+        },
+        {
+          "label": "フジマック",
+          "url": "https://www.fujimak.co.jp/works/kitchen-design/cat4/post_21.html"
+        },
+        {
+          "label": "日本給食設備",
+          "url": "https://www.nikkyu.co.jp/"
+        },
+        {
+          "label": "マルゼン",
+          "url": "https://www.maruzen-kitchen.co.jp/company/ex/ / https://www.town.oirase.aomori.jp/uploaded/attachment/3453.pdf"
+        },
+        {
+          "label": "マルゼン",
+          "url": "https://www.maruzen-kitchen.co.jp/company/ex/"
+        },
+        {
+          "label": "マルゼン",
+          "url": "https://www.town.oirase.aomori.jp/uploaded/attachment/3453.pdf"
+        }
+      ],
+      "equipment_vendor_count": 8,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": true
+    },
+    {
+      "entity_id": "HK",
+      "name_ja": "香港",
+      "name_en": "Hong Kong, China",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "programs": [
+        {
+          "program_name": "学校ランチボックス供給業者／Food Factory Licence",
+          "operator": "認可食品工場、学校給食供給業者",
+          "target": "学校向けランチボックス",
+          "central_kitchen_model": "食品工場で調理し学校へ供給",
+          "school_count": "業者別",
+          "scale": "情報整理中",
+          "rice_note": "個食弁当、米飯含む情報整理中",
+          "delivery_temperature_note": "学校配送、温度管理、検査",
+          "equipment_status_note": "弁当充填、炊飯、保温・保冷、個食包装、洗浄設備を確認対象",
+          "procurement_status_note": "民間食品工場。調理設備業者・入札情報は情報整理中",
+          "next_check": "供給業者別の厨房設備、炊飯能力、包装ライン",
+          "source_url": "https://school.eatsmart.gov.hk/files/pdf/database_lunch_suppliers_operation_e...",
+          "review_status": "高所得。学校給食・中央厨房／公共給食／給食事業者の調理設備情報を確認対象。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "学校ランチボックス供給業者／Food Factory Licence",
+          "url": "https://school.eatsmart.gov.hk/files/pdf/database_lunch_suppliers_operation_e..."
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "IS",
+      "name_ja": "アイスランド",
+      "name_en": "Iceland",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "programs": [],
+      "equipment_vendors": [
+        {
+          "entity_id": "IS",
+          "country_ja": "アイスランド",
+          "company_name": "Metos / Hackman",
+          "company_url": "https://www.metos.com/",
+          "vendor_type": "釜・大量調理機器",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "Skólamatur School Meals",
+              "equipment": "Hackman kettles",
+              "evidence": "6500食規模のSchool Meals事業者がkettle portfolioを拡張した記載",
+              "evidence_url": "https://www.metos.com/pdf/Manufacturing/News/Hackman_News_Dec_2011.pdf",
+              "note": "",
+              "source_sheet": "v31_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "Hackman kettles"
+          ],
+          "source_urls": [
+            "https://www.metos.com/pdf/Manufacturing/News/Hackman_News_Dec_2011.pdf"
+          ],
+          "notes": [],
+          "source_sheets": [
+            "v31_設備業者補充"
+          ]
+        }
+      ],
+      "operators": [],
+      "sources": [
+        {
+          "label": "Metos / Hackman",
+          "url": "https://www.metos.com/pdf/Manufacturing/News/Hackman_News_Dec_2011.pdf"
+        }
+      ],
+      "equipment_vendor_count": 1,
+      "operator_count": 0,
+      "program_count": 0,
+      "has_central_kitchen": false,
+      "has_equipment_vendors": true
+    },
+    {
+      "entity_id": "GB",
+      "name_ja": "イギリス",
+      "name_en": "United Kingdom",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "programs": [
+        {
+          "program_name": "Hub kitchen／Central Production Unit",
+          "operator": "自治体、学校給食事業者等",
+          "target": "学校",
+          "central_kitchen_model": "中央生産施設から学校へ供給",
+          "school_count": "自治体・事業者別",
+          "scale": "情報整理中",
+          "rice_note": "米飯・主食設備は施設別確認",
+          "delivery_temperature_note": "配送、再加熱、保温",
+          "equipment_status_note": "central production kitchen向け加熱、冷却、再加熱、配送容器、洗浄設備を確認対象",
+          "procurement_status_note": "公共・民間の調達あり。調理設備業者は候補整理済み",
+          "next_check": "CPU設備、学校給食向け設備会社、入札資料",
+          "source_url": "https://www.falconfoodservice.com/sector-focus/schools",
+          "review_status": "高所得。学校給食・中央厨房／公共給食／給食事業者の調理設備情報を確認対象。"
+        }
+      ],
+      "equipment_vendors": [
+        {
+          "entity_id": "GB",
+          "country_ja": "英国",
+          "company_name": "MEIKO",
+          "company_url": "",
+          "vendor_type": "洗浄機メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "食器洗浄機、グラス洗浄、カトラリー前処理",
+              "evidence": "公式事例にLycée Français Charles de Gaulleで新しいdishwashing machineの記載。",
+              "evidence_url": "https://www.meiko.com/en/case-studies/canteens/lycee-francais-charles-de-gaulle",
+              "note": "Lycée Français Charles de Gaulle",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "Lycée Français Charles de Gaulle",
+              "equipment": "食器洗浄機、グラス洗浄、カトラリー前処理",
+              "evidence": "公式事例にLycée Français Charles de Gaulleで新しいdishwashing machineの記載。",
+              "evidence_url": "https://www.meiko.com/en/case-studies/canteens/lycee-francais-charles-de-gaulle",
+              "note": "学校給食センター型か校内食堂型かは追加確認が必要",
+              "source_sheet": "実績業者_v19_校名区分"
+            }
+          ],
+          "equipment_set": [
+            "食器洗浄機、グラス洗浄、カトラリー前処理"
+          ],
+          "source_urls": [
+            "https://www.meiko.com/en/case-studies/canteens/lycee-francais-charles-de-gaulle"
+          ],
+          "notes": [
+            "Lycée Français Charles de Gaulle",
+            "学校給食センター型か校内食堂型かは追加確認が必要"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分"
+          ]
+        },
+        {
+          "entity_id": "GB",
+          "country_ja": "英国",
+          "company_name": "KDE Catering Equipment",
+          "company_url": "https://www.kdecateringequipment.com/",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "学校食堂・学校厨房向け設備供給・設置",
+              "equipment": "dishwashers、combi-ovens、refrigerations、food prep machines",
+              "evidence": "",
+              "evidence_url": "https://www.kdecateringequipment.com/commercial-catering-equipment-for-schools/",
+              "note": "公式ページに schools canteens and kitchens への supply/install を掲載",
+              "source_sheet": "v21_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "dishwashers、combi-ovens、refrigerations、food prep machines"
+          ],
+          "source_urls": [
+            "https://www.kdecateringequipment.com/commercial-catering-equipment-for-schools/"
+          ],
+          "notes": [
+            "公式ページに schools canteens and kitchens への supply/install を掲載"
+          ],
+          "source_sheets": [
+            "v21_調理設備業者追加"
+          ]
+        },
+        {
+          "entity_id": "GB",
+          "country_ja": "英国",
+          "company_name": "School Catering Equipment",
+          "company_url": "https://schoolcateringequipment.co.uk/",
+          "vendor_type": "学校厨房設備販売",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "学校厨房向け設備販売",
+              "equipment": "cookware、bakeware、combi ovens、serving counters、fridges、blenders",
+              "evidence": "",
+              "evidence_url": "https://schoolcateringequipment.co.uk/essential-equipment-every-uk-school-kitchen-should-have-in-2025/",
+              "note": "公式ページに school kitchens に特化した設備掲載",
+              "source_sheet": "v21_調理設備業者追加"
+            },
+            {
+              "project_or_case": "学校厨房",
+              "equipment": "学校向け厨房用品・厨房設備",
+              "evidence": "会社公式ページ",
+              "evidence_url": "",
+              "note": "",
+              "source_sheet": "v24_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "cookware、bakeware、combi ovens、serving counters、fridges、blenders",
+            "学校向け厨房用品・厨房設備"
+          ],
+          "source_urls": [
+            "https://schoolcateringequipment.co.uk/essential-equipment-every-uk-school-kitchen-should-have-in-2025/"
+          ],
+          "notes": [
+            "公式ページに school kitchens に特化した設備掲載"
+          ],
+          "source_sheets": [
+            "v21_調理設備業者追加",
+            "v24_調理設備業者追加"
+          ]
+        },
+        {
+          "entity_id": "GB",
+          "country_ja": "英国",
+          "company_name": "The Kitchen Equipment Company / Kitchequip",
+          "company_url": "https://www.theschoolfoodpeople.co.uk/suppliers/kitchen-equipment-company-limited",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "学校給食関連サプライヤー一覧掲載",
+              "equipment": "bespoke kitchen design and fit、commercial catering equipment",
+              "evidence": "",
+              "evidence_url": "https://www.theschoolfoodpeople.co.uk/suppliers/kitchen-equipment-company-limited",
+              "note": "The School Food People の supplier 掲載",
+              "source_sheet": "v21_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "bespoke kitchen design and fit、commercial catering equipment"
+          ],
+          "source_urls": [
+            "https://www.theschoolfoodpeople.co.uk/suppliers/kitchen-equipment-company-limited"
+          ],
+          "notes": [
+            "The School Food People の supplier 掲載"
+          ],
+          "source_sheets": [
+            "v21_調理設備業者追加"
+          ]
+        },
+        {
+          "entity_id": "GB",
+          "country_ja": "United Kingdom",
+          "company_name": "JLA",
+          "company_url": "https://jla.com/blog/catering/school-buying-guide-for-catering-equipment/",
+          "vendor_type": "学校厨房設備・ケータリング設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "調理設備、洗浄、保管、学校厨房設備",
+              "evidence": "",
+              "evidence_url": "https://jla.com/blog/catering/school-buying-guide-for-catering-equipment/",
+              "note": "特定学校案件名は未掲載",
+              "source_sheet": "v23_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "調理設備、洗浄、保管、学校厨房設備"
+          ],
+          "source_urls": [
+            "https://jla.com/blog/catering/school-buying-guide-for-catering-equipment/"
+          ],
+          "notes": [
+            "特定学校案件名は未掲載"
+          ],
+          "source_sheets": [
+            "v23_調理設備業者追加"
+          ]
+        },
+        {
+          "entity_id": "GB",
+          "country_ja": "英国",
+          "company_name": "Falcon Foodservice",
+          "company_url": "https://www.falconfoodservice.com/sector-focus/schools",
+          "vendor_type": "学校厨房設備メーカー",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "学校厨房",
+              "equipment": "調理機器・学校給食厨房向け設備",
+              "evidence": "会社公式のSchoolsページ",
+              "evidence_url": "",
+              "note": "",
+              "source_sheet": "v24_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "調理機器・学校給食厨房向け設備"
+          ],
+          "source_urls": [],
+          "notes": [],
+          "source_sheets": [
+            "v24_調理設備業者追加"
+          ]
+        },
+        {
+          "entity_id": "GB",
+          "country_ja": "英国",
+          "company_name": "KDEC Catering Equipment",
+          "company_url": "https://www.kdecateringequipment.com/commercial-catering-equipment-for-schools/",
+          "vendor_type": "学校厨房設備販売・施工",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "学校食堂・学校厨房",
+              "equipment": "食器洗浄機、コンビオーブン、冷蔵、食品準備機器",
+              "evidence": "会社公式の学校向け設備ページ",
+              "evidence_url": "",
+              "note": "",
+              "source_sheet": "v24_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "食器洗浄機、コンビオーブン、冷蔵、食品準備機器"
+          ],
+          "source_urls": [],
+          "notes": [],
+          "source_sheets": [
+            "v24_調理設備業者追加"
+          ]
+        },
+        {
+          "entity_id": "GB",
+          "country_ja": "英国",
+          "company_name": "Winterhalter",
+          "company_url": "https://www.winterhalter.com/",
+          "vendor_type": "洗浄機",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "Merchiston Castle School / Dulwich College",
+              "equipment": "MT Series conveyor dishwasher / glasswasher",
+              "evidence": "学校・college canteenでの導入事例が掲載",
+              "evidence_url": "https://www.winterhalter.com/uk-en/industries/canteen/the-merchiston-castle-school-mtr/\nhttps://www.winterhalter.com/uk-en/industries/canteen/dulwich-college-mtr/",
+              "note": "",
+              "source_sheet": "v31_設備業者補充"
+            },
+            {
+              "project_or_case": "St Mary's School Ascot",
+              "equipment": "ラックコンベヤ洗浄機、器具洗浄機、グラス洗浄機",
+              "evidence": "学校事例でwarewasher構成が掲載",
+              "evidence_url": "https://www.winterhalter.com/uk-en/industries/educational-establishments/utensil-washers-for-schools-case-study/",
+              "note": "教育施設向け洗浄設備",
+              "source_sheet": "v33_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "MT Series conveyor dishwasher / glasswasher",
+            "ラックコンベヤ洗浄機、器具洗浄機、グラス洗浄機"
+          ],
+          "source_urls": [
+            "https://www.winterhalter.com/uk-en/industries/canteen/the-merchiston-castle-school-mtr/",
+            "https://www.winterhalter.com/uk-en/industries/canteen/dulwich-college-mtr/",
+            "https://www.winterhalter.com/uk-en/industries/educational-establishments/utensil-washers-for-schools-case-study/"
+          ],
+          "notes": [
+            "教育施設向け洗浄設備"
+          ],
+          "source_sheets": [
+            "v31_設備業者補充",
+            "v33_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "GB",
+          "country_ja": "英国",
+          "company_name": "RATIONAL",
+          "company_url": "https://www.rational-online.com/",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "Education catering",
+              "equipment": "iCombi / intelligent cooking systems",
+              "evidence": "RATIONAL UKページにpreschools and schools向け教育ケータリング用途が掲載",
+              "evidence_url": "https://www.rational-online.com/en_gb/industry/catering-in-education/",
+              "note": "教育施設向け調理設備として採用",
+              "source_sheet": "v32_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "iCombi / intelligent cooking systems"
+          ],
+          "source_urls": [
+            "https://www.rational-online.com/en_gb/industry/catering-in-education/"
+          ],
+          "notes": [
+            "教育施設向け調理設備として採用"
+          ],
+          "source_sheets": [
+            "v32_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "GB",
+          "country_ja": "英国",
+          "company_name": "Hobart",
+          "company_url": "https://www.hobartcorp.com/",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "North Tyneside School",
+              "equipment": "食器洗浄機",
+              "evidence": "Hobart dishwasher、48 racks per hourの導入事例",
+              "evidence_url": "https://hlaservices.co.uk/case-studies/case-study-catering-equipment-school-dishwasher-installation/",
+              "note": "導入会社はHLA Services、機器名はHobart",
+              "source_sheet": "v33_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "食器洗浄機"
+          ],
+          "source_urls": [
+            "https://hlaservices.co.uk/case-studies/case-study-catering-equipment-school-dishwasher-installation/"
+          ],
+          "notes": [
+            "導入会社はHLA Services、機器名はHobart"
+          ],
+          "source_sheets": [
+            "v33_設備業者補充"
+          ]
+        }
+      ],
+      "operators": [],
+      "sources": [
+        {
+          "label": "Hub kitchen／Central Production Unit",
+          "url": "https://www.falconfoodservice.com/sector-focus/schools"
+        },
+        {
+          "label": "MEIKO",
+          "url": "https://www.meiko.com/en/case-studies/canteens/lycee-francais-charles-de-gaulle"
+        },
+        {
+          "label": "KDE Catering Equipment",
+          "url": "https://www.kdecateringequipment.com/commercial-catering-equipment-for-schools/"
+        },
+        {
+          "label": "School Catering Equipment",
+          "url": "https://schoolcateringequipment.co.uk/essential-equipment-every-uk-school-kitchen-should-have-in-2025/"
+        },
+        {
+          "label": "The Kitchen Equipment Company / Kitchequip",
+          "url": "https://www.theschoolfoodpeople.co.uk/suppliers/kitchen-equipment-company-limited"
+        },
+        {
+          "label": "JLA",
+          "url": "https://jla.com/blog/catering/school-buying-guide-for-catering-equipment/"
+        },
+        {
+          "label": "Winterhalter",
+          "url": "https://www.winterhalter.com/uk-en/industries/canteen/the-merchiston-castle-school-mtr/"
+        },
+        {
+          "label": "Winterhalter",
+          "url": "https://www.winterhalter.com/uk-en/industries/canteen/dulwich-college-mtr/"
+        },
+        {
+          "label": "Winterhalter",
+          "url": "https://www.winterhalter.com/uk-en/industries/educational-establishments/utensil-washers-for-schools-case-study/"
+        },
+        {
+          "label": "RATIONAL",
+          "url": "https://www.rational-online.com/en_gb/industry/catering-in-education/"
+        },
+        {
+          "label": "Hobart",
+          "url": "https://hlaservices.co.uk/case-studies/case-study-catering-equipment-school-dishwasher-installation/"
+        }
+      ],
+      "equipment_vendor_count": 10,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": true
+    },
+    {
+      "entity_id": "DE",
+      "name_ja": "ドイツ",
+      "name_en": "Germany",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "programs": [],
+      "equipment_vendors": [
+        {
+          "entity_id": "DE",
+          "country_ja": "ドイツ",
+          "company_name": "Rieber",
+          "company_url": "https://rieber.systems/en/customer-worlds/schools-and-nursery-schools",
+          "vendor_type": "保温・保冷搬送、再加熱・配膳設備",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "学校・保育施設、中央厨房配送",
+              "equipment": "thermoport、再加熱・搬送・配膳関連",
+              "evidence": "会社公式のSchools and nursery schoolsページ",
+              "evidence_url": "",
+              "note": "",
+              "source_sheet": "v24_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "thermoport、再加熱・搬送・配膳関連"
+          ],
+          "source_urls": [],
+          "notes": [],
+          "source_sheets": [
+            "v24_調理設備業者追加"
+          ]
+        },
+        {
+          "entity_id": "DE",
+          "country_ja": "ドイツ",
+          "company_name": "Welbilt Germany",
+          "company_url": "https://www.welbiltde.com/segments/kindergarten-school-catering?lang=en",
+          "vendor_type": "学校・幼稚園ケータリング設備",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "kindergarten & school catering",
+              "equipment": "加熱調理・厨房設備ソリューション",
+              "evidence": "会社公式ページ",
+              "evidence_url": "",
+              "note": "",
+              "source_sheet": "v24_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "加熱調理・厨房設備ソリューション"
+          ],
+          "source_urls": [],
+          "notes": [],
+          "source_sheets": [
+            "v24_調理設備業者追加"
+          ]
+        },
+        {
+          "entity_id": "DE",
+          "country_ja": "ドイツ",
+          "company_name": "RATIONAL",
+          "company_url": "https://www.rational-online.com/",
+          "vendor_type": "加熱調理機器",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "Bergedorf district school, Hamburg",
+              "equipment": "school canteen、open production kitchen、RATIONAL製品",
+              "evidence": "学校食堂とproduction kitchen事例が掲載",
+              "evidence_url": "https://www.rational-online.com/en_au/references/nursery-school-catering/de-stadtteilschule-bergedorf.php",
+              "note": "",
+              "source_sheet": "v31_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "school canteen、open production kitchen、RATIONAL製品"
+          ],
+          "source_urls": [
+            "https://www.rational-online.com/en_au/references/nursery-school-catering/de-stadtteilschule-bergedorf.php"
+          ],
+          "notes": [],
+          "source_sheets": [
+            "v31_設備業者補充"
+          ]
+        },
+        {
+          "entity_id": "DE",
+          "country_ja": "ドイツ",
+          "company_name": "Winterhalter",
+          "company_url": "https://www.winterhalter.com/",
+          "vendor_type": "洗浄機",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "day-care-center / kindergarten / school",
+              "equipment": "dishwashing systems",
+              "evidence": "教育施設向けdishwashing systemsとして掲載。個別納入先は別途確認。",
+              "evidence_url": "https://www.winterhalter.com/industries/educational-establishments/",
+              "note": "",
+              "source_sheet": "v31_設備業者補充"
+            },
+            {
+              "project_or_case": "Educational establishments",
+              "equipment": "Dishwashing systems",
+              "evidence": "Winterhalter公式にday-care-center, kindergarten, school向けdishwashing systemsを掲載",
+              "evidence_url": "https://www.winterhalter.com/industries/educational-establishments/",
+              "note": "学校・教育施設向け洗浄設備",
+              "source_sheet": "v32_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "dishwashing systems",
+            "Dishwashing systems"
+          ],
+          "source_urls": [
+            "https://www.winterhalter.com/industries/educational-establishments/"
+          ],
+          "notes": [
+            "学校・教育施設向け洗浄設備"
+          ],
+          "source_sheets": [
+            "v31_設備業者補充",
+            "v32_設備業者補充"
+          ]
+        }
+      ],
+      "operators": [],
+      "sources": [
+        {
+          "label": "RATIONAL",
+          "url": "https://www.rational-online.com/en_au/references/nursery-school-catering/de-stadtteilschule-bergedorf.php"
+        },
+        {
+          "label": "Winterhalter",
+          "url": "https://www.winterhalter.com/industries/educational-establishments/"
+        }
+      ],
+      "equipment_vendor_count": 4,
+      "operator_count": 0,
+      "program_count": 0,
+      "has_central_kitchen": false,
+      "has_equipment_vendors": true
+    },
+    {
+      "entity_id": "HU",
+      "name_ja": "ハンガリー",
+      "name_en": "Hungary",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "programs": [],
+      "equipment_vendors": [
+        {
+          "entity_id": "HU",
+          "country_ja": "ハンガリー",
+          "company_name": "A.MeCoD",
+          "company_url": "",
+          "vendor_type": "厨房技術・設備会社",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "",
+              "equipment": "食器洗浄機、配膳台、学校食堂厨房技術",
+              "evidence": "公式SchoolカテゴリでZalaegerszeg school canteenのkitchen technology、dishwasher、sideboard等を掲載。",
+              "evidence_url": "https://amecod.hu/en/project_category/school-en/",
+              "note": "Zalaegerszeg school canteen",
+              "source_sheet": "実績確認済_設備業者_v18"
+            },
+            {
+              "project_or_case": "Zalaegerszeg school canteen",
+              "equipment": "食器洗浄機、配膳台、学校食堂厨房技術",
+              "evidence": "公式SchoolカテゴリでZalaegerszeg school canteenのkitchen technology、dishwasher、sideboard等を掲載。",
+              "evidence_url": "https://amecod.hu/en/project_category/school-en/",
+              "note": "中央厨房型は情報整理中",
+              "source_sheet": "実績業者_v19_校名区分"
+            }
+          ],
+          "equipment_set": [
+            "食器洗浄機、配膳台、学校食堂厨房技術"
+          ],
+          "source_urls": [
+            "https://amecod.hu/en/project_category/school-en/"
+          ],
+          "notes": [
+            "Zalaegerszeg school canteen",
+            "中央厨房型は情報整理中"
+          ],
+          "source_sheets": [
+            "実績確認済_設備業者_v18",
+            "実績業者_v19_校名区分"
+          ]
+        }
+      ],
+      "operators": [],
+      "sources": [
+        {
+          "label": "A.MeCoD",
+          "url": "https://amecod.hu/en/project_category/school-en/"
+        }
+      ],
+      "equipment_vendor_count": 1,
+      "operator_count": 0,
+      "program_count": 0,
+      "has_central_kitchen": false,
+      "has_equipment_vendors": true
+    },
+    {
+      "entity_id": "FI",
+      "name_ja": "フィンランド",
+      "name_en": "Finland",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "programs": [],
+      "equipment_vendors": [
+        {
+          "entity_id": "FI",
+          "country_ja": "フィンランド",
+          "company_name": "Metos",
+          "company_url": "https://www.metos.fi/en/",
+          "vendor_type": "",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "Education Finland / School meals companies",
+              "equipment": "釜、調理設備、サービスライン、食器洗浄、セルフクリーニング、廃棄物測定",
+              "evidence": "学校向けに設計・販売する設備カテゴリが掲載",
+              "evidence_url": "https://www.educationfinland.fi/school-meals/companies",
+              "note": "学校給食輸出/会社一覧の根拠",
+              "source_sheet": "v33_設備業者補充"
+            }
+          ],
+          "equipment_set": [
+            "釜、調理設備、サービスライン、食器洗浄、セルフクリーニング、廃棄物測定"
+          ],
+          "source_urls": [
+            "https://www.educationfinland.fi/school-meals/companies"
+          ],
+          "notes": [
+            "学校給食輸出/会社一覧の根拠"
+          ],
+          "source_sheets": [
+            "v33_設備業者補充"
+          ]
+        }
+      ],
+      "operators": [],
+      "sources": [
+        {
+          "label": "Metos",
+          "url": "https://www.educationfinland.fi/school-meals/companies"
+        }
+      ],
+      "equipment_vendor_count": 1,
+      "operator_count": 0,
+      "program_count": 0,
+      "has_central_kitchen": false,
+      "has_equipment_vendors": true
+    },
+    {
+      "entity_id": "FR",
+      "name_ja": "フランス",
+      "name_en": "France",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "programs": [
+        {
+          "program_name": "cuisine centrale／cuisine satellite",
+          "operator": "自治体、給食事業者等",
+          "target": "学校・公共給食",
+          "central_kitchen_model": "中央厨房で調理し衛星厨房・学校へ配送",
+          "school_count": "自治体別",
+          "scale": "例：都市別に数千〜数万食規模の記載あり",
+          "rice_note": "主食・米飯設備は施設別確認",
+          "delivery_temperature_note": "温蔵・冷蔵配送、再加熱",
+          "equipment_status_note": "collective catering向け調理、冷却、再加熱、保温配送、洗浄設備を確認対象",
+          "procurement_status_note": "公共調達あり。調理設備業者・案件単位は情報整理中",
+          "next_check": "cuisine centrale別の調理設備、調達公告、設備会社",
+          "source_url": "https://www.education.gouv.fr/la-restauration-scolaire-6254",
+          "review_status": "高所得。学校給食・中央厨房／公共給食／給食事業者の調理設備情報を確認対象。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [
+        {
+          "label": "cuisine centrale／cuisine satellite",
+          "url": "https://www.education.gouv.fr/la-restauration-scolaire-6254"
+        }
+      ],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "PT",
+      "name_ja": "ポルトガル",
+      "name_en": "Portugal",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "programs": [
+        {
+          "program_name": "Municipal school meals / catering model",
+          "operator": "自治体、給食事業者等",
+          "target": "学校児童",
+          "central_kitchen_model": "自治体・給食事業者型。中央厨房型は自治体別確認",
+          "school_count": "情報整理中",
+          "scale": "情報整理中",
+          "rice_note": "主食設備は事業者別確認",
+          "delivery_temperature_note": "配送・保温は事業者別確認",
+          "equipment_status_note": "大量調理、保温配送、洗浄、冷蔵冷凍設備を確認対象",
+          "procurement_status_note": "公共調達・給食委託の中で確認対象",
+          "next_check": "自治体別 central kitchen/catering kitchen、設備調達、機械会社",
+          "review_status": "高所得。学校給食・中央厨房／公共給食／給食事業者の調理設備情報を確認対象。 追加調査中。"
+        }
+      ],
+      "equipment_vendors": [],
+      "operators": [],
+      "sources": [],
+      "equipment_vendor_count": 0,
+      "operator_count": 0,
+      "program_count": 1,
+      "has_central_kitchen": true,
+      "has_equipment_vendors": false
+    },
+    {
+      "entity_id": "AU",
+      "name_ja": "オーストラリア",
+      "name_en": "Australia",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "programs": [],
+      "equipment_vendors": [
+        {
+          "entity_id": "AU",
+          "country_ja": "オーストラリア",
+          "company_name": "Tools for Schools",
+          "company_url": "https://www.toolsforschools.com.au/food-tech.html",
+          "vendor_type": "学校向け厨房・ケータリング機器販売",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "学校・Food Tech / school catering equipment",
+              "equipment": "学校厨房用品・ケータリング機器",
+              "evidence": "会社公式ページ",
+              "evidence_url": "",
+              "note": "",
+              "source_sheet": "v24_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "学校厨房用品・ケータリング機器"
+          ],
+          "source_urls": [],
+          "notes": [],
+          "source_sheets": [
+            "v24_調理設備業者追加"
+          ]
+        },
+        {
+          "entity_id": "AU",
+          "country_ja": "オーストラリア",
+          "company_name": "School Kitchens Australia",
+          "company_url": "https://www.schoolkitchens.com.au/",
+          "vendor_type": "学校厨房・食堂向け厨房用品販売",
+          "status": "採用",
+          "cases": [
+            {
+              "project_or_case": "学校厨房",
+              "equipment": "厨房用品、電気機器、ケータリング機器、食器等",
+              "evidence": "会社公式ページ",
+              "evidence_url": "",
+              "note": "",
+              "source_sheet": "v24_調理設備業者追加"
+            }
+          ],
+          "equipment_set": [
+            "厨房用品、電気機器、ケータリング機器、食器等"
+          ],
+          "source_urls": [],
+          "notes": [],
+          "source_sheets": [
+            "v24_調理設備業者追加"
+          ]
+        }
+      ],
+      "operators": [],
+      "sources": [],
+      "equipment_vendor_count": 2,
+      "operator_count": 0,
+      "program_count": 0,
+      "has_central_kitchen": false,
+      "has_equipment_vendors": true
+    }
+  ]
+}

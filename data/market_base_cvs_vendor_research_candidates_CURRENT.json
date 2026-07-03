@@ -1,0 +1,4331 @@
+{
+  "meta": {
+    "version": "V168_CVS_VENDOR_GROWTH_DB_20260703",
+    "source_workbook": "market_base_cvs_vendor_factory_master_v41_10_product_names_aggregated(1).xlsx",
+    "source_version": "v41.10",
+    "last_updated": "2026-07-03",
+    "policy": {
+      "display_product_labels": false,
+      "display_product_names": false,
+      "purpose": "コンビニ向け食品ベンダー・工場を追加検索で育てるための成長型データベース",
+      "core_display": [
+        "companies",
+        "factories",
+        "country_summary"
+      ],
+      "hidden_by_default": [
+        "research_candidates"
+      ],
+      "excluded_from_ui": [
+        "Product_Label_Evidence",
+        "Product_Name_Aggregation"
+      ]
+    },
+    "counts": {
+      "core_companies": 80,
+      "core_factories": 79,
+      "research_candidates": 183,
+      "country_summary_records": 31,
+      "research_tasks": 31
+    }
+  },
+  "candidates": [
+    {
+      "candidate_id": "SVC-0001",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "7-Eleven Vietnam Central Kitchen",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Vietnam",
+      "manufacturing_category": "Central Kitchen / Central kitchen / CK/プロジェクト / 03_セントラルキッチン/大量調理 / CVS中央キッチン...",
+      "factory_or_location": "Central kitchen project / Central Kitchen project / 7-Eleven Vietnam Central ...",
+      "reason_for_watch": "修正2回目：運営会社未特定のチェーン/案件名のためReviewへ移動。実運営会社が取れたらCore復帰。",
+      "confirmation_status": "Verified / Project source / 運営会社要確認; 運営会社要確認; Project source",
+      "source_urls": [
+        "https://www.unitedvision.com.vn/blogs/projects-en/7-eleven-vietnam-central-ki..."
+      ],
+      "next_research_tasks": [
+        "運営会社名、米飯商品、工場住所を追加。 / 運営会社、米飯商品、炊飯設備、供給店舗数 / 7-Eleven Vietnam/運営会社公式を探索",
+        "7-E..."
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0002",
+      "entity_id": "MY",
+      "country_area_ja": "マレーシア",
+      "candidate_name": "7-Eleven Malaysia 2023 Annual Report - Fresh food commissary",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Malaysia",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": "7-Eleven Malaysia 2023 Annual Report - Fresh food commissary",
+      "reason_for_watch": "修正2回目：年報由来の調査入口であり会社名ではないためReviewへ移動。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "年報PDFのcommissary/QVI/Fresh Food検索結果を抽出"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0003",
+      "entity_id": "MY",
+      "country_area_ja": "マレーシア",
+      "candidate_name": "CU Malaysia Food Processing Centre",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CU Malaysia / CU Malaysia / myNEWS ecosystem",
+      "manufacturing_category": "05_小売PB/RTE供給網（製造者未特定）",
+      "factory_or_location": "Malaysia; exact FPC location to verify",
+      "reason_for_watch": "修正2回目：工場/センター名としては有用だが運営会社名が未確定のためReviewへ移動。",
+      "confirmation_status": "A-B",
+      "source_urls": [
+        "https://nicetocu.com.my/"
+      ],
+      "next_research_tasks": [
+        "myNEWS/MBE関係のIR確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0005",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "7-Eleven Vietnam Central Kitchen",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Vietnam",
+      "manufacturing_category": "03_セントラルキッチン/大量調理 / CVS中央キッチン案件",
+      "factory_or_location": "7-Eleven Vietnam Central Kitchen",
+      "reason_for_watch": "修正2回目：運営会社未特定のチェーン/案件名のため工場CoreからReviewへ移動。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://www.unitedvision.com.vn/blogs/projects-en/7-eleven-vietnam-central-kitchen",
+        "https://www.7andi.com/library/en/ir/library/mr/pdf/mr_pdf-03_2411.pdf"
+      ],
+      "next_research_tasks": [
+        "7-Eleven Vietnam/運営会社公式を探索",
+        "7-Eleven Vietnam運営会社、年報、求人情報、HACCP/ISO認証情報を探す / 運営会社/委託先を特定"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0007",
+      "entity_id": null,
+      "country_area_ja": "Spain / Canary Islands",
+      "candidate_name": "Helamore collaboration; Fresh To Go range",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "SPAR Gran Canaria",
+      "manufacturing_category": "Ready-meal supplier collaboration",
+      "factory_or_location": "Gran Canaria, 55+ stores",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://spar-international.com/news/spar-gran-canaria-introduces-new-range-of-ready-meals/"
+      ],
+      "next_research_tasks": [
+        "Helamoreの会社情報、工場所在地、炊飯設備を確認する。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0008",
+      "entity_id": null,
+      "country_area_ja": "インド",
+      "candidate_name": "Reliance Retail / 7-Eleven India fresh food supply",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven India",
+      "manufacturing_category": "チェーン供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "候補",
+      "source_urls": [
+        "https://www.7-eleven.in/"
+      ],
+      "next_research_tasks": [
+        "商品表示、CK、製造委託先"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0009",
+      "entity_id": "ID",
+      "country_area_ja": "インドネシア",
+      "candidate_name": "Alfamart / Alfamidi fresh food supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Alfamart/Alfamidi",
+      "manufacturing_category": "未特定供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://www.alfamart.com.ph/"
+      ],
+      "next_research_tasks": [
+        "Alfamart annual report、Alfa Fresh、central kitchenを探索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0010",
+      "entity_id": "ID",
+      "country_area_ja": "インドネシア",
+      "candidate_name": "Alfamart / Indomaret supply chain literature seed",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Alfamart、Indomaret",
+      "manufacturing_category": "04_冷鏈物流/食品配送",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "FamilyMart Indonesia、Lawson Indonesia、Alfamidi/Alfamart惣菜工場を現地語で調査"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0011",
+      "entity_id": "ID",
+      "country_area_ja": "インドネシア",
+      "candidate_name": "FamilyMart Indonesia food supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "FamilyMart Indonesia",
+      "manufacturing_category": "Supply network",
+      "factory_or_location": "Greater Jakarta / Java",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Candidate",
+      "source_urls": [
+        "https://www.familymartindonesia.com/"
+      ],
+      "next_research_tasks": [
+        "PT Fajar Mitra Indah、Wings系供給網、現物表示を調べる。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0012",
+      "entity_id": "ID",
+      "country_area_ja": "インドネシア",
+      "candidate_name": "Indomaret Yummy Choice central kitchen",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Indomaret",
+      "manufacturing_category": "Central kitchen",
+      "factory_or_location": "Central kitchen",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Official/Partner",
+      "source_urls": [
+        "https://www.indomaret.co.id/rasakan-kelezatan-ayam-next-level-di-menu-baru-yummy-choice-indomaret-japfa-food-solutions/"
+      ],
+      "next_research_tasks": [
+        "中央キッチン所在地と設備を追加。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0013",
+      "entity_id": "ID",
+      "country_area_ja": "インドネシア",
+      "candidate_name": "Japfa Food Solutions x Yummy Choice",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Indomaret",
+      "manufacturing_category": "Food service / central kitchen partner",
+      "factory_or_location": "Central kitchen collaboration",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Partner source",
+      "source_urls": [
+        "https://www.japfacomfeed.co.id/experience-next-level-chicken-delight-with-the-new-yummy-choice-menu-by-indomaret-japfa-food"
+      ],
+      "next_research_tasks": [
+        "製造責任主体と工場所在地を整理。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0014",
+      "entity_id": "ID",
+      "country_area_ja": "インドネシア",
+      "candidate_name": "Yummy Choice / Indomaret",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Indomaret",
+      "manufacturing_category": "Brand / Central Kitchen Seed / PB/RTE供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Candidate",
+      "source_urls": [
+        "https://www.indomaret.co.id/rasakan-kelezatan-ayam-next-level-di-menu-baru-yummy-choice-indomaret-japfa-food/",
+        "https://www.japfacomfeed.co.id/experience-next-level-chicken-delight-with-the-new-yummy-choice-menu-by-indomaret-japfa-food",
+        "https://www.instagram.com/yummychoice.id/?hl=en",
+        "https://www.instagram.com/reel/DNIU-7Fy8Bk/?hl=en"
+      ],
+      "next_research_tasks": [
+        "Indomaret annual report / Yummy Choice manufacturerを確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0015",
+      "entity_id": "ID",
+      "country_area_ja": "インドネシア",
+      "candidate_name": "Yummy Choice / Indomaret Central Kitchen",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Indomaret",
+      "manufacturing_category": "ブランド/CK候補",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "候補",
+      "source_urls": [
+        "https://www.instagram.com/yummychoice.id/"
+      ],
+      "next_research_tasks": [
+        "公式会社名、工場、米飯商品"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0016",
+      "entity_id": null,
+      "country_area_ja": "オランダ/ドイツ/欧州",
+      "candidate_name": "Qizini",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "retailers / airlines / foodservice / convenience",
+      "manufacturing_category": null,
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B-C：food-to-go候補。米飯は要確認",
+      "source_urls": [
+        "https://squarefield.com/credential/qizini/"
+      ],
+      "next_research_tasks": [
+        "rice bowl/sushiなどの有無、現物ラベル、供給チェーン"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0017",
+      "entity_id": "AU",
+      "country_area_ja": "オーストラリア",
+      "candidate_name": "7-Eleven Australia Japanese-inspired food program",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Australia",
+      "manufacturing_category": "Retail Program / Supplier Seed",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Candidate",
+      "source_urls": [
+        "https://www.7eleven.com.au/",
+        "https://www.news.com.au/lifestyle/food/eat/just-like-japan-huge-update-to-aussie-7eleven-stores/news-story/9b4e124a3dba6609f5f8cb93e445e2da"
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0018",
+      "entity_id": "AU",
+      "country_area_ja": "オーストラリア",
+      "candidate_name": "7-Eleven Australia fresh food logistics seed",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Australia",
+      "manufacturing_category": "Logistics / RTE platform",
+      "factory_or_location": "Australia",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Candidate",
+      "source_urls": [
+        "https://www.7eleven.com.au/"
+      ],
+      "next_research_tasks": [
+        "寿司・弁当系商品の製造先だけを確認。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0019",
+      "entity_id": "AU",
+      "country_area_ja": "オーストラリア",
+      "candidate_name": "7-Eleven Australia fresh food supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Australia",
+      "manufacturing_category": "物流/供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "候補",
+      "source_urls": [
+        "https://www.7eleven.com.au/"
+      ],
+      "next_research_tasks": [
+        "製造委託先、米飯商品、CK"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0020",
+      "entity_id": "AU",
+      "country_area_ja": "オーストラリア",
+      "candidate_name": "7-Eleven Australia × Emergent Cold supply chain",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Australia",
+      "manufacturing_category": "04_冷鏈物流/食品配送",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "サンドイッチ・onigiri・惣菜の製造委託先を調査"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0021",
+      "entity_id": null,
+      "country_area_ja": "カナダ",
+      "candidate_name": "7-Eleven Canada Hot Food Operations",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Canada",
+      "manufacturing_category": "01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "サプライチェーン法開示、New Vendor情報、カナダ食品工場の求人を調査"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0022",
+      "entity_id": null,
+      "country_area_ja": "カナダ",
+      "candidate_name": "7-Eleven Canada fresh food supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Canada",
+      "manufacturing_category": "チェーン供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "候補",
+      "source_urls": [
+        "https://www.7-eleven.com/legal/vendor-supplier-guidelines"
+      ],
+      "next_research_tasks": [
+        "製造委託先、米飯商品、CK/DC"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0023",
+      "entity_id": null,
+      "country_area_ja": "カナダ・米国・欧州",
+      "candidate_name": "Alimentation Couche-Tard / Circle K Foodservice Expansion",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Circle K / Couche-Tard / Holiday",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "Holiday commissary、Circle K地域別食品製造委託、配送センター情報を掘る"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0024",
+      "entity_id": null,
+      "country_area_ja": "グローバル",
+      "candidate_name": "dnata Catering & Retail / snapfresh",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS直接供給は未確認",
+      "manufacturing_category": "02_空厨/航空ケータリング",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "オーストラリア・中東・欧州での小売向け供給事例を確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0025",
+      "entity_id": null,
+      "country_area_ja": "グローバル",
+      "candidate_name": "gategroup / gatesolutions",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS直接供給は未確認",
+      "manufacturing_category": "02_空厨/航空ケータリング",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "各国での小売・コンビニ供給実績を調査"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0026",
+      "entity_id": "SG",
+      "country_area_ja": "シンガポール",
+      "candidate_name": "7-Eleven Singapore 7-SELECT RTE Range",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Singapore",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "シンガポール商品ラベル、SFA食品施設、求人QA/production職種を探索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0027",
+      "entity_id": "SG",
+      "country_area_ja": "シンガポール",
+      "candidate_name": "7-Eleven Singapore RTE supply network / DFI",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Singapore",
+      "manufacturing_category": "Supply Network",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Candidate",
+      "source_urls": [
+        "https://www.dfiretailgroup.com/en/our-businesses/convenience/"
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0028",
+      "entity_id": "SG",
+      "country_area_ja": "シンガポール",
+      "candidate_name": "DFI 7-Eleven Singapore RTE platform",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Singapore / DFI",
+      "manufacturing_category": "チェーン供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "候補",
+      "source_urls": [
+        "https://www.dfiretailgroup.com/en/our-businesses/convenience/"
+      ],
+      "next_research_tasks": [
+        "製造者、CK、米飯商品"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0029",
+      "entity_id": "SG",
+      "country_area_ja": "シンガポール",
+      "candidate_name": "DFI 7-Eleven Singapore own-brand RTE platform",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Singapore / DFI",
+      "manufacturing_category": "RTE platform",
+      "factory_or_location": "Singapore",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Official/Candidate",
+      "source_urls": [
+        "https://www.dfiretailgroup.com/en/our-businesses/convenience/"
+      ],
+      "next_research_tasks": [
+        "Singapore側の製造委託先を探す。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0030",
+      "entity_id": null,
+      "country_area_ja": "シンガポール/インド/中国",
+      "candidate_name": "SATS Food Solutions",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS直接供給は未確認",
+      "manufacturing_category": "02_空厨/航空ケータリング",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "小売・CVS・QSR向け供給先を国別に確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0031",
+      "entity_id": null,
+      "country_area_ja": "スウェーデン/欧州",
+      "candidate_name": "Smålandskräftan AB",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Lidl Sweden / Lidl Europe",
+      "manufacturing_category": null,
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B：Lidl ready meal供給あり、米飯SKUは要確認",
+      "source_urls": [
+        "https://www.micvac.com/lidl-launches-new-ready-meals/",
+        "https://packaging-journal.de/en/top-ten-2025-lidl-relies-on-micvac-process-for-ready-meals/"
+      ],
+      "next_research_tasks": [
+        "Lidl現行SKU、米飯付き商品、製造所表示"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0032",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "7 Fresh / CP ALL fresh food brand",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL",
+      "manufacturing_category": "Fresh Food Brand",
+      "factory_or_location": "CPRAM / CP ALL supply chain",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B-C",
+      "source_urls": [
+        "https://www.cpall.co.th/en/about-us/our-business/ready-to-eat-and-bakery-service/"
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0033",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "7 Fresh / chilled RTE lunch box",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CPRAM",
+      "manufacturing_category": "CVS米飯商品",
+      "factory_or_location": "Bangkok and metropolitan area seed",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "文献起点",
+      "source_urls": [
+        "https://ryuka.repo.nii.ac.jp/record/1305/files/019-033luangpituksachonnikarnsensei.pdf"
+      ],
+      "next_research_tasks": [
+        "現行ブランド名、製造工場、商品ラベル"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0034",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "7 Fresh brand",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL",
+      "manufacturing_category": "米飯/RTE/チルド",
+      "factory_or_location": "Thailand nationwide",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "A-B",
+      "source_urls": [
+        "https://www.cpall.co.th/en/about-us/our-business/ready-to-eat-and-bakery-service/"
+      ],
+      "next_research_tasks": [
+        "商品別製造者表示、米飯/弁当/サンドイッチの分類"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0035",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "7-Eleven Thailand rice meal product shelf",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand",
+      "manufacturing_category": "米飯/RTE",
+      "factory_or_location": "Thailand nationwide",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B-C",
+      "source_urls": [
+        "https://thailand.tripcanvas.co/bangkok/7-eleven-must-try-food/"
+      ],
+      "next_research_tasks": [
+        "現物ラベル、製造者、食品登録番号、温度帯"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0036",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Boston Market Home Style Meals / CPF import-distribution seed",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand",
+      "manufacturing_category": "冷凍/RTE商品",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "商品実績",
+      "source_urls": [
+        "https://www.cpfworldwide.com/en/media-center/510"
+      ],
+      "next_research_tasks": [
+        "現在の継続性、製造国、CPF関与範囲"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0037",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Boston Market products via CPF",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand",
+      "manufacturing_category": "冷凍RTE",
+      "factory_or_location": "Thailand 7-Eleven stores",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "A-B",
+      "source_urls": [
+        "https://www.cpfworldwide.com/en/media-center/510"
+      ],
+      "next_research_tasks": [
+        "現行販売状況、製造国、国内製造移管の有無"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0038",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "C&W Company",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS/スーパー候補",
+      "manufacturing_category": "ベーカリー",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "候補",
+      "source_urls": [
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Food+Processing+Ingredients_Bangkok_Thailand_03-30-2021"
+      ],
+      "next_research_tasks": [
+        "会社正式名、CVS供給実績、工場"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0039",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "C&W Interfoods",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS直接は要確認",
+      "manufacturing_category": "Bakery",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://www.worldbakers.com/market-insights/thailand-a-melting-pot-of-bread-a..."
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0040",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "C&W Interfoods / C&W Bakery",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS / modern trade candidate",
+      "manufacturing_category": "ベーカリー",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?file..."
+      ],
+      "next_research_tasks": [
+        "会社正式名、工場、CVS供給、商品カテゴリ"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0041",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "CP ALL Public Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand",
+      "manufacturing_category": "RTE/FF/Bakery",
+      "factory_or_location": "Thailand nationwide",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "A",
+      "source_urls": [
+        "https://www.set.or.th/en/market/product/stock/quote/cpall/factsheet"
+      ],
+      "next_research_tasks": [
+        "商品ブランド別サプライヤー、製造者表示、地域DC"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0042",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "CP ALL RTE/Bakery service network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand",
+      "manufacturing_category": "供給網/運営会社",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://www.cpall.co.th/wp-content/uploads/2025/03/CP_ALL_56-1_-OneReport_202..."
+      ],
+      "next_research_tasks": [
+        "CPRAM詳細文の背景に利用"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0043",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "CP ALL SME supplier network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand",
+      "manufacturing_category": "惣菜/地域食品/SME",
+      "factory_or_location": "Thailand nationwide",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "A-B",
+      "source_urls": [
+        "https://www.cpall.co.th/wp-content/uploads/2025/03/CP_ALL_56-1_-OneReport_202..."
+      ],
+      "next_research_tasks": [
+        "SMEの実名、米飯/惣菜/パンの製造会社"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0046",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Central Food Retail / Tops ready meal platform",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Tops / FamilyMart legacy / retail",
+      "manufacturing_category": "RTE/惣菜/CK候補",
+      "factory_or_location": "Thailand nationwide",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [],
+      "next_research_tasks": [
+        "FamilyMart Thailand旧網、CK、米飯商品"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0048",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Cubic",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS/スーパー候補",
+      "manufacturing_category": "ベーカリー",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "候補",
+      "source_urls": [
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?file..."
+      ],
+      "next_research_tasks": [
+        "会社正式名、CVS供給実績、工場"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0049",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Cubic Bakery / Cubic",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS直接は要確認",
+      "manufacturing_category": "Bakery",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?file..."
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0050",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Cubic Food / Cubic Bakery seed",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS / modern trade candidate",
+      "manufacturing_category": "ベーカリー",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?file..."
+      ],
+      "next_research_tasks": [
+        "正式法人名、工場、製品、CVS供給"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0051",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Ezy Taste brand",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL",
+      "manufacturing_category": "サンドイッチ/RTE",
+      "factory_or_location": "Thailand nationwide",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "A-B",
+      "source_urls": [
+        "https://nslfoods.com/en/investor-relations/"
+      ],
+      "next_research_tasks": [
+        "商品別製造者表示、NSL工場との対応"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0052",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Ezygo / CP ALL RTE brand",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL",
+      "manufacturing_category": "CVS RTEブランド",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "ブランド",
+      "source_urls": [
+        "https://nslfoods.com/en/soul-connect-fest-2-2-2-2-2/"
+      ],
+      "next_research_tasks": [
+        "製造会社別に商品を分解"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0053",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Ezygo / CP ALL ready meal brand",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL",
+      "manufacturing_category": "Ready Meal Brand",
+      "factory_or_location": "CPRAM / CP ALL supply chain",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B-C",
+      "source_urls": [
+        "https://www.cpall.co.th/en/about-us/our-business/ready-to-eat-and-bakery-serv..."
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0054",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Ezygo brand",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL",
+      "manufacturing_category": "米飯/冷凍RTE",
+      "factory_or_location": "Thailand nationwide",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://www.cpall.co.th/en/about-us/our-business/ready-to-eat-and-bakery-serv..."
+      ],
+      "next_research_tasks": [
+        "商品ラベル、製造工場、米飯ライン、温度帯"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0055",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Food Star / DeeDo group seed",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS candidate",
+      "manufacturing_category": "飲料/周辺",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [],
+      "next_research_tasks": [
+        "CVS食品ベンダーとの関連有無"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0056",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Halal RTE supplier seeds for 7-Eleven Thailand",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand",
+      "manufacturing_category": "ハラールRTE/米飯候補",
+      "factory_or_location": "Southern Thailand / Bangkok",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://www.cpall.co.th/en/about-us/our-business/ready-to-eat-and-bakery-serv..."
+      ],
+      "next_research_tasks": [
+        "製造会社、ハラール認証、米飯ライン"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0057",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Innofresh Co., Ltd.",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS / retail / export candidate",
+      "manufacturing_category": "RTE/米飯候補",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://innofresh.co.th/en/oem-type/ready-to-eat-meals-en/"
+      ],
+      "next_research_tasks": [
+        "CVS取引、炊飯設備、工場所在地、温度帯"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0058",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Jade Dragon brand",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL",
+      "manufacturing_category": "点心/RTE",
+      "factory_or_location": "Thailand nationwide",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://www.cpall.co.th/en/about-us/our-business/ready-to-eat-and-bakery-serv..."
+      ],
+      "next_research_tasks": [
+        "製造者表示、工場、温度帯"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0059",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "KST Hat Yai / frozen seafood group",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Retail / CVS candidate",
+      "manufacturing_category": "冷凍食品/惣菜",
+      "factory_or_location": "Hat Yai seed",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://kst-hatyai.com/document/2569/One%20Report%202025-EN.pdf"
+      ],
+      "next_research_tasks": [
+        "CVS取引、調理済み商品、米飯商品"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0060",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Khon Kaen / Northeast RTE supplier seeds",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / regional CVS",
+      "manufacturing_category": "地域RTE/米飯候補",
+      "factory_or_location": "Northeast Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://www.cpall.co.th/wp-content/uploads/2025/03/CP_ALL_56-1_-OneReport_202..."
+      ],
+      "next_research_tasks": [
+        "地域工場名、商品ラベル、CP ALL SME実名"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0061",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Lam Soon (Thailand) Public Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Foodservice / retail candidate",
+      "manufacturing_category": "食品素材/外食・ベーカリー",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://lamsoon.co.th/wp-content/uploads/2024/03/56-1-ONE-REPORT_LST-Eng.pdf"
+      ],
+      "next_research_tasks": [
+        "CVS食品工場への供給、ベーカリー原料"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0062",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Lotus's ready meal / bakery platform",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Lotus's / CP ecosystem",
+      "manufacturing_category": "RTE/惣菜/ベーカリー候補",
+      "factory_or_location": "Thailand nationwide",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://www.cpgroupglobal.com/en/about-cp-group/our-business"
+      ],
+      "next_research_tasks": [
+        "CK、製造者表示、CPRAM/CPFとの関係"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0063",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Majestic Food Industry Co., Ltd.",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Retail / foodservice candidate",
+      "manufacturing_category": "食品素材/具材",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://www.jma-tradeshow.com/foodex/webguide_en/company.php?no=2227"
+      ],
+      "next_research_tasks": [
+        "CVS食品工場向け供給、惣菜用具材"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0064",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Makro / Lotus's prepared food platform",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Makro / Lotus's / CP ecosystem",
+      "manufacturing_category": "惣菜/RTE/CK候補",
+      "factory_or_location": "Thailand nationwide",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://www.cpgroupglobal.com/en/about-cp-group/our-business"
+      ],
+      "next_research_tasks": [
+        "CK、製造子会社、CVSとの工場共用"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0065",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "PRG Corporation / Khao Mah Boonkrong",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Retail / CVS candidate",
+      "manufacturing_category": "米/炊飯周辺",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://prg.listedcompany.com/ar.html"
+      ],
+      "next_research_tasks": [
+        "CVS向け米飯商品、レトルト/パック米、炊飯済み商品"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0066",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "R&B Food Supply Public Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Ingredient supplier candidate",
+      "manufacturing_category": "調味/ソース/原料",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://investor.rbfoodsupply.co.th/en/document/annual-reports"
+      ],
+      "next_research_tasks": [
+        "CVS食品工場向け取引、ソース/調味料用途"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0067",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Restaurant brand collaboration pipeline",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand",
+      "manufacturing_category": "RTE/米飯候補",
+      "factory_or_location": "Bangkok / nationwide",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B-C",
+      "source_urls": [
+        "https://www.minimeinsights.com/2021/07/17/rosniyom-ready-to-eat-chilled-food-..."
+      ],
+      "next_research_tasks": [
+        "コラボ商品名、製造者、販売店舗数"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0068",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "S&P Syndicate Public Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS / modern trade candidate / CVS直接は要確認 / Retail / foodservice / CVS候補",
+      "manufacturing_category": "ベーカリー/RTE/冷凍食品 / Bakery / Frozen Prepared Foods / CK / RTE / Frozen Meal / Re...",
+      "factory_or_location": "Thailand / Thailand / nationwide shops and production / Bangkok / national ne...",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "A-B / B / B-C / CK候補 / 生産部門",
+      "source_urls": [
+        "https://www.snpfood.com/en/products/bakery/sandwich-and-bread?page=2",
+        "https:/..."
+      ],
+      "next_research_tasks": [
+        "7-Eleven/コンビニ直供給、CK所在地、冷凍米飯商品 / CVS向け直接供給・CK所在地・米飯商品 / 工場所在地、米飯弁当・冷凍米飯の有無"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0069",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "S.T. Bakery Co., Ltd.",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS / modern trade candidate / CVS直接は要確認 | CVS/スーパー候補 / CVS直接は要確認",
+      "manufacturing_category": "ベーカリー / Bakery | ベーカリー / Bakery",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C / C | 候補",
+      "source_urls": [
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?file..."
+      ],
+      "next_research_tasks": [
+        "正式法人名、工場所在地、商品、CVS取引 / 会社正式名、CVS供給実績、工場"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0070",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Small bakery OEM suppliers for 7-Eleven Thailand",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand",
+      "manufacturing_category": "ベーカリー/SME",
+      "factory_or_location": "Thailand nationwide",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://www.cpall.co.th/wp-content/uploads/2025/03/CP_ALL_56-1_-OneReport_202..."
+      ],
+      "next_research_tasks": [
+        "SME名、地域、商品、工場認証"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0071",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Thai 7-Eleven bento/RTE development literature",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CPRAM",
+      "manufacturing_category": "米飯/RTE開発背景",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "A-B",
+      "source_urls": [
+        "https://ryuka.repo.nii.ac.jp/record/1305/files/019-033luangpituksachonnikarns..."
+      ],
+      "next_research_tasks": [
+        "引用範囲、商品開発年表、工場名"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0072",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Thai Cosmos Foods Co., Ltd.",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS ingredient candidate",
+      "manufacturing_category": "具材/即席食品/OEM",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://thaicosmosfoods.co.th/en/oem.php"
+      ],
+      "next_research_tasks": [
+        "CVS向け具材、弁当副菜、RTEソース"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0073",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Thai Foods Group Public Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS candidate",
+      "manufacturing_category": "食肉加工/惣菜",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://investor.tfg.co.th/financials.html"
+      ],
+      "next_research_tasks": [
+        "CVS取引、調理済み商品、工場所在地"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0074",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Thai Union Group Public Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Retail / CVS candidate",
+      "manufacturing_category": "冷凍RTE/惣菜",
+      "factory_or_location": "Thailand / global",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://www.thaiunion.com/uploads/tu-or2025-en-2.pdf"
+      ],
+      "next_research_tasks": [
+        "国内CVS取引、冷凍米飯/弁当商品"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0075",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Thai product label reverse lookup method",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / all CVS",
+      "manufacturing_category": "米飯/製造者逆引き",
+      "factory_or_location": "Thailand stores",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "A",
+      "source_urls": [
+        "https://thailand.tripcanvas.co/bangkok/7-eleven-must-try-food/"
+      ],
+      "next_research_tasks": [
+        "商品写真、製造者、FDA番号、工場住所"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0076",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Thailand CVS RTE platform",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven / convenience stores",
+      "manufacturing_category": "市場・チャネル",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "市場背景",
+      "source_urls": [
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Retail+Foods+Annual_Bangkok_Thailand_TH2024-0059.pdf"
+      ],
+      "next_research_tasks": [
+        "RTE商品ラベルから製造会社を逆引き"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0077",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Thailand bakery sector / CVS channel",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "convenience stores / supermarkets",
+      "manufacturing_category": "市場・チャネル",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "市場背景",
+      "source_urls": [
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Food+Processing+Ingredients_Bangkok_Thailand_03-30-2021"
+      ],
+      "next_research_tasks": [
+        "CVS供給企業の追加探索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0078",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Thailand frozen ready-to-eat meals sector",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS / retail",
+      "manufacturing_category": "冷凍RTE市場",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://www.kenresearch.com/industry-reports/thailand-frozen-foods-market"
+      ],
+      "next_research_tasks": [
+        "主要メーカー、CVS商品ラベル、冷凍米飯商品"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0079",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Zen Corporation Group Public Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Retail / CVS candidate",
+      "manufacturing_category": "CK/RTE候補",
+      "factory_or_location": "Thailand",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://zen.listedcompany.com/misc/one-report/20240325-zen-one-report2023-en.pdf"
+      ],
+      "next_research_tasks": [
+        "中央キッチン、CVS販売、冷凍米飯商品"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0080",
+      "entity_id": "PH",
+      "country_area_ja": "フィリピン",
+      "candidate_name": "Jolliant / Meralco case study",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Philippines / Jolliant",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "PSC年報とJolliant公式で数量・店舗数の時点を照合"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0081",
+      "entity_id": "PH",
+      "country_area_ja": "フィリピン",
+      "candidate_name": "Jolliant Group / Jolliant RNN",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Philippines",
+      "manufacturing_category": "企業/CK",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "拠点別深掘り",
+      "source_urls": [
+        "https://jolliantcorp.com/about-us/",
+        "https://biz.meralco.com.ph/success-story/jolliant-cooks-business-expansion-reliable-energy-partner"
+      ],
+      "next_research_tasks": [
+        "各コミッサリーの米飯能力、供給店舗数、炊飯設備"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0082",
+      "entity_id": "PH",
+      "country_area_ja": "フィリピン",
+      "candidate_name": "Jolliant RNN / Princess Jolliant Commissary Network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Philippines / Philippine Seven Corporation",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "Philippine Seven年報・PSE開示でコミッサリー依存や提携関係を確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0083",
+      "entity_id": "PH",
+      "country_area_ja": "フィリピン",
+      "candidate_name": "Jolliant RNN Corporation / Commissary Network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Philippines / Philippine Seven Corporation",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "Philippine Seven年報でコミッサリー契約・主要サプライヤー開示があるか検索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0084",
+      "entity_id": "PH",
+      "country_area_ja": "フィリピン",
+      "candidate_name": "MacroAsia Jolliant Food Services / Princess Jolliant",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Philippines commissary ecosystem",
+      "manufacturing_category": null,
+      "factory_or_location": "Cebu food venture / existing PJC facility seed",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://insiderph.com/lucio-tans-macroasia-sets-up-cebu-food-venture-with-group-behind-7-eleven-commissary"
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0085",
+      "entity_id": "PH",
+      "country_area_ja": "フィリピン",
+      "candidate_name": "MacroAsia Jolliant Food Services Corporation",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "MacroAsia × Princess Jolliant; Princess Jolliant既存コミッサリー、7-Eleven Philippines関連候補",
+      "manufacturing_category": "JV/コミッサリー運営; 03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e737771ed7869e63ec6e1601ccee8f59",
+        "https://macroasiacorp.com/admin/uploadedDisclosures/Joint%20Venture%20-%20MNVI%20and%20PJC.pdf"
+      ],
+      "next_research_tasks": [
+        "フィリピン地域拡張事例として掲載",
+        "MacroAsia年報2025で初年度事業進捗を確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0086",
+      "entity_id": "PH",
+      "country_area_ja": "フィリピン",
+      "candidate_name": "Philippine Seven Corporation Annual Reports",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Philippines",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "年報PDF内でcommissary、food service、supplier、RTEを検索",
+        "2024/2025 Annual Reportでcommissary、food service、Jolliantを検索",
+        "2024/2025 Annual Report PDFをダウンロードし、commissary / Jolliant / ready-to-eat / HottaRice / supplierで検索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0087",
+      "entity_id": "PH",
+      "country_area_ja": "フィリピン",
+      "candidate_name": "Philippine Seven Corporation annual report archive",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Philippines",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "2024/2025 SEC Form 17-Aをダウンロードして全文検索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0088",
+      "entity_id": "PH",
+      "country_area_ja": "フィリピン",
+      "candidate_name": "Philippine Seven RTE / Annual report seed",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Philippines",
+      "manufacturing_category": "供給網/文献シード",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://www.7-eleven.com.ph/wp-content/uploads/2023/07/7Eleven-2022-AR-Final.pdf",
+        "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c32503d2a4a968acec6e1601ccee8f59"
+      ],
+      "next_research_tasks": [
+        "年報PDFでcommissary/supplierを本文検索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0089",
+      "entity_id": "PH",
+      "country_area_ja": "フィリピン",
+      "candidate_name": "Princess Jolliant Corporation",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Philippines / MacroAsia JV",
+      "manufacturing_category": "企業/CK / CVS食品ベンダー/コミッサリー",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "拠点深掘り",
+      "source_urls": [
+        "https://philjobnet.gov.ph/job-vacancies/company/princess-jolliant-corporation-19531",
+        "https://macroasiacorp.com/admin/uploadedDisclosures/Joint%20Venture%20-%20MNVI%20and%20PJC.pdf",
+        "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e737771ed7869e63ec6e1601ccee8f59"
+      ],
+      "next_research_tasks": [
+        "Cebu施設、既存工場、米飯ライン / MacroAsia JVと紐づけ"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0090",
+      "entity_id": "PH",
+      "country_area_ja": "フィリピン",
+      "candidate_name": "Princess Jolliant Corporation / Jolliant Group",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Philippines",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "Philippine Seven IR/年報で補強"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0091",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "7-Eleven Vietnam / 7IN investment value chain",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Vietnam",
+      "manufacturing_category": "供給網/運営背景",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://www.7andi.com/library/en/ir/library/mr/pdf/mr_pdf-03_2411.pdf"
+      ],
+      "next_research_tasks": [
+        "中央キッチン詳細文の背景に利用"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0092",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "7-Eleven Vietnam RTE / Central Kitchen Supplier Network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Vietnam",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "Seven System Vietnam、商品開発職、食品安全認証、厨房所在地、商品ラベルから製造者を探す"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0093",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "Circle K Vietnam RTE food platform",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Circle K Vietnam",
+      "manufacturing_category": "RTE platform",
+      "factory_or_location": "Vietnam",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Official/Candidate",
+      "source_urls": [
+        "https://www.circlek.com.vn/en/"
+      ],
+      "next_research_tasks": [
+        "米飯商品と仕入先を商品ラベル・求人・回収情報から探す。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0094",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "Circle K Vietnam RTE supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Circle K Vietnam",
+      "manufacturing_category": "未特定供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://www.circlek.com.vn/en/",
+        "https://www.mintel.com/insights/food-and-drink/what-brands-can-learn-from-vietnams-ready-meal-market/"
+      ],
+      "next_research_tasks": [
+        "ベトナム語でCircle K bếp trung tâm/nhà cung cấpを探索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0095",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "Circle K Vietnam food supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Circle K Vietnam",
+      "manufacturing_category": "Supply Network",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Candidate",
+      "source_urls": [
+        "https://www.circlek.com.vn/en/"
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0096",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "Circle K Vietnam fresh food supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Circle K Vietnam",
+      "manufacturing_category": "チェーン供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "候補",
+      "source_urls": [
+        "https://www.circlek.com.vn/en/"
+      ],
+      "next_research_tasks": [
+        "製造委託先、CK/DC、米飯商品"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0097",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "FamilyMart Vietnam / local hot food supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "FamilyMart Vietnam",
+      "manufacturing_category": "未特定供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://www.researchgate.net/publication/369440144_Product_Policy_Comparison_for_FamilyMart_and_CircleK_in_VN",
+        "https://www.mintel.com/insights/food-and-drink/what-brands-can-learn-from-vietnams-ready-meal-market/"
+      ],
+      "next_research_tasks": [
+        "FamilyMart Vietnamの法人・CK情報を探索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0098",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "GS25 Vietnam Korean RTE platform",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "GS25 Vietnam",
+      "manufacturing_category": "RTE platform",
+      "factory_or_location": "Vietnam",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Candidate",
+      "source_urls": [
+        "https://www.facebook.com/helloGS25/"
+      ],
+      "next_research_tasks": [
+        "GS Retail Vietnam、現物表示、求人で製造先を探す。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0099",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "GS25 Vietnam fresh food supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "GS25 Vietnam",
+      "manufacturing_category": "Supply Network",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Candidate",
+      "source_urls": [],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0100",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "Global Catering",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "GS25 Vietnam",
+      "manufacturing_category": "企業/CK",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "米飯品目要確認",
+      "source_urls": [
+        "https://globalcatering.com.vn/2023/11/27/global-catering-is-now-an-official-provider-of-ready-to-eat-meals-for-gs25/"
+      ],
+      "next_research_tasks": [
+        "米飯メニュー、工場、供給店舗数"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0101",
+      "entity_id": "VN",
+      "country_area_ja": "ベトナム",
+      "candidate_name": "Global Catering Joint Stock Company",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "ベトナムの小売・外食向け候補",
+      "manufacturing_category": "02_空厨/航空ケータリング",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "コンビニ向け取引の有無を追加調査"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0102",
+      "entity_id": "MY",
+      "country_area_ja": "マレーシア",
+      "candidate_name": "7-Eleven Malaysia Holdings Annual Reports",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Malaysia",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "Bursa開示と年報でQVI Foodsやcommissaryを追跡"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0103",
+      "entity_id": "MY",
+      "country_area_ja": "マレーシア",
+      "candidate_name": "7-Eleven Malaysia RTE / 7CAFé fresh food value chain",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Malaysia",
+      "manufacturing_category": "05_小売PB/RTE供給網（製造者未特定）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "供給委託先名、中央キッチン運営会社を継続探索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0104",
+      "entity_id": "MY",
+      "country_area_ja": "マレーシア",
+      "candidate_name": "7-Eleven Malaysia local supplier network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Malaysia / QVI Foods",
+      "manufacturing_category": "01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "個別サプライヤー名が見つかるか、Bursa開示・調達資料・食品安全資料を追加確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0105",
+      "entity_id": "MY",
+      "country_area_ja": "マレーシア",
+      "candidate_name": "Mynews Food Sdn Bhd",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "myNEWS / CU Malaysia",
+      "manufacturing_category": "CK持株/供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://www.nst.com.my/business/corporate/2024/07/1082811/more-mynews-cu-mart-outlets-open-east-coast-second-half-2024"
+      ],
+      "next_research_tasks": [
+        "グループ関係として掲載"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0106",
+      "entity_id": "MY",
+      "country_area_ja": "マレーシア",
+      "candidate_name": "Mynews Kineya",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "myNEWS / CU Malaysia",
+      "manufacturing_category": "企業/CK",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "深掘り継続",
+      "source_urls": [
+        "https://www.nst.com.my/business/corporate/2024/07/1082811/more-mynews-cu-mart-outlets-open-east-coast-second-half-2024"
+      ],
+      "next_research_tasks": [
+        "米飯商品の有無、CU Malaysia向け品目、工場所在地"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0107",
+      "entity_id": "MY",
+      "country_area_ja": "マレーシア",
+      "candidate_name": "Mynews Ryoyupan Sdn Bhd",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "myNEWS / CU Malaysia",
+      "manufacturing_category": "CVSベーカリー/CK",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://www.nst.com.my/business/corporate/2024/07/1082811/more-mynews-cu-mart-outlets-open-east-coast-second-half-2024"
+      ],
+      "next_research_tasks": [
+        "myNEWS/CU Malaysia側のベーカリーとして追加"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0108",
+      "entity_id": "MY",
+      "country_area_ja": "マレーシア",
+      "candidate_name": "QL Kitchen",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "FamilyMart Malaysia",
+      "manufacturing_category": "企業/CK",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "拠点深掘り",
+      "source_urls": [
+        "https://ql.com.my/our-businesses/retail/",
+        "https://familymart.com.my/"
+      ],
+      "next_research_tasks": [
+        "中央キッチン所在地、炊飯設備、供給店舗数"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0109",
+      "entity_id": "MY",
+      "country_area_ja": "マレーシア",
+      "candidate_name": "QVI Foods",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Malaysia",
+      "manufacturing_category": "企業/CK",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "深掘り継続",
+      "source_urls": [
+        "https://www.7eleven.com.my/wp-content/uploads/2024/08/ar-2023-1.pdf",
+        "https://theedgemalaysia.com/node/801666"
+      ],
+      "next_research_tasks": [
+        "米飯商品、工場所在地、稼働状況"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0110",
+      "entity_id": "MX",
+      "country_area_ja": "メキシコ",
+      "candidate_name": "Caffenio / Andatti Coffee Partnership",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "OXXO / andatti",
+      "manufacturing_category": "01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "Caffenio公式・FEMSA IRで資本関係と供給継続を確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0111",
+      "entity_id": "MX",
+      "country_area_ja": "メキシコ",
+      "candidate_name": "OXXO food supply / Solistica logistics seed",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "OXXO / FEMSA",
+      "manufacturing_category": "Retail/Logistics Seed",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Candidate",
+      "source_urls": [
+        "https://www.relexsolutions.com/resources/case-study-oxxo/"
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0112",
+      "entity_id": "MX",
+      "country_area_ja": "メキシコ",
+      "candidate_name": "OXXO fresh food / Solistica logistics seed",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "OXXO",
+      "manufacturing_category": "Logistics / RTE platform",
+      "factory_or_location": "Mexico",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Candidate",
+      "source_urls": [
+        "https://solistica.com/"
+      ],
+      "next_research_tasks": [
+        "製造会社名と米飯該当商品の有無を分ける。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0113",
+      "entity_id": "MX",
+      "country_area_ja": "メキシコ",
+      "candidate_name": "OXXO fresh food / Solistica network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "OXXO",
+      "manufacturing_category": "物流/供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "候補",
+      "source_urls": [
+        "https://www.solistica.com/en/about-us/"
+      ],
+      "next_research_tasks": [
+        "食品メーカー、CK、米飯商品"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0114",
+      "entity_id": "MX",
+      "country_area_ja": "メキシコ",
+      "candidate_name": "OXXO × Solistica",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "OXXO",
+      "manufacturing_category": "CVS物流/供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://blog.solistica.com/en/success-stories/oxxo-mexicos-distribution-network"
+      ],
+      "next_research_tasks": [
+        "食品ベンダーではなく物流カテゴリ"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0115",
+      "entity_id": null,
+      "country_area_ja": "メキシコ・中南米",
+      "candidate_name": "Solistica / OXXO Distribution Network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "OXXO（FEMSA Proximity Division）",
+      "manufacturing_category": "04_冷鏈物流/食品配送",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "OXXOの惣菜・サンドイッチ・ベーカリー製造委託先は別途探索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0130",
+      "entity_id": null,
+      "country_area_ja": "南アフリカ",
+      "candidate_name": "Woolworths supply chain / Engen forecourt network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Woolworths Foodstop / Engen",
+      "manufacturing_category": "Forecourt convenience fresh meals",
+      "factory_or_location": "South Africa",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B-C",
+      "source_urls": [
+        "https://www.woolworthsholdings.co.za/woolies-and-engen-open-100th-foodstop-bi..."
+      ],
+      "next_research_tasks": [
+        "調理済み米飯商品、供給工場、配送温度帯を確認する。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0131",
+      "entity_id": "TW",
+      "country_area_ja": "台湾",
+      "candidate_name": "FamilyMart Taiwan 鮮食供給網",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "FamilyMart Taiwan",
+      "manufacturing_category": "CVS fresh food supply chain",
+      "factory_or_location": "台湾",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "拡張中 / A：商品から企業へ戻す作業中",
+      "source_urls": [
+        "https://www.family.com.tw/Web_EnterPrise/page/NewsContent.aspx?ID=832",
+        "https:..."
+      ],
+      "next_research_tasks": [
+        "個別商品ラベルから屏榮・晉欣・長家などの役割を分解 / 商品追加だけで止めず、SKUごとに製造者・工場へ戻す"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0132",
+      "entity_id": "TW",
+      "country_area_ja": "台湾",
+      "candidate_name": "OK mart / 來來超商 鮮食供給網",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "OK mart / 來來超商",
+      "manufacturing_category": "コンビニ食品ベンダー",
+      "factory_or_location": "台湾",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://www.okmart.com.tw/event/choice/",
+        "https://www.okmart.com.tw/hotProduct..."
+      ],
+      "next_research_tasks": [
+        "メーカー名未特定。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0133",
+      "entity_id": "TW",
+      "country_area_ja": "台湾",
+      "candidate_name": "台湾ファミリーマート 鮮食自有廠群",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "台湾FamilyMart / 全家便利商店",
+      "manufacturing_category": "コンビニ食品ベンダー",
+      "factory_or_location": "台湾全域",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "A",
+      "source_urls": [
+        "https://www.family.com.tw/ESG/SupplyChain",
+        "https://www.family.com.tw/Web_Ente..."
+      ],
+      "next_research_tasks": [
+        "公式情報が強い。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0134",
+      "entity_id": "TW",
+      "country_area_ja": "台湾",
+      "candidate_name": "台湾鮮食製造商リスト（調査シード）",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "台湾コンビニ各社",
+      "manufacturing_category": "コンビニ食品ベンダー",
+      "factory_or_location": "台湾",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://zh.wikipedia.org/zh-tw/%E9%AE%AE%E9%A3%9F"
+      ],
+      "next_research_tasks": [
+        "参考資料に限定。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0135",
+      "entity_id": "TW",
+      "country_area_ja": "台湾",
+      "candidate_name": "嘉義食品工業股份有限公司",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-ELEVEN関連候補",
+      "manufacturing_category": "コンビニ食品ベンダー",
+      "factory_or_location": "新北/嘉義?",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://zh.wikipedia.org/zh-tw/%E9%AE%AE%E9%A3%9F"
+      ],
+      "next_research_tasks": [
+        "要追加確認。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0136",
+      "entity_id": "TW",
+      "country_area_ja": "台湾",
+      "candidate_name": "建康國際食品",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "台湾FamilyMart / 全家便利商店",
+      "manufacturing_category": "コンビニ食品ベンダー",
+      "factory_or_location": "台湾",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B-C",
+      "source_urls": [
+        "https://www.family.com.tw/web_enterprise/Content/PDF/113%E5%B9%B4Q1_IR%E4%B8%..."
+      ],
+      "next_research_tasks": [
+        "鮮食本体ではない。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0137",
+      "entity_id": "TW",
+      "country_area_ja": "台湾",
+      "candidate_name": "復空食品股份有限公司",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-ELEVEN関連候補",
+      "manufacturing_category": "コンビニ食品ベンダー",
+      "factory_or_location": "桃園等",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://zh.wikipedia.org/zh-tw/%E9%AE%AE%E9%A3%9F"
+      ],
+      "next_research_tasks": [
+        "根拠弱い。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0138",
+      "entity_id": "TW",
+      "country_area_ja": "台湾",
+      "candidate_name": "東和食品工業股份有限公司",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-ELEVEN関連候補",
+      "manufacturing_category": "コンビニ食品ベンダー",
+      "factory_or_location": "宜蘭",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://zh.wikipedia.org/zh-tw/%E9%AE%AE%E9%A3%9F"
+      ],
+      "next_research_tasks": [
+        "現時点では弱い。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0139",
+      "entity_id": "TW",
+      "country_area_ja": "台湾",
+      "candidate_name": "樂山股份有限公司",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-ELEVEN関連候補",
+      "manufacturing_category": "コンビニ食品ベンダー",
+      "factory_or_location": "桃園等",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://zh.wikipedia.org/zh-tw/%E9%AE%AE%E9%A3%9F"
+      ],
+      "next_research_tasks": [
+        "根拠弱い。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0140",
+      "entity_id": "TW",
+      "country_area_ja": "台湾",
+      "candidate_name": "萊爾富 鮮食供給網",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Hi-Life / 萊爾富",
+      "manufacturing_category": "コンビニ食品ベンダー",
+      "factory_or_location": "台湾",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C",
+      "source_urls": [
+        "https://www.hilife.com.tw/",
+        "https://zh.wikipedia.org/zh-tw/%E9%AE%AE%E9%A3%9F"
+      ],
+      "next_research_tasks": [
+        "メーカー名未特定。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0141",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "JALロイヤルケータリング株式会社",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS直接供給は未確認",
+      "manufacturing_category": "02_空厨/航空ケータリング",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "外販・小売向け食品、空弁/空港売店向けの有無を調査"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0142",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "グリーンメッセージ",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS/SEJ upstream候補",
+      "manufacturing_category": null,
+      "factory_or_location": "本社工場 seed",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://www.smbc.co.jp/hojin/report/investigationlecture/resources/pdf/3_00_C..."
+      ],
+      "next_research_tasks": [
+        "CVS惣菜/米飯具材への関係",
+        "CVS惣菜/米飯具材への関係を確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0143",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "コスモ企業株式会社",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS直接供給は未確認",
+      "manufacturing_category": "02_空厨/航空ケータリング",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "空弁販路、駅/空港/小売店舗での販売実績を確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0144",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "セブン-イレブン 地区開発商品体制",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "セブン-イレブン・ジャパン",
+      "manufacturing_category": "01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "Market BASE日本ページの解説文に反映"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0145",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "セブン-イレブン・ジャパン 商品供給システム",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "セブン-イレブン・ジャパン",
+      "manufacturing_category": "04_冷鏈物流/食品配送",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "日本ページの『CVS鮮食供給モデル』説明欄に使う"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0146",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "セブン‐イレブン フレッシュフード品質管理",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "セブン‐イレブン・ジャパン",
+      "manufacturing_category": "小売本部 / 品質管理・供給網 | 01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "セブン公式のフレッシュフード品質管理を補強",
+      "source_urls": [
+        "https://sustainability.sej.co.jp/action/000149/"
+      ],
+      "next_research_tasks": [
+        "NDF企業リストや地区別工場調査の基礎資料にする"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0147",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "チルド弁当普及とCVS中食ベンダー再編",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "日本のコンビニ各社",
+      "manufacturing_category": "04_冷鏈物流/食品配送",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "最新IR・各社工場投資・ローソン/ファミマ/セブンのチルド施策と突合"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0148",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "デリカフーズホールディングス / デリカフーズ系",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "セブン-イレブン等との原料調達事例候補",
+      "manufacturing_category": "04_冷鏈物流/食品配送",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "CVS原料サプライヤーカテゴリを作るか検討"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0149",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "ファミリーマート 地域工場発案商品事例",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "ファミリーマート",
+      "manufacturing_category": "01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "最新の地域フェア・工場発案商品・製造所固有記号を継続調査"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0150",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "中食の成長とコンビニベンダーの事業展開",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "日本CVS全般",
+      "manufacturing_category": "文献シード / 業界構造資料 | 01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "コンビニベンダー研究文献として追加",
+      "source_urls": [
+        "https://researchmap.jp/read0085337/published_papers/31850302/attachment_file.pdf",
+        "https://www.smbc.co.jp/hojin/report/investigationlecture/resources/pdf/3_00_CRSDReport008.pdf"
+      ],
+      "next_research_tasks": [
+        "日本CVS供給網の背景説明に引用"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0151",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "日清製粉グループ 中食・惣菜事業ネットワーク",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "ファミリーマート中心、一部その他チャネル",
+      "manufacturing_category": "04_冷鏈物流/食品配送",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "トオカツ系各社とファミリーマート商品の製造所固有記号・回収告知を突合する"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0152",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "株式会社ANAケータリングサービス",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS直接供給は未確認",
+      "manufacturing_category": "02_空厨/航空ケータリング",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "外販・小売向け食品展開があるか確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0153",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "株式会社タバック",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS直接供給は未確認",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "小売/コンビニ流通実績の有無を確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0154",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "株式会社ティエフケー",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS直接供給は未確認",
+      "manufacturing_category": "02_空厨/航空ケータリング",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "外販商品・冷凍/軽食の販路、コンビニ/駅/空港売店向け有無を確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0155",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "株式会社水富 セントラルキッチン代行",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS直接供給は未確認",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "チェーン店・小売向け実績の公開有無を確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0156",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "虎昭産業",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Seven-Eleven Japan",
+      "manufacturing_category": null,
+      "factory_or_location": "北関東もおか工場 seed",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "A",
+      "source_urls": [
+        "https://www.torasyo.co.jp/jigyou.html"
+      ],
+      "next_research_tasks": [
+        "米飯ラインの有無は現物表示で追加調査",
+        "米飯ラインがあるかは現物表示で確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0157",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "製造所固有記号検索",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "日本国内食品全般",
+      "manufacturing_category": "01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "実商品パッケージの販売者・製造所固有記号と照合する"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0158",
+      "entity_id": "US",
+      "country_area_ja": "米国",
+      "candidate_name": "7-Eleven US Fresh Food Value Chain Modernization",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven / Speedway / Stripes",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "Seven & i資料内のFuji Foods関連記述と実法人を追加確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0159",
+      "entity_id": "US",
+      "country_area_ja": "米国",
+      "candidate_name": "Canteen / Compass Group commissary",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "micro-market / airports / workplace / convenience-adjacent",
+      "manufacturing_category": null,
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B-C：隣接チャネル。米飯SKU要確認",
+      "source_urls": [
+        "https://www.canteen.com/commissary/"
+      ],
+      "next_research_tasks": [
+        "コンビニ棚への実供給、rice entrée、製造施設住所、プライベートラベル表示"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0160",
+      "entity_id": "US",
+      "country_area_ja": "米国",
+      "candidate_name": "Fuji Food Products, Inc.",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven / supermarket CVS-adjacent",
+      "manufacturing_category": null,
+      "factory_or_location": "Santa Fe Springs, CA / Midwest facility seed",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B：米飯RTE製造者。7-Eleven直結は商品ラベルで要確認",
+      "source_urls": [
+        "https://fujifood.com/",
+        "https://www.fda.gov/safety/recalls-market-withdrawals-..."
+      ],
+      "next_research_tasks": [
+        "Okami/7-Eleven現物ラベル、製造所コード、Santa Fe Springs/Midwestの担当SKU"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0161",
+      "entity_id": "US",
+      "country_area_ja": "米国",
+      "candidate_name": "GRBNGO",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "airports / schools / hospitals / wholesale food providers",
+      "manufacturing_category": null,
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "C：候補シード。CVS直結・米飯要確認",
+      "source_urls": [
+        "https://grbngo.com/"
+      ],
+      "next_research_tasks": [
+        "商品カタログ、rice bowl/Asian meal、製造者表示、C-store取り扱い"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0162",
+      "entity_id": null,
+      "country_area_ja": "米国/北米",
+      "candidate_name": "AFC Sushi",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "supermarket / military commissary / campus / office food court",
+      "manufacturing_category": null,
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B：米飯RTE強い。CVSではなく隣接小売",
+      "source_urls": [
+        "https://wonderfieldgroup.com/our-brands/afc",
+        "https://afcsushi.com/"
+      ],
+      "next_research_tasks": [
+        "C-store展開有無、製造所・店内製造の責任区分、ラベル表示"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0163",
+      "entity_id": null,
+      "country_area_ja": "米国/北米",
+      "candidate_name": "Flexeserve / Circle K Hot Food Operations",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Circle K",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "実食品サプライヤー・コミッサリーとは分ける"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0164",
+      "entity_id": null,
+      "country_area_ja": "米国/北米",
+      "candidate_name": "SNOWFOX / Bento Sushi",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Kroger / Albertsons / Sam's Club / airports / campus / grocery convenience",
+      "manufacturing_category": null,
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B：米飯RTE強い。CVS直結は要確認",
+      "source_urls": [
+        "https://www.snowfox.com/become-a-retailer/",
+        "https://www.bentosushi.com/en/abo..."
+      ],
+      "next_research_tasks": [
+        "Circle K/7-Eleven等での取り扱い有無、commissary所在地、製造者表示"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0165",
+      "entity_id": "GB",
+      "country_area_ja": "英国",
+      "candidate_name": "Laila's Fine Foods Ltd.",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Iceland / foodservice / retail",
+      "manufacturing_category": null,
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B：ready meal・米飯カテゴリ候補",
+      "source_urls": [
+        "https://lailasfinefoods.co.uk/",
+        "https://www.foodmanufacture.co.uk/Article/201..."
+      ],
+      "next_research_tasks": [
+        "CVS/小型店への実供給、製造所住所、商品ラベル"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0166",
+      "entity_id": "GB",
+      "country_area_ja": "英国",
+      "candidate_name": "YO! / Tesco sushi partnership",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Tesco / Tesco Express / supermarket convenience",
+      "manufacturing_category": null,
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B：米飯RTE強い。製造者・CVS範囲要確認",
+      "source_urls": [
+        "https://www.seafoodsource.com/news/foodservice-retail/uk-sushi-market-expanding-with-new-tesco-partnership"
+      ],
+      "next_research_tasks": [
+        "Tesco Expressでの展開有無、商品ラベル、店内調理/外部製造区分"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0167",
+      "entity_id": "KR",
+      "country_area_ja": "韓国",
+      "candidate_name": "Fresh Serve",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "GS25 / GS Retail",
+      "manufacturing_category": "01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "GS Retail公式のFresh Serveページを探索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0168",
+      "entity_id": "KR",
+      "country_area_ja": "韓国",
+      "candidate_name": "Fresh Serve / GS Retail Fresh Food ecosystem",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "GS25 / GS Retail",
+      "manufacturing_category": null,
+      "factory_or_location": "Osan Plant seed",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "B",
+      "source_urls": [
+        "https://pulse.mk.co.kr/news/english/11288906"
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0169",
+      "entity_id": "KR",
+      "country_area_ja": "韓国",
+      "candidate_name": "Korea Seven / Lotte Wellfood supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Korea",
+      "manufacturing_category": "未特定供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://www.lotte.co.kr/global/en/business/compDetail.do?compCd=L204"
+      ],
+      "next_research_tasks": [
+        "Lotte group/食品子会社・回収情報で探索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0170",
+      "entity_id": "KR",
+      "country_area_ja": "韓国",
+      "candidate_name": "Korea Seven / Lotte supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Korea",
+      "manufacturing_category": "チェーン供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "候補",
+      "source_urls": [
+        "https://www.lotte.co.kr/global/en/business/compDetail.do?compCd=L204"
+      ],
+      "next_research_tasks": [
+        "製造者名、ロッテ系列工場、協力ベンダー"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0171",
+      "entity_id": "KR",
+      "country_area_ja": "韓国",
+      "candidate_name": "Korea Seven food manufacturing network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Korea",
+      "manufacturing_category": "Supply Network",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Candidate",
+      "source_urls": [
+        "https://www.lotte.co.kr/global/en/business/compDetail.do?compCd=L204"
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0172",
+      "entity_id": "KR",
+      "country_area_ja": "韓国",
+      "candidate_name": "Korea Seven food supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Korea",
+      "manufacturing_category": "Supply network",
+      "factory_or_location": "South Korea",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Candidate",
+      "source_urls": [
+        "https://www.lotte.co.kr/global/en/business/compDetail.do?compCd=L204"
+      ],
+      "next_research_tasks": [
+        "Lotte group内外の製造先と工場名を調べる。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0173",
+      "entity_id": "KR",
+      "country_area_ja": "韓国",
+      "candidate_name": "Korean CVS fresh meal / HACCP literature seeds",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CU, GS25",
+      "manufacturing_category": "01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "RISS/KCI/DBpiaで편의점 도시락 공급망/HMR論文検索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0174",
+      "entity_id": "KR",
+      "country_area_ja": "韓国",
+      "candidate_name": "emart24 / Shinsegae food supply network",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "emart24",
+      "manufacturing_category": "未特定供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://www.koreatimes.co.kr/business/companies/20230620/emart24-drives-korean-food-craze-in-singapore"
+      ],
+      "next_research_tasks": [
+        "韓国語でemart24 도시락 제조を検索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0175",
+      "entity_id": "HK",
+      "country_area_ja": "香港",
+      "candidate_name": "7-Eleven Hong Kong 7-SELECT",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Hong Kong / DFI",
+      "manufacturing_category": "チェーン供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "メーカー要確認",
+      "source_urls": [
+        "https://www.7-eleven.com.hk/en/food-on-the-go/7-select/onigiri-n-roll",
+        "https://www.dfiretailgroup.com/en/our-businesses/convenience/"
+      ],
+      "next_research_tasks": [
+        "製造者、香港/中国側工場、日本連携商品"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0176",
+      "entity_id": "HK",
+      "country_area_ja": "香港",
+      "candidate_name": "7-Eleven Hong Kong 7-SELECT Own Brand",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Hong Kong",
+      "manufacturing_category": "05_小売PB/RTE供給網（製造者未特定）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "商品裏面の製造者表示、香港食品登録、7-SELECT提携先別ページを確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0177",
+      "entity_id": "HK",
+      "country_area_ja": "香港",
+      "candidate_name": "7-Eleven Hong Kong 7-SELECT food platform",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven HK / DFI",
+      "manufacturing_category": "RTE platform",
+      "factory_or_location": "Hong Kong",
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": "Official/Candidate",
+      "source_urls": [
+        "https://www.7-eleven.com.hk/en/food-on-the-go/7-select"
+      ],
+      "next_research_tasks": [
+        "製造会社名と工場所在地を追加。"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0178",
+      "entity_id": "HK",
+      "country_area_ja": "香港",
+      "candidate_name": "7-Eleven Hong Kong 7-SELECT foods",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Hong Kong",
+      "manufacturing_category": "小売PB/RTE供給網",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [
+        "https://www.7-eleven.com.hk/en/food-on-the-go/7-select"
+      ],
+      "next_research_tasks": [
+        "商品別製造元を探索"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0179",
+      "entity_id": "HK",
+      "country_area_ja": "香港",
+      "candidate_name": "7-Eleven Hong Kong Chilled Distribution Centre",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Hong Kong",
+      "manufacturing_category": "04_冷鏈物流/食品配送",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "ATL Logistics Centre、DFI年報、物流会社側の発表を探す"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0180",
+      "entity_id": "HK",
+      "country_area_ja": "香港",
+      "candidate_name": "7-Eleven Hong Kong RTE Concept Stores",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Hong Kong",
+      "manufacturing_category": "05_小売PB/RTE供給網（製造者未特定）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "店舗内RTEブランド名から製造者表示を探索。香港店頭表示・商品裏面情報も有効"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0181",
+      "entity_id": "HK",
+      "country_area_ja": "香港",
+      "candidate_name": "7-SELECT Hong Kong fresh food range",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Hong Kong",
+      "manufacturing_category": "05_小売PB/RTE供給網（製造者未特定）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "商品裏面/求人/食品安全資料から製造者を探す"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0182",
+      "entity_id": "HK",
+      "country_area_ja": "香港",
+      "candidate_name": "A Framework of Core Competencies of Convenience Store",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Hong Kong",
+      "manufacturing_category": "01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": null,
+      "reason_for_watch": "実ベンダー候補（会社単位）。工場が明確な場合のみ工場詳細へ。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "原文PDFを取得し、食品/物流/ベンダー記述の有無を確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0183",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "セブン‐イレブン フレッシュフード製造工場管理",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "セブン‐イレブン・ジャパン",
+      "manufacturing_category": "01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": "セブン‐イレブン フレッシュフード製造工場管理",
+      "reason_for_watch": "Evidenceへ移動：管理項目であり会社名ではない",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "NDF、わらべや、武蔵野、フジフーズ等の個別ページと相互リンク"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0184",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "セブン‐イレブン向け食品工場求人サイト",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "セブン‐イレブン・ジャパン",
+      "manufacturing_category": "NDF関連資料 / 製造カテゴリ補強 | 01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": "セブン‐イレブン向け食品工場求人サイト",
+      "reason_for_watch": "Evidenceへ移動：求人サイトであり会社名ではない",
+      "confirmation_status": "NDF加盟工場求人サイトで製造カテゴリを補強",
+      "source_urls": [
+        "https://conveni-food.net/jobfind-pc/",
+        "https://sustainability.sej.co.jp/action/000149/"
+      ],
+      "next_research_tasks": [
+        "NDF各加盟企業と品目を紐づける補助資料にする"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0185",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "日本デリカフーズ協同組合（NDF）",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Japan / セブン‐イレブン / Seven-Eleven Japan / セブン‐イレブン・ジャパン / セブン-イレブン / セブン-イレブン・ジャパン; 7-Eleven Japan",
+      "manufacturing_category": "Network / Manufacturing network / ネットワーク / NDF品質管理・工場DX資料 | 01_コンビニ食品ベンダー（既存調査・終了） / 01_コンビニ食品ベンダー（既存調査・終了）; Network",
+      "factory_or_location": "全国62社・170工場",
+      "reason_for_watch": "Evidenceへ移動：協同組合/供給網入口であり、単独のベンダー工場運営会社ではない",
+      "confirmation_status": "Verified / Official / 実名分解継続 / A / A- / Official confirmed / Official/industry confirmed / 2023年時点の139工場DX導入情報を確認; Verified",
+      "source_urls": [
+        "https://sustainability.sej.co.jp/action/000149/",
+        "https://conveni-food.net/jobfind-pc/",
+        "https://www.7andi.com/company/challenge/12302/1.html",
+        "https://www.nposfss.com/cat5/7eleven.html",
+        "https://prtimes.jp/main/html/rd/p/000000058.000054269.html"
+      ],
+      "next_research_tasks": [
+        "加盟企業・工場の実名分解。製造所固有記号と商品回収告知で米飯ラインを逆引き。 / 加盟企業と工場の実名、製造所固有記号、米飯設備 / 加盟企業・工場名を製造所固有記号/求人/回収告知で分解 / 最新の62/170と過去の63/176を併記し、時点差として扱う / NDF加盟企業名と工場名を製造所固有記号・回収告知・商品表示で分解 / NDF-FSMSの現在運用状況と工場別認証名を補強 / 品質管理セクションの補助説明に活用 / 加盟企業一覧・NDFの役割を追加確認 / セブン系ベンダー各社ページにNDF参加・供給品目を紐づける / Market BASEでは『供給ネットワーク』カテゴリを作り、個別ベンダーと関連付ける"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0186",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "Charoen Pokphand Group retail food businesses",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ecosystem",
+      "manufacturing_category": "RTE/RTC/ベーカリー/物流",
+      "factory_or_location": "Thailand / regional",
+      "reason_for_watch": "Reviewへ移動：グループ/小売事業入口で、CVSベンダー工場運営会社ではない",
+      "confirmation_status": "A-B",
+      "source_urls": [
+        "https://www.cpgroupglobal.com/en/about-cp-group/our-business"
+      ],
+      "next_research_tasks": [
+        "CPRAM/CPF/CP ALL間の役割分担、工場別商品"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0188",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "CPRAM Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL",
+      "manufacturing_category": null,
+      "factory_or_location": "CPRAM Ladkrabang Business Unit",
+      "reason_for_watch": "Factory Reviewへ移動：CPRAMの総称/重複/列ずれ疑い。Plant 1〜4、DC、Chon Buri、Pin Thongの実体行だけCoreに残す。",
+      "confirmation_status": "A",
+      "source_urls": [],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0189",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "CPRAM Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "米飯対象外・ベーカリー重点",
+      "manufacturing_category": "A-B",
+      "factory_or_location": "CPRAM Le Pan / Bakery plants",
+      "reason_for_watch": "Factory Reviewへ移動：CPRAMの総称/重複/列ずれ疑い。Plant 1〜4、DC、Chon Buri、Pin Thongの実体行だけCoreに残す。",
+      "confirmation_status": "2023-2024",
+      "source_urls": [],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0190",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "CPRAM Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL",
+      "manufacturing_category": "Bakery Plant",
+      "factory_or_location": "Chon Buri / Pinthong Industrial Park周辺",
+      "reason_for_watch": "Factory Reviewへ移動：CPRAMの総称/重複/列ずれ疑い。Plant 1〜4、DC、Chon Buri、Pin Thongの実体行だけCoreに残す。",
+      "confirmation_status": "A-B",
+      "source_urls": [
+        "https://asiafoodbeverages.com/cpram-opens-new-sliced-bread-factory-aims-for-20-market-share/"
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0191",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "CPRAM Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL",
+      "manufacturing_category": "ベーカリー/サンドイッチ/DC",
+      "factory_or_location": "Factory complex",
+      "reason_for_watch": "Factory Reviewへ移動：CPRAMの総称/重複/列ずれ疑い。Plant 1〜4、DC、Chon Buri、Pin Thongの実体行だけCoreに残す。",
+      "confirmation_status": "A",
+      "source_urls": [
+        "https://www.juse.or.jp/download/deming/2023_D_02_CPRAM%20%28Ladkrabang%29.pdf"
+      ],
+      "next_research_tasks": [
+        "RTE米飯工場との役割分担、DC1/DC2の対象地域"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0192",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "CPRAM Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL / 7-Eleven Thailand",
+      "manufacturing_category": "Bakery Plant Cluster / DC / Plant / DC",
+      "factory_or_location": "Ladkrabang Industrial Estate, Bangkok",
+      "reason_for_watch": "Factory Reviewへ移動：CPRAMの総称/重複/列ずれ疑い。Plant 1〜4、DC、Chon Buri、Pin Thongの実体行だけCoreに残す。",
+      "confirmation_status": "A / 工場情報強",
+      "source_urls": [
+        "https://www.juse.or.jp/download/deming/2023_D_02_CPRAM%20%28Ladkrabang%29.pdf"
+      ],
+      "next_research_tasks": [
+        "Plant 1-4の製品別・温度帯別詳細を追加"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0193",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "CPRAM Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL",
+      "manufacturing_category": "工場/DC",
+      "factory_or_location": "Ladkrabang Industrial Estate、4 Plants + DC",
+      "reason_for_watch": "Factory Reviewへ移動：CPRAMの総称/重複/列ずれ疑い。Plant 1〜4、DC、Chon Buri、Pin Thongの実体行だけCoreに残す。",
+      "confirmation_status": "設備深掘り",
+      "source_urls": [
+        "https://www.juse.or.jp/download/deming/2023_D_02_CPRAM%20%28Ladkrabang%29.pdf"
+      ],
+      "next_research_tasks": [
+        "4 Plant別商品、米飯商品の有無、炊飯設備"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0194",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "CPRAM Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Thailand / CP ALL | 7-Eleven Thailand / 7-Eleven Thailand / CP ALL",
+      "manufacturing_category": "Bakery Plant | Plant / Sandwich / Loaf Plant | Plant / Dispatch Center",
+      "factory_or_location": "Ladkrabang, Bangkok",
+      "reason_for_watch": "Factory Reviewへ移動：CPRAMの総称/重複/列ずれ疑い。Plant 1〜4、DC、Chon Buri、Pin Thongの実体行だけCoreに残す。",
+      "confirmation_status": "A | 工場情報強 / A | 工場情報中 / A",
+      "source_urls": [
+        "https://www.juse.or.jp/download/deming/2023_D_02_CPRAM%20%28Ladkrabang%29.pdf",
+        "https://www.juse.or.jp/download/deming/2023_D_02_CPRAM%20%28Ladkrabang%29.pdf"
+      ],
+      "next_research_tasks": [
+        "サンドイッチ/トースティー製造有無 / Plant別品目の原文再確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0195",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "NSL Foods Public Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CP ALL / 7-Eleven Thailand",
+      "manufacturing_category": "7-Eleven専用OEM / Hot Sandwich",
+      "factory_or_location": "Thailand / 工場詳細要確認",
+      "reason_for_watch": "Factory Reviewへ移動：工場名・所在地が未確定。会社Coreには残すが工場リストには置かない。",
+      "confirmation_status": "A",
+      "source_urls": [
+        "https://nslfoods.com/en/sustainability-nsl/",
+        "https://nslfoods.com/en/financial-statements-management-discussion-and-analysis/"
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0196",
+      "entity_id": "TH",
+      "country_area_ja": "タイ",
+      "candidate_name": "NSL Foods Public Company Limited",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CP ALL / 7-Eleven Thailand",
+      "manufacturing_category": "Hot Sandwich / Bakery",
+      "factory_or_location": "工場詳細要確認",
+      "reason_for_watch": "Factory Reviewへ移動：工場名・所在地が未確定。会社Coreには残すが工場リストには置かない。",
+      "confirmation_status": "A",
+      "source_urls": [
+        "https://nslfoods.com/en/sustainability-nsl/"
+      ],
+      "next_research_tasks": [],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0197",
+      "entity_id": "MY",
+      "country_area_ja": "マレーシア",
+      "candidate_name": "7-Eleven Malaysia 2023 Annual Report - Fresh food commissary",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "7-Eleven Malaysia",
+      "manufacturing_category": "03_セントラルキッチン/大量調理",
+      "factory_or_location": "7-Eleven Malaysia 2023 Annual Report - Fresh food commissary",
+      "reason_for_watch": "Factory Reviewへ移動：資料名/供給網入口であり工場名ではない。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "年報PDFのcommissary/QVI/Fresh Food検索結果を抽出"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0198",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "セブン‐イレブン フレッシュフード製造工場管理",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "セブン‐イレブン・ジャパン",
+      "manufacturing_category": "01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": "セブン‐イレブン フレッシュフード製造工場管理",
+      "reason_for_watch": "Factory Reviewへ移動：会社/工場ではなくEvidence/管理項目。",
+      "confirmation_status": null,
+      "source_urls": [],
+      "next_research_tasks": [
+        "NDF、わらべや、武蔵野、フジフーズ等の個別ページと相互リンク"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-0199",
+      "entity_id": "JP",
+      "country_area_ja": "日本",
+      "candidate_name": "セブン‐イレブン向け食品工場求人サイト",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "セブン‐イレブン・ジャパン",
+      "manufacturing_category": "NDF関連資料 / 製造カテゴリ補強 | 01_コンビニ食品ベンダー（既存調査・終了）",
+      "factory_or_location": "セブン‐イレブン向け食品工場求人サイト",
+      "reason_for_watch": "Factory Reviewへ移動：会社/工場ではなくEvidence/管理項目。",
+      "confirmation_status": "NDF加盟工場求人サイトで製造カテゴリを補強",
+      "source_urls": [
+        "https://conveni-food.net/jobfind-pc/",
+        "https://sustainability.sej.co.jp/action/000149/"
+      ],
+      "next_research_tasks": [
+        "NDF各加盟企業と品目を紐づける補助資料にする"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-CN-001",
+      "entity_id": "CN",
+      "country_area_ja": "中国",
+      "candidate_name": "羅森浙江供應鏈基地 / 百森供應鏈科研園區",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Lawson Zhejiang / Lawson China",
+      "manufacturing_category": "CVS鮮食供給基地 / 運営会社未特定",
+      "factory_or_location": "Zhejiang integrated fresh-food supply-chain base",
+      "reason_for_watch": "修正3回目：拠点名のみのためReview保持。会社名特定後Core化。",
+      "confirmation_status": "A-B",
+      "source_urls": [
+        "https://shanghai.chinalawson.com.cn/news/192",
+        "https://www.headscm.com/Fingertip/detail/id/44466.html",
+        "https://www.chinalawson.com.cn/news/242"
+      ],
+      "next_research_tasks": [
+        "運営会社名、工場住所、米飯ライン、対象店舗数を特定したらCoreへ移動"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-CN-002",
+      "entity_id": "CN",
+      "country_area_ja": "中国",
+      "candidate_name": "江蘇鮮華物流有限公司",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Lawson Jiangsu",
+      "manufacturing_category": "CVS冷鏈物流 / 3温度帯物流",
+      "factory_or_location": "Jiangyin 3-temperature logistics center",
+      "reason_for_watch": "修正3回目：物流会社としてReview/関連インフラへ整理。",
+      "confirmation_status": "A",
+      "source_urls": [
+        "https://shanghai.chinalawson.com.cn/news/154",
+        "https://www.nichirei-logi.co.jp/news/2018/20180428.html",
+        "https://doi.org/10.14988/00027830"
+      ],
+      "next_research_tasks": [
+        "製造ベンダーではないためFactory Listには入れない。物流カテゴリで管理"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-CN-003",
+      "entity_id": "CN",
+      "country_area_ja": "中国",
+      "candidate_name": "重慶陶然居集団",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "Chongqing Lawson",
+      "manufacturing_category": "現地食品パートナー",
+      "factory_or_location": "重慶",
+      "reason_for_watch": "修正3回目：パートナー候補で工場未特定のためReview。",
+      "confirmation_status": "B-C",
+      "source_urls": [
+        "https://doi.org/10.14988/00027830"
+      ],
+      "next_research_tasks": [
+        "現行供給関係と工場実体を確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    },
+    {
+      "candidate_id": "SVC-CN-004",
+      "entity_id": "CN",
+      "country_area_ja": "中国",
+      "candidate_name": "SATS Tianjin Central Kitchen",
+      "candidate_type": "company_or_factory_candidate",
+      "status": "candidate",
+      "display_status": "hidden_by_default",
+      "research_stage": "needs_review",
+      "possible_customer": "CVS直接供給は未確認",
+      "manufacturing_category": "RTE中央キッチン / 大量調理インフラ",
+      "factory_or_location": "SATS Tianjin Central Kitchen",
+      "reason_for_watch": "修正3回目：CVS直結未確認のためReview保持。",
+      "confirmation_status": "B",
+      "source_urls": [],
+      "next_research_tasks": [
+        "中国語ソースで小売先・供給先を確認"
+      ],
+      "source_sheet": "Review_Watchlist",
+      "source_version": "v41.10",
+      "last_checked": "2026-07-03"
+    }
+  ]
+}
