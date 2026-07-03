@@ -2483,13 +2483,3 @@ html, body {
 .retail-profile-body h4 {
   font-size: 1.02rem;
 }
-
-
-/* V183: show scope/as-of note for aggregate store counts */
-.retail-aggregate-card .retail-aggregate-scope{
-  display:block;
-  margin-top:4px;
-  font-size:0.86rem;
-  line-height:1.45;
-  opacity:.86;
-}
