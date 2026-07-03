@@ -1,1 +1,2 @@
-MARKET BASE V181 card name fix: 学校給食DB / 2026-07-03
+V173_FROM_V157_NO_SPLASH_20260703
+Based on V157 public upload. Removed the splash/loading screen entirely from index.html, app.js, and CSS. No V159+ school meals integration, no V160-V167 translation batches, no CVS DB.

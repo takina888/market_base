@@ -8,16 +8,6 @@
   <meta name="description" content="MARKET BASEで国・地域、市場、小売、ランキング、比較、出典を確認できます。" />
   <link rel="stylesheet" href="assets/css/styles.css" />
   <meta name="market-base-build" content="V173_FROM_V157_NO_SPLASH_20260703" />
-
-<style>
-.mb-standalone-link-grid{display:grid;grid-template-columns:1fr;gap:12px;margin:16px 0 18px}
-@media (min-width:760px){.mb-standalone-link-grid{grid-template-columns:repeat(2,1fr)}}
-.mb-standalone-card{display:block;text-decoration:none;color:inherit;background:linear-gradient(135deg,#fff 0%,#f6f9ff 60%,#eef6ff 100%);border:1px solid #dbe7f6;border-radius:22px;padding:18px 18px;box-shadow:0 12px 28px rgba(11,58,130,.06)}
-.mb-standalone-card strong{display:block;color:#0B3A82;font-size:1.08rem;line-height:1.35;margin-bottom:6px}
-.mb-standalone-card span{display:block;color:#607086;font-weight:800;line-height:1.55}
-.mb-standalone-card em{display:inline-flex;margin-top:10px;font-style:normal;color:#1759b8;font-weight:950}
-</style>
-
 </head>
 <body>
 <header class="app-header">
@@ -40,20 +30,6 @@
     </div>
   </header>
 
-  <section class="mb-standalone-link-grid" aria-label="追加データベース">
-    <a class="mb-standalone-card" href="school-meals.html">
-      <strong data-i18n="schoolDbTitle">学校給食DB</strong>
-      <span data-i18n="schoolDbDesc">国別の学校給食、給食センター、中央厨房、対象児童数、予算を整理。</span>
-      <em data-i18n="openLink">開く →</em>
-    </a>
-    <a class="mb-standalone-card" href="cvs-vendor.html">
-      <strong data-i18n="cvsDbTitle">CVS食品工場DB</strong>
-      <span data-i18n="cvsDbDesc">コンビニ向け食品ベンダー、工場、国別供給関係を整理。</span>
-      <em data-i18n="openLink">開く →</em>
-    </a>
-  </section>
-
-
   <main id="home" class="app-shell">
 
     <section class="target-home-reference" aria-label="MARKET BASE target reference home layout">
@@ -68,36 +44,36 @@
         <button type="button" data-lang-button="zh_cn">簡中</button>
       </div>
       <button type="button" class="target-search-box" data-jump="countries">
-        <span>⌕</span><b data-i18n="targetSearch">国名・地域・キーワードで検索</b>
+        <span>⌕</span><b>国名・地域・キーワードで検索</b>
       </button>
 
-      <h3 class="target-section-title" data-i18n="findTitle">探し方</h3>
+      <h3 class="target-section-title">探し方</h3>
       <div class="target-route-list">
-        <button data-jump="countries"><span class="target-icon">◎</span><strong data-i18n="findByCountry">国から探す</strong><em data-i18n="findByCountrySub">196の国・地域から選ぶ</em><b>›</b></button>
-        <button data-jump="rankings"><span class="target-icon">▥</span><strong data-i18n="findByRanking">ランキングから探す</strong><em data-i18n="findByRankingSub">指標のランキングを見る</em><b>›</b></button>
-        <button data-jump="countries"><span class="target-icon">◇</span><strong data-i18n="findByRegion">地域から探す</strong><em data-i18n="findByRegionSub">地域ごとに国を一覧で見る</em><b>›</b></button>
+        <button data-jump="countries"><span class="target-icon">◎</span><strong>国から探す</strong><em>196の国・地域から選ぶ</em><b>›</b></button>
+        <button data-jump="rankings"><span class="target-icon">▥</span><strong>ランキングから探す</strong><em>指標のランキングを見る</em><b>›</b></button>
+        <button data-jump="countries"><span class="target-icon">◇</span><strong>地域から探す</strong><em>地域ごとに国を一覧で見る</em><b>›</b></button>
       </div>
 
-      <div class="target-row-head"><h3 data-i18n="recentCountries">最近見た国</h3><button data-jump="countries" data-i18n="seeAll">すべて見る ›</button></div>
+      <div class="target-row-head"><h3>最近見た国</h3><button data-jump="countries">すべて見る ›</button></div>
       <div id="targetRecentGrid" class="target-recent-grid" aria-label="最近見た国"></div>
 
-      <h3 class="target-section-title" data-i18n="regionTitle">地域から探す</h3>
+      <h3 class="target-section-title">地域から探す</h3>
       <div class="target-region-grid">
-        <button data-region-preset="Asia" data-subregion-preset="Eastern Asia"> <span data-i18n="eastAsia">東アジア</span></button>
-        <button data-region-preset="Asia" data-subregion-preset="South-eastern Asia"> <span data-i18n="southEastAsia">東南アジア</span></button>
-        <button data-region-preset="Europe"> <span data-i18n="europe">ヨーロッパ</span></button>
-        <button data-region-preset="Americas" data-subregion-preset="Northern America"> <span data-i18n="northAmerica">北米</span></button>
-        <button data-region-preset="Americas" data-subregions-preset="Central America|South America|Caribbean"> <span data-i18n="latinAmerica">中南米</span></button>
-        <button data-region-preset="Asia" data-subregion-preset="Western Asia"> <span data-i18n="middleEast">中東</span></button>
-        <button data-region-preset="Africa"> <span data-i18n="africa">アフリカ</span></button>
-        <button data-region-preset="Oceania"> <span data-i18n="oceania">オセアニア</span></button>
+        <button data-region-preset="Asia" data-subregion-preset="Eastern Asia">東アジア</button>
+        <button data-region-preset="Asia" data-subregion-preset="South-eastern Asia">東南アジア</button>
+        <button data-region-preset="Europe">ヨーロッパ</button>
+        <button data-region-preset="Americas" data-subregion-preset="Northern America">北米</button>
+        <button data-region-preset="Americas" data-subregions-preset="Central America|South America|Caribbean">中南米</button>
+        <button data-region-preset="Asia" data-subregion-preset="Western Asia">中東</button>
+        <button data-region-preset="Africa">アフリカ</button>
+        <button data-region-preset="Oceania">オセアニア</button>
       </div>
 
 
 
-      <h3 class="target-section-title" data-i18n="companyTitle">企業名から探す</h3>
+      <h3 class="target-section-title">企業名から探す</h3>
       <section class="company-search-panel" aria-label="企業名から探す">
-        <label class="company-search-box"><span>⌕</span><input id="homeCompanySearchInput" type="search" placeholder="例：CU / カルフール / AEON" data-i18n-placeholder="companyPlaceholder" oninput="renderCompanyHomeSearch()"></label>
+        <label class="company-search-box"><span>⌕</span><input id="homeCompanySearchInput" type="search" placeholder="例：CU / Carrefour / AEON" oninput="renderCompanyHomeSearch()"></label>
         <div class="company-home-filter-row">
           <select id="homeCompanyRegionFilter" onchange="updateCompanyHomeFilter('region', this.value)"><option value="all">地域すべて</option></select>
           <select id="homeCompanyEntityFilter" onchange="updateCompanyHomeFilter('entity', this.value)"><option value="all">国・地域すべて</option></select>
@@ -105,7 +81,7 @@
         <div id="homeCompanySearchResults" class="company-search-results"></div>
       </section>
 
-      <h3 class="target-section-title" data-i18n="popularRanking">人気ランキング</h3>
+      <h3 class="target-section-title">人気ランキング</h3>
       <div class="target-ranking-grid">
         <button data-jump="rankings"><span>人</span><b>人口</b></button>
         <button data-jump="rankings"><span>$</span><b>GDP</b></button>
