@@ -1,0 +1,73 @@
+{
+  "version": "V175_STANDALONE_PAGES_WITH_HOME_CARDS_20260703",
+  "generated_at": "2026-07-02T12:30:00Z",
+  "base": "V156_RETAIL_MATERIAL_NOTES_BATCH3_20260702",
+  "changes": [
+    "V156からscripts/__pycache__を除去",
+    "小売プロフィール材料メモ以外の主要データ・UI・CSS・JS本体はV150から未変更であることをハッシュ比較",
+    "小売プロフィール総数442件を維持",
+    "Added standalone school-meals.html page with search/filter/card UI",
+    "Added standalone cvs-vendor.html page with search/filter/card UI",
+    "Added two simple home link cards to index.html",
+    "Did not modify assets/js/app.js",
+    "No ranking features added"
+  ],
+  "counts": {
+    "retail_profiles_total": 442,
+    "display_content_count": 226,
+    "blank_count": 216,
+    "new_profiles_added_from_v156": 0
+  },
+  "guard_check": {
+    "removed_unwanted_pycache": true,
+    "index_html_changed_from_v150": false,
+    "assets_js_app_changed_from_v150": false,
+    "assets_css_styles_changed_from_v150": false,
+    "embedded_retail_data_changed_from_v150": false,
+    "embedded_retail_presence_data_changed_from_v150": false
+  },
+  "current_version": "V175",
+  "working_base": "SAFE_BASE_V173_FROM_V157_NO_SPLASH",
+  "rollback_note": {
+    "base": "V157 public upload extracted from MARKET_BASE_V157_HANDOFF_FULL_PLUS package",
+    "purpose": "Recovery candidate closer to pre-broken state, with splash removed",
+    "excluded_later_changes": [
+      "V159 school meals integration",
+      "V160-V167 translation/UI changes",
+      "V168-V170 CVS/splash changes",
+      "V171/V172 rollback derivatives"
+    ]
+  },
+  "splash_policy": {
+    "enabled": false,
+    "removed_from": [
+      "index.html",
+      "assets/js/app.js",
+      "assets/css/styles.css"
+    ]
+  },
+  "integration_policy": {
+    "main_app_js_modified": false,
+    "home_cards_added": true,
+    "standalone_pages": [
+      "school-meals.html",
+      "cvs-vendor.html"
+    ],
+    "rankings": false
+  },
+  "data_files_added_or_used": {
+    "school_meals_existing": [
+      "market_base_school_meals_data_CURRENT.json",
+      "market_base_school_meals_rankings_CURRENT.json",
+      "market_base_school_meals_source_manifest_v103.json",
+      "market_base_school_meals_coverage_report_v103.json"
+    ],
+    "cvs_copied": [
+      "market_base_cvs_vendor_country_summary_CURRENT.json",
+      "market_base_cvs_vendor_companies_CURRENT.json",
+      "market_base_cvs_vendor_factories_CURRENT.json",
+      "market_base_cvs_vendor_research_candidates_CURRENT.json",
+      "market_base_cvs_vendor_research_tasks_CURRENT.json"
+    ]
+  }
+}

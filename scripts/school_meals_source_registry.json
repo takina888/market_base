@@ -1,0 +1,28 @@
+{
+  "version": "v103_school_meals_hardened",
+  "created_at": "2026-07-01",
+  "policy": "School meals sources do not yet have a stable FAOSTAT-like bulk URL in this package. Keep downloaded official XLSX snapshots under raw/school_meals/; the pipeline validates, transforms, and ranks them automatically. Replace snapshots semiannually when the source portal exports newer files.",
+  "required_indicators": [
+    "SML_TOTAL_CHILDREN",
+    "EDU_ENR_PRI",
+    "EDU_ENR_PRE",
+    "QLT_GDQS_MENU"
+  ],
+  "known_source_pages": [
+    {
+      "name": "State of School Feeding Worldwide data page",
+      "url": "https://publications.wfp.org/2024/state-of-school-feeding/data",
+      "status": "manual_download_recommended"
+    },
+    {
+      "name": "School Meals Coalition Database",
+      "url": "https://www.schoolmealscoalitiondatabase.wfp.org/database",
+      "status": "manual_export_or_portal_download"
+    },
+    {
+      "name": "GCNF Global Survey / country reports",
+      "url": "https://gcnf.org/global-survey/",
+      "status": "reference_and_cross_check"
+    }
+  ]
+}
