@@ -16,10 +16,10 @@ const MARKET_DOMAINS = {
   japan:{title:'日本関連', lead:'', icon:'🇯🇵', items:[['japanese_residents','在留邦人数'],['japanese_restaurants','日本食レストラン'],['favorability_japan','対日好感度'],['trust_japan','日本への信頼度']]}
 };
 const I18N = {
-  ja:{heroTitle:'196の国・地域を、ひと目で比較。',heroText:'基本統計を入口に、市場・小売、米データ、学校給食、日本関連情報を国・地域ごとに確認できます。',heroSearch:'国・地域を探す',heroQa:'データ状態を見る',kpiEntities:'国・地域',kpiMetrics:'基本指標',kpiGdp:'GDP系',kpiRelease:'データ',scopeTitle:'196枠は維持',scopeText:'台湾・香港（中国）・マカオ（中国）を含む',rankTitle:'ランキングは採用値のみ',rankText:'欠損値は順位から除外',gapTitle:'GDP未完5地域',gapText:'国・地域ページには残し、未採用として表示',tabCountries:'国・地域',tabRankings:'ランキング',tabCompare:'比較',tabSources:'出典',tabQA:'データ状態',countriesTitle:'国・地域一覧',countriesLead:'検索・地域フィルタから詳細を確認できます。',rankingsTitle:'ランキング',rankingsLead:'採用済みデータだけで順位を作成しています。',compareTitle:'比較',compareLead:'2つの国・地域を選び、基本統計・米データ・小売・学校給食・日本関連を横並びで確認します。',sourcesTitle:'出典',sourcesLead:'各データの年・出典・状態を確認できます。',qaTitle:'データ状態',qaLead:'データの収録状況と未取得項目を確認できます。',rankingNotice:'人口・面積・人口密度は196/196、GDP系は191/196です。',sourceNotice:'未採用・欠損値は — と status で表示し、ランキングには入れません。',qaNotice:'196枠は維持し、GDP系5地域は未完として扱います。一部のGDP指標は未取得として表示します。',detail:'詳細',search:'国・地域を検索',allRegions:'すべての地域',allMetrics:'すべての指標',allStatus:'すべての状態',missingOnly:'未取得のみ',readyOnly:'取得済みのみ',coverage:'対象',adoptedOnly:'採用済みデータのみ',missing:'未採用・未取得',noResults:'該当なし',source:'出典',overviewTitle:'基本指標のカバー状況',overviewLead:'カードを押すと、その指標のランキングへ移動します。',gapPanelTitle:'未完5地域の扱い',gapPanelText:'196枠から外さず、GDP系だけ未採用・ランキング対象外として表示します。',quickCompareTitle:'すぐ比較',quickCompareText:'代表的な組み合わせで比較画面を開きます。',rcNoticeTitle:'支援196個國家／地區',rcNoticeText:'196の国・地域を対象に、基本統計・市場情報・出典を確認できます。GDP系の一部は未取得として表示します。',workflowTitle:'迷わず使う',workflowLead:'探す・比べる・確認する導線を短くしました。',workflowStep1:'国・地域を探す',workflowStep2:'ランキングを見る',workflowStep3:'2地域を比較',workflowStep4:'出典を確認',workflowStep5:'出典を確認',gdpGapOnly:'GDP未完のみ',clearSearch:'検索解除',rankLimit20:'上位20件',rankLimit50:'上位50件',rankLimitAll:'全件表示',sourceLimit60:'60件まで',sourceLimit200:'200件まで',sourceLimitAll:'全件表示',showingLimited:'一部表示中',schoolDbTitle:'学校給食DB',schoolDbDesc:'国別の給食制度・中央厨房・対象児童数。',relatedDbTitle:'関連DB',cvsDbTitle:'CVS食品工場DB',cvsDbDesc:'コンビニ向け食品工場・供給関係。',openLink:'開く →',targetSearch:'国名・地域・キーワードで検索',findTitle:'探し方',findByCountry:'国から探す',findByCountrySub:'196の国・地域から選ぶ',findByRanking:'ランキングから探す',findByRankingSub:'指標のランキングを見る',findByRegion:'地域から探す',findByRegionSub:'地域ごとに国を一覧で見る',recentCountries:'最近見た国',seeAll:'すべて見る ›',regionTitle:'地域から探す',eastAsia:'東アジア',southEastAsia:'東南アジア',europe:'ヨーロッパ',northAmerica:'北米',latinAmerica:'中南米',middleEast:'中東',africa:'アフリカ',oceania:'オセアニア',companyTitle:'企業名から探す',companyPlaceholder:'例：CU / カルフール / AEON',allCompanyRegions:'地域すべて',allCompanyEntities:'国・地域すべて',companySearchHint:'企業名を2文字以上入力、または地域・国で絞り込み',profileHasText:'企業情報あり',popularRanking:'人気ランキング'},
+  ja:{heroTitle:'196の国・地域を、ひと目で比較。',heroText:'基本統計を入口に、市場・小売、米データ、学校給食、日本関連情報を国・地域ごとに確認できます。',heroSearch:'国・地域を探す',heroQa:'データ状態を見る',kpiEntities:'国・地域',kpiMetrics:'基本指標',kpiGdp:'GDP系',kpiRelease:'データ',scopeTitle:'196枠は維持',scopeText:'台湾・香港（中国）・マカオ（中国）を含む',rankTitle:'ランキングは採用値のみ',rankText:'欠損値は順位から除外',gapTitle:'GDP未完5地域',gapText:'国・地域ページには残し、未採用として表示',tabCountries:'国・地域',tabRankings:'ランキング',tabCompare:'比較',tabSources:'出典',tabQA:'データ状態',countriesTitle:'国・地域一覧',countriesLead:'検索・地域フィルタから詳細を確認できます。',rankingsTitle:'ランキング',rankingsLead:'採用済みデータだけで順位を作成しています。',compareTitle:'比較',compareLead:'2つの国・地域を選び、基本統計・米データ・小売・学校給食・日本関連を横並びで確認します。',sourcesTitle:'出典',sourcesLead:'各データの年・出典・状態を確認できます。',qaTitle:'データ状態',qaLead:'データの収録状況と未取得項目を確認できます。',rankingNotice:'人口・面積・人口密度は196/196、GDP系は191/196です。',sourceNotice:'未採用・欠損値は — と status で表示し、ランキングには入れません。',qaNotice:'196枠は維持し、GDP系5地域は未完として扱います。一部のGDP指標は未取得として表示します。',detail:'詳細',search:'国・地域を検索',allRegions:'すべての地域',allMetrics:'すべての指標',allStatus:'すべての状態',missingOnly:'未取得のみ',readyOnly:'取得済みのみ',coverage:'対象',adoptedOnly:'採用済みデータのみ',missing:'未採用・未取得',noResults:'該当なし',source:'出典',overviewTitle:'基本指標のカバー状況',overviewLead:'カードを押すと、その指標のランキングへ移動します。',gapPanelTitle:'未完5地域の扱い',gapPanelText:'196枠から外さず、GDP系だけ未採用・ランキング対象外として表示します。',quickCompareTitle:'すぐ比較',quickCompareText:'代表的な組み合わせで比較画面を開きます。',rcNoticeTitle:'支援196個國家／地區',rcNoticeText:'196の国・地域を対象に、基本統計・市場情報・出典を確認できます。GDP系の一部は未取得として表示します。',workflowTitle:'迷わず使う',workflowLead:'探す・比べる・確認する導線を短くしました。',workflowStep1:'国・地域を探す',workflowStep2:'ランキングを見る',workflowStep3:'2地域を比較',workflowStep4:'出典を確認',workflowStep5:'出典を確認',gdpGapOnly:'GDP未完のみ',clearSearch:'検索解除',rankLimit20:'上位20件',rankLimit50:'上位50件',rankLimitAll:'全件表示',sourceLimit60:'60件まで',sourceLimit200:'200件まで',sourceLimitAll:'全件表示',showingLimited:'一部表示中',schoolDbTitle:'学校給食DB',schoolDbDesc:'国別の学校給食、給食センター、中央厨房、対象児童数、予算を整理。',cvsDbTitle:'CVS食品工場DB',cvsDbDesc:'コンビニ向け食品ベンダー、工場、国別供給関係を整理。',openLink:'開く →',targetSearch:'国名・地域・キーワードで検索',findTitle:'探し方',findByCountry:'国から探す',findByCountrySub:'196の国・地域から選ぶ',findByRanking:'ランキングから探す',findByRankingSub:'指標のランキングを見る',findByRegion:'地域から探す',findByRegionSub:'地域ごとに国を一覧で見る',recentCountries:'最近見た国',seeAll:'すべて見る ›',regionTitle:'地域から探す',eastAsia:'東アジア',southEastAsia:'東南アジア',europe:'ヨーロッパ',northAmerica:'北米',latinAmerica:'中南米',middleEast:'中東',africa:'アフリカ',oceania:'オセアニア',companyTitle:'企業名から探す',companyPlaceholder:'例：CU / カルフール / AEON',allCompanyRegions:'地域すべて',allCompanyEntities:'国・地域すべて',companySearchHint:'企業名を2文字以上入力、または地域・国で絞り込み',profileHasText:'企業情報あり',popularRanking:'人気ランキング'},
   en:{heroTitle:'Compare 196 countries and areas at a glance.',heroText:'Use core statistics as the entry point to review market/retail, rice, school meals, and Japan-related information by country or area.',heroSearch:'Find countries/areas',heroQa:'View data status',kpiEntities:'countries/areas',kpiMetrics:'metrics',kpiGdp:'GDP metrics',kpiRelease:'data',scopeTitle:'196 scope kept',scopeText:'Includes Taiwan, Hong Kong (China), and Macao (China)',rankTitle:'Rankings use adopted values',rankText:'Missing values are excluded from ranks',gapTitle:'5 GDP gaps',gapText:'Kept in entity pages and shown as not adopted',tabCountries:'Countries/Areas',tabRankings:'Rankings',tabCompare:'Compare',tabSources:'Sources',tabQA:'Data status',countriesTitle:'Countries / Areas',countriesLead:'Search and filter by region to open details.',rankingsTitle:'Rankings',rankingsLead:'Ranks are built only from adopted values.',compareTitle:'Compare',compareLead:'Select two countries/areas and compare core stats, rice, retail, school meals, and Japan-related data.',sourcesTitle:'Sources',sourcesLead:'Check year, source, and status for each data point.',qaTitle:'Data status',qaLead:'Data coverage summary for the 196-country/area dataset.',rankingNotice:'Population, area, and density are 196/196. GDP metrics are 191/196.',sourceNotice:'Missing or not-adopted values are shown with — and status, and are excluded from rankings.',qaNotice:'The 196 scope is kept. GDP metrics for 5 areas remain incomplete. Some GDP metrics remain marked as missing.',detail:'Detail',search:'Search country/area',allRegions:'All regions',allMetrics:'All metrics',allStatus:'All status',missingOnly:'Missing only',readyOnly:'Ready only',coverage:'Coverage',adoptedOnly:'adopted values only',missing:'missing / not adopted',noResults:'No results',source:'source',overviewTitle:'Basic metric coverage',overviewLead:'Tap a card to open that metric ranking.',gapPanelTitle:'How the 5 gaps are handled',gapPanelText:'They remain in the 196 scope, with GDP metrics shown as not adopted and excluded from affected rankings.',quickCompareTitle:'Quick compare',quickCompareText:'Open representative country/area pairs in the compare view.',rcNoticeTitle:'196 countries and areas',rcNoticeText:'Covers 196 countries and areas. Some GDP metrics are shown as missing when not available.',workflowTitle:'Fast flow',workflowLead:'Shorter path for search, ranking, comparison, and sources.',workflowStep1:'Find countries/areas',workflowStep2:'View rankings',workflowStep3:'Compare two areas',workflowStep4:'Check sources',workflowStep5:'Check sources',gdpGapOnly:'GDP gaps only',clearSearch:'Clear search',rankLimit20:'Top 20',rankLimit50:'Top 50',rankLimitAll:'Show all',sourceLimit60:'Show 60',sourceLimit200:'Show 200',sourceLimitAll:'Show all',showingLimited:'showing limited results',schoolDbTitle:'School Meals & Central Kitchens DB',schoolDbDesc:'Country-level school meals, central kitchens, children served, and budget data.',cvsDbTitle:'CVS Food Factory DB',cvsDbDesc:'Convenience-store food vendors, factories, and supply relationships by market.',openLink:'Open →',targetSearch:'Search by country, area, or keyword',findTitle:'Ways to explore',findByCountry:'Find by country',findByCountrySub:'Choose from 196 countries and areas',findByRanking:'Find by ranking',findByRankingSub:'View rankings by metric',findByRegion:'Find by region',findByRegionSub:'Browse countries by region',recentCountries:'Recently viewed',seeAll:'View all ›',regionTitle:'Find by region',eastAsia:'East Asia',southEastAsia:'Southeast Asia',europe:'Europe',northAmerica:'North America',latinAmerica:'Latin America',middleEast:'Middle East',africa:'Africa',oceania:'Oceania',companyTitle:'Find by company',companyPlaceholder:'e.g. CU / Carrefour / AEON',allCompanyRegions:'All regions',allCompanyEntities:'All countries/areas',companySearchHint:'Enter at least 2 characters or filter by region/country.',profileHasText:'profile available',popularRanking:'Popular rankings'},
-  zh_tw:{heroTitle:'一眼比較196個國家／地區。',heroText:'以基本統計為入口，依國家・地區確認市場・零售、稻米、學校供餐與日本相關資訊。',heroSearch:'搜尋國家／地區',heroQa:'查看資料狀態',kpiEntities:'國家／地區',kpiMetrics:'基本指標',kpiGdp:'GDP指標',kpiRelease:'資料',scopeTitle:'維持196範圍',scopeText:'包含台灣、香港（中國）、澳門（中國）',rankTitle:'排名只用採用值',rankText:'缺漏值不進入排名',gapTitle:'5個GDP未完',gapText:'保留於頁面並顯示為未採用',tabCountries:'國家／地區',tabRankings:'排名',tabCompare:'比較',tabSources:'來源',tabQA:'資料狀態',countriesTitle:'國家／地區列表',countriesLead:'可搜尋並依地區篩選。',rankingsTitle:'排名',rankingsLead:'僅以已採用資料建立排名。',compareTitle:'比較',compareLead:'選擇兩個國家／地區，橫向比較基本統計、稻米、零售、學校供餐與日本相關資料。',sourcesTitle:'來源',sourcesLead:'確認各資料的年份、來源與狀態。',qaTitle:'資料狀態',qaLead:'資料收錄狀況摘要。',rankingNotice:'人口、面積、人口密度為196/196，GDP指標為191/196。',sourceNotice:'未採用或缺漏值以 — 與status顯示，不進入排名。',qaNotice:'維持196範圍，GDP指標有5個地區未完。部分GDP指標以未取得顯示。',detail:'詳情',search:'搜尋國家／地區',allRegions:'所有地區',allMetrics:'所有指標',allStatus:'所有狀態',missingOnly:'僅未取得',readyOnly:'僅已取得',coverage:'對象',adoptedOnly:'僅已採用資料',missing:'未採用／未取得',noResults:'無結果',source:'來源',overviewTitle:'基本指標覆蓋狀態',overviewLead:'點選卡片即可切換到該指標排名。',gapPanelTitle:'5個未完地區的處理',gapPanelText:'不從196範圍移除，GDP指標顯示為未採用並排除於相關排名。',quickCompareTitle:'快速比較',quickCompareText:'用代表性組合開啟比較畫面。',rcNoticeTitle:'支援196個國家／地區',rcNoticeText:'支援196個國家／地區。部分GDP資料以未取得顯示。',workflowTitle:'快速使用流程',workflowLead:'縮短搜尋、排名、比較與來源的動線。',workflowStep1:'搜尋國家／地區',workflowStep2:'查看排名',workflowStep3:'比較兩個地區',workflowStep4:'確認來源',workflowStep5:'確認來源',gdpGapOnly:'僅GDP未完',clearSearch:'清除搜尋',rankLimit20:'前20筆',rankLimit50:'前50筆',rankLimitAll:'顯示全部',sourceLimit60:'最多60筆',sourceLimit200:'最多200筆',sourceLimitAll:'顯示全部',showingLimited:'部分顯示中',schoolDbTitle:'學校供餐・中央廚房DB',schoolDbDesc:'整理各國學校供餐、供餐中心、中央廚房、受益學生數與預算。',cvsDbTitle:'CVS食品工廠DB',cvsDbDesc:'整理便利商店食品工廠與供應關係。',openLink:'開啟 →',targetSearch:'搜尋國家、地區或關鍵字',findTitle:'查找方式',findByCountry:'依國家查找',findByCountrySub:'從196個國家／地區選擇',findByRanking:'依排名查找',findByRankingSub:'查看各指標排名',findByRegion:'依地區查找',findByRegionSub:'按地區瀏覽國家',recentCountries:'最近查看',seeAll:'查看全部 ›',regionTitle:'依地區查找',eastAsia:'東亞',southEastAsia:'東南亞',europe:'歐洲',northAmerica:'北美',latinAmerica:'拉丁美洲',middleEast:'中東',africa:'非洲',oceania:'大洋洲',companyTitle:'依企業名查找',companyPlaceholder:'例：CU / Carrefour / AEON',allCompanyRegions:'所有地區',allCompanyEntities:'所有國家／地區',companySearchHint:'輸入2個字以上，或用地區／國家篩選。',profileHasText:'有企業資訊',popularRanking:'熱門排名'},
-  zh_cn:{heroTitle:'一眼比较196个国家／地区。',heroText:'以基本统计为入口，按国家／地区确认市场零售、稻米、学校供餐与日本相关信息。',heroSearch:'搜索国家／地区',heroQa:'查看数据状态',kpiEntities:'国家／地区',kpiMetrics:'基本指标',kpiGdp:'GDP指标',kpiRelease:'数据',scopeTitle:'维持196范围',scopeText:'包含台湾、香港（中国）、澳门（中国）',rankTitle:'排名只用采用值',rankText:'缺漏值不进入排名',gapTitle:'5个GDP未完',gapText:'保留于页面并显示为未采用',tabCountries:'国家／地区',tabRankings:'排名',tabCompare:'比较',tabSources:'来源',tabQA:'数据状态',countriesTitle:'国家／地区列表',countriesLead:'可搜索并按地区筛选。',rankingsTitle:'排名',rankingsLead:'仅以已采用数据建立排名。',compareTitle:'比较',compareLead:'选择两个国家／地区，横向比较基本统计、稻米、零售、学校供餐与日本相关数据。',sourcesTitle:'来源',sourcesLead:'确认各数据的年份、来源与状态。',qaTitle:'数据状态',qaLead:'数据收录状况摘要。',rankingNotice:'人口、面积、人口密度为196/196，GDP指标为191/196。',sourceNotice:'未采用或缺漏值以 — 和status显示，不进入排名。',qaNotice:'维持196范围，GDP指标有5个地区未完。部分GDP指标以未取得显示。',detail:'详情',search:'搜索国家／地区',allRegions:'所有地区',allMetrics:'所有指标',allStatus:'所有状态',missingOnly:'仅未取得',readyOnly:'仅已取得',coverage:'对象',adoptedOnly:'仅已采用数据',missing:'未采用／未取得',noResults:'无结果',source:'来源',overviewTitle:'基本指标覆盖状态',overviewLead:'点击卡片即可切换到该指标排名。',gapPanelTitle:'5个未完地区的处理',gapPanelText:'不从196范围移除，GDP指标显示为未采用并排除于相关排名。',quickCompareTitle:'快速比较',quickCompareText:'用代表性组合打开比较画面。',rcNoticeTitle:'支持196个国家／地区',rcNoticeText:'支持196个国家／地区。部分GDP数据以未取得显示。',workflowTitle:'快速使用流程',workflowLead:'缩短搜索、排名、比较与来源的动线。',workflowStep1:'搜索国家／地区',workflowStep2:'查看排名',workflowStep3:'比较两个地区',workflowStep4:'确认来源',workflowStep5:'确认来源',gdpGapOnly:'仅GDP未完',clearSearch:'清除搜索',rankLimit20:'前20条',rankLimit50:'前50条',rankLimitAll:'显示全部',sourceLimit60:'最多60条',sourceLimit200:'最多200条',sourceLimitAll:'显示全部',showingLimited:'部分显示中',schoolDbTitle:'学校供餐・中央厨房DB',schoolDbDesc:'整理各国学校供餐、供餐中心、中央厨房、受益学生数与预算。',cvsDbTitle:'CVS食品工厂DB',cvsDbDesc:'整理便利店食品工厂与供应关系。',openLink:'打开 →',targetSearch:'搜索国家、地区或关键词',findTitle:'查找方式',findByCountry:'按国家查找',findByCountrySub:'从196个国家／地区选择',findByRanking:'按排名查找',findByRankingSub:'查看各指标排名',findByRegion:'按地区查找',findByRegionSub:'按地区浏览国家',recentCountries:'最近查看',seeAll:'查看全部 ›',regionTitle:'按地区查找',eastAsia:'东亚',southEastAsia:'东南亚',europe:'欧洲',northAmerica:'北美',latinAmerica:'拉丁美洲',middleEast:'中东',africa:'非洲',oceania:'大洋洲',companyTitle:'按企业名查找',companyPlaceholder:'例：CU / Carrefour / AEON',allCompanyRegions:'所有地区',allCompanyEntities:'所有国家／地区',companySearchHint:'输入2个字以上，或用地区／国家筛选。',profileHasText:'有企业信息',popularRanking:'热门排名'}
+  zh_tw:{heroTitle:'一眼比較196個國家／地區。',heroText:'以基本統計為入口，依國家・地區確認市場・零售、稻米、學校供餐與日本相關資訊。',heroSearch:'搜尋國家／地區',heroQa:'查看資料狀態',kpiEntities:'國家／地區',kpiMetrics:'基本指標',kpiGdp:'GDP指標',kpiRelease:'資料',scopeTitle:'維持196範圍',scopeText:'包含台灣、香港（中國）、澳門（中國）',rankTitle:'排名只用採用值',rankText:'缺漏值不進入排名',gapTitle:'5個GDP未完',gapText:'保留於頁面並顯示為未採用',tabCountries:'國家／地區',tabRankings:'排名',tabCompare:'比較',tabSources:'來源',tabQA:'資料狀態',countriesTitle:'國家／地區列表',countriesLead:'可搜尋並依地區篩選。',rankingsTitle:'排名',rankingsLead:'僅以已採用資料建立排名。',compareTitle:'比較',compareLead:'選擇兩個國家／地區，橫向比較基本統計、稻米、零售、學校供餐與日本相關資料。',sourcesTitle:'來源',sourcesLead:'確認各資料的年份、來源與狀態。',qaTitle:'資料狀態',qaLead:'資料收錄狀況摘要。',rankingNotice:'人口、面積、人口密度為196/196，GDP指標為191/196。',sourceNotice:'未採用或缺漏值以 — 與status顯示，不進入排名。',qaNotice:'維持196範圍，GDP指標有5個地區未完。部分GDP指標以未取得顯示。',detail:'詳情',search:'搜尋國家／地區',allRegions:'所有地區',allMetrics:'所有指標',allStatus:'所有狀態',missingOnly:'僅未取得',readyOnly:'僅已取得',coverage:'對象',adoptedOnly:'僅已採用資料',missing:'未採用／未取得',noResults:'無結果',source:'來源',overviewTitle:'基本指標覆蓋狀態',overviewLead:'點選卡片即可切換到該指標排名。',gapPanelTitle:'5個未完地區的處理',gapPanelText:'不從196範圍移除，GDP指標顯示為未採用並排除於相關排名。',quickCompareTitle:'快速比較',quickCompareText:'用代表性組合開啟比較畫面。',rcNoticeTitle:'支援196個國家／地區',rcNoticeText:'支援196個國家／地區。部分GDP資料以未取得顯示。',workflowTitle:'快速使用流程',workflowLead:'縮短搜尋、排名、比較與來源的動線。',workflowStep1:'搜尋國家／地區',workflowStep2:'查看排名',workflowStep3:'比較兩個地區',workflowStep4:'確認來源',workflowStep5:'確認來源',gdpGapOnly:'僅GDP未完',clearSearch:'清除搜尋',rankLimit20:'前20筆',rankLimit50:'前50筆',rankLimitAll:'顯示全部',sourceLimit60:'最多60筆',sourceLimit200:'最多200筆',sourceLimitAll:'顯示全部',showingLimited:'部分顯示中',schoolDbTitle:'學校供餐・中央廚房DB',schoolDbDesc:'整理各國學校供餐、供餐中心、中央廚房、受益學生數與預算。',cvsDbTitle:'CVS食品工廠DB',cvsDbDesc:'整理便利商店食品供應商、工廠與各國供應關係。',openLink:'開啟 →',targetSearch:'搜尋國家、地區或關鍵字',findTitle:'查找方式',findByCountry:'依國家查找',findByCountrySub:'從196個國家／地區選擇',findByRanking:'依排名查找',findByRankingSub:'查看各指標排名',findByRegion:'依地區查找',findByRegionSub:'按地區瀏覽國家',recentCountries:'最近查看',seeAll:'查看全部 ›',regionTitle:'依地區查找',eastAsia:'東亞',southEastAsia:'東南亞',europe:'歐洲',northAmerica:'北美',latinAmerica:'拉丁美洲',middleEast:'中東',africa:'非洲',oceania:'大洋洲',companyTitle:'依企業名查找',companyPlaceholder:'例：CU / Carrefour / AEON',allCompanyRegions:'所有地區',allCompanyEntities:'所有國家／地區',companySearchHint:'輸入2個字以上，或用地區／國家篩選。',profileHasText:'有企業資訊',popularRanking:'熱門排名'},
+  zh_cn:{heroTitle:'一眼比较196个国家／地区。',heroText:'以基本统计为入口，按国家／地区确认市场零售、稻米、学校供餐与日本相关信息。',heroSearch:'搜索国家／地区',heroQa:'查看数据状态',kpiEntities:'国家／地区',kpiMetrics:'基本指标',kpiGdp:'GDP指标',kpiRelease:'数据',scopeTitle:'维持196范围',scopeText:'包含台湾、香港（中国）、澳门（中国）',rankTitle:'排名只用采用值',rankText:'缺漏值不进入排名',gapTitle:'5个GDP未完',gapText:'保留于页面并显示为未采用',tabCountries:'国家／地区',tabRankings:'排名',tabCompare:'比较',tabSources:'来源',tabQA:'数据状态',countriesTitle:'国家／地区列表',countriesLead:'可搜索并按地区筛选。',rankingsTitle:'排名',rankingsLead:'仅以已采用数据建立排名。',compareTitle:'比较',compareLead:'选择两个国家／地区，横向比较基本统计、稻米、零售、学校供餐与日本相关数据。',sourcesTitle:'来源',sourcesLead:'确认各数据的年份、来源与状态。',qaTitle:'数据状态',qaLead:'数据收录状况摘要。',rankingNotice:'人口、面积、人口密度为196/196，GDP指标为191/196。',sourceNotice:'未采用或缺漏值以 — 和status显示，不进入排名。',qaNotice:'维持196范围，GDP指标有5个地区未完。部分GDP指标以未取得显示。',detail:'详情',search:'搜索国家／地区',allRegions:'所有地区',allMetrics:'所有指标',allStatus:'所有状态',missingOnly:'仅未取得',readyOnly:'仅已取得',coverage:'对象',adoptedOnly:'仅已采用数据',missing:'未采用／未取得',noResults:'无结果',source:'来源',overviewTitle:'基本指标覆盖状态',overviewLead:'点击卡片即可切换到该指标排名。',gapPanelTitle:'5个未完地区的处理',gapPanelText:'不从196范围移除，GDP指标显示为未采用并排除于相关排名。',quickCompareTitle:'快速比较',quickCompareText:'用代表性组合打开比较画面。',rcNoticeTitle:'支持196个国家／地区',rcNoticeText:'支持196个国家／地区。部分GDP数据以未取得显示。',workflowTitle:'快速使用流程',workflowLead:'缩短搜索、排名、比较与来源的动线。',workflowStep1:'搜索国家／地区',workflowStep2:'查看排名',workflowStep3:'比较两个地区',workflowStep4:'确认来源',workflowStep5:'确认来源',gdpGapOnly:'仅GDP未完',clearSearch:'清除搜索',rankLimit20:'前20条',rankLimit50:'前50条',rankLimitAll:'显示全部',sourceLimit60:'最多60条',sourceLimit200:'最多200条',sourceLimitAll:'显示全部',showingLimited:'部分显示中',schoolDbTitle:'学校供餐・中央厨房DB',schoolDbDesc:'整理各国学校供餐、供餐中心、中央厨房、受益学生数与预算。',cvsDbTitle:'CVS食品工厂DB',cvsDbDesc:'整理便利店食品供应商、工厂与各国供应关系。',openLink:'打开 →',targetSearch:'搜索国家、地区或关键词',findTitle:'查找方式',findByCountry:'按国家查找',findByCountrySub:'从196个国家／地区选择',findByRanking:'按排名查找',findByRankingSub:'查看各指标排名',findByRegion:'按地区查找',findByRegionSub:'按地区浏览国家',recentCountries:'最近查看',seeAll:'查看全部 ›',regionTitle:'按地区查找',eastAsia:'东亚',southEastAsia:'东南亚',europe:'欧洲',northAmerica:'北美',latinAmerica:'拉丁美洲',middleEast:'中东',africa:'非洲',oceania:'大洋洲',companyTitle:'按企业名查找',companyPlaceholder:'例：CU / Carrefour / AEON',allCompanyRegions:'所有地区',allCompanyEntities:'所有国家／地区',companySearchHint:'输入2个字以上，或用地区／国家筛选。',profileHasText:'有企业信息',popularRanking:'热门排名'}
 };
 let lang='ja';
 let entities=[];
@@ -149,7 +149,7 @@ function updateSubregionOptions(){
   const region=document.getElementById('regionFilter')?.value || 'all';
   const subs=[...new Set(entities.filter(e=>region==='all'||e.region===region).map(e=>e.subregion).filter(Boolean))].sort();
   const current=sub.value || activeSubregionPreset || 'all';
-  sub.innerHTML='<option value="all">小地域すべて</option>'+subs.map(sr=>`<option value="${safe(sr)}">${safe(mbLabelJa(SUBREGION_PRESET_LABELS[sr] || REGION_LABELS[sr] || sr))}</option>`).join('');
+  sub.innerHTML='<option value="all">小地域すべて</option>'+subs.map(sr=>`<option value="${safe(sr)}">${safe(SUBREGION_PRESET_LABELS[sr] || sr)}</option>`).join('');
   sub.value=subs.includes(current) ? current : 'all';
   activeSubregionPreset=sub.value;
 }
@@ -164,51 +164,6 @@ let schoolFilters={q:'', region:'all'};
 let currentDetailEntityId=null;
 const t = key => (I18N[lang] && I18N[lang][key]) || I18N.ja[key] || key;
 const safe = v => String(v ?? '').replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
-
-const MB_REGION_LABEL_JA = {
-  Africa:'アフリカ', Americas:'アメリカ', Asia:'アジア', Europe:'ヨーロッパ', Oceania:'オセアニア',
-  'East Asia & Pacific':'東アジア・太平洋','Europe & Central Asia':'ヨーロッパ・中央アジア',
-  'Latin America & Caribbean':'ラテンアメリカ・カリブ','Middle East & North Africa':'中東・北アフリカ',
-  'North America':'北米','South Asia':'南アジア','Sub-Saharan Africa':'サブサハラ・アフリカ',
-  'Eastern Asia':'東アジア','South-eastern Asia':'東南アジア','Southern Asia':'南アジア',
-  'Western Asia':'西アジア・中東','Central Asia':'中央アジア',
-  'Northern Europe':'北ヨーロッパ','Southern Europe':'南ヨーロッパ','Western Europe':'西ヨーロッパ','Eastern Europe':'東ヨーロッパ',
-  'Northern America':'北米', Caribbean:'カリブ','Central America':'中央アメリカ','South America':'南アメリカ',
-  'Northern Africa':'北アフリカ','Western Africa':'西アフリカ','Middle Africa':'中部アフリカ',
-  'Eastern Africa':'東アフリカ','Southern Africa':'南部アフリカ',
-  'Australia and New Zealand':'オーストラリア・ニュージーランド', Melanesia:'メラネシア', Micronesia:'ミクロネシア', Polynesia:'ポリネシア'
-};
-function mbLabelJa(v){ const text=String(v ?? ''); return lang==='ja' ? (MB_REGION_LABEL_JA[text] || text) : text; }
-function mbUnitJa(v){
-  const text=String(v ?? '');
-  if(lang!=='ja') return text;
-  const m={people:'人',persons:'人',children:'人',schools:'校',stores:'店',factories:'工場',companies:'社',
-    'people/km²':'人/km²','people per sq. km':'人/km²',sq_km:'km²',current_usd:'米ドル',
-    current_usd_per_person:'米ドル/人','USD/person':'米ドル/人',USD:'米ドル',
-    'Nutritional Score':'点',score:'点','# of children':'人','number of children':'人'};
-  return m[text] || text;
-}
-function mbUiJa(v){
-  let text=String(v ?? '');
-  if(lang!=='ja') return text;
-  Object.entries(MB_REGION_LABEL_JA).forEach(([en,ja])=>{ text=text.replaceAll(en,ja); });
-  [
-    [/All regions/g,'すべての地域'],[/All countries\/areas/g,'すべての国・地域'],[/All metrics/g,'すべての指標'],
-    [/All status/g,'すべての状態'],[/Search country\/area/g,'国・地域を検索'],[/Search/g,'検索'],
-    [/Basic/g,'基礎データ'],[/Medium/g,'一部情報あり'],[/High/g,'情報あり'],[/Most/g,'多い'],[/None/g,'なし'],
-    [/# of children/g,'人'],[/number of children/g,'人'],[/children/g,'人'],
-    [/Seven[-‐‑‒–— ]?Eleven Japan/gi,'セブン‐イレブン・ジャパン'],[/7[-‐‑‒–— ]?Eleven Japan/gi,'セブン‐イレブン・ジャパン'],
-    [/Seven[-‐‑‒–— ]?Eleven Thailand/gi,'セブン‐イレブン・タイ'],[/7[-‐‑‒–— ]?Eleven Thailand/gi,'セブン‐イレブン・タイ'],
-    [/Seven[-‐‑‒–— ]?Eleven Philippines/gi,'セブン‐イレブン・フィリピン'],[/7[-‐‑‒–— ]?Eleven Philippines/gi,'セブン‐イレブン・フィリピン'],
-    [/Seven[-‐‑‒–— ]?Eleven/gi,'セブン‐イレブン'],[/7[-‐‑‒–— ]?Eleven/gi,'セブン‐イレブン'],
-    [/FamilyMart Japan/gi,'ファミリーマート・ジャパン'],[/FamilyMart Taiwan/gi,'ファミリーマート台湾'],[/FamilyMart/gi,'ファミリーマート'],
-    [/Lawson Japan/gi,'ローソン・ジャパン'],[/Lawson/gi,'ローソン'],
-    [/Ministop/gi,'ミニストップ'],[/AEON/gi,'イオン'],[/Carrefour/gi,'カルフール'],[/Costco/gi,'コストコ'],[/Walmart/gi,'ウォルマート']
-  ].forEach(([re,ja])=>{ text=text.replace(re,ja); });
-  return text;
-}
-function mbSafeJa(v){ return safe(mbUiJa(v)); }
-
 
 function jpRetailText(v){
   let text=String(v ?? '');
@@ -811,7 +766,7 @@ function retailFilteredChains(){
 }
 function marketFilterControls(){
   const {entityIds, regions, cats}=marketFilterOptions();
-  const regionOpts='<option value="all">地域すべて</option>'+regions.map(r=>`<option value="${safe(r)}" ${marketFilters.region===r?'selected':''}>${safe(mbLabelJa(r))}</option>`).join('');
+  const regionOpts='<option value="all">地域すべて</option>'+regions.map(r=>`<option value="${safe(r)}" ${marketFilters.region===r?'selected':''}>${safe(r)}</option>`).join('');
   const entityOpts='<option value="all">国・地域すべて</option>'+entityIds.map(id=>{ const e=entities.find(x=>x.entity_id===id); return `<option value="${safe(id)}" ${marketFilters.entity===id?'selected':''}>${flagText(e)} ${safe(nameOf(e))}</option>`; }).join('');
   const catOpts='<option value="all">カテゴリすべて</option>'+['convenience_store','supermarket','gms','hypermarket','other'].filter(c=>cats.includes(c)).map(c=>`<option value="${safe(c)}" ${marketFilters.category===c?'selected':''}>${safe(retailCategoryLabel(c))}</option>`).join('');
   const activeChips=[];
@@ -904,7 +859,7 @@ function fmtRiceValue(obj, metric){
   if(!obj || obj.value===null || obj.value===undefined) return '未収録';
   const n=Number(obj.value);
   if(!Number.isFinite(n)) return safe(obj.value);
-  const unit=mbUnitJa(RICE_METRICS[metric]?.unit || obj.unit || '');
+  const unit=(RICE_METRICS[metric]?.unit || obj.unit || '');
   if(unit.includes('kg/人/年')) return `${n.toLocaleString(undefined,{maximumFractionDigits:1})} kg/年`;
   if(unit.includes('kcal')) return `${n.toLocaleString(undefined,{maximumFractionDigits:1})} kcal/日`;
   if(unit.includes('g/人/日')) return `${n.toLocaleString(undefined,{maximumFractionDigits:2})} g/日`;
@@ -964,14 +919,14 @@ function priority4ValueText(row){
     if(unit==='metric_tonnes' || unit==='tonnes') return `${Math.round(n).toLocaleString()} t`;
     if(unit==='kg') return `${Math.round(n).toLocaleString()} kg`;
     if(unit==='stores') return `${Math.round(n).toLocaleString()} 店`;
-    if(unit==='children' || unit==='# of children' || unit==='number of children') return `${Math.round(n).toLocaleString()} 人`;
+    if(unit==='children' || unit==='# of children') return `${Math.round(n).toLocaleString()} 人`;
     if(unit==='score' || unit==='Nutritional Score') return `${n.toLocaleString(undefined,{maximumFractionDigits:1})} 点`;
   }
   if(unit==='category'){
     const map={yes_targeted_low_income_primary:'対象者向け制度あり',guidelines_exist:'ガイドラインあり',project_exists:'プロジェクトあり'};
     return map[v] || String(v).replace(/_/g,' ');
   }
-  return `${safe(v)}${unit ? ' '+safe(mbUnitJa(unit)) : ''}`;
+  return `${safe(v)}${unit ? ' '+safe(unit) : ''}`;
 }
 function priority4Card(row, cls='priority4-card'){
   const label=row.metric_label_ja || row.metric_id || '掘り起こしデータ';
@@ -993,7 +948,7 @@ function fmtSchoolValue(obj, metric){
   if(!obj || obj.value===null || obj.value===undefined) return '未収録';
   const n=Number(obj.value);
   if(!Number.isFinite(n)) return safe(obj.value);
-  const unit=mbUnitJa(SCHOOL_METRICS[metric]?.unit || obj.unit || '');
+  const unit=SCHOOL_METRICS[metric]?.unit || obj.unit || '';
   if(unit==='%') return `${n.toLocaleString(undefined,{maximumFractionDigits:1})}%`;
   if(unit==='点' || unit==='score') return `${n.toLocaleString(undefined,{maximumFractionDigits:1})} 点`;
   if(unit==='校' || unit==='schools') return `${Math.round(n).toLocaleString()} 校`;
@@ -1130,7 +1085,7 @@ function renderSchoolPanel(){
     <div class="retail-profile-section-head"><strong>国・地域別</strong><span>${rows.length.toLocaleString()}件</span></div>
     <div class="company-home-filter-row school-filter-row">
       <label class="company-search-box"><span>⌕</span><input type="search" value="${safe(schoolFilters.q==='all'?'':schoolFilters.q)}" placeholder="国・地域を検索" oninput="updateSchoolFilter('q', this.value)"></label>
-      <select onchange="updateSchoolFilter('region', this.value)"><option value="all">地域すべて</option>${regions.map(r=>`<option value="${safe(r)}" ${schoolFilters.region===r?'selected':''}>${safe(mbLabelJa(REGION_LABELS[r] || r))}</option>`).join('')}</select>
+      <select onchange="updateSchoolFilter('region', this.value)"><option value="all">地域すべて</option>${regions.map(r=>`<option value="${safe(r)}" ${schoolFilters.region===r?'selected':''}>${safe(REGION_LABELS[r] || r)}</option>`).join('')}</select>
     </div>
     <div class="market-data-grid compact">${visible.map(schoolRecordCard).join('')}</div>
     ${rows.length>visible.length?`<div class="market-filter-actions"><button onclick="schoolVisibleLimit+=24; renderSchoolPanel();">さらに表示</button></div>`:''}
@@ -1603,7 +1558,7 @@ function openDetail(id){
 
 function initControls(){
   const regions=[...new Set(entities.map(e=>e.region).filter(Boolean))].sort();
-  document.getElementById('regionFilter').innerHTML=`<option value="all">${t('allRegions')}</option>`+regions.map(r=>`<option value="${safe(r)}">${safe(mbLabelJa(REGION_LABELS[r] || r))}</option>`).join('');
+  document.getElementById('regionFilter').innerHTML=`<option value="all">${t('allRegions')}</option>`+regions.map(r=>`<option value="${safe(r)}">${safe(r)}</option>`).join('');
   updateSubregionOptions();
   const incomeOrder=['HIC','UMC','LMC','LIC','UNCLASSIFIED'];
   const incomeFilter=document.getElementById('incomeFilter');
@@ -1697,7 +1652,7 @@ function renderCompanyHomeSearch(){
   if(!input || !el) return;
   const opts=companyHomeFilterOptions();
   if(regionSel){
-    regionSel.innerHTML=`<option value="all">${safe(t('allCompanyRegions'))}</option>`+opts.regions.map(r=>`<option value="${safe(r)}" ${companyHomeFilters.region===r?'selected':''}>${safe(mbLabelJa(r))}</option>`).join('');
+    regionSel.innerHTML=`<option value="all">${safe(t('allCompanyRegions'))}</option>`+opts.regions.map(r=>`<option value="${safe(r)}" ${companyHomeFilters.region===r?'selected':''}>${safe(r)}</option>`).join('');
   }
   if(entitySel){
     if(companyHomeFilters.entity!=='all' && !opts.entityIds.includes(companyHomeFilters.entity)) companyHomeFilters.entity='all';
@@ -1879,73 +1834,3 @@ document.getElementById('schoolMetricSelect')?.addEventListener('change', render
 boot();
 
 document.getElementById('japanMetricSelect')?.addEventListener('change',renderJapanRanking);
-
-
-
-/* V197 main dropdown repair helpers */
-(function(){
-  function mbRepairSelect(sel){
-    if(!sel || !sel.options || sel.options.length === 0) return;
-    var found = false;
-    for(var i=0;i<sel.options.length;i++){
-      if(sel.options[i].value === sel.value){ found = true; break; }
-    }
-    if(!found) sel.selectedIndex = 0;
-  }
-
-  function mbRepairAllSelects(){
-    document.querySelectorAll('select').forEach(function(sel){
-      mbRepairSelect(sel);
-      sel.style.color = '#132238';
-      sel.style.backgroundColor = '#fff';
-    });
-  }
-
-  function mbResetChildSelectIfInvalid(parentSelector, childSelector){
-    var child = document.querySelector(childSelector);
-    if(child) mbRepairSelect(child);
-  }
-
-  window.MB_REPAIR_SELECTS_V197 = {
-    repairAll: mbRepairAllSelects,
-    repairSelect: mbRepairSelect,
-    resetChildIfInvalid: mbResetChildSelectIfInvalid
-  };
-
-  document.addEventListener('DOMContentLoaded', mbRepairAllSelects);
-  document.addEventListener('change', function(e){
-    if(e.target && e.target.tagName === 'SELECT'){
-      setTimeout(mbRepairAllSelects, 0);
-      setTimeout(mbRepairAllSelects, 250);
-    }
-  });
-})();
-
-
-
-/* V197 region-country select guard for main page */
-(function(){
-  function looksRegion(sel){
-    var id = (sel.id || '').toLowerCase();
-    var name = (sel.name || '').toLowerCase();
-    return id.includes('region') || name.includes('region');
-  }
-  function looksCountry(sel){
-    var id = (sel.id || '').toLowerCase();
-    var name = (sel.name || '').toLowerCase();
-    return id.includes('country') || id.includes('entity') || name.includes('country') || name.includes('entity');
-  }
-  document.addEventListener('change', function(e){
-    var sel = e.target;
-    if(!sel || sel.tagName !== 'SELECT' || !looksRegion(sel)) return;
-    var scope = sel.closest('section, .card, .panel, .mb-section, main') || document;
-    Array.prototype.slice.call(scope.querySelectorAll('select')).forEach(function(other){
-      if(other !== sel && looksCountry(other)){
-        other.selectedIndex = 0;
-      }
-    });
-    if(window.MB_REPAIR_SELECTS_V197){
-      setTimeout(window.MB_REPAIR_SELECTS_V197.repairAll, 0);
-    }
-  });
-})();

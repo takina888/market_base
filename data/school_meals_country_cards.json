@@ -43,14 +43,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "アフガニスタン",
-      "country_en": "Afghanistan",
-      "country_zh_tw": "阿富汗",
-      "country_zh_cn": "阿富汗",
-      "flag_emoji": "🇦🇫",
-      "region_ja": "南アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "AGO",
@@ -108,14 +101,7 @@
           "num_primary_fed": 1890610,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "アンゴラ",
-      "country_en": "Angola",
-      "country_zh_tw": "安哥拉",
-      "country_zh_cn": "安哥拉",
-      "flag_emoji": "🇦🇴",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "ALB",
@@ -138,14 +124,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "アルバニア",
-      "country_en": "Albania",
-      "country_zh_tw": "阿爾巴尼亞",
-      "country_zh_cn": "阿尔巴尼亚",
-      "flag_emoji": "🇦🇱",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "AND",
@@ -202,14 +181,7 @@
           "num_primary_fed": 564,
           "pct_purchased_domestic": 0
         }
-      ],
-      "country_ja": "アンドラ",
-      "country_en": "Andorra",
-      "country_zh_tw": "安道爾",
-      "country_zh_cn": "安道尔",
-      "flag_emoji": "🇦🇩",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "ARE",
@@ -256,14 +228,7 @@
           "total_children_fed": 288795,
           "num_primary_fed": 81731
         }
-      ],
-      "country_ja": "アラブ首長国連邦",
-      "country_en": "United Arab Emirates",
-      "country_zh_tw": "阿拉伯聯合大公國",
-      "country_zh_cn": "阿拉伯联合酋长国",
-      "flag_emoji": "🇦🇪",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "ARG",
@@ -315,14 +280,7 @@
           "num_primary_fed": 2098464,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "アルゼンチン",
-      "country_en": "Argentina",
-      "country_zh_tw": "阿根廷",
-      "country_zh_cn": "阿根廷",
-      "flag_emoji": "🇦🇷",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "ARM",
@@ -380,14 +338,7 @@
           "total_children_fed": 105630,
           "num_primary_fed": 102430
         }
-      ],
-      "country_ja": "アルメニア",
-      "country_en": "Armenia",
-      "country_zh_tw": "亞美尼亞",
-      "country_zh_cn": "亚美尼亚",
-      "flag_emoji": "🇦🇲",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "ATG",
@@ -435,14 +386,7 @@
           "num_primary_fed": 6861,
           "pct_purchased_domestic": 60
         }
-      ],
-      "country_ja": "アンティグア・バーブーダ",
-      "country_en": "Antigua & Barbuda",
-      "country_zh_tw": "安地卡及巴布達",
-      "country_zh_cn": "安提瓜和巴布达",
-      "flag_emoji": "🇦🇬",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "AUS",
@@ -480,14 +424,7 @@
           "total_children_fed": 85000,
           "pct_purchased_domestic": 30
         }
-      ],
-      "country_ja": "オーストラリア",
-      "country_en": "Australia",
-      "country_zh_tw": "澳洲",
-      "country_zh_cn": "澳大利亚",
-      "flag_emoji": "🇦🇺",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "AUT",
@@ -543,14 +480,7 @@
           "num_primary_fed": 201673,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "オーストリア",
-      "country_en": "Austria",
-      "country_zh_tw": "奧地利",
-      "country_zh_cn": "奥地利",
-      "flag_emoji": "🇦🇹",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "AZE",
@@ -564,14 +494,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "アゼルバイジャン",
-      "country_en": "Azerbaijan",
-      "country_zh_tw": "亞塞拜然",
-      "country_zh_cn": "阿塞拜疆",
-      "flag_emoji": "🇦🇿",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "BDI",
@@ -629,14 +552,7 @@
           "num_primary_fed": 520613,
           "pct_purchased_domestic": 30
         }
-      ],
-      "country_ja": "ブルンジ",
-      "country_en": "Burundi",
-      "country_zh_tw": "蒲隆地",
-      "country_zh_cn": "布隆迪",
-      "flag_emoji": "🇧🇮",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "BEL",
@@ -705,14 +621,7 @@
           "num_primary_fed": 149238,
           "pct_purchased_domestic": 50
         }
-      ],
-      "country_ja": "ベルギー",
-      "country_en": "Belgium",
-      "country_zh_tw": "比利時",
-      "country_zh_cn": "比利时",
-      "flag_emoji": "🇧🇪",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "BEN",
@@ -820,14 +729,7 @@
           "num_primary_fed": 47165,
           "pct_purchased_domestic": 0
         }
-      ],
-      "country_ja": "ベナン",
-      "country_en": "Benin",
-      "country_zh_tw": "貝南",
-      "country_zh_cn": "贝宁",
-      "flag_emoji": "🇧🇯",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "BFA",
@@ -939,14 +841,7 @@
           "num_primary_fed": 215729,
           "pct_purchased_domestic": 20
         }
-      ],
-      "country_ja": "ブルキナファソ",
-      "country_en": "Burkina Faso",
-      "country_zh_tw": "布吉納法索",
-      "country_zh_cn": "布基纳法索",
-      "flag_emoji": "🇧🇫",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "BGD",
@@ -1006,14 +901,7 @@
           "num_primary_fed": 2560210,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "バングラデシュ",
-      "country_en": "Bangladesh",
-      "country_zh_tw": "孟加拉",
-      "country_zh_cn": "孟加拉国",
-      "flag_emoji": "🇧🇩",
-      "region_ja": "南アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "BGR",
@@ -1069,14 +957,7 @@
           "num_primary_fed": 238305,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ブルガリア",
-      "country_en": "Bulgaria",
-      "country_zh_tw": "保加利亞",
-      "country_zh_cn": "保加利亚",
-      "flag_emoji": "🇧🇬",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "BHR",
@@ -1090,14 +971,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "バーレーン",
-      "country_en": "Bahrain",
-      "country_zh_tw": "巴林",
-      "country_zh_cn": "巴林",
-      "flag_emoji": "🇧🇭",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "BHS",
@@ -1155,14 +1029,7 @@
           "total_children_fed": 6000,
           "num_primary_fed": 3785
         }
-      ],
-      "country_ja": "バハマ",
-      "country_en": "Bahamas",
-      "country_zh_tw": "巴哈馬",
-      "country_zh_cn": "巴哈马",
-      "flag_emoji": "🇧🇸",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "BIH",
@@ -1213,14 +1080,7 @@
           "total_children_fed": 27698,
           "num_primary_fed": 0
         }
-      ],
-      "country_ja": "ボスニア・ヘルツェゴビナ",
-      "country_en": "Bosnia & Herzegovina",
-      "country_zh_tw": "波士尼亞與赫塞哥維納",
-      "country_zh_cn": "波斯尼亚和黑塞哥维那",
-      "flag_emoji": "🇧🇦",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "BLR",
@@ -1243,14 +1103,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "ベラルーシ",
-      "country_en": "Belarus",
-      "country_zh_tw": "白俄羅斯",
-      "country_zh_cn": "白俄罗斯",
-      "flag_emoji": "🇧🇾",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "BLZ",
@@ -1308,14 +1161,7 @@
           "num_primary_fed": 0,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ベリーズ",
-      "country_en": "Belize",
-      "country_zh_tw": "貝里斯",
-      "country_zh_cn": "伯利兹",
-      "flag_emoji": "🇧🇿",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "BOL",
@@ -1334,14 +1180,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算",
-      "country_ja": "ボリビア",
-      "country_en": "Bolivia",
-      "country_zh_tw": "玻利維亞",
-      "country_zh_cn": "玻利维亚",
-      "flag_emoji": "🇧🇴",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算"
     },
     {
       "iso3": "BRA",
@@ -1403,14 +1242,7 @@
           "num_primary_fed": 22433668,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ブラジル",
-      "country_en": "Brazil",
-      "country_zh_tw": "巴西",
-      "country_zh_cn": "巴西",
-      "flag_emoji": "🇧🇷",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "BRB",
@@ -1460,14 +1292,7 @@
           "num_primary_fed": 22500,
           "pct_purchased_domestic": 30
         }
-      ],
-      "country_ja": "バルバドス",
-      "country_en": "Barbados",
-      "country_zh_tw": "巴貝多",
-      "country_zh_cn": "巴巴多斯",
-      "flag_emoji": "🇧🇧",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "BRN",
@@ -1551,14 +1376,7 @@
           "num_primary_fed": 20205,
           "pct_purchased_domestic": 0
         }
-      ],
-      "country_ja": "ブルネイ",
-      "country_en": "Brunei",
-      "country_zh_tw": "汶萊",
-      "country_zh_cn": "文莱",
-      "flag_emoji": "🇧🇳",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "BTN",
@@ -1617,14 +1435,7 @@
           "num_primary_fed": 31100,
           "pct_purchased_domestic": 60
         }
-      ],
-      "country_ja": "ブータン",
-      "country_en": "Bhutan",
-      "country_zh_tw": "不丹",
-      "country_zh_cn": "不丹",
-      "flag_emoji": "🇧🇹",
-      "region_ja": "南アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "BWA",
@@ -1695,14 +1506,7 @@
           "num_primary_fed": 0,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ボツワナ",
-      "country_en": "Botswana",
-      "country_zh_tw": "波札那",
-      "country_zh_cn": "博茨瓦纳",
-      "flag_emoji": "🇧🇼",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "CAF",
@@ -1774,14 +1578,7 @@
           "num_primary_fed": 145537,
           "pct_purchased_domestic": 20
         }
-      ],
-      "country_ja": "中央アフリカ共和国",
-      "country_en": "Central African Republic",
-      "country_zh_tw": "中非共和國",
-      "country_zh_cn": "中非共和国",
-      "flag_emoji": "🇨🇫",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "CAN",
@@ -1824,14 +1621,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "カナダ",
-      "country_en": "Canada",
-      "country_zh_tw": "加拿大",
-      "country_zh_cn": "加拿大",
-      "flag_emoji": "🇨🇦",
-      "region_ja": "北米",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "CHE",
@@ -1887,14 +1677,7 @@
           "total_children_fed": 83544,
           "num_primary_fed": 68204
         }
-      ],
-      "country_ja": "スイス",
-      "country_en": "Switzerland",
-      "country_zh_tw": "瑞士",
-      "country_zh_cn": "瑞士",
-      "flag_emoji": "🇨🇭",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "CHL",
@@ -1952,14 +1735,7 @@
           "modality_take_home_ration": "Yes",
           "total_children_fed": 2029882
         }
-      ],
-      "country_ja": "チリ",
-      "country_en": "Chile",
-      "country_zh_tw": "智利",
-      "country_zh_cn": "智利",
-      "flag_emoji": "🇨🇱",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "CHN",
@@ -2012,14 +1788,7 @@
           "num_primary_fed": 26000000,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "中国",
-      "country_en": "China",
-      "country_zh_tw": "中國",
-      "country_zh_cn": "中国",
-      "flag_emoji": "🇨🇳",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "CIV",
@@ -2063,14 +1832,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Medium",
       "data_strength": "A: GCNF+WFP+Infrastructure",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "コートジボワール",
-      "country_en": "Côte d’Ivoire",
-      "country_zh_tw": "象牙海岸",
-      "country_zh_cn": "科特迪瓦",
-      "flag_emoji": "🇨🇮",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "CMR",
@@ -2141,14 +1903,7 @@
           "num_primary_fed": 24941,
           "pct_purchased_domestic": 2
         }
-      ],
-      "country_ja": "カメルーン",
-      "country_en": "Cameroon",
-      "country_zh_tw": "喀麥隆",
-      "country_zh_cn": "喀麦隆",
-      "flag_emoji": "🇨🇲",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "COD",
@@ -2192,14 +1947,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Medium",
       "data_strength": "A: GCNF+WFP+Infrastructure",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "コンゴ民主共和国",
-      "country_en": "Democratic Republic of the Congo",
-      "country_zh_tw": "剛果民主共和國",
-      "country_zh_cn": "刚果民主共和国",
-      "flag_emoji": "🇨🇩",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "COG",
@@ -2270,14 +2018,7 @@
           "num_primary_fed": 76809,
           "pct_purchased_domestic": 4
         }
-      ],
-      "country_ja": "コンゴ共和国",
-      "country_en": "Republic of the Congo",
-      "country_zh_tw": "剛果共和國",
-      "country_zh_cn": "刚果共和国",
-      "flag_emoji": "🇨🇬",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "COL",
@@ -2322,14 +2063,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "コロンビア",
-      "country_en": "Colombia",
-      "country_zh_tw": "哥倫比亞",
-      "country_zh_cn": "哥伦比亚",
-      "flag_emoji": "🇨🇴",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "COM",
@@ -2352,14 +2086,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "コモロ",
-      "country_en": "Comoros",
-      "country_zh_tw": "葛摩",
-      "country_zh_cn": "科摩罗",
-      "flag_emoji": "🇰🇲",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "CPV",
@@ -2420,14 +2147,7 @@
           "num_primary_fed": 70521,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "カーボベルデ",
-      "country_en": "Cape Verde",
-      "country_zh_tw": "維德角",
-      "country_zh_cn": "佛得角",
-      "flag_emoji": "🇨🇻",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "CRI",
@@ -2470,14 +2190,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "コスタリカ",
-      "country_en": "Costa Rica",
-      "country_zh_tw": "哥斯大黎加",
-      "country_zh_cn": "哥斯达黎加",
-      "flag_emoji": "🇨🇷",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "CUB",
@@ -2491,14 +2204,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "キューバ",
-      "country_en": "Cuba",
-      "country_zh_tw": "古巴",
-      "country_zh_cn": "古巴",
-      "flag_emoji": "🇨🇺",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "CYP",
@@ -2569,14 +2275,7 @@
           "total_children_fed": 12604,
           "num_primary_fed": 5976
         }
-      ],
-      "country_ja": "キプロス",
-      "country_en": "Cyprus",
-      "country_zh_tw": "賽普勒斯",
-      "country_zh_cn": "塞浦路斯",
-      "flag_emoji": "🇨🇾",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "CZE",
@@ -2635,14 +2334,7 @@
           "num_primary_fed": 837870,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "チェコ",
-      "country_en": "Czechia",
-      "country_zh_tw": "捷克",
-      "country_zh_cn": "捷克",
-      "flag_emoji": "🇨🇿",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "DEU",
@@ -2656,14 +2348,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "ドイツ",
-      "country_en": "Germany",
-      "country_zh_tw": "德國",
-      "country_zh_cn": "德国",
-      "flag_emoji": "🇩🇪",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "DJI",
@@ -2706,14 +2391,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "ジブチ",
-      "country_en": "Djibouti",
-      "country_zh_tw": "吉布地",
-      "country_zh_cn": "吉布提",
-      "flag_emoji": "🇩🇯",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "DMA",
@@ -2751,14 +2429,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算",
-      "country_ja": "ドミニカ国",
-      "country_en": "Dominica",
-      "country_zh_tw": "多米尼克",
-      "country_zh_cn": "多米尼克",
-      "flag_emoji": "🇩🇲",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算"
     },
     {
       "iso3": "DNK",
@@ -2781,14 +2452,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "デンマーク",
-      "country_en": "Denmark",
-      "country_zh_tw": "丹麥",
-      "country_zh_cn": "丹麦",
-      "flag_emoji": "🇩🇰",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "DOM",
@@ -2831,14 +2495,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "ドミニカ共和国",
-      "country_en": "Dominican Republic",
-      "country_zh_tw": "多明尼加共和國",
-      "country_zh_cn": "多米尼加共和国",
-      "flag_emoji": "🇩🇴",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "DZA",
@@ -2857,14 +2514,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算",
-      "country_ja": "アルジェリア",
-      "country_en": "Algeria",
-      "country_zh_tw": "阿爾及利亞",
-      "country_zh_cn": "阿尔及利亚",
-      "flag_emoji": "🇩🇿",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算"
     },
     {
       "iso3": "ECU",
@@ -2922,14 +2572,7 @@
           "num_primary_fed": 1582714,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "エクアドル",
-      "country_en": "Ecuador",
-      "country_zh_tw": "厄瓜多",
-      "country_zh_cn": "厄瓜多尔",
-      "flag_emoji": "🇪🇨",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "EGY",
@@ -2964,14 +2607,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "エジプト",
-      "country_en": "Egypt",
-      "country_zh_tw": "埃及",
-      "country_zh_cn": "埃及",
-      "flag_emoji": "🇪🇬",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "ERI",
@@ -2985,14 +2621,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "エリトリア",
-      "country_en": "Eritrea",
-      "country_zh_tw": "厄利垂亞",
-      "country_zh_cn": "厄立特里亚",
-      "flag_emoji": "🇪🇷",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "ESP",
@@ -3050,14 +2679,7 @@
           "total_children_fed": 1769394,
           "num_primary_fed": 835495
         }
-      ],
-      "country_ja": "スペイン",
-      "country_en": "Spain",
-      "country_zh_tw": "西班牙",
-      "country_zh_cn": "西班牙",
-      "flag_emoji": "🇪🇸",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "EST",
@@ -3128,14 +2750,7 @@
           "total_children_fed": 221479,
           "num_primary_fed": 88981
         }
-      ],
-      "country_ja": "エストニア",
-      "country_en": "Estonia",
-      "country_zh_tw": "愛沙尼亞",
-      "country_zh_cn": "爱沙尼亚",
-      "flag_emoji": "🇪🇪",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "ETH",
@@ -3207,14 +2822,7 @@
           "num_primary_fed": 211310,
           "pct_purchased_domestic": 7
         }
-      ],
-      "country_ja": "エチオピア",
-      "country_en": "Ethiopia",
-      "country_zh_tw": "衣索比亞",
-      "country_zh_cn": "埃塞俄比亚",
-      "flag_emoji": "🇪🇹",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "FIN",
@@ -3274,14 +2882,7 @@
           "total_children_fed": 920700,
           "num_primary_fed": 373800
         }
-      ],
-      "country_ja": "フィンランド",
-      "country_en": "Finland",
-      "country_zh_tw": "芬蘭",
-      "country_zh_cn": "芬兰",
-      "flag_emoji": "🇫🇮",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "FJI",
@@ -3308,14 +2909,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数",
-      "country_ja": "フィジー",
-      "country_en": "Fiji",
-      "country_zh_tw": "斐濟",
-      "country_zh_cn": "斐济",
-      "flag_emoji": "🇫🇯",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数"
     },
     {
       "iso3": "FRA",
@@ -3397,14 +2991,7 @@
           "total_children_fed": 21000,
           "num_primary_fed": 21000
         }
-      ],
-      "country_ja": "フランス",
-      "country_en": "France",
-      "country_zh_tw": "法國",
-      "country_zh_cn": "法国",
-      "flag_emoji": "🇫🇷",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "FSM",
@@ -3427,14 +3014,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "ミクロネシア連邦",
-      "country_en": "Micronesia",
-      "country_zh_tw": "密克羅尼西亞",
-      "country_zh_cn": "密克罗尼西亚",
-      "flag_emoji": "🇫🇲",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "GAB",
@@ -3457,14 +3037,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "ガボン",
-      "country_en": "Gabon",
-      "country_zh_tw": "加彭",
-      "country_zh_cn": "加蓬",
-      "flag_emoji": "🇬🇦",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "GBR",
@@ -3478,14 +3051,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "イギリス",
-      "country_en": "United Kingdom",
-      "country_zh_tw": "英國",
-      "country_zh_cn": "英国",
-      "flag_emoji": "🇬🇧",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "GEO",
@@ -3508,14 +3074,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "ジョージア",
-      "country_en": "Georgia",
-      "country_zh_tw": "喬治亞",
-      "country_zh_cn": "格鲁吉亚",
-      "flag_emoji": "🇬🇪",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "GHA",
@@ -3573,14 +3132,7 @@
           "num_primary_fed": 2517087,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ガーナ",
-      "country_en": "Ghana",
-      "country_zh_tw": "迦納",
-      "country_zh_cn": "加纳",
-      "flag_emoji": "🇬🇭",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "GIN",
@@ -3653,14 +3205,7 @@
           "num_primary_fed": 156433,
           "pct_purchased_domestic": 70
         }
-      ],
-      "country_ja": "ギニア",
-      "country_en": "Guinea",
-      "country_zh_tw": "幾內亞",
-      "country_zh_cn": "几内亚",
-      "flag_emoji": "🇬🇳",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "GMB",
@@ -3719,14 +3264,7 @@
           "num_primary_fed": 182862,
           "pct_purchased_domestic": 85
         }
-      ],
-      "country_ja": "ガンビア",
-      "country_en": "Gambia",
-      "country_zh_tw": "甘比亞",
-      "country_zh_cn": "冈比亚",
-      "flag_emoji": "🇬🇲",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "GNB",
@@ -3785,14 +3323,7 @@
           "num_primary_fed": 219419,
           "pct_purchased_domestic": 25
         }
-      ],
-      "country_ja": "ギニアビサウ",
-      "country_en": "Guinea-Bissau",
-      "country_zh_tw": "幾內亞比索",
-      "country_zh_cn": "几内亚比绍",
-      "flag_emoji": "🇬🇼",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "GNQ",
@@ -3815,14 +3346,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "赤道ギニア",
-      "country_en": "Equatorial Guinea",
-      "country_zh_tw": "赤道幾內亞",
-      "country_zh_cn": "赤道几内亚",
-      "flag_emoji": "🇬🇶",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "GRC",
@@ -3882,14 +3406,7 @@
           "num_primary_fed": 2823,
           "pct_purchased_domestic": 99.5
         }
-      ],
-      "country_ja": "ギリシャ",
-      "country_en": "Greece",
-      "country_zh_tw": "希臘",
-      "country_zh_cn": "希腊",
-      "flag_emoji": "🇬🇷",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "GRD",
@@ -3932,14 +3449,7 @@
           "modality_meal": "Yes",
           "total_children_fed": 6000
         }
-      ],
-      "country_ja": "グレナダ",
-      "country_en": "Grenada",
-      "country_zh_tw": "格瑞那達",
-      "country_zh_cn": "格林纳达",
-      "flag_emoji": "🇬🇩",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "GTM",
@@ -3998,14 +3508,7 @@
           "num_primary_fed": 2039855,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "グアテマラ",
-      "country_en": "Guatemala",
-      "country_zh_tw": "瓜地馬拉",
-      "country_zh_cn": "危地马拉",
-      "flag_emoji": "🇬🇹",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "GUY",
@@ -4066,14 +3569,7 @@
           "total_children_fed": 37518,
           "num_primary_fed": 24468
         }
-      ],
-      "country_ja": "ガイアナ",
-      "country_en": "Guyana",
-      "country_zh_tw": "蓋亞那",
-      "country_zh_cn": "圭亚那",
-      "flag_emoji": "🇬🇾",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "HND",
@@ -4129,14 +3625,7 @@
           "num_primary_fed": 49.64719009399414,
           "pct_purchased_domestic": 0
         }
-      ],
-      "country_ja": "ホンジュラス",
-      "country_en": "Honduras",
-      "country_zh_tw": "宏都拉斯",
-      "country_zh_cn": "洪都拉斯",
-      "flag_emoji": "🇭🇳",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "HRV",
@@ -4208,14 +3697,7 @@
           "total_children_fed": 303720,
           "num_primary_fed": 199720
         }
-      ],
-      "country_ja": "クロアチア",
-      "country_en": "Croatia",
-      "country_zh_tw": "克羅埃西亞",
-      "country_zh_cn": "克罗地亚",
-      "flag_emoji": "🇭🇷",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "HTI",
@@ -4273,14 +3755,7 @@
           "num_primary_fed": 857350,
           "pct_purchased_domestic": 10
         }
-      ],
-      "country_ja": "ハイチ",
-      "country_en": "Haiti",
-      "country_zh_tw": "海地",
-      "country_zh_cn": "海地",
-      "flag_emoji": "🇭🇹",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "HUN",
@@ -4334,14 +3809,7 @@
           "num_primary_fed": 560983,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ハンガリー",
-      "country_en": "Hungary",
-      "country_zh_tw": "匈牙利",
-      "country_zh_cn": "匈牙利",
-      "flag_emoji": "🇭🇺",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "IDN",
@@ -4364,14 +3832,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "インドネシア",
-      "country_en": "Indonesia",
-      "country_zh_tw": "印尼",
-      "country_zh_cn": "印度尼西亚",
-      "flag_emoji": "🇮🇩",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "IND",
@@ -4422,14 +3883,7 @@
           "num_primary_fed": 67538472,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "インド",
-      "country_en": "India",
-      "country_zh_tw": "印度",
-      "country_zh_cn": "印度",
-      "flag_emoji": "🇮🇳",
-      "region_ja": "南アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "IRL",
@@ -4486,14 +3940,7 @@
           "num_primary_fed": 146796,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "アイルランド",
-      "country_en": "Ireland",
-      "country_zh_tw": "愛爾蘭",
-      "country_zh_cn": "爱尔兰",
-      "flag_emoji": "🇮🇪",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "IRN",
@@ -4512,14 +3959,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算",
-      "country_ja": "イラン",
-      "country_en": "Iran",
-      "country_zh_tw": "伊朗",
-      "country_zh_cn": "伊朗",
-      "flag_emoji": "🇮🇷",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算"
     },
     {
       "iso3": "IRQ",
@@ -4579,14 +4019,7 @@
           "num_primary_fed": 350000,
           "pct_purchased_domestic": 40
         }
-      ],
-      "country_ja": "イラク",
-      "country_en": "Iraq",
-      "country_zh_tw": "伊拉克",
-      "country_zh_cn": "伊拉克",
-      "flag_emoji": "🇮🇶",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "ISL",
@@ -4631,14 +4064,7 @@
           "total_children_fed": 83845,
           "num_primary_fed": 46688
         }
-      ],
-      "country_ja": "アイスランド",
-      "country_en": "Iceland",
-      "country_zh_tw": "冰島",
-      "country_zh_cn": "冰岛",
-      "flag_emoji": "🇮🇸",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "ISR",
@@ -4717,14 +4143,7 @@
           "total_children_fed": 127771,
           "pct_purchased_domestic": 70
         }
-      ],
-      "country_ja": "イスラエル",
-      "country_en": "Israel",
-      "country_zh_tw": "以色列",
-      "country_zh_cn": "以色列",
-      "flag_emoji": "🇮🇱",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "ITA",
@@ -4772,14 +4191,7 @@
           "num_primary_fed": 129000,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "イタリア",
-      "country_en": "Italy",
-      "country_zh_tw": "義大利",
-      "country_zh_cn": "意大利",
-      "flag_emoji": "🇮🇹",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "JAM",
@@ -4839,14 +4251,7 @@
           "num_primary_fed": 71816,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ジャマイカ",
-      "country_en": "Jamaica",
-      "country_zh_tw": "牙買加",
-      "country_zh_cn": "牙买加",
-      "flag_emoji": "🇯🇲",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "JOR",
@@ -4886,14 +4291,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "ヨルダン",
-      "country_en": "Jordan",
-      "country_zh_tw": "約旦",
-      "country_zh_cn": "约旦",
-      "flag_emoji": "🇯🇴",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "JPN",
@@ -4923,14 +4321,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算",
-      "country_ja": "日本",
-      "country_en": "Japan",
-      "country_zh_tw": "日本",
-      "country_zh_cn": "日本",
-      "flag_emoji": "🇯🇵",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算"
     },
     {
       "iso3": "KAZ",
@@ -4985,14 +4376,7 @@
           "modality_meal": "Yes",
           "pct_purchased_domestic": 95
         }
-      ],
-      "country_ja": "カザフスタン",
-      "country_en": "Kazakhstan",
-      "country_zh_tw": "哈薩克",
-      "country_zh_cn": "哈萨克斯坦",
-      "flag_emoji": "🇰🇿",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "KEN",
@@ -5053,14 +4437,7 @@
           "num_primary_fed": 1800000,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ケニア",
-      "country_en": "Kenya",
-      "country_zh_tw": "肯亞",
-      "country_zh_cn": "肯尼亚",
-      "flag_emoji": "🇰🇪",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "KGZ",
@@ -5121,14 +4498,7 @@
           "num_primary_fed": 66443,
           "pct_purchased_domestic": 60
         }
-      ],
-      "country_ja": "キルギス",
-      "country_en": "Kyrgyzstan",
-      "country_zh_tw": "吉爾吉斯",
-      "country_zh_cn": "吉尔吉斯斯坦",
-      "flag_emoji": "🇰🇬",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "KHM",
@@ -5201,14 +4571,7 @@
           "num_primary_fed": 54063,
           "pct_purchased_domestic": 0
         }
-      ],
-      "country_ja": "カンボジア",
-      "country_en": "Cambodia",
-      "country_zh_tw": "柬埔寨",
-      "country_zh_cn": "柬埔寨",
-      "flag_emoji": "🇰🇭",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "KIR",
@@ -5249,14 +4612,7 @@
           "num_primary_fed": 0,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "キリバス",
-      "country_en": "Kiribati",
-      "country_zh_tw": "吉里巴斯",
-      "country_zh_cn": "基里巴斯",
-      "flag_emoji": "🇰🇮",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "KNA",
@@ -5309,14 +4665,7 @@
           "num_primary_fed": 3056,
           "pct_purchased_domestic": 90
         }
-      ],
-      "country_ja": "セントクリストファー・ネーヴィス",
-      "country_en": "St. Kitts & Nevis",
-      "country_zh_tw": "聖克里斯多福及尼維斯",
-      "country_zh_cn": "圣基茨和尼维斯",
-      "flag_emoji": "🇰🇳",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "KOR",
@@ -5358,14 +4707,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "韓国",
-      "country_en": "South Korea",
-      "country_zh_tw": "韓國",
-      "country_zh_cn": "韩国",
-      "flag_emoji": "🇰🇷",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "KWT",
@@ -5407,14 +4749,7 @@
           "modality_snack": "Yes",
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "クウェート",
-      "country_en": "Kuwait",
-      "country_zh_tw": "科威特",
-      "country_zh_cn": "科威特",
-      "flag_emoji": "🇰🇼",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "LAO",
@@ -5496,14 +4831,7 @@
           "num_primary_fed": 71095,
           "pct_purchased_domestic": 0
         }
-      ],
-      "country_ja": "ラオス",
-      "country_en": "Laos",
-      "country_zh_tw": "寮國",
-      "country_zh_cn": "老挝",
-      "flag_emoji": "🇱🇦",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "LBN",
@@ -5522,14 +4850,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算",
-      "country_ja": "レバノン",
-      "country_en": "Lebanon",
-      "country_zh_tw": "黎巴嫩",
-      "country_zh_cn": "黎巴嫩",
-      "flag_emoji": "🇱🇧",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算"
     },
     {
       "iso3": "LBR",
@@ -5588,14 +4909,7 @@
           "num_primary_fed": 1756,
           "pct_purchased_domestic": 95
         }
-      ],
-      "country_ja": "リベリア",
-      "country_en": "Liberia",
-      "country_zh_tw": "賴比瑞亞",
-      "country_zh_cn": "利比里亚",
-      "flag_emoji": "🇱🇷",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "LBY",
@@ -5638,14 +4952,7 @@
           "num_primary_fed": 18000,
           "pct_purchased_domestic": 0
         }
-      ],
-      "country_ja": "リビア",
-      "country_en": "Libya",
-      "country_zh_tw": "利比亞",
-      "country_zh_cn": "利比亚",
-      "flag_emoji": "🇱🇾",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "LCA",
@@ -5704,14 +5011,7 @@
           "num_primary_fed": 7000,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "セントルシア",
-      "country_en": "St. Lucia",
-      "country_zh_tw": "聖露西亞",
-      "country_zh_cn": "圣卢西亚",
-      "flag_emoji": "🇱🇨",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "LIE",
@@ -5725,14 +5025,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "リヒテンシュタイン",
-      "country_en": "Liechtenstein",
-      "country_zh_tw": "列支敦斯登",
-      "country_zh_cn": "列支敦士登",
-      "flag_emoji": "🇱🇮",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "LKA",
@@ -5791,14 +5084,7 @@
           "num_primary_fed": 1052563,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "スリランカ",
-      "country_en": "Sri Lanka",
-      "country_zh_tw": "斯里蘭卡",
-      "country_zh_cn": "斯里兰卡",
-      "flag_emoji": "🇱🇰",
-      "region_ja": "南アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "LSO",
@@ -5872,14 +5158,7 @@
           "num_primary_fed": 0,
           "pct_purchased_domestic": 0
         }
-      ],
-      "country_ja": "レソト",
-      "country_en": "Lesotho",
-      "country_zh_tw": "賴索托",
-      "country_zh_cn": "莱索托",
-      "flag_emoji": "🇱🇸",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "LTU",
@@ -5961,14 +5240,7 @@
           "total_children_fed": 220000,
           "num_primary_fed": 110000
         }
-      ],
-      "country_ja": "リトアニア",
-      "country_en": "Lithuania",
-      "country_zh_tw": "立陶宛",
-      "country_zh_cn": "立陶宛",
-      "flag_emoji": "🇱🇹",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "LUX",
@@ -6037,14 +5309,7 @@
           "total_children_fed": 104492,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ルクセンブルク",
-      "country_en": "Luxembourg",
-      "country_zh_tw": "盧森堡",
-      "country_zh_cn": "卢森堡",
-      "flag_emoji": "🇱🇺",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "LVA",
@@ -6115,14 +5380,7 @@
           "total_children_fed": 264551,
           "num_primary_fed": 178360
         }
-      ],
-      "country_ja": "ラトビア",
-      "country_en": "Latvia",
-      "country_zh_tw": "拉脫維亞",
-      "country_zh_cn": "拉脱维亚",
-      "flag_emoji": "🇱🇻",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "MAR",
@@ -6166,14 +5424,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "モロッコ",
-      "country_en": "Morocco",
-      "country_zh_tw": "摩洛哥",
-      "country_zh_cn": "摩洛哥",
-      "flag_emoji": "🇲🇦",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "MCO",
@@ -6225,14 +5476,7 @@
           "num_primary_fed": 1323,
           "pct_purchased_domestic": 20
         }
-      ],
-      "country_ja": "モナコ",
-      "country_en": "Monaco",
-      "country_zh_tw": "摩納哥",
-      "country_zh_cn": "摩纳哥",
-      "flag_emoji": "🇲🇨",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "MDA",
@@ -6276,14 +5520,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "モルドバ",
-      "country_en": "Moldova",
-      "country_zh_tw": "摩爾多瓦",
-      "country_zh_cn": "摩尔多瓦",
-      "flag_emoji": "🇲🇩",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "MDG",
@@ -6343,14 +5580,7 @@
           "num_primary_fed": 366693,
           "pct_purchased_domestic": 80
         }
-      ],
-      "country_ja": "マダガスカル",
-      "country_en": "Madagascar",
-      "country_zh_tw": "馬達加斯加",
-      "country_zh_cn": "马达加斯加",
-      "flag_emoji": "🇲🇬",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "MDV",
@@ -6364,14 +5594,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "モルディブ",
-      "country_en": "Maldives",
-      "country_zh_tw": "馬爾地夫",
-      "country_zh_cn": "马尔代夫",
-      "flag_emoji": "🇲🇻",
-      "region_ja": "南アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "MEX",
@@ -6428,14 +5651,7 @@
           "num_primary_fed": 6518168,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "メキシコ",
-      "country_en": "Mexico",
-      "country_zh_tw": "墨西哥",
-      "country_zh_cn": "墨西哥",
-      "flag_emoji": "🇲🇽",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "MHL",
@@ -6477,14 +5693,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "マーシャル諸島",
-      "country_en": "Marshall Islands",
-      "country_zh_tw": "馬紹爾群島",
-      "country_zh_cn": "马绍尔群岛",
-      "flag_emoji": "🇲🇭",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "MKD",
@@ -6538,14 +5747,7 @@
           "num_primary_fed": 13223,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "北マケドニア",
-      "country_en": "North Macedonia",
-      "country_zh_tw": "北馬其頓",
-      "country_zh_cn": "北马其顿",
-      "flag_emoji": "🇲🇰",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "MLI",
@@ -6628,14 +5830,7 @@
           "num_primary_fed": 150000,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "マリ",
-      "country_en": "Mali",
-      "country_zh_tw": "馬利",
-      "country_zh_cn": "马里",
-      "flag_emoji": "🇲🇱",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "MLT",
@@ -6706,14 +5901,7 @@
           "total_children_fed": 14000,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "マルタ",
-      "country_en": "Malta",
-      "country_zh_tw": "馬爾他",
-      "country_zh_cn": "马耳他",
-      "flag_emoji": "🇲🇹",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "MMR",
@@ -6750,14 +5938,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算",
-      "country_ja": "ミャンマー (ビルマ)",
-      "country_en": "Myanmar (Burma)",
-      "country_zh_tw": "緬甸",
-      "country_zh_cn": "缅甸",
-      "flag_emoji": "🇲🇲",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算"
     },
     {
       "iso3": "MNE",
@@ -6780,14 +5961,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "モンテネグロ",
-      "country_en": "Montenegro",
-      "country_zh_tw": "蒙特內哥羅",
-      "country_zh_cn": "黑山",
-      "flag_emoji": "🇲🇪",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "MNG",
@@ -6845,14 +6019,7 @@
           "num_primary_fed": 371480,
           "pct_purchased_domestic": 80
         }
-      ],
-      "country_ja": "モンゴル",
-      "country_en": "Mongolia",
-      "country_zh_tw": "蒙古",
-      "country_zh_cn": "蒙古",
-      "flag_emoji": "🇲🇳",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "MOZ",
@@ -6937,14 +6104,7 @@
           "num_primary_fed": 79000,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "モザンビーク",
-      "country_en": "Mozambique",
-      "country_zh_tw": "莫三比克",
-      "country_zh_cn": "莫桑比克",
-      "flag_emoji": "🇲🇿",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "MRT",
@@ -7002,14 +6162,7 @@
           "total_children_fed": 172905,
           "num_primary_fed": 172905
         }
-      ],
-      "country_ja": "モーリタニア",
-      "country_en": "Mauritania",
-      "country_zh_tw": "茅利塔尼亞",
-      "country_zh_cn": "毛里塔尼亚",
-      "flag_emoji": "🇲🇷",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "MUS",
@@ -7033,14 +6186,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "モーリシャス",
-      "country_en": "Mauritius",
-      "country_zh_tw": "模里西斯",
-      "country_zh_cn": "毛里求斯",
-      "flag_emoji": "🇲🇺",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "MWI",
@@ -7101,14 +6247,7 @@
           "num_primary_fed": 1846187,
           "pct_purchased_domestic": 90
         }
-      ],
-      "country_ja": "マラウイ",
-      "country_en": "Malawi",
-      "country_zh_tw": "馬拉威",
-      "country_zh_cn": "马拉维",
-      "flag_emoji": "🇲🇼",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "MYS",
@@ -7191,14 +6330,7 @@
           "num_primary_fed": 0,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "マレーシア",
-      "country_en": "Malaysia",
-      "country_zh_tw": "馬來西亞",
-      "country_zh_cn": "马来西亚",
-      "flag_emoji": "🇲🇾",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "NAM",
@@ -7259,14 +6391,7 @@
           "num_primary_fed": 330115,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ナミビア",
-      "country_en": "Namibia",
-      "country_zh_tw": "納米比亞",
-      "country_zh_cn": "纳米比亚",
-      "flag_emoji": "🇳🇦",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "NER",
@@ -7328,14 +6453,7 @@
           "num_primary_fed": 453385,
           "pct_purchased_domestic": 35
         }
-      ],
-      "country_ja": "ニジェール",
-      "country_en": "Niger",
-      "country_zh_tw": "尼日",
-      "country_zh_cn": "尼日尔",
-      "flag_emoji": "🇳🇪",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "NGA",
@@ -7396,14 +6514,7 @@
           "num_primary_fed": 9887000,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ナイジェリア",
-      "country_en": "Nigeria",
-      "country_zh_tw": "奈及利亞",
-      "country_zh_cn": "尼日利亚",
-      "flag_emoji": "🇳🇬",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "NIC",
@@ -7417,14 +6528,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "ニカラグア",
-      "country_en": "Nicaragua",
-      "country_zh_tw": "尼加拉瓜",
-      "country_zh_cn": "尼加拉瓜",
-      "flag_emoji": "🇳🇮",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "NLD",
@@ -7481,14 +6585,7 @@
           "total_children_fed": 476143,
           "num_primary_fed": 476143
         }
-      ],
-      "country_ja": "オランダ",
-      "country_en": "Netherlands",
-      "country_zh_tw": "荷蘭",
-      "country_zh_cn": "荷兰",
-      "flag_emoji": "🇳🇱",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "NOR",
@@ -7511,14 +6608,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "ノルウェー",
-      "country_en": "Norway",
-      "country_zh_tw": "挪威",
-      "country_zh_cn": "挪威",
-      "flag_emoji": "🇳🇴",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "NPL",
@@ -7591,14 +6681,7 @@
           "num_primary_fed": 2527284,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ネパール",
-      "country_en": "Nepal",
-      "country_zh_tw": "尼泊爾",
-      "country_zh_cn": "尼泊尔",
-      "flag_emoji": "🇳🇵",
-      "region_ja": "南アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "NRU",
@@ -7624,14 +6707,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数",
-      "country_ja": "ナウル",
-      "country_en": "Nauru",
-      "country_zh_tw": "諾魯",
-      "country_zh_cn": "瑙鲁",
-      "flag_emoji": "🇳🇷",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数"
     },
     {
       "iso3": "NZL",
@@ -7688,14 +6764,7 @@
           "num_primary_fed": 42000,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ニュージーランド",
-      "country_en": "New Zealand",
-      "country_zh_tw": "紐西蘭",
-      "country_zh_cn": "新西兰",
-      "flag_emoji": "🇳🇿",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "OMN",
@@ -7709,14 +6778,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "オマーン",
-      "country_en": "Oman",
-      "country_zh_tw": "阿曼",
-      "country_zh_cn": "阿曼",
-      "flag_emoji": "🇴🇲",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "PAK",
@@ -7742,14 +6804,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算",
-      "country_ja": "パキスタン",
-      "country_en": "Pakistan",
-      "country_zh_tw": "巴基斯坦",
-      "country_zh_cn": "巴基斯坦",
-      "flag_emoji": "🇵🇰",
-      "region_ja": "南アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算"
     },
     {
       "iso3": "PAN",
@@ -7784,14 +6839,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Medium",
       "data_strength": "A: GCNF+WFP+Infrastructure",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "パナマ",
-      "country_en": "Panama",
-      "country_zh_tw": "巴拿馬",
-      "country_zh_cn": "巴拿马",
-      "flag_emoji": "🇵🇦",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "PER",
@@ -7846,14 +6894,7 @@
           "num_primary_fed": 2738858,
           "pct_purchased_domestic": 99.5
         }
-      ],
-      "country_ja": "ペルー",
-      "country_en": "Peru",
-      "country_zh_tw": "秘魯",
-      "country_zh_cn": "秘鲁",
-      "flag_emoji": "🇵🇪",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "PHL",
@@ -7912,14 +6953,7 @@
           "num_primary_fed": 3526589,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "フィリピン",
-      "country_en": "Philippines",
-      "country_zh_tw": "菲律賓",
-      "country_zh_cn": "菲律宾",
-      "flag_emoji": "🇵🇭",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "PLW",
@@ -7978,14 +7012,7 @@
           "num_primary_fed": 1712,
           "pct_purchased_domestic": 95
         }
-      ],
-      "country_ja": "パラオ",
-      "country_en": "Palau",
-      "country_zh_tw": "帛琉",
-      "country_zh_cn": "帕劳",
-      "flag_emoji": "🇵🇼",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "PNG",
@@ -8008,14 +7035,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "パプアニューギニア",
-      "country_en": "Papua New Guinea",
-      "country_zh_tw": "巴布亞紐幾內亞",
-      "country_zh_cn": "巴布亚新几内亚",
-      "flag_emoji": "🇵🇬",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "POL",
@@ -8083,14 +7103,7 @@
           "num_primary_fed": 1725000,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ポーランド",
-      "country_en": "Poland",
-      "country_zh_tw": "波蘭",
-      "country_zh_cn": "波兰",
-      "flag_emoji": "🇵🇱",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "PRK",
@@ -8104,14 +7117,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "北朝鮮",
-      "country_en": "North Korea",
-      "country_zh_tw": "北韓",
-      "country_zh_cn": "朝鲜",
-      "flag_emoji": "🇰🇵",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "PRT",
@@ -8175,14 +7181,7 @@
           "num_primary_fed": 303810,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ポルトガル",
-      "country_en": "Portugal",
-      "country_zh_tw": "葡萄牙",
-      "country_zh_cn": "葡萄牙",
-      "flag_emoji": "🇵🇹",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "PRY",
@@ -8196,14 +7195,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "パラグアイ",
-      "country_en": "Paraguay",
-      "country_zh_tw": "巴拉圭",
-      "country_zh_cn": "巴拉圭",
-      "flag_emoji": "🇵🇾",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "PSE",
@@ -8226,13 +7218,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "Palestine",
-      "country_en": "Palestine",
-      "country_zh_tw": "Palestine",
-      "country_zh_cn": "Palestine",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "QAT",
@@ -8246,14 +7232,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "カタール",
-      "country_en": "Qatar",
-      "country_zh_tw": "卡達",
-      "country_zh_cn": "卡塔尔",
-      "flag_emoji": "🇶🇦",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "ROU",
@@ -8323,14 +7302,7 @@
           "total_children_fed": 1905735,
           "num_primary_fed": 891693
         }
-      ],
-      "country_ja": "ルーマニア",
-      "country_en": "Romania",
-      "country_zh_tw": "羅馬尼亞",
-      "country_zh_cn": "罗马尼亚",
-      "flag_emoji": "🇷🇴",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "RUS",
@@ -8354,14 +7326,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "ロシア",
-      "country_en": "Russia",
-      "country_zh_tw": "俄羅斯",
-      "country_zh_cn": "俄罗斯",
-      "flag_emoji": "🇷🇺",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "RWA",
@@ -8404,14 +7369,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "ルワンダ",
-      "country_en": "Rwanda",
-      "country_zh_tw": "盧安達",
-      "country_zh_cn": "卢旺达",
-      "flag_emoji": "🇷🇼",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "SAU",
@@ -8425,14 +7383,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "サウジアラビア",
-      "country_en": "Saudi Arabia",
-      "country_zh_tw": "沙烏地阿拉伯",
-      "country_zh_cn": "沙特阿拉伯",
-      "flag_emoji": "🇸🇦",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "SDN",
@@ -8485,14 +7436,7 @@
           "num_primary_fed": 1890277,
           "pct_purchased_domestic": 75
         }
-      ],
-      "country_ja": "スーダン",
-      "country_en": "Sudan",
-      "country_zh_tw": "蘇丹",
-      "country_zh_cn": "苏丹",
-      "flag_emoji": "🇸🇩",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "SEN",
@@ -8553,14 +7497,7 @@
           "num_primary_fed": 234533,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "セネガル",
-      "country_en": "Senegal",
-      "country_zh_tw": "塞內加爾",
-      "country_zh_cn": "塞内加尔",
-      "flag_emoji": "🇸🇳",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "SGP",
@@ -8574,14 +7511,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "シンガポール",
-      "country_en": "Singapore",
-      "country_zh_tw": "新加坡",
-      "country_zh_cn": "新加坡",
-      "flag_emoji": "🇸🇬",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "SLB",
@@ -8604,14 +7534,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "ソロモン諸島",
-      "country_en": "Solomon Islands",
-      "country_zh_tw": "索羅門群島",
-      "country_zh_cn": "所罗门群岛",
-      "flag_emoji": "🇸🇧",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "SLE",
@@ -8693,14 +7616,7 @@
           "num_primary_fed": 17054,
           "pct_purchased_domestic": 20
         }
-      ],
-      "country_ja": "シエラレオネ",
-      "country_en": "Sierra Leone",
-      "country_zh_tw": "獅子山",
-      "country_zh_cn": "塞拉利昂",
-      "flag_emoji": "🇸🇱",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "SLV",
@@ -8751,14 +7667,7 @@
           "num_primary_fed": 356026,
           "pct_purchased_domestic": 70
         }
-      ],
-      "country_ja": "エルサルバドル",
-      "country_en": "El Salvador",
-      "country_zh_tw": "薩爾瓦多",
-      "country_zh_cn": "萨尔瓦多",
-      "flag_emoji": "🇸🇻",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "SMR",
@@ -8819,14 +7728,7 @@
           "num_primary_fed": 1559,
           "pct_purchased_domestic": 70
         }
-      ],
-      "country_ja": "サンマリノ",
-      "country_en": "San Marino",
-      "country_zh_tw": "聖馬利諾",
-      "country_zh_cn": "圣马力诺",
-      "flag_emoji": "🇸🇲",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "SOM",
@@ -8922,14 +7824,7 @@
           "num_primary_fed": 28028,
           "pct_purchased_domestic": 0
         }
-      ],
-      "country_ja": "ソマリア",
-      "country_en": "Somalia",
-      "country_zh_tw": "索馬利亞",
-      "country_zh_cn": "索马里",
-      "flag_emoji": "🇸🇴",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "SRB",
@@ -8969,14 +7864,7 @@
           "modality_meal": "Yes",
           "modality_snack": "Yes"
         }
-      ],
-      "country_ja": "セルビア",
-      "country_en": "Serbia",
-      "country_zh_tw": "塞爾維亞",
-      "country_zh_cn": "塞尔维亚",
-      "flag_emoji": "🇷🇸",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "SSD",
@@ -9034,14 +7922,7 @@
           "num_primary_fed": 331966,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "南スーダン",
-      "country_en": "South Sudan",
-      "country_zh_tw": "南蘇丹",
-      "country_zh_cn": "南苏丹",
-      "flag_emoji": "🇸🇸",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "STP",
@@ -9086,14 +7967,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Medium",
       "data_strength": "A: GCNF+WFP+Infrastructure",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "サントメ・プリンシペ",
-      "country_en": "São Tomé & Príncipe",
-      "country_zh_tw": "聖多美普林西比",
-      "country_zh_cn": "圣多美和普林西比",
-      "flag_emoji": "🇸🇹",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "SUR",
@@ -9107,14 +7981,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "スリナム",
-      "country_en": "Suriname",
-      "country_zh_tw": "蘇利南",
-      "country_zh_cn": "苏里南",
-      "flag_emoji": "🇸🇷",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "SVK",
@@ -9174,14 +8041,7 @@
           "modality_snack": "Yes",
           "pct_purchased_domestic": 20
         }
-      ],
-      "country_ja": "スロバキア",
-      "country_en": "Slovakia",
-      "country_zh_tw": "斯洛伐克",
-      "country_zh_cn": "斯洛伐克",
-      "flag_emoji": "🇸🇰",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "SVN",
@@ -9230,14 +8090,7 @@
           "num_primary_fed": 167228,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "スロベニア",
-      "country_en": "Slovenia",
-      "country_zh_tw": "斯洛維尼亞",
-      "country_zh_cn": "斯洛文尼亚",
-      "flag_emoji": "🇸🇮",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "SWE",
@@ -9306,14 +8159,7 @@
           "total_children_fed": 2177882,
           "num_primary_fed": 1234829
         }
-      ],
-      "country_ja": "スウェーデン",
-      "country_en": "Sweden",
-      "country_zh_tw": "瑞典",
-      "country_zh_cn": "瑞典",
-      "flag_emoji": "🇸🇪",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "SWZ",
@@ -9385,14 +8231,7 @@
           "num_primary_fed": 231865,
           "pct_purchased_domestic": 20
         }
-      ],
-      "country_ja": "エスワティニ",
-      "country_en": "Eswatini",
-      "country_zh_tw": "史瓦帝尼",
-      "country_zh_cn": "斯威士兰",
-      "flag_emoji": "🇸🇿",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "SYC",
@@ -9406,14 +8245,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "セーシェル",
-      "country_en": "Seychelles",
-      "country_zh_tw": "塞席爾",
-      "country_zh_cn": "塞舌尔",
-      "flag_emoji": "🇸🇨",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "SYR",
@@ -9471,14 +8303,7 @@
           "num_primary_fed": 651728,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "シリア",
-      "country_en": "Syria",
-      "country_zh_tw": "敘利亞",
-      "country_zh_cn": "叙利亚",
-      "flag_emoji": "🇸🇾",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "TCD",
@@ -9537,14 +8362,7 @@
           "num_primary_fed": 122009,
           "pct_purchased_domestic": 40
         }
-      ],
-      "country_ja": "チャド",
-      "country_en": "Chad",
-      "country_zh_tw": "查德",
-      "country_zh_cn": "乍得",
-      "flag_emoji": "🇹🇩",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "TGO",
@@ -9616,14 +8434,7 @@
           "num_primary_fed": 95419,
           "pct_purchased_domestic": 95
         }
-      ],
-      "country_ja": "トーゴ",
-      "country_en": "Togo",
-      "country_zh_tw": "多哥",
-      "country_zh_cn": "多哥",
-      "flag_emoji": "🇹🇬",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "THA",
@@ -9683,14 +8494,7 @@
           "num_primary_fed": 3036882,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "タイ",
-      "country_en": "Thailand",
-      "country_zh_tw": "泰國",
-      "country_zh_cn": "泰国",
-      "flag_emoji": "🇹🇭",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      ]
     },
     {
       "iso3": "TJK",
@@ -9748,14 +8552,7 @@
           "num_primary_fed": 433000,
           "pct_purchased_domestic": 15
         }
-      ],
-      "country_ja": "タジキスタン",
-      "country_en": "Tajikistan",
-      "country_zh_tw": "塔吉克",
-      "country_zh_cn": "塔吉克斯坦",
-      "flag_emoji": "🇹🇯",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "TKM",
@@ -9769,14 +8566,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "トルクメニスタン",
-      "country_en": "Turkmenistan",
-      "country_zh_tw": "土庫曼",
-      "country_zh_cn": "土库曼斯坦",
-      "flag_emoji": "🇹🇲",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "TLS",
@@ -9834,14 +8624,7 @@
           "total_children_fed": 323846,
           "num_primary_fed": 302447
         }
-      ],
-      "country_ja": "東ティモール",
-      "country_en": "Timor-Leste",
-      "country_zh_tw": "東帝汶",
-      "country_zh_cn": "东帝汶",
-      "flag_emoji": "🇹🇱",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "TON",
@@ -9864,14 +8647,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "トンガ",
-      "country_en": "Tonga",
-      "country_zh_tw": "東加",
-      "country_zh_cn": "汤加",
-      "flag_emoji": "🇹🇴",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "TTO",
@@ -9929,14 +8705,7 @@
           "num_primary_fed": 22800,
           "pct_purchased_domestic": 50
         }
-      ],
-      "country_ja": "トリニダード・トバゴ",
-      "country_en": "Trinidad & Tobago",
-      "country_zh_tw": "千里達及托巴哥",
-      "country_zh_cn": "特立尼达和多巴哥",
-      "flag_emoji": "🇹🇹",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "TUN",
@@ -9996,14 +8765,7 @@
           "num_primary_fed": 260000,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "チュニジア",
-      "country_en": "Tunisia",
-      "country_zh_tw": "突尼西亞",
-      "country_zh_cn": "突尼斯",
-      "flag_emoji": "🇹🇳",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "TUR",
@@ -10017,14 +8779,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "トルコ",
-      "country_en": "Türkiye",
-      "country_zh_tw": "土耳其",
-      "country_zh_cn": "土耳其",
-      "flag_emoji": "🇹🇷",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "TUV",
@@ -10047,14 +8802,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "ツバル",
-      "country_en": "Tuvalu",
-      "country_zh_tw": "吐瓦魯",
-      "country_zh_cn": "图瓦卢",
-      "flag_emoji": "🇹🇻",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "TZA",
@@ -10097,14 +8845,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "タンザニア",
-      "country_en": "Tanzania",
-      "country_zh_tw": "坦尚尼亞",
-      "country_zh_cn": "坦桑尼亚",
-      "flag_emoji": "🇹🇿",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "UGA",
@@ -10173,14 +8914,7 @@
           "targeting": "Universal (for the parent-led program); Geographic (for the SNV School Milk Program and the Kakira School Feeding Program)",
           "pct_purchased_domestic": 95
         }
-      ],
-      "country_ja": "ウガンダ",
-      "country_en": "Uganda",
-      "country_zh_tw": "烏干達",
-      "country_zh_cn": "乌干达",
-      "flag_emoji": "🇺🇬",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "UKR",
@@ -10204,14 +8938,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "ウクライナ",
-      "country_en": "Ukraine",
-      "country_zh_tw": "烏克蘭",
-      "country_zh_cn": "乌克兰",
-      "flag_emoji": "🇺🇦",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "URY",
@@ -10269,14 +8996,7 @@
           "total_children_fed": 208176,
           "num_primary_fed": 201866
         }
-      ],
-      "country_ja": "ウルグアイ",
-      "country_en": "Uruguay",
-      "country_zh_tw": "烏拉圭",
-      "country_zh_cn": "乌拉圭",
-      "flag_emoji": "🇺🇾",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "中央厨房・拠点情報あり"
+      ]
     },
     {
       "iso3": "USA",
@@ -10347,14 +9067,7 @@
           "modality_meal": "Yes",
           "total_children_fed": 12300000
         }
-      ],
-      "country_ja": "アメリカ",
-      "country_en": "United States",
-      "country_zh_tw": "美國",
-      "country_zh_cn": "美国",
-      "flag_emoji": "🇺🇸",
-      "region_ja": "北米",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "UZB",
@@ -10396,14 +9109,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数",
-      "country_ja": "ウズベキスタン",
-      "country_en": "Uzbekistan",
-      "country_zh_tw": "烏茲別克",
-      "country_zh_cn": "乌兹别克斯坦",
-      "flag_emoji": "🇺🇿",
-      "region_ja": "ヨーロッパ・中央アジア",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数"
     },
     {
       "iso3": "VCT",
@@ -10461,14 +9167,7 @@
           "total_children_fed": 10231,
           "num_primary_fed": 7753
         }
-      ],
-      "country_ja": "セントビンセント及びグレナディーン諸島",
-      "country_en": "St. Vincent & Grenadines",
-      "country_zh_tw": "聖文森及格瑞那丁",
-      "country_zh_cn": "圣文森特和格林纳丁斯",
-      "flag_emoji": "🇻🇨",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "VEN",
@@ -10482,14 +9181,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "ベネズエラ",
-      "country_en": "Venezuela",
-      "country_zh_tw": "委內瑞拉",
-      "country_zh_cn": "委内瑞拉",
-      "flag_emoji": "🇻🇪",
-      "region_ja": "ラテンアメリカ・カリブ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "VNM",
@@ -10517,14 +9209,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "ベトナム",
-      "country_en": "Vietnam",
-      "country_zh_tw": "越南",
-      "country_zh_cn": "越南",
-      "flag_emoji": "🇻🇳",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "VUT",
@@ -10547,14 +9232,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "バヌアツ",
-      "country_en": "Vanuatu",
-      "country_zh_tw": "萬那杜",
-      "country_zh_cn": "瓦努阿图",
-      "flag_emoji": "🇻🇺",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "WSM",
@@ -10577,14 +9255,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "C: GCNF only",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算",
-      "country_ja": "サモア",
-      "country_en": "Samoa",
-      "country_zh_tw": "薩摩亞",
-      "country_zh_cn": "萨摩亚",
-      "flag_emoji": "🇼🇸",
-      "region_ja": "東アジア・太平洋",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 給食対象児童数 / 予算"
     },
     {
       "iso3": "YEM",
@@ -10620,14 +9291,7 @@
       "program_count_2021": 0,
       "json_card_priority": "Basic",
       "data_strength": "B: GCNF+WFP",
-      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算",
-      "country_ja": "イエメン",
-      "country_en": "Yemen",
-      "country_zh_tw": "葉門",
-      "country_zh_cn": "也门",
-      "flag_emoji": "🇾🇪",
-      "region_ja": "中東・北アフリカ",
-      "json_card_priority_ja": "基礎データ"
+      "research_gap": "学校給食センター数 / 給食配給対象学校数 / 予算"
     },
     {
       "iso3": "ZAF",
@@ -10686,14 +9350,7 @@
           "num_primary_fed": 6656826,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "南アフリカ",
-      "country_en": "South Africa",
-      "country_zh_tw": "南非",
-      "country_zh_cn": "南非",
-      "flag_emoji": "🇿🇦",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "ZMB",
@@ -10765,14 +9422,7 @@
           "num_primary_fed": 300134,
           "pct_purchased_domestic": 100
         }
-      ],
-      "country_ja": "ザンビア",
-      "country_en": "Zambia",
-      "country_zh_tw": "尚比亞",
-      "country_zh_cn": "赞比亚",
-      "flag_emoji": "🇿🇲",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     },
     {
       "iso3": "ZWE",
@@ -10830,14 +9480,7 @@
           "num_primary_fed": 1830779,
           "pct_purchased_domestic": 99
         }
-      ],
-      "country_ja": "ジンバブエ",
-      "country_en": "Zimbabwe",
-      "country_zh_tw": "辛巴威",
-      "country_zh_cn": "津巴布韦",
-      "flag_emoji": "🇿🇼",
-      "region_ja": "サブサハラ・アフリカ",
-      "json_card_priority_ja": "設備文章あり"
+      ]
     }
   ]
 }

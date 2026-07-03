@@ -1,0 +1,18 @@
+{
+  "version": "V179",
+  "base": "V175 standalone pages with home cards; V173 safe base preserved",
+  "created_at": "2026-07-03T05:42:41",
+  "main_app_js_modified": false,
+  "changes": [
+    "V5 Excel to JSON",
+    "school-meals.html rebuilt",
+    "single-source ranking policy",
+    "cvs-vendor.html preserved"
+  ],
+  "json_counts": {
+    "country_cards": 194,
+    "ranking_metrics": 4,
+    "ranking_rows": 432,
+    "program_rows": 184
+  }
+}

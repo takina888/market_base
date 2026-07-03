@@ -10,71 +10,27 @@
   <meta name="market-base-build" content="V173_FROM_V157_NO_SPLASH_20260703" />
 
 <style>
-.mb-standalone-link-grid{display:grid;grid-template-columns:1fr;gap:8px;margin:10px 0 18px}
+.mb-standalone-link-grid{display:grid;grid-template-columns:1fr;gap:12px;margin:16px 0 18px}
 @media (min-width:760px){.mb-standalone-link-grid{grid-template-columns:repeat(2,1fr)}}
-.mb-standalone-card{display:block;text-decoration:none;color:inherit;background:linear-gradient(135deg,#fff 0%,#f8fbff 100%);border:1px solid #dbe7f6;border-radius:16px;padding:10px 12px;box-shadow:0 8px 18px rgba(11,58,130,.04)}
-.mb-standalone-card strong{display:block;color:#0B3A82;font-size:.96rem;line-height:1.35;margin-bottom:3px}
-.mb-standalone-card span{display:block;color:#607086;font-weight:800;line-height:1.45;font-size:.84rem}
-.mb-standalone-card em{display:inline-flex;margin-top:6px;font-style:normal;color:#1759b8;font-weight:950;font-size:.86rem}
-
-.cache-clear-button{border:1px solid #dbe7f6;background:#fff;color:#0B3A82;border-radius:999px;padding:9px 11px;font-weight:950;font-size:.86rem;box-shadow:0 6px 14px rgba(11,58,130,.04)}
-.cache-clear-button:active{transform:translateY(1px)}
+.mb-standalone-card{display:block;text-decoration:none;color:inherit;background:linear-gradient(135deg,#fff 0%,#f6f9ff 60%,#eef6ff 100%);border:1px solid #dbe7f6;border-radius:22px;padding:18px 18px;box-shadow:0 12px 28px rgba(11,58,130,.06)}
+.mb-standalone-card strong{display:block;color:#0B3A82;font-size:1.08rem;line-height:1.35;margin-bottom:6px}
+.mb-standalone-card span{display:block;color:#607086;font-weight:800;line-height:1.55}
+.mb-standalone-card em{display:inline-flex;margin-top:10px;font-style:normal;color:#1759b8;font-weight:950}
 </style>
 
-<style id="main-dropdown-repair-v197">
-select,
-input,
-button {
-  min-height: 44px;
-}
-select {
-  max-width: 100%;
-  min-width: 0;
-  color: #132238;
-  background-color: #fff;
-  -webkit-appearance: menulist;
-  appearance: auto;
-}
-select option {
-  color: #132238;
-  background-color: #fff;
-}
-.mb-filter-row,
-.filter-row,
-.compare-controls,
-.ranking-controls,
-.controls,
-.toolbar,
-.filters {
-  gap: 10px;
-}
-@media (max-width: 760px) {
-  .mb-filter-row,
-  .filter-row,
-  .compare-controls,
-  .ranking-controls,
-  .controls,
-  .toolbar,
-  .filters {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-  }
-}
-</style>
 </head>
 <body>
 <header class="app-header">
     <div class="brand-block">
       <div class="logo-mark" aria-hidden="true">MB</div>
       <div>
-        <p class="eyebrow">国・地域マーケット情報</p>
+        <p class="eyebrow">Country / Area Market Intelligence</p>
         <h1>MARKET BASE</h1>
         <p class="release-badge">196の国・地域</p>
       </div>
     </div>
     <div class="header-actions">
       <span class="header-chip">196</span>
-      <button type="button" class="cache-clear-button" onclick="mbClearCacheAndReload()">更新</button>
       <select id="langSelect" aria-label="Language">
         <option value="ja">日本語</option>
         <option value="en">English</option>
@@ -83,14 +39,29 @@ select option {
       </select>
     </div>
   </header>
-<main id="home" class="app-shell">
+
+  <section class="mb-standalone-link-grid" aria-label="追加データベース">
+    <a class="mb-standalone-card" href="school-meals.html">
+      <strong data-i18n="schoolDbTitle">学校給食DB</strong>
+      <span data-i18n="schoolDbDesc">国別の学校給食、給食センター、中央厨房、対象児童数、予算を整理。</span>
+      <em data-i18n="openLink">開く →</em>
+    </a>
+    <a class="mb-standalone-card" href="cvs-vendor.html">
+      <strong data-i18n="cvsDbTitle">CVS食品工場DB</strong>
+      <span data-i18n="cvsDbDesc">コンビニ向け食品ベンダー、工場、国別供給関係を整理。</span>
+      <em data-i18n="openLink">開く →</em>
+    </a>
+  </section>
+
+
+  <main id="home" class="app-shell">
 
     <section class="target-home-reference" aria-label="MARKET BASE target reference home layout">
       <div class="target-title-row">
         <h2>MARKET BASE</h2>
         <span>196</span>
       </div>
-      <div class="target-lang-segment" aria-label="言語選択">
+      <div class="target-lang-segment" aria-label="Language quick selector">
         <button type="button" data-lang-button="ja" class="active">日本語</button>
         <button type="button" data-lang-button="en">EN</button>
         <button type="button" data-lang-button="zh_tw">繁中</button>
@@ -141,25 +112,11 @@ select option {
         <button data-jump="rice"><span>米</span><b>米生産量</b></button>
         <button data-jump="japan"><span>日</span><b>在留邦人数</b></button>
       </div>
-
-      <h3 class="target-section-title" data-i18n="relatedDbTitle">関連DB</h3>
-      <section class="mb-standalone-link-grid mb-standalone-small" aria-label="関連データベース">
-        <a class="mb-standalone-card" href="school-meals.html">
-          <strong data-i18n="schoolDbTitle">学校給食DB</strong>
-          <span data-i18n="schoolDbDesc">国別の給食制度・中央厨房・対象児童数。</span>
-          <em data-i18n="openLink">開く →</em>
-        </a>
-        <a class="mb-standalone-card" href="cvs-vendor.html">
-          <strong data-i18n="cvsDbTitle">CVS食品工場DB</strong>
-          <span data-i18n="cvsDbDesc">会社紹介と未確認情報を分けて、工場・拠点情報を整理。</span>
-          <em data-i18n="openLink">開く →</em>
-        </a>
-</section>
     </section>
 
     <section class="hero-panel">
       <div class="hero-copy">
-        <span class="pill">196の国・地域</span>
+        <span class="pill">196 AREAS</span>
         <h2 data-i18n="heroTitle">196の国・地域を、ひと目で比較。</h2>
         
         <div class="hero-actions">
@@ -476,53 +433,5 @@ select option {
   <script src="embedded-retail-presence-data.js"></script>
   <script src="assets/flags/flag-svg-data.js"></script>
   <script src="assets/js/app.js"></script>
-<script>
-async function mbClearCacheAndReload(){
-  const keepLang = localStorage.getItem('mb_lang');
-  try {
-    if ('caches' in window) {
-      const keys = await caches.keys();
-      await Promise.all(keys.map(k => caches.delete(k)));
-    }
-    if ('serviceWorker' in navigator) {
-      const regs = await navigator.serviceWorker.getRegistrations();
-      await Promise.all(regs.map(r => r.unregister()));
-    }
-    sessionStorage.clear();
-    const savedLang = keepLang || 'ja';
-    localStorage.clear();
-    localStorage.setItem('mb_lang', savedLang);
-  } catch (e) {
-    console.warn('cache clear failed', e);
-  }
-  const url = new URL(location.href);
-  url.searchParams.set('v', Date.now().toString());
-  location.replace(url.toString());
-}
-</script>
-<script id="main-dropdown-runtime-repair-v197">
-(function(){
-  function repairSelect(sel){
-    if(!sel || !sel.options) return;
-    if(sel.options.length === 0) return;
-    var has = Array.prototype.some.call(sel.options, function(o){ return o.value === sel.value; });
-    if(!has) sel.selectedIndex = 0;
-    sel.style.color = '#132238';
-    sel.style.backgroundColor = '#fff';
-  }
-  function repairAll(){
-    document.querySelectorAll('select').forEach(repairSelect);
-  }
-  document.addEventListener('DOMContentLoaded', repairAll);
-  document.addEventListener('change', function(e){
-    if(e.target && e.target.tagName === 'SELECT'){
-      setTimeout(repairAll, 0);
-      setTimeout(repairAll, 250);
-    }
-  });
-  window.addEventListener('pageshow', repairAll);
-  setInterval(repairAll, 1200);
-})();
-</script>
 </body>
 </html>
