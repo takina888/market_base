@@ -1,0 +1,2 @@
+V169_CVS_VENDOR_SAFE_STANDALONE_20260703
+Based on V167. Safe rollback from broken V168: existing app.js is not modified. CVS vendor factory database is added as standalone cvs-vendor.html plus separated JSON files.
