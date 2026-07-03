@@ -1,2 +1,0 @@
-V168_CVS_VENDOR_GROWTH_DB_20260703
-Based on V167. Added a growth-oriented country CVS food vendor factory database. Generated separate JSON files for country summary, core companies, core factories/sites, research candidates, and research tasks from the v41.10 Excel master. Product names and product-label evidence are not shown in the normal UI.
