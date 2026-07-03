@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>学校給食DB | MARKET BASE</title>
+<meta name="description" content="学校給食、中央厨房、給食センター、通常データ、ランキングを整理します。">
+<style>
+:root{--blue:#0B3A82;--blue2:#1759b8;--bg:#f5f8fc;--text:#132238;--muted:#607086;--line:#dbe7f6;--soft:#eef6ff;--green:#0f766e;--amber:#b45309;--shadow:0 12px 28px rgba(11,58,130,.08)}
+*{box-sizing:border-box} html,body{max-width:100%;overflow-x:hidden} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;background:var(--bg);color:var(--text);font-size:16px}
+.page{width:min(1180px,100%);margin:0 auto;padding:14px 12px 72px}.topbar{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:12px}.top-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.back,.cache-clear-button{display:inline-flex;align-items:center;text-decoration:none;border:1px solid var(--line);background:#fff;color:var(--blue);border-radius:999px;padding:9px 12px;font-weight:950;font-size:.9rem}.lang{border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--blue);font-weight:900;padding:9px 10px;max-width:145px}
+.hero{background:#fff;border:1px solid var(--line);border-radius:22px;padding:16px;box-shadow:var(--shadow);margin-bottom:14px}.hero h1{margin:0;color:var(--blue);font-size:clamp(1.35rem,5vw,2rem);line-height:1.2}.hero p{margin:8px 0 0;color:var(--muted);font-weight:800;line-height:1.65}
+.tools{display:grid;grid-template-columns:1fr;gap:9px;margin:12px 0}@media(min-width:900px){.tools{grid-template-columns:1.2fr .8fr .9fr}}input,select{width:100%;border:1px solid var(--line);border-radius:15px;padding:12px;font:inherit;font-weight:850;background:#fff;color:var(--text);min-width:0}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:12px 0 18px}@media(min-width:760px){.stats{grid-template-columns:repeat(4,1fr)}}.stat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px}.stat b{display:block;color:var(--blue);font-size:1.35rem}.stat span{color:var(--muted);font-size:.84rem;font-weight:850}
+.section-title{display:flex;justify-content:space-between;align-items:flex-end;gap:10px;margin:22px 0 10px}.section-title h2{margin:0;color:var(--blue);font-size:1.18rem}.note{font-size:.82rem;color:var(--muted);font-weight:850;text-align:right;line-height:1.5}.grid{display:grid;grid-template-columns:1fr;gap:12px}@media(min-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}.card,.rank-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px;box-shadow:0 8px 18px rgba(11,58,130,.04);min-width:0}.detail-card{border-color:#c7d9f2;background:linear-gradient(180deg,#fff 0%,#fbfdff 100%)}.card h3,.rank-card h3{margin:0 0 8px;color:var(--blue);font-size:1.08rem;line-height:1.35;word-break:break-word}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.pill{display:inline-flex;border-radius:999px;background:var(--soft);color:var(--blue);padding:5px 9px;font-size:.78rem;font-weight:950}.pill.green{background:#ecfdf5;color:var(--green)}.pill.amber{background:#fff7ed;color:var(--amber)}
+.keyvals{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:12px 0}.kv{background:#f8fbff;border:1px solid var(--line);border-radius:13px;padding:9px;min-width:0}.kv b{display:block;color:var(--blue);font-size:1rem;word-break:break-word}.kv span{display:block;color:var(--muted);font-size:.76rem;font-weight:850}.summary{background:#fbfdff;border:1px solid var(--line);border-radius:13px;padding:10px;color:#314256;line-height:1.65;font-weight:760;word-break:break-word}.muted{color:var(--muted);font-size:.92rem;line-height:1.65;font-weight:750}details{margin-top:10px}summary{cursor:pointer;color:var(--blue2);font-weight:950}table{width:100%;border-collapse:collapse;margin-top:8px;font-size:.88rem}th,td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top;line-height:1.45;word-break:break-word}th{width:34%;color:var(--blue);background:#f8fbff}.rank-row{display:grid;grid-template-columns:34px minmax(0,1fr);gap:10px;border-top:1px solid var(--line);padding:10px 0}.rank-row:first-of-type{border-top:0}.rank-no{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;background:var(--soft);color:var(--blue);font-weight:950}.rank-country{font-weight:950;line-height:1.35}.rank-val{font-weight:950;color:var(--blue2);margin-top:4px}.empty{background:#fff;border:1px dashed var(--line);border-radius:16px;padding:16px;color:var(--muted);font-weight:850}.small{font-size:.82rem}@media(max-width:520px){.page{padding-left:10px;padding-right:10px}.rank-row{grid-template-columns:30px minmax(0,1fr)}.hero{padding:14px}.topbar{align-items:flex-start}.tools{gap:8px}.top-actions{max-width:62%}}
+</style>
+<style id="school-dropdown-clean-repair-v196">
+.filter-box{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  min-width:0;
+}
+.filter-box span{
+  color:#0B3A82;
+  font-size:.84rem;
+  font-weight:950;
+  padding-left:2px;
+}
+.filter-box input,
+.filter-box select{
+  width:100%;
+  min-width:0;
+  max-width:100%;
+  min-height:44px;
+  color:#132238;
+  background:#fff;
+  -webkit-appearance:menulist;
+  appearance:auto;
+}
+.filter-box input{
+  -webkit-appearance:none;
+  appearance:none;
+}
+.filter-box select option{
+  color:#132238;
+  background:#fff;
+}
+.tools{
+  grid-template-columns:1fr !important;
+}
+@media (min-width:900px){
+  .tools{
+    grid-template-columns:minmax(280px,1.2fr) minmax(220px,.8fr) minmax(260px,1fr) !important;
+    align-items:end;
+  }
+}
+</style>
+</head>
+<body>
+<main class="page">
+  <div class="topbar">
+    <a class="back" href="./">← MARKET BASE</a>
+    <div class="top-actions">
+      <button type="button" class="cache-clear-button" onclick="mbClearCacheAndReload()">更新</button>
+      <select id="langSelect" class="lang" aria-label="言語選択">
+        <option value="ja">日本語</option><option value="en">English</option><option value="zh_tw">繁體中文</option><option value="zh_cn">简体中文</option>
+      </select>
+    </div>
+  </div>
+  <section class="hero">
+    <h1 data-t="title">学校給食DB</h1>
+    <p data-t="lead">中央厨房・給食センター詳細を上部に出し、その下に194カ国の通常データとランキングを表示します。</p>
+  </section>
+  <section id="app"></section>
+</main>
+<script>
+const $=s=>document.querySelector(s), app=$("#app");
+let lang=localStorage.getItem("mb_lang")||"ja";
+const TEXT={
+ ja:{title:"学校給食DB",lead:"中央厨房・給食センター詳細を上部に出し、その下に194カ国の通常データとランキングを表示します。",search:"国名・中央厨房・配送・プログラム名で検索",allRegions:"すべての地域",allCountries:"すべての国・地域",details:"中央厨房・給食センター詳細",detailsNote:"詳細データがある国だけ上部に表示します。外部詳細Excelは次段階で追加統合します。",cards:"194カ国の通常データ",ranking:"ランキング",reference:"参考データ",policy:"1件だけの中央厨房・調理拠点数は、ランキングではなく参考データとして表示します。",children:"対象児童数",budget:"予算",coverage:"提供率",central:"中央厨房・拠点数",program:"プログラム",agency:"主管機関",meal:"食事形態",facility:"設備",detail:"設備・調理・配送メモ",programDetail:"プログラム別情報",noRows:"該当する国・地域がありません。",source:"出典",showing:"表示中",regions:"地域分類",operator:"運営主体",system:"制度・施設名",equipment:"機械設備・厨房設備"},
+ en:{title:"School Meals DB",lead:"Central-kitchen details first, followed by standard country data and rankings.",search:"Search country, central kitchen, delivery, or program",allRegions:"All regions",allCountries:"All countries/areas",details:"Central kitchen details",detailsNote:"Countries with detail data appear first. External detail Excel data will be integrated next.",cards:"Standard country data",ranking:"Rankings",reference:"Reference data",policy:"A central-kitchen metric with only one record is shown as reference data, not as a ranking.",children:"Children covered",budget:"Budget",coverage:"Coverage",central:"Central/off-site sites",program:"Program",agency:"Lead agency",meal:"Meal type",facility:"Facilities",detail:"Infrastructure and delivery note",programDetail:"Program details",noRows:"No matching countries.",source:"Source",showing:"Showing",regions:"Regions",operator:"Operator",system:"System/facility",equipment:"Equipment"},
+ zh_tw:{title:"學校供餐DB",lead:"先顯示中央廚房・供餐中心詳情，再顯示一般國別資料與排名。",search:"搜尋國家、中央廚房、配送、計畫名稱",allRegions:"所有地區",allCountries:"所有國家／地區",details:"中央廚房・供餐中心詳情",detailsNote:"有詳細資料的國家會先顯示。外部詳細Excel下一階段追加整合。",cards:"一般國別資料",ranking:"排名",reference:"參考資料",policy:"中央廚房資料只有1筆時，不作排名，改為參考資料。",children:"受益學生數",budget:"預算",coverage:"覆蓋率",central:"中央廚房／據點數",program:"計畫",agency:"主管機關",meal:"供餐形式",facility:"設備",detail:"設備・調理・配送備註",programDetail:"計畫別資訊",noRows:"沒有符合的國家／地區。",source:"來源",showing:"顯示中",regions:"地區分類",operator:"營運主體",system:"制度・設施名",equipment:"設備"},
+ zh_cn:{title:"学校供餐DB",lead:"先显示中央厨房・供餐中心详情，再显示一般国家资料与排名。",search:"搜索国家、中央厨房、配送、项目名称",allRegions:"所有地区",allCountries:"所有国家／地区",details:"中央厨房・供餐中心详情",detailsNote:"有详细资料的国家会先显示。外部详细Excel下一阶段追加整合。",cards:"一般国家资料",ranking:"排名",reference:"参考资料",policy:"中央厨房资料只有1条时，不作排名，改为参考资料。",children:"受益学生数",budget:"预算",coverage:"覆盖率",central:"中央厨房／据点数",program:"项目",agency:"主管机构",meal:"供餐形式",facility:"设备",detail:"设备・调理・配送备注",programDetail:"项目别信息",noRows:"没有符合的国家／地区。",source:"来源",showing:"显示中",regions:"地区分类",operator:"运营主体",system:"制度・设施名",equipment:"设备"}
+};
+const REGION_JA={"East Asia & Pacific":"東アジア・太平洋","Europe & Central Asia":"ヨーロッパ・中央アジア","Latin America & Caribbean":"ラテンアメリカ・カリブ","Middle East & North Africa":"中東・北アフリカ","North America":"北米","South Asia":"南アジア","Sub-Saharan Africa":"サブサハラ・アフリカ","Africa":"アフリカ","Americas":"アメリカ","Asia":"アジア","Europe":"ヨーロッパ","Oceania":"オセアニア"};
+const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+const fmt=n=>n===null||n===undefined||n===""?"—":Number(n).toLocaleString(lang==="ja"?"ja-JP":"en-US",{maximumFractionDigits:1});
+const txt=k=>TEXT[lang]?.[k]||TEXT.ja[k]||k;
+const short=s=>!s?"":String(s).length>260?String(s).slice(0,260)+"…":String(s);
+const name=c=>c["country_"+lang]||c.country_ja||c.country||"";
+const regionLabel=r=>lang==="ja"?(REGION_JA[r]||r):r;
+const unitLabel=u=>["# of children","children","number of children"].includes(String(u||""))?txt("children"):u==="USD"?"USD":u||"";
+const state={cards:[],details:[],rankings:{},metricMeta:{},q:"",region:"all",country:"all",metric:"school_meals_total_children"};
+async function loadJson(path){const r=await fetch(path,{cache:"no-store"});if(!r.ok)throw new Error(path+" "+r.status);return r.json();}
+function applyLang(){document.documentElement.lang=lang;$("#langSelect").value=lang;document.querySelectorAll("[data-t]").forEach(el=>el.textContent=txt(el.dataset.t));}
+function regions(){return [...new Set(state.cards.map(x=>x.region).filter(Boolean))].sort();}
+function countriesForRegion(){return state.cards.filter(c=>state.region==="all"||c.region===state.region).sort((a,b)=>name(a).localeCompare(name(b),"ja"));}
+function filteredCards(){const q=state.q.toLowerCase();return state.cards.filter(c=>{const hay=JSON.stringify(c).toLowerCase();return(!q||hay.includes(q))&&(state.region==="all"||c.region===state.region)&&(state.country==="all"||c.iso3===state.country)})}
+function filteredDetails(){const q=state.q.toLowerCase();return state.details.filter(c=>{const hay=JSON.stringify(c).toLowerCase();return(!q||hay.includes(q))&&(state.region==="all"||c.region===state.region)&&(state.country==="all"||c.iso3===state.country)})}
+function metricLabel(mid){return state.metricMeta[mid]?.metric_label_ja||state.metricMeta[mid]?.metric||mid}
+function sourceNote(mid){return state.metricMeta[mid]?.ui_source_note_ja||state.metricMeta[mid]?.definition_note_ja||state.metricMeta[mid]?.primary_source_for_ranking||""}
+function usableMetrics(){return Object.keys(state.rankings).filter(mid=>(state.rankings[mid]||[]).length>1)}
+function referenceMetrics(){return Object.keys(state.rankings).filter(mid=>(state.rankings[mid]||[]).length===1)}
+function renderDetailCard(c){return `<article class="card detail-card"><h3>${esc(c.flag_emoji||"")} ${esc(name(c))}</h3><div class="meta"><span class="pill">${esc(regionLabel(c.region))}</span><span class="pill green">${esc(c.confidence_label||"公開資料ベース")}</span></div><div class="keyvals"><div class="kv"><b>${fmt(c.central_kitchen_count)}</b><span>${esc(txt("central"))}</span></div><div class="kv"><b>${esc(c.reference_school_year||"—")}</b><span>年</span></div></div><table><tr><th>${esc(txt("system"))}</th><td>${esc(short(c.facility_or_system_name)||"—")}</td></tr><tr><th>${esc(txt("operator"))}</th><td>${esc(short(c.operation_body)||"—")}</td></tr><tr><th>${esc(txt("equipment"))}</th><td>${esc([c.kitchens_category&&("厨房："+c.kitchens_category),c.cafeterias_category&&("食堂："+c.cafeterias_category),c.electricity_category&&("電気："+c.electricity_category),c.clean_water_category&&("清潔な水："+c.clean_water_category)].filter(Boolean).join(" / ")||c.equipment_text||"—")}</td></tr></table>${c.summary_ja?`<div class="summary">${esc(c.summary_ja)}</div>`:""}${c.detail_text_ja?`<details open><summary>${esc(txt("detail"))}</summary><p class="muted">${esc(c.detail_text_ja)}</p></details>`:""}</article>`}
+function renderCard(c){const infra=c.infrastructure||{},children=c.children||{},budget=c.budget||{},coverage=c.coverage||{},meal=c.meal_modalities||{},programs=c.programs_2021||[];const badges=[regionLabel(c.region),c.reference_school_year].filter(Boolean);return `<article class="card"><h3>${esc(c.flag_emoji||"")} ${esc(name(c))} <span class="small muted">${esc(c.iso3||"")}</span></h3><div class="meta">${badges.map(b=>`<span class="pill">${esc(b)}</span>`).join("")}</div><div class="keyvals"><div class="kv"><b>${fmt(children.wfp_children_latest||children.gcnf_total_children_fed)}</b><span>${esc(txt("children"))}</span></div><div class="kv"><b>${fmt(budget.wfp_budget_usd||budget.gcnf_budget_usd)}</b><span>${esc(txt("budget"))} USD</span></div><div class="kv"><b>${fmt(coverage.coverage_rate_pct)}%</b><span>${esc(txt("coverage"))}</span></div><div class="kv"><b>${fmt(infra.central_kitchen_count_extracted_2021)}</b><span>${esc(txt("central"))}</span></div></div><table><tr><th>${esc(txt("program"))}</th><td>${esc(short(c.program_names)||"—")}</td></tr><tr><th>${esc(txt("agency"))}</th><td>${esc(short(c.lead_agency)||"—")}</td></tr><tr><th>${esc(txt("meal"))}</th><td>${esc(["朝食:"+meal.breakfast,"昼食:"+meal.lunch,"スナック:"+meal.snacks,"持ち帰り:"+meal.take_home_rations].filter(x=>!x.endsWith("undefined")&&!x.endsWith("null")).join(" / ")||"—")}</td></tr></table>${programs.length?`<details><summary>${esc(txt("programDetail"))} ${programs.length}</summary><table><thead><tr><th>${esc(txt("program"))}</th><th>頻度</th><th>対象</th><th>${esc(txt("children"))}</th></tr></thead><tbody>${programs.map(p=>`<tr><td>${esc(p.program||"")}</td><td>${esc(p.frequency||"")}</td><td>${esc(short(p.targeting)||"")}</td><td>${fmt(p.total_children_fed)}</td></tr>`).join("")}</tbody></table></details>`:""}</article>`}
+function renderRankings(){const metrics=usableMetrics();if(!metrics.includes(state.metric))state.metric=metrics[0]||"";const list=(state.rankings[state.metric]||[]).slice(0,12);const refs=referenceMetrics();return `<div class="section-title"><h2>${esc(txt("ranking"))}</h2><div class="note">${esc(sourceNote(state.metric))}</div></div><div class="tools" style="grid-template-columns:1fr"><select id="metric">${metrics.map(mid=>`<option value="${esc(mid)}" ${mid===state.metric?"selected":""}>${esc(metricLabel(mid))}</option>`).join("")}</select></div><div class="rank-card"><h3>${esc(metricLabel(state.metric))}</h3>${list.length?list.map((r,i)=>`<div class="rank-row"><span class="rank-no">${i+1}</span><div><div class="rank-country">${esc(r.flag_emoji||"")} ${esc(r["country_"+lang]||r.country_ja||r.country)} <span class="small muted">${esc(r.iso3||"")}</span></div><div class="rank-val">${fmt(r.value)} ${esc(unitLabel(r.unit))}</div></div></div>`).join(""):`<div class="empty">—</div>`}<p class="muted small">${esc(txt("source"))}：${esc((list[0]&&list[0].source)||state.metricMeta[state.metric]?.primary_source_for_ranking||"")}</p></div><div class="rank-card"><h3>${esc(txt("reference"))}</h3><p class="muted">${esc(txt("policy"))}</p>${refs.map(mid=>{const r=state.rankings[mid][0];return `<div class="rank-row"><span class="rank-no">•</span><div><div class="rank-country">${esc(metricLabel(mid))}</div><div class="rank-val">${esc(r.country_ja||r.country)}：${fmt(r.value)} ${esc(unitLabel(r.unit))}</div></div></div>`}).join("")}</div>`}
+function ensureCountryValid(){
+  const list = countriesForRegion();
+  if(state.country !== "all" && !list.some(c => c.iso3 === state.country)){
+    state.country = "all";
+  }
+  return list;
+}
+function render(){
+  applyLang();
+  const regs = regions();
+  const countries = ensureCountryValid();
+  const cards = filteredCards();
+  const details = filteredDetails();
+
+  const regionOptions = regs.map(r =>
+    `<option value="${esc(r)}" ${state.region===r?"selected":""}>${esc(regionLabel(r))}</option>`
+  ).join("");
+
+  const countryOptions = countries.map(c =>
+    `<option value="${esc(c.iso3)}" ${state.country===c.iso3?"selected":""}>${esc(c.flag_emoji||"")} ${esc(name(c))}</option>`
+  ).join("");
+
+  app.innerHTML = `
+    <div class="tools">
+      <label class="filter-box" for="q">
+        <span>検索</span>
+        <input id="q" value="${esc(state.q)}" placeholder="${esc(txt("search"))}">
+      </label>
+      <label class="filter-box" for="region">
+        <span>地域</span>
+        <select id="region">
+          <option value="all">${esc(txt("allRegions"))}</option>
+          ${regionOptions}
+        </select>
+      </label>
+      <label class="filter-box" for="country">
+        <span>国・地域</span>
+        <select id="country">
+          <option value="all">${esc(txt("allCountries"))}</option>
+          ${countryOptions}
+        </select>
+      </label>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>${fmt(state.details.length)}</b><span>${esc(txt("details"))}</span></div>
+      <div class="stat"><b>${fmt(cards.length)}</b><span>${esc(txt("showing"))}</span></div>
+      <div class="stat"><b>${fmt(state.cards.length)}</b><span>${esc(txt("cards"))}</span></div>
+      <div class="stat"><b>${fmt(regs.length)}</b><span>${esc(txt("regions"))}</span></div>
+    </div>
+
+    <div class="section-title">
+      <h2>${esc(txt("details"))}</h2>
+      <div class="note">${esc(txt("detailsNote"))}</div>
+    </div>
+    <div class="grid">
+      ${details.length ? details.map(renderDetailCard).join("") : `<div class="empty">詳細データはこの条件では見つかりません。</div>`}
+    </div>
+
+    <div class="section-title">
+      <h2>${esc(txt("cards"))}</h2>
+      <div class="note">GCNF / WFP</div>
+    </div>
+    <div class="grid">
+      ${cards.length ? cards.map(renderCard).join("") : `<div class="empty">${esc(txt("noRows"))}</div>`}
+    </div>
+
+    ${renderRankings()}
+  `;
+
+  const qEl = $("#q");
+  const regionEl = $("#region");
+  const countryEl = $("#country");
+  const metricEl = $("#metric");
+
+  qEl.addEventListener("input", e => {
+    state.q = e.target.value;
+    render();
+  });
+
+  regionEl.addEventListener("change", e => {
+    state.region = e.target.value;
+    state.country = "all";
+    render();
+  });
+
+  countryEl.addEventListener("change", e => {
+    state.country = e.target.value || "all";
+    render();
+  });
+
+  if(metricEl){
+    metricEl.addEventListener("change", e => {
+      state.metric = e.target.value;
+      render();
+    });
+  }
+}
+$("#langSelect").addEventListener("change",e=>{lang=e.target.value;localStorage.setItem("mb_lang",lang);render()});
+(async()=>{try{const [cards,detail,rankings,sources]=await Promise.all([loadJson("data/school_meals_country_cards.json"),loadJson("data/school_meals_central_kitchen_details_v190.json"),loadJson("data/school_meals_rankings.json"),loadJson("data/school_meals_sources.json")]);state.cards=cards.records||[];state.details=detail.details||[];state.rankings=rankings.rankings_by_metric||{};state.metricMeta=rankings.metric_meta||sources.metric_meta||{};render()}catch(e){app.innerHTML=`<div class="empty">データを読み込めませんでした。<br>${esc(e.message)}</div>`;console.error(e)}})();
+</script>
+<script>
+async function mbClearCacheAndReload(){
+  const keepLang = localStorage.getItem('mb_lang') || 'ja';
+  try{
+    if('caches' in window){
+      const keys=await caches.keys();
+      await Promise.all(keys.map(k=>caches.delete(k)));
+    }
+    if('serviceWorker' in navigator){
+      const regs=await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r=>r.unregister()));
+    }
+    sessionStorage.clear();
+    localStorage.clear();
+    localStorage.setItem('mb_lang', keepLang);
+  }catch(e){ console.warn(e); }
+  const url=new URL(location.href);
+  url.searchParams.set('v', Date.now().toString());
+  location.replace(url.toString());
+}
+</script>
+</body>
+</html>
