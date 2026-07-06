@@ -1,4 +1,0 @@
-MARKET BASE V229 CLEAN PUBLIC DEPLOY / 2026-07-05
-Base: V228 RETAIL DB UI POLISH
-Removed from deploy zip: docs/, tools/, .github/, root apply scripts, unused embedded retail channels file.
-Data masters unchanged from V228.
