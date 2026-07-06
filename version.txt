@@ -1,0 +1,3 @@
+MARKET_BASE_PUBLIC_DEPLOY_V233_COMPARE_DEFAULT_US_JP_20260705
+Base: V232 school meals coverage and cache auto-refresh
+Change: Compare tab default changed to United States and Japan, and compare results render immediately on open.
