@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>小売市場データベース | MARKET BASE</title>
+  <link rel="stylesheet" href="retail-market.css?v=233" />
+</head>
+<body>
+  <header class="mb-topbar">
+    <div class="topbar-actions"><a class="back-link" href="index.html">← MARKET BASE に戻る</a><button class="cache-refresh-btn retail-cache-refresh" id="cacheRefreshBtn" type="button" aria-label="キャッシュを更新">更新</button></div>
+    <div class="brand-block">
+      <div class="eyebrow">MARKET BASE / Retail Market DB</div>
+      <h1>小売市場データベース</h1>
+      <p>国・地域別に、小売チェーン、店舗数、業態、出典、更新状況を確認するための別ページです。本体ページは要約表示にし、詳細検索はこちらにまとめています。</p>
+      <div class="hero-tags" aria-label="ページの機能">
+        <span>国別検索</span>
+        <span>チェーン検索</span>
+        <span>店舗数ステータス</span>
+        <span>出典確認</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="summary-panel" aria-label="全体概要">
+      <article class="stat-card"><span>登録国・地域</span><strong id="statCountries">-</strong></article>
+      <article class="stat-card"><span>小売チェーン</span><strong id="statChains">-</strong></article>
+      <article class="stat-card"><span>店舗数あり</span><strong id="statCounts">-</strong></article>
+      <article class="stat-card"><span>更新キュー</span><strong id="statQueue">-</strong></article>
+    </section>
+
+    <section class="control-panel" aria-label="検索とフィルター">
+      <label>国・地域検索<input id="countrySearch" type="search" placeholder="日本 / Japan / JP / Thailand..." autocomplete="off" /></label>
+      <label>表示国・地域<select id="countrySelect"></select></label>
+      <label>チェーン検索<input id="chainSearch" type="search" placeholder="AEON / Life / Alfamidi..." autocomplete="off" /></label>
+      <label>店舗数ステータス<select id="countFilter"><option value="all">すべて</option><option value="available">店舗数あり</option><option value="pending">店舗数なし・更新待ち</option><option value="review">範囲/出典確認待ち</option></select></label>
+      <label>業態フィルター<select id="formatFilter"><option value="all">すべて</option></select></label>
+      <label>出典区分<select id="sourceTypeFilter"><option value="all">すべて</option><option value="official">公式・準公式</option><option value="reference">参考</option><option value="historical">履歴・過去値</option><option value="pending">出典確認待ち</option></select></label>
+      <label>並び順<select id="sortMode"><option value="name">名前順</option><option value="count_desc">店舗数 多い順</option><option value="count_asc">店舗数 少ない順</option><option value="status">ステータス順</option></select></label>
+      <label>表示件数<select id="limitMode"><option value="50">50件</option><option value="100">100件</option><option value="200">200件</option><option value="all">全件</option></select></label>
+    </section>
+
+    <section class="quick-panel" aria-label="主要市場ショートカット">
+      <div class="quick-heading"><p class="eyebrow">Quick markets</p><h2>主要市場</h2></div>
+      <div id="quickMarketButtons" class="quick-buttons"></div>
+    </section>
+
+    <section class="country-card" aria-label="選択中の国・地域">
+      <div>
+        <p class="eyebrow">Selected market</p>
+        <h2 id="countryTitle">-</h2>
+        <p id="countryFormats" class="muted"></p>
+        <div id="countryQuality" class="quality-row"></div>
+      </div>
+      <div class="country-metrics" id="countryMetrics"></div>
+    </section>
+
+    <section class="toolbar" aria-label="表示操作">
+      <div><p id="resultCount" class="result-count">-</p><p id="activeFilters" class="muted small"></p></div>
+      <button type="button" id="resetFilters">フィルター解除</button>
+    </section>
+
+    <section class="data-section">
+      <div class="section-heading"><div><p class="eyebrow">Retail chains</p><h2>小売チェーン一覧</h2></div></div>
+      <div id="chainList" class="chain-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="mb-footer">
+    <p>店舗数・出典・更新状況は構造化データから表示しています。本文プロフィールはこのページでは編集しません。</p>
+  </footer>
+
+  <script src="embedded-retail-country-card-summary-data.js"></script>
+  <script src="embedded-retail-presence-data.js"></script>
+  <script src="embedded-retail-data.js"></script>
+  <script src="retail-market.js?v=233"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CVSベンダーDB | MARKET BASE</title>
+<link rel="stylesheet" href="./cvs-vendor.css?v=243">
+</head>
+<body>
+<header class="topbar">
+  <div class="brandline">
+    <a class="mb-back" href="index.html">MARKET BASE</a>
+    <div class="top-actions">
+      <button class="cache-refresh" type="button" onclick="window.CVSVendorRefresh && window.CVSVendorRefresh()">更新</button>
+      <span class="lang-chip">日本語</span>
+    </div>
+  </div>
+  <div class="hero">
+    <h1>CVSベンダーDB</h1>
+    <p class="lead">コンビニ向け弁当・おにぎり・惣菜の製造会社と工場を一覧できます。</p>
+  </div>
+</header>
+<main>
+  <section id="kpis" class="kpis"></section>
+  <section class="controls">
+    <input id="search" type="search" placeholder="会社名・国・チェーン・工場名・商品名で検索">
+    <select id="country"><option value="all">国・地域すべて</option></select>
+    <select id="hasFacility"><option value="all">工場・拠点すべて</option><option value="yes">工場・拠点あり</option><option value="no">工場・拠点なし</option></select>
+    <select id="hasProduct"><option value="all">商品情報すべて</option><option value="yes">商品情報あり</option><option value="no">商品情報なし</option></select>
+  </section>
+  <section id="resultCount" class="resultCount"></section>
+  <section id="companyList" class="cards"></section>
+</main>
+<aside id="drawer" class="drawer" aria-hidden="true">
+  <button id="closeDrawer">閉じる</button>
+  <div id="drawerBody"></div>
+</aside>
+<script src="./cvs-vendor.js?v=243"></script>
+</body>
+</html>

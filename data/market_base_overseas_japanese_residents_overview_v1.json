@@ -1,0 +1,1518 @@
+{
+  "meta": {
+    "dataset": "market_base_overseas_japanese_residents_overview",
+    "version": "v1",
+    "created_at": "2026-06-30",
+    "policy": "Official global total is kept separate from mapped Full196 totals."
+  },
+  "overview": {
+    "metric_id": "overseas_japanese_residents_overview",
+    "label_ja": "在留邦人数 概要",
+    "year": 2025,
+    "date": "2025-10-01",
+    "official_global_total": {
+      "value": 1298170,
+      "unit": "people",
+      "source": "外務省「海外在留邦人数調査統計」令和7年",
+      "source_url": "https://www.mofa.go.jp/mofaj/toko/tokei/hojin/index.html",
+      "source_file_url": "https://www.mofa.go.jp/mofaj/files/100197265.xlsx",
+      "note": "外務省公表の海外在留邦人総数。"
+    },
+    "mapped_full196_total": {
+      "value": 1339382,
+      "unit": "people",
+      "country_region_count": 187,
+      "source": "外務省Excelの国（地域）別一覧表をFull196へ突合した値の合計",
+      "note": "Full196対象外地域を含まないため、公式総数と完全一致しない場合があります。"
+    },
+    "mapped_full196_breakdown": {
+      "long_term": {
+        "value": 805390,
+        "unit": "people"
+      },
+      "permanent": {
+        "value": 533992,
+        "unit": "people"
+      },
+      "note": "突合済みFull196レコードの長期滞在者・永住者合計。"
+    },
+    "mofa_region_totals": {
+      "items": [
+        {
+          "region_ja": "Ⅲ　北米",
+          "total": 500781,
+          "long_term": 233411,
+          "permanent": 267370,
+          "country_region_count": 2,
+          "rank": 1
+        },
+        {
+          "region_ja": "Ⅰ　アジア",
+          "total": 395749,
+          "long_term": 355934,
+          "permanent": 39815,
+          "country_region_count": 22,
+          "rank": 2
+        },
+        {
+          "region_ja": "Ⅵ　西欧",
+          "total": 213304,
+          "long_term": 133072,
+          "permanent": 80232,
+          "country_region_count": 27,
+          "rank": 3
+        },
+        {
+          "region_ja": "Ⅱ　大洋州",
+          "total": 114857,
+          "long_term": 44390,
+          "permanent": 70467,
+          "country_region_count": 13,
+          "rank": 4
+        },
+        {
+          "region_ja": "Ⅴ　南米",
+          "total": 75028,
+          "long_term": 6423,
+          "permanent": 68605,
+          "country_region_count": 12,
+          "rank": 5
+        },
+        {
+          "region_ja": "Ⅳ　中米",
+          "total": 13793,
+          "long_term": 10084,
+          "permanent": 3709,
+          "country_region_count": 21,
+          "rank": 6
+        },
+        {
+          "region_ja": "Ⅶ　東欧・旧ソ連",
+          "total": 11185,
+          "long_term": 9464,
+          "permanent": 1721,
+          "country_region_count": 25,
+          "rank": 7
+        },
+        {
+          "region_ja": "Ⅷ　中東",
+          "total": 8610,
+          "long_term": 7329,
+          "permanent": 1281,
+          "country_region_count": 11,
+          "rank": 8
+        },
+        {
+          "region_ja": "Ⅸ　アフリカ",
+          "total": 6075,
+          "long_term": 5283,
+          "permanent": 792,
+          "country_region_count": 54,
+          "rank": 9
+        }
+      ],
+      "note": "外務省Excelの地域区分を使用した派生合計。"
+    }
+  },
+  "region_detail": [
+    {
+      "region_ja": "Ⅲ　北米",
+      "total": 500781,
+      "long_term": 233411,
+      "permanent": 267370,
+      "country_region_count": 2,
+      "items": [
+        {
+          "entity_id": "US",
+          "name_ja": "アメリカ",
+          "total": 429889,
+          "long_term": 211639,
+          "permanent": 218250
+        },
+        {
+          "entity_id": "CA",
+          "name_ja": "カナダ",
+          "total": 70892,
+          "long_term": 21772,
+          "permanent": 49120
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "region_ja": "Ⅰ　アジア",
+      "total": 395749,
+      "long_term": 355934,
+      "permanent": 39815,
+      "country_region_count": 22,
+      "items": [
+        {
+          "entity_id": "CN",
+          "name_ja": "中国",
+          "total": 107715,
+          "long_term": 104096,
+          "permanent": 3619
+        },
+        {
+          "entity_id": "TH",
+          "name_ja": "タイ",
+          "total": 82574,
+          "long_term": 80695,
+          "permanent": 1879
+        },
+        {
+          "entity_id": "KR",
+          "name_ja": "韓国",
+          "total": 41238,
+          "long_term": 27367,
+          "permanent": 13871
+        },
+        {
+          "entity_id": "SG",
+          "name_ja": "シンガポール",
+          "total": 36200,
+          "long_term": 32768,
+          "permanent": 3432
+        },
+        {
+          "entity_id": "MY",
+          "name_ja": "マレーシア",
+          "total": 27256,
+          "long_term": 25212,
+          "permanent": 2044
+        },
+        {
+          "entity_id": "TW",
+          "name_ja": "台湾",
+          "total": 24162,
+          "long_term": 18011,
+          "permanent": 6151
+        },
+        {
+          "entity_id": "VN",
+          "name_ja": "ベトナム",
+          "total": 22185,
+          "long_term": 21864,
+          "permanent": 321
+        },
+        {
+          "entity_id": "ID",
+          "name_ja": "インドネシア",
+          "total": 16539,
+          "long_term": 15343,
+          "permanent": 1196
+        },
+        {
+          "entity_id": "PH",
+          "name_ja": "フィリピン",
+          "total": 15728,
+          "long_term": 9773,
+          "permanent": 5955
+        },
+        {
+          "entity_id": "IN",
+          "name_ja": "インド",
+          "total": 9313,
+          "long_term": 8997,
+          "permanent": 316
+        },
+        {
+          "entity_id": "KH",
+          "name_ja": "カンボジア",
+          "total": 4502,
+          "long_term": 4315,
+          "permanent": 187
+        },
+        {
+          "entity_id": "MM",
+          "name_ja": "ミャンマー (ビルマ)",
+          "total": 2849,
+          "long_term": 2834,
+          "permanent": 15
+        },
+        {
+          "entity_id": "BD",
+          "name_ja": "バングラデシュ",
+          "total": 1080,
+          "long_term": 1000,
+          "permanent": 80
+        },
+        {
+          "entity_id": "PK",
+          "name_ja": "パキスタン",
+          "total": 1027,
+          "long_term": 515,
+          "permanent": 512
+        },
+        {
+          "entity_id": "NP",
+          "name_ja": "ネパール",
+          "total": 1021,
+          "long_term": 1013,
+          "permanent": 8
+        },
+        {
+          "entity_id": "LA",
+          "name_ja": "ラオス",
+          "total": 789,
+          "long_term": 747,
+          "permanent": 42
+        },
+        {
+          "entity_id": "LK",
+          "name_ja": "スリランカ",
+          "total": 723,
+          "long_term": 586,
+          "permanent": 137
+        },
+        {
+          "entity_id": "MN",
+          "name_ja": "モンゴル",
+          "total": 323,
+          "long_term": 295,
+          "permanent": 28
+        },
+        {
+          "entity_id": "BN",
+          "name_ja": "ブルネイ",
+          "total": 165,
+          "long_term": 161,
+          "permanent": 4
+        },
+        {
+          "entity_id": "MV",
+          "name_ja": "モルディブ",
+          "total": 137,
+          "long_term": 126,
+          "permanent": 11
+        },
+        {
+          "entity_id": "BT",
+          "name_ja": "ブータン",
+          "total": 124,
+          "long_term": 117,
+          "permanent": 7
+        },
+        {
+          "entity_id": "TL",
+          "name_ja": "東ティモール",
+          "total": 99,
+          "long_term": 99,
+          "permanent": 0
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "region_ja": "Ⅵ　西欧",
+      "total": 213304,
+      "long_term": 133072,
+      "permanent": 80232,
+      "country_region_count": 27,
+      "items": [
+        {
+          "entity_id": "GB",
+          "name_ja": "イギリス",
+          "total": 63653,
+          "long_term": 38038,
+          "permanent": 25615
+        },
+        {
+          "entity_id": "DE",
+          "name_ja": "ドイツ",
+          "total": 42135,
+          "long_term": 26067,
+          "permanent": 16068
+        },
+        {
+          "entity_id": "FR",
+          "name_ja": "フランス",
+          "total": 36347,
+          "long_term": 27107,
+          "permanent": 9240
+        },
+        {
+          "entity_id": "IT",
+          "name_ja": "イタリア",
+          "total": 14020,
+          "long_term": 8951,
+          "permanent": 5069
+        },
+        {
+          "entity_id": "CH",
+          "name_ja": "スイス",
+          "total": 11792,
+          "long_term": 5515,
+          "permanent": 6277
+        },
+        {
+          "entity_id": "NL",
+          "name_ja": "オランダ",
+          "total": 10670,
+          "long_term": 8278,
+          "permanent": 2392
+        },
+        {
+          "entity_id": "ES",
+          "name_ja": "スペイン",
+          "total": 9462,
+          "long_term": 6115,
+          "permanent": 3347
+        },
+        {
+          "entity_id": "BE",
+          "name_ja": "ベルギー",
+          "total": 5827,
+          "long_term": 3978,
+          "permanent": 1849
+        },
+        {
+          "entity_id": "SE",
+          "name_ja": "スウェーデン",
+          "total": 4476,
+          "long_term": 982,
+          "permanent": 3494
+        },
+        {
+          "entity_id": "AT",
+          "name_ja": "オーストリア",
+          "total": 3234,
+          "long_term": 1456,
+          "permanent": 1778
+        },
+        {
+          "entity_id": "IE",
+          "name_ja": "アイルランド",
+          "total": 2818,
+          "long_term": 2032,
+          "permanent": 786
+        },
+        {
+          "entity_id": "FI",
+          "name_ja": "フィンランド",
+          "total": 2517,
+          "long_term": 1017,
+          "permanent": 1500
+        },
+        {
+          "entity_id": "DK",
+          "name_ja": "デンマーク",
+          "total": 1839,
+          "long_term": 803,
+          "permanent": 1036
+        },
+        {
+          "entity_id": "NO",
+          "name_ja": "ノルウェー",
+          "total": 1340,
+          "long_term": 730,
+          "permanent": 610
+        },
+        {
+          "entity_id": "PT",
+          "name_ja": "ポルトガル",
+          "total": 737,
+          "long_term": 411,
+          "permanent": 326
+        },
+        {
+          "entity_id": "LU",
+          "name_ja": "ルクセンブルク",
+          "total": 682,
+          "long_term": 564,
+          "permanent": 118
+        },
+        {
+          "entity_id": "GR",
+          "name_ja": "ギリシャ",
+          "total": 627,
+          "long_term": 147,
+          "permanent": 480
+        },
+        {
+          "entity_id": "MT",
+          "name_ja": "マルタ",
+          "total": 360,
+          "long_term": 322,
+          "permanent": 38
+        },
+        {
+          "entity_id": "EE",
+          "name_ja": "エストニア",
+          "total": 223,
+          "long_term": 197,
+          "permanent": 26
+        },
+        {
+          "entity_id": "IS",
+          "name_ja": "アイスランド",
+          "total": 139,
+          "long_term": 62,
+          "permanent": 77
+        },
+        {
+          "entity_id": "MC",
+          "name_ja": "モナコ",
+          "total": 111,
+          "long_term": 86,
+          "permanent": 25
+        },
+        {
+          "entity_id": "LT",
+          "name_ja": "リトアニア",
+          "total": 96,
+          "long_term": 87,
+          "permanent": 9
+        },
+        {
+          "entity_id": "CY",
+          "name_ja": "キプロス",
+          "total": 87,
+          "long_term": 48,
+          "permanent": 39
+        },
+        {
+          "entity_id": "LV",
+          "name_ja": "ラトビア",
+          "total": 67,
+          "long_term": 60,
+          "permanent": 7
+        },
+        {
+          "entity_id": "LI",
+          "name_ja": "リヒテンシュタイン",
+          "total": 22,
+          "long_term": 15,
+          "permanent": 7
+        },
+        {
+          "entity_id": "AD",
+          "name_ja": "アンドラ",
+          "total": 16,
+          "long_term": 2,
+          "permanent": 14
+        },
+        {
+          "entity_id": "SM",
+          "name_ja": "サンマリノ",
+          "total": 7,
+          "long_term": 2,
+          "permanent": 5
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "region_ja": "Ⅱ　大洋州",
+      "total": 114857,
+      "long_term": 44390,
+      "permanent": 70467,
+      "country_region_count": 13,
+      "items": [
+        {
+          "entity_id": "AU",
+          "name_ja": "オーストラリア",
+          "total": 93451,
+          "long_term": 34158,
+          "permanent": 59293
+        },
+        {
+          "entity_id": "NZ",
+          "name_ja": "ニュージーランド",
+          "total": 20430,
+          "long_term": 9384,
+          "permanent": 11046
+        },
+        {
+          "entity_id": "FJ",
+          "name_ja": "フィジー",
+          "total": 352,
+          "long_term": 344,
+          "permanent": 8
+        },
+        {
+          "entity_id": "PW",
+          "name_ja": "パラオ",
+          "total": 245,
+          "long_term": 149,
+          "permanent": 96
+        },
+        {
+          "entity_id": "PG",
+          "name_ja": "パプアニューギニア",
+          "total": 119,
+          "long_term": 119,
+          "permanent": 0
+        },
+        {
+          "entity_id": "FM",
+          "name_ja": "ミクロネシア連邦",
+          "total": 64,
+          "long_term": 45,
+          "permanent": 19
+        },
+        {
+          "entity_id": "SB",
+          "name_ja": "ソロモン諸島",
+          "total": 57,
+          "long_term": 57,
+          "permanent": 0
+        },
+        {
+          "entity_id": "TO",
+          "name_ja": "トンガ",
+          "total": 48,
+          "long_term": 44,
+          "permanent": 4
+        },
+        {
+          "entity_id": "VU",
+          "name_ja": "バヌアツ",
+          "total": 46,
+          "long_term": 46,
+          "permanent": 0
+        },
+        {
+          "entity_id": "MH",
+          "name_ja": "マーシャル諸島",
+          "total": 40,
+          "long_term": 39,
+          "permanent": 1
+        },
+        {
+          "entity_id": "KI",
+          "name_ja": "キリバス",
+          "total": 5,
+          "long_term": 5,
+          "permanent": 0
+        },
+        {
+          "entity_id": "NR",
+          "name_ja": "ナウル",
+          "total": 0,
+          "long_term": 0,
+          "permanent": 0
+        },
+        {
+          "entity_id": "TV",
+          "name_ja": "ツバル",
+          "total": 0,
+          "long_term": 0,
+          "permanent": 0
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "region_ja": "Ⅴ　南米",
+      "total": 75028,
+      "long_term": 6423,
+      "permanent": 68605,
+      "country_region_count": 12,
+      "items": [
+        {
+          "entity_id": "BR",
+          "name_ja": "ブラジル",
+          "total": 48703,
+          "long_term": 3283,
+          "permanent": 45420
+        },
+        {
+          "entity_id": "AR",
+          "name_ja": "アルゼンチン",
+          "total": 11406,
+          "long_term": 515,
+          "permanent": 10891
+        },
+        {
+          "entity_id": "PY",
+          "name_ja": "パラグアイ",
+          "total": 5330,
+          "long_term": 298,
+          "permanent": 5032
+        },
+        {
+          "entity_id": "PE",
+          "name_ja": "ペルー",
+          "total": 3182,
+          "long_term": 491,
+          "permanent": 2691
+        },
+        {
+          "entity_id": "BO",
+          "name_ja": "ボリビア",
+          "total": 2735,
+          "long_term": 115,
+          "permanent": 2620
+        },
+        {
+          "entity_id": "CL",
+          "name_ja": "チリ",
+          "total": 1632,
+          "long_term": 1017,
+          "permanent": 615
+        },
+        {
+          "entity_id": "CO",
+          "name_ja": "コロンビア",
+          "total": 1212,
+          "long_term": 445,
+          "permanent": 767
+        },
+        {
+          "entity_id": "UY",
+          "name_ja": "ウルグアイ",
+          "total": 312,
+          "long_term": 67,
+          "permanent": 245
+        },
+        {
+          "entity_id": "EC",
+          "name_ja": "エクアドル",
+          "total": 301,
+          "long_term": 161,
+          "permanent": 140
+        },
+        {
+          "entity_id": "VE",
+          "name_ja": "ベネズエラ",
+          "total": 198,
+          "long_term": 20,
+          "permanent": 178
+        },
+        {
+          "entity_id": "GY",
+          "name_ja": "ガイアナ",
+          "total": 10,
+          "long_term": 5,
+          "permanent": 5
+        },
+        {
+          "entity_id": "SR",
+          "name_ja": "スリナム",
+          "total": 7,
+          "long_term": 6,
+          "permanent": 1
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "region_ja": "Ⅳ　中米",
+      "total": 13793,
+      "long_term": 10084,
+      "permanent": 3709,
+      "country_region_count": 21,
+      "items": [
+        {
+          "entity_id": "MX",
+          "name_ja": "メキシコ",
+          "total": 11390,
+          "long_term": 8737,
+          "permanent": 2653
+        },
+        {
+          "entity_id": "DO",
+          "name_ja": "ドミニカ共和国",
+          "total": 735,
+          "long_term": 170,
+          "permanent": 565
+        },
+        {
+          "entity_id": "CR",
+          "name_ja": "コスタリカ",
+          "total": 352,
+          "long_term": 236,
+          "permanent": 116
+        },
+        {
+          "entity_id": "PA",
+          "name_ja": "パナマ",
+          "total": 306,
+          "long_term": 255,
+          "permanent": 51
+        },
+        {
+          "entity_id": "GT",
+          "name_ja": "グアテマラ",
+          "total": 248,
+          "long_term": 128,
+          "permanent": 120
+        },
+        {
+          "entity_id": "JM",
+          "name_ja": "ジャマイカ",
+          "total": 182,
+          "long_term": 155,
+          "permanent": 27
+        },
+        {
+          "entity_id": "HN",
+          "name_ja": "ホンジュラス",
+          "total": 138,
+          "long_term": 86,
+          "permanent": 52
+        },
+        {
+          "entity_id": "SV",
+          "name_ja": "エルサルバドル",
+          "total": 115,
+          "long_term": 60,
+          "permanent": 55
+        },
+        {
+          "entity_id": "NI",
+          "name_ja": "ニカラグア",
+          "total": 81,
+          "long_term": 79,
+          "permanent": 2
+        },
+        {
+          "entity_id": "CU",
+          "name_ja": "キューバ",
+          "total": 73,
+          "long_term": 52,
+          "permanent": 21
+        },
+        {
+          "entity_id": "TT",
+          "name_ja": "トリニダード・トバゴ",
+          "total": 42,
+          "long_term": 32,
+          "permanent": 10
+        },
+        {
+          "entity_id": "BZ",
+          "name_ja": "ベリーズ",
+          "total": 38,
+          "long_term": 31,
+          "permanent": 7
+        },
+        {
+          "entity_id": "HT",
+          "name_ja": "ハイチ",
+          "total": 31,
+          "long_term": 22,
+          "permanent": 9
+        },
+        {
+          "entity_id": "BS",
+          "name_ja": "バハマ",
+          "total": 26,
+          "long_term": 18,
+          "permanent": 8
+        },
+        {
+          "entity_id": "BB",
+          "name_ja": "バルバドス",
+          "total": 19,
+          "long_term": 16,
+          "permanent": 3
+        },
+        {
+          "entity_id": "LC",
+          "name_ja": "セントルシア",
+          "total": 10,
+          "long_term": 7,
+          "permanent": 3
+        },
+        {
+          "entity_id": "AG",
+          "name_ja": "アンティグア・バーブーダ",
+          "total": 5,
+          "long_term": 0,
+          "permanent": 5
+        },
+        {
+          "entity_id": "GD",
+          "name_ja": "グレナダ",
+          "total": 1,
+          "long_term": 0,
+          "permanent": 1
+        },
+        {
+          "entity_id": "VC",
+          "name_ja": "セントビンセント及びグレナディーン諸島",
+          "total": 1,
+          "long_term": 0,
+          "permanent": 1
+        },
+        {
+          "entity_id": "DM",
+          "name_ja": "ドミニカ国",
+          "total": 0,
+          "long_term": 0,
+          "permanent": 0
+        },
+        {
+          "entity_id": "KN",
+          "name_ja": "セントクリストファー・ネーヴィス",
+          "total": 0,
+          "long_term": 0,
+          "permanent": 0
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "region_ja": "Ⅶ　東欧・旧ソ連",
+      "total": 11185,
+      "long_term": 9464,
+      "permanent": 1721,
+      "country_region_count": 25,
+      "items": [
+        {
+          "entity_id": "CZ",
+          "name_ja": "チェコ",
+          "total": 2564,
+          "long_term": 2160,
+          "permanent": 404
+        },
+        {
+          "entity_id": "RU",
+          "name_ja": "ロシア",
+          "total": 2202,
+          "long_term": 2089,
+          "permanent": 113
+        },
+        {
+          "entity_id": "PL",
+          "name_ja": "ポーランド",
+          "total": 2012,
+          "long_term": 1634,
+          "permanent": 378
+        },
+        {
+          "entity_id": "HU",
+          "name_ja": "ハンガリー",
+          "total": 1969,
+          "long_term": 1597,
+          "permanent": 372
+        },
+        {
+          "entity_id": "RO",
+          "name_ja": "ルーマニア",
+          "total": 369,
+          "long_term": 340,
+          "permanent": 29
+        },
+        {
+          "entity_id": "SK",
+          "name_ja": "スロバキア",
+          "total": 278,
+          "long_term": 191,
+          "permanent": 87
+        },
+        {
+          "entity_id": "UA",
+          "name_ja": "ウクライナ",
+          "total": 240,
+          "long_term": 204,
+          "permanent": 36
+        },
+        {
+          "entity_id": "RS",
+          "name_ja": "セルビア",
+          "total": 190,
+          "long_term": 151,
+          "permanent": 39
+        },
+        {
+          "entity_id": "BG",
+          "name_ja": "ブルガリア",
+          "total": 180,
+          "long_term": 143,
+          "permanent": 37
+        },
+        {
+          "entity_id": "HR",
+          "name_ja": "クロアチア",
+          "total": 166,
+          "long_term": 81,
+          "permanent": 85
+        },
+        {
+          "entity_id": "SI",
+          "name_ja": "スロベニア",
+          "total": 156,
+          "long_term": 79,
+          "permanent": 77
+        },
+        {
+          "entity_id": "GE",
+          "name_ja": "ジョージア",
+          "total": 135,
+          "long_term": 130,
+          "permanent": 5
+        },
+        {
+          "entity_id": "UZ",
+          "name_ja": "ウズベキスタン",
+          "total": 133,
+          "long_term": 132,
+          "permanent": 1
+        },
+        {
+          "entity_id": "KG",
+          "name_ja": "キルギス",
+          "total": 132,
+          "long_term": 122,
+          "permanent": 10
+        },
+        {
+          "entity_id": "KZ",
+          "name_ja": "カザフスタン",
+          "total": 121,
+          "long_term": 110,
+          "permanent": 11
+        },
+        {
+          "entity_id": "BY",
+          "name_ja": "ベラルーシ",
+          "total": 79,
+          "long_term": 60,
+          "permanent": 19
+        },
+        {
+          "entity_id": "TJ",
+          "name_ja": "タジキスタン",
+          "total": 41,
+          "long_term": 41,
+          "permanent": 0
+        },
+        {
+          "entity_id": "BA",
+          "name_ja": "ボスニア・ヘルツェゴビナ",
+          "total": 32,
+          "long_term": 30,
+          "permanent": 2
+        },
+        {
+          "entity_id": "TM",
+          "name_ja": "トルクメニスタン",
+          "total": 32,
+          "long_term": 32,
+          "permanent": 0
+        },
+        {
+          "entity_id": "AM",
+          "name_ja": "アルメニア",
+          "total": 31,
+          "long_term": 30,
+          "permanent": 1
+        },
+        {
+          "entity_id": "AZ",
+          "name_ja": "アゼルバイジャン",
+          "total": 29,
+          "long_term": 29,
+          "permanent": 0
+        },
+        {
+          "entity_id": "MD",
+          "name_ja": "モルドバ",
+          "total": 26,
+          "long_term": 22,
+          "permanent": 4
+        },
+        {
+          "entity_id": "MK",
+          "name_ja": "北マケドニア",
+          "total": 26,
+          "long_term": 18,
+          "permanent": 8
+        },
+        {
+          "entity_id": "AL",
+          "name_ja": "アルバニア",
+          "total": 25,
+          "long_term": 22,
+          "permanent": 3
+        },
+        {
+          "entity_id": "ME",
+          "name_ja": "モンテネグロ",
+          "total": 17,
+          "long_term": 17,
+          "permanent": 0
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "region_ja": "Ⅷ　中東",
+      "total": 8610,
+      "long_term": 7329,
+      "permanent": 1281,
+      "country_region_count": 11,
+      "items": [
+        {
+          "entity_id": "AE",
+          "name_ja": "アラブ首長国連邦",
+          "total": 4428,
+          "long_term": 4313,
+          "permanent": 115
+        },
+        {
+          "entity_id": "TR",
+          "name_ja": "トルコ",
+          "total": 1727,
+          "long_term": 1022,
+          "permanent": 705
+        },
+        {
+          "entity_id": "SA",
+          "name_ja": "サウジアラビア",
+          "total": 635,
+          "long_term": 591,
+          "permanent": 44
+        },
+        {
+          "entity_id": "QA",
+          "name_ja": "カタール",
+          "total": 578,
+          "long_term": 577,
+          "permanent": 1
+        },
+        {
+          "entity_id": "IR",
+          "name_ja": "イラン",
+          "total": 440,
+          "long_term": 124,
+          "permanent": 316
+        },
+        {
+          "entity_id": "JO",
+          "name_ja": "ヨルダン",
+          "total": 252,
+          "long_term": 239,
+          "permanent": 13
+        },
+        {
+          "entity_id": "BH",
+          "name_ja": "バーレーン",
+          "total": 168,
+          "long_term": 161,
+          "permanent": 7
+        },
+        {
+          "entity_id": "KW",
+          "name_ja": "クウェート",
+          "total": 153,
+          "long_term": 84,
+          "permanent": 69
+        },
+        {
+          "entity_id": "OM",
+          "name_ja": "オマーン",
+          "total": 127,
+          "long_term": 127,
+          "permanent": 0
+        },
+        {
+          "entity_id": "LB",
+          "name_ja": "レバノン",
+          "total": 95,
+          "long_term": 87,
+          "permanent": 8
+        },
+        {
+          "entity_id": "YE",
+          "name_ja": "イエメン",
+          "total": 7,
+          "long_term": 4,
+          "permanent": 3
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "region_ja": "Ⅸ　アフリカ",
+      "total": 6075,
+      "long_term": 5283,
+      "permanent": 792,
+      "country_region_count": 54,
+      "items": [
+        {
+          "entity_id": "ZA",
+          "name_ja": "南アフリカ",
+          "total": 1112,
+          "long_term": 868,
+          "permanent": 244
+        },
+        {
+          "entity_id": "EG",
+          "name_ja": "エジプト",
+          "total": 719,
+          "long_term": 487,
+          "permanent": 232
+        },
+        {
+          "entity_id": "KE",
+          "name_ja": "ケニア",
+          "total": 674,
+          "long_term": 631,
+          "permanent": 43
+        },
+        {
+          "entity_id": "MA",
+          "name_ja": "モロッコ",
+          "total": 355,
+          "long_term": 295,
+          "permanent": 60
+        },
+        {
+          "entity_id": "GH",
+          "name_ja": "ガーナ",
+          "total": 267,
+          "long_term": 235,
+          "permanent": 32
+        },
+        {
+          "entity_id": "UG",
+          "name_ja": "ウガンダ",
+          "total": 204,
+          "long_term": 175,
+          "permanent": 29
+        },
+        {
+          "entity_id": "TZ",
+          "name_ja": "タンザニア",
+          "total": 195,
+          "long_term": 195,
+          "permanent": 0
+        },
+        {
+          "entity_id": "SN",
+          "name_ja": "セネガル",
+          "total": 191,
+          "long_term": 191,
+          "permanent": 0
+        },
+        {
+          "entity_id": "ET",
+          "name_ja": "エチオピア",
+          "total": 178,
+          "long_term": 173,
+          "permanent": 5
+        },
+        {
+          "entity_id": "TN",
+          "name_ja": "チュニジア",
+          "total": 174,
+          "long_term": 174,
+          "permanent": 0
+        },
+        {
+          "entity_id": "CI",
+          "name_ja": "コートジボワール",
+          "total": 156,
+          "long_term": 145,
+          "permanent": 11
+        },
+        {
+          "entity_id": "NG",
+          "name_ja": "ナイジェリア",
+          "total": 148,
+          "long_term": 126,
+          "permanent": 22
+        },
+        {
+          "entity_id": "MG",
+          "name_ja": "マダガスカル",
+          "total": 138,
+          "long_term": 132,
+          "permanent": 6
+        },
+        {
+          "entity_id": "ZM",
+          "name_ja": "ザンビア",
+          "total": 137,
+          "long_term": 134,
+          "permanent": 3
+        },
+        {
+          "entity_id": "RW",
+          "name_ja": "ルワンダ",
+          "total": 135,
+          "long_term": 135,
+          "permanent": 0
+        },
+        {
+          "entity_id": "MZ",
+          "name_ja": "モザンビーク",
+          "total": 123,
+          "long_term": 119,
+          "permanent": 4
+        },
+        {
+          "entity_id": "SD",
+          "name_ja": "スーダン",
+          "total": 101,
+          "long_term": 100,
+          "permanent": 1
+        },
+        {
+          "entity_id": "MW",
+          "name_ja": "マラウイ",
+          "total": 99,
+          "long_term": 89,
+          "permanent": 10
+        },
+        {
+          "entity_id": "ZW",
+          "name_ja": "ジンバブエ",
+          "total": 78,
+          "long_term": 74,
+          "permanent": 4
+        },
+        {
+          "entity_id": "CD",
+          "name_ja": "コンゴ民主共和国",
+          "total": 75,
+          "long_term": 64,
+          "permanent": 11
+        },
+        {
+          "entity_id": "DZ",
+          "name_ja": "アルジェリア",
+          "total": 71,
+          "long_term": 65,
+          "permanent": 6
+        },
+        {
+          "entity_id": "MU",
+          "name_ja": "モーリシャス",
+          "total": 66,
+          "long_term": 50,
+          "permanent": 16
+        },
+        {
+          "entity_id": "GA",
+          "name_ja": "ガボン",
+          "total": 61,
+          "long_term": 54,
+          "permanent": 7
+        },
+        {
+          "entity_id": "SS",
+          "name_ja": "南スーダン",
+          "total": 60,
+          "long_term": 60,
+          "permanent": 0
+        },
+        {
+          "entity_id": "CM",
+          "name_ja": "カメルーン",
+          "total": 56,
+          "long_term": 56,
+          "permanent": 0
+        },
+        {
+          "entity_id": "GN",
+          "name_ja": "ギニア",
+          "total": 55,
+          "long_term": 55,
+          "permanent": 0
+        },
+        {
+          "entity_id": "BF",
+          "name_ja": "ブルキナファソ",
+          "total": 52,
+          "long_term": 51,
+          "permanent": 1
+        },
+        {
+          "entity_id": "NA",
+          "name_ja": "ナミビア",
+          "total": 46,
+          "long_term": 39,
+          "permanent": 7
+        },
+        {
+          "entity_id": "DJ",
+          "name_ja": "ジブチ",
+          "total": 44,
+          "long_term": 44,
+          "permanent": 0
+        },
+        {
+          "entity_id": "BW",
+          "name_ja": "ボツワナ",
+          "total": 43,
+          "long_term": 43,
+          "permanent": 0
+        },
+        {
+          "entity_id": "BJ",
+          "name_ja": "ベナン",
+          "total": 31,
+          "long_term": 30,
+          "permanent": 1
+        },
+        {
+          "entity_id": "AO",
+          "name_ja": "アンゴラ",
+          "total": 30,
+          "long_term": 30,
+          "permanent": 0
+        },
+        {
+          "entity_id": "SL",
+          "name_ja": "シエラレオネ",
+          "total": 30,
+          "long_term": 26,
+          "permanent": 4
+        },
+        {
+          "entity_id": "ML",
+          "name_ja": "マリ",
+          "total": 21,
+          "long_term": 21,
+          "permanent": 0
+        },
+        {
+          "entity_id": "MR",
+          "name_ja": "モーリタニア",
+          "total": 18,
+          "long_term": 18,
+          "permanent": 0
+        },
+        {
+          "entity_id": "SC",
+          "name_ja": "セーシェル",
+          "total": 18,
+          "long_term": 15,
+          "permanent": 3
+        },
+        {
+          "entity_id": "LY",
+          "name_ja": "リビア",
+          "total": 14,
+          "long_term": 0,
+          "permanent": 14
+        },
+        {
+          "entity_id": "NE",
+          "name_ja": "ニジェール",
+          "total": 12,
+          "long_term": 12,
+          "permanent": 0
+        },
+        {
+          "entity_id": "SZ",
+          "name_ja": "エスワティニ",
+          "total": 12,
+          "long_term": 1,
+          "permanent": 11
+        },
+        {
+          "entity_id": "GQ",
+          "name_ja": "赤道ギニア",
+          "total": 11,
+          "long_term": 11,
+          "permanent": 0
+        },
+        {
+          "entity_id": "BI",
+          "name_ja": "ブルンジ",
+          "total": 10,
+          "long_term": 10,
+          "permanent": 0
+        },
+        {
+          "entity_id": "LS",
+          "name_ja": "レソト",
+          "total": 9,
+          "long_term": 5,
+          "permanent": 4
+        },
+        {
+          "entity_id": "CG",
+          "name_ja": "コンゴ共和国",
+          "total": 8,
+          "long_term": 7,
+          "permanent": 1
+        },
+        {
+          "entity_id": "LR",
+          "name_ja": "リベリア",
+          "total": 8,
+          "long_term": 8,
+          "permanent": 0
+        },
+        {
+          "entity_id": "GM",
+          "name_ja": "ガンビア",
+          "total": 6,
+          "long_term": 6,
+          "permanent": 0
+        },
+        {
+          "entity_id": "TD",
+          "name_ja": "チャド",
+          "total": 6,
+          "long_term": 6,
+          "permanent": 0
+        },
+        {
+          "entity_id": "SO",
+          "name_ja": "ソマリア",
+          "total": 5,
+          "long_term": 5,
+          "permanent": 0
+        },
+        {
+          "entity_id": "KM",
+          "name_ja": "コモロ",
+          "total": 4,
+          "long_term": 4,
+          "permanent": 0
+        },
+        {
+          "entity_id": "CF",
+          "name_ja": "中央アフリカ共和国",
+          "total": 3,
+          "long_term": 3,
+          "permanent": 0
+        },
+        {
+          "entity_id": "CV",
+          "name_ja": "カーボベルデ",
+          "total": 3,
+          "long_term": 3,
+          "permanent": 0
+        },
+        {
+          "entity_id": "TG",
+          "name_ja": "トーゴ",
+          "total": 3,
+          "long_term": 3,
+          "permanent": 0
+        },
+        {
+          "entity_id": "ER",
+          "name_ja": "エリトリア",
+          "total": 0,
+          "long_term": 0,
+          "permanent": 0
+        },
+        {
+          "entity_id": "GW",
+          "name_ja": "ギニアビサウ",
+          "total": 0,
+          "long_term": 0,
+          "permanent": 0
+        },
+        {
+          "entity_id": "ST",
+          "name_ja": "サントメ・プリンシペ",
+          "total": 0,
+          "long_term": 0,
+          "permanent": 0
+        }
+      ],
+      "rank": 9
+    }
+  ]
+}
