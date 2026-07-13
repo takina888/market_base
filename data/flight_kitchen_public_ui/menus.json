@@ -1,0 +1,1167 @@
+[
+  {
+    "menu_id": "MENU_000001",
+    "company_id": "COM_000005",
+    "facility_id": [
+      "FAC_000007",
+      "FAC_000008"
+    ],
+    "airline_id": "AIRL_000005",
+    "country_region": "Japan",
+    "airport_code": [
+      "NRT",
+      "HND"
+    ],
+    "menu_scope": "international_inflight_meals",
+    "service_class_or_channel": "international_flights",
+    "menu_category": "class_route_varied_menu",
+    "menu_examples": "seasonal menus; menus by flight class and route; Japanese and global ingredients",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "seasonal;Japan_origin_ingredients;global_ingredients",
+    "route_or_departure_scope": "Japan departure / JAL international flights",
+    "seasonal": true
+  },
+  {
+    "menu_id": "MENU_000002",
+    "company_id": "COM_000005",
+    "facility_id": [
+      "FAC_000007",
+      "FAC_000008"
+    ],
+    "airline_id": "AIRL_000005",
+    "country_region": "Japan",
+    "airport_code": [
+      "NRT",
+      "HND"
+    ],
+    "menu_scope": "special_meals",
+    "service_class_or_channel": "international_flights",
+    "menu_category": "health_religious_child_infant_special_meals",
+    "menu_examples": "hypoallergenic meals; health or religious dietary meals; infant and child meals",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "dietary;religious;child_infant",
+    "route_or_departure_scope": "flights departing Japan Haneda/Narita according to sample menu source",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000003",
+    "company_id": "COM_000006",
+    "facility_id": [
+      "FAC_000009",
+      "FAC_000010"
+    ],
+    "airline_id": "AIRL_000006",
+    "country_region": "Japan",
+    "airport_code": [
+      "HND",
+      "NRT"
+    ],
+    "menu_scope": "inflight_meals",
+    "service_class_or_channel": "international_and_domestic_scope_needs_route_check",
+    "menu_category": "japanese_western_pastry",
+    "menu_examples": "Japanese cuisine; Western cuisine; pastries; high-quality inflight meals",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Japanese;Western;pastry",
+    "route_or_departure_scope": "Haneda and Narita facilities",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000004",
+    "company_id": "COM_000006",
+    "facility_id": [
+      "FAC_000009",
+      "FAC_000010"
+    ],
+    "airline_id": "AIRL_000006",
+    "country_region": "Japan",
+    "airport_code": [
+      "HND",
+      "NRT"
+    ],
+    "menu_scope": "airline_menu_item",
+    "service_class_or_channel": "economy_class_reference",
+    "menu_category": "bread",
+    "menu_examples": "ANA original bread supervised by CONNOISSEURS member and ANA pastry chef Noriaki Aida",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "bread;bakery",
+    "route_or_departure_scope": "ANA flights departing Haneda and Narita",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000005",
+    "company_id": "COM_000007",
+    "facility_id": [
+      "FAC_000011"
+    ],
+    "airline_id": "AIRL_000007",
+    "country_region": "South Korea",
+    "airport_code": [
+      "ICN"
+    ],
+    "menu_scope": "menu_production_repertoire",
+    "service_class_or_channel": "airline_catering;charter_catering",
+    "menu_category": "multi_cuisine_special_meals",
+    "menu_examples": "1,800+ menu types; K-Food; Western; Chinese; Japanese; religious meals; HALAL; health meals",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "K-Food;Western;Chinese;Japanese;religious;HALAL;health",
+    "route_or_departure_scope": "domestic and overseas departure catering support stated by company",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000006",
+    "company_id": "COM_000007",
+    "facility_id": [
+      "FAC_000011"
+    ],
+    "airline_id": "AIRL_000007",
+    "country_region": "South Korea",
+    "airport_code": [
+      "ICN"
+    ],
+    "menu_scope": "airline_menu_examples",
+    "service_class_or_channel": "economy_class_reference",
+    "menu_category": "korean_dishes_snacks_wine",
+    "menu_examples": "bibimbap; ssambap; acorn jelly and rice; stir-fried octopus over rice; sandwiches; curated wine",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Korean;snack;wine",
+    "route_or_departure_scope": "Korean Air economy class reference",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000007",
+    "company_id": "COM_000009",
+    "facility_id": [
+      "FAC_000013"
+    ],
+    "airline_id": "AIRL_000008",
+    "country_region": "China",
+    "airport_code": [
+      "PEK"
+    ],
+    "menu_scope": "airline_menu_examples",
+    "service_class_or_channel": "economy_class_reference",
+    "menu_category": "main_courses_breakfast_snacks",
+    "menu_examples": "breakfast appetizers; hot porridge; meat; chicken; seafood; rice or noodles; Chinese baked cake; western sandwiches; hamburgers; yogurt; fruits",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Chinese;Western;rice_noodles;snack",
+    "route_or_departure_scope": "Air China economy class; offerings differ by route and season",
+    "seasonal": true
+  },
+  {
+    "menu_id": "MENU_000008",
+    "company_id": "COM_000011",
+    "facility_id": [
+      "FAC_000016",
+      "FAC_000019"
+    ],
+    "country_region": "Thailand",
+    "airport_code": [
+      "BKK",
+      "HKT"
+    ],
+    "menu_scope": "vip_private_jet_menu",
+    "service_class_or_channel": "VIP_private_jet",
+    "menu_category": "multi_cuisine_luxury_menu",
+    "menu_examples": "hot and cold breakfasts; Asian; Indian; Western styles; soups; salads; mezze; appetizers; Thai; Arabic; Indian; European main courses; hot and cold desserts; caviar; foie gras terrine; lobster thermidor; juices; smoothies; snacks; wraps; sandwiches",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Asian;Indian;Western;Thai;Arabic;European;luxury",
+    "route_or_departure_scope": "VIP and private jet passengers",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000009",
+    "company_id": "COM_000011",
+    "facility_id": [
+      "FAC_000016",
+      "FAC_000019"
+    ],
+    "country_region": "Thailand",
+    "airport_code": [
+      "BKK",
+      "HKT"
+    ],
+    "menu_scope": "special_meal_product",
+    "service_class_or_channel": "airline_catering",
+    "menu_category": "kosher_meal_box",
+    "menu_examples": "kosher meal box; Asian; Mediterranean; Western menu selections",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Kosher;Asian;Mediterranean;Western",
+    "route_or_departure_scope": "airline catering customers",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000010",
+    "company_id": "COM_000015",
+    "facility_id": [
+      "FAC_000027"
+    ],
+    "country_region": "Malaysia",
+    "airport_code": [
+      "KUL"
+    ],
+    "menu_scope": "halal_inflight_catering",
+    "service_class_or_channel": "international_airlines",
+    "menu_category": "halal_airline_meals",
+    "menu_examples": "halal in-flight meals for international airline customers",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Halal",
+    "route_or_departure_scope": "KLIA and Penang service reference",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000011",
+    "company_id": "COM_000018",
+    "facility_id": [
+      "FAC_000031"
+    ],
+    "airline_id": "AIRL_000015",
+    "country_region": "Philippines",
+    "airport_code": [
+      "MNL"
+    ],
+    "menu_scope": "special_meals_and_upgrade_menus",
+    "service_class_or_channel": "PAL_international_domestic",
+    "menu_category": "japanese_halal_special_meals",
+    "menu_examples": "Japanese kitchen; Halal kitchen; special meals; meal upgrade menus within 48 hours",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Japanese;Halal;special_meals",
+    "route_or_departure_scope": "Philippine Airlines international and domestic flights",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000012",
+    "company_id": "COM_000020",
+    "facility_id": [
+      "FAC_000033"
+    ],
+    "airline_id": "AIRL_000018",
+    "country_region": "Qatar",
+    "airport_code": [
+      "DOH"
+    ],
+    "menu_scope": "catering_company_capability",
+    "service_class_or_channel": "all_classes",
+    "menu_category": "international_cuisines",
+    "menu_examples": "60 international cuisines; special meals",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "global; halal-region operations",
+    "route_or_departure_scope": "Doha / Hamad International Airport",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000013",
+    "company_id": "COM_000019",
+    "facility_id": [
+      "FAC_000032"
+    ],
+    "airline_id": "AIRL_000017",
+    "country_region": "United Arab Emirates",
+    "airport_code": [
+      "DXB"
+    ],
+    "menu_scope": "catering_company_capability",
+    "service_class_or_channel": "all_classes",
+    "menu_category": "inflight_meal_scale",
+    "menu_examples": "large-scale airline meals; halal supplier compliance framework; airport and event F&B",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "global; halal-compliance supply chain",
+    "route_or_departure_scope": "Dubai International Airport",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000014",
+    "company_id": "COM_000024",
+    "airline_id": "AIRL_000022",
+    "country_region": "Turkey",
+    "airport_code": [
+      "IST"
+    ],
+    "menu_scope": "airline_menu_evidence",
+    "service_class_or_channel": "international_business_class; all classes",
+    "menu_category": "hot_cold_meals",
+    "menu_examples": "hot/cold breakfast; hot/cold meal catering; snack service on selected flights; weekly updated business class menus",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Turkish/global",
+    "route_or_departure_scope": "Turkish Airlines international flights",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000015",
+    "company_id": "COM_000023",
+    "facility_id": [
+      "FAC_000042"
+    ],
+    "country_region": "India",
+    "airport_code": [
+      "DXN"
+    ],
+    "menu_scope": "facility_capability",
+    "service_class_or_channel": "domestic_and_international_carriers",
+    "menu_category": "inflight_meals; tasting room",
+    "menu_examples": "passenger and crew meals; curated gourmet concept development through tasting room/airline collaboration",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Indian/global airline menus",
+    "route_or_departure_scope": "Noida International Airport",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000016",
+    "company_id": "COM_000025",
+    "country_region": "Germany / Global",
+    "menu_scope": "caterer_service_capability",
+    "service_class_or_channel": "airline_catering;retail_or_partner_channel",
+    "menu_category": "full_tray_menus;premium_dining;last_mile_logistics",
+    "menu_examples": "full-tray menus;premium dining onboard;complete catering programs",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "international;premium",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000017",
+    "company_id": "COM_000027",
+    "country_region": "Switzerland / Global",
+    "menu_scope": "caterer_service_capability",
+    "service_class_or_channel": "airline_catering;retail_or_partner_channel",
+    "menu_category": "regional_airline_catering",
+    "menu_examples": "Japanese bento boxes;Indian thalis;Swiss chocolates",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "regional_cuisine;route_authenticity",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000018",
+    "company_id": "COM_000028",
+    "facility_id": [
+      "FAC_000048"
+    ],
+    "country_region": "France / Africa",
+    "airport_code": [
+      "CDG"
+    ],
+    "menu_scope": "caterer_service_capability",
+    "service_class_or_channel": "airline_catering;retail_or_partner_channel",
+    "menu_category": "onboard_catering;menu_design",
+    "menu_examples": "menu design;meal preparation;logistics delivery aboard aircraft",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "French/African network;tailor-made",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000019",
+    "company_id": "COM_000029",
+    "country_region": "France / Global",
+    "menu_scope": "caterer_service_capability",
+    "service_class_or_channel": "airline_catering;retail_or_partner_channel",
+    "menu_category": "customized_airline_meals;dietary_requests",
+    "menu_examples": "customized meals;religious dietary requests;cultural dietary requests;medical or health requests",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "religious;cultural;medical",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000020",
+    "company_id": "COM_000030",
+    "country_region": "United States",
+    "menu_scope": "caterer_service_capability",
+    "service_class_or_channel": "airline_catering;retail_or_partner_channel",
+    "menu_category": "airline_catering;retail_ready_to_eat",
+    "menu_examples": "airline meals;fresh and shelf-stable meals;ready-to-eat retail foods",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "airline;retail",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000021",
+    "company_id": "COM_000031",
+    "facility_id": [
+      "FAC_000049"
+    ],
+    "airline_id": "AIRL_000024",
+    "country_region": "Ethiopia",
+    "airport_code": [
+      "ADD"
+    ],
+    "menu_scope": "inflight_meal_menu",
+    "service_class_or_channel": "all_classes",
+    "menu_category": "ethiopian_and_world_cuisines",
+    "menu_examples": "Ethiopian national dishes; world cuisines; fresh meals; drinks; special diet options",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Ethiopian;international",
+    "route_or_departure_scope": "network / Addis Ababa hub",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000022",
+    "company_id": "COM_000032",
+    "airline_id": "AIRL_000025",
+    "country_region": "South Africa",
+    "airport_code": [
+      "JNB",
+      "CPT",
+      "DUR"
+    ],
+    "menu_scope": "inflight_and_foodservice",
+    "service_class_or_channel": "airline;corporate;events",
+    "menu_category": "multi-channel meals",
+    "menu_examples": "in-flight meals;corporate meals;event catering;ready-made meals",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "South African;international",
+    "route_or_departure_scope": "South Africa hubs",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000023",
+    "company_id": "COM_000025",
+    "airline_id": "AIRL_000026",
+    "country_region": "Brazil / Latin America",
+    "airport_code": [
+      "GRU",
+      "CGH",
+      "FOR",
+      "GIG",
+      "SDU"
+    ],
+    "menu_scope": "domestic_inflight_catering",
+    "service_class_or_channel": "domestic_flights",
+    "menu_category": "domestic airline meal service",
+    "menu_examples": "LATAM Brazil domestic catering; menu detail not specified in source",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Brazil;Latin America",
+    "route_or_departure_scope": "Brazil domestic network",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000024",
+    "airline_id": "AIRL_000026",
+    "country_region": "Latin America",
+    "airport_code": [
+      "SCL",
+      "GRU",
+      "LIM",
+      "GYE",
+      "BOG",
+      "EZE"
+    ],
+    "menu_scope": "airline_public_menu",
+    "service_class_or_channel": "premium_cabin_long_haul",
+    "menu_category": "regional_showcase_menu",
+    "menu_examples": "Sabores que Transportan; dishes from restaurants in Chile, Brazil, Peru, Ecuador, Colombia and Argentina",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "South American regional cuisines",
+    "route_or_departure_scope": "long-haul departures from South America",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000025",
+    "airline_id": "AIRL_000027",
+    "country_region": "Morocco",
+    "airport_code": [
+      "CMN"
+    ],
+    "menu_scope": "airline_public_menu",
+    "service_class_or_channel": "economy;business;special_meals",
+    "menu_category": "moroccan_african_international",
+    "menu_examples": "Moroccan;African;international meals;business a la carte;special meals for allergy or medical conditions",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Moroccan;African;international",
+    "route_or_departure_scope": "Royal Air Maroc operated flights",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000026",
+    "company_id": "COM_000033",
+    "facility_id": [
+      "FAC_000060"
+    ],
+    "country_region": "Canada",
+    "airport_code": [
+      "YYZ"
+    ],
+    "menu_scope": "caterer_capability",
+    "service_class_or_channel": "airline;train;hospitality",
+    "menu_category": "airline_train_hospitality_catering",
+    "menu_examples": "airline catering;train catering;hospitality services",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "multi-customer airline catering",
+    "route_or_departure_scope": "Toronto Pearson and related services",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000027",
+    "company_id": "COM_000034",
+    "facility_id": [
+      "FAC_000062"
+    ],
+    "airline_id": "AIRL_000030",
+    "country_region": "Finland",
+    "airport_code": [
+      "HEL"
+    ],
+    "menu_scope": "caterer_and_airline_menu",
+    "service_class_or_channel": "Finnair flights;other airlines",
+    "menu_category": "nordic_onboard_meals;special_meals",
+    "menu_examples": "modern Nordic experience;long-haul meals;business class menus;short-haul meals;pre-order meals;special diets and food allergies",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Nordic;destination-inspired",
+    "route_or_departure_scope": "Helsinki departures and Finnair onboard service",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000028",
+    "company_id": "COM_000035",
+    "facility_id": [
+      "FAC_000063",
+      "FAC_000064"
+    ],
+    "country_region": "United States",
+    "airport_code": [
+      "LAX",
+      "MEM"
+    ],
+    "menu_scope": "caterer_capability",
+    "service_class_or_channel": "commercial;cargo;large_charter",
+    "menu_category": "split_catering;food_beverage_provisioning",
+    "menu_examples": "commercial inflight food and beverage;cargo flight catering;large charter catering;total chill chain provisioning",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "airline customer dependent",
+    "route_or_departure_scope": "LAX;Southern California;Memphis",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000029",
+    "company_id": "COM_000036",
+    "facility_id": [
+      "FAC_000065"
+    ],
+    "country_region": "Kazakhstan",
+    "airport_code": [
+      "ALA"
+    ],
+    "menu_scope": "caterer_capability",
+    "service_class_or_channel": "airline;vip",
+    "menu_category": "premium_airline_catering",
+    "menu_examples": "premium airline meals;VIP catering;custom meals",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "airline customer dependent",
+    "route_or_departure_scope": "Almaty airport departures",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000030",
+    "airline_id": "AIRL_000028",
+    "country_region": "Canada",
+    "airport_code": [
+      "Canada routes"
+    ],
+    "menu_scope": "airline_public_menu",
+    "service_class_or_channel": "economy;buy_on_board",
+    "menu_category": "bistro_meals_snacks",
+    "menu_examples": "breakfast options;hot or cold meals;snacks;Lavazza coffee;tea;juice",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "North America buy-on-board",
+    "route_or_departure_scope": "North America and Caribbean economy flights",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000031",
+    "company_id": "COM_000037",
+    "facility_id": [
+      "FAC_000066"
+    ],
+    "airline_id": "AIRL_000032",
+    "country_region": "Taiwan",
+    "airport_code": [
+      "TPE"
+    ],
+    "menu_scope": "caterer_capability",
+    "service_class_or_channel": "airline",
+    "menu_category": "aircraft_meals",
+    "menu_examples": "safe and delicious aircraft meals",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "airline customer dependent",
+    "route_or_departure_scope": "Taoyuan departures context",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000032",
+    "airline_id": "AIRL_000001",
+    "country_region": "Taiwan",
+    "airport_code": [
+      "TPE"
+    ],
+    "menu_scope": "airline_public_menu",
+    "service_class_or_channel": "all cabin classes;business;premium business;economy",
+    "menu_category": "restaurant_collaboration;plant_based;Taiwanese;Japanese",
+    "menu_examples": "Da-Wan Yakiniku;T+T contemporary Asian cuisine;Little Tree Food plant-based cuisine;MOONMOON FOOD Taiwanese dishes;MIPON classic Taiwanese cuisine;Le Palais private cuisine;TOUTOUAN Japanese kaiseki;Yang Ming Spring plant-based cuisine",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Taiwanese;Japanese;plant-based;Michelin collaboration",
+    "route_or_departure_scope": "China Airlines routes / Taiwan departure context",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000033",
+    "company_id": "COM_000039",
+    "facility_id": [
+      "FAC_000068"
+    ],
+    "airline_id": "AIRL_000036",
+    "country_region": "Japan",
+    "airport_code": [
+      "NRT"
+    ],
+    "menu_scope": "caterer_capability",
+    "service_class_or_channel": "international flights",
+    "menu_category": "inflight_meal_preparation_loading",
+    "menu_examples": "in-flight meal preparation;loading",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "airline customer dependent",
+    "route_or_departure_scope": "Narita / Haneda departures",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000034",
+    "airline_id": "AIRL_000036",
+    "country_region": "Japan",
+    "airport_code": [
+      "Japan international routes"
+    ],
+    "menu_scope": "airline_public_menu",
+    "service_class_or_channel": "business class",
+    "menu_category": "inflight_dining",
+    "menu_examples": "Business Class meals;beverages;class-specific dining",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Japanese / international route menu context",
+    "route_or_departure_scope": "JAL international flights",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000035",
+    "company_id": "COM_000041",
+    "facility_id": [
+      "FAC_000073"
+    ],
+    "airline_id": "AIRL_000034",
+    "country_region": "China",
+    "airport_code": [
+      "PVG"
+    ],
+    "menu_scope": "caterer_capability",
+    "service_class_or_channel": "airline;train;hospitality",
+    "menu_category": "airline_catering;train_catering;hospitality",
+    "menu_examples": "airline catering;train catering;hospitality services",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "customer dependent",
+    "route_or_departure_scope": "Shanghai Pudong",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000036",
+    "company_id": "COM_000042",
+    "facility_id": [
+      "FAC_000074"
+    ],
+    "airline_id": "AIRL_000035",
+    "country_region": "China",
+    "airport_code": [
+      "CAN"
+    ],
+    "menu_scope": "caterer_capability",
+    "service_class_or_channel": "airline",
+    "menu_category": "Cantonese;Western;specialty_meals",
+    "menu_examples": "flavorful prepared meals;Cantonese cuisine;Western cuisine;Chinese meals",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Cantonese;Chinese;Western",
+    "route_or_departure_scope": "China Southern / Guangzhou context",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000038",
+    "airline_id": "AIRL_000033",
+    "country_region": "Hong Kong",
+    "airport_code": [
+      "HKG"
+    ],
+    "menu_scope": "airline_public_menu",
+    "service_class_or_channel": "business;economy;special meals",
+    "menu_category": "Hong Kong local flavor;light meal;wellness feast;special meals",
+    "menu_examples": "Inflight Light Meal;Hong Kong flavor meals;Wellness Feast;health and religious special meals",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Hong Kong local;wellness;religious/medical special meals",
+    "route_or_departure_scope": "Hong Kong Airlines routes",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000040",
+    "company_id": "COM_000045",
+    "facility_id": [
+      "FAC_000078"
+    ],
+    "airline_id": "AIRL_000038",
+    "country_region": "Egypt",
+    "airport_code": [
+      "CAI"
+    ],
+    "menu_scope": "airline_public_special_meals",
+    "service_class_or_channel": "airline_public_menu",
+    "menu_category": "special meals;medical meals;religious meals;child meals;vegetarian meals",
+    "menu_examples": "low cholesterol/low fat meal;infant meals;toddler meals;vegetarian meals;seafood meal;Hindu meal",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "special meal categories",
+    "route_or_departure_scope": "EgyptAir operated flights",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000041",
+    "airline_id": "AIRL_000027",
+    "country_region": "Morocco",
+    "airport_code": [
+      "CMN"
+    ],
+    "menu_scope": "airline_public_menu",
+    "service_class_or_channel": "airline_public_menu",
+    "menu_category": "economy;business;special meals",
+    "menu_examples": "Moroccan cuisine;international cuisine;à la carte service;hot meal;snack;special meals",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Moroccan;international",
+    "route_or_departure_scope": "Royal Air Maroc flights",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000042",
+    "company_id": "COM_000046",
+    "facility_id": [
+      "FAC_000079"
+    ],
+    "airline_id": "AIRL_000039",
+    "country_region": "Sri Lanka",
+    "airport_code": [
+      "CMB"
+    ],
+    "menu_scope": "airline_catering_menu_scope",
+    "service_class_or_channel": "airline_catering",
+    "menu_category": "inflight meals;VIP/private jet food and beverage context",
+    "menu_examples": "inflight meals;food and beverages;VIP/private jet catering context",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Sri Lankan and international meal production context",
+    "route_or_departure_scope": "BIA and related operations",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000043",
+    "company_id": "COM_000047",
+    "facility_id": [
+      "FAC_000080"
+    ],
+    "airline_id": "AIRL_000040",
+    "country_region": "Brunei",
+    "airport_code": [
+      "BWN"
+    ],
+    "menu_scope": "airline_public_special_meals",
+    "service_class_or_channel": "airline_public_menu",
+    "menu_category": "halal meals;special meals;allergy precautions",
+    "menu_examples": "all meals halal;special meals for dietary needs;24-hour request rule",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "halal;special meal categories",
+    "route_or_departure_scope": "Royal Brunei Airlines flights",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000046",
+    "company_id": "COM_000049",
+    "facility_id": [
+      "FAC_000082"
+    ],
+    "airline_id": "AIRL_000041",
+    "country_region": "Singapore",
+    "airport_code": [
+      "SIN"
+    ],
+    "menu_scope": "airline_contract_menu_evidence",
+    "service_class_or_channel": "business_and_economy",
+    "menu_category": "inflight_meal",
+    "menu_examples": "Air Macau Singapore operation business and economy meals",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Macau / Changi departure context",
+    "route_or_departure_scope": "Singapore Changi departure / Air Macau daily operations",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000049",
+    "airline_id": "AIRL_000042",
+    "country_region": "Laos",
+    "airport_code": [
+      "VTE"
+    ],
+    "menu_scope": "airline_menu_evidence",
+    "service_class_or_channel": "domestic_and_international",
+    "menu_category": "snacks_or_meals",
+    "menu_examples": "complimentary snacks or meals;drinks;vegetarian meals upon request",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Laos / Vientiane departure context",
+    "route_or_departure_scope": "Lao Airlines flights",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000050",
+    "airline_id": "AIRL_000045",
+    "country_region": "China",
+    "airport_code": [
+      "XMN"
+    ],
+    "menu_scope": "airline_menu_evidence",
+    "service_class_or_channel": "passenger_flights",
+    "menu_category": "special_meals",
+    "menu_examples": "special meals for cultural customs and personal preferences; advance request",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Chinese airline / special meals",
+    "route_or_departure_scope": "Xiamen Airlines flights",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000052",
+    "company_id": "COM_000056",
+    "facility_id": [
+      "FAC_000095"
+    ],
+    "airline_id": "AIRL_000045",
+    "country_region": "China",
+    "airport_code": [
+      "XMN"
+    ],
+    "menu_scope": "airline_menu_and_kitchen_capability",
+    "service_class_or_channel": "all_cabin_preorder_selected_routes",
+    "menu_category": "Michelin_collaboration;Fujian_cuisine;creative_preorder_meals",
+    "menu_examples": "Michelin-star collaboration meals;沙茶鮑蝦泡麵;鐵觀音冷萃茶石花凍;creative economy-class pre-order meals",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Fujian / Minnan cuisine;Michelin restaurant collaboration",
+    "route_or_departure_scope": "Xiamen, Fuzhou, Quanzhou, Tianjin, Hangzhou departures and expanded non-base routes per source",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000054",
+    "company_id": "COM_000058",
+    "facility_id": [
+      "FAC_000097"
+    ],
+    "country_region": "China",
+    "airport_code": [
+      "KMG"
+    ],
+    "menu_scope": "company_scope_reference",
+    "service_class_or_channel": "airline;ground;VIP_lounge",
+    "menu_category": "airline_catering;non-air_ground_meals;VIP_lounge_catering",
+    "menu_examples": "airline meal production;non-air ground meals;VIP lounge catering",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Yunnan airport catering",
+    "route_or_departure_scope": "Kunming Changshui International Airport",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000055",
+    "company_id": "COM_000059",
+    "facility_id": [
+      "FAC_000098"
+    ],
+    "country_region": "China",
+    "airport_code": [
+      "XIY"
+    ],
+    "menu_scope": "company_scope_reference",
+    "service_class_or_channel": "airline;central_kitchen;VIP_lounge",
+    "menu_category": "airline_meals;bakery;central_kitchen;group_meal_delivery",
+    "menu_examples": "pastries;cakes;bread;noodles;sandwiches;meat sauce;salads;vegetables;airline meals;central kitchen products",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Northwest China aviation catering",
+    "route_or_departure_scope": "Xi’an Xianyang airport and second production site",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000056",
+    "company_id": "COM_000004",
+    "facility_id": [
+      "FAC_000105"
+    ],
+    "country_region": "Singapore",
+    "airport_code": [
+      "SIN"
+    ],
+    "menu_scope": "company_capability_reference",
+    "service_class_or_channel": "airline_catering;special_meals",
+    "menu_category": "international_cuisines;Asian_cuisines;special_meal_capability",
+    "menu_examples": "International cuisines;Asian cuisines;special meals;regional culinary formats",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Asian and international cuisine capability",
+    "route_or_departure_scope": "Changi / SATS network reference",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000057",
+    "company_id": "COM_000049",
+    "facility_id": [
+      "FAC_000082"
+    ],
+    "airline_id": "AIRL_000041",
+    "country_region": "Singapore",
+    "airport_code": [
+      "SIN"
+    ],
+    "menu_scope": "airline_contract_reference",
+    "service_class_or_channel": "business_and_economy",
+    "menu_category": "inflight_meals",
+    "menu_examples": "Business and economy class meals for Air Macau Singapore operations",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Air Macau / Air China Group portfolio context",
+    "route_or_departure_scope": "Singapore Changi departures",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000058",
+    "company_id": "COM_000057",
+    "facility_id": [
+      "FAC_000096"
+    ],
+    "country_region": "China",
+    "airport_code": [
+      "XMN"
+    ],
+    "menu_scope": "airline_official_menu_article",
+    "service_class_or_channel": "all_cabins;app_preorder",
+    "menu_category": "Michelin_collaboration;regional_cuisine;preorder_meal",
+    "menu_examples": "沙茶鮑蝦泡麵;鐵觀音冷萃茶石花凍;Michelin-linked Fujian cuisine items",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Fujian / Minnan cuisine;Michelin collaboration",
+    "route_or_departure_scope": "Xiamen/Fuzhou/Quanzhou/Tianjin/Hangzhou departures over 90 minutes per article",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000059",
+    "company_id": "COM_000037",
+    "country_region": "Taiwan",
+    "airport_code": [
+      "TPE"
+    ],
+    "menu_scope": "production_capability_reference",
+    "service_class_or_channel": "airline_catering",
+    "menu_category": "kitchen_zone_and_meal_types",
+    "menu_examples": "Chinese dishes; Western dishes; Japanese dishes; Halal food; Chinese vegetarian; cold dishes",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Chinese;Western;Japanese;Halal;Vegetarian",
+    "route_or_departure_scope": "Taiwan airline catering operations",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000060",
+    "company_id": "COM_000004",
+    "country_region": "Singapore",
+    "airport_code": [
+      "SIN"
+    ],
+    "menu_scope": "aviation_catering_menu_library",
+    "service_class_or_channel": "multi_airline",
+    "menu_category": "weekly_menu_types_and_specialty_kitchens",
+    "menu_examples": "800+ weekly inflight menu types; buy-on-board meals; Chinese; Thai; Indian; Muslim; Japanese; Halal Boutique Bakery; artisanal chocolate studio",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Asian;international;halal;specialty kitchens",
+    "route_or_departure_scope": "Singapore Changi and SATS aviation catering network",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000061",
+    "company_id": "COM_000062",
+    "country_region": "Hong Kong",
+    "airport_code": [
+      "HKG"
+    ],
+    "menu_scope": "facility_cuisine_positioning",
+    "service_class_or_channel": "airline_catering",
+    "menu_category": "eastern_western_cuisine_reference",
+    "menu_examples": "fusion of Eastern and Western cuisines",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Eastern;Western;fusion",
+    "route_or_departure_scope": "Hong Kong International Airport operations",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000062",
+    "company_id": "COM_000013",
+    "airline_id": "AIRL_000019",
+    "country_region": "Vietnam",
+    "menu_scope": "airline_customer_cuisine_reference",
+    "service_class_or_channel": "inflight catering customer announcement",
+    "menu_category": "Vietnamese cuisine / refined inflight meals",
+    "menu_examples": "Vietnamese cuisine introduction through refined and well-crafted in-flight meals",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Vietnamese cuisine",
+    "route_or_departure_scope": "Vietnam network to verify",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000063",
+    "company_id": "COM_000012",
+    "facility_id": [
+      "FAC_000022"
+    ],
+    "country_region": "Vietnam",
+    "airport_code": [
+      "PQC"
+    ],
+    "menu_scope": "seasonal_charter_catering_reference",
+    "service_class_or_channel": "winter 2024 charter season",
+    "menu_category": "inflight catering",
+    "menu_examples": "Phu Quoc charter-season catering services relaunched",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Vietnam / charter-season catering",
+    "route_or_departure_scope": "Phu Quoc International Airport charter season",
+    "seasonal": true
+  },
+  {
+    "menu_id": "MENU_000064",
+    "company_id": "COM_000040",
+    "facility_id": [
+      "FAC_000071"
+    ],
+    "airline_id": "AIRL_000051",
+    "country_region": "Japan",
+    "airport_code": [
+      "NRT"
+    ],
+    "menu_scope": "customer_event_menu_reference",
+    "service_class_or_channel": "Qantas route launch support",
+    "menu_category": "celebration catering / inflight support",
+    "menu_examples": "designed cakes for Qantas flight and ground crews during new route launch",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "event catering reference",
+    "route_or_departure_scope": "Narita to Australia new flights",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000065",
+    "company_id": "COM_000075",
+    "country_region": "Uzbekistan",
+    "menu_scope": "Uzbekistan Airways / Ketring onboard meal range",
+    "service_class_or_channel": "airline_public_or_company_menu_scope",
+    "menu_category": "regional_and_special_meals",
+    "menu_examples": "beef; fish; chicken; dried fruits; herbs; vegetables; Uzbek somsa",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "regional/international",
+    "route_or_departure_scope": "not_allocated_to_facility",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000066",
+    "company_id": "COM_000076",
+    "country_region": "Maldives",
+    "menu_scope": "MIC airline/private jet menu range",
+    "service_class_or_channel": "airline_public_or_company_menu_scope",
+    "menu_category": "regional_and_special_meals",
+    "menu_examples": "International flavours; Asian flavours; Maldivian hospitality menu concept",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "regional/international",
+    "route_or_departure_scope": "not_allocated_to_facility",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000067",
+    "company_id": "COM_000078",
+    "country_region": "Pakistan",
+    "menu_scope": "PIA / Pakistan catering tender meal-production scope",
+    "service_class_or_channel": "airline_public_or_company_menu_scope",
+    "menu_category": "regional_and_special_meals",
+    "menu_examples": "meal production; handling; storage; transportation; PIA in-flight service scope",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "regional/international",
+    "route_or_departure_scope": "not_allocated_to_facility",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000068",
+    "country_region": "Jordan",
+    "menu_scope": "Royal Jordanian public menu reference",
+    "service_class_or_channel": "airline_public_or_company_menu_scope",
+    "menu_category": "regional_and_special_meals",
+    "menu_examples": "Western; Oriental; Asian dishes; special meals",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "regional/international",
+    "route_or_departure_scope": "not_allocated_to_facility",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000074",
+    "company_id": "COM_000001",
+    "country_region": "Taiwan",
+    "menu_scope": "non_airline_ready_meal",
+    "service_class_or_channel": "retail_or_group_meal",
+    "menu_category": "frozen_ready_to_eat;rice_noodle;main_dish;snack_light_meal",
+    "menu_examples": "main dishes; rice and noodle items; snacks; light meals",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Taiwanese/ready-meal",
+    "route_or_departure_scope": "non-airline consumer/group meal context",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000075",
+    "company_id": "COM_000002",
+    "country_region": "Taiwan",
+    "menu_scope": "airline_and_group_meal_menu_scope",
+    "service_class_or_channel": "airline_meal;group_meal",
+    "menu_category": "chef_nutritionist_menu;prepared_dishes",
+    "menu_examples": "professionally designed menus; group meals; airline meals",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "multi-cuisine/airline catering",
+    "route_or_departure_scope": "Taoyuan central kitchen and airline/group meal context",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000076",
+    "company_id": "COM_000016",
+    "country_region": "Indonesia",
+    "menu_scope": "retail_ready_meal_catalogue",
+    "service_class_or_channel": "retail;ready_to_eat;industrial_service",
+    "menu_category": "ready_to_eat;rice_bowl;retail_food",
+    "menu_examples": "Ready to Eat; Ricebowlicious; Fly with Meals; assorted bread; cakes",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Indonesian/retail_ready_meal",
+    "route_or_departure_scope": "Aerofood ACS retail catalogue / Indonesian business units",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000077",
+    "company_id": "COM_000006",
+    "country_region": "Japan",
+    "menu_scope": "airline_and_retail_frozen_meal",
+    "service_class_or_channel": "international_flight;official_retail_frozen_meal",
+    "menu_category": "rice_meal;japanese_meal;rice_bowl",
+    "menu_examples": "rice, miso soup and Japanese pickles; oyakodon; tendon; salmon rice; chicken teriyaki bowl",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Japanese/rice meal",
+    "route_or_departure_scope": "ANA-operated international flights and ANA official retail frozen-meal channel",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000078",
+    "company_id": "COM_000037",
+    "country_region": "Taiwan",
+    "menu_scope": "airline_and_retail_halal_food",
+    "service_class_or_channel": "inflight_meal;retail_frozen_food",
+    "menu_category": "chinese_japanese_halal;rice_dish;frozen_ready_meal",
+    "menu_examples": "Chinese dishes; Japanese dishes; Halal food; turmeric rice; spiced rice; Thai fragrant rice",
+    "dietary_or_special_meal": true,
+    "cuisine_or_cultural_theme": "Chinese/Japanese/Halal/retail halal",
+    "route_or_departure_scope": "EGSC production context and FamilyMart halal frozen food context",
+    "seasonal": false
+  },
+  {
+    "menu_id": "MENU_000079",
+    "company_id": "COM_000004",
+    "country_region": "Singapore",
+    "menu_scope": "airline_and_ready_to_eat_meal_context",
+    "service_class_or_channel": "airline_catering;ready_to_eat_food_technology_context",
+    "menu_category": "rice_meal;asian_meal;ready_to_eat_meal_examples",
+    "menu_examples": "braised chicken rice; chicken briyani; Asian cuisine scope",
+    "dietary_or_special_meal": false,
+    "cuisine_or_cultural_theme": "Asian/Singapore/Rice meal context",
+    "route_or_departure_scope": "SATS airline catering and RTE meal technology context",
+    "seasonal": false
+  }
+]
