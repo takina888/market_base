@@ -1,0 +1,3355 @@
+[
+  {
+    "company_id": "COM_000001",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "yes_explicit",
+    "rice_menu_evidence_status": "official_menu_or_product_page_explicit_rice_noodle",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 2,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "official_non_airline_ready_meal_product_scope",
+    "non_airline_category_summary": [
+      "convenience_store_ready_meal",
+      "fresh_food_bakery",
+      "retail_food",
+      "ecommerce_food",
+      "frozen_ready_meal",
+      "retail_food",
+      "rice_noodle_ready_meal"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000002",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "official_menu_scope_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 2,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "official_group_meal_central_kitchen_scope",
+    "non_airline_category_summary": [
+      "fresh_food",
+      "bento",
+      "frozen_ready_meal",
+      "institutional_meal",
+      "group_meal",
+      "central_kitchen_service"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000003",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000004",
+    "has_menu_records": true,
+    "menu_record_count": 3,
+    "rice_menu_flag": "yes_explicit",
+    "rice_menu_evidence_status": "secondary_news_and_official_context_include_rice_ready_meal_examples",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "official_institutional_RTE_food_production_scope",
+    "non_airline_category_summary": [
+      "ambient_chilled_frozen_ready_to_eat_meals",
+      "institutional_catering"
+    ],
+    "ui_company_card_flags": [
+      "menu_available",
+      "rice_menu_context",
+      "non_airline_food_manufacturing",
+      "rice_menu_explicit"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000005",
+    "has_menu_records": true,
+    "menu_record_count": 4,
+    "rice_menu_flag": "yes_explicit",
+    "rice_menu_evidence_status": "official_JAL_menu_samples_include_rice_dishes",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu_available",
+      "rice_menu_explicit"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000006",
+    "has_menu_records": true,
+    "menu_record_count": 2,
+    "rice_menu_flag": "yes_explicit",
+    "rice_menu_evidence_status": "official_ANA_menu_pages_include_rice_and_rice_bowl_items",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "non_airline_food_business_record_indicates_food_production_or_product_channel",
+    "non_airline_category_summary": [
+      "retort_food",
+      "frozen_ready_meal",
+      "confectionery"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "rice_menu_possible",
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000007",
+    "has_menu_records": true,
+    "menu_record_count": 2,
+    "rice_menu_flag": "yes_explicit",
+    "rice_menu_evidence_status": "menu_text_contains_rice_or_rice_dish_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu",
+      "rice_menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000008",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000009",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "yes_explicit",
+    "rice_menu_evidence_status": "menu_text_contains_rice_or_rice_dish_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "food_cold_storage",
+      "catering_transport"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "rice_menu",
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000010",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000011",
+    "has_menu_records": true,
+    "menu_record_count": 2,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 2,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "non_airline_food_business_record_indicates_food_production_or_product_channel",
+    "non_airline_category_summary": [
+      "hospital_catering",
+      "food_production"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000012",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000013",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000014",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000015",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "non_airline_food_business_record_indicates_food_production_or_product_channel",
+    "non_airline_category_summary": [
+      "ready_to_eat_food_group_context"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000016",
+    "has_menu_records": true,
+    "menu_record_count": 2,
+    "rice_menu_flag": "yes_explicit",
+    "rice_menu_evidence_status": "official_catalogue_lists_ricebowlicious",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 4,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "official_industrial_catering_and_retail_ready_meal_scope",
+    "non_airline_category_summary": [
+      "industrial_services",
+      "retail",
+      "state_vvip_charter_private_hajj_umrah_catering"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000017",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "non_airline_food_business_record_indicates_food_production_or_product_channel",
+    "non_airline_category_summary": [
+      "institutional_meal"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000018",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000019",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 2,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "official_Foodcraft_food_manufacturing_and_foodservice_scope",
+    "non_airline_category_summary": [
+      "event_catering",
+      "food_manufacturing",
+      "food_service_solutions",
+      "retail_foodservice"
+    ],
+    "ui_company_card_flags": [
+      "menu_available",
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000020",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000021",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 3,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "official_non_airline_sector_fresh_frozen_meal_production_scope",
+    "non_airline_category_summary": [
+      "airport_food_and_retail",
+      "travel_retail",
+      "airport_retail",
+      "onboard_retail",
+      "non_airline_sector_meals",
+      "fresh_frozen_meals"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000022",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_scope_added_no_rice_item",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "official_multisector_services_and_annual_meals_produced_context",
+    "non_airline_category_summary": [
+      "retail",
+      "healthcare",
+      "railways",
+      "integrated_facilities_management",
+      "meals_produced"
+    ],
+    "ui_company_card_flags": [
+      "menu_available",
+      "non_airline_food_business"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000023",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "non_airline_food_business_record_indicates_food_production_or_product_channel",
+    "non_airline_category_summary": [
+      "institutional_meal"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000024",
+    "has_menu_records": true,
+    "menu_record_count": 2,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_planning_scope_added_no_rice_item",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "official_event_restaurant_lounge_segments_no_packaged_manufacturing_claim",
+    "non_airline_category_summary": [
+      "international_event_catering",
+      "restaurants_lounges_hotels"
+    ],
+    "ui_company_card_flags": [
+      "menu_available",
+      "non_airline_food_business"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000025",
+    "has_menu_records": true,
+    "menu_record_count": 2,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "non_airline_food_business_record_indicates_food_production_or_product_channel",
+    "non_airline_category_summary": [
+      "retail_food",
+      "home_delivery",
+      "onboard_retail"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000026",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "official_group_brand_page_lists_packaged_meal_solutions_for_foodservice_and_retail",
+    "non_airline_category_summary": [
+      "packaged_meal_solutions",
+      "foodservice",
+      "retail_food"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000027",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "yes_explicit",
+    "rice_menu_evidence_status": "menu_text_contains_rice_or_rice_dish_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu",
+      "rice_menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000028",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "official_brand_page_lists_out_of_home_catering_service_scope",
+    "non_airline_category_summary": [
+      "out_of_home_catering",
+      "airport_services"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_service_scope"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000029",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 2,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "official_homepage_lists_out_of_home_multi_sector_catering_and_facility_management",
+    "non_airline_category_summary": [
+      "multi_sector_catering",
+      "facility_management",
+      "rail_catering",
+      "remote_sites"
+    ],
+    "ui_company_card_flags": [
+      "menu_available",
+      "non_airline_food_business",
+      "non_airline_food_service_scope"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000030",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "non_airline_food_business_record_indicates_food_production_or_product_channel",
+    "non_airline_category_summary": [
+      "retail_ready_meal",
+      "private_label_food"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000031",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000032",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "non_airline_food_business_record_indicates_food_production_or_product_channel",
+    "non_airline_category_summary": [
+      "corporate_catering",
+      "event_catering",
+      "ready_made_meals",
+      "airline_lounges"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000033",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "train_catering",
+      "hospitality_services"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000034",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000035",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000036",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000037",
+    "has_menu_records": true,
+    "menu_record_count": 2,
+    "rice_menu_flag": "yes_explicit",
+    "rice_menu_evidence_status": "official_and_gov_related_sources_include_rice_dishes",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "gov_related_source_lists_EGSC_made_halal_frozen_foods_for_FamilyMart",
+    "non_airline_category_summary": [
+      "halal_frozen_food",
+      "retail_ready_meal"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "rice_menu_possible"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000038",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "group_official_outsourced_food_catering_customized_meals_retail_locations",
+    "non_airline_category_summary": [
+      "outsourced_food_catering",
+      "customized_meals",
+      "own_brand_retail"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000039",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000040",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000041",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "train_catering",
+      "hospitality_services"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000042",
+    "has_menu_records": true,
+    "menu_record_count": 2,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000043",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "airport_catering_management",
+      "resource_planning"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000044",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000045",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "sales_on_board",
+      "cafeterias_restaurants",
+      "dry_ice",
+      "laundry",
+      "outside_catering"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000046",
+    "has_menu_records": true,
+    "menu_record_count": 2,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "airport_hospitality_and_laundry"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000047",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 2,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "non_airline_food_business_record_indicates_food_production_or_product_channel",
+    "non_airline_category_summary": [
+      "healthcare_institutional_meal",
+      "frozen_ready_meal"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000048",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "private_aviation_food_service"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000049",
+    "has_menu_records": true,
+    "menu_record_count": 2,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000050",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "train_and_hospitality_services"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000051",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000052",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "train_and_hospitality_services"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000053",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "train_and_hospitality_services"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000054",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000055",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000056",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000057",
+    "has_menu_records": true,
+    "menu_record_count": 2,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000058",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "institutional_ground_meals"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000059",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "non_airline_food_business_record_indicates_food_production_or_product_channel",
+    "non_airline_category_summary": [
+      "central_kitchen_group_meals"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000060",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000061",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "fast_meals_onboard_supplies"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000062",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000063",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000064",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000065",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "airport_retail_fnb"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000066",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000067",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000068",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000069",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "non_airline_catering"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000070",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "non_flight_catering"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000071",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000072",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "non_flight_catering"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000073",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "airport_fnb_lounge_services"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000074",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000075",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000076",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "non_airline_food_business_record_indicates_food_production_or_product_channel",
+    "non_airline_category_summary": [
+      "private_jet_catering_laundry_food_production"
+    ],
+    "ui_company_card_flags": [
+      "menu",
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000077",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000078",
+    "has_menu_records": true,
+    "menu_record_count": 1,
+    "rice_menu_flag": "no_explicit_record",
+    "rice_menu_evidence_status": "menu_record_exists_but_no_rice_keyword",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "ui_company_card_flags": [
+      "menu"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000079",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "airport_retail_fnb"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000080",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "onboard_retail",
+      "logistics"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000081",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000082",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "laundry",
+      "laboratory_service"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000083",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000084",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000085",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000086",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000087",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000088",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "private_charter_catering",
+      "event_catering",
+      "corporate_catering"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000089",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "airport_services",
+      "hospitality"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000090",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "rail_catering",
+      "remote_site_management"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000091",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "institutional_catering"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000092",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "official_homepage_lists_healthcare_energy_education_events_catering_scope",
+    "non_airline_category_summary": [
+      "healthcare",
+      "energy",
+      "education",
+      "events",
+      "multi_sector_catering"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000093",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000094",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000095",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000096",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000097",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000098",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000099",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000100",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "service_or_channel_only",
+    "non_airline_manufacturing_evidence_status": "record_exists_but_manufacturing_scope_needs_check",
+    "non_airline_category_summary": [
+      "events",
+      "weddings",
+      "external_catering"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000101",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000102",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "yes_explicit_or_category_supported",
+    "non_airline_manufacturing_evidence_status": "government_release_states_ready_made_meal_production_for_land_and_air_customers",
+    "non_airline_category_summary": [
+      "ready_made_meal_production",
+      "land_and_air_customers",
+      "capacity_expansion"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_manufacturing"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000103",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000104",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000105",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "airport_retail",
+      "concession_catering"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000106",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000107",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000108",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000109",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "airline_food_supplier"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000110",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "private_aviation_catering_platform"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000111",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000112",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000113",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000114",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000115",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000116",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000117",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000118",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000119",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000120",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000121",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000122",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000123",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000124",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000125",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000126",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000127",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000128",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000129",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000130",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": true,
+    "non_airline_business_count": 1,
+    "non_airline_manufacturing_flag": "record_exists_scope_unclear",
+    "non_airline_manufacturing_evidence_status": "non_airline_record_exists_but_product_manufacturing_not_clear",
+    "non_airline_category_summary": [
+      "related_non_airline_food_or_reference"
+    ],
+    "ui_company_card_flags": [
+      "non_airline_food_scope_unclear"
+    ],
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000131",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000132",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000133",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000134",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000135",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000136",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000137",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000138",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000139",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000140",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000141",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000142",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000143",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000144",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000145",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000146",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000147",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000148",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000149",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000150",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000151",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000152",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000153",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000154",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000155",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000156",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000157",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000158",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000159",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000160",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000161",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000162",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000163",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000164",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000165",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000166",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000167",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000168",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000169",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000170",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000171",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000172",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000173",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000174",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000175",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000176",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000177",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000178",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000179",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000180",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000181",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000182",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000183",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000184",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000185",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000186",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000187",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000188",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000189",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000190",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000191",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000192",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000193",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000194",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000195",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000196",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000197",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000198",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000199",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000200",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000201",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000202",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000203",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000204",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000205",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000206",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000207",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000208",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000209",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000210",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000211",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000212",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000213",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000214",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000215",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000216",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000217",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000218",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000219",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000220",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000221",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000222",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000223",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000224",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000225",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000226",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000227",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000228",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000229",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  },
+  {
+    "company_id": "COM_000230",
+    "has_menu_records": false,
+    "menu_record_count": 0,
+    "rice_menu_flag": "no_menu_record",
+    "rice_menu_evidence_status": "no_menu_repertoire_record",
+    "has_non_airline_food_business_record": false,
+    "non_airline_business_count": 0,
+    "non_airline_manufacturing_flag": "no_record",
+    "non_airline_manufacturing_evidence_status": "no_non_airline_food_business_record",
+    "public_text_rule_ja": "メニュー・米飯系・機内食以外の食品事業は会社特徴として表示します。施設確定や新工場確定の根拠には使いません。"
+  }
+]
