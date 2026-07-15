@@ -1,0 +1,27 @@
+/* CVS-only compact type and wider reading area. Data structure is unchanged. */
+.page{max-width:940px!important;padding-left:18px!important;padding-right:18px!important}
+.brand{font-size:26px!important}.title{font-size:23px!important}.lead{font-size:14px!important;line-height:1.62!important}
+.search,.select{font-size:14.5px!important}.status-pill{font-size:13px!important}
+.card-title{font-size:21px!important}.card-sub{font-size:14px!important}.overview,.overview-text,.value{font-size:15.8px!important;line-height:1.68!important}.label,.overview-label{font-size:12.5px!important}
+main{padding-left:0!important;padding-right:0!important}
+
+@media(max-width:760px){
+ .page{padding-left:14px!important;padding-right:14px!important}
+ .brand{font-size:24px!important}.title{font-size:22px!important}.lead{font-size:13.6px!important;line-height:1.62!important}
+ .search,.select{font-size:14px!important}.card-title{font-size:20px!important}
+ .overview,.overview-text,.value{font-size:15.3px!important;line-height:1.66!important}
+ .card{padding-left:15px!important;padding-right:15px!important}
+}
+@media(max-width:430px){
+ .page{padding-left:11px!important;padding-right:11px!important}
+ .brand{font-size:22px!important}.title{font-size:21px!important}.lead{font-size:13.1px!important;line-height:1.60!important}
+ .search,.select{font-size:13.7px!important}.card-title{font-size:19px!important;line-height:1.26!important}.card-sub{font-size:13.2px!important}
+ .overview,.overview-text,.value{font-size:15px!important;line-height:1.64!important}
+ .label,.overview-label{font-size:12px!important}.card{padding-left:13px!important;padding-right:13px!important}
+}
+@media(max-width:380px){
+ .page{padding-left:9px!important;padding-right:9px!important}
+ .brand{font-size:21px!important}.title{font-size:20px!important}
+ .overview,.overview-text,.value{font-size:14.8px!important;line-height:1.62!important}
+ .card{padding-left:12px!important;padding-right:12px!important}
+}
