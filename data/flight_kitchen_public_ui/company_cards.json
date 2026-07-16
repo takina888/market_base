@@ -1,0 +1,3901 @@
+[
+  {
+    "company_id": "COM_000001",
+    "name": "Kaohsiung Airport Catering Services Co., Ltd.",
+    "country_region": "Taiwan",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "台湾南部を中心に航空餐と非航空食品事業を扱う空厨会社。高雄小港、台中清泉崗、台北松山の航空餐サービスに加え、鮮食、ベーカリー、百貨・連鎖餐飲、空港ラウンジ、食品ECを扱う。",
+    "facility_count": 3,
+    "airport_codes": [
+      "KHH",
+      "RMQ",
+      "TSA"
+    ],
+    "feature_tags_ja": [
+      "米飯系メニューあり",
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "yes_explicit",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Taiwan / airline_owned_caterer / KHH / RMQ / TSA / 米飯系メニューあり / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000002",
+    "name": "China Pacific Catering Services Ltd.",
+    "country_region": "Taiwan",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "桃園空港圏を中心に機内食を製造する台湾の航空ケータリング会社。中華航空グループ・太古系の関係を持つ空厨会社として、桃園発着便向けの機内食製造・搭載を担う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "TPE"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Taiwan / airline_owned_caterer / TPE / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000003",
+    "name": "Cathay Dining / Cathay Pacific Catering Services (H.K.) Limited",
+    "country_region": "Hong Kong",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "香港国際空港を拠点とするキャセイ系の大型航空ケータリング会社。キャセイパシフィックを含む多数の航空会社向けに機内食を製造し、香港の主要空厨会社としてHKIAの航空機ケータリング体制を構成する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "HKG"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Hong Kong / airline_owned_caterer / HKG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000004",
+    "name": "SATS Ltd.",
+    "country_region": "Singapore",
+    "company_type": "global_catering_group",
+    "summary_ja": "シンガポール・チャンギ空港を中心とする航空食品・地上業務大手。130社超の国際航空会社向け食品サービス、800種類超の週次機内食メニュー、民族料理、ハラール専用ベーカリー、Buy-on-boardに対応する。",
+    "facility_count": 2,
+    "airport_codes": [
+      "SIN"
+    ],
+    "feature_tags_ja": [
+      "米飯系メニューあり",
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "yes_explicit",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Singapore / global_catering_group / SIN / 米飯系メニューあり / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000005",
+    "name": "JAL Royal Catering Co., Ltd.",
+    "country_region": "Japan",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "JALとロイヤルによる航空ケータリング会社。成田・羽田の2拠点で国際線機内食、機内サービス用品、航空機搭載関連業務を担う。会社詳細では成田・羽田拠点を分けて表示する。",
+    "facility_count": 2,
+    "airport_codes": [
+      "NRT",
+      "HND"
+    ],
+    "feature_tags_ja": [
+      "米飯系メニューあり"
+    ],
+    "rice_menu": "yes_explicit",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / airline_owned_caterer / NRT / HND / 米飯系メニューあり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000006",
+    "name": "ANA Catering Service Co., Ltd.",
+    "country_region": "Japan",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "ANAグループの航空ケータリング会社。羽田・成田を中心に、和食・洋食・ペストリー・機内サービス用品を扱う。メニュー情報と施設情報は分け、製造能力は未補填として候補管理する。",
+    "facility_count": 2,
+    "airport_codes": [
+      "HND",
+      "NRT"
+    ],
+    "feature_tags_ja": [
+      "米飯系メニューあり",
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "yes_explicit",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / airline_owned_caterer / HND / NRT / 米飯系メニューあり / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000007",
+    "name": "Korean Air C&D Service Co., Ltd.",
+    "country_region": "South Korea",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "大韓航空系の機内食・機内サービス会社。1,800種類超のメニュー、K-Food、洋食、中華、和食、宗教食、HALAL、健康食に対応し、日平均8万食規模の生産文脈を持つ。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ICN"
+    ],
+    "feature_tags_ja": [
+      "米飯系メニューあり"
+    ],
+    "rice_menu": "yes_explicit",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "South Korea / airline_owned_caterer / ICN / 米飯系メニューあり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000008",
+    "name": "LSG Sky Chefs Korea Co., Ltd.",
+    "country_region": "South Korea",
+    "company_type": "global_catering_group",
+    "summary_ja": "LSGグループの韓国拠点。仁川を中心に航空ケータリング、列車ケータリング、ホスピタリティサービスを扱う。釜山・金浦関連の地域ユニット情報は参考・候補として別表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ICN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "South Korea / global_catering_group / ICN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000009",
+    "name": "Beijing Air Catering Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "北京首都空港系の主要航空食品会社。北京空港圏の機内食・航空配餐の中核会社として扱い、北京首都空港との接続、顧客航空会社、能力値は施設詳細で追加確認する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PEK"
+    ],
+    "feature_tags_ja": [
+      "米飯系メニューあり",
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "yes_explicit",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_caterer / PEK / 米飯系メニューあり / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000010",
+    "name": "Thai Airways Catering",
+    "country_region": "Thailand",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Thai Airways系の航空ケータリング部門。Suvarnabhumiを中心に航空会社向け機内食、ハラール/非ハラール厨房、ラウンジ・地上食関連情報を会社詳細へ表示する。",
+    "facility_count": 2,
+    "airport_codes": [
+      "BKK",
+      "KBV"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Thailand / airline_owned_caterer / BKK / KBV",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000011",
+    "name": "Bangkok Air Catering Co., Ltd.",
+    "country_region": "Thailand",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "Bangkok Air Cateringはタイ国内複数空港に拠点を持つ航空ケータリング会社。VIP・private jet向けメニューも通常航空食と分けて表示する。",
+    "facility_count": 5,
+    "airport_codes": [
+      "BKK",
+      "DMK",
+      "USM",
+      "HKT",
+      "CNX"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Thailand / independent_airline_caterer / BKK / DMK / USM / HKT / CNX / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000012",
+    "name": "Vietnam Airlines Caterers Ltd.",
+    "country_region": "Vietnam",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Vietnam Airlines Caterers / VACSはTan Son Nhat、Phu Quoc、Long Thanh案件と接続するベトナム航空系ケータラー。季節サービスと常設施設を分けて表示する。",
+    "facility_count": 3,
+    "airport_codes": [
+      "SGN",
+      "PQC",
+      "LTIA"
+    ],
+    "feature_tags_ja": [
+      "新工場・拡張計画あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 1,
+    "card_line_ja": "Vietnam / airline_owned_caterer / SGN / PQC / LTIA / 新工場・拡張計画あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000013",
+    "name": "Vietnam Air Catering Services JSC",
+    "country_region": "Vietnam",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "ベトナムの航空ケータリング会社。Noi Bai、Cam Ranhに加え、Da Nang、Phu Quoc、Cat Bi、Long Thanh案件を持つネットワーク型の空厨会社として整理する。顧客航空会社と季節サービスは関係表・候補パネルで分ける。",
+    "facility_count": 5,
+    "airport_codes": [
+      "HAN",
+      "CXR",
+      "DAD",
+      "PQC",
+      "HPH"
+    ],
+    "feature_tags_ja": [
+      "計画・契約・参考情報あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Vietnam / independent_airline_caterer / HAN / CXR / DAD / PQC / HPH / 計画・契約・参考情報あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000014",
+    "name": "Noi Bai Catering Services Joint Stock Company",
+    "country_region": "Vietnam",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Noi Bai Catering ServicesはNoi Bai空港の大規模食品加工センターを持つ航空ケータリング会社。能力、顧客航空会社、衛生安全情報を施設詳細で表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "HAN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Vietnam / airline_owned_caterer / HAN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000015",
+    "name": "Brahim’s Food Services Sdn Bhd",
+    "country_region": "Malaysia",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "Brahim’s Food ServicesはKLIAの大型ハラールフライトキッチン運営会社。航空会社向けケータリング、ハラール対応、Penang関連情報を分けて表示する。",
+    "facility_count": 2,
+    "airport_codes": [
+      "KUL",
+      "PEN"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Malaysia / independent_airline_caterer / KUL / PEN / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000016",
+    "name": "Aerofood ACS",
+    "country_region": "Indonesia",
+    "company_type": "food_manufacturer_with_airline_catering",
+    "summary_ja": "インドネシアの航空ケータリング・食品サービス会社。Tangerangを中心に、Medan、Yogyakarta、Surabaya、Balikpapan、Denpasar、Lombokなど7都市の機内食サービス施設を持つ。State Flight、VVIP/VIP、チャーター、Hajj/Umrah対応も参考表示する。",
+    "facility_count": 7,
+    "airport_codes": [
+      "CGK",
+      "DPS",
+      "SUB",
+      "KNO",
+      "YIA",
+      "BPN",
+      "LOP"
+    ],
+    "feature_tags_ja": [
+      "米飯系メニューあり",
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "yes_explicit",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Indonesia / food_manufacturer_with_airline_catering / CGK / DPS / SUB / KNO / YIA / BPN / LOP / 米飯系メニューあり / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000017",
+    "name": "MacroAsia SATS Food Industries Corporation",
+    "country_region": "Philippines",
+    "company_type": "food_manufacturer_with_airline_catering",
+    "summary_ja": "フィリピンの航空ケータリング・食品製造会社。NAIA内の機内食施設に関係し、航空向け食品に加えて非航空・法人向け食品製造も扱う。HACCP、ISO 9001、HALAL情報は信頼度付きで表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "MNL"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Philippines / food_manufacturer_with_airline_catering / MNL / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000018",
+    "name": "MacroAsia SATS Inflight Services Corporation",
+    "country_region": "Philippines",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "MacroAsia SATS系の機内食会社。PAL Inflight CenterでPhilippine Airlines向け国際線・国内線機内食を供給し、特別食、ミールアップグレード、日本厨房、ハラール厨房の情報を持つ。",
+    "facility_count": 1,
+    "airport_codes": [
+      "MNL"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Philippines / airline_owned_caterer / MNL",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000019",
+    "name": "Emirates Flight Catering",
+    "country_region": "United Arab Emirates",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Dubai International Airportを中心とする中東最大級の航空ケータリング会社。Emirates向けを軸に、多数の航空会社、空港・イベント向け食品、ランドリー支援、ハラール前提の調達・食品安全管理を扱う。能力値は会社全体スケールとして表示し、施設別能力へ過剰分配しない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "DXB"
+    ],
+    "feature_tags_ja": [
+      "計画・契約・参考情報あり",
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "United Arab Emirates / airline_owned_caterer / DXB / 計画・契約・参考情報あり / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000020",
+    "name": "Qatar Aircraft Catering Company",
+    "country_region": "Qatar",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Hamad International Airportを拠点とするQatar Airways系の大型航空ケータリング会社。国際料理、特別食、大量の青果取扱い、空港発着便向けの機内食製造を担う。日産能力・料理種類・青果使用量は出典別に表示し、時点差のある能力値は上書きしない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "DOH"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Qatar / airline_owned_caterer / DOH",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000021",
+    "name": "dnata Catering & Retail",
+    "country_region": "United Arab Emirates",
+    "company_type": "global_catering_group",
+    "summary_ja": "UAE発のグローバル航空ケータリング・リテール会社。機内食、機内リテール、VIPジェット、空港ラウンジ、空港F&Bを扱う。国別・空港別施設は会社本体と分け、確認済みのSingapore、Australia、Jordan、Irelandなどを地域ユニットとして表示する。",
+    "facility_count": 2,
+    "airport_codes": [
+      "MEL",
+      "WSI"
+    ],
+    "feature_tags_ja": [
+      "新工場・拡張計画あり",
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 2,
+    "card_line_ja": "United Arab Emirates / global_catering_group / MEL / WSI / 新工場・拡張計画あり / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000022",
+    "name": "CATRION Catering Holding Company",
+    "country_region": "Saudi Arabia",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "サウジアラビアの航空ケータリング・食品サービス大手。旧Saudi Airlines CateringからCATRIONへ展開し、機内食、ビジネスラウンジ、リテール、医療、鉄道、施設管理まで扱う。Jeddah、Riyadh、Dammam、Madinahなどの空港別施設は候補パネルで追跡する。",
+    "facility_count": 0,
+    "feature_tags_ja": [
+      "新工場・拡張計画あり",
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 1,
+    "card_line_ja": "Saudi Arabia / airline_owned_caterer / 新工場・拡張計画あり / 機内食以外の食品製造あり",
+    "display_status": "概ね表示可"
+  },
+  {
+    "company_id": "COM_000023",
+    "name": "TajSATS Air Catering Limited",
+    "country_region": "India",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "IHCLとSATSの合弁によるインドの主要航空ケータリング会社。インド複数都市の航空厨房ネットワークを持ち、Mumbai、Delhi、Bengaluru、Chennai、Kolkata、Goa、Amritsar、Noidaなどの拠点を表示対象とする。Noida案件は計画・稼働情報を分けて扱う。",
+    "facility_count": 9,
+    "airport_codes": [
+      "BOM",
+      "DEL",
+      "BLR",
+      "MAA",
+      "CCU",
+      "GOI",
+      "GOX",
+      "ATQ",
+      "DXN"
+    ],
+    "feature_tags_ja": [
+      "新工場・拡張計画あり",
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 1,
+    "card_line_ja": "India / airline_owned_caterer / BOM / DEL / BLR / MAA / CCU / GOI / GOX / ATQ / DXN / 新工場・拡張計画あり / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000024",
+    "name": "DO & CO Airline Catering",
+    "country_region": "Austria / Turkey / Global",
+    "company_type": "global_catering_group",
+    "summary_ja": "世界各地で航空会社向けプレミアム機内食ソリューションを提供する航空ケータリング会社。",
+    "facility_count": 0,
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "Austria / Turkey / Global / global_catering_group / 機内食以外の食品事業あり",
+    "display_status": "概ね表示可"
+  },
+  {
+    "company_id": "COM_000025",
+    "name": "LSG Sky Chefs",
+    "country_region": "Germany / Global",
+    "company_type": "global_catering_group",
+    "summary_ja": "世界規模の航空ケータリング会社。LSG Sky Chefsブランドを軸に、航空ケータリング、航空リテール、鉄道ケータリング、ホスピタリティサービスなどを展開する。国別・空港別ロケーションは個別会社・施設行へ分解し、グローバル本体はネットワーク親として表示する。",
+    "facility_count": 5,
+    "airport_codes": [
+      "GRU",
+      "CGH",
+      "FOR",
+      "GIG",
+      "SDU"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Germany / Global / global_catering_group / GRU / CGH / FOR / GIG / SDU / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000026",
+    "name": "gategroup",
+    "country_region": "Switzerland / Global",
+    "company_type": "global_catering_group",
+    "summary_ja": "gategourmetなどを擁するグローバル食品・ホスピタリティグループ。航空ケータリング、機内リテール、空港サービス、関連ブランドを横断する親会社層として扱う。個別施設はgategourmetや国別会社側に紐づける。",
+    "facility_count": 0,
+    "feature_tags_ja": [
+      "計画・契約・参考情報あり",
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Switzerland / Global / global_catering_group / 計画・契約・参考情報あり / 機内食以外の食品製造あり",
+    "display_status": "概ね表示可"
+  },
+  {
+    "company_id": "COM_000027",
+    "name": "gategourmet",
+    "country_region": "Switzerland / Global",
+    "company_type": "global_catering_group",
+    "summary_ja": "gategroupの航空ケータリング中核ブランド。航空会社向け機内食、プロビジョニング、ロジスティクスを扱い、香港・日本・スペイン・チリなどの国別・空港別ユニットを子要素として表示する。",
+    "facility_count": 2,
+    "airport_codes": [
+      "YYC",
+      "HKG"
+    ],
+    "feature_tags_ja": [
+      "計画・契約・参考情報あり",
+      "米飯系メニューあり"
+    ],
+    "rice_menu": "yes_explicit",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Switzerland / Global / global_catering_group / YYC / HKG / 計画・契約・参考情報あり / 米飯系メニューあり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000028",
+    "name": "Servair",
+    "country_region": "France / Africa",
+    "company_type": "global_catering_group",
+    "summary_ja": "フランスとアフリカを中心に、機内食、空港サービス、外食・施設向けケータリングを扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CDG"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "France / Africa / global_catering_group / CDG / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000029",
+    "name": "Newrest",
+    "country_region": "France / Global",
+    "company_type": "global_catering_group",
+    "summary_ja": "フランス発のグローバルケータリンググループ。機内食、buy-on-board、免税、鉄道、遠隔地給食、空港・高速道路コンセッションを扱う。Newrest Spain、Brazil、Morocco、Nigeria、South Africaなどの国別ユニットは個別会社として表示する。",
+    "facility_count": 0,
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "France / Global / global_catering_group / 機内食以外の食品事業あり",
+    "display_status": "概ね表示可"
+  },
+  {
+    "company_id": "COM_000030",
+    "name": "Flying Food Group",
+    "country_region": "United States",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "航空会社向けケータリングと、リテール向け即食・プライベートラベル食品を扱う米国系会社。",
+    "facility_count": 3,
+    "airport_codes": [
+      "ORD",
+      "JFK",
+      "IAD"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "United States / independent_airline_caterer / ORD / JFK / IAD / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000031",
+    "name": "Ethiopian Airlines Catering",
+    "country_region": "Ethiopia",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Addis Ababa拠点のEthiopian Airlines Group機内食部門。100,000食/日規模の大型厨房として、エチオピア料理、国際料理、特別食・食事制限対応を会社詳細へ表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ADD"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Ethiopia / airline_owned_caterer / ADD",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000032",
+    "name": "Air Chefs SOC Ltd",
+    "country_region": "South Africa",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "南アフリカの3中央生産拠点を持つ食品ソリューション会社。機内食、ラウンジ、法人食、イベント、レディメイド食を分けて表示し、航空食と非航空食品事業を混ぜない。",
+    "facility_count": 3,
+    "airport_codes": [
+      "JNB",
+      "CPT",
+      "DUR"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "South Africa / airline_owned_caterer / JNB / CPT / DUR / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000033",
+    "name": "CLS Catering Services Ltd.",
+    "country_region": "Canada",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "カナダの航空ケータリング会社。Vancouver、Calgary、Torontoの主要空港に拠点を持つ。",
+    "facility_count": 3,
+    "airport_codes": [
+      "YVR",
+      "YYC",
+      "YYZ"
+    ],
+    "feature_tags_ja": [
+      "新工場・拡張計画あり",
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 1,
+    "card_line_ja": "Canada / independent_airline_caterer / YVR / YYC / YYZ / 新工場・拡張計画あり / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000034",
+    "name": "Finnair Kitchen",
+    "country_region": "Finland",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Helsinki Airport発のFinnair便と他航空会社向けに機内食を提供し、食・飲料コンセプト開発にも関わる。",
+    "facility_count": 1,
+    "airport_codes": [
+      "HEL"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Finland / airline_owned_caterer / HEL",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000035",
+    "name": "Air Fayre",
+    "country_region": "United States / United Kingdom",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "旅客便・貨物便・大型チャーター向けの機内食・食品飲料サービスを扱う航空ケータリング会社。",
+    "facility_count": 2,
+    "airport_codes": [
+      "LAX",
+      "MEM"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United States / United Kingdom / independent_airline_caterer / LAX / MEM",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000036",
+    "name": "Almaty Catering Services Ltd.",
+    "country_region": "Kazakhstan",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "Almatyを拠点とする航空ケータリング会社。航空会社向けケータリングとVIP向けサービスに対応する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ALA"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Kazakhstan / independent_airline_caterer / ALA",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000037",
+    "name": "Evergreen Sky Catering Corp.",
+    "country_region": "Taiwan",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "長榮グループ系の空厨会社。航空機向け食事を製造し、中華・西洋・日本・ハラール・ベジタリアン・冷菜などの製造対応メニュー範囲を持つ。食数能力や顧客航空会社は個別確認待ち。",
+    "facility_count": 1,
+    "airport_codes": [
+      "TPE"
+    ],
+    "feature_tags_ja": [
+      "米飯系メニューあり",
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "yes_explicit",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Taiwan / airline_owned_caterer / TPE / 米飯系メニューあり / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000038",
+    "name": "TransAsia Catering Services Co., Ltd.",
+    "country_region": "Taiwan",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "台湾の航空ケータリング会社。航空食に加え、外部委託給食、法人向けカスタム食、リテール店舗などの周辺食品事業を持つ。現行の空港・施設接続は参考表示。",
+    "facility_count": 1,
+    "feature_tags_ja": [
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Taiwan / independent_airline_caterer / nan / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000039",
+    "name": "TFK Corporation",
+    "country_region": "Japan",
+    "company_type": "airline_catering_unit",
+    "summary_ja": "TFK Corporationは成田・羽田に関係する日本の機内食会社。機内食調製・搭載、SATS系文脈、成田/羽田拠点を会社詳細へ整理する。",
+    "facility_count": 2,
+    "airport_codes": [
+      "NRT",
+      "HND"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / airline_catering_unit / NRT / HND",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000040",
+    "name": "Gate Gourmet Japan Ltd.",
+    "country_region": "Japan",
+    "company_type": "global_catering_group_local_unit",
+    "summary_ja": "gategourmet系の日本法人。成田・羽田ユニットへの公式言及があり、外国航空会社向け航空ケータリング・プロビジョニングの文脈を持つ。施設詳細と能力は確認待ち。",
+    "facility_count": 2,
+    "airport_codes": [
+      "HND",
+      "NRT"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / global_catering_group_local_unit / HND / NRT",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000041",
+    "name": "Shanghai Eastern Air Catering Co. Ltd.",
+    "country_region": "China",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Shanghai Eastern Air Cateringは上海浦東を中心に航空ケータリング、鉄道ケータリング、ホスピタリティサービスへ接続する東航系会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PVG"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_caterer / PVG / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000042",
+    "name": "Guangzhou Nanland Air Catering Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Guangzhou Nanland Air Cateringは中国南方航空系の航空食品会社。広州、北京大興、貴陽、揭陽など南聯系分公司との関係をネットワーク層で表示する。",
+    "facility_count": 2,
+    "airport_codes": [
+      "CAN",
+      "PKX"
+    ],
+    "feature_tags_ja": [
+      "計画・契約・参考情報あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_caterer / CAN / PKX / 計画・契約・参考情報あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000043",
+    "name": "Beijing Capital Airport Food Management Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_catering_management",
+    "summary_ja": "北京首都空港系の空港餐飲管理会社。空港内の餐飲資源計画、招商、運営管理を扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PEK"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_catering_management / PEK / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000044",
+    "name": "Sky Catering LLC Mongolia",
+    "country_region": "Mongolia",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "モンゴルの航空ケータリング会社。国内外航空会社向けの機内食とVIPフライト向けサービスを扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "UBN"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Mongolia / independent_airline_caterer / UBN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000045",
+    "name": "EGYPTAIR In-Flight Services",
+    "country_region": "Egypt",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "EGYPTAIRグループの機内サービス会社。機内食、機内販売、カフェテリア・レストラン、ドライアイス、ランドリー、外部ケータリングを扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CAI"
+    ],
+    "feature_tags_ja": [
+      "計画・契約・参考情報あり",
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "Egypt / airline_owned_caterer / CAI / 計画・契約・参考情報あり / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000046",
+    "name": "SriLankan Catering Limited",
+    "country_region": "Sri Lanka",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Bandaranaike International Airportを中心とするスリランカの航空ケータリング会社。25,000食/日規模のフライトキッチンを持ち、航空向け機内食のほか、空港レストラン、ラウンジ、トランジットホテル、ランドリー事業も扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CMB"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "Sri Lanka / airline_owned_caterer / CMB / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000047",
+    "name": "Royal Brunei Culinary Sdn Bhd",
+    "country_region": "Brunei",
+    "company_type": "airline_owned_or_affiliated_caterer",
+    "summary_ja": "Royal Brunei Culinaryはブルネイの航空・医療・施設向け食事サービス会社。Royal Brunei Airlines向けメニューと冷凍食品展開を分けて表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "BWN"
+    ],
+    "feature_tags_ja": [
+      "計画・契約・参考情報あり",
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Brunei / airline_owned_or_affiliated_caterer / BWN / 計画・契約・参考情報あり / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000048",
+    "name": "Air Culinaire Worldwide",
+    "country_region": "United States / Global",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "ビジネスジェット・プライベート航空向けの機内食会社。自社キッチンと提携ケータラー網で世界の空港を支援する。",
+    "facility_count": 1,
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "United States / Global / private_aviation_caterer / nan / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000049",
+    "name": "dnata Catering & Retail Singapore",
+    "country_region": "Singapore",
+    "company_type": "global_catering_group_local_unit",
+    "summary_ja": "dnata Catering & Retail SingaporeはChangiのランプサイド施設を持つ航空ケータリング会社。顧客数、食数、Lufthansa/SWISS/Air Macau関係を出典別に表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "KHH"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Singapore / global_catering_group_local_unit / KHH",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000050",
+    "name": "LSG Sky Chefs Myanmar Ltd",
+    "country_region": "Myanmar",
+    "company_type": "global_catering_group_local_unit",
+    "summary_ja": "アジアのプライベート航空向けケータリングプラットフォーム。商用航空向け空厨ではなく、民間航空・VIP航空向け情報として会社カードと民間航空タブに表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "RGN"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "Myanmar / global_catering_group_local_unit / RGN / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000051",
+    "name": "Cambodia Air Catering Services Ltd.",
+    "country_region": "Cambodia",
+    "company_type": "airline_catering_project_operator",
+    "summary_ja": "Cambodia Air Catering Servicesはカンボジアの新空港ケータリングユニット案件に関係する会社。Phnom Penh/TechoとSiem Reap-Angkor案件をプロジェクト表示する。",
+    "facility_count": 2,
+    "airport_codes": [
+      "KTI",
+      "SAI"
+    ],
+    "feature_tags_ja": [
+      "新工場・拡張計画あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 2,
+    "card_line_ja": "Cambodia / airline_catering_project_operator / KTI / SAI / 新工場・拡張計画あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000052",
+    "name": "LSG Sky Chefs Thailand Ltd.",
+    "country_region": "Thailand",
+    "company_type": "global_catering_group_local_unit",
+    "summary_ja": "LSG Sky Chefs ThailandはBangkok Suvarnabhumiに接続するLSG系航空ケータリング会社。年間食数、従業員規模、顧客数を会社詳細と能力表で表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "USM"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "Thailand / global_catering_group_local_unit / USM / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000053",
+    "name": "Sichuan Airlines LSG Air Catering Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airline_owned_caterer;global_catering_group_local_unit",
+    "summary_ja": "成都双流国際空港に接続する四川航空とLSG系の航空ケータリング会社。航空食、鉄道食、ホスピタリティサービスを扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CTU"
+    ],
+    "feature_tags_ja": [
+      "計画・契約・参考情報あり",
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_caterer;global_catering_group_local_unit / CTU / 計画・契約・参考情報あり / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000054",
+    "name": "Xinjiang HNA LSG Sky Chefs Co., Ltd.",
+    "country_region": "China",
+    "company_type": "global_catering_group_local_unit",
+    "summary_ja": "ウルムチ空港向けに設立されたHNA Air Catering HoldingとLSG Asiaの合弁航空ケータリング会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "URC"
+    ],
+    "feature_tags_ja": [
+      "計画・契約・参考情報あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / global_catering_group_local_unit / URC / 計画・契約・参考情報あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000055",
+    "name": "Gansu HNA LSG Sky Chefs Co., Ltd.",
+    "country_region": "China",
+    "company_type": "global_catering_group_local_unit",
+    "summary_ja": "蘭州空港向けに設立されたHNA系とLSG系の合弁航空ケータリング会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "LHW"
+    ],
+    "feature_tags_ja": [
+      "計画・契約・参考情報あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / global_catering_group_local_unit / LHW / 計画・契約・参考情報あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000056",
+    "name": "Xiamen Airlines Kitchen / Xiamen Airlines Catering Unit",
+    "country_region": "China",
+    "company_type": "airline_owned_catering_unit_reference",
+    "summary_ja": "厦門航空の機内食・選餐サービス文脈に登場する空厨機能。厦門・福州・泉州・天津・杭州始発便などのメニュー対応情報はメニュー根拠として表示し、施設能力には使わない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "XMN"
+    ],
+    "feature_tags_ja": [
+      "計画・契約・参考情報あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_catering_unit_reference / XMN / 計画・契約・参考情報あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000057",
+    "name": "Shenzhen Air Catering Co., Ltd.",
+    "country_region": "China",
+    "company_type": "local_airline_catering_company_candidate",
+    "summary_ja": "深圳の航空配餐会社候補。企業登録系情報では航空配餐、包装食品、温食・冷食、糕点、団体餐配送などを扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "SZX"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / local_airline_catering_company_candidate / SZX",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000058",
+    "name": "Yunnan Airport Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "雲南機場グループ系の航空食品会社。昆明長水国際空港内の航空配餐・非航空地面配餐の主要生産供給会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "KMG"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / KMG / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000059",
+    "name": "Xi’an Eastern Air Catering Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airline_catering_company",
+    "summary_ja": "西安咸陽空港と西安紅光路和平工業園に拠点を持つ航空食品会社。国内外航空会社向け餐食と中央厨房・団体餐配送を扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "XIY"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_catering_company / XIY / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000060",
+    "name": "Sichuan Airlines Chongqing Airport Catering Service Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airline_airport_caterer",
+    "summary_ja": "四川航空グループ、重慶機場グループなどが共同設立した重慶江北空港向け配餐会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CKG"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_airport_caterer / CKG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000061",
+    "name": "Hangzhou Xiaoshan Airport Lufthansa Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_airline_catering_company",
+    "summary_ja": "杭州蕭山国際空港内の航空食品会社。航空配餐の安全管理、HACCP、ISO22000文脈で確認。",
+    "facility_count": 1,
+    "airport_codes": [
+      "HGH"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_airline_catering_company / HGH / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000062",
+    "name": "LSG Lufthansa Service Hong Kong Ltd.",
+    "country_region": "Hong Kong",
+    "company_type": "airport_aircraft_catering_franchisee",
+    "summary_ja": "香港国際空港の航空機ケータラー3社の一つ。LSG公式ロケーションでは香港施設に約800人規模の情報があり、東西料理の対応文脈を持つ。空港全体能力は会社別配分しない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "HKG"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Hong Kong / airport_aircraft_catering_franchisee / HKG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000063",
+    "name": "MacroAsia Catering Services Inc.",
+    "country_region": "Philippines",
+    "company_type": "airline_catering_company_reference",
+    "summary_ja": "MacroAsia Catering Services Inc.はMacroAsia系の機内食会社構造を理解するための参考会社。MSIS/MSFI/MACSの役割分担をグループ構造パネルで表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "MNL"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Philippines / airline_catering_company_reference / MNL",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000064",
+    "name": "Asia Flight Services Co., Ltd.",
+    "country_region": "Asia-Pacific / Multi-country",
+    "company_type": "regional_flight_support_catering_reference",
+    "summary_ja": "アジア太平洋の複数国でフライト支援・ケータリング関連サービスを展開する参考会社。商用航空向け空厨施設は国別に追加確認。",
+    "facility_count": 0,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Asia-Pacific / Multi-country / regional_flight_support_catering_reference",
+    "display_status": "確認後表示"
+  },
+  {
+    "company_id": "COM_000065",
+    "name": "Newrest Cambodia",
+    "country_region": "Cambodia",
+    "company_type": "airport_retail_catering_reference",
+    "summary_ja": "カンボジア3空港で空港飲食・リテールを運営する参考会社。空厨本体ではなく、空港食品エコシステム情報として掲載。",
+    "facility_count": 1,
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "Cambodia / airport_retail_catering_reference / nan / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000066",
+    "name": "Private Flight",
+    "country_region": "Asia-Pacific / Private Aviation",
+    "company_type": "private_aviation_catering_platform",
+    "summary_ja": "アジアの主要プライベート航空ハブ向けに機内ケータリング事業者へのアクセスを提供する参考プラットフォーム。",
+    "facility_count": 0,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Asia-Pacific / Private Aviation / private_aviation_catering_platform",
+    "display_status": "確認後表示"
+  },
+  {
+    "company_id": "COM_000067",
+    "name": "Inflight Chef Delight",
+    "country_region": "Asia / Middle East",
+    "company_type": "private_jet_catering_network",
+    "summary_ja": "アジア・中東のプライベートジェット向けケータリング参考会社。商用航空の空厨件数には混ぜない。",
+    "facility_count": 0,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Asia / Middle East / private_jet_catering_network",
+    "display_status": "確認後表示"
+  },
+  {
+    "company_id": "COM_000068",
+    "name": "Biman Flight Catering Centre / BFCC",
+    "country_region": "Bangladesh",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Biman Bangladesh Airlines系のフライトケータリングセンター。Dhakaを中心に機内食、飲料、キャビン関連、ランドリー、機内用品洗浄を扱う。通常能力とHajj期能力は出典別・季節別に分けて表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "DAC"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Bangladesh / airline_owned_caterer / DAC",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000069",
+    "name": "Oman Air Catering",
+    "country_region": "Oman",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Muscat International Airport向けのOman Air系航空ケータリング会社。航空会社向け機内食、VIP・Executive便、空港ラウンジ、スタッフ食堂、物流、ランドリーを扱う。航空向けと非航空/支援業務を表示上で分ける。",
+    "facility_count": 1,
+    "airport_codes": [
+      "MCT"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "Oman / airline_owned_caterer / MCT / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000070",
+    "name": "Kuwait Aviation Services Company / KASCO",
+    "country_region": "Kuwait",
+    "company_type": "airline_catering_and_support_services",
+    "summary_ja": "Kuwait International Airportに関係する航空ケータリング会社。in-flight catering、VIP catering、non-flight catering、空港飲食関連を扱う。コア空厨と空港F&Bを表示上で分ける。",
+    "facility_count": 1,
+    "airport_codes": [
+      "KWI"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "Kuwait / airline_catering_and_support_services / KWI / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000071",
+    "name": "Atlas Servair",
+    "country_region": "Morocco",
+    "company_type": "airline_catering_company",
+    "summary_ja": "Royal Air Maroc系の航空ケータリング会社。Morocco主要空港で機内食、機内販売、VIPラウンジ関連サービスを扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CMN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Morocco / airline_catering_company / CMN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000072",
+    "name": "BAS Catering / Bahrain Airport Services Catering",
+    "country_region": "Bahrain",
+    "company_type": "airline_catering_and_airport_catering",
+    "summary_ja": "Bahrain International Airportで国際航空会社、private/VVIP便向けの機内食・空港ケータリングを扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "BAH"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Bahrain / airline_catering_and_airport_catering / BAH / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000073",
+    "name": "dnata Jordan",
+    "country_region": "Jordan",
+    "company_type": "airline_catering_and_airport_food_services",
+    "summary_ja": "Queen Alia International Airportに関係するdnataのヨルダン事業。航空ケータリング、空港ラウンジ、空港F&B、ドライクリーニング、ラボサービスを扱う。dnataグローバル本体とは別の国別ユニットとして表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "AMM"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "Jordan / airline_catering_and_airport_food_services / AMM / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000074",
+    "name": "LSG Sky Chefs / Soaltee Kathmandu airline catering facility",
+    "country_region": "Nepal",
+    "company_type": "airline_catering_facility",
+    "summary_ja": "KathmanduのTribhuvan国際空港近くにあるSoaltee運営・LSG技術支援の航空ケータリング施設。",
+    "facility_count": 1,
+    "airport_codes": [
+      "KTM"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Nepal / airline_catering_facility / KTM",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000075",
+    "name": "Uzbekistan Airways Catering / LLC Ketring",
+    "country_region": "Uzbekistan",
+    "company_type": "airline_catering_company",
+    "summary_ja": "Uzbekistan Airways系の機内食・航空ケータリング会社。ウズベキスタン料理や国際線向け食事に対応。",
+    "facility_count": 1,
+    "airport_codes": [
+      "TAS"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Uzbekistan / airline_catering_company / TAS",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000076",
+    "name": "Maldives Inflight Catering / MIC",
+    "country_region": "Maldives",
+    "company_type": "airline_catering_company",
+    "summary_ja": "Velana International Airportを拠点とするモルディブの機内食会社。航空会社向けケータリング、private jet catering、ランドリー、食品製造、付帯サービスを扱う。商用航空向けとprivate jet向けを信頼度付きで分ける。",
+    "facility_count": 1,
+    "airport_codes": [
+      "MLE"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Maldives / airline_catering_company / MLE / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000077",
+    "name": "Punjab Flight Kitchen",
+    "country_region": "Pakistan",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "パキスタン・パンジャーブ地域の機内食ケータリング参考会社。空港接続・顧客航空会社は追加確認。",
+    "facility_count": 1,
+    "airport_codes": [
+      "LHE"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Pakistan / independent_airline_caterer / LHE",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000078",
+    "name": "PIA Food Services / PIA Catering",
+    "country_region": "Pakistan",
+    "company_type": "airline_internal_catering_and_food_services",
+    "summary_ja": "PIAの機内食・食事サービス部門。Lahore向け入札資料などで空港別ケータリング文脈を保持。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ISB"
+    ],
+    "rice_menu": "no_explicit_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Pakistan / airline_internal_catering_and_food_services / ISB",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000079",
+    "name": "BTA Food & Services",
+    "country_region": "Turkey / Georgia / regional",
+    "company_type": "airport_retail_food_and_beverage_reference",
+    "summary_ja": "TAV Airports系の空港飲食・ホスピタリティ会社。空厨本体ではないが、空港食品エコシステムとして参考掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "IST"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "Turkey / Georgia / regional / airport_retail_food_and_beverage_reference / IST / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000080",
+    "name": "Alpha LSG",
+    "country_region": "United Kingdom",
+    "company_type": "airline_caterer;onboard_retail;logistics",
+    "summary_ja": "英国の機内食・機内販売・ロジスティクス会社。dnata傘下の英国大手として会社カードに表示し、機内販売・物流は航空ケータリング本体とは別区分で表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "LHR"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "United Kingdom / airline_caterer;onboard_retail;logistics / LHR / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000081",
+    "name": "LSG Sky Chefs Kenya Ltd.",
+    "country_region": "Kenya",
+    "company_type": "airline_caterer;flight_kitchen_operator",
+    "summary_ja": "ナイロビJKIAのLSG系機内食施設。",
+    "facility_count": 1,
+    "airport_codes": [
+      "NBO"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Kenya / airline_caterer;flight_kitchen_operator / NBO",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000082",
+    "name": "NAS Servair / NAS Airport Services",
+    "country_region": "Kenya",
+    "company_type": "airline_caterer;airport_catering;laundry",
+    "summary_ja": "ケニアの空港内ケータリング会社。JKIA・MIAに関係。",
+    "facility_count": 1,
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Kenya / airline_caterer;airport_catering;laundry / nan / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000083",
+    "name": "Iceland Ground Services",
+    "country_region": "Iceland",
+    "company_type": "ground_services_with_catering_reference",
+    "summary_ja": "ケフラヴィーク空港関連の参考会社。空厨本体かは追加確認。",
+    "facility_count": 1,
+    "airport_codes": [
+      "KEF"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Iceland / ground_services_with_catering_reference / KEF",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000084",
+    "name": "James Caterers",
+    "country_region": "Malta",
+    "company_type": "airline_catering_reference",
+    "summary_ja": "マルタの航空ケータリング候補会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "MLA"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Malta / airline_catering_reference / MLA",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000085",
+    "name": "KC Flight Catering",
+    "country_region": "Pakistan",
+    "company_type": "flight_catering_reference",
+    "summary_ja": "パキスタンのフライトケータリング候補会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ISB"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Pakistan / flight_catering_reference / ISB",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000086",
+    "name": "Turkish DO & CO Airline Catering",
+    "country_region": "Turkey",
+    "company_type": "airline_caterer;premium_airline_catering",
+    "summary_ja": "トルコDO&CO系の航空ケータリング会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "IST"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Turkey / airline_caterer;premium_airline_catering / IST",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000087",
+    "name": "LSG Sky Chefs Catering Egypt",
+    "country_region": "Egypt",
+    "company_type": "airline_caterer;flight_kitchen_operator",
+    "summary_ja": "エジプトのLSG系航空ケータリング会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CAI"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Egypt / airline_caterer;flight_kitchen_operator / CAI",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000088",
+    "name": "Airways Catering Limited",
+    "country_region": "Ghana",
+    "company_type": "airline_caterer;charter_catering;event_catering",
+    "summary_ja": "ガーナの航空ケータリング会社。チャーター・イベント食も扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ACC"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "Ghana / airline_caterer;charter_catering;event_catering / ACC / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000089",
+    "name": "Newrest Nigeria",
+    "country_region": "Nigeria",
+    "company_type": "airline_caterer;airport_services",
+    "summary_ja": "Newrestのナイジェリア国別ユニット。LagosとAbujaの航空ケータリング・空港サービスを国別ネットワークとして表示し、個別能力は参考未補填に残す。",
+    "facility_count": 1,
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "Nigeria / airline_caterer;airport_services / nan / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000090",
+    "name": "Tunisie Catering",
+    "country_region": "Tunisia",
+    "company_type": "airline_caterer",
+    "summary_ja": "チュニジアのNewrest系航空ケータリング会社。機内食・機内サービス会社として表示し、Newrest国別ネットワークとは関係表示で接続する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "TUN"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Tunisia / airline_caterer / TUN / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000091",
+    "name": "CAS Food Solution Purantara / Purantara In-Flight Catering",
+    "country_region": "Indonesia",
+    "company_type": "airline_caterer;inflight_catering;institutional_catering",
+    "summary_ja": "CAS Food Solution PurantaraはSoekarno-Hatta空港拠点のインドネシア航空ケータリング会社。国内線・国際線向け機内食と非航空のinstitutional cateringを分けて表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CGK"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Indonesia / airline_caterer;inflight_catering;institutional_catering / CGK / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000092",
+    "name": "Capital Catering",
+    "country_region": "United Arab Emirates",
+    "company_type": "airline_caterer;lounge_catering;multi_sector_catering",
+    "summary_ja": "アブダビ・ザイード国際空港の航空ケータリング会社。航空会社・ラウンジ向けに8万食/日超を扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "AUH"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "United Arab Emirates / airline_caterer;lounge_catering;multi_sector_catering / AUH / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000093",
+    "name": "Air Algérie Catering",
+    "country_region": "Algeria",
+    "company_type": "airline_catering;public_airline_group_catering",
+    "summary_ja": "Air Algérie系の航空ケータリング会社。アルジェ空港周辺の参考会社として保持。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ALG"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Algeria / airline_catering;public_airline_group_catering / ALG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000094",
+    "name": "Ambassador Sky Chef",
+    "country_region": "India",
+    "company_type": "flight_catering_reference",
+    "summary_ja": "インドのフライトケータリング参考会社。ムンバイ・デリー文脈。現行性は追加確認。",
+    "facility_count": 1,
+    "airport_codes": [
+      "BOM"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "India / flight_catering_reference / BOM",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000095",
+    "name": "Casino Air Caterers & Flight Services",
+    "country_region": "India",
+    "company_type": "flight_catering_reference",
+    "summary_ja": "インド・コーチン空港周辺のフライトケータリング会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "COK"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "India / flight_catering_reference / COK",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000096",
+    "name": "Ambassador’s Sky Chef - Delhi unit reference",
+    "country_region": "India",
+    "company_type": "flight_catering_reference",
+    "summary_ja": "Ambassador Sky Chefのデリー拠点参考。現行性は追加確認。",
+    "facility_count": 1,
+    "airport_codes": [
+      "DEL"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "India / flight_catering_reference / DEL",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000097",
+    "name": "Air Algérie Catering - Algeria network reference",
+    "country_region": "Algeria",
+    "company_type": "airline_catering_network_reference",
+    "summary_ja": "Air Algérie Cateringのアルジェリア国内ネットワーク参考。空港別現行性は追加確認。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Algeria / airline_catering_network_reference / nan",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000098",
+    "name": "Newrest South Africa",
+    "country_region": "South Africa",
+    "company_type": "airline_catering;airport_services",
+    "summary_ja": "Newrestの南アフリカ国別ユニット。Johannesburg、Cape Town、Durbanの主要空港ネットワークを表示し、Air Chefsとは別会社として扱う。",
+    "facility_count": 2,
+    "airport_codes": [
+      "JNB"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "South Africa / airline_catering;airport_services / JNB / nan",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000099",
+    "name": "AeroAngels",
+    "country_region": "Egypt",
+    "company_type": "aviation_catering_reference",
+    "summary_ja": "エジプト・カイロの航空ケータリング参考会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CAI"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Egypt / aviation_catering_reference / CAI",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000100",
+    "name": "Capital Catering+ / external events reference",
+    "country_region": "United Arab Emirates",
+    "company_type": "non_airline_catering_reference",
+    "summary_ja": "Capital Catering関連の非航空・イベントケータリング参考ブランド。",
+    "facility_count": 0,
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "service_or_channel_only",
+    "core_project_count": 0,
+    "card_line_ja": "United Arab Emirates / non_airline_catering_reference / 機内食以外の食品事業あり",
+    "display_status": "概ね表示可"
+  },
+  {
+    "company_id": "COM_000101",
+    "name": "KLM Catering Services",
+    "country_region": "Netherlands",
+    "company_type": "airline_caterer;schiphol_inflight_catering;onboard_services",
+    "summary_ja": "Amsterdam Schipholを拠点とするKLM系機内食会社。KLM系の空厨会社として表示し、gategroupとの戦略提携は履歴・関係情報として分離する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "AMS"
+    ],
+    "feature_tags_ja": [
+      "計画・契約・参考情報あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Netherlands / airline_caterer;schiphol_inflight_catering;onboard_services / AMS / 計画・契約・参考情報あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000102",
+    "name": "Foodfolk Australia",
+    "country_region": "Australia",
+    "company_type": "inflight_catering;regional_airline_catering;hospital_food;prepared_food",
+    "summary_ja": "Perth Inflight Cateringを起点とするオーストラリアの航空ケータリング会社。地域航空会社向け機内食と非航空食品事業を分けて表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PER"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品製造あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "yes_explicit_or_category_supported",
+    "core_project_count": 0,
+    "card_line_ja": "Australia / inflight_catering;regional_airline_catering;hospital_food;prepared_food / PER / 機内食以外の食品製造あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000103",
+    "name": "GIC International Catering GmbH",
+    "country_region": "Germany",
+    "company_type": "airline_catering;cargo_crew_meals;private_airline_catering",
+    "summary_ja": "Frankfurt Airport近接のドイツ航空ケータリング会社。Lufthansa Cargo向け関係を会社-航空会社関係として表示し、貨物便向け食事は通常旅客便食と区分する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "FRA"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Germany / airline_catering;cargo_crew_meals;private_airline_catering / FRA",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000104",
+    "name": "GCG Group",
+    "country_region": "Latin America / Caribbean",
+    "company_type": "inflight_catering;travel_culinary_operations;ground_solutions",
+    "summary_ja": "中南米・カリブ海の航空・旅行向け食品オペレーション会社。国別施設が未分解のため、広域ネットワーク会社として表示し、国別分解は候補パネルで追跡する。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Latin America / Caribbean / inflight_catering;travel_culinary_operations;ground_solutions",
+    "display_status": "概ね表示可"
+  },
+  {
+    "company_id": "COM_000105",
+    "name": "Newrest Morocco",
+    "country_region": "Morocco",
+    "company_type": "inflight_catering;airport_retail;concession_catering",
+    "summary_ja": "モロッコのNewrest国別ユニット。8空港展開、空港リテール、機内食文脈を表示し、Atlas Servairとは別会社として関係を整理する。",
+    "facility_count": 1,
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Morocco / inflight_catering;airport_retail;concession_catering / 機内食以外の食品事業あり",
+    "display_status": "概ね表示可"
+  },
+  {
+    "company_id": "COM_000106",
+    "name": "Air Gourmet Hellas",
+    "country_region": "Greece",
+    "company_type": "airport_lounge_catering;inflight_catering",
+    "summary_ja": "ギリシャの空港ラウンジ・機内食ケータリング会社。ラウンジ食と機内食を同じ会社内の別サービスとして表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ATH"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Greece / airport_lounge_catering;inflight_catering / ATH",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000107",
+    "name": "Executive Catering Services Greece",
+    "country_region": "Greece",
+    "company_type": "inflight_catering_services",
+    "summary_ja": "ギリシャの機内食ケータリング参考会社。公開情報が少ないため参考扱い。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ATH"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Greece / inflight_catering_services / ATH",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000108",
+    "name": "121 In-Flight Catering",
+    "country_region": "United States",
+    "company_type": "inflight_catering_reference",
+    "summary_ja": "JFK周辺のACA掲載インフライトケータリング会社。公式確認は追加確認。",
+    "facility_count": 1,
+    "airport_codes": [
+      "JFK"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United States / inflight_catering_reference / JFK",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000109",
+    "name": "Monty’s Bakehouse",
+    "country_region": "United Kingdom",
+    "company_type": "airline_snacks;handheld_food;bakery_supplier",
+    "summary_ja": "航空向けハンドヘルドスナック・ベーカリー食品会社。空厨本体ではなく食品サプライヤーとして保持。",
+    "facility_count": 1,
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "United Kingdom / airline_snacks;handheld_food;bakery_supplier / 機内食以外の食品事業あり",
+    "display_status": "概ね表示可"
+  },
+  {
+    "company_id": "COM_000110",
+    "name": "Flight Kitchens",
+    "country_region": "United States / Private aviation network",
+    "company_type": "private_aviation_catering;multi_airport_network",
+    "summary_ja": "プライベート航空向けケータリングプラットフォーム。商用航空向け空厨件数には混ぜない。",
+    "facility_count": 1,
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "United States / Private aviation network / private_aviation_catering;multi_airport_network / 機内食以外の食品事業あり",
+    "display_status": "概ね表示可"
+  },
+  {
+    "company_id": "COM_000111",
+    "name": "Newrest Spain",
+    "country_region": "Spain",
+    "company_type": "country_unit_inflight_catering",
+    "summary_ja": "Madrid Digital Factoryを持つNewrestスペイン国別ユニット。14,000㎡、25,000食、1,500トロリー、130便/日、42顧客航空会社の情報を出典別能力テーブルに表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "MAD"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Spain / country_unit_inflight_catering / MAD / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000112",
+    "name": "Newrest Peru",
+    "country_region": "Peru",
+    "company_type": "country_unit_inflight_catering",
+    "summary_ja": "ペルーのNewrest国別ユニット。航空、鉱業、医療、教育、施設管理を分けて表示し、Sky Peru向けオンボードリテールは関係情報に置く。",
+    "facility_count": 1,
+    "airport_codes": [
+      "LIM"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Peru / country_unit_inflight_catering / LIM / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000113",
+    "name": "Newrest Colombia",
+    "country_region": "Colombia",
+    "company_type": "country_unit_inflight_catering",
+    "summary_ja": "Colombiaの航空ケータリング関連会社。inflight catering;buy-on-board;duty-free;food services;facility managementを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "BOG"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Colombia / country_unit_inflight_catering / BOG / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000114",
+    "name": "Newrest Brazil",
+    "country_region": "Brazil",
+    "company_type": "country_unit_inflight_catering",
+    "summary_ja": "Newrestのブラジル国別ユニット。GRUとGIGの2ユニットによる機内食市場参入情報を施設ネットワークとして表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "GRU",
+      "GIG"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Brazil / country_unit_inflight_catering / GRU / GIG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000115",
+    "name": "Newrest Costa Rica",
+    "country_region": "Costa Rica",
+    "company_type": "country_unit_aerial_catering",
+    "summary_ja": "Costa Ricaの航空ケータリング関連会社。aerial catering;collective catering;remote site management;airport concessionsを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "SJO"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Costa Rica / country_unit_aerial_catering / SJO / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000116",
+    "name": "Newrest Saudi Arabia",
+    "country_region": "Saudi Arabia",
+    "company_type": "country_unit_airline_catering",
+    "summary_ja": "Saudi Arabiaの航空ケータリング関連会社。airline catering;base management;hotel servicesを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "RUH",
+      "JED"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Saudi Arabia / country_unit_airline_catering / RUH / JED / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000117",
+    "name": "gategourmet Spain",
+    "country_region": "Spain",
+    "company_type": "country_unit_airline_catering",
+    "summary_ja": "Spainの航空ケータリング関連会社。airline catering;menu collaboration;logisticsを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "BCN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Spain / country_unit_airline_catering / BCN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000118",
+    "name": "Gate Gourmet Catering Chile Ltda",
+    "country_region": "Chile",
+    "company_type": "country_unit_airline_catering",
+    "summary_ja": "Chileの航空ケータリング関連会社。airline catering;airport cateringを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "SCL"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Chile / country_unit_airline_catering / SCL",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000119",
+    "name": "Newrest United States of America",
+    "country_region": "United States",
+    "company_type": "country_unit_inflight_catering",
+    "summary_ja": "United Statesの航空ケータリング関連会社。inflight catering;buy-on-board;duty-free;food services;remote sites;rail;airport concessionsを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "USA"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "United States / country_unit_inflight_catering / USA / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000120",
+    "name": "Inflight Gourmet",
+    "country_region": "Spain / Private aviation",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Spain / Private aviationの航空ケータリング関連会社。VIP inflight catering;private jet diningを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "MAD"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Spain / Private aviation / private_aviation_caterer / MAD / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000121",
+    "name": "DO & CO Poland Sp. z o.o.",
+    "country_region": "Poland",
+    "company_type": "airline_caterer_country_unit",
+    "summary_ja": "Polandの航空ケータリング関連会社。airline_catering;airport_catering;multi_airport_polandを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "WAW"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Poland / airline_caterer_country_unit / WAW / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000122",
+    "name": "FERIER Sp. z o.o.",
+    "country_region": "Poland",
+    "company_type": "airline_caterer_country_unit",
+    "summary_ja": "Polandの航空ケータリング関連会社。inflight_operations;airline_catering;aircraft_loadingを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "POZ"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Poland / airline_caterer_country_unit / POZ / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000123",
+    "name": "LSKY Inflight Catering",
+    "country_region": "Portugal / Private aviation",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Portugal / Private aviationの航空ケータリング関連会社。private_jet_catering;VIP_catering;government_aircraftを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "LIS"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Portugal / Private aviation / private_aviation_caterer / LIS / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000124",
+    "name": "Vanilla Sky VIP Inflight Catering",
+    "country_region": "Poland / Private aviation",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Poland / Private aviationの航空ケータリング関連会社。VIP_catering;private_jet_catering;poland_airportsを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "WAW"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Poland / Private aviation / private_aviation_caterer / WAW / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000125",
+    "name": "SkyChef / MAX BERGER AVIATION",
+    "country_region": "Poland / Private aviation",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Poland / Private aviationの航空ケータリング関連会社。private_jet_catering;VIP_cateringを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "WAW"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Poland / Private aviation / private_aviation_caterer / WAW / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000126",
+    "name": "dnata Ireland",
+    "country_region": "Ireland",
+    "company_type": "airline_caterer_country_unit",
+    "summary_ja": "Irelandの航空ケータリング関連会社。airline_catering;airport_catering;retailを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "DUB"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Ireland / airline_caterer_country_unit / DUB / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000127",
+    "name": "Gastland Flight Catering Kft.",
+    "country_region": "Hungary",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "Hungaryの航空ケータリング関連会社。commercial_airline_catering;executive_vip_flights;cargo_carriers;government_vvipを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "BUD"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Hungary / independent_airline_caterer / BUD / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000128",
+    "name": "Newrest Germany",
+    "country_region": "Germany",
+    "company_type": "airline_caterer_country_unit",
+    "summary_ja": "Germanyの航空ケータリング関連会社。airline_catering;airport_catering;network_referenceを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "MUC"
+    ],
+    "feature_tags_ja": [
+      "新工場・拡張計画あり",
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 1,
+    "card_line_ja": "Germany / airline_caterer_country_unit / MUC / 新工場・拡張計画あり / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000129",
+    "name": "Dark Wing Inflight Hungary",
+    "country_region": "Hungary / Private aviation",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Hungary / Private aviationの航空ケータリング関連会社。private_jet_catering;VIP_cateringを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "BUD"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Hungary / Private aviation / private_aviation_caterer / BUD / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000130",
+    "name": "AAS Catering",
+    "country_region": "Japan",
+    "company_type": "directory_reference_airline_caterer",
+    "summary_ja": "Japanの航空ケータリング関連会社。inflight_catering_directory_referenceを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "KIX"
+    ],
+    "feature_tags_ja": [
+      "機内食以外の食品事業あり"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "record_exists_scope_unclear",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / directory_reference_airline_caterer / KIX / 機内食以外の食品事業あり",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000131",
+    "name": "LSG Sky Chefs Belgium N.V.",
+    "country_region": "Belgium",
+    "company_type": "airline_caterer_with_train_hospitality_services",
+    "summary_ja": "Belgiumの航空ケータリング関連会社。airline_catering;train_catering;hospitality_servicesを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Belgium / airline_caterer_with_train_hospitality_services / nan",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000132",
+    "name": "Newrest Portugal",
+    "country_region": "Portugal",
+    "company_type": "country_network_airline_caterer",
+    "summary_ja": "Portugalの航空ケータリング関連会社。inflight_catering;buy_on_board;duty_free;food_services;rail;airport_concessionsを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Portugal / country_network_airline_caterer / nan",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000133",
+    "name": "TAMAM Aircraft Food Industries",
+    "country_region": "Israel",
+    "company_type": "airline_owned_kosher_airline_caterer",
+    "summary_ja": "Israelの航空ケータリング関連会社。kosher_inflight_catering;airline_cateringを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Israel / airline_owned_kosher_airline_caterer / nan",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000134",
+    "name": "Sky Gourmet - airline catering and logistics GmbH",
+    "country_region": "Austria",
+    "company_type": "airport_based_airline_caterer",
+    "summary_ja": "Austriaの航空ケータリング関連会社。airline_catering;logisticsを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Austria / airport_based_airline_caterer / nan",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000135",
+    "name": "Abby's Catering",
+    "country_region": "United States / private aviation",
+    "company_type": "private_and_corporate_aviation_caterer",
+    "summary_ja": "United States / private aviationの航空ケータリング関連会社。private_aviation_catering;corporate_aviation_catering;food_service_managementを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United States / private aviation / private_and_corporate_aviation_caterer / nan",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000136",
+    "name": "SkyGourmet Catering Private Limited",
+    "country_region": "India",
+    "company_type": "airline_caterer_reference",
+    "summary_ja": "Indiaの航空ケータリング関連会社。airline_food_cateringを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "India / airline_caterer_reference / nan",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000137",
+    "name": "Newrest Netherlands",
+    "country_region": "Netherlands",
+    "company_type": "country_network_airline_caterer",
+    "summary_ja": "Netherlandsの航空ケータリング関連会社。inflight_catering;buy_on_board;duty_free;food_services;airport_concessionsを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Netherlands / country_network_airline_caterer / nan",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000138",
+    "name": "AeroChefs VIP Inflight Catering",
+    "country_region": "Netherlands / private aviation",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Netherlands / private aviationの航空ケータリング関連会社。VIP_inflight_catering;private_aviation_cateringを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Netherlands / private aviation / private_aviation_caterer / nan",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000139",
+    "name": "Newrest Greece",
+    "country_region": "Greece",
+    "company_type": "country_network_airline_caterer",
+    "summary_ja": "Greeceの航空ケータリング関連会社。inflight_catering;special_mealsを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Greece / country_network_airline_caterer / nan",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000140",
+    "name": "LSG Sky Chefs Tanzania reference",
+    "country_region": "Tanzania",
+    "company_type": "airport_reference_airline_caterer",
+    "summary_ja": "Tanzaniaの航空ケータリング関連会社。airline_catering;hospitality_services;last_mile_logisticsを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Tanzania / airport_reference_airline_caterer / nan",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000141",
+    "name": "Oberoi Flight Services",
+    "country_region": "India",
+    "company_type": "airline_airport_catering_company",
+    "summary_ja": "Indiaの航空ケータリング関連会社。inflight_catering;airport_catering;airport_lounges;airport_restaurantsを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "DEL"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "India / airline_airport_catering_company / DEL",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000142",
+    "name": "Fleury Michon Food Service Airline Catering",
+    "country_region": "France / Canada",
+    "company_type": "airline_food_supplier",
+    "summary_ja": "France / Canadaの航空ケータリング関連会社。airline_catering_food_solutions;prepared_meals;rail_catering;frozen_and_fresh_mealsを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "France / Canada / airline_food_supplier",
+    "display_status": "概ね表示可"
+  },
+  {
+    "company_id": "COM_000143",
+    "name": "Carlos Aviation Catering Network GmbH",
+    "country_region": "Germany / private aviation",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Germany / private aviationの航空ケータリング関連会社。private_inflight_catering;vip_catering;airport_delivery_networkを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Germany / private aviation / private_aviation_caterer",
+    "display_status": "概ね表示可"
+  },
+  {
+    "company_id": "COM_000144",
+    "name": "ASG Sky Catering",
+    "country_region": "Azerbaijan",
+    "company_type": "airport_airline_caterer",
+    "summary_ja": "Azerbaijanの航空ケータリング関連会社。inflight_meals;professional_cleaning;laundry;dry_cleaningを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "GYD"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Azerbaijan / airport_airline_caterer / GYD",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000145",
+    "name": "Lebanese Beirut Airport Catering Company / LBACC",
+    "country_region": "Lebanon",
+    "company_type": "airport_airline_caterer",
+    "summary_ja": "Lebanonの航空ケータリング関連会社。inflight_catering;airport_cateringを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "BEY"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Lebanon / airport_airline_caterer / BEY",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000146",
+    "name": "Dakar Catering / Servair Senegal",
+    "country_region": "Senegal",
+    "company_type": "airport_airline_caterer",
+    "summary_ja": "Senegalの航空ケータリング関連会社。inflight_catering;airport_catering;vip_or_ground_servicesを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "DSS"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Senegal / airport_airline_caterer / DSS",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000147",
+    "name": "Abidjan Catering",
+    "country_region": "Côte d’Ivoire",
+    "company_type": "airport_airline_caterer_historical",
+    "summary_ja": "Côte d’Ivoireの航空ケータリング関連会社。inflight_catering;aircraft_cleaning;airport_restaurant;vip_loungeを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ABJ"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Côte d’Ivoire / airport_airline_caterer_historical / ABJ",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000148",
+    "name": "Global Catering Joint Stock Company",
+    "country_region": "Vietnam",
+    "company_type": "airport_airline_caterer",
+    "summary_ja": "Global Catering Joint Stock CompanyはTan Son Nhatでin-flight catering services license文脈を持つベトナム会社。確定施設ではなくライセンス・候補表示を優先する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "SGN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Vietnam / airport_airline_caterer / SGN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000149",
+    "name": "Honett Catering / Honett Szerviz",
+    "country_region": "Hungary",
+    "company_type": "airport_foodservice_catering_reference",
+    "summary_ja": "Hungaryの航空ケータリング関連会社。air_and_ground_catering;last_mile;catering_and_retailを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "BUD"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Hungary / airport_foodservice_catering_reference / BUD",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000150",
+    "name": "Absolute Taste Inflight",
+    "country_region": "United Kingdom / Switzerland / private aviation",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "United Kingdom / Switzerland / private aviationの航空ケータリング関連会社。private_jet_catering;business_aviation;concierge_services;travel_cateringを扱う。信頼度付きで掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "FAB"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United Kingdom / Switzerland / private aviation / private_aviation_caterer / FAB",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000151",
+    "name": "Air Serbia Catering",
+    "country_region": "Serbia",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "Serbiaの航空ケータリング関連会社。ACAディレクトリ掲載情報を起点に、現行施設・能力・顧客航空会社を追加確認する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "BEG"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Serbia / airline_owned_caterer / BEG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000152",
+    "name": "Fine Foods Catering",
+    "country_region": "Bahrain",
+    "company_type": "airport_food_caterer",
+    "summary_ja": "Bahrainの航空ケータリング関連会社。ACAディレクトリ掲載情報を起点に、現行施設・能力・顧客航空会社を追加確認する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "BAH"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Bahrain / airport_food_caterer / BAH",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000153",
+    "name": "Cookin Food",
+    "country_region": "Sweden",
+    "company_type": "airport_food_caterer",
+    "summary_ja": "Swedenの航空ケータリング関連会社。ACAディレクトリ掲載情報を起点に、現行施設・能力・顧客航空会社を追加確認する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ARN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Sweden / airport_food_caterer / ARN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000154",
+    "name": "DeliSky",
+    "country_region": "Switzerland",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Switzerlandの航空ケータリング関連会社。ACAディレクトリ掲載情報を起点に、現行施設・能力・顧客航空会社を追加確認する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ZRH"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Switzerland / private_aviation_caterer / ZRH",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000155",
+    "name": "KSG",
+    "country_region": "Ireland",
+    "company_type": "airport_food_caterer",
+    "summary_ja": "Irelandの航空ケータリング関連会社。ACAディレクトリ掲載情報を起点に、現行施設・能力・顧客航空会社を追加確認する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "DUB"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Ireland / airport_food_caterer / DUB",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000156",
+    "name": "Manny's Catering",
+    "country_region": "Mexico",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Mexicoの航空ケータリング関連会社。ACAディレクトリ掲載情報を起点に、現行施設・能力・顧客航空会社を追加確認する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "TLC"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Mexico / private_aviation_caterer / TLC",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000157",
+    "name": "Olympic Catering",
+    "country_region": "Greece",
+    "company_type": "airline_caterer",
+    "summary_ja": "Greeceの航空ケータリング関連会社。ACAディレクトリ掲載情報を起点に、現行施設・能力・顧客航空会社を追加確認する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ATH"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Greece / airline_caterer / ATH",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000158",
+    "name": "On Air Dining",
+    "country_region": "United Kingdom",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "United Kingdomの航空ケータリング関連会社。ACAディレクトリ掲載情報を起点に、現行施設・能力・顧客航空会社を追加確認する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "FAB"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United Kingdom / private_aviation_caterer / FAB",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000159",
+    "name": "Royal Blue Inflight Catering",
+    "country_region": "United Kingdom",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "United Kingdomの航空ケータリング関連会社。ACAディレクトリ掲載情報を起点に、現行施設・能力・顧客航空会社を追加確認する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "LHR"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United Kingdom / private_aviation_caterer / LHR",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000160",
+    "name": "Sancak Inflight Service",
+    "country_region": "Turkey",
+    "company_type": "airline_caterer",
+    "summary_ja": "Turkeyの航空ケータリング関連会社。ACAディレクトリ掲載情報を起点に、現行施設・能力・顧客航空会社を追加確認する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "IST"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Turkey / airline_caterer / IST",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000161",
+    "name": "Galley Cuisine",
+    "country_region": "Netherlands",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Netherlandsの航空ケータリング関連会社。民間航空・VIP機内食・地域空港向け食品サービスとして有用なため、信頼度付きで保持する。商用航空向け空厨の確定能力には混ぜない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "AMS"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Netherlands / private_aviation_caterer / AMS",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000162",
+    "name": "Jetfinity",
+    "country_region": "United States",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "United Statesの航空ケータリング関連会社。民間航空・VIP機内食・地域空港向け食品サービスとして有用なため、信頼度付きで保持する。商用航空向け空厨の確定能力には混ぜない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "SFO"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United States / private_aviation_caterer / SFO",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000163",
+    "name": "Délicieux Flight Kitchens",
+    "country_region": "United States",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "United Statesの航空ケータリング関連会社。民間航空・VIP機内食・地域空港向け食品サービスとして有用なため、信頼度付きで保持する。商用航空向け空厨の確定能力には混ぜない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "YIP"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United States / private_aviation_caterer / YIP",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000164",
+    "name": "Air Gourmet",
+    "country_region": "United States",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "United Statesの航空ケータリング関連会社。民間航空・VIP機内食・地域空港向け食品サービスとして有用なため、信頼度付きで保持する。商用航空向け空厨の確定能力には混ぜない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "LAX"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United States / private_aviation_caterer / LAX",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000165",
+    "name": "AirFare Catering",
+    "country_region": "United States",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "United Statesの航空ケータリング関連会社。民間航空・VIP機内食・地域空港向け食品サービスとして有用なため、信頼度付きで保持する。商用航空向け空厨の確定能力には混ぜない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "TUS"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United States / private_aviation_caterer / TUS",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000166",
+    "name": "Art Of Cooking Inflight",
+    "country_region": "United States",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "United Statesの航空ケータリング関連会社。民間航空・VIP機内食・地域空港向け食品サービスとして有用なため、信頼度付きで保持する。商用航空向け空厨の確定能力には混ぜない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "LAS"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United States / private_aviation_caterer / LAS",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000167",
+    "name": "Atiki's Flight Catering",
+    "country_region": "United States",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "United Statesの航空ケータリング関連会社。民間航空・VIP機内食・地域空港向け食品サービスとして有用なため、信頼度付きで保持する。商用航空向け空厨の確定能力には混ぜない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "STP"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United States / private_aviation_caterer / STP",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000168",
+    "name": "Beha Catering",
+    "country_region": "United States",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "United Statesの航空ケータリング関連会社。民間航空・VIP機内食・地域空港向け食品サービスとして有用なため、信頼度付きで保持する。商用航空向け空厨の確定能力には混ぜない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "SDF"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "United States / private_aviation_caterer / SDF",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000169",
+    "name": "La Scaletta Jet Catering",
+    "country_region": "Italy",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Italyの航空ケータリング関連会社。民間航空・VIP機内食・地域空港向け食品サービスとして有用なため、信頼度付きで保持する。商用航空向け空厨の確定能力には混ぜない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PSA"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Italy / private_aviation_caterer / PSA",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000170",
+    "name": "Marcia's Catering",
+    "country_region": "Brazil",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Brazilの航空ケータリング関連会社。民間航空・VIP機内食・地域空港向け食品サービスとして有用なため、信頼度付きで保持する。商用航空向け空厨の確定能力には混ぜない。",
+    "facility_count": 1,
+    "airport_codes": [
+      "GRU"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Brazil / private_aviation_caterer / GRU",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000171",
+    "name": "Sharp DO & CO Korea",
+    "country_region": "South Korea",
+    "company_type": "ground_handling_with_catering",
+    "summary_ja": "韓国の航空ケータリング市場文脈で登場するSharp系・DO & CO系の参考会社。Asiana関連の市場変化・供給体制を理解するための参考情報として保持する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ICN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "South Korea / ground_handling_with_catering / ICN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000172",
+    "name": "Gate Gourmet Korea / GGK",
+    "country_region": "South Korea",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "韓国の航空ケータリング履歴・市場再編文脈で登場する会社。現行施設確定ではなく、履歴・参考情報として扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ICN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "South Korea / independent_airline_caterer / ICN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000173",
+    "name": "Jet Team Co., Ltd.",
+    "country_region": "Japan",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "Jet Team Co., Ltd.。in-flight meals for private / business aviation; Haneda and Narita service area。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "HND"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / private_aviation_caterer / HND",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000174",
+    "name": "Nanjing Lukou International Airport LSG Air Catering Co. Ltd.",
+    "country_region": "China",
+    "company_type": "global_catering_group_joint_venture",
+    "summary_ja": "南京禄口国際空港のLSG系航空ケータリング会社。5,000㎡規模、最大20,000食/日の施設能力が示されるため、能力表示付きの確定拠点として扱う。",
+    "facility_count": 1,
+    "airport_codes": [
+      "NKG"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / global_catering_group_joint_venture / NKG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000175",
+    "name": "LSG Sky Chefs (Qingdao) Co., Ltd.",
+    "country_region": "China",
+    "company_type": "global_catering_group_joint_venture",
+    "summary_ja": "青島のLSG系航空ケータリング会社。航空ケータリング、鉄道ケータリング、ホスピタリティサービスを扱い、約176人規模の公式ロケーション情報を持つ。",
+    "facility_count": 1,
+    "airport_codes": [
+      "TAO"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / global_catering_group_joint_venture / TAO",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000176",
+    "name": "CNAC-LSG Qingdao Frozen Meal JV",
+    "country_region": "China",
+    "company_type": "related_food_factory_with_airline_catering_link",
+    "summary_ja": "CNAC-LSG Qingdao Frozen Meal JV。frozen meal plant JV in Qingdao; related to airline catering ecosystem, not airport flight kitchen until facility details confirmed。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "TAO"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / related_food_factory_with_airline_catering_link / TAO",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000177",
+    "name": "Beijing Daxing International Airport Inflight Catering Ltd.",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "北京大興国際空港向けに機内食と機用品供給支援を行う会社。国内外航空会社との関係情報を持つため、空港詳細と航空会社関係パネルに接続する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PKX"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / PKX",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000178",
+    "name": "Wenzhou Longwan International Airport LSG Sky Chefs reference",
+    "country_region": "China",
+    "company_type": "global_catering_group_reference",
+    "summary_ja": "Wenzhou Longwan International Airport LSG Sky Chefs reference。in-flight catering services provider profile; current official facility details to verify。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "WNZ"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / global_catering_group_reference / WNZ",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000179",
+    "name": "Gate Gourmet Hong Kong Ltd.",
+    "country_region": "Hong Kong",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "Gate Gourmet Hong Kong Ltd.。HKIA-listed aircraft caterer; one of three aircraft caterers at Hong Kong International Airport; airport-level capacity not individually allocated。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "HKG"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Hong Kong / independent_airline_caterer / HKG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000180",
+    "name": "Hong Kong Beijing Air Catering Ltd.",
+    "country_region": "Hong Kong / China",
+    "company_type": "historical_or_registry_reference",
+    "summary_ja": "Hong Kong Beijing Air Catering Ltd.。public registry reference; relevance to current commercial flight kitchen requires follow-up。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "HKG"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Hong Kong / China / historical_or_registry_reference / HKG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000181",
+    "name": "Sojitz Royal In-flight Catering Co., Ltd.",
+    "country_region": "Japan",
+    "company_type": "airline_owned_or_group_caterer",
+    "summary_ja": "関西国際空港を中心に機内食の調製・販売・搭載を行う会社。食品販売や保税倉庫業務も扱うため、航空ケータリングと周辺業務を分けて表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "KIX"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / airline_owned_or_group_caterer / KIX",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000182",
+    "name": "Kansai In-Flight Catering Co., Ltd.",
+    "country_region": "Japan",
+    "company_type": "historical_airline_caterer",
+    "summary_ja": "関西国際空港の機内食会社の旧社名・履歴情報として保持。現行会社との重複に注意。",
+    "facility_count": 0,
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / historical_airline_caterer",
+    "display_status": "確認後表示"
+  },
+  {
+    "company_id": "COM_000183",
+    "name": "Macau Catering Services Company Limited / MCS",
+    "country_region": "Macau",
+    "company_type": "airline_caterer",
+    "summary_ja": "澳門国際空港の航空機ケータリング・サブコンセッション事業者。空港会社による食品品質・食品安全監査対象として扱われるため、空港詳細で安全管理文脈も表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "MFM"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Macau / airline_caterer / MFM",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000184",
+    "name": "Hunan Airport Industrial Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_service_with_catering",
+    "summary_ja": "長沙黄花国際空港を本拠に、航空配餐、VIP商旅、ホテル餐飲などを扱う空港系会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CSX"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_service_with_catering / CSX",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000185",
+    "name": "Heilongjiang Airport Management Group Airport Food Branch",
+    "country_region": "China",
+    "company_type": "airport_food_branch",
+    "summary_ja": "ハルビン太平空港の航空餐食生産・配送を担う空港食品分公司。",
+    "facility_count": 1,
+    "airport_codes": [
+      "HRB"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_food_branch / HRB",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000186",
+    "name": "Henan Civil Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "independent_or_local_airline_caterer",
+    "summary_ja": "鄭州空港周辺で外航クルー食などを扱う河南系航空食品会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CGO"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / independent_or_local_airline_caterer / CGO",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000187",
+    "name": "Sichuan Airlines Group Catering Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "四川航空グループの配餐食品会社。川航の機上美食・地域料理文脈を持ち、会社詳細ではグループ内ケータリング機能とメニュー文脈を分けて表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CTU"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_caterer / CTU",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000188",
+    "name": "China Southern Airlines Food Company / China Southern Food",
+    "country_region": "China",
+    "company_type": "airline_owned_caterer_network",
+    "summary_ja": "南航グループの航空食品ネットワーク層。地域料理メニュー、特別食、機用品文脈を持つため、個別施設ではなくネットワーク・メニュー参照として表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CAN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_caterer_network / CAN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000189",
+    "name": "China Eastern Air Food Investment Co., Ltd. / Eastern Air Food",
+    "country_region": "China",
+    "company_type": "airline_owned_caterer_network",
+    "summary_ja": "東航食品のブランド・ネットワーク層。上海東方航空食品などの上位/関連文脈として保持。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PVG"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_caterer_network / PVG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000190",
+    "name": "Air China E-food Group / Air China Catering Network Reference",
+    "country_region": "China",
+    "company_type": "airline_catering_network_reference",
+    "summary_ja": "国航系の航食ネットワーク参考。北京航食などの会社・施設と重複しないようネットワーク層で保持。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PEK"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_catering_network_reference / PEK",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000191",
+    "name": "Wuhan Eastern Air Airport Catering Ltd",
+    "country_region": "China",
+    "company_type": "airline_catering_company",
+    "summary_ja": "武漢天河空港内の東航系空港食品会社。航空配餐・食品加工・餐飲配套サービスを扱う参考会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "WUH"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_catering_company / WUH",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000192",
+    "name": "Jiangxi Weilian Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_affiliated_caterer",
+    "summary_ja": "南昌空港向け配餐保障を主目的に設立された江西空港系の航空食品会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "KHN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_affiliated_caterer / KHN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000193",
+    "name": "Guangzhou Nanland Aviation Food Guiyang Branch",
+    "country_region": "China",
+    "company_type": "airline_owned_caterer_branch",
+    "summary_ja": "南航系の貴陽配餐楼。2025年に新配餐楼が稼働し、日供1.8万份の能力情報あり。",
+    "facility_count": 1,
+    "airport_codes": [
+      "KWE"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_caterer_branch / KWE",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000194",
+    "name": "Shenzhen Airlines Catering Department",
+    "country_region": "China",
+    "company_type": "airline_catering_department",
+    "summary_ja": "深圳航空の配餐部。Air China系資料に都市別配餐先として掲載。会社/施設詳細は追加確認。",
+    "facility_count": 1,
+    "airport_codes": [
+      "SZX"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_catering_department / SZX",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000195",
+    "name": "Huizhou Weilian Airport Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_catering_reference",
+    "summary_ja": "恵州空港系の味聯空港食品会社。Air China資料で都市別配餐先として保持。",
+    "facility_count": 1,
+    "airport_codes": [
+      "HUZ"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_catering_reference / HUZ",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000196",
+    "name": "Shenyang Airport Catering Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_catering_reference",
+    "summary_ja": "瀋陽空港配餐会社。Air China資料で都市別配餐先として保持。",
+    "facility_count": 1,
+    "airport_codes": [
+      "SHE"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_catering_reference / SHE",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000197",
+    "name": "Yunnan Eastern Air Food Dali Branch",
+    "country_region": "China",
+    "company_type": "airline_catering_branch_reference",
+    "summary_ja": "雲南東方航空食品の大理分公司。Air China資料に都市別配餐先として掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "DLU"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_catering_branch_reference / DLU",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000198",
+    "name": "Shanghai CNAC Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "上海の中航系航空食品会社。浦東空港・虹橋空港に専門配餐会社を持ち、中外航空会社へ機上配餐を提供する会社として表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PVG"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_caterer / PVG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000199",
+    "name": "Southwest Air Catering Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airline_catering_company",
+    "summary_ja": "成都の西南航食。双流空港を本拠とし、配餐厂房3.8万㎡、最大5万份能力、天府分公司を持つ航空配餐企業として表示する。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CTU"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_catering_company / CTU",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000200",
+    "name": "Dalian Airport Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_catering_company",
+    "summary_ja": "大連空港系の航空食品会社。20社超の航空会社向け、日7,000食超・ピーク1万食超の参考能力あり。",
+    "facility_count": 1,
+    "airport_codes": [
+      "DLC"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_catering_company / DLC",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000201",
+    "name": "Jilin Airport Group Catering Company",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "吉林空港グループ系の配餐会社。航空食品業界の標準適合・安全管理文脈で掲載されている。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CGQ"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / CGQ",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000202",
+    "name": "Taiyuan Airport Catering Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "太原空港系の配餐会社。航空食品主業に加え、地面食品・支線空港配餐への展開文脈がある。",
+    "facility_count": 1,
+    "airport_codes": [
+      "TYN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / TYN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000203",
+    "name": "Inner Mongolia Airport Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "内モンゴル空港系の航空食品会社。呼倫貝爾空港の配餐業務外包先として掲載されている。",
+    "facility_count": 1,
+    "airport_codes": [
+      "HLD"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / HLD",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000204",
+    "name": "Sanya Phoenix International Airport LSG Sky Chefs Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "三亜鳳凰国際空港とLSG系の合弁配餐センター。履歴情報として日2,000食超・約50人規模がある。",
+    "facility_count": 1,
+    "airport_codes": [
+      "SYX"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / SYX",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000205",
+    "name": "Beijing Xinhua Airport Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "independent_airline_caterer",
+    "summary_ja": "北京の航空餐製造会社。海南航空、四川航空、米国系・イスラエル系航空会社などへの航餐製造文脈がある。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PEK"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / independent_airline_caterer / PEK",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000206",
+    "name": "Beijing Eastern Air Food Company",
+    "country_region": "China",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "2024中国航空配餐大赛で頭等艙餐食設計賞に登場する東航系北京配餐会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PEK"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_caterer / PEK",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000207",
+    "name": "Xiamen Baixiang Air Kitchen Food Company",
+    "country_region": "China",
+    "company_type": "food_manufacturer_with_airline_catering",
+    "summary_ja": "2024中国航空配餐大赛で航空配餐技術創新賞に登場する厦門の空厨食品会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "XMN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / food_manufacturer_with_airline_catering / XMN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000208",
+    "name": "Ningbo Airport Catering Company",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "2024中国航空配餐大赛の主要空港配餐会社文脈で登場する寧波空港系候補。",
+    "facility_count": 1,
+    "airport_codes": [
+      "NGB"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / NGB",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000209",
+    "name": "Guizhou Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "CAAC系展示企業リストに掲載される貴州の航空食品会社。南聯貴陽分公司とは別名・別法人の可能性があり、関係確認が必要。",
+    "facility_count": 1,
+    "airport_codes": [
+      "KWE"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / KWE",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000210",
+    "name": "Tianyuan Aviation Food / Korla Airport Catering",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "庫爾勒空港で长龙航空の首航保障に登場する天缘航食。地域空港の配餐会社として保持。",
+    "facility_count": 1,
+    "airport_codes": [
+      "KRL"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / KRL",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000211",
+    "name": "Xi’an International Airport Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "西安咸陽国際空港を中心とする航空食品会社。西寧・楡林・寧夏・運城へのグループ展開文脈を持つ。",
+    "facility_count": 1,
+    "airport_codes": [
+      "XIY"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / XIY",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000212",
+    "name": "Xi’an International Airport Food Xining Branch",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "深航の西寧站点配餐サービスの拟选供应商として掲載される西安国際空港食品の西寧分公司。",
+    "facility_count": 1,
+    "airport_codes": [
+      "XNN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / XNN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000213",
+    "name": "Ningxia Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "銀川河東空港内に所在する寧夏の航空食品会社。西安国際空港食品の控股子会社文脈で保持。",
+    "facility_count": 1,
+    "airport_codes": [
+      "INC"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / INC",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000214",
+    "name": "Xi’an International Airport Food Yulin Branch",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "西安国際空港食品の楡林分公司として紹介される地域航空食品拠点。",
+    "facility_count": 1,
+    "airport_codes": [
+      "UYN"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / UYN",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000215",
+    "name": "Yuncheng Xigang Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_related_caterer",
+    "summary_ja": "西安国際空港食品の控股子会社文脈で掲載される運城の航空食品会社。",
+    "facility_count": 1,
+    "airport_codes": [
+      "YCU"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_related_caterer / YCU",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000216",
+    "name": "Guangxi Xiangfei Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "南寧呉圩国際空港の航空配餐楼に所在する航空食品会社。航空会社試餐会のCAAC News記事でも登場。",
+    "facility_count": 1,
+    "airport_codes": [
+      "NNG"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / NNG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000217",
+    "name": "Guizhou Renhuai Yifa Tianchu Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "local_station_caterer",
+    "summary_ja": "深航の遵義站点配餐サービスの拟选供应商として掲載される地域配餐会社。施設詳細は追加確認。",
+    "facility_count": 1,
+    "airport_codes": [
+      "ZYI"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / local_station_caterer / ZYI",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000218",
+    "name": "Guangzhou Nanland Aviation Food Jieyang Branch",
+    "country_region": "China",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "深航の揭陽站点配餐サービスの拟选供应商として掲載される南聯航空食品の揭陽分公司。",
+    "facility_count": 1,
+    "airport_codes": [
+      "SWA"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_caterer / SWA",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000219",
+    "name": "Anhui Eastern Air Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airline_owned_caterer",
+    "summary_ja": "合肥新橋国際空港内に所在し、東航・南航・川航などへ配餐サービスを提供する東航系航空食品会社として掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "HFE"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airline_owned_caterer / HFE",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000220",
+    "name": "Eastern Airports Group Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_owned_caterer",
+    "summary_ja": "東部機場集団系の航空食品会社として会社登録系情報に掲載。南京・江蘇空港群の航空食品ネットワーク参考として保持。",
+    "facility_count": 1,
+    "airport_codes": [
+      "NKG"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_owned_caterer / NKG",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000221",
+    "name": "Nagoya Air Catering Co., Ltd.",
+    "country_region": "Japan",
+    "company_type": "airport_airline_caterer",
+    "summary_ja": "名古屋エアケータリング株式会社。inflight catering for passengers departing from Central Japan International Airport。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "NGO"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / airport_airline_caterer / NGO",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000222",
+    "name": "LSG Sky Chefs Korea Busan Unit Reference",
+    "country_region": "South Korea",
+    "company_type": "location_reference",
+    "summary_ja": "LSG Sky Chefs Korea 釜山ユニット参考。Busan catering unit; 1,350 sqm production area; 4,000 meals/day historical capacity。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PUS"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "South Korea / location_reference / PUS",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000223",
+    "name": "Royal Holdings Fukuoka In-flight Catering Historical Unit",
+    "country_region": "Japan",
+    "company_type": "historical_unit",
+    "summary_ja": "ロイヤル福岡空港機内食履歴。historical in-flight catering and tea services at Fukuoka Airport。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "FUK"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / historical_unit / FUK",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000224",
+    "name": "Qingdao Civil Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "local_airport_caterer",
+    "summary_ja": "青岛民航食品有限公司。Qingdao civil aviation food company reference in airline cabin supply awards。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "TAO"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / local_airport_caterer / TAO",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000225",
+    "name": "Hunan Airport Industrial Aviation Food Service Branch",
+    "country_region": "China",
+    "company_type": "airport_group_branch",
+    "summary_ja": "湖南空港实业航空食品服务分公司。aviation food production base; phase II production building reference。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "CSX"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_group_branch / CSX",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000226",
+    "name": "Beijing Airport Catering Co., Ltd.",
+    "country_region": "China",
+    "company_type": "airport_catering_company_reference",
+    "summary_ja": "北京空港配餐有限公司。aviation catering related-party reference in HNA annual report。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "PEK"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / airport_catering_company_reference / PEK",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000227",
+    "name": "Shenzhen Aviation Food Co., Ltd.",
+    "country_region": "China",
+    "company_type": "local_airline_caterer",
+    "summary_ja": "深圳航空食品有限公司。catering service framework agreement reference in China Southern report。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "SZX"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "China / local_airline_caterer / SZX",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000228",
+    "name": "Centrair Business Jet Catering Arrangement Reference",
+    "country_region": "Japan",
+    "company_type": "airport_service_reference",
+    "summary_ja": "中部国際空港ビジネスジェットケータリング手配参考。business jet catering can be arranged with restaurant in adjacent luxury hotel。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "NGO"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / airport_service_reference / NGO",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000229",
+    "name": "Cezars Catering Centrair Lounge / Aichi Sky Expo Reference",
+    "country_region": "Japan",
+    "company_type": "airport_retail_lounge_reference",
+    "summary_ja": "Cezars Catering セントレア周辺ラウンジ・イベント参考。Centrair premium lounge and event catering ecosystem reference。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "NGO"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / airport_retail_lounge_reference / NGO",
+    "display_status": "表示可"
+  },
+  {
+    "company_id": "COM_000230",
+    "name": "PJC Private Jet Catering Japan Reference",
+    "country_region": "Japan",
+    "company_type": "private_aviation_caterer",
+    "summary_ja": "PJC Private Jet Catering 日本参考。private jet catering listed for Chubu Centrair in business aviation directory。信頼度付きで東アジア強化枠に掲載。",
+    "facility_count": 1,
+    "airport_codes": [
+      "NGO"
+    ],
+    "rice_menu": "no_menu_record",
+    "non_airline_food_manufacturing": "no_record",
+    "core_project_count": 0,
+    "card_line_ja": "Japan / private_aviation_caterer / NGO",
+    "display_status": "表示可"
+  }
+]
