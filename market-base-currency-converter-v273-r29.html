@@ -16,6 +16,29 @@
     @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
   </style>
 <link href="assets/css/market-base-desktop-navigation-v273-r32.css" rel="stylesheet">
+  <style>
+    /* R32U8G: currency flags use the bundled SVG artwork, never emoji glyphs. */
+    .flag{font-size:0}
+    .currency-flag-image{display:inline-flex;width:48px;height:33px;align-items:center;justify-content:center;overflow:hidden;border-radius:3px;background:#fff;box-shadow:0 0 0 1px rgba(15,23,42,.14)}
+    .currency-flag-image svg{display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}
+    .option-flag{display:flex;align-items:center;justify-content:center;width:43px;font-size:0}
+    .option-flag .currency-flag-image{width:36px;height:25px}
+    @media(max-width:520px){.currency-flag-image{width:44px;height:30px}.option-flag .currency-flag-image{width:34px;height:23px}}
+  </style>
+  <style id="currencyShellAlignmentR32U8I">
+    @media(max-width:899px){
+      body{padding-bottom:calc(92px + env(safe-area-inset-bottom))}
+      .bottom-nav{min-height:82px;padding:7px 8px calc(7px + env(safe-area-inset-bottom));box-shadow:0 -5px 18px rgba(15,47,85,.08);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+      .bottom-tab{min-height:68px;padding:6px 2px 5px;gap:3px;border-radius:14px;font-size:clamp(13px,3.55vw,15px)}
+      .bottom-tab-icon,.bottom-tab-icon svg{width:30px;height:30px}
+    }
+    @media(max-width:520px){
+      .topbar-inner{min-height:72px;padding:11px 18px 13px}
+      .brand{font-size:29px}
+      .header-actions{gap:6px}
+      .back,.top-update{min-height:36px;height:36px;padding:4px 9px;border-width:1px;border-radius:12px;font-size:15px}
+    }
+  </style>
 </head>
 <body>
   <div class="topbar">
@@ -26,16 +49,16 @@
     <h1>通貨換算</h1>
     <div class="status" aria-live="polite"><span id="rateStatus"><strong>最終更新</strong> 2026/07/16 11:54</span></div>
     <section class="cards" id="cards" aria-label="通貨換算カード">
-      <article class="currency-card active" data-code="JPY" data-index="0" tabindex="0" role="button"><div class="flag">🇯🇵</div><div class="card-main"><div class="card-title"><span class="code">JPY</span><span class="name">日本円</span></div><input class="amount-input" id="activeAmount" type="number" inputmode="decimal" min="0" step="any" value="1000" aria-label="日本円の金額"><div class="active-note">入力中</div></div><button class="change" type="button" data-change="0"><span>⇆</span><span>通貨<br>変更</span></button></article>
-      <article class="currency-card" data-code="USD" data-index="1" tabindex="0" role="button"><div class="flag">🇺🇸</div><div class="card-main"><div class="card-title"><span class="code">USD</span><span class="name">米ドル</span></div><div class="amount-display">$ 6.16</div></div><button class="change" type="button" data-change="1"><span>⇆</span><span>通貨<br>変更</span></button></article>
-      <article class="currency-card" data-code="CNY" data-index="2" tabindex="0" role="button"><div class="flag">🇨🇳</div><div class="card-main"><div class="card-title"><span class="code">CNY</span><span class="name">中国人民元</span></div><div class="amount-display">¥ 41.71</div></div><button class="change" type="button" data-change="2"><span>⇆</span><span>通貨<br>変更</span></button></article>
-      <article class="currency-card" data-code="TWD" data-index="3" tabindex="0" role="button"><div class="flag">🇹🇼</div><div class="card-main"><div class="card-title"><span class="code">TWD</span><span class="name">台湾ドル</span></div><div class="amount-display">NT$ 198.32</div></div><button class="change" type="button" data-change="3"><span>⇆</span><span>通貨<br>変更</span></button></article>
-      <article class="currency-card" data-code="EUR" data-index="4" tabindex="0" role="button"><div class="flag">🇪🇺</div><div class="card-main"><div class="card-title"><span class="code">EUR</span><span class="name">ユーロ</span></div><div class="amount-display">€ 5.39</div></div><button class="change" type="button" data-change="4"><span>⇆</span><span>通貨<br>変更</span></button></article>
-      <article class="currency-card" data-code="VND" data-index="5" tabindex="0" role="button"><div class="flag">🇻🇳</div><div class="card-main"><div class="card-title"><span class="code">VND</span><span class="name">ベトナムドン</span></div><div class="amount-display">₫ 161,169</div></div><button class="change" type="button" data-change="5"><span>⇆</span><span>通貨<br>変更</span></button></article>
-      <article class="currency-card" data-code="THB" data-index="6" tabindex="0" role="button"><div class="flag">🇹🇭</div><div class="card-main"><div class="card-title"><span class="code">THB</span><span class="name">タイバーツ</span></div><div class="amount-display">฿ 206.87</div></div><button class="change" type="button" data-change="6"><span>⇆</span><span>通貨<br>変更</span></button></article>
-      <article class="currency-card" data-code="KRW" data-index="7" tabindex="0" role="button"><div class="flag">🇰🇷</div><div class="card-main"><div class="card-title"><span class="code">KRW</span><span class="name">韓国ウォン</span></div><div class="amount-display">₩ 9,190</div></div><button class="change" type="button" data-change="7"><span>⇆</span><span>通貨<br>変更</span></button></article>
-      <article class="currency-card" data-code="SGD" data-index="8" tabindex="0" role="button"><div class="flag">🇸🇬</div><div class="card-main"><div class="card-title"><span class="code">SGD</span><span class="name">シンガポールドル</span></div><div class="amount-display">S$ 7.96</div></div><button class="change" type="button" data-change="8"><span>⇆</span><span>通貨<br>変更</span></button></article>
-      <article class="currency-card" data-code="HKD" data-index="9" tabindex="0" role="button"><div class="flag">🇭🇰</div><div class="card-main"><div class="card-title"><span class="code">HKD</span><span class="name">香港ドル</span></div><div class="amount-display">HK$ 48.34</div></div><button class="change" type="button" data-change="9"><span>⇆</span><span>通貨<br>変更</span></button></article>
+      <article class="currency-card active" data-code="JPY" data-index="0" tabindex="0" role="button"><div class="flag"></div><div class="card-main"><div class="card-title"><span class="code">JPY</span><span class="name">日本円</span></div><input class="amount-input" id="activeAmount" type="number" inputmode="decimal" min="0" step="any" value="1000" aria-label="日本円の金額"><div class="active-note">入力中</div></div><button class="change" type="button" data-change="0"><span>⇆</span><span>通貨<br>変更</span></button></article>
+      <article class="currency-card" data-code="USD" data-index="1" tabindex="0" role="button"><div class="flag"></div><div class="card-main"><div class="card-title"><span class="code">USD</span><span class="name">米ドル</span></div><div class="amount-display">$ 6.16</div></div><button class="change" type="button" data-change="1"><span>⇆</span><span>通貨<br>変更</span></button></article>
+      <article class="currency-card" data-code="CNY" data-index="2" tabindex="0" role="button"><div class="flag"></div><div class="card-main"><div class="card-title"><span class="code">CNY</span><span class="name">中国人民元</span></div><div class="amount-display">¥ 41.71</div></div><button class="change" type="button" data-change="2"><span>⇆</span><span>通貨<br>変更</span></button></article>
+      <article class="currency-card" data-code="TWD" data-index="3" tabindex="0" role="button"><div class="flag"></div><div class="card-main"><div class="card-title"><span class="code">TWD</span><span class="name">台湾ドル</span></div><div class="amount-display">NT$ 198.32</div></div><button class="change" type="button" data-change="3"><span>⇆</span><span>通貨<br>変更</span></button></article>
+      <article class="currency-card" data-code="EUR" data-index="4" tabindex="0" role="button"><div class="flag"></div><div class="card-main"><div class="card-title"><span class="code">EUR</span><span class="name">ユーロ</span></div><div class="amount-display">€ 5.39</div></div><button class="change" type="button" data-change="4"><span>⇆</span><span>通貨<br>変更</span></button></article>
+      <article class="currency-card" data-code="VND" data-index="5" tabindex="0" role="button"><div class="flag"></div><div class="card-main"><div class="card-title"><span class="code">VND</span><span class="name">ベトナムドン</span></div><div class="amount-display">₫ 161,169</div></div><button class="change" type="button" data-change="5"><span>⇆</span><span>通貨<br>変更</span></button></article>
+      <article class="currency-card" data-code="THB" data-index="6" tabindex="0" role="button"><div class="flag"></div><div class="card-main"><div class="card-title"><span class="code">THB</span><span class="name">タイバーツ</span></div><div class="amount-display">฿ 206.87</div></div><button class="change" type="button" data-change="6"><span>⇆</span><span>通貨<br>変更</span></button></article>
+      <article class="currency-card" data-code="KRW" data-index="7" tabindex="0" role="button"><div class="flag"></div><div class="card-main"><div class="card-title"><span class="code">KRW</span><span class="name">韓国ウォン</span></div><div class="amount-display">₩ 9,190</div></div><button class="change" type="button" data-change="7"><span>⇆</span><span>通貨<br>変更</span></button></article>
+      <article class="currency-card" data-code="SGD" data-index="8" tabindex="0" role="button"><div class="flag"></div><div class="card-main"><div class="card-title"><span class="code">SGD</span><span class="name">シンガポールドル</span></div><div class="amount-display">S$ 7.96</div></div><button class="change" type="button" data-change="8"><span>⇆</span><span>通貨<br>変更</span></button></article>
+      <article class="currency-card" data-code="HKD" data-index="9" tabindex="0" role="button"><div class="flag"></div><div class="card-main"><div class="card-title"><span class="code">HKD</span><span class="name">香港ドル</span></div><div class="amount-display">HK$ 48.34</div></div><button class="change" type="button" data-change="9"><span>⇆</span><span>通貨<br>変更</span></button></article>
     </section>
     <p class="notice">参考レートです。カード会社・両替所・銀行の手数料は含みません。</p>
   </main>
@@ -56,12 +79,14 @@
     </aside>
   </div>
 
+  <script src="assets/flags/flag-svg-data.js?v=r32u8g"></script>
   <script>
     'use strict';
     const LEGACY_DEFAULTS=['TWD','JPY','USD','CNY','EUR','VND','THB','KRW','SGD','HKD'];
     const DEFAULTS=['JPY','USD','CNY','TWD','EUR','VND','THB','KRW','SGD','HKD'];
     const CURRENCIES={AED:'UAEディルハム',AUD:'豪ドル',BRL:'ブラジルレアル',CAD:'カナダドル',CHF:'スイスフラン',CNY:'中国人民元',CZK:'チェココルナ',DKK:'デンマーククローネ',EUR:'ユーロ',GBP:'英ポンド',HKD:'香港ドル',HUF:'ハンガリーフォリント',IDR:'インドネシアルピア',ILS:'イスラエルシェケル',INR:'インドルピー',JPY:'日本円',KHR:'カンボジアリエル',KRW:'韓国ウォン',LAK:'ラオスキープ',MMK:'ミャンマーチャット',MOP:'マカオパタカ',MXN:'メキシコペソ',MYR:'マレーシアリンギット',NOK:'ノルウェークローネ',NZD:'NZドル',PHP:'フィリピンペソ',PLN:'ポーランドズロチ',RUB:'ロシアルーブル',SAR:'サウジリヤル',SEK:'スウェーデンクローナ',SGD:'シンガポールドル',THB:'タイバーツ',TRY:'トルコリラ',TWD:'台湾ドル',USD:'米ドル',VND:'ベトナムドン',ZAR:'南アフリカランド'};
-    const FLAGS={AED:'🇦🇪',AUD:'🇦🇺',BRL:'🇧🇷',CAD:'🇨🇦',CHF:'🇨🇭',CNY:'🇨🇳',CZK:'🇨🇿',DKK:'🇩🇰',EUR:'🇪🇺',GBP:'🇬🇧',HKD:'🇭🇰',HUF:'🇭🇺',IDR:'🇮🇩',ILS:'🇮🇱',INR:'🇮🇳',JPY:'🇯🇵',KHR:'🇰🇭',KRW:'🇰🇷',LAK:'🇱🇦',MMK:'🇲🇲',MOP:'🇲🇴',MXN:'🇲🇽',MYR:'🇲🇾',NOK:'🇳🇴',NZD:'🇳🇿',PHP:'🇵🇭',PLN:'🇵🇱',RUB:'🇷🇺',SAR:'🇸🇦',SEK:'🇸🇪',SGD:'🇸🇬',THB:'🇹🇭',TRY:'🇹🇷',TWD:'🇹🇼',USD:'🇺🇸',VND:'🇻🇳',ZAR:'🇿🇦'};
+    const CURRENCY_FLAG_ENTITY={AED:'AE',AUD:'AU',BRL:'BR',CAD:'CA',CHF:'CH',CNY:'CN',CZK:'CZ',DKK:'DK',EUR:'EU',GBP:'GB',HKD:'HK',HUF:'HU',IDR:'ID',ILS:'IL',INR:'IN',JPY:'JP',KHR:'KH',KRW:'KR',LAK:'LA',MMK:'MM',MOP:'MO',MXN:'MX',MYR:'MY',NOK:'NO',NZD:'NZ',PHP:'PH',PLN:'PL',RUB:'RU',SAR:'SA',SEK:'SE',SGD:'SG',THB:'TH',TRY:'TR',TWD:'TW',USD:'US',VND:'VN',ZAR:'ZA'};
+    const EU_FLAG_SVG='<svg class="flag-inline-svg" viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#039"/><g fill="#fc0"><circle cx="30" cy="7" r="1.7"/><circle cx="36.5" cy="8.7" r="1.7"/><circle cx="41.3" cy="13.5" r="1.7"/><circle cx="43" cy="20" r="1.7"/><circle cx="41.3" cy="26.5" r="1.7"/><circle cx="36.5" cy="31.3" r="1.7"/><circle cx="30" cy="33" r="1.7"/><circle cx="23.5" cy="31.3" r="1.7"/><circle cx="18.7" cy="26.5" r="1.7"/><circle cx="17" cy="20" r="1.7"/><circle cx="18.7" cy="13.5" r="1.7"/><circle cx="23.5" cy="8.7" r="1.7"/></g></svg>';
     const SYMBOLS={AED:'د.إ',AUD:'A$',BRL:'R$',CAD:'C$',CHF:'CHF',CNY:'¥',EUR:'€',GBP:'£',HKD:'HK$',IDR:'Rp',INR:'₹',JPY:'¥',KHR:'៛',KRW:'₩',LAK:'₭',MMK:'K',MOP:'MOP$',MXN:'MX$',MYR:'RM',PHP:'₱',RUB:'₽',SAR:'﷼',SGD:'S$',THB:'฿',TRY:'₺',TWD:'NT$',USD:'$',VND:'₫',ZAR:'R'};
     const BUILT_IN_DATE='2026-07-16',BUILT_IN_UPDATED_AT=Date.parse('2026-07-16T11:54:00+08:00'),BUILT_IN_TWD={TWD:1,JPY:5.0424,USD:.03106,CNY:.21032,EUR:.02716,VND:812.68,THB:1.0431,KRW:46.34,SGD:.04012,HKD:.24377};
     const $=s=>document.querySelector(s),cards=$('#cards'),rateStatus=$('#rateStatus');
@@ -74,10 +99,11 @@
     let inputAmount=Number(storageGet('mb_currency_amount'))||1000,rates=null,rateDate='',lastUpdatedAt=0,usedCache=false,replaceIndex=0,touchState=null,ignoreNextClick=false;
 
     function formatNumber(value,code){if(!Number.isFinite(value))return '—';const abs=Math.abs(value);let max=2;if(['JPY','KRW','VND','IDR','KHR','LAK','MMK'].includes(code)||abs>=10000)max=0;else if(abs<1)max=4;return new Intl.NumberFormat('ja-JP',{maximumFractionDigits:max}).format(value)}
+    function currencyFlagMarkup(code){const key=CURRENCY_FLAG_ENTITY[code]||'',raw=key==='EU'?EU_FLAG_SVG:(window.MARKET_BASE_FLAG_SVG_DATA&&window.MARKET_BASE_FLAG_SVG_DATA[key]);if(!raw)return '<span class="currency-flag-image" aria-hidden="true"></span>';const svg=String(raw).replace('<svg ','<svg preserveAspectRatio="xMidYMid meet" ');return `<span class="currency-flag-image" role="img" aria-label="${CURRENCIES[code]||code}の旗">${svg}</span>`}
     function rawNumber(value){if(!Number.isFinite(value))return '';return String(Math.round(value*10000)/10000)}
     function converted(code){return code===baseCode?inputAmount:(rates?.[code]!==undefined?inputAmount*rates[code]:NaN)}
     function cardHTML(code,index){const active=code===baseCode,value=converted(code);return `<article class="currency-card${active?' active':''}" data-code="${code}" data-index="${index}" tabindex="0" role="button" aria-label="${CURRENCIES[code]}。${active?'現在入力中':'押すとこの通貨で入力'}">
-      <div class="flag" aria-hidden="true">${FLAGS[code]||'💱'}</div><div class="card-main"><div class="card-title"><span class="code">${code}</span><span class="name">${CURRENCIES[code]}</span></div>
+      <div class="flag">${currencyFlagMarkup(code)}</div><div class="card-main"><div class="card-title"><span class="code">${code}</span><span class="name">${CURRENCIES[code]}</span></div>
       ${active?`<input class="amount-input" id="activeAmount" type="number" inputmode="decimal" min="0" step="any" value="${rawNumber(inputAmount)}" aria-label="${CURRENCIES[code]}の金額"><div class="active-note">入力中</div>`:`<div class="amount-display">${SYMBOLS[code]||''} ${formatNumber(value,code)}</div>`}</div>
       <button class="change" type="button" data-change="${index}" aria-label="${CURRENCIES[code]}を別の通貨に変更"><span>⇆</span><span>通貨<br>変更</span></button></article>`}
     function renderCards(focus=false){cards.classList.toggle('loading',!rates);cards.innerHTML=favorites.map(cardHTML).join('');if(focus){const el=$('#activeAmount');if(el){el.focus();el.select()}}}
@@ -98,7 +124,7 @@
     $('#refresh').addEventListener('click',()=>getRates(true));
 
     const drawer=$('#drawerLayer'),search=$('#currencySearch'),list=$('#currencyList');
-    function renderCurrencyList(query=''){const q=query.trim().toLowerCase();list.innerHTML=Object.keys(CURRENCIES).filter(code=>!q||code.toLowerCase().includes(q)||CURRENCIES[code].toLowerCase().includes(q)).map(code=>`<button class="currency-option${favorites[replaceIndex]===code?' selected':''}" type="button" data-pick="${code}"><span class="option-flag">${FLAGS[code]||'💱'}</span><span class="option-title">${code} <span class="option-name">${CURRENCIES[code]}</span></span>${favorites.includes(code)?'<span class="shown">表示中</span>':''}</button>`).join('')}
+    function renderCurrencyList(query=''){const q=query.trim().toLowerCase();list.innerHTML=Object.keys(CURRENCIES).filter(code=>!q||code.toLowerCase().includes(q)||CURRENCIES[code].toLowerCase().includes(q)).map(code=>`<button class="currency-option${favorites[replaceIndex]===code?' selected':''}" type="button" data-pick="${code}"><span class="option-flag">${currencyFlagMarkup(code)}</span><span class="option-title">${code} <span class="option-name">${CURRENCIES[code]}</span></span>${favorites.includes(code)?'<span class="shown">表示中</span>':''}</button>`).join('')}
     function openDrawer(index=0){replaceIndex=Math.max(0,Math.min(9,index));search.value='';renderCurrencyList();drawer.classList.add('open');drawer.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';if(matchMedia('(min-width:800px)').matches)setTimeout(()=>search.focus(),260)}
     function closeDrawer(){drawer.classList.remove('open');drawer.setAttribute('aria-hidden','true');document.body.style.overflow=''}
     function replaceCurrency(newCode){const oldCode=favorites[replaceIndex],existing=favorites.indexOf(newCode);if(existing>=0&&existing!==replaceIndex){favorites[existing]=oldCode;favorites[replaceIndex]=newCode}else favorites[replaceIndex]=newCode;const activeReplaced=baseCode===oldCode;if(activeReplaced)baseCode=newCode;storageSet('mb_currency_favorites',JSON.stringify(favorites));storageSet('mb_currency_base',baseCode);closeDrawer();renderCards();getRates(true)}
