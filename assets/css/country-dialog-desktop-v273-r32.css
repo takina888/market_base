@@ -1,0 +1,46 @@
+/* R32: keep the country detail comfortable on desktop without changing phone layout. */
+@media (min-width: 760px) {
+  #detailDialog {
+    width: min(920px, calc(100vw - 72px)) !important;
+    max-width: min(920px, calc(100vw - 72px)) !important;
+    max-height: calc(100dvh - 48px) !important;
+    padding: 22px !important;
+    border-radius: 22px !important;
+  }
+
+  #detailDialog #detailContent {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  #detailDialog .stats-grid,
+  #detailDialog .market-data-grid,
+  #detailDialog .country-profile-facts,
+  #detailDialog .country-profile-info-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* The active-view rule used a more specific flex selector and exposed the
+   next full-width tab at the right edge. Desktop always uses a six-column row. */
+@media (min-width: 900px) {
+  body.mb-view-active .tabs {
+    display: grid !important;
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    overflow: visible !important;
+    scrollbar-width: none !important;
+  }
+
+  body.mb-view-active .tabs .tab {
+    width: 100% !important;
+    min-width: 0 !important;
+    flex: none !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  #detailDialog {
+    width: min(1040px, calc(100vw - 120px)) !important;
+    max-width: min(1040px, calc(100vw - 120px)) !important;
+  }
+}
