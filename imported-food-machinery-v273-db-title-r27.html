@@ -236,8 +236,11 @@ main{margin-top:26px}.intro{border-color:#D9E2EA;border-radius:18px;padding:26px
 </style>
 <link href="assets/css/specialist-final-unified-v273-r21.css" rel="stylesheet"/>
 <link href="assets/css/specialist-header-unified-v273-r30.css" rel="stylesheet"/>
-<link href="assets/css/market-base-translation-v273-r31.css" rel="stylesheet"/>
 <link href="assets/css/market-base-desktop-navigation-v273-r32.css" rel="stylesheet"/>
+<style>
+.company-expand-all{display:flex;width:max-content;margin:0 0 14px auto;align-items:center;justify-content:center;min-height:42px;padding:8px 14px;border:1px solid #1769ff;border-radius:999px;background:#fff;color:#0b4fbd;font:inherit;font-weight:900;cursor:pointer}
+.company-expand-all:hover{background:#eef5ff}.company-expand-all:focus-visible{outline:3px solid rgba(23,105,255,.22);outline-offset:2px}
+</style>
 </head>
 
 <body><header class="mbu-header"><div class="mbu-header-inner"><div class="mbu-brand">MARKET BASE</div><div class="mbu-toolbar"><div class="mbu-actions"><a class="mbu-button" href="market-base-v273-country-profile-r28.html?from=specialist">戻る</a><button class="mbu-button" data-mbu-refresh type="button">更新</button></div><div class="mbu-meta">MACHINERY</div></div></div></header><main>
@@ -1349,6 +1352,17 @@ comas、frewitt、mg2、omveなどの食品・飲料設備を扱う。
 </article></section></main>
 <script>
 const q=document.getElementById('q'),region=document.getElementById('region'),country=document.getElementById('country'),category=document.getElementById('category'),brand=document.getElementById('brand'),count=document.getElementById('count'),cards=[...document.querySelectorAll('.company')];
+cards.forEach(company=>{
+ const sections=[...company.querySelectorAll('details.section')];
+ if(!sections.length)return;
+ const button=document.createElement('button');
+ button.type='button';button.className='company-expand-all';button.textContent='すべてを見る';button.setAttribute('aria-expanded','false');
+ const sync=()=>{const allOpen=sections.every(section=>section.open);button.textContent=allOpen?'すべて閉じる':'すべてを見る';button.setAttribute('aria-expanded',String(allOpen))};
+ button.addEventListener('click',()=>{const openNext=!sections.every(section=>section.open);sections.forEach(section=>{section.open=openNext});sync()});
+ sections.forEach(section=>section.addEventListener('toggle',sync));
+ company.querySelector('.company-head')?.insertAdjacentElement('afterend',button);
+ sync();
+});
 const countryEntries=[{"country":"中国","region":"東アジア"},{"country":"台湾","region":"東アジア"},{"country":"韓国","region":"東アジア"},{"country":"香港","region":"東アジア"},{"country":"ベトナム","region":"東南アジア"},{"country":"タイ","region":"東南アジア"},{"country":"マレーシア","region":"東南アジア"},{"country":"シンガポール","region":"東南アジア"},{"country":"インドネシア","region":"東南アジア"},{"country":"フィリピン","region":"東南アジア"},{"country":"カンボジア","region":"東南アジア"},{"country":"ラオス","region":"東南アジア"},{"country":"ミャンマー","region":"東南アジア"},{"country":"ブルネイ","region":"東南アジア"},{"country":"オーストラリア","region":"オセアニア"},{"country":"イギリス","region":"ヨーロッパ"},{"country":"アイルランド","region":"ヨーロッパ"},{"country":"フランス","region":"ヨーロッパ"},{"country":"ドイツ","region":"ヨーロッパ"},{"country":"イタリア","region":"ヨーロッパ"},{"country":"スペイン","region":"ヨーロッパ"},{"country":"ポルトガル","region":"ヨーロッパ"},{"country":"オランダ","region":"ヨーロッパ"},{"country":"ベルギー","region":"ヨーロッパ"},{"country":"スイス","region":"ヨーロッパ"},{"country":"オーストリア","region":"ヨーロッパ"},{"country":"スウェーデン","region":"ヨーロッパ"},{"country":"ノルウェー","region":"ヨーロッパ"},{"country":"デンマーク","region":"ヨーロッパ"},{"country":"フィンランド","region":"ヨーロッパ"},{"country":"ポーランド","region":"ヨーロッパ"},{"country":"チェコ","region":"ヨーロッパ"},{"country":"スロバキア","region":"ヨーロッパ"},{"country":"ハンガリー","region":"ヨーロッパ"},{"country":"スロベニア","region":"ヨーロッパ"},{"country":"ルーマニア","region":"ヨーロッパ"},{"country":"ブルガリア","region":"ヨーロッパ"},{"country":"ギリシャ","region":"ヨーロッパ"},{"country":"キプロス","region":"ヨーロッパ"},{"country":"エストニア","region":"ヨーロッパ"},{"country":"ラトビア","region":"ヨーロッパ"},{"country":"リトアニア","region":"ヨーロッパ"},{"country":"モルドバ","region":"ヨーロッパ"},{"country":"ウクライナ","region":"ヨーロッパ"},{"country":"トルコ","region":"ヨーロッパ"},{"country":"欧州（英国・ノルウェー・ポーランド）","region":"ヨーロッパ"},{"country":"米国","region":"アメリカ"},{"country":"カナダ","region":"アメリカ"},{"country":"カナダ・米国","region":"アメリカ"},{"country":"インド","region":"南アジア"},{"country":"スリランカ","region":"南アジア"},{"country":"バングラデシュ","region":"南アジア"},{"country":"ネパール","region":"南アジア"},{"country":"UAE","region":"中東"},{"country":"サウジアラビア","region":"中東"},{"country":"イスラエル","region":"中東"}],regionOrder=["東アジア","東南アジア","オセアニア","ヨーロッパ","アメリカ","南アジア","中東","その他地域"];
 function rebuildCountries(){const selected=country.value;country.innerHTML='<option value="">すべての国・地域</option>';const regions=region.value?[region.value]:regionOrder;regions.forEach(regionName=>{const entries=countryEntries.filter(entry=>entry.region===regionName);if(!entries.length)return;const group=document.createElement('optgroup');group.label=regionName;entries.forEach(entry=>{const option=document.createElement('option');option.value=entry.country;option.textContent=entry.country;group.appendChild(option)});country.appendChild(group)});if([...country.options].some(option=>option.value===selected))country.value=selected;}
 function applyFilters(){const query=q.value.trim().toLowerCase();let shown=0;cards.forEach(card=>{const brands=(card.dataset.brands||'').split('|'),categories=(card.dataset.categories||'').split('|');const show=(!query||card.dataset.search.includes(query))&&(!region.value||card.dataset.region===region.value)&&(!country.value||card.dataset.country===country.value)&&(!category.value||categories.includes(category.value))&&(!brand.value||brands.includes(brand.value));card.classList.toggle('hidden',!show);if(show)shown++;});count.textContent=shown;}
@@ -1392,6 +1406,5 @@ region.value='東アジア';country.value='台湾';rebuildCountries();applyFilte
   setTimeout(applyInboundSearch,320);
 })();
 </script><script src="assets/js/specialist-header-unified-v273-r30.js"></script>
-<script src="assets/js/market-base-translation-v273-r31.js"></script>
 <script src="assets/js/market-base-desktop-navigation-v273-r32.js"></script>
 </body></html>

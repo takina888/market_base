@@ -8,8 +8,8 @@
 <title>MARKET BASE</title>
 <meta content="MARKET BASEで国・地域、ランキング、比較、学校給食、米データ、日本関連情報を見られます。" name="description"/>
 <link href="assets/css/styles-v273-country-profile-r28.css" rel="stylesheet"/>
-<meta content="V273_EIGHT_SPECIALIST_DB_R32U8_20260716" name="market-base-build"/>
-<script>try{if(new URLSearchParams(location.search).get('from')==='specialist')document.documentElement.classList.add('mb-splash-skip')}catch(_){}</script>
+<meta content="V273_EIGHT_SPECIALIST_DB_R32U8_NAV_UPDATE_20260716" name="market-base-build"/>
+<script>try{const splashKey='market_base_splash_seen_v273';const fromPage=new URLSearchParams(location.search).get('from');const skipSplash=sessionStorage.getItem(splashKey)==='1'||fromPage==='specialist'||fromPage==='currency';if(skipSplash)document.documentElement.classList.add('mb-splash-skip');sessionStorage.setItem(splashKey,'1')}catch(_){}</script>
 <style id="mbAuthStyle">
 .mb-splash-skip .app-splash{display:none!important}.app-splash{position:fixed;inset:0;z-index:10050;display:grid;place-items:center;background:linear-gradient(180deg,#F8FBFF 0%,#EDF5FF 100%);transition:opacity .34s ease,visibility .34s ease;pointer-events:none}.app-splash.is-hidden{opacity:0;visibility:hidden}.splash-card{display:grid;justify-items:center;gap:10px;transform:translateY(-10px);animation:splashRise .62s ease both}.splash-mark{width:74px;height:74px;border-radius:24px;background:linear-gradient(135deg,#0A2D68,#2E66D0);display:grid;place-items:center;color:#fff;font-weight:950;letter-spacing:.05em;font-size:26px;box-shadow:0 18px 50px rgba(10,45,104,.22)}.splash-title{font-size:30px;line-height:1;font-weight:950;letter-spacing:.06em;color:#0A2D68}.splash-line{font-size:13px;font-weight:900;color:#6B7890;letter-spacing:.12em;text-transform:uppercase}@keyframes splashRise{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:translateY(-10px) scale(1)}}
 .mb-auth-gate{position:fixed;inset:0;z-index:10040;display:grid;place-items:center;padding:24px;background:linear-gradient(180deg,#F8FBFF 0%,#EAF3FF 100%);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .24s ease,visibility .24s ease}.mb-auth-ready .mb-auth-gate{opacity:1;visibility:visible;pointer-events:auto}.mb-auth-ok .mb-auth-gate{display:none}.mb-auth-card{width:min(420px,100%);padding:30px 24px;border-radius:30px;background:rgba(255,255,255,.96);box-shadow:0 24px 70px rgba(10,45,104,.18);border:1px solid rgba(196,213,235,.9);display:grid;gap:14px;justify-items:center}.mb-auth-logo{width:68px;height:68px;border-radius:22px;background:linear-gradient(135deg,#0A2D68,#2E66D0);display:grid;place-items:center;color:#fff;font-weight:950;font-size:24px;box-shadow:0 16px 36px rgba(10,45,104,.20)}.mb-auth-card h2{margin:0;color:#0A2D68;font-size:26px;letter-spacing:.04em}.mb-auth-card p{margin:0;color:#5f6f88;font-size:14px;font-weight:800}.mb-auth-input{width:100%;height:52px;border-radius:18px;border:1px solid #c9d8ea;background:#f8fbff;color:#0b1b36;font-size:24px;font-weight:900;text-align:center;letter-spacing:.14em;outline:none}.mb-auth-input:focus{border-color:#2E66D0;box-shadow:0 0 0 4px rgba(46,102,208,.14);background:#fff}.mb-auth-button{width:100%;height:48px;border:0;border-radius:18px;background:#0B3A82;color:#fff;font-size:16px;font-weight:900;cursor:pointer}.mb-auth-error{min-height:18px;color:#c62828!important;font-size:13px!important}.mb-auth-pending{overflow:hidden}@media (max-width:520px){.splash-mark{width:66px;height:66px;border-radius:22px;font-size:23px}.splash-title{font-size:27px}.mb-auth-card{padding:26px 20px;border-radius:26px}.mb-auth-input{height:50px}}
@@ -19,7 +19,6 @@
 <link href="assets/icons/apple-touch-icon-180.png" rel="apple-touch-icon" sizes="180x180"/>
 <meta content="MARKET BASE" name="application-name"/>
 <meta content="MARKET BASE" name="apple-mobile-web-app-title"/>
-<link href="assets/css/market-base-translation-v273-r31.css" rel="stylesheet"/>
 <link href="assets/css/country-dialog-desktop-v273-r32.css" rel="stylesheet"/>
 <link href="assets/css/market-base-desktop-navigation-v273-r32.css" rel="stylesheet"/>
 <link href="assets/css/country-detail-blue-universal-v273-r32u.css" rel="stylesheet"/>
@@ -264,8 +263,8 @@
 <nav aria-label="メインナビゲーション" class="tabs">
 <button class="tab" data-i18n="tabCountries" data-view="countries">国・地域</button>
 <button class="tab" data-view="rice">米データ</button>
-<button class="tab" data-view="school">学校給食</button>
-<button class="tab" data-view="japan">日本関連</button>
+<a class="tab tab-link" href="market-base-currency-converter-v273-r29.html">為替換算</a>
+<button class="tab tab-search" data-view="global-search"><span class="tab-search-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg></span><span>検索</span></button>
 <button class="tab" data-i18n="tabRankings" data-view="rankings">ランキング</button>
 <button class="tab" data-i18n="tabCompare" data-view="compare">比較</button>
 </nav>
@@ -411,8 +410,8 @@
 <div><h3 data-i18n="compareTitle">比較</h3><p data-i18n="compareLead">2つの国・地域を選び、5つの基本指標を横並びで見られます。</p></div>
 </div>
 <div class="compare-selects">
-<select id="compareA"></select>
-<select id="compareB"></select>
+<div class="compare-side-select"><strong>比較A</strong><label>地域<select id="compareRegionA" aria-label="比較Aの地域"></select></label><label>国・地域／都道府県<select id="compareA" aria-label="比較Aの国・地域または都道府県"></select></label></div>
+<div class="compare-side-select"><strong>比較B</strong><label>地域<select id="compareRegionB" aria-label="比較Bの地域"></select></label><label>国・地域／都道府県<select id="compareB" aria-label="比較Bの国・地域または都道府県"></select></label></div>
 </div>
 <p class="notice compare-prefecture-note">「日本の都道府県（参考）」は比較画面のみで選択できます。国一覧・196件表示・世界ランキングには含まれません。</p>
 <div class="compare-table" id="compareTable"></div>
@@ -501,7 +500,6 @@
   },document.documentElement.classList.contains('mb-splash-skip')?0:860);
 })();
 </script>
-<script src="assets/js/market-base-translation-v273-r31.js"></script>
 <script src="assets/js/market-base-desktop-navigation-v273-r32.js"></script>
 </body>
 </html>
