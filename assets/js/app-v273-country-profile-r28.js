@@ -499,8 +499,8 @@ function openGlobalSearch(query){
 }
 function applyPreset(pair){
   const [a,b]=pair.split(',');
-  if(entities.some(e=>e.entity_id===a)) document.getElementById('compareA').value=a;
-  if(entities.some(e=>e.entity_id===b)) document.getElementById('compareB').value=b;
+  setCompareSelection('A',a);
+  setCompareSelection('B',b);
   renderCompare(); switchView('compare');
 }
 function applyI18n(){
@@ -515,6 +515,11 @@ function applyI18n(){
 function switchView(view, opts={}){
   const target=document.getElementById(view);
   if(!target) return;
+  if(view==='global-search'){
+    renderGlobalSearch(document.getElementById('globalSearchInput')?.value || '');
+    updateGlobalSearchScopeButtons();
+    renderGlobalDbLinks();
+  }
   document.body.classList.add('mb-view-active');
   document.querySelectorAll('.tab,.bottom-tab,.view').forEach(x=>x.classList.remove('active'));
   document.querySelector(`.tab[data-view="${view}"]`)?.classList.add('active');
@@ -1769,6 +1774,34 @@ function renderCompare(){
     ${hasPrefecture?'':compareSection('日本関連','🇯🇵',japanRows,a,b)}
   </div>`;
 }
+
+function compareRegionValues(){
+  const values=[...new Set(entities.map(e=>e.region).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ja'));
+  return ['日本',...values];
+}
+function compareTargetsForRegion(regionValue){
+  if(regionValue==='日本'){
+    const japan=entities.find(e=>e.entity_id==='JP');
+    return (japan?[japan]:[]).concat(prefectureReferences);
+  }
+  return entities.filter(e=>e.region===regionValue && e.entity_id!=='JP').sort((a,b)=>nameOf(a).localeCompare(nameOf(b),'ja'));
+}
+function populateCompareTarget(side,preferredId){
+  const region=document.getElementById(`compareRegion${side}`).value;
+  const target=document.getElementById(`compare${side}`);
+  const choices=compareTargetsForRegion(region);
+  target.innerHTML=choices.map(e=>`<option value="${safe(e.entity_id)}">${isPrefectureReference(e)?'📍 ':flagText(e)+' '}${safe(nameOf(e))}${isPrefectureReference(e)?'（参考）':''}</option>`).join('');
+  if(choices.some(e=>e.entity_id===preferredId)) target.value=preferredId;
+  else if(choices[0]) target.value=choices[0].entity_id;
+}
+function setCompareSelection(side,entityId){
+  const entity=comparisonEntities().find(e=>e.entity_id===entityId);
+  if(!entity) return;
+  const region=isPrefectureReference(entity)||entity.entity_id==='JP' ? '日本' : entity.region;
+  const regionSelect=document.getElementById(`compareRegion${side}`);
+  if(regionSelect) regionSelect.value=region;
+  populateCompareTarget(side,entityId);
+}
 function renderSources(){
   const metricFilter=document.getElementById('sourceMetricFilter').value;
   const statusFilter=document.getElementById('sourceStatusFilter').value;
@@ -1927,12 +1960,11 @@ function initControls(){
   document.getElementById('metricSelect').innerHTML=rankingOptionGroupsHtml();
   document.getElementById('sourceMetricFilter').innerHTML=`<option value="all">${t('allMetrics')}</option>`+metricOpts;
   document.getElementById('sourceStatusFilter').innerHTML=`<option value="all">${t('allStatus')}</option><option value="missing">${t('missingOnly')}</option><option value="ready">${t('readyOnly')}</option>`;
-  const countryOpts=entities.map(e=>`<option value="${safe(e.entity_id)}">${flagText(e)} ${safe(nameOf(e))}</option>`).join('');
-  const prefectureOpts=prefectureReferences.map(e=>`<option value="${safe(e.entity_id)}">${safe(nameOf(e))}（参考）</option>`).join('');
-  const opts=`<optgroup label="国・地域（196）">${countryOpts}</optgroup><optgroup label="日本の都道府県（参考・比較のみ）">${prefectureOpts}</optgroup>`;
-  document.getElementById('compareA').innerHTML=opts; document.getElementById('compareB').innerHTML=opts;
-  document.getElementById('compareA').value=entities.some(e=>e.entity_id==='US')?'US':entities[0]?.entity_id;
-  document.getElementById('compareB').value=entities.some(e=>e.entity_id==='JP')?'JP':entities[1]?.entity_id;
+  const compareRegionOptions=compareRegionValues().map(region=>`<option value="${safe(region)}">${safe(region)}</option>`).join('');
+  document.getElementById('compareRegionA').innerHTML=compareRegionOptions;
+  document.getElementById('compareRegionB').innerHTML=compareRegionOptions;
+  setCompareSelection('A',entities.some(e=>e.entity_id==='US')?'US':entities[0]?.entity_id);
+  setCompareSelection('B',entities.some(e=>e.entity_id==='JP')?'JP':entities[1]?.entity_id);
   // V233: 比較タブは初期状態から「アメリカ × 日本」の結果を表示する。
   renderCompare();
 }
@@ -2260,7 +2292,7 @@ async function refreshMarketBaseCache(){
   }
 }
 
-document.querySelectorAll('.tab').forEach(btn=>btn.addEventListener('click',()=>switchView(btn.dataset.view)));
+document.querySelectorAll('.tab[data-view]').forEach(btn=>btn.addEventListener('click',()=>switchView(btn.dataset.view)));
 document.querySelectorAll('.bottom-tab[data-view]').forEach(btn=>btn.addEventListener('click',()=>switchView(btn.dataset.view)));
 document.querySelectorAll('.bottom-tab[data-home]').forEach(btn=>btn.addEventListener('click',()=>showHome()));
 document.querySelectorAll('[data-jump]').forEach(btn=>btn.addEventListener('click',()=>switchView(btn.dataset.jump)));
@@ -2296,6 +2328,8 @@ document.getElementById('incomeFilter')?.addEventListener('change',renderCountri
 document.getElementById('gapOnlyToggle')?.addEventListener('change',renderCountries);
 document.getElementById('metricSelect').addEventListener('change',renderRankings);
 document.getElementById('rankLimit')?.addEventListener('change',renderRankings);
+document.getElementById('compareRegionA').addEventListener('change',()=>{populateCompareTarget('A');renderCompare();});
+document.getElementById('compareRegionB').addEventListener('change',()=>{populateCompareTarget('B');renderCompare();});
 document.getElementById('compareA').addEventListener('change',renderCompare);
 document.getElementById('compareB').addEventListener('change',renderCompare);
 document.getElementById('sourceMetricFilter').addEventListener('change',renderSources);
