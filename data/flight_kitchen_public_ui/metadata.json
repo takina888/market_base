@@ -1,0 +1,27 @@
+{
+  "dataset": "WORLD_FLIGHT_KITCHEN_DB",
+  "version": "batch069_generated_json_public_ui",
+  "generated_at": "2026-07-07T01:45:25.884486+00:00",
+  "source_master": "WORLD_FLIGHT_KITCHEN_DB_MASTER_v1_batch068_FINAL_HANDOFF/02_MASTER_CSV",
+  "public_json_policy": {
+    "csv_is_source_of_truth": true,
+    "public_json_excludes_internal_notes": true,
+    "menu_not_facility_confirmation": true,
+    "non_airline_food_not_facility_confirmation": true,
+    "project_reference_items_not_counted_as_core": true,
+    "public_json_excludes_candidate_records": true,
+    "public_json_excludes_quality_logs": true
+  },
+  "counts": {
+    "companies": 230,
+    "company_cards": 230,
+    "company_details": 230,
+    "facilities": 270,
+    "airports": 219,
+    "airlines": 51,
+    "projects": 30,
+    "menus": 66,
+    "non_airline_food_business": 87,
+    "food_scope_flags": 230
+  }
+}
