@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#1769FF" name="theme-color"/>
+<title>MARKET BASE</title>
+<meta content="MARKET BASEで国・地域、ランキング、比較、学校給食、米データ、日本関連情報を見られます。" name="description"/>
+<link href="assets/css/styles-v273-db-title-r27.css" rel="stylesheet"/>
+<meta content="V273_DB_TITLE_R27_20260716" name="market-base-build"/>
+<script>try{if(new URLSearchParams(location.search).get('from')==='specialist')document.documentElement.classList.add('mb-splash-skip')}catch(_){}</script>
+<style id="mbAuthStyle">
+.mb-splash-skip .app-splash{display:none!important}.app-splash{position:fixed;inset:0;z-index:10050;display:grid;place-items:center;background:linear-gradient(180deg,#F8FBFF 0%,#EDF5FF 100%);transition:opacity .34s ease,visibility .34s ease;pointer-events:none}.app-splash.is-hidden{opacity:0;visibility:hidden}.splash-card{display:grid;justify-items:center;gap:10px;transform:translateY(-10px);animation:splashRise .62s ease both}.splash-mark{width:74px;height:74px;border-radius:24px;background:linear-gradient(135deg,#0A2D68,#2E66D0);display:grid;place-items:center;color:#fff;font-weight:950;letter-spacing:.05em;font-size:26px;box-shadow:0 18px 50px rgba(10,45,104,.22)}.splash-title{font-size:30px;line-height:1;font-weight:950;letter-spacing:.06em;color:#0A2D68}.splash-line{font-size:13px;font-weight:900;color:#6B7890;letter-spacing:.12em;text-transform:uppercase}@keyframes splashRise{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:translateY(-10px) scale(1)}}
+.mb-auth-gate{position:fixed;inset:0;z-index:10040;display:grid;place-items:center;padding:24px;background:linear-gradient(180deg,#F8FBFF 0%,#EAF3FF 100%);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .24s ease,visibility .24s ease}.mb-auth-ready .mb-auth-gate{opacity:1;visibility:visible;pointer-events:auto}.mb-auth-ok .mb-auth-gate{display:none}.mb-auth-card{width:min(420px,100%);padding:30px 24px;border-radius:30px;background:rgba(255,255,255,.96);box-shadow:0 24px 70px rgba(10,45,104,.18);border:1px solid rgba(196,213,235,.9);display:grid;gap:14px;justify-items:center}.mb-auth-logo{width:68px;height:68px;border-radius:22px;background:linear-gradient(135deg,#0A2D68,#2E66D0);display:grid;place-items:center;color:#fff;font-weight:950;font-size:24px;box-shadow:0 16px 36px rgba(10,45,104,.20)}.mb-auth-card h2{margin:0;color:#0A2D68;font-size:26px;letter-spacing:.04em}.mb-auth-card p{margin:0;color:#5f6f88;font-size:14px;font-weight:800}.mb-auth-input{width:100%;height:52px;border-radius:18px;border:1px solid #c9d8ea;background:#f8fbff;color:#0b1b36;font-size:24px;font-weight:900;text-align:center;letter-spacing:.14em;outline:none}.mb-auth-input:focus{border-color:#2E66D0;box-shadow:0 0 0 4px rgba(46,102,208,.14);background:#fff}.mb-auth-button{width:100%;height:48px;border:0;border-radius:18px;background:#0B3A82;color:#fff;font-size:16px;font-weight:900;cursor:pointer}.mb-auth-error{min-height:18px;color:#c62828!important;font-size:13px!important}.mb-auth-pending{overflow:hidden}@media (max-width:520px){.splash-mark{width:66px;height:66px;border-radius:22px;font-size:23px}.splash-title{font-size:27px}.mb-auth-card{padding:26px 20px;border-radius:26px}.mb-auth-input{height:50px}}
+</style>
+<link href="manifest.json" rel="manifest"/>
+<link href="assets/icons/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="assets/icons/apple-touch-icon-180.png" rel="apple-touch-icon" sizes="180x180"/>
+<meta content="MARKET BASE" name="application-name"/>
+<meta content="MARKET BASE" name="apple-mobile-web-app-title"/>
+</head>
+<body class="mb-auth-pending">
+<div aria-label="MARKET BASE loading" class="app-splash" id="appSplash" role="status">
+<div class="splash-card">
+<div aria-hidden="true" class="splash-mark">MB</div>
+<div class="splash-title">MARKET BASE</div>
+<div class="splash-line">マーケット情報</div>
+</div>
+</div>
+<div aria-label="MARKET BASE password" aria-modal="true" class="mb-auth-gate" id="mbAuthGate" role="dialog">
+<div class="mb-auth-card">
+<div aria-hidden="true" class="mb-auth-logo">MB</div>
+<h2>MARKET BASE</h2>
+<p>パスワードを入力してください。</p>
+<input aria-label="パスワード" autocomplete="current-password" class="mb-auth-input" id="mbAuthInput" inputmode="numeric" maxlength="32" pattern="[0-9]*" type="password"/>
+<button class="mb-auth-button" id="mbAuthButton" type="button">開く</button>
+<p aria-live="polite" class="mb-auth-error" id="mbAuthError"></p>
+</div>
+</div>
+<main class="app-shell" id="home">
+<section aria-label="MARKET BASE target reference home layout" class="target-home-reference">
+<div class="target-title-row">
+<h2>MARKET BASE</h2>
+<div class="target-title-actions">
+<span>196</span>
+<button aria-label="キャッシュを更新" class="cache-refresh-btn" id="cacheRefreshBtn" type="button">更新</button>
+</div>
+</div>
+<form class="target-search-box global-search-form" id="homeGlobalSearchForm">
+<span aria-hidden="true">⌕</span><input aria-label="国・地域・企業・ブランドを検索" id="homeGlobalSearchInput" placeholder="国・地域・企業・ブランドを検索" type="search"/><button type="submit">検索</button>
+</form>
+<h3 class="target-section-title">探し方</h3>
+<div class="target-route-list">
+<button data-jump="countries"><span class="target-icon line-ui-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.25"/><path d="M2.75 12h18.5M12 2.75c2.35 2.53 3.55 5.61 3.55 9.25S14.35 18.72 12 21.25M12 2.75C9.65 5.28 8.45 8.36 8.45 12s1.2 6.72 3.55 9.25"/></svg></span><strong>国から探す</strong><em>196の国・地域から選ぶ</em><b>›</b></button>
+<button data-jump="rankings"><span class="target-icon line-ui-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2.75" y="13.25" width="4.25" height="8" rx=".7"/><rect x="9.85" y="8.75" width="4.25" height="12.5" rx=".7"/><rect x="16.95" y="3.25" width="4.25" height="18" rx=".7"/></svg></span><strong>ランキングから探す</strong><em>指標のランキングを見る</em><b>›</b></button>
+<button data-jump="countries"><span class="target-icon line-ui-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m2.75 6.25 5.2-2.8 5.95 2.8 2.1-1.15M2.75 6.25v14.2l5.2-2.8 5.95 2.8 5.35-2.9v-3.7M7.95 3.45v14.2M13.9 6.25v14.2"/><path d="M21.2 7.4c0 2.65-3.95 6.15-3.95 6.15S13.3 10.05 13.3 7.4a3.95 3.95 0 1 1 7.9 0Z"/><circle cx="17.25" cy="7.4" r="1.25"/></svg></span><strong>地域から探す</strong><em>地域ごとに国を一覧で見る</em><b>›</b></button>
+</div>
+<div class="target-row-head"><h3>最近見た国</h3><button data-jump="countries">すべて見る ›</button></div>
+<div aria-label="最近見た国" class="target-recent-grid" id="targetRecentGrid"></div>
+<h3 class="target-section-title">地域から探す</h3>
+<div class="target-region-grid">
+<button data-region-preset="Asia" data-subregion-preset="Eastern Asia">東アジア</button>
+<button data-region-preset="Asia" data-subregion-preset="South-eastern Asia">東南アジア</button>
+<button data-region-preset="Europe">ヨーロッパ</button>
+<button data-region-preset="Americas" data-subregion-preset="Northern America">北米</button>
+<button data-region-preset="Americas" data-subregions-preset="Central America|South America|Caribbean">中南米</button>
+<button data-region-preset="Asia" data-subregion-preset="Western Asia">中東</button>
+<button data-region-preset="Africa">アフリカ</button>
+<button data-region-preset="Oceania">オセアニア</button>
+</div>
+<h3 class="target-section-title">人気ランキング</h3>
+<div class="target-ranking-grid">
+<button data-jump="rankings"><span class="ranking-line-icon line-ui-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="8" cy="8" r="3.25"/><circle cx="16.55" cy="8" r="3.25"/><path d="M2.65 20.5v-1.25A5.35 5.35 0 0 1 8 13.9a5.35 5.35 0 0 1 5.35 5.35v1.25M12.25 15.75a5.35 5.35 0 0 1 9.1 3.8v.95"/></svg></span><b>人口</b></button>
+<button data-jump="rankings"><span class="ranking-line-icon line-ui-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 20.75V4M3 20.75h18M6.25 16.6l4.25-4.25 3.1 2.45 5.85-7.25M16.85 7.55h2.6v2.6"/><circle cx="17.25" cy="17.15" r="3.75"/><path d="M17.25 14.85v4.6M18.7 15.8h-2.05a1 1 0 0 0 0 2h1.2a1 1 0 0 1 0 2H15.8"/></svg></span><b>GDP</b></button>
+<button data-jump="rice"><span class="ranking-line-icon line-ui-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4.25 13.75h15.5c-.35 4.25-2.9 6.5-7.75 6.5s-7.4-2.25-7.75-6.5ZM8 20.25h8"/><path d="M7.4 11.85c.55-4.1 2.25-6.65 5.05-8.1M11.2 11.8c.65-4 2.6-6.6 5.65-7.85M14.8 11.8c.55-3.25 2.15-5.25 4.55-6.25"/><path d="m9.15 7.25 2.1.7M12.75 5.85l2.1.75M16.45 6.1l1.85.75M7.8 9.65l2 .7M11.3 9.05l2 .75M14.9 8.75l1.9.75"/></svg></span><b>米生産量</b></button>
+<button data-jump="japan"><span class="ranking-line-icon line-ui-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="7.65" cy="7.25" r="3.15"/><path d="M2.4 19.75v-.85a5.25 5.25 0 0 1 8.55-4.08"/><rect x="12.2" y="8.25" width="8.9" height="12.25" rx="1.5"/><circle cx="16.65" cy="13.25" r="2.1"/><path d="M14.25 17.85a2.4 2.4 0 0 1 4.8 0M14.65 10.55h4"/></svg></span><b>在留邦人数</b></button>
+</div>
+</section>
+<section class="hero-panel">
+<div class="hero-copy">
+<span class="pill">196の国・地域</span>
+<h2 data-i18n="heroTitle">196の国・地域を、ひと目で比較。</h2>
+<div class="hero-actions">
+<button class="primary-action" data-i18n="heroSearch" data-jump="countries">国・地域を探す</button>
+<button class="secondary-action" data-jump="rankings">ランキングを見る</button>
+</div>
+</div>
+<div aria-label="収録状況" class="status-board">
+<div class="status-card status-main"><strong id="entityCount">196</strong><span data-i18n="kpiEntities">国・地域</span></div>
+<div class="status-card"><strong>5</strong><span data-i18n="kpiMetrics">基本指標</span></div>
+<div class="status-card warn"><strong>191/196</strong><span data-i18n="kpiGdp">GDP系</span></div>
+<div class="status-card"><strong>更新中</strong><span data-i18n="kpiRelease">データ</span></div>
+</div>
+</section>
+<section aria-label="最近見た国・主な導線" class="visual-reference-panel recent-routes-panel">
+<div class="visual-reference-head">
+<span class="pill light">最近見た国・地域</span>
+<h3>最近見た国・地域</h3>
+</div>
+<div aria-label="最近見た国・地域" class="visual-market-grid recent-market-grid" id="recentEntityGrid"></div>
+<div class="recent-helper-row">
+<button class="recent-helper-btn" data-jump="countries">国・地域一覧から探す</button>
+<button class="recent-helper-btn subtle" data-clear-recent="">履歴をクリア</button>
+</div>
+<div class="visual-action-grid compact-route-grid">
+<button data-jump="rice"><b>🍚</b><span>米データ</span></button>
+<button data-jump="school"><b>🏫</b><span>学校給食</span></button>
+<button data-jump="japan"><b>🇯🇵</b><span>日本関連</span></button>
+<button data-jump="rankings"><b>📊</b><span>ランキング</span></button>
+<button data-jump="compare"><b>⇄</b><span>比較</span></button>
+</div>
+</section>
+<section aria-label="Original MARKET BASE scope" class="market-entry-panel">
+<div class="market-entry-head">
+<h3>国・地域から市場へ進む</h3>
+</div>
+<div class="market-domain-grid">
+<button class="market-domain-card" data-jump="rice">
+<span class="domain-icon">🍚</span><strong>米データ</strong>
+</button>
+<button class="market-domain-card" data-jump="school">
+<span class="domain-icon">🏫</span><strong>学校給食</strong>
+</button>
+<button class="market-domain-card" data-jump="japan">
+<span class="domain-icon">🇯🇵</span><strong>日本関連</strong>
+</button>
+</div>
+</section>
+<section aria-label="地域別ショートカット" class="region-route-panel">
+<div class="market-entry-head">
+<h3>地域から探す</h3>
+</div>
+<div class="region-route-grid">
+<button data-region-preset="Asia"><b>🌏</b><span>アジア</span></button>
+<button data-region-preset="Europe"><b>🏛️</b><span>ヨーロッパ</span></button>
+<button data-region-preset="Americas"><b>🗽</b><span>南北アメリカ</span></button>
+<button data-region-preset="Africa"><b>🐘</b><span>アフリカ</span></button>
+<button data-region-preset="Oceania"><b>🌊</b><span>オセアニア</span></button>
+</div>
+</section>
+<section aria-label="おすすめの使い方" class="workflow-panel workflow-panel-compact">
+<div class="workflow-head">
+<h3 data-i18n="workflowTitle">迷わず使う</h3>
+<p data-i18n="workflowLead">探す・比べる・見る導線を短くしました。</p>
+</div>
+<div class="workflow-steps">
+<button data-jump="countries"><b>1</b><span data-i18n="workflowStep1">国・地域を探す</span></button>
+<button data-jump="rankings"><b>2</b><span data-i18n="workflowStep2">ランキングを見る</span></button>
+<button data-jump="compare"><b>3</b><span data-i18n="workflowStep3">2地域を比較</span></button>
+<button data-jump="market"><b>4</b><span>市場情報を見る</span></button>
+<button data-jump="countries"><b>5</b><span>国詳細で出典を見る</span></button>
+</div>
+</section>
+<section aria-label="指標の収録状況" class="metric-overview">
+<div class="metric-overview-head">
+<div>
+<h3 data-i18n="overviewTitle">基本指標のカバー状況</h3>
+<p data-i18n="overviewLead">カードを押すと、その指標のランキングへ移動します。</p>
+</div>
+</div>
+<div class="metric-overview-grid" id="metricOverview"></div>
+</section>
+<section aria-label="未整備項目とクイック比較" class="focus-panel">
+<article class="focus-card">
+<h3 data-i18n="gapPanelTitle">未完5地域の扱い</h3>
+<p data-i18n="gapPanelText">196枠から外さず、GDP系だけ未採用・ランキング対象外として表示します。</p>
+<div class="gap-list" id="knownGapList"></div>
+</article>
+<article class="focus-card">
+<h3 data-i18n="quickCompareTitle">すぐ比較</h3>
+<p data-i18n="quickCompareText">代表的な組み合わせで比較画面を開きます。</p>
+<div class="preset-buttons">
+<button data-preset="US,JP">🇺🇸 アメリカ / 🇯🇵 日本</button>
+<button data-preset="US,CN">🇺🇸 米国 / 🇨🇳 中国</button>
+<button data-preset="HK,MO">🇭🇰 香港 / 🇲🇴 マカオ</button>
+<button data-preset="KP,JP">🇰🇵 北朝鮮 / 🇯🇵 日本</button>
+</div>
+</article>
+</section>
+<section aria-label="専門データベース" class="external-db-grid-panel">
+<div class="external-db-grid">
+<article class="external-db-card machinery-entry-card compact-external-card icon-external-card">
+<div class="external-db-icon" aria-hidden="true">
+<svg viewBox="0 0 64 64" role="img">
+<path d="M10 45h44v8H10zM15 20h24v21H15zM39 27h10l5 7v7H39zM20 15h14v5H20z"/>
+<circle cx="22" cy="49" r="4"/><circle cx="43" cy="49" r="4"/>
+<path d="M21 27h12M21 33h12M46 31v5h6"/>
+</svg>
+</div>
+<div class="external-db-card-copy">
+<h3>輸入食品機械代理店DB</h3>
+<p>各国・地域の食品加工機械、包装機、厨房機器の代理店・販売会社を一覧できます。</p>
+<div class="external-db-card-stats"><span>企業 <b>185</b></span><span>日本メーカー <b>68</b></span></div>
+</div>
+<a class="external-db-card-link" data-external-db="imported_food_machinery" href="imported-food-machinery-v273-db-title-r27.html">DBを見る</a>
+</article>
+<article class="external-db-card retail-entry-card compact-external-card icon-external-card">
+<div class="external-db-icon" aria-hidden="true">
+<svg viewBox="0 0 64 64" role="img">
+<path d="M12 27h40v26H12zM9 27l6-14h34l6 14"/>
+<path d="M16 27v5a5 5 0 0 0 10 0v-5m0 0v5a5 5 0 0 0 10 0v-5m0 0v5a5 5 0 0 0 10 0v-5"/>
+<path d="M19 41h12v12M38 40h8v7h-8z"/>
+</svg>
+</div>
+<div class="external-db-card-copy">
+<h3>世界の食品小売・販売業DB</h3>
+<p>各国のコンビニ、スーパー、ハイパーマーケットなどの企業・ブランド・店舗情報を一覧できます。</p>
+<div class="external-db-card-stats"><span>国別カード <b>1,102</b></span><span>店舗数入力 <b>831</b></span></div>
+</div>
+<a class="external-db-card-link" data-external-db="retail_sales" href="retail-sales-v273-db-title-r27.html">DBを見る</a>
+</article>
+<article class="external-db-card flight-entry-card compact-external-card">
+<div>
+<h3>世界の空厨・機内食キッチンDB</h3>
+<p>航空ケータリング会社、機内食キッチン、食品工場を一覧できます。</p>
+<div class="external-db-card-stats"><span>会社 <b>247</b></span><span>施設 <b>270</b></span><span>空港 <b>219</b></span></div>
+</div>
+<a class="external-db-card-link" data-external-db="flight_kitchen" href="flight-kitchen-v273-db-title-r27.html">DBを見る</a>
+</article>
+<article class="external-db-card rail-entry-card compact-external-card">
+<div>
+<h3>駅・鉄道向け食品供給DB</h3>
+<p>駅弁、列車食、駅ナカ食品、鉄道向け食品工場を一覧できます。</p>
+<div class="external-db-card-stats"><span>情報 <b>272</b></span><span>国・地域 <b>49</b></span></div>
+</div>
+<a class="external-db-card-link" data-external-db="rail_food_kitchen" href="rail-food-kitchen-v273-db-title-r27.html">DBを見る</a>
+</article>
+<article class="external-db-card cvs-entry-card compact-external-card">
+<div>
+<h3>CVSベンダーDB</h3>
+<p>コンビニ向け食品ベンダー、工場、製造品目、チェーンとの関係を一覧できます。</p>
+<div class="external-db-card-stats"><span>企業 <b>315</b></span><span>公開カード <b>315</b></span></div>
+</div>
+<a class="external-db-card-link" data-external-db="cvs_vendor" href="cvs-vendor-v273-db-title-r27.html">DBを見る</a>
+</article>
+<article class="external-db-card gohan-entry-card compact-external-card icon-external-card">
+<div class="external-db-icon" aria-hidden="true">
+<svg viewBox="0 0 64 64" role="img">
+<path d="M13 31h38c0 13-8 21-19 21S13 44 13 31z"/>
+<path d="M19 27c1-7 6-12 13-12s12 5 13 12M24 25c0-5 3-10 8-13m1 13c1-5 4-9 9-11M17 55h30"/>
+</svg>
+</div>
+<div class="external-db-card-copy">
+<h3>世界ご飯関連食品メーカーDB</h3>
+<p>各国の米飯、冷凍米飯、寿司、おにぎり、弁当などを扱う食品メーカー、工場、製品、海外展開を一覧できます。</p>
+<div class="external-db-card-stats"><span>企業 <b>232</b></span><span>工場・施設 <b>473</b></span><span>製品・品目 <b>1,126</b></span></div>
+</div>
+<a class="external-db-card-link" data-external-db="gohan_food_manufacturers" href="gohan-food-manufacturers-v273-db-title-r27.html">DBを見る</a>
+</article>
+<article class="external-db-card school-meal-entry-card compact-external-card"><div><h3>学校給食センター・中央厨房DB</h3><p>各国の学校給食制度、中央厨房、調理方式、調達、設備、運営情報を一覧できます。</p><div class="external-db-card-stats"><span>国・地域 <b>142</b></span><span>公開カード <b>142</b></span></div></div><a class="external-db-card-link" data-external-db="school_meal_center" href="school-meal-center-v273-db-title-r27.html">DBを見る</a></article></div>
+</section>
+<section aria-label="公開版サマリー" class="release-summary-strip">
+<span>国・地域 <b>196</b></span>
+<span>基本指標 <b>5</b></span>
+<span>GDP <b>191/196</b></span>
+<span>データ <b>更新済み</b></span>
+</section>
+<nav aria-label="メインナビゲーション" class="tabs">
+<button class="tab" data-i18n="tabCountries" data-view="countries">国・地域</button>
+<button class="tab" data-view="rice">米データ</button>
+<button class="tab" data-view="school">学校給食</button>
+<button class="tab" data-view="japan">日本関連</button>
+<button class="tab" data-i18n="tabRankings" data-view="rankings">ランキング</button>
+<button class="tab" data-i18n="tabCompare" data-view="compare">比較</button>
+</nav>
+<nav aria-label="下部ナビゲーション" class="bottom-nav">
+<button class="bottom-tab active" data-home="true"><span class="bottom-tab-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 14.5 16 5l10.5 9.5v11.2a1.8 1.8 0 0 1-1.8 1.8H7.3a1.8 1.8 0 0 1-1.8-1.8Z"/><path d="M12 27.5v-8.8h8v8.8"/></svg></span><b>ホーム</b></button>
+<button class="bottom-tab" data-view="countries"><span class="bottom-tab-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="12"/><path d="M4 16h24M16 4c3.5 3.3 5.3 7.3 5.3 12S19.5 24.7 16 28M16 4c-3.5 3.3-5.3 7.3-5.3 12S12.5 24.7 16 28"/></svg></span><b>国・地域</b></button>
+<button class="bottom-tab" data-view="compare"><span class="bottom-tab-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="4.5" y="4.5" width="15" height="20" rx="2.5"/><rect x="12.5" y="9.5" width="15" height="18" rx="2.5"/><path d="M17 15h6M17 19h6M17 23h4"/></svg></span><b>比較</b></button>
+<button class="bottom-tab" data-view="rankings"><span class="bottom-tab-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 27.5V19h5v8.5M13.5 27.5V13h5v14.5M22 27.5V5h5v22.5M3.5 27.5h25"/></svg></span><b>ランキング</b></button>
+</nav>
+<section class="view global-search-view" id="global-search">
+<div class="target-title-row global-search-title-row">
+<h2>MARKET BASE</h2>
+<div class="target-title-actions"><span>196</span><button aria-label="キャッシュを更新" class="cache-refresh-btn" id="globalCacheRefreshBtn" type="button">更新</button></div>
+</div>
+<form class="target-search-box global-search-form global-search-page-form" id="globalSearchForm">
+<span aria-hidden="true">⌕</span><input aria-label="国・地域・企業・ブランド・商品・本文を検索" id="globalSearchInput" placeholder="国・地域・企業・商品・本文を検索" type="search"/><button type="submit">検索</button>
+</form>
+<div aria-label="検索対象" class="global-search-scopes" id="globalSearchScopes">
+<button class="active" data-global-search-scope="all" type="button">すべて</button>
+<button data-global-search-scope="countries" type="button">国・地域</button>
+<button data-global-search-scope="companies" type="button">企業・ブランド</button>
+<button data-global-search-scope="content" type="button">商品・本文</button>
+</div>
+<div aria-live="polite" class="global-search-results" id="globalSearchResults"></div>
+<section class="global-search-db-footer">
+<div class="target-row-head"><h3>専門データベース</h3></div>
+<div class="global-search-db-links" id="globalSearchDbLinks"></div>
+</section>
+</section>
+<section class="view" id="countries">
+<div class="section-head">
+<div><h3 data-i18n="countriesTitle">国・地域一覧</h3><p data-i18n="countriesLead">検索・地域フィルタから詳細を開けます。</p></div>
+<div class="count-chip" id="countryCount">196</div>
+</div>
+<div class="toolbar country-toolbar">
+<input id="searchInput" placeholder="国・地域を検索" type="search"/>
+<select id="regionFilter"><option value="all">すべての地域</option></select>
+<select id="subregionFilter"><option value="all">小地域すべて</option></select>
+<select id="incomeFilter"><option value="all">所得分類すべて</option></select>
+<label class="toggle-line"><input id="gapOnlyToggle" type="checkbox"/> <span data-i18n="gdpGapOnly">GDP未完のみ</span></label>
+</div>
+<div aria-label="検索ショートカット" class="quick-chip-row" id="quickSearchChips">
+<button data-search-preset="日本">🇯🇵 日本</button>
+<button data-search-preset="台湾">🇹🇼 台湾</button>
+<button data-search-preset="香港">🇭🇰 香港</button>
+<button data-search-preset="米国">🇺🇸 米国</button>
+<button data-search-preset="中国">🇨🇳 中国</button>
+<button data-search-preset="北朝鮮">🇰🇵 北朝鮮</button>
+<button data-clear-search="" data-i18n="clearSearch">検索解除</button>
+</div>
+<div class="country-list" id="countryList"></div>
+</section>
+<section class="view" id="rice">
+<div class="section-head">
+<div><h3>米データ</h3></div>
+<div class="count-chip" id="riceCoverage">整備中</div>
+</div>
+<div class="market-scope-panel" id="ricePanel"></div>
+<div class="rice-ranking-block">
+<div class="section-head compact-head">
+<div><h3>米ランキング</h3></div>
+<select aria-label="米データ指標" id="riceMetricSelect">
+<option value="rice_production_paddy_tonnes">米生産量</option>
+<option value="rice_area_harvested_ha">米収穫面積</option>
+<option value="rice_yield_kg_per_ha">米単収</option>
+<option value="rice_import_quantity_tonnes">米輸入量</option>
+<option value="rice_export_quantity_tonnes">米輸出量</option>
+<option value="rice_import_value_1000_usd">米輸入額</option>
+<option value="rice_export_value_1000_usd">米輸出額</option>
+<option value="rice_domestic_supply_tonnes">国内供給量</option>
+<option value="rice_food_use_tonnes">食品用途量</option>
+<option value="rice_feed_use_tonnes">飼料用途量</option>
+<option value="rice_processing_use_tonnes">加工用途量</option>
+<option value="rice_seed_use_tonnes">種子用途量</option>
+<option value="rice_losses_tonnes">損失量</option>
+<option value="rice_stock_variation_tonnes">在庫変動量</option>
+<option value="rice_other_uses_tonnes">その他用途量</option>
+<option value="rice_food_supply_kg_capita_year">1人当たり米供給量</option>
+<option value="rice_kcal_supply_capita_day">1人当たりカロリー供給</option>
+<option value="rice_protein_supply_g_capita_day">1人当たりタンパク質供給</option>
+<option value="rice_fat_supply_g_capita_day">1人当たり脂質供給</option>
+</select>
+</div>
+<div class="ranking-list" id="riceRankingList"></div>
+</div>
+</section>
+<section class="view" id="school">
+<div class="section-head">
+<div><h3>学校給食</h3></div>
+</div>
+<div class="market-scope-panel" id="schoolPanel"></div>
+<div class="school-ranking-block">
+<div class="section-head compact-head">
+<div><h3>ランキング</h3></div>
+<select aria-label="学校給食指標" id="schoolMetricSelect">
+<option value="school_meals_total_children">提供児童数ランキング</option>
+<option value="school_meals_total_schools">提供学校数ランキング</option>
+<option value="school_meals_annual_serving_days">年間提供日数ランキング</option>
+</select>
+</div>
+<div class="ranking-list" id="schoolRankingList"></div>
+</div>
+</section>
+<section class="view" id="japan">
+<div class="section-head">
+<div><h3>日本関連</h3></div>
+<div class="count-chip">日本</div>
+</div>
+<div class="market-scope-panel" id="japanPanel"></div>
+<div class="japan-ranking-block">
+<div class="section-head compact-head">
+<div><h3>日本関連ランキング</h3></div>
+<select aria-label="日本関連指標" id="japanMetricSelect">
+<option value="japan_relation_summary">日本との関係まとめ</option>
+<option value="overseas_japanese_residents_total">在留邦人数</option>
+<option value="overseas_japanese_long_term_residents">長期滞在者数</option>
+<option value="overseas_japanese_permanent_residents">永住者数</option>
+<option value="overseas_japanese_residents_yoy_rate">在留邦人数 前年比</option>
+<option value="japanese_restaurants_count">日本食レストラン数</option>
+</select>
+</div>
+<div class="ranking-list japan-ranking-list" id="japanRankingList"></div>
+</div>
+</section>
+<section class="view" id="rankings">
+<div class="section-head">
+<div><h3 data-i18n="rankingsTitle">ランキング</h3><p data-i18n="rankingsLead">採用済みデータだけで順位を作成しています。</p></div>
+</div>
+<div class="toolbar rank-toolbar">
+<select id="metricSelect"></select>
+<select aria-label="ランキング display limit" id="rankLimit">
+<option data-i18n="rankLimit20" value="20">上位20件</option>
+<option data-i18n="rankLimit50" value="50">上位50件</option>
+<option data-i18n="rankLimitAll" value="all">全件表示</option>
+</select>
+<div class="coverage-chip" id="rankingCoverage"></div>
+</div>
+<p class="notice soft-notice" data-i18n="rankingNotice">収録済みの値だけで順位を表示します。</p>
+<div class="ranking-list" id="rankingList"></div>
+</section>
+<section class="view" id="compare">
+<div class="section-head">
+<div><h3 data-i18n="compareTitle">比較</h3><p data-i18n="compareLead">2つの国・地域を選び、5つの基本指標を横並びで見られます。</p></div>
+</div>
+<div class="compare-selects">
+<select id="compareA"></select>
+<select id="compareB"></select>
+</div>
+<p class="notice compare-prefecture-note">「日本の都道府県（参考）」は比較画面のみで選択できます。国一覧・196件表示・世界ランキングには含まれません。</p>
+<div class="compare-table" id="compareTable"></div>
+</section>
+<section class="view" id="sources">
+<div class="section-head">
+<div><h3 data-i18n="sourcesTitle">出典</h3><p data-i18n="sourcesLead">各データの年・出典を見られます。</p></div>
+</div>
+<p class="notice soft-notice" data-i18n="sourceNotice">出典・年・収録状況を見られます。</p>
+<div class="toolbar source-toolbar">
+<select id="sourceMetricFilter"><option value="all">すべての指標</option></select>
+<select id="sourceStatusFilter"><option value="all">すべての状態</option><option value="missing">未取得のみ</option><option value="ready">取得済みのみ</option></select>
+<select aria-label="出典 display limit" id="sourceLimit">
+<option data-i18n="sourceLimit60" value="60">60件まで</option>
+<option data-i18n="sourceLimit200" value="200">200件まで</option>
+<option data-i18n="sourceLimitAll" value="all">全件表示</option>
+</select>
+</div>
+<div class="source-list" id="sourceList"></div>
+</section>
+<section class="view" id="qa">
+<div class="section-head">
+<div><h3 data-i18n="qaTitle">データ状態</h3><p data-i18n="qaLead">データの収録状況を見られます。</p></div>
+</div>
+<p class="notice soft-notice" data-i18n="qaNotice">196の国・地域を維持したまま、収録状況を見られます。</p>
+<div class="qa-panel" id="qaPanel"></div>
+</section>
+</main>
+<dialog id="detailDialog">
+<button aria-label="Close" class="close" id="closeDialog">×</button>
+<div id="detailContent"></div>
+</dialog>
+<script src="embedded-data.js"></script>
+<script src="embedded-prefecture-reference-data-v273-db-title-r27.js"></script>
+<script src="embedded-cross-db-search-index-v273-db-title-r27.js"></script>
+<script src="assets/flags/flag-svg-data.js"></script>
+<script src="assets/js/app-v273-db-title-r27.js"></script>
+<script src="external-db-links-v273-db-title-r27.js"></script>
+<script id="mbAuthScript">
+(function(){
+  const KEY='market_base_auth_v248';
+  const PASS='1234';
+  const HOLD_MS=1000*60*60*24*14;
+  const splash=document.getElementById('appSplash');
+  const gate=document.getElementById('mbAuthGate');
+  const input=document.getElementById('mbAuthInput');
+  const button=document.getElementById('mbAuthButton');
+  const error=document.getElementById('mbAuthError');
+  if(!gate||!input||!button) return;
+  document.body.classList.add('mb-auth-pending');
+  function saved(){
+    try{const v=JSON.parse(localStorage.getItem(KEY)||'null'); return v && v.ok===true && Date.now()-Number(v.time||0)<HOLD_MS;}catch(_){return false;}
+  }
+  function focusInput(){
+    if(!window.matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+    window.setTimeout(()=>{try{input.focus({preventScroll:true}); input.select();}catch(_){try{input.focus(); input.select();}catch(__){}}},40);
+  }
+  function hideSplash(){
+    if(!splash) return;
+    splash.classList.add('is-hidden');
+    window.setTimeout(()=>{try{splash.remove();}catch(_){}},420);
+  }
+  function unlock(){
+    try{localStorage.setItem(KEY,JSON.stringify({ok:true,time:Date.now()}));}catch(_){}
+    document.body.classList.remove('mb-auth-ready','mb-auth-pending');
+    document.body.classList.add('mb-auth-ok');
+  }
+  function showGate(){
+    document.body.classList.add('mb-auth-ready');
+    focusInput();
+  }
+  function check(){
+    if((input.value||'')===PASS){ unlock(); return; }
+    error.textContent='パスワードが違います。';
+    input.value='';
+    focusInput();
+  }
+  button.addEventListener('click',check);
+  input.addEventListener('keydown',e=>{ if(e.key==='Enter') check(); });
+  window.addEventListener('pageshow',()=>{ if(document.body.classList.contains('mb-auth-ready')) focusInput(); });
+  window.setTimeout(()=>{
+    hideSplash();
+    if(saved()) unlock(); else showGate();
+  },document.documentElement.classList.contains('mb-splash-skip')?0:860);
+})();
+</script>
+</body>
+</html>
