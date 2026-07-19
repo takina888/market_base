@@ -289,7 +289,13 @@
     try{
       const data=await loadData();
       if(!container.isConnected||mountStates.get(container)!==state) return;
+      const hasDirectNews=data.articles.some(article=>article.country_codes.includes(state.countryCode));
+      if(!hasDirectNews){
+        container.remove();
+        return;
+      }
       const render=()=>{
+        container.hidden=false;
         container.innerHTML=countryBlockHtml(state,data);
         container.querySelectorAll('[data-news-category]').forEach(button=>button.addEventListener('click',()=>{
           state.category=button.dataset.newsCategory||'all';render();
@@ -298,6 +304,7 @@
       render();
     }catch(err){
       if(!container.isConnected) return;
+      container.hidden=false;
       container.innerHTML='<div class="mb-news-empty mb-news-load-error"><strong>ニュース機能を読み込めませんでした</strong><p>既存の国情報はそのまま利用できます。時間をおいて再読み込みしてください。</p></div>';
       console.warn('MARKET BASE news load failed',err);
     }

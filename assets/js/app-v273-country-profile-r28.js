@@ -1928,7 +1928,7 @@ function countryProfileSourcesHtml(profile){
 
 function countryProfileInfoCard(title, body, key){
   if(!body) return '';
-  return `<article class="country-profile-info-card profile-${safe(key)}"><h4>${safe(title)}</h4><p>${safe(body)}</p></article>`;
+  return `<article class="country-profile-info-card profile-${safe(key)}"><h4>${safe(title)}</h4><p data-thesis-highlight>${safe(body)}</p></article>`;
 }
 
 
@@ -2013,7 +2013,7 @@ function countryProfileBlock(e){
   const facts=(profile.facts || []).map(([label,value])=>`<div class="country-profile-fact"><span>${safe(label)}</span><strong>${safe(value)}</strong></div>`).join('');
   return `${countryProfileTransportHtml(profile)}<section class="detail-section country-profile-section">
     <div class="country-profile-heading"><div><span>国別プロフィール</span><h3>この国・地域について</h3></div><em>国別情報</em></div>
-    <article class="country-profile-overview"><p>${safe(profile.overview || '')}</p></article>
+    <article class="country-profile-overview"><p data-thesis-highlight>${safe(profile.overview || '')}</p></article>
     <div class="country-profile-facts">${facts}</div>
     ${countryProfilePowerHtml(profile)}
     <div class="country-profile-info-grid">
@@ -2036,8 +2036,8 @@ function countryProfileBlock(e){
 const COUNTRY_DATABASE_LINKS = [
   { id:'imported_food_machinery', title:'輸入食品機械代理店DB', note:'現地の代理店・商社・貿易会社を探す', filtered:true },
   { id:'retail_sales', title:'食品小売販売業DB', note:'スーパー・量販店・食品小売を探す', filtered:true },
-  { id:'flight_kitchen', title:'ケータリング・機内食DB', note:'空港・航空会社向けの食品供給拠点を探す', filtered:true },
-  { id:'rail_food_kitchen', title:'鉄道向け食品供給DB', note:'駅弁・列車食・鉄道向け供給拠点を探す', filtered:true },
+  { id:'flight_kitchen', title:'ケータリング・機内食業者DB', note:'空港・航空会社向けの食品供給拠点を探す', filtered:true },
+  { id:'rail_food_kitchen', title:'駅・鉄道向け食品供給DB', note:'弁当・小売業・鉄道向け供給拠点を探す', filtered:true },
   { id:'cvs_vendor', title:'CVSベンダーDB', note:'コンビニ向け食品メーカーを探す', filtered:true },
   { id:'gohan_food_manufacturers', title:'食品製造メーカーDB', note:'ご飯関連の食品メーカーを探す', filtered:true },
   { id:'school_meal_center', title:'学校給食センターDB', note:'学校給食制度・厨房・運営情報を探す', filtered:true },
@@ -2071,7 +2071,7 @@ function countryDatabaseLinksHtml(e){
 
 function countryNewsHostHtml(e){
   const regionCode=window.MarketBaseNews?.regionCodeForEntity?.(e) || '';
-  return `<section class="detail-section country-news-section" id="countryNewsMount" data-country-code="${safe(e.entity_id)}" data-region-code="${safe(regionCode)}"><div class="mb-news-loading" role="status">ニュースを読み込んでいます…</div></section>`;
+  return `<section class="detail-section country-news-section" id="countryNewsMount" hidden data-country-code="${safe(e.entity_id)}" data-region-code="${safe(regionCode)}"><div class="mb-news-loading" role="status">ニュースを読み込んでいます…</div></section>`;
 }
 
 function detailContentHtml(e){
@@ -2575,6 +2575,8 @@ syncPrimaryViewChrome(document.body.classList.contains('mb-view-active') ? (docu
 document.querySelectorAll('.tab[data-view]').forEach(btn=>btn.addEventListener('click',()=>switchView(btn.dataset.view)));
 document.querySelectorAll('.bottom-tab[data-view]').forEach(btn=>btn.addEventListener('click',()=>switchView(btn.dataset.view)));
 document.querySelectorAll('.bottom-tab[data-home]').forEach(btn=>btn.addEventListener('click',()=>showHome()));
+document.querySelectorAll('[data-view-back-home]').forEach(btn=>btn.addEventListener('click',()=>showHome()));
+document.querySelectorAll('[data-view-refresh]').forEach(btn=>btn.addEventListener('click',()=>document.getElementById('cacheRefreshBtn')?.click()));
 document.querySelectorAll('[data-jump]').forEach(btn=>btn.addEventListener('click',()=>switchView(btn.dataset.jump)));
 document.querySelector('.cross-research-card')?.addEventListener('click',event=>{ event.preventDefault(); switchView('global-search'); });
 document.querySelectorAll('[data-region-preset]').forEach(btn=>btn.addEventListener('click',()=>{
