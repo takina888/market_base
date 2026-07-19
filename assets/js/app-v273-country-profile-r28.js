@@ -411,9 +411,11 @@ function rememberEntity(id){
 }
 function recentEntitiesForDisplay(){
   const ids=getRecentEntityIds();
-  const recent=ids.map(id=>entities.find(e=>e.entity_id===id)).filter(Boolean);
-  if(recent.length) return recent;
-  return ['TW','JP','US'].map(id=>entities.find(e=>e.entity_id===id)).filter(Boolean);
+  // 旧版で3件までしか保存されていない端末でも、ホームは常に6枠（3列×2段）を表示する。
+  // 実際の閲覧履歴を先頭に置き、不足分だけ主要国で補完する。閲覧が増えると補完枠は自動で置き換わる。
+  const fallbackIds=['JP','TW','KR','US','IN','VN','TH','SG','CN'];
+  const displayIds=[...ids, ...fallbackIds.filter(id=>!ids.includes(id))].slice(0,6);
+  return displayIds.map(id=>entities.find(e=>e.entity_id===id)).filter(Boolean).slice(0,6);
 }
 function bindRecentOpen(container){
   if(!container) return;
@@ -436,7 +438,7 @@ function renderTargetRecentEntities(){
     headingRow.style.setProperty('visibility','visible','important');
     headingRow.style.setProperty('opacity','1','important');
   }
-  const recent=recentEntitiesForDisplay().slice(0,3);
+  const recent=recentEntitiesForDisplay().slice(0,6);
   el.innerHTML=recent.map(e=>`<button type="button" data-recent-open="${safe(e.entity_id)}"><span class="target-recent-flag">${flagMarkup(e,'flag-img-target-recent')}</span><strong>${safe(nameOf(e))}</strong></button>`).join('');
   bindRecentOpen(el);
 }
