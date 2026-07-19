@@ -1,1 +1,53 @@
+name: Update MARKET BASE country news
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 0,6,12,18 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-base-country-news-update
+  cancel-in-progress: false
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test news updater
+        run: |
+          python scripts/update_news.py --self-test
+          python scripts/update_news.py --check
+
+      - name: Update country news
+        run: |
+          python scripts/update_news.py
+          python scripts/update_news.py --check
+
+      - name: Save updated news
+        shell: bash
+        run: |
+          if git diff --quiet -- data/news.json; then
+            echo "No news changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git commit -m "chore(news): update official country news"
+          git push
