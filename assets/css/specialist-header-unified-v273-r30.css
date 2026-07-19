@@ -1,0 +1,102 @@
+:root{
+  --mbu-navy:#0b3f82;
+  --mbu-blue:#1764c8;
+  --mbu-line:#d6e3f2;
+  --mbu-soft:#edf5ff;
+}
+.mbu-header{
+  display:block!important;
+  width:100%!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+.mbu-header::before,.mbu-header::after,.mbu-header-inner::before,.mbu-header-inner::after{content:none!important;display:none!important}
+.mbu-header-inner{width:min(900px,100%);margin:0 auto}
+body>.mbu-header .mbu-header-inner{padding:24px 22px 16px}
+.page>.mbu-header .mbu-header-inner,main>.mbu-header .mbu-header-inner{padding:0 0 20px}
+.mbu-brand{
+  color:var(--mbu-navy)!important;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Yu Gothic UI","Yu Gothic","Meiryo",sans-serif!important;
+  font-size:30px!important;
+  font-weight:950!important;
+  line-height:1.08!important;
+  letter-spacing:.025em!important;
+  white-space:nowrap!important;
+}
+.mbu-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:16px}
+.mbu-actions{display:flex;align-items:center;gap:9px;min-width:0}
+.mbu-button{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  min-width:68px!important;
+  min-height:44px!important;
+  margin:0!important;
+  padding:8px 15px!important;
+  border:2px solid var(--mbu-line)!important;
+  border-radius:999px!important;
+  background:#fff!important;
+  box-shadow:none!important;
+  color:var(--mbu-navy)!important;
+  font:900 15px/1.15 -apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Yu Gothic UI","Yu Gothic","Meiryo",sans-serif!important;
+  text-decoration:none!important;
+  white-space:nowrap!important;
+  cursor:pointer!important;
+}
+.mbu-button::before,.mbu-button::after{content:none!important;display:none!important}
+.mbu-meta{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  flex:0 0 auto!important;
+  min-width:78px!important;
+  min-height:44px!important;
+  margin:0!important;
+  padding:7px 14px!important;
+  border:0!important;
+  border-radius:999px!important;
+  background:var(--mbu-navy)!important;
+  box-shadow:none!important;
+  color:#fff!important;
+  font:900 13px/1.08 -apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Yu Gothic UI","Yu Gothic","Meiryo",sans-serif!important;
+  text-align:center!important;
+  white-space:normal!important;
+}
+@media(max-width:430px){
+  body>.mbu-header .mbu-header-inner{padding:22px 22px 14px}
+  .page>.mbu-header .mbu-header-inner,main>.mbu-header .mbu-header-inner{padding-bottom:18px}
+  .mbu-brand{font-size:29px!important}
+  .mbu-toolbar{margin-top:14px}
+  .mbu-button{min-width:64px!important;min-height:43px!important;padding:8px 13px!important;font-size:14px!important}
+  .mbu-meta{min-width:74px!important;min-height:43px!important;padding:7px 12px!important;font-size:12.5px!important}
+}
+
+
+.mbu-header,
+.mbu-header *{
+  box-sizing:border-box!important;
+}
+body>.mbu-header{
+  position:relative!important;
+  inset:auto!important;
+  width:100%!important;
+  max-width:none!important;
+  margin:0!important;
+  padding:0!important;
+}
+body>.mbu-header>.mbu-header-inner{
+  display:block!important;
+  width:100%!important;
+  max-width:900px!important;
+  margin:0 auto!important;
+  padding:24px 22px 16px!important;
+}
+@media(max-width:430px){
+  body>.mbu-header>.mbu-header-inner{
+    padding:22px 22px 14px!important;
+  }
+}
