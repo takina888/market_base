@@ -100,3 +100,134 @@ body>.mbu-header>.mbu-header-inner{
     padding:22px 22px 14px!important;
   }
 }
+
+/* R74: all secondary-page headers follow the Ranking page header.
+   Canonical mobile geometry: MARKET BASE left, Back/Refresh right,
+   white background, thin pale-blue outline, no page-specific shadow. */
+.mbu-header{
+  display:block!important;
+  width:100%!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  background:#fff!important;
+  box-shadow:none!important;
+}
+.mbu-header .mbu-header-inner,
+body>.mbu-header>.mbu-header-inner,
+.page>.mbu-header>.mbu-header-inner,
+main>.mbu-header>.mbu-header-inner{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:14px!important;
+  width:min(900px,100%)!important;
+  max-width:900px!important;
+  margin:0 auto!important;
+  padding:28px 22px 22px!important;
+  border-bottom:1px solid #E1E8F1!important;
+}
+.mbu-header.mbu-header--wide .mbu-header-inner{
+  width:min(1120px,100%)!important;
+  max-width:1120px!important;
+}
+.mbu-header .mbu-brand{
+  flex:1 1 auto!important;
+  min-width:0!important;
+  margin:0!important;
+  color:#0B3976!important;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Yu Gothic UI","Yu Gothic","Meiryo",sans-serif!important;
+  font-size:clamp(31px,4vw,44px)!important;
+  font-weight:950!important;
+  line-height:1.05!important;
+  letter-spacing:.045em!important;
+  white-space:nowrap!important;
+}
+.mbu-header .mbu-toolbar{
+  display:flex!important;
+  flex:0 0 auto!important;
+  align-items:center!important;
+  justify-content:flex-end!important;
+  gap:10px!important;
+  margin:0!important;
+}
+.mbu-header .mbu-actions{
+  display:flex!important;
+  align-items:center!important;
+  gap:10px!important;
+  margin:0!important;
+}
+.mbu-header .mbu-button{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  min-width:68px!important;
+  min-height:48px!important;
+  height:48px!important;
+  margin:0!important;
+  padding:8px 14px!important;
+  border:1px solid #C9DDF5!important;
+  border-radius:16px!important;
+  background:#FFF!important;
+  box-shadow:none!important;
+  color:#075FC7!important;
+  font:950 16px/1 -apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Yu Gothic UI","Yu Gothic","Meiryo",sans-serif!important;
+  text-decoration:none!important;
+  white-space:nowrap!important;
+  cursor:pointer!important;
+}
+.mbu-header .mbu-button:hover,
+.mbu-header .mbu-button:focus-visible{
+  background:#F5F9FF!important;
+  border-color:#AFCDEE!important;
+  color:#075FC7!important;
+}
+.mbu-header .mbu-button:active{transform:translateY(1px)!important;}
+.mbu-header .mbu-meta{
+  min-width:68px!important;
+  min-height:44px!important;
+  padding:7px 11px!important;
+  border:1px solid #C9DDF5!important;
+  border-radius:15px!important;
+  background:#F5F9FF!important;
+  color:#0B3976!important;
+  box-shadow:none!important;
+  font-size:12.5px!important;
+}
+@media(max-width:640px){
+  .mbu-header .mbu-header-inner,
+  body>.mbu-header>.mbu-header-inner,
+  .page>.mbu-header>.mbu-header-inner,
+  main>.mbu-header>.mbu-header-inner{
+    gap:8px!important;
+    width:100%!important;
+    max-width:none!important;
+    padding:27px 15px 18px!important;
+  }
+  .mbu-header .mbu-brand{
+    font-size:25px!important;
+    letter-spacing:.025em!important;
+  }
+  .mbu-header .mbu-toolbar{gap:6px!important;}
+  .mbu-header .mbu-actions{gap:6px!important;}
+  .mbu-header .mbu-button{
+    min-width:52px!important;
+    min-height:44px!important;
+    height:44px!important;
+    padding:7px 8px!important;
+    border-radius:15px!important;
+    font-size:14px!important;
+  }
+  .mbu-header .mbu-meta{display:none!important;}
+}
+@media(max-width:370px){
+  .mbu-header .mbu-header-inner,
+  body>.mbu-header>.mbu-header-inner,
+  .page>.mbu-header>.mbu-header-inner,
+  main>.mbu-header>.mbu-header-inner{padding-left:12px!important;padding-right:12px!important;gap:6px!important;}
+  .mbu-header .mbu-brand{font-size:22px!important;letter-spacing:.015em!important;}
+  .mbu-header .mbu-actions{gap:5px!important;}
+  .mbu-header .mbu-button{min-width:48px!important;padding:7px 6px!important;font-size:13px!important;}
+}
+
