@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
 <meta charset="utf-8"/>
@@ -6,51 +7,47 @@
 <meta content="#1769FF" name="theme-color"/>
 <title>国別ニュース | MARKET BASE</title>
 <meta content="MARKET BASEの国別ニュース自動更新試験ページ。公式情報を食品、食品機械、貿易・物流、法規・食品安全で絞り込めます。" name="description"/>
-<meta content="V273_R54_NEWS_AUTO_UPDATE_LOCAL_RULES_RC_20260719" name="market-base-build"/>
-<link href="assets/css/styles-v273-country-profile-r28.css?v=r64-news-popup-20260719" rel="stylesheet"/>
+<meta content="V273_R70_VERIFIED_SEMANTIC_HIGHLIGHT_UI_RC_20260719" name="market-base-build"/>
+<link href="assets/css/styles-v273-country-profile-r28.css?v=r71-highlight-adjust-20260719" rel="stylesheet"/>
 <link href="manifest.json" rel="manifest"/>
 <link href="assets/icons/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
 <link href="assets/icons/apple-touch-icon-180.png" rel="apple-touch-icon" sizes="180x180"/>
-<style id="mbAuthStyle">
-.mb-splash-skip .app-splash{display:none}.app-splash{position:fixed;inset:0;z-index:10050;display:grid;place-items:center;background:linear-gradient(180deg,#F8FBFF 0%,#EDF5FF 100%);transition:opacity .34s ease,visibility .34s ease;pointer-events:none}.app-splash.is-hidden{opacity:0;visibility:hidden}.splash-card{display:grid;justify-items:center;gap:10px;transform:translateY(-10px)}.splash-mark{width:74px;height:74px;border-radius:24px;background:linear-gradient(135deg,#0A2D68,#2E66D0);display:grid;place-items:center;color:#fff;font-weight:950;letter-spacing:.05em;font-size:26px;box-shadow:0 18px 50px rgba(10,45,104,.22)}.splash-title{font-size:30px;line-height:1;font-weight:950;letter-spacing:.06em;color:#0A2D68}.splash-line{font-size:13px;font-weight:900;color:#6B7890;letter-spacing:.12em;text-transform:uppercase}.mb-auth-gate{position:fixed;inset:0;z-index:10040;display:grid;place-items:center;padding:24px;background:linear-gradient(180deg,#F8FBFF 0%,#EAF3FF 100%);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .24s ease,visibility .24s ease}.mb-auth-ready .mb-auth-gate{opacity:1;visibility:visible;pointer-events:auto}.mb-auth-ok .mb-auth-gate{display:none}.mb-auth-card{width:min(420px,100%);padding:30px 24px;border-radius:30px;background:rgba(255,255,255,.96);box-shadow:0 24px 70px rgba(10,45,104,.18);border:1px solid rgba(196,213,235,.9);display:grid;gap:14px;justify-items:center}.mb-auth-logo{width:68px;height:68px;border-radius:22px;background:linear-gradient(135deg,#0A2D68,#2E66D0);display:grid;place-items:center;color:#fff;font-weight:950;font-size:24px}.mb-auth-card h2{margin:0;color:#0A2D68;font-size:26px}.mb-auth-card p{margin:0;color:#5f6f88;font-size:14px;font-weight:800}.mb-auth-input{width:100%;height:52px;border-radius:18px;border:1px solid #c9d8ea;background:#f8fbff;color:#0b1b36;font-size:24px;font-weight:900;text-align:center;letter-spacing:.14em;outline:none}.mb-auth-button{width:100%;height:48px;border:0;border-radius:18px;background:#0B3A82;color:#fff;font-size:16px;font-weight:900;cursor:pointer}.mb-auth-error{min-height:18px;color:#c62828}.mb-auth-pending{overflow:hidden}
-</style>
-<script>try{const splashKey='market_base_splash_seen_v273';if(sessionStorage.getItem(splashKey)==='1')document.documentElement.classList.add('mb-splash-skip');sessionStorage.setItem(splashKey,'1')}catch(_){}</script>
-<link rel="stylesheet" href="assets/css/reading-highlights-v1.css?v=r59-full-audit-20260719">
+
+
+<link href="assets/css/reading-highlights-v1.css?v=r71-highlight-adjust-20260719" rel="stylesheet"/>
 </head>
-<body class="mb-auth-pending">
-<div aria-label="MARKET BASE loading" class="app-splash" id="appSplash" role="status"><div class="splash-card"><div aria-hidden="true" class="splash-mark">MB</div><div class="splash-title">MARKET BASE</div><div class="splash-line">国別ニュース</div></div></div>
-<div aria-label="MARKET BASE password" aria-modal="true" class="mb-auth-gate" id="mbAuthGate" role="dialog"><div class="mb-auth-card"><div aria-hidden="true" class="mb-auth-logo">MB</div><h2>MARKET BASE</h2><p>パスワードを入力してください。</p><input aria-label="パスワード" autocomplete="current-password" class="mb-auth-input" id="mbAuthInput" inputmode="numeric" maxlength="32" pattern="[0-9]*" type="password"/><button class="mb-auth-button" id="mbAuthButton" type="button">開く</button><p aria-live="polite" class="mb-auth-error" id="mbAuthError"></p></div></div>
-<main class="mb-news-page" data-news-page>
-  <div class="mb-news-page-shell">
-    <header class="mb-news-page-header"><div class="mb-news-page-title"><span>MARKET BASE</span><h1>国別ニュース</h1></div><a class="mb-news-page-back" href="index.html?from=news">MARKET BASEへ戻る</a></header>
-    <p class="mb-news-page-notice" data-news-dataset-notice>公式RSS・公式更新情報の自動取得基盤を追加した試験運用版です。</p>
-    <section class="mb-news-filter-panel" aria-label="ニュース絞り込み">
-      <div class="mb-news-filter-grid">
-        <label>国・地域<select data-news-country-filter><option value="">読み込み中</option></select></label>
-        <label>地域<select data-news-region-filter><option value="">読み込み中</option></select></label>
-        <label>期間<select data-news-period-filter><option value="all">すべて</option><option value="7d">7日以内</option><option value="30d">30日以内</option><option value="90d">90日以内</option></select></label>
-        <label>キーワード<input data-news-keyword-filter type="search" placeholder="見出し・概要・情報源"/></label>
-      </div>
-      <div class="mb-news-filter-actions">
-        <div class="mb-news-category-row" role="group" aria-label="ニュースカテゴリー">
-          <button class="mb-news-category-button active" data-news-category="all" aria-pressed="true" type="button">すべて</button>
-          <button class="mb-news-category-button" data-news-category="food" aria-pressed="false" type="button">食品</button>
-          <button class="mb-news-category-button" data-news-category="food_machinery" aria-pressed="false" type="button">食品機械</button>
-          <button class="mb-news-category-button" data-news-category="trade_logistics" aria-pressed="false" type="button">貿易・物流</button>
-          <button class="mb-news-category-button" data-news-category="regulation_food_safety" aria-pressed="false" type="button">法規・食品安全</button>
-        </div>
-        <button class="mb-news-reset-button" data-news-reset type="button">条件を解除</button>
-      </div>
-    </section>
-    <div class="mb-news-results-status" data-news-results-status><strong>注目ニュース</strong><span>読み込み中</span></div>
-    <section class="mb-news-results-list" data-news-results aria-live="polite"><div class="mb-news-loading">ニュースを読み込んでいます…</div></section>
-  </div>
+<body>
+
+
+<main class="mb-news-page" data-news-page="">
+<div class="mb-news-page-shell">
+<header class="mb-news-page-header"><div class="mb-news-page-title"><span>MARKET BASE</span><h1>国別ニュース</h1></div><a class="mb-news-page-back" href="index.html?from=news">MARKET BASEへ戻る</a></header>
+<p class="mb-news-page-notice" data-news-dataset-notice="">公式RSS・公式更新情報の自動取得基盤を追加した試験運用版です。</p>
+<section aria-label="ニュース絞り込み" class="mb-news-filter-panel">
+<div class="mb-news-filter-grid">
+<label>国・地域<select data-news-country-filter=""><option value="">読み込み中</option></select></label>
+<label>地域<select data-news-region-filter=""><option value="">読み込み中</option></select></label>
+<label>期間<select data-news-period-filter=""><option value="all">すべて</option><option value="7d">7日以内</option><option value="30d">30日以内</option><option value="90d">90日以内</option></select></label>
+<label>キーワード<input data-news-keyword-filter="" placeholder="見出し・概要・情報源" type="search"/></label>
+</div>
+<div class="mb-news-filter-actions">
+<div aria-label="ニュースカテゴリー" class="mb-news-category-row" role="group">
+<button aria-pressed="true" class="mb-news-category-button active" data-news-category="all" type="button">すべて</button>
+<button aria-pressed="false" class="mb-news-category-button" data-news-category="food" type="button">食品</button>
+<button aria-pressed="false" class="mb-news-category-button" data-news-category="food_machinery" type="button">食品機械</button>
+<button aria-pressed="false" class="mb-news-category-button" data-news-category="trade_logistics" type="button">貿易・物流</button>
+<button aria-pressed="false" class="mb-news-category-button" data-news-category="regulation_food_safety" type="button">法規・食品安全</button>
+</div>
+<button class="mb-news-reset-button" data-news-reset="" type="button">条件を解除</button>
+</div>
+</section>
+<div class="mb-news-results-status" data-news-results-status=""><strong>注目ニュース</strong><span>読み込み中</span></div>
+<section aria-live="polite" class="mb-news-results-list" data-news-results=""><div class="mb-news-loading">ニュースを読み込んでいます…</div></section>
+</div>
 </main>
-<nav class="mb-news-page-bottom-nav" aria-label="ニュースページナビゲーション"><a href="index.html?from=news">ホーム</a><a href="index.html?view=countries&from=news">国・地域</a><a href="news.html">ニュース</a></nav>
-<script src="assets/js/news.js?v=r64-news-popup-20260719"></script>
-<script id="mbAuthScript">
-(function(){const KEY='market_base_auth_v248',PASS='1234',HOLD_MS=1000*60*60*24*14;const splash=document.getElementById('appSplash'),gate=document.getElementById('mbAuthGate'),input=document.getElementById('mbAuthInput'),button=document.getElementById('mbAuthButton'),error=document.getElementById('mbAuthError');if(!gate||!input||!button)return;document.body.classList.add('mb-auth-pending');function saved(){try{const v=JSON.parse(localStorage.getItem(KEY)||'null');return v&&v.ok===true&&Date.now()-Number(v.time||0)<HOLD_MS}catch(_){return false}}function hideSplash(){if(!splash)return;splash.classList.add('is-hidden');setTimeout(()=>{try{splash.remove()}catch(_){}},420)}function unlock(){try{localStorage.setItem(KEY,JSON.stringify({ok:true,time:Date.now()}))}catch(_){}document.body.classList.remove('mb-auth-ready','mb-auth-pending');document.body.classList.add('mb-auth-ok')}function showGate(){document.body.classList.add('mb-auth-ready')}function check(){if((input.value||'')===PASS){unlock();return}error.textContent='パスワードが違います。';input.value=''}button.addEventListener('click',check);input.addEventListener('keydown',e=>{if(e.key==='Enter')check()});setTimeout(()=>{hideSplash();if(saved())unlock();else showGate()},document.documentElement.classList.contains('mb-splash-skip')?0:760)})();
-</script>
-<script src="assets/js/reading-highlights-v1.js?v=r62-country-db-bridge-20260719"></script>
+<nav aria-label="ニュースページナビゲーション" class="mb-news-page-bottom-nav"><a href="index.html?from=news">ホーム</a><a href="index.html?view=countries&amp;from=news">国・地域</a><a href="news.html">ニュース</a></nav>
+<script src="assets/js/news.js?v=r71-highlight-adjust-20260719"></script>
+
+<script src="assets/js/reading-highlights-v1.js?v=r71-highlight-adjust-20260719"></script>
 </body>
 </html>
