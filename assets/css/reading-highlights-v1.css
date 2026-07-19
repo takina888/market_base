@@ -1,12 +1,10 @@
-/* MARKET BASE reading assist v3 — emphasis only; source text remains intact. */
-.mb-reading-bold { font-weight: 760; color: inherit; }
-.mb-reading-red { color: #b42318; font-weight: 780; }
-.mb-reading-yellow {
-  background: linear-gradient(transparent 58%, rgba(255, 225, 92, .48) 58%);
-  box-decoration-break: clone; -webkit-box-decoration-break: clone;
-  padding: 0 .035em; border-radius: .08em;
+/* MARKET BASE reading assist v6 — thesis sentence + limited memorization facts. */
+.mb-reading-bold{font-weight:800;color:inherit;}
+.mb-reading-red{color:#c5221f!important;font-weight:900!important;text-decoration:none!important;}
+.mb-reading-yellow{
+  background:linear-gradient(transparent 62%,rgba(255,218,43,.70) 62%,rgba(255,218,43,.70) 94%,transparent 94%);
+  box-decoration-break:clone;-webkit-box-decoration-break:clone;
+  padding:0 .045em;border-radius:.08em;
 }
-@media (prefers-contrast: more) {
-  .mb-reading-yellow { background: #ffe05c; }
-  .mb-reading-red { color: #8f120b; }
-}
+.mb-reading-yellow .mb-reading-red{background:transparent!important;}
+@media(prefers-contrast:more){.mb-reading-yellow{background:#ffe05c;}}
