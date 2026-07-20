@@ -147,7 +147,7 @@
       ids.add(article.id);target.push({article,scopeLabel});
     }
   }
-  function countryFeed(data,{countryCode,regionCode,category='all',limit=3}){
+  function countryFeed(data,{countryCode,regionCode,category='all',limit=3,includeFallback=true}){
     const code=String(countryCode||'').toUpperCase();
     const all=sortArticles(data.articles.filter(a=>articleMatchesCategory(a,category)));
     const direct=all.filter(a=>a.country_codes.includes(code));
@@ -155,15 +155,17 @@
     const worldwide=all.filter(a=>a.scope==='global');
     const result=[];
     uniquePush(result,direct,limit,'');
-    uniquePush(result,regional,limit,`${regionLabel(regionCode,data)}の関連ニュース`);
-    uniquePush(result,worldwide,limit,'世界の関連ニュース');
+    if(includeFallback){
+      uniquePush(result,regional,limit,`${regionLabel(regionCode,data)}の関連ニュース`);
+      uniquePush(result,worldwide,limit,'世界の関連ニュース');
+    }
     return result;
   }
   function articleCardHtml(article,data,scopeLabel='',options={}){
     const url=safeUrl(article.source_url);
     const countries=(article.country_codes||[]).map(code=>{
       const label=options.countryNames?.[code]||data?.pilot_countries?.[code]?.name_ja||code;
-      const href=`index.html?country=${encodeURIComponent(code)}&from=news`;
+      const href=`index.html?open_country=${encodeURIComponent(code)}&from=news`;
       return `<a class="mb-news-country-chip" href="${href}">${esc(label)}</a>`;
     }).join('');
     const category=categoryLabel(article.category,data);
@@ -282,18 +284,16 @@
     const state={
       countryCode:String(options.countryCode||'').toUpperCase(),
       countryName:String(options.countryName||options.countryCode||'国・地域'),
-      regionCode:String(options.regionCode||''),category:'all',limit:Number(options.limit)||3
+      regionCode:String(options.regionCode||''),category:'all',limit:Number(options.limit)||3,includeFallback:false
     };
     mountStates.set(container,state);
+    container.hidden=true;
     container.innerHTML='<div class="mb-news-loading" role="status">ニュースを読み込んでいます…</div>';
     try{
       const data=await loadData();
       if(!container.isConnected||mountStates.get(container)!==state) return;
-      const hasDirectNews=data.articles.some(article=>article.country_codes.includes(state.countryCode));
-      if(!hasDirectNews){
-        container.remove();
-        return;
-      }
+      const directAll=countryFeed(data,{...state,category:'all',limit:Math.max(state.limit,100),includeFallback:false});
+      if(!directAll.length){ container.remove(); return; }
       const render=()=>{
         container.hidden=false;
         container.innerHTML=countryBlockHtml(state,data);
@@ -303,9 +303,7 @@
       };
       render();
     }catch(err){
-      if(!container.isConnected) return;
-      container.hidden=false;
-      container.innerHTML='<div class="mb-news-empty mb-news-load-error"><strong>ニュース機能を読み込めませんでした</strong><p>既存の国情報はそのまま利用できます。時間をおいて再読み込みしてください。</p></div>';
+      if(container.isConnected) container.remove();
       console.warn('MARKET BASE news load failed',err);
     }
   }

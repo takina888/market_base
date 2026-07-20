@@ -490,9 +490,14 @@ function globalSearchDbMatches(query,scope=globalSearchScope){
     return {...db,countryMatches,recordMatches};
   }).filter(x=>x.countryMatches.length || x.recordMatches.length);
 }
-function globalDbLinkHref(db,query=''){
+function globalDbLinkHref(db,query='',target=''){
+  const params=new URLSearchParams();
   const q=String(query||'').trim();
-  return q ? `${db.url}?q=${encodeURIComponent(q)}` : db.url;
+  const targetId=String(target||'').trim();
+  if(q) params.set('q',q);
+  if(targetId) params.set('mb_target',targetId);
+  const suffix=params.toString();
+  return suffix ? `${db.url}?${suffix}` : db.url;
 }
 function renderGlobalDbLinks(){
   const el=document.getElementById('globalSearchDbLinks'); if(!el) return;
@@ -509,7 +514,7 @@ function renderGlobalSearch(query){
     const countryNote=db.countryMatches.length ? `${db.countryMatches.slice(0,3).join('・')}の収録あり` : '';
     const countLabel=globalSearchScope==='companies'?'名称一致':'本文・商品を含む一致';
     const countNote=db.recordMatches.length ? `${countLabel} ${db.recordMatches.length}件` : '関連データあり';
-    return `<article class="global-db-result-card"><div class="global-db-result-head"><span>${safe(GLOBAL_DB_ICONS[db.id]||'DB')}</span><div><strong>${safe(db.title)}</strong><em>${safe(db.category)}｜${safe(countryNote||countNote)}</em></div></div>${samples.length?`<div class="global-db-match-list">${samples.map(record=>`<span>${safe(record?.title ?? record)}</span>`).join('')}</div>`:''}<a href="${safe(globalDbLinkHref(db,q))}">「${safe(q)}」をDBで見る ›</a></article>`;
+    return `<article class="global-db-result-card"><div class="global-db-result-head"><span>${safe(GLOBAL_DB_ICONS[db.id]||'DB')}</span><div><strong>${safe(db.title)}</strong><em>${safe(db.category)}｜${safe(countryNote||countNote)}</em></div></div>${samples.length?`<div class="global-db-match-list">${samples.map(record=>`<a href="${safe(globalDbLinkHref(db,record?.title ?? record,record?.target||''))}" title="${safe(record?.title ?? record)}の登録位置を開く">${safe(record?.title ?? record)}</a>`).join('')}</div>`:''}<a href="${safe(globalDbLinkHref(db,q))}">「${safe(q)}」をDBで見る ›</a></article>`;
   }).join('')}</div></section>` : '';
   const empty=(!countries.length&&!dbs.length) ? `<div class="global-search-empty"><strong>「${safe(q)}」の一致はありません</strong><span>表記を短くして再検索してください。</span></div>` : '';
   el.innerHTML=q ? `<div class="global-search-summary"><strong>「${safe(q)}」の検索結果</strong><span>${safe(GLOBAL_SEARCH_SCOPE_LABELS[globalSearchScope])}｜国・地域 ${countries.length}件 / 専門DB ${dbs.length}件</span></div>${countryHtml}${dbHtml}${empty}` : '<div class="global-search-empty"><strong>検索語を入力してください</strong><span>国名、地域名、企業名、ブランド名、商品名、本文を同じ窓で検索できます。</span></div>';
@@ -2061,9 +2066,9 @@ function countryDatabaseLinksHtml(e){
     if(!base) return '';
     const url=countryDatabaseUrl(base,e,item.filtered);
     const badge=item.filtered?'この国で絞り込み':'関連DB';
-    return `<a class="country-db-link-card ${item.filtered?'is-country-filtered':'is-related'}" href="${safe(url)}"><span class="country-db-link-badge">${safe(badge)}</span><strong>${safe(item.title)}</strong><p>${safe(item.note)}</p><em>開く →</em></a>`;
+    return `<a data-country-db-outbound="true" class="country-db-link-card ${item.filtered?'is-country-filtered':'is-related'}" href="${safe(url)}"><span class="country-db-link-badge">${safe(badge)}</span><strong>${safe(item.title)}</strong><p>${safe(item.note)}</p><em>開く →</em></a>`;
   }).join('');
-  return `<section class="detail-section country-db-links-section">
+  return `<section class="detail-section country-db-links-section" id="country-database-links">
     <div class="country-db-links-heading"><div><span>国別データ連携</span><h3>${safe(countryName)}のデータベースを見る</h3></div><em>選択国を引き継ぎ</em></div>
     <p class="country-db-links-intro">国情報を閉じて探し直す必要はありません。選択中の国を引き継いだ状態で、関連データベースへ直接移動できます。</p>
     <button type="button" class="country-db-cross-button" data-country-cross-search="${safe(countryName)}">10DBを横断検索</button>
@@ -2079,7 +2084,7 @@ function countryNewsHostHtml(e){
 function detailContentHtml(e){
   const inc=incomeRecord(e);
   const incomeCard=`<div class="stat-card income-stat-card"><div class="stat-label">所得分類</div><div class="stat-value">${safe(incomeLabel(e))}</div><span class="stat-source-label">${safe(incomeSourceLine(inc))}</span>${sourceLink(inc?.source_url, t('source'))}</div>`;
-  const statsHtml=`<section class="detail-section"><h3>概要・基本統計</h3><div class="stats-grid">${incomeCard}${UI_METRICS.map(m=>{
+  const statsHtml=`<section class="detail-section" id="country-basic-stats"><h3>概要・基本統計</h3><div class="stats-grid">${incomeCard}${UI_METRICS.map(m=>{
     const s=getStat(e,m); const missing=isMissing(s);
     const worldRank=metricWorldRank(e,m);
     const rankBadge=worldRank?`<span class="stat-world-rank">世界${safe(worldRank.rank)}位</span>`:'';
@@ -2107,13 +2112,99 @@ function renderDetailContent(e){
     openGlobalSearch(query);
   }));
 }
+function detailAnchorFromLocation(id){
+  const params=new URLSearchParams(window.location.search);
+  const requested=String(params.get('open_country')||'').toUpperCase();
+  if(requested!==String(id||'').toUpperCase()) return '';
+  return String(params.get('open_section')||params.get('mb_section')||window.location.hash.replace(/^#/, '')||'').trim();
+}
+function applyDetailDialogViewport(dialog){
+  if(!dialog || !dialog.open) return;
+  const mobile=window.matchMedia?.('(max-width:640px)')?.matches;
+  if(!mobile){
+    ['position','top','left','right','bottom','width','maxWidth','height','minHeight','maxHeight','margin'].forEach(name=>dialog.style[name]='');
+    return;
+  }
+  const viewport=window.visualViewport;
+  const vw=Math.max(280,Math.round(viewport?.width||window.innerWidth||390));
+  const vh=Math.max(360,Math.round(viewport?.height||window.innerHeight||640));
+  const offsetLeft=Math.round(viewport?.offsetLeft||0);
+  const offsetTop=Math.round(viewport?.offsetTop||0);
+  const gap=8;
+  dialog.style.position='fixed';
+  dialog.style.left=`${offsetLeft+gap}px`;
+  dialog.style.top=`${offsetTop+gap}px`;
+  dialog.style.right='auto';
+  dialog.style.bottom='auto';
+  dialog.style.width=`${Math.max(264,vw-gap*2)}px`;
+  dialog.style.maxWidth=`${Math.max(264,vw-gap*2)}px`;
+  dialog.style.height=`${Math.max(336,vh-gap*2)}px`;
+  dialog.style.minHeight=`${Math.max(336,vh-gap*2)}px`;
+  dialog.style.maxHeight=`${Math.max(336,vh-gap*2)}px`;
+  dialog.style.margin='0';
+  dialog.style.setProperty('--mb-detail-viewport-height',`${vh}px`);
+}
+function clearDetailDialogViewport(dialog){
+  if(!dialog) return;
+  ['position','top','left','right','bottom','width','maxWidth','height','minHeight','maxHeight','margin'].forEach(name=>dialog.style[name]='');
+  dialog.style.removeProperty('--mb-detail-viewport-height');
+}
+function resetDetailDialogScroll(dialog){
+  if(!dialog) return;
+  dialog.scrollTop=0;
+  const content=dialog.querySelector('#detailContent');
+  if(content) content.scrollTop=0;
+}
+function stabilizeDetailDialog(dialog,anchor='',positionContent=false){
+  if(!dialog || !dialog.open) return;
+  try{
+    applyDetailDialogViewport(dialog);
+    document.documentElement.classList.add('mb-country-dialog-open');
+    document.body.classList.add('mb-country-dialog-open');
+    void dialog.offsetHeight;
+    if(positionContent && dialog.dataset.mbPositioned!=='1'){
+      dialog.dataset.mbPositioned='1';
+      const target=anchor ? document.getElementById(anchor) : null;
+      if(target){
+        target.scrollIntoView({block:'start',behavior:'auto'});
+        target.classList.add('mb-link-target-flash');
+        window.setTimeout(()=>target.classList.remove('mb-link-target-flash'),2600);
+      }else{
+        resetDetailDialogScroll(dialog);
+      }
+    }
+    dialog.style.setProperty('--mb-detail-ready','1');
+  }catch(_){}
+}
 function openDetail(id){
   const e=entities.find(x=>x.entity_id===id); if(!e) return;
   currentDetailEntityId=id;
   rememberEntity(e.entity_id);
   renderDetailContent(e);
   const dialog=document.getElementById('detailDialog');
+  const anchor=detailAnchorFromLocation(id);
+  dialog.classList.add('is-preparing');
+  dialog.dataset.mbPositioned='0';
+  if(!anchor) resetDetailDialogScroll(dialog);
   if(!dialog.open) dialog.showModal();
+  if(!anchor) resetDetailDialogScroll(dialog);
+  applyDetailDialogViewport(dialog);
+  const stabilize=()=>stabilizeDetailDialog(dialog,anchor,false);
+  requestAnimationFrame(()=>{
+    stabilizeDetailDialog(dialog,anchor,true);
+    dialog.classList.remove('is-preparing');
+    requestAnimationFrame(stabilize);
+  });
+  [40,100,220,480,900,1500].forEach(ms=>setTimeout(stabilize,ms));
+  if(document.fonts?.ready) document.fonts.ready.then(stabilize).catch(()=>{});
+  dialog.querySelectorAll('img').forEach(img=>{if(!img.complete)img.addEventListener('load',stabilize,{once:true})});
+  const content=dialog.querySelector('#detailContent');
+  if(content && window.ResizeObserver){
+    dialog._mbDetailResizeObserver?.disconnect?.();
+    const observer=new ResizeObserver(()=>stabilize());
+    observer.observe(content);
+    dialog._mbDetailResizeObserver=observer;
+  }
 }
 
 function initControls(){
@@ -2275,6 +2366,109 @@ function todaysJourneyLink(entry){
   });
   return entity ? {entity_id:entity.entity_id,type:'exact'} : null;
 }
+const JOURNEY_IMAGE_CACHE_VERSION='r78-v1';
+const journeyImageMemory=new Map();
+function cleanJourneyMetaText(value){
+  const box=document.createElement('div'); box.innerHTML=String(value||'');
+  return (box.textContent||'').replace(/\s+/g,' ').trim();
+}
+function journeyImageCacheKey(entry){ return `mbJourneyImage:${JOURNEY_IMAGE_CACHE_VERSION}:${entry.id}`; }
+function readJourneyImageCache(entry){
+  try{
+    const raw=localStorage.getItem(journeyImageCacheKey(entry)); if(!raw) return null;
+    const parsed=JSON.parse(raw); if(!parsed?.saved_at||Date.now()-parsed.saved_at>1000*60*60*24*30) return null;
+    return parsed.image||null;
+  }catch(_){ return null; }
+}
+function writeJourneyImageCache(entry,image){
+  try{ localStorage.setItem(journeyImageCacheKey(entry),JSON.stringify({saved_at:Date.now(),image})); }catch(_){}
+}
+function journeyImageScore(page,query){
+  const info=page?.imageinfo?.[0]; if(!info) return -Infinity;
+  const w=Number(info.width||info.thumbwidth||0),h=Number(info.height||info.thumbheight||0);
+  if(w<1100||h<620) return -Infinity;
+  const ratio=w/h;
+  if(ratio<1.08||ratio>3.1) return -Infinity;
+  const title=String(page.title||'').toLowerCase();
+  const bad=['.svg',' map','map of','flag','coat of arms','logo','diagram','route','sign','stamp','poster','portrait','drawing','plan of','floor plan','locator'];
+  if(bad.some(x=>title.includes(x))) return -Infinity;
+  let score=Math.log10(Math.max(1,w*h))*15;
+  if(ratio>=1.32&&ratio<=2.35) score+=38; else score+=12;
+  if(w>=2400) score+=18;
+  const md=info.extmetadata||{};
+  const desc=cleanJourneyMetaText(md.ImageDescription?.value||md.ObjectName?.value||'').toLowerCase();
+  const terms=String(query||'').toLowerCase().split(/\s+/).filter(x=>x.length>2);
+  score+=terms.reduce((n,t)=>n+(title.includes(t)||desc.includes(t)?5:0),0);
+  if(/panorama|sunset|sunrise|reflection|landscape|aerial|mist|mountain|lake|castle|coast|waterfall/.test(title+' '+desc)) score+=14;
+  return score;
+}
+function journeyImageFromPage(page){
+  const info=page?.imageinfo?.[0]; if(!info) return null;
+  const md=info.extmetadata||{};
+  const fileTitle=String(page.title||'').replace(/^File:/,'');
+  const source=`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(fileTitle).replace(/%2F/g,'/')}`;
+  const license=cleanJourneyMetaText(md.LicenseShortName?.value||md.UsageTerms?.value||'Wikimedia Commons');
+  const licenseUrl=md.LicenseUrl?.value||source;
+  const artist=cleanJourneyMetaText(md.Artist?.value||md.Credit?.value||'');
+  const caption=cleanJourneyMetaText(md.ImageDescription?.value||md.ObjectName?.value||fileTitle.replace(/\.[^.]+$/,''));
+  return {image_url:info.thumburl||info.url,source_page:source,photographer:artist,license,license_url:licenseUrl,alt:caption,caption,quality_status:'runtime_scored'};
+}
+async function commonsJourneyCandidates(query){
+  const endpoint='https://commons.wikimedia.org/w/api.php';
+  const params=new URLSearchParams({origin:'*',action:'query',format:'json',generator:'search',gsrnamespace:'6',gsrlimit:'18',gsrsearch:`${query} filetype:bitmap`,prop:'imageinfo',iiprop:'url|size|extmetadata',iiurlwidth:'1800'});
+  const res=await fetch(`${endpoint}?${params}`,{mode:'cors',credentials:'omit',cache:'force-cache'});
+  if(!res.ok) throw new Error(`commons ${res.status}`);
+  const json=await res.json(); return Object.values(json?.query?.pages||{});
+}
+async function wikipediaJourneyCandidates(query){
+  const endpoint='https://ja.wikipedia.org/w/api.php';
+  const params=new URLSearchParams({origin:'*',action:'query',format:'json',generator:'search',gsrlimit:'8',gsrsearch:query,prop:'pageimages',piprop:'name',pithumbsize:'1800'});
+  const res=await fetch(`${endpoint}?${params}`,{mode:'cors',credentials:'omit',cache:'force-cache'});
+  if(!res.ok) return [];
+  const json=await res.json();
+  const files=Object.values(json?.query?.pages||{}).map(p=>p.pageimage).filter(Boolean).slice(0,6);
+  if(!files.length) return [];
+  const cp=new URLSearchParams({origin:'*',action:'query',format:'json',titles:files.map(x=>`File:${x}`).join('|'),prop:'imageinfo',iiprop:'url|size|extmetadata',iiurlwidth:'1800'});
+  const cr=await fetch(`https://commons.wikimedia.org/w/api.php?${cp}`,{mode:'cors',credentials:'omit',cache:'force-cache'});
+  if(!cr.ok) return [];
+  const cj=await cr.json(); return Object.values(cj?.query?.pages||{});
+}
+async function resolveJourneyImageFromPhotoRegistry(entry){
+  const registry=window.MARKET_BASE_PHOTO_REGISTRY;
+  if(!registry||!entry?.id) return null;
+  try{ await registry.load({reason:'todays-journey'}); }catch(_){ }
+  const photo=registry.getByArticleId(entry.id,'today_travel')[0];
+  if(!photo) return null;
+  return {
+    image_url:registry.getImageUrl(photo,{thumbnail:false}),
+    source_page:photo.source_page_url||photo.image_url||'',
+    photographer:photo.photographer||'',
+    license:photo.license||'',
+    license_url:photo.license_url||photo.source_page_url||'',
+    alt:photo.alt_ja||photo.caption_ja||entry.title||'',
+    caption:photo.caption_ja||photo.alt_ja||entry.title||'',
+    quality_status:'photo_registry',
+    photo_id:photo.photo_id,
+    local_path:photo.local_path||null,
+    modification_note_ja:photo.modification_note_ja||null
+  };
+}
+async function resolveTodaysJourneyImage(entry){
+  const registered=await resolveJourneyImageFromPhotoRegistry(entry);
+  if(registered?.image_url) return registered;
+  const bundle=window.MARKET_BASE_TODAYS_JOURNEY||{};
+  const locked=bundle.images?.[entry.id]; if(locked?.image_url) return locked;
+  if(journeyImageMemory.has(entry.id)) return journeyImageMemory.get(entry.id);
+  const cached=readJourneyImageCache(entry); if(cached?.image_url){ journeyImageMemory.set(entry.id,cached); return cached; }
+  const query=entry.image_search||`${entry.country||''} ${entry.title||''} landscape`;
+  let pages=[];
+  try{ pages=await commonsJourneyCandidates(query); }catch(_){}
+  if(!pages.length){ try{ pages=await wikipediaJourneyCandidates(query); }catch(_){} }
+  const ranked=pages.map(p=>({p,score:journeyImageScore(p,query)})).filter(x=>Number.isFinite(x.score)).sort((x,y)=>y.score-x.score);
+  const image=ranked.length?journeyImageFromPage(ranked[0].p):null;
+  if(image){ journeyImageMemory.set(entry.id,image); writeJourneyImageCache(entry,image); }
+  return image;
+}
 function openTodaysJourneyImage(entry,image){
   if(!image?.image_url) return;
   const dialog=document.getElementById('journeyImageDialog');
@@ -2292,14 +2486,13 @@ function openTodaysJourneyImage(entry,image){
   if(license){ license.href=image.license_url || image.source_page || '#'; license.textContent=image.license?`${image.license} ↗`:'ライセンス ↗'; license.hidden=!(image.license_url||image.source_page); }
   if(!dialog.open) dialog.showModal();
 }
-function renderTodaysJourney(){
+async function renderTodaysJourney(){
   const root=document.getElementById('todaysJourney');
   const bundle=window.MARKET_BASE_TODAYS_JOURNEY;
   const entries=bundle?.data?.entries;
   if(!root||!Array.isArray(entries)||!entries.length){ if(root) root.hidden=true; return; }
   const key=todaysJourneyDateKey();
   const entry=entries.find(item=>item.display_date===key) || entries[0];
-  const image=bundle.images?.[entry.id] || null;
   const link=todaysJourneyLink(entry);
   const entity=link?.entity_id ? entities.find(item=>item.entity_id===link.entity_id) : null;
   const dateEl=document.getElementById('todaysJourneyDate');
@@ -2320,27 +2513,27 @@ function renderTodaysJourney(){
   if(heritageEl){ heritageEl.hidden=!entry.world_heritage; heritageEl.title=entry.world_heritage_name || ''; }
   if(titleEl) titleEl.textContent=entry.title || '';
   if(textEl) textEl.textContent=entry.text || '';
+  card?.classList.remove('has-photo','photo-loading');
+  if(photo) photo.hidden=true;
+  if(imageBtn) imageBtn.hidden=true;
+  if(thumb){ thumb.removeAttribute('src'); thumb.alt=''; }
+  root.hidden=false;
+  card?.classList.add('photo-loading');
+  const image=await resolveTodaysJourneyImage(entry);
+  card?.classList.remove('photo-loading');
   if(image&&photo&&thumb&&imageBtn){
-    card?.classList.add('has-photo');
-    photo.hidden=false; imageBtn.hidden=false;
+    card?.classList.add('has-photo'); photo.hidden=false; imageBtn.hidden=false;
     thumb.src=image.image_url; thumb.alt=image.alt || entry.title || '';
     const open=()=>openTodaysJourneyImage(entry,image);
     photo.onclick=open; imageBtn.onclick=open;
     thumb.onerror=()=>{ photo.hidden=true; imageBtn.hidden=true; card?.classList.remove('has-photo'); };
-  }else{
-    card?.classList.remove('has-photo');
-    if(photo) photo.hidden=true;
-    if(imageBtn) imageBtn.hidden=true;
   }
   if(countryBtn&&link?.entity_id){
     countryBtn.hidden=false;
     countryBtn.textContent=link.type==='related' ? `関連国情報：${link.related_name||entity?.names?.ja||''}` : `${entry.country}の国情報`;
     countryBtn.title=link.type==='related' ? `${entry.country}の単独ページがないため、関連する国情報を開きます。` : `${entry.country}の詳細カードを開きます。`;
     countryBtn.onclick=()=>openDetail(link.entity_id);
-  }else if(countryBtn){
-    countryBtn.hidden=true;
-  }
-  root.hidden=false;
+  }else if(countryBtn){ countryBtn.hidden=true; }
 }
 function closeTodaysJourneyImage(){
   const dialog=document.getElementById('journeyImageDialog');
@@ -2481,7 +2674,7 @@ document.addEventListener('click', function(event){
 
 
 // V232: Safe automatic version check for GitHub Pages / PWA cache.
-const MARKET_BASE_APP_VERSION = 'V273_R63_TODAYS_JOURNEY_RC_20260719';
+const MARKET_BASE_APP_VERSION = 'MARKET BASE R91 R75 CUMULATIVE FOOD FACTORY ADDITIONS 20260720';
 function marketBaseVersionToken(text){
   return String(text || '').split(/\r?\n/)[0].trim();
 }
@@ -2622,6 +2815,7 @@ document.getElementById('sourceStatusFilter').addEventListener('change',renderSo
 document.getElementById('sourceLimit')?.addEventListener('change',renderSources);
 document.getElementById('closeDialog').addEventListener('click',()=>document.getElementById('detailDialog').close());
 initTodaysJourneyImageDialog();
+window.addEventListener('marketbase:photo-registry-updated',()=>{ if(document.getElementById('todaysJourney')) renderTodaysJourney(); });
 document.querySelectorAll('[data-preset]').forEach(btn=>btn.addEventListener('click',()=>applyPreset(btn.dataset.preset)));
 document.querySelectorAll('[data-search-preset]').forEach(btn=>btn.addEventListener('click',()=>{document.getElementById('searchInput').value=btn.dataset.searchPreset; document.getElementById('gapOnlyToggle').checked=false; renderCountries(); switchView('countries');}));
 document.querySelector('[data-clear-search]')?.addEventListener('click',()=>{document.getElementById('searchInput').value=''; document.getElementById('regionFilter').value='all'; setSubregionPreset('all'); updateSubregionOptions();
@@ -2747,6 +2941,20 @@ boot();
   },{passive:false});
 })();
 
+// R80: preserve the list position when leaving a country detail for a specialist DB.
+(function(){
+  document.addEventListener('click',event=>{
+    const link=event.target.closest?.('[data-country-db-outbound]');
+    if(!link) return;
+    const state={
+      view:document.querySelector('.view.active')?.id || '',
+      scrollY:window.scrollY || 0,
+      country:currentDetailEntityId || ''
+    };
+    try{sessionStorage.setItem('market_base_country_return_v1',JSON.stringify(state));}catch(_){}
+  });
+})();
+
 // R29: allow the currency page's fixed navigation to open a main view directly.
 const pageParams=new URLSearchParams(window.location.search);
 const requestedView=pageParams.get('view');
@@ -2755,11 +2963,47 @@ if(['countries','compare','rankings','global-search'].includes(requestedView)){
 }
 const requestedCountry=pageParams.get('open_country');
 if(requestedCountry){
-  window.setTimeout(()=>openDetail(requestedCountry),900);
+  let returnState=null;
+  try{returnState=JSON.parse(sessionStorage.getItem('market_base_country_return_v1')||'null');}catch(_){}
+  if(returnState?.view && document.getElementById(returnState.view)){
+    window.setTimeout(()=>switchView(returnState.view,{scroll:false}),0);
+  }
+  if(Number.isFinite(Number(returnState?.scrollY))){
+    [40,260].forEach(ms=>window.setTimeout(()=>window.scrollTo({top:Number(returnState.scrollY),behavior:'auto'}),ms));
+  }
+  window.setTimeout(()=>openDetail(requestedCountry),650);
 }
 
 document.getElementById('japanMetricSelect')?.addEventListener('change',renderJapanRanking);
 
+
+
+// R83: country dialog lifecycle, visual viewport and first-open cleanup.
+(() => {
+  const dialog=document.getElementById('detailDialog');
+  if(!dialog) return;
+  const cleanup=()=>{
+    document.documentElement.classList.remove('mb-country-dialog-open');
+    document.body.classList.remove('mb-country-dialog-open');
+    dialog.classList.remove('is-preparing');
+    dialog._mbDetailResizeObserver?.disconnect?.();
+    dialog._mbDetailResizeObserver=null;
+    clearDetailDialogViewport(dialog);
+    delete dialog.dataset.mbPositioned;
+  };
+  const restabilize=()=>{
+    if(!dialog.open) return;
+    stabilizeDetailDialog(dialog,detailAnchorFromLocation(currentDetailEntityId));
+  };
+  dialog.addEventListener('close',cleanup);
+  dialog.addEventListener('cancel',()=>window.setTimeout(cleanup,0));
+  window.addEventListener('orientationchange',()=>window.setTimeout(restabilize,60),{passive:true});
+  window.addEventListener('resize',restabilize,{passive:true});
+  if(window.visualViewport){
+    window.visualViewport.addEventListener('resize',restabilize,{passive:true});
+    window.visualViewport.addEventListener('scroll',restabilize,{passive:true});
+  }
+})();
 
 // V134: short app-like splash screen.
 (function(){
