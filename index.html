@@ -8,7 +8,7 @@
 <title>MARKET BASE</title>
 <meta content="MARKET BASEで国・地域、ニュース、ランキング、比較、学校給食、米データ、日本関連情報を見られます。" name="description"/>
 <link href="assets/css/styles-v273-country-profile-r28.css?v=r91-r75-cumulative-food-factory-add-20260720" rel="stylesheet"/>
-<meta content="V273_R92_MOBILE_RECENT_COUNTRY_FREEZE_FIX_20260720" name="market-base-build"/>
+<meta content="V273_R94_COUNTRY_ROUTE_HEADER_DAILY_RETAIL_PC_FLAG_20260720" name="market-base-build"/>
 <script>try{const splashKey='market_base_splash_seen_v273';const fromPage=new URLSearchParams(location.search).get('from');const skipSplash=sessionStorage.getItem(splashKey)==='1'||fromPage==='specialist'||fromPage==='currency'||fromPage==='news';if(skipSplash)document.documentElement.classList.add('mb-splash-skip');sessionStorage.setItem(splashKey,'1')}catch(_){}</script>
 <style id="mbAuthStyle">
 .mb-splash-skip .app-splash{display:none!important}.app-splash{position:fixed;inset:0;z-index:10050;display:grid;place-items:center;background:linear-gradient(180deg,#F8FBFF 0%,#EDF5FF 100%);transition:opacity .30s ease,visibility .30s ease;pointer-events:auto}.app-splash.is-hidden{opacity:0;visibility:hidden}.splash-card{display:grid;justify-items:center;gap:10px;transform:translateY(-10px);animation:splashRise .62s ease both}.splash-mark{width:74px;height:74px;border-radius:24px;background:linear-gradient(135deg,#0A2D68,#2E66D0);display:grid;place-items:center;color:#fff;font-weight:950;letter-spacing:.05em;font-size:26px;box-shadow:0 18px 50px rgba(10,45,104,.22)}.splash-title{font-size:30px;line-height:1;font-weight:950;letter-spacing:.06em;color:#0A2D68}.splash-line{font-size:13px;font-weight:900;color:#6B7890;letter-spacing:.12em;text-transform:uppercase}@keyframes splashRise{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:translateY(-10px) scale(1)}}
@@ -30,6 +30,8 @@
 @media(max-width:350px){.home-featured-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 <link href="assets/css/reading-highlights-v1.css?v=r91-r75-cumulative-food-factory-add-20260720" rel="stylesheet"/>
+<link href="assets/css/r93-daily-retail-and-pc-flag-fix.css?v=r93-daily-retail-gallery-pc-flag-fix-20260720" rel="stylesheet"/>
+<link href="assets/css/r94-country-route-and-list-header.css?v=r94-country-route-header-20260720" rel="stylesheet"/>
 </head>
 <body class="mb-auth-pending">
 <div aria-label="MARKET BASE loading" class="app-splash" id="appSplash" role="status">
@@ -62,12 +64,12 @@
 <span aria-hidden="true">⌕</span><input aria-label="国・地域・企業・ブランドを検索" id="homeGlobalSearchInput" placeholder="国・地域・企業・ブランドを検索" type="search"/><button type="submit">検索</button>
 </form>
 <h3 class="target-section-title">探し方</h3>
-<div class="target-route-list">
-<button data-jump="countries"><span aria-hidden="true" class="target-icon line-ui-icon"><svg viewbox="0 0 24 24"><circle cx="12" cy="12" r="9.25"></circle><path d="M2.75 12h18.5M12 2.75c2.35 2.53 3.55 5.61 3.55 9.25S14.35 18.72 12 21.25M12 2.75C9.65 5.28 8.45 8.36 8.45 12s1.2 6.72 3.55 9.25"></path></svg></span><strong>国から探す</strong><em>196の国・地域から選ぶ</em><b>›</b></button>
+<div class="target-route-list target-route-list--two">
+<button data-jump="countries" data-reset-country-filters="true"><span aria-hidden="true" class="target-icon line-ui-icon"><svg viewbox="0 0 24 24"><circle cx="12" cy="12" r="9.25"></circle><path d="M2.75 12h18.5M12 2.75c2.35 2.53 3.55 5.61 3.55 9.25S14.35 18.72 12 21.25M12 2.75C9.65 5.28 8.45 8.36 8.45 12s1.2 6.72 3.55 9.25"></path></svg></span><strong>国・地域から探す</strong><em>196の国・地域をすべて表示</em><b>›</b></button>
 <button data-jump="rankings"><span aria-hidden="true" class="target-icon line-ui-icon"><svg viewbox="0 0 24 24"><rect height="8" rx=".7" width="4.25" x="2.75" y="13.25"></rect><rect height="12.5" rx=".7" width="4.25" x="9.85" y="8.75"></rect><rect height="18" rx=".7" width="4.25" x="16.95" y="3.25"></rect></svg></span><strong>ランキングから探す</strong><em>指標のランキングを見る</em><b>›</b></button>
-<button data-jump="countries"><span aria-hidden="true" class="target-icon line-ui-icon"><svg viewbox="0 0 24 24"><path d="m2.75 6.25 5.2-2.8 5.95 2.8 2.1-1.15M2.75 6.25v14.2l5.2-2.8 5.95 2.8 5.35-2.9v-3.7M7.95 3.45v14.2M13.9 6.25v14.2"></path><path d="M21.2 7.4c0 2.65-3.95 6.15-3.95 6.15S13.3 10.05 13.3 7.4a3.95 3.95 0 1 1 7.9 0Z"></path><circle cx="17.25" cy="7.4" r="1.25"></circle></svg></span><strong>地域から探す</strong><em>地域ごとに国を一覧で見る</em><b>›</b></button>
+
 </div>
-<div class="target-row-head recent-countries-heading"><h3 id="recentCountriesHeading">最近見た国</h3><button data-jump="countries">すべて見る ›</button></div>
+<div class="target-row-head recent-countries-heading"><h3 id="recentCountriesHeading">最近見た国</h3><button data-jump="countries" data-reset-country-filters="true">すべて見る ›</button></div>
 <div aria-label="最近見た国" class="target-recent-grid" id="targetRecentGrid"></div>
 <h3 class="target-section-title">地域から探す</h3>
 <div class="target-region-grid">
@@ -358,6 +360,7 @@
 </section>
 </section>
 <section class="view" id="countries">
+<div aria-label="国・地域一覧ページ操作" class="view-local-header"><strong>MARKET BASE</strong><div class="view-local-actions"><button data-view-back-home="" type="button">戻る</button><button data-view-refresh="" type="button">更新</button></div></div>
 <div class="section-head">
 <div><h3 data-i18n="countriesTitle">国・地域一覧</h3><p data-i18n="countriesLead">検索・地域フィルタから詳細を開けます。</p></div>
 <div class="count-chip" id="countryCount">196</div>
@@ -541,7 +544,8 @@
 <script src="assets/flags/flag-svg-data.js?v=r91-r75-cumulative-food-factory-add-20260720"></script>
 <script src="assets/js/news.js?v=r91-r75-cumulative-food-factory-add-20260720"></script>
 <script src="assets/js/photo-registry-v1.js?v=r91-r75-cumulative-food-factory-add-20260720"></script>
-<script src="assets/js/app-v273-country-profile-r28.js?v=r92-mobile-recent-country-freeze-fix-20260720"></script>
+<script src="assets/js/app-v273-country-profile-r28.js?v=r94-country-route-header-20260720"></script>
+<script src="assets/js/daily-retail-showcase-v1.js?v=r93-daily-retail-gallery-pc-flag-fix-20260720"></script>
 <script src="external-db-links-v273-db-title-r27.js?v=r91-r75-cumulative-food-factory-add-20260720"></script>
 <script id="mbAuthScript">
 (function(){
