@@ -32,3 +32,57 @@
 .retail-gallery-expand[hidden],.retail-gallery-thumb[hidden]{display:none!important}
 .retail-gallery-main img.is-placeholder,.retail-gallery-thumb img.is-placeholder{object-fit:cover;filter:saturate(.7)}
 @media(min-width:760px){.retail-gallery-thumbs{grid-template-columns:repeat(6,minmax(0,1fr))}}
+
+/* R95 PC gallery layout fix: four small selectors on the left, one large viewer on the right. */
+@media (min-width:900px){
+  .retail-store-gallery{
+    display:grid;
+    grid-template-columns:clamp(150px,14vw,220px) minmax(0,1fr);
+    grid-template-areas:
+      "heading heading"
+      "thumbs main"
+      "expand main"
+      "meta meta"
+      "company company";
+    column-gap:14px;
+    align-items:start;
+  }
+  .retail-gallery-heading{grid-area:heading}
+  .retail-gallery-main{
+    grid-area:main;
+    width:100%;
+    aspect-ratio:16/9;
+    min-width:0;
+    margin:0;
+  }
+  .retail-gallery-thumbs{
+    grid-area:thumbs;
+    align-self:stretch;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:repeat(4,minmax(0,1fr));
+    gap:9px;
+    min-width:0;
+    height:100%;
+    margin:0;
+  }
+  .retail-gallery-thumb{
+    width:100%;
+    min-width:0;
+    min-height:0;
+    height:100%;
+    aspect-ratio:auto;
+    border-radius:11px;
+  }
+  .retail-gallery-expand{
+    grid-area:expand;
+    margin-top:9px;
+  }
+  .retail-gallery-meta{
+    grid-area:meta;
+    margin-top:12px;
+  }
+  .retail-gallery-company-link{
+    grid-area:company;
+  }
+}
