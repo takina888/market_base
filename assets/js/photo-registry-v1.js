@@ -7,7 +7,7 @@ const CACHE_KEY='market_base_photo_registry_cache_v1';
 const VERSION_KEY='market_base_photo_registry_version_v1';
 const MIN_RELOAD_INTERVAL=60*1000;
 const PERIODIC_RELOAD_INTERVAL=4*60*60*1000;
-const PLACEHOLDER_PATH='assets/images/photo-placeholder.webp';
+const PLACEHOLDER_PATH="data:image/svg+xml;charset=UTF-8,"+encodeURIComponent('<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\"><rect width=\"800\" height=\"500\" fill=\"%23eef4fa\"/><path d=\"M250 340l105-120 75 85 55-60 85 95H250z\" fill=\"%23c8d9e9\"/><circle cx=\"315\" cy=\"160\" r=\"36\" fill=\"%23c8d9e9\"/><text x=\"400\" y=\"420\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"30\" fill=\"%2368798f\">写真を読み込めません</text></svg>');
 
 let registry={schema_version:'1.0',registry_version:'',updated_at:'',photos:[]};
 let signature='';
@@ -135,7 +135,6 @@ function query(filters={}){
 }
 function imageUrl(photo,options={}){
   if(!photo) return PLACEHOLDER_PATH;
-  if(photo.local_path) return photo.local_path;
   if(options.thumbnail!==false&&photo.thumbnail_url) return photo.thumbnail_url;
   return photo.image_url||photo.thumbnail_url||PLACEHOLDER_PATH;
 }

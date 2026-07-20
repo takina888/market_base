@@ -43,8 +43,16 @@ function jumpToCard(companyId){
 }
 companyLink.addEventListener('click',event=>{event.preventDefault();if(active.group)jumpToCard(active.group.company_id);});
 function setSafeImage(img,photo){
-  img.src=imageUrl(photo);
-  img.addEventListener('error',()=>{img.src=placeholder();img.classList.add('is-placeholder');},{once:true});
+  const candidates=[registry.getImageUrl(photo,{thumbnail:true}),photo?.image_url,photo?.thumbnail_url].filter(Boolean).filter((value,index,array)=>array.indexOf(value)===index);
+  let cursor=0;
+  img.alt=photo.alt_ja||photo.caption_ja||`${photo.company_name_ja||'店舗'}の写真`;
+  img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';img.classList.remove('is-placeholder');
+  const loadNext=()=>{
+    if(cursor<candidates.length){img.src=candidates[cursor++];return;}
+    img.src=registry.getPlaceholderUrl();img.classList.add('is-placeholder');
+  };
+  img.onerror=()=>loadNext();
+  loadNext();
 }
 function openDialog(group,photo){
   ensureDialog();active={group,photo};setSafeImage(dialogImg,photo);dialogImg.alt=photo.alt_ja||photo.caption_ja||'';

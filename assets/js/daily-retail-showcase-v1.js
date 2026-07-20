@@ -13,10 +13,16 @@ const photoSrc=photo=>registry.getImageUrl(photo,{thumbnail:true});
 const placeholder=()=>registry.getPlaceholderUrl();
 
 function setSafeImage(img,photo){
-  img.src=photoSrc(photo);
+  const candidates=[photoSrc(photo),photo?.image_url,photo?.thumbnail_url].filter(Boolean).filter((value,index,array)=>array.indexOf(value)===index);
+  let cursor=0;
   img.alt=photo.alt_ja||photo.caption_ja||`${photo.company_name_ja||'店舗'}の写真`;
-  img.loading='lazy';img.decoding='async';
-  img.addEventListener('error',()=>{if(img.src.endsWith('photo-placeholder.webp'))return;img.src=placeholder();img.classList.add('is-placeholder');},{once:true});
+  img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';img.classList.remove('is-placeholder');
+  const loadNext=()=>{
+    if(cursor<candidates.length){img.src=candidates[cursor++];return;}
+    img.src=placeholder();img.classList.add('is-placeholder');
+  };
+  img.onerror=()=>loadNext();
+  loadNext();
 }
 function creditDetails(photo){
   const details=el('details','daily-retail-credit');
@@ -55,8 +61,8 @@ function groupPhotos(photos){
 }
 function chooseGroup(groups,offset=0){
   if(!groups.length)return null;
-  const dependable=groups.filter(group=>group.local_count===group.photos.length&&group.photos.length>=2);
-  const pool=dependable.length?dependable:groups;
+  const pool=groups.filter(group=>group.photos.length>=2);
+  if(!pool.length)return groups[0]||null;
   const index=(dayNumber()+safeHash('MARKET-BASE-DAILY-RETAIL')+offset)%pool.length;
   return pool[(index+pool.length)%pool.length];
 }
@@ -97,16 +103,14 @@ function mountHost(){
   let host=document.getElementById('dailyRetailShowcase');
   if(host)return host;
   host=el('section','daily-retail-showcase');host.id='dailyRetailShowcase';host.hidden=true;host.setAttribute('aria-label','日替わりコンビニ・スーパー紹介画像集');
-  const retailFilters=document.querySelector('main.page .filters');
-  if(retailFilters){
+  const retailMain=document.querySelector('main.page');
+  if(retailMain&&/retail-sales-v273-db-title-r27\.html$/i.test(location.pathname)){
     document.body.dataset.dailyRetailPage='retail';
-    retailFilters.insertAdjacentElement('afterend',host);
+    retailMain.append(host);
     return host;
   }
-  const journey=document.getElementById('todaysJourney');
-  if(journey){journey.insertAdjacentElement('afterend',host);return host;}
   const home=document.getElementById('home')||document.querySelector('main');
-  if(home){home.insertBefore(host,home.children[Math.min(2,home.children.length)]||null);return host;}
+  if(home){home.append(host);return host;}
   return null;
 }
 function render(offset=0){

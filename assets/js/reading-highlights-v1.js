@@ -1,102 +1,61 @@
 (() => {
   'use strict';
+  if(window.MARKET_BASE_READING_HIGHLIGHTS_R95)return;
+  window.MARKET_BASE_READING_HIGHLIGHTS_R95=true;
 
-  const SKIP_TAGS = new Set(['SCRIPT','STYLE','NOSCRIPT','TEXTAREA','INPUT','SELECT','OPTION','BUTTON','SVG','CODE','PRE','A']);
-  const SKIP_SELECTORS = [
-    'header','nav','footer','form','summary','h1','h2','h3','h4','h5','h6',
-    '.mbu-brand','.mbu-meta','.toolbar','.tabs','.filter','.filters','.search-area',
-    '.label','.k','.meta','.eyebrow','.badge','.badge-row','.tag','.chip','.pill',
-    '.card-title','.card-sub','.section-title','.hero-badge','.stat','.count','.pagination'
-  ].join(',');
-  const SCAN_ROOTS = ['main','.country-profile-dialog','.country-detail-panel','.modal','.dialog','.drawer'];
+  const SKIP_TAGS=new Set(['SCRIPT','STYLE','NOSCRIPT','TEXTAREA','INPUT','SELECT','OPTION','BUTTON','SVG','CODE','PRE','A']);
+  const SKIP_SELECTORS=['header','nav','footer','form','summary','h1','h2','h3','h4','h5','h6','.mbu-brand','.mbu-meta','.toolbar','.tabs','.filter','.filters','.search-area','.label','.k','.meta','.eyebrow','.badge','.badge-row','.tag','.chip','.pill','.card-title','.card-sub','.section-title','.hero-badge','.stat','.count','.pagination'].join(',');
+  const SCAN_ROOTS=['main','.country-profile-dialog','#detailContent','.country-detail-panel','.modal','.dialog','.drawer'];
+  const redTerms=['持ち込み禁止','使用不可','法令上必須','設備導入前に確認','現地確認が必要','必ず確認','禁止','警告','危険','違反','罰則','適用対象外','対象外','未登録','未公表','公開情報では確認できません','確認できません','未確認','要確認','確認が必要','メーカーへ確認','仕様確認が必要','地域差があります','工場ごとに異なります'];
+  const yellowTerms=['最重要','特に確認','海外展開','海外事業','導入実績','販売実績','輸出実績','設備投資','生産能力','主な強み','代表商品','看板商品','海外代理店','海外拠点','省人化','省力化','自動化','品質安定','品質向上','衛生・洗浄性','洗浄性','丸洗い可能','自動洗浄','サニタリー','ライン接続','多品種対応','段取り替え','歩留まり向上','歩留まり改善','省スペース','省エネ','作業標準化','海外販売','海外市場','海外導入','処理能力','高精度','公式情報','工場・施設','主な生産品目'];
+  const boldTerms=['該当なし','PSE','CE','CCC','KC','BSMI','UL','NRTL','HACCP','GMP','FSSC 22000','ISO 22000','ISO 9001','ISO 14001','ISO 45001','ISO 50001','JIS','IEC','公式PDF','カタログPDF','公式カタログ','製品詳細は未登録','能力数値あり','三相200V','三相400V'];
+  const escapeRegExp=value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  const terms=[...redTerms.map(text=>({text,cls:'mb-reading-red',priority:3})),...yellowTerms.map(text=>({text,cls:'mb-reading-yellow',priority:2})),...boldTerms.map(text=>({text,cls:'mb-reading-bold',priority:1}))].sort((a,b)=>b.text.length-a.text.length||b.priority-a.priority);
+  const termMap=new Map(terms.map(item=>[item.text,item.cls]));
+  const termPattern=terms.map(item=>escapeRegExp(item.text)).join('|');
+  const electricalPattern='(?:(?:単相|三相)\\s*)?\\d{2,4}(?:/\\d{2,4})?\\s*V(?:\\s*[・/,]\\s*(?:50|60)(?:/60)?\\s*Hz)?';
+  const capacityPattern='(?:\\d{1,3}(?:,\\d{3})+|\\d+(?:\\.\\d+)?)(?:\\s*(?:%|％|人|社|件|か所|箇所|店舗|台|基|ライン|トン|t/時|kg/時|kg/h|kg|g|kW|L|個/時|個/分|袋/分|食/日|万円|億円|兆円|米ドル|バーツ|ユーロ|ポンド))';
+  const combined=new RegExp(`(${termPattern}|${electricalPattern}|${capacityPattern})`,'g');
+  const queue=[];let scheduled=false;let totalMarks=0;
 
-  const redTerms = [
-    '持ち込み禁止','使用不可','法令上必須','設備導入前に確認','現地確認が必要',
-    '必ず確認','禁止','警告','危険','違反','罰則','適用対象外','対象外',
-    '未登録','未公表','公開情報では確認できません','確認できません','未確認','要確認','確認が必要','メーカーへ確認','仕様確認が必要','地域差があります','工場ごとに異なります'
-  ];
-  const yellowTerms = [
-    '最重要','特に確認','海外展開','海外事業','導入実績','販売実績','輸出実績',
-    '設備投資','生産能力','主な強み','代表商品','看板商品','海外代理店','海外拠点',
-    '省人化','省力化','自動化','品質安定','品質向上','衛生・洗浄性','洗浄性','丸洗い可能','自動洗浄','サニタリー','ライン接続',
-    '多品種対応','段取り替え','歩留まり向上','歩留まり改善','省スペース','省エネ','作業標準化','海外販売','海外市場','海外導入','処理能力','高精度'
-  ];
-  const boldTerms = [
-    '該当なし','PSE','CE','CCC','KC','BSMI','UL','NRTL','HACCP','GMP',
-    'FSSC 22000','ISO 22000','ISO 9001','ISO 14001','ISO 45001','ISO 50001',
-    'JIS','IEC','公式PDF','カタログPDF','公式カタログ','製品詳細は未登録','能力数値あり','三相200V','三相400V'
-  ];
-
-  const escapeRegExp = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const terms = [
-    ...redTerms.map(text => ({ text, cls: 'mb-reading-red', priority: 3 })),
-    ...yellowTerms.map(text => ({ text, cls: 'mb-reading-yellow', priority: 2 })),
-    ...boldTerms.map(text => ({ text, cls: 'mb-reading-bold', priority: 1 }))
-  ].sort((a,b) => b.text.length - a.text.length || b.priority - a.priority);
-  const termMap = new Map(terms.map(item => [item.text, item.cls]));
-  const termPattern = terms.map(item => escapeRegExp(item.text)).join('|');
-  const electricalPattern = '(?:(?:単相|三相)\\s*)?\\d{2,4}(?:/\\d{2,4})?\\s*V(?:\\s*[・/,]\\s*(?:50|60)(?:/60)?\\s*Hz)?';
-  const capacityPattern = '(?:\\d{1,3}(?:,\\d{3})+|\\d+(?:\\.\\d+)?)(?:\\s*(?:%|％|人|社|件|か所|箇所|店舗|台|基|ライン|トン|t/時|kg/時|kg/h|kg|g|kW|L|個/時|個/分|袋/分|食/日|万円|億円|兆円|米ドル|バーツ|ユーロ|ポンド))';
-  const combined = new RegExp(`(${termPattern}|${electricalPattern}|${capacityPattern})`, 'g');
-  const MAX_MARKS_PER_TEXT_NODE = 5;
-
-  function classFor(text) {
-    if (termMap.has(text)) return termMap.get(text);
-    return 'mb-reading-bold';
-  }
-  function eligible(node) {
-    if (!node || node.nodeType !== Node.TEXT_NODE || !node.nodeValue || !node.nodeValue.trim()) return false;
-    const parent = node.parentElement;
-    if (!parent || SKIP_TAGS.has(parent.tagName)) return false;
-    if (parent.closest('.mb-reading-bold,.mb-reading-red,.mb-reading-yellow')) return false;
-    if (parent.closest(SKIP_SELECTORS)) return false;
+  function classFor(text){return termMap.get(text)||'mb-reading-bold';}
+  function eligible(node){
+    if(!node||node.nodeType!==Node.TEXT_NODE||!node.nodeValue||!node.nodeValue.trim())return false;
+    const parent=node.parentElement;if(!parent||SKIP_TAGS.has(parent.tagName))return false;
+    if(parent.closest('.mb-reading-bold,.mb-reading-red,.mb-reading-yellow'))return false;
+    if(parent.closest(SKIP_SELECTORS))return false;
     return true;
   }
-  function processTextNode(node) {
-    if (!eligible(node)) return;
-    const text = node.nodeValue;
-    combined.lastIndex = 0;
-    let match, cursor = 0, count = 0;
-    const fragment = document.createDocumentFragment();
-    while ((match = combined.exec(text)) !== null && count < MAX_MARKS_PER_TEXT_NODE) {
-      if (match.index > cursor) fragment.append(document.createTextNode(text.slice(cursor, match.index)));
-      const span = document.createElement('span');
-      span.className = classFor(match[0]);
-      span.textContent = match[0];
-      fragment.append(span);
-      cursor = match.index + match[0].length;
-      count += 1;
+  function processTextNode(node){
+    if(!eligible(node))return;
+    const text=node.nodeValue;combined.lastIndex=0;let match,cursor=0,count=0;const fragment=document.createDocumentFragment();
+    while((match=combined.exec(text))!==null&&count<6){
+      if(match.index>cursor)fragment.append(document.createTextNode(text.slice(cursor,match.index)));
+      const span=document.createElement('span');span.className=classFor(match[0]);span.textContent=match[0];fragment.append(span);
+      cursor=match.index+match[0].length;count++;
     }
-    if (!count) return;
-    if (cursor < text.length) fragment.append(document.createTextNode(text.slice(cursor)));
-    node.replaceWith(fragment);
+    if(!count)return;if(cursor<text.length)fragment.append(document.createTextNode(text.slice(cursor)));node.replaceWith(fragment);totalMarks+=count;
   }
-  function processSubtree(root) {
-    if (!root) return;
-    if (root.nodeType === Node.TEXT_NODE) { processTextNode(root); return; }
-    if (root.nodeType !== Node.ELEMENT_NODE && root.nodeType !== Node.DOCUMENT_NODE) return;
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-    const nodes = [];
-    while (walker.nextNode()) nodes.push(walker.currentNode);
-    nodes.forEach(processTextNode);
+  function processBatch(deadline){
+    scheduled=false;let processed=0;
+    while(queue.length&&processed<240&&(!deadline||deadline.timeRemaining()>1)){
+      processTextNode(queue.shift());processed++;
+    }
+    if(queue.length)schedule();else{document.documentElement.dataset.mbHighlightsReady='true';document.documentElement.dataset.mbHighlightCount=String(totalMarks);}
   }
-  function scanInitial() {
-    const roots = [];
-    SCAN_ROOTS.forEach(selector => document.querySelectorAll(selector).forEach(node => roots.push(node)));
-    if (!roots.length && document.body) roots.push(document.body);
-    [...new Set(roots)].forEach(processSubtree);
+  function schedule(){if(scheduled)return;scheduled=true;if('requestIdleCallback'in window)requestIdleCallback(processBatch,{timeout:180});else setTimeout(()=>processBatch(null),0);}
+  function enqueueRoot(root){
+    if(!root)return;if(root.nodeType===Node.TEXT_NODE){queue.push(root);schedule();return;}
+    if(root.nodeType!==Node.ELEMENT_NODE&&root.nodeType!==Node.DOCUMENT_NODE)return;
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);while(walker.nextNode())queue.push(walker.currentNode);schedule();
   }
-  function start() {
-    scanInitial();
-    const observer = new MutationObserver(mutations => {
-      for (const mutation of mutations) {
-        for (const node of mutation.addedNodes) processSubtree(node);
-      }
-    });
-    observer.observe(document.body, { childList: true, subtree: true });
+  function scan(){const roots=[];SCAN_ROOTS.forEach(selector=>document.querySelectorAll(selector).forEach(node=>roots.push(node)));if(!roots.length&&document.body)roots.push(document.body);[...new Set(roots)].forEach(enqueueRoot);}
+  function start(){
+    scan();[300,1000,2200].forEach(ms=>setTimeout(scan,ms));
+    const observer=new MutationObserver(mutations=>{for(const mutation of mutations)for(const node of mutation.addedNodes)enqueueRoot(node);});
+    observer.observe(document.body,{childList:true,subtree:true});
   }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true });
-  else start();
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
 })();
 
 /* R62: apply country context from country profile deep links on specialist DB pages. */
