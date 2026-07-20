@@ -2717,6 +2717,22 @@ function openEntityByAnyCode(id){
   if(e){ openDetail(e.entity_id); return true; }
   return false;
 }
+function resetCountryListFilters(){
+  const input=document.getElementById('searchInput');
+  if(input) input.value='';
+  const region=document.getElementById('regionFilter');
+  if(region) region.value='all';
+  setSubregionPreset('all');
+  updateSubregionOptions();
+  const sub=document.getElementById('subregionFilter');
+  if(sub) sub.value='all';
+  const income=document.getElementById('incomeFilter');
+  if(income) income.value='all';
+  const gap=document.getElementById('gapOnlyToggle');
+  if(gap) gap.checked=false;
+  renderCountries();
+}
+
 function handleAppNavigationClick(btn, event){
   if(!btn) return false;
   if(btn.dataset.openEntity){
@@ -2751,6 +2767,7 @@ function handleAppNavigationClick(btn, event){
   }
   if(btn.dataset.jump){
     event.preventDefault(); event.stopPropagation();
+    if(btn.dataset.resetCountryFilters==='true') resetCountryListFilters();
     switchView(btn.dataset.jump);
     return true;
   }
