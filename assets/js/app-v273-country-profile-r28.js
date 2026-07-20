@@ -2092,9 +2092,9 @@ function detailContentHtml(e){
   }).join('')}</div></section>`;
   return `<div class="detail-header"><div class="detail-flag">${flagMarkup(e, 'flag-img-detail')}</div><div class="detail-title-block"><h2>${safe(nameOf(e))}</h2><p class="country-sub">${safe(e.entity_id)} / ${safe(e.iso3)} / ${safe(displayRegion(e))} / ${safe(displaySubregion(e))}</p><div class="detail-mini-tabs"><span>国別情報</span><span>基本統計</span><span>市場</span><span>米</span><span>学校給食</span><span>日本関連</span><span>出典</span></div></div></div>${countryProfileBlock(e)}${countryDatabaseLinksHtml(e)}${countryNewsHostHtml(e)}${statsHtml}${wdiMetadataBlock(e)}<section class="detail-section">${marketSummaryBlock(e)}</section>`;
 }
-function renderDetailContent(e){
-  document.getElementById('detailContent').innerHTML=detailContentHtml(e);
-  const newsHost=document.getElementById('countryNewsMount');
+let detailRenderSequence=0;
+function bindRenderedDetailContent(e,root){
+  const newsHost=root.querySelector('#countryNewsMount');
   if(newsHost && window.MarketBaseNews?.mountCountryNews){
     window.MarketBaseNews.mountCountryNews({
       container:newsHost,
@@ -2106,11 +2106,69 @@ function renderDetailContent(e){
   }else if(newsHost){
     newsHost.remove();
   }
-  document.querySelectorAll('[data-country-cross-search]').forEach(button=>button.addEventListener('click',()=>{
+  root.querySelectorAll('[data-country-cross-search]').forEach(button=>button.addEventListener('click',()=>{
     const query=button.dataset.countryCrossSearch || nameOf(e);
     document.getElementById('detailDialog')?.close();
     openGlobalSearch(query);
   }));
+}
+function renderDetailContent(e){
+  const root=document.getElementById('detailContent');
+  if(!root) return Promise.resolve(false);
+  const sequence=++detailRenderSequence;
+  const template=document.createElement('template');
+  template.innerHTML=detailContentHtml(e);
+  const sections=Array.from(template.content.children);
+  root.replaceChildren();
+  root.setAttribute('aria-busy','true');
+  const header=sections.shift();
+  if(header) root.append(header);
+  const progress=document.createElement('div');
+  progress.className='mb-detail-progressive-status';
+  progress.setAttribute('role','status');
+  progress.setAttribute('aria-live','polite');
+  progress.style.cssText='margin:12px 0;padding:11px 13px;border:1px solid #d9e6f5;border-radius:12px;background:#f7fbff;color:#31506f;font-size:14px;font-weight:750;';
+  progress.textContent='詳細情報を読み込んでいます…';
+  root.append(progress);
+  const dialog=document.getElementById('detailDialog');
+  return new Promise(resolve=>{
+    const queue=sections.map(node=>({parent:root,node,before:progress}));
+    let processed=0;
+    const insertNode=(parent,node,before)=>{
+      if(before && before.parentNode===parent) parent.insertBefore(node,before);
+      else parent.append(node);
+    };
+    const appendNext=()=>{
+      if(sequence!==detailRenderSequence || currentDetailEntityId!==e.entity_id){ resolve(false); return; }
+      const item=queue.shift();
+      if(item){
+        const element=item.node?.nodeType===1 ? item.node : null;
+        const descendants=element ? element.querySelectorAll('*').length : 0;
+        const children=element ? Array.from(element.childNodes) : [];
+        if(element && descendants>55 && children.length>1){
+          const shell=element.cloneNode(false);
+          insertNode(item.parent,shell,item.before);
+          for(let i=children.length-1;i>=0;i-=1){
+            queue.unshift({parent:shell,node:children[i],before:null});
+          }
+        }else{
+          insertNode(item.parent,item.node,item.before);
+        }
+        processed+=1;
+        if(dialog?.open && processed%3===0) stabilizeDetailDialog(dialog,'',false);
+      }
+      if(queue.length){
+        window.setTimeout(appendNext,0);
+        return;
+      }
+      progress.remove();
+      root.removeAttribute('aria-busy');
+      bindRenderedDetailContent(e,root);
+      if(dialog?.open) stabilizeDetailDialog(dialog,'',false);
+      resolve(true);
+    };
+    requestAnimationFrame(()=>window.setTimeout(appendNext,0));
+  });
 }
 function detailAnchorFromLocation(id){
   const params=new URLSearchParams(window.location.search);
@@ -2118,11 +2176,25 @@ function detailAnchorFromLocation(id){
   if(requested!==String(id||'').toUpperCase()) return '';
   return String(params.get('open_section')||params.get('mb_section')||window.location.hash.replace(/^#/, '')||'').trim();
 }
+function detailDialogCssName(name){
+  return String(name).replace(/[A-Z]/g,letter=>`-${letter.toLowerCase()}`);
+}
+function setDetailDialogStyle(dialog,name,value){
+  const cssName=detailDialogCssName(name);
+  if(dialog.style.getPropertyValue(cssName)!==value || dialog.style.getPropertyPriority(cssName)!=='important'){
+    dialog.style.setProperty(cssName,value,'important');
+  }
+}
 function applyDetailDialogViewport(dialog){
   if(!dialog || !dialog.open) return;
   const mobile=window.matchMedia?.('(max-width:640px)')?.matches;
+  const props=['position','top','left','right','bottom','width','maxWidth','height','minHeight','maxHeight','margin'];
   if(!mobile){
-    ['position','top','left','right','bottom','width','maxWidth','height','minHeight','maxHeight','margin'].forEach(name=>dialog.style[name]='');
+    if(dialog.dataset.mbViewportSignature==='desktop') return;
+    props.forEach(name=>dialog.style.removeProperty(detailDialogCssName(name)));
+    dialog.style.removeProperty('--mb-detail-viewport-height');
+    dialog.dataset.mbViewportSignature='desktop';
+    delete dialog.dataset.mbLayoutSignature;
     return;
   }
   const viewport=window.visualViewport;
@@ -2131,23 +2203,31 @@ function applyDetailDialogViewport(dialog){
   const offsetLeft=Math.round(viewport?.offsetLeft||0);
   const offsetTop=Math.round(viewport?.offsetTop||0);
   const gap=8;
-  dialog.style.position='fixed';
-  dialog.style.left=`${offsetLeft+gap}px`;
-  dialog.style.top=`${offsetTop+gap}px`;
-  dialog.style.right='auto';
-  dialog.style.bottom='auto';
-  dialog.style.width=`${Math.max(264,vw-gap*2)}px`;
-  dialog.style.maxWidth=`${Math.max(264,vw-gap*2)}px`;
-  dialog.style.height=`${Math.max(336,vh-gap*2)}px`;
-  dialog.style.minHeight=`${Math.max(336,vh-gap*2)}px`;
-  dialog.style.maxHeight=`${Math.max(336,vh-gap*2)}px`;
-  dialog.style.margin='0';
-  dialog.style.setProperty('--mb-detail-viewport-height',`${vh}px`);
+  const signature=`mobile:${vw}:${vh}:${offsetLeft}:${offsetTop}`;
+  if(dialog.dataset.mbViewportSignature===signature) return;
+  dialog.dataset.mbViewportSignature=signature;
+  delete dialog.dataset.mbLayoutSignature;
+  setDetailDialogStyle(dialog,'position','fixed');
+  setDetailDialogStyle(dialog,'left',`${offsetLeft+gap}px`);
+  setDetailDialogStyle(dialog,'top',`${offsetTop+gap}px`);
+  setDetailDialogStyle(dialog,'right','auto');
+  setDetailDialogStyle(dialog,'bottom','auto');
+  setDetailDialogStyle(dialog,'width',`${Math.max(264,vw-gap*2)}px`);
+  setDetailDialogStyle(dialog,'maxWidth',`${Math.max(264,vw-gap*2)}px`);
+  setDetailDialogStyle(dialog,'height',`${Math.max(336,vh-gap*2)}px`);
+  setDetailDialogStyle(dialog,'minHeight',`${Math.max(336,vh-gap*2)}px`);
+  setDetailDialogStyle(dialog,'maxHeight',`${Math.max(336,vh-gap*2)}px`);
+  setDetailDialogStyle(dialog,'margin','0px');
+  if(dialog.style.getPropertyValue('--mb-detail-viewport-height')!==`${vh}px`){
+    dialog.style.setProperty('--mb-detail-viewport-height',`${vh}px`);
+  }
 }
 function clearDetailDialogViewport(dialog){
   if(!dialog) return;
-  ['position','top','left','right','bottom','width','maxWidth','height','minHeight','maxHeight','margin'].forEach(name=>dialog.style[name]='');
+  ['position','top','left','right','bottom','width','maxWidth','height','minHeight','maxHeight','margin'].forEach(name=>dialog.style.removeProperty(detailDialogCssName(name)));
   dialog.style.removeProperty('--mb-detail-viewport-height');
+  delete dialog.dataset.mbViewportSignature;
+  delete dialog.dataset.mbLayoutSignature;
 }
 function resetDetailDialogScroll(dialog){
   if(!dialog) return;
@@ -2161,50 +2241,72 @@ function stabilizeDetailDialog(dialog,anchor='',positionContent=false){
     applyDetailDialogViewport(dialog);
     document.documentElement.classList.add('mb-country-dialog-open');
     document.body.classList.add('mb-country-dialog-open');
-    void dialog.offsetHeight;
+    const layoutSignature=dialog.dataset.mbViewportSignature||'default';
+    if(dialog.dataset.mbLayoutSignature!==layoutSignature){
+      void dialog.offsetHeight;
+      dialog.dataset.mbLayoutSignature=layoutSignature;
+    }
     if(positionContent && dialog.dataset.mbPositioned!=='1'){
       dialog.dataset.mbPositioned='1';
       const target=anchor ? document.getElementById(anchor) : null;
       if(target){
-        target.scrollIntoView({block:'start',behavior:'auto'});
+        const dialogRect=dialog.getBoundingClientRect();
+        const targetRect=target.getBoundingClientRect();
+        const targetTop=Math.max(0,dialog.scrollTop+(targetRect.top-dialogRect.top)-72);
+        if(typeof dialog.scrollTo==='function') dialog.scrollTo({top:targetTop,behavior:'auto'});
+        else dialog.scrollTop=targetTop;
         target.classList.add('mb-link-target-flash');
         window.setTimeout(()=>target.classList.remove('mb-link-target-flash'),2600);
       }else{
         resetDetailDialogScroll(dialog);
       }
     }
-    dialog.style.setProperty('--mb-detail-ready','1');
+    if(dialog.style.getPropertyValue('--mb-detail-ready')!=='1') dialog.style.setProperty('--mb-detail-ready','1');
   }catch(_){}
 }
 function openDetail(id){
   const e=entities.find(x=>x.entity_id===id); if(!e) return;
   currentDetailEntityId=id;
   rememberEntity(e.entity_id);
-  renderDetailContent(e);
   const dialog=document.getElementById('detailDialog');
+  const detailRoot=document.getElementById('detailContent');
   const anchor=detailAnchorFromLocation(id);
   dialog.classList.add('is-preparing');
   dialog.dataset.mbPositioned='0';
+  if(detailRoot){
+    detailRoot.replaceChildren();
+    detailRoot.setAttribute('aria-busy','true');
+    const quick=document.createElement('div');
+    quick.className='mb-detail-quick-open';
+    quick.style.cssText='padding:12px 4px 18px;';
+    quick.innerHTML=`<div class="detail-title-block"><h2>${safe(nameOf(e))}</h2><p class="country-sub">詳細情報を開いています…</p></div>`;
+    detailRoot.append(quick);
+  }
   if(!anchor) resetDetailDialogScroll(dialog);
   if(!dialog.open) dialog.showModal();
   if(!anchor) resetDetailDialogScroll(dialog);
   applyDetailDialogViewport(dialog);
-  const stabilize=()=>stabilizeDetailDialog(dialog,anchor,false);
+  const stabilize=()=>stabilizeDetailDialog(dialog,'',false);
   requestAnimationFrame(()=>{
-    stabilizeDetailDialog(dialog,anchor,true);
+    if(!anchor) stabilizeDetailDialog(dialog,'',true);
+    else stabilize();
     dialog.classList.remove('is-preparing');
     requestAnimationFrame(stabilize);
+    window.setTimeout(()=>{
+      renderDetailContent(e).then(rendered=>{
+        if(!rendered || !dialog.open || currentDetailEntityId!==id) return;
+        dialog.querySelectorAll('img').forEach(img=>{if(!img.complete)img.addEventListener('load',stabilize,{once:true})});
+        if(anchor){
+          dialog.dataset.mbPositioned='0';
+          stabilizeDetailDialog(dialog,anchor,true);
+        }else{
+          stabilize();
+        }
+      }).catch(()=>{});
+    },0);
   });
-  [40,100,220,480,900,1500].forEach(ms=>setTimeout(stabilize,ms));
+  [100,380,1000].forEach(ms=>setTimeout(stabilize,ms));
   if(document.fonts?.ready) document.fonts.ready.then(stabilize).catch(()=>{});
-  dialog.querySelectorAll('img').forEach(img=>{if(!img.complete)img.addEventListener('load',stabilize,{once:true})});
-  const content=dialog.querySelector('#detailContent');
-  if(content && window.ResizeObserver){
-    dialog._mbDetailResizeObserver?.disconnect?.();
-    const observer=new ResizeObserver(()=>stabilize());
-    observer.observe(content);
-    dialog._mbDetailResizeObserver=observer;
-  }
 }
 
 function initControls(){
@@ -2988,6 +3090,7 @@ document.getElementById('japanMetricSelect')?.addEventListener('change',renderJa
     dialog.classList.remove('is-preparing');
     dialog._mbDetailResizeObserver?.disconnect?.();
     dialog._mbDetailResizeObserver=null;
+    detailRenderSequence+=1;
     clearDetailDialogViewport(dialog);
     delete dialog.dataset.mbPositioned;
   };
@@ -3017,3 +3120,5 @@ document.getElementById('japanMetricSelect')?.addEventListener('change',renderJa
 })();
 
 try{ checkMarketBaseVersion(); }catch(_){ }
+
+// R92: mobile recent-country detail opens progressively to prevent long main-thread stalls.
