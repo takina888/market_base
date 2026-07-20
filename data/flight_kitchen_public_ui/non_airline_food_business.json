@@ -1,0 +1,1059 @@
+[
+  {
+    "business_id": "BUS_000001",
+    "company_id": "COM_000001",
+    "business_category": [
+      "convenience_store_ready_meal",
+      "fresh_food_bakery",
+      "retail_food",
+      "ecommerce_food"
+    ],
+    "description": "航空餐に加え、鮮食・ベーカリー、百貨・連鎖餐飲、餐飲ECを扱う。",
+    "related_channel": "retail;convenience_or_chain_food;ecommerce",
+    "country_region": "Taiwan",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000002",
+    "company_id": "COM_000002",
+    "business_category": [
+      "fresh_food",
+      "bento",
+      "frozen_ready_meal",
+      "institutional_meal"
+    ],
+    "description": "航空餐の周辺事業として、鮮食、便当、冷凍餐点、機構餐務が候補領域に入る。",
+    "related_channel": "foodservice;retail",
+    "country_region": "Taiwan",
+    "status": "C_reference"
+  },
+  {
+    "business_id": "BUS_000003",
+    "company_id": "COM_000006",
+    "business_category": [
+      "retort_food",
+      "frozen_ready_meal",
+      "confectionery"
+    ],
+    "description": "機内食開発の経験を活かし、レトルト食品、冷凍惣菜、菓子類を商品化する。",
+    "related_channel": "retail_or_new_food_business",
+    "country_region": "Japan",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000004",
+    "company_id": "COM_000009",
+    "business_category": [
+      "food_cold_storage",
+      "catering_transport"
+    ],
+    "description": "大型配餐施設、食品冷庫、食品輸送車を持ち、航空配餐の周辺物流・保冷機能を備える。",
+    "related_channel": "airport_catering_logistics",
+    "country_region": "China",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000005",
+    "company_id": "COM_000011",
+    "business_category": [
+      "hospital_catering"
+    ],
+    "description": "Gourmet House Culinary Care provides premium hospital catering services within BAC Group.",
+    "related_brand": "Gourmet House Culinary Care",
+    "related_channel": "healthcare",
+    "country_region": "Thailand",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000006",
+    "company_id": "COM_000011",
+    "business_category": [
+      "food_production"
+    ],
+    "description": "Gourmet Primo provides customized quality foods within BAC Group.",
+    "related_brand": "Gourmet Primo",
+    "related_channel": "food_production",
+    "country_region": "Thailand",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000007",
+    "company_id": "COM_000016",
+    "business_category": [
+      "industrial_services"
+    ],
+    "description": "Aerofood ACS provides industrial services in addition to inflight services.",
+    "related_brand": "Aerofood ACS",
+    "related_channel": "industrial_food_service",
+    "country_region": "Indonesia",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000008",
+    "company_id": "COM_000016",
+    "business_category": [
+      "retail"
+    ],
+    "description": "Aerofood ACS lists retail as one of its service categories.",
+    "related_brand": "Aerofood ACS",
+    "related_channel": "retail",
+    "country_region": "Indonesia",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000009",
+    "company_id": "COM_000017",
+    "business_category": [
+      "institutional_meal"
+    ],
+    "description": "MSFI was developed to support non-aviation and institutional catering opportunities in B2B food manufacturing.",
+    "related_brand": "MSFI",
+    "related_channel": "B2B_institutional",
+    "country_region": "Philippines",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000010",
+    "company_id": "COM_000015",
+    "business_category": [
+      "ready_to_eat_food_group_context"
+    ],
+    "description": "Brahim’s group sells ready-to-eat rice, dishes, cooking sauces and pastes; connect only as group food business context.",
+    "related_brand": "Brahim’s",
+    "related_channel": "retail_food",
+    "country_region": "Malaysia",
+    "status": "B_reference"
+  },
+  {
+    "business_id": "BUS_000011",
+    "company_id": "COM_000019",
+    "business_category": [
+      "event_catering"
+    ],
+    "description": "Airport and events food and beverage services",
+    "related_channel": "events; airport F&B",
+    "country_region": "United Arab Emirates",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000012",
+    "company_id": "COM_000021",
+    "business_category": [
+      "airport_food_and_retail"
+    ],
+    "description": "Airport lounges, outlets, onboard retail and VIP catering services",
+    "related_channel": "airport F&B; VIP/private aviation",
+    "country_region": "Global",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000013",
+    "company_id": "COM_000022",
+    "business_category": [
+      "railway_healthcare_retail"
+    ],
+    "description": "Retail, healthcare, railway and integrated facilities management segments",
+    "related_channel": "retail; healthcare; railway; facilities management",
+    "country_region": "Saudi Arabia",
+    "status": "A_official_source"
+  },
+  {
+    "business_id": "BUS_000014",
+    "company_id": "COM_000023",
+    "business_category": [
+      "institutional_meal"
+    ],
+    "description": "Institutional and corporate food service expansion connected to airport kitchen network",
+    "related_brand": "Nekta Food Solutions mentioned in secondary reports; confirm official mapping later",
+    "related_channel": "institutional/corporate catering",
+    "country_region": "India",
+    "status": "B_reference"
+  },
+  {
+    "business_id": "BUS_000015",
+    "company_id": "COM_000025",
+    "business_category": [
+      "retail_food",
+      "home_delivery",
+      "onboard_retail"
+    ],
+    "description": "航空ケータリングに加え、リテール、ホームデリバリー、機内リテール領域を扱う。",
+    "related_channel": "retail;home_delivery;onboard_retail",
+    "country_region": "Germany / Global",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000016",
+    "company_id": "COM_000026",
+    "business_category": [
+      "onboard_retail",
+      "hospitality",
+      "food_logistics"
+    ],
+    "description": "航空ケータリング、機内リテール、ホスピタリティ、食品物流を扱う。",
+    "related_channel": "onboard_retail;hospitality;logistics",
+    "country_region": "Switzerland / Global",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000017",
+    "company_id": "COM_000028",
+    "business_category": [
+      "airport_services",
+      "out_of_home_catering"
+    ],
+    "description": "機内食に加え、空港サービス、外食・施設向けケータリングを扱う。",
+    "related_channel": "airport_services;foodservice",
+    "country_region": "France / Africa",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000018",
+    "company_id": "COM_000029",
+    "business_category": [
+      "rail_catering",
+      "remote_sites",
+      "concession_catering",
+      "buy_on_board"
+    ],
+    "description": "機内食、機内販売、鉄道、遠隔地給食、空港・高速道路コンセッションを扱う。",
+    "related_channel": "transport_food;remote_sites;concessions",
+    "country_region": "France / Global",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000019",
+    "company_id": "COM_000030",
+    "business_category": [
+      "retail_ready_meal",
+      "private_label_food"
+    ],
+    "description": "リテール向け即食・プライベートラベル食品を扱う。",
+    "related_channel": "retail;private_label",
+    "country_region": "United States",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000020",
+    "company_id": "COM_000021",
+    "business_category": [
+      "travel_retail",
+      "airport_retail",
+      "onboard_retail"
+    ],
+    "description": "航空ケータリングと機内・空港リテールを扱う。",
+    "related_channel": "travel_retail;airport_retail",
+    "country_region": "Australia / Global",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000021",
+    "company_id": "COM_000032",
+    "business_category": [
+      "corporate_catering",
+      "event_catering",
+      "ready_made_meals",
+      "airline_lounges"
+    ],
+    "description": "機内食に加え、法人食、イベント、レディメイド食、航空ラウンジ向けサービスを扱う。",
+    "related_channel": "corporate;events;lounges;ready_meals",
+    "country_region": "South Africa",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000022",
+    "company_id": "COM_000033",
+    "business_category": [
+      "train_catering",
+      "hospitality_services"
+    ],
+    "description": "航空ケータリングに加え、Toronto Pearson施設ではtrain cateringとhospitality servicesも扱う。",
+    "related_channel": "train;hospitality",
+    "country_region": "Canada",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000023",
+    "company_id": "COM_000038",
+    "business_category": [
+      "outsourced_food_catering",
+      "corporate_customized_meals",
+      "retail_locations"
+    ],
+    "description": "航空ケータリングから外部委託給食、法人向けカスタム食、自社ブランド小売店舗へ広げている。",
+    "related_brand": "TransAsia Catering Services",
+    "related_channel": "corporate;retail",
+    "country_region": "Taiwan",
+    "status": "A_group_official"
+  },
+  {
+    "business_id": "BUS_000024",
+    "company_id": "COM_000041",
+    "business_category": [
+      "train_catering",
+      "hospitality_services"
+    ],
+    "description": "航空ケータリングに加え、鉄道ケータリングとホスピタリティサービスを扱う。",
+    "related_channel": "train;hospitality",
+    "country_region": "China",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000025",
+    "company_id": "COM_000043",
+    "business_category": [
+      "airport_catering_management",
+      "resource_planning"
+    ],
+    "description": "空港内餐飲資源の計画、招商、運営管理を扱う。",
+    "related_channel": "airport_food_service_management",
+    "country_region": "China",
+    "status": "B_context"
+  },
+  {
+    "business_id": "BUS_000026",
+    "company_id": "COM_000045",
+    "business_category": [
+      "sales_on_board",
+      "cafeterias_restaurants",
+      "dry_ice",
+      "laundry",
+      "outside_catering"
+    ],
+    "description": "機内販売、カフェテリア・レストラン、ドライアイス、ランドリー、外部ケータリングも扱う。",
+    "related_channel": "airline_group_services;outside_catering",
+    "country_region": "Egypt",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BIZ_000001",
+    "company_id": "COM_000046",
+    "business_category": [
+      "airport_hospitality_and_laundry"
+    ],
+    "description": "Airport restaurants, lounges, transit hotel and industrial laundry context around BIA/MRIA.",
+    "related_channel": "airport hospitality;laundry",
+    "country_region": "Sri Lanka",
+    "status": "B_reference"
+  },
+  {
+    "business_id": "BIZ_000002",
+    "company_id": "COM_000047",
+    "business_category": [
+      "healthcare_institutional_meal"
+    ],
+    "description": "Healthcare and institutional sector food service.",
+    "related_channel": "healthcare;institutional",
+    "country_region": "Brunei",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BIZ_000003",
+    "company_id": "COM_000047",
+    "business_category": [
+      "frozen_ready_meal"
+    ],
+    "description": "Frozen food product expansion including ready-to-heat dishes.",
+    "related_brand": "RBC frozen food",
+    "related_channel": "online;retail",
+    "country_region": "Brunei",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BIZ_000004",
+    "company_id": "COM_000048",
+    "business_category": [
+      "private_aviation_food_service"
+    ],
+    "description": "Personalized private aircraft passenger and crew meal services.",
+    "related_channel": "private aircraft operators",
+    "country_region": "United States / Global",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BIZ_000005",
+    "company_id": "COM_000050",
+    "business_category": [
+      "train_and_hospitality_services"
+    ],
+    "description": "Train catering and hospitality services listed by LSG Myanmar location page.",
+    "related_brand": "LSG Sky Chefs Myanmar",
+    "related_channel": "train;hospitality",
+    "country_region": "Myanmar",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BIZ_000006",
+    "company_id": "COM_000052",
+    "business_category": [
+      "train_and_hospitality_services"
+    ],
+    "description": "Train catering and hospitality services listed by LSG Thailand location page.",
+    "related_brand": "LSG Sky Chefs Thailand",
+    "related_channel": "train;hospitality",
+    "country_region": "Thailand",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BIZ_000007",
+    "company_id": "COM_000016",
+    "business_category": [
+      "state_vvip_charter_private_hajj_umrah_catering"
+    ],
+    "description": "Aerofood ACS provides catering and supplies for State Flights, VVIP & VIP, charter flights, private jets, and Hajj and Umrah flights.",
+    "related_brand": "Aerofood ACS",
+    "related_channel": "state;VVIP;VIP;charter;private_jet;Hajj;Umrah",
+    "country_region": "Indonesia",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BIZ_000008",
+    "company_id": "COM_000053",
+    "business_category": [
+      "train_and_hospitality_services"
+    ],
+    "description": "LSG Chengdu location page lists train catering and hospitality services in addition to airline catering.",
+    "related_brand": "Sichuan Airlines LSG Air Catering",
+    "related_channel": "train;hospitality",
+    "country_region": "China",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000035",
+    "company_id": "COM_000058",
+    "business_category": [
+      "institutional_ground_meals"
+    ],
+    "description": "Non-air ground meal catering and VIP lounge catering at Kunming airport",
+    "related_channel": "Kunming airport ground service / VIP lounge",
+    "country_region": "China",
+    "status": "active_reference"
+  },
+  {
+    "business_id": "BUS_000036",
+    "company_id": "COM_000059",
+    "business_category": [
+      "central_kitchen_group_meals"
+    ],
+    "description": "Central kitchen, group meal delivery, bakery and VIP lounge catering beyond aircraft meals",
+    "related_channel": "Xi’an airport / industrial park",
+    "country_region": "China",
+    "status": "active_reference"
+  },
+  {
+    "business_id": "BUS_000037",
+    "company_id": "COM_000061",
+    "business_category": [
+      "fast_meals_onboard_supplies"
+    ],
+    "description": "Fast meals, onboard commemorative/supply items and airport food service",
+    "related_channel": "Hangzhou airport",
+    "country_region": "China",
+    "status": "active_reference"
+  },
+  {
+    "business_id": "BUS_000038",
+    "company_id": "COM_000065",
+    "business_category": [
+      "airport_retail_fnb"
+    ],
+    "description": "Airport retail and F&B outlets; not flight-kitchen confirmation.",
+    "related_channel": "airport terminals",
+    "country_region": "Cambodia",
+    "status": "R_retail_only_keep_visible"
+  },
+  {
+    "business_id": "BUS_000039",
+    "company_id": "COM_000069",
+    "business_category": [
+      "non_airline_catering"
+    ],
+    "description": "Private/corporate events, lounges, staff canteens, laundry/storage support.",
+    "related_channel": "non-airline food and support services",
+    "country_region": "Oman",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000040",
+    "company_id": "COM_000070",
+    "business_category": [
+      "non_flight_catering"
+    ],
+    "description": "VIP/non-flight catering, restaurants, lounges and local catering services.",
+    "related_channel": "airport and local market",
+    "country_region": "Kuwait",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000041",
+    "company_id": "COM_000072",
+    "business_category": [
+      "non_flight_catering"
+    ],
+    "description": "BAS Catering also handles private/VVIP and non-flight catering.",
+    "related_channel": "airport_food_ecosystem",
+    "country_region": "Bahrain",
+    "status": "reference_display"
+  },
+  {
+    "business_id": "BUS_000042",
+    "company_id": "COM_000073",
+    "business_category": [
+      "airport_fnb_lounge_services"
+    ],
+    "description": "dnata Jordan also operates airport F&B outlets and lounges at QAIA.",
+    "related_channel": "airport_food_ecosystem",
+    "country_region": "Jordan",
+    "status": "reference_display"
+  },
+  {
+    "business_id": "BUS_000043",
+    "company_id": "COM_000076",
+    "business_category": [
+      "private_jet_catering_laundry_food_production"
+    ],
+    "description": "MIC also lists private jet catering, laundry and food production.",
+    "related_channel": "airport_food_ecosystem",
+    "country_region": "Maldives",
+    "status": "reference_display"
+  },
+  {
+    "business_id": "BUS_000044",
+    "company_id": "COM_000079",
+    "business_category": [
+      "airport_retail_fnb"
+    ],
+    "description": "BTA is retained as airport F&B/retail reference, not a core flight kitchen.",
+    "related_channel": "airport_food_ecosystem",
+    "country_region": "Turkey / Georgia / regional",
+    "status": "reference_display"
+  },
+  {
+    "business_id": "BUS_000045",
+    "company_id": "COM_000080",
+    "business_category": [
+      "onboard_retail",
+      "logistics"
+    ],
+    "description": "機内販売・搭載ロジスティクスも扱う。",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000046",
+    "company_id": "COM_000082",
+    "business_category": [
+      "laundry",
+      "laboratory_service"
+    ],
+    "description": "NAS Servairはランドリー、ラボサービスも掲載。",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000047",
+    "company_id": "COM_000088",
+    "business_category": [
+      "private_charter_catering",
+      "event_catering",
+      "corporate_catering"
+    ],
+    "description": "航空会社以外にプライベートチャーター、イベント、法人向けも扱う。",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000048",
+    "company_id": "COM_000089",
+    "business_category": [
+      "airport_services",
+      "hospitality"
+    ],
+    "description": "Newrest Nigeriaは空港サービスも扱う。",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000049",
+    "company_id": "COM_000090",
+    "business_category": [
+      "rail_catering",
+      "remote_site_management"
+    ],
+    "description": "Newrest Tunisia文脈で鉄道・遠隔地給食・施設管理も参考保持。",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000050",
+    "company_id": "COM_000091",
+    "business_category": [
+      "institutional_catering"
+    ],
+    "description": "Purantaraは機内食経験をもとに産業・病院・大型イベント向けにも展開。",
+    "related_channel": "institutional",
+    "country_region": "Indonesia",
+    "status": "active"
+  },
+  {
+    "business_id": "BUS_000051",
+    "company_id": "COM_000092",
+    "business_category": [
+      "multi_sector_catering"
+    ],
+    "description": "Capital Cateringは航空以外に医療、エネルギー、教育、イベント等も扱う。",
+    "related_brand": "Capital Catering",
+    "related_channel": "multi_sector",
+    "country_region": "United Arab Emirates",
+    "status": "active"
+  },
+  {
+    "business_id": "BUS_000052",
+    "company_id": "COM_000100",
+    "business_category": [
+      "events",
+      "weddings",
+      "external_catering"
+    ],
+    "description": "Capital Catering+は非航空・イベント向け参考ブランドとして保持。",
+    "related_brand": "Capital Catering+",
+    "related_channel": "events",
+    "country_region": "United Arab Emirates",
+    "status": "reference"
+  },
+  {
+    "business_id": "BUS_000053",
+    "company_id": "COM_000102",
+    "business_category": [
+      "hospital_food",
+      "prepared_food"
+    ],
+    "description": "Foodfolk Australiaは航空向け以外に病院・地上向け食品文脈もある。",
+    "related_brand": "Foodfolk Australia",
+    "related_channel": "ground_food",
+    "country_region": "Australia",
+    "status": "active"
+  },
+  {
+    "business_id": "BUS_000054",
+    "company_id": "COM_000105",
+    "business_category": [
+      "airport_retail",
+      "concession_catering"
+    ],
+    "description": "Newrest Moroccoは空港リテール・コンセッションケータリングも扱う。",
+    "related_brand": "Newrest Morocco",
+    "related_channel": "airport_retail",
+    "country_region": "Morocco",
+    "status": "active"
+  },
+  {
+    "business_id": "BUS_000055",
+    "company_id": "COM_000109",
+    "business_category": [
+      "airline_food_supplier"
+    ],
+    "description": "Monty’s Bakehouseは航空向けハンドヘルド食品・スナック供給会社として保持。",
+    "related_brand": "Monty’s Bakehouse",
+    "related_channel": "airline_food_supplier",
+    "country_region": "United Kingdom",
+    "status": "active"
+  },
+  {
+    "business_id": "BUS_000056",
+    "company_id": "COM_000110",
+    "business_category": [
+      "private_aviation_catering_platform"
+    ],
+    "description": "Flight Kitchensはプライベート航空向けケータリング調整ネットワーク。",
+    "related_brand": "Flight Kitchens",
+    "related_channel": "private_aviation",
+    "country_region": "United States / Global",
+    "status": "active"
+  },
+  {
+    "business_id": "BUS_000057",
+    "company_id": "COM_000111",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "inflight catering;buy-on-board;facility management",
+    "related_brand": "Newrest Spain",
+    "related_channel": "multi_sector",
+    "country_region": "Spain",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000058",
+    "company_id": "COM_000112",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "aviation catering;buy-on-board;logistics;facility management",
+    "related_brand": "Newrest Peru",
+    "related_channel": "multi_sector",
+    "country_region": "Peru",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000059",
+    "company_id": "COM_000113",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "inflight catering;buy-on-board;duty-free;food services;facility management",
+    "related_brand": "Newrest Colombia",
+    "related_channel": "multi_sector",
+    "country_region": "Colombia",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000060",
+    "company_id": "COM_000115",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "aerial catering;collective catering;remote site management;airport concessions",
+    "related_brand": "Newrest Costa Rica",
+    "related_channel": "multi_sector",
+    "country_region": "Costa Rica",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000061",
+    "company_id": "COM_000116",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "airline catering;base management;hotel services",
+    "related_brand": "Newrest Saudi Arabia",
+    "related_channel": "multi_sector",
+    "country_region": "Saudi Arabia",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000062",
+    "company_id": "COM_000119",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "inflight catering;buy-on-board;duty-free;food services;remote sites;rail;airport concessions",
+    "related_brand": "Newrest United States of America",
+    "related_channel": "multi_sector",
+    "country_region": "United States",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000063",
+    "company_id": "COM_000120",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "VIP inflight catering;private jet dining",
+    "related_brand": "Inflight Gourmet",
+    "related_channel": "aviation_related_non_core",
+    "country_region": "Spain / Private aviation",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000064",
+    "company_id": "COM_000121",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "airline_catering;airport_catering;multi_airport_poland",
+    "related_brand": "DO & CO Poland Sp. z o.o.",
+    "related_channel": "airline_catering_related",
+    "country_region": "Poland",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000065",
+    "company_id": "COM_000122",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "inflight_operations;airline_catering;aircraft_loading",
+    "related_brand": "FERIER Sp. z o.o.",
+    "related_channel": "airline_catering_related",
+    "country_region": "Poland",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000066",
+    "company_id": "COM_000123",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "private_jet_catering;VIP_catering;government_aircraft",
+    "related_brand": "LSKY Inflight Catering",
+    "related_channel": "aviation_related_non_core",
+    "country_region": "Portugal / Private aviation",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000067",
+    "company_id": "COM_000124",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "VIP_catering;private_jet_catering;poland_airports",
+    "related_brand": "Vanilla Sky VIP Inflight Catering",
+    "related_channel": "aviation_related_non_core",
+    "country_region": "Poland / Private aviation",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000068",
+    "company_id": "COM_000125",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "private_jet_catering;VIP_catering",
+    "related_brand": "SkyChef / MAX BERGER AVIATION",
+    "related_channel": "aviation_related_non_core",
+    "country_region": "Poland / Private aviation",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000069",
+    "company_id": "COM_000126",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "airline_catering;airport_catering;retail",
+    "related_brand": "dnata Ireland",
+    "related_channel": "airline_catering_related",
+    "country_region": "Ireland",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000070",
+    "company_id": "COM_000127",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "commercial_airline_catering;executive_vip_flights;cargo_carriers;government_vvip",
+    "related_brand": "Gastland Flight Catering Kft.",
+    "related_channel": "airline_catering_related",
+    "country_region": "Hungary",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000071",
+    "company_id": "COM_000128",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "airline_catering;airport_catering;network_reference",
+    "related_brand": "Newrest Germany",
+    "related_channel": "airline_catering_related",
+    "country_region": "Germany",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000072",
+    "company_id": "COM_000129",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "private_jet_catering;VIP_catering",
+    "related_brand": "Dark Wing Inflight Hungary",
+    "related_channel": "aviation_related_non_core",
+    "country_region": "Hungary / Private aviation",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000073",
+    "company_id": "COM_000130",
+    "business_category": [
+      "related_non_airline_food_or_reference"
+    ],
+    "description": "inflight_catering_directory_reference",
+    "related_brand": "AAS Catering",
+    "related_channel": "airline_catering_related",
+    "country_region": "Japan",
+    "status": "active_or_reference"
+  },
+  {
+    "business_id": "BUS_000074",
+    "company_id": "COM_000004",
+    "business_category": [
+      "institutional_catering",
+      "ambient_chilled_frozen_ready_to_eat_meals"
+    ],
+    "description": "施設・団体向けに、常温・チルド・冷凍・すぐ食べられる調理済み食を供給する。",
+    "related_channel": "institutional_catering;RTE_food_resilience",
+    "country_region": "Singapore",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000075",
+    "company_id": "COM_000019",
+    "business_category": [
+      "food_manufacturing",
+      "food_service_solutions",
+      "retail_foodservice"
+    ],
+    "description": "航空会社向けに加え、ホテル、レストラン、ケータラー、QSR、リテール向けの食品ソリューションを扱う。",
+    "related_brand": "Foodcraft",
+    "related_channel": "hotels;restaurants;caterers;QSR;retail",
+    "country_region": "United Arab Emirates",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000076",
+    "company_id": "COM_000024",
+    "business_category": [
+      "international_event_catering",
+      "restaurants_lounges_hotels"
+    ],
+    "description": "航空ケータリングに加え、国際イベントケータリング、レストラン、ラウンジ、ホテルを事業セグメントに持つ。",
+    "related_channel": "events;restaurants;lounges;hotels",
+    "country_region": "Austria / Turkey / Global",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000077",
+    "company_id": "COM_000029",
+    "business_category": [
+      "multisector_catering",
+      "facility_management"
+    ],
+    "description": "航空に限らないアウトオブホーム・ケータリングと施設管理を扱う。",
+    "related_channel": "multisector_catering;facility_management",
+    "country_region": "France / Global",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000078",
+    "company_id": "COM_000001",
+    "business_category": [
+      "frozen_ready_meal",
+      "retail_food",
+      "rice_noodle_ready_meal"
+    ],
+    "description": "自社ブランドの冷凍即食餐点として、主菜、飯麵、点心、軽食を扱う。",
+    "related_brand": "高空美膳",
+    "related_channel": "retail;group_meal;online_or_delivery",
+    "country_region": "Taiwan",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000079",
+    "company_id": "COM_000002",
+    "business_category": [
+      "group_meal",
+      "central_kitchen_service"
+    ],
+    "description": "航空餐基準の中央厨房を使い、専門厨師・栄養士による団膳料理を扱う。",
+    "related_channel": "group_meal;corporate_or_institutional_meal",
+    "country_region": "Taiwan",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000080",
+    "company_id": "COM_000016",
+    "business_category": [
+      "industrial_catering",
+      "retail_food",
+      "ready_to_eat",
+      "rice_bowl"
+    ],
+    "description": "インダストリアルケータリング、B2CリテールF&B、Ready to Eat、Ricebowlicious系メニューを扱う。",
+    "related_brand": "Aerofood ACS",
+    "related_channel": "industrial_catering;retail;ready_to_eat",
+    "country_region": "Indonesia",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000081",
+    "company_id": "COM_000021",
+    "business_category": [
+      "non_airline_sector_meals",
+      "fresh_frozen_meals"
+    ],
+    "description": "dnata Australiaは医療、リテール、教育など非航空セクター向けにも対応し、冷凍・生鮮食を年間2,000万食超製造する。",
+    "related_brand": "dnata Australia",
+    "related_channel": "healthcare;retail;education;fresh_frozen_meals",
+    "country_region": "Australia / Global",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000082",
+    "company_id": "COM_000037",
+    "business_category": [
+      "halal_frozen_food",
+      "retail_ready_meal"
+    ],
+    "description": "FamilyMart向けハラール冷凍食品として、EGSC製の米飯系商品を含む商品展開が掲載されている。",
+    "related_brand": "Evergreen Sky Catering / FamilyMart halal frozen foods",
+    "related_channel": "retail_frozen_food;halal_ready_meal",
+    "country_region": "Taiwan",
+    "status": "B_confirmed_secondary"
+  },
+  {
+    "business_id": "BUS_000083",
+    "company_id": "COM_000026",
+    "business_category": [
+      "packaged_meal_solutions",
+      "foodservice_retail"
+    ],
+    "description": "gategroup傘下のgatesolutionsは、フードサービス・リテール業界向けのパッケージ食ソリューションを扱う。",
+    "related_brand": "gatesolutions",
+    "related_channel": "foodservice;retail;packaged_meal_solutions",
+    "country_region": "Switzerland / Global",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000084",
+    "company_id": "COM_000028",
+    "business_category": [
+      "out_of_home_catering",
+      "airport_services"
+    ],
+    "description": "Servairはオンボードサービスに加えて、空港サービスとアウトオブホーム・ケータリングを事業軸に持つ。",
+    "related_brand": "Servair",
+    "related_channel": "out_of_home_catering;airport_services",
+    "country_region": "France / Africa",
+    "status": "A_confirmed_service_scope"
+  },
+  {
+    "business_id": "BUS_000085",
+    "company_id": "COM_000029",
+    "business_category": [
+      "multi_sector_catering",
+      "out_of_home_catering",
+      "facility_management"
+    ],
+    "description": "Newrestはアウトオブホーム・ケータリング、マルチセクター・ケータリング、施設管理を扱う。",
+    "related_brand": "Newrest",
+    "related_channel": "multi_sector_catering;facility_management;rail;remote_sites",
+    "country_region": "France / Global",
+    "status": "A_confirmed_service_scope"
+  },
+  {
+    "business_id": "BUS_000086",
+    "company_id": "COM_000092",
+    "business_category": [
+      "multi_sector_catering",
+      "healthcare",
+      "education",
+      "energy",
+      "events"
+    ],
+    "description": "Capital Cateringは航空、医療、エネルギー、教育、イベントなど複数セクター向けにケータリング・ホスピタリティを提供する。",
+    "related_brand": "Capital Catering",
+    "related_channel": "healthcare;energy;education;events;aviation",
+    "country_region": "United Arab Emirates",
+    "status": "A_confirmed"
+  },
+  {
+    "business_id": "BUS_000087",
+    "company_id": "COM_000102",
+    "business_category": [
+      "ready_made_meal_production",
+      "land_and_air_customers"
+    ],
+    "description": "Foodfolk Australiaは、空と地上の顧客向け ready-made meal production の能力拡張対象として政府発表に掲載されている。",
+    "related_brand": "Foodfolk Australia",
+    "related_channel": "ready_made_meals;land_customers;air_customers",
+    "country_region": "Australia",
+    "status": "A_confirmed_government"
+  }
+]
