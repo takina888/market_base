@@ -1,0 +1,32 @@
+/* R94: consolidate country/region entry and restore a full local header on the country list. */
+.target-route-list--two{grid-template-columns:1fr!important}
+#countries>.view-local-header{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:14px!important;
+  width:100%!important;
+  margin:0 0 24px!important;
+  padding:8px 0 18px!important;
+  border-bottom:1px solid #E1E8F1!important;
+}
+#countries>.view-local-header>strong{
+  flex:1 1 auto!important;
+  min-width:0!important;
+  color:#0B3976!important;
+  font-size:clamp(31px,6.5vw,44px)!important;
+  font-weight:950!important;
+  line-height:1.05!important;
+  letter-spacing:.045em!important;
+  white-space:nowrap!important;
+}
+@media(min-width:761px){
+  .target-route-list--two{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important}
+}
+@media(max-width:640px){
+  #countries>.view-local-header{gap:8px!important;margin-bottom:20px!important;padding:6px 0 16px!important}
+  #countries>.view-local-header>strong{font-size:25px!important;letter-spacing:.025em!important}
+}
+@media(max-width:370px){
+  #countries>.view-local-header>strong{font-size:22px!important;letter-spacing:.015em!important}
+}

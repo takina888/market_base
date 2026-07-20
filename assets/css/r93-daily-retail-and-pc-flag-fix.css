@@ -1,0 +1,51 @@
+/* R93: visible daily convenience-store/supermarket gallery and larger PC flags. */
+.daily-retail-showcase{margin:18px 0 24px;padding:20px;border:1px solid #cbdcf0;border-radius:24px;background:linear-gradient(150deg,#f4f9ff 0%,#fff 62%);box-shadow:0 12px 34px rgba(11,57,118,.10);overflow:hidden}
+.daily-retail-showcase[hidden]{display:none!important}
+.daily-retail-heading,.daily-retail-intro{display:flex;align-items:flex-end;justify-content:space-between;gap:14px}
+.daily-retail-heading span{display:block;color:#1764c8;font-size:12px;font-weight:950;letter-spacing:.11em}
+.daily-retail-heading h2{margin:3px 0 0;color:#0b3976;font-size:25px;line-height:1.25}
+.daily-retail-heading em{color:#607188;font-size:13px;font-style:normal;font-weight:900}
+.daily-retail-intro{align-items:center;margin:14px 0 12px}
+.daily-retail-intro strong{display:block;color:#17233a;font-size:21px;line-height:1.25}
+.daily-retail-intro p{margin:4px 0 0;color:#63748a;font-size:13px;font-weight:750}
+.daily-retail-next{min-height:40px;padding:8px 13px;border:1px solid #bfd2e7;border-radius:12px;background:#fff;color:#0b4f91;font:inherit;font-size:13px;font-weight:950;cursor:pointer}
+.daily-retail-layout{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(240px,.55fr);gap:12px;align-items:start}
+.daily-retail-main{position:relative;display:block;width:100%;aspect-ratio:16/10;padding:0;border:0;border-radius:18px;overflow:hidden;background:#eaf2fa;cursor:default}
+.daily-retail-main img{display:block;width:100%;height:100%;object-fit:cover}
+.daily-retail-badge{position:absolute;left:12px;bottom:12px;padding:6px 10px;border-radius:999px;background:rgba(7,39,82,.88);color:#fff;font-size:12px;font-weight:950}
+.daily-retail-side{display:grid;gap:10px}
+.daily-retail-thumbs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.daily-retail-thumb{padding:0;border:2px solid transparent;border-radius:12px;overflow:hidden;aspect-ratio:4/3;background:#eef5fc;cursor:pointer}
+.daily-retail-thumb.is-active{border-color:#1764c8;box-shadow:0 0 0 2px rgba(23,100,200,.13)}
+.daily-retail-thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.daily-retail-caption{display:grid;gap:8px;color:#526477;font-size:13px;line-height:1.5}
+.daily-retail-caption>strong{color:#17233a;font-size:15px}
+.daily-retail-credit{border:1px solid #d8e5f2;border-radius:12px;background:#fff;overflow:hidden}
+.daily-retail-credit summary{display:flex;align-items:center;min-height:42px;padding:8px 12px;color:#0b4f91;font-size:13px;font-weight:900;cursor:pointer;list-style:none}
+.daily-retail-credit summary::-webkit-details-marker{display:none}.daily-retail-credit summary::after{content:'＋';margin-left:auto;font-size:18px}.daily-retail-credit[open] summary::after{content:'−'}
+.daily-retail-credit-body{display:grid;gap:5px;padding:0 12px 11px;color:#526477;font-size:12px}.daily-retail-credit-body a{width:max-content;max-width:100%;color:#1764c8;font-weight:900;overflow-wrap:anywhere}
+.daily-retail-company-link{display:flex;align-items:center;justify-content:center;min-height:48px;margin-top:14px;border-radius:15px;background:#0b4f91;color:#fff;text-decoration:none;font-weight:950}
+.daily-retail-main img.is-placeholder,.daily-retail-thumb img.is-placeholder{filter:saturate(.65)}
+@media(max-width:700px){.daily-retail-showcase{margin:15px 0 21px;padding:16px 13px;border-radius:20px}.daily-retail-heading{align-items:flex-start}.daily-retail-heading h2{font-size:22px}.daily-retail-intro{align-items:flex-start}.daily-retail-intro strong{font-size:19px}.daily-retail-next{flex:0 0 auto;padding:7px 10px}.daily-retail-layout{grid-template-columns:1fr}.daily-retail-main{aspect-ratio:4/3}.daily-retail-thumbs{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}.daily-retail-caption{margin-top:2px}}
+@media(max-width:390px){.daily-retail-heading{flex-direction:column;gap:4px}.daily-retail-intro{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px}.daily-retail-next{font-size:12px}.daily-retail-thumbs{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+/* PC detail flags were being visually reduced by older layered rules. This final stylesheet is loaded last. */
+@media(min-width:761px){
+  .target-recent-grid .flag-img-target-recent{width:76px!important;height:51px!important;min-width:76px!important;min-height:51px!important;max-width:76px!important;max-height:51px!important}
+  .country-card{grid-template-columns:82px minmax(0,1fr) 44px!important}
+  .country-card .flag-open{width:76px!important;height:52px!important;min-width:76px!important;min-height:52px!important}
+  .country-card .flag-img-card{width:72px!important;height:49px!important;min-width:72px!important;min-height:49px!important;max-width:72px!important;max-height:49px!important}
+  #detailContent .detail-header>.detail-flag{display:grid!important;place-items:center!important;width:166px!important;height:116px!important;min-width:166px!important;min-height:116px!important;max-width:166px!important;max-height:116px!important;padding:7px!important;background:#fff!important;border-radius:14px!important;overflow:hidden!important}
+  #detailContent .detail-header>.detail-flag .flag-img-detail,
+  #detailContent .detail-header>.detail-flag .flag-asset,
+  #detailContent .detail-header>.flag-img-detail{display:grid!important;place-items:center!important;width:150px!important;height:100px!important;min-width:150px!important;min-height:100px!important;max-width:150px!important;max-height:100px!important;border-radius:7px!important;overflow:hidden!important}
+  #detailContent .detail-header>.detail-flag svg,
+  #detailContent .detail-header>.detail-flag .flag-img-detail>svg,
+  #detailContent .detail-header>.detail-flag .flag-asset>svg{display:block!important;width:100%!important;height:100%!important;min-width:100%!important;min-height:100%!important;max-width:100%!important;max-height:100%!important}
+}
+.daily-retail-main{cursor:zoom-in}
+.daily-retail-dialog{width:min(920px,calc(100% - 20px));max-width:920px;padding:12px;border:0;border-radius:22px;background:#fff;box-shadow:0 26px 90px rgba(0,0,0,.32)}
+.daily-retail-dialog::backdrop{background:rgba(7,18,35,.64)}
+.daily-retail-dialog-close{position:absolute;right:16px;top:16px;z-index:2;width:48px;height:48px;border:2px solid #d6e3f2;border-radius:50%;background:rgba(255,255,255,.95);color:#0b3976;font-size:29px;line-height:1;cursor:pointer}
+.daily-retail-dialog figure{margin:0}.daily-retail-dialog figure>img{display:block;width:100%;max-height:72vh;object-fit:contain;border-radius:15px;background:#eef4fa}.daily-retail-dialog figcaption{display:grid;gap:9px;padding:12px 4px 2px}.daily-retail-dialog figcaption>strong{color:#17233a;font-size:16px}.daily-retail-dialog-bottom{display:flex;align-items:center;justify-content:center;width:100%;min-height:46px;margin-top:10px;border:2px solid #d6e3f2;border-radius:14px;background:#fff;color:#0b3976;font:inherit;font-weight:950;cursor:pointer}
+@media(max-width:520px){.daily-retail-dialog{padding:8px}.daily-retail-dialog figure>img{max-height:68vh}}
