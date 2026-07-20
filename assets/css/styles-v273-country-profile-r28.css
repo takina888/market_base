@@ -2805,7 +2805,7 @@ input,select,textarea{max-width:100%;min-width:0}
 .global-country-results button>span:nth-child(2){display:grid;gap:2px}.global-country-results strong{font-size:18px;color:#0b2d62}.global-country-results em{font-style:normal;font-size:12px;color:#65758e}.global-country-results b{font-size:13px;color:#0864ce;white-space:nowrap}
 .global-db-result-card{display:grid;gap:9px;padding:13px;border:1px solid #d6e3f2;border-radius:14px;background:#fff;box-shadow:0 2px 9px rgba(9,32,68,.06)}
 .global-db-result-head{display:grid;grid-template-columns:43px minmax(0,1fr);align-items:center;gap:10px}.global-db-result-head>span{width:43px;height:43px;border-radius:12px;background:#eaf4ff;color:#0870c9;display:grid;place-items:center;font-size:14px;font-weight:950}.global-db-result-head>div{display:grid}.global-db-result-head strong{font-size:17px;color:#0b2d62}.global-db-result-head em{font-style:normal;font-size:12px;color:#66778f}
-.global-db-match-list{display:flex;gap:6px;overflow:auto;padding-bottom:2px}.global-db-match-list span{flex:0 0 auto;max-width:250px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:5px 8px;border-radius:999px;background:#f3f7fc;color:#394d69;font-size:11px;font-weight:800}
+.global-db-match-list{display:flex;gap:6px;overflow:auto;padding-bottom:2px}.global-db-match-list span,.global-db-match-list a{flex:0 0 auto;max-width:250px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:5px 8px;border-radius:999px;background:#f3f7fc;color:#394d69;font-size:11px;font-weight:800}
 .global-db-result-card>a{display:flex;align-items:center;justify-content:center;min-height:43px;border-radius:10px;background:#0b4b9e;color:#fff;text-decoration:none;font-size:14px;font-weight:950}
 .global-search-empty{display:grid;gap:4px;margin:16px 0;padding:20px;border:1px dashed #c7d8eb;border-radius:15px;background:#fafcff;text-align:center}.global-search-empty strong{color:#0b2d62;font-size:17px}.global-search-empty span{color:#687990;font-size:13px}
 .global-search-db-footer{margin-top:28px;padding-top:8px;border-top:1px solid #dce6f2}.global-search-db-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.global-db-link-card{min-width:0;min-height:108px;padding:12px 10px;border:1px solid #d7e3f1;border-radius:14px;background:#fff;color:#0b2d62;text-decoration:none;display:grid;grid-template-columns:42px minmax(0,1fr);grid-template-rows:1fr auto;gap:6px 9px;align-items:center;box-shadow:0 2px 8px rgba(9,32,68,.055)}.global-db-link-card>span{grid-row:1/3;width:42px;height:42px;border-radius:12px;background:#edf6ff;color:#0870c9;display:grid;place-items:center;font-size:13px;font-weight:950}.global-db-link-card strong{font-size:15px;line-height:1.3}.global-db-link-card em{font-style:normal;color:#0864ce;font-size:12px;font-weight:950}
@@ -4207,3 +4207,125 @@ body.mb-news-popup-open{overflow:hidden;}
   .external-db-card .external-db-card-note,
   .compact-external-card .external-db-card-note{font-size:12px!important;}
 }
+
+/* R77: iOS first-open country dialog stability */
+@media(max-width:640px){
+  #detailDialog{height:calc(100dvh - 24px)!important;max-height:calc(100dvh - 24px)!important;min-height:calc(100dvh - 24px)!important;overflow-y:auto!important;overscroll-behavior:contain!important;}
+  #detailContent{min-height:calc(100dvh - 96px)!important;}
+}
+
+
+/* R78: Today's Journey editorial-quality presentation */
+.todays-journey-card.photo-loading{position:relative;min-height:260px;overflow:hidden}
+.todays-journey-card.photo-loading::before{content:"写真を選定しています";display:flex;align-items:center;justify-content:center;min-height:190px;color:#6e8197;font-size:12px;font-weight:900;letter-spacing:.05em;background:linear-gradient(110deg,#eaf2fa 15%,#f8fbff 35%,#eaf2fa 55%);background-size:220% 100%;animation:mbJourneyShimmer 1.35s linear infinite}
+.todays-journey-card.photo-loading .todays-journey-copy{grid-column:1/-1}
+@keyframes mbJourneyShimmer{to{background-position:-220% 0}}
+.todays-journey-copy p{font-family:"Noto Serif JP","Yu Mincho","Hiragino Mincho ProN",serif;font-weight:650;letter-spacing:.015em;line-height:1.9}
+.todays-journey-copy h3{letter-spacing:.01em;line-height:1.42}
+@media(max-width:680px){
+ .todays-journey-card.photo-loading{min-height:420px}
+ .todays-journey-card.photo-loading::before{min-height:210px}
+ .todays-journey-copy p{font-size:15.5px;line-height:1.86}
+}
+
+
+/* R80: site stability, first-open dialog and deep-link target behavior */
+html.mb-country-dialog-open,
+body.mb-country-dialog-open{
+  overflow:hidden!important;
+  overscroll-behavior:none!important;
+}
+#detailDialog{
+  box-sizing:border-box!important;
+  scrollbar-gutter:stable both-edges;
+}
+#detailDialog #detailContent,
+#detailDialog .detail-section,
+#detailDialog [id]{
+  scroll-margin-top:82px!important;
+}
+.mb-link-target-flash{
+  animation:mbLinkTargetFlash 2.4s ease-out 1!important;
+  outline:3px solid rgba(255,199,0,.72)!important;
+  outline-offset:5px!important;
+}
+@keyframes mbLinkTargetFlash{
+  0%,28%{background-color:#FFF5A8;box-shadow:0 0 0 8px rgba(255,224,76,.22)}
+  100%{background-color:inherit;box-shadow:none}
+}
+@media(max-width:640px){
+  /* Do not calculate the first opening from 100dvh. Fixed safe-area insets
+     make the modal occupy the complete visible viewport on iPhone from the first frame. */
+  #detailDialog[open]{
+    position:fixed!important;
+    inset:max(8px,env(safe-area-inset-top)) 8px max(8px,env(safe-area-inset-bottom)) 8px!important;
+    width:auto!important;
+    max-width:none!important;
+    height:auto!important;
+    min-height:0!important;
+    max-height:none!important;
+    margin:0!important;
+    padding:12px 13px 18px!important;
+    overflow-x:hidden!important;
+    overflow-y:auto!important;
+    -webkit-overflow-scrolling:touch!important;
+    overscroll-behavior:contain!important;
+    border-radius:18px!important;
+  }
+  #detailDialog[open] #detailContent{
+    width:100%!important;
+    min-height:100%!important;
+    overflow:visible!important;
+  }
+  #detailDialog[open]>.close{
+    top:0!important;
+  }
+}
+
+/* R83: first-open country dialog uses the measured visual viewport, not an early 100dvh estimate. */
+#detailDialog[open]{
+  box-sizing:border-box!important;
+  scrollbar-gutter:auto!important;
+}
+#detailDialog[open]>.close{
+  position:sticky!important;
+  top:0!important;
+  z-index:30!important;
+  float:right!important;
+  margin:0 0 8px 8px!important;
+}
+#detailDialog[open] #detailContent{
+  box-sizing:border-box!important;
+  width:100%!important;
+  max-width:100%!important;
+  padding-bottom:max(34px,env(safe-area-inset-bottom))!important;
+}
+@media(max-width:640px){
+  #detailDialog[open]{
+    inset:auto!important;
+    overflow-x:hidden!important;
+    overflow-y:auto!important;
+    -webkit-overflow-scrolling:touch!important;
+    overscroll-behavior:contain!important;
+    padding:12px 13px 18px!important;
+    border-radius:18px!important;
+  }
+  #detailDialog[open] #detailContent{
+    min-height:calc(var(--mb-detail-viewport-height,100svh) - 72px)!important;
+    overflow:visible!important;
+  }
+}
+
+/* R83 exact-record links */
+.global-db-match-list a{text-decoration:none}.global-db-match-list a:hover{background:#e7f1ff;color:#0b4b9e}.global-db-match-list a:focus-visible{outline:3px solid rgba(11,93,204,.24);outline-offset:2px}
+/* R88: photo credits are collapsed by default, including Today's Journey. */
+.journey-image-credit-details{margin-top:10px;border:1px solid #355575;border-radius:12px;background:#0f2741;overflow:hidden}
+.journey-image-credit-details summary{display:flex;align-items:center;min-height:42px;padding:8px 12px;color:#e5f2ff;font-size:12px;font-weight:900;cursor:pointer;list-style:none}
+.journey-image-credit-details summary::-webkit-details-marker{display:none}
+.journey-image-credit-details summary::after{content:'＋';margin-left:auto;font-size:18px;line-height:1}
+.journey-image-credit-details[open] summary::after{content:'−'}
+.journey-image-credit-body{padding:0 12px 12px}
+.journey-image-credit-body .journey-image-links{margin-top:8px}
+.journey-image-bottom-actions{display:flex;justify-content:flex-end;margin-top:11px}
+.journey-image-bottom-actions button{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:8px 16px;border:1px solid #b9d2ea;border-radius:10px;background:#eaf5ff;color:#11395e;font:inherit;font-size:12px;font-weight:900;cursor:pointer}
+@media(max-width:520px){.journey-image-bottom-actions button{width:100%}}
