@@ -1,0 +1,106 @@
+
+*{box-sizing:border-box}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Yu Gothic UI","Yu Gothic","Meiryo",sans-serif!important;
+  font-size:16.2px!important;
+  line-height:1.70!important;
+}
+
+
+.page,.app-shell,body>main{
+  width:100%!important;
+  max-width:900px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  padding-left:22px!important;
+  padding-right:22px!important;
+}
+.market-header-inner,.mb-header-inner,
+body>header:not(.topbar):not(.mb-header):not(.market-header){
+  width:100%!important;
+  max-width:900px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  padding-left:22px!important;
+  padding-right:22px!important;
+}
+body>header:not(.topbar):not(.mb-header):not(.market-header)+main,
+.market-header+.page,.mb-header+main{
+  width:100%!important;
+  max-width:900px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  padding-left:22px!important;
+  padding-right:22px!important;
+}
+
+
+.brand,.market-brand,.mb-header .brand{
+  font-size:28px!important;
+  line-height:1!important;
+  font-weight:900!important;
+  letter-spacing:.052em!important;
+}
+.title,.intro h1,.page>h1,.hero h1,.title-row h1,.topbar+h1{
+  font-size:25px!important;
+  line-height:1.22!important;
+  font-weight:900!important;
+  letter-spacing:-.02em!important;
+}
+.lead,.intro p,.hero-lead,.notice{
+  font-size:14.5px!important;
+  line-height:1.66!important;
+}
+.card-title,.company h2,.card h2,.company-head h2{
+  font-size:22px!important;
+  line-height:1.28!important;
+  font-weight:900!important;
+}
+.search,.select,.filters input,.filters select,.filter-grid select,.filter-grid button,
+#q,.filter-panel select,.controls input,.controls select{
+  font-family:inherit!important;
+  font-size:15px!important;
+  line-height:1.4!important;
+}
+
+@media(max-width:760px){
+  body{font-size:15.7px!important;line-height:1.68!important}
+  .brand,.market-brand,.mb-header .brand{font-size:27px!important}
+  .title,.intro h1,.page>h1,.hero h1,.title-row h1,.topbar+h1{font-size:24px!important;line-height:1.25!important}
+  .lead,.intro p,.hero-lead,.notice{font-size:14.2px!important;line-height:1.64!important}
+  .card-title,.company h2,.card h2,.company-head h2{font-size:21px!important;line-height:1.28!important}
+  .search,.select,.filters input,.filters select,.filter-grid select,.filter-grid button,
+  #q,.filter-panel select,.controls input,.controls select{font-size:16px!important}
+}
+
+@media(max-width:430px){
+  body{font-size:15.4px!important;line-height:1.66!important}
+  .page,.app-shell,body>main,
+  .market-header-inner,.mb-header-inner,
+  body>header:not(.topbar):not(.mb-header):not(.market-header),
+  body>header:not(.topbar):not(.mb-header):not(.market-header)+main,
+  .market-header+.page,.mb-header+main{
+    width:100%!important;
+    padding-left:22px!important;
+    padding-right:22px!important;
+  }
+  .brand,.market-brand,.mb-header .brand{font-size:24px!important}
+  .title,.intro h1,.page>h1,.hero h1,.title-row h1,.topbar+h1{font-size:23px!important;line-height:1.28!important}
+  .lead,.intro p,.hero-lead,.notice{font-size:13.6px!important;line-height:1.64!important}
+  .card-title,.company h2,.card h2,.company-head h2{font-size:20px!important;line-height:1.28!important}
+}
+
+
+@media(max-width:380px){
+  .page,.app-shell,body>main,
+  .market-header-inner,.mb-header-inner,
+  body>header:not(.topbar):not(.mb-header):not(.market-header),
+  body>header:not(.topbar):not(.mb-header):not(.market-header)+main,
+  .market-header+.page,.mb-header+main{
+    padding-left:22px!important;
+    padding-right:22px!important;
+  }
+  .brand,.market-brand,.mb-header .brand{font-size:24px!important}
+  .title,.intro h1,.page>h1,.hero h1,.title-row h1,.topbar+h1{font-size:23px!important}
+  .card-title,.company h2,.card h2,.company-head h2{font-size:20px!important}
+}

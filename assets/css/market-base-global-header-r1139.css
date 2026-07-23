@@ -1,0 +1,120 @@
+/* MARKET BASE R113.9 — isolated global header
+   This component uses new class names so legacy R68/R70/R94/R95/R1138
+   header rules cannot participate in the cascade. */
+:root{
+  --mbgh-safe:#EEF3F9;
+  --mbgh-bg:#FFFFFF;
+  --mbgh-navy:#0B3976;
+  --mbgh-blue:#075FC7;
+  --mbgh-line:#E1E8F1;
+  --mbgh-button-line:#C9DDF5;
+  --mbgh-font:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Yu Gothic UI","Yu Gothic",Meiryo,sans-serif;
+  --mbgh-mobile-height:72px;
+  --mbgh-desktop-height:92px;
+}
+html{background:var(--mbgh-safe)}
+.mb-global-header-shell{
+  box-sizing:border-box;
+  display:block;
+  width:100%;
+  margin:0;
+  padding:0;
+  border:0;
+  background:var(--mbgh-bg);
+  box-shadow:none;
+}
+.mb-global-header{
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+  width:100%;
+  height:var(--mbgh-mobile-height);
+  min-height:var(--mbgh-mobile-height);
+  margin:0 0 24px;
+  padding:9px 0 13px;
+  border:0;
+  border-bottom:1px solid var(--mbgh-line);
+  background:var(--mbgh-bg);
+  font-family:var(--mbgh-font);
+}
+.mb-global-header-shell>.mb-global-header{
+  width:calc(100% - 30px);
+  max-width:760px;
+  margin:0 auto 24px;
+}
+.mb-global-brand{
+  flex:1 1 auto;
+  min-width:0;
+  margin:0;
+  color:var(--mbgh-navy);
+  font-family:var(--mbgh-font);
+  font-size:25px;
+  font-weight:950;
+  line-height:1.05;
+  letter-spacing:.025em;
+  white-space:nowrap;
+}
+.mb-global-actions{
+  display:flex;
+  flex:0 0 auto;
+  align-items:center;
+  justify-content:flex-end;
+  gap:6px;
+  margin:0;
+}
+.mb-global-button{
+  box-sizing:border-box;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:auto;
+  min-width:52px;
+  height:44px;
+  min-height:44px;
+  margin:0;
+  padding:7px 8px;
+  border:1px solid var(--mbgh-button-line);
+  border-radius:15px;
+  background:#FFF;
+  box-shadow:none;
+  color:var(--mbgh-blue);
+  font:950 14px/1 var(--mbgh-font);
+  text-decoration:none;
+  white-space:nowrap;
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+}
+.mb-global-button:hover,.mb-global-button:focus-visible{
+  border-color:#AFCDEE;
+  background:#F5F9FF;
+  color:var(--mbgh-blue);
+  outline:none;
+}
+.mb-global-button:focus-visible{box-shadow:0 0 0 3px rgba(7,95,199,.14)}
+.mb-global-button:active{transform:translateY(1px)}
+.mb-global-button[disabled]{opacity:.58;cursor:wait;transform:none}
+@media(min-width:900px){
+  .mb-global-header{
+    height:var(--mbgh-desktop-height);
+    min-height:var(--mbgh-desktop-height);
+    margin-bottom:28px;
+    padding:22px 0 18px;
+    gap:14px;
+  }
+  .mb-global-header-shell>.mb-global-header{
+    width:var(--mb-current-shell-width, min(1120px, calc(100% - 72px)));
+    max-width:none;
+    margin-bottom:28px;
+  }
+  .mb-global-brand{font-size:44px;line-height:1;letter-spacing:.045em}
+  .mb-global-actions{gap:10px}
+  .mb-global-button{min-width:68px;height:52px;min-height:52px;padding:8px 14px;border-radius:16px;font-size:16px}
+}
+@media(max-width:370px){
+  .mb-global-header-shell>.mb-global-header{width:calc(100% - 24px)}
+  .mb-global-brand{font-size:22px;letter-spacing:.015em}
+  .mb-global-actions{gap:5px}
+  .mb-global-button{min-width:48px;padding:7px 6px;font-size:13px}
+}
