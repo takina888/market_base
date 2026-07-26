@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-07-26",
+  "masterVersion": "v011.2",
+  "uiVersion": "v017.0",
+  "logicVersion": "LOGIC-1.7-total-audit-fix",
+  "counts": {
+    "countries": 17,
+    "materials": 51,
+    "rules": 220,
+    "requirements": 376,
+    "sources": 116,
+    "pendingReviews": 25
+  },
+  "auditRoundsReflected": 7,
+  "source": "MATERIAL CHECK正マスター v011.2"
+}
