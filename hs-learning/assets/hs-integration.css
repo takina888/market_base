@@ -1,0 +1,41 @@
+/* MARKET BASE R113.33 — HS learning integration */
+:root{--mbx-header-desktop:92px}
+html{scroll-behavior:smooth;background:#EEF3F9}
+body.mbx-body{background:#EEF3F9}
+.mbx-app{background:#fff}
+.mbx-header-shell{padding-top:0}
+.mbx-header{border-bottom-color:#E3EBF5}
+.mbx-brand{letter-spacing:.025em}
+.mbx-page-description{max-width:850px}
+.mbx-tabs{position:sticky;top:0;z-index:40;background:#fff;padding-top:8px;padding-bottom:8px}
+.hs-static-panel{min-height:420px}
+.hs-static-tools{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.hs-static-result{margin:12px 0;color:var(--mbx-muted);font-size:14px;font-weight:900}
+.hs-static-empty{padding:24px;border:1px solid var(--mbx-line);border-radius:var(--mbx-radius-lg);background:var(--mbx-surface-soft);text-align:center;color:var(--mbx-muted)}
+.hs-static-list{display:grid;gap:10px}
+.hs-static-array{margin:6px 0 0;padding-left:1.35em}
+.hs-static-array li{margin:4px 0}
+.hs-static-inline-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.hs-static-inline-actions button{border:1px solid var(--mbx-line-strong);border-radius:12px;background:#fff;color:var(--mbx-blue);padding:8px 12px;font-weight:900;cursor:pointer}
+.hs-static-source{margin-top:12px;padding-top:12px;border-top:1px solid var(--mbx-line);display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.hs-static-source span{color:var(--mbx-muted);font-size:13px}
+.hs-static-source a{color:var(--mbx-blue);font-weight:900;text-decoration:none}
+.hs-static-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.hs-static-tags span{border-radius:999px;background:var(--mbx-blue-soft);color:var(--mbx-blue);padding:3px 8px;font-size:12px;font-weight:900}
+.hs-static-country-workflow{display:grid;gap:7px;margin:12px 0 0;padding:0;list-style:none;counter-reset:step}
+.hs-static-country-workflow li{counter-increment:step;padding:9px 10px 9px 42px;border:1px solid var(--mbx-line);border-radius:11px;background:#fff;position:relative}
+.hs-static-country-workflow li:before{content:counter(step);position:absolute;left:10px;top:9px;width:23px;height:23px;border-radius:50%;display:grid;place-items:center;background:var(--mbx-blue);color:#fff;font-size:12px;font-weight:950}
+.hs-static-checklist{display:grid;gap:8px;margin:12px 0 0;padding:0;list-style:none}
+.hs-static-checklist li{position:relative;padding:10px 12px 10px 38px;border:1px solid var(--mbx-line);border-radius:11px;background:#fff}
+.hs-static-checklist li:before{content:'✓';position:absolute;left:13px;color:#147A42;font-weight:950}
+.hs-static-footer{margin-top:24px}
+.hs-static-footer details{border:1px solid var(--mbx-line);border-radius:14px;background:var(--mbx-surface-soft);padding:12px 14px}
+.hs-static-footer summary{cursor:pointer;color:var(--mbx-navy);font-weight:950}
+.hs-static-footer p{color:var(--mbx-muted);font-size:14px;line-height:1.7}
+.hs-static-build{display:block;margin-top:8px;color:var(--mbx-muted);font-size:12px;text-align:center}
+.mbx-scroll-controls{position:fixed;right:max(14px,env(safe-area-inset-right));bottom:max(18px,env(safe-area-inset-bottom));z-index:9750;display:flex;flex-direction:column;gap:10px;pointer-events:none}
+.mbx-scroll-control{pointer-events:auto;display:grid;place-items:center;width:54px;height:54px;border:3px solid #D6E3F2;border-radius:50%;background:rgba(255,255,255,.98);color:#0B3F82;box-shadow:0 8px 24px rgba(13,57,117,.16);cursor:pointer}
+.mbx-scroll-control svg{width:27px;height:27px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.mbx-scroll-control:disabled{opacity:.28;cursor:default}
+@media(min-width:761px){.mbx-scroll-controls{right:max(22px,env(safe-area-inset-right));bottom:max(24px,env(safe-area-inset-bottom))}.mbx-scroll-control{width:50px;height:50px}.mbx-main{padding-bottom:60px}}
+@media(max-width:600px){.mbx-tabs{top:0}.hs-static-source{align-items:flex-start;flex-direction:column}.mbx-main .hsn-stage-nav{display:none}.mbx-main .hsn-stage-select{display:flex}.mbx-header{width:calc(100% - 28px)}.mbx-main{width:calc(100% - 28px)}}
