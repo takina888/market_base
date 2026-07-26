@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#EEF3F9" name="theme-color"/>
+<title>国別ニュース | MARKET BASE</title>
+<meta content="MARKET BASEのニュースページ。海外ニュース、食品機械、食品工場、小売店、規制関連の5カテゴリーを確認できます。" name="description"/>
+
+<link href="assets/css/main-r11347/market-base-app-01-foundation-r11347.css?v=20260725-r11348" rel="stylesheet"/>
+<link href="assets/css/main-r11347/market-base-app-02-features-r11347.css?v=20260725-r11348" rel="stylesheet"/>
+<link href="assets/css/main-r11347/market-base-app-03-views-r11347.css?v=20260725-r11348" rel="stylesheet"/>
+<link href="assets/css/main-r11347/market-base-app-04-country-detail-r11347.css?v=20260725-r11348" rel="stylesheet"/>
+<link href="manifest.json?v=20260725-r11348" rel="manifest"/>
+<link href="icons/favicon-32.png?v=20260725-r11348" rel="icon" sizes="32x32" type="image/png"/>
+<link href="icons/apple-touch-icon-180.png?v=20260725-r11348" rel="apple-touch-icon" sizes="180x180"/>
+
+
+<link href="assets/css/reading-highlights-v1.css?v=20260725-r11348" rel="stylesheet"/>
+
+<style id="newsHeaderR74">
+.mb-news-page-heading{margin:22px 0 2px;color:#071f43;font-size:clamp(29px,7vw,38px);line-height:1.25}
+.mb-news-page-header.mbu-header{padding:0!important;border:0!important;border-radius:0!important;box-shadow:none!important}
+.mb-news-page-header.mbu-header+.mb-news-page-heading{margin-top:22px}
+</style>
+<link rel="stylesheet" href="assets/css/specialist-header-unified-v273-r30.css?v=20260725-r11348">
+<link href="assets/css/market-base-pc-unified-shell-r95-v1.css?v=20260725-r11348" rel="stylesheet"/>
+<meta content="default" name="apple-mobile-web-app-status-bar-style"/>
+<link href="assets/css/market-base-header-geometry-lock-r1138.css?v=20260725-r11348" rel="stylesheet"/>
+<link href="assets/css/market-base-desktop-icon-nav-r11337.css?v=20260725-r11348" rel="stylesheet"/><meta content="MARKET_BASE_R113_37_PC_NAV_ACTIVE_STATE_20260723" name="market-base-nav-build"/><link href="assets/css/market-base-global-bottom-nav-r11345.css?v=20260725-r11348" rel="stylesheet"/><meta name="market-base-build" content="MARKET_BASE_R113_49_DAILY_COMPANY_ROULETTE_200_20260725"></head>
+<body class="mb-unified-specialist-page mb-has-global-bottom-nav">
+
+
+<main class="mb-news-page" data-news-page="">
+<div class="mb-news-page-shell">
+<header class="mb-news-page-header mbu-header mbu-header--wide"><div class="mbu-header-inner"><div class="mbu-brand">MARKET BASE</div><div class="mbu-actions"><a class="mbu-button" href="index.html?from=news">戻る</a><button class="mbu-button" type="button" onclick="location.reload()">更新</button></div></div></header><h1 class="mb-news-page-heading">国別ニュース</h1>
+<p class="mb-news-page-notice" data-news-dataset-notice="">公式RSS・公式更新情報の自動取得基盤を追加した試験運用版です。</p>
+<section aria-label="ニュース絞り込み" class="mb-news-filter-panel">
+<div class="mb-news-filter-grid">
+<label>国・地域<select data-news-country-filter=""><option value="">読み込み中</option></select></label>
+<label>地域<select data-news-region-filter=""><option value="">読み込み中</option></select></label>
+<label>期間<select data-news-period-filter=""><option value="all">すべて</option><option value="7d">7日以内</option><option value="30d">30日以内</option><option value="90d">90日以内</option></select></label>
+<label>キーワード<input data-news-keyword-filter="" placeholder="見出し・概要・情報源" type="search"/></label>
+</div>
+<div class="mb-news-filter-actions">
+<div aria-label="ニュースカテゴリー" class="mb-news-category-row" role="group">
+<button aria-pressed="true" class="mb-news-category-button active" data-news-category="all" type="button">すべて</button>
+<button aria-pressed="false" class="mb-news-category-button" data-news-category="overseas" type="button">海外ニュース</button>
+<button aria-pressed="false" class="mb-news-category-button" data-news-category="food_machinery" type="button">食品機械</button>
+<button aria-pressed="false" class="mb-news-category-button" data-news-category="food_factory" type="button">食品工場</button>
+<button aria-pressed="false" class="mb-news-category-button" data-news-category="retail" type="button">小売店</button>
+<button aria-pressed="false" class="mb-news-category-button" data-news-category="regulations" type="button">規制関連</button>
+</div>
+<button class="mb-news-reset-button" data-news-reset="" type="button">条件を解除</button>
+</div>
+</section>
+<div class="mb-news-results-status" data-news-results-status=""><strong>注目ニュース</strong><span>読み込み中</span></div>
+<section aria-live="polite" class="mb-news-results-list" data-news-results=""><div class="mb-news-loading">ニュースを読み込んでいます…</div></section>
+</div>
+</main>
+<nav aria-label="MARKET BASE主要ナビゲーション" class="mb-global-bottom-nav"><a href="index.html"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M5.5 14.5 16 5l10.5 9.5v11.2a1.8 1.8 0 0 1-1.8 1.8H7.3a1.8 1.8 0 0 1-1.8-1.8Z"></path><path d="M12 27.5v-8.8h8v8.8"></path></svg><span>ホーム</span></a><a href="market-base-currency-converter-v273-r29.html"><svg aria-hidden="true" viewBox="0 0 32 32"><circle cx="11" cy="16" r="6.5"></circle><circle cx="21" cy="16" r="6.5"></circle><path d="M8 12.5h6M11 9.5v13M18 12.5h6M18 19.5h6"></path></svg><span>ツール</span></a><a href="index.html?view=learn"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M5.5 6.5h8.2c1.25 0 2.3.45 3.3 1.35 1-.9 2.05-1.35 3.3-1.35h6.2v19h-6.2c-1.25 0-2.3.45-3.3 1.35-1-.9-2.05-1.35-3.3-1.35H5.5Z"></path><path d="M16 8v18.5M8.5 11h4.5M8.5 15h4.5M19 11h4.5M19 15h4.5"></path></svg><span>学ぶ</span></a><a href="index.html?view=rankings"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M5 27.5V19h5v8.5M13.5 27.5V13h5v14.5M22 27.5V5h5v22.5"></path></svg><span>ランキング</span></a></nav>
+<script src="assets/js/market-base-build.js?v=20260725-r11349"></script>
+<script src="assets/js/market-base-runtime-r11348.js?v=20260725-r11349"></script>
+<script src="assets/js/news.js?v=20260725-r11348"></script>
+
+<script src="assets/js/reading-highlights-v1.js?v=20260725-r11348"></script>
+<script src="assets/js/market-base-pc-unified-shell-r95-v1.js?v=20260725-r11348"></script>
+<script src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260725-r11348" data-mb-root="" data-mb-active="home"></script></body>
+</html>

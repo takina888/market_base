@@ -1,0 +1,26 @@
+{
+  "name": "MARKET BASE R113.67",
+  "short_name": "MARKET BASE",
+  "description": "国・地域と市場情報を確認できるMARKET BASE",
+  "start_url": "./index.html?v=20260726-r11367",
+  "display": "standalone",
+  "background_color": "#EEF3F9",
+  "theme_color": "#EEF3F9",
+  "icons": [
+    {
+      "src": "icons/market-base-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/market-base-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "id": "market-base-r11367",
+  "version": "MARKET_BASE_R113_67_BOTTOM_NAV_PRESS_FEEDBACK_20260726",
+  "build_id": "MARKET_BASE_R113_67_BOTTOM_NAV_PRESS_FEEDBACK_20260726"
+}
