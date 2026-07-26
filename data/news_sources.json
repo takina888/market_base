@@ -1,0 +1,687 @@
+{
+  "schema_version": "1.0",
+  "registry_status": "phase2_official_source_expansion_batch1",
+  "updated_at": "2026-07-19",
+  "policy": {
+    "official_sources_only": true,
+    "max_total_articles": 450,
+    "default_retention_days": 180,
+    "per_source_timeout_seconds": 25,
+    "max_response_bytes": 5242880,
+    "failure_policy": "取得失敗時は既存のdata/news.jsonを空データで上書きしない。成功した取得元だけを更新し、失敗した取得元の前回データを保持する。",
+    "translation_policy": "第2段階では自動翻訳を行わない。日本語以外の見出しは原文を表示し、日本語の短い案内文を付ける。"
+  },
+  "pilot_country_status": {
+    "JP": {
+      "name_ja": "日本",
+      "status": "connected",
+      "note_ja": "農林水産省RSS"
+    },
+    "TW": {
+      "name_ja": "台湾",
+      "status": "connected",
+      "note_ja": "衛生福利部食品藥物管理署RSS"
+    },
+    "CN": {
+      "name_ja": "中国",
+      "status": "pending",
+      "note_ja": "公式ページの安定した取得形式を個別検証してから接続"
+    },
+    "KR": {
+      "name_ja": "韓国",
+      "status": "connected",
+      "note_ja": "食品医薬品安全処RSS"
+    },
+    "TH": {
+      "name_ja": "タイ",
+      "status": "connected",
+      "note_ja": "Thai FDA英語ニュース一覧"
+    },
+    "VN": {
+      "name_ja": "ベトナム",
+      "status": "pending",
+      "note_ja": "公式ページの取得形式と原文分類を個別検証してから接続"
+    },
+    "ID": {
+      "name_ja": "インドネシア",
+      "status": "pending",
+      "note_ja": "BPOM公式ページの食品分野抽出を個別検証してから接続"
+    },
+    "MY": {
+      "name_ja": "マレーシア",
+      "status": "pending",
+      "note_ja": "保健省食品安全品質部の更新形式を個別検証してから接続"
+    },
+    "SG": {
+      "name_ja": "シンガポール",
+      "status": "connected",
+      "note_ja": "Singapore Food Agency公式RSS"
+    },
+    "PH": {
+      "name_ja": "フィリピン",
+      "status": "pending",
+      "note_ja": "FDA公式アドバイザリーの安定した取得形式を個別検証してから接続"
+    },
+    "US": {
+      "name_ja": "アメリカ",
+      "status": "connected",
+      "note_ja": "U.S. FDA Food Safety Recalls RSS"
+    },
+    "GB": {
+      "name_ja": "イギリス",
+      "status": "connected",
+      "note_ja": "Food Standards Agency RSS（ニュース・食品警告・アレルギー警告）"
+    },
+    "CA": {
+      "name_ja": "カナダ",
+      "status": "connected",
+      "note_ja": "Canadian Food Inspection Agency公式Atomニュース"
+    },
+    "AU": {
+      "name_ja": "オーストラリア",
+      "status": "connected",
+      "note_ja": "Food Standards Australia New Zealand公式RSS"
+    },
+    "NZ": {
+      "name_ja": "ニュージーランド",
+      "status": "connected",
+      "note_ja": "Food Standards Australia New Zealand公式RSS"
+    }
+  },
+  "sources": [
+    {
+      "id": "jp_maff_updates",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.maff.go.jp/j/new/rss.xml",
+      "homepage_url": "https://www.maff.go.jp/",
+      "allowed_hosts": [
+        "www.maff.go.jp"
+      ],
+      "source_name": "農林水産省",
+      "source_language": "ja",
+      "country_codes": [
+        "JP"
+      ],
+      "region_code": "east_asia",
+      "timezone": "+09:00",
+      "default_category": "food",
+      "max_items": 18,
+      "retention_days": 180,
+      "importance": 84,
+      "classification_confidence": 96,
+      "include_keywords": [
+        "食品",
+        "食料",
+        "農林水産物",
+        "米",
+        "米飯",
+        "加工",
+        "冷凍",
+        "外食",
+        "小売",
+        "輸出",
+        "輸入",
+        "物流",
+        "流通",
+        "関税",
+        "検疫",
+        "表示",
+        "食品安全",
+        "衛生",
+        "HACCP",
+        "包装",
+        "機械",
+        "自動化",
+        "ロボット",
+        "フード"
+      ],
+      "exclude_keywords": [
+        "採用情報",
+        "人事異動",
+        "入札公告"
+      ]
+    },
+    {
+      "id": "tw_tfda_news",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.fda.gov.tw/tc/rssNews.ashx",
+      "homepage_url": "https://www.fda.gov.tw/",
+      "allowed_hosts": [
+        "www.fda.gov.tw",
+        "fda.gov.tw"
+      ],
+      "source_name": "衛生福利部食品藥物管理署",
+      "source_language": "zh-TW",
+      "country_codes": [
+        "TW"
+      ],
+      "region_code": "east_asia",
+      "timezone": "+08:00",
+      "default_category": "regulation_food_safety",
+      "max_items": 14,
+      "retention_days": 180,
+      "importance": 88,
+      "classification_confidence": 98,
+      "include_keywords": [
+        "食品",
+        "食安",
+        "餐飲",
+        "標示",
+        "輸入",
+        "添加物",
+        "衛生",
+        "稽查",
+        "回收",
+        "邊境",
+        "農藥",
+        "包裝",
+        "加工",
+        "冷凍",
+        "保健食品"
+      ]
+    },
+    {
+      "id": "tw_tfda_food_law",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.fda.gov.tw/tc/rssLawFood.ashx",
+      "homepage_url": "https://www.fda.gov.tw/",
+      "allowed_hosts": [
+        "www.fda.gov.tw",
+        "fda.gov.tw"
+      ],
+      "source_name": "衛生福利部食品藥物管理署",
+      "source_language": "zh-TW",
+      "country_codes": [
+        "TW"
+      ],
+      "region_code": "east_asia",
+      "timezone": "+08:00",
+      "forced_category": "regulation_food_safety",
+      "max_items": 14,
+      "retention_days": 240,
+      "importance": 91,
+      "classification_confidence": 99
+    },
+    {
+      "id": "kr_mfds_press",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.mfds.go.kr/www/rss/brd.do?brdId=ntc0021",
+      "homepage_url": "https://www.mfds.go.kr/",
+      "allowed_hosts": [
+        "www.mfds.go.kr",
+        "mfds.go.kr"
+      ],
+      "source_name": "韓国 食品医薬品安全処",
+      "source_language": "ko",
+      "country_codes": [
+        "KR"
+      ],
+      "region_code": "east_asia",
+      "timezone": "+09:00",
+      "default_category": "regulation_food_safety",
+      "max_items": 16,
+      "retention_days": 180,
+      "importance": 87,
+      "classification_confidence": 97,
+      "include_keywords": [
+        "식품",
+        "먹거리",
+        "수입식품",
+        "식품안전",
+        "회수",
+        "표시",
+        "위생",
+        "HACCP",
+        "식품산업",
+        "수출",
+        "수입",
+        "포장",
+        "첨가물",
+        "식중독"
+      ]
+    },
+    {
+      "id": "kr_mfds_food_trends",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.mfds.go.kr/www/rss/brd.do?brdId=ntc0063",
+      "homepage_url": "https://www.mfds.go.kr/",
+      "allowed_hosts": [
+        "www.mfds.go.kr",
+        "mfds.go.kr"
+      ],
+      "source_name": "韓国 食品医薬品安全処",
+      "source_language": "ko",
+      "country_codes": [
+        "KR"
+      ],
+      "region_code": "east_asia",
+      "timezone": "+09:00",
+      "default_category": "food",
+      "max_items": 14,
+      "retention_days": 180,
+      "importance": 82,
+      "classification_confidence": 98
+    },
+    {
+      "id": "kr_mfds_foreign_food_regulations",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.mfds.go.kr/www/rss/brd.do?brdId=ntc0056",
+      "homepage_url": "https://www.mfds.go.kr/",
+      "allowed_hosts": [
+        "www.mfds.go.kr",
+        "mfds.go.kr"
+      ],
+      "source_name": "韓国 食品医薬品安全処",
+      "source_language": "ko",
+      "country_codes": [
+        "KR"
+      ],
+      "region_code": "east_asia",
+      "timezone": "+09:00",
+      "forced_category": "regulation_food_safety",
+      "max_items": 12,
+      "retention_days": 240,
+      "importance": 89,
+      "classification_confidence": 96
+    },
+    {
+      "id": "th_fda_english_news",
+      "enabled": true,
+      "type": "html",
+      "url": "https://en.fda.moph.go.th/news/",
+      "homepage_url": "https://en.fda.moph.go.th/",
+      "allowed_hosts": [
+        "en.fda.moph.go.th"
+      ],
+      "source_name": "Thai Food and Drug Administration",
+      "source_language": "en",
+      "country_codes": [
+        "TH"
+      ],
+      "region_code": "southeast_asia",
+      "timezone": "+07:00",
+      "default_category": "regulation_food_safety",
+      "max_items": 12,
+      "retention_days": 240,
+      "importance": 84,
+      "classification_confidence": 95,
+      "link_include_regex": "^https://en\\.fda\\.moph\\.go\\.th/news/[a-z0-9]",
+      "include_keywords": [
+        "food",
+        "foods",
+        "food safety",
+        "food entrepreneur",
+        "import",
+        "export",
+        "customs",
+        "standard",
+        "supplement",
+        "thaifex",
+        "nutrition",
+        "label",
+        "recall"
+      ],
+      "exclude_keywords": [
+        "medical device",
+        "pharmaceutical",
+        "medicine",
+        "drug approval",
+        "cosmetic"
+      ]
+    },
+    {
+      "id": "sg_sfa_newsroom",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.sfa.gov.sg/rss/newsroom",
+      "homepage_url": "https://www.sfa.gov.sg/news-publications/newsroom",
+      "allowed_hosts": [
+        "www.sfa.gov.sg",
+        "sfa.gov.sg"
+      ],
+      "source_name": "Singapore Food Agency",
+      "source_language": "en",
+      "country_codes": [
+        "SG"
+      ],
+      "region_code": "southeast_asia",
+      "timezone": "+08:00",
+      "default_category": "food",
+      "max_items": 16,
+      "retention_days": 180,
+      "importance": 86,
+      "classification_confidence": 98
+    },
+    {
+      "id": "sg_sfa_food_alerts",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.sfa.gov.sg/rss/annual-listing-food-alerts",
+      "homepage_url": "https://www.sfa.gov.sg/news-publications/newsroom",
+      "allowed_hosts": [
+        "www.sfa.gov.sg",
+        "sfa.gov.sg"
+      ],
+      "source_name": "Singapore Food Agency",
+      "source_language": "en",
+      "country_codes": [
+        "SG"
+      ],
+      "region_code": "southeast_asia",
+      "timezone": "+08:00",
+      "forced_category": "regulation_food_safety",
+      "max_items": 16,
+      "retention_days": 240,
+      "importance": 93,
+      "classification_confidence": 99
+    },
+    {
+      "id": "sg_sfa_circulars",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.sfa.gov.sg/rss/annual-listing-circulars",
+      "homepage_url": "https://www.sfa.gov.sg/news-publications/newsroom",
+      "allowed_hosts": [
+        "www.sfa.gov.sg",
+        "sfa.gov.sg"
+      ],
+      "source_name": "Singapore Food Agency",
+      "source_language": "en",
+      "country_codes": [
+        "SG"
+      ],
+      "region_code": "southeast_asia",
+      "timezone": "+08:00",
+      "default_category": "regulation_food_safety",
+      "max_items": 16,
+      "retention_days": 240,
+      "importance": 88,
+      "classification_confidence": 98
+    },
+    {
+      "id": "cn_samr_pending",
+      "enabled": false,
+      "type": "html",
+      "url": "https://www.samr.gov.cn/xw/",
+      "homepage_url": "https://www.samr.gov.cn/",
+      "allowed_hosts": [
+        "www.samr.gov.cn",
+        "samr.gov.cn"
+      ],
+      "source_name": "国家市場監督管理総局",
+      "source_language": "zh-CN",
+      "country_codes": [
+        "CN"
+      ],
+      "region_code": "east_asia",
+      "reason_ja": "ニュース一覧のDOM・日付・食品分野抽出を実サーバーで個別検証してから有効化する。"
+    },
+    {
+      "id": "vn_vfa_pending",
+      "enabled": false,
+      "type": "html",
+      "url": "https://vfa.gov.vn/",
+      "homepage_url": "https://vfa.gov.vn/",
+      "allowed_hosts": [
+        "vfa.gov.vn",
+        "www.vfa.gov.vn"
+      ],
+      "source_name": "Vietnam Food Administration",
+      "source_language": "vi",
+      "country_codes": [
+        "VN"
+      ],
+      "region_code": "southeast_asia",
+      "reason_ja": "一覧構造と原文カテゴリー判定を個別検証してから有効化する。"
+    },
+    {
+      "id": "id_bpom_pending",
+      "enabled": false,
+      "type": "html",
+      "url": "https://www.pom.go.id/berita",
+      "homepage_url": "https://www.pom.go.id/",
+      "allowed_hosts": [
+        "www.pom.go.id",
+        "pom.go.id"
+      ],
+      "source_name": "Badan POM Republik Indonesia",
+      "source_language": "id",
+      "country_codes": [
+        "ID"
+      ],
+      "region_code": "southeast_asia",
+      "reason_ja": "食品関連だけを安定して抽出できる条件を個別検証してから有効化する。"
+    },
+    {
+      "id": "my_moh_food_safety_pending",
+      "enabled": false,
+      "type": "html",
+      "url": "https://hq.moh.gov.my/fsq/",
+      "homepage_url": "https://hq.moh.gov.my/fsq/",
+      "allowed_hosts": [
+        "hq.moh.gov.my",
+        "www.moh.gov.my",
+        "moh.gov.my"
+      ],
+      "source_name": "Malaysia Ministry of Health, Food Safety and Quality Division",
+      "source_language": "ms",
+      "country_codes": [
+        "MY"
+      ],
+      "region_code": "southeast_asia",
+      "reason_ja": "公式更新一覧の安定URLと日付構造を個別検証してから有効化する。"
+    },
+    {
+      "id": "ph_fda_pending",
+      "enabled": false,
+      "type": "html",
+      "url": "https://www.fda.gov.ph/advisories/",
+      "homepage_url": "https://www.fda.gov.ph/",
+      "allowed_hosts": [
+        "www.fda.gov.ph",
+        "fda.gov.ph"
+      ],
+      "source_name": "Philippines Food and Drug Administration",
+      "source_language": "en",
+      "country_codes": [
+        "PH"
+      ],
+      "region_code": "southeast_asia",
+      "reason_ja": "アドバイザリー一覧の取得安定性と食品関連判定を個別検証してから有効化する。"
+    },
+    {
+      "id": "us_fda_food_safety_recalls",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/food-safety-recalls/rss.xml",
+      "homepage_url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "allowed_hosts": [
+        "www.fda.gov",
+        "fda.gov"
+      ],
+      "source_name": "U.S. Food and Drug Administration",
+      "source_language": "en",
+      "country_codes": [
+        "US"
+      ],
+      "region_code": "north_america",
+      "timezone": "-04:00",
+      "forced_category": "regulation_food_safety",
+      "max_items": 20,
+      "retention_days": 240,
+      "importance": 94,
+      "classification_confidence": 99
+    },
+    {
+      "id": "gb_fsa_news",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.food.gov.uk/rss-feed/news",
+      "homepage_url": "https://www.food.gov.uk/news-alerts",
+      "allowed_hosts": [
+        "www.food.gov.uk",
+        "food.gov.uk"
+      ],
+      "source_name": "UK Food Standards Agency",
+      "source_language": "en",
+      "country_codes": [
+        "GB"
+      ],
+      "region_code": "europe",
+      "timezone": "+01:00",
+      "default_category": "food",
+      "max_items": 18,
+      "retention_days": 180,
+      "importance": 86,
+      "classification_confidence": 98,
+      "include_keywords": [
+        "food",
+        "foods",
+        "allergen",
+        "allergy",
+        "recall",
+        "safety",
+        "hygiene",
+        "label",
+        "labelling",
+        "import",
+        "export",
+        "industry",
+        "business",
+        "standard",
+        "regulation"
+      ]
+    },
+    {
+      "id": "gb_fsa_food_alerts",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.food.gov.uk/rss-feed/alerts-food",
+      "homepage_url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-",
+      "allowed_hosts": [
+        "www.food.gov.uk",
+        "food.gov.uk"
+      ],
+      "source_name": "UK Food Standards Agency",
+      "source_language": "en",
+      "country_codes": [
+        "GB"
+      ],
+      "region_code": "europe",
+      "timezone": "+01:00",
+      "forced_category": "regulation_food_safety",
+      "max_items": 18,
+      "retention_days": 240,
+      "importance": 94,
+      "classification_confidence": 99
+    },
+    {
+      "id": "gb_fsa_allergy_alerts",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.food.gov.uk/rss-feed/alerts-allergy",
+      "homepage_url": "https://www.food.gov.uk/news-alerts/search/alerts",
+      "allowed_hosts": [
+        "www.food.gov.uk",
+        "food.gov.uk"
+      ],
+      "source_name": "UK Food Standards Agency",
+      "source_language": "en",
+      "country_codes": [
+        "GB"
+      ],
+      "region_code": "europe",
+      "timezone": "+01:00",
+      "forced_category": "regulation_food_safety",
+      "max_items": 18,
+      "retention_days": 240,
+      "importance": 95,
+      "classification_confidence": 99
+    },
+    {
+      "id": "ca_cfia_news_releases",
+      "enabled": true,
+      "type": "atom",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?atomtitle=Canadian+Food+Inspection+Agency&dept=foodinspectionagency&format=atom&orderBy=desc&pick=50&publishedDate%3E=2021-07-23&sort=publishedDate",
+      "homepage_url": "https://inspection.canada.ca/en/about-cfia/media-relations/web-feeds",
+      "allowed_hosts": [
+        "api.io.canada.ca",
+        "inspection.canada.ca",
+        "www.inspection.canada.ca",
+        "www.canada.ca",
+        "canada.ca"
+      ],
+      "source_name": "Canadian Food Inspection Agency",
+      "source_language": "en",
+      "country_codes": [
+        "CA"
+      ],
+      "region_code": "north_america",
+      "timezone": "-04:00",
+      "default_category": "regulation_food_safety",
+      "max_items": 18,
+      "retention_days": 240,
+      "importance": 89,
+      "classification_confidence": 97,
+      "include_keywords": [
+        "food",
+        "foods",
+        "recall",
+        "safety",
+        "inspection",
+        "import",
+        "export",
+        "label",
+        "allergen",
+        "industry",
+        "processing",
+        "supply chain",
+        "cold chain"
+      ]
+    },
+    {
+      "id": "au_nz_fsanz_news",
+      "enabled": true,
+      "type": "rss",
+      "url": "https://www.foodstandards.gov.au/news-rss.xml",
+      "homepage_url": "https://www.foodstandards.gov.au/news",
+      "allowed_hosts": [
+        "www.foodstandards.gov.au",
+        "foodstandards.gov.au"
+      ],
+      "source_name": "Food Standards Australia New Zealand",
+      "source_language": "en",
+      "country_codes": [
+        "AU",
+        "NZ"
+      ],
+      "region_code": "oceania",
+      "timezone": "+10:00",
+      "default_category": "regulation_food_safety",
+      "max_items": 20,
+      "retention_days": 240,
+      "importance": 90,
+      "classification_confidence": 99,
+      "include_keywords": [
+        "food",
+        "foods",
+        "standard",
+        "code",
+        "recall",
+        "safety",
+        "label",
+        "allergen",
+        "consultation",
+        "application",
+        "notification",
+        "imported food"
+      ]
+    }
+  ]
+}
