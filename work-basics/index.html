@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#162533">
+  <meta name="description" content="51の人物型から、仕事の判断、責任、伝え方、行動の違いを読み比べるMARKET BASEの読み物。">
+  <title>仕事の基本（番外編）｜MARKET BASE</title>
+  <link rel="manifest" href="manifest.webmanifest?v=20260726-r11365">
+  <link rel="icon" href="assets/icon.svg?v=20260726-r11365" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css?v=20260726-r11365">
+</head>
+<body>
+  <a class="skip-link" href="#mainArticle">本文へ移動</a>
+
+  <header class="topbar">
+    <div class="brand-block" aria-label="仕事の基本（番外編）">
+      <span class="brand-kicker">MARKET BASE / READING</span>
+      <strong>仕事の基本（番外編）</strong>
+    </div>
+    <div class="top-actions">
+      <a class="top-button" href="../index.html?from=work-basics&amp;view=learn" aria-label="MARKET BASEの学ぶページへ戻る">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/><path d="M9 12h11"/></svg>
+        <span>戻る</span>
+      </a>
+      <button id="searchOpen" class="top-button" type="button" aria-haspopup="dialog">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+        <span>検索</span>
+      </button>
+      <button id="favoriteButton" class="top-button" type="button" aria-pressed="false">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3Z"/></svg>
+        <span>お気に入り</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-selector" aria-label="人物を横にスライドして選択">
+    <div class="mobile-selector-label">人物ダイヤル</div>
+    <div class="mobile-center-marker" aria-hidden="true"></div>
+    <div id="mobilePersonTrack" class="mobile-person-track" tabindex="0"></div>
+  </div>
+
+  <main class="app-layout">
+    <aside class="dial-panel" aria-label="人物選択">
+      <div class="panel-eyebrow">PERSON SELECTOR</div>
+      <h1>人物ダイヤル</h1>
+      <p class="dial-help">つまみを回す、マウスホイール、または矢印キーで人物を変更します。</p>
+
+      <div class="dial-neighbor dial-neighbor--previous">
+        <span>前</span>
+        <strong id="previousPersonName">—</strong>
+      </div>
+
+      <div id="dial" class="dial" role="slider" tabindex="0" aria-label="人物を選択" aria-valuemin="1" aria-valuemax="51" aria-valuenow="1" aria-valuetext="橋本龍太郎連想型">
+        <div id="dialPlate" class="dial-plate" aria-hidden="true">
+          <div class="dial-pointer"></div>
+          <div class="dial-cap"><span></span></div>
+        </div>
+        <div class="dial-readout" aria-live="polite">
+          <span id="personNumber">01 / 51</span>
+          <strong id="dialPersonName">橋本龍太郎連想型</strong>
+          <small id="dialArchetype">端正な調整・制度設計型</small>
+        </div>
+      </div>
+
+      <div class="dial-neighbor dial-neighbor--next">
+        <span>次</span>
+        <strong id="nextPersonName">—</strong>
+      </div>
+
+      <div class="dial-controls">
+        <button id="previousPerson" type="button" aria-label="前の人物">前へ</button>
+        <button id="nextPerson" type="button" aria-label="次の人物">次へ</button>
+      </div>
+
+      <div class="dial-meta">
+        <div><span>区分</span><strong id="personCategory">—</strong></div>
+        <div><span>現代の役職</span><strong id="personRole">—</strong></div>
+      </div>
+    </aside>
+
+    <article id="mainArticle" class="magazine" tabindex="-1">
+      <section class="article-heading">
+        <div class="heading-topline">
+          <span class="issue-label">WORK PHILOSOPHY</span>
+          <span id="dataVersion" class="version-label">v039 DATA</span>
+        </div>
+        <p id="personTypeLine" class="person-type-line">端正な調整・制度設計型</p>
+        <h2 id="themeTitle">仕事の基本</h2>
+        <p id="personNameLine" class="person-name-line">橋本龍太郎連想型として考える</p>
+      </section>
+
+      <nav id="themeTabs" class="theme-tabs" aria-label="仕事の基本と5つの職場場面"></nav>
+
+      <section class="situation-card" aria-labelledby="situationHeading">
+        <div class="section-label" id="situationHeading">職場シチュエーション</div>
+        <p id="situationText"></p>
+      </section>
+
+      <div class="article-toolbar">
+        <div class="mode-switch" role="group" aria-label="文章の長さ">
+          <button id="minuteMode" class="is-active" type="button" aria-pressed="true">1分版</button>
+          <button id="cardMode" type="button" aria-pressed="false">カード版</button>
+        </div>
+        <button id="copyButton" class="text-button" type="button">本文をコピー</button>
+      </div>
+
+      <section class="voice-section" aria-labelledby="voiceHeading">
+        <div class="voice-heading-row">
+          <div>
+            <div class="section-label" id="voiceSectionLabel">一人語り</div>
+            <h3 id="voiceHeading"><span id="voicePersonName">橋本龍太郎連想型</span>の仕事観</h3>
+          </div>
+          <span id="readingLength" class="reading-length">約1分</span>
+        </div>
+        <div id="voiceText" class="voice-text"></div>
+      </section>
+
+      <section class="practical-grid">
+        <div class="practical-card practical-card--point">
+          <div class="section-label">仕事の要点</div>
+          <p id="keyPointText"></p>
+        </div>
+        <div class="practical-card practical-card--action">
+          <div class="section-label">今日の行動</div>
+          <p id="actionText"></p>
+          <button id="actionDone" class="action-check" type="button" aria-pressed="false">
+            <span class="check-box" aria-hidden="true"></span>
+            今日やることに決める
+          </button>
+        </div>
+      </section>
+
+      <section class="perspective-card">
+        <button id="perspectiveToggle" class="perspective-toggle" type="button" aria-expanded="false" aria-controls="perspectiveDetails">
+          <span>この人物型の判断軸を見る</span>
+          <span class="toggle-mark" aria-hidden="true"></span>
+        </button>
+        <div id="perspectiveDetails" class="perspective-details" hidden>
+          <dl>
+            <div><dt>世界の見方</dt><dd id="worldviewText"></dd></div>
+            <div><dt>判断の仕方</dt><dd id="decisionText"></dd></div>
+            <div><dt>中心価値</dt><dd id="valuesText"></dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="other-voices" aria-labelledby="otherVoicesHeading">
+        <div class="section-label">同じ原則を、別の声で</div>
+        <h3 id="otherVoicesHeading">「仕事の基本」をほかの人物型で読む</h3>
+        <div id="otherVoiceButtons" class="other-voice-buttons"></div>
+      </section>
+
+      <footer class="content-note">
+        本コンテンツは、人物・キャラクターから着想を得たオリジナル教材です。本人・作品の実際の発言、思想、公式設定を再現したものではありません。
+      </footer>
+    </article>
+  </main>
+
+  <dialog id="searchDialog" class="search-dialog">
+    <div class="search-dialog-inner">
+      <div class="search-dialog-header">
+        <div>
+          <span class="panel-eyebrow">SEARCH</span>
+          <h2>人物・テーマを検索</h2>
+        </div>
+        <button id="searchClose" class="icon-button" type="button" aria-label="検索を閉じる">×</button>
+      </div>
+      <label class="search-field">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+        <input id="searchInput" type="search" autocomplete="off" placeholder="人物名、人物型、テーマ、タグ">
+      </label>
+      <div class="search-filter-row">
+        <button id="showAllFilter" class="filter-chip is-active" type="button" aria-pressed="true">すべて</button>
+        <button id="showFavoriteFilter" class="filter-chip" type="button" aria-pressed="false">お気に入りのみ</button>
+        <span id="favoriteCount" class="result-count">0人</span>
+      </div>
+      <div id="searchResults" class="search-results" role="listbox" aria-label="検索結果"></div>
+    </div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/data.js?v=20260726-r11365"></script>
+  <script src="assets/app.js?v=20260726-r11365"></script>
+</body>
+</html>

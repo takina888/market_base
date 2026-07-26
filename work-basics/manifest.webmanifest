@@ -1,0 +1,18 @@
+{
+  "name": "仕事の基本（番外編）｜人物ダイヤル",
+  "short_name": "仕事の基本",
+  "start_url": "./index.html?v=20260726-r11365",
+  "display": "standalone",
+  "background_color": "#e8ebeb",
+  "theme_color": "#162533",
+  "lang": "ja",
+  "description": "人物型を機械式ダイヤルで選び、人物ごとの「仕事の基本」と5つの職場場面を読むMARKET BASEの番外編",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
