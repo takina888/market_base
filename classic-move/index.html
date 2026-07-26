@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0B3976">
+  <title>古典の一手｜MARKET BASE</title>
+  <meta name="description" content="48の判断ケースと、中国古典14作品の原文・読み下し・現代語訳・解読・仕事への応用を学ぶコンテンツです。">
+  <link rel="stylesheet" href="styles.css?v=20260726-r11366">
+</head>
+<body>
+  <header class="mb-header">
+    <div class="mb-header-inner">
+      <div class="header-left">
+        <a class="header-btn market-return" href="../index.html?from=classic-move&amp;view=learn" aria-label="MARKET BASEの学ぶへ戻る">学ぶへ</a>
+        <button id="backButton" class="header-btn" type="button" hidden aria-label="一つ前へ戻る">戻る</button>
+      </div>
+      <div class="brand-wrap">
+        <span class="brand">MARKET BASE</span>
+        <span class="brand-sub">古典の一手・48ケース＋古典読解</span>
+      </div>
+      <button id="settingsButton" class="header-btn" type="button" aria-haspopup="dialog">設定</button>
+    </div>
+  </header>
+
+  <main id="app" class="app-shell" aria-live="polite"></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <dialog id="settingsDialog" class="settings-dialog">
+    <form method="dialog">
+      <div class="dialog-head">
+        <h2>プレイ設定</h2>
+        <button class="icon-btn" value="close" aria-label="閉じる">×</button>
+      </div>
+      <label class="setting-row">
+        <input id="timerOffSetting" type="checkbox">
+        <span><strong>時間制限なし</strong><small>タイマーを表示せず、自分のペースで進めます。</small></span>
+      </label>
+      <label class="setting-row">
+        <input id="reduceMotionSetting" type="checkbox">
+        <span><strong>演出を減らす</strong><small>メッセージの待ち時間と画面の動きを短くします。</small></span>
+      </label>
+      <label class="setting-field">
+        <span><strong>試遊ID（任意）</strong><small>例：P01。複数人で試すときに、ログを見分けやすくします。</small></span>
+        <input id="participantCodeSetting" type="text" maxlength="20" placeholder="例：P01" autocomplete="off">
+      </label>
+      <menu>
+        <button value="close" class="primary-btn">設定を閉じる</button>
+      </menu>
+    </form>
+  </dialog>
+<script src="data/game-core-redesign.js?v=20260726-r11366"></script>
+<script src="data/classics-reading.js?v=20260726-r11366"></script>
+<script src="app.js?v=20260726-r11366"></script>
+</body>
+</html>
