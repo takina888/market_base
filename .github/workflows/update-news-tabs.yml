@@ -1,0 +1,56 @@
+name: Update MARKET BASE Japanese news tabs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 0,6,12,18 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-base-japanese-news-tabs
+  cancel-in-progress: false
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Self test
+        run: python scripts/update_news_tabs.py --self-test
+
+      - name: Failure-preservation and three-item tests
+        run: python scripts/test_news_tabs.py
+
+      - name: Validate current data
+        run: python scripts/update_news_tabs.py --check
+
+      - name: Fetch Japanese news
+        run: python scripts/update_news_tabs.py
+
+      - name: Validate generated data
+        run: python scripts/update_news_tabs.py --check
+
+      - name: Commit data when changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data/news-tabs-ja.json data/news-tabs-ja.js data/news.json data/news.js; then
+            echo "No news changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news-tabs-ja.json data/news-tabs-ja.js data/news.json data/news.js
+          git commit -m "chore(news): update Japanese news tabs"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
