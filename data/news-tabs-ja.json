@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-07-26T15:03:31Z",
+  "generated_at": "2026-07-26T19:40:00Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -16,16 +16,6 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
-        {
-          "id": "daccc849f474683e",
-          "title": "世界遺産／バリ島 1000年続く棚田の絶景（インドネシア） [解] [字]",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xWC02ZHNzTm9MWEtkT0NaelRUNzBDNDdWOERXSzkzYi1xdmFQTU5vQ0JpMXZRTlNYTmZiMzFGdTl2R0dmVmItVGtVajd0bVA5NjZwU0Nn?oc=5",
-          "source": "tbs.co.jp",
-          "published_at": "2026-07-26T12:23:09Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "acea30772520bc71",
           "title": "【速報】アアルト建築がユネスコ世界遺産に登録！ フィンランド初の近代建築遺産が誕生",
@@ -42,6 +32,16 @@
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nbWxCOVB6OFk4bURuNlBUY0tLQnVYcHJjQTNheEh2dzRETnRJcUFoQ3lEOWFNRk82b2J4Wm9nbHg1QXRxcnl1TWZUOFpGVkNuR2FzZ2VGYXA?oc=5",
           "source": "電ファミニコゲーマー",
           "published_at": "2026-07-26T07:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "39a689cdfdae3635",
+          "title": "「飛鳥・藤原の宮都」世界遺産登録に当たっての内閣総理大臣メッセージ",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9oS0JEUkkyb1JQN081cVhsSHEzd2FiSkZjVVJ1RDdhNU83MWx4NWw5UzVFOTh0NHRsb0ZpOUFteEVmeEUwRnA1NnpXLTJUb3hIWHM1WXctY1ktdEZmUzk0Zk1ySllNeVh4R3JLMGl3UQ?oc=5",
+          "source": "首相官邸",
+          "published_at": "2026-07-26T01:57:59Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -189,7 +189,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-07-26T15:03:31Z",
-  "last_success_at": "2026-07-26T15:03:31Z",
+  "last_attempt_at": "2026-07-26T19:40:00Z",
+  "last_success_at": "2026-07-26T19:40:00Z",
   "consecutive_failure_count": 0
 }
