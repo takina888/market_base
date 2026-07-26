@@ -1,0 +1,31 @@
+/* R113.21 guide mobile width + glossary improvements */
+.guide-index{display:flex;flex-wrap:wrap;gap:10px;padding:14px 16px}
+.guide-index a{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap}
+.glossary-list summary{display:flex!important;flex-wrap:wrap!important;align-items:flex-start!important;gap:8px!important}
+.glossary-list summary strong{flex:0 0 auto}
+.glossary-list summary .jp-inline-desc{display:block;width:100%;margin-top:6px;color:#50657b;font-style:normal;font-size:14px;line-height:1.6;font-weight:700}
+.glossary-list details{padding:12px 14px}
+.glossary-list details>small{margin-top:6px}
+@media (max-width:900px){
+  .guide-shell{width:100%;max-width:100%;overflow-x:hidden}
+  .guide-section{width:auto;max-width:none;overflow:hidden}
+  .study-cards,.study-cards.four,.calculation-examples,.delay-grid,.how-to-list,.check-list,.method-study-grid,.study-flow,.glossary-list,.term-list{grid-template-columns:minmax(0,1fr)!important}
+  .incoterms-table{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .guide-note{display:block}
+}
+@media (max-width:600px){
+  body{overflow-x:hidden}
+  .guide-hero{padding:22px 14px 16px}
+  .guide-index{padding:10px 12px 12px;margin-bottom:8px}
+  .guide-index a{font-size:14px;padding:10px 14px;border-radius:999px;background:#eef3f7;border:1px solid #dce5ef}
+  .guide-section{margin:0 10px 10px;padding:16px 14px;border-radius:18px}
+  .guide-heading{display:grid;grid-template-columns:58px minmax(0,1fr);gap:12px;align-items:flex-start}
+  .guide-heading > span{width:58px;height:58px;font-size:18px;border-radius:16px;display:grid;place-items:center;line-height:1.1}
+  .guide-heading h2{font-size:24px;line-height:1.35}
+  .guide-heading p{font-size:14px;line-height:1.75}
+  .glossary-group > h3{font-size:18px;line-height:1.4;flex-wrap:wrap}
+  .glossary-list summary span{font-size:12px}
+  .glossary-list summary .jp-inline-desc{font-size:13.5px;line-height:1.65}
+  .calculation-examples article h3,.study-cards article h3,.method-study-grid article h3{font-size:16px;line-height:1.5;word-break:break-word}
+  .bottom-menu{width:100%;left:0;transform:none;border-left:0;border-right:0;border-radius:18px 18px 0 0}
+}

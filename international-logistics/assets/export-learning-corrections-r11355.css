@@ -1,0 +1,84 @@
+/* MARKET BASE R113.55
+   Export learning guide factual corrections after final content audit.
+   Clarifies documents, Incoterms, VGM, lithium batteries, cargo insurance,
+   FAQ numbering, and consolidates repeated summary content. */
+
+.incoterms-clarifications{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:9px;
+  margin:12px 0 16px;
+}
+.incoterms-clarifications article{
+  border:1px solid #c9d9e7;
+  border-radius:10px;
+  background:#f7fbfe;
+  padding:12px;
+}
+.incoterms-clarifications b{display:block;color:#153e64;font-size:calc(14.4px + var(--guide-font-boost,0px));}
+.incoterms-clarifications p{margin:5px 0 0;color:#536a7e;font-size:calc(13.5px + var(--guide-font-boost,0px) + var(--guide-body-boost,0px));line-height:1.65;}
+
+.cargo-insurance-block{margin-top:14px;}
+.insurance-check-grid,
+.battery-check-grid,
+.consistency-groups{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:9px;
+}
+.insurance-check-grid article,
+.battery-check-grid article,
+.consistency-groups article{
+  border:1px solid #d6e2ec;
+  border-radius:10px;
+  background:#fff;
+  padding:11px 12px;
+}
+.insurance-check-grid b,
+.battery-check-grid b,
+.consistency-groups b{display:block;color:#173b5d;font-size:calc(14.2px + var(--guide-font-boost,0px));line-height:1.45;}
+.insurance-check-grid span,
+.battery-check-grid span,
+.consistency-groups p{display:block;margin:4px 0 0;color:#5a6e81;font-size:calc(13.3px + var(--guide-font-boost,0px) + var(--guide-body-boost,0px));line-height:1.62;}
+.consistency-rule{margin:0 0 10px;color:#3f566b;font-size:calc(13.8px + var(--guide-font-boost,0px) + var(--guide-body-boost,0px));line-height:1.68;}
+.consistency-rule strong{color:#123f68;}
+.battery-transport-check{margin-top:13px;}
+
+.summary-check{
+  margin:15px 0 0;
+  border:1px solid #bfd2e2;
+  border-radius:11px;
+  background:#f8fbfd;
+  overflow:hidden;
+}
+.summary-check>summary{
+  cursor:pointer;
+  list-style:none;
+  min-height:48px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  padding:12px 14px;
+  color:#173d62;
+  font-size:calc(15px + var(--guide-font-boost,0px));
+  font-weight:900;
+}
+.summary-check>summary::-webkit-details-marker{display:none;}
+.summary-check>summary::after{content:'＋';font-size:18px;line-height:1;}
+.summary-check[open]>summary::after{content:'−';}
+.summary-check-body{border-top:1px solid #d8e4ed;padding:14px;background:#fff;}
+.summary-check-body>.guide-subheading:first-child,
+.summary-check-body>.study-cards:first-child{margin-top:0;}
+
+.faq-part{flex-basis:37px;min-width:37px;}
+
+@media (max-width:800px){
+  .incoterms-clarifications{grid-template-columns:1fr;}
+}
+@media (max-width:600px){
+  .insurance-check-grid,.battery-check-grid,.consistency-groups{grid-template-columns:1fr;}
+  .summary-check>summary{padding:11px 12px;}
+  .summary-check-body{padding:12px;}
+  .faq-part{flex-basis:35px;min-width:35px;}
+}

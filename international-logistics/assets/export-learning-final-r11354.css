@@ -1,0 +1,54 @@
+/* MARKET BASE R113.54
+   Export learning guide final audit, round 4.
+   Improves cross-section Q&A, navigation, and final readability without adding Part 10. */
+
+.faq-route-note{
+  margin:0 0 14px;
+  border:1px solid #bfd5e8;
+  border-radius:11px;
+  background:#eef6fc;
+  padding:13px 15px;
+}
+.faq-route-note strong{color:#143c63;font-size:calc(15px + var(--guide-font-boost,0px));}
+.faq-route-note p{margin:4px 0 0;color:#52677c;font-size:calc(13.7px + var(--guide-font-boost,0px) + var(--guide-body-boost,0px));line-height:1.66;}
+.faq-list details{scroll-margin-top:86px;}
+.faq-list summary{display:flex;align-items:flex-start;gap:9px;}
+.faq-list summary>span:last-child{min-width:0;flex:1;}
+.faq-list summary::after{content:"＋";flex:0 0 auto;margin-left:auto;color:#47708f;font-weight:900;}
+.faq-list details[open] summary::after{content:"−";}
+.faq-part{
+  display:inline-grid;
+  place-items:center;
+  flex:0 0 31px;
+  min-height:24px;
+  border-radius:999px;
+  background:#123b66;
+  color:#fff;
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:.03em;
+}
+.faq-answer{padding-top:1px;}
+.faq-answer p{margin:7px 0 0;}
+.faq-jump{
+  display:inline-flex;
+  align-items:center;
+  min-height:36px;
+  margin-top:10px;
+  border:1px solid #b9cfe1;
+  border-radius:999px;
+  background:#fff;
+  color:#145a8d;
+  padding:6px 12px;
+  font-size:calc(13.2px + var(--guide-font-boost,0px));
+  font-weight:800;
+  line-height:1.4;
+  text-decoration:none;
+}
+.faq-jump:hover,.faq-jump:focus-visible{background:#eaf4fb;outline:2px solid transparent;}
+@media (max-width:600px){
+  .faq-route-note{margin-inline:0;padding:12px;}
+  .faq-list summary{gap:8px;}
+  .faq-part{flex-basis:29px;min-height:23px;}
+  .faq-jump{width:100%;justify-content:center;text-align:center;}
+}

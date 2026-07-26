@@ -1,0 +1,229 @@
+/* MARKET BASE R113.53
+   Export learning guide content expansion, round 3.
+   Deepens Parts 8-9: food-machinery export and failure prevention. */
+
+.r11353-insert{margin:0 0 18px;}
+
+.machinery-spec-matrix,
+.electrical-check-grid,
+.hygiene-control-grid,
+.configuration-grid,
+.site-readiness-grid,
+.red-flag-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:9px;
+}
+
+.machinery-spec-matrix article,
+.electrical-check-grid article,
+.hygiene-control-grid article,
+.configuration-grid article,
+.site-readiness-grid article,
+.red-flag-grid article{
+  border:1px solid #d8e3ec;
+  border-radius:10px;
+  background:#fff;
+  padding:12px;
+}
+
+.machinery-spec-matrix b,
+.electrical-check-grid b,
+.configuration-grid b,
+.site-readiness-grid b,
+.red-flag-grid b{
+  display:block;
+  color:#173654;
+  font-size:calc(14.8px + var(--guide-font-boost,0px));
+  line-height:1.45;
+}
+
+.machinery-spec-matrix p,
+.hygiene-control-grid p,
+.configuration-grid p{
+  margin:5px 0 0;
+  color:#596d81;
+  font-size:calc(13.6px + var(--guide-font-boost,0px) + var(--guide-body-boost,0px));
+  line-height:1.67;
+}
+
+.electrical-check-grid span,
+.site-readiness-grid span,
+.red-flag-grid span{
+  display:block;
+  margin-top:4px;
+  color:#596d81;
+  font-size:calc(13.3px + var(--guide-font-boost,0px) + var(--guide-body-boost,0px));
+  line-height:1.62;
+}
+
+.standard-order,
+.incident-response{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:9px;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.standard-order li,
+.incident-response li{
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+  border:1px solid #d9e4ed;
+  border-radius:10px;
+  background:#fff;
+  padding:12px;
+}
+
+.standard-order li>b,
+.incident-response li>b{
+  display:grid;
+  place-items:center;
+  flex:0 0 28px;
+  height:28px;
+  border-radius:50%;
+  background:#e3eef7;
+  color:#123b66;
+  font-size:13px;
+}
+
+.standard-order strong,
+.incident-response strong{
+  display:block;
+  color:#173654;
+  font-size:calc(14.7px + var(--guide-font-boost,0px));
+  line-height:1.45;
+}
+
+.standard-order p,
+.incident-response p{
+  margin:4px 0 0;
+  color:#5a6d81;
+  font-size:calc(13.4px + var(--guide-font-boost,0px) + var(--guide-body-boost,0px));
+  line-height:1.64;
+}
+
+.hygiene-control-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+.hygiene-control-grid h3{
+  margin:0;
+  color:#173654;
+  font-size:calc(14.8px + var(--guide-font-boost,0px));
+  line-height:1.45;
+}
+
+.commissioning-gates{
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:8px;
+}
+
+.commissioning-gates article{
+  border:1px solid #d8e3ec;
+  border-top:4px solid #2a6d99;
+  border-radius:9px;
+  background:#fff;
+  padding:11px;
+}
+
+.commissioning-gates span{
+  display:inline-block;
+  color:#2a638f;
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:.06em;
+}
+
+.commissioning-gates h3{
+  margin:4px 0 0;
+  color:#173654;
+  font-size:calc(14.6px + var(--guide-font-boost,0px));
+}
+
+.commissioning-gates p{
+  margin:5px 0 0;
+  color:#596d81;
+  font-size:calc(13px + var(--guide-font-boost,0px) + var(--guide-body-boost,0px));
+  line-height:1.58;
+}
+
+.red-flag-grid{grid-template-columns:repeat(4,minmax(0,1fr));}
+.red-flag-grid article{border-top:4px solid #d09a2b;background:#fffdf7;}
+
+.failure-case-list{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px;
+}
+
+.failure-case-list details{
+  align-self:start;
+  border:1px solid #d6e1eb;
+  border-radius:10px;
+  background:#fff;
+  overflow:hidden;
+}
+
+.failure-case-list summary{
+  display:flex;
+  gap:9px;
+  align-items:flex-start;
+  cursor:pointer;
+  padding:12px 13px;
+  background:#f6f9fc;
+  color:#173654;
+  font-size:calc(14.2px + var(--guide-font-boost,0px));
+  font-weight:800;
+  line-height:1.5;
+}
+
+.failure-case-list summary b{
+  flex:0 0 auto;
+  border-radius:999px;
+  background:#a84434;
+  color:#fff;
+  padding:3px 7px;
+  font-size:11px;
+  letter-spacing:.04em;
+}
+
+.failure-case-list details[open] summary{border-bottom:1px solid #dce5ed;}
+.failure-case-body{padding:8px 13px 12px;}
+.failure-case-body p{
+  margin:0;
+  border-bottom:1px solid #e5ebf1;
+  padding:9px 0;
+  color:#586c80;
+  font-size:calc(13.4px + var(--guide-font-boost,0px) + var(--guide-body-boost,0px));
+  line-height:1.66;
+}
+.failure-case-body p:last-child{border-bottom:0;}
+.failure-case-body strong{display:block;color:#173654;margin-bottom:2px;}
+
+@media (max-width:1050px){
+  .commissioning-gates{grid-template-columns:repeat(3,minmax(0,1fr));}
+  .red-flag-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+
+@media (max-width:780px){
+  .hygiene-control-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .failure-case-list{grid-template-columns:1fr;}
+}
+
+@media (max-width:600px){
+  .machinery-spec-matrix,
+  .electrical-check-grid,
+  .hygiene-control-grid,
+  .configuration-grid,
+  .site-readiness-grid,
+  .red-flag-grid,
+  .standard-order,
+  .incident-response,
+  .commissioning-gates{
+    grid-template-columns:1fr;
+  }
+  .failure-case-list summary{padding:12px 11px;}
+  .failure-case-body{padding:7px 11px 11px;}
+}

@@ -1,0 +1,154 @@
+/* MARKET BASE R113.51
+   Export learning guide structure, round 1.
+   Keeps the existing logistics guide components while clarifying the nine-part export workflow. */
+
+.learning-guide .guide-index{
+  position:sticky;
+  top:0;
+  z-index:2;
+  grid-template-columns:repeat(6,minmax(0,1fr));
+}
+
+.learning-guide .guide-index a{
+  min-width:0;
+  text-align:center;
+  white-space:nowrap;
+}
+
+.export-guide-section{
+  scroll-margin-top:86px;
+}
+
+.guide-subheading{
+  margin:18px 0 10px;
+  padding-top:14px;
+  border-top:1px solid #dce6ef;
+}
+
+.guide-subheading h3{
+  margin:0;
+  color:#102b4e;
+  font-size:calc(17.3px + var(--guide-font-boost,0px));
+  line-height:1.45;
+}
+
+.guide-subheading p{
+  margin:4px 0 0;
+  color:#64748b;
+  font-size:calc(13.8px + var(--guide-font-boost,0px) + var(--guide-body-boost,0px));
+  line-height:1.65;
+}
+
+.export-overview-grid,
+.failure-example-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+}
+
+.export-overview-grid article,
+.failure-example-grid article{
+  border:1px solid #d9e3ec;
+  border-radius:10px;
+  background:#fbfcfe;
+  padding:14px;
+}
+
+.export-overview-grid h3,
+.failure-example-grid h3{
+  margin:0;
+  color:#102b4e;
+  font-size:calc(15.3px + var(--guide-font-boost,0px));
+  line-height:1.45;
+}
+
+.export-overview-grid p,
+.failure-example-grid p{
+  margin:5px 0 0;
+  color:#5e7084;
+  font-size:calc(13.8px + var(--guide-font-boost,0px) + var(--guide-body-boost,0px));
+  line-height:1.65;
+}
+
+.failure-example-grid{
+  grid-template-columns:repeat(5,minmax(0,1fr));
+}
+
+.failure-example-grid article{
+  border-top:4px solid #d39b36;
+}
+
+.food-machinery-special{
+  margin-top:10px;
+}
+
+.food-machinery-special article{
+  border:1px solid #c9d9e8;
+  border-radius:10px;
+  background:#eef6fc;
+  padding:13px 15px;
+}
+
+.food-machinery-special h3{
+  margin:0;
+  color:#102b4e;
+  font-size:calc(16.3px + var(--guide-font-boost,0px));
+}
+
+.food-machinery-special p{
+  margin:4px 0 0;
+  color:#4f6277;
+  font-size:calc(13.8px + var(--guide-font-boost,0px) + var(--guide-body-boost,0px));
+  line-height:1.65;
+}
+
+.reference-section{
+  border-style:dashed;
+  background:#fbfcfe;
+}
+
+.reference-section .guide-heading>span{
+  min-width:64px;
+  padding-inline:8px;
+}
+
+#customs .study-cards,
+#food-machinery .study-cards{
+  margin-top:2px;
+}
+
+#pricing .incoterms-table,
+#pricing .calculation-examples{
+  margin-top:2px;
+}
+
+@media (max-width:1000px){
+  .learning-guide .guide-index{
+    position:static;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+  }
+  .failure-example-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+
+@media (max-width:600px){
+  .learning-guide .guide-index{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+  .learning-guide .guide-index a{
+    white-space:normal;
+    line-height:1.35;
+  }
+  .export-overview-grid,
+  .failure-example-grid{
+    grid-template-columns:1fr;
+  }
+  .guide-subheading{
+    margin-top:15px;
+    padding-top:12px;
+  }
+  .reference-section .guide-heading>span{
+    min-width:56px;
+  }
+}
