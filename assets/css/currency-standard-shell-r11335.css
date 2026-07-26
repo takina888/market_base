@@ -1,0 +1,37 @@
+/* MARKET BASE R113.35 — currency page rebuilt on the standard specialist shell.
+   The former mb-unified-wide-page exception is intentionally not used. */
+body.currency-standard-page{
+  --mb-current-shell-width:var(--mb-shell-specialist-width,min(900px,calc(100vw - 32px)));
+  background:#EEF3F9;
+  overflow-x:hidden;
+}
+.currency-standard-header>.mb-global-header,
+.currency-standard-desktop-tabs,
+.currency-standard-shell{
+  box-sizing:border-box;
+}
+.currency-standard-shell{
+  width:calc(100% - 30px);
+  max-width:760px;
+  min-height:100vh;
+  margin:0 auto;
+  padding:0 0 28px;
+  background:#FFF;
+}
+@media(min-width:900px){
+  .currency-standard-header>.mb-global-header,
+  .currency-standard-desktop-tabs,
+  .currency-standard-shell{
+    width:min(900px,calc(100% - 72px));
+    max-width:none;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .currency-standard-shell{padding:0 0 52px}
+}
+@media(max-width:899px){
+  .currency-standard-shell{min-height:auto}
+}
+@media(max-width:370px){
+  .currency-standard-shell{width:calc(100% - 24px)}
+}

@@ -1,0 +1,5 @@
+/* MARKET BASE R113.48 - shared bottom close controls for specialist detail cards. */
+.company-collapse-bottom,.card-collapse-bottom{display:none;width:100%;min-height:52px;margin:16px 0 4px;border:2px solid #b9d3f2;border-radius:16px;background:#eef6ff;color:#0b4f91;font:inherit;font-weight:950;cursor:pointer}
+.company-collapse-bottom.is-visible,.card-collapse-bottom.is-visible{display:flex;align-items:center;justify-content:center}
+.company-collapse-bottom:focus-visible,.card-collapse-bottom:focus-visible{outline:3px solid rgba(23,105,255,.22);outline-offset:2px}
+@media(max-width:760px){.company-collapse-bottom,.card-collapse-bottom{min-height:50px;font-size:16px}}

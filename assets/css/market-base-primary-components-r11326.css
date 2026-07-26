@@ -1,0 +1,195 @@
+/* MARKET BASE R113.26
+   One real header component and one real bottom navigation component.
+   Legacy home title rows and page-local bottom-nav classes are not used. */
+:root{
+  --mb-primary-safe:#EEF3F9;
+  --mb-primary-bg:#FFFFFF;
+  --mb-primary-navy:#0B3976;
+  --mb-primary-blue:#075FC7;
+  --mb-primary-line:#E1E8F1;
+  --mb-primary-button-line:#C9DDF5;
+  --mb-primary-font:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Yu Gothic UI","Yu Gothic",Meiryo,sans-serif;
+}
+html{background:var(--mb-primary-safe)}
+body.mb-unified-main-page,
+body.mb-unified-specialist-page{background:var(--mb-primary-safe)}
+
+/* The currency document previously painted the whole viewport white. Keep only its content surface white. */
+.mb-primary-header-host,
+.mb-primary-currency-content{background:var(--mb-primary-bg)}
+
+/* All main views use this exact header element. */
+.mb-primary-header{
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+  width:100%;
+  height:72px;
+  min-height:72px;
+  margin:0 0 24px;
+  padding:9px 0 13px;
+  border:0;
+  border-bottom:1px solid var(--mb-primary-line);
+  background:var(--mb-primary-bg);
+  font-family:var(--mb-primary-font);
+}
+.mb-primary-header .mb-global-brand{
+  flex:1 1 auto;
+  min-width:0;
+  margin:0;
+  color:var(--mb-primary-navy);
+  font:950 25px/1.05 var(--mb-primary-font);
+  letter-spacing:.025em;
+  white-space:nowrap;
+}
+.mb-primary-header .mb-global-actions{
+  display:flex;
+  flex:0 0 auto;
+  align-items:center;
+  justify-content:flex-end;
+  gap:6px;
+  margin:0;
+}
+.mb-primary-header .mb-global-button{
+  box-sizing:border-box;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:52px;
+  height:44px;
+  min-height:44px;
+  margin:0;
+  padding:7px 8px;
+  border:1px solid var(--mb-primary-button-line);
+  border-radius:15px;
+  background:#FFF;
+  box-shadow:none;
+  color:var(--mb-primary-blue);
+  font:950 14px/1 var(--mb-primary-font);
+  text-decoration:none;
+  white-space:nowrap;
+}
+.mb-primary-header .mb-global-count{background:#F0F6FF}
+
+/* Ranking/Learn live in .view with 8px top padding. Home and the stand-alone tool use the same start. */
+#home>.target-home-reference{padding-top:8px!important}
+.mb-primary-header-host{
+  box-sizing:border-box;
+  width:min(430px,100%);
+  margin:0 auto;
+  padding:8px 14px 0;
+}
+.mb-primary-currency-content{
+  box-sizing:border-box;
+  width:min(760px,100%);
+  margin:0 auto;
+}
+
+/* Unique class names prevent the many historical .bottom-nav rules from participating. */
+.mb-primary-bottom-nav{display:none}
+@media(max-width:899px){
+  body.mb-unified-main-page,
+  body.mb-unified-specialist-page{padding-bottom:calc(92px + env(safe-area-inset-bottom))}
+  .mb-primary-bottom-nav{
+    box-sizing:border-box;
+    position:fixed;
+    left:50%;
+    right:auto;
+    bottom:0;
+    transform:translateX(-50%);
+    z-index:80;
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    gap:4px;
+    width:min(100%,760px);
+    min-height:82px;
+    padding:7px 8px calc(7px + env(safe-area-inset-bottom));
+    border:0;
+    border-top:1px solid #DCE6F2;
+    border-radius:0;
+    background:rgba(255,255,255,.97);
+    box-shadow:0 -5px 18px rgba(15,47,85,.08);
+    backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(16px);
+  }
+  .mb-primary-bottom-tab{
+    box-sizing:border-box;
+    min-width:0;
+    min-height:68px;
+    margin:0;
+    padding:6px 2px 5px;
+    border:0;
+    border-radius:14px;
+    background:transparent;
+    color:#66758A;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:3px;
+    font:900 clamp(13px,3.55vw,15px)/1.15 var(--mb-primary-font);
+    text-decoration:none;
+    white-space:nowrap;
+    cursor:pointer;
+  }
+  .mb-primary-bottom-icon{
+    width:30px;
+    height:30px;
+    display:grid;
+    place-items:center;
+    color:inherit;
+  }
+  .mb-primary-bottom-icon svg{
+    width:30px;
+    height:30px;
+    display:block;
+    fill:none;
+    stroke:currentColor;
+    stroke-width:2.15;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+  .mb-primary-bottom-tab b{font:inherit;color:inherit}
+  .mb-primary-bottom-tab.active{
+    color:#0B5DCC;
+    background:#EAF3FF;
+    box-shadow:inset 0 0 0 1px rgba(11,93,204,.03);
+  }
+}
+
+@media(min-width:900px){
+  .mb-primary-header{
+    height:92px;
+    min-height:92px;
+    margin-bottom:28px;
+    padding:22px 0 18px;
+    gap:14px;
+  }
+  .mb-primary-header .mb-global-brand{
+    font-size:44px;
+    line-height:1;
+    letter-spacing:.045em;
+  }
+  .mb-primary-header .mb-global-actions{gap:10px}
+  .mb-primary-header .mb-global-button{
+    min-width:68px;
+    height:52px;
+    min-height:52px;
+    padding:8px 14px;
+    border-radius:16px;
+    font-size:16px;
+  }
+  .mb-primary-header-host{
+    width:calc(100% - 48px);
+    max-width:1440px;
+    padding:20px 24px 0;
+  }
+}
+@media(max-width:370px){
+  .mb-primary-header .mb-global-brand{font-size:22px;letter-spacing:.015em}
+  .mb-primary-header .mb-global-actions{gap:5px}
+  .mb-primary-header .mb-global-button{min-width:48px;padding:7px 6px;font-size:13px}
+  .mb-primary-header-host{padding-left:15px;padding-right:15px}
+}

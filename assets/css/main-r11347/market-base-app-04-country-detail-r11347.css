@@ -1,0 +1,841 @@
+/* R51 COUNTRY NEWS PHASE 1 */
+.country-news-section{display:grid;gap:13px;margin-top:18px;padding:17px 18px;border:1px solid #C9DAEE;border-radius:18px;background:linear-gradient(145deg,#F5F9FF 0%,#FFFFFF 70%);box-shadow:0 4px 14px rgba(20,54,96,.04);}
+.mb-country-news-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;}
+.mb-country-news-heading>div>span{display:block;color:#1764C2;font-size:12px;font-weight:950;letter-spacing:.12em;line-height:1.2;}
+#detailContent .mb-country-news-heading h3{margin:4px 0 0;color:#0B3A7A;font-size:24px;font-weight:950;line-height:1.45;}
+.mb-country-news-heading>em{flex:0 0 auto;padding:6px 10px;border:1px solid #F0C36E;border-radius:999px;background:#FFF7E7;color:#8A5700;font-size:13px;font-style:normal;font-weight:950;}
+#detailContent .mb-news-test-notice{margin:0;color:#52647C;font-size:15.5px;font-weight:750;line-height:1.7;}
+.mb-news-category-row{display:flex;flex-wrap:wrap;gap:7px;}
+.mb-news-category-button{min-height:40px;padding:7px 12px;border:1px solid #BED3EC;border-radius:999px;background:#FFF;color:#174C90;font:inherit;font-size:14px;font-weight:900;line-height:1.25;cursor:pointer;}
+.mb-news-category-button.active{border-color:#1764C2;background:#1764C2;color:#FFF;box-shadow:0 3px 8px rgba(23,100,194,.18);}
+.mb-country-news-list,.mb-news-results-list{display:grid;gap:10px;}
+.mb-news-card{display:grid;gap:8px;min-width:0;padding:15px 16px;border:1px solid #D2E0EF;border-radius:16px;background:#FFF;box-shadow:0 3px 11px rgba(18,53,94,.05);}
+.mb-news-card-badges,.mb-news-country-chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center;}
+.mb-news-test-badge,.mb-news-category-badge,.mb-news-scope-badge,.mb-news-country-chip{display:inline-flex;min-height:28px;align-items:center;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:950;line-height:1.2;text-decoration:none;}
+.mb-news-test-badge{border:1px solid #F1CD82;background:#FFF7E6;color:#8A5900;}
+.mb-news-category-badge{border:1px solid #BED4EE;background:#EEF6FF;color:#1359A9;}
+.mb-news-category-badge[data-category="food"]{border-color:#B8DEBF;background:#EFFAF1;color:#236B32;}
+.mb-news-category-badge[data-category="food_machinery"]{border-color:#C7C4F0;background:#F3F2FF;color:#4C4294;}
+.mb-news-category-badge[data-category="trade_logistics"]{border-color:#B9D8EC;background:#EFF8FD;color:#17617D;}
+.mb-news-category-badge[data-category="regulation_food_safety"]{border-color:#EBC4C4;background:#FFF2F2;color:#A43B3B;}
+.mb-news-scope-badge{border:1px solid #D5DCE7;background:#F5F7FA;color:#566378;}
+.mb-news-country-chip{border:1px solid #D0DDEC;background:#F8FBFF;color:#174C90;}
+#detailContent .mb-news-card h4,.mb-news-page .mb-news-card h4{margin:0;color:#122C50;font-size:19px;font-weight:950;line-height:1.55;overflow-wrap:anywhere;}
+.mb-news-card-meta{display:flex;flex-wrap:wrap;gap:5px 12px;color:#66778E;font-size:13.5px;font-weight:800;line-height:1.5;}
+.mb-news-card-meta span{overflow-wrap:anywhere;}
+#detailContent .mb-news-card>p,.mb-news-page .mb-news-card>p{margin:0;color:#33445C;font-size:15.5px;font-weight:680;line-height:1.75;}
+.mb-news-source-link{display:inline-flex;min-height:40px;width:max-content;max-width:100%;align-items:center;gap:6px;padding:7px 11px;border:1px solid #BCD3EF;border-radius:11px;background:#F8FBFF;color:#0B5DCC;font-size:14px;font-weight:950;text-decoration:none;}
+.mb-country-news-all-link{display:flex;min-height:46px;align-items:center;justify-content:center;gap:8px;padding:9px 13px;border-radius:14px;background:#0B4D9D;color:#FFF;font-size:15px;font-weight:950;text-align:center;text-decoration:none;}
+.mb-news-loading,.mb-news-empty{display:grid;gap:5px;place-items:center;padding:22px 16px;border:1px dashed #BFD1E4;border-radius:15px;background:#F9FBFE;color:#55677F;text-align:center;font-size:15px;font-weight:800;line-height:1.65;}
+.mb-news-empty strong{color:#183B69;font-size:17px;}
+.mb-news-empty p{margin:0;}
+.mb-news-load-error{border-color:#E3C1C1;background:#FFF7F7;color:#7B4B4B;}
+
+.mb-news-page{min-height:100vh;padding:24px 18px 110px;background:linear-gradient(180deg,#F4F8FE 0%,#EDF4FC 100%);color:#142743;}
+.mb-news-page-shell{width:min(1080px,100%);margin:0 auto;display:grid;gap:16px;}
+.mb-news-page-header{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:18px 20px;border:1px solid #D1E0F0;border-radius:22px;background:#FFF;box-shadow:0 8px 24px rgba(17,55,100,.07);}
+.mb-news-page-title{min-width:0;}
+.mb-news-page-title span{display:block;color:#1764C2;font-size:12px;font-weight:950;letter-spacing:.12em;}
+.mb-news-page-title h1{margin:4px 0 0;color:#0B326B;font-size:29px;line-height:1.3;}
+.mb-news-page-back{display:inline-flex;min-height:44px;align-items:center;padding:8px 14px;border:1px solid #BCD3EF;border-radius:14px;background:#F8FBFF;color:#0B5DCC;font-size:15px;font-weight:950;text-decoration:none;}
+.mb-news-page-notice{padding:13px 15px;border:1px solid #F0CC83;border-radius:16px;background:#FFF8E9;color:#76511A;font-size:15px;font-weight:800;line-height:1.7;}
+.mb-news-filter-panel{display:grid;gap:13px;padding:17px;border:1px solid #D1E0F0;border-radius:20px;background:#FFF;}
+.mb-news-filter-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;}
+.mb-news-filter-grid label{display:grid;gap:5px;color:#53667F;font-size:13px;font-weight:900;}
+.mb-news-filter-grid select,.mb-news-filter-grid input{width:100%;min-width:0;height:46px;padding:0 12px;border:1px solid #C7D8EA;border-radius:13px;background:#FAFCFF;color:#17375F;font:inherit;font-size:15px;font-weight:800;outline:none;}
+.mb-news-filter-grid input:focus,.mb-news-filter-grid select:focus{border-color:#1764C2;box-shadow:0 0 0 3px rgba(23,100,194,.12);background:#FFF;}
+.mb-news-filter-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;}
+.mb-news-reset-button{min-height:40px;padding:7px 12px;border:1px solid #C8D6E6;border-radius:12px;background:#FFF;color:#55677F;font:inherit;font-size:14px;font-weight:900;cursor:pointer;}
+.mb-news-results-status{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 2px;color:#52647C;}
+.mb-news-results-status strong{color:#0B326B;font-size:22px;}
+.mb-news-results-status span{padding:5px 10px;border-radius:999px;background:#E9F3FF;color:#145DAF;font-size:14px;font-weight:950;}
+.mb-news-results-list{grid-template-columns:repeat(2,minmax(0,1fr));}
+.mb-news-page .mb-news-card{padding:18px;}
+.mb-news-page-bottom-nav{position:fixed;z-index:40;left:50%;bottom:max(12px,env(safe-area-inset-bottom));display:flex;width:min(520px,calc(100% - 28px));transform:translateX(-50%);overflow:hidden;border:1px solid rgba(197,213,232,.95);border-radius:22px;background:rgba(255,255,255,.96);box-shadow:0 14px 38px rgba(17,55,100,.16);backdrop-filter:blur(14px);}
+.mb-news-page-bottom-nav a{display:flex;min-height:58px;flex:1;align-items:center;justify-content:center;color:#31516F;font-size:14px;font-weight:950;text-decoration:none;}
+.mb-news-page-bottom-nav a+a{border-left:1px solid #DCE6F1;}
+@media(max-width:760px){
+  .country-news-section{padding:15px;}
+  #detailContent .mb-country-news-heading h3{font-size:22px;}
+  .mb-news-category-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));}
+  .mb-news-category-button{padding:7px 6px;font-size:13px;}
+  .mb-news-page{padding:14px 12px 96px;}
+  .mb-news-page-header{padding:15px;border-radius:19px;}
+  .mb-news-page-title h1{font-size:24px;}
+  .mb-news-page-back{min-height:40px;padding:7px 10px;font-size:14px;}
+  .mb-news-filter-panel{padding:14px;}
+  .mb-news-filter-grid{grid-template-columns:1fr 1fr;}
+  .mb-news-filter-actions{align-items:stretch;flex-direction:column;}
+  .mb-news-filter-actions .mb-news-category-row{width:100%;}
+  .mb-news-reset-button{width:100%;}
+  .mb-news-results-list{grid-template-columns:1fr;}
+  .mb-news-page .mb-news-card{padding:15px;}
+}
+@media(max-width:430px){
+  .mb-country-news-heading{align-items:flex-start;}
+  .mb-country-news-heading>em{font-size:12px;}
+  .mb-news-category-row{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .mb-news-filter-grid{grid-template-columns:1fr;}
+  .mb-news-card{padding:14px;}
+  #detailContent .mb-news-card h4,.mb-news-page .mb-news-card h4{font-size:18px;}
+  .mb-news-source-link{width:100%;justify-content:center;}
+}
+
+/* R53: country local rules master */
+.country-local-rules{display:grid;gap:13px;margin-top:16px;padding:17px 18px;border:1px solid #D7E1EC;border-radius:18px;background:linear-gradient(135deg,#F8FAFD,#FFFFFF);box-shadow:0 4px 14px rgba(20,54,96,.035);}
+.country-local-rules-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;}.country-local-rules-heading>div>span{display:block;color:#53708F;font-size:12px;font-weight:950;letter-spacing:.1em;line-height:1.2;}
+#detailContent .country-local-rules-heading h4{margin:4px 0 0!important;color:#173D68!important;font-size:22px!important;font-weight:950!important;line-height:1.5!important;}.country-local-rules-heading>em{flex:0 0 auto;padding:6px 10px;border:1px solid #D2DFED;border-radius:999px;background:#EEF4FA;color:#315D89;font-size:13px;font-style:normal;font-weight:950;}
+#detailContent .country-local-rules-lead,#detailContent .country-local-rules-caution{margin:0!important;color:#53677E!important;font-size:15.5px!important;font-weight:700!important;line-height:1.7!important;}.country-local-rules-list,.country-local-rules-more-body{display:grid;gap:9px;}.country-local-rule-item{position:relative;display:grid;gap:7px;padding:13px 14px;border:1px solid #DCE5EE;border-radius:15px;background:#fff;}.country-local-rule-item-head{display:flex;align-items:flex-start;gap:9px;}.country-local-rule-item-head strong{min-width:0;color:#173D68;font-size:17px;font-weight:950;line-height:1.55;}.country-local-rule-category{flex:0 0 auto;margin-top:2px;padding:3px 7px;border-radius:999px;background:#EDF4FB;color:#35648F;font-size:12px;font-weight:900;line-height:1.35;}
+#detailContent .country-local-rule-item p{margin:0!important;color:#3F536A!important;font-size:16px!important;font-weight:700!important;line-height:1.72!important;}.country-local-rule-source{justify-self:start;color:#0B5DCC;font-size:14px;font-weight:900;text-decoration:none;}.country-local-rules-more{border-top:1px solid #DDE6EF;padding-top:10px;}.country-local-rules-more>summary{display:flex;min-height:44px;align-items:center;justify-content:center;gap:8px;cursor:pointer;border:1px solid #C7D8E9;border-radius:13px;background:#F4F8FC;color:#28567F;font-size:15px;font-weight:950;list-style:none;}.country-local-rules-more>summary::-webkit-details-marker{display:none;}.country-local-rules-more>summary i{font-style:normal;transition:transform .18s ease;}.country-local-rules-more[open]>summary i{transform:rotate(180deg);}.country-local-rules-more-body{padding-top:10px;}.country-local-rules-caution{padding:10px 12px;border-radius:12px;background:#FFF8E8;color:#6D5524!important;}
+@media(max-width:520px){.country-local-rules{padding:15px;}#detailContent .country-local-rules-heading h4{font-size:20px!important;}.country-local-rule-item-head{display:grid;gap:6px;}.country-local-rule-category{justify-self:start;}}
+
+
+/* R61: feedback for primary page swipe navigation. */
+.mb-primary-swipe-hint{position:fixed;left:50%;bottom:calc(96px + env(safe-area-inset-bottom));z-index:120;max-width:min(78vw,320px);padding:9px 16px;border:1px solid rgba(9,103,216,.24);border-radius:999px;background:rgba(7,31,67,.92);box-shadow:0 10px 28px rgba(7,31,67,.22);color:#fff;font-size:14px;font-weight:900;line-height:1.25;letter-spacing:.01em;opacity:0;pointer-events:none;transform:translate(-50%,12px);transition:opacity .16s ease,transform .16s ease;}.mb-primary-swipe-hint.show{opacity:1;transform:translate(-50%,0);}
+@media(min-width:900px){.mb-primary-swipe-hint{bottom:28px;}}
+@media(prefers-reduced-motion:reduce){.mb-primary-swipe-hint{transition:none;}}
+
+
+/* R62: country profile -> country-filtered specialist database bridge */
+.country-db-links-section{background:#f7fbff;border:2px solid #d8e9f8;border-radius:24px;padding:22px;margin-top:20px;}
+.country-db-links-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:10px;}
+.country-db-links-heading span{display:block;color:#39709f;font-weight:800;font-size:.82rem;letter-spacing:.04em;}
+.country-db-links-heading h3{margin:3px 0 0;color:#082f63;font-size:1.28rem;line-height:1.35;}
+.country-db-links-heading em{font-style:normal;color:#176fc4;background:#e6f2ff;border-radius:999px;padding:7px 11px;font-size:.78rem;font-weight:800;white-space:nowrap;}
+.country-db-links-intro{margin:0 0 14px;color:#435d76;line-height:1.65;}
+.country-db-cross-button{width:100%;border:0;border-radius:16px;background:#0d67c6;color:#fff;font-weight:900;padding:14px 18px;margin:0 0 14px;box-shadow:0 5px 14px rgba(13,103,198,.18);cursor:pointer;}
+.country-db-links-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+.country-db-link-card{display:flex;flex-direction:column;min-height:142px;border:2px solid #d8e8f6;border-radius:18px;padding:14px;background:#fff;color:#123c66;text-decoration:none;box-shadow:0 3px 10px rgba(33,75,111,.06);}
+.country-db-link-card:active,.country-db-link-card:hover{border-color:#78b5eb;background:#f8fcff;}
+.country-db-link-card.is-related{background:#fbfbfd;border-color:#e2e5ec;}
+.country-db-link-badge{align-self:flex-start;border-radius:999px;background:#e7f3ff;color:#1569b7;padding:4px 8px;font-size:.7rem;font-weight:800;margin-bottom:8px;}
+.country-db-link-card.is-related .country-db-link-badge{background:#eef0f4;color:#607083;}
+.country-db-link-card strong{font-size:1rem;line-height:1.4;color:#0a3768;}
+.country-db-link-card p{margin:7px 0 10px;color:#5b6f83;font-size:.86rem;line-height:1.5;flex:1;}
+.country-db-link-card em{font-style:normal;color:#0871d5;font-weight:900;font-size:.86rem;}
+@media(max-width:640px){.country-db-links-section{padding:17px 14px;border-radius:20px;}.country-db-links-heading{display:block;}.country-db-links-heading em{display:inline-block;margin-top:8px;}.country-db-links-grid{grid-template-columns:1fr;}.country-db-link-card{min-height:0;}}
+
+/* R63: Today’s Journey */
+.todays-journey-section{margin:18px 0 20px;padding:0;}
+.todays-journey-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin:0 2px 9px;}
+.todays-journey-title-group{display:flex;align-items:baseline;gap:10px;min-width:0;}
+.todays-journey-title-group>span{font-size:20px;font-weight:950;letter-spacing:.01em;color:#0b2c59;}
+.todays-journey-heading small{font-size:12px;font-weight:850;color:#6b7b91;white-space:nowrap;}
+.todays-journey-heading em{font-style:normal;font-size:11px;font-weight:900;color:#0b69d1;background:#e8f3ff;border:1px solid #bfd9f6;border-radius:999px;padding:5px 9px;white-space:nowrap;}
+.todays-journey-heading-tools{display:flex;align-items:center;justify-content:flex-end;gap:9px;min-width:0;flex-wrap:wrap;}
+.todays-journey-history{display:grid;grid-template-columns:34px minmax(64px,auto) 34px;align-items:center;gap:4px;padding:4px;border:1px solid #c4d8ef;border-radius:999px;background:#fff;box-shadow:0 4px 12px rgba(20,63,113,.08);}
+.todays-journey-history button{display:grid;place-items:center;width:34px;height:32px;padding:0;border:1px solid #c5d8ec;border-radius:999px;background:#f4f8fd;color:#124f8e;font:950 24px/1 system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer;transition:background .16s ease,border-color .16s ease,transform .16s ease,opacity .16s ease;}
+.todays-journey-history button:hover:not(:disabled),.todays-journey-history button:focus-visible:not(:disabled){border-color:#1769d3;background:#e8f3ff;outline:none;transform:translateY(-1px);}
+.todays-journey-history button:active:not(:disabled){transform:translateY(0);}
+.todays-journey-history button>span{display:block;font:inherit;line-height:1;transform:translateY(-1px);}
+.todays-journey-history button:disabled{cursor:default;opacity:.34;background:#f4f6f9;color:#8190a3;}
+.todays-journey-history strong{display:block;min-width:64px;padding:0 4px;color:#0b3f78;font-size:12.5px;font-weight:950;line-height:1.2;text-align:center;white-space:nowrap;}
+.todays-journey-card{display:grid;grid-template-columns:minmax(180px,36%) minmax(0,1fr);overflow:hidden;border:1px solid #c6d8ed;border-radius:20px;background:linear-gradient(135deg,#fff 0%,#f6faff 62%,#edf6ff 100%);box-shadow:0 10px 24px rgba(22,64,116,.10);}
+.todays-journey-card:not(.has-photo){grid-template-columns:1fr;}
+.todays-journey-photo{position:relative;min-height:190px;padding:0;border:0;border-radius:0;background:#10294a;overflow:hidden;cursor:pointer;}
+.todays-journey-photo img{display:block;width:100%;height:100%;min-height:190px;object-fit:cover;transition:transform .25s ease;}
+.todays-journey-photo:hover img{transform:scale(1.025);}
+.todays-journey-photo span{position:absolute;right:10px;bottom:10px;padding:6px 9px;border-radius:999px;background:rgba(7,25,48,.76);color:#fff;font-size:11px;font-weight:900;backdrop-filter:blur(5px);}
+.todays-journey-copy{display:flex;flex-direction:column;justify-content:center;padding:18px 19px 17px;min-width:0;}
+.todays-journey-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:7px;}
+.todays-journey-meta>span:first-child{font-size:13px;font-weight:950;color:#0c65bd;}
+.todays-journey-heritage{padding:4px 8px;border-radius:999px;background:#fff4ce;color:#8a5d00;border:1px solid #efd485;font-size:10px!important;font-weight:950!important;}
+.todays-journey-copy h3{margin:0 0 8px;color:#102747;font-size:23px;line-height:1.35;font-weight:950;letter-spacing:.005em;}
+.todays-journey-copy p{margin:0;color:#263a55;font-size:15.7px;font-weight:700;line-height:1.72;}
+.todays-journey-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;}
+.todays-journey-actions button{min-height:38px;padding:8px 13px;border-radius:11px;font-size:12.5px;font-weight:950;cursor:pointer;}
+.todays-journey-country-btn{border:1px solid #1369c8;background:#116bc9;color:#fff;}
+.todays-journey-image-btn{border:1px solid #b8cee6;background:#fff;color:#17486f;}
+.todays-journey-actions button:hover{filter:brightness(.98);transform:translateY(-1px);}
+.journey-image-dialog{width:min(920px,calc(100vw - 24px))!important;max-width:min(920px,calc(100vw - 24px))!important;max-height:calc(100vh - 24px)!important;padding:0!important;border:0!important;border-radius:18px!important;background:#071526!important;overflow:auto!important;box-shadow:0 24px 70px rgba(0,0,0,.45)!important;}
+.journey-image-dialog::backdrop{background:rgba(4,14,27,.72)!important;backdrop-filter:blur(2px);}
+.journey-image-dialog figure{margin:0;display:flex;flex-direction:column;min-height:100%;}
+.journey-image-dialog figure>img{display:block;width:100%;max-height:72vh;object-fit:contain;background:#020812;}
+.journey-image-dialog figcaption{padding:14px 16px 16px;color:#eef6ff;background:#0b1d32;}
+.journey-image-dialog figcaption h3{margin:0 0 6px;font-size:18px;line-height:1.4;color:#fff;}
+.journey-image-dialog figcaption p{margin:0;color:#bdd0e5;font-size:12px;line-height:1.6;}
+.journey-image-close{position:fixed;z-index:3;right:max(18px,calc((100vw - min(920px,calc(100vw - 24px)))/2 + 8px));top:18px;width:42px;height:42px;border:1px solid rgba(255,255,255,.32);border-radius:50%;background:rgba(3,12,24,.78);color:#fff;font-size:29px;line-height:1;cursor:pointer;backdrop-filter:blur(6px);}
+.journey-image-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:11px;}
+.journey-image-links a,.journey-image-links button{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:7px 11px;border-radius:10px;font-size:11.5px;font-weight:900;text-decoration:none;}
+.journey-image-links a{border:1px solid #3d5e81;background:#132a45;color:#e5f2ff;}
+.journey-image-links button{margin-left:auto;border:1px solid #b9d2ea;background:#eaf5ff;color:#11395e;cursor:pointer;}
+@media(max-width:680px){
+  .todays-journey-section{margin-top:16px;}
+  .todays-journey-heading{align-items:flex-start;flex-wrap:wrap;}
+  .todays-journey-title-group>span{font-size:18px;}
+  .todays-journey-title-group{gap:7px;}
+  .todays-journey-heading-tools{width:100%;justify-content:space-between;gap:8px;}
+  .todays-journey-history{grid-template-columns:32px minmax(62px,auto) 32px;padding:3px;}
+  .todays-journey-history button{width:32px;height:30px;font-size:22px;}
+  .todays-journey-card{grid-template-columns:1fr;border-radius:18px;}
+  .todays-journey-photo{min-height:180px;max-height:230px;}
+  .todays-journey-photo img{min-height:180px;max-height:230px;}
+  .todays-journey-copy{padding:15px 15px 14px;}
+  .todays-journey-copy h3{font-size:20px;}
+  .todays-journey-copy p{font-size:15.2px;line-height:1.67;}
+  .todays-journey-actions{display:grid;grid-template-columns:1fr 1fr;width:100%;}
+  .todays-journey-actions button:only-child{grid-column:1/-1;}
+  .journey-image-dialog{width:calc(100vw - 16px)!important;max-width:calc(100vw - 16px)!important;max-height:calc(100vh - 16px)!important;border-radius:15px!important;}
+  .journey-image-dialog figure>img{max-height:68vh;}
+  .journey-image-close{right:12px;top:12px;width:39px;height:39px;}
+  .journey-image-links button{margin-left:0;flex:1 1 100%;}
+}
+
+
+
+/* R64: news article in-page popup */
+body.mb-news-popup-open{overflow:hidden;}
+#mbNewsArticleDialog.mb-news-popup-dialog{width:min(1120px,calc(100vw - 24px))!important;max-width:min(1120px,calc(100vw - 24px))!important;height:min(900px,calc(100dvh - 24px))!important;max-height:calc(100dvh - 24px)!important;padding:0!important;border:0!important;border-radius:20px!important;background:#f7faff!important;color:#142743!important;overflow:hidden!important;box-shadow:0 26px 90px rgba(4,20,43,.46)!important;}
+#mbNewsArticleDialog.mb-news-popup-dialog::backdrop{background:rgba(4,17,35,.72)!important;backdrop-filter:blur(3px);}
+.mb-news-popup-shell{display:grid;grid-template-rows:auto auto minmax(260px,1fr) auto;height:100%;min-height:0;background:#f7faff;}
+.mb-news-popup-header{padding:18px 64px 13px 20px;border-bottom:1px solid #d7e3f0;background:#fff;}
+.mb-news-popup-header>span{display:block;color:#1764c2;font-size:11px;font-weight:950;letter-spacing:.13em;}
+.mb-news-popup-header h2{margin:5px 0 8px;color:#102f5b;font-size:clamp(20px,2.4vw,29px);font-weight:950;line-height:1.38;overflow-wrap:anywhere;}
+.mb-news-popup-meta{display:flex;align-items:center;flex-wrap:wrap;gap:6px 11px;color:#63758c;font-size:13px;font-weight:850;}
+.mb-news-popup-meta span{padding:4px 8px;border:1px solid #bfd5ee;border-radius:999px;background:#eef6ff;color:#145cae;font-size:11.5px;font-weight:950;}
+.mb-news-popup-meta strong{color:#334d6c;overflow-wrap:anywhere;}
+.mb-news-popup-summary{padding:11px 20px;border-bottom:1px solid #d7e3f0;background:#f8fbff;}
+.mb-news-popup-summary p{margin:0;color:#344b67;font-size:14.5px;font-weight:700;line-height:1.65;}
+.mb-news-popup-frame-wrap{display:grid;grid-template-rows:auto minmax(0,1fr);min-height:0;background:#eaf1f8;}
+.mb-news-popup-frame-note{padding:7px 14px;background:#fff7e6;border-bottom:1px solid #ecd39d;color:#72531b;font-size:11.5px;font-weight:800;line-height:1.45;text-align:center;}
+.mb-news-popup-frame{display:block;width:100%;height:100%;min-height:300px;border:0;background:#fff;}
+.mb-news-popup-actions{display:flex;align-items:center;justify-content:flex-end;gap:9px;padding:12px 15px;border-top:1px solid #cfdeed;background:#fff;}
+.mb-news-popup-actions a,.mb-news-popup-actions button{display:inline-flex;min-height:42px;align-items:center;justify-content:center;padding:8px 14px;border-radius:12px;font:inherit;font-size:13.5px;font-weight:950;text-decoration:none;cursor:pointer;}
+.mb-news-popup-actions a{border:1px solid #1267c6;background:#1267c6;color:#fff;}
+.mb-news-popup-actions button{border:1px solid #bfd0e2;background:#f7faff;color:#244b77;}
+.mb-news-popup-close{position:absolute;z-index:4;right:13px;top:13px;width:44px;height:44px;padding:0;border:1px solid #c6d6e7;border-radius:50%;background:rgba(255,255,255,.96);color:#173c68;font-size:27px;font-weight:500;line-height:1;cursor:pointer;box-shadow:0 4px 12px rgba(17,55,100,.12);}
+.mb-news-source-link[aria-haspopup="dialog"] span{font-size:15px;}
+@media(max-width:680px){
+  #mbNewsArticleDialog.mb-news-popup-dialog{width:calc(100vw - 10px)!important;max-width:calc(100vw - 10px)!important;height:calc(100dvh - 10px)!important;max-height:calc(100dvh - 10px)!important;border-radius:15px!important;}
+  .mb-news-popup-shell{grid-template-rows:auto auto minmax(220px,1fr) auto;}
+  .mb-news-popup-header{padding:14px 54px 10px 14px;}
+  .mb-news-popup-header h2{font-size:19px;line-height:1.42;}
+  .mb-news-popup-summary{padding:9px 14px;}
+  .mb-news-popup-summary p{font-size:13.5px;line-height:1.55;}
+  .mb-news-popup-frame-note{padding:6px 10px;font-size:10.5px;}
+  .mb-news-popup-frame{min-height:240px;}
+  .mb-news-popup-actions{display:grid;grid-template-columns:1fr 96px;padding:9px;}
+  .mb-news-popup-actions a,.mb-news-popup-actions button{min-height:44px;padding:8px 9px;font-size:12.5px;}
+  .mb-news-popup-close{right:9px;top:9px;width:44px;height:44px;font-size:27px;}
+}
+
+/* R65: country detail dialog mobile layout repair
+   - Keep large flag but give it a matching grid column.
+   - Prevent header metadata/tabs from overlapping.
+   - Restore market/rice/school/Japan data blocks from accidental link-card grid styling.
+*/
+#detailContent .detail-header{
+  grid-template-columns:112px minmax(0,1fr)!important;
+  align-items:start!important;
+}
+#detailContent .detail-market-block{
+  display:block!important;
+  grid-template-columns:none!important;
+  width:100%!important;
+  min-height:0!important;
+  margin-top:18px!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+  color:inherit!important;
+  overflow:visible!important;
+}
+#detailContent .detail-market-block>h3{
+  display:block!important;
+  width:100%!important;
+  margin:0 0 10px!important;
+  color:var(--navy)!important;
+  writing-mode:horizontal-tb!important;
+  word-break:normal!important;
+  overflow-wrap:break-word!important;
+  line-height:1.4!important;
+}
+#detailContent .detail-market-block>.market-data-grid{
+  display:grid!important;
+  width:100%!important;
+  grid-template-columns:1fr!important;
+  gap:10px!important;
+  overflow:visible!important;
+}
+#detailContent .market-data-grid>.market-data-card{
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:stretch!important;
+  justify-content:flex-start!important;
+  grid-template-columns:none!important;
+  width:100%!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:14px!important;
+  gap:8px!important;
+  overflow:visible!important;
+}
+#detailContent .market-data-grid>.market-data-card>strong,
+#detailContent .market-data-grid>.market-data-card>span,
+#detailContent .market-data-grid>.market-data-card>em{
+  display:block!important;
+  width:100%!important;
+  max-width:100%!important;
+  min-width:0!important;
+  height:auto!important;
+  overflow:visible!important;
+  text-align:left!important;
+  white-space:normal!important;
+  writing-mode:horizontal-tb!important;
+  word-break:normal!important;
+  overflow-wrap:anywhere!important;
+}
+#detailContent .market-data-grid>.market-data-card>strong{
+  font-size:18px!important;
+  line-height:1.45!important;
+}
+#detailContent .market-data-grid>.market-data-card>span{
+  color:#142743!important;
+  font-size:19px!important;
+  font-weight:900!important;
+  line-height:1.45!important;
+}
+#detailContent .market-data-grid>.market-data-card>em{
+  margin-top:2px!important;
+  font-size:15px!important;
+  line-height:1.5!important;
+}
+@media(max-width:640px){
+  #detailDialog{
+    position:relative!important;
+  }
+  #detailDialog>.close{
+    position:sticky!important;
+    float:none!important;
+    top:8px!important;
+    z-index:30!important;
+    display:grid!important;
+    place-items:center!important;
+    margin:0 0 6px auto!important;
+  }
+  #detailContent .detail-header{
+    grid-template-columns:92px minmax(0,1fr)!important;
+    grid-template-rows:auto auto auto!important;
+    gap:4px 10px!important;
+    padding-top:6px!important;
+  }
+  #detailContent .detail-header>.detail-flag{
+    grid-row:1 / span 2!important;
+    width:92px!important;
+    min-width:92px!important;
+    max-width:92px!important;
+    height:64px!important;
+    min-height:64px!important;
+    max-height:64px!important;
+  }
+  #detailContent .detail-header>.detail-flag .flag-img-detail,
+  #detailContent .detail-header>.detail-flag .flag-asset,
+  #detailContent .detail-header>.detail-flag svg{
+    width:82px!important;
+    min-width:82px!important;
+    max-width:82px!important;
+    height:56px!important;
+    min-height:56px!important;
+    max-height:56px!important;
+  }
+  #detailContent .detail-header>.detail-title-block{
+  }
+  #detailContent .detail-header>.detail-title-block>h2{
+    grid-column:2!important;
+    align-self:end!important;
+    font-size:27px!important;
+    text-align:left!important;
+  }
+  #detailContent .detail-header>.detail-title-block>.country-sub{
+    grid-column:2!important;
+    align-self:start!important;
+    margin:3px 0 0!important;
+    color:#607086!important;
+  }
+  #detailContent .detail-header>.detail-title-block>.detail-mini-tabs{
+    grid-column:1 / -1!important;
+    grid-row:3!important;
+    justify-content:flex-start!important;
+    margin-top:10px!important;
+  }
+  #detailContent .detail-header>.detail-title-block>.detail-mini-tabs span{
+    line-height:1.35!important;
+  }
+  #detailContent .detail-market-block{
+    margin-top:16px!important;
+  }
+  #detailContent .detail-market-block>h3{
+    font-size:23px!important;
+  }
+  #detailContent .market-data-grid>.market-data-card{
+    padding:13px!important;
+  }
+}
+@media(min-width:760px){
+  #detailContent .detail-market-block>.market-data-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  }
+}
+
+
+/* R66: page identity on ranking/compare, and stable mobile country header/flag. */
+#rankings>.view-brand-row,#compare>.view-brand-row{
+  display:flex!important;align-items:center!important;justify-content:flex-start!important;
+  width:100%!important;margin:0 0 26px!important;padding:10px 0 0!important;
+}
+#rankings>.view-brand-row strong,#compare>.view-brand-row strong{
+  color:#0b3976!important;font-size:clamp(31px,6.5vw,44px)!important;font-weight:950!important;
+  line-height:1.05!important;letter-spacing:.045em!important;white-space:nowrap!important;
+}
+@media(max-width:640px){
+  #rankings>.view-brand-row,#compare>.view-brand-row{margin-bottom:24px!important;padding-top:8px!important;}
+  #rankings>.view-brand-row strong,#compare>.view-brand-row strong{font-size:31px!important;}
+
+  #detailContent .detail-header{
+    display:grid!important;grid-template-columns:1fr!important;
+    grid-template-rows:auto auto auto auto!important;gap:5px!important;
+    align-items:start!important;justify-items:center!important;text-align:center!important;
+    width:100%!important;padding:2px 10px 0!important;margin-bottom:16px!important;overflow:visible!important;
+  }
+  #detailContent .detail-header>.detail-title-block{display:contents!important;}
+  #detailContent .detail-header>.detail-title-block>h2{
+    grid-column:1!important;grid-row:1!important;justify-self:center!important;
+    width:100%!important;margin:0!important;font-size:28px!important;line-height:1.2!important;text-align:center!important;
+  }
+  #detailContent .detail-header>.detail-title-block>.country-sub{
+    grid-column:1!important;grid-row:2!important;justify-self:center!important;
+    width:100%!important;margin:4px 0 2px!important;padding:0!important;border:0!important;background:transparent!important;
+    color:#66768b!important;font-size:14px!important;line-height:1.45!important;text-align:center!important;
+    white-space:normal!important;overflow:visible!important;text-overflow:clip!important;
+  }
+  #detailContent .detail-header>.detail-flag{
+    grid-column:1!important;grid-row:3!important;justify-self:center!important;align-self:center!important;
+    display:grid!important;place-items:center!important;width:124px!important;min-width:124px!important;max-width:124px!important;
+    height:86px!important;min-height:86px!important;max-height:86px!important;margin:8px 0!important;padding:6px!important;
+    overflow:hidden!important;border-radius:12px!important;background:#fff!important;
+  }
+  #detailContent .detail-header>.detail-flag .flag-img-detail,
+  #detailContent .detail-header>.detail-flag .flag-asset,
+  #detailContent .detail-header>.detail-flag span.flag-img-detail{
+    display:grid!important;place-items:center!important;width:110px!important;min-width:110px!important;max-width:110px!important;
+    height:74px!important;min-height:74px!important;max-height:74px!important;border-radius:6px!important;overflow:hidden!important;
+  }
+  #detailContent .detail-header>.detail-flag svg,
+  #detailContent .detail-header>.detail-flag .flag-img-detail>svg,
+  #detailContent .detail-header>.detail-flag .flag-asset>svg{
+    display:block!important;width:100%!important;height:100%!important;min-width:100%!important;min-height:100%!important;
+    max-width:100%!important;max-height:100%!important;object-fit:fill!important;
+  }
+  #detailContent .detail-header>.detail-title-block>.detail-mini-tabs{
+    grid-column:1!important;grid-row:4!important;display:flex!important;flex-wrap:wrap!important;
+    justify-content:center!important;width:100%!important;margin:8px 0 0!important;gap:7px!important;overflow:visible!important;
+  }
+  #detailContent .detail-header>.detail-title-block>.detail-mini-tabs span{
+    flex:0 0 auto!important;width:auto!important;max-width:100%!important;padding:8px 12px!important;
+    font-size:14px!important;line-height:1.3!important;overflow:visible!important;
+  }
+}
+
+
+/* R67: canonical specialist DB names with one-line title and parenthetical helper. */
+.external-db-card .external-db-card-title{
+  display:block!important;
+  margin:0!important;
+  color:#0b2e66!important;
+  font-size:15px!important;
+  font-weight:950!important;
+  line-height:1.24!important;
+  letter-spacing:-.035em!important;
+  white-space:nowrap!important;
+  word-break:keep-all!important;
+  overflow-wrap:normal!important;
+}
+.external-db-card .external-db-card-note{
+  display:block!important;
+  margin-top:3px!important;
+  color:#6b7c94!important;
+  font-size:12px!important;
+  font-weight:850!important;
+  line-height:1.25!important;
+  letter-spacing:-.025em!important;
+  white-space:nowrap!important;
+  word-break:keep-all!important;
+}
+@media(max-width:430px){
+  .external-db-card .external-db-card-title{
+    font-size:12px!important;
+    line-height:1.2!important;
+    letter-spacing:-.045em!important;
+  }
+  .external-db-card .external-db-card-note{
+    margin-top:2px!important;
+    font-size:10.5px!important;
+    line-height:1.18!important;
+    letter-spacing:-.04em!important;
+  }
+}
+@media(max-width:360px){
+  .external-db-card .external-db-card-title{font-size:11.2px!important;}
+  .external-db-card .external-db-card-note{font-size:9.8px!important;}
+}
+
+/* R68: shared page header for Rice Data and Japan-related views. */
+#rankings>.view-local-header,#compare>.view-local-header,#rice>.view-local-header,#japan>.view-local-header{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:14px!important;
+  width:100%!important;
+  margin:0 0 26px!important;
+  padding:8px 0 18px!important;
+  border-bottom:1px solid #E1E8F1!important;
+}
+#rankings>.view-local-header>strong,#compare>.view-local-header>strong,#rice>.view-local-header>strong,#japan>.view-local-header>strong{
+  color:#0B3976!important;
+  font-size:clamp(31px,6.5vw,44px)!important;
+  font-weight:950!important;
+  line-height:1.05!important;
+  letter-spacing:.045em!important;
+  white-space:nowrap!important;
+}
+.view-local-actions{display:flex!important;align-items:center!important;gap:10px!important;}
+.view-local-actions button{
+  min-width:68px!important;
+  min-height:48px!important;
+  padding:8px 14px!important;
+  border:1px solid #C9DDF5!important;
+  border-radius:16px!important;
+  background:#FFF!important;
+  color:#075FC7!important;
+  font-size:16px!important;
+  font-weight:950!important;
+  line-height:1!important;
+  cursor:pointer!important;
+}
+.view-local-actions button:active{transform:translateY(1px);}
+@media(max-width:640px){
+  #rankings>.view-local-header,#compare>.view-local-header,#rice>.view-local-header,#japan>.view-local-header{margin-bottom:24px!important;padding:6px 0 16px!important;}
+  #rankings>.view-local-header>strong,#compare>.view-local-header>strong,#rice>.view-local-header>strong,#japan>.view-local-header>strong{font-size:31px!important;}
+  .view-local-actions{gap:8px!important;}
+  .view-local-actions button{min-width:64px!important;min-height:46px!important;padding:7px 12px!important;font-size:15px!important;}
+}
+@media(max-width:370px){
+  #rankings>.view-local-header>strong,#compare>.view-local-header>strong,#rice>.view-local-header>strong,#japan>.view-local-header>strong{font-size:27px!important;letter-spacing:.025em!important;}
+  .view-local-actions button{min-width:58px!important;padding:7px 10px!important;font-size:14px!important;}
+}
+
+
+/* R70 verified: consistent local headers and mobile one-line DB labels. */
+#rankings>.view-brand-row,#compare>.view-brand-row{display:none!important;}
+@media(max-width:430px){
+  .external-db-card .external-db-card-title{font-size:11px!important;letter-spacing:-.055em!important;}
+}
+@media(max-width:360px){
+  .external-db-card .external-db-card-title{font-size:10.2px!important;}
+  .external-db-card .external-db-card-note{font-size:9.5px!important;}
+}
+
+/* R70 QA correction: keep MARKET BASE + Back/Refresh inside narrow mobile views. */
+@media(max-width:640px){
+  #rankings>.view-local-header,#compare>.view-local-header,#rice>.view-local-header,#japan>.view-local-header{
+    gap:8px!important;
+  }
+  #rankings>.view-local-header>strong,#compare>.view-local-header>strong,#rice>.view-local-header>strong,#japan>.view-local-header>strong{
+    flex:1 1 auto!important;
+    min-width:0!important;
+    font-size:25px!important;
+    letter-spacing:.025em!important;
+  }
+  .view-local-actions{flex:0 0 auto!important;gap:6px!important;}
+  .view-local-actions button{
+    min-width:52px!important;
+    min-height:44px!important;
+    padding:7px 8px!important;
+    font-size:14px!important;
+    border-radius:15px!important;
+  }
+}
+@media(max-width:370px){
+  #rankings>.view-local-header>strong,#compare>.view-local-header>strong,#rice>.view-local-header>strong,#japan>.view-local-header>strong{
+    font-size:22px!important;
+    letter-spacing:.015em!important;
+  }
+  .view-local-actions{gap:5px!important;}
+  .view-local-actions button{min-width:48px!important;padding:7px 6px!important;font-size:13px!important;}
+}
+
+/* R72: mobile readability correction after R71 highlight audit.
+   Keep the two-column home layout, but never force important labels down to 10–11px. */
+@media (max-width:430px){
+  html{-webkit-text-size-adjust:100%!important;text-size-adjust:100%!important;}
+  body,.app-shell{font-size:17px!important;line-height:1.68!important;}
+  .app-shell p,.app-shell li,.app-shell label{font-size:17px!important;line-height:1.66!important;}
+  .app-shell small,.app-shell em{font-size:16px!important;line-height:1.5!important;}
+
+  .target-section-title,.target-row-head h3{
+    font-size:24px!important;
+    line-height:1.3!important;
+    margin-top:22px!important;
+    margin-bottom:11px!important;
+  }
+  .target-row-head button{font-size:17px!important;}
+  .target-route-list button{min-height:94px!important;}
+  .target-route-list strong{font-size:20px!important;line-height:1.25!important;}
+  .target-route-list em{font-size:16px!important;line-height:1.42!important;}
+  .target-recent-grid button{min-height:92px!important;}
+  .target-recent-grid strong{font-size:18px!important;line-height:1.3!important;}
+  .target-region-grid button{min-height:58px!important;font-size:18px!important;line-height:1.3!important;}
+  .target-ranking-grid b{font-size:16px!important;line-height:1.28!important;}
+  .target-search-box input,.target-search-box button{font-size:17px!important;}
+  .bottom-tab{font-size:15px!important;line-height:1.25!important;}
+  .bottom-tab span{font-size:24px!important;}
+
+  /* R70 used 10–11px to force every database name onto one line.
+     Readability takes priority: short names stay on one line, long names may use two. */
+  .external-db-card .external-db-card-title,
+  .compact-external-card .external-db-card-title{
+    font-size:15px!important;
+    line-height:1.3!important;
+    letter-spacing:-.025em!important;
+    white-space:normal!important;
+    word-break:keep-all!important;
+    overflow-wrap:anywhere!important;
+  }
+  .external-db-card .external-db-card-note,
+  .compact-external-card .external-db-card-note{
+    margin-top:4px!important;
+    font-size:12.5px!important;
+    line-height:1.35!important;
+    letter-spacing:-.01em!important;
+    white-space:normal!important;
+    word-break:keep-all!important;
+  }
+  .external-db-card,.icon-external-card{min-height:126px!important;}
+}
+@media (max-width:360px){
+  .target-route-list strong{font-size:19px!important;}
+  .target-route-list em{font-size:15.5px!important;}
+  .target-region-grid button{font-size:17px!important;}
+  .external-db-card .external-db-card-title,
+  .compact-external-card .external-db-card-title{font-size:14px!important;}
+  .external-db-card .external-db-card-note,
+  .compact-external-card .external-db-card-note{font-size:12px!important;}
+}
+
+/* R77: iOS first-open country dialog stability */
+@media(max-width:640px){
+  #detailDialog{height:calc(100dvh - 24px)!important;max-height:calc(100dvh - 24px)!important;min-height:calc(100dvh - 24px)!important;overflow-y:auto!important;overscroll-behavior:contain!important;}
+  #detailContent{min-height:calc(100dvh - 96px)!important;}
+}
+
+
+/* R78: Today's Journey editorial-quality presentation */
+.todays-journey-card.photo-loading{position:relative;min-height:260px;overflow:hidden;}
+.todays-journey-card.photo-loading::before{content:"写真を選定しています";display:flex;align-items:center;justify-content:center;min-height:190px;color:#6e8197;font-size:12px;font-weight:900;letter-spacing:.05em;background:linear-gradient(110deg,#eaf2fa 15%,#f8fbff 35%,#eaf2fa 55%);background-size:220% 100%;animation:mbJourneyShimmer 1.35s linear infinite;}
+.todays-journey-card.photo-loading .todays-journey-copy{grid-column:1/-1;}
+@keyframes mbJourneyShimmer{to{background-position:-220% 0;}}
+.todays-journey-copy p{font-family:"Noto Serif JP","Yu Mincho","Hiragino Mincho ProN",serif;font-weight:650;letter-spacing:.015em;line-height:1.9;}
+.todays-journey-copy h3{letter-spacing:.01em;line-height:1.42;}
+@media(max-width:680px){
+ .todays-journey-card.photo-loading{min-height:420px;}
+ .todays-journey-card.photo-loading::before{min-height:210px;}
+ .todays-journey-copy p{font-size:15.5px;line-height:1.86;}
+}
+
+
+/* R80: site stability, first-open dialog and deep-link target behavior */
+html.mb-country-dialog-open,
+body.mb-country-dialog-open{
+  overflow:hidden!important;
+  overscroll-behavior:none!important;
+}
+#detailDialog{
+  box-sizing:border-box!important;
+  scrollbar-gutter:stable both-edges;
+}
+#detailDialog #detailContent,
+#detailDialog .detail-section,
+#detailDialog [id]{
+  scroll-margin-top:82px!important;
+}
+.mb-link-target-flash{
+  animation:mbLinkTargetFlash 2.4s ease-out 1!important;
+  outline:3px solid rgba(255,199,0,.72)!important;
+  outline-offset:5px!important;
+}
+@keyframes mbLinkTargetFlash{
+  0%,28%{background-color:#FFF5A8;box-shadow:0 0 0 8px rgba(255,224,76,.22);}
+  100%{background-color:inherit;box-shadow:none;}
+}
+@media(max-width:640px){
+  /* Do not calculate the first opening from 100dvh. Fixed safe-area insets
+     make the modal occupy the complete visible viewport on iPhone from the first frame. */
+  #detailDialog[open]{
+    position:fixed!important;
+    inset:max(8px,env(safe-area-inset-top)) 8px max(8px,env(safe-area-inset-bottom)) 8px!important;
+    width:auto!important;
+    max-width:none!important;
+    height:auto!important;
+    min-height:0!important;
+    max-height:none!important;
+    margin:0!important;
+  }
+  #detailDialog[open] #detailContent{
+    width:100%!important;
+    min-height:100%!important;
+  }
+  #detailDialog[open]>.close{
+    top:0!important;
+  }
+}
+
+/* R83: first-open country dialog uses the measured visual viewport, not an early 100dvh estimate. */
+#detailDialog[open]{
+  box-sizing:border-box!important;
+  scrollbar-gutter:auto!important;
+}
+#detailDialog[open]>.close{
+  position:sticky!important;
+  top:0!important;
+  z-index:30!important;
+  float:right!important;
+  margin:0 0 8px 8px!important;
+}
+#detailDialog[open] #detailContent{
+  box-sizing:border-box!important;
+  width:100%!important;
+  max-width:100%!important;
+  padding-bottom:max(34px,env(safe-area-inset-bottom))!important;
+}
+@media(max-width:640px){
+  #detailDialog[open]{
+    inset:auto!important;
+    overflow-x:hidden!important;
+    overflow-y:auto!important;
+    -webkit-overflow-scrolling:touch!important;
+    overscroll-behavior:contain!important;
+    padding:12px 13px 18px!important;
+    border-radius:18px!important;
+  }
+  #detailDialog[open] #detailContent{
+    min-height:calc(var(--mb-detail-viewport-height,100svh) - 72px)!important;
+    overflow:visible!important;
+  }
+}
+
+/* R83 exact-record links */
+.global-db-match-list a{text-decoration:none;}.global-db-match-list a:hover{background:#e7f1ff;color:#0b4b9e;}.global-db-match-list a:focus-visible{outline:3px solid rgba(11,93,204,.24);outline-offset:2px;}
+/* R88: photo credits are collapsed by default, including Today's Journey. */
+.journey-image-credit-details{margin-top:10px;border:1px solid #355575;border-radius:12px;background:#0f2741;overflow:hidden;}
+.journey-image-credit-details summary{display:flex;align-items:center;min-height:42px;padding:8px 12px;color:#e5f2ff;font-size:12px;font-weight:900;cursor:pointer;list-style:none;}
+.journey-image-credit-details summary::-webkit-details-marker{display:none;}
+.journey-image-credit-details summary::after{content:"＋";margin-left:auto;font-size:18px;line-height:1;}
+.journey-image-credit-details[open] summary::after{content:"−";}
+.journey-image-credit-body{padding:0 12px 12px;}
+.journey-image-credit-body .journey-image-links{margin-top:8px;}
+.journey-image-bottom-actions{display:flex;justify-content:flex-end;margin-top:11px;}
+.journey-image-bottom-actions button{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:8px 16px;border:1px solid #b9d2ea;border-radius:10px;background:#eaf5ff;color:#11395e;font:inherit;font-size:12px;font-weight:900;cursor:pointer;}
+@media(max-width:520px){.journey-image-bottom-actions button{width:100%;}}
+
+
+/* R97: all ranking domains use one unit only and a shared three-line mobile layout. */
+.ranking-row.ranking-row-v96{
+  display:grid!important;
+  grid-template-columns:48px minmax(0,1fr)!important;
+  gap:10px!important;
+  align-items:start!important;
+  min-height:108px!important;
+  padding:14px 16px!important;
+  overflow:hidden!important;
+}
+.ranking-row-v96>.rank{padding-top:7px!important;align-self:start!important;}
+.ranking-row-v96>.rank-bar-cell{display:block!important;width:100%!important;min-width:0!important;}
+.ranking-row-v96 .rank-country-head{
+  display:flex!important;
+  align-items:center!important;
+  gap:10px!important;
+  min-width:0!important;
+  margin:0 0 5px!important;
+}
+.ranking-row-v96 .rank-country-head .flag-open{flex:0 0 auto!important;margin:0!important;}
+.ranking-row-v96 .rank-country-head .country-name{
+  min-width:0!important;
+  overflow:visible!important;
+  text-overflow:clip!important;
+  white-space:normal!important;
+  overflow-wrap:anywhere!important;
+  word-break:keep-all!important;
+  color:#0b1f3a!important;
+  font-size:18px!important;
+  font-weight:950!important;
+  line-height:1.28!important;
+}
+.ranking-row-v96 .rank-value-band{
+  position:relative!important;
+  display:flex!important;
+  align-items:center!important;
+  min-width:0!important;
+  min-height:38px!important;
+  padding:4px 9px!important;
+  overflow:hidden!important;
+  border-radius:12px!important;
+}
+.ranking-row-v96 .rank-value-band .rank-bar-bg{
+  position:absolute!important;
+  inset:0 auto 0 0!important;
+  top:0!important;
+  left:0!important;
+  transform:none!important;
+  width:var(--rank-bar,0%)!important;
+  height:100%!important;
+  min-height:0!important;
+  max-height:none!important;
+  border-radius:12px!important;
+}
+.ranking-row-v96 .rank-value-band .value{
+  position:relative!important;
+  z-index:1!important;
+  min-width:0!important;
+  margin:0!important;
+  color:var(--navy)!important;
+  font-size:20px!important;
+  font-weight:950!important;
+  line-height:1.25!important;
+  text-align:left!important;
+  white-space:normal!important;
+  overflow-wrap:anywhere!important;
+  word-break:keep-all!important;
+}
+.ranking-row-v96 .source-line{
+  margin-top:4px!important;
+  padding-left:9px!important;
+  font-size:14px!important;
+  line-height:1.4!important;
+}
+@media(max-width:520px){
+  .ranking-row.ranking-row-v96{
+    grid-template-columns:40px minmax(0,1fr)!important;
+    gap:8px!important;
+    min-height:110px!important;
+    padding:12px 13px!important;
+  }
+  .ranking-row-v96>.rank{padding-top:6px!important;font-size:18px!important;}
+  .ranking-row-v96 .rank-country-head{gap:9px!important;margin-bottom:4px!important;}
+  .ranking-row-v96 .rank-country-head .country-name{font-size:17.5px!important;line-height:1.25!important;}
+  .ranking-row-v96 .rank-value-band{min-height:38px!important;padding:4px 8px!important;}
+  .ranking-row-v96 .rank-value-band .value{font-size:19px!important;line-height:1.25!important;}
+  .ranking-row-v96 .source-line{padding-left:8px!important;font-size:13.5px!important;}
+}
+
+/* R97: dedicated rice, school-meal and Japan ranking lists share the same safe layout. */
+.ranking-row-v97{width:100%!important;box-sizing:border-box!important;text-align:left!important;}
+.ranking-row-v97 .rank-country-head .flag,.ranking-row-v97 .rank-country-head .flag-open{display:flex!important;align-items:center!important;justify-content:center!important;}
+.ranking-row-v97 .source-line{white-space:normal!important;overflow-wrap:anywhere!important;}
+.ranking-row-v97 .rank-value-band .value{max-width:100%!important;}
+
+/* R113.39 country detail order: basic statistics precede power information. */
+.country-profile-basic-stats{scroll-margin-top:18px;}
+.country-profile-power-missing{display:flex;align-items:center;min-height:58px;margin-top:8px;padding:12px 14px;border:1px dashed #BFCFE2;border-radius:12px;background:#F8FAFD;color:#60728B;font-size:16px;font-weight:900;}
+.country-profile-power.is-missing .country-profile-power-heading>em{border-color:#D8E0EA;background:#F4F6F9;color:#68778A;}

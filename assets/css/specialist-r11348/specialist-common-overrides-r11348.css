@@ -1,0 +1,12 @@
+/* MARKET BASE R113.48 - shared specialist viewport and detail readability overrides. */
+
+/* SOURCE: ios-viewport-stability-v273-r1 inline block */
+html,body{max-width:100%;overflow-x:hidden}input,select,textarea{max-width:100%;min-width:0}@media(max-width:760px){input,select,textarea{font-size:16px!important}}
+
+/* SOURCE: specialist-detail-readability-v273-r14 inline block */
+
+.label,.value,.k,.v,.section th,.section td{font-size:16.6px!important;line-height:1.72!important}
+.label,.k,.section th{color:#51647f!important;font-weight:850!important}
+.overview-text,.company-lead,.card-sub,.summary{font-size:16.6px!important;line-height:1.72!important}
+@media(max-width:760px){.label,.value,.k,.v,.section th,.section td,.overview-text,.company-lead,.card-sub,.summary{font-size:16.1px!important;line-height:1.70!important}}
+@media(max-width:430px){.label,.value,.k,.v,.section th,.section td,.overview-text,.company-lead,.card-sub,.summary{font-size:15px!important;line-height:1.68!important}}

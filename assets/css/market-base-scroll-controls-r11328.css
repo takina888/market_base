@@ -1,0 +1,62 @@
+/* MARKET BASE R113.28 — shared page top / page bottom controls */
+.mb-scroll-controls{
+  position:fixed;
+  right:max(14px,env(safe-area-inset-right));
+  bottom:max(18px,env(safe-area-inset-bottom));
+  z-index:9750;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin:0;
+  padding:0;
+  pointer-events:none;
+}
+body.mb-has-primary-bottom-nav .mb-scroll-controls{
+  bottom:calc(108px + env(safe-area-inset-bottom));
+}
+.mb-scroll-control{
+  pointer-events:auto;
+  display:grid;
+  place-items:center;
+  width:56px;
+  height:56px;
+  min-width:56px;
+  min-height:56px;
+  margin:0;
+  padding:0;
+  border:3px solid #d6e3f2;
+  border-radius:50%;
+  background:rgba(255,255,255,.98);
+  color:#0b3f82;
+  box-shadow:0 8px 24px rgba(13,57,117,.16);
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+  transition:opacity .16s ease,transform .16s ease,box-shadow .16s ease;
+}
+.mb-scroll-control svg{
+  width:28px;
+  height:28px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:2.5;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.mb-scroll-control:hover{box-shadow:0 10px 28px rgba(13,57,117,.22)}
+.mb-scroll-control:active{transform:translateY(1px)}
+.mb-scroll-control:focus-visible{outline:4px solid rgba(23,100,194,.24);outline-offset:3px}
+.mb-scroll-control:disabled{opacity:.28;cursor:default;box-shadow:0 5px 16px rgba(13,57,117,.08)}
+.mb-scroll-controls[hidden]{display:none!important}
+@media(min-width:761px){
+  .mb-scroll-controls{right:max(22px,env(safe-area-inset-right));bottom:max(24px,env(safe-area-inset-bottom));gap:9px}
+  body.mb-has-primary-bottom-nav .mb-scroll-controls{bottom:max(24px,env(safe-area-inset-bottom))}
+  .mb-scroll-control{width:50px;height:50px;min-width:50px;min-height:50px}
+  .mb-scroll-control svg{width:25px;height:25px}
+}
+@media(max-width:430px){
+  .mb-scroll-controls{right:max(11px,env(safe-area-inset-right))}
+  body.mb-has-primary-bottom-nav .mb-scroll-controls{bottom:calc(103px + env(safe-area-inset-bottom))}
+  .mb-scroll-control{width:54px;height:54px;min-width:54px;min-height:54px}
+  .mb-scroll-control svg{width:27px;height:27px}
+}
+@media(prefers-reduced-motion:reduce){.mb-scroll-control{transition:none}}

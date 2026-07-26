@@ -1,0 +1,69 @@
+/* MARKET BASE R113.67
+   Mobile bottom navigation: clearer, short press feedback without changing layout. */
+@media (max-width:899px){
+  .mb-primary-bottom-tab{
+    position:relative;
+    transform:translateY(0) scale(1);
+    box-shadow:0 1px 3px rgba(15,47,85,.055);
+    transition:
+      transform 90ms cubic-bezier(.2,.8,.2,1),
+      box-shadow 90ms ease,
+      background-color 90ms ease,
+      color 90ms ease;
+    -webkit-tap-highlight-color:transparent;
+    touch-action:manipulation;
+    user-select:none;
+    -webkit-user-select:none;
+  }
+  .mb-primary-bottom-tab.active{
+    box-shadow:
+      0 2px 6px rgba(11,93,204,.11),
+      inset 0 0 0 1px rgba(11,93,204,.045);
+  }
+  .mb-primary-bottom-tab:active{
+    transform:translateY(2px) scale(.975);
+    background:#DCEBFF;
+    box-shadow:
+      inset 0 3px 7px rgba(11,57,118,.18),
+      0 0 0 rgba(15,47,85,0);
+    transition-duration:35ms;
+  }
+  .mb-primary-bottom-tab:active .mb-primary-bottom-icon{
+    transform:translateY(1px) scale(.95);
+  }
+  .mb-primary-bottom-icon{
+    transition:transform 90ms cubic-bezier(.2,.8,.2,1);
+  }
+}
+
+@media (max-width:760px){
+  .mb-global-bottom-nav a{
+    transform:translateY(0) scale(1);
+    box-shadow:0 1px 3px rgba(15,47,85,.05);
+    transition:
+      transform 90ms cubic-bezier(.2,.8,.2,1),
+      box-shadow 90ms ease,
+      background-color 90ms ease,
+      color 90ms ease;
+    -webkit-tap-highlight-color:transparent;
+    touch-action:manipulation;
+    user-select:none;
+    -webkit-user-select:none;
+  }
+  .mb-global-bottom-nav a:active{
+    transform:translateY(2px) scale(.975);
+    background:#DCEBFF;
+    box-shadow:
+      inset 0 3px 7px rgba(11,57,118,.18),
+      0 0 0 rgba(15,47,85,0);
+    transition-duration:35ms;
+  }
+}
+
+@media (prefers-reduced-motion:reduce){
+  .mb-primary-bottom-tab,
+  .mb-primary-bottom-icon,
+  .mb-global-bottom-nav a{
+    transition-duration:0ms!important;
+  }
+}

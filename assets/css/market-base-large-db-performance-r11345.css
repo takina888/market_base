@@ -1,0 +1,7 @@
+/* R113.44: reduce off-screen rendering cost on very large static databases. */
+@supports (content-visibility:auto){
+  body.mb-large-db-performance .card,
+  body.mb-large-db-performance .company,
+  body.mb-large-db-performance [data-card]{content-visibility:auto;contain-intrinsic-size:auto 360px}
+}
+body.mb-large-db-performance img[loading="lazy"]{content-visibility:auto}

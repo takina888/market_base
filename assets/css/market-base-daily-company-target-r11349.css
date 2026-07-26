@@ -1,0 +1,30 @@
+/* MARKET BASE R113.49 - 企業ルーレット移動先の可視化 */
+[id^="mb-gohan-"], [id^="mb-cvs-"], [id^="mb-ifm-"] { scroll-margin-top: 110px; }
+.mbdc-company-target-flash {
+  position: relative;
+  border-color: #e0b318 !important;
+  background: #fffbea !important;
+  box-shadow: 0 0 0 5px rgba(245,184,0,.22), 0 16px 34px rgba(80,63,0,.12) !important;
+  animation: mbdcTargetPulse 1.15s ease-in-out 2;
+}
+.mbdc-company-target-flash::before {
+  content: "本日の企業";
+  position: absolute;
+  z-index: 3;
+  top: -13px;
+  right: 14px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  color: #4f3c00;
+  background: #ffd84d;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+@keyframes mbdcTargetPulse {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mbdc-company-target-flash { animation: none; }
+}

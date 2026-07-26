@@ -1,0 +1,80 @@
+/* MARKET BASE R113.62 - compact daily fortune and lucky color */
+.daily-fortune-strip {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(150px, .9fr);
+  align-items: center;
+  gap: 8px 14px;
+  margin-top: 9px;
+  padding-top: 8px;
+  border-top: 1px solid #e5edf7;
+  color: #536b84;
+  font-size: 11.5px;
+  font-weight: 750;
+  line-height: 1.35;
+}
+.daily-fortune-main,
+.daily-fortune-color {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  gap: 7px;
+}
+.daily-fortune-label {
+  flex: 0 0 auto;
+  color: #6a7d94;
+  font-size: 10.5px;
+  font-weight: 800;
+}
+.daily-fortune-stars {
+  flex: 0 0 auto;
+  color: #c38d13;
+  font-size: 12px;
+  letter-spacing: .035em;
+  white-space: nowrap;
+}
+.daily-fortune-message {
+  min-width: 0;
+  overflow: hidden;
+  color: #294966;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.daily-fortune-color { justify-content: flex-end; }
+.daily-fortune-swatch {
+  flex: 0 0 auto;
+  width: 13px;
+  height: 13px;
+  border: 1px solid rgba(31, 58, 95, .18);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.35);
+}
+.daily-fortune-color-name {
+  min-width: 0;
+  overflow: hidden;
+  color: #294966;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media (max-width: 560px) {
+  .daily-fortune-strip {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 6px 8px;
+    margin-top: 8px;
+    padding-top: 7px;
+    font-size: 11px;
+  }
+  .daily-fortune-label { font-size: 10px; }
+  .daily-fortune-stars { font-size: 11.5px; }
+  .daily-fortune-main { gap: 5px; }
+  .daily-fortune-color { gap: 5px; }
+  .daily-fortune-swatch { width: 12px; height: 12px; }
+}
+@media (max-width: 390px) {
+  .daily-fortune-strip {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  .daily-fortune-color { justify-content: flex-start; }
+}
