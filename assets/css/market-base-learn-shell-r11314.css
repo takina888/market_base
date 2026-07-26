@@ -1,8 +1,0 @@
-/* MARKET BASE R113.14 — learning page chrome contract.
-   The top and bottom bands use the same global components and icon set as every MARKET BASE primary page.
-   Content cards remain independent from the chrome. */
-#learn.learn-view>.mb-global-header{font-family:var(--mbgh-font)}
-#learn.learn-view>.learn-section-head{margin-top:0}
-@media(max-width:899px){
-  body.mb-view-active #learn.learn-view.active{padding-bottom:4px}
-}
