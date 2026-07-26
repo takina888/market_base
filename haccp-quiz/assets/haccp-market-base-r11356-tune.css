@@ -1,0 +1,23 @@
+/* R113.56: HACCP module alignment with the current MARKET BASE learning shell. */
+@media(max-width:900px){
+  .mbx-header{height:72px;min-height:72px}
+  .hq-page-tools{top:73px;padding:7px 0}
+  .mbx-main{padding-top:19px}
+  .mbx-page-description{font-size:15px;line-height:1.68}
+  .hq-page-tools button{min-height:44px;font-size:14px}
+  .hq-action-card small{font-size:14px;line-height:1.58}
+  .hq-category-card small{font-size:13.2px;line-height:1.50}
+  .hq-section-head p{font-size:14.8px;line-height:1.62}
+}
+@media(max-width:520px){
+  .mbx-brand{font-size:24px}
+  .mbx-header-button{min-width:52px;font-size:14.5px}
+  .hq-page-tools{gap:7px}
+  .hq-page-tools button{padding:0 13px}
+  .hq-hero{padding:18px}
+  .hq-note{padding:17px}
+}
+@media(max-width:370px){
+  .mbx-brand{font-size:22px}
+  .mbx-header-button{min-width:49px;padding:0 9px;font-size:13.5px}
+}
