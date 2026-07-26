@@ -1,0 +1,74 @@
+{
+  "language": "ja",
+  "country": "JP",
+  "limit_per_category": 3,
+  "feed_scan_limit": 50,
+  "timeout_seconds": 20,
+  "preferred_sources": [
+    "NHK",
+    "ロイター",
+    "Reuters",
+    "共同通信",
+    "時事通信",
+    "日本経済新聞",
+    "ジェトロ",
+    "日本食糧新聞",
+    "食品新聞",
+    "流通ニュース",
+    "オートメーション新聞",
+    "日本包装機械工業会",
+    "日本食品機械工業会",
+    "消費者庁",
+    "厚生労働省",
+    "農林水産省",
+    "経済産業省",
+    "PR TIMES"
+  ],
+  "categories": [
+    {
+      "id": "overseas",
+      "label": "海外ニュース",
+      "priority": 50,
+      "max_age_days": 14,
+      "query": "(国際 OR 海外 OR 世界 OR 貿易 OR 海外経済) -スポーツ -芸能 when:7d",
+      "required_terms_any": [],
+      "excluded_terms": ["試合", "選手", "リーグ", "芸能", "俳優", "アイドル", "映画公開", "ドラマ"]
+    },
+    {
+      "id": "food_machinery",
+      "label": "食品機械",
+      "priority": 10,
+      "max_age_days": 90,
+      "query": "(食品機械 OR 食品加工機械 OR 包装機械 OR 食品製造装置 OR FOOMA OR 充填機 OR 選別機) when:90d",
+      "required_terms_any": ["食品機械", "食品加工", "包装機械", "製造装置", "FOOMA", "充填機", "包装機", "選別機", "検査機", "スライサー", "ロボット"],
+      "excluded_terms": ["中古販売", "求人"]
+    },
+    {
+      "id": "food_factory",
+      "label": "食品工場",
+      "priority": 20,
+      "max_age_days": 90,
+      "query": "(食品工場 OR 食品 新工場 OR 食品 設備投資 OR 食品 生産拠点 OR 食品工場 DX) when:90d",
+      "required_terms_any": ["食品工場", "新工場", "製造拠点", "生産拠点", "設備投資", "工場DX", "省人化", "生産能力"],
+      "excluded_terms": ["求人", "アルバイト"]
+    },
+    {
+      "id": "retail",
+      "label": "小売店",
+      "priority": 30,
+      "max_age_days": 45,
+      "query": "(食品スーパー OR スーパーマーケット OR コンビニ OR 食品小売 OR 食品専門店 OR 小売 新店舗) when:30d",
+      "required_terms_any": ["スーパー", "コンビニ", "小売", "店舗", "ドラッグストア", "食品専門店"],
+      "excluded_terms": ["飲食店", "レストラン", "カフェ", "居酒屋", "アパレル", "ホテル", "住宅展示場"]
+    },
+    {
+      "id": "regulations",
+      "label": "規制関連",
+      "priority": 5,
+      "max_age_days": 120,
+      "query": "(食品 規制 OR 食品表示 OR 食品安全 法規 OR 包装材 規制 OR 食品 輸出入 規制 OR 食品 基準 改正) when:120d",
+      "required_terms_any": ["規制", "基準", "法", "表示", "監視", "認証", "輸入", "輸出", "改正", "施行", "リコール"],
+      "excluded_terms": ["法律事務所 求人"]
+    }
+  ]
+}
