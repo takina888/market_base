@@ -1,9 +1,15 @@
 {
   "schema_version": 2,
-  "status": "sample",
+  "status": "live",
   "language": "ja",
-  "generated_at": "2026-07-24T04:30:00Z",
-  "successful_categories": [],
+  "generated_at": "2026-07-26T15:03:31Z",
+  "successful_categories": [
+    "regulations",
+    "food_machinery",
+    "food_factory",
+    "retail",
+    "overseas"
+  ],
   "retained_categories": [],
   "failed_categories": {},
   "categories": {
@@ -11,34 +17,34 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "overseas-india-trade",
-          "title": "インド6月の貿易赤字が大幅拡大、石油・電子などの輸入が増加",
-          "url": "https://www.jetro.go.jp/biznews/2026/07/1050897fdbd7b09e.html",
-          "source": "ジェトロ",
-          "published_at": "2026-07-24T00:00:00Z",
+          "id": "daccc849f474683e",
+          "title": "世界遺産／バリ島 1000年続く棚田の絶景（インドネシア） [解] [字]",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xWC02ZHNzTm9MWEtkT0NaelRUNzBDNDdWOERXSzkzYi1xdmFQTU5vQ0JpMXZRTlNYTmZiMzFGdTl2R0dmVmItVGtVajd0bVA5NjZwU0Nn?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-07-26T12:23:09Z",
           "language": "ja",
           "category": "overseas",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         },
         {
-          "id": "overseas-china-gdp",
-          "title": "中国の2026年上半期GDP成長率は4.7％、ハイテク産業向け投資が好調",
-          "url": "https://www.jetro.go.jp/biznews/2026/07/f05e47effa6d9fa3.html",
-          "source": "ジェトロ",
-          "published_at": "2026-07-22T00:00:00Z",
+          "id": "acea30772520bc71",
+          "title": "【速報】アアルト建築がユネスコ世界遺産に登録！ フィンランド初の近代建築遺産が誕生",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTVVBSzV4VlhhNmdiQWFDMnp4Sy1nckdxdWJoRHMyRE1RMmtxb0pRUzZZdERINF9adlZSUGVmNThfbmVGSWNYZTFvc3VJTDM4QzNxVFpKbHZiWjVvazJyNzB5S1NsMGxRRTduUUVYZElNSTlzbnRuZ2JvZHFrc0xGWDVyenlZYXBpNTBQak41RzNhQVF5Nzlr?oc=5",
+          "source": "elle.com",
+          "published_at": "2026-07-26T07:52:23Z",
           "language": "ja",
           "category": "overseas",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         },
         {
-          "id": "overseas-us-visa",
-          "title": "米国国土安全保障省、留学生・外国報道関係者のビザ滞在期間を変更",
-          "url": "https://www.jetro.go.jp/biznews/2026/07/4213c1f5130e3a96.html",
-          "source": "ジェトロ",
-          "published_at": "2026-07-22T00:00:00Z",
+          "id": "2037d2e006818d19",
+          "title": "【このすば】『この素晴らしい世界に祝福を！』アニメ4期が2027年に放送決定！カズマパーティ4人の後ろ姿を描くビジュアル解禁",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nbWxCOVB6OFk4bURuNlBUY0tLQnVYcHJjQTNheEh2dzRETnRJcUFoQ3lEOWFNRk82b2J4Wm9nbHg1QXRxcnl1TWZUOFpGVkNuR2FzZ2VGYXA?oc=5",
+          "source": "電ファミニコゲーマー",
+          "published_at": "2026-07-26T07:00:00Z",
           "language": "ja",
           "category": "overseas",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -46,34 +52,34 @@
       "label": "食品機械",
       "articles": [
         {
-          "id": "machinery-tomra-4c-800",
-          "title": "TOMRA、AI搭載光学選別機「TOMRA 4C 800」を日本初披露",
-          "url": "https://www.tomra.com/ja-jp/food/media-center/news/2026/fooma-japan-2026",
-          "source": "TOMRA Food",
-          "published_at": "",
+          "id": "c5b26c7796e664db",
+          "title": "【出展報告】前川製作所、「FOOMA JAPAN 2026」に出展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZSWMzbkg2bWxJbTd2M2F1UUhpUjd6Mkdha3VxdTVHVWJIeXBXYXEwZXFGeWQwUHNWM2pFd2hvRU9yMkwtaUxfX3hVbzlnRzZ0UXo2cjFjOGQ5SzRzMkUyZEV4YTNTTktDalE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         },
         {
-          "id": "machinery-sodick-vacuum-cooling",
-          "title": "ソディックの「連続式真空冷却装置」がFOOMAアワード2026優秀賞を受賞",
-          "url": "https://www.sodick.co.jp/pdf/260603103117_Press_Release_FOOMA_Award_2026_20260603.pdf",
-          "source": "ソディック",
-          "published_at": "2026-06-03T00:00:00Z",
+          "id": "4180d1106bcbc393",
+          "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LbUlhc2Q0X3c1QTdaYjVtTEdPNTUzYmhPdktDeXJmRFpSM3k4b3lHLXFPbV9UVC1BRDJIRkFJS1NWM1JybWxPYkl1SDZNeFQwZDdxeTAwc0tWRTRZTE03eFhCZ3Z2TVpuaXc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-15T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         },
         {
-          "id": "machinery-fooma-three-products",
-          "title": "FOOMA JAPAN 2026、食品製造を支える注目3社の出展製品を紹介",
-          "url": "https://nihonsanki-shimbun.com/fooma_26_3products/",
-          "source": "日本産機新聞",
-          "published_at": "2026-06-01T00:00:00Z",
+          "id": "db7a9824ff303538",
+          "title": "次世代設備保全クラウド「M2X」が「第5回FOOMAアワード2026」にて審査委員会賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2MERlWnFRVDVmZWNMNnl4ZURyd2FzVzJqcGY4WjlUYk8zMXBOVmw5R0ZYbXdjWTdCN1RuV0txaS10dmxpNVVSemF5YWJiQXRSZnNveHBxVmFSYU4zSWQ1Z0pRbXdqTmVxU2c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-03T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -81,34 +87,34 @@
       "label": "食品工場",
       "articles": [
         {
-          "id": "factory-kanemi-fuso",
-          "title": "カネ美食品、愛知県扶桑町に約48億円の調理済食品工場を新設",
-          "url": "https://www.automation-news.jp/2026/07/106102/",
-          "source": "オートメーション新聞",
-          "published_at": "",
+          "id": "c7572784f59161b0",
+          "title": "食品工場の新設工期、10年で2倍に 強まる人手不足の影響",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Mc0pJUC1SVjJUN0ZEOFJDaWxOVVJMS2t1bDhSeWNBWjJkTkxjV2l3RmU2V1lETXpYWlpRcDNCcTE0TTBWNXl6Vl9GREx6d053NElpZnNKZmlOYUoyWWUyVlkwRGFXbDU4?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-06-21T15:07:05Z",
           "language": "ja",
           "category": "food_factory",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         },
         {
-          "id": "factory-zensho-yamaguchi",
-          "title": "ゼンショーHDとGFF、山口市に約264億円の食品製造工場を建設",
-          "url": "https://www.automation-news.jp/2026/06/105057/",
-          "source": "オートメーション新聞",
-          "published_at": "2026-06-01T00:00:00Z",
+          "id": "1e3558dd99c398af",
+          "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-06-04T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         },
         {
-          "id": "factory-shibaura-automation",
-          "title": "芝浦機械、食品工場向けの省人化・自動化ソリューションを提案",
-          "url": "https://www.shibaura-machine.co.jp/jp/NEWS/product/20260519.html",
-          "source": "芝浦機械",
-          "published_at": "2026-05-19T00:00:00Z",
+          "id": "df5032e43e049da4",
+          "title": "もやし工場で「わさび」生産 食品工場内に栽培モジュール導入し高付加価値化へ新モデル始動",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY19GNjlvZ0FzVmlqN281VUlfWXRNdjNyTWtFM0NQTGM4bU44czJJWDFzSWxVeWFLSVJ2Y3M3UjJvNWhMQ2R6bXR1bTM2X1Vqak5SUDV2YTV5VmJCZUU2d2UxcHNqUXhVczhkWFJpd3E1UWlMSVNZaWNfMEJsWGxSWDFueFIwdw?oc=5",
+          "source": "projectdesign.jp",
+          "published_at": "2026-06-02T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -116,34 +122,34 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "retail-aeon-shimotsuruma",
-          "title": "イオンリテール、7月28日に「イオンスタイル下鶴間」をオープン",
-          "url": "https://www.aeonretail.jp/pdf/260715R_1.pdf",
-          "source": "イオンリテール",
-          "published_at": "2026-07-15T00:00:00Z",
+          "id": "94ace283ac879e07",
+          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-23T01:30:00Z",
           "language": "ja",
           "category": "retail",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         },
         {
-          "id": "retail-famima-flagship",
-          "title": "ファミリーマート初の旗艦店「FAMIMA PARK AZABUDAI」がオープン",
-          "url": "https://www.family.co.jp/company/news_releases/2026/20260709_01.html",
-          "source": "ファミリーマート",
-          "published_at": "2026-07-09T00:00:00Z",
+          "id": "7e053bc766a46fc9",
+          "title": "環境配慮の木造コンビニがオープン 四国中央",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAybnlzRndCRUo2aU95cWhxczZsR0RoZmM5T3g5T1FScktqMFg4V2YzYkotTUNPcVJpOFc1Tng0S1NCLXlicEo4VWtBeGtaR2Njb0ZKRk1aWW0?oc=5",
+          "source": "NHKニュース",
+          "published_at": "2026-07-22T09:15:00Z",
           "language": "ja",
           "category": "retail",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         },
         {
-          "id": "retail-aeon-shinmatsudo",
-          "title": "イオンリテール、「イオンスタイル新松戸」をフード＆ドラッグ型で開業",
-          "url": "https://www.aeonretail.jp/pdf/260701R_1.pdf",
-          "source": "イオンリテール",
-          "published_at": "2026-07-01T00:00:00Z",
+          "id": "6def167432cca401",
+          "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-21T05:30:02Z",
           "language": "ja",
           "category": "retail",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -151,36 +157,39 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "regulation-food-label-consultation",
-          "title": "食品表示基準の一部改正について、消費者委員会へ諮問",
-          "url": "https://www.caa.go.jp/notice/entry/046843/",
-          "source": "消費者庁",
-          "published_at": "2026-07-17T00:00:00Z",
+          "id": "ca6783da665eeb00",
+          "title": "EUへの農産物輸出には、企業はシーズン開始当初からリスク管理を行う必要がある。",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOajR5cFBhQmd1c1RCaEJvOGxRSkJ4ZGpRUWVMRVNDazFzck16eDdzTEY2RVhyTDhNNHRVMUJPMElPUTFjRmlwMlFTeW5tVEl3bC1MbGo1b0ZNc2pveXd3T2hpMnZNUHJnaF9PRk90SHFuQW1hN0hqOERLd1VfOUl1QlBBcjExRjEtMGU4Z3BGWXVkNllLVVFXY0pjNA?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-07-25T07:57:24Z",
           "language": "ja",
           "category": "regulations",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         },
         {
-          "id": "regulation-food-label-meeting",
-          "title": "食品表示へのデジタルツール活用や海外制度を検討",
-          "url": "https://www.caa.go.jp/policies/policy/food_labeling/meeting_materials/review_meeting_016/046759.html",
-          "source": "消費者庁",
-          "published_at": "2026-07-15T00:00:00Z",
+          "id": "f6fc1e08094f3800",
+          "title": "改正食品安全法の完成：地方分権化、デジタル変革、行政手続きの合理化の推進。",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY2ZpLTBvZXJ0V25vaHQ1UVdYM05CdWVYcVRLWHV4QmFMMk8wa19JNHJiOFFnY1k1VE42bTVOYV92cnFQMm0zTlJHWksxSHBVZkFldUoxT2FXLUFJVFlPUXJsUUxfWk1iSmJkVnpiQ19ZWDR0Mkxqa0dMeERzQmtUU3BybWdidER5LUhRNV9UOXowRHd2YUpqZW4yc0Jwb2RUbGtiWFJRNUVNXzE5Wi0wd0Y2ZXRCcWF6NGg1RHk3ZWpDbDBsMkE?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-07-23T17:08:38Z",
           "language": "ja",
           "category": "regulations",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         },
         {
-          "id": "regulation-imported-food-plan",
-          "title": "令和8年度の輸入食品監視指導計画を策定",
-          "url": "https://www.mhlw.go.jp/stf/newpage_71890.html",
-          "source": "厚生労働省",
-          "published_at": "2026-03-27T00:00:00Z",
+          "id": "19a307e3c8f59b8b",
+          "title": "食品安全法を改正する際は、重複を避けるようにしてください。",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb2JkYjR3QTRvelZnU0RIQk1LdEZ0SkpZSm9KNzNtV0YtU05mY2twX0gyZDNRN0RwcXk3NW01VVQ5WVpEdm9NZ2RTMWZ1TWRZdF9UM3NSZ1RCZnc2VnJOQmhOV1FjRE1wRl9fLVlsZlk4NkNsQWJQX3NsWndaTUFxZXpLUQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-07-23T16:58:14Z",
           "language": "ja",
           "category": "regulations",
-          "link_provider": "direct"
+          "link_provider": "google_news_rss"
         }
       ]
     }
-  }
+  },
+  "last_attempt_at": "2026-07-26T15:03:31Z",
+  "last_success_at": "2026-07-26T15:03:31Z",
+  "consecutive_failure_count": 0
 }
