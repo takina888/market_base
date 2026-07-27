@@ -54,3 +54,51 @@ body.currency-standard-page{
   .currency-standard-shell,
   body.currency-standard-page .mb-global-icon-band{max-width:1440px}
 }
+
+
+/* R113.85 — explicit half-PC fallback for the converter-specific shell. */
+@media(min-width:431px) and (max-width:899px){
+  body.currency-standard-page .mb-primary-header-host,
+  .currency-standard-shell{
+    width:min(calc(100% - 32px),760px)!important;
+    max-width:760px!important;
+  }
+  .currency-standard-shell{padding-left:16px!important;padding-right:16px!important}
+}
+
+
+/* R113.85b — converter width lock for half-PC and tablet windows.
+   Cover common half-screen desktop widths above and below the 900px breakpoint. */
+@media(min-width:431px) and (max-width:1199px){
+  body.currency-standard-page .mb-primary-header-host,
+  body.currency-standard-page .mb-standard-content-shell,
+  body.currency-standard-page .currency-standard-shell{
+    box-sizing:border-box!important;
+    width:min(calc(100% - 32px),1180px)!important;
+    max-width:1180px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+  }
+  body.currency-standard-page .mb-primary-header-host,
+  body.currency-standard-page .mb-standard-content-shell,
+  body.currency-standard-page .currency-standard-shell{
+    padding-left:16px!important;
+    padding-right:16px!important;
+  }
+}
+
+
+/* R113.85 — half-PC/tablet must not fall back to the 430px phone shell. */
+@media(min-width:431px) and (max-width:899px){
+  body.currency-standard-page .mb-primary-header-host,
+  body.currency-standard-page .currency-standard-shell,
+  body.currency-standard-page .mb-standard-content-shell{
+    box-sizing:border-box!important;
+    width:min(calc(100% - 32px),1180px)!important;
+    max-width:1180px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+    padding-left:16px!important;
+    padding-right:16px!important;
+  }
+}

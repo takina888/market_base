@@ -1126,3 +1126,11 @@ html body p,html body li,html body td,html body .value,html body .v{line-height:
 @media(max-width:430px){html body{font-size:15.7px!important;line-height:1.60!important;}}
 
 
+
+/* R113.88 — emphasize country-detail world ranks with a yellow palette */
+#detailContent .stat-world-rank{
+  border-color:#e4bf48!important;
+  background:linear-gradient(180deg,#fff8cc 0%,#ffe997 100%)!important;
+  color:#6b4a00!important;
+  box-shadow:0 3px 10px rgba(169,119,0,.14)!important;
+}

@@ -839,3 +839,12 @@ body.mb-country-dialog-open{
 .country-profile-basic-stats{scroll-margin-top:18px;}
 .country-profile-power-missing{display:flex;align-items:center;min-height:58px;margin-top:8px;padding:12px 14px;border:1px dashed #BFCFE2;border-radius:12px;background:#F8FAFD;color:#60728B;font-size:16px;font-weight:900;}
 .country-profile-power.is-missing .country-profile-power-heading>em{border-color:#D8E0EA;background:#F4F6F9;color:#68778A;}
+
+
+/* R113.88 — make the 7-day Today’s Journey history discoverable */
+.todays-journey-history-group{display:grid;justify-items:center;gap:4px}
+.todays-journey-history-note{display:block;color:#55708f!important;font-size:10.5px!important;font-weight:850!important;line-height:1.25!important;white-space:nowrap}
+@media(max-width:680px){
+  .todays-journey-history-group{justify-items:start}
+  .todays-journey-history-note{font-size:10px!important}
+}

@@ -2625,7 +2625,7 @@ function todaysJourneyLink(entry){
   });
   return entity ? {entity_id:entity.entity_id,type:'exact'} : null;
 }
-const JOURNEY_IMAGE_CACHE_VERSION='r11370-v1';
+const JOURNEY_IMAGE_CACHE_VERSION='r11388-v1';
 const journeyImageMemory=new Map();
 const journeyImageFailures=new Map();
 const journeyImageInFlight=new Map();

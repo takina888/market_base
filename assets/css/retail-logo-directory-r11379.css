@@ -1,38 +1,48 @@
 
-/* MARKET BASE R113.79 — clickable retail logo directory below the daily store gallery */
-.retail-logo-directory{margin:22px 0 26px;padding:18px 14px;border:1px solid #d7e4f2;border-radius:22px;background:#fff;box-shadow:0 8px 22px rgba(13,57,117,.045);color:#10213c}
-.retail-logo-directory__head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin:0 0 13px}
+/* MARKET BASE R113.84 — retail logo directory compact spacing + tighter per-page view + page-number alignment */
+.retail-logo-directory{margin:18px 0 22px;padding:15px 11px;border:1px solid #d7e4f2;border-radius:20px;background:#fff;box-shadow:0 7px 18px rgba(13,57,117,.04);color:#10213c}
+.retail-logo-directory__head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin:0 0 10px}
 .retail-logo-directory__copy{min-width:0}
-.retail-logo-directory__eyebrow{display:block;margin:0 0 3px;color:#1764c8;font-size:11px;font-weight:950;letter-spacing:.1em}
-.retail-logo-directory h2{margin:0;color:#0b3976;font-size:21px;line-height:1.3}
-.retail-logo-directory__lead{margin:6px 0 0;color:#64748b;font-size:13.5px;line-height:1.65;font-weight:720}
-.retail-logo-directory__controls{display:flex;align-items:center;gap:6px;flex:0 0 auto}
-.retail-logo-directory__status{min-width:44px;color:#526477;font-size:12px;font-weight:900;text-align:center;font-variant-numeric:tabular-nums}
-.retail-logo-directory__button{display:grid;place-items:center;width:38px;height:38px;padding:0;border:1px solid #c7d9ee;border-radius:12px;background:#f7fbff;color:#0b5dcc;font:950 21px/1 sans-serif;cursor:pointer}
+.retail-logo-directory__eyebrow{display:block;margin:0 0 2px;color:#1764c8;font-size:10.5px;font-weight:950;letter-spacing:.11em}
+.retail-logo-directory h2{margin:0;color:#0b3976;font-size:19px;line-height:1.22}
+.retail-logo-directory__lead{margin:5px 0 0;color:#64748b;font-size:12.6px;line-height:1.58;font-weight:720}
+.retail-logo-directory__controls{display:flex;align-items:center;gap:5px;flex:0 0 auto;padding-top:1px}
+.retail-logo-directory__status{min-width:48px;padding:0 2px;color:#526477;font-size:11.5px;font-weight:900;text-align:center;font-variant-numeric:tabular-nums;line-height:1;transform:translateY(1px)}
+.retail-logo-directory__button{display:grid;place-items:center;width:34px;height:34px;padding:0;border:1px solid #c7d9ee;border-radius:11px;background:#f7fbff;color:#0b5dcc;font:950 18px/1 sans-serif;cursor:pointer}
 .retail-logo-directory__button:hover,.retail-logo-directory__button:focus-visible{border-color:#0b5dcc;background:#edf5ff;outline:none}
-.retail-logo-directory__viewport{display:grid;grid-auto-flow:column;grid-auto-columns:min(84vw,430px);gap:12px;overflow-x:auto;padding:2px 1px 12px;scroll-snap-type:x mandatory;overscroll-behavior-inline:contain;scrollbar-width:thin}
-.retail-logo-board{position:relative;min-width:0;margin:0;scroll-snap-align:start;border:1px solid #e0e8f2;border-radius:18px;overflow:hidden;background:#fff}
-.retail-logo-board img{display:block;width:100%;height:auto;aspect-ratio:1055/1491;object-fit:cover;background:#fff}
-.retail-logo-board__links{position:absolute;inset:5.05% 2.7% 4.45%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(4,minmax(0,1fr));gap:1.25% 1.3%;pointer-events:none}
-.retail-logo-board__link{position:relative;display:block;min-width:0;min-height:0;border-radius:10px;pointer-events:auto;text-decoration:none;-webkit-tap-highlight-color:transparent}
-.retail-logo-board__link::after{content:'';position:absolute;inset:0;border:2px solid transparent;border-radius:10px;background:transparent;transition:border-color .14s ease,background .14s ease,box-shadow .14s ease}
-.retail-logo-board__link:hover::after,.retail-logo-board__link:focus-visible::after{border-color:#0b63ce;background:rgba(234,243,255,.14);box-shadow:0 0 0 3px rgba(11,99,206,.13)}
-.retail-logo-board__link:focus-visible{outline:none}
-.retail-logo-board__link span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
-.retail-logo-board figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:9px 11px;border-top:1px solid #e5edf6;color:#0b3976;font-size:12.5px;font-weight:900}
-.retail-logo-board figcaption small{color:#718096;font-size:10.5px;font-weight:800}
+.retail-logo-directory__viewport{display:grid;grid-auto-flow:column;grid-auto-columns:min(82vw,400px);gap:10px;overflow-x:auto;padding:1px 0 10px;scroll-snap-type:x mandatory;overscroll-behavior-inline:contain;scrollbar-width:thin}
+.retail-logo-board{min-width:0;margin:0;scroll-snap-align:start;border:1px solid #e0e8f2;border-radius:16px;overflow:hidden;background:#fff}
+.retail-logo-board__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:10px}
+.retail-logo-board__tile{display:flex;flex-direction:column;min-width:0;border:1px solid #edf1f6;border-radius:9px;background:#fff;text-decoration:none;color:#10213c;overflow:hidden}
+.retail-logo-board__tile:hover,.retail-logo-board__tile:focus-visible{border-color:#0b63ce;box-shadow:0 0 0 3px rgba(11,99,206,.13);outline:none}
+.retail-logo-board__tile-media{position:relative;display:block;aspect-ratio:239.22/323.96;background:#fff;overflow:hidden}
+.retail-logo-board__slice{position:absolute;left:var(--img-left);top:var(--img-top);width:var(--img-width);height:var(--img-height);max-width:none;display:block;user-select:none;pointer-events:none}
+.retail-logo-board__tile-meta{display:flex;min-height:38px;align-items:center;justify-content:center;padding:6px 4px 7px;text-align:center}
+.retail-logo-board__tile-meta strong{display:block;color:#1f2937;font-size:9.8px;line-height:1.27;font-weight:800}
+.retail-logo-board figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:7px 9px;border-top:1px solid #e5edf6;color:#0b3976;font-size:11.8px;font-weight:900}
+.retail-logo-board figcaption small{color:#718096;font-size:11px;font-weight:900;line-height:1;transform:translateY(1px)}
 @media(min-width:900px){
-  .retail-logo-directory{padding:21px 18px}
-  .retail-logo-directory__viewport{grid-auto-columns:min(46vw,470px);gap:15px}
-  .retail-logo-directory h2{font-size:23px}
+  .retail-logo-directory{padding:17px 14px}
+  .retail-logo-directory__viewport{grid-auto-columns:min(43vw,440px);gap:12px}
+  .retail-logo-directory h2{font-size:21px}
+  .retail-logo-board__grid{gap:10px;padding:12px}
+  .retail-logo-board__tile-meta strong{font-size:10.5px}
 }
 @media(max-width:520px){
-  .retail-logo-directory{margin:18px 0 22px;padding:15px 10px;border-radius:19px}
-  .retail-logo-directory__head{align-items:flex-start}
-  .retail-logo-directory__lead{font-size:12.8px}
-  .retail-logo-directory__button{width:34px;height:34px;border-radius:11px;font-size:19px}
-  .retail-logo-directory__viewport{grid-auto-columns:min(88vw,395px);gap:9px;padding-bottom:10px}
-  .retail-logo-board{border-radius:15px}
-  .retail-logo-board figcaption{padding:8px 9px;font-size:11.8px}
+  .retail-logo-directory{margin:16px 0 20px;padding:13px 9px;border-radius:18px}
+  .retail-logo-directory__head{gap:8px;margin-bottom:9px}
+  .retail-logo-directory h2{font-size:17.5px}
+  .retail-logo-directory__lead{font-size:12px;line-height:1.52}
+  .retail-logo-directory__controls{gap:4px}
+  .retail-logo-directory__button{width:32px;height:32px;border-radius:10px;font-size:17px}
+  .retail-logo-directory__status{min-width:44px;font-size:11px}
+  .retail-logo-directory__viewport{grid-auto-columns:min(84vw,370px);gap:8px;padding-bottom:8px}
+  .retail-logo-board{border-radius:14px}
+  .retail-logo-board__grid{gap:7px;padding:8px}
+  .retail-logo-board__tile{border-radius:8px}
+  .retail-logo-board__tile-meta{min-height:34px;padding:5px 3px 6px}
+  .retail-logo-board__tile-meta strong{font-size:9.2px;line-height:1.24}
+  .retail-logo-board figcaption{padding:7px 8px;font-size:11.2px}
+  .retail-logo-board figcaption small{font-size:10.5px}
 }
-@media(prefers-reduced-motion:reduce){.retail-logo-board__link::after{transition:none}}
+@media(prefers-reduced-motion:reduce){.retail-logo-board__tile{transition:none}}

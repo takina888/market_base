@@ -143,3 +143,41 @@ body.mb-unified-learning-page main.guide-page{
     padding:0;
   }
 }
+
+
+/* R113.85 — currency/unit converter half-PC width alignment.
+   431–899px must use the tablet/half-PC shell rather than the 430px phone shell. */
+@media(min-width:431px) and (max-width:899px){
+  body.currency-standard-page .mb-primary-header-host,
+  body.currency-standard-page .mb-standard-content-shell,
+  body.currency-standard-page .currency-standard-shell{
+    box-sizing:border-box;
+    width:min(calc(100% - 32px),760px)!important;
+    max-width:760px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+  }
+  body.currency-standard-page .mb-primary-header-host{
+    padding-left:16px!important;
+    padding-right:16px!important;
+  }
+  body.currency-standard-page .mb-standard-content-shell,
+  body.currency-standard-page .currency-standard-shell{
+    padding-left:16px!important;
+    padding-right:16px!important;
+  }
+}
+
+
+/* R113.85b — final converter half-PC override loaded last. */
+@media(min-width:431px) and (max-width:1199px){
+  body.currency-standard-page .mb-primary-header-host,
+  body.currency-standard-page .mb-standard-content-shell,
+  body.currency-standard-page .currency-standard-shell{
+    width:min(calc(100% - 32px),1180px)!important;
+    max-width:1180px!important;
+    margin-inline:auto!important;
+    padding-left:16px!important;
+    padding-right:16px!important;
+  }
+}

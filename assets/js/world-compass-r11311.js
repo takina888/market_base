@@ -2,6 +2,7 @@
   'use strict';
 
   const FLAG_BASE = 'assets/flags/';
+  const FLAG_SVG_DATA = window.MARKET_BASE_FLAG_SVG_DATA || {};
   const countryCapitals = Array.isArray(window.MB_COUNTRY_CAPITALS) ? window.MB_COUNTRY_CAPITALS : [];
   const countryByCode = new Map(countryCapitals.map(country => [country.code, country]));
   const locations = [
@@ -62,7 +63,8 @@
   const dom = {
     targetName:$('targetName'), targetDescription:$('targetDescription'), targetIcon:$('targetIcon'),
     bearingValue:$('bearingValue'), directionValue:$('directionValue'), bearingReadout:$('bearingReadout'), distanceReadout:$('distanceReadout'),
-    compassDial:$('compassDial'), targetNeedle:$('targetNeedle'), sensorStatus:$('sensorStatus'),
+    compassDial:$('compassDial'), targetNeedle:$('targetNeedle'), sensorStatus:$('sensorStatus'), locationStatus:$('locationStatus'),
+    orientationButton:$('orientationButton'), orientationButtonLabel:$('orientationButtonLabel'), locationButton:$('locationButton'), locationButtonLabel:$('locationButtonLabel'),
     travelModeLabel:$('travelModeLabel'), travelTime:$('travelTime'), locationList:$('locationList'),
     recentList:$('recentList'), favoriteButton:$('favoriteButton'), favoriteQuickButton:$('favoriteQuickButton'), favoriteQuickLabel:$('favoriteQuickLabel'),
     searchResults:$('searchResults'), locationSearch:$('locationSearch'), locationCount:$('locationCount'),
@@ -80,7 +82,18 @@
   }
   function writeStore(key, value){ try { localStorage.setItem(key, JSON.stringify(value)); } catch {} }
   function allLocations(){ return [...locations, ...state.customLocations]; }
-  function flagEmoji(code=''){ return String(code).toUpperCase().replace(/[A-Z]/g, char => String.fromCodePoint(127397 + char.charCodeAt(0))); }
+  function flagSvgMarkup(code='', countryName='', className='wc-inline-flag'){
+    const key=String(code).toUpperCase();
+    const svg=FLAG_SVG_DATA[key];
+    const label=countryName ? `${countryName}の国旗` : '国旗';
+    if(svg) return `<span class="${className}" role="img" aria-label="${escapeHtml(label)}" data-flag-code="${escapeHtml(key)}">${svg}</span>`;
+    return `<span class="${className} is-missing" role="img" aria-label="${escapeHtml(label)}">${escapeHtml(key)}</span>`;
+  }
+  function setStatus(element,kind,title,detail){
+    if(!element)return;
+    element.className=`wc-status ${kind?`is-${kind}`:''}`.trim();
+    element.innerHTML=`<strong>${escapeHtml(title)}</strong><span>${escapeHtml(detail)}</span>`;
+  }
   function toRad(deg){ return deg * Math.PI / 180; }
   function toDeg(rad){ return rad * 180 / Math.PI; }
 
@@ -131,7 +144,7 @@
   function iconMarkup(location, size='normal'){
     if(location.special === 'north') return '<span class="wc-north-icon" aria-hidden="true"><i></i><em>N</em></span>';
     if(location.special === 'kaaba') return '<span class="wc-kaaba" aria-hidden="true"><i></i></span>';
-    if(location.flagEmoji) return `<span class="wc-country-result__flag" aria-label="${escapeHtml(location.country)}の国旗">${location.flagEmoji}</span>`;
+    if(location.flagCode) return flagSvgMarkup(location.flagCode,location.country,'wc-location-inline-flag');
     if(location.flag) return `<img src="${FLAG_BASE}${location.flag}.svg" alt="${escapeHtml(location.country)}の国旗">`;
     return `<span class="wc-custom-pin" aria-hidden="true">●</span>`;
   }
@@ -172,7 +185,7 @@
       nameEn:`${country.capitalEn}, ${country.countryEn}`.toUpperCase(),
       country:country.countryJa,
       countryCode:country.code,
-      flagEmoji:flagEmoji(country.code),
+      flagCode:country.code,
       lat:country.lat,
       lon:country.lon,
       description:`${country.countryJa}の${country.targetType}・${country.capitalJa}`,
@@ -189,7 +202,7 @@
     if(query) list = list.filter(country => `${country.countryJa} ${country.countryEn} ${country.capitalJa} ${country.capitalEn}`.toLowerCase().includes(query));
     dom.countryFlagGrid.innerHTML = list.length ? list.map(country => `
       <button class="wc-country-flag-button${country.code===state.selectedCountryCode?' is-selected':''}" type="button" data-country-code="${country.code}" aria-label="${escapeHtml(country.countryJa)}の${escapeHtml(country.targetType)}${escapeHtml(country.capitalJa)}を目的地にする">
-        <span class="wc-country-flag-button__emoji" aria-hidden="true">${flagEmoji(country.code)}</span>
+        ${flagSvgMarkup(country.code,country.countryJa,'wc-country-flag-button__flag')}
         <b>${escapeHtml(country.countryJa)}</b>
         <small>${escapeHtml(country.capitalJa)}</small>
       </button>`).join('') : '<p class="wc-empty-text">該当する国・地域が見つかりません。</p>';
@@ -206,7 +219,8 @@
     const bearingText = `${directionName(state.bearing)} ${Math.round(state.bearing)}°`;
     const distanceText = formatDistance(state.distance);
     dom.countryResult.hidden = false;
-    dom.countryResultFlag.textContent = flagEmoji(country.code);
+    dom.countryResultFlag.innerHTML = flagSvgMarkup(country.code,country.countryJa,'wc-country-result__flag-inner');
+    dom.countryResultFlag.setAttribute('aria-label',`${country.countryJa}の国旗`);
     dom.countryResultType.textContent = country.targetType;
     dom.countryResultName.textContent = `${country.countryJa}・${country.capitalJa}`;
     dom.countryResultBearing.textContent = bearingText;
@@ -228,7 +242,8 @@
   function openCountryDetail(){
     const country = selectedCountry();
     if(!country) return;
-    dom.countryDialogFlag.textContent = flagEmoji(country.code);
+    dom.countryDialogFlag.innerHTML = flagSvgMarkup(country.code,country.countryJa,'wc-country-dialog__flag-inner');
+    dom.countryDialogFlag.setAttribute('aria-label',`${country.countryJa}の国旗`);
     dom.countryDialogName.textContent = country.countryJa;
     dom.countryDialogCapital.textContent = `${country.targetType}：${country.capitalJa}`;
     dom.countryDialogBearing.textContent = `${directionName(state.bearing)} ${Math.round(state.bearing)}°`;
@@ -422,7 +437,7 @@
     state.heading = heading;
     dom.headingPreview.value = String(Math.round(heading));
     dom.headingPreviewValue.textContent = `${Math.round(heading)}°`;
-    dom.sensorStatus.textContent = `現在地：${state.current.label}。端末方位 ${Math.round(heading)}° を取得中です。`;
+    setStatus(dom.sensorStatus,'success','方位磁針：動作中',`端末方位 ${Math.round(heading)}° を取得中です。`);
     updateCompass();
   }
 
@@ -435,22 +450,46 @@
       }
       window.addEventListener('deviceorientationabsolute', handleOrientation, true);
       window.addEventListener('deviceorientation', handleOrientation, true);
-      dom.sensorStatus.textContent = '方位センサーを開始しました。端末を8の字に動かすと精度が安定します。';
+      dom.orientationButton.classList.add('is-success');
+      dom.orientationButtonLabel.textContent='方位磁針を使用中';
+      setStatus(dom.sensorStatus,'success','方位磁針：開始済み','端末を8の字に動かすと精度が安定します。');
     }catch{
-      dom.sensorStatus.textContent = '方位センサーを開始できませんでした。iPhoneではHTTPS上でボタンを押して許可してください。PCでは下のデモ操作を使えます。';
+      dom.orientationButton.classList.remove('is-success');
+      dom.orientationButtonLabel.textContent='方位磁針を再試行';
+      setStatus(dom.sensorStatus,'error','方位磁針：開始できません','iPhoneではHTTPS上で許可してください。PCでは固定方位表示を利用できます。');
     }
   }
 
   function getCurrentLocation(){
-    if(!navigator.geolocation){ dom.sensorStatus.textContent='この端末では位置情報を利用できません。'; return; }
-    dom.sensorStatus.textContent = '現在地を取得しています…';
+    if(!navigator.geolocation){
+      dom.locationButtonLabel.textContent='現在地を利用できません';
+      setStatus(dom.locationStatus,'error','現在地：取得不可','この端末またはブラウザでは位置情報を利用できません。台北のデモ地点を使用中です。');
+      return;
+    }
+    dom.locationButton.disabled=true;
+    dom.locationButton.setAttribute('aria-busy','true');
+    dom.locationButton.classList.remove('is-success','is-error');
+    dom.locationButtonLabel.textContent='取得中…';
+    setStatus(dom.locationStatus,'loading','現在地：取得中','端末の位置情報を確認しています。許可画面が出た場合は「許可」を選んでください。');
     navigator.geolocation.getCurrentPosition(position => {
-      state.current = {lat:position.coords.latitude, lon:position.coords.longitude, label:'端末の現在地'};
-      dom.sensorStatus.textContent = `現在地を取得しました（精度 約${Math.round(position.coords.accuracy)}m）。位置情報は端末内の計算にのみ使用します。`;
+      const latitude=position.coords.latitude;
+      const longitude=position.coords.longitude;
+      const accuracy=Math.round(position.coords.accuracy);
+      state.current = {lat:latitude, lon:longitude, label:'端末の現在地'};
+      dom.locationButton.disabled=false;
+      dom.locationButton.removeAttribute('aria-busy');
+      dom.locationButton.classList.add('is-success');
+      dom.locationButtonLabel.textContent='現在地を再取得';
+      setStatus(dom.locationStatus,'success','現在地：取得完了',`端末の現在地へ更新しました（精度 約${accuracy}m）。緯度 ${latitude.toFixed(4)}、経度 ${longitude.toFixed(4)}。`);
       updateCompass();
-    }, () => {
-      dom.sensorStatus.textContent = '現在地を取得できませんでした。HTTPS環境で位置情報を許可してください。デモ地点の台北を使用します。';
-    }, {enableHighAccuracy:true, timeout:12000, maximumAge:30000});
+    }, error => {
+      dom.locationButton.disabled=false;
+      dom.locationButton.removeAttribute('aria-busy');
+      dom.locationButton.classList.add('is-error');
+      dom.locationButtonLabel.textContent='現在地を再試行';
+      const reason=error&&error.code===1?'位置情報の許可が拒否されています。ブラウザ設定で許可してください。':error&&error.code===3?'位置情報の取得が時間切れになりました。通信状態を確認して再試行してください。':'現在地を取得できませんでした。HTTPS環境と位置情報設定を確認してください。';
+      setStatus(dom.locationStatus,'error','現在地：更新されていません',`${reason} 現在は台北のデモ地点を使用しています。`);
+    }, {enableHighAccuracy:true, timeout:15000, maximumAge:30000});
   }
 
   document.addEventListener('click', event => {

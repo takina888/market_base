@@ -119,7 +119,12 @@ function mountHost(){
     return host;
   }
   const home=document.getElementById('home')||document.querySelector('main');
-  if(home){home.append(host);return host;}
+  if(home){
+    const reading=document.getElementById('homeReadingSection');
+    if(reading&&reading.parentNode===home)home.insertBefore(host,reading);
+    else home.append(host);
+    return host;
+  }
   return null;
 }
 const dailyRetailState={dateOffset:0};

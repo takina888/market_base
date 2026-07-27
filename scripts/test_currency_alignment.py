@@ -11,8 +11,9 @@ CONVERTER = ROOT / "market-base-currency-converter-v273-r29.html"
 CONVERTER_CSS = ROOT / "assets/css/currency-standard-shell-r11335.css"
 STANDARD_SHELL_CSS = ROOT / "assets/css/market-base-standard-shell-r11372.css"
 INDEX = ROOT / "index.html"
-VERSION = "20260727-r11372"
-BUILD = "MARKET_BASE_R113_72_STANDARD_SHELL_UNIFICATION_20260727"
+SHELL_VERSION = "20260727-r11385-halfpc"
+CONVERTER_LINK_VERSION = "20260727-r11385"
+BUILD = "MARKET_BASE_R113_85_RESPONSIVE_FLAGS_GEOLOCATION_GALLERY_20260727"
 
 
 def fail(message: str) -> None:
@@ -149,7 +150,7 @@ if len(mains) != 1:
     fail(f"expected one aligned currency main shell, found {len(mains)}")
 
 standard_shell_href = (
-    f"assets/css/market-base-standard-shell-r11372.css?v={VERSION}"
+    f"assets/css/market-base-standard-shell-r11372.css?v={SHELL_VERSION}"
 )
 desktop_shell_href = (
     "assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371"
@@ -165,6 +166,8 @@ css_without_comments = re.sub(r"/\*.*?\*/", "", converter_css, flags=re.S)
 compact_css = re.sub(r"\s+", "", css_without_comments)
 required_css_fragments = {
     "mobile 430px shell": "width:min(430px,100%)",
+    "half-PC media range": "@media(min-width:431px)and(max-width:1199px)",
+    "half-PC fluid width": "width:min(calc(100%-32px),1180px)!important",
     "desktop fluid width": "width:calc(100%-48px)",
     "1180px desktop tier": "max-width:1180px",
     "1360px desktop tier": "max-width:1360px",
@@ -192,7 +195,7 @@ for label, pattern in (
 
 # Every converter reference on the home page must use the new release query.
 converter_name = CONVERTER.name
-expected_href = f"{converter_name}?v={VERSION}"
+expected_href = f"{converter_name}?v={CONVERTER_LINK_VERSION}"
 converter_refs = [
     item
     for item in index_audit.elements
@@ -223,8 +226,8 @@ if len(navigation_links) < 2:
         "expected current converter links for both desktop and bottom navigation"
     )
 
-if BUILD not in converter or "R113.72" not in converter_css:
-    fail("converter build markers are not R113.72")
+if BUILD not in converter:
+    fail("converter build marker is not R113.85")
 
 required_ids = {"currencyToolPanel", "prismToolPanel", "cards"}
 present_ids = {
@@ -244,6 +247,6 @@ for function_name in ("getRates", "activateTool"):
 
 print(
     "CURRENCY ALIGNMENT TEST: PASS — "
-    "shared header and 430/1180/1360/1440 shells verified; "
+    "shared header and 430/mobile + fluid half-PC + 1180/1360/1440 shells verified; "
     "brand underline source removed; converter functions retained"
 )

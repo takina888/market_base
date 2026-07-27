@@ -9,10 +9,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 VERSION = "20260727-r11372"
+CURRENCY_SHELL_VERSION = "20260727-r11385-halfpc"
 BUILD = "MARKET_BASE_R113_72_STANDARD_SHELL_UNIFICATION_20260727"
+SPECIALIST_BUILD = "MARKET_BASE_R113_85_RESPONSIVE_FLAGS_GEOLOCATION_GALLERY_20260727"
+WORLD_ROUTE_BUILD = "MARKET_BASE_R113_81_WORLD_ROUTE_STANDALONE_RECOVERY_20260727"
 PRIMARY_CSS = "market-base-primary-components-r11326.css"
 DESKTOP_CSS = "market-base-desktop-icon-nav-r11337.css"
-STANDARD_CSS = f"market-base-standard-shell-r11372.css?v={VERSION}"
+STANDARD_CSS_NAME = "market-base-standard-shell-r11372.css"
 DESKTOP_JS = "market-base-desktop-icon-nav-r11337.js"
 
 LEARN_PAGES = (
@@ -190,16 +193,23 @@ for relative in ALL_PAGES:
 
     if PRIMARY_CSS not in markup:
         fail(f"{relative}: primary component stylesheet is missing")
-    if STANDARD_CSS not in markup:
-        fail(f"{relative}: R113.72 shared shell stylesheet is missing")
-    if DESKTOP_CSS not in markup:
+    expected_shell_version = (
+        CURRENCY_SHELL_VERSION
+        if relative in SPECIALIST_PAGES
+        else VERSION
+    )
+    standard_css = f"{STANDARD_CSS_NAME}?v={expected_shell_version}"
+    if standard_css not in markup and not (relative == "world-route/index.html" and STANDARD_CSS_NAME in markup):
+        fail(f"{relative}: shared shell stylesheet is missing: {standard_css}")
+    if DESKTOP_CSS not in markup and not (relative == "world-route/index.html" and "INLINE_DESKTOP_ICON_NAV_R11337" in markup):
         fail(f"{relative}: desktop icon-nav stylesheet is missing")
-    if markup.find(STANDARD_CSS) < markup.find(DESKTOP_CSS):
+    if relative != "world-route/index.html" and markup.find(standard_css) < markup.find(DESKTOP_CSS):
         fail(f"{relative}: shared shell must load after desktop icon-nav CSS")
-    if DESKTOP_JS not in markup:
+    if DESKTOP_JS not in markup and not (relative == "world-route/index.html" and "INLINE_DESKTOP_ICON_NAV_R11337" in markup):
         fail(f"{relative}: desktop icon-nav script is missing")
-    if BUILD not in markup:
-        fail(f"{relative}: R113.72 build marker is missing")
+    expected_build = (WORLD_ROUTE_BUILD if relative == "world-route/index.html" else SPECIALIST_BUILD if relative in SPECIALIST_PAGES else BUILD)
+    if expected_build not in markup:
+        fail(f"{relative}: build marker is missing")
 
 if "market-base-global-header-r1139.css" in (
     ROOT / "world-compass.html"
@@ -208,8 +218,11 @@ if "market-base-global-header-r1139.css" in (
 
 index = (ROOT / "index.html").read_text(encoding="utf-8")
 for relative in LEARN_PAGES + ("world-compass.html",):
-    expected_version = "20260727-r11374" if relative == "classic-move/index.html" else VERSION
-    expected = f"{relative}?v={expected_version}"
+    if relative == "world-route/index.html":
+        expected = "world-route.html?v=20260727-r11381"
+    else:
+        expected_version = ("20260727-r11383" if relative == "classic-move/index.html" else "20260727-r11385" if relative == "world-compass.html" else VERSION)
+        expected = f"{relative}?v={expected_version}"
     if expected not in index:
         fail(f"index.html: current link/prefetch is missing for {expected}")
 

@@ -298,3 +298,33 @@
   .mbn-news--home-compact .mbn-pause{padding:0 6px!important;font-size:10px!important}
   .mbn-news--home-compact .mbn-tab{font-size:10.5px!important;padding:0 2px!important}
 }
+
+
+/* R113.86 — mobile home news readability: slightly larger article/source text without expanding the whole panel excessively. */
+@media(max-width:600px){
+  .mbn-news--home-compact .mbn-card{
+    min-height:52px;
+    padding-top:7px;
+    padding-bottom:7px;
+  }
+  .mbn-news--home-compact .mbn-card__source{
+    font-size:11.5px!important;
+    line-height:1.38!important;
+  }
+  .mbn-news--home-compact .mbn-card h3{
+    font-size:13.8px!important;
+    line-height:1.48!important;
+  }
+  .mbn-news--home-compact .mbn-tab{
+    font-size:11.4px!important;
+  }
+  .mbn-news--home-compact .mbn-countdown,
+  .mbn-news--home-compact .mbn-footer{
+    font-size:11px!important;
+  }
+}
+@media(max-width:430px){
+  .mbn-news--home-compact .mbn-card__source{font-size:11.3px!important}
+  .mbn-news--home-compact .mbn-card h3{font-size:13.5px!important}
+  .mbn-news--home-compact .mbn-tab{font-size:11.1px!important}
+}

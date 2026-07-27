@@ -19,14 +19,20 @@ if (ROOT / "work-basics").exists():
 if "work-basics/" in sw:
     fail("Service Worker still caches Work Basics")
 
-world_pos = index.find('id="worldWhyLearning"')
-reading_pos = index.find('id="learningReading"')
+home_reading_pos = index.find('id="homeReadingSection"')
+classic_pos = index.find('id="classic-move-home"')
 history_pos = index.find('id="historyLearningMount"')
+main_tabs_pos = index.find('<nav aria-label="メインナビゲーション" class="tabs">')
+learn_pos = index.find('<section class="view learn-view" id="learn">')
+world_pos = index.find('id="worldWhyLearning"')
 learn_end = index.find('<section class="view" id="sources">')
-if min(world_pos, reading_pos, history_pos, learn_end) < 0:
-    fail("one or more Learn section markers are missing")
-if not world_pos < reading_pos < history_pos < learn_end:
-    fail("expected World Q&A -> Reading -> History at the bottom of Learn")
+if min(home_reading_pos, classic_pos, history_pos, main_tabs_pos, learn_pos, world_pos, learn_end) < 0:
+    fail("one or more home/Learn section markers are missing")
+if not home_reading_pos < classic_pos < history_pos < main_tabs_pos < learn_pos < world_pos < learn_end:
+    fail("expected Home Reading (Classics -> History) before navigation, and World Q&A inside Learn")
+learn_markup = index[learn_pos:learn_end]
+if 'classic-move-home' in learn_markup or 'historyLearningMount' in learn_markup:
+    fail("Classics or History is duplicated inside Learn")
 
 if "ゲーム" in classic or "プレイ設定" in classic or "game-core-redesign" in classic:
     fail("Classic entry still exposes game UI")
@@ -44,4 +50,4 @@ for removed in (
     if removed.exists():
         fail(f"game-only public file remains: {removed.relative_to(ROOT)}")
 
-print("LEARN READING ORDER TEST: PASS — Reading and History are last; Work Basics removed; Classics is reading-only")
+print("LEARN READING ORDER TEST: PASS — Home Reading contains Classics then History; Learn retains World Q&A; Work Basics removed; Classics is reading-only")

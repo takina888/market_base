@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "registry_version": "r11372-retail-photo-recovery-p1-20260727",
+  "registry_version": "r11388-vanuatu-source-link-rank-yellow-20260727",
   "updated_at": "2026-07-27",
   "update_rule": "published写真は権利確認状況を出典欄へ明示したうえで表示する。draftは公開画面へ表示しない。",
   "photos": [
@@ -358,17 +358,17 @@
       "database_ids": [
         "todays_journey"
       ],
-      "image_url": null,
-      "thumbnail_url": null,
-      "source_page_url": null,
-      "source_file_name": null,
+      "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sand%20drawing%2C%20Vanuatu.jpg?width=1200",
+      "thumbnail_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sand%20drawing%2C%20Vanuatu.jpg?width=1200",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Sand_drawing,_Vanuatu.jpg",
+      "source_file_name": "Sand drawing, Vanuatu.jpg",
       "source_provider": "Wikimedia Commons",
-      "photographer": "",
-      "license": "",
-      "license_url": "",
-      "modification_note_ja": "写真選定後に縮小・WebP変換してサイト内保存する。",
-      "caption_ja": "指一本で砂に迷路の絵",
-      "alt_ja": "バヌアツ・指一本で砂に迷路の絵",
+      "photographer": "PhillipC",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "modification_note_ja": "外部画像URLを参照。画像はサイト内へ保存せず、題材一致を優先して差し替え。",
+      "caption_ja": "バヌアツの伝統的な砂絵",
+      "alt_ja": "バヌアツで指一本の連続線によって描かれた幾何学的な砂絵",
       "photo_type": "event",
       "photo_category_ja": "祭り・暮らし",
       "display_locations": [
@@ -378,8 +378,8 @@
       ],
       "is_primary": true,
       "display_order": 1,
-      "status": "draft",
-      "storage_mode": "local_pending",
+      "status": "published",
+      "storage_mode": "external_source",
       "asset_sha256": null,
       "article_title_ja": "指一本で砂に迷路の絵",
       "display_date": "07-27",
@@ -388,9 +388,12 @@
       "world_heritage": false,
       "world_heritage_name": null,
       "image_search_query": "砂絵 バヌアツ landscape panorama",
-      "selection_status": "not_started",
+      "selection_status": "selected_manual_locked",
       "added_at": "2026-07-20",
-      "updated_at": "2026-07-20"
+      "updated_at": "2026-07-27",
+      "quality_review_status": "subject_match_manual_20260727",
+      "source_collection_status": "題材一致で採用",
+      "license_review_status": "はい"
     },
     {
       "photo_id": "photo_journey_earth_062_001",
@@ -15862,8 +15865,8 @@
     "reviewed_period": "2026-07-20_to_2026-10-17",
     "reviewed_article_count": 90,
     "linked_article_count": 91,
-    "published_article_photo_count": 2,
-    "draft_article_photo_count": 89,
+    "published_article_photo_count": 3,
+    "draft_article_photo_count": 88,
     "rule": "draftは公開画面へ表示しない。写真選定後、同じphoto_idへ情報を追記しpublishedへ切り替える。"
   }
 }

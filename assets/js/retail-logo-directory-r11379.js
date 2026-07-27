@@ -6,6 +6,11 @@
   var DATA=window.MARKET_BASE_RETAIL_LOGO_DIRECTORY;
   if(!DATA||!Array.isArray(DATA.boards)||!DATA.boards.length)return;
   var RETAIL_PAGE='retail-sales-v273-db-title-r27.html';
+  var GRID={cols:4,rows:4,left:2.7,right:2.7,top:5.05,bottom:4.45,gapX:1.3,gapY:1.25};
+  GRID.cellW=(100-GRID.left-GRID.right-(GRID.cols-1)*GRID.gapX)/GRID.cols;
+  GRID.cellH=(100-GRID.top-GRID.bottom-(GRID.rows-1)*GRID.gapY)/GRID.rows;
+  GRID.imgW=(10000/GRID.cellW).toFixed(4)+'%';
+  GRID.imgH=(10000/GRID.cellH).toFixed(4)+'%';
 
   function el(tag,className,text){
     var node=document.createElement(tag);
@@ -19,28 +24,49 @@
     }
     return RETAIL_PAGE+'?q='+encodeURIComponent(cell.query||cell.label||'');
   }
+  function createTile(cell,index,boardImage){
+    var row=Math.floor(index/GRID.cols);
+    var col=index%GRID.cols;
+    var startX=GRID.left+col*(GRID.cellW+GRID.gapX);
+    var startY=GRID.top+row*(GRID.cellH+GRID.gapY);
+    var leftPct=(startX/GRID.cellW*100).toFixed(4)+'%';
+    var topPct=(startY/GRID.cellH*100).toFixed(4)+'%';
+    var link=el('a','retail-logo-board__tile');
+    link.href=hrefFor(cell);
+    link.setAttribute('aria-label',cell.label+'の詳細情報を開く');
+    link.title=cell.label+'の詳細情報';
+
+    var media=el('span','retail-logo-board__tile-media');
+    var img=el('img','retail-logo-board__slice');
+    img.src=boardImage;
+    img.alt='';
+    img.setAttribute('aria-hidden','true');
+    img.loading='lazy';
+    img.decoding='async';
+    img.style.setProperty('--img-width',GRID.imgW);
+    img.style.setProperty('--img-height',GRID.imgH);
+    img.style.setProperty('--img-left','-'+leftPct);
+    img.style.setProperty('--img-top','-'+topPct);
+    media.appendChild(img);
+
+    var meta=el('span','retail-logo-board__tile-meta');
+    meta.appendChild(el('strong','',cell.label));
+    if(cell.country)meta.appendChild(el('small','',cell.country));
+    link.append(media,meta);
+    return link;
+  }
   function createBoard(board,index){
     var figure=el('figure','retail-logo-board');
     figure.dataset.logoBoard=board.id||String(index+1);
-    var image=el('img');
-    image.src=board.image;
-    image.alt=board.title+'の小売企業ロゴ一覧';
-    image.loading=index<2?'eager':'lazy';
-    image.decoding='async';
-    var links=el('div','retail-logo-board__links');
-    links.setAttribute('aria-label',board.title+'の企業詳細リンク');
-    (board.cells||[]).slice(0,16).forEach(function(cell){
-      var link=el('a','retail-logo-board__link');
-      link.href=hrefFor(cell);
-      link.setAttribute('aria-label',cell.label+'の詳細情報を開く');
-      link.title=cell.label+'の詳細情報';
-      link.appendChild(el('span','',cell.label));
-      links.appendChild(link);
+    var grid=el('div','retail-logo-board__grid');
+    grid.setAttribute('aria-label',board.title+'の企業詳細リンク');
+    (board.cells||[]).slice(0,16).forEach(function(cell,cellIndex){
+      grid.appendChild(createTile(cell,cellIndex,board.image));
     });
     var caption=el('figcaption');
     caption.appendChild(el('span','',board.title));
     caption.appendChild(el('small','',String(index+1).padStart(2,'0')+' / '+String(DATA.boards.length).padStart(2,'0')));
-    figure.append(image,links,caption);
+    figure.append(grid,caption);
     return figure;
   }
   function mount(){

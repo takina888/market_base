@@ -17,7 +17,10 @@ checks = {
     'last two tabs span three columns': '.mbn-tab:nth-child(n+4){grid-column:span 3!important}' in CSS,
     'pause label remains single line': 'white-space:nowrap!important' in CSS,
     'five category labels exist': all(label in JS for label in ('海外ニュース','食品機械','食品工場','小売店','規制関連')),
-    'new CSS version is wired': 'market-base-news-tabs-v1.css?v=20260727-r11378' in HTML,
+    'new CSS version is wired': 'market-base-news-tabs-v1.css?v=20260727-r11386-mobile-font' in HTML,
+    'R113.86 font patch exists': 'R113.86 — mobile home news readability' in CSS,
+    'mobile article title enlarged': 'font-size:13.8px!important' in CSS,
+    'mobile source enlarged': 'font-size:11.5px!important' in CSS,
 }
 failed = [name for name, ok in checks.items() if not ok]
 if failed:
