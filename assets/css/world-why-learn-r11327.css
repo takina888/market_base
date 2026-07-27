@@ -114,9 +114,9 @@
 .world-why-answer>p{
   margin:0;
   color:#3f536b;
-  font-size:15px;
+  font-size:16.2px;
   font-weight:650;
-  line-height:1.8;
+  line-height:1.82;
 }
 .world-why-answer-meta{
   display:flex;
@@ -168,5 +168,7 @@
   .world-why-item summary{grid-template-columns:minmax(0,1fr) 31px;gap:9px;min-height:56px;padding:13px 11px 13px 14px;font-size:15px;line-height:1.55}
   .world-why-item summary::after{width:30px;height:30px;border-radius:9px;font-size:18px}
   .world-why-answer{padding:14px}
-  .world-why-answer>p{font-size:14px;line-height:1.75}
+  .world-why-answer>p{font-size:15.7px;line-height:1.82}
 }
+
+/* R113.77 — 「今日の世界のなぜ？」本文を読みやすく拡大 */

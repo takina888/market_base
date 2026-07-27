@@ -1,0 +1,145 @@
+/* MARKET BASE R113.72 — canonical outer shell
+   Page-specific content keeps its own component CSS. This file owns only the
+   MARKET BASE header, outer content surface, PC icon band and mobile app nav. */
+:root{
+  --mb-standard-safe:#EEF3F9;
+  --mb-standard-page:#FFFFFF;
+  --mb-standard-mobile:430px;
+  --mb-standard-pc:1180px;
+}
+html{background:var(--mb-standard-safe)}
+body.mb-standard-page,
+body.mb-unified-learning-page{
+  margin:0;
+  max-width:none;
+  overflow-x:hidden;
+  background:var(--mb-standard-safe);
+}
+body.mb-standard-page .mb-primary-header-host,
+body.mb-unified-learning-page .mb-primary-header-host{
+  background:var(--mb-standard-page);
+}
+body.mb-standard-page .mb-standard-content-shell,
+body.mb-unified-learning-page .mb-learning-content-shell{
+  box-sizing:border-box;
+  width:min(var(--mb-standard-mobile),100%);
+  max-width:var(--mb-standard-mobile);
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:14px;
+  padding-right:14px;
+  background:var(--mb-standard-page);
+}
+body.mb-unified-learning-page .guide-shell{
+  width:100%;
+  max-width:none;
+}
+body.mb-unified-learning-page .mbx-bottom-nav,
+body.mb-unified-learning-page .mb-global-bottom-nav,
+body.mb-unified-learning-page .mb-ui-mobile-nav{
+  display:none!important;
+}
+body.mb-unified-learning-page .mb-standard-local-toolbar,
+body.mb-unified-learning-page .mb-standard-local-tabs{
+  box-sizing:border-box;
+  width:min(var(--mb-standard-mobile),100%);
+  max-width:var(--mb-standard-mobile);
+  margin-left:auto;
+  margin-right:auto;
+}
+body.mb-unified-learning-page .bottom-menu.mb-learning-local-menu{
+  position:static!important;
+  inset:auto!important;
+  transform:none!important;
+  width:100%!important;
+  max-width:none!important;
+  margin:0 auto 20px;
+  border-bottom:1px solid #CEDAE5;
+  border-radius:14px;
+}
+body.mb-unified-learning-page main.guide-page{
+  padding-bottom:0!important;
+}
+@media(max-width:899px){
+  body.mb-standard-page,
+  body.mb-unified-learning-page{
+    padding-bottom:calc(92px + env(safe-area-inset-bottom))!important;
+  }
+  body.mb-standard-page .mb-standard-content-shell,
+  body.mb-unified-learning-page .mb-learning-content-shell{
+    min-height:auto;
+  }
+}
+@media(max-width:370px){
+  body.mb-standard-page .mb-standard-content-shell,
+  body.mb-unified-learning-page .mb-learning-content-shell{
+    padding-left:15px;
+    padding-right:15px;
+  }
+}
+@media(min-width:900px){
+  body.mb-standard-page,
+  body.mb-unified-learning-page{
+    padding-bottom:32px;
+  }
+  body.mb-standard-page .mb-primary-header-host,
+  body.mb-standard-page .mb-standard-content-shell,
+  body.mb-unified-learning-page .mb-primary-header-host,
+  body.mb-unified-learning-page .mb-learning-content-shell,
+  body.mb-unified-learning-page .mb-standard-local-toolbar,
+  body.mb-unified-learning-page .mb-standard-local-tabs,
+  body.mb-standard-page .mb-global-icon-band,
+  body.mb-unified-learning-page .mb-global-icon-band{
+    width:calc(100% - 48px);
+    max-width:var(--mb-standard-pc);
+    margin-left:auto;
+    margin-right:auto;
+  }
+  body.mb-standard-page .mb-primary-header-host,
+  body.mb-unified-learning-page .mb-primary-header-host{
+    padding:0 24px;
+  }
+  body.mb-standard-page .mb-standard-content-shell,
+  body.mb-unified-learning-page .mb-learning-content-shell{
+    padding-left:24px;
+    padding-right:24px;
+  }
+}
+@media(min-width:1100px){
+  body.mb-standard-page .mb-primary-header-host,
+  body.mb-standard-page .mb-standard-content-shell,
+  body.mb-unified-learning-page .mb-primary-header-host,
+  body.mb-unified-learning-page .mb-learning-content-shell,
+  body.mb-unified-learning-page .mb-standard-local-toolbar,
+  body.mb-unified-learning-page .mb-standard-local-tabs,
+  body.mb-standard-page .mb-global-icon-band,
+  body.mb-unified-learning-page .mb-global-icon-band{
+    max-width:1360px;
+  }
+}
+@media(min-width:1500px){
+  body.mb-standard-page .mb-primary-header-host,
+  body.mb-standard-page .mb-standard-content-shell,
+  body.mb-unified-learning-page .mb-primary-header-host,
+  body.mb-unified-learning-page .mb-learning-content-shell,
+  body.mb-unified-learning-page .mb-standard-local-toolbar,
+  body.mb-unified-learning-page .mb-standard-local-tabs,
+  body.mb-standard-page .mb-global-icon-band,
+  body.mb-unified-learning-page .mb-global-icon-band{
+    max-width:1440px;
+  }
+}
+@media print{
+  body.mb-standard-page,
+  body.mb-unified-learning-page{background:#FFF;padding:0!important}
+  body.mb-standard-page .mb-primary-header-host,
+  body.mb-unified-learning-page .mb-primary-header-host,
+  body.mb-standard-page .mb-primary-bottom-nav,
+  body.mb-unified-learning-page .mb-primary-bottom-nav{display:none!important}
+  body.mb-standard-page .mb-standard-content-shell,
+  body.mb-unified-learning-page .mb-learning-content-shell{
+    width:100%;
+    max-width:none;
+    padding:0;
+  }
+}

@@ -222,7 +222,7 @@
     current.setAttribute('aria-live','polite');
     current.appendChild(el('small','',relativeDateLabel(selectedKey)));
     current.appendChild(el('strong','',fullDateLabel(selectedKey)));
-    current.appendChild(el('span','', '左右で日付を切替'));
+    current.appendChild(el('span','', '左右で切替'));
     var next=el('button','history-date-step is-next');
     next.type='button';
     next.setAttribute('aria-label',fullDateLabel(nextKey)+'へ移動');
@@ -243,7 +243,7 @@
     status.setAttribute('aria-live','polite');
     status.appendChild(el('small','', '同じ日の5記事'));
     status.appendChild(el('strong','',(index+1)+' / '+count));
-    status.appendChild(el('span','', '上下で記事を切替'));
+    status.appendChild(el('span','', '上下で切替'));
     var down=el('button','history-article-step is-down');
     down.type='button';down.disabled=index>=count-1;
     down.setAttribute('aria-label','同じ日の次の記事へ');
@@ -324,7 +324,6 @@
       headCopy.appendChild(el('p','', '左右で日付を切り替え、上下で同じ日の5記事を1本ずつ全文で読めます。'));
       head.appendChild(headCopy);section.appendChild(head);
       section.appendChild(dateAxis(selectedKey,selectDate,false));
-      section.appendChild(el('p','history-day-theme',day.theme));
       section.appendChild(articleAxis(selectedIndex,day.articleIds.length,selectArticle,false));
       section.appendChild(mainArticleNode(article,'h5',false));
       section.appendChild(articleAxis(selectedIndex,day.articleIds.length,selectArticle,true));
@@ -395,7 +394,7 @@
       selectedIndex=Math.max(0,Math.min(day.articleIds.length-1,selectedIndex));
       var article=DATA.articles[day.articleIds[selectedIndex]];
       dayTitle.textContent=fullDateLabel(selectedKey)+'の5記事';
-      dayTheme.textContent=day.theme+'　｜　表示中 '+(selectedIndex+1)+' / '+day.articleIds.length;
+      if(dayTheme)dayTheme.textContent='';
       dayArticles.replaceChildren();
       dayArticles.appendChild(dateAxis(selectedKey,selectDate,false));
       dayArticles.appendChild(articleAxis(selectedIndex,day.articleIds.length,selectArticle,false));

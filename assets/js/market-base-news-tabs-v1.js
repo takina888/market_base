@@ -3,6 +3,7 @@
 
   const ROOT_SELECTOR='[data-mbn-news]';
   const DEFAULT_SWITCH_MS=60000;
+  const ARTICLES_PER_CATEGORY=7;
   const PAUSE_KEY='market_base_news_tabs_paused_v1';
   const ORDER=['overseas','food_machinery','food_factory','retail','regulations'];
   const LABELS={
@@ -117,7 +118,7 @@
       if(selectedButton)panel.setAttribute('aria-labelledby',selectedButton.id);
 
       const category=data.categories[active]||{};
-      const articles=Array.isArray(category.articles)?category.articles.slice(0,3):[];
+      const articles=Array.isArray(category.articles)?category.articles.slice(0,ARTICLES_PER_CATEGORY):[];
       panel.setAttribute('aria-label',LABELS[active]+'の記事');
       if(!articles.length){
         panel.innerHTML='<div class="mbn-empty"><div><strong>'+escapeHtml(LABELS[active])+'は取得準備中です</strong><span>前回データがある場合は、更新処理で自動的に復元されます。</span></div></div>';

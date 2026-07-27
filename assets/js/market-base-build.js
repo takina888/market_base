@@ -1,10 +1,10 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_R113_67_BOTTOM_NAV_PRESS_FEEDBACK_20260726',
-    label: 'MARKET BASE R113.67 BOTTOM NAV PRESS FEEDBACK',
-    release: 'R113.67',
-    date: '2026-07-26',
-    assetVersion: '20260726-r11367'
+    id: 'MARKET_BASE_R113_79_RETAIL_LOGO_DIRECTORY_20260727',
+    label: 'MARKET BASE R113.79 RETAIL LOGO DIRECTORY',
+    release: 'R113.79',
+    date: '2026-07-27',
+    assetVersion: '20260727-r11379'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseBuild = build.id;

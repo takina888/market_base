@@ -2625,9 +2625,10 @@ function todaysJourneyLink(entry){
   });
   return entity ? {entity_id:entity.entity_id,type:'exact'} : null;
 }
-const JOURNEY_IMAGE_CACHE_VERSION='r11323-v1';
+const JOURNEY_IMAGE_CACHE_VERSION='r11370-v1';
 const journeyImageMemory=new Map();
 const journeyImageFailures=new Map();
+const journeyImageInFlight=new Map();
 function cleanJourneyMetaText(value){
   const box=document.createElement('div'); box.innerHTML=String(value||'');
   return (box.textContent||'').replace(/\s+/g,' ').trim();
@@ -2671,10 +2672,10 @@ function escapeJourneySvgText(value){
 function journeyFallbackImage(entry){
   const country=escapeJourneySvgText(entry?.country||'世界');
   const title=escapeJourneySvgText(entry?.title||'Today’s Journey');
-  const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dceafa"/><stop offset=".55" stop-color="#f8fbff"/><stop offset="1" stop-color="#e6f1fb"/></linearGradient></defs><rect width="1200" height="720" fill="url(#g)"/><circle cx="955" cy="145" r="78" fill="#fff" opacity=".72"/><path d="M0 575 245 350l160 145 145-190 220 245 145-130 285 235v65H0Z" fill="#b7cee4"/><path d="M0 635 270 465l170 115 185-125 210 140 160-90 205 130v85H0Z" fill="#8fb1d2" opacity=".9"/><text x="72" y="105" fill="#1d5fa9" font-family="sans-serif" font-size="30" font-weight="700">TODAY'S JOURNEY</text><text x="72" y="170" fill="#0a2d68" font-family="sans-serif" font-size="48" font-weight="800">${country}</text><text x="72" y="228" fill="#38536f" font-family="sans-serif" font-size="30" font-weight="700">${title}</text><text x="72" y="675" fill="#5f7690" font-family="sans-serif" font-size="23">写真を再取得しています</text></svg>`;
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dceafa"/><stop offset=".55" stop-color="#f8fbff"/><stop offset="1" stop-color="#e6f1fb"/></linearGradient></defs><rect width="1200" height="720" fill="url(#g)"/><circle cx="955" cy="145" r="78" fill="#fff" opacity=".72"/><path d="M0 575 245 350l160 145 145-190 220 245 145-130 285 235v65H0Z" fill="#b7cee4"/><path d="M0 635 270 465l170 115 185-125 210 140 160-90 205 130v85H0Z" fill="#8fb1d2" opacity=".9"/><text x="72" y="105" fill="#1d5fa9" font-family="sans-serif" font-size="30" font-weight="700">TODAY'S JOURNEY</text><text x="72" y="170" fill="#0a2d68" font-family="sans-serif" font-size="48" font-weight="800">${country}</text><text x="72" y="228" fill="#38536f" font-family="sans-serif" font-size="30" font-weight="700">${title}</text><text x="72" y="675" fill="#5f7690" font-family="sans-serif" font-size="23">写真を読み込めませんでした</text></svg>`;
   return {image_url:`data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`,source_page:'',photographer:'',license:'',license_url:'',alt:`${entry?.country||''} ${entry?.title||''}`.trim(),caption:entry?.title||'',quality_status:'local_display_fallback',is_fallback:true};
 }
-function probeJourneyImage(url,timeoutMs=8500){
+function probeJourneyImage(url,timeoutMs=9000){
   if(!isJourneyImageUrl(url)) return Promise.resolve(false);
   return new Promise(resolve=>{
     const img=new Image();
@@ -2682,7 +2683,7 @@ function probeJourneyImage(url,timeoutMs=8500){
     const finish=value=>{ if(done) return; done=true; clearTimeout(timer); img.onload=null; img.onerror=null; resolve(value); };
     const timer=setTimeout(()=>finish(false),timeoutMs);
     img.referrerPolicy='no-referrer';
-    img.onload=()=>finish((img.naturalWidth||0)>=320&&(img.naturalHeight||0)>=180);
+    img.onload=()=>finish((img.naturalWidth||0)>=280&&(img.naturalHeight||0)>=160);
     img.onerror=()=>finish(false);
     img.src=url;
   });
@@ -2690,19 +2691,22 @@ function probeJourneyImage(url,timeoutMs=8500){
 function journeyImageScore(page,query){
   const info=page?.imageinfo?.[0]; if(!info) return -Infinity;
   const w=Number(info.width||info.thumbwidth||0),h=Number(info.height||info.thumbheight||0);
-  if(w<800||h<450) return -Infinity;
+  if(w<500||h<300) return -Infinity;
   const ratio=w/h;
-  if(ratio<1.02||ratio>3.25) return -Infinity;
+  if(ratio<0.65||ratio>4.25) return -Infinity;
   const title=String(page.title||'').toLowerCase();
-  const bad=['.svg',' map','map of','flag','coat of arms','logo','diagram','route','sign','stamp','poster','portrait','drawing','plan of','floor plan','locator'];
+  const bad=['.svg',' map','map of','flag','coat of arms','logo','diagram','route map','sign','stamp','poster','portrait','painting','engraving','drawing','illustration','manuscript','book cover','coin','banknote','plan of','floor plan','locator'];
   if(bad.some(x=>title.includes(x))) return -Infinity;
   let score=Math.log10(Math.max(1,w*h))*15;
   if(ratio>=1.28&&ratio<=2.45) score+=38; else score+=10;
   if(w>=1800) score+=18;
   const md=info.extmetadata||{};
   const desc=cleanJourneyMetaText(md.ImageDescription?.value||md.ObjectName?.value||'').toLowerCase();
-  const terms=String(query||'').toLowerCase().split(/\s+/).filter(x=>x.length>2);
-  score+=terms.reduce((n,t)=>n+(title.includes(t)||desc.includes(t)?5:0),0);
+  const ignored=new Set(['and','for','from','landscape','night','panorama','photo','scenery','the','travel','unesco','view','with']);
+  const terms=String(query||'').toLowerCase().replace(/[^a-z0-9à-ž]+/gi,' ').split(/\s+/).filter(x=>x.length>2&&!ignored.has(x));
+  const matched=terms.filter(t=>title.includes(t)||desc.includes(t));
+  if(terms.length>=2&&!matched.length) return -Infinity;
+  score+=matched.length*8;
   if(/panorama|sunset|sunrise|reflection|landscape|aerial|mist|mountain|lake|castle|coast|waterfall|village|street|desert|forest|temple|river/.test(title+' '+desc)) score+=14;
   return score;
 }
@@ -2727,28 +2731,20 @@ async function fetchJourneyJson(url,timeoutMs=6500){
   }finally{ if(timer) clearTimeout(timer); }
 }
 async function commonsJourneyCandidates(query){
-  const endpoint='https://commons.wikimedia.org/w/api.php';
-  const params=new URLSearchParams({origin:'*',action:'query',format:'json',generator:'search',gsrnamespace:'6',gsrlimit:'24',gsrsearch:`${query} filetype:bitmap`,prop:'imageinfo',iiprop:'url|size|extmetadata',iiurlwidth:'1800'});
+  const endpoint='https://en.wikipedia.org/w/api.php';
+  const params=new URLSearchParams({origin:'*',action:'query',format:'json',generator:'search',gsrnamespace:'6',gsrlimit:'16',gsrsearch:`${query} filetype:bitmap`,prop:'imageinfo',iiprop:'url|size|extmetadata',iiurlwidth:'960'});
   const json=await fetchJourneyJson(`${endpoint}?${params}`);
   return Object.values(json?.query?.pages||{});
-}
-async function wikipediaJourneyCandidates(query){
-  const endpoint='https://ja.wikipedia.org/w/api.php';
-  const params=new URLSearchParams({origin:'*',action:'query',format:'json',generator:'search',gsrlimit:'10',gsrsearch:query,prop:'pageimages',piprop:'name',pithumbsize:'1800'});
-  const json=await fetchJourneyJson(`${endpoint}?${params}`);
-  const files=Object.values(json?.query?.pages||{}).map(p=>p.pageimage).filter(Boolean).slice(0,8);
-  if(!files.length) return [];
-  const cp=new URLSearchParams({origin:'*',action:'query',format:'json',titles:files.map(x=>`File:${x}`).join('|'),prop:'imageinfo',iiprop:'url|size|extmetadata',iiurlwidth:'1800'});
-  const cj=await fetchJourneyJson(`https://commons.wikimedia.org/w/api.php?${cp}`);
-  return Object.values(cj?.query?.pages||{});
 }
 async function resolveJourneyImageFromPhotoRegistry(entry){
   const registry=window.MARKET_BASE_PHOTO_REGISTRY;
   if(!registry||!entry?.id) return null;
-  try{ await registry.load({reason:'todays-journey'}); }catch(_){ }
   const photo=registry.getByArticleId(entry.id,'today_travel')[0];
-  if(!photo) return null;
-  const url=registry.getImageUrl(photo,{thumbnail:false});
+  if(!photo){
+    registry.load({reason:'todays-journey-background'}).catch(()=>undefined);
+    return null;
+  }
+  const url=registry.getImageUrl(photo,{thumbnail:true});
   if(!isJourneyImageUrl(url)||String(url).startsWith('data:image/svg+xml')) return null;
   return {
     image_url:url,
@@ -2765,37 +2761,79 @@ async function resolveJourneyImageFromPhotoRegistry(entry){
   };
 }
 function journeyImageQueryVariants(entry){
-  const values=[
-    entry?.image_search,
-    [entry?.world_heritage_name,entry?.country,'landscape'].filter(Boolean).join(' '),
-    [entry?.country,entry?.title,'travel landscape'].filter(Boolean).join(' '),
-    [entry?.country,'scenery landscape'].filter(Boolean).join(' ')
-  ];
-  return [...new Set(values.map(v=>String(v||'').trim()).filter(Boolean))];
+  const manifestEntry=window.MARKET_BASE_TODAYS_JOURNEY_IMAGE_MANIFEST?.entries?.[entry?.id];
+  const values=[manifestEntry?.query,entry?.image_search];
+  const result=[];
+  const seen=new Set();
+  const add=value=>{
+    const query=String(value||'').replace(/\s+/g,' ').trim();
+    if(!query||seen.has(query.toLowerCase())) return;
+    seen.add(query.toLowerCase());
+    result.push(query);
+  };
+  for(const value of values){
+    const query=String(value||'').trim();
+    if(!query) continue;
+    const tokens=query.match(/[A-Za-z0-9À-ž'’-]+/g)||[];
+    const stop=new Set(['a','an','and','at','by','for','from','in','into','near','of','on','the','to','with','aerial','landscape','night','panorama','panoramic','photo','photography','scenery','sunrise','sunset','travel','unesco','view','winter']);
+    const meaningful=tokens.filter(token=>!stop.has(token.toLowerCase()));
+    const anchor=meaningful.length>=2?meaningful:tokens;
+    for(const size of [4,3,2,5]){
+      if(anchor.length>=size) add(anchor.slice(0,size).join(' '));
+    }
+    if(anchor.length>=2) add(`"${anchor.slice(0,Math.min(4,anchor.length)).join(' ')}"`);
+    if(tokens.length&&tokens.length<=6) add(tokens.join(' '));
+  }
+  add([entry?.world_heritage_name,entry?.country].filter(Boolean).join(' '));
+  add([entry?.country,entry?.title].filter(Boolean).join(' '));
+  return result;
 }
 async function firstWorkingJourneyImage(entry,candidates,exclude=new Set()){
   const failed=failedJourneyImageUrls(entry);
   const seen=new Set();
+  const usable=[];
   for(const image of candidates){
     const url=String(image?.image_url||'');
     if(!url||seen.has(url)||exclude.has(url)||failed.has(url)) continue;
     seen.add(url);
-    if(await probeJourneyImage(url)) return image;
-    markJourneyImageFailed(entry,url);
+    usable.push(image);
+  }
+  for(let start=0;start<usable.length;start+=2){
+    const batch=usable.slice(start,start+2);
+    const checks=batch.map(async image=>{
+      if(await probeJourneyImage(image.image_url)) return image;
+      markJourneyImageFailed(entry,image.image_url);
+      throw new Error('journey image unavailable');
+    });
+    if(typeof Promise.any==='function'){
+      try{ return await Promise.any(checks); }catch(_){}
+    }else{
+      const settled=await Promise.allSettled(checks);
+      const working=settled.find(item=>item.status==='fulfilled');
+      if(working) return working.value;
+    }
   }
   return null;
 }
+function journeyManifestCandidates(entry){
+  const row=window.MARKET_BASE_TODAYS_JOURNEY_IMAGE_MANIFEST?.entries?.[entry?.id];
+  if(!row||!Array.isArray(row.candidates)) return [];
+  return row.candidates.filter(image=>isJourneyImageUrl(image?.image_url)).map(image=>({
+    ...image,
+    quality_status:image.quality_status||'preselected_online_manifest'
+  }));
+}
 async function searchJourneyImageCandidates(entry,exclude=new Set()){
   const ranked=[];
-  for(const query of journeyImageQueryVariants(entry).slice(0,3)){
+  for(const query of journeyImageQueryVariants(entry).slice(0,2)){
     let pages=[];
-    const results=await Promise.allSettled([commonsJourneyCandidates(query),wikipediaJourneyCandidates(query)]);
+    const results=await Promise.allSettled([commonsJourneyCandidates(query)]);
     for(const result of results){ if(result.status==='fulfilled'&&Array.isArray(result.value)) pages=pages.concat(result.value); }
     for(const page of pages){
       const score=journeyImageScore(page,query);
       if(Number.isFinite(score)) ranked.push({page,score});
     }
-    if(ranked.length>=14) break;
+    if(ranked.length) break;
   }
   ranked.sort((a,b)=>b.score-a.score);
   const images=[];
@@ -2809,18 +2847,22 @@ async function searchJourneyImageCandidates(entry,exclude=new Set()){
   }
   return images;
 }
-async function resolveTodaysJourneyImage(entry,options={}){
+async function resolveTodaysJourneyImageNow(entry,options={}){
   if(!entry?.id) return null;
   const exclude=new Set([...(options.exclude||[]),...failedJourneyImageUrls(entry)]);
   if(options.forceSearch){ journeyImageMemory.delete(entry.id); removeJourneyImageCache(entry); }
-  const direct=[];
+  const preferred=[];
   const registered=await resolveJourneyImageFromPhotoRegistry(entry);
-  if(registered?.image_url) direct.push(registered);
+  if(registered?.image_url) preferred.push(registered);
   const bundle=window.MARKET_BASE_TODAYS_JOURNEY||{};
-  const locked=bundle.images?.[entry.id]; if(locked?.image_url) direct.push(locked);
-  if(!options.forceSearch&&journeyImageMemory.has(entry.id)) direct.push(journeyImageMemory.get(entry.id));
-  if(!options.forceSearch){ const cached=readJourneyImageCache(entry); if(cached?.image_url) direct.push(cached); }
-  let image=await firstWorkingJourneyImage(entry,direct,exclude);
+  const locked=bundle.images?.[entry.id]; if(locked?.image_url) preferred.push(locked);
+  let image=await firstWorkingJourneyImage(entry,preferred,exclude);
+  if(!image){
+    const direct=[...journeyManifestCandidates(entry)];
+    if(!options.forceSearch&&journeyImageMemory.has(entry.id)) direct.push(journeyImageMemory.get(entry.id));
+    if(!options.forceSearch){ const cached=readJourneyImageCache(entry); if(cached?.image_url) direct.push(cached); }
+    image=await firstWorkingJourneyImage(entry,direct,exclude);
+  }
   if(!image){
     const searched=await searchJourneyImageCandidates(entry,exclude);
     image=await firstWorkingJourneyImage(entry,searched,exclude);
@@ -2832,6 +2874,15 @@ async function resolveTodaysJourneyImage(entry,options={}){
   }
   return journeyFallbackImage(entry);
 }
+async function resolveTodaysJourneyImage(entry,options={}){
+  if(!entry?.id) return null;
+  if(!options.forceSearch&&journeyImageInFlight.has(entry.id)) return journeyImageInFlight.get(entry.id);
+  const task=resolveTodaysJourneyImageNow(entry,options);
+  if(options.forceSearch) return task;
+  journeyImageInFlight.set(entry.id,task);
+  try{ return await task; }
+  finally{ if(journeyImageInFlight.get(entry.id)===task) journeyImageInFlight.delete(entry.id); }
+}
 function applyTodaysJourneyImage(entry,image,renderToken){
   if(renderToken!==todaysJourneyRenderToken) return;
   const card=document.getElementById('todaysJourneyCard');
@@ -2839,16 +2890,44 @@ function applyTodaysJourneyImage(entry,image,renderToken){
   const thumb=document.getElementById('todaysJourneyPhotoThumb');
   const imageBtn=document.getElementById('todaysJourneyImageBtn');
   if(!image?.image_url||!photo||!thumb||!imageBtn) return;
+  if(image.is_fallback){
+    card?.classList.remove('has-photo','photo-loading');
+    photo.hidden=true;
+    photo.onclick=null;
+    thumb.onerror=null;
+    thumb.removeAttribute('src');
+    thumb.alt='';
+    imageBtn.hidden=false;
+    imageBtn.disabled=false;
+    imageBtn.textContent='写真を読み込む';
+    imageBtn.onclick=async()=>{
+      imageBtn.disabled=true;
+      imageBtn.textContent='写真を検索中…';
+      card?.classList.add('photo-loading');
+      const retry=await resolveTodaysJourneyImage(entry,{forceSearch:true});
+      if(renderToken!==todaysJourneyRenderToken) return;
+      card?.classList.remove('photo-loading');
+      imageBtn.disabled=false;
+      if(retry?.image_url&&!retry.is_fallback){
+        applyTodaysJourneyImage(entry,retry,renderToken);
+        return;
+      }
+      imageBtn.textContent='もう一度写真を検索';
+    };
+    return;
+  }
   const photoLabel=photo.querySelector('span');
   card?.classList.add('has-photo');
   photo.hidden=false;
   photo.classList.remove('is-photo-pending');
-  imageBtn.hidden=Boolean(image.is_fallback);
-  if(photoLabel) photoLabel.textContent=image.is_fallback?'写真を再取得中':'写真を見る';
+  imageBtn.hidden=false;
+  imageBtn.disabled=false;
+  imageBtn.textContent='写真を見る';
+  if(photoLabel) photoLabel.textContent='写真を見る';
   thumb.alt=image.alt||entry.title||'';
-  const open=()=>{ if(!image.is_fallback) openTodaysJourneyImage(entry,image); };
-  photo.onclick=image.is_fallback?null:open;
-  imageBtn.onclick=image.is_fallback?null:open;
+  const open=()=>openTodaysJourneyImage(entry,image);
+  photo.onclick=open;
+  imageBtn.onclick=open;
   thumb.onerror=async()=>{
     markJourneyImageFailed(entry,image.image_url);
     thumb.onerror=null;
@@ -2857,17 +2936,9 @@ function applyTodaysJourneyImage(entry,image,renderToken){
     if(retry?.image_url&&retry.image_url!==image.image_url){ applyTodaysJourneyImage(entry,retry,renderToken); thumb.src=retry.image_url; return; }
     const fallback=journeyFallbackImage(entry);
     applyTodaysJourneyImage(entry,fallback,renderToken);
-    thumb.src=fallback.image_url;
+    thumb.removeAttribute('src');
   };
   thumb.src=image.image_url;
-  if(image.is_fallback){
-    window.setTimeout(async()=>{
-      if(renderToken!==todaysJourneyRenderToken) return;
-      const retry=await resolveTodaysJourneyImage(entry,{forceSearch:true});
-      if(renderToken!==todaysJourneyRenderToken||!retry?.image_url||retry.is_fallback) return;
-      applyTodaysJourneyImage(entry,retry,renderToken);
-    },4500);
-  }
 }
 function openTodaysJourneyImage(entry,image){
   if(!image?.image_url) return;
@@ -3297,7 +3368,11 @@ document.getElementById('sourceLimit')?.addEventListener('change',renderSources)
 document.getElementById('closeDialog').addEventListener('click',()=>document.getElementById('detailDialog').close());
 initTodaysJourneyHistory();
 initTodaysJourneyImageDialog();
-window.addEventListener('marketbase:photo-registry-updated',()=>{ if(document.getElementById('todaysJourney')) renderTodaysJourney(); });
+window.addEventListener('marketbase:photo-registry-updated',()=>{
+  const root=document.getElementById('todaysJourney');
+  const photo=document.getElementById('todaysJourneyPhoto');
+  if(root&&!root.hidden&&photo?.hidden) renderTodaysJourney();
+});
 document.querySelectorAll('[data-preset]').forEach(btn=>btn.addEventListener('click',()=>applyPreset(btn.dataset.preset)));
 document.querySelectorAll('[data-search-preset]').forEach(btn=>btn.addEventListener('click',()=>{document.getElementById('searchInput').value=btn.dataset.searchPreset; document.getElementById('gapOnlyToggle').checked=false; renderCountries(); switchView('countries');}));
 document.querySelector('[data-clear-search]')?.addEventListener('click',()=>{document.getElementById('searchInput').value=''; document.getElementById('regionFilter').value='all'; setSubregionPreset('all'); updateSubregionOptions();

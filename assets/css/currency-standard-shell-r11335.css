@@ -1,37 +1,56 @@
-/* MARKET BASE R113.35 — currency page rebuilt on the standard specialist shell.
-   The former mb-unified-wide-page exception is intentionally not used. */
+/* MARKET BASE R113.72
+   The converter now uses the same outer shell geometry as the main MARKET BASE
+   screen. Conversion controls keep their own component styles; header, page
+   width and responsive gutters come from one shared frame. */
 body.currency-standard-page{
-  --mb-current-shell-width:var(--mb-shell-specialist-width,min(900px,calc(100vw - 32px)));
   background:#EEF3F9;
   overflow-x:hidden;
 }
-.currency-standard-header>.mb-global-header,
-.currency-standard-desktop-tabs,
+.currency-standard-header,
 .currency-standard-shell{
   box-sizing:border-box;
 }
 .currency-standard-shell{
-  width:calc(100% - 30px);
-  max-width:760px;
+  width:min(430px,100%);
+  max-width:430px;
   min-height:100vh;
   margin:0 auto;
-  padding:0 0 28px;
+  padding:0 14px 28px;
   background:#FFF;
-}
-@media(min-width:900px){
-  .currency-standard-header>.mb-global-header,
-  .currency-standard-desktop-tabs,
-  .currency-standard-shell{
-    width:min(900px,calc(100% - 72px));
-    max-width:none;
-    margin-left:auto;
-    margin-right:auto;
-  }
-  .currency-standard-shell{padding:0 0 52px}
 }
 @media(max-width:899px){
   .currency-standard-shell{min-height:auto}
 }
 @media(max-width:370px){
-  .currency-standard-shell{width:calc(100% - 24px)}
+  .currency-standard-shell{padding-left:15px;padding-right:15px}
+}
+@media(min-width:900px){
+  body.currency-standard-page{padding:0 0 32px}
+  body.currency-standard-page .mb-primary-header-host,
+  .currency-standard-shell{
+    width:calc(100% - 48px);
+    max-width:1180px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  body.currency-standard-page .mb-primary-header-host{
+    padding:0 24px;
+  }
+  .currency-standard-shell{
+    padding:0 24px 52px;
+  }
+  body.currency-standard-page .mb-global-icon-band{
+    width:calc(100% - 48px);
+    max-width:1180px;
+  }
+}
+@media(min-width:1100px){
+  body.currency-standard-page .mb-primary-header-host,
+  .currency-standard-shell,
+  body.currency-standard-page .mb-global-icon-band{max-width:1360px}
+}
+@media(min-width:1500px){
+  body.currency-standard-page .mb-primary-header-host,
+  .currency-standard-shell,
+  body.currency-standard-page .mb-global-icon-band{max-width:1440px}
 }

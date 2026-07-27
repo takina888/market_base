@@ -27,7 +27,7 @@
 
 /* R113.41 home compact layout: search box directly followed by a shallow news band. */
 .mbn-news--home-compact{
-  margin:12px 0 18px;
+  margin:28px 0 24px;
   padding:12px 14px;
   border-radius:18px;
   box-shadow:none;
@@ -142,7 +142,7 @@
   .mbn-news--home-compact .mbn-card__source{font-size:11.5px;-webkit-line-clamp:1}
 }
 @media(max-width:430px){
-  .mbn-news--home-compact{margin-top:10px;padding:11px 10px;border-radius:16px}
+  .mbn-news--home-compact{margin-top:24px;padding:11px 10px;border-radius:16px}
   .mbn-news--home-compact .mbn-news__head h2{font-size:16px}
   .mbn-news--home-compact .mbn-pause{min-height:30px;padding:0 8px;font-size:10.5px}
   .mbn-news--home-compact .mbn-tabs{gap:4px}
@@ -160,3 +160,141 @@
 
 /* R113.44: keep status visible and preserve readable mobile tabs. */
 @media(max-width:600px){.mbn-news--home-compact .mbn-tabs{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.mbn-news--home-compact .mbn-tab{min-height:38px;padding:0 7px;font-size:12.5px}.mbn-news--home-compact .mbn-tab:first-child{grid-column:1/-1}.mbn-news--home-compact .mbn-footer{display:grid;font-size:10.5px}.mbn-news--home-compact .mbn-footer span:last-child{text-align:left}}
+
+
+/* R113.78 — home news header one-line, pause button right aligned, category tabs compressed from 3 rows to 2 rows */
+.mbn-news--home-compact .mbn-news__head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  flex-wrap:nowrap;
+}
+.mbn-news--home-compact .mbn-news__head > div{
+  min-width:0;
+  flex:1 1 auto;
+}
+.mbn-news--home-compact .mbn-pause{
+  margin-left:auto;
+  flex:0 0 auto;
+  white-space:nowrap;
+}
+.mbn-news--home-compact .mbn-tabs{
+  grid-template-columns:repeat(6,minmax(0,1fr));
+  gap:5px;
+}
+.mbn-news--home-compact .mbn-tab:nth-child(1),
+.mbn-news--home-compact .mbn-tab:nth-child(2),
+.mbn-news--home-compact .mbn-tab:nth-child(3){
+  grid-column:span 2;
+}
+.mbn-news--home-compact .mbn-tab:nth-child(4),
+.mbn-news--home-compact .mbn-tab:nth-child(5){
+  grid-column:span 3;
+}
+.mbn-news--home-compact .mbn-tab{
+  min-height:30px;
+  padding:0 3px;
+  border-radius:9px;
+  font-size:10.9px;
+  line-height:1.15;
+}
+
+@media(max-width:600px){
+  .mbn-news--home-compact .mbn-news__head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:8px;
+  }
+  .mbn-news--home-compact .mbn-news__head h2{
+    font-size:16px;
+    line-height:1.15;
+  }
+  .mbn-news--home-compact .mbn-pause{
+    min-height:28px;
+    padding:0 8px;
+    border-radius:9px;
+    font-size:10.4px;
+  }
+  .mbn-news--home-compact .mbn-tabs{
+    grid-template-columns:repeat(6,minmax(0,1fr));
+    gap:4px;
+  }
+  .mbn-news--home-compact .mbn-tab{
+    min-height:28px;
+    padding:0 2px;
+    font-size:10.2px;
+  }
+}
+
+@media(max-width:430px){
+  .mbn-news--home-compact .mbn-news__head{
+    gap:7px;
+    margin-bottom:7px;
+  }
+  .mbn-news--home-compact .mbn-news__head h2{
+    font-size:15.7px;
+  }
+  .mbn-news--home-compact .mbn-pause{
+    min-height:27px;
+    padding:0 7px;
+    font-size:9.8px;
+  }
+  .mbn-news--home-compact .mbn-tab{
+    min-height:27px;
+    font-size:9.8px;
+    border-radius:8px;
+  }
+}
+
+
+/* R113.78 — home news controls: two compact rows on mobile.
+   Row 1: title + auto-switch control. Row 2-3: five tabs in a balanced 3+2 grid. */
+@media(max-width:600px){
+  .mbn-news--home-compact .mbn-news__head{
+    display:flex!important;
+    align-items:center!important;
+    justify-content:space-between!important;
+    flex-wrap:nowrap!important;
+    gap:8px!important;
+    margin-bottom:7px!important;
+  }
+  .mbn-news--home-compact .mbn-news__head>div{min-width:0;flex:1 1 auto}
+  .mbn-news--home-compact .mbn-news__head h2{
+    font-size:15.5px!important;
+    line-height:1.15!important;
+    white-space:nowrap;
+  }
+  .mbn-news--home-compact .mbn-pause{
+    flex:0 0 auto;
+    justify-self:auto!important;
+    min-height:29px!important;
+    padding:0 8px!important;
+    border-radius:9px!important;
+    font-size:10.5px!important;
+    line-height:1!important;
+    white-space:nowrap!important;
+  }
+  .mbn-news--home-compact .mbn-tabs{
+    display:grid!important;
+    grid-template-columns:repeat(6,minmax(0,1fr))!important;
+    gap:4px!important;
+  }
+  .mbn-news--home-compact .mbn-tab{
+    min-height:31px!important;
+    padding:0 4px!important;
+    border-radius:9px!important;
+    font-size:11px!important;
+    line-height:1.1!important;
+  }
+  .mbn-news--home-compact .mbn-tab:nth-child(-n+3){grid-column:span 2!important}
+  .mbn-news--home-compact .mbn-tab:nth-child(n+4){grid-column:span 3!important}
+  .mbn-news--home-compact .mbn-tab:first-child{grid-column:span 2!important}
+}
+@media(max-width:370px){
+  .mbn-news--home-compact .mbn-news__head{gap:6px!important}
+  .mbn-news--home-compact .mbn-news__head h2{font-size:15px!important}
+  .mbn-news--home-compact .mbn-pause{padding:0 6px!important;font-size:10px!important}
+  .mbn-news--home-compact .mbn-tab{font-size:10.5px!important;padding:0 2px!important}
+}

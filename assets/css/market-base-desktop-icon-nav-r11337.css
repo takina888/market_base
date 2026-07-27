@@ -1,4 +1,4 @@
-/* MARKET BASE R113.37 — compact, standard-width PC global icon navigation */
+/* MARKET BASE R113.68 — align the PC global icon navigation with each page shell */
 :root{
   --mb-pc-icon-nav-width:min(900px,calc(100vw - 32px));
   --mb-pc-icon-nav-button-width:82px;
@@ -15,13 +15,23 @@
 nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global-icon-band){display:none!important}
 .mb-global-icon-band{display:none}
 @media (min-width:900px){
+  /* The main MARKET BASE screen uses a wider shell than specialist pages.
+     Match the bar to the actual main shell instead of the former fixed 900px. */
+  body.mb-unified-main-page .mb-global-icon-band{
+    width:calc(100% - 48px);
+    max-width:1180px;
+  }
+  body.mb-unified-specialist-page .mb-global-icon-band{
+    width:min(900px,calc(100vw - 32px));
+    max-width:900px;
+  }
   .mb-global-icon-band{
     box-sizing:border-box;
     width:var(--mb-pc-icon-nav-width);
     margin:0 auto;
     padding:12px 0;
     display:grid;
-    grid-template-columns:repeat(8,var(--mb-pc-icon-nav-button-width));
+    grid-template-columns:repeat(7,var(--mb-pc-icon-nav-button-width));
     justify-content:center;
     gap:var(--mb-pc-icon-nav-gap);
     border-top:1px solid #E3EBF5;
@@ -78,6 +88,12 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
     stroke-linecap:round;
     stroke-linejoin:round;
   }
+}
+@media (min-width:1100px){
+  body.mb-unified-main-page .mb-global-icon-band{max-width:1360px}
+}
+@media (min-width:1500px){
+  body.mb-unified-main-page .mb-global-icon-band{max-width:1440px}
 }
 @media print{.mb-global-icon-band{display:none!important}}
 

@@ -216,3 +216,48 @@ body.history-page-shell *,body.history-page-shell *::before,body.history-page-sh
   .history-date-axis{max-width:820px;margin-left:auto;margin-right:auto}
   .history-article-axis{max-width:720px;margin-left:auto;margin-right:auto}
 }
+
+
+/* R113.75: remove redundant day-theme strip and slim date/article switchers */
+.history-day-theme,
+#historySelectedDayTheme{display:none!important}
+
+.history-date-axis{gap:8px;margin:0 0 12px}
+.history-date-axis.is-bottom{margin:14px 0 0}
+.history-date-step{min-height:60px;padding:6px 10px;border-radius:15px;column-gap:6px}
+.history-date-step span{font-size:22px}
+.history-date-step strong{font-size:13px}
+.history-date-step small{font-size:11px}
+.history-date-current{min-height:60px;padding:6px 10px;border-radius:15px;box-shadow:0 5px 14px rgba(7,95,199,.15)}
+.history-date-current small{font-size:10px}
+.history-date-current strong{font-size:16px;line-height:1.18}
+.history-date-current span{font-size:9.5px}
+.history-article-axis{gap:8px;margin:0 0 10px}
+.history-article-axis.is-bottom{margin:10px 0 0}
+.history-article-step{min-height:50px;padding:6px 10px;border-radius:13px;font-size:13px;gap:6px}
+.history-article-step span{font-size:19px}
+.history-article-position{min-height:50px;padding:5px 8px;border-radius:13px}
+.history-article-position small{font-size:9.5px}
+.history-article-position strong{font-size:17px;line-height:1.16}
+.history-article-position span{font-size:9px}
+
+@media(max-width:760px){
+  .history-date-axis{grid-template-columns:minmax(0,.95fr) minmax(112px,1.05fr) minmax(0,.95fr);gap:5px;margin-bottom:10px}
+  .history-date-axis.is-bottom{margin-top:10px}
+  .history-date-step{min-height:48px;padding:5px 4px;border-radius:12px;column-gap:3px}
+  .history-date-step span{font-size:18px}
+  .history-date-step strong{font-size:11px}
+  .history-date-step small{font-size:9.5px}
+  .history-date-current{min-height:48px;padding:5px 4px;border-radius:12px}
+  .history-date-current small{font-size:9px}
+  .history-date-current strong{font-size:14px}
+  .history-date-current span{font-size:8.5px}
+  .history-article-axis{grid-template-columns:minmax(0,1fr) 98px minmax(0,1fr);gap:5px;margin-bottom:8px}
+  .history-article-axis.is-bottom{margin-top:8px}
+  .history-article-step{min-height:44px;padding:5px 4px;border-radius:11px;gap:3px;font-size:10.8px}
+  .history-article-step span{font-size:16px}
+  .history-article-position{min-height:44px;padding:4px;border-radius:11px}
+  .history-article-position small{font-size:8.5px}
+  .history-article-position strong{font-size:15px}
+  .history-article-position span{font-size:8px}
+}

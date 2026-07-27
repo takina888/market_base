@@ -5,6 +5,11 @@ if(!registry) return;
 
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n;};
 const placeholder=()=>registry.getPlaceholderUrl();
+const ROTATE_INTERVAL=12000;
+const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+const rotators=new Set();
+function clearRotators(){rotators.forEach(rotator=>rotator.stop());rotators.clear();}
+document.addEventListener('visibilitychange',()=>rotators.forEach(rotator=>document.hidden?rotator.stop():rotator.start()));
 const imageUrl=photo=>registry.getImageUrl(photo,{thumbnail:true});
 const sourceUrl=photo=>photo.source_page_url||photo.image_url||'#';
 function creditDetails(photo){
@@ -73,7 +78,8 @@ function renderGroup(group){
   const card=document.getElementById(group.company_id);
   if(!card||!group.photos.length)return false;
   card.dataset.companyId=group.company_id;
-  const first=group.photos[0];
+  const galleryPhotos=group.photos.slice(0,4);
+  const first=galleryPhotos[0];
   const section=el('section','retail-store-gallery');section.dataset.retailGallery=first.gallery_id||group.company_id;section.setAttribute('aria-label',`${first.company_name_ja||card.querySelector('h2')?.textContent||''} 店舗・売場ギャラリー`);
   const heading=el('div','retail-gallery-heading');const left=el('div');left.append(el('span',null,'STORE GALLERY'),el('h3',null,'店舗・売場ギャラリー'));
   const location=el('em',null,[first.store_name_ja,first.city_ja].filter(Boolean).join('｜'));heading.append(left,location);section.append(heading);
@@ -83,28 +89,32 @@ function renderGroup(group){
   const expand=el('button','retail-gallery-expand','写真をすべて見る');expand.type='button';section.append(expand);
   const meta=el('div','retail-gallery-meta');section.append(meta);
   const jump=el('a','retail-gallery-company-link','この企業の登録情報を見る');jump.href=`#${group.company_id}`;jump.addEventListener('click',event=>{event.preventDefault();jumpToCard(group.company_id);});section.append(jump);
-  let current=null;let expanded=false;
+  let current=null;let expanded=false;let activeIndex=0;
   const buttons=[];
-  function apply(photo,button){
-    current=photo;
+  const rotator={timer:null,stop(){if(this.timer){clearInterval(this.timer);this.timer=null;}},start(){this.stop();if(galleryPhotos.length<2||reduceMotion.matches||document.hidden)return;this.timer=setInterval(()=>{activeIndex=(activeIndex+1)%galleryPhotos.length;apply(galleryPhotos[activeIndex],buttons[activeIndex],activeIndex,false);},ROTATE_INTERVAL);}};
+  function apply(photo,button,index,manual=false){
+    current=photo;activeIndex=index;
     buttons.forEach(item=>item.classList.toggle('is-active',item===button));
     setSafeImage(mainImg,photo);mainImg.alt=photo.alt_ja||photo.caption_ja||'';category.textContent=photo.photo_category_ja||'写真';
     meta.replaceChildren(el('strong',null,photo.caption_ja||photo.alt_ja||''),creditDetails(photo));
+    if(manual)rotator.start();
   }
-  group.photos.forEach((photo,index)=>{
+  galleryPhotos.forEach((photo,index)=>{
     const button=el('button','retail-gallery-thumb');button.type='button';button.setAttribute('aria-label',`${photo.photo_category_ja||'写真'}を表示`);
-    const img=el('img');img.loading='lazy';img.decoding='async';img.alt='';setSafeImage(img,photo);button.append(img);button.addEventListener('click',()=>apply(photo,button));thumbs.append(button);buttons.push(button);if(index===0)apply(photo,button);
+    const img=el('img');img.loading='lazy';img.decoding='async';img.alt='';setSafeImage(img,photo);button.append(img);button.addEventListener('click',()=>apply(photo,button,index,true));thumbs.append(button);buttons.push(button);if(index===0)apply(photo,button,index,false);
   });
   const visibleLimit=()=>window.matchMedia('(min-width:900px)').matches?4:6;
   const updateVisibility=()=>{const limit=visibleLimit();buttons.forEach((button,index)=>{button.hidden=!expanded&&index>=limit;});expand.hidden=buttons.length<=limit;expand.textContent=expanded?'写真を閉じる':'写真をすべて見る';};
   expand.addEventListener('click',()=>{expanded=!expanded;updateVisibility();});
   window.addEventListener('resize',updateVisibility,{passive:true});
   updateVisibility();
+  rotators.add(rotator);rotator.start();
   main.addEventListener('click',()=>current&&openDialog(group,current));
   card.append(section);return true;
 }
 function render(){
   ensureDialog();
+  clearRotators();
   document.querySelectorAll('.retail-store-gallery').forEach(node=>node.remove());
   const photos=registry.query({database_id:'retail_sales_db',display_location:'photo_gallery'});
   let count=0;groupPhotos(photos).forEach(group=>{if(renderGroup(group))count++;});

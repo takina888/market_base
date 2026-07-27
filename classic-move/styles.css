@@ -305,3 +305,11 @@ html,body,#app{overflow-anchor:none}
   .passage-panel,.decode-panel,.aha-panel,.work-panel,.source-panel,.related-debriefs{padding:18px}
   .classic-original{font-size:1.08rem;padding:17px 16px;line-height:1.85}
 }
+
+
+/* R113.74 reading-only edition */
+.header-spacer{display:block;width:72px;min-width:72px}
+.classic-reader-nav{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:stretch}
+.classic-reader-nav>*:last-child{justify-self:stretch}
+.classic-reader-nav>*:first-child{justify-self:stretch}
+@media(max-width:760px){.header-spacer{width:52px;min-width:52px}.classic-reader-nav{grid-template-columns:1fr}.classic-reader-nav span{display:none}.classic-reader-nav button{width:100%}}

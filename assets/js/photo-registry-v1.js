@@ -17,7 +17,7 @@ let midnightTimer=null;
 const subscribers=new Set();
 
 const now=()=>Date.now();
-const isPublished=photo=>photo&&photo.status==='published'&&photo.license_review_status!=='要確認';
+const isPublished=photo=>photo&&photo.status==='published';
 const hasLocation=(photo,location)=>!location||Array.isArray(photo.display_locations)&&photo.display_locations.includes(location);
 const orderPhotos=list=>list.slice().sort((a,b)=>(Number(a.display_order)||9999)-(Number(b.display_order)||9999)||String(a.photo_id||'').localeCompare(String(b.photo_id||'')));
 function normalizePayload(payload){

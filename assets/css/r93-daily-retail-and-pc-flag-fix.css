@@ -63,3 +63,86 @@
   #detailContent .detail-header>.detail-title-block{grid-column:2!important;grid-row:1!important;min-width:0!important;width:100%!important;}
   #detailContent .detail-header>.detail-title-block>h2,#detailContent .detail-header>.detail-title-block>.country-sub{max-width:100%!important;overflow-wrap:anywhere!important;}
 }
+
+
+/* R113.80 — daily store gallery history navigation for the past 2 weeks */
+.daily-retail-heading{align-items:flex-start}
+.daily-retail-date-meta{display:grid;justify-items:end;gap:4px;text-align:right}
+.daily-retail-date-meta em{display:block;color:#607188;font-size:13px;font-style:normal;font-weight:900}
+.daily-retail-date-meta small{display:block;color:#7d8ba1;font-size:11px;font-weight:800;line-height:1.35}
+.daily-retail-intro{margin:14px 0 10px}
+.daily-retail-day-nav{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:10px;margin-top:12px}
+.daily-retail-day-button{min-height:42px;padding:8px 12px;border:1px solid #bfd2e7;border-radius:12px;background:#fff;color:#0b4f91;font:inherit;font-size:13px;font-weight:950;cursor:pointer}
+.daily-retail-day-button.is-next{justify-self:end}
+.daily-retail-day-button:disabled{opacity:.42;cursor:default}
+.daily-retail-day-status{display:grid;justify-items:center;gap:2px;padding:5px 10px}
+.daily-retail-day-status small{color:#7d8ba1;font-size:11px;font-weight:850;line-height:1.25}
+.daily-retail-day-status strong{color:#17233a;font-size:15px;line-height:1.2}
+@media(max-width:700px){
+  .daily-retail-date-meta{justify-items:start;text-align:left;margin-top:4px}
+  .daily-retail-day-nav{grid-template-columns:1fr 1fr;gap:8px}
+  .daily-retail-day-status{grid-column:1/-1;order:-1;padding:2px 0 4px}
+  .daily-retail-day-button{min-height:38px;padding:7px 10px;font-size:12.5px}
+}
+@media(max-width:390px){
+  .daily-retail-date-meta small{font-size:10px}
+  .daily-retail-day-button{font-size:12px;padding:7px 8px}
+  .daily-retail-day-status strong{font-size:14px}
+}
+
+
+/* R113.80b — slightly more compact daily store gallery */
+.daily-retail-showcase{margin:14px 0 20px;padding:16px 16px 14px;border-radius:22px}
+.daily-retail-heading span{font-size:11.5px;letter-spacing:.10em}
+.daily-retail-heading h2{font-size:22px;line-height:1.2}
+.daily-retail-date-meta em{font-size:12.5px}
+.daily-retail-date-meta small{font-size:10.5px;line-height:1.25}
+.daily-retail-intro{margin:10px 0 8px}
+.daily-retail-intro strong{font-size:18px;line-height:1.22}
+.daily-retail-intro p{margin:3px 0 0;font-size:12.5px}
+.daily-retail-layout{gap:10px}
+.daily-retail-main{border-radius:16px}
+.daily-retail-badge{left:10px;bottom:10px;padding:5px 9px;font-size:11px}
+.daily-retail-side{gap:8px}
+.daily-retail-thumbs{gap:7px}
+.daily-retail-thumb{border-radius:11px}
+.daily-retail-caption{gap:6px;font-size:12.5px;line-height:1.42}
+.daily-retail-caption>strong{font-size:14px;line-height:1.35}
+.daily-retail-credit summary{min-height:38px;padding:7px 11px;font-size:12.5px}
+.daily-retail-credit-body{gap:4px;padding:0 11px 10px;font-size:11.5px}
+.daily-retail-day-nav{gap:8px;margin-top:8px}
+.daily-retail-day-button{min-height:36px;padding:6px 10px;border-radius:11px;font-size:12.5px}
+.daily-retail-day-status{gap:1px;padding:3px 8px}
+.daily-retail-day-status small{font-size:10px}
+.daily-retail-day-status strong{font-size:13.5px}
+.daily-retail-company-link{min-height:44px;margin-top:10px;border-radius:14px;font-size:14px}
+
+@media(max-width:700px){
+  .daily-retail-showcase{margin:12px 0 18px;padding:14px 12px 12px;border-radius:18px}
+  .daily-retail-heading h2{font-size:20px}
+  .daily-retail-date-meta em{font-size:12px}
+  .daily-retail-intro{margin:9px 0 7px}
+  .daily-retail-intro strong{font-size:16px}
+  .daily-retail-intro p{font-size:12px}
+  .daily-retail-layout{gap:8px}
+  .daily-retail-main{aspect-ratio:4/3.1;border-radius:15px}
+  .daily-retail-thumbs{gap:5px}
+  .daily-retail-caption{font-size:12px}
+  .daily-retail-caption>strong{font-size:13.5px}
+  .daily-retail-day-nav{gap:6px;margin-top:6px}
+  .daily-retail-day-button{min-height:34px;padding:6px 8px;font-size:12px}
+  .daily-retail-day-status{padding:1px 0 2px}
+  .daily-retail-day-status strong{font-size:13px}
+  .daily-retail-company-link{min-height:42px;margin-top:8px;font-size:13.5px}
+}
+
+@media(max-width:390px){
+  .daily-retail-showcase{padding:13px 11px 11px}
+  .daily-retail-heading h2{font-size:18.5px}
+  .daily-retail-date-meta small{font-size:9.5px}
+  .daily-retail-intro strong{font-size:15px}
+  .daily-retail-intro p{font-size:11.5px}
+  .daily-retail-day-button{min-height:32px;padding:5px 7px;font-size:11.5px}
+  .daily-retail-day-status small{font-size:9.5px}
+  .daily-retail-day-status strong{font-size:12.5px}
+}

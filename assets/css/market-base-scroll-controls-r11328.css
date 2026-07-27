@@ -11,7 +11,8 @@
   padding:0;
   pointer-events:none;
 }
-body.mb-has-primary-bottom-nav .mb-scroll-controls{
+body.mb-has-primary-bottom-nav .mb-scroll-controls,
+body.mb-has-page-bottom-nav .mb-scroll-controls{
   bottom:calc(108px + env(safe-area-inset-bottom));
 }
 .mb-scroll-control{
@@ -49,14 +50,28 @@ body.mb-has-primary-bottom-nav .mb-scroll-controls{
 .mb-scroll-controls[hidden]{display:none!important}
 @media(min-width:761px){
   .mb-scroll-controls{right:max(22px,env(safe-area-inset-right));bottom:max(24px,env(safe-area-inset-bottom));gap:9px}
-  body.mb-has-primary-bottom-nav .mb-scroll-controls{bottom:max(24px,env(safe-area-inset-bottom))}
+  body.mb-has-primary-bottom-nav .mb-scroll-controls,
+  body.mb-has-page-bottom-nav .mb-scroll-controls{bottom:max(24px,env(safe-area-inset-bottom))}
   .mb-scroll-control{width:50px;height:50px;min-width:50px;min-height:50px}
   .mb-scroll-control svg{width:25px;height:25px}
 }
 @media(max-width:430px){
   .mb-scroll-controls{right:max(11px,env(safe-area-inset-right))}
-  body.mb-has-primary-bottom-nav .mb-scroll-controls{bottom:calc(103px + env(safe-area-inset-bottom))}
+  body.mb-has-primary-bottom-nav .mb-scroll-controls,
+  body.mb-has-page-bottom-nav .mb-scroll-controls{bottom:calc(103px + env(safe-area-inset-bottom))}
   .mb-scroll-control{width:54px;height:54px;min-width:54px;min-height:54px}
   .mb-scroll-control svg{width:27px;height:27px}
 }
 @media(prefers-reduced-motion:reduce){.mb-scroll-control{transition:none}}
+
+
+/* R113.73: keep the scroll controls above the half-PC bottom navigation. */
+@media(min-width:431px) and (max-width:899px){
+  body.mb-has-primary-bottom-nav .mb-scroll-controls,
+  body.mb-has-page-bottom-nav .mb-scroll-controls{bottom:calc(108px + env(safe-area-inset-bottom))}
+}
+
+
+/* R113.76 — universal 3-button rail: top, back, bottom */
+.mb-scroll-control-back svg{width:24px;height:24px}
+.mb-scroll-control-back span{display:none}

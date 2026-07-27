@@ -1,0 +1,38 @@
+
+/* MARKET BASE R113.79 — clickable retail logo directory below the daily store gallery */
+.retail-logo-directory{margin:22px 0 26px;padding:18px 14px;border:1px solid #d7e4f2;border-radius:22px;background:#fff;box-shadow:0 8px 22px rgba(13,57,117,.045);color:#10213c}
+.retail-logo-directory__head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin:0 0 13px}
+.retail-logo-directory__copy{min-width:0}
+.retail-logo-directory__eyebrow{display:block;margin:0 0 3px;color:#1764c8;font-size:11px;font-weight:950;letter-spacing:.1em}
+.retail-logo-directory h2{margin:0;color:#0b3976;font-size:21px;line-height:1.3}
+.retail-logo-directory__lead{margin:6px 0 0;color:#64748b;font-size:13.5px;line-height:1.65;font-weight:720}
+.retail-logo-directory__controls{display:flex;align-items:center;gap:6px;flex:0 0 auto}
+.retail-logo-directory__status{min-width:44px;color:#526477;font-size:12px;font-weight:900;text-align:center;font-variant-numeric:tabular-nums}
+.retail-logo-directory__button{display:grid;place-items:center;width:38px;height:38px;padding:0;border:1px solid #c7d9ee;border-radius:12px;background:#f7fbff;color:#0b5dcc;font:950 21px/1 sans-serif;cursor:pointer}
+.retail-logo-directory__button:hover,.retail-logo-directory__button:focus-visible{border-color:#0b5dcc;background:#edf5ff;outline:none}
+.retail-logo-directory__viewport{display:grid;grid-auto-flow:column;grid-auto-columns:min(84vw,430px);gap:12px;overflow-x:auto;padding:2px 1px 12px;scroll-snap-type:x mandatory;overscroll-behavior-inline:contain;scrollbar-width:thin}
+.retail-logo-board{position:relative;min-width:0;margin:0;scroll-snap-align:start;border:1px solid #e0e8f2;border-radius:18px;overflow:hidden;background:#fff}
+.retail-logo-board img{display:block;width:100%;height:auto;aspect-ratio:1055/1491;object-fit:cover;background:#fff}
+.retail-logo-board__links{position:absolute;inset:5.05% 2.7% 4.45%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(4,minmax(0,1fr));gap:1.25% 1.3%;pointer-events:none}
+.retail-logo-board__link{position:relative;display:block;min-width:0;min-height:0;border-radius:10px;pointer-events:auto;text-decoration:none;-webkit-tap-highlight-color:transparent}
+.retail-logo-board__link::after{content:'';position:absolute;inset:0;border:2px solid transparent;border-radius:10px;background:transparent;transition:border-color .14s ease,background .14s ease,box-shadow .14s ease}
+.retail-logo-board__link:hover::after,.retail-logo-board__link:focus-visible::after{border-color:#0b63ce;background:rgba(234,243,255,.14);box-shadow:0 0 0 3px rgba(11,99,206,.13)}
+.retail-logo-board__link:focus-visible{outline:none}
+.retail-logo-board__link span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.retail-logo-board figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:9px 11px;border-top:1px solid #e5edf6;color:#0b3976;font-size:12.5px;font-weight:900}
+.retail-logo-board figcaption small{color:#718096;font-size:10.5px;font-weight:800}
+@media(min-width:900px){
+  .retail-logo-directory{padding:21px 18px}
+  .retail-logo-directory__viewport{grid-auto-columns:min(46vw,470px);gap:15px}
+  .retail-logo-directory h2{font-size:23px}
+}
+@media(max-width:520px){
+  .retail-logo-directory{margin:18px 0 22px;padding:15px 10px;border-radius:19px}
+  .retail-logo-directory__head{align-items:flex-start}
+  .retail-logo-directory__lead{font-size:12.8px}
+  .retail-logo-directory__button{width:34px;height:34px;border-radius:11px;font-size:19px}
+  .retail-logo-directory__viewport{grid-auto-columns:min(88vw,395px);gap:9px;padding-bottom:10px}
+  .retail-logo-board{border-radius:15px}
+  .retail-logo-board figcaption{padding:8px 9px;font-size:11.8px}
+}
+@media(prefers-reduced-motion:reduce){.retail-logo-board__link::after{transition:none}}

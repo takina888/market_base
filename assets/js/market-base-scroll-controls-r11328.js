@@ -1,17 +1,43 @@
 (function(){
   'use strict';
   var LEGACY_SELECTOR='.mbu-top-button,.topbtn,.top-anchor,.back-to-top,.to-top,.scroll-top,.page-top';
+  var BOTTOM_NAV_SELECTOR='.mb-primary-bottom-nav,.mb-global-bottom-nav,.mbx-bottom-nav,.bottom-nav';
 
   function removeLegacyControls(){
     document.querySelectorAll(LEGACY_SELECTOR).forEach(function(node){node.remove();});
+  }
+
+  function hasBottomNav(){
+    if(document.body.classList.contains('mb-has-global-bottom-nav')||document.body.classList.contains('mb-has-primary-bottom-nav'))return true;
+    return !!document.querySelector(BOTTOM_NAV_SELECTOR);
+  }
+
+  function fallbackBackHref(){
+    var path=(location.pathname||'');
+    if(/\/[^/]+\/[^/]+\.html$/i.test(path))return '../index.html';
+    return 'index.html';
+  }
+
+  function goBack(){
+    var previous=location.href;
+    if(window.history.length>1){
+      window.history.back();
+      window.setTimeout(function(){
+        if(location.href===previous){
+          location.href=fallbackBackHref();
+        }
+      },180);
+    }else{
+      location.href=fallbackBackHref();
+    }
   }
 
   function mountScrollControls(){
     if(document.querySelector('[data-mb-scroll-controls]'))return;
     removeLegacyControls();
 
-    if(document.querySelector('.mb-primary-bottom-nav')){
-      document.body.classList.add('mb-has-primary-bottom-nav');
+    if(hasBottomNav()){
+      document.body.classList.add('mb-has-page-bottom-nav');
     }
 
     var rail=document.createElement('nav');
@@ -25,6 +51,14 @@
     up.setAttribute('aria-label','ページ上部へ移動');
     up.setAttribute('title','ページ上部へ移動');
     up.innerHTML='<svg aria-hidden="true" viewBox="0 0 24 24"><path d="m5 11 7-7 7 7"></path><path d="M12 4v16"></path></svg>';
+
+    var back=document.createElement('button');
+    back.type='button';
+    back.className='mb-scroll-control mb-scroll-control-back';
+    back.setAttribute('aria-label','前の画面へ戻る');
+    back.setAttribute('title','前の画面へ戻る');
+    back.innerHTML='<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7"></path><path d="M9 12h10"></path></svg>';
+    back.addEventListener('click',goBack);
 
     var down=document.createElement('button');
     down.type='button';
@@ -42,6 +76,7 @@
     });
 
     rail.appendChild(up);
+    rail.appendChild(back);
     rail.appendChild(down);
     document.body.appendChild(rail);
 
@@ -57,6 +92,7 @@
       rail.hidden=!scrollable;
       up.disabled=!scrollable||top<=24;
       down.disabled=!scrollable||top>=max-24;
+      back.disabled=false;
     }
     function requestUpdate(){
       if(ticking)return;
