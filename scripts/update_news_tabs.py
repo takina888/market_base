@@ -236,7 +236,7 @@ def merge_articles(
     return merged
 
 
-def validate_dataset(data: dict[str, Any], expected_ids: list[str]) -> list[str]:
+def validate_dataset(data: dict[str, Any], expected_ids: list[str], expected_count: int = 7) -> list[str]:
     errors: list[str] = []
     categories = data.get("categories")
     if not isinstance(categories, dict):
@@ -252,8 +252,8 @@ def validate_dataset(data: dict[str, Any], expected_ids: list[str]) -> list[str]
         if not isinstance(articles, list):
             errors.append(f"articles is not a list: {category_id}")
             continue
-        if len(articles) != 3:
-            errors.append(f"article count must be 3: {category_id} ({len(articles)})")
+        if len(articles) != expected_count:
+            errors.append(f"article count must be {expected_count}: {category_id} ({len(articles)})")
         for index, article in enumerate(articles):
             if not isinstance(article, dict):
                 errors.append(f"invalid article: {category_id}[{index}]")
@@ -382,7 +382,7 @@ def self_test() -> None:
 def update(dry_run: bool = False) -> dict[str, Any]:
     config = load_json(CONFIG_PATH, {})
     categories_config = config.get("categories", [])
-    limit = int(config.get("limit_per_category", 3))
+    limit = int(config.get("limit_per_category", 7))
     scan_limit = int(config.get("feed_scan_limit", 50))
     timeout = int(config.get("timeout_seconds", 20))
     preferred_sources = [str(item) for item in config.get("preferred_sources", [])]
@@ -463,7 +463,7 @@ def update(dry_run: bool = False) -> dict[str, Any]:
         "categories": ordered_categories,
     }
     expected = [str(item["id"]) for item in categories_config]
-    errors = validate_dataset(data, expected)
+    errors = validate_dataset(data, expected, limit)
     if errors:
         raise SystemExit("VALIDATION FAILED:\n- " + "\n- ".join(errors))
 
@@ -497,12 +497,13 @@ def main() -> int:
     args = parser.parse_args()
     config = load_json(CONFIG_PATH, {})
     ids = [str(item["id"]) for item in config.get("categories", [])]
+    limit = int(config.get("limit_per_category", 7))
     if args.self_test:
         self_test()
         return 0
     if args.check:
         data = load_json(JSON_PATH, {})
-        errors = validate_dataset(data, ids)
+        errors = validate_dataset(data, ids, limit)
         detail_path = JSON_PATH.with_name("news.json")
         detail_js_path = JSON_PATH.with_name("news.js")
         expected_detail = detailed_dataset(data)

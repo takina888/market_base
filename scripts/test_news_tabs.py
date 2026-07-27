@@ -15,6 +15,7 @@ mod = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(mod)
 
 REFERENCE = dt.datetime(2026, 7, 24, 4, 30, tzinfo=dt.timezone.utc)
+LIMIT = 7
 CATEGORY_META = {
     "overseas": ("海外ニュース", "海外経済と貿易の日本語ニュース"),
     "food_machinery": ("食品機械", "食品機械の新型選別機ニュース"),
@@ -93,7 +94,7 @@ def synthetic_seed(config: dict) -> dict:
                     "category": category_id,
                     "link_provider": "direct",
                 }
-                for index in range(1, 4)
+                for index in range(1, LIMIT + 1)
             ],
         }
     return {
@@ -160,13 +161,13 @@ def run() -> None:
             mod.CONFIG_PATH, mod.JSON_PATH, mod.JS_PATH = config_path, json_path, js_path
 
             def all_success(url: str, timeout: int) -> bytes:
-                return feed_for(category_from_url(url), 3)
+                return feed_for(category_from_url(url), LIMIT)
 
             mod.fetch_xml = all_success
             live = mod.update(dry_run=True)
             assert live["status"] == "live"
             assert not live["failed_categories"]
-            assert all(len(value["articles"]) == 3 for value in live["categories"].values())
+            assert all(len(value["articles"]) == LIMIT for value in live["categories"].values())
 
             def sparse(url: str, timeout: int) -> bytes:
                 return feed_for(category_from_url(url), 1)
@@ -175,16 +176,16 @@ def run() -> None:
             partial = mod.update(dry_run=True)
             assert partial["status"] == "partial"
             assert set(partial["retained_categories"]) == set(CATEGORY_META)
-            assert all(len(value["articles"]) == 3 for value in partial["categories"].values())
+            assert all(len(value["articles"]) == LIMIT for value in partial["categories"].values())
 
             # 複数カテゴリーに同じ記事が来ても、全体で重複させない。
             def with_shared(url: str, timeout: int) -> bytes:
                 category_id = category_from_url(url)
-                return feed_for(category_id, 3, shared=category_id in {"food_machinery", "food_factory"})
+                return feed_for(category_id, LIMIT, shared=category_id in {"food_machinery", "food_factory"})
 
             mod.fetch_xml = with_shared
             deduped = mod.update(dry_run=True)
-            errors = mod.validate_dataset(deduped, list(CATEGORY_META))
+            errors = mod.validate_dataset(deduped, list(CATEGORY_META), LIMIT)
             assert not errors, errors
             urls = [article["url"] for value in deduped["categories"].values() for article in value["articles"]]
             assert urls.count("https://example.com/shared") <= 1

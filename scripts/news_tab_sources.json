@@ -1,7 +1,7 @@
 {
   "language": "ja",
   "country": "JP",
-  "limit_per_category": 3,
+  "limit_per_category": 7,
   "feed_scan_limit": 50,
   "timeout_seconds": 20,
   "preferred_sources": [
