@@ -1,19 +1,17 @@
 {
   "schema_version": 2,
-  "status": "partial",
+  "status": "stale",
   "language": "ja",
-  "generated_at": "2026-07-26T15:27:08Z",
-  "successful_categories": [
-    "regulations",
-    "food_machinery",
-    "food_factory",
-    "retail",
-    "overseas"
-  ],
-  "retained_categories": [
-    "food_factory"
-  ],
-  "failed_categories": {},
+  "generated_at": "2026-07-27T10:13:47Z",
+  "successful_categories": [],
+  "retained_categories": [],
+  "failed_categories": {
+    "regulations": "HTTPError: HTTP Error 503: Service Unavailable",
+    "food_machinery": "HTTPError: HTTP Error 503: Service Unavailable",
+    "food_factory": "HTTPError: HTTP Error 503: Service Unavailable",
+    "retail": "HTTPError: HTTP Error 503: Service Unavailable",
+    "overseas": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
   "categories": {
     "overseas": {
       "label": "海外ニュース",
@@ -391,7 +389,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-07-26T15:27:08Z",
+  "last_attempt_at": "2026-07-27T10:13:47Z",
   "last_success_at": "2026-07-26T15:27:08Z",
-  "consecutive_failure_count": 0
+  "consecutive_failure_count": 1
 }
