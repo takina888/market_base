@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-07-26T19:40:00Z",
+  "generated_at": "2026-07-27T04:09:32Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -17,31 +17,31 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "a79be94b8fb1e32c",
+          "title": "「飛鳥・藤原の宮都」 遺跡が点在する 日本の原風景",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02TkhkNDlQTnJfOHVOcm9XVlJ1X3Z6c003MkVBNUl1dTRSelZ6Z0dNWjcwOGVjdDNNNlZUU0NSRmZxZGdKSGZLZUhzNFZfdXdxRUFUTTRNS19xcGpmN1lFVDlPRGFKV05BaVpuQg?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-07-26T20:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2e472499fd0b635f",
+          "title": "「飛鳥・藤原」がついに世界遺産へ 日本の原型が生まれた地に、今なぜ注目が集まるのか（Wedge（ウェッジ））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMM2VGb2VCMUZSbWZyc2pXYWZQbXYzd0dxMzQ2WXJ6UGFaTVRQMXJTYTZVOElScDRZd1RLVFdBT1J0aVhMZnF5c21DV2R0SzE5WVFSeVFiOERHMkJmZ25ueEZJT2FJQkdOTXRYMFpKaWhvUzhvbkRqQ19EQXg2U1E?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-07-26T14:21:18Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "acea30772520bc71",
           "title": "【速報】アアルト建築がユネスコ世界遺産に登録！ フィンランド初の近代建築遺産が誕生",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTVVBSzV4VlhhNmdiQWFDMnp4Sy1nckdxdWJoRHMyRE1RMmtxb0pRUzZZdERINF9adlZSUGVmNThfbmVGSWNYZTFvc3VJTDM4QzNxVFpKbHZiWjVvazJyNzB5S1NsMGxRRTduUUVYZElNSTlzbnRuZ2JvZHFrc0xGWDVyenlZYXBpNTBQak41RzNhQVF5Nzlr?oc=5",
-          "source": "elle.com",
+          "source": "ELLE",
           "published_at": "2026-07-26T07:52:23Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2037d2e006818d19",
-          "title": "【このすば】『この素晴らしい世界に祝福を！』アニメ4期が2027年に放送決定！カズマパーティ4人の後ろ姿を描くビジュアル解禁",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nbWxCOVB6OFk4bURuNlBUY0tLQnVYcHJjQTNheEh2dzRETnRJcUFoQ3lEOWFNRk82b2J4Wm9nbHg1QXRxcnl1TWZUOFpGVkNuR2FzZ2VGYXA?oc=5",
-          "source": "電ファミニコゲーマー",
-          "published_at": "2026-07-26T07:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "39a689cdfdae3635",
-          "title": "「飛鳥・藤原の宮都」世界遺産登録に当たっての内閣総理大臣メッセージ",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9oS0JEUkkyb1JQN081cVhsSHEzd2FiSkZjVVJ1RDdhNU83MWx4NWw5UzVFOTh0NHRsb0ZpOUFteEVmeEUwRnA1NnpXLTJUb3hIWHM1WXctY1ktdEZmUzk0Zk1ySllNeVh4R3JLMGl3UQ?oc=5",
-          "source": "首相官邸",
-          "published_at": "2026-07-26T01:57:59Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -132,21 +132,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "7e053bc766a46fc9",
-          "title": "環境配慮の木造コンビニがオープン 四国中央",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAybnlzRndCRUo2aU95cWhxczZsR0RoZmM5T3g5T1FScktqMFg4V2YzYkotTUNPcVJpOFc1Tng0S1NCLXlicEo4VWtBeGtaR2Njb0ZKRk1aWW0?oc=5",
-          "source": "NHKニュース",
-          "published_at": "2026-07-22T09:15:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "6def167432cca401",
           "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-07-21T05:30:02Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "634091c9f72bc051",
+          "title": "角上魚類／埼玉県鶴ヶ島市に新店舗8月20日オープン、生鮮3品がワンフロアにそろう",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55eU5mMWdzdU40cTRHQlNQbDQwTk5rM1RvbUxLSjVYUnF5NnZIV2ZtVE1ZRGlTMnNTc2NlTTdGY3JLdXZjLVVlbkdZYlVyREhaWFFLag?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-21T05:15:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -156,16 +156,6 @@
     "regulations": {
       "label": "規制関連",
       "articles": [
-        {
-          "id": "ca6783da665eeb00",
-          "title": "EUへの農産物輸出には、企業はシーズン開始当初からリスク管理を行う必要がある。",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOajR5cFBhQmd1c1RCaEJvOGxRSkJ4ZGpRUWVMRVNDazFzck16eDdzTEY2RVhyTDhNNHRVMUJPMElPUTFjRmlwMlFTeW5tVEl3bC1MbGo1b0ZNc2pveXd3T2hpMnZNUHJnaF9PRk90SHFuQW1hN0hqOERLd1VfOUl1QlBBcjExRjEtMGU4Z3BGWXVkNllLVVFXY0pjNA?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-07-25T07:57:24Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "f6fc1e08094f3800",
           "title": "改正食品安全法の完成：地方分権化、デジタル変革、行政手続きの合理化の推進。",
@@ -185,11 +175,21 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "fffb22187f988a5a",
+          "title": "食品安全法案（改正版）において検討すべき法的欠陥",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT2RvSmdLSjZRN1Vxa0RSUGgyS05DVWUzblhsZGxVY0ZDQjI4cDBCOW5zdHk2X0JCVGloY05IYjh5MkRsalNTMGNQb1RmcmlrT2RBZXZsV3YyXzk3NjF0bEpfSkFqYkFjUEMwNEFwYVppODMwSldQZzVqLXhxNk5HUHlMOXFydW5GakdGcUw1Qk9FcE9VUzhnNzJ3alNCZmRlQUN1MDVQR0lvQQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-07-23T13:18:54Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-07-26T19:40:00Z",
-  "last_success_at": "2026-07-26T19:40:00Z",
+  "last_attempt_at": "2026-07-27T04:09:32Z",
+  "last_success_at": "2026-07-27T04:09:32Z",
   "consecutive_failure_count": 0
 }
