@@ -1,0 +1,19 @@
+{
+  "release": "R113.79",
+  "build_id": "MARKET_BASE_R113_79_RETAIL_LOGO_DIRECTORY_20260727",
+  "counts": {
+    "files": 321,
+    "html": 28,
+    "js": 64,
+    "json": 46,
+    "logo_images": 8
+  },
+  "result": "PASS",
+  "logo_directory": {
+    "boards": 8,
+    "cells": 128,
+    "direct_links": 124,
+    "search_links": 4
+  },
+  "tests": "See FINAL_TEST_LOG_R11379.txt and FINAL_TEST_REPORT_R11379.md"
+}

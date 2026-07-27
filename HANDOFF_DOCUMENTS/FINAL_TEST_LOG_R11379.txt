@@ -1,0 +1,41 @@
+MARKET BASE R113.79 FINAL TEST LOG
+UTC 2026-07-27 05:59:42
+
+[FILE COUNTS]
+files=321
+html=28
+js=64
+json=46
+logo_images=8
+
+[JAVASCRIPT SYNTAX]
+checked=64 fail=0
+
+[JSON SYNTAX]
+checked=46 fail=0
+
+[LOCAL REFERENCE AUDIT]
+checked=613 missing=0
+
+[SERVICE WORKER CORE]
+core=122 missing=0
+
+[DEDICATED/REGRESSION TESTS]
+RETAIL LOGO DIRECTORY TEST: PASS — boards=8, cells=128, direct=124, search=4, images=8
+NEWS HOME COMPACT LAYOUT TEST: PASS — 11/11
+RETAIL PHOTO GALLERY TEST: PASS — 63 companies, 252 photos, four per company, click switching and responsive gallery verified
+HALF-PC RESPONSIVE TEST: PASS — 431–1099px has no card/text overflow; shell and bottom navigation align through 899px
+CURRENCY ALIGNMENT TEST: PASS — shared header and 430/1180/1360/1440 shells verified; brand underline source removed; converter functions retained
+STANDARD SHELL TEST: PASS — currency, world compass and 8 Learn entries share one header, responsive shell and 4-tab navigation
+PC TOP NAV TEST: PASS — 7 tabs, 米データ shortcut removed, 25 page references current
+WORLD ROUTE SMOKE TEST: PASS — entry, 20 countries, 63 routes, 40 images, service-worker entries and local HTTP delivery verified
+LEARN READING ORDER TEST: PASS — Reading and History are last; Work Basics removed; Classics is reading-only
+CLASSICS READING RUNTIME TEST: PASS — 14 works, list/detail navigation, and reading stages verified
+PASS — 52 checks
+365/365 entries resolved; 957 candidates validated.
+Preferred files, external URLs/credits, R113.79 wiring, retry UI, and JS syntax are valid.
+
+[LOCAL HTTP HTML LOAD]
+checked=28 fail=0
+
+FINAL RESULT: PASS

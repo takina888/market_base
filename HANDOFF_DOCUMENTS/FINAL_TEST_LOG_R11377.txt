@@ -1,0 +1,19 @@
+MARKET BASE R113.77 FINAL TEST LOG
+
+PASS
+- Standard shell: PASS
+- Currency alignment: PASS
+- Half-PC responsive: PASS
+- Learn reading order: PASS
+- Classics reading runtime: PASS
+- Retail photo gallery: PASS
+- PC top navigation: PASS
+- World route smoke: PASS
+- News tabs: PASS
+- Today’s Journey: 52/52 PASS
+- World Why answer font: PC 16.2px / mobile 15.7px / line-height 1.82 PASS
+- HTML pages: 28
+- Static local references: 610, missing 0
+- JavaScript: 62, syntax errors 0
+- JSON: 46, syntax errors 0
+- Service Worker CORE: 111, missing 0

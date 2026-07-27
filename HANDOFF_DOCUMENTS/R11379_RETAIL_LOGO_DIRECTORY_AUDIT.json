@@ -1,0 +1,63 @@
+{
+  "release": "R113.79",
+  "baseline": "R113.67 normal-folder published version",
+  "boards": 8,
+  "cells": 128,
+  "direct_detail_links": 124,
+  "database_search_links": 4,
+  "search_cells": [
+    {
+      "board": 3,
+      "cell": 12,
+      "label": "Amazon Fresh",
+      "query": "Amazon Fresh"
+    },
+    {
+      "board": 4,
+      "cell": 4,
+      "label": "Ahold Delhaize",
+      "query": "Ahold Delhaize"
+    },
+    {
+      "board": 6,
+      "cell": 15,
+      "label": "Ahold Delhaize",
+      "query": "Ahold Delhaize"
+    },
+    {
+      "board": 7,
+      "cell": 1,
+      "label": "Ahold Delhaize",
+      "query": "Ahold Delhaize"
+    }
+  ],
+  "image_files": [
+    "assets/images/retail-logo-directory/logo-sheet-01.jpg",
+    "assets/images/retail-logo-directory/logo-sheet-02.jpg",
+    "assets/images/retail-logo-directory/logo-sheet-03.jpg",
+    "assets/images/retail-logo-directory/logo-sheet-04.jpg",
+    "assets/images/retail-logo-directory/logo-sheet-05.jpg",
+    "assets/images/retail-logo-directory/logo-sheet-06.jpg",
+    "assets/images/retail-logo-directory/logo-sheet-07.jpg",
+    "assets/images/retail-logo-directory/logo-sheet-08.jpg"
+  ],
+  "tests": {
+    "test_retail_logo_directory.py": "PASS",
+    "test_news_home_compact_layout.py": "PASS",
+    "test_news_tabs.py": "PASS",
+    "test_pc_top_nav.py": "PASS",
+    "test_currency_alignment.py": "PASS",
+    "test_standard_shells.py": "PASS",
+    "test_world_route_smoke.py": "PASS",
+    "test_learn_reading_order.py": "PASS",
+    "test_classics_reading_runtime.py": "PASS",
+    "test_retail_photo_gallery.py": "PASS",
+    "test_half_pc_responsive.py": "PASS",
+    "test_todays_journey_images.mjs": "PASS (52/52; 365/365)"
+  },
+  "syntax": {
+    "json": "46/46 PASS",
+    "javascript": "64/64 PASS",
+    "html_local_references": "468 checked, missing 0"
+  }
+}

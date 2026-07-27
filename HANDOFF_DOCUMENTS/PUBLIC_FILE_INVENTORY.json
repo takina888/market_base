@@ -1,0 +1,1611 @@
+{
+  "release": "R113.79",
+  "file_count": 321,
+  "files": [
+    {
+      "path": ".github/workflows/update-news-tabs.yml",
+      "size": 1514,
+      "sha256": "ac7d66fff4d3533fc3be4b0e2a30b3d79e1bc6f281f6c6bdda30b9e533b7e1f7"
+    },
+    {
+      "path": ".nojekyll",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/css/country-detail-blue-universal-v273-r32u.css",
+      "size": 2420,
+      "sha256": "53c3db929ee023fe25a9b03d0929dd017c0f760ff7061dcd46a1a8d3d888ebb5"
+    },
+    {
+      "path": "assets/css/country-dialog-desktop-v273-r32.css",
+      "size": 1120,
+      "sha256": "eaa878667a155f9d05b2a5029c66fd51c8821a922ddf67920ae5e4069dc506df"
+    },
+    {
+      "path": "assets/css/currency-standard-shell-r11335.css",
+      "size": 1572,
+      "sha256": "c6d0a3412879b14265cfc6c50a62ec8128e17abbf4509234b13cfb24cf06356a"
+    },
+    {
+      "path": "assets/css/food-machinery-import-universal-v273-r32u.css",
+      "size": 3710,
+      "sha256": "d819e5e775925a6d79b12318ba0e1a02ecf93217d4c13056546b3f2c997ba22b"
+    },
+    {
+      "path": "assets/css/international-logistics-integration-r11313.css",
+      "size": 735,
+      "sha256": "ab7ff350f48097b8fe60bdec0f09974fad70b06333d145d3700c854f63dc6734"
+    },
+    {
+      "path": "assets/css/main-r11347/market-base-app-01-foundation-r11347.css",
+      "size": 66174,
+      "sha256": "289eae74e766257328fb443a007a1168de3ec39b249da37d9f6c53dce96c833f"
+    },
+    {
+      "path": "assets/css/main-r11347/market-base-app-02-features-r11347.css",
+      "size": 62433,
+      "sha256": "a968d6c354e32994db054b7aecc76ebc8dc08a956b40d6c8a98d816cba2ce7b3"
+    },
+    {
+      "path": "assets/css/main-r11347/market-base-app-03-views-r11347.css",
+      "size": 65440,
+      "sha256": "88bd5ec41efeca910c6a6f4a1b0bd6da7789d8087e7e6c9a4605ccfe0bf47e3b"
+    },
+    {
+      "path": "assets/css/main-r11347/market-base-app-04-country-detail-r11347.css",
+      "size": 51058,
+      "sha256": "6381a856e6a9e09c23dac822027b8152b1556b905cf1bf867bd3241885f37bb6"
+    },
+    {
+      "path": "assets/css/market-base-bottom-press-feedback-r11367.css",
+      "size": 1907,
+      "sha256": "24ba2cfb50fdc280fdc8cc4e0d91cd85030ad7b9c9eae318498feb0e46b0eddf"
+    },
+    {
+      "path": "assets/css/market-base-daily-company-slot-r11361.css",
+      "size": 4897,
+      "sha256": "3b5fac0d7e8b8818c53fa069d790022ab162044f111b598ffbf3e297e2b46265"
+    },
+    {
+      "path": "assets/css/market-base-daily-company-target-r11349.css",
+      "size": 896,
+      "sha256": "8c277273014537c7f33e17f09b09ed985bf5dc690c319d021ab2ce9eca001d5a"
+    },
+    {
+      "path": "assets/css/market-base-daily-fortune-r11362.css",
+      "size": 1826,
+      "sha256": "83cb1d71b84f37f4ce586114334c57ed8614cf9b47b117c1443e2880b2242710"
+    },
+    {
+      "path": "assets/css/market-base-desktop-icon-nav-r11337.css",
+      "size": 3525,
+      "sha256": "7f838a05804a3781e44d67440b8e9817e6f1c1356995769be5ddc18b4a0869e3"
+    },
+    {
+      "path": "assets/css/market-base-desktop-navigation-v273-r32.css",
+      "size": 1281,
+      "sha256": "e1e9e7129eca4d40abbffe2dfb94f41fd5448a03f3c21a8dbc3775d2cf9bc3f0"
+    },
+    {
+      "path": "assets/css/market-base-global-bottom-nav-r11345.css",
+      "size": 1258,
+      "sha256": "9f4d6a3510d591c84ce45142eab6e6e46232fbbbadc9ea57f3baa155384f11ef"
+    },
+    {
+      "path": "assets/css/market-base-global-header-r1139.css",
+      "size": 3208,
+      "sha256": "4026699bec85af14ea75b2fd0388e94c55b9e6699c05af8cc82f02d5e91aca94"
+    },
+    {
+      "path": "assets/css/market-base-header-geometry-lock-r1138.css",
+      "size": 11091,
+      "sha256": "a4950de42bb7620045c626665cc16ecfedf5508e151ff8be6741bff74d5672ff"
+    },
+    {
+      "path": "assets/css/market-base-large-db-performance-r11345.css",
+      "size": 374,
+      "sha256": "cc60b09f88b7c25f05bdcc8cf92648f6d35b2d8ca648fdce7ed1457a23c5ac62"
+    },
+    {
+      "path": "assets/css/market-base-learn-shell-r11314.css",
+      "size": 433,
+      "sha256": "0f69813d9840d5111b5c2acbccf1b69591a63ee7301b09a64411247f20f7314e"
+    },
+    {
+      "path": "assets/css/market-base-news-tabs-v1.css",
+      "size": 14292,
+      "sha256": "77fbd1d83bd23ea7daec2147a20395daf1d5793ec0b850bb06f3f9213e0d7f1f"
+    },
+    {
+      "path": "assets/css/market-base-pc-unified-shell-r95-v1.css",
+      "size": 9747,
+      "sha256": "d4a882352cf4ea721bbe82c082938513186e5b2d1e43c93e3a4d7b71c092bcdf"
+    },
+    {
+      "path": "assets/css/market-base-primary-components-r11326.css",
+      "size": 13959,
+      "sha256": "c66c625c3b4b6438d7a82beeb66257a3f9c01b6af7112b78b5b38aaafc7c9ff4"
+    },
+    {
+      "path": "assets/css/market-base-reading-section-r11365.css",
+      "size": 1646,
+      "sha256": "57de73cce7e9f7d691a4c7ee4ca1e98fbe68b9a3238c3bbaf130d1f655c5783b"
+    },
+    {
+      "path": "assets/css/market-base-reading-section-r11366.css",
+      "size": 1675,
+      "sha256": "e1524ac0bdcb5c1f8d4675cc2f68f770dc4f7aaeeaddf39824b4d25fa79b4268"
+    },
+    {
+      "path": "assets/css/market-base-scroll-controls-r11328.css",
+      "size": 2763,
+      "sha256": "f653e2df1ebadadbf7d142891633accd52570b367a9ec3338ef99b675a9f0f3b"
+    },
+    {
+      "path": "assets/css/market-base-standard-shell-r11372.css",
+      "size": 4816,
+      "sha256": "10cc06344efcbca6615c32f513384b46c546fbe66f058d0962b42382429799af"
+    },
+    {
+      "path": "assets/css/market-base-weather-home-compact-r11342.css",
+      "size": 3979,
+      "sha256": "e104a799fba646fc967698351fd6b8c4df2af228c9d62710dd40078a60ff9106"
+    },
+    {
+      "path": "assets/css/market-base-weather-panel-v005.css",
+      "size": 28737,
+      "sha256": "153194d46b8ca90ece527e8d7a189347fe961b189afdf078df651298f1b23986"
+    },
+    {
+      "path": "assets/css/prism-calculator-integrated-r1136.css",
+      "size": 38058,
+      "sha256": "2047b2b975ebc27daab256be09825aaf8c183c994d52e9f426c901aedb2f8147"
+    },
+    {
+      "path": "assets/css/r1137-ranking-compare-learn.css",
+      "size": 3149,
+      "sha256": "711f667a071fc4fe349f30257df60ec4f41749857abdebb0778799ad70185e45"
+    },
+    {
+      "path": "assets/css/r93-daily-retail-and-pc-flag-fix.css",
+      "size": 8246,
+      "sha256": "ba7d705dd32f4071ac9d2d8e4a7d8903c820a3c063d05c35386e08bd5604d462"
+    },
+    {
+      "path": "assets/css/r94-country-route-and-list-header.css",
+      "size": 1221,
+      "sha256": "04d00650a57dbccc8dbe12300fc9103bab9f341a719a881d5b0247a9d0fd4437"
+    },
+    {
+      "path": "assets/css/reading-highlights-v1.css",
+      "size": 1564,
+      "sha256": "dc2bbf3f0713c7d21d8b9992817892728c0ba59f07c2440452050af87d7c613d"
+    },
+    {
+      "path": "assets/css/retail-logo-directory-r11379.css",
+      "size": 3874,
+      "sha256": "db2efecfd8a1864f88f2dcd0bd2fb138ea2fcff7d79c855f414d75ad27b8a54d"
+    },
+    {
+      "path": "assets/css/retail-store-gallery-v2.css",
+      "size": 5736,
+      "sha256": "dd8904e80c0dba0343c1d997478176e0aad245b2bab60d4593868875dc1d696d"
+    },
+    {
+      "path": "assets/css/specialist-header-unified-v273-r30.css",
+      "size": 5568,
+      "sha256": "1930c951f737d674e086ccbfa2a33a44de71cc5a592a6b4e9d3a4961759a5d89"
+    },
+    {
+      "path": "assets/css/specialist-r11348/specialist-collapse-controls-r11348.css",
+      "size": 676,
+      "sha256": "fd82901bc70acbc1dd01630de8ec4c300e15fda1bf37132ddb146eef781632df"
+    },
+    {
+      "path": "assets/css/specialist-r11348/specialist-common-overrides-r11348.css",
+      "size": 998,
+      "sha256": "a927576b9c0e5cb9b15a5fb2e0d89512d95c9e1f4ab2cba307cd0e752cac9d76"
+    },
+    {
+      "path": "assets/css/specialist-r11348/specialist-content-foundation-r11348.css",
+      "size": 3379,
+      "sha256": "7e49ea258bf06a24f49011ac7455e5a7c19dc1dc1c3729c2e78f0dec5f8abdec"
+    },
+    {
+      "path": "assets/css/specialist-r11348/specialist-cvs-theme-r11348.css",
+      "size": 11266,
+      "sha256": "5de31df852f0ad6648562cd29e8ca4e96cb77d3f84cf4c38771bb10842c20bf6"
+    },
+    {
+      "path": "assets/css/specialist-wide-universal-v273-r32u8k.css",
+      "size": 9515,
+      "sha256": "e837bc4a78a41c01dc79282e2add9f4972eb4ea91bd69c2a17abda17830f0fab"
+    },
+    {
+      "path": "assets/css/upload-layout-fix-r11318.css",
+      "size": 5087,
+      "sha256": "dc74f346e7172bfe8d0756c2684c1bf881ad24b493c87ee5d536370da5414de6"
+    },
+    {
+      "path": "assets/css/world-compass-controls-r11357.css",
+      "size": 630,
+      "sha256": "5e974d5a59854523c6e8c1aad4b815d5e8bce6f0aebe56d5085a3bdb902b76df"
+    },
+    {
+      "path": "assets/css/world-compass-integration-r11311.css",
+      "size": 1374,
+      "sha256": "5deeca13eec170ccc53d5028499fae7c1a573c3d896549e2e643cd98de005fbb"
+    },
+    {
+      "path": "assets/css/world-compass-r11311.css",
+      "size": 33400,
+      "sha256": "f4d050d42ba047c31878aee552dbac4679193287038c42b181938fb9dbc164a1"
+    },
+    {
+      "path": "assets/css/world-compass-ui-base-r11311.css",
+      "size": 15239,
+      "sha256": "96851bc972d9b70522fa21138f2825463eb762e07fe48480d7c3e7bdb78bfc74"
+    },
+    {
+      "path": "assets/css/world-history-learn-r11330.css",
+      "size": 23779,
+      "sha256": "b8669bb15eacd1940028bf1e96ab0c7e26c9b6836332fe00196a6912539ccbf9"
+    },
+    {
+      "path": "assets/css/world-why-learn-r11327.css",
+      "size": 4141,
+      "sha256": "0e88a8f0967a77c80fb4e372ff396070eae462ac5fb3bf5d1c8c138b0360a7cc"
+    },
+    {
+      "path": "assets/flags/ae.svg",
+      "size": 295,
+      "sha256": "649b523cd1627f70893d09ee588af62ff78b014d7cdd54ef331a8745c078f9ff"
+    },
+    {
+      "path": "assets/flags/au.svg",
+      "size": 466,
+      "sha256": "cbbdafed0b08e80f321b1dd6fbac5612727a2015f844a0835105170dac3ad441"
+    },
+    {
+      "path": "assets/flags/bo.svg",
+      "size": 251,
+      "sha256": "f10f4db15b3e4a3105307054d5282fedd007ab03de461f4364cf791411466fdb"
+    },
+    {
+      "path": "assets/flags/cl.svg",
+      "size": 329,
+      "sha256": "1b2739d0cd23871e6e2fd6e3bdaf7c768ba065a68f17b7d04a3d312f7cb6e555"
+    },
+    {
+      "path": "assets/flags/cn.svg",
+      "size": 237,
+      "sha256": "f084feb6e5ca8b54e3a58e470b782784bda6c1193780117898bbe88682a7f1e0"
+    },
+    {
+      "path": "assets/flags/eg.svg",
+      "size": 291,
+      "sha256": "dbde14172e88cb3b7987d0f7af35b00092fb66124ca2dc6abd88725db10eb37a"
+    },
+    {
+      "path": "assets/flags/flag-svg-data.js",
+      "size": 176096,
+      "sha256": "0a9ef3d693747808e5cf1a17f294cff8f28dd0e2d29cb3b6a1fb6618b10af781"
+    },
+    {
+      "path": "assets/flags/fr.svg",
+      "size": 245,
+      "sha256": "f73d08b0b9eb4fca90349dd5cff4d7de2b095528dbd7ca632cb990e65b0b30a6"
+    },
+    {
+      "path": "assets/flags/gb.svg",
+      "size": 404,
+      "sha256": "08efaf1ec8853247464d4ef41672e20c45ee084af1b1233424212ac6995f0742"
+    },
+    {
+      "path": "assets/flags/gr.svg",
+      "size": 430,
+      "sha256": "c5833243ba02529eda06ea72a620e303e1a81e2611c49f4f6622c68b43b95f4f"
+    },
+    {
+      "path": "assets/flags/hk.svg",
+      "size": 520,
+      "sha256": "ca733c4b76218556acbe126cb2c30076347b386a8c23b9357c48f075f2dc8f45"
+    },
+    {
+      "path": "assets/flags/il.svg",
+      "size": 412,
+      "sha256": "b2196244f0997f8014954ce341c8ca6bfcde135c809d329c997666a10a5ba43b"
+    },
+    {
+      "path": "assets/flags/in.svg",
+      "size": 325,
+      "sha256": "0109669ebb26591a111972843a850677cd29d46398a1fdec1a1b2c8849b02e9f"
+    },
+    {
+      "path": "assets/flags/it.svg",
+      "size": 245,
+      "sha256": "156ab3481dad8e931ce144ba3dbb74715cce585e33389d52b6a620a40596f327"
+    },
+    {
+      "path": "assets/flags/jo.svg",
+      "size": 337,
+      "sha256": "8cfa0b1482040a3a9721ac2670f26f65f580fc23f4a93617cee3db93e6c55986"
+    },
+    {
+      "path": "assets/flags/jp.svg",
+      "size": 189,
+      "sha256": "a40c958a1bdaf8a53686c399f73270dd1da35f160c5d8ee4286857d776f0af92"
+    },
+    {
+      "path": "assets/flags/kh.svg",
+      "size": 254,
+      "sha256": "a1cfbf023315c331141182adcf2f22d46ba91f7ef113a6c3dfb68a50787cdef2"
+    },
+    {
+      "path": "assets/flags/kr.svg",
+      "size": 269,
+      "sha256": "c4138915bbff9f751d316e7e49e852fb1475d8e03ad4e692ebd3fe57929d1469"
+    },
+    {
+      "path": "assets/flags/np.svg",
+      "size": 315,
+      "sha256": "b9c5e6a21c7f78fa589238eae34959dae020850d53a3da08b9c3dcf380705de2"
+    },
+    {
+      "path": "assets/flags/pe.svg",
+      "size": 245,
+      "sha256": "8cb883119484b5dbaeec4146714180d3fbcc767be723bc558db55dcd326fdd42"
+    },
+    {
+      "path": "assets/flags/sg.svg",
+      "size": 286,
+      "sha256": "a1df836837e4609ed4ca4f6dea83bc3aad6621c0812b17b10c927a76d615fe58"
+    },
+    {
+      "path": "assets/flags/th.svg",
+      "size": 248,
+      "sha256": "d57b70e9438e71d4d163cfaa9821cd3f4a139e2669f1083d56666f30159437be"
+    },
+    {
+      "path": "assets/flags/tr.svg",
+      "size": 327,
+      "sha256": "fa161b83d7855727a6253a5f5c26ad8bbbff7e8fd68e2f3a4fb87624a158206e"
+    },
+    {
+      "path": "assets/flags/tw.svg",
+      "size": 280,
+      "sha256": "4f512f6c6965fc4794f2dec4d3ce21d78bc67f5ce4c9a31838b2deef82ef626b"
+    },
+    {
+      "path": "assets/flags/us.svg",
+      "size": 879,
+      "sha256": "eb7fec2bb12db5f26997c7ad9d4ba970b12b8257025b3e65b255ed92522e0b20"
+    },
+    {
+      "path": "assets/flags/va.svg",
+      "size": 267,
+      "sha256": "1fa9f00ee927181a0ece0a6281506f318b88f2eecde13f2f5d3a744f3f1de1ec"
+    },
+    {
+      "path": "assets/images/photo-placeholder.webp",
+      "size": 4974,
+      "sha256": "3a06c190c48ea674104f4fcd21393af133bd3f72f9355fe60f827bc3f270e78b"
+    },
+    {
+      "path": "assets/images/retail-logo-directory/logo-sheet-01.jpg",
+      "size": 292825,
+      "sha256": "7d98e1230f30c4814f3db21050b306c9eb969736ff818b0a7058ef2d1936d374"
+    },
+    {
+      "path": "assets/images/retail-logo-directory/logo-sheet-02.jpg",
+      "size": 309508,
+      "sha256": "e6d71d4f4923631c1b628f21a0f910d7d2a3e2e08a3cca8e2827392dadba069b"
+    },
+    {
+      "path": "assets/images/retail-logo-directory/logo-sheet-03.jpg",
+      "size": 287919,
+      "sha256": "dd31e17acc99ea39b003f2bbde2e17a9e3a468fa2de1e66d3aa5386382d9fc23"
+    },
+    {
+      "path": "assets/images/retail-logo-directory/logo-sheet-04.jpg",
+      "size": 293349,
+      "sha256": "5a53371159d44de8ebc04f738e86c96904fcf438cfa81338849a52509052d3e9"
+    },
+    {
+      "path": "assets/images/retail-logo-directory/logo-sheet-05.jpg",
+      "size": 294762,
+      "sha256": "e9bbf2310423402d7f0819c7cba46722bce2b543d2f3b6a0903bbfbcd5ccaa8a"
+    },
+    {
+      "path": "assets/images/retail-logo-directory/logo-sheet-06.jpg",
+      "size": 281653,
+      "sha256": "5f5050fa24538c8b2e396c653c8ef93fcad6ec3d8a063de9eebf15c156668cb0"
+    },
+    {
+      "path": "assets/images/retail-logo-directory/logo-sheet-07.jpg",
+      "size": 306256,
+      "sha256": "cb618b6c9f59d34135373dcfaaa7aa9e787c36017a99c981c8b06f1ad4da9bc9"
+    },
+    {
+      "path": "assets/images/retail-logo-directory/logo-sheet-08.jpg",
+      "size": 309889,
+      "sha256": "428d611dcf577aefd54b867627d94ac3d5573652f11ea6ab649bb315c328b762"
+    },
+    {
+      "path": "assets/images/todays-journey/earth-074-oman-aflaj.webp",
+      "size": 467364,
+      "sha256": "6783a48a7d4efc1fdf291c42a063db9bba26f9170841409f9eb178fb025ca91b"
+    },
+    {
+      "path": "assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js",
+      "size": 231425,
+      "sha256": "dbb184d7d245d0b18f4c8cff16acdb1c1d248da28d0a79493ab67ac9f08600b0"
+    },
+    {
+      "path": "assets/js/daily-retail-showcase-v1.js",
+      "size": 10996,
+      "sha256": "005eee7b3c5558e5576d5fe78066bcabbaf44c4899c325221ba881055b585b31"
+    },
+    {
+      "path": "assets/js/market-base-build.js",
+      "size": 479,
+      "sha256": "b424c287daf2673bcf2bf1b3dd1092aff6009784979695a09d4ba90f08cb9345"
+    },
+    {
+      "path": "assets/js/market-base-daily-company-slot-r11361.js",
+      "size": 12347,
+      "sha256": "04cded688eea04e6fea25b5ea3fe6ab6fafe554ac87c823856cb5268dec44bc3"
+    },
+    {
+      "path": "assets/js/market-base-daily-company-target-r11349.js",
+      "size": 2269,
+      "sha256": "fca781dc714cb17bcd9e00309c2e950397a0afe00f6428b05d897d210504423c"
+    },
+    {
+      "path": "assets/js/market-base-daily-fortune-r11363.js",
+      "size": 3700,
+      "sha256": "f52282c22e70ab868dc2251328a3360742b7445c824de403047873483872fa35"
+    },
+    {
+      "path": "assets/js/market-base-desktop-icon-nav-r11337.js",
+      "size": 6077,
+      "sha256": "254d73d228dfc9e54aa3025131328f8bdf8ac66eeb167758b96619225ab85e87"
+    },
+    {
+      "path": "assets/js/market-base-news-tabs-v1.js",
+      "size": 11042,
+      "sha256": "88c2addc401cfd0e9cd562affd8bd80072cbf3bdbb46b9e321d218e8c4823633"
+    },
+    {
+      "path": "assets/js/market-base-pc-unified-shell-r95-v1.js",
+      "size": 1585,
+      "sha256": "412643dd85686d9e3257dd579d6321b50128b880a7cf0f47f32acc59cb42edb7"
+    },
+    {
+      "path": "assets/js/market-base-runtime-r11348.js",
+      "size": 1985,
+      "sha256": "b3f8b5eb5635326ee1fdb7d048f582eb7a26a22c2e7bad19cc25ae252a696923"
+    },
+    {
+      "path": "assets/js/market-base-scroll-controls-r11328.js",
+      "size": 4269,
+      "sha256": "3a6c6942439dd9457887cc2041e61861c07e2ddd8291e51b1a94f3cf7b779927"
+    },
+    {
+      "path": "assets/js/market-base-weather-panel-v005.js",
+      "size": 96847,
+      "sha256": "96338d14bbf23bbe0d3c13edbeb4b0011b01710d33e2dba3e02ec61b0421a2be"
+    },
+    {
+      "path": "assets/js/news.js",
+      "size": 25658,
+      "sha256": "cba4f3b1efb6922c3896328a558a48af8b13a7a0e298d320f7d15285092ce3c0"
+    },
+    {
+      "path": "assets/js/photo-registry-v1.js",
+      "size": 10257,
+      "sha256": "e36d6331b17690717b05d3ccada1a556329bb444a1c98ce5360f1a7a276bd7aa"
+    },
+    {
+      "path": "assets/js/prism-calculator-integrated-r1136.js",
+      "size": 45709,
+      "sha256": "8745540b3eaec5a1690c6ef0bd0b46a96dfa4c3073b2ec7cea041cbce7dfcd26"
+    },
+    {
+      "path": "assets/js/reading-highlights-v1.js",
+      "size": 15222,
+      "sha256": "7675349e2f75a310cd419dfde565d5093a2fb5d7b9694ffa05d1b344e0654735"
+    },
+    {
+      "path": "assets/js/retail-logo-directory-r11379.js",
+      "size": 5108,
+      "sha256": "0eb09ef3cd6fbfd5e688c1fb79a8498e4238d20536d594dfaea5fb9f68fdd536"
+    },
+    {
+      "path": "assets/js/retail-store-gallery-v2.js",
+      "size": 9043,
+      "sha256": "5713bb0938d285ce39d9f1210fcf16ec772092b964ea4ed2e0929239315ac11a"
+    },
+    {
+      "path": "assets/js/specialist-header-unified-v273-r30.js",
+      "size": 1315,
+      "sha256": "9a67905eda54175a73dce778bdab641d37d4b4f3fcfb396dcef9029ffcb5f011"
+    },
+    {
+      "path": "assets/js/world-compass-country-capitals-r11311.js",
+      "size": 37497,
+      "sha256": "3bf4311d0b8b02522cedbeb6b32e65159ae351814d98572bba3fd4b3a96d576f"
+    },
+    {
+      "path": "assets/js/world-compass-r11311.js",
+      "size": 33973,
+      "sha256": "12c950f845faa5f693a14a417fcdff36e10f6b96f8066d15350cf97485efebd7"
+    },
+    {
+      "path": "assets/js/world-history-learn-r11330.js",
+      "size": 24403,
+      "sha256": "761f294b664cae8b95b3006c99deac45c8a9bcc7f751a7bd2122d0158698d7d3"
+    },
+    {
+      "path": "assets/js/world-why-learn-r11327.js",
+      "size": 3143,
+      "sha256": "f9f5cba76fe8e6d22964163bf152f804fd33b7842d0c2577aa82163467a39112"
+    },
+    {
+      "path": "assets/maps/world-map.svg",
+      "size": 66596,
+      "sha256": "73dc2de30462cc804d282dc48b7a30694526c45d4e4f08dbf5f2673c9a041cd0"
+    },
+    {
+      "path": "classic-move/app.js",
+      "size": 10339,
+      "sha256": "3a64816c36a2676fa2c689b59ee89f20fd309c17f4e696b7c95aec81e73ef7d6"
+    },
+    {
+      "path": "classic-move/data/classics-reading.js",
+      "size": 27919,
+      "sha256": "e0ea815472210ae2aab9a53af95b90e610d9e8bdc96d9ba31cd13191f1b08cbd"
+    },
+    {
+      "path": "classic-move/data/classics-reading.json",
+      "size": 30662,
+      "sha256": "037cae92030863c61adee31de17dd32764bbce83f1f291e7f7d543606a5b9e1d"
+    },
+    {
+      "path": "classic-move/index.html",
+      "size": 4294,
+      "sha256": "4e6fd585632417d8bcc3c9941cd87e235cbe2040a4b6399d8467194d2242d378"
+    },
+    {
+      "path": "classic-move/styles.css",
+      "size": 19133,
+      "sha256": "dd3addd6e3ce973e1afd71db679ed5704075e767392daeec1fd32d28a6028d0f"
+    },
+    {
+      "path": "cvs-vendor-v273-db-title-r27.html",
+      "size": 1985156,
+      "sha256": "b28b9b4116956e86cb35b005736d71b3e651033cfa5eb5cb6fa190a29dfafe87"
+    },
+    {
+      "path": "data/country-local-rules.js",
+      "size": 335300,
+      "sha256": "00f0a62caab57ab8a65d6f2a6d95ed4e48b98842bfcb67245aa5f4245f5f1613"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/airlines.json",
+      "size": 10354,
+      "sha256": "a04e0aeffd3ca73a88247821201951efb86efdf5947ba1faca24ba62f38ff45c"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/airports.json",
+      "size": 61537,
+      "sha256": "396337a56275215845fb4afdf2c7a86ce61ffd2002bc8fcc9ec5da42cc2b62e8"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/company_cards.json",
+      "size": 161890,
+      "sha256": "254ba9143d30fa594ef2f4a0a5a77b24d4a0bcf3ecb2e5663a342df33749e267"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/company_details.json",
+      "size": 794017,
+      "sha256": "421c97072d1ba6b8650f8a82f1be1544cec6ec0b394b9d50919272464e0d6d55"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/facilities.json",
+      "size": 213576,
+      "sha256": "d6f247a5c98817d41b0f7392aaa1b7d73dce49a77e18e143f7d4b61037729fa2"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/food_scope_flags.json",
+      "size": 161380,
+      "sha256": "6816c521c11594e228e7cfc3a8fbcdf9b389ef0aea1a70030bbb629ca5df6b28"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/json_manifest.json",
+      "size": 1852,
+      "sha256": "6e6e9e20d04dc8f7ab8f184405a464b5b772a1de5526ab8b9da6de08d26e4e55"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/menus.json",
+      "size": 42968,
+      "sha256": "f58a0363de51cc017f780f90e5d1f9b0245cf2aa55548081acb118adad355433"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/metadata.json",
+      "size": 871,
+      "sha256": "e0d6e6066a46af543f6257ec97857b567b4e520ec8b3146ffd5a037364a9133c"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/non_airline_food_business.json",
+      "size": 35561,
+      "sha256": "d121b23246ceb73605d2b287b31d02fa7c5b8bdb90bf2ec946220c075658639f"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/projects.json",
+      "size": 28346,
+      "sha256": "8c0238c5260c7a00aef49adae117045b95431284bef6f416d8cc82276eb942df"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/search_index.json",
+      "size": 153311,
+      "sha256": "f65f7ae56711974a5a9c73008a7b78022456554aa5d192ea7107c8e582176150"
+    },
+    {
+      "path": "data/flight_kitchen_public_ui/ui_sections.json",
+      "size": 1019,
+      "sha256": "18c32eb0246f33fa0491b94cfe4f44a77a0e7835bf9d88d2d29275e59b39d113"
+    },
+    {
+      "path": "data/images/PHOTO_RIGHTS_BLOCKLIST_R11345.json",
+      "size": 3571,
+      "sha256": "0e6e50f7c81e8f06d075b022d11e3e60eb18460e2b5a3acc6c312d103c1ccdf6"
+    },
+    {
+      "path": "data/images/photo-registry-embedded.js",
+      "size": 575793,
+      "sha256": "c1adcbb906ec4c07db60a9fa3b4584ea2b8cb18d730ff457f8506f762ddc8057"
+    },
+    {
+      "path": "data/images/photo_registry.json",
+      "size": 701264,
+      "sha256": "dbfc9392b836f6c67ba42fdddfba576a2b5ec1ffd34daec8c3491f0995a1c502"
+    },
+    {
+      "path": "data/images/todays-journey-image-manifest-r11370.js",
+      "size": 864109,
+      "sha256": "146a74a744e7a1990d7ffe2eca423588bf0ab4175910c1fbdfcfb1fd391b5878"
+    },
+    {
+      "path": "data/japan_food_machinery_db_v075.js",
+      "size": 1031470,
+      "sha256": "9ea01b642820a1611b2de55822b812802d231e7237f4eb8eb92adff3f7c3fa50"
+    },
+    {
+      "path": "data/japan_food_machinery_db_v075.json",
+      "size": 1031421,
+      "sha256": "df23120d57d900b9cab111f3b529f96e4ae89a66d341bbd2d24479629860ac84"
+    },
+    {
+      "path": "data/market-base-daily-company-200-r11349.csv",
+      "size": 52758,
+      "sha256": "3b768be25000cfb222a01083d6237513a3f3a6339df9da7178dc4ba7af88b9fe"
+    },
+    {
+      "path": "data/market-base-daily-company-200-r11349.js",
+      "size": 88967,
+      "sha256": "4132574ce852ddd0e8c2dededb448dc0254ed811e4f269b0c2910f96038affc4"
+    },
+    {
+      "path": "data/market_base_entities_basic_stats_full196_rc.json",
+      "size": 1281195,
+      "sha256": "58ef295ba5971fa045a9f374ebb31ec819f5c46e3d8366437a74e46bd87e2eda"
+    },
+    {
+      "path": "data/market_base_income_groups_world_bank_fy2026_v48.json",
+      "size": 171809,
+      "sha256": "9c7f984a964461c8f367a54a35e5573317d2cbda06904c62af3805cd975f358d"
+    },
+    {
+      "path": "data/market_base_japan_related_data_v1.json",
+      "size": 843818,
+      "sha256": "921db10f878707c10fbdb574a88f15969f5cd2f3599b0d9dd214a4e238b4c371"
+    },
+    {
+      "path": "data/market_base_japan_related_rankings_v1.json",
+      "size": 309265,
+      "sha256": "4f153218a0714482f012386272631fadcea5720b7a24323ba1357d9f19e421ab"
+    },
+    {
+      "path": "data/market_base_japanese_restaurants_overview_v1.json",
+      "size": 15347,
+      "sha256": "c623185b267397da097eb023ddce20c5ff294b05c0d190d9c6313bcbae74ac0a"
+    },
+    {
+      "path": "data/market_base_overseas_japanese_residents_overview_v1.json",
+      "size": 36552,
+      "sha256": "df06640d6fc5fd799eb355af848148d2b970bbcb2bda3bea0da53b9c8f719eaa"
+    },
+    {
+      "path": "data/market_base_priority4_ready_staging_v92.json",
+      "size": 906489,
+      "sha256": "125811594231221a601db36f83cd37dba58b8211b92b2a70db0e9431e253677f"
+    },
+    {
+      "path": "data/market_base_rankings_basic_stats_full196_rc.json",
+      "size": 654640,
+      "sha256": "2f594151e99ad42cdfdb42f1ce8e954295f4c01465f260991b4afba29ac89ac7"
+    },
+    {
+      "path": "data/market_base_retail_channels_full196_rc.json",
+      "size": 6023998,
+      "sha256": "9f4e5b7f1a990f508b2f97b7153126feab25a21c10ff8a08c172c50ca0b395fe"
+    },
+    {
+      "path": "data/market_base_retail_country_card_summary_CURRENT.json",
+      "size": 276449,
+      "sha256": "9770b6e12bd4e1f0e28af76db1834c1dfaa7ea22be5c9c6bff48a4e67b95bdeb"
+    },
+    {
+      "path": "data/market_base_retail_presence_master_CURRENT.json",
+      "size": 3363716,
+      "sha256": "99e4f0bc360c8c018eb76b9ad5b87ed707062e88d110bc20cce39ff6934920af"
+    },
+    {
+      "path": "data/market_base_retail_profiles_CURRENT.json",
+      "size": 512667,
+      "sha256": "a8bccf915f32b1100bd4c8808abcf29e5c5b2425cd71c9fcfa077ce87b7f4db0"
+    },
+    {
+      "path": "data/market_base_rice_data_CURRENT.json",
+      "size": 1235521,
+      "sha256": "9c31cd523067d86172a44cb66fa17c49995a7114a87fe0be509a216d308fc24d"
+    },
+    {
+      "path": "data/market_base_rice_rankings_CURRENT.json",
+      "size": 968297,
+      "sha256": "69b1f2f884fcc8ecbbf1bad1a5a9a744bae98d4efdf51345dfb837930cbc4ef2"
+    },
+    {
+      "path": "data/market_base_school_meals_data_CURRENT.json",
+      "size": 344220,
+      "sha256": "7b71ca13956d5554e457b113465d7a8f31ce2f05e710b1e80bef14e093a013cb"
+    },
+    {
+      "path": "data/market_base_school_meals_data_v1.json",
+      "size": 265171,
+      "sha256": "4a57700445bff8b8612cba50ebbcf6ceb9354b11b078d97a8ee76084039fedf8"
+    },
+    {
+      "path": "data/market_base_school_meals_data_v94.json",
+      "size": 298481,
+      "sha256": "f4df3a3dc732ff939fab620958657c7578894117435ea579e6d72782b937d823"
+    },
+    {
+      "path": "data/market_base_school_meals_rankings_CURRENT.json",
+      "size": 103461,
+      "sha256": "18add62352d6ab34e76ebfe067e155f766ef1965091a296ed02682de68aff2d5"
+    },
+    {
+      "path": "data/market_base_school_meals_rankings_v1.json",
+      "size": 54980,
+      "sha256": "f1ae05d3a1faaa1b98dedb932363f9e584640ae89930608d7549449b08cd02ff"
+    },
+    {
+      "path": "data/market_base_wdi_country_metadata_v1.json",
+      "size": 178014,
+      "sha256": "a0839ba1c73a8a4e58740baaae670d924902ecf95b0bea61d8cd2667c6ffb7c2"
+    },
+    {
+      "path": "data/news-tabs-ja.js",
+      "size": 17735,
+      "sha256": "b3d4c98395391a6f8853c60a6372369533cb5b31fd0ac2463630d6478ddd1180"
+    },
+    {
+      "path": "data/news-tabs-ja.json",
+      "size": 21949,
+      "sha256": "ce3af7d9aa1668a81f13d442f2496e4a9aaed28a0b63003c3eda1718be070538"
+    },
+    {
+      "path": "data/news.js",
+      "size": 26773,
+      "sha256": "f908191fe6c69a76d91289bcb9fb60dec31a2a7eaaf7f07c512cadea3b03f753"
+    },
+    {
+      "path": "data/news.json",
+      "size": 32327,
+      "sha256": "e9ef1a6f3cc2a26e1e49909fb8503f99c2bf8b0d0c3f084b81eeba7539ce9225"
+    },
+    {
+      "path": "data/news_sources.json",
+      "size": 19280,
+      "sha256": "1328d39f40d89ff093746cef26c7603e637b6a1f80508abe62679dee78b780a8"
+    },
+    {
+      "path": "data/retail-logo-directory-r11379.js",
+      "size": 7891,
+      "sha256": "13be344ccad2137ece3865e1a567729c2b60a00ffc471349f826457e7bd88ab3"
+    },
+    {
+      "path": "data/ulce-data-v072.json",
+      "size": 1683043,
+      "sha256": "076112b641e2236bda1fc1f5471af7d81e8392b44094576d79024300a552ad42"
+    },
+    {
+      "path": "data/world-history-today-v028.js",
+      "size": 3939589,
+      "sha256": "0435dcfc5a0a9dc5f47883f4bd5c48e825a5d2140737fd2bf5de397d2db582e6"
+    },
+    {
+      "path": "data/world-why-365-v015.js",
+      "size": 217185,
+      "sha256": "31386aa2015c52e38f35595ae74f6b61be937c1ae8b1a61ec015458fddb659d3"
+    },
+    {
+      "path": "embedded-country-profile-data-v273-r28.js",
+      "size": 831567,
+      "sha256": "18479e5bf2867869274dd697c7132bab5d96640144d12688f6443a58f1968b27"
+    },
+    {
+      "path": "embedded-cross-db-search-index-v273-db-title-r27.js",
+      "size": 4360830,
+      "sha256": "955f2de6dc7a4d950e8bac2a1e3c765d87d93dfbe4d068cb33bce63917bb4db3"
+    },
+    {
+      "path": "embedded-data.js",
+      "size": 5391435,
+      "sha256": "e3d5fb0f70ee5abfaaaab09d0967714af4259022de3c8ca44d501554afe8d5dc"
+    },
+    {
+      "path": "embedded-prefecture-reference-data-v273-db-title-r27.js",
+      "size": 106316,
+      "sha256": "aaa264196c24cb82d43caf5e40ac452cf110ad62fa886a49acbe5c9dd5a864f1"
+    },
+    {
+      "path": "embedded-retail-country-card-summary-data.js",
+      "size": 210460,
+      "sha256": "1214d347441e442fe173d20e992845b1af05fa071e4a0764aae0c5f52cdee039"
+    },
+    {
+      "path": "external-db-links-v273-db-title-r27.js",
+      "size": 1718,
+      "sha256": "baf9df86c9f51c0557f6b5680da802b68a8e583074d7faff37808487586ba76e"
+    },
+    {
+      "path": "flight-kitchen-v273-db-title-r27.html",
+      "size": 936948,
+      "sha256": "533cd15b3999a3cee884e5effb7a5670da2553775aa7c5bce1680405d4634b91"
+    },
+    {
+      "path": "food-machinery-import-search-v273-r32u.js",
+      "size": 17917,
+      "sha256": "b821845d09540d9753890209b4548764a7fa22f0ff29cfb451441682bc4eae54"
+    },
+    {
+      "path": "food-machinery-import-v273-r32u.html",
+      "size": 407403,
+      "sha256": "9c493a4a36b2d4051c3b9c09cfb48a7f69a7d0fcc0af7dbad679ab1388c350d8"
+    },
+    {
+      "path": "gohan-food-manufacturers-v273-db-title-r27.html",
+      "size": 1946958,
+      "sha256": "2609aa8cde7f3ef4ddfe875e52beadaaab9e26db552681e5615d18a96f84396c"
+    },
+    {
+      "path": "haccp-quiz/assets/haccp-market-base-r11356-tune.css",
+      "size": 861,
+      "sha256": "c6cc426b0285b8e44e59f814c8e81f0f773dcca1b341ef1906cc79852b1ff601"
+    },
+    {
+      "path": "haccp-quiz/assets/haccp-quiz.css",
+      "size": 12389,
+      "sha256": "fc3e95e87283536c52eb46cd0687e101b7a9530c260165f3955313e2c24f865f"
+    },
+    {
+      "path": "haccp-quiz/assets/haccp-quiz.js",
+      "size": 20664,
+      "sha256": "1279f6986e8aa6dc6c926f0483956813fd198b4a0c31aa275f444a47d361473e"
+    },
+    {
+      "path": "haccp-quiz/assets/market-base-ui-base.css",
+      "size": 4636,
+      "sha256": "eb28652583540eb034450b3892b2366956509ad92ccc92f6d6d19d78e43d18fe"
+    },
+    {
+      "path": "haccp-quiz/assets/market-base-ui-base.js",
+      "size": 600,
+      "sha256": "b19925858274bb4e8384faa4a1fac8e318a939da62beadf5b9907015973e15ed"
+    },
+    {
+      "path": "haccp-quiz/data/haccp-quiz-data.js",
+      "size": 362960,
+      "sha256": "0ed764a26a44938b858e4f0aa9c6ad41c82e325274fd77ea3531d90477fd41bf"
+    },
+    {
+      "path": "haccp-quiz/data/haccp-quiz-data.json",
+      "size": 439051,
+      "sha256": "f848d53b07d6f61dba5b7208b689faadb01e701ac217fe800bd1e8c540c5bcdd"
+    },
+    {
+      "path": "haccp-quiz/index.html",
+      "size": 6374,
+      "sha256": "3ddccbddf094a9ed43b92de478ed3d4af44f4642495f8bc19f8757dd4ba33fe0"
+    },
+    {
+      "path": "hs-learning/assets/hs-app.js",
+      "size": 26717,
+      "sha256": "889c4efd28b5c66625f66ede95a4da58af61cf1fcb9ebb3bd62a8dd2b8a8c504"
+    },
+    {
+      "path": "hs-learning/assets/hs-base.css",
+      "size": 58533,
+      "sha256": "c8bbdce68774110af263ae49413a83c45f92da509b2f63dc26d37b2038f22c65"
+    },
+    {
+      "path": "hs-learning/assets/hs-data.js",
+      "size": 567650,
+      "sha256": "f2f68bde05c8adcd8b0e2c6bfebb13d4d19dd6d7c32b209942a030879dce7a2f"
+    },
+    {
+      "path": "hs-learning/assets/hs-integration.css",
+      "size": 4123,
+      "sha256": "26c6b3dbbbed3563df56cffce0996ea184b9148d727b7b82a48e2051ca14e271"
+    },
+    {
+      "path": "hs-learning/favicon.svg",
+      "size": 712,
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
+    },
+    {
+      "path": "hs-learning/index.html",
+      "size": 6763,
+      "sha256": "5a83956041f534328ffbfbef2e6f52cd52d3ce69b071782fcd85897580eee4fc"
+    },
+    {
+      "path": "icons/apple-touch-icon-180.png",
+      "size": 16055,
+      "sha256": "62001c0ebabb48a4fcbdaa2fdd92f723234759027b97325929f1fd4b916952e9"
+    },
+    {
+      "path": "icons/favicon-32.png",
+      "size": 2865,
+      "sha256": "baed383353c1a1d2fb65d9a0e0fd747a064101efb05fb1debd6970a782b87075"
+    },
+    {
+      "path": "icons/market-base-icon-192.png",
+      "size": 17135,
+      "sha256": "e82d37c50245001384d1e44708deef35bb30904027ed17d3727f992254330b84"
+    },
+    {
+      "path": "icons/market-base-icon-512.png",
+      "size": 41285,
+      "sha256": "f6740f97685868563fb2f7ba97e9c777a043838e10886e8f29c52c51d5aabaf3"
+    },
+    {
+      "path": "imported-food-machinery-v273-db-title-r27.html",
+      "size": 1351396,
+      "sha256": "b73b5b4870cbcd1b492e7cb38ef47ab1880a877a3a1d3667ef876334bedf7720"
+    },
+    {
+      "path": "index.html",
+      "size": 66720,
+      "sha256": "967326e098aa4b32799f675446f72784d4b91eae929bd7f9c34c5db5f94d0e98"
+    },
+    {
+      "path": "international-logistics/assets/_vinext_fonts/geist-8ac0455e797f/geist-001175b1.woff2",
+      "size": 16540,
+      "sha256": "58a6b173d5ca1dec92166ea3c6cb1a84a4144556d10928ac14e8e6b40e4787bd"
+    },
+    {
+      "path": "international-logistics/assets/_vinext_fonts/geist-8ac0455e797f/geist-52306abf.woff2",
+      "size": 7968,
+      "sha256": "f689f638f29fff460a2d5749edb5d5c38d7bef0389f32032d871f23fc6ebb008"
+    },
+    {
+      "path": "international-logistics/assets/_vinext_fonts/geist-8ac0455e797f/geist-875ccdd4.woff2",
+      "size": 14900,
+      "sha256": "6129fc8571c3e0cb0a4c41f5160c974a843b055009dc4ad8858bd808e18a2d86"
+    },
+    {
+      "path": "international-logistics/assets/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2",
+      "size": 29288,
+      "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608"
+    },
+    {
+      "path": "international-logistics/assets/_vinext_fonts/geist-8ac0455e797f/geist-ff2310f5.woff2",
+      "size": 7252,
+      "sha256": "b7a545bbb08256bd809f11cfe66d88da3e22d169ea4407737b1ef0ec1ed3d791"
+    },
+    {
+      "path": "international-logistics/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2",
+      "size": 23108,
+      "sha256": "5f3d6ad60f29d6cb708414ec6887163d63bf197377ef5417d2483ff31ace6c3b"
+    },
+    {
+      "path": "international-logistics/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2",
+      "size": 5892,
+      "sha256": "d67e4a94ba498635f764ddca7d1ec4271f5642f032eb24b426764480f66f8497"
+    },
+    {
+      "path": "international-logistics/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-44745446.woff2",
+      "size": 14712,
+      "sha256": "745994b5cd950ec201b66526375f057d540847cccfc70f4f24f5f571d26d3923"
+    },
+    {
+      "path": "international-logistics/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2",
+      "size": 12872,
+      "sha256": "75b3bedbebc35f347c0ae3b416aa871941555357e7b0f83767eb5987875589ed"
+    },
+    {
+      "path": "international-logistics/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2",
+      "size": 7728,
+      "sha256": "16e1d48b6dd29eb240aec5db36184eb182933c082cd43de7f35af686d58087d2"
+    },
+    {
+      "path": "international-logistics/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2",
+      "size": 6204,
+      "sha256": "e27f657e38d52887baa3b6b2f812bef93dfdd356f0810e40edd4ee284cc7e9f6"
+    },
+    {
+      "path": "international-logistics/assets/export-learning-content-r11352.css",
+      "size": 12782,
+      "sha256": "45cd5f1869dc8b1af451ec40d6aa4677b136afb43c85c82a8668760a2985396b"
+    },
+    {
+      "path": "international-logistics/assets/export-learning-corrections-r11355.css",
+      "size": 2910,
+      "sha256": "61b51bec0fc01630480a32f81cec998e216ffa167febe58721d2755898238a55"
+    },
+    {
+      "path": "international-logistics/assets/export-learning-final-r11354.css",
+      "size": 1758,
+      "sha256": "6f0a9327ee2b724bc70d53c54107b323b38ec9e6a5eef93d04482aae3776e63c"
+    },
+    {
+      "path": "international-logistics/assets/export-learning-machinery-r11353.css",
+      "size": 5042,
+      "sha256": "1a0f2243131152b7e85e8473d2e0ff47761859623ce1c99af554671784aeeefe"
+    },
+    {
+      "path": "international-logistics/assets/export-learning-structure-r11351.css",
+      "size": 3006,
+      "sha256": "e3ddd5e8228fc1bbc906a7fa8922d77798495ef465ac1f994841528cc3c8a9ed"
+    },
+    {
+      "path": "international-logistics/assets/framework-CXnKph_e.js",
+      "size": 189805,
+      "sha256": "73b45b606448e4dc310fbe851d8089ee752f3eb081980b3a6fec88988820ee12"
+    },
+    {
+      "path": "international-logistics/assets/guide-mobile-fix-r11321.css",
+      "size": 2197,
+      "sha256": "ccbea2fd12efba06eb549810ed95d7906792233a71aaa94ed4337a1d4d9d03a4"
+    },
+    {
+      "path": "international-logistics/assets/index-BS51M8Cd.js",
+      "size": 80974,
+      "sha256": "6feb6ef008776945a3d3fd7ae8510d85a252b7ad14811aed7b77f1ec14d65891"
+    },
+    {
+      "path": "international-logistics/assets/index-tZ-kWTkJ.css",
+      "size": 32376,
+      "sha256": "b25e7cbe973a5e3b33b574d3f8be0ca10515fcfbab15dfbcd0fb8d722011a3d8"
+    },
+    {
+      "path": "international-logistics/assets/layout-segment-context-2pBN70zn.js",
+      "size": 288,
+      "sha256": "142e777bb59be688fc5e00231db05b2685c3c48855566e2c6bb0657f88cf0328"
+    },
+    {
+      "path": "international-logistics/assets/logistics-bottom-menu-lock-r11315.css",
+      "size": 1610,
+      "sha256": "d3c96c77d6ac105163b921c5606b203c939f78663cd1cc305080922e1f580580"
+    },
+    {
+      "path": "international-logistics/assets/market-base-link-bridge-r11314.css",
+      "size": 2297,
+      "sha256": "76ee4218b00b844c0705f5c2e03c9f5c4997748e38a675f56e2d2336f8c7e1e3"
+    },
+    {
+      "path": "international-logistics/assets/page-BVnzP5A0.js",
+      "size": 27653,
+      "sha256": "96bb78aca6084f8c6617431123b2cf6deb75e76508ac72b39424781299e1df3a"
+    },
+    {
+      "path": "international-logistics/assets/rolldown-runtime-S-ySWqyJ.js",
+      "size": 694,
+      "sha256": "5db5ba82eef00d1dee7e86e663098c9427d01183a88d357437daff295aec3e75"
+    },
+    {
+      "path": "international-logistics/assets/site-header-DGOsUJcw.js",
+      "size": 626,
+      "sha256": "c024eafcea1f445bf94cb7a7bd965144227e8ca6e955adc0b578ba790df68515"
+    },
+    {
+      "path": "international-logistics/favicon.svg",
+      "size": 712,
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
+    },
+    {
+      "path": "international-logistics/guide.html",
+      "size": 141257,
+      "sha256": "fef46148c671141fba87f36e8e438de19bb0bf24aff41eebbe41ed8891577f17"
+    },
+    {
+      "path": "international-logistics/how-to.html",
+      "size": 11500,
+      "sha256": "c0119dd672c386f7fe61795e0332094c94ffb4f99ff34f54d60180d644cc7cbc"
+    },
+    {
+      "path": "international-logistics/index.html",
+      "size": 40253,
+      "sha256": "88abc96bdc86195bd1a85b6bce6ee81d0cdaf15bc0d63fdddd04559b16b50a5e"
+    },
+    {
+      "path": "japan-food-machinery-v273-r58.html",
+      "size": 31754,
+      "sha256": "d79116684df65eb2b0b151de9c71e692c189d318ea5c9ae6ad43c217689401a6"
+    },
+    {
+      "path": "machine-container-packing/assets/machine-container-packing-integration-r11343.css",
+      "size": 1087,
+      "sha256": "de0ef55b2f2ea2085313ee6f4a821609ef3f1deda26ab76eaade37fd8bfdad30"
+    },
+    {
+      "path": "machine-container-packing/assets/machine-container-packing.css",
+      "size": 25050,
+      "sha256": "aa01b006fb83838e80bd4e27ec71994bf53d48e6944f49fdfd14fe2bbb30ec7a"
+    },
+    {
+      "path": "machine-container-packing/assets/machine-container-packing.js",
+      "size": 43082,
+      "sha256": "0a6d0ab707718f15fd1336f52e0f8626bdcfe75ecb4e8ef82c23acf62c9186f0"
+    },
+    {
+      "path": "machine-container-packing/assets/market-base-ui-base.css",
+      "size": 13323,
+      "sha256": "8cf25758a267ea0c15e29e1c8c97ec8cc00894d19d9be1852ed71ed98b71fb6c"
+    },
+    {
+      "path": "machine-container-packing/assets/market-base-ui-base.js",
+      "size": 3139,
+      "sha256": "ed1bf6bfaf7e90e25e56055ce8fa2bd273cddfd2c023bf07ce4015a19d691daf"
+    },
+    {
+      "path": "machine-container-packing/data/machine-container-packing-data.js",
+      "size": 922282,
+      "sha256": "cfb245fba40988df52e9bb2e46510806cb9b3b657dc2e76413b597899a5b0b5e"
+    },
+    {
+      "path": "machine-container-packing/index.html",
+      "size": 15951,
+      "sha256": "00c1ceed8798656249db69440c76aefc168fc866c854316bb54fb5a74373fa4c"
+    },
+    {
+      "path": "manifest.json",
+      "size": 735,
+      "sha256": "076e9851d0b2562e55c529a7b95dc9556c1d172091c7118fc04e9b7ad0528449"
+    },
+    {
+      "path": "market-base-currency-converter-v273-r29.html",
+      "size": 63241,
+      "sha256": "5ed9118e002ea38a63d361d48f58f1dac3027db86a3a7aeb09be9dac6d254f82"
+    },
+    {
+      "path": "market-base-v273-country-profile-r28.html",
+      "size": 1379,
+      "sha256": "a2d13126cd3f06484b0f8221d938e9e5ade58fe4ff08ddd892cc1870d4f769c8"
+    },
+    {
+      "path": "material-check/assets/app.css",
+      "size": 18679,
+      "sha256": "e7d7509a65286c7adb9d3dd5991da57ee78583e420410f38e9a0cda1d6bce7c6"
+    },
+    {
+      "path": "material-check/assets/app.js",
+      "size": 66892,
+      "sha256": "823f7c278b25b630f6a39e7c7076848f2200002cc60ce96d6d2a1f2623d64d85"
+    },
+    {
+      "path": "material-check/assets/market-base-learning-r1131.css",
+      "size": 16853,
+      "sha256": "ca621cbcb4e3b2654d8ab6251085275da9d05ca946277feb0f5c7d4bf84a9200"
+    },
+    {
+      "path": "material-check/data/DATA_BUILD_SUMMARY.json",
+      "size": 365,
+      "sha256": "b728a1a39332a44d08f46898d961c2d0c19c381f3f0c735b001d24a5db3459ac"
+    },
+    {
+      "path": "material-check/data/material-check-data.js",
+      "size": 1168022,
+      "sha256": "3e4be7ab13da41073ee02ff18c30f3eadb0bf4a20b585bdbe1a8b1ff18d8a88a"
+    },
+    {
+      "path": "material-check/data/material-check-data.json",
+      "size": 1399803,
+      "sha256": "1225d9ff1c935fa92afeb9ea15afaf155282be84a6bb0f619c403af84bcddb12"
+    },
+    {
+      "path": "material-check/index.html",
+      "size": 31420,
+      "sha256": "9a1b7516df1c7523e9db02c7ce17812d6d8f5fefe2ff9568aecca1d6162b6de4"
+    },
+    {
+      "path": "material-check/material-check-standalone.html",
+      "size": 1299186,
+      "sha256": "ed30315e5e7818d9f51f6c0e1fd746ad36db04d3a58ec842df82ff32b95540d9"
+    },
+    {
+      "path": "news.html",
+      "size": 6876,
+      "sha256": "1c874b7a8d94357c9c542fb4b0e9cc1257426787dc9db0d8d7e87b6ca0ed4b51"
+    },
+    {
+      "path": "offline.html",
+      "size": 1082,
+      "sha256": "0132f3642d1f392e5204e768b8b1b59b31efffe27f90bcdafba188126d09b573"
+    },
+    {
+      "path": "rail-food-kitchen-v273-db-title-r27.html",
+      "size": 1194139,
+      "sha256": "edb620e5aa05563554343ef2558e972cd85dd8403dcbaacf667ef0f846b63c94"
+    },
+    {
+      "path": "retail-sales-v273-db-title-r27.html",
+      "size": 4479232,
+      "sha256": "490774f8f910ff56792cca937ea33788051edc70ce4450410d6ee73db9e9d4fc"
+    },
+    {
+      "path": "rice-additive-products-search-v273-r33.js",
+      "size": 207796,
+      "sha256": "532080824aa7991e1de92aaef891ddb5ed423b2202d39f56cd4f36c4fc0a1f18"
+    },
+    {
+      "path": "rice-additive-products-v273-r33.html",
+      "size": 729058,
+      "sha256": "b87ec3c3133ef4ad94fc8b323be31d1b0fe22471b28ccc7be2893cd2ef9faaa0"
+    },
+    {
+      "path": "school-meal-center-v273-db-title-r27.html",
+      "size": 640917,
+      "sha256": "88cc32605154fb17053c98de8d1c2317b1792f5f4986ecb34bf9eabbeca6ee9b"
+    },
+    {
+      "path": "scripts/__pycache__/update_news_tabs.cpython-313.pyc",
+      "size": 32557,
+      "sha256": "86943fd709af707a61e25be2c5d1278566d6baf090fdca59db3be84151ac00e1"
+    },
+    {
+      "path": "scripts/build_todays_journey_image_manifest.mjs",
+      "size": 20047,
+      "sha256": "615a64ec5115cb99ac8f6bdadac12b1c96fd567cdbbbedc32640b6c855aa0788"
+    },
+    {
+      "path": "scripts/news_tab_sources.json",
+      "size": 2901,
+      "sha256": "7476cc59a20d205fb2b2695d281a16f44cffc4115b95884b1e8aed497bb8d8ca"
+    },
+    {
+      "path": "scripts/test_classics_reading_runtime.py",
+      "size": 1804,
+      "sha256": "16dc627c288e2058cf8e0c83d9a6e09ba209c7a81268990f97024827e2fb79db"
+    },
+    {
+      "path": "scripts/test_currency_alignment.py",
+      "size": 8731,
+      "sha256": "5fbeff126925ce3daccbfd2a78f81d72722f6d3082b2dfcbb7538fcc34ee8e11"
+    },
+    {
+      "path": "scripts/test_half_pc_responsive.py",
+      "size": 5060,
+      "sha256": "00afc678425e3867fd69aa7e8c390bc2478bee8d9c6b7c9ef3da775758440266"
+    },
+    {
+      "path": "scripts/test_learn_reading_order.py",
+      "size": 2274,
+      "sha256": "5a32696eba9b187fd9d533c36e989d1d0a919848e52717750e3eb7295c873e37"
+    },
+    {
+      "path": "scripts/test_news_home_compact_layout.py",
+      "size": 1579,
+      "sha256": "95cc9a0ad98a891f86eb95dd2afc75257536666ec3c6f628d8aec3c8d32c48bf"
+    },
+    {
+      "path": "scripts/test_news_tabs.py",
+      "size": 8810,
+      "sha256": "deaffae0112eaff93adf672a6e96babd2bf4901ebfbd2e85e40011b61a2bfb9a"
+    },
+    {
+      "path": "scripts/test_pc_top_nav.py",
+      "size": 2366,
+      "sha256": "fc129017e76f584dfc4f79b2080c03137493958bd1d2821878c198292d3c9099"
+    },
+    {
+      "path": "scripts/test_retail_logo_directory.py",
+      "size": 3120,
+      "sha256": "e9bc014152a49229990a613bb8fa8b708fca767157bde81a3dbdf83b0bc855a8"
+    },
+    {
+      "path": "scripts/test_retail_photo_gallery.py",
+      "size": 2945,
+      "sha256": "6fd946bafa31a9e33c5782dc9dc78e01bd416ded04ddbd61fcd84d6a0e3e1abc"
+    },
+    {
+      "path": "scripts/test_standard_shells.py",
+      "size": 7562,
+      "sha256": "38086b13cde2ab07703584457786e1f3a237160cdcf64f4980ea9fc980d214dc"
+    },
+    {
+      "path": "scripts/test_todays_journey_images.mjs",
+      "size": 8627,
+      "sha256": "be70a135348ae3cf513f62237a905affc9fee628b4eb108ae684ca0b19fd172b"
+    },
+    {
+      "path": "scripts/test_world_route_smoke.py",
+      "size": 4469,
+      "sha256": "5d22398345503f31fb9c8d30e79d19c48ed18a4d0a07532a165f77d8a0b034cc"
+    },
+    {
+      "path": "scripts/update_news_tabs.py",
+      "size": 22538,
+      "sha256": "86b20dc18158f4a8221d36d7870b0b0f02ec73c079dbf962d2c2db9722e58276"
+    },
+    {
+      "path": "sw.js",
+      "size": 10532,
+      "sha256": "d5a2fda9b4cf7b00541fe614bdd8636f0e6d590195177e0c92704c01c165a867"
+    },
+    {
+      "path": "ul-ce-learning/index.html",
+      "size": 1386104,
+      "sha256": "00a3d1c7de54e5d317a7640a340c024c8864af9f91808a20d15f4bcc93aec47b"
+    },
+    {
+      "path": "world-compass.html",
+      "size": 18083,
+      "sha256": "e15b28f12a96a74770e589c3519fbf40e79b2461418b270458f402883c0cfdb8"
+    },
+    {
+      "path": "world-history-today.html",
+      "size": 5146,
+      "sha256": "04b9c0be6f1d3a37e1d41e4539e8f14e637feec6996551e8ad3c8e12afe80ba7"
+    },
+    {
+      "path": "world-route/images/alternate/01_TW_日本から台湾_別ルート.png",
+      "size": 135855,
+      "sha256": "6e6788cf4746e2e45d59911eb3c91f13c23872c6b437ad636b6b6ac6877de210"
+    },
+    {
+      "path": "world-route/images/alternate/02_KR_日本から韓国_別ルート.png",
+      "size": 127157,
+      "sha256": "a6cb75c1c40f452fc73c423d41a9f8ef0e1a7fbfb7719d60573cc33459737d4f"
+    },
+    {
+      "path": "world-route/images/alternate/03_CN_日本から中国_別ルート.png",
+      "size": 162171,
+      "sha256": "26b62e175de333b69ce821a365621ec1575bdd4eb5eb375d4d3ab521cba600be"
+    },
+    {
+      "path": "world-route/images/alternate/04_MN_日本からモンゴル_別ルート.png",
+      "size": 132890,
+      "sha256": "49c9516de3972820510288d0094d12d7349ed1e8aea6b4f6c4e99452fe3b96ca"
+    },
+    {
+      "path": "world-route/images/alternate/05_VN_日本からベトナム_別ルート.png",
+      "size": 164001,
+      "sha256": "7c987dc4c87dbce7844e53f5043d99f78b5ff7ff944de52e5d1f2774fe4bfed9"
+    },
+    {
+      "path": "world-route/images/alternate/06_TH_日本からタイ_別ルート.png",
+      "size": 167818,
+      "sha256": "6e2cc25de1b69ab7f322ee5e1248c7349d994ef07f046db483863e15afc99c0c"
+    },
+    {
+      "path": "world-route/images/alternate/07_SG_日本からシンガポール_別ルート.png",
+      "size": 172881,
+      "sha256": "106bbf90d9add7e20220c718a99ff333f90abecf7d04eeeb0de970687aecbcb9"
+    },
+    {
+      "path": "world-route/images/alternate/08_ID_日本からインドネシア_別ルート.png",
+      "size": 170754,
+      "sha256": "6595bd8cb3b43a5a22a2daef074d9ada593e1734a37adeb40164aea671158c2a"
+    },
+    {
+      "path": "world-route/images/alternate/09_IN_日本からインド_別ルート.png",
+      "size": 177980,
+      "sha256": "6be1528ad3b83457fcd52e91073e409d40aa03cd208055b655cc086dfe712073"
+    },
+    {
+      "path": "world-route/images/alternate/10_AE_日本からUAE_別ルート.png",
+      "size": 173921,
+      "sha256": "b47158442480448d9b553f7373357e5aa810cabe4b0950d844f5e4959639ce82"
+    },
+    {
+      "path": "world-route/images/alternate/11_SA_日本からサウジアラビア_別ルート.png",
+      "size": 183711,
+      "sha256": "561557a78debe218ec14cbf0daf9638640dbc18cbaa577b2daafa4ab1b2a0117"
+    },
+    {
+      "path": "world-route/images/alternate/12_TR_日本からトルコ_別ルート.png",
+      "size": 192512,
+      "sha256": "d9c1f42dd82e370eecc5a552618734eb1c3f2c462997bebedfca053139d4faaf"
+    },
+    {
+      "path": "world-route/images/alternate/13_GB_日本からイギリス_別ルート.png",
+      "size": 230705,
+      "sha256": "969b30993a822aeb51a744d5fc190831df24d0cc8732ea2d1579a3e53c0ced70"
+    },
+    {
+      "path": "world-route/images/alternate/14_NL_日本からオランダ_別ルート.png",
+      "size": 219073,
+      "sha256": "32910e89a6e4dc86527f7354d31868ababa1ec17fb64dd41d4d16d9196332354"
+    },
+    {
+      "path": "world-route/images/alternate/15_DE_日本からドイツ_別ルート.png",
+      "size": 210078,
+      "sha256": "dd66e4d9a81ebd033e507bde4c082c4d06532a56335cabed3924aeeac4aeb781"
+    },
+    {
+      "path": "world-route/images/alternate/16_US_日本からアメリカ_別ルート.png",
+      "size": 179108,
+      "sha256": "9f75237cf1f40005a61186360f4ad2daea49f458fddf3b7d7cb70634beb0dd1e"
+    },
+    {
+      "path": "world-route/images/alternate/17_CA_日本からカナダ_別ルート.png",
+      "size": 140184,
+      "sha256": "c41e132eaa8a24e0e502897ce5d1faa6af019493a28b2bb636942328a3c7abbc"
+    },
+    {
+      "path": "world-route/images/alternate/18_BR_日本からブラジル_別ルート.png",
+      "size": 202271,
+      "sha256": "54ee97930a6f27974b1030b7fb4c6a67ba9f369d73bdb2446d571b165fc4b798"
+    },
+    {
+      "path": "world-route/images/alternate/19_AU_日本からオーストラリア_別ルート.png",
+      "size": 168592,
+      "sha256": "3d24b0ca6617beae98c7e96e404e16d8383edffa43884d90dca2f603b61e273f"
+    },
+    {
+      "path": "world-route/images/alternate/20_ZA_日本から南アフリカ_別ルート.png",
+      "size": 142339,
+      "sha256": "082cb2d846bc1a1a8307c6a6d6dd49100d1af30fc5f7d72e61459074fbdf3b1e"
+    },
+    {
+      "path": "world-route/images/representative/01_TW_日本から台湾.png",
+      "size": 143085,
+      "sha256": "85392480a3f4ec0ff20b476987374abe2322fc817ea2c3f6dc18d2b67369bba3"
+    },
+    {
+      "path": "world-route/images/representative/02_KR_日本から韓国.png",
+      "size": 128733,
+      "sha256": "cc90946d1585d98d0b26ca725afb13c6d54e309df78cffa21e895543191e7532"
+    },
+    {
+      "path": "world-route/images/representative/03_CN_日本から中国.png",
+      "size": 161238,
+      "sha256": "3cdd7043bced9f98bebdf98e574fdcc20bad26d3cdefaff75a47f2e4fc4ee2f1"
+    },
+    {
+      "path": "world-route/images/representative/04_MN_日本からモンゴル.png",
+      "size": 156976,
+      "sha256": "f9e2816ad07aec99a9e2d2c018779e66620f6fc99e6a5c5728dcb5e977b11b00"
+    },
+    {
+      "path": "world-route/images/representative/05_VN_日本からベトナム.png",
+      "size": 161316,
+      "sha256": "61ea4f4e3c0643cd1c5eb5ca93eb34e502c07a983698eb50958b9b59c66d37a5"
+    },
+    {
+      "path": "world-route/images/representative/06_TH_日本からタイ.png",
+      "size": 160180,
+      "sha256": "e6420dbe710126733455234a321676ab9eb5e1d53921742169f78975413c15ea"
+    },
+    {
+      "path": "world-route/images/representative/07_SG_日本からシンガポール.png",
+      "size": 167558,
+      "sha256": "afecb327e825b1dd0377e2e7b5707a83f84097dcdc4a75bcba5f99b540738ecc"
+    },
+    {
+      "path": "world-route/images/representative/08_ID_日本からインドネシア.png",
+      "size": 169079,
+      "sha256": "5671a459eb3ee429035d893b6b6dd80fa0c89c3d7658387afdac7f5d4d114674"
+    },
+    {
+      "path": "world-route/images/representative/09_IN_日本からインド.png",
+      "size": 183189,
+      "sha256": "862018b9395e8970854fabbbde5caaeab9f4ed6aea35e861ae1def0cefc8d0bd"
+    },
+    {
+      "path": "world-route/images/representative/10_AE_日本からUAE.png",
+      "size": 168648,
+      "sha256": "69222ea5f5fd4f4afbfd277fb7dd7b027d0ca7d49f25f71a2ad093a15110048c"
+    },
+    {
+      "path": "world-route/images/representative/11_SA_日本からサウジアラビア.png",
+      "size": 181420,
+      "sha256": "b215f242fbea5c0f74503a884198fa1d5eaf23697ed802674366fcfef42bdd2d"
+    },
+    {
+      "path": "world-route/images/representative/12_TR_日本からトルコ.png",
+      "size": 185900,
+      "sha256": "3ea69dead6e76a6b11a0e29fdc3ccf265368d229d59b9213c8ba29e703bfa7ac"
+    },
+    {
+      "path": "world-route/images/representative/13_GB_日本からイギリス.png",
+      "size": 195175,
+      "sha256": "435b2dba9f330be6eb7a0bb4ac91e79eb43ee07c8764ac614530e3f12bb75ac5"
+    },
+    {
+      "path": "world-route/images/representative/14_NL_日本からオランダ.png",
+      "size": 202369,
+      "sha256": "be5965ad723726a3fcd735868a9a3db59d8b1e957af35cdf52544414379480ec"
+    },
+    {
+      "path": "world-route/images/representative/15_DE_日本からドイツ.png",
+      "size": 202644,
+      "sha256": "2b33c4afdc02ce50f81ed18fda3fb3d633c034212351fb91b36afa6e3c018085"
+    },
+    {
+      "path": "world-route/images/representative/16_US_日本からアメリカ.png",
+      "size": 144253,
+      "sha256": "163d6e3b4686d8cb1fc6391e897f90d18bc7b35041ace2c2dd792eedf82ff0b2"
+    },
+    {
+      "path": "world-route/images/representative/17_CA_日本からカナダ.png",
+      "size": 145616,
+      "sha256": "29b015e3f33d3bc495836eeec23c1ff31a9cc4666d2585668d9d6ecaa6daada6"
+    },
+    {
+      "path": "world-route/images/representative/18_BR_日本からブラジル.png",
+      "size": 189936,
+      "sha256": "0dbd0dfd072f6d4505dbcf7fb9774bb2bcdd848762a9d3d58c136f6da828a93c"
+    },
+    {
+      "path": "world-route/images/representative/19_AU_日本からオーストラリア.png",
+      "size": 154823,
+      "sha256": "6d7c4f70c7050e908bb308b63f13e4bf28134c29aff0e8dfa0f61844d995f7bd"
+    },
+    {
+      "path": "world-route/images/representative/20_ZA_日本から南アフリカ.png",
+      "size": 193008,
+      "sha256": "cbe42072e569e1287dc626c312480a8f6ab9b93cc051d6fb0280859a53a3552b"
+    },
+    {
+      "path": "world-route/index.html",
+      "size": 16170,
+      "sha256": "c445c9ddf7aae99cc85bfd414814e5512751746602946f6d420d6846df48f7f9"
+    },
+    {
+      "path": "world-route/market-base-ui-base.css",
+      "size": 13735,
+      "sha256": "0e18461cddf2b5e28886b10bcd5c9e68e1ff6bb09a2ddeb65eb6c0ef8265e611"
+    },
+    {
+      "path": "world-route/market-base-ui-base.js",
+      "size": 3708,
+      "sha256": "8992ebfd7ba03d3b31c687b923534b1c60c63bbdf109674b78c9fabc64cc9d4b"
+    },
+    {
+      "path": "world-route/world-route-data.js",
+      "size": 565458,
+      "sha256": "4b60f0837ca3bded7a0f84e677890ce516706f4a9f1430a3acbfb6758b7d139a"
+    },
+    {
+      "path": "world-route/world-route-integration-r11340.css",
+      "size": 933,
+      "sha256": "07204c8b95fa8ff82ee5742eed89527f1cc8898eb1b22f5f08fcef3b89ee1915"
+    },
+    {
+      "path": "world-route/world-route.css",
+      "size": 36104,
+      "sha256": "8a9bf75f11cdf0e1d569cb07b7537b8a0168bd27d4b324c7725509971e56116e"
+    },
+    {
+      "path": "world-route/world-route.js",
+      "size": 27839,
+      "sha256": "b850997e65e414ff1a09b888cefa9f1a6cfb1b57cf30fe7e70d1e46219989f7d"
+    }
+  ]
+}
