@@ -1,6 +1,0 @@
-# R113.67からR113.79へ更新する際の削除対象
-# ディレクトリ指定は配下を含めて削除してください。
-work-basics/
-classic-move/data/game-core-redesign.js
-classic-move/data/game-core-redesign.json
-classic-move/index_standalone.html
