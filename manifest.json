@@ -1,8 +1,8 @@
 {
-  "name": "MARKET BASE R113.79",
+  "name": "MARKET BASE R113.85",
   "short_name": "MARKET BASE",
   "description": "国・地域と市場情報を確認できるMARKET BASE",
-  "start_url": "./index.html?v=20260727-r11379",
+  "start_url": "./index.html?v=20260727-r11386",
   "display": "standalone",
   "background_color": "#EEF3F9",
   "theme_color": "#EEF3F9",
@@ -20,7 +20,7 @@
       "purpose": "any"
     }
   ],
-  "id": "market-base-r11379",
-  "version": "MARKET_BASE_R113_79_RETAIL_LOGO_DIRECTORY_20260727",
-  "build_id": "MARKET_BASE_R113_79_RETAIL_LOGO_DIRECTORY_20260727"
+  "id": "market-base-r11386",
+  "version": "MARKET_BASE_R113_86_MOBILE_NEWS_READABILITY_20260727",
+  "build_id": "MARKET_BASE_R113_86_MOBILE_NEWS_READABILITY_20260727"
 }
