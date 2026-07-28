@@ -1,0 +1,149 @@
+/* MARKET BASE R114.09 — mobile bottom navigation single source of truth
+   Canonical reference: the corrected export-guide bottom band.
+   Fixes: duplicated safe-area padding, page-local icon sizing, and legacy nav collisions. */
+:root{
+  --mb-r11409-bottom-nav-height:92px;
+  --mb-r11409-bottom-tab-height:78px;
+  --mb-r11409-bottom-icon-size:30px;
+}
+@media (max-width:899px){
+  /* The previous rules added env(safe-area-inset-bottom) in both the page and
+     the fixed bar. That produced a large white block only on viewport-fit pages.
+     Use one fixed, readable bar height on every mobile learning/tool page. */
+  body:has(.mb-primary-bottom-nav){
+    padding-bottom:var(--mb-r11409-bottom-nav-height)!important;
+  }
+
+  /* Only one app navigation may participate. Old shells remain in some files
+     for compatibility, but must never affect layout or icon dimensions. */
+  body:has(.mb-primary-bottom-nav) .mbx-bottom-nav,
+  body:has(.mb-primary-bottom-nav) .mb-global-bottom-nav,
+  body:has(.mb-primary-bottom-nav) .mb-ui-mobile-nav,
+  body:has(.mb-primary-bottom-nav) .bottom-nav:not(.mb-primary-bottom-nav){
+    display:none!important;
+  }
+
+  .mb-primary-bottom-nav{
+    box-sizing:border-box!important;
+    position:fixed!important;
+    left:50%!important;
+    right:auto!important;
+    bottom:0!important;
+    transform:translateX(-50%)!important;
+    z-index:9800!important;
+    display:grid!important;
+    grid-template-columns:repeat(4,minmax(0,1fr))!important;
+    align-items:stretch!important;
+    gap:4px!important;
+    width:min(100%,760px)!important;
+    height:var(--mb-r11409-bottom-nav-height)!important;
+    min-height:var(--mb-r11409-bottom-nav-height)!important;
+    max-height:var(--mb-r11409-bottom-nav-height)!important;
+    margin:0!important;
+    padding:7px 8px!important;
+    border:0!important;
+    border-top:1px solid #dce6f2!important;
+    border-radius:0!important;
+    background:rgba(255,255,255,.98)!important;
+    box-shadow:0 -5px 18px rgba(15,47,85,.08)!important;
+    overflow:hidden!important;
+    backdrop-filter:blur(16px)!important;
+    -webkit-backdrop-filter:blur(16px)!important;
+  }
+  .mb-primary-bottom-tab{
+    box-sizing:border-box!important;
+    min-width:0!important;
+    width:100%!important;
+    height:var(--mb-r11409-bottom-tab-height)!important;
+    min-height:var(--mb-r11409-bottom-tab-height)!important;
+    max-height:var(--mb-r11409-bottom-tab-height)!important;
+    margin:0!important;
+    padding:5px 2px 4px!important;
+    border:0!important;
+    border-radius:15px!important;
+    display:flex!important;
+    flex-direction:column!important;
+    align-items:center!important;
+    justify-content:center!important;
+    gap:3px!important;
+    color:#66758a!important;
+    background:transparent!important;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Yu Gothic UI","Yu Gothic",Meiryo,sans-serif!important;
+    font-size:14px!important;
+    font-weight:900!important;
+    line-height:1.1!important;
+    text-align:center!important;
+    text-decoration:none!important;
+    white-space:nowrap!important;
+    -webkit-tap-highlight-color:transparent!important;
+  }
+  .mb-primary-bottom-tab.active,
+  .mb-primary-bottom-tab[aria-current="page"]{
+    color:#0b5dcc!important;
+    background:#eaf3ff!important;
+    box-shadow:inset 0 0 0 1px rgba(11,93,204,.04)!important;
+  }
+  .mb-primary-bottom-icon{
+    box-sizing:border-box!important;
+    display:grid!important;
+    place-items:center!important;
+    flex:0 0 var(--mb-r11409-bottom-icon-size)!important;
+    width:var(--mb-r11409-bottom-icon-size)!important;
+    min-width:var(--mb-r11409-bottom-icon-size)!important;
+    max-width:var(--mb-r11409-bottom-icon-size)!important;
+    height:var(--mb-r11409-bottom-icon-size)!important;
+    min-height:var(--mb-r11409-bottom-icon-size)!important;
+    max-height:var(--mb-r11409-bottom-icon-size)!important;
+    margin:0!important;
+    padding:0!important;
+    color:inherit!important;
+    font-size:0!important;
+    line-height:0!important;
+  }
+  .mb-primary-bottom-icon svg{
+    box-sizing:border-box!important;
+    display:block!important;
+    width:var(--mb-r11409-bottom-icon-size)!important;
+    min-width:var(--mb-r11409-bottom-icon-size)!important;
+    max-width:var(--mb-r11409-bottom-icon-size)!important;
+    height:var(--mb-r11409-bottom-icon-size)!important;
+    min-height:var(--mb-r11409-bottom-icon-size)!important;
+    max-height:var(--mb-r11409-bottom-icon-size)!important;
+    margin:0!important;
+    padding:0!important;
+    fill:none!important;
+    stroke:currentColor!important;
+    stroke-width:2.15!important;
+    stroke-linecap:round!important;
+    stroke-linejoin:round!important;
+  }
+  .mb-primary-bottom-tab b{
+    display:block!important;
+    margin:0!important;
+    padding:0!important;
+    color:inherit!important;
+    font:inherit!important;
+    line-height:1.1!important;
+  }
+
+  /* Keep the three floating controls above the normalized band without adding
+     the old safe-area value again. */
+  body:has(.mb-primary-bottom-nav) .mb-scroll-controls{
+    bottom:104px!important;
+  }
+}
+@media (min-width:431px) and (max-width:899px){
+  .mb-primary-bottom-nav{
+    width:min(calc(100% - 32px),760px)!important;
+    border-left:1px solid #dce6f2!important;
+    border-right:1px solid #dce6f2!important;
+    border-radius:20px 20px 0 0!important;
+  }
+}
+@media (max-width:370px){
+  .mb-primary-bottom-tab{font-size:13px!important}
+}
+@media print{
+  .mb-primary-bottom-nav{display:none!important}
+  body:has(.mb-primary-bottom-nav){padding-bottom:0!important}
+}

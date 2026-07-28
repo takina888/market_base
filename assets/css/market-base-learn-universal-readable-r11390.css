@@ -1,0 +1,233 @@
+/* MARKET BASE R113.90 | 学ぶコンテンツ共通・ユニバーサル可読性補強 */
+:root{
+  --mb-learn-readable-body:16.5px;
+  --mb-learn-readable-small:14.5px;
+  --mb-learn-readable-line:1.78;
+}
+
+/* 本文領域のみを拡大し、ヘッダー・固定ナビの寸法は崩さない */
+body.mb-unified-learning-page,
+body:has(.mb-learning-content-shell),
+body:has(.mbx-main),
+body:has(main .page-shell){
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+}
+
+.mb-learning-content-shell,
+.mbx-main,
+main .page-shell,
+main .app-shell,
+main .content,
+main .workspace{
+  font-size:var(--mb-learn-readable-body);
+  line-height:var(--mb-learn-readable-line);
+}
+
+.mb-learning-content-shell p,
+.mb-learning-content-shell li,
+.mb-learning-content-shell dd,
+.mb-learning-content-shell blockquote,
+.mbx-main p,
+.mbx-main li,
+.mbx-main dd,
+.mbx-main blockquote,
+main .page-shell p,
+main .page-shell li,
+main .page-shell dd,
+main .page-shell blockquote{
+  font-size:max(1em,16.5px);
+  line-height:1.78;
+  letter-spacing:.01em;
+  overflow-wrap:anywhere;
+}
+
+.mb-learning-content-shell small,
+.mb-learning-content-shell .note,
+.mb-learning-content-shell .caption,
+.mb-learning-content-shell .meta,
+.mb-learning-content-shell [class*="note"],
+.mb-learning-content-shell [class*="caption"],
+.mbx-main small,
+.mbx-main [class*="note"],
+.mbx-main [class*="caption"],
+main .page-shell small,
+main .page-shell [class*="note"],
+main .page-shell [class*="caption"]{
+  font-size:max(.88em,var(--mb-learn-readable-small));
+  line-height:1.68;
+}
+
+.mb-learning-content-shell h1,
+.mbx-main h1,
+main .page-shell h1{
+  line-height:1.35;
+  letter-spacing:.01em;
+}
+.mb-learning-content-shell h2,
+.mbx-main h2,
+main .page-shell h2{
+  font-size:clamp(1.35rem,2.2vw,1.7rem);
+  line-height:1.45;
+}
+.mb-learning-content-shell h3,
+.mbx-main h3,
+main .page-shell h3{
+  font-size:clamp(1.1rem,1.8vw,1.3rem);
+  line-height:1.5;
+}
+
+.mb-learning-content-shell button,
+.mb-learning-content-shell input,
+.mb-learning-content-shell select,
+.mb-learning-content-shell textarea,
+.mbx-main button,
+.mbx-main input,
+.mbx-main select,
+.mbx-main textarea,
+main .page-shell button,
+main .page-shell input,
+main .page-shell select,
+main .page-shell textarea{
+  font-size:max(1rem,16px);
+  line-height:1.45;
+}
+
+.mb-learning-content-shell summary,
+.mbx-main summary,
+main .page-shell summary{
+  min-height:52px;
+  font-size:max(1rem,16px);
+  line-height:1.55;
+}
+
+/* 古典の一手：本文・解読・注釈の小さすぎるrem指定を上書き */
+.classic-move-page .app-shell,
+body:has(#classicLibrary) .app-shell,
+body:has(.classic-grid) .app-shell{
+  font-size:17px;
+  line-height:1.82;
+}
+body:has(.classic-grid) .classic-card,
+body:has(.classic-grid) .debrief,
+body:has(.classic-grid) .story-step,
+body:has(.classic-grid) .case-card,
+body:has(.classic-grid) .case-browser{
+  font-size:17px;
+  line-height:1.82;
+}
+body:has(.classic-grid) .classic-card p,
+body:has(.classic-grid) .classic-text,
+body:has(.classic-grid) .classic-interpretation,
+body:has(.classic-grid) .story-step p,
+body:has(.classic-grid) .debrief p,
+body:has(.classic-grid) .source-note,
+body:has(.classic-grid) details,
+body:has(.classic-grid) summary{
+  font-size:16.5px;
+  line-height:1.82;
+}
+body:has(.classic-grid) .classic-card small,
+body:has(.classic-grid) .classic-interpretation span,
+body:has(.classic-grid) .source-note,
+body:has(.classic-grid) .step-label,
+body:has(.classic-grid) .case-category,
+body:has(.classic-grid) .time-cost,
+body:has(.classic-grid) .locked-note,
+body:has(.classic-grid) .filter-field>span,
+body:has(.classic-grid) .source-guide span,
+body:has(.classic-grid) .outcome-item span,
+body:has(.classic-grid) .completed-pill{
+  font-size:14.5px;
+  line-height:1.62;
+}
+body:has(.classic-grid) .mode-btn,
+body:has(.classic-grid) .feedback-chip,
+body:has(.classic-grid) .rating-btn{
+  font-size:16px;
+}
+
+/* HACCP・航路など、12px前後で固定されていたカード本文を補強 */
+.hq-category-card small,
+.hq-status-copy span,
+.hq-chip,
+.hq-question-id,
+.hq-multiple-note,
+.hq-fact span,
+.hq-fact strong,
+.hq-source-meta,
+.wbr-country-card p,
+.wbr-family-card p,
+.wbr-shared-card p,
+.wbr-common-body,
+.wbr-data-notice,
+.wbr-metadata-list dd,
+.wbr-inline-sources a,
+.wbr-inline-sources span{
+  font-size:14.5px!important;
+  line-height:1.65!important;
+}
+.hq-question-title,
+.hq-detail-block p,
+.hq-result-hero p,
+.wbr-learn-intro p:last-child,
+.wbr-summary-text{
+  font-size:16.5px!important;
+  line-height:1.78!important;
+}
+
+/* 読みやすい行長 */
+.mb-learning-content-shell .reading-text,
+.mb-learning-content-shell .article-body,
+.mb-learning-content-shell .lesson-body,
+.mb-learning-content-shell .explanation,
+.mbx-main .wbr-common-body,
+body:has(.classic-grid) .classic-text,
+body:has(.classic-grid) .classic-interpretation{
+  max-width:76ch;
+}
+
+@media (max-width:760px){
+  :root{
+    --mb-learn-readable-body:16px;
+    --mb-learn-readable-small:14px;
+  }
+  .mb-learning-content-shell,
+  .mbx-main,
+  main .page-shell,
+  main .app-shell,
+  main .content,
+  main .workspace{
+    font-size:16px;
+    line-height:1.76;
+  }
+  .mb-learning-content-shell p,
+  .mb-learning-content-shell li,
+  .mbx-main p,
+  .mbx-main li,
+  main .page-shell p,
+  main .page-shell li{
+    font-size:16px;
+    line-height:1.76;
+  }
+  body:has(.classic-grid) .app-shell,
+  body:has(.classic-grid) .classic-card,
+  body:has(.classic-grid) .debrief,
+  body:has(.classic-grid) .story-step{
+    font-size:16px;
+    line-height:1.78;
+  }
+  body:has(.classic-grid) .classic-card p,
+  body:has(.classic-grid) .classic-text,
+  body:has(.classic-grid) .classic-interpretation,
+  body:has(.classic-grid) .story-step p,
+  body:has(.classic-grid) .debrief p,
+  body:has(.classic-grid) .source-note{
+    font-size:16px;
+    line-height:1.78;
+  }
+}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important}
+}

@@ -59,6 +59,11 @@
     countryQuery: ''
   };
 
+  let geolocationRequestId = 0;
+  let geolocationWatchdog = null;
+  let geolocationInFlight = false;
+  const GEOLOCATION_WATCHDOG_MS = 18000;
+
   const $ = (id) => document.getElementById(id);
   const dom = {
     targetName:$('targetName'), targetDescription:$('targetDescription'), targetIcon:$('targetIcon'),
@@ -219,7 +224,10 @@
     const bearingText = `${directionName(state.bearing)} ${Math.round(state.bearing)}°`;
     const distanceText = formatDistance(state.distance);
     dom.countryResult.hidden = false;
-    dom.countryResultFlag.innerHTML = flagSvgMarkup(country.code,country.countryJa,'wc-country-result__flag-inner');
+    if(dom.countryResultFlag.dataset.flagCode !== country.code){
+      dom.countryResultFlag.innerHTML = flagSvgMarkup(country.code,country.countryJa,'wc-country-result__flag-inner');
+      dom.countryResultFlag.dataset.flagCode = country.code;
+    }
     dom.countryResultFlag.setAttribute('aria-label',`${country.countryJa}の国旗`);
     dom.countryResultType.textContent = country.targetType;
     dom.countryResultName.textContent = `${country.countryJa}・${country.capitalJa}`;
@@ -284,7 +292,11 @@
     dom.distanceReadoutCard.classList.toggle('is-direction-only', directionOnly);
     dom.targetName.textContent = state.target.nameEn;
     dom.targetDescription.textContent = state.target.description;
-    dom.targetIcon.innerHTML = iconMarkup(state.target);
+    const targetIconKey = `${state.target.id || ''}:${state.target.flagCode || state.target.flag || state.target.special || ''}`;
+    if(dom.targetIcon.dataset.renderKey !== targetIconKey){
+      dom.targetIcon.innerHTML = iconMarkup(state.target);
+      dom.targetIcon.dataset.renderKey = targetIconKey;
+    }
     dom.mapCard.hidden = directionOnly;
     dom.travelSection.hidden = directionOnly;
     if(!directionOnly){
@@ -460,35 +472,82 @@
     }
   }
 
+  function clearGeolocationWatchdog(){
+    if(geolocationWatchdog !== null){
+      window.clearTimeout(geolocationWatchdog);
+      geolocationWatchdog = null;
+    }
+  }
+
+  function setGeolocationBusy(isBusy){
+    geolocationInFlight = isBusy;
+    dom.locationButton.disabled = isBusy;
+    dom.locationButton.classList.toggle('is-geolocating', isBusy);
+    if(isBusy) dom.locationButton.setAttribute('aria-busy','true');
+    else dom.locationButton.removeAttribute('aria-busy');
+  }
+
+  function finishGeolocationRequest(requestId, kind, label, title, detail){
+    if(requestId !== geolocationRequestId) return false;
+    clearGeolocationWatchdog();
+    setGeolocationBusy(false);
+    dom.locationButton.classList.remove('is-success','is-error');
+    if(kind === 'success') dom.locationButton.classList.add('is-success');
+    if(kind === 'error') dom.locationButton.classList.add('is-error');
+    dom.locationButtonLabel.textContent = label;
+    setStatus(dom.locationStatus,kind,title,detail);
+    return true;
+  }
+
   function getCurrentLocation(){
+    if(geolocationInFlight) return;
     if(!navigator.geolocation){
       dom.locationButtonLabel.textContent='現在地を利用できません';
       setStatus(dom.locationStatus,'error','現在地：取得不可','この端末またはブラウザでは位置情報を利用できません。台北のデモ地点を使用中です。');
       return;
     }
-    dom.locationButton.disabled=true;
-    dom.locationButton.setAttribute('aria-busy','true');
+
+    const requestId = ++geolocationRequestId;
+    clearGeolocationWatchdog();
+    setGeolocationBusy(true);
     dom.locationButton.classList.remove('is-success','is-error');
     dom.locationButtonLabel.textContent='取得中…';
     setStatus(dom.locationStatus,'loading','現在地：取得中','端末の位置情報を確認しています。許可画面が出た場合は「許可」を選んでください。');
+
+    geolocationWatchdog = window.setTimeout(() => {
+      finishGeolocationRequest(
+        requestId,
+        'error',
+        '現在地を再試行',
+        '現在地：取得が完了しませんでした',
+        '位置情報から応答がありませんでした。通信状態とブラウザの位置情報設定を確認して、もう一度お試しください。現在は台北のデモ地点を使用しています。'
+      );
+    }, GEOLOCATION_WATCHDOG_MS);
+
     navigator.geolocation.getCurrentPosition(position => {
+      if(requestId !== geolocationRequestId) return;
       const latitude=position.coords.latitude;
       const longitude=position.coords.longitude;
       const accuracy=Math.round(position.coords.accuracy);
       state.current = {lat:latitude, lon:longitude, label:'端末の現在地'};
-      dom.locationButton.disabled=false;
-      dom.locationButton.removeAttribute('aria-busy');
-      dom.locationButton.classList.add('is-success');
-      dom.locationButtonLabel.textContent='現在地を再取得';
-      setStatus(dom.locationStatus,'success','現在地：取得完了',`端末の現在地へ更新しました（精度 約${accuracy}m）。緯度 ${latitude.toFixed(4)}、経度 ${longitude.toFixed(4)}。`);
+      if(!finishGeolocationRequest(
+        requestId,
+        'success',
+        '現在地を再取得',
+        '現在地：取得完了',
+        `端末の現在地へ更新しました（精度 約${accuracy}m）。緯度 ${latitude.toFixed(4)}、経度 ${longitude.toFixed(4)}。`
+      )) return;
       updateCompass();
     }, error => {
-      dom.locationButton.disabled=false;
-      dom.locationButton.removeAttribute('aria-busy');
-      dom.locationButton.classList.add('is-error');
-      dom.locationButtonLabel.textContent='現在地を再試行';
+      if(requestId !== geolocationRequestId) return;
       const reason=error&&error.code===1?'位置情報の許可が拒否されています。ブラウザ設定で許可してください。':error&&error.code===3?'位置情報の取得が時間切れになりました。通信状態を確認して再試行してください。':'現在地を取得できませんでした。HTTPS環境と位置情報設定を確認してください。';
-      setStatus(dom.locationStatus,'error','現在地：更新されていません',`${reason} 現在は台北のデモ地点を使用しています。`);
+      finishGeolocationRequest(
+        requestId,
+        'error',
+        '現在地を再試行',
+        '現在地：更新されていません',
+        `${reason} 現在は台北のデモ地点を使用しています。`
+      );
     }, {enableHighAccuracy:true, timeout:15000, maximumAge:30000});
   }
 

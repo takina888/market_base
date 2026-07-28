@@ -6,30 +6,63 @@
     throw new Error("CLASSICS_READING is missing.");
   }
 
-  const STORAGE_KEY = "market-base-classics-reading-v022";
-  const LEGACY_KEY = "classic-one-narrative-v021";
+  const STORAGE_KEY = "market-base-classics-reading-v036";
+  const PREVIOUS_STORAGE_KEYS = [
+    "market-base-classics-reading-v035",
+    "market-base-classics-reading-v034",
+    "market-base-classics-reading-v033",
+    "market-base-classics-reading-v032",
+    "market-base-classics-reading-v031",
+    "market-base-classics-reading-v030",
+    "market-base-classics-reading-v029",
+    "market-base-classics-reading-v028",
+    "market-base-classics-reading-v027",
+    "market-base-classics-reading-v026",
+    "market-base-classics-reading-v025",
+    "market-base-classics-reading-v024",
+    "market-base-classics-reading-v023",
+    "market-base-classics-reading-v022",
+    "classic-one-narrative-v021"
+  ];
   const app = document.getElementById("app");
   const backButton = document.getElementById("backButton");
   const toast = document.getElementById("toast");
+  const workCountLabel = document.getElementById("workCountLabel");
   let toastTimer = 0;
   let query = "";
   let currentClassicId = null;
+
+  if (workCountLabel) workCountLabel.textContent = `${DATA.works.length}作品・原文と解読`;
 
   const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
   }[char]));
 
   function loadProgress() {
+    const validIds = new Set(DATA.works.map(item => item.classicId));
     let readClassics = [];
+    let migrated = false;
     try {
       const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
       if (Array.isArray(saved?.readClassics)) readClassics = saved.readClassics;
       if (!readClassics.length) {
-        const legacy = JSON.parse(localStorage.getItem(LEGACY_KEY) || "null");
-        if (Array.isArray(legacy?.readClassics)) readClassics = legacy.readClassics;
+        for (const key of PREVIOUS_STORAGE_KEYS) {
+          const previous = JSON.parse(localStorage.getItem(key) || "null");
+          if (Array.isArray(previous?.readClassics) && previous.readClassics.length) {
+            readClassics = previous.readClassics;
+            migrated = true;
+            break;
+          }
+        }
       }
     } catch (_) {}
-    return { readClassics: [...new Set(readClassics.filter(Boolean))] };
+    const cleaned = [...new Set(readClassics.filter(id => validIds.has(id)))];
+    if (cleaned.length !== readClassics.length) migrated = true;
+    const loaded = { readClassics: cleaned };
+    if (migrated) {
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(loaded)); } catch (_) {}
+    }
+    return loaded;
   }
 
   let progress = loadProgress();
@@ -71,7 +104,7 @@
   function searchableText(item) {
     return [
       item.classic, item.reading, item.chapter, item.label, item.intro,
-      item.decodeTitle, item.decode, item.aha, item.workplace, item.misuse,
+      item.plain, item.decodeTitle, item.decode, item.aha, item.workplace, item.misuse, item.question,
       ...(item.keywords || [])
     ].join(" ").toLowerCase();
   }
@@ -96,13 +129,13 @@
       <section class="hero classic-hero">
         <p class="eyebrow">CLASSICS READING</p>
         <h1>古典を読み、いまの仕事につなげる。</h1>
-        <p class="lead">論語・孫子・韓非子など14作品を、原文、読み下し、現代語訳、解読の順に、文章を落ち着いて読み進めます。</p>
+        <p class="lead">論語・孫子・韓非子など${DATA.works.length}作品を、原文、読み下し、現代語訳、解読の順に、文章を落ち着いて読み進めます。</p>
         <div class="notice"><strong>読み方：</strong> 原文 → 読み下しの目安 → 現代語訳 → 解読 → 仕事での使い方 → 誤用注意。原文には複数の校訂・読み・解釈があるため、本ページでは仕事に応用するための一つの読み方を示します。</div>
         <div class="progress-overview" aria-label="読書進捗"><div><strong>${progress.readClassics.length}</strong><span>読了 / ${DATA.works.length}作品</span></div><div><strong>${DATA.works.length}</strong><span>収録作品</span></div></div>
       </section>
       <section class="case-browser" aria-label="古典を探す">
         <div class="browser-head"><div><h2>古典を選ぶ</h2><p class="lead" data-result-count>${DATA.works.length}作品を表示</p></div></div>
-        <label class="filter-field"><span>作品名・テーマ・仕事の悩みから検索</span><input type="search" data-search-input placeholder="例：信頼、ルール、異論、教育" value="${escapeHtml(query)}"></label>
+        <label class="filter-field"><span>作品名・テーマ・仕事の悩みから検索</span><input type="search" data-search-input placeholder="例：信頼、優先順位、危機管理、変化" value="${escapeHtml(query)}"></label>
       </section>
       <section class="classic-grid">${cards}</section>
       <section class="screen-card empty-state" data-empty hidden><h2>該当する古典がありません</h2><p class="lead">別の言葉で検索してください。</p></section>`;
