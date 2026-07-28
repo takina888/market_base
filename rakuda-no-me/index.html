@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#EEF3F9">
+  <meta name="description" content="砂漠と商いをモチーフにした60の短い創作寓話を、読みやすい1話表示で楽しめます。">
+  <title>ラクダの目｜MARKET BASE</title>
+  <link rel="icon" sizes="32x32" type="image/png" href="../icons/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon-180.png">
+  <link rel="stylesheet" href="../assets/css/market-base-primary-components-r11326.css?v=20260728-r11389">
+  <link rel="stylesheet" href="../assets/css/market-base-desktop-icon-nav-r11337.css?v=20260728-r11389">
+  <link rel="stylesheet" href="../assets/css/market-base-standard-shell-r11372.css?v=20260728-r11389">
+  <link rel="stylesheet" href="../assets/css/market-base-scroll-controls-r11328.css?v=20260728-r11389">
+  <link rel="stylesheet" href="../assets/css/market-base-learn-universal-readable-r11390.css?v=20260728-r11392">
+  <link rel="stylesheet" href="assets/page.css?v=20260728-r11392">
+  <meta name="market-base-build" content="MARKET_BASE_R113_92_RAKUDA_NO_ME_CARD_LINK_20260728">
+<link rel="stylesheet" href="../assets/css/market-base-bottom-nav-unified-r11409.css?v=20260728-r11409">
+</head>
+<body class="mb-unified-specialist-page mb-standard-page mb-has-primary-bottom-nav rakuda-eye-page">
+  <a class="rakuda-skip-link" href="#mainContent">本文へ移動</a>
+
+  <div class="mb-primary-header-host rakuda-eye-header-host">
+    <header class="mb-global-header mb-primary-header" aria-label="ラクダの目ページ操作">
+      <a class="mb-global-brand" href="../index.html">MARKET BASE</a>
+      <div class="mb-global-actions">
+        <a class="mb-global-button" href="../index.html?view=learn" aria-label="学ぶの一覧へ戻る">戻る</a>
+        <button class="mb-global-button" id="pageRefreshButton" type="button" aria-label="ラクダの目を更新">更新</button>
+      </div>
+    </header>
+  </div>
+
+  <main class="mb-standard-content-shell rakuda-eye-main" id="mainContent">
+    <section class="rakuda-hero" aria-labelledby="pageTitle">
+      <div class="rakuda-hero__copy">
+        <p class="rakuda-kicker">DESERT WISDOM</p>
+        <h1 id="pageTitle">ラクダの目</h1>
+        <p class="rakuda-hero__subtitle">砂漠と商いが教える、人を見る知恵</p>
+        <p class="rakuda-hero__lead">人の本質が表れる短い場面を、1話ずつ静かに読み進めます。自動では切り替わらないため、自分の速さで読めます。</p>
+      </div>
+      <div class="rakuda-hero__mark" aria-hidden="true">
+        <svg viewBox="0 0 240 180">
+          <path class="rakuda-hero__sun" d="M166 33a28 28 0 1 1-56 0 28 28 0 0 1 56 0Z"/>
+          <path class="rakuda-hero__dune" d="M10 137c42-45 75-37 110-13 37 25 70 25 110-2"/>
+          <path class="rakuda-hero__dune rakuda-hero__dune--back" d="M8 151c37-28 77-25 113-6 36 19 73 19 111-2"/>
+          <path class="rakuda-hero__eye" d="M55 85c21-27 47-39 78-35 25 3 44 17 57 35-17 22-38 33-64 34-29 1-52-10-71-34Z"/>
+          <path class="rakuda-hero__pupil" d="M142 85a19 19 0 1 1-38 0 19 19 0 0 1 38 0Z"/>
+          <path class="rakuda-hero__glint" d="M125 75a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z"/>
+        </svg>
+        <span>全60話</span>
+      </div>
+    </section>
+
+    <section class="rakuda-reader-layout" aria-label="物語を読む">
+      <article class="rakuda-story-panel" id="storyReader">
+        <header class="rakuda-story-head">
+          <div class="rakuda-story-meta">
+            <p id="storyPosition">第1話 / 60</p>
+            <span id="storyTheme">信用／恩義</span>
+          </div>
+          <h2 id="storyTitle" tabindex="-1">水を分けた者</h2>
+          <p class="rakuda-story-card" id="storyCard"></p>
+        </header>
+
+        <div class="rakuda-story-body" id="storyBody"></div>
+
+        <blockquote class="rakuda-final-line">
+          <span>ラクダの目</span>
+          <p id="storyFinal"></p>
+        </blockquote>
+
+        <details class="rakuda-learning-note">
+          <summary>仕事への見方</summary>
+          <div class="rakuda-learning-note__body">
+            <section>
+              <h3>読み取れること</h3>
+              <p id="storyBusiness"></p>
+            </section>
+            <section>
+              <h3>読み方の注意</h3>
+              <p id="storyCaution"></p>
+            </section>
+          </div>
+        </details>
+
+        <nav class="rakuda-story-nav" aria-label="物語の移動">
+          <button class="rakuda-button rakuda-button--secondary" id="previousStoryButton" type="button">
+            <span aria-hidden="true">←</span><span>前の話</span>
+          </button>
+          <button class="rakuda-button rakuda-button--soft" id="randomStoryButton" type="button">
+            <span aria-hidden="true">◇</span><span>おまかせ</span>
+          </button>
+          <button class="rakuda-button rakuda-button--primary" id="nextStoryButton" type="button">
+            <span>次の話</span><span aria-hidden="true">→</span>
+          </button>
+        </nav>
+
+        <div class="rakuda-story-actions" aria-label="この物語の操作">
+          <button class="rakuda-text-button" id="shareStoryButton" type="button">この話を共有</button>
+          <button class="rakuda-text-button" id="printStoryButton" type="button">印刷する</button>
+          <p class="rakuda-action-status" id="storyActionStatus" aria-live="polite"></p>
+        </div>
+      </article>
+
+      <aside class="rakuda-reading-tools" aria-label="読みやすさと選び方">
+        <section class="rakuda-tool-card">
+          <h2>読みやすさ</h2>
+          <p>本文の大きさを選べます。設定は端末に保存されます。</p>
+          <div class="rakuda-size-controls" role="group" aria-label="本文の文字サイズ">
+            <button type="button" id="textSizeStandard" aria-pressed="true">標準</button>
+            <button type="button" id="textSizeLarge" aria-pressed="false">大きく</button>
+          </div>
+        </section>
+
+        <section class="rakuda-tool-card">
+          <h2>選び方</h2>
+          <button class="rakuda-wide-action" id="randomStorySideButton" type="button">ランダムに1話読む</button>
+          <a class="rakuda-wide-action rakuda-wide-action--link" href="#storyIndex">全60話から選ぶ</a>
+          <p class="rakuda-key-help">キーボードでは、左右の矢印キーで前後へ移動できます。</p>
+        </section>
+      </aside>
+    </section>
+
+    <section class="rakuda-index-panel" id="storyIndex" aria-labelledby="storyIndexTitle">
+      <header class="rakuda-section-head">
+        <div>
+          <p class="rakuda-kicker">STORY INDEX</p>
+          <h2 id="storyIndexTitle">全60話から選ぶ</h2>
+        </div>
+        <p class="rakuda-result-count" id="storyResultCount" aria-live="polite">60話</p>
+      </header>
+
+      <div class="rakuda-search-panel" role="search" aria-label="物語を探す">
+        <label class="rakuda-field">
+          <span>言葉から探す</span>
+          <input id="storySearchInput" type="search" inputmode="search" autocomplete="off" placeholder="例：信用、井戸、職人">
+        </label>
+        <label class="rakuda-field">
+          <span>テーマ</span>
+          <select id="storyThemeSelect">
+            <option value="">すべてのテーマ</option>
+          </select>
+        </label>
+        <button class="rakuda-clear-button" id="clearSearchButton" type="button">条件をクリア</button>
+      </div>
+
+      <div class="rakuda-story-list" id="storyList"></div>
+
+      <nav class="rakuda-pagination" aria-label="作品一覧のページ移動">
+        <button type="button" id="previousListPageButton">前の一覧</button>
+        <p id="listPageStatus">1 / 5ページ</p>
+        <button type="button" id="nextListPageButton">次の一覧</button>
+      </nav>
+    </section>
+
+    <section class="rakuda-about-panel" aria-labelledby="aboutTitle">
+      <h2 id="aboutTitle">この読み物について</h2>
+      <p>「ラクダの目」は、砂漠・市場・隊商などをモチーフにした創作寓話です。アラブ世界全体の実在する掟や宗教上の規則を示すものではありません。短い物語の中から、人との付き合い方や仕事の判断を考える読み物として制作しています。</p>
+    </section>
+  </main>
+
+  <nav class="mb-primary-bottom-nav" aria-label="下部ナビゲーション">
+    <a class="mb-primary-bottom-tab" href="../index.html">
+      <span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 14.5 16 5l10.5 9.5v11.2a1.8 1.8 0 0 1-1.8 1.8H7.3a1.8 1.8 0 0 1-1.8-1.8Z"></path><path d="M12 27.5v-8.8h8v8.8"></path></svg></span><b>ホーム</b>
+    </a>
+    <a class="mb-primary-bottom-tab" href="../market-base-currency-converter-v273-r29.html">
+      <span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="11" cy="16" r="6.5"></circle><circle cx="21" cy="16" r="6.5"></circle><path d="M8 12.5h6M11 9.5v13M18 12.5h6M18 19.5h6"></path></svg></span><b>ツール</b>
+    </a>
+    <a class="mb-primary-bottom-tab active" aria-current="page" href="../index.html?view=learn">
+      <span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 6.5h8.2c1.25 0 2.3.45 3.3 1.35 1-.9 2.05-1.35 3.3-1.35h6.2v19h-6.2c-1.25 0-2.3.45-3.3 1.35-1-.9-2.05-1.35-3.3-1.35H5.5Z"></path><path d="M16 8v18.5M8.5 11h4.5M8.5 15h4.5M19 11h4.5M19 15h4.5"></path></svg></span><b>学ぶ</b>
+    </a>
+    <a class="mb-primary-bottom-tab" href="../index.html?view=rankings">
+      <span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 27.5V19h5v8.5M13.5 27.5V13h5v14.5M22 27.5V5h5v22.5M3.5 27.5h25"></path></svg></span><b>ランキング</b>
+    </a>
+  </nav>
+
+  <script src="data/stories.js?v=20260728-r11392"></script>
+  <script src="assets/page.js?v=20260728-r11392"></script>
+  <script src="../assets/js/market-base-desktop-icon-nav-r11337.js?v=20260728-r11389" data-mb-root="../" data-mb-active="learn"></script>
+  <script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260728-r11389"></script>
+</body>
+</html>

@@ -9,20 +9,35 @@
   <link rel="manifest" href="manifest.webmanifest?v=20260726-r11365">
   <link rel="icon" href="assets/icon.svg?v=20260726-r11365" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css?v=20260726-r11365">
+  <link rel="stylesheet" href="../assets/css/market-base-primary-components-r11326.css?v=20260727-r11372">
+  <link rel="stylesheet" href="../assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371">
+  <style>
+    body.mb-unified-learning-page .topbar.mb-standard-local-toolbar{position:static;top:auto;z-index:auto}
+  </style>
+  <link rel="stylesheet" href="../assets/css/market-base-standard-shell-r11372.css?v=20260727-r11372">
+  <meta name="market-base-nav-build" content="MARKET_BASE_R113_72_STANDARD_SHELL_UNIFICATION_20260727">
+  <meta name="market-base-build" content="MARKET_BASE_R113_72_STANDARD_SHELL_UNIFICATION_20260727">
+<link rel="stylesheet" href="../assets/css/market-base-bottom-nav-unified-r11409.css?v=20260728-r11409">
 </head>
-<body>
+<body class="mb-unified-learning-page">
   <a class="skip-link" href="#mainArticle">本文へ移動</a>
 
-  <header class="topbar">
+  <div class="mb-primary-header-host">
+    <header class="mb-global-header mb-primary-header" aria-label="仕事の基本（番外編）ページ操作">
+      <strong class="mb-global-brand">MARKET BASE</strong>
+      <div class="mb-global-actions">
+        <a class="mb-global-button" href="../index.html?from=work-basics&amp;view=learn">戻る</a>
+        <button class="mb-global-button" type="button" onclick="location.reload()">更新</button>
+      </div>
+    </header>
+  </div>
+
+  <header class="topbar mb-standard-local-toolbar">
     <div class="brand-block" aria-label="仕事の基本（番外編）">
-      <span class="brand-kicker">MARKET BASE / READING</span>
+      <span class="brand-kicker">READING</span>
       <strong>仕事の基本（番外編）</strong>
     </div>
     <div class="top-actions">
-      <a class="top-button" href="../index.html?from=work-basics&amp;view=learn" aria-label="MARKET BASEの学ぶページへ戻る">
-        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/><path d="M9 12h11"/></svg>
-        <span>戻る</span>
-      </a>
       <button id="searchOpen" class="top-button" type="button" aria-haspopup="dialog">
         <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
         <span>検索</span>
@@ -40,7 +55,7 @@
     <div id="mobilePersonTrack" class="mobile-person-track" tabindex="0"></div>
   </div>
 
-  <main class="app-layout">
+  <main class="app-layout mb-learning-content-shell">
     <aside class="dial-panel" aria-label="人物選択">
       <div class="panel-eyebrow">PERSON SELECTOR</div>
       <h1>人物ダイヤル</h1>
@@ -157,6 +172,13 @@
     </article>
   </main>
 
+  <nav class="mb-primary-bottom-nav" aria-label="下部ナビゲーション">
+    <a class="mb-primary-bottom-tab" href="../index.html"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 14.5 16 5l10.5 9.5v11.2a1.8 1.8 0 0 1-1.8 1.8H7.3a1.8 1.8 0 0 1-1.8-1.8Z"></path><path d="M12 27.5v-8.8h8v8.8"></path></svg></span><b>ホーム</b></a>
+    <a class="mb-primary-bottom-tab" href="../market-base-currency-converter-v273-r29.html?v=20260727-r11372"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="11" cy="16" r="6.5"></circle><circle cx="21" cy="16" r="6.5"></circle><path d="M8 12.5h6M11 9.5v13M18 12.5h6M18 19.5h6"></path></svg></span><b>ツール</b></a>
+    <a class="mb-primary-bottom-tab active" aria-current="page" href="../index.html?view=learn"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 6.5h8.2c1.25 0 2.3.45 3.3 1.35 1-.9 2.05-1.35 3.3-1.35h6.2v19h-6.2c-1.25 0-2.3.45-3.3 1.35-1-.9-2.05-1.35-3.3-1.35H5.5Z"></path><path d="M16 8v18.5M8.5 11h4.5M8.5 15h4.5M19 11h4.5M19 15h4.5"></path></svg></span><b>学ぶ</b></a>
+    <a class="mb-primary-bottom-tab" href="../index.html?view=rankings"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 27.5V19h5v8.5M13.5 27.5V13h5v14.5M22 27.5V5h5v22.5M3.5 27.5h25"></path></svg></span><b>ランキング</b></a>
+  </nav>
+
   <dialog id="searchDialog" class="search-dialog">
     <div class="search-dialog-inner">
       <div class="search-dialog-header">
@@ -183,5 +205,6 @@
 
   <script src="assets/data.js?v=20260726-r11365"></script>
   <script src="assets/app.js?v=20260726-r11365"></script>
+  <script src="../assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371" data-mb-root="../" data-mb-active="learn"></script>
 </body>
 </html>
