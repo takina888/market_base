@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-07-28T09:10:41Z",
+  "generated_at": "2026-07-28T14:44:54Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,61 +29,61 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "033206055cb630c1",
+          "id": "a6789a8b3e06ac08",
+          "title": "第4回「さまざまな視点で世界を見る」モンゴル編～司馬さんとモンゴル～を開催しました",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE84NWdYbkpSeW1xczJUb2hsUlpfMkdJdUlGX3pDc2REYktINTNWZ2o4eUt3NnQwOWlIcXh6c3QzR1RLRzdOalVGRGwxQjlETk1UbzJ5U2ZVNXFrTV8xeHVFenh0b3E?oc=5",
+          "source": "osaka-u.ac.jp",
+          "published_at": "2026-07-28T12:26:25Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "84bc3a6731421e1e",
+          "title": "熊本震度7、海外メディアも速報 訪日客や半導体製造で関心高く（毎日新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSaHAzcDRoajdxQkd3Mkh6a2JyVjVPUWJLeEtXakhLdmFqbjByY3lfZEg4TVlFQk02T244WFpEU0Nqa0JhdGpLdkhLa3N2R2xMODNoYkMyNHU1SUdBcVJsMFUyZkhaU1otQ0ZRV0t0TUdlLTM5eTJRbWRRQkk5dnM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-07-28T12:22:28Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b7ebac76f30c3d91",
+          "title": "熊本地震、海外メディアが一斉に速報…中国のＳＮＳでは「日本地震」が検索ワード１位に（読売新聞オンライン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfZi0tUXR6OEo2S1VuVnlMVklMczVqQjhaam5hczZWZnpueVI1WWdudU9nZ29KUk9xOXExc1VYSVE4LWhlaU9FZUVIWmVjT0NHaDBHaVZ4a0w5clgySGV5c2RMcS1CYVBRUVAtNFkwMkZDemFBSTh5SU1JVGo4Tmc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-07-28T11:18:12Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0be9482f01ddfde1",
+          "title": "洋上美術館で日本文化を世界へ文化立国調査会が「飛鳥Ⅲ」を視察 | お知らせ | ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvaWpPWmgzLXJTYy1IRmNFTFFsMWFrN0J1MVM2c0JHRWllSUtxMjZPT1BoTUVBMHl6emJDZUtxZkpjZURFX2loQmRtbkJsaUlJRlZaMTFNbmFtYmQxdnc?oc=5",
+          "source": "jimin.jp",
+          "published_at": "2026-07-28T08:59:07Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "57a0016b484ceffb",
           "title": "【国際交流】別府大学国際セミナー開講式を実施しました",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBuY05TdGhEMEJlVFFEUDUtWmhqM25Dd3FwdU1HcHRlaENxQzlEcHB2dW5zRzZQekRSUnFVZmI1dXNBQUps?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5RNWduOE1WLXo4NlpjaUZibENVNEUzTTg1RmVHSEowelBZT3NrbnA1MXNIZ3JSY25zY2xJRERobjhrczJvZVE?oc=5",
           "source": "別府大学",
-          "published_at": "2026-07-28T07:39:57Z",
+          "published_at": "2026-07-28T08:17:48Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-07-28T05:53:08Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2ddcb2f4274027d3",
-          "title": "バイオ・ヘルスケア分野の海外スタートアップ8社、大阪で日本企業と関係構築",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uWGM3bFFKSVB2eDJZSGcxcWhVdUduUEsyamJVamh1NldPcTdYaDBsZ05BRF9JU1Bia09yTjRmcHZ6dklUZlZycnJzeVhETlV5bzNTb1BHS3NJVDBKcGVyUS1XREF0dS1JSmI1NDNB?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-07-28T03:17:43Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c2b859ab95e97e4c",
-          "title": "同志社国際の家宅捜索を学校法人が公表 「全面的に協力」辺野古沖転覆事故（産経新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pYnpIQ2lpUEZIOGpDeVJ4d09pUFdQRjhrWXBRb19jNzlGcjdlMHJuZzZzZXVIWmwyQzVEUm5jZGFaOEpPck83OEw0WWkwV3hFT2UycllhWFZ0MnlUb1FCVF9sN0d4b0lCN0RtWlNlOGNoMmJfZFNkSHV5QThvX0k?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-07-28T02:54:13Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3d1828f981f0aae8",
-          "title": "約1年ぶり台湾から庄内空港へ国際チャーター便運航 9往復・18便 10月18日～11月19日 山形｜ニュース",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LVkIyTkNoVE1yMEV2U1RwUEJhRVZGOVVrZjc2N0R3Rkpmb25wd2w1YklKWkRMbnhLbGpjRVJPbXp5NlgxeFN4SEo2eDNCaFFTWUxVNTM0QWh4UFdiYS10czdidDFyV1pjcVF1ZDBfRFJVRWc?oc=5",
-          "source": "さくらんぼテレビ",
-          "published_at": "2026-07-28T02:48:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8bb6326dc73976d2",
-          "title": "蔵内勇夫議長の地元の市議会、海外視察問題「全容解明を」…意見書案を全会一致で可決（読売新聞オンライン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9veWpnMDQ2ZkxYdE9oQlNkNERpMWtJUllKbFh6MGI2S01TZkFoVUxrUktJYV9MNnA3WFg0OEV1eDR3MzVQVUpKY2VrclExRVJrN3hvN2hFcktBRG9hME5zUkE0emtMQ3VERFJseEdJVF9WLUNzejlZMHkzcGVfM1U?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-07-28T02:29:34Z",
+          "id": "66fe9ef8a91ca027",
+          "title": "NTTドコモ Presents Lemino BOXING ダブル世界タイトルマッチ[世界][世界][OPBF][日本]",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1c0ExdEU4UnpDQUZxQVJpWkVSNEtRM0lJRlNuS0pzaUFDVFI1YXprSlhoWTFhczh1VVRtbk1qSVFrUVFka0FxOXFyZ3lGbjVqVF9GcUZsYzJuMV9oQlc5V2tkSQ?oc=5",
+          "source": "ボクシングモバイル",
+          "published_at": "2026-07-28T04:31:15Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -169,16 +169,6 @@
       "label": "食品工場",
       "articles": [
         {
-          "id": "c7572784f59161b0",
-          "title": "食品工場の新設工期、10年で2倍に 強まる人手不足の影響",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Mc0pJUC1SVjJUN0ZEOFJDaWxOVVJMS2t1bDhSeWNBWjJkTkxjV2l3RmU2V1lETXpYWlpRcDNCcTE0TTBWNXl6Vl9GREx6d053NElpZnNKZmlOYUoyWWUyVlkwRGFXbDU4?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-06-21T15:07:05Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "1e3558dd99c398af",
           "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
@@ -214,6 +204,16 @@
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ed0JQbFVtSVgzNlgzM2daVTNSSG1oOEFVUFNXVXFPZWplUW5ObFVpNUQxYkJpU05jQm1hcGhZR1dsbURwWDc3N01TaDk3cTRPOFY0dFVIT0FMREo4VmN5eDJ1b3JSYjRCbVJXR05rcw?oc=5",
           "source": "MONOist",
           "published_at": "2026-05-25T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c7572784f59161b0",
+          "title": "食品工場の新設工期、10年で2倍に 強まる人手不足の影響",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Mc0pJUC1SVjJUN0ZEOFJDaWxOVVJMS2t1bDhSeWNBWjJkTkxjV2l3RmU2V1lETXpYWlpRcDNCcTE0TTBWNXl6Vl9GREx6d053NElpZnNKZmlOYUoyWWUyVlkwRGFXbDU4?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-06-21T15:07:05Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-07-28T09:10:41Z",
-  "last_success_at": "2026-07-28T09:10:41Z",
+  "last_attempt_at": "2026-07-28T14:44:54Z",
+  "last_success_at": "2026-07-28T14:44:54Z",
   "consecutive_failure_count": 0
 }
