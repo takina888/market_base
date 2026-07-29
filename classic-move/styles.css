@@ -313,3 +313,13 @@ html,body,#app{overflow-anchor:none}
 .classic-reader-nav>*:last-child{justify-self:stretch}
 .classic-reader-nav>*:first-child{justify-self:stretch}
 @media(max-width:760px){.header-spacer{width:52px;min-width:52px}.classic-reader-nav{grid-template-columns:1fr}.classic-reader-nav span{display:none}.classic-reader-nav button{width:100%}}
+
+
+/* V.306: classic body slightly larger for readability */
+.classic-original{
+  font-size:1.30rem;
+  line-height:1.94;
+}
+@media (max-width:640px){
+  .classic-original{font-size:1.12rem;line-height:1.88}
+}

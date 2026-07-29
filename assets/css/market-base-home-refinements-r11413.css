@@ -1,0 +1,152 @@
+/* MARKET BASE R114.13
+   Home compact routes + softer upper history controls. */
+
+/* 「探し方」3カード：アイコン箱とカード内の余白を詰める */
+.target-route-list--two{
+  gap:10px!important;
+}
+.target-route-list--two>button,
+.target-route-list--two>a.world-compass-route-card{
+  grid-template-columns:44px minmax(0,1fr) 16px!important;
+  min-height:78px!important;
+  padding:11px 14px!important;
+  column-gap:11px!important;
+  row-gap:2px!important;
+  border-radius:18px!important;
+}
+body.mb-unified-main-page .target-route-list--two>button>.target-icon.line-ui-icon,
+body.mb-unified-main-page .target-route-list--two>a.world-compass-route-card>.target-icon.line-ui-icon{
+  box-sizing:border-box!important;
+  width:42px!important;
+  height:42px!important;
+  padding:6px!important;
+  border-radius:13px!important;
+  background:#F2F6FC!important;
+}
+body.mb-unified-main-page .target-route-list--two>button>.target-icon.line-ui-icon svg,
+body.mb-unified-main-page .target-route-list--two>a.world-compass-route-card>.target-icon.line-ui-icon svg{
+  width:28px!important;
+  height:28px!important;
+}
+.target-route-list--two>button>strong,
+.target-route-list--two>a.world-compass-route-card>strong{
+  font-size:16.5px!important;
+  line-height:1.22!important;
+}
+.target-route-list--two>button>em,
+.target-route-list--two>a.world-compass-route-card>em{
+  font-size:12.5px!important;
+  line-height:1.28!important;
+}
+.target-route-list--two>button>b,
+.target-route-list--two>a.world-compass-route-card>b{
+  font-size:21px!important;
+  opacity:.72;
+}
+
+/* 歴史を学ぶ：上側の切替矢印だけを薄くして主張を抑える */
+.history-date-axis.is-top .history-date-step>span,
+.history-article-axis.is-top .history-article-step>span{
+  color:#86A8CA!important;
+  opacity:.52;
+  text-shadow:none!important;
+}
+.history-date-axis.is-top .history-date-step,
+.history-article-axis.is-top .history-article-step{
+  border-color:#DCE8F4!important;
+  background:#FCFDFF!important;
+}
+
+@media (max-width:430px){
+  .target-route-list--two{gap:8px!important}
+  .target-route-list--two>button,
+  .target-route-list--two>a.world-compass-route-card{
+    grid-template-columns:40px minmax(0,1fr) 14px!important;
+    min-height:70px!important;
+    padding:9px 11px!important;
+    column-gap:9px!important;
+    border-radius:16px!important;
+  }
+  body.mb-unified-main-page .target-route-list--two>button>.target-icon.line-ui-icon,
+  body.mb-unified-main-page .target-route-list--two>a.world-compass-route-card>.target-icon.line-ui-icon{
+    width:38px!important;
+    height:38px!important;
+    padding:5px!important;
+    border-radius:12px!important;
+  }
+  body.mb-unified-main-page .target-route-list--two>button>.target-icon.line-ui-icon svg,
+  body.mb-unified-main-page .target-route-list--two>a.world-compass-route-card>.target-icon.line-ui-icon svg{
+    width:26px!important;
+    height:26px!important;
+  }
+  .target-route-list--two>button>strong,
+  .target-route-list--two>a.world-compass-route-card>strong{font-size:15.5px!important}
+  .target-route-list--two>button>em,
+  .target-route-list--two>a.world-compass-route-card>em{font-size:11.5px!important}
+}
+
+@media (min-width:761px) and (max-width:979px){
+  .target-route-list--two{gap:10px!important}
+}
+
+@media (min-width:980px){
+  .target-route-list--two{gap:12px!important}
+  .target-route-list--two>button,
+  .target-route-list--two>a.world-compass-route-card{
+    grid-template-columns:46px minmax(0,1fr) 15px!important;
+    min-height:86px!important;
+    padding:12px 14px!important;
+    column-gap:11px!important;
+    border-radius:18px!important;
+  }
+  body.mb-unified-main-page .target-route-list--two>button>.target-icon.line-ui-icon,
+  body.mb-unified-main-page .target-route-list--two>a.world-compass-route-card>.target-icon.line-ui-icon{
+    width:44px!important;
+    height:44px!important;
+  }
+  .target-route-list--two>button>strong,
+  .target-route-list--two>a.world-compass-route-card>strong{font-size:16.5px!important}
+  .target-route-list--two>button>em,
+  .target-route-list--two>a.world-compass-route-card>em{font-size:12.5px!important}
+}
+
+
+/* V.301 Today's Journey date switch: move next to country row */
+body.mb-unified-main-page .todays-journey-meta{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:10px!important;flex-wrap:wrap!important}
+body.mb-unified-main-page .todays-journey-meta-left{display:flex!important;align-items:center!important;gap:8px!important;min-width:0!important;flex-wrap:wrap!important}
+body.mb-unified-main-page .todays-journey-history--inline{display:inline-flex!important;align-items:center!important;gap:6px!important;margin-left:auto!important;padding:4px!important;border:1px solid #D8E6F6!important;border-radius:999px!important;background:#FFFFFF!important;box-shadow:0 2px 8px rgba(18,67,120,.06)!important}
+body.mb-unified-main-page .todays-journey-history--inline button{width:34px!important;height:34px!important;min-width:34px!important;border-radius:999px!important}
+body.mb-unified-main-page .todays-journey-history--inline strong{min-width:42px!important;text-align:center!important;font-size:14px!important;line-height:1.2!important}
+body.mb-unified-main-page .todays-journey-history-note--inline{display:block!important;margin:8px 0 0!important;color:#65788F!important;font-size:12px!important;line-height:1.5!important}
+@media (max-width:430px){
+  body.mb-unified-main-page .todays-journey-history--inline{padding:3px!important;gap:4px!important}
+  body.mb-unified-main-page .todays-journey-history--inline button{width:30px!important;height:30px!important;min-width:30px!important}
+  body.mb-unified-main-page .todays-journey-history--inline strong{min-width:38px!important;font-size:13px!important}
+  body.mb-unified-main-page .todays-journey-history-note--inline{font-size:11.5px!important}
+}
+
+
+/* V.306: home layout adjustments for large PC, map position, and larger Today's Journey heading */
+body.mb-unified-main-page > .app-shell,
+body.mb-unified-main-page main.app-shell,
+body.mb-unified-main-page .app-shell{
+  width:min(1480px, calc(100% - 32px))!important;
+  max-width:1480px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+body.mb-unified-main-page #mbMapSearchV301{margin-top:18px!important;margin-bottom:22px!important}
+body.mb-unified-main-page .todays-journey-title-group{display:flex!important;align-items:baseline!important;gap:12px!important;flex-wrap:wrap!important}
+body.mb-unified-main-page .todays-journey-title-group > span{font-size:clamp(30px,3vw,42px)!important;line-height:1.06!important;font-weight:950!important;color:#0A326D!important;letter-spacing:-.01em!important}
+body.mb-unified-main-page .todays-journey-title-group > small{font-size:clamp(24px,2.4vw,34px)!important;line-height:1.08!important;font-weight:900!important;color:#6E8197!important}
+@media (min-width:1400px){
+  body.mb-unified-main-page #mbMapSearchV301 .mb-map-search__stage{height:400px!important;border-radius:32px!important}
+  body.mb-unified-main-page .learn-reading-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+}
+@media (max-width:640px){
+  body.mb-unified-main-page > .app-shell,
+  body.mb-unified-main-page .app-shell{width:calc(100% - 18px)!important}
+  body.mb-unified-main-page .todays-journey-title-group{gap:8px!important}
+  body.mb-unified-main-page .todays-journey-title-group > span{font-size:clamp(28px,8vw,34px)!important}
+  body.mb-unified-main-page .todays-journey-title-group > small{font-size:clamp(20px,6.2vw,28px)!important}
+}

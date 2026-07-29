@@ -57,7 +57,7 @@
     back.className='mb-scroll-control mb-scroll-control-back';
     back.setAttribute('aria-label','前の画面へ戻る');
     back.setAttribute('title','前の画面へ戻る');
-    back.innerHTML='<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M15 5 8 12l7 7"></path><path d="M9 12h10"></path></svg>';
+    back.innerHTML='<span class="mb-scroll-control-back-label" aria-hidden="true">BACK</span>';
     back.addEventListener('click',goBack);
 
     var down=document.createElement('button');

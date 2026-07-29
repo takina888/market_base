@@ -1,96 +1,114 @@
-/* MARKET BASE R114.07 | 読み物エリア 黄色統一 */
+/* MARKET BASE R114.13 | 読み物エリア：パステルレモン */
 #homeReadingSection.home-reading-section{
   margin-top:clamp(24px,4vw,44px);
   padding:clamp(18px,3vw,30px);
-  border:3px solid #d6a514;
+  border:2px solid #E9DFA0;
   border-radius:24px;
-  background:linear-gradient(180deg,#fffdf2 0%,#fff7cf 100%);
-  box-shadow:0 12px 30px rgba(111,82,0,.12);
+  background:linear-gradient(180deg,#FFFFF7 0%,#FFF9D8 100%);
+  box-shadow:0 10px 28px rgba(120,103,26,.08);
 }
 #homeReadingSection .learn-reading-divider{
   margin:0 0 18px;
   padding:0 0 16px;
-  border-bottom:2px solid rgba(176,126,0,.25);
+  border-bottom:2px solid rgba(188,166,57,.18);
 }
 #homeReadingSection .learn-reading-mark{
-  background:#f2c94c;
-  color:#3e2d00;
-  box-shadow:inset 0 0 0 2px rgba(118,81,0,.12);
+  background:#F5E98F;
+  color:#62551A;
+  box-shadow:inset 0 0 0 1px rgba(133,112,24,.10);
 }
 #homeReadingSection .learn-reading-kicker,
 #homeReadingSection .learn-reading-divider h4,
 #homeReadingSection .learn-reading-divider p{
-  color:#4f3900;
+  color:#5D5427;
 }
 #homeReadingSection .learn-reading-grid{
   display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
   gap:16px;
 }
 #homeReadingSection .learn-reading-card{
   position:relative;
   min-height:178px;
   padding:20px 18px 18px;
-  border:2px solid #ddb43b;
+  border:1.5px solid #E8D98D;
   border-radius:20px;
-  background:linear-gradient(180deg,#fff9dc 0%,#ffefaa 100%);
-  color:#3c2d00;
-  box-shadow:0 8px 20px rgba(105,75,0,.11);
+  background:linear-gradient(180deg,#FFFFEC 0%,#FFF5BE 100%);
+  color:#4D441B;
+  box-shadow:0 7px 18px rgba(120,99,19,.07);
   transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;
 }
 #homeReadingSection .learn-reading-card:hover,
 #homeReadingSection .learn-reading-card:focus-visible{
   transform:translateY(-2px);
-  border-color:#b88900;
-  box-shadow:0 12px 26px rgba(105,75,0,.17);
+  border-color:#D8C568;
+  box-shadow:0 10px 23px rgba(120,99,19,.11);
 }
 #homeReadingSection .learn-reading-card .learn-card-icon{
-  background:#e8b82e;
-  color:#3a2900;
+  background:#F3E58B;
+  color:#62531A;
 }
 #homeReadingSection .learn-reading-card h4{
-  margin-top:24px;
-  color:#342600;
+  margin:0 0 7px;
+  color:#4A4017;
   font-size:clamp(1.12rem,1.5vw,1.28rem);
   line-height:1.42;
 }
 #homeReadingSection .learn-reading-card p{
-  color:#5c470b;
+  color:#665B2C;
   font-size:1rem;
   line-height:1.72;
 }
 #homeReadingSection .learn-reading-card .learn-status-open{
-  background:#d9aa1e;
-  color:#241a00;
-  border:1px solid rgba(85,58,0,.2);
+  background:#F2E48B;
+  color:#574A16;
+  border:1px solid rgba(123,103,25,.12);
 }
-#homeReadingSection .reading-region-label{
-  position:absolute;
-  top:14px;
-  right:14px;
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  min-width:58px;
-  min-height:30px;
-  padding:4px 12px;
-  border:1px solid rgba(91,62,0,.22);
-  border-radius:999px;
-  background:#fff4b7;
-  color:#4c3500;
-  font-size:.9rem;
-  font-weight:800;
-  letter-spacing:.08em;
-}
-#homeReadingSection .reading-region-china{background:linear-gradient(180deg,#fff5c8 0%,#f8df75 100%)}
-#homeReadingSection .reading-region-arab{background:linear-gradient(180deg,#fff8dc 0%,#f2d58d 100%)}
-#homeReadingSection .reading-region-india{background:linear-gradient(180deg,#fff2bd 0%,#f6cf62 100%)}
+#homeReadingSection .reading-region-label{display:none!important}
+#homeReadingSection .reading-region-china{background:linear-gradient(180deg,#FFFFEE 0%,#FFF3B8 100%)}
+#homeReadingSection .reading-region-arab{background:linear-gradient(180deg,#FFFFF3 0%,#FFF6CB 100%)}
+#homeReadingSection .reading-region-india{background:linear-gradient(180deg,#FFFFE9 0%,#FFEFAD 100%)}
 @media (max-width:900px){
   #homeReadingSection .learn-reading-grid{grid-template-columns:1fr}
   #homeReadingSection .learn-reading-card{min-height:0}
 }
 @media (max-width:640px){
-  #homeReadingSection.home-reading-section{padding:16px 14px;border-width:2px;border-radius:20px}
+  #homeReadingSection.home-reading-section{padding:16px 14px;border-width:1.5px;border-radius:20px}
   #homeReadingSection .learn-reading-card{padding:18px 16px 16px}
   #homeReadingSection .learn-reading-card p{font-size:1rem;line-height:1.78}
+}
+
+/* V.303: reading titles stay neutral; cards scale as the library grows. */
+#homeReadingSection .reading-title-card{background:linear-gradient(180deg,#FFFFF2 0%,#FFF3B8 100%)}
+@media (min-width:641px) and (max-width:1050px){
+  #homeReadingSection .learn-reading-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+
+/* V.306: reading section title simplified and home description updated */
+#homeReadingSection .learn-reading-divider.home-reading-divider-v306{
+  display:block;
+  margin:0 0 16px;
+  padding:0 0 12px;
+  border-bottom:2px solid rgba(188,166,57,.18);
+}
+#homeReadingSection .home-reading-title{
+  margin:0 0 8px;
+  color:#5D5427;
+  font-size:clamp(28px,3vw,38px);
+  line-height:1.1;
+  font-weight:950;
+  letter-spacing:-.01em;
+}
+#homeReadingSection .home-reading-description{
+  margin:0;
+  color:#665B2C;
+  font-size:1rem;
+  line-height:1.72;
+}
+#homeReadingSection .learn-reading-mark,
+#homeReadingSection .learn-reading-kicker{display:none!important}
+@media (max-width:640px){
+  #homeReadingSection .home-reading-title{font-size:clamp(26px,7vw,32px)}
+  #homeReadingSection .home-reading-description{font-size:.98rem;line-height:1.76}
 }

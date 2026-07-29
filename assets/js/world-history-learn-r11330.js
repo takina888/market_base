@@ -90,18 +90,53 @@
     });
     return frag;
   }
+  function commonsFileName(photo){
+    var page=text(photo&&photo.pageUrl);
+    var image=text(photo&&photo.imageUrl);
+    var raw='';
+    var i=page.indexOf('File:');
+    if(i!==-1)raw=page.slice(i+5);
+    if(!raw){
+      var marker='/file/';
+      i=image.indexOf(marker);
+      if(i!==-1)raw=image.slice(i+marker.length).split('?')[0];
+    }
+    if(!raw)return '';
+    try{raw=decodeURIComponent(raw);}catch(_){ }
+    return raw.replace(/ /g,'_');
+  }
+  function photoCandidates(photo){
+    var candidates=[];
+    var fileName=commonsFileName(photo);
+    if(fileName){
+      var encoded=encodeURIComponent(fileName);
+      candidates.push('https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/'+encoded+'&width=1600');
+      candidates.push('https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/'+encoded);
+    }
+    if(photo&&photo.imageUrl)candidates.push(photo.imageUrl);
+    return candidates.filter(function(url,index,list){return url&&list.indexOf(url)===index;});
+  }
   function photoNode(article,loading){
     var wrap=el('div','history-photo');
     var photo=article.photo||{};
-    if(photo.imageUrl){
+    var candidates=photoCandidates(photo);
+    if(candidates.length){
       var img=document.createElement('img');
-      img.src=photo.imageUrl;
+      var current=0;
       img.alt=article.title+'に関する写真';
-      if(loading)img.loading=loading;else img.fetchPriority='high';
+      img.decoding='async';
+      img.loading='eager';
+      img.fetchPriority='high';
       img.referrerPolicy='no-referrer';
       img.addEventListener('error',function(){
+        current+=1;
+        if(current<candidates.length){
+          img.src=candidates[current];
+          return;
+        }
         wrap.replaceChildren(photoPlaceholder(article));
-      },{once:true});
+      });
+      img.src=candidates[current];
       wrap.appendChild(img);
     }else{
       wrap.appendChild(photoPlaceholder(article));
@@ -177,24 +212,32 @@
     copy.appendChild(el(headingTag,'',article.title));
     if(article.subtitle)copy.appendChild(el('p','history-subtitle',article.subtitle));
     if(withPhoto)copy.appendChild(photoNode(article,headingTag==='h2'?'lazy':null));
-    if(article.intro)copy.appendChild(el('p','history-intro',article.intro));
+
+    var explanation=el('details','history-explanation-disclosure');
+    var explanationSummary=el('summary','history-explanation-summary');
+    explanationSummary.innerHTML='<span class="history-explanation-label"><span class="history-explanation-label-open">説明文を読む</span><span class="history-explanation-label-close">説明文を閉じる</span></span><span class="history-explanation-chevron" aria-hidden="true">⌄</span>';
+    explanation.appendChild(explanationSummary);
+    var explanationBody=el('div','history-explanation-body');
+    if(article.intro)explanationBody.appendChild(el('p','history-intro',article.intro));
     var body=el('div','history-body');
     body.appendChild(paragraphNodes(article.body));
-    copy.appendChild(body);
+    explanationBody.appendChild(body);
     if(article.significance){
       var sig=el('aside','history-significance');
       sig.appendChild(el('strong','', '歴史的意味'));
       sig.appendChild(el('p','',article.significance));
-      copy.appendChild(sig);
+      explanationBody.appendChild(sig);
     }
     if(article.people){
       var people=el('p','history-people');
       people.appendChild(el('strong','', '関連人物：'));
       people.appendChild(document.createTextNode(article.people));
-      copy.appendChild(people);
+      explanationBody.appendChild(people);
     }
-    var src=sourceDetails(article);if(src)copy.appendChild(src);
-    var credit=photoCreditDetails(article);if(credit)copy.appendChild(credit);
+    var src=sourceDetails(article);if(src)explanationBody.appendChild(src);
+    var credit=photoCreditDetails(article);if(credit)explanationBody.appendChild(credit);
+    explanation.appendChild(explanationBody);
+    copy.appendChild(explanation);
     return copy;
   }
   function fullDateLabel(key){
@@ -209,7 +252,7 @@
     return '選択日';
   }
   function dateAxis(selectedKey,onSelect,isBottom){
-    var nav=el('nav','history-date-axis'+(isBottom?' is-bottom':''));
+    var nav=el('nav','history-date-axis'+(isBottom?' is-bottom':' is-top'));
     nav.setAttribute('aria-label',isBottom?'下側の日付切替':'上側の日付切替');
     var prevKey=offsetKey(selectedKey,-1);
     var nextKey=offsetKey(selectedKey,1);
@@ -232,7 +275,7 @@
     return nav;
   }
   function articleAxis(index,count,onMove,isBottom){
-    var nav=el('nav','history-article-axis'+(isBottom?' is-bottom':''));
+    var nav=el('nav','history-article-axis'+(isBottom?' is-bottom':' is-top'));
     nav.setAttribute('aria-label',isBottom?'下側の記事切替':'上側の記事切替');
     var up=el('button','history-article-step is-up');
     up.type='button';up.disabled=index<=0;

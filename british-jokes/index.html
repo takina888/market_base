@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#EEF3F9">
+  <meta name="description" content="紅茶、天気、サッカー、階級、パブ、文学を題材にした英国らしい乾いたユーモアを、日本語・英語・笑いのポイントとともに50話収録した読み物ページ。">
+  <title>曇り空の紳士｜MARKET BASE</title>
+  <link rel="icon" sizes="32x32" type="image/png" href="../icons/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon-180.png">
+  <link rel="stylesheet" href="../assets/css/market-base-primary-components-r11326.css?v=20260728-bj1">
+  <link rel="stylesheet" href="../assets/css/market-base-desktop-icon-nav-r11337.css?v=20260728-bj1">
+  <link rel="stylesheet" href="../assets/css/market-base-standard-shell-r11372.css?v=20260728-bj1">
+  <link rel="stylesheet" href="../assets/css/market-base-scroll-controls-r11328.css?v=20260728-bj1">
+  <link rel="stylesheet" href="assets/page.css?v=20260728-v303">
+  <link rel="stylesheet" href="../assets/css/market-base-header-audit-v302.css?v=20260728-v303">
+  <link rel="stylesheet" href="../assets/css/market-base-bottom-nav-unified-r11409.css?v=20260728-v303">
+  <meta name="market-base-build" content="MARKET_BASE_V303_CLOUDY_GENTLEMAN_20260728">
+</head>
+<body class="mb-unified-specialist-page mb-standard-page mb-has-primary-bottom-nav british-jokes-page">
+
+  <a class="bj-skip-link" href="#mainContent">本文へ移動</a>
+  <div class="mb-primary-header-host">
+    <header class="mb-global-header mb-primary-header" aria-label="曇り空の紳士の操作">
+      <a class="mb-global-brand" href="../index.html">MARKET BASE</a>
+      <div class="mb-global-actions">
+        <a class="mb-global-button" href="../index.html?view=learn#british-jokes">戻る</a>
+        <button class="mb-global-button" id="pageRefreshButton" type="button">更新</button>
+      </div>
+    </header>
+  </div>
+
+  <main class="mb-standard-content-shell bj-main" id="mainContent">
+    <section class="bj-hero" aria-labelledby="pageTitle">
+      <div class="bj-hero-copy">
+        <p class="bj-eyebrow">BRITISH HUMOUR</p>
+        <h1 id="pageTitle">曇り空の紳士</h1>
+        <p class="bj-lead">紅茶、天気、サッカー、階級、パブ、文学。曇り空でも表情を崩さない紳士たちの乾いた皮肉を、日本語・英語・笑いのポイントとともに1話ずつ読めます。</p>
+      </div>
+      <div class="bj-hero-stats" aria-label="収録情報">
+        <div><strong id="totalCount">50</strong><span>収録話数</span></div>
+        <div><strong id="categoryCount">0</strong><span>カテゴリ</span></div>
+        <div><strong id="readCountHero">0</strong><span>読了</span></div>
+      </div>
+    </section>
+
+    <section class="bj-controls" aria-label="ジョークを探す">
+      <label class="bj-field bj-field-search">
+        <span>言葉から探す</span>
+        <input id="searchInput" type="search" inputmode="search" placeholder="例：紅茶、サッカー、Shakespeare">
+      </label>
+      <label class="bj-field">
+        <span>カテゴリ</span>
+        <select id="categorySelect"><option value="">すべて</option></select>
+      </label>
+      <label class="bj-field">
+        <span>話を選ぶ</span>
+        <select id="jumpSelect"></select>
+      </label>
+      <div class="bj-control-buttons">
+        <button class="bj-button bj-button-secondary" id="randomButton" type="button">ランダム</button>
+        <button class="bj-button bj-button-secondary" id="clearButton" type="button">絞り込み解除</button>
+      </div>
+      <label class="bj-unread-toggle"><input id="unreadOnlyInput" type="checkbox"><span>未読のみ</span></label>
+    </section>
+
+    <section class="bj-progress-panel" aria-label="読了状況">
+      <div class="bj-progress-copy"><strong id="readProgressText">0 / 50話 読了</strong><span id="filterStatus">50話を表示中</span></div>
+      <div class="bj-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="50" aria-valuenow="0" id="readProgressBar"><span id="readProgressFill"></span></div>
+    </section>
+
+    <div class="bj-layout">
+      <aside class="bj-index-panel" aria-labelledby="storyListTitle">
+        <div class="bj-panel-heading">
+          <div><p class="bj-panel-kicker">STORY INDEX</p><h2 id="storyListTitle">全50話</h2></div>
+          <span class="bj-filter-count" id="filteredCount">50</span>
+        </div>
+        <div class="bj-story-list" id="storyList" aria-live="polite"></div>
+      </aside>
+
+      <article class="bj-reader" id="storyReader" aria-live="polite">
+        <header class="bj-reader-head">
+          <div>
+            <p class="bj-story-meta"><span id="storyId">BJ-001</span><span id="storyCategory">サッカー</span></p>
+            <h2 id="storyTitleJa">希望を捨てない男</h2>
+            <p class="bj-story-title-en" id="storyTitleEn" lang="en">The Man Who Never Gives Up Hope</p>
+          </div>
+          <button class="bj-read-button" id="readButton" type="button" aria-pressed="false">読了にする</button>
+        </header>
+
+        <section class="bj-language-section bj-ja-section" aria-labelledby="japaneseLabel">
+          <h3 id="japaneseLabel">日本語</h3>
+          <div class="bj-story-body" id="storyBodyJa"></div>
+        </section>
+
+        <section class="bj-language-section bj-en-section" id="englishSection" aria-labelledby="englishLabel">
+          <div class="bj-language-head"><h3 id="englishLabel">English</h3><button class="bj-text-button" id="englishToggleButton" type="button" aria-expanded="true">英語を隠す</button></div>
+          <div class="bj-story-body bj-story-body-en" id="storyBodyEn" lang="en"></div>
+        </section>
+
+        <details class="bj-explanation" id="explanationDetails">
+          <summary>笑いのポイント</summary>
+          <p id="explanationText"></p>
+        </details>
+
+        <footer class="bj-reader-actions">
+          <button class="bj-nav-button" id="previousButton" type="button"><span aria-hidden="true">‹</span> 前の話</button>
+          <span class="bj-position" id="storyPosition">1 / 50</span>
+          <button class="bj-nav-button" id="nextButton" type="button">次の話 <span aria-hidden="true">›</span></button>
+        </footer>
+      </article>
+    </div>
+
+    <p class="bj-live-status" id="liveStatus" role="status" aria-live="polite"></p>
+  </main>
+
+
+  <nav class="mb-primary-bottom-nav" aria-label="下部ナビゲーション">
+    <a class="mb-primary-bottom-tab" href="../index.html">
+      <span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 14.5 16 5l10.5 9.5v11.2a1.8 1.8 0 0 1-1.8 1.8H7.3a1.8 1.8 0 0 1-1.8-1.8Z"></path><path d="M12 27.5v-8.8h8v8.8"></path></svg></span><b>ホーム</b>
+    </a>
+    <a class="mb-primary-bottom-tab" href="../market-base-currency-converter-v273-r29.html">
+      <span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="11" cy="16" r="6.5"></circle><circle cx="21" cy="16" r="6.5"></circle><path d="M8 12.5h6M11 9.5v13M18 12.5h6M18 19.5h6"></path></svg></span><b>ツール</b>
+    </a>
+    <a class="mb-primary-bottom-tab active" aria-current="page" href="../index.html?view=learn#british-jokes">
+      <span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 6.5h8.2c1.25 0 2.3.45 3.3 1.35 1-.9 2.05-1.35 3.3-1.35h6.2v19h-6.2c-1.25 0-2.3.45-3.3 1.35-1-.9-2.05-1.35-3.3-1.35H5.5Z"></path><path d="M16 8v18.5M8.5 11h4.5M8.5 15h4.5M19 11h4.5M19 15h4.5"></path></svg></span><b>学ぶ</b>
+    </a>
+    <a class="mb-primary-bottom-tab" href="../index.html?view=rankings">
+      <span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 27.5V19h5v8.5M13.5 27.5V13h5v14.5M22 27.5V5h5v22.5M3.5 27.5h25"></path></svg></span><b>ランキング</b>
+    </a>
+  </nav>
+  <script src="data/jokes-data.js?v=20260728-v303"></script>
+  <script src="assets/page.js?v=20260728-v303"></script>
+  <script src="../assets/js/market-base-desktop-icon-nav-r11337.js?v=20260728-v303" data-mb-root="../" data-mb-active="learn"></script>
+  <script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260728-v303"></script>
+</body>
+</html>

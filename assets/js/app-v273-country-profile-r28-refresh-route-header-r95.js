@@ -3230,7 +3230,9 @@ function setMarketBaseRefreshState(working){
 async function purgeMarketBaseLocalCache(){
   if('caches' in window){
     const keys=await caches.keys();
-    await Promise.all(keys.filter(key=>String(key).startsWith('market-base-')).map(key=>caches.delete(key)));
+    const marketBaseKeys=keys.filter(key=>String(key).startsWith('market-base-'));
+    const keepKeys=new Set(marketBaseKeys.slice(-2));
+    await Promise.all(marketBaseKeys.filter(key=>!keepKeys.has(key)).map(key=>caches.delete(key)));
   }
   if('serviceWorker' in navigator){
     const regs=await navigator.serviceWorker.getRegistrations();

@@ -1,0 +1,606 @@
+:root{
+  --bj-text:#17243A;
+  --bj-muted:#627188;
+  --bj-card:#FFFFFF;
+  --bj-line:#DCE6F2;
+  --bj-soft:#F5F8FC;
+  --bj-blue:#075FC7;
+  --bj-navy:#0B3976;
+  --bj-burgundy:#7D2945;
+  --bj-gold:#B58A3A;
+  --bj-success:#17663A;
+  --bj-success-soft:#EAF7EF;
+}
+
+body.british-jokes-page{
+  color:var(--bj-text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Yu Gothic UI","Yu Gothic",Meiryo,sans-serif;
+}
+
+.british-jokes-page .bj-skip-link{
+  position:fixed;
+  top:8px;
+  left:8px;
+  z-index:200;
+  transform:translateY(-180%);
+  padding:10px 14px;
+  border-radius:10px;
+  background:#FFFFFF;
+  color:var(--bj-blue);
+  font-weight:900;
+  text-decoration:none;
+  box-shadow:0 8px 20px rgba(20,49,84,.18);
+}
+
+.british-jokes-page .bj-skip-link:focus{transform:translateY(0)}
+
+.british-jokes-page .bj-main{
+  padding-top:2px;
+  padding-bottom:34px;
+}
+
+.british-jokes-page .bj-hero{
+  position:relative;
+  overflow:hidden;
+  display:grid;
+  gap:20px;
+  padding:24px;
+  border:1px solid var(--bj-line);
+  border-radius:24px;
+  background:linear-gradient(145deg,#FFFFFF 0%,#F3F7FD 72%,#F8F1F4 100%);
+  box-shadow:0 12px 34px rgba(20,49,84,.06);
+}
+
+.british-jokes-page .bj-hero::after{
+  content:"“”";
+  position:absolute;
+  right:14px;
+  top:-24px;
+  color:rgba(125,41,69,.07);
+  font:900 150px/1 Georgia,"Times New Roman",serif;
+  letter-spacing:-.18em;
+  pointer-events:none;
+}
+
+.british-jokes-page .bj-hero-copy{position:relative;z-index:1;min-width:0}
+
+.british-jokes-page .bj-eyebrow,
+.british-jokes-page .bj-panel-kicker{
+  margin:0 0 7px;
+  color:var(--bj-burgundy);
+  font-size:12px;
+  font-weight:950;
+  letter-spacing:.12em;
+}
+
+.british-jokes-page .bj-hero h1{
+  margin:0;
+  color:var(--bj-navy);
+  font-size:clamp(28px,7vw,44px);
+  line-height:1.18;
+  letter-spacing:.01em;
+  overflow-wrap:anywhere;
+}
+
+.british-jokes-page .bj-lead{
+  max-width:760px;
+  margin:14px 0 0;
+  color:var(--bj-muted);
+  font-size:15.5px;
+  line-height:1.75;
+}
+
+.british-jokes-page .bj-hero-stats{
+  position:relative;
+  z-index:1;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:8px;
+}
+
+.british-jokes-page .bj-hero-stats div{
+  min-width:0;
+  padding:13px 8px;
+  border:1px solid rgba(181,138,58,.20);
+  border-radius:16px;
+  background:rgba(255,255,255,.80);
+  text-align:center;
+}
+
+.british-jokes-page .bj-hero-stats strong{
+  display:block;
+  color:var(--bj-navy);
+  font-size:23px;
+  line-height:1.15;
+}
+
+.british-jokes-page .bj-hero-stats span{
+  display:block;
+  margin-top:4px;
+  color:var(--bj-muted);
+  font-size:12px;
+  font-weight:800;
+}
+
+.british-jokes-page .bj-controls{
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  gap:12px;
+  margin-top:16px;
+  padding:16px;
+  border:1px solid var(--bj-line);
+  border-radius:20px;
+  background:var(--bj-card);
+  box-shadow:0 8px 24px rgba(20,49,84,.05);
+}
+
+.british-jokes-page .bj-field{
+  display:grid;
+  gap:6px;
+  min-width:0;
+}
+
+.british-jokes-page .bj-field span{
+  color:var(--bj-muted);
+  font-size:12.5px;
+  font-weight:900;
+}
+
+.british-jokes-page .bj-field input,
+.british-jokes-page .bj-field select{
+  box-sizing:border-box;
+  width:100%;
+  min-width:0;
+  min-height:48px;
+  padding:10px 12px;
+  border:1px solid #C9D8E9;
+  border-radius:14px;
+  background:#FFFFFF;
+  color:var(--bj-text);
+  font:700 15px/1.35 inherit;
+}
+
+.british-jokes-page .bj-field input:focus,
+.british-jokes-page .bj-field select:focus{
+  outline:3px solid rgba(7,95,199,.14);
+  border-color:#8DB9EA;
+}
+
+.british-jokes-page .bj-control-buttons{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+  align-self:end;
+}
+
+.british-jokes-page .bj-button,
+.british-jokes-page .bj-read-button,
+.british-jokes-page .bj-nav-button,
+.british-jokes-page .bj-text-button{
+  box-sizing:border-box;
+  min-height:44px;
+  border-radius:14px;
+  font:900 14px/1.2 inherit;
+  cursor:pointer;
+}
+
+.british-jokes-page .bj-button-secondary{
+  border:1px solid #C9DDF5;
+  background:#F4F8FF;
+  color:var(--bj-blue);
+}
+
+.british-jokes-page .bj-unread-toggle{
+  display:flex;
+  align-items:center;
+  gap:9px;
+  min-height:44px;
+  padding:0 4px;
+  color:var(--bj-text);
+  font-size:14px;
+  font-weight:850;
+}
+
+.british-jokes-page .bj-unread-toggle input{
+  width:20px;
+  height:20px;
+  accent-color:var(--bj-blue);
+}
+
+.british-jokes-page .bj-progress-panel{
+  display:grid;
+  gap:10px;
+  margin-top:12px;
+  padding:14px 16px;
+  border:1px solid var(--bj-line);
+  border-radius:18px;
+  background:#FFFFFF;
+}
+
+.british-jokes-page .bj-progress-copy{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:6px 14px;
+}
+
+.british-jokes-page .bj-progress-copy strong{color:var(--bj-navy);font-size:14px}
+.british-jokes-page .bj-progress-copy span{color:var(--bj-muted);font-size:13px}
+
+.british-jokes-page .bj-progress-track{
+  overflow:hidden;
+  height:9px;
+  border-radius:999px;
+  background:#E9EEF5;
+}
+
+.british-jokes-page .bj-progress-track span{
+  display:block;
+  width:0;
+  height:100%;
+  border-radius:inherit;
+  background:linear-gradient(90deg,var(--bj-blue),#2E86D5);
+  transition:width .25s ease;
+}
+
+.british-jokes-page .bj-layout{
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  grid-template-areas:"reader" "index";
+  gap:16px;
+  margin-top:16px;
+}
+
+.british-jokes-page .bj-index-panel,
+.british-jokes-page .bj-reader{
+  min-width:0;
+  border:1px solid var(--bj-line);
+  border-radius:22px;
+  background:var(--bj-card);
+  box-shadow:0 10px 28px rgba(20,49,84,.06);
+}
+
+.british-jokes-page .bj-index-panel{
+  grid-area:index;
+  padding:16px;
+}
+
+.british-jokes-page .bj-panel-heading{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding-bottom:12px;
+  border-bottom:1px solid var(--bj-line);
+}
+
+.british-jokes-page .bj-panel-heading h2{
+  margin:0;
+  color:var(--bj-navy);
+  font-size:20px;
+}
+
+.british-jokes-page .bj-filter-count{
+  display:grid;
+  place-items:center;
+  min-width:42px;
+  min-height:42px;
+  padding:0 8px;
+  border-radius:13px;
+  background:#EEF5FF;
+  color:var(--bj-blue);
+  font-weight:950;
+}
+
+.british-jokes-page .bj-story-list{
+  display:grid;
+  gap:8px;
+  margin-top:12px;
+}
+
+.british-jokes-page .bj-story-item{
+  display:grid;
+  grid-template-columns:44px minmax(0,1fr) auto;
+  align-items:center;
+  gap:10px;
+  width:100%;
+  min-height:62px;
+  padding:8px 10px;
+  border:1px solid #E1E8F1;
+  border-radius:15px;
+  background:#FFFFFF;
+  color:var(--bj-text);
+  text-align:left;
+  cursor:pointer;
+}
+
+.british-jokes-page .bj-story-item:hover{background:#F7FAFE;border-color:#C9DAEE}
+.british-jokes-page .bj-story-item[aria-current="true"]{border-color:#8EB8E8;background:#EEF5FF;box-shadow:inset 3px 0 0 var(--bj-blue)}
+
+.british-jokes-page .bj-story-number{
+  display:grid;
+  place-items:center;
+  width:40px;
+  height:40px;
+  border-radius:12px;
+  background:#F1F4F8;
+  color:var(--bj-navy);
+  font-size:12px;
+  font-weight:950;
+}
+
+.british-jokes-page .bj-story-item[aria-current="true"] .bj-story-number{background:#DCEBFC;color:var(--bj-blue)}
+
+.british-jokes-page .bj-story-copy{min-width:0}
+.british-jokes-page .bj-story-copy strong{display:block;font-size:14.5px;line-height:1.35;overflow-wrap:anywhere}
+.british-jokes-page .bj-story-copy small{display:block;margin-top:3px;color:var(--bj-muted);font-size:11.5px;line-height:1.3;overflow-wrap:anywhere}
+
+.british-jokes-page .bj-read-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:38px;
+  min-height:27px;
+  padding:3px 7px;
+  border-radius:999px;
+  background:#F1F4F8;
+  color:#7A8798;
+  font-size:10.5px;
+  font-weight:950;
+}
+
+.british-jokes-page .bj-read-badge.is-read{background:var(--bj-success-soft);color:var(--bj-success)}
+
+.british-jokes-page .bj-empty-list{
+  margin:4px 0 0;
+  padding:22px 12px;
+  border-radius:14px;
+  background:var(--bj-soft);
+  color:var(--bj-muted);
+  text-align:center;
+  font-size:14px;
+}
+
+.british-jokes-page .bj-reader{
+  grid-area:reader;
+  overflow:hidden;
+}
+
+.british-jokes-page .bj-reader-head{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+  padding:20px;
+  border-bottom:1px solid var(--bj-line);
+  background:linear-gradient(150deg,#FFFFFF,#F8FAFD);
+}
+
+.british-jokes-page .bj-reader-head>div{min-width:0}
+
+.british-jokes-page .bj-story-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+  margin:0 0 8px;
+}
+
+.british-jokes-page .bj-story-meta span{
+  display:inline-flex;
+  align-items:center;
+  min-height:26px;
+  padding:3px 9px;
+  border-radius:999px;
+  background:#EEF3F9;
+  color:var(--bj-muted);
+  font-size:11.5px;
+  font-weight:900;
+}
+
+.british-jokes-page .bj-reader h2{
+  margin:0;
+  color:var(--bj-navy);
+  font-size:clamp(24px,6vw,36px);
+  line-height:1.25;
+  overflow-wrap:anywhere;
+}
+
+.british-jokes-page .bj-story-title-en{
+  margin:7px 0 0;
+  color:var(--bj-burgundy);
+  font:700 15px/1.4 Georgia,"Times New Roman",serif;
+  overflow-wrap:anywhere;
+}
+
+.british-jokes-page .bj-read-button{
+  flex:0 0 auto;
+  min-width:94px;
+  padding:8px 12px;
+  border:1px solid #BFD4EB;
+  background:#F4F8FF;
+  color:var(--bj-blue);
+}
+
+.british-jokes-page .bj-read-button[aria-pressed="true"]{
+  border-color:#B9DEC8;
+  background:var(--bj-success-soft);
+  color:var(--bj-success);
+}
+
+.british-jokes-page .bj-language-section{
+  padding:20px;
+}
+
+.british-jokes-page .bj-language-section + .bj-language-section{border-top:1px solid var(--bj-line)}
+
+.british-jokes-page .bj-language-section h3{
+  margin:0 0 14px;
+  color:var(--bj-navy);
+  font-size:14px;
+  font-weight:950;
+  letter-spacing:.04em;
+}
+
+.british-jokes-page .bj-language-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.british-jokes-page .bj-text-button{
+  min-height:40px;
+  padding:6px 10px;
+  border:0;
+  background:transparent;
+  color:var(--bj-blue);
+}
+
+.british-jokes-page .bj-ja-section{background:#FFFFFF}
+.british-jokes-page .bj-en-section{background:#F7FAFE}
+.british-jokes-page .bj-en-section.is-collapsed .bj-story-body-en{display:none}
+
+.british-jokes-page .bj-story-body{
+  font-size:15.5px;
+  line-height:1.82;
+  letter-spacing:.01em;
+}
+
+.british-jokes-page .bj-story-body p{
+  margin:0 0 1em;
+  white-space:pre-line;
+  overflow-wrap:anywhere;
+}
+.british-jokes-page .bj-story-body p:last-child{margin-bottom:0}
+
+.british-jokes-page .bj-story-body-en{
+  color:#2B3B51;
+  font-family:Georgia,"Times New Roman",serif;
+  line-height:1.78;
+}
+
+.british-jokes-page .bj-explanation{
+  margin:0 20px 20px;
+  border:1px solid #E5D6B7;
+  border-radius:16px;
+  background:#FFF9EC;
+}
+
+.british-jokes-page .bj-explanation[hidden]{display:none}
+
+.british-jokes-page .bj-explanation summary{
+  min-height:48px;
+  padding:12px 15px;
+  color:#725523;
+  font-size:14px;
+  font-weight:950;
+  cursor:pointer;
+}
+
+.british-jokes-page .bj-explanation p{
+  margin:0;
+  padding:0 15px 15px;
+  color:#625238;
+  font-size:14.5px;
+  line-height:1.75;
+}
+
+.british-jokes-page .bj-reader-actions{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+  align-items:center;
+  gap:8px;
+  padding:16px 20px 20px;
+  border-top:1px solid var(--bj-line);
+}
+
+.british-jokes-page .bj-nav-button{
+  min-width:0;
+  padding:9px 12px;
+  border:1px solid #C9DDF5;
+  background:#FFFFFF;
+  color:var(--bj-blue);
+}
+
+.british-jokes-page .bj-nav-button:last-child{justify-self:stretch}
+.british-jokes-page .bj-nav-button:disabled{opacity:.42;cursor:not-allowed}
+
+.british-jokes-page .bj-position{
+  min-width:64px;
+  color:var(--bj-muted);
+  font-size:12.5px;
+  font-weight:900;
+  text-align:center;
+}
+
+.british-jokes-page .bj-live-status{
+  min-height:1.4em;
+  margin:12px 2px 0;
+  color:var(--bj-muted);
+  font-size:13px;
+  text-align:center;
+}
+
+.british-jokes-page .bj-button:focus-visible,
+.british-jokes-page .bj-read-button:focus-visible,
+.british-jokes-page .bj-nav-button:focus-visible,
+.british-jokes-page .bj-text-button:focus-visible,
+.british-jokes-page .bj-story-item:focus-visible{
+  outline:3px solid rgba(7,95,199,.22);
+  outline-offset:2px;
+}
+
+@media(min-width:431px) and (max-width:899px){
+  .british-jokes-page .bj-hero{padding:28px}
+  .british-jokes-page .bj-controls{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .british-jokes-page .bj-field-search{grid-column:1/-1}
+  .british-jokes-page .bj-unread-toggle{align-self:end}
+  .british-jokes-page .bj-story-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+@media(min-width:900px){
+  .british-jokes-page .bj-main{font-size:16.2px;line-height:1.7}
+  .british-jokes-page .bj-hero{grid-template-columns:minmax(0,1fr) 300px;align-items:end;padding:34px}
+  .british-jokes-page .bj-controls{grid-template-columns:minmax(260px,1.5fr) minmax(170px,.7fr) minmax(210px,.9fr) 220px auto;align-items:end;padding:18px}
+  .british-jokes-page .bj-layout{grid-template-columns:minmax(280px,340px) minmax(0,1fr);grid-template-areas:"index reader";gap:18px}
+  .british-jokes-page .bj-index-panel{position:sticky;top:112px;align-self:start;max-height:calc(100vh - 134px);overflow:hidden}
+  .british-jokes-page .bj-story-list{max-height:calc(100vh - 230px);overflow:auto;padding-right:3px}
+  .british-jokes-page .bj-reader-head{padding:28px}
+  .british-jokes-page .bj-language-section{padding:28px}
+  .british-jokes-page .bj-explanation{margin:0 28px 24px}
+  .british-jokes-page .bj-reader-actions{padding:18px 28px 26px}
+  .british-jokes-page .bj-story-body{font-size:16.2px;line-height:1.86}
+}
+
+@media(min-width:1180px){
+  .british-jokes-page .bj-layout{grid-template-columns:350px minmax(0,1fr)}
+  .british-jokes-page .bj-reader h2{font-size:38px}
+}
+
+@media(max-width:520px){
+  .british-jokes-page .bj-reader-head{display:grid}
+  .british-jokes-page .bj-read-button{justify-self:start}
+  .british-jokes-page .bj-reader-actions{grid-template-columns:1fr 1fr}
+  .british-jokes-page .bj-position{grid-column:1/-1;grid-row:1}
+  .british-jokes-page .bj-nav-button{grid-row:2}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .british-jokes-page .bj-progress-track span{transition:none}
+  .british-jokes-page *{scroll-behavior:auto}
+}
+
+@media print{
+  .british-jokes-page .mb-primary-header-host,
+  .british-jokes-page .mb-primary-bottom-nav,
+  .british-jokes-page .bj-controls,
+  .british-jokes-page .bj-progress-panel,
+  .british-jokes-page .bj-index-panel,
+  .british-jokes-page .bj-reader-actions,
+  .british-jokes-page .bj-read-button,
+  .british-jokes-page .bj-text-button,
+  .british-jokes-page .bj-live-status{display:none}
+  .british-jokes-page .bj-main{width:100%;max-width:none}
+  .british-jokes-page .bj-reader{box-shadow:none}
+}

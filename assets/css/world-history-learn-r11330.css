@@ -261,3 +261,54 @@ body.history-page-shell *,body.history-page-shell *::before,body.history-page-sh
   .history-article-position strong{font-size:15px}
   .history-article-position span{font-size:8px}
 }
+
+
+/* R114.14 — mobile width correction and initially-closed article explanation */
+html:has(body.history-page-shell),
+body.history-page-shell{max-width:100%;overflow-x:hidden}
+body.history-page-shell .mb-primary-header-host,
+body.history-page-shell .mb-global-header,
+.history-standalone-main,
+.history-search-panel,
+.history-search-field,
+.history-day-articles,
+.history-main-article,
+.history-main-copy,
+.history-detail-copy{min-width:0;max-width:100%}
+.history-search-panel{box-sizing:border-box;width:100%}
+.history-search-field input,
+.history-search-field select{max-width:100%}
+.history-explanation-disclosure{margin:16px 0 0;border:1px solid #C9DDF2;border-radius:15px;background:#F7FAFE;overflow:hidden}
+.history-explanation-summary{display:flex;box-sizing:border-box;min-height:48px;padding:11px 14px;color:#075FC7;align-items:center;justify-content:space-between;gap:12px;font-size:14px;font-weight:950;line-height:1.35;cursor:pointer;list-style:none;-webkit-tap-highlight-color:transparent}
+.history-explanation-summary::-webkit-details-marker{display:none}
+.history-explanation-summary::marker{content:''}
+.history-explanation-summary:hover,
+.history-explanation-summary:focus-visible{background:#EEF6FF;outline:none}
+.history-explanation-label-close{display:none}
+.history-explanation-chevron{display:grid;place-items:center;width:28px;height:28px;flex:0 0 28px;border-radius:50%;background:#E5F1FF;color:#075FC7;font-size:19px;line-height:1;transition:transform .18s ease}
+.history-explanation-disclosure[open] .history-explanation-label-open{display:none}
+.history-explanation-disclosure[open] .history-explanation-label-close{display:inline}
+.history-explanation-disclosure[open] .history-explanation-chevron{transform:rotate(180deg)}
+.history-explanation-body{padding:0 14px 15px;border-top:1px solid #DCE8F4;background:#FFF}
+.history-explanation-body>.history-intro:first-child{margin-top:14px}
+.history-explanation-body>.history-body:first-child{margin-top:14px}
+@media(max-width:760px){
+  .history-standalone-main{box-sizing:border-box;width:calc(100% - 20px);margin-right:auto;margin-left:auto;padding:8px 0 120px}
+  .history-search-panel{gap:8px;padding:11px}
+  .history-search-field input,.history-search-field select{min-height:44px}
+  .history-explanation-disclosure{margin-top:13px;border-radius:13px}
+  .history-explanation-summary{min-height:46px;padding:10px 12px;font-size:13.5px}
+  .history-explanation-body{padding:0 12px 13px}
+}
+@media(prefers-reduced-motion:reduce){.history-explanation-chevron{transition:none}}
+
+
+/* V.306: make history photo less dominant on large PC screens */
+@media (min-width:1100px){
+  .history-photo{
+    max-width:780px;
+    margin:20px auto 0;
+    aspect-ratio:16/10;
+  }
+  .history-card-thumb{aspect-ratio:16/9}
+}

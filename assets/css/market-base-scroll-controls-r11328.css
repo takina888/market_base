@@ -75,3 +75,27 @@ body.mb-has-page-bottom-nav .mb-scroll-controls{
 /* R113.76 — universal 3-button rail: top, back, bottom */
 .mb-scroll-control-back svg{width:24px;height:24px}
 .mb-scroll-control-back span{display:none}
+
+
+/* V.302: floating previous-page control uses a clear BACK label. */
+.mb-scroll-control-back{
+  width:72px;
+  min-width:72px;
+  border-radius:999px;
+}
+.mb-scroll-control-back svg{display:none!important}
+.mb-scroll-control-back-label{
+  display:inline-block!important;
+  font-size:12px;
+  font-weight:950;
+  line-height:1;
+  letter-spacing:.10em;
+  text-indent:.10em;
+}
+@media(min-width:761px){
+  .mb-scroll-control-back{width:68px;min-width:68px}
+}
+@media(max-width:430px){
+  .mb-scroll-control-back{width:70px;min-width:70px}
+  .mb-scroll-control-back-label{font-size:11.5px}
+}
