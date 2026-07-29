@@ -20,7 +20,44 @@
     .toLocaleLowerCase('ja')
     .replace(/[\s　・／/、,。！？!?（）()「」『』【】\-_:：]+/g, '');
 
-  const nl2br = (value = '') => escapeHTML(value).replace(/\n/g, '<br>');
+  const publicText = (value = '') => String(value)
+    .replace(/\bCORE-\d{3}\b/g, '')
+    .replace(/\bSPEC-\d{3}\b/g, '')
+    .replace(/\bSRC-\d{3}\b/g, '')
+    .replace(/STOP・専門家境界/g, '作業を止め、専門家へ確認する場合')
+    .replace(/STOP条件/g, '作業を止める条件')
+    .replace(/\bSTOP\b/g, '作業停止')
+    .replace(/専門家へ移す境界を明記/g, '専門家へ確認する条件を明確にする')
+    .replace(/専門家へ移す境界/g, '専門家への確認が必要な場合')
+    .replace(/編集・適用上の注意/g, '実務での注意')
+    .replace(/個別設計の完成保証はしない/g, '案件ごとの設計条件は専門家と確認する')
+    .replace(/実航路・荷役条件は都度確認/g, '実際の航路と荷役条件は案件ごとに確認する')
+    .replace(/契約・法的責任判断は対象外/g, '契約や法的責任は担当部門へ確認する')
+    .replace(/梱包会社への丸投げを前提にしない/g, '梱包会社へ依頼する場合も、機械側の条件と責任分担を確認する')
+    .replace(/全5層/g, '全工程')
+    .replace(/本編/g, '基本')
+    .replace(/専門編/g, '詳しく確認')
+    .replace(/最優先/g, '重要')
+    .replace(/構成確定/g, '内容確認済み')
+    .replace(/一次確認/g, '確認中')
+    .replace(/回答完成/g, '内容確認済み')
+    .replace(/監視対象/g, '更新を継続確認')
+    .replace(/The packer may screen and stop but does not become the authorized officer, owner, repairer or Administration making the structural fitness decision/gi, '梱包担当者は異常を確認して作業を止められますが、構造上の使用可否は権限を持つ担当者が判断します')
+    .replace(/個別輸送設計へ移す/g, '案件ごとの輸送設計を専門家と確認する')
+    .replace(/個別許容値は船社・技術者確認/g, '許容値は船会社と技術担当者へ確認する')
+    .replace(/船社承認・個別手配が必要/g, '船会社の承認と個別手配を確認する')
+    .replace(/メーカー保全手順を優先/g, 'メーカーの保全手順を優先する')
+    .replace(/危険物の正式分類は専門部署へ/g, '危険物の分類は専門部署へ確認する')
+    .replace(/運賃・納期は変動情報/g, '運賃と納期は最新情報を確認する')
+    .replace(/最終寸法は実測確認/g, '最終寸法は実測する')
+    .replace(/計量方法・許容差を確認/g, '計量方法と許容差を確認する')
+    .replace(/識別不能なら梱包を閉じない/g, '識別できない部品がある場合は梱包を完了しない')
+    .replace(/\s*・\s*・+/g, '・')
+    .replace(/^[・：\s]+|[・：\s]+$/g, '')
+    .replace(/\s{2,}/g, ' ');
+
+  const escapeDisplay = (value = '') => escapeHTML(publicText(value));
+  const nl2br = (value = '') => escapeDisplay(value).replace(/\n/g, '<br>');
   const uniq = (items) => [...new Set(items.filter(Boolean))];
   const sourceMap = new Map(DATA.sources.map((item) => [item.id, item]));
   const chapterMap = new Map(DATA.chapters.map((item) => [item.id, item]));
@@ -64,12 +101,13 @@
 
   const renderRelatedCards = (value = '') => {
     const ids = exactRelatedCardIds(value);
-    if (!ids.length && !value) return '';
-    const buttons = ids.map((id) => (
-      `<button class="mcp-related-id" type="button" data-open-card="${escapeHTML(id)}">${escapeHTML(id)}</button>`
-    )).join('');
-    const raw = value && !ids.length ? `<span class="mcp-related-id">${escapeHTML(value)}</span>` : '';
-    return `<div class="mcp-source-list mcp-related-list">${buttons}${raw}</div>`;
+    if (!ids.length) return '<p>関連する内容はありません。</p>';
+    const buttons = ids.map((id) => {
+      const card = cardMap.get(id);
+      const title = card?.title || '関連する内容';
+      return `<button class="mcp-related-id" type="button" data-open-card="${escapeHTML(id)}">${escapeDisplay(title)}</button>`;
+    }).join('');
+    return `<div class="mcp-source-list mcp-related-list">${buttons}</div>`;
   };
 
   const formatExcelDate = (value) => {
@@ -104,7 +142,7 @@
     const valid = exactSourceIds(ids).map((id) => sourceMap.get(id)).filter(Boolean);
     if (!valid.length) return '';
     return `<div class="mcp-source-list">${valid.map((source) => (
-      `<button class="mcp-source-link" type="button" data-source-id="${escapeHTML(source.id)}" title="${escapeHTML(source.name)}">${escapeHTML(source.id)}・${escapeHTML(source.issuer)}</button>`
+      `<button class="mcp-source-link" type="button" data-source-id="${escapeHTML(source.id)}" title="${escapeDisplay(source.issuer || '参考資料')}">${escapeDisplay(source.name || source.issuer || '参考資料')}</button>`
     )).join('')}</div>`;
   };
 
@@ -112,14 +150,14 @@
   const openSourceDialog = (id) => {
     const source = sourceMap.get(id);
     if (!source || !sourceDialog) return;
-    $('#mcpSourceDialogId').textContent = source.id;
-    $('#mcpSourceDialogTitle').textContent = source.name;
-    $('#mcpSourceDialogIssuer').textContent = source.issuer || '確認できず';
-    $('#mcpSourceDialogStatus').textContent = source.status || '確認できず';
-    $('#mcpSourceDialogUse').textContent = source.use || '確認できず';
-    $('#mcpSourceDialogCaution').textContent = source.caution || '確認できず';
+    $('#mcpSourceDialogId').textContent = '参考資料';
+    $('#mcpSourceDialogTitle').textContent = publicText(source.name);
+    $('#mcpSourceDialogIssuer').textContent = publicText(source.issuer || '確認できず');
+    $('#mcpSourceDialogStatus').textContent = publicText(source.status || '確認できず');
+    $('#mcpSourceDialogUse').textContent = publicText(source.use || '確認できず');
+    $('#mcpSourceDialogCaution').textContent = publicText(source.caution || '確認できず');
     $('#mcpSourceDialogChecked').textContent = formatExcelDate(source.checked);
-    $('#mcpSourceDialogState').textContent = source.state || '確認できず';
+    $('#mcpSourceDialogState').textContent = publicText(source.state || '確認できず');
     const link = $('#mcpSourceDialogLink');
     link.href = source.url || '#';
     link.hidden = !source.url;
@@ -223,7 +261,7 @@
     globalResults.innerHTML = results.map((item, index) => (
       `<button class="mcp-search-result" type="button" data-global-result="${index}">
         <span class="mcp-result-type">${escapeHTML(item.type)}</span>
-        <span><strong>${escapeHTML(item.title)}</strong><small>${escapeHTML(item.description)}</small></span>
+        <span><strong>${escapeDisplay(item.title)}</strong><small>${escapeDisplay(item.description)}</small></span>
         <span aria-hidden="true">›</span>
       </button>`
     )).join('') + (allResults.length > results.length
@@ -319,7 +357,7 @@
   DATA.chapters.forEach((chapter) => {
     const option = document.createElement('option');
     option.value = chapter.id;
-    option.textContent = `第${chapter.order}章 ${chapter.title}`;
+    option.textContent = `第${chapter.order}章 ${publicText(chapter.title)}`;
     chapterSelect?.append(option);
   });
 
@@ -327,23 +365,16 @@
     `<details class="mcp-learning-card" id="card-${escapeHTML(card.id)}">
       <summary>
         <span>
-          <span class="mcp-badge-row">
-            <span class="mcp-badge is-blue">${escapeHTML(card.id)}</span>
-            <span class="mcp-badge">${escapeHTML(card.type)}</span>
-            <span class="mcp-badge">${escapeHTML(card.layer)}</span>
-            <span class="mcp-badge">${escapeHTML(card.priority)}</span>
-            <span class="mcp-badge">${escapeHTML(card.state)}</span>
-          </span>
-          <strong>${escapeHTML(card.title)}</strong>
-          <p>${escapeHTML(card.question)}</p>
+          <strong>${escapeDisplay(card.title)}</strong>
+          <p>${escapeDisplay(card.question)}</p>
         </span>
         <span class="mcp-chevron" aria-hidden="true"></span>
       </summary>
       <div class="mcp-learning-body">
-        <div class="mcp-answer-box">${escapeHTML(card.answer)}</div>
+        <div class="mcp-answer-box">${escapeDisplay(card.answer)}</div>
         <div class="mcp-detail-grid mcp-detail-grid-2">
-          <div class="mcp-detail-block"><h4>適用</h4><p>${escapeHTML(card.applicability || '案件条件で確認')}</p></div>
-          <div class="mcp-detail-block is-warning"><h4>専門家へ移す境界</h4><p>${escapeHTML(card.expertBoundary || '個別案件で確認')}</p></div>
+          <div class="mcp-detail-block"><h4>対象となる場面</h4><p>${escapeDisplay(card.applicability || '案件の条件に応じて確認します')}</p></div>
+          <div class="mcp-detail-block is-warning"><h4>専門家への確認が必要な場合</h4><p>${escapeDisplay(card.expertBoundary || '案件の条件に応じて専門家へ確認します')}</p></div>
         </div>
         ${renderSources(card.sourceIds)}
       </div>
@@ -371,22 +402,17 @@
           <summary class="mcp-chapter-summary">
             <span class="mcp-chapter-number">${String(chapter.order).padStart(2, '0')}</span>
             <span>
-              <strong>${escapeHTML(chapter.title)}</strong>
-              <p>${escapeHTML(chapter.intro)}</p>
-              <small>${shownCards.length}カード・${escapeHTML(chapter.applicability)}</small>
+              <strong>${escapeDisplay(chapter.title)}</strong>
+              <p>${escapeDisplay(chapter.intro)}</p>
+              <small>${shownCards.length}項目</small>
             </span>
             <span class="mcp-chevron" aria-hidden="true"></span>
           </summary>
           <div class="mcp-chapter-body">
-            <div class="mcp-chapter-goal"><strong>実務到達点：</strong>${escapeHTML(chapter.goal)}</div>
-            <div class="mcp-chapter-meta">
-              <span class="mcp-badge">${escapeHTML(chapter.layer)}</span>
-              <span class="mcp-badge">${escapeHTML(chapter.applicability)}</span>
-              <span class="mcp-badge">${escapeHTML(chapter.priority)}</span>
-            </div>
+            <div class="mcp-chapter-goal"><strong>この章で分かること：</strong>${escapeDisplay(chapter.goal)}</div>
             <div class="mcp-detail-grid mcp-detail-grid-2 mcp-chapter-notes">
-              <div class="mcp-detail-block"><h4>主な根拠</h4><p>${escapeHTML(chapter.source || '確認できず')}</p></div>
-              <div class="mcp-detail-block is-warning"><h4>編集・適用上の注意</h4><p>${escapeHTML(chapter.note || '案件条件で確認')}</p></div>
+              <div class="mcp-detail-block"><h4>主な参考資料</h4><p>${escapeDisplay(chapter.source || '確認できず')}</p></div>
+              <div class="mcp-detail-block is-warning"><h4>実務での注意</h4><p>${escapeDisplay(chapter.note || '案件の条件に応じて確認します')}</p></div>
             </div>
             <div class="mcp-learning-cards">${shownCards.map(renderLearningCard).join('')}</div>
           </div>
@@ -433,14 +459,14 @@
     `<details class="mcp-case" id="case-${escapeHTML(item.id)}">
       <summary class="mcp-case-summary">
         <span>
-          <span class="mcp-badge-row"><span class="mcp-badge is-blue">${escapeHTML(item.id)}</span><span class="mcp-badge">${escapeHTML(item.category)}</span></span>
-          <strong>${escapeHTML(item.title)}</strong>
-          <p>${escapeHTML(item.firstJudgment)}</p>
+          <span class="mcp-badge-row"><span class="mcp-badge">${escapeDisplay(item.category)}</span></span>
+          <strong>${escapeDisplay(item.title)}</strong>
+          <p>${escapeDisplay(item.firstJudgment)}</p>
         </span>
         <span class="mcp-chevron" aria-hidden="true"></span>
       </summary>
       <div class="mcp-case-body">
-        <div class="mcp-case-judgment">${escapeHTML(item.firstJudgment)}</div>
+        <div class="mcp-case-judgment">${escapeDisplay(item.firstJudgment)}</div>
         <div class="mcp-detail-grid">
           <div class="mcp-detail-block"><h4>想定状況</h4><p>${nl2br(item.situation)}</p></div>
           <div class="mcp-detail-block"><h4>確認順序</h4><p>${nl2br(item.checkOrder)}</p></div>
@@ -448,13 +474,13 @@
             <div class="mcp-detail-block is-good"><h4>採用案・実行方法</h4><p>${nl2br(item.adoption)}</p></div>
             <div class="mcp-detail-block is-warning"><h4>不採用案</h4><p>${nl2br(item.rejection)}</p></div>
           </div>
-          <div class="mcp-detail-block is-stop"><h4>STOP条件</h4><p>${nl2br(item.stop)}</p></div>
+          <div class="mcp-detail-block is-stop"><h4>作業を止める条件</h4><p>${nl2br(item.stop)}</p></div>
           <div class="mcp-detail-grid mcp-detail-grid-2">
             <div class="mcp-detail-block"><h4>必要証拠</h4><p>${nl2br(item.evidence)}</p></div>
             <div class="mcp-detail-block"><h4>現地引継ぎ</h4><p>${nl2br(item.handoff)}</p></div>
           </div>
           <div class="mcp-detail-block"><h4>学習到達点</h4><p>${nl2br(item.goal)}</p></div>
-          <div class="mcp-detail-block"><h4>関連カード</h4>${renderRelatedCards(item.relatedCardIds)}</div>
+          <div class="mcp-detail-block"><h4>関連する内容</h4>${renderRelatedCards(item.relatedCardIds)}</div>
         </div>
         ${renderSources(item.sourceIds)}
       </div>
@@ -500,20 +526,20 @@
     `<details class="mcp-qa" id="qa-${escapeHTML(item.id)}">
       <summary class="mcp-qa-summary">
         <span>
-          <span class="mcp-badge-row"><span class="mcp-badge is-blue">${escapeHTML(item.id)}</span><span class="mcp-badge">${escapeHTML(item.category)}</span><span class="mcp-badge">${escapeHTML(item.state)}</span></span>
-          <strong>${escapeHTML(item.question)}</strong>
-          <p>${escapeHTML(item.shortAnswer)}</p>
+          <span class="mcp-badge-row"><span class="mcp-badge">${escapeDisplay(item.category)}</span></span>
+          <strong>${escapeDisplay(item.question)}</strong>
+          <p>${escapeDisplay(item.shortAnswer)}</p>
         </span>
         <span class="mcp-chevron" aria-hidden="true"></span>
       </summary>
       <div class="mcp-qa-body">
-        <div class="mcp-qa-answer">${escapeHTML(item.shortAnswer)}</div>
+        <div class="mcp-qa-answer">${escapeDisplay(item.shortAnswer)}</div>
         <div class="mcp-detail-grid">
           <div class="mcp-detail-block"><h4>なぜ</h4><p>${nl2br(item.reason)}</p></div>
           <div class="mcp-detail-block"><h4>判断順</h4><p>${nl2br(item.decisionOrder)}</p></div>
           <div class="mcp-detail-block"><h4>実務で確認すること</h4><p>${nl2br(item.check)}</p></div>
-          <div class="mcp-detail-block is-stop"><h4>STOP・専門家境界</h4><p>${nl2br(item.stop)}</p></div>
-          <div class="mcp-detail-block"><h4>関連カード</h4>${renderRelatedCards(item.relatedCardIds)}</div>
+          <div class="mcp-detail-block is-stop"><h4>作業を止め、専門家へ確認する場合</h4><p>${nl2br(item.stop)}</p></div>
+          <div class="mcp-detail-block"><h4>関連する内容</h4>${renderRelatedCards(item.relatedCardIds)}</div>
         </div>
         ${renderSources(item.sourceIds)}
       </div>
@@ -569,6 +595,14 @@
     try { localStorage.setItem(CHECK_KEY, JSON.stringify(checkState)); } catch { toast('端末へ保存できませんでした'); }
   };
 
+  const statusLabel = (status) => ({
+    '未確認': '未確認',
+    'OK': '問題なし',
+    'STOP': '作業停止',
+    'N/A': '対象外',
+    '要再確認': '要再確認',
+  })[status] || publicText(status);
+
   const statusKey = (status) => {
     if (status === 'OK') return 'ok';
     if (status === 'STOP') return 'stop';
@@ -606,32 +640,32 @@
     const statuses = ['未確認', 'OK', 'STOP', 'N/A', '要再確認'];
     return `<article class="mcp-check-item" id="check-${escapeHTML(item.id)}" data-check-id="${escapeHTML(item.id)}" data-status="${escapeHTML(record.status)}">
       <div class="mcp-check-item-head">
-        <span><span class="mcp-check-id">${escapeHTML(item.id)}</span><strong>${escapeHTML(item.item)}</strong></span>
+        <span><strong>${escapeDisplay(item.item)}</strong></span>
         <label class="mcp-visually-hidden" for="status-${escapeHTML(item.id)}">判定</label>
         <select class="mbx-select mcp-status-select" id="status-${escapeHTML(item.id)}" data-check-status>
-          ${statuses.map((status) => `<option value="${status}" ${status === record.status ? 'selected' : ''}>${status}</option>`).join('')}
+          ${statuses.map((status) => `<option value="${status}" ${status === record.status ? 'selected' : ''}>${escapeHTML(statusLabel(status))}</option>`).join('')}
         </select>
       </div>
       <div class="mcp-check-item-meta">
-        <span class="mcp-badge">${escapeHTML(item.timing)}</span>
-        <span class="mcp-badge">担当：${escapeHTML(item.owner)}</span>
-        <span class="mcp-badge">承認：${escapeHTML(item.approver)}</span>
-        <span class="mcp-badge">適用：${escapeHTML(item.applicability || '案件条件で確認')}</span>
+        <span class="mcp-badge">${escapeDisplay(item.timing)}</span>
+        <span class="mcp-badge">担当候補：${escapeDisplay(item.owner)}</span>
+        <span class="mcp-badge">確認者候補：${escapeDisplay(item.approver)}</span>
+        <span class="mcp-badge">適用：${escapeDisplay(item.applicability || '案件条件で確認')}</span>
       </div>
       <div class="mcp-detail-grid mcp-detail-grid-2">
-        <div class="mcp-detail-block"><h4>判定基準</h4><p>${escapeHTML(item.criteria)}</p></div>
-        <div class="mcp-detail-block"><h4>なぜ必要か</h4><p>${escapeHTML(item.why)}</p></div>
-        <div class="mcp-detail-block"><h4>必要証拠</h4><p>${escapeHTML(item.evidence || '案件条件で確認')}</p></div>
-        <div class="mcp-detail-block is-warning"><h4>変更時の再確認</h4><p>${escapeHTML(item.recheck || '関連カードと証拠へ戻る')}</p></div>
+        <div class="mcp-detail-block"><h4>判定基準</h4><p>${escapeDisplay(item.criteria)}</p></div>
+        <div class="mcp-detail-block"><h4>なぜ必要か</h4><p>${escapeDisplay(item.why)}</p></div>
+        <div class="mcp-detail-block"><h4>必要証拠</h4><p>${escapeDisplay(item.evidence || '案件条件で確認')}</p></div>
+        <div class="mcp-detail-block is-warning"><h4>変更時の再確認</h4><p>${escapeDisplay(item.recheck || '関連カードと証拠へ戻る')}</p></div>
       </div>
-      <div class="mcp-detail-block is-stop"><h4>停止条件</h4><p>${escapeHTML(item.stop)}</p></div>
+      <div class="mcp-detail-block is-stop"><h4>作業を止める条件</h4><p>${escapeDisplay(item.stop)}</p></div>
       <div class="mcp-check-fields">
-        <div class="mbx-field"><label class="mbx-label" for="evidence-${escapeHTML(item.id)}">証拠・ファイル名・URL</label><input class="mbx-input" id="evidence-${escapeHTML(item.id)}" data-check-evidence value="${escapeHTML(record.evidence)}" placeholder="例：${escapeHTML(item.evidence || '証拠名')}"></div>
+        <div class="mbx-field"><label class="mbx-label" for="evidence-${escapeHTML(item.id)}">証拠・ファイル名・URL</label><input class="mbx-input" id="evidence-${escapeHTML(item.id)}" data-check-evidence value="${escapeHTML(record.evidence)}" placeholder="例：${escapeDisplay(item.evidence || '証拠名')}"></div>
         <div class="mbx-field"><label class="mbx-label" for="operator-${escapeHTML(item.id)}">実施者</label><input class="mbx-input" id="operator-${escapeHTML(item.id)}" data-check-operator value="${escapeHTML(record.operator)}" autocomplete="name" placeholder="実施者名"></div>
         <div class="mbx-field"><label class="mbx-label" for="date-${escapeHTML(item.id)}">実施日</label><input class="mbx-input" id="date-${escapeHTML(item.id)}" data-check-date type="date" value="${escapeHTML(record.date)}"></div>
         <div class="mbx-field mcp-check-comment-field"><label class="mbx-label" for="comment-${escapeHTML(item.id)}">コメント・未解決事項</label><textarea class="mbx-textarea" id="comment-${escapeHTML(item.id)}" data-check-comment placeholder="差異、未解決事項、承認待ちなど">${escapeHTML(record.comment)}</textarea></div>
       </div>
-      <div class="mcp-check-related"><h4>関連カード</h4>${renderRelatedCards(item.relatedCardIds)}</div>
+      <div class="mcp-check-related"><h4>関連する内容</h4>${renderRelatedCards(item.relatedCardIds)}</div>
     </article>`;
   };
 
@@ -756,19 +790,18 @@
     `<details class="mcp-term" id="term-${escapeHTML(item.id)}">
       <summary class="mcp-term-summary">
         <span>
-          <span class="mcp-term-code">${escapeHTML(item.id)}</span>
-          <strong>${escapeHTML(item.term)}</strong>
-          <p>${escapeHTML(item.plain)}</p>
+          <strong>${escapeDisplay(item.term)}</strong>
+          <p>${escapeDisplay(item.plain)}</p>
         </span>
         <span class="mcp-chevron" aria-hidden="true"></span>
       </summary>
       <div class="mcp-term-body">
-        <div class="mcp-term-plain">${escapeHTML(item.plain)}</div>
-        <p class="mcp-term-official">${escapeHTML(item.official)}</p>
+        <div class="mcp-term-plain">${escapeDisplay(item.plain)}</div>
+        <p class="mcp-term-official">${escapeDisplay(item.official)}</p>
         <div class="mcp-detail-grid">
-          <div class="mcp-detail-block"><h4>実務での意味</h4><p>${escapeHTML(item.practical)}</p></div>
-          <div class="mcp-detail-block is-warning"><h4>混同しやすい点</h4><p>${escapeHTML(item.confusion)}</p></div>
-          <div class="mcp-detail-block"><h4>関連シート・ケース</h4><p>${escapeHTML(item.related)}</p></div>
+          <div class="mcp-detail-block"><h4>実務での意味</h4><p>${escapeDisplay(item.practical)}</p></div>
+          <div class="mcp-detail-block is-warning"><h4>混同しやすい点</h4><p>${escapeDisplay(item.confusion)}</p></div>
+          <div class="mcp-detail-block"><h4>関連する内容</h4><p>${escapeDisplay(item.related)}</p></div>
         </div>
         ${renderSources(item.sourceIds)}
         ${item.url ? `<a class="mcp-official-button" href="${escapeHTML(item.url)}" target="_blank" rel="noopener noreferrer">公式資料を開く</a>` : ''}
@@ -826,6 +859,7 @@
     renderQa();
     renderChecks();
     renderTerms();
+    document.querySelectorAll('.mcp-source-dialog-head #mcpSourceDialogId').forEach((node) => { node.textContent = '参考資料'; });
 const openHashTarget = () => {
       const hash = decodeURIComponent(location.hash.replace('#', ''));
       if (!hash) return;

@@ -570,7 +570,7 @@ window.MARKET_BASE_ULCE_DATA={"version":"v072 / 2026-07-25","title":"UL・CE規�
   function goBack(event){
     var button=event.target.closest('[data-mb-back]');if(!button)return;
     event.preventDefault();
-    if(history.length>1)history.back();else location.href='../index.html?from=ulce&view=learn';
+    location.replace('../index.html?from=ulce&view=learn');
   }
   function boot(){document.addEventListener('click',refresh);document.addEventListener('click',goBack);nav();hashFlash();window.addEventListener('hashchange',hashFlash);}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
@@ -632,6 +632,6 @@ window.MARKET_BASE_ULCE_DATA={"version":"v072 / 2026-07-25","title":"UL・CE規�
 })();
 
 </script>
-<script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260728-v302-back"></script>
+<script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260729-v318-safe-back"></script>
 <script src="../assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371" data-mb-root="../" data-mb-active="learn"></script></body>
 </html>

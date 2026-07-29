@@ -16,7 +16,7 @@
 <link href="../assets/css/market-base-scroll-controls-r11328.css?v=20260728-v302-back" rel="stylesheet"/>
 <link href="../assets/css/market-base-primary-components-r11326.css?v=20260727-r11372" rel="stylesheet"/>
 <link href="../assets/css/market-base-standard-shell-r11372.css?v=20260727-r11372" rel="stylesheet"/>
-<meta name="market-base-build" content="MARKET_BASE_R113_72_STANDARD_SHELL_UNIFICATION_20260727">  <link rel="stylesheet" href="../assets/css/market-base-learn-universal-readable-r11390.css?v=20260728-r11390">
+<meta name="market-base-build" content="MARKET_BASE_V319_PUBLIC_TEXT_CLEANUP_20260729">  <link rel="stylesheet" href="../assets/css/market-base-learn-universal-readable-r11390.css?v=20260728-r11390">
 <link rel="stylesheet" href="../assets/css/market-base-bottom-nav-unified-r11409.css?v=20260728-r11409">
 <link rel="stylesheet" href="../assets/css/market-base-header-actions-v301.css?v=20260728-v301">
 <link rel="stylesheet" href="../assets/css/market-base-header-audit-v302.css?v=20260728-v302">
@@ -94,7 +94,7 @@
 </div>
 <div class="mcp-toolbar">
 <div class="mbx-field mcp-toolbar-search">
-<label class="mbx-label" for="learnSearch">章・カードを検索</label>
+<label class="mbx-label" for="learnSearch">章・内容を検索</label>
 <input class="mbx-input" id="learnSearch" placeholder="例：乾燥剤、フォーク、木箱" type="search"/>
 </div>
 <div class="mbx-field mcp-toolbar-select">
@@ -111,7 +111,7 @@
 <div class="mcp-panel-heading">
 <div>
 <h2>ケースから探す</h2>
-<p>状況、最初の判断、確認順、採用案・不採用案、STOP条件まで一続きで確認できます。</p>
+<p>状況、最初の判断、確認順、採用案・見送る案、作業を止める条件まで一続きで確認できます。</p>
 </div>
 </div>
 <div class="mcp-toolbar">
@@ -132,7 +132,7 @@
 <div class="mcp-panel-heading">
 <div>
 <h2>Q&amp;Aから探す</h2>
-<p>最初に結論を確認し、必要な場合だけ理由・判断順・STOP条件を開けます。</p>
+<p>最初に結論を確認し、必要な場合だけ理由・判断順・作業を止める条件を開けます。</p>
 </div>
 </div>
 <div class="mcp-toolbar">
@@ -163,10 +163,10 @@
 <div class="mcp-check-summary" id="checkSummary">
 <button class="is-active" data-check-filter="all" type="button"><strong>176</strong><span>すべて</span></button>
 <button data-check-filter="unconfirmed" type="button"><strong>176</strong><span>未確認</span></button>
-<button data-check-filter="ok" type="button"><strong>0</strong><span>OK</span></button>
-<button data-check-filter="stop" type="button"><strong>0</strong><span>STOP</span></button>
+<button data-check-filter="ok" type="button"><strong>0</strong><span>問題なし</span></button>
+<button data-check-filter="stop" type="button"><strong>0</strong><span>作業停止</span></button>
 <button data-check-filter="recheck" type="button"><strong>0</strong><span>要再確認</span></button>
-<button data-check-filter="na" type="button"><strong>0</strong><span>N/A</span></button>
+<button data-check-filter="na" type="button"><strong>0</strong><span>対象外</span></button>
 </div>
 <div class="mcp-toolbar">
 <div class="mbx-field mcp-toolbar-search">
@@ -208,17 +208,17 @@
 </div>
 <dialog aria-labelledby="mcpSourceDialogTitle" class="mcp-source-dialog" id="mcpSourceDialog">
 <div class="mcp-source-dialog-head">
-<div><span class="mcp-badge is-blue" id="mcpSourceDialogId"></span><h2 id="mcpSourceDialogTitle">公式出典</h2></div>
+<div><span class="mcp-badge is-blue" id="mcpSourceDialogId">参考資料</span><h2 id="mcpSourceDialogTitle">参考資料</h2></div>
 <form method="dialog"><button aria-label="閉じる" class="mcp-dialog-close" type="submit">×</button></form>
 </div>
 <div class="mcp-source-dialog-body">
 <dl class="mcp-source-detail-list">
 <div><dt>発行主体</dt><dd id="mcpSourceDialogIssuer"></dd></div>
-<div><dt>位置づけ・現行性</dt><dd id="mcpSourceDialogStatus"></dd></div>
-<div><dt>教材で根拠にする内容</dt><dd id="mcpSourceDialogUse"></dd></div>
-<div class="is-warning"><dt>適用上の注意</dt><dd id="mcpSourceDialogCaution"></dd></div>
+<div><dt>資料の種類・更新状況</dt><dd id="mcpSourceDialogStatus"></dd></div>
+<div><dt>この資料で確認できること</dt><dd id="mcpSourceDialogUse"></dd></div>
+<div class="is-warning"><dt>利用時の注意</dt><dd id="mcpSourceDialogCaution"></dd></div>
 <div><dt>確認日</dt><dd id="mcpSourceDialogChecked"></dd></div>
-<div><dt>状態</dt><dd id="mcpSourceDialogState"></dd></div>
+<div><dt>確認状況</dt><dd id="mcpSourceDialogState"></dd></div>
 </dl>
 <a class="mcp-official-button" href="#" id="mcpSourceDialogLink" rel="noopener noreferrer" target="_blank">公式資料を開く</a>
 </div>
@@ -231,7 +231,7 @@
 <a class="mb-primary-bottom-tab" href="../index.html?view=rankings"><span aria-hidden="true" class="mb-primary-bottom-icon"><svg viewBox="0 0 32 32"><path d="M5 27.5V19h5v8.5M13.5 27.5V13h5v14.5M22 27.5V5h5v22.5M3.5 27.5h25"></path></svg></span><b>ランキング</b></a>
 </nav>
 <script src="data/machine-container-packing-data.js?v=20260725-r11348"></script>
-<script src="assets/market-base-ui-base.js?v=20260725-r11348"></script>
-<script src="assets/machine-container-packing.js?v=20260725-r11348"></script>
-<script data-mb-active="learn" data-mb-root="../" src="../assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371"></script><script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260728-v302-back"></script></body>
+<script src="assets/market-base-ui-base.js?v=20260729-v318-safe-back"></script>
+<script src="assets/machine-container-packing.js?v=20260729-v319-public-text"></script>
+<script data-mb-active="learn" data-mb-root="../" src="../assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371"></script><script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260729-v318-safe-back"></script></body>
 </html>

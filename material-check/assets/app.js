@@ -245,7 +245,7 @@
     document.querySelectorAll('.mbx-tab').forEach(t=>t.addEventListener('click',()=>showView(t.dataset.view)));
     document.querySelectorAll('[data-learning-view]').forEach(t=>t.addEventListener('click',()=>showView(t.dataset.learningView)));
     $('mobileViewSelect').addEventListener('change',e=>showView(e.target.value));
-    $('backButton').addEventListener('click',()=>{if(history.length>1)history.back();else location.href='../index.html?from=material-check&view=learn';});
+    $('backButton').addEventListener('click',()=>{location.replace('../index.html?from=material-check&view=learn');});
     $('reloadButton').addEventListener('click',()=>location.reload());
     $('dialogClose').addEventListener('click',()=>$('detailDialog').close());
     $('judgeForm').addEventListener('submit',e=>{

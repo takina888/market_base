@@ -49,8 +49,16 @@
   function activateHeader(root = document) {
     root.querySelectorAll('[data-mbx-back]').forEach((button) => {
       button.addEventListener('click', () => {
-        const fallback = button.getAttribute('data-mbx-back') || 'index.html';
-        window.location.replace(fallback);
+        const fallback = button.getAttribute('data-mbx-back') || '';
+        const fallbackUrl = fallback ? new URL(fallback, window.location.href).href : '';
+        const samePageFallback = fallbackUrl === window.location.href;
+        if (fallbackUrl && !samePageFallback) {
+          window.location.replace(fallbackUrl);
+          return;
+        }
+        button.disabled = true;
+        button.setAttribute('aria-disabled', 'true');
+        button.title = '戻る履歴がありません';
       });
     });
 

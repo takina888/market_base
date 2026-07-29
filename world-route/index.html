@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#EEF3F9">
 <title>世界のコンテナ輸送ルート｜MARKET BASE</title>
 <meta name="description" content="日本から20カ国への代表ルート・別ルート・積み替え・所要日数・到着後を確認できます。">
-<meta name="market-base-build" content="MARKET_BASE_R113_81_WORLD_ROUTE_STANDALONE_RECOVERY_20260727">
+<meta name="market-base-build" content="MARKET_BASE_V319_PUBLIC_TEXT_CLEANUP_20260729">
 <style>/* world-route/market-base-ui-base.css */
 /* MARKET BASE CLEAN UI BASE — R113.15
    Purpose: new pages and linked apps only.
@@ -1716,7 +1716,7 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
 <aside aria-label="データの確認条件" class="wbr-data-notice">
 <strong>表示条件</strong>
 <span>基準日 <b data-wbr-basis-date="">2026-07-23</b></span>
-<span>船社の寄港順・所要日数は非契約の参考情報です。出荷前に最新スケジュール、Booking条件、カットオフを確認してください。</span>
+<span>船会社の寄港順と所要日数は参考情報です。出荷前に最新の運航予定、予約条件、搬入締切を確認してください。</span>
 </aside>
 <aside class="wbr-risk-country-notice" data-wbr-risk-country="" hidden="">
 <div>
@@ -1745,10 +1745,10 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
 <div class="wbr-summary-facts">
 <div><span>輸送の型</span><strong data-wbr-transport=""></strong></div>
 <div><span>代表テーマ</span><strong data-wbr-main-theme=""></strong></div>
-<div><span>ルート数</span><strong data-wbr-route-count=""></strong></div>
+<div><span>掲載している経路</span><strong data-wbr-route-count=""></strong></div>
 <div><span>主要港</span><strong data-wbr-port-count=""></strong></div>
-<div><span>接続</span><strong data-wbr-connection=""></strong></div>
-<div><span>掲載日数例</span><strong data-wbr-duration-example=""></strong></div>
+<div><span>船のつながり方</span><strong data-wbr-connection=""></strong></div>
+<div><span>港間日数の例</span><strong data-wbr-duration-example=""></strong></div>
 </div>
 <div class="wbr-route-flow-preview">
 <div class="wbr-route-flow-head"><span>経路の流れ</span><strong data-wbr-flow-title=""></strong></div>
@@ -1834,7 +1834,7 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
 <ol class="wbr-risk-checklist" data-wbr-risk-checklist=""></ol>
 <div class="wbr-risk-conclusion">
 <strong>代表画像は仕組みを理解する教材です。</strong>
-<p>実際の出荷ルートは、船会社・service code・vessel/voyage・出港日・Booking条件で確定します。「全部Suez」「全部Cape」と一括りにしません。</p>
+<p>実際の出荷経路は、船会社・航路サービス名・本船／航海番号・出港日・予約条件で確定します。「すべてスエズ経由」「すべて喜望峰経由」と一括りにしません。</p>
 </div>
 </article>
 </section>
@@ -1952,16 +1952,8 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
         const fallback = button.getAttribute('data-mbx-back') || '';
         const fallbackUrl = fallback ? new URL(fallback, window.location.href).href : '';
         const samePageFallback = fallbackUrl === window.location.href;
-        if (window.history.length > 1) {
-          window.history.back();
-          return;
-        }
-        if (document.referrer && document.referrer !== window.location.href) {
-          window.location.href = document.referrer;
-          return;
-        }
         if (fallbackUrl && !samePageFallback) {
-          window.location.href = fallbackUrl;
+          window.location.replace(fallbackUrl);
           return;
         }
         button.disabled = true;
@@ -1995,7 +1987,8 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
   else init();
 })();
 </script>
-<script>(() => {
+<script>
+(() => {
   'use strict';
 
   const data = window.WBR_DATA;
@@ -2023,6 +2016,209 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
 
   function el(selector, root = document) { return root.querySelector(selector); }
   function els(selector, root = document) { return [...root.querySelectorAll(selector)]; }
+  const portNameMap = new Map(
+    [...tables.ports, ...(tables.points || [])]
+      .map((item) => [item.name_en, item.name_ja])
+      .filter(([en, ja]) => en && ja)
+  );
+  const countryNameMap = new Map(countries.map((item) => [item.country_name_en, item.country_name_ja]).filter(([en]) => en));
+  function replaceKnownNames(text) {
+    let result = text;
+    [...portNameMap, ...countryNameMap]
+      .sort((a, b) => String(b[0]).length - String(a[0]).length)
+      .forEach(([english, japanese]) => {
+        const escaped = String(english).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const pattern = new RegExp(`(^|[^A-Za-z])${escaped}(?![A-Za-z])`, 'g');
+        result = result.replace(pattern, (_, prefix) => `${prefix}${japanese}`);
+      });
+    return result;
+  }
+  function publicText(value = '') {
+    let text = replaceKnownNames(String(value));
+    const monthMap = {
+      january: '1', february: '2', march: '3', april: '4', may: '5', june: '6',
+      july: '7', august: '8', september: '9', october: '10', november: '11', december: '12'
+    };
+    text = text.replace(/Effective from\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})/gi,
+      (_, month, year) => `${year}年${monthMap[month.toLowerCase()]}月から適用`);
+    text = text.replace(/operator naming on page should be rechecked in WORK\s*\d+/gi, '運営者名は公式ページで再確認する');
+    text = text.replace(/latest PDFをWORK\s*\d+で再確認/gi, '最新版のPDFを再確認する');
+    text = text.replace(/WORK\s*\d+\s*オンライン再確認[：:]?/gi, '');
+    text = text.replace(/\bWORK\s*\d+\b/gi, '');
+    text = text.replace(/\bSRC-[A-Z0-9-]+\b/g, '公式資料');
+
+    const rules = [
+      [/New Service\s*-\s*(?:Japan|日本)\s+(?:Taiwan|台湾)\s+Cat Lai\s*\(JTC\)/gi, '日本・台湾・カットライ新航路（JTC）'],
+      [/(\d{4})\s+East Asia\s*-\s*Japan Service/gi, '$1年 東アジア・日本航路'],
+      [/Port of (.+?)\s*-\s*Port Information/gi, '$1港の公式情報'],
+      [/(.+?)\s*-\s*Port Information/gi, '$1の公式情報'],
+      [/Port Information/gi, '港湾情報'],
+      [/New Service/gi, '新航路'],
+      [/Cat Lai/gi, 'カットライ'],
+      [/North 中国/gi, '中国北部'],
+      [/East 中国/gi, '中国東部'],
+      [/South 中国/gi, '中国南部'],
+      [/South East Asia|Southeast Asia/gi, '東南アジア'],
+      [/East Asia/gi, '東アジア'],
+      [/South America/gi, '南米'],
+      [/North America/gi, '北米'],
+      [/Middle East/gi, '中東'],
+      [/Pacific Ocean/gi, '太平洋'],
+      [/Atlantic Ocean/gi, '大西洋'],
+      [/Indian Ocean/gi, 'インド洋'],
+      [/Arabian Sea/gi, 'アラビア海'],
+      [/Caribbean Sea/gi, 'カリブ海'],
+      [/South Atlantic/gi, '南大西洋'],
+      [/Red Sea/gi, '紅海'],
+      [/Arabian Gulf/gi, 'アラビア湾'],
+      [/Marmara Sea/gi, 'マルマラ海'],
+      [/Aegean Sea/gi, 'エーゲ海'],
+      [/Black Sea/gi, '黒海'],
+      [/Bay of Bengal/gi, 'ベンガル湾'],
+      [/Strait of Hormuz/gi, 'ホルムズ海峡'],
+      [/Hormuz/gi, 'ホルムズ海峡'],
+      [/Bab el-Mandeb/gi, 'バブ・エル・マンデブ海峡'],
+      [/Suez Canal/gi, 'スエズ運河'],
+      [/Suez transit suspension/gi, 'スエズ経由の一時停止'],
+      [/trans-Suez/gi, 'スエズ経由'],
+      [/Suez/gi, 'スエズ'],
+      [/Cape of Good Hope/gi, '喜望峰'],
+      [/Cape rerouting/gi, '喜望峰経由への変更'],
+      [/Cape route/gi, '喜望峰経由'],
+      [/\bCape\b/gi, '喜望峰'],
+      [/Operational Rerouting/gi, '運航経路の変更'],
+      [/Short-sea shipping/gi, '近距離海上輸送'],
+      [/Rail gauge break/gi, '軌間変更'],
+      [/Non contractual|non-contractual/gi, '非契約の参考値'],
+      [/booking restriction/gi, '予約制限'],
+      [/\bBooking\b/gi, '予約'],
+      [/service code/gi, '航路サービス名'],
+      [/dynamic service page/gi, '随時更新される航路案内ページ'],
+      [/service update/gi, '航路の更新情報'],
+      [/service PDF/gi, '航路資料（PDF）'],
+      [/service page/gi, '航路案内ページ'],
+      [/carrier service/gi, '船会社の航路'],
+      [/current service/gi, '現在の航路'],
+      [/\bservice\b/gi, '航路サービス'],
+      [/\bcarrier\b/gi, '船会社'],
+      [/vessel schedule/gi, '運航予定'],
+      [/vessel\s*\/\s*voyage/gi, '本船・航海番号'],
+      [/\bvessel\b/gi, '本船'],
+      [/\bvoyage\b/gi, '航海番号'],
+      [/\bschedule\b/gi, '運航予定'],
+      [/port rotation/gi, '寄港順'],
+      [/\brotation(?:s)?\b/gi, '寄港順'],
+      [/\broute point\b/gi, '経由地点'],
+      [/\ball-water route\b/gi, '全区間海上輸送'],
+      [/\ball-water\b/gi, '全区間海上輸送'],
+      [/\bLandbridge\b/gi, '大陸横断輸送'],
+      [/\broute\b/gi, '航路'],
+      [/\bcontainers\b/gi, 'コンテナ'],
+      [/\bcontainer\b/gi, 'コンテナ'],
+      [/\bsurcharge\b/gi, '追加料金'],
+      [/Cut-off/gi, '搬入締切'],
+      [/\bETA\b/g, '到着予定日'],
+      [/\bETD\b/g, '出港予定日'],
+      [/\bcall\b/gi, '寄港'],
+      [/\bfeeder\b/gi, '接続船'],
+      [/\bmainline\b/gi, '本船航路'],
+      [/\btransshipment\b/gi, '積み替え'],
+      [/on-dock\s*\/\s*near-dock rail/gi, '港内・港近接の鉄道'],
+      [/\bon-dock\b/gi, '港内'],
+      [/\bnear-dock\b/gi, '港近接'],
+      [/\bdirect\b/gi, '直結'],
+      [/\bRail Terminal\b/gi, '鉄道ターミナル'],
+      [/\bon-dock rail\b/gi, '港内鉄道'],
+      [/\bship-to-rail\b/gi, '船から鉄道への積み替え'],
+      [/\bdirect rail access\b/gi, '鉄道へ直接接続'],
+      [/\bterminals\b/gi, 'ターミナル'],
+      [/\bterminal\b/gi, 'ターミナル'],
+      [/\bintermodal\b/gi, '複合輸送'],
+      [/\brail\b/gi, '鉄道'],
+      [/\broad\b/gi, '道路'],
+      [/\bcustoms\b/gi, '通関'],
+      [/\bdelivery\b/gi, '配送'],
+      [/\bdestination\b/gi, '最終目的地'],
+      [/\bgateway\b/gi, '玄関港'],
+      [/\bhub\b/gi, '中継拠点'],
+      [/\bcurrent\b/gi, '現在の'],
+      [/\blatest version\b/gi, '最新版'],
+      [/\blatest\b/gi, '最新の'],
+      [/\bactual\b/gi, '実際の'],
+      [/\bsubject to change\b/gi, '変更される場合がある'],
+      [/\bmust be checked\b/gi, '確認が必要'],
+      [/\bshould be checked\b/gi, '確認が必要'],
+      [/\bshould be rechecked\b/gi, '再確認する'],
+      [/\bsource year\b/gi, '資料年'],
+      [/\bweekly\b/gi, '週1便'],
+      [/\bfixed-day\b/gi, '曜日固定'],
+      [/\bexamples?\b/gi, '例'],
+      [/\bupdate\b/gi, '更新'],
+      [/\bproduct\b/gi, 'サービス資料'],
+      [/\bmap\b/gi, '航路図'],
+      [/\bconnections?\b/gi, '接続'],
+      [/\baccess\b/gi, '接続'],
+      [/\bhinterland\b/gi, '後背地'],
+      [/\btruck\b/gi, 'トラック'],
+      [/\bintegrated\b/gi, '統合された'],
+      [/\bselection\b/gi, '選定'],
+      [/\boperator\b/gi, '運営者'],
+      [/\bnaming\b/gi, '名称'],
+      [/\bFree Zone\b/gi, '自由貿易地域'],
+      [/\bnetwork\b/gi, 'ネットワーク'],
+      [/\bloop\b/gi, '周回航路'],
+      [/\bDoor-to-Door\b/gi, '集荷から納品まで'],
+      [/\bNorth China\b/gi, '中国北部'],
+      [/\bEast China\b/gi, '中国東部'],
+      [/\bSouth China\b/gi, '中国南部'],
+      [/\bUS\b/g, '米国'],
+      [/\bUSA\b/g, '米国'],
+      [/Panama Canal/gi, 'パナマ運河'],
+      [/\bPanama\b/gi, 'パナマ'],
+      [/\bJapan\b/gi, '日本'],
+      [/\bTaiwan\b/gi, '台湾'],
+      [/\bChina\b/gi, '中国'],
+      [/\bKorea\b/gi, '韓国'],
+      [/\bAustralia\b/gi, 'オーストラリア'],
+      [/\bBrazil\b/gi, 'ブラジル'],
+      [/\bCanada\b/gi, 'カナダ'],
+      [/\bIndia\b/gi, 'インド'],
+      [/\bIndonesia\b/gi, 'インドネシア'],
+      [/\bSingapore\b/gi, 'シンガポール'],
+      [/\bThailand\b/gi, 'タイ'],
+      [/\bVietnam\b/gi, 'ベトナム'],
+      [/\bSaudi\b/gi, 'サウジアラビア'],
+      [/\bUAE\b/g, 'アラブ首長国連邦'],
+      [/\bNorth Europe\b/gi, '北欧州'],
+      [/\bEurope\b/gi, '欧州'],
+      [/\bAsia\b/gi, 'アジア'],
+      [/\bUS Midwest\b/gi, '米国中西部'],
+      [/\bMidwest\b/gi, '中西部'],
+      [/\bWest Coast\b/gi, '西岸'],
+      [/\bEast Coast\b/gi, '東岸'],
+      [/\bSouth Africa\b/gi, '南アフリカ'],
+      [/太平洋\s+Ocean/gi, '太平洋'],
+      [/\bPacific\b/gi, '太平洋'],
+      [/\bGulf\b/gi, '湾岸地域'],
+      [/\bpurpose-built\b/gi, '専用設計'],
+      [/\byards\b/gi, 'ヤード'],
+      [/\balternative\b/gi, '代替経路'],
+      [/\band\b/gi, '・'],
+      [/\bvia\b/gi, '経由'],
+      [/\bto\b/gi, 'から'],
+      [/\bor\b/gi, 'または'],
+      [/\bofficial\b/gi, '公式'],
+      [/\bpage\b/gi, '案内ページ'],
+      [/\bPDF\b/g, 'PDF'],
+      [/\bOcean\b/gi, '海洋'],
+      [/\s*\/\s*/g, '・'],
+      [/・{2,}/g, '・'],
+      [/\s{2,}/g, ' ']
+    ];
+    rules.forEach(([pattern, replacement]) => { text = text.replace(pattern, replacement); });
+    return text.replace(/^[・：\s]+|[・：\s]+$/g, '').trim();
+  }
+  function escapeDisplay(value = '') { return escapeHtml(publicText(value)); }
   function escapeHtml(value = '') {
     return String(value).replace(/[&<>'"]/g, (ch) => ({
       '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
@@ -2031,6 +2227,47 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
   function short(value = '', max = 44) {
     const text = String(value);
     return text.length > max ? `${text.slice(0, max)}…` : text;
+  }
+  function hasLooseEnglish(value = '') {
+    return /[A-Z]?[a-z]{2,}/.test(String(value)) || /(?:WORK\s*\d+|SRC-[A-Z0-9-]+)/i.test(String(value));
+  }
+  function isInternalSource(source = {}) {
+    return /内部|internal derived|構造監査|内部派生/i.test([
+      source.title, source.publisher, source.source_type, source.primary_source_status
+    ].filter(Boolean).join(' '));
+  }
+  function sourceTypeDisplay(source = {}) {
+    const converted = publicText(source.source_type || '公式資料');
+    if (!hasLooseEnglish(converted)) return converted;
+    const raw = String(source.source_type || '');
+    if (/船会社/.test(raw)) return '船会社の公式資料';
+    if (/港湾|港|ターミナル/.test(raw)) return '港湾の公式資料';
+    if (/税関|政府|省|当局/.test(raw)) return '政府・税関の公式資料';
+    if (/鉄道/.test(raw)) return '鉄道事業者の公式資料';
+    return '公式資料';
+  }
+  function sourceTargetDisplay(source = {}) {
+    const converted = publicText(source.target || '');
+    return converted && !hasLooseEnglish(converted) ? converted : '';
+  }
+  function sourceDisplayTitle(source = {}) {
+    const converted = publicText(source.title || source.publisher || '公式資料');
+    if (!hasLooseEnglish(converted)) return converted;
+    const type = sourceTypeDisplay(source);
+    const target = sourceTargetDisplay(source);
+    return target ? `${type}｜${short(target, 34)}` : type;
+  }
+  function sourceVerifiedDisplay(source = {}) {
+    const converted = publicText(source.verified_item || '');
+    if (converted && !hasLooseEnglish(converted)) return converted;
+    const target = sourceTargetDisplay(source);
+    return target ? `${target}に関する公式情報` : '航路・港湾・輸送条件に関する公式情報';
+  }
+  function sourceNoteDisplay(source = {}) {
+    const converted = publicText(source.notes || '');
+    if (!converted) return '';
+    if (hasLooseEnglish(converted)) return '内容は更新されるため、利用時に最新の公式資料を確認してください。';
+    return converted;
   }
   function getCountry() { return byCountry[state.countryId] || countries[0]; }
   function currentIndex() { return countries.findIndex((item) => item.country_id === state.countryId); }
@@ -2070,12 +2307,12 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
   }
 
   function sourceLinkList(ids = []) {
-    const rows = ids.map((id) => sourcesById[id]).filter(Boolean);
+    const rows = ids.map((id) => sourcesById[id]).filter((source) => source && !isInternalSource(source));
     if (!rows.length) return '';
     return `<div class="wbr-inline-sources">${rows.map((source) => (
       source.url
-        ? `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title || source.publisher)}</a>`
-        : `<span>${escapeHtml(source.title || source.publisher)}</span>`
+        ? `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(sourceDisplayTitle(source))}</a>`
+        : `<span>${escapeHtml(sourceDisplayTitle(source))}</span>`
     )).join('')}</div>`;
   }
 
@@ -2086,13 +2323,13 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
     const item = candidates[0];
     if (!item) return '固定値なし';
     const value = Number(item.min_days) === Number(item.max_days) ? `${item.min_days}日` : `${item.min_days}〜${item.max_days}日`;
-    return `${value}（${item.duration_type || '掲載例'}）`;
+    return `${value}（${publicText(item.duration_type || '参考')}）`;
   }
 
   function renderQuickRoute(activeRoutes, durations) {
     const route = activeRoutes[0];
     const connection = route?.direct_or_transshipment || getCountry().direct_or_transshipment || '出荷前に確認';
-    el('[data-wbr-connection]').textContent = short(connection, 34);
+    el('[data-wbr-connection]').textContent = short(publicText(connection), 34);
     el('[data-wbr-duration-example]').textContent = durationExample(durations);
 
     const flowTitle = el('[data-wbr-flow-title]');
@@ -2106,13 +2343,13 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
     }
     const pointRows = (pointsByRoute[route.route_id] || []).sort((a, b) => a.sequence - b.sequence);
     const labels = pointRows.map((item) => item.label).filter(Boolean);
-    flowTitle.textContent = short(route.route_name, 48);
+    flowTitle.textContent = short(publicText(route.route_name), 48);
     flowRoot.innerHTML = labels.length
-      ? labels.map((label, index) => `${index ? '<span class="wbr-route-flow-arrow" aria-hidden="true">→</span>' : ''}<span class="wbr-route-flow-chip">${escapeHtml(label)}</span>`).join('')
+      ? labels.map((label, index) => `${index ? '<span class="wbr-route-flow-arrow" aria-hidden="true">→</span>' : ''}<span class="wbr-route-flow-chip">${escapeDisplay(label)}</span>`).join('')
       : '<span class="wbr-route-flow-chip">経由地点は経路詳細で確認</span>';
     flowNote.textContent = activeRoutes.length > 1
       ? `表示中の先頭ルートです。ほか${activeRoutes.length - 1}ルートは「経路詳細」で比較できます。`
-      : '実際の寄港順・積み替え・カットオフはBooking前に確認してください。';
+      : '実際の寄港順・積み替え・搬入締切は予約前に確認してください。';
   }
 
   function renderCountry() {
@@ -2132,33 +2369,33 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
     el('[data-wbr-current-country]').textContent = country.country_name_ja;
     el('[data-wbr-hero-code]').textContent = country.country_id;
     el('[data-wbr-region]').textContent = country.region;
-    el('[data-wbr-title]').textContent = country.title;
-    el('[data-wbr-theme]').textContent = `${country.main_theme}｜${country.sub_theme}`;
+    el('[data-wbr-title]').textContent = publicText(country.title);
+    el('[data-wbr-theme]').textContent = publicText(`${country.main_theme}｜${country.sub_theme}`);
     el('[data-wbr-verified]').textContent = country.last_verified || '確認日未設定';
     el('[data-wbr-basis-date]').textContent = country.last_verified || data.metadata.release_date || '未設定';
     el('[data-wbr-image-label]').textContent = modeLabel;
 
     const image = el('[data-wbr-route-image]');
     image.src = imagePath;
-    image.alt = `${country.title}の${modeLabel}図`;
+    image.alt = `${publicText(country.title)}の${modeLabel}図`;
     const lightboxImage = el('[data-wbr-lightbox-image]');
     lightboxImage.src = imagePath;
     lightboxImage.alt = image.alt;
 
     el('[data-wbr-position]').textContent = currentIndex() + 1;
-    el('[data-wbr-summary-title]').textContent = country.title;
-    el('[data-wbr-overview]').textContent = country.overview;
-    el('[data-wbr-transport]').textContent = short(country.transport_type, 38);
-    el('[data-wbr-main-theme]').textContent = country.main_theme;
-    el('[data-wbr-route-count]').textContent = `${activeRoutes.length}表示 / 全${allRoutes.length}`;
+    el('[data-wbr-summary-title]').textContent = publicText(country.title);
+    el('[data-wbr-overview]').textContent = publicText(country.overview);
+    el('[data-wbr-transport]').textContent = short(publicText(country.transport_type), 38);
+    el('[data-wbr-main-theme]').textContent = publicText(country.main_theme);
+    el('[data-wbr-route-count]').textContent = `現在${activeRoutes.length}経路・全${allRoutes.length}経路`;
     el('[data-wbr-port-count]').textContent = `${ports.length}港`;
     el('[data-wbr-route-short]').textContent = short(
-      state.mode === 'representative' ? country.primary_route_summary : country.alternative_route_summary,
+      publicText(state.mode === 'representative' ? country.primary_route_summary : country.alternative_route_summary),
       34
     );
-    el('[data-wbr-after-short]').textContent = short(country.after_arrival_summary, 32);
-    el('[data-wbr-direct]').textContent = country.direct_or_transshipment;
-    el('[data-wbr-after]').textContent = country.after_arrival_summary;
+    el('[data-wbr-after-short]').textContent = short(publicText(country.after_arrival_summary), 32);
+    el('[data-wbr-direct]').textContent = publicText(country.direct_or_transshipment);
+    el('[data-wbr-after]').textContent = publicText(country.after_arrival_summary);
     renderQuickRoute(activeRoutes, durations);
 
     renderRoutes(activeRoutes);
@@ -2177,8 +2414,8 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
       if (riskRelevant) {
         const directRisk = riskRows.filter((row) => (row.related_country_ids || []).includes(country.country_id) && ['geography', 'mechanism', 'impact'].includes(row.category));
         el('[data-wbr-risk-country-text]').textContent = directRisk.length
-          ? `${directRisk.map((row) => row.title).slice(0, 3).join('・')}を確認してください。船会社・service・出港日によって実際の経路は変わります。`
-          : '船会社・service・出港日によって実際の経路は変わります。';
+          ? `${directRisk.map((row) => publicText(row.title)).slice(0, 3).join('・')}を確認してください。船会社・航路サービス・出港日によって実際の経路は変わります。`
+          : '船会社・航路サービス・出港日によって実際の経路は変わります。';
       }
     }
 
@@ -2197,22 +2434,21 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
     const root = el('[data-wbr-route-list]');
     root.innerHTML = rows.map((route) => {
       const pointRows = (pointsByRoute[route.route_id] || []).sort((a, b) => a.sequence - b.sequence);
-      const points = pointRows.map((item) => `<span class="wbr-point-chip">${escapeHtml(item.label)}</span>`).join('');
+      const points = pointRows.map((item) => `<span class="wbr-point-chip">${escapeDisplay(item.label)}</span>`).join('');
       const alt = ['代替', '特殊', '陸上接続'].includes(route.route_type);
       const metadata = [
-        route.service_code ? `Service：${route.service_code}` : '',
+        route.service_code ? `航路名：${route.service_code}` : '',
         route.direct_or_transshipment ? `接続：${route.direct_or_transshipment}` : '',
-        route.route_basis ? `根拠：${route.route_basis}` : '',
-        route.validity_note ? `条件：${route.validity_note}` : ''
+        route.route_basis ? `確認資料：${route.route_basis}` : '',
+        route.validity_note ? `利用時の注意：${route.validity_note}` : ''
       ].filter(Boolean);
       return `<article class="wbr-route-row">
         <div class="wbr-row-top">
-          <span class="wbr-row-badge ${alt ? 'is-alt' : ''}">${escapeHtml(route.route_type)}</span>
-          <span class="wbr-route-id">${escapeHtml(route.route_id)}</span>
-          <h4>${escapeHtml(route.route_name)}</h4>
+          <span class="wbr-row-badge ${alt ? 'is-alt' : ''}">${escapeDisplay(route.route_type)}</span>
+          <h4>${escapeDisplay(route.route_name)}</h4>
         </div>
-        <p>${escapeHtml(route.description)}</p>
-        ${metadata.length ? `<dl class="wbr-metadata-list">${metadata.map((item) => `<div><dt>${escapeHtml(item.split('：')[0])}</dt><dd>${escapeHtml(item.slice(item.indexOf('：') + 1))}</dd></div>`).join('')}</dl>` : ''}
+        <p>${escapeDisplay(route.description)}</p>
+        ${metadata.length ? `<dl class="wbr-metadata-list">${metadata.map((item) => `<div><dt>${escapeHtml(item.split('：')[0])}</dt><dd>${escapeDisplay(item.slice(item.indexOf('：') + 1))}</dd></div>`).join('')}</dl>` : ''}
         <div class="wbr-point-line">${points || '<span class="wbr-point-chip is-empty">経由地点は本文で確認</span>'}</div>
         ${sourceLinkList(route.source_ids || [])}
       </article>`;
@@ -2221,8 +2457,8 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
 
   function renderPorts(rows) {
     el('[data-wbr-port-list]').innerHTML = rows.map((port) => `<article class="wbr-port-card">
-      <strong>${escapeHtml(port.name_ja)} <small>${escapeHtml(port.name_en)}</small></strong>
-      <span>${escapeHtml(port.port_role)}｜${escapeHtml(port.main_regions || '地域情報は出荷前に確認')}</span>
+      <strong>${escapeDisplay(port.name_ja)} <small>${escapeDisplay(port.name_en)}</small></strong>
+      <span>${escapeDisplay(port.port_role)}｜${escapeDisplay(port.main_regions || '地域情報は出荷前に確認')}</span>
       ${sourceLinkList(port.source_ids || [])}
     </article>`).join('') || '<p>港情報はありません。</p>';
   }
@@ -2242,16 +2478,16 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
         <div class="wbr-row-top">
           <span class="wbr-duration-value">${escapeHtml(value)}</span>
           <span class="wbr-duration-warning">${escapeHtml(warning)}</span>
-          <span class="wbr-duration-meta">${escapeHtml(item.duration_type)}</span>
+          <span class="wbr-duration-meta">${escapeDisplay(item.duration_type)}</span>
         </div>
-        <p><strong>${escapeHtml(item.origin)} → ${escapeHtml(item.destination)}</strong></p>
+        <p><strong>${escapeDisplay(item.origin)} → ${escapeDisplay(item.destination)}</strong></p>
         <dl class="wbr-metadata-list">
-          <div><dt>船社・サービス</dt><dd>${escapeHtml(item.service_type || '個別確認')}</dd></div>
+          <div><dt>船会社・航路</dt><dd>${escapeDisplay(item.service_type || '個別確認')}</dd></div>
           <div><dt>基準日</dt><dd>${escapeHtml(formatDate(item.reference_date || country.last_verified))}</dd></div>
-          <div><dt>情報区分</dt><dd>${escapeHtml(`${formatInformationClass(item.information_class)}${item.confidence ? `／${item.confidence}` : ''}`)}</dd></div>
-          <div><dt>対象範囲</dt><dd>${escapeHtml(item.scope || '対象区間を出荷前に確認')}</dd></div>
+          <div><dt>情報区分</dt><dd>${escapeDisplay(`${formatInformationClass(item.information_class)}${item.confidence ? `／${item.confidence}` : ''}`)}</dd></div>
+          <div><dt>対象範囲</dt><dd>${escapeDisplay(item.scope || '対象区間を出荷前に確認')}</dd></div>
         </dl>
-        <p>${escapeHtml(item.note || '船便・通関・配送条件で変動します。')}</p>
+        <p>${escapeDisplay(item.note || '船便・通関・配送条件で変動します。')}</p>
         ${sourceLinkList(item.source_ids || [])}
       </article>`;
     }).join('') || '<p>固定日数は表示していません。実際の船便・カットオフ・通関条件で確認してください。</p>';
@@ -2261,8 +2497,8 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
     el('[data-wbr-lesson-list]').innerHTML = rows
       .sort((a, b) => a.display_order - b.display_order)
       .map((item) => `<article class="wbr-lesson-row">
-        <h4>${escapeHtml(item.title)}</h4>
-        <p>${escapeHtml(item.body)}</p>
+        <h4>${escapeDisplay(item.title)}</h4>
+        <p>${escapeDisplay(item.body)}</p>
         ${sourceLinkList(item.source_ids || [])}
       </article>`).join('') || '<p>学習項目はありません。</p>';
   }
@@ -2272,22 +2508,21 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
     activeRoutes.forEach((route) => (route.source_ids || []).forEach((id) => ids.add(id)));
     durations.forEach((duration) => (duration.source_ids || []).forEach((id) => ids.add(id)));
     lessons.forEach((lesson) => (lesson.source_ids || []).forEach((id) => ids.add(id)));
-    const rows = [...ids].map((id) => sourcesById[id]).filter(Boolean);
+    const rows = [...ids].map((id) => sourcesById[id]).filter((source) => source && !isInternalSource(source));
     el('[data-wbr-source-list]').innerHTML = rows.map((source) => `<article class="wbr-source-row">
       <div class="wbr-row-top">
-        <span class="wbr-row-badge">${escapeHtml(source.source_type || '出典')}</span>
-        <span class="wbr-source-id">${escapeHtml(source.source_id)}</span>
-        <h4>${escapeHtml(source.title)}</h4>
+        <span class="wbr-row-badge">${escapeHtml(sourceTypeDisplay(source))}</span>
+        <h4>${escapeHtml(sourceDisplayTitle(source))}</h4>
       </div>
       <dl class="wbr-metadata-list">
         <div><dt>発行元</dt><dd>${escapeHtml(source.publisher || '未設定')}</dd></div>
-        <div><dt>確認項目</dt><dd>${escapeHtml(source.verified_item || 'ルート・条件')}</dd></div>
-        <div><dt>発行・改訂</dt><dd>${escapeHtml(formatDate(source.published_or_revised))}</dd></div>
+        <div><dt>確認項目</dt><dd>${escapeHtml(sourceVerifiedDisplay(source))}</dd></div>
+        <div><dt>発行・更新</dt><dd>${escapeHtml(formatDate(source.published_or_revised))}</dd></div>
         <div><dt>確認日</dt><dd>${escapeHtml(formatDate(source.verified_date || country.last_verified))}</dd></div>
-        <div><dt>資料区分</dt><dd>${escapeHtml(source.primary_source_status || '要確認')}</dd></div>
-        <div><dt>有効性</dt><dd>${escapeHtml(source.validity || '要確認')}</dd></div>
+        <div><dt>資料の種類</dt><dd>${escapeDisplay(source.primary_source_status || '要確認')}</dd></div>
+        <div><dt>利用時の確認</dt><dd>${escapeDisplay(source.validity || '要確認')}</dd></div>
       </dl>
-      ${source.notes ? `<div class="wbr-source-note"><strong>注意・適用範囲</strong><p>${escapeHtml(source.notes)}</p></div>` : ''}
+      ${sourceNoteDisplay(source) ? `<div class="wbr-source-note"><strong>利用時の注意</strong><p>${escapeHtml(sourceNoteDisplay(source))}</p></div>` : ''}
       ${source.url ? `<p><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">公式資料を開く</a></p>` : ''}
     </article>`).join('') || '<p>出典情報はありません。</p>';
   }
@@ -2297,7 +2532,7 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
       const country = byCountry[id];
       if (!country) return '';
       return `<button class="wbr-related-button" type="button" data-country-id="${id}">
-        <span>${id}</span><span><strong>${escapeHtml(country.country_name_ja)}</strong><small>${escapeHtml(country.main_theme)}</small></span>
+        <span><strong>${escapeDisplay(country.country_name_ja)}</strong><small>${escapeDisplay(country.main_theme)}</small></span>
       </button>`;
     }).join('') || '<p>関連国はありません。</p>';
     els('.wbr-related-button').forEach((button) => button.addEventListener('click', () => selectCountry(button.dataset.countryId, true)));
@@ -2326,7 +2561,7 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
     el('[data-wbr-list-count]').textContent = `${rows.length}カ国・地域`;
     el('[data-wbr-country-grid]').innerHTML = rows.map((country) => `<button type="button" class="wbr-country-card" data-country-id="${country.country_id}">
       <span class="wbr-country-card-code">${country.country_id}</span>
-      <span><span class="wbr-country-card-region">${escapeHtml(country.region)}</span><h3>${escapeHtml(country.country_name_ja)}</h3><p>${escapeHtml(country.main_theme)}｜${escapeHtml(country.sub_theme)}</p></span>
+      <span><span class="wbr-country-card-region">${escapeDisplay(country.region)}</span><h3>${escapeDisplay(country.country_name_ja)}</h3><p>${escapeDisplay(country.main_theme)}｜${escapeDisplay(country.sub_theme)}</p></span>
       <span class="wbr-country-card-arrow">›</span>
     </button>`).join('') || '<div class="mbx-info">条件に合う国・地域はありません。</div>';
     els('.wbr-country-card').forEach((button) => button.addEventListener('click', () => selectCountry(button.dataset.countryId, true)));
@@ -2341,7 +2576,7 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
     }, {});
     el('[data-wbr-dialog-country-list]').innerHTML = Object.entries(grouped).map(([region, rows]) => `<section class="wbr-dialog-region">
       <h3>${escapeHtml(region)}</h3>
-      <div class="wbr-dialog-region-grid">${rows.map((country) => `<button type="button" class="wbr-dialog-country-button ${country.country_id === state.countryId ? 'is-current' : ''}" data-country-id="${country.country_id}"><span>${country.country_id}</span><strong>${escapeHtml(country.country_name_ja)}</strong></button>`).join('')}</div>
+      <div class="wbr-dialog-region-grid">${rows.map((country) => `<button type="button" class="wbr-dialog-country-button ${country.country_id === state.countryId ? 'is-current' : ''}" data-country-id="${country.country_id}"><span>${country.country_id}</span><strong>${escapeDisplay(country.country_name_ja)}</strong></button>`).join('')}</div>
     </section>`).join('');
     els('.wbr-dialog-country-button').forEach((button) => button.addEventListener('click', () => {
       selectCountry(button.dataset.countryId, true);
@@ -2355,8 +2590,8 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
     const category = (name) => rows.filter((row) => row.category === name);
     const renderCard = (row) => `<article class="wbr-risk-card is-${escapeHtml(row.severity || 'info')}">
       <span class="wbr-risk-card-no">${String(row.display_order).padStart(2, '0')}</span>
-      <h4>${escapeHtml(row.title)}</h4>
-      <p>${escapeHtml(row.body)}</p>
+      <h4>${escapeDisplay(row.title)}</h4>
+      <p>${escapeDisplay(row.body)}</p>
       <div class="wbr-risk-card-meta"><span>確認日 ${escapeHtml(formatDate(row.last_verified))}</span></div>
       ${sourceLinkList(row.source_ids || [])}
     </article>`;
@@ -2369,31 +2604,31 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
     if (geography) geography.innerHTML = category('geography').map(renderCard).join('');
     if (mechanism) mechanism.innerHTML = [...category('mechanism'), ...category('impact')].map(renderCard).join('');
     if (examples) examples.innerHTML = category('carrier_example').map((row) => `<article class="wbr-risk-example">
-      <div class="wbr-risk-example-head"><span>${escapeHtml(row.title)}</span><strong>${escapeHtml(formatDate(row.last_verified))}</strong></div>
-      <p>${escapeHtml(row.body)}</p>
+      <div class="wbr-risk-example-head"><span>${escapeDisplay(row.title)}</span><strong>${escapeHtml(formatDate(row.last_verified))}</strong></div>
+      <p>${escapeDisplay(row.body)}</p>
       ${sourceLinkList(row.source_ids || [])}
     </article>`).join('');
     if (checklist) checklist.innerHTML = category('verification').map((row, index) => `<li>
-      <span>${index + 1}</span><div><strong>${escapeHtml(row.title)}</strong><p>${escapeHtml(row.body)}</p>${sourceLinkList(row.source_ids || [])}</div>
+      <span>${index + 1}</span><div><strong>${escapeDisplay(row.title)}</strong><p>${escapeDisplay(row.body)}</p>${sourceLinkList(row.source_ids || [])}</div>
     </li>`).join('');
   }
 
   function renderLearn() {
     renderRiskContext();
     el('[data-wbr-family-grid]').innerHTML = tables.route_families.map((family, index) => `<article class="wbr-family-card">
-      <span class="wbr-family-no">${String(index + 1).padStart(2, '0')}</span><h3>${escapeHtml(family.route_family_name)}</h3><p>${escapeHtml(family.learning_focus)}</p>
+      <span class="wbr-family-no">${String(index + 1).padStart(2, '0')}</span><h3>${escapeDisplay(family.route_family_name)}</h3><p>${escapeDisplay(family.learning_focus)}</p>
       <div class="wbr-family-countries">${(family.country_ids || []).map((id) => `<button type="button" data-country-id="${id}">${escapeHtml(countryName(id))}</button>`).join('')}</div>
     </article>`).join('');
     el('[data-wbr-shared-grid]').innerHTML = tables.shared_points.map((item) => `<article class="wbr-shared-card">
-      <span class="wbr-family-no">${escapeHtml(item.point_id.replace('PT-', ''))}</span><h3>${escapeHtml(item.point_name)}</h3><p>${escapeHtml(item.shared_reason)}</p>
+      <span class="wbr-family-no">${escapeHtml(item.point_id.replace('PT-', ''))}</span><h3>${escapeDisplay(item.point_name)}</h3><p>${escapeDisplay(item.shared_reason)}</p>
       <div class="wbr-family-countries">${(item.country_ids || []).slice(0, 6).map((id) => `<button type="button" data-country-id="${id}">${escapeHtml(countryName(id))}</button>`).join('')}</div>
     </article>`).join('');
     el('[data-wbr-common-count]').textContent = `${tables.common_lessons.length}件すべて表示`;
     el('[data-wbr-common-list]').innerHTML = tables.common_lessons.map((item) => `<details class="wbr-common-item">
-      <summary>${escapeHtml(item.title)}</summary>
+      <summary>${escapeDisplay(item.title)}</summary>
       <div class="wbr-common-body">
-        <p>${escapeHtml(item.body)}</p>
-        ${item.formal_topic ? `<dl class="wbr-metadata-list"><div><dt>正式テーマ</dt><dd>${escapeHtml(item.formal_topic)}</dd></div><div><dt>実務で使う場面</dt><dd>${escapeHtml(item.practical_use || item.learning_reason || '')}</dd></div><div><dt>確認日</dt><dd>${escapeHtml(formatDate(item.last_verified))}</dd></div></dl>` : ''}
+        <p>${escapeDisplay(item.body)}</p>
+        ${item.formal_topic ? `<dl class="wbr-metadata-list"><div><dt>正式な用語</dt><dd>${escapeDisplay(item.formal_topic)}</dd></div><div><dt>実務で使う場面</dt><dd>${escapeDisplay(item.practical_use || item.learning_reason || '')}</dd></div><div><dt>確認日</dt><dd>${escapeHtml(formatDate(item.last_verified))}</dd></div></dl>` : ''}
         ${sourceLinkList(item.source_ids || [])}
       </div>
     </details>`).join('');
@@ -2476,12 +2711,12 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
     renderLearn();
     bind();
     renderCountry();
-    document.documentElement.dataset.wbrReady='1';
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
 })();
+
 </script>
 <script>(function(){
   'use strict';
@@ -2498,23 +2733,11 @@ nav[aria-label="MARKET BASE PC用メインナビゲーション"]:not(.mb-global
   }
 
   function fallbackBackHref(){
-    var path=(location.pathname||'');
-    if(/\/[^/]+\/[^/]+\.html$/i.test(path))return '../index.html';
-    return '../index.html';
+    return '../index.html?from=world-route&view=learn';
   }
 
   function goBack(){
-    var previous=location.href;
-    if(window.history.length>1){
-      window.history.back();
-      window.setTimeout(function(){
-        if(location.href===previous){
-          location.href=fallbackBackHref();
-        }
-      },180);
-    }else{
-      location.href=fallbackBackHref();
-    }
+    window.location.replace(fallbackBackHref());
   }
 
   function mountScrollControls(){

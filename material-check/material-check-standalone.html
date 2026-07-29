@@ -949,7 +949,7 @@ window.MATERIAL_CHECK_DATA = {"meta":{"title":"MATERIAL CHECK｜食品接触素�
     document.querySelectorAll('.mbx-tab').forEach(t=>t.addEventListener('click',()=>showView(t.dataset.view)));
     document.querySelectorAll('[data-learning-view]').forEach(t=>t.addEventListener('click',()=>showView(t.dataset.learningView)));
     $('mobileViewSelect').addEventListener('change',e=>showView(e.target.value));
-    $('backButton').addEventListener('click',()=>{if(history.length>1)history.back();else location.href='../index.html#learning';});
+    $('backButton').addEventListener('click',()=>{location.replace('../index.html?view=learn');});
     $('reloadButton').addEventListener('click',()=>location.reload());
     $('dialogClose').addEventListener('click',()=>$('detailDialog').close());
     $('judgeForm').addEventListener('submit',e=>{
@@ -1010,6 +1010,6 @@ window.MATERIAL_CHECK_DATA = {"meta":{"title":"MATERIAL CHECK｜食品接触素�
 })();
 
 </script>
-<script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260728-v302-back"></script>
+<script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260729-v318-safe-back"></script>
 </body>
 </html>
