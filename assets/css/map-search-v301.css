@@ -61,3 +61,33 @@
 .mb-map-search__intro picture{width:min(760px,100%);height:100%;padding:12px}
 .mb-map-search__intro-main{width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
 @media(min-width:1200px){.mb-map-search__intro picture{width:min(820px,72%);padding:18px}}
+
+
+/* V.316: desktop intro image must remain 16:9 and fully visible */
+@media (min-width:900px){
+  .mb-map-search__stage{
+    height:460px;
+  }
+  .mb-map-search__intro{
+    padding:10px 24px;
+  }
+  .mb-map-search__intro picture{
+    box-sizing:border-box;
+    width:min(780px, calc(100% - 48px))!important;
+    height:auto!important;
+    max-width:min(780px, calc(100% - 48px))!important;
+    max-height:none!important;
+    padding:0!important;
+    aspect-ratio:16/9;
+    place-self:center;
+  }
+  .mb-map-search__intro-main{
+    display:block!important;
+    width:100%!important;
+    height:100%!important;
+    max-width:none!important;
+    max-height:none!important;
+    object-fit:contain!important;
+    object-position:center center!important;
+  }
+}

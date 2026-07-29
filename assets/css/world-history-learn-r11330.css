@@ -316,3 +316,22 @@ body.history-page-shell .mb-global-header,
 /* V.309: history explanation is always visible */
 .history-explanation-disclosure.is-always-open{margin:15px 0 0;border:0;background:transparent;overflow:visible}
 .history-explanation-disclosure.is-always-open .history-explanation-body{display:grid;gap:0;padding:0}
+
+
+/* V.316: history photos stay moderate on PC */
+@media (min-width:1024px){
+  .history-main-article .history-photo,
+  .history-day-article .history-photo,
+  .history-dialog .history-photo{
+    width:min(640px,100%)!important;
+    max-width:640px!important;
+    aspect-ratio:16/9!important;
+    margin:18px auto 0!important;
+  }
+  .history-main-article .history-photo img,
+  .history-day-article .history-photo img,
+  .history-dialog .history-photo img{
+    object-fit:contain!important;
+    object-position:center center!important;
+  }
+}

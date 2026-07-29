@@ -1,19 +1,22 @@
 'use strict';
-const BUILD_ID='MARKET_BASE_V303_MAP_READING_QA_HANDOFF_20260728';
-const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260728-v303-final';
+const BUILD_ID='MARKET_BASE_V316_PC_MAP_HISTORY_IMAGE_SIZE_20260729';
+const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260729-v316';
 const CACHE_NAME=`market-base-${VERSION}`;
 const CORE=[
+  "./assets/css/v311-ui-fixes.css?v=20260729-v316",
+  "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260729-v316",
+  "./assets/js/market-base-build.js?v=20260729-v316",
   "./assets/css/market-base-header-audit-v302.css?v=20260728-v302",
   "./assets/css/home-search-mode-v302.css?v=20260728-v302",
   "./assets/js/home-search-mode-v302.js?v=20260728-v302",
-  "./assets/css/map-search-v301.css?v=20260728-v303",
+  "./assets/css/map-search-v301.css?v=20260729-v316",
   "./assets/js/map-search-v301.js?v=20260728-v303",
   "./assets/svg/world-countries-v301.svg?v=20260728-v303",
   "./assets/images/market-base-world-wind-v301.webp?v=20260728-v303",
   "./assets/images/market-base-world-wind-v301.jpg?v=20260728-v303",
   "./",
-  "./index.html?v=20260728-v303-final",
-  "./version.txt?v=20260728-v303-final",
+  "./index.html?v=20260729-v316",
+  "./version.txt?v=20260729-v316",
   "./offline.html?v=20260728-v303-final",
   "./news.html?v=20260728-v303-final",
   "./market-base-v273-country-profile-r28.html?v=20260728-v303-final",
@@ -103,7 +106,7 @@ const CORE=[
   "./assets/css/upload-layout-fix-r11318.css?v=20260726-r11369",
   "./assets/css/world-why-learn-r11327.css?v=20260727-r11377",
   "./assets/css/market-base-scroll-controls-r11328.css?v=20260728-v302-back",
-  "./assets/css/world-history-learn-r11330.css?v=20260728-r11414",
+  "./assets/css/world-history-learn-r11330.css?v=20260729-v316",
   "./assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371",
   "./assets/css/market-base-weather-panel-v005.css?v=20260726-r11369",
   "./assets/css/market-base-weather-home-compact-r11342.css?v=20260726-r11369",

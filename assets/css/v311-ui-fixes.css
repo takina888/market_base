@@ -1,4 +1,4 @@
-/* MARKET BASE V.314 — structural home/subview separation.
+/* MARKET BASE V.315 — corrected HTML-tree home/subview separation.
    The home container uses the native hidden attribute.
    No broad view-level display:none!important rules are used. */
 .home-view-content[hidden]{display:none}
@@ -41,4 +41,24 @@
   .target-recent-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
   .target-recent-grid>button{min-height:132px!important;padding:14px 8px!important}
   .target-recent-grid>button strong{font-size:clamp(13px,4.8vw,18px)!important}
+}
+
+
+/* V.315: retained presentation rules; no broad home-section force hiding. */
+.todays-journey-title-group span{
+  font-size:clamp(22px,2.3vw,32px)!important;
+  font-weight:950!important;
+}
+.todays-journey-title-group small{
+  font-size:clamp(16px,1.35vw,22px)!important;
+  font-weight:850!important;
+}
+@media (min-width:1080px){
+  .todays-journey-card{grid-template-columns:minmax(300px,420px) minmax(0,1fr)!important}
+}
+.global-search-view .target-title-row,
+.target-home-reference .mb-primary-header,
+.view>.mb-primary-header{
+  width:100%!important;
+  box-sizing:border-box!important;
 }
