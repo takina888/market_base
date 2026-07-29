@@ -29,42 +29,6 @@
   document.getElementById('stationPlace').textContent = station.place;
   document.getElementById('stationDescription').textContent = station.desc;
 
-  let officialWindow = null;
-  let timerEnd = 0;
-  let timerInterval = null;
-  const timerStatus = document.getElementById('timerStatus');
-
-  document.getElementById('openOfficial').addEventListener('click', () => {
-    officialWindow = window.open(station.url, 'marketBaseOfficialRadio', 'popup=yes,width=980,height=760,resizable=yes,scrollbars=yes');
-    if (!officialWindow) location.href = station.url;
-  });
+  document.getElementById('openOfficial').href = station.url;
   document.getElementById('windowClose').addEventListener('click', () => window.close());
-
-  function clearTimer(message='タイマーは設定されていません') {
-    timerEnd = 0;
-    if (timerInterval) clearInterval(timerInterval);
-    timerInterval = null;
-    timerStatus.textContent = message;
-  }
-  function setTimer(minutes) {
-    timerEnd = Date.now() + minutes * 60000;
-    if (timerInterval) clearInterval(timerInterval);
-    const tick = () => {
-      const left = Math.max(0, timerEnd - Date.now());
-      if (left <= 0) {
-        if (officialWindow && !officialWindow.closed) officialWindow.close();
-        clearTimer('タイマーが終了しました');
-        window.close();
-        return;
-      }
-      const total = Math.ceil(left / 1000);
-      const m = Math.floor(total / 60);
-      const s = String(total % 60).padStart(2, '0');
-      timerStatus.textContent = `小窓を閉じるまで ${m}:${s}`;
-    };
-    tick();
-    timerInterval = setInterval(tick, 1000);
-  }
-  document.querySelectorAll('[data-minutes]').forEach(button => button.addEventListener('click', () => setTimer(Number(button.dataset.minutes))));
-  document.getElementById('timerCancel').addEventListener('click', () => clearTimer('タイマーを解除しました'));
 })();

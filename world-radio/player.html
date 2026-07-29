@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <title>世界のラジオ｜MARKET BASE</title>
-  <link rel="icon" sizes="32x32" type="image/png" href="../assets/icons/favicon-32.png">
-  <link rel="stylesheet" href="assets/world-radio-player.css">
+  <link rel="icon" sizes="32x32" type="image/png" href="../icons/favicon-32.png">
+  <link rel="stylesheet" href="assets/world-radio-player.css?v=20260730-v322">
+<meta name="market-base-site-build" content="MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730">
 </head>
 <body>
   <header class="player-header">
@@ -29,25 +30,13 @@
         <h2 id="liveTitle">公式ライブ放送</h2>
         <p>放送局の公式プレーヤーを、この小窓から開きます。</p>
       </div>
-      <button class="primary-button" id="openOfficial" type="button">▶ 公式ライブを開く</button>
-      <p class="live-note">放送局の仕様により、新しいタブで開く場合があります。</p>
-    </section>
-
-    <section class="timer-panel" aria-labelledby="timerTitle">
-      <p class="panel-label">SLEEP TIMER</p>
-      <h2 id="timerTitle">スリープタイマー</h2>
-      <p id="timerStatus">タイマーは設定されていません</p>
-      <div class="timer-buttons" role="group" aria-label="小窓を閉じるまでの時間">
-        <button type="button" data-minutes="15">15分</button>
-        <button type="button" data-minutes="30" class="recommended">30分</button>
-        <button type="button" data-minutes="60">60分</button>
-        <button type="button" data-minutes="90">90分</button>
-        <button type="button" id="timerCancel">解除</button>
-      </div>
+      <a class="primary-button" id="openOfficial" href="#" target="_blank" rel="noopener noreferrer">▶ 公式ライブを別タブで開く</a>
+      <p class="live-note">公式放送のタブを開いたままMARKET BASEのタブへ切り替えると、MARKET BASE側で「戻る」を押しても放送ページは閉じません。</p>
     </section>
 
     <p class="player-footnote">遠くの街の声や音楽を、いつものページを眺めながらお楽しみください。</p>
   </main>
-  <script src="assets/world-radio-player.js"></script>
+  <script src="assets/world-radio-player.js?v=20260730-v322"></script>
+  <script src="../assets/js/market-base-update-controller-v322.js?v=20260730-v322" data-mb-update-controller></script>
 </body>
 </html>

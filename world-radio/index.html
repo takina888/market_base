@@ -13,8 +13,9 @@
   <link rel="stylesheet" href="../assets/css/market-base-scroll-controls-r11328.css?v=20260729-v307">
   <link rel="stylesheet" href="../assets/css/market-base-header-audit-v302.css?v=20260729-v307">
   <link rel="stylesheet" href="../assets/css/market-base-bottom-nav-unified-r11409.css?v=20260729-v307">
-  <link rel="stylesheet" href="assets/world-radio.css">
-  <meta name="market-base-build" content="MARKET_BASE_V307_WORLD_RADIO_HOME_CARD_20260729">
+  <link rel="stylesheet" href="assets/world-radio.css?v=20260730-v322">
+  <meta name="market-base-build" content="MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730">
+<meta name="market-base-site-build" content="MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730">
 </head>
 <body class="mb-unified-specialist-page mb-standard-page mb-has-primary-bottom-nav world-radio-page">
   <div class="mb-primary-header-host">
@@ -31,7 +32,7 @@
     <section class="radio-hero" aria-labelledby="pageTitle">
       <p class="radio-eyebrow">LISTEN TO THE WORLD</p>
       <h1 id="pageTitle">世界のラジオ</h1>
-      <p class="radio-lead">遠くの街の声や、世界各地の音楽に耳を傾ける。局を選ぶと、MARKET BASEの小さなラジオウインドウが開きます。</p>
+      <p class="radio-lead">遠くの街の声や、世界各地の音楽に耳を傾ける。局を選ぶと、MARKET BASEとは別のラジオウインドウが開きます。</p>
     </section>
 
     <section class="best-selection" aria-labelledby="bestTitle">
@@ -44,16 +45,8 @@
       <button class="best-play radio-open" type="button" data-station="wnyc"><span aria-hidden="true">▶</span> WNYCを聴く</button>
     </section>
 
-    <section class="player-status" aria-live="polite" aria-label="現在の再生状況">
-      <div><span class="status-label">NOW LISTENING</span><strong id="nowPlaying">局を選んでください</strong><small id="nowDetail">選んだ局を小さなラジオウインドウで開きます</small></div>
-      <button type="button" id="closePlayer" disabled>再生ウインドウを閉じる</button>
-    </section>
-
-    <section class="timer-panel" aria-labelledby="timerTitle">
-      <div><p class="timer-label">SLEEP TIMER</p><h2 id="timerTitle">スリープタイマー</h2><p id="timerStatus">タイマーは設定されていません</p></div>
-      <div class="timer-buttons" role="group" aria-label="停止までの時間">
-        <button type="button" data-minutes="15">15分</button><button type="button" data-minutes="30" class="recommended">30分</button><button type="button" data-minutes="60">60分</button><button type="button" data-minutes="90">90分</button><button type="button" id="timerCancel">解除</button>
-      </div>
+    <section class="player-status" aria-live="polite" aria-label="ラジオウインドウの状況">
+      <div><span class="status-label">RADIO WINDOW</span><strong id="nowPlaying">局を選んでください</strong><small id="nowDetail">選んだ局を独立したラジオウインドウで開きます</small></div>
     </section>
 
     <div class="radio-tabs" role="tablist" aria-label="ラジオの分類">
@@ -68,7 +61,7 @@
     </div>
 
     <section id="stationGrid" class="station-grid" aria-label="ラジオ局一覧"></section>
-    <p class="radio-note">放送局側の仕様変更や地域制限により再生できない場合があります。各局の公式ライブページへつながる導線を優先しています。</p>
+    <p class="radio-note">公式放送は独立したタブで開きます。再生したままMARKET BASEへ戻るときは、公式放送のタブを閉じずにMARKET BASEのタブへ切り替えてください。放送局や端末の仕様により、バックグラウンド再生が制限される場合があります。</p>
   </main>
 
   <nav class="mb-primary-bottom-nav" aria-label="下部ナビゲーション">
@@ -77,8 +70,8 @@
     <a class="mb-primary-bottom-tab active" aria-current="page" href="../index.html?view=learn"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 6.5h8.2c1.25 0 2.3.45 3.3 1.35 1-.9 2.05-1.35 3.3-1.35h6.2v19h-6.2c-1.25 0-2.3.45-3.3 1.35-1-.9-2.05-1.35-3.3-1.35H5.5Z"></path><path d="M16 8v18.5M8.5 11h4.5M8.5 15h4.5M19 11h4.5M19 15h4.5"></path></svg></span><b>学ぶ</b></a>
     <a class="mb-primary-bottom-tab" href="../index.html?view=rankings"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 27.5V19h5v8.5M13.5 27.5V13h5v14.5M22 27.5V5h5v22.5M3.5 27.5h25"></path></svg></span><b>ランキング</b></a>
   </nav>
-  <script src="assets/world-radio.js"></script>
+  <script src="assets/world-radio.js?v=20260730-v322"></script>
   <script src="../assets/js/market-base-desktop-icon-nav-r11337.js" data-mb-root="../" data-mb-active="learn"></script>
-  <script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260729-v318-safe-back"></script>
+  <script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260730-v322"></script>
 </body>
 </html>

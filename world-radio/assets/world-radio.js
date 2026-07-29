@@ -25,39 +25,23 @@
   const grid = document.getElementById('stationGrid');
   const nowPlaying = document.getElementById('nowPlaying');
   const nowDetail = document.getElementById('nowDetail');
-  const closePlayer = document.getElementById('closePlayer');
-  const timerStatus = document.getElementById('timerStatus');
   let playerWindow = null;
-  let activeStation = null;
-  let timerEnd = 0;
-  let timerInterval = null;
 
   function render(tab){
     grid.innerHTML = stations.filter(s => s.tab === tab).map(s => `<article class="station-card"><p class="station-meta">${s.place}</p><h2>${s.name}</h2><p>${s.desc}</p><button class="radio-open" type="button" data-station="${s.id}">▶ 公式ライブを聴く</button></article>`).join('');
   }
   function openStation(id){
     const s = stations.find(x => x.id === id); if(!s) return;
-    if(playerWindow && !playerWindow.closed) playerWindow.close();
     playerWindow = window.open(`player.html?id=${encodeURIComponent(s.id)}`,'marketBaseRadioPlayer','popup=yes,width=520,height=760,resizable=yes,scrollbars=yes');
     if(!playerWindow){ nowDetail.textContent='ポップアップがブロックされました。ブラウザで許可してください。'; return; }
-    activeStation=s; nowPlaying.textContent=s.name; nowDetail.textContent=`${s.place}｜MARKET BASEのラジオ小窓を開きました`; closePlayer.disabled=false;
-  }
-  function clearTimer(message='タイマーは設定されていません'){
-    timerEnd=0; if(timerInterval){clearInterval(timerInterval);timerInterval=null;} timerStatus.textContent=message;
-  }
-  function setTimer(minutes){
-    timerEnd=Date.now()+minutes*60000;
-    if(timerInterval) clearInterval(timerInterval);
-    const tick=()=>{const left=Math.max(0,timerEnd-Date.now()); if(left<=0){if(playerWindow&&!playerWindow.closed)playerWindow.close(); closePlayer.disabled=true; nowPlaying.textContent='再生を停止しました'; nowDetail.textContent=`スリープタイマー（${minutes}分）が終了しました`; clearTimer('タイマーが終了しました'); return;} const total=Math.ceil(left/1000),m=Math.floor(total/60),s=String(total%60).padStart(2,'0'); timerStatus.textContent=`停止まで ${m}:${s}`;};
-    tick(); timerInterval=setInterval(tick,1000);
+    try{ playerWindow.focus(); }catch(_){}
+    nowPlaying.textContent=s.name;
+    nowDetail.textContent=`${s.place}｜独立したラジオウインドウを開きました`;
   }
   document.addEventListener('click',e=>{
     const open=e.target.closest('.radio-open'); if(open){openStation(open.dataset.station);return;}
     const tab=e.target.closest('[role="tab"]'); if(tab){document.querySelectorAll('[role="tab"]').forEach(b=>b.setAttribute('aria-selected',String(b===tab)));render(tab.dataset.tab);return;}
-    const timer=e.target.closest('[data-minutes]'); if(timer){setTimer(Number(timer.dataset.minutes));}
   });
-  closePlayer.addEventListener('click',()=>{if(playerWindow&&!playerWindow.closed)playerWindow.close();closePlayer.disabled=true;nowPlaying.textContent='再生ウインドウを閉じました';nowDetail.textContent=activeStation?activeStation.name:'局を選んでください';clearTimer();});
-  document.getElementById('timerCancel').addEventListener('click',()=>clearTimer('タイマーを解除しました'));
   document.getElementById('pageRefreshButton').addEventListener('click',()=>location.reload());
   render('english');
 })();

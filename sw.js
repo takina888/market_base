@@ -1,11 +1,26 @@
 'use strict';
-const BUILD_ID='MARKET_BASE_V321_MODULES_UNDER_CONSTRUCTION_20260730';
-const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260730-v321-building-modules';
+const BUILD_ID='MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730';
+const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260730-v322-global-update-journey-stability';
 const CACHE_NAME=`market-base-${VERSION}`;
+const REQUIRED=[
+  "./",
+  "./index.html?v=20260730-v322-global-update-journey-stability",
+  "./offline.html?v=20260730-v322",
+  "./version.txt?v=20260730-v322-global-update-journey-stability",
+  "./assets/js/market-base-build.js?v=20260730-v322-global-update-journey-stability",
+  "./assets/js/market-base-update-controller-v322.js?v=20260730-v322",
+  "./assets/js/market-base-scroll-controls-r11328.js?v=20260730-v322",
+  "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260730-v322",
+  "./embedded-country-profile-data-v273-r28.js?v=20260730-v322",
+  "./data/images/todays-journey-image-manifest-r11370.js?v=20260730-v322",
+  "./data/images/photo-registry-embedded.js?v=20260730-v322"
+];
 const CORE=[
   "./assets/css/v311-ui-fixes.css?v=20260729-v318",
-  "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260729-v318",
-  "./assets/js/market-base-build.js?v=20260730-v321-building-modules",
+  "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260730-v322",
+  "./assets/js/market-base-build.js?v=20260730-v322-global-update-journey-stability",
+  "./assets/js/market-base-update-controller-v322.js?v=20260730-v322",
+  "./embedded-country-profile-data-v273-r28.js?v=20260730-v322",
   "./assets/css/market-base-header-audit-v302.css?v=20260728-v302",
   "./assets/css/home-search-mode-v302.css?v=20260728-v302",
   "./assets/js/home-search-mode-v302.js?v=20260728-v302",
@@ -15,9 +30,9 @@ const CORE=[
   "./assets/images/market-base-world-wind-v301.webp?v=20260728-v303",
   "./assets/images/market-base-world-wind-v301.jpg?v=20260728-v303",
   "./",
-  "./index.html?v=20260730-v321-building-modules",
-  "./version.txt?v=20260730-v321-building-modules",
-  "./offline.html?v=20260728-v303-final",
+  "./index.html?v=20260730-v322-global-update-journey-stability",
+  "./version.txt?v=20260730-v322-global-update-journey-stability",
+  "./offline.html?v=20260730-v322",
   "./news.html?v=20260728-v303-final",
   "./market-base-v273-country-profile-r28.html?v=20260728-v303-final",
   "./international-logistics/guide.html?v=20260727-r11372",
@@ -60,7 +75,7 @@ const CORE=[
   "./assets/js/world-compass-country-capitals-r11311.js?v=20260727-r11385-flaglock",
   "./assets/js/world-compass-r11311.js?v=20260729-v319-public-text",
   "./assets/maps/world-map.svg?v=20260726-r11369",
-  "./manifest.json?v=20260727-r11390",
+  "./manifest.json?v=20260730-v322",
   "./market-base-currency-converter-v273-r29.html?v=20260727-r11385",
   "./assets/css/market-base-primary-components-r11326.css?v=20260727-r11373",
   "./assets/css/market-base-bottom-nav-unified-r11409.css?v=20260728-r11409",
@@ -103,14 +118,13 @@ const CORE=[
   "./assets/css/market-base-global-bottom-nav-r11345.css?v=20260726-r11369",
   "./assets/css/market-base-bottom-press-feedback-r11367.css?v=20260726-r11369",
   "./assets/css/market-base-reading-section-r11366.css?v=20260727-r11383",
-  "./assets/js/market-base-build.js?v=20260730-v321-building-modules",
+  "./assets/js/market-base-build.js?v=20260730-v322-global-update-journey-stability",
   "./assets/js/market-base-runtime-r11348.js?v=20260726-r11369",
   "./assets/flags/flag-svg-data.js?v=20260727-r11385-flaglock",
   "./assets/js/news.js?v=20260726-r11369",
-  "./data/images/photo-registry-embedded.js?v=20260727-r11390-vanuatu",
-    "./data/images/todays-journey-image-manifest-r11370.js?v=20260727-r11390",
+  "./data/images/photo-registry-embedded.js?v=20260730-v322",
+  "./data/images/todays-journey-image-manifest-r11370.js?v=20260730-v322",
   "./assets/js/photo-registry-v1.js?v=20260727-r11373-photo-final",
-  "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260728-r11414",
   "./retail-sales-v273-db-title-r27.html?v=20260727-r11373-photo-final",
   "./assets/css/retail-store-gallery-v2.css?v=20260725-r11348",
   "./assets/js/retail-store-gallery-v2.js?v=20260727-r11373-photo-final",
@@ -131,19 +145,52 @@ const CORE=[
   "./data/world-history-today-v028.js?v=20260728-r11413-ui-refine",
   "./assets/js/world-history-learn-r11330.js?v=20260728-r11414",
   "./assets/js/world-why-learn-r11327.js?v=20260726-r11369",
-  "./assets/js/market-base-scroll-controls-r11328.js?v=20260729-v319-public-text",
+  "./assets/js/market-base-scroll-controls-r11328.js?v=20260730-v322",
   "./assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371",
   "./assets/js/market-base-weather-panel-v005.js?v=20260726-r11369"
+  ,"./work-basics/index.html?v=20260730-v322"
+  ,"./work-basics/assets/styles.css?v=20260730-v322"
+  ,"./work-basics/assets/app.js?v=20260730-v322"
+  ,"./work-basics/assets/data.js?v=20260730-v322"
+  ,"./work-basics/assets/icon.svg?v=20260730-v322"
+  ,"./work-basics/manifest.webmanifest?v=20260730-v322"
+  ,"./world-radio/index.html?v=20260730-v322"
+  ,"./world-radio/player.html?v=20260730-v322"
+  ,"./world-radio/assets/world-radio.css?v=20260730-v322"
+  ,"./world-radio/assets/world-radio.js?v=20260730-v322"
+  ,"./world-radio/assets/world-radio-player.css?v=20260730-v322"
+  ,"./world-radio/assets/world-radio-player.js?v=20260730-v322"
 ];
 async function cacheCoreSafely(){
   const cache=await caches.open(CACHE_NAME);
-  await Promise.allSettled(CORE.map(async item=>{
-    try{
-      const request=new Request(item,{cache:'reload'});
-      const response=await fetch(request);
-      if(response.ok)await cache.put(request,response.clone());
-    }catch(_e){/* one missing optional asset must not abort the whole service worker */}
-  }));
+  const put=async(item,signal)=>{
+    const request=new Request(item,{cache:'reload',signal});
+    const response=await fetch(request);
+    if(!response.ok)throw new Error(`precache ${response.status}: ${item}`);
+    await cache.put(request,response.clone());
+  };
+  const requiredController=new AbortController();
+  const requiredTimeout=setTimeout(()=>requiredController.abort(),15000);
+  try{
+    await Promise.all(REQUIRED.map(item=>put(item,requiredController.signal)));
+  }catch(error){
+    await caches.delete(CACHE_NAME);
+    throw error;
+  }finally{
+    clearTimeout(requiredTimeout);
+  }
+  const required=new Set(REQUIRED);
+  const optionalController=new AbortController();
+  const optionalTimeout=setTimeout(()=>optionalController.abort(),8000);
+  try{
+    await Promise.allSettled(CORE.filter(item=>!required.has(item)).map(async item=>{
+      try{
+        await put(item,optionalController.signal);
+      }catch(_e){/* one missing optional asset must not abort the whole service worker */}
+    }));
+  }finally{
+    clearTimeout(optionalTimeout);
+  }
 }
 self.addEventListener('install',event=>{
   event.waitUntil(cacheCoreSafely().then(()=>self.skipWaiting()));
@@ -152,16 +199,13 @@ self.addEventListener('activate',event=>{
   event.waitUntil((async()=>{
     const keys=await caches.keys();
     const marketBaseKeys=keys.filter(key=>key.startsWith('market-base-'));
-    const previousKeys=marketBaseKeys.filter(key=>key!==CACHE_NAME);
-    const keepPrevious=previousKeys.slice(-2);
-    const keepKeys=new Set([CACHE_NAME].concat(keepPrevious));
-    await Promise.all(marketBaseKeys.filter(key=>!keepKeys.has(key)).map(key=>caches.delete(key)));
+    await Promise.all(marketBaseKeys.filter(key=>key!==CACHE_NAME).map(key=>caches.delete(key)));
     await self.clients.claim();
   })());
 });
 self.addEventListener('message',event=>{
   if(event.data?.type==='SKIP_WAITING') self.skipWaiting();
-  if(event.data?.type==='CLEAR_MARKET_BASE_CACHE') event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith('market-base-'))await caches.delete(key)})());
+  if(event.data?.type==='CLEAR_MARKET_BASE_CACHE') event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith('market-base-')&&key!==CACHE_NAME)await caches.delete(key)})());
 });
 self.addEventListener('fetch',event=>{
   if(event.request.method!=='GET') return;
@@ -173,39 +217,43 @@ self.addEventListener('fetch',event=>{
   const isWorldRoute=url.pathname.endsWith('/world-route.html')||url.pathname.includes('/world-route/')||url.pathname.includes('/assets/images/world-route/');
   if(isWorldRoute){
     event.respondWith((async()=>{
+      const cache=await caches.open(CACHE_NAME);
       try{
         const response=await fetch(event.request,{cache:'no-store'});
-        if(response.ok)(await caches.open(CACHE_NAME)).put(event.request,response.clone());
+        if(response.ok)await cache.put(event.request,response.clone());
         return response;
       }catch(_e){
-        return (await caches.match(event.request))||Response.error();
+        return (await cache.match(event.request,{ignoreSearch:true}))||Response.error();
       }
     })());
     return;
   }
   if(isDocument||isFreshData||isHistoryAsset){
     event.respondWith((async()=>{
+      const cache=await caches.open(CACHE_NAME);
       try{
         const response=await fetch(event.request,{cache:'no-store'});
-        if(response.ok)(await caches.open(CACHE_NAME)).put(event.request,response.clone());
+        if(response.ok)await cache.put(event.request,response.clone());
         return response;
       }catch(_e){
-        const cached=await caches.match(event.request);
+        const cached=await cache.match(event.request,{ignoreSearch:true});
         if(cached)return cached;
-      return isDocument?(await caches.match('./offline.html?v=20260727-r11372')):Response.error();
+      return isDocument?(await cache.match('./offline.html?v=20260730-v322',{ignoreSearch:true})):Response.error();
       }
     })());
     return;
   }
   event.respondWith((async()=>{
-    const cached=await caches.match(event.request);
+    const cache=await caches.open(CACHE_NAME);
+    const cached=(await cache.match(event.request))||
+      (await cache.match(event.request,{ignoreSearch:true}));
     if(cached){
-      event.waitUntil(fetch(event.request).then(async response=>{if(response.ok)(await caches.open(CACHE_NAME)).put(event.request,response.clone())}).catch(()=>undefined));
+      event.waitUntil(fetch(event.request).then(async response=>{if(response.ok)await cache.put(event.request,response.clone())}).catch(()=>undefined));
       return cached;
     }
     try{
       const response=await fetch(event.request);
-      if(response.ok)(await caches.open(CACHE_NAME)).put(event.request,response.clone());
+      if(response.ok)await cache.put(event.request,response.clone());
       return response;
     }catch(_e){return Response.error()}
   })());
