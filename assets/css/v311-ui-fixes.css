@@ -62,3 +62,24 @@
   width:100%!important;
   box-sizing:border-box!important;
 }
+
+/* MARKET BASE V.317 — restore the full mobile width of every main-app view.
+   The older home-refinement rule used width:calc(100% - 18px) while the
+   app shell already had horizontal padding, creating a second side inset.
+   Stand-alone tool pages did not load that rule, so only the main app looked narrow. */
+@media (max-width:899px){
+  body.mb-unified-main-page > main.app-shell#home{
+    width:100%!important;
+    max-width:100%!important;
+    margin-left:0!important;
+    margin-right:0!important;
+    padding-left:15px!important;
+    padding-right:15px!important;
+  }
+  body.mb-unified-main-page #home > .home-view-content,
+  body.mb-unified-main-page #home > .view{
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+  }
+}

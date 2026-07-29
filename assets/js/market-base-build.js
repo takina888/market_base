@@ -1,10 +1,10 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V316_PC_MAP_HISTORY_IMAGE_SIZE_20260729',
-    label: 'MARKET BASE V.315',
-    release: 'V.315',
+    id: 'MARKET_BASE_V317_MAIN_APP_MOBILE_WIDTH_RESTORE_20260729',
+    label: 'MARKET BASE V.317',
+    release: 'V.317',
     date: '2026-07-29',
-    assetVersion: '20260729-v316'
+    assetVersion: '20260729-v317'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseBuild = build.id;
