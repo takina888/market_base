@@ -1,15 +1,7 @@
-/* MARKET BASE V.311 — confirmed fixes */
-html.mb-initial-subview .target-home-reference,
-html.mb-initial-subview .home-world-radio-entry-section,
-body.mb-view-active .target-home-reference,
-body.mb-view-active .home-world-radio-entry-section,
-.target-home-reference[hidden],
-.home-world-radio-entry-section[hidden]{display:none!important}
-
-/* Keep only the selected view visible. */
-body.mb-view-active .view{display:none!important}
-body.mb-view-active .view.active{display:block!important}
-body.mb-view-active .tabs{margin-top:18px!important}
+/* MARKET BASE V.314 — structural home/subview separation.
+   The home container uses the native hidden attribute.
+   No broad view-level display:none!important rules are used. */
+.home-view-content[hidden]{display:none}
 
 /* Recent-country flags and long country names are centered and wrapped. */
 .target-recent-grid>button{
