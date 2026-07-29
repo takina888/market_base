@@ -312,3 +312,7 @@ body.history-page-shell .mb-global-header,
   }
   .history-card-thumb{aspect-ratio:16/9}
 }
+
+/* V.309: history explanation is always visible */
+.history-explanation-disclosure.is-always-open{margin:15px 0 0;border:0;background:transparent;overflow:visible}
+.history-explanation-disclosure.is-always-open .history-explanation-body{display:grid;gap:0;padding:0}

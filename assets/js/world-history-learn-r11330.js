@@ -213,10 +213,7 @@
     if(article.subtitle)copy.appendChild(el('p','history-subtitle',article.subtitle));
     if(withPhoto)copy.appendChild(photoNode(article,headingTag==='h2'?'lazy':null));
 
-    var explanation=el('details','history-explanation-disclosure');
-    var explanationSummary=el('summary','history-explanation-summary');
-    explanationSummary.innerHTML='<span class="history-explanation-label"><span class="history-explanation-label-open">説明文を読む</span><span class="history-explanation-label-close">説明文を閉じる</span></span><span class="history-explanation-chevron" aria-hidden="true">⌄</span>';
-    explanation.appendChild(explanationSummary);
+    var explanation=el('div','history-explanation-disclosure is-always-open');
     var explanationBody=el('div','history-explanation-body');
     if(article.intro)explanationBody.appendChild(el('p','history-intro',article.intro));
     var body=el('div','history-body');

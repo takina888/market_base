@@ -1,0 +1,46 @@
+
+/* MARKET BASE V.310 DB header normalization */
+html,body{
+  overflow-x:hidden;
+}
+.mbu-header,
+.mb-header,
+.mbx-header,
+.mb-primary-header-host,
+.market-header,
+header[role="banner"]{
+  background:#fff!important;
+}
+.mbu-header,
+.mb-header,
+.mbx-header,
+.mb-primary-header-host,
+.market-header{
+  border-bottom:1px solid #dce8f6!important;
+}
+.mbu-header-inner,
+.mb-header-inner,
+.mbx-header-inner,
+.market-header,
+.mb-primary-header{
+  width:min(1180px, calc(100% - 44px))!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+main,
+.page{
+  width:min(1180px, calc(100% - 44px))!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+@media (max-width:760px){
+  .mbu-header-inner,
+  .mb-header-inner,
+  .mbx-header-inner,
+  .market-header,
+  .mb-primary-header,
+  main,
+  .page{
+    width:min(100%, calc(100% - 16px))!important;
+  }
+}

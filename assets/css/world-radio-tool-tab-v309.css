@@ -1,0 +1,5 @@
+/* MARKET BASE V.309 | World Radio tool row */
+.world-radio-tool-row{display:grid;grid-template-columns:1fr;margin:0 0 10px}
+.world-radio-tool-tab{display:flex;align-items:center;justify-content:center;min-height:50px;padding:10px 16px;border:1px solid #C7D9ED;border-radius:15px;background:#F5F9FE;color:#0B4F9D;text-decoration:none;font-size:16px;font-weight:900;line-height:1.2;box-sizing:border-box}
+.world-radio-tool-tab:hover,.world-radio-tool-tab:focus-visible{border-color:#77A9E2;background:#EAF4FF;outline:none;box-shadow:0 0 0 3px rgba(7,95,199,.10)}
+@media(max-width:640px){.world-radio-tool-tab{min-height:48px;border-radius:14px;font-size:15px}}

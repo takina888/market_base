@@ -3401,7 +3401,8 @@ document.getElementById('schoolMetricSelect')?.addEventListener('change', render
     '.ranking-row','.country-card','.external-db-card','.home-featured-card',
     '.cross-research-card','.target-search-box','.global-search-form',
     '.global-country-results','.global-db-results','.drawer-layer',
-    '.news-card','.local-rule-item','.power-info-card','.todays-journey-card'
+    '.news-card','.local-rule-item','.power-info-card','.todays-journey-card',
+    '.mb-map-search','.mb-map-dialog'
   ].join(',');
   const MIN_X=76;
   const MAX_Y=52;
