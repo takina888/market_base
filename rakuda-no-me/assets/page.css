@@ -592,9 +592,11 @@
   font-weight:950;
 }
 
-.rakuda-eye-page .rakuda-story-choice__state{
-  color:#6F431F;
-}
+
+.rakuda-eye-page .rakuda-story-choice__state-group{display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.rakuda-eye-page .rakuda-story-choice__state{display:inline-flex;align-items:center;justify-content:center;padding:4px 9px;border-radius:999px;font-size:11.5px;font-weight:900;letter-spacing:.02em}
+.rakuda-eye-page .rakuda-story-choice__state.is-read{background:#FFF5DA;color:#7A540C;border:1px solid #F2D796}
+.rakuda-eye-page .rakuda-story-choice__state.is-current{background:#E8F1FF;color:#1B56A1;border:1px solid #C7D9F3}
 
 .rakuda-eye-page .rakuda-story-choice__title{
   margin:10px 0 0;

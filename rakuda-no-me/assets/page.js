@@ -3,12 +3,14 @@
 
   var stories=Array.isArray(window.MARKET_BASE_RAKUDA_STORIES)?window.MARKET_BASE_RAKUDA_STORIES:[];
   var PAGE_SIZE=12;
+  var READ_STORAGE_KEY='marketBaseRakudaReadStoriesV301';
   var state={
     currentIndex:0,
     filtered:stories.slice(),
     listPage:0,
     search:'',
-    theme:''
+    theme:'',
+    readStories:loadReadStories()
   };
 
   var elements={
@@ -40,6 +42,31 @@
     listNext:document.getElementById('nextListPageButton'),
     listStatus:document.getElementById('listPageStatus')
   };
+
+
+
+  function loadReadStories(){
+    try{
+      var saved=JSON.parse(localStorage.getItem(READ_STORAGE_KEY)||'[]');
+      if(Array.isArray(saved))return saved.filter(function(value){return stories.some(function(story){return story.id===value;});});
+    }catch(error){}
+    return [];
+  }
+
+  function saveReadStories(){
+    try{localStorage.setItem(READ_STORAGE_KEY,JSON.stringify(state.readStories));}catch(error){}
+  }
+
+  function isRead(storyId){
+    return state.readStories.indexOf(storyId)>=0;
+  }
+
+  function markRead(storyId){
+    if(isRead(storyId))return false;
+    state.readStories.push(storyId);
+    saveReadStories();
+    return true;
+  }
 
   function normalise(value){
     return String(value||'').toLocaleLowerCase('ja-JP').replace(/\s+/g,' ').trim();
@@ -85,6 +112,7 @@
     var settings=options||{};
     state.currentIndex=Math.max(0,Math.min(index,stories.length-1));
     var story=stories[state.currentIndex];
+    markRead(story.id);
 
     elements.position.textContent='第'+String(story.seq).padStart(2,'0')+'話 / '+stories.length;
     elements.theme.textContent=story.theme;
@@ -174,12 +202,24 @@
     number.textContent='第'+String(story.seq).padStart(2,'0')+'話';
     top.appendChild(number);
 
+    var stateWrap=document.createElement('span');
+    stateWrap.className='rakuda-story-choice__state-group';
+
+    if(isRead(story.id)){
+      var readState=document.createElement('span');
+      readState.className='rakuda-story-choice__state is-read';
+      readState.textContent='読了';
+      stateWrap.appendChild(readState);
+    }
+
     if(index===state.currentIndex){
       var current=document.createElement('span');
-      current.className='rakuda-story-choice__state';
+      current.className='rakuda-story-choice__state is-current';
       current.textContent='読んでいる話';
-      top.appendChild(current);
+      stateWrap.appendChild(current);
     }
+
+    if(stateWrap.childNodes.length)top.appendChild(stateWrap);
 
     var title=document.createElement('span');
     title.className='rakuda-story-choice__title';
@@ -222,7 +262,7 @@
       });
     }
 
-    elements.resultCount.textContent=total+'話';
+    elements.resultCount.textContent=total+'話 / 読了'+state.readStories.length+'話';
     elements.listStatus.textContent=(state.listPage+1)+' / '+pages+'ページ';
     elements.listPrevious.disabled=state.listPage===0;
     elements.listNext.disabled=state.listPage>=pages-1;

@@ -60,6 +60,8 @@ body.sutra-page{
 .sutra-list-button.active{border-color:#9DBFE4;background:#EAF3FF;color:#0B3976}
 .sutra-list-number{flex:0 0 34px;color:var(--sutra-gold);font-size:13px;font-weight:900}
 .sutra-list-title{min-width:0;font-size:15px;font-weight:800;line-height:1.45;overflow-wrap:anywhere}
+
+.sutra-read-badge{display:inline-flex;align-items:center;justify-content:center;margin-left:auto;padding:4px 8px;border:1px solid #ECD79B;border-radius:999px;background:#FFF6D9;color:#7A560E;font-size:11.5px;font-weight:900;white-space:nowrap}
 .sutra-empty{margin:15px 0 0;color:var(--sutra-muted)}
 .sutra-note{margin-top:18px;padding:18px;border:1px solid var(--sutra-line);border-radius:18px;background:#fff}
 .sutra-note h2{margin:0 0 8px;color:var(--sutra-navy);font-size:18px}

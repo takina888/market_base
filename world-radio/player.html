@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>世界のラジオ｜MARKET BASE</title>
+  <link rel="icon" sizes="32x32" type="image/png" href="../assets/icons/favicon-32.png">
+  <link rel="stylesheet" href="assets/world-radio-player.css">
+</head>
+<body>
+  <header class="player-header">
+    <div>
+      <a class="player-brand" href="../index.html" target="_blank" rel="noopener">MARKET BASE</a>
+      <p>世界のラジオ</p>
+    </div>
+    <button id="windowClose" type="button" aria-label="小窓を閉じる">×</button>
+  </header>
+
+  <main class="player-main">
+    <section class="station-intro" aria-labelledby="stationName">
+      <p class="station-place" id="stationPlace"></p>
+      <h1 id="stationName">ラジオ局を読み込んでいます</h1>
+      <p class="station-description" id="stationDescription"></p>
+    </section>
+
+    <section class="live-panel" aria-labelledby="liveTitle">
+      <div>
+        <p class="panel-label">LIVE RADIO</p>
+        <h2 id="liveTitle">公式ライブ放送</h2>
+        <p>放送局の公式プレーヤーを、この小窓から開きます。</p>
+      </div>
+      <button class="primary-button" id="openOfficial" type="button">▶ 公式ライブを開く</button>
+      <p class="live-note">放送局の仕様により、新しいタブで開く場合があります。</p>
+    </section>
+
+    <section class="timer-panel" aria-labelledby="timerTitle">
+      <p class="panel-label">SLEEP TIMER</p>
+      <h2 id="timerTitle">スリープタイマー</h2>
+      <p id="timerStatus">タイマーは設定されていません</p>
+      <div class="timer-buttons" role="group" aria-label="小窓を閉じるまでの時間">
+        <button type="button" data-minutes="15">15分</button>
+        <button type="button" data-minutes="30" class="recommended">30分</button>
+        <button type="button" data-minutes="60">60分</button>
+        <button type="button" data-minutes="90">90分</button>
+        <button type="button" id="timerCancel">解除</button>
+      </div>
+    </section>
+
+    <p class="player-footnote">遠くの街の声や音楽を、いつものページを眺めながらお楽しみください。</p>
+  </main>
+  <script src="assets/world-radio-player.js"></script>
+</body>
+</html>

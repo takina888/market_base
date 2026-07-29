@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="英語の会話と世界の音楽を、公式ライブ放送で楽しむMARKET BASEの世界ラジオ。">
+  <title>世界のラジオ｜MARKET BASE</title>
+  <link rel="icon" sizes="32x32" type="image/png" href="../assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-touch-icon-180.png">
+  <link rel="stylesheet" href="../assets/css/market-base-primary-components-r11326.css">
+  <link rel="stylesheet" href="../assets/css/market-base-desktop-icon-nav-r11337.css">
+  <link rel="stylesheet" href="../assets/css/market-base-standard-shell-r11372.css">
+  <link rel="stylesheet" href="../assets/css/market-base-scroll-controls-r11328.css?v=20260729-v307">
+  <link rel="stylesheet" href="../assets/css/market-base-header-audit-v302.css?v=20260729-v307">
+  <link rel="stylesheet" href="../assets/css/market-base-bottom-nav-unified-r11409.css?v=20260729-v307">
+  <link rel="stylesheet" href="assets/world-radio.css">
+  <meta name="market-base-build" content="MARKET_BASE_V307_WORLD_RADIO_HOME_CARD_20260729">
+</head>
+<body class="mb-unified-specialist-page mb-standard-page mb-has-primary-bottom-nav world-radio-page">
+  <div class="mb-primary-header-host">
+    <header class="mb-global-header mb-primary-header" aria-label="世界のラジオの操作">
+      <a class="mb-global-brand" href="../index.html">MARKET BASE</a>
+      <div class="mb-global-actions">
+        <a class="mb-global-button" href="../index.html">戻る</a>
+        <button class="mb-global-button" id="pageRefreshButton" type="button">更新</button>
+      </div>
+    </header>
+  </div>
+
+  <main class="mb-standard-content-shell radio-main" id="mainContent">
+    <section class="radio-hero" aria-labelledby="pageTitle">
+      <p class="radio-eyebrow">LISTEN TO THE WORLD</p>
+      <h1 id="pageTitle">世界のラジオ</h1>
+      <p class="radio-lead">遠くの街の声や、世界各地の音楽に耳を傾ける。局を選ぶと、MARKET BASEの小さなラジオウインドウが開きます。</p>
+    </section>
+
+    <section class="best-selection" aria-labelledby="bestTitle">
+      <div class="best-copy">
+        <span class="best-badge">BEST SELECTION</span>
+        <p class="best-location">NEW YORK · USA</p>
+        <h2 id="bestTitle">WNYC</h2>
+        <p>ニュース、文化、社会、インタビュー。自然なアメリカ英語をたっぷり聴けるニューヨークの公共ラジオです。</p>
+      </div>
+      <button class="best-play radio-open" type="button" data-station="wnyc"><span aria-hidden="true">▶</span> WNYCを聴く</button>
+    </section>
+
+    <section class="player-status" aria-live="polite" aria-label="現在の再生状況">
+      <div><span class="status-label">NOW LISTENING</span><strong id="nowPlaying">局を選んでください</strong><small id="nowDetail">選んだ局を小さなラジオウインドウで開きます</small></div>
+      <button type="button" id="closePlayer" disabled>再生ウインドウを閉じる</button>
+    </section>
+
+    <section class="timer-panel" aria-labelledby="timerTitle">
+      <div><p class="timer-label">SLEEP TIMER</p><h2 id="timerTitle">スリープタイマー</h2><p id="timerStatus">タイマーは設定されていません</p></div>
+      <div class="timer-buttons" role="group" aria-label="停止までの時間">
+        <button type="button" data-minutes="15">15分</button><button type="button" data-minutes="30" class="recommended">30分</button><button type="button" data-minutes="60">60分</button><button type="button" data-minutes="90">90分</button><button type="button" id="timerCancel">解除</button>
+      </div>
+    </section>
+
+    <div class="radio-tabs" role="tablist" aria-label="ラジオの分類">
+      <button role="tab" aria-selected="true" data-tab="english">英語を聴く</button>
+      <button role="tab" aria-selected="false" data-tab="hawaii">ハワイ</button>
+      <button role="tab" aria-selected="false" data-tab="india">インド</button>
+      <button role="tab" aria-selected="false" data-tab="arabia">アラビア</button>
+      <button role="tab" aria-selected="false" data-tab="brazil">ブラジル</button>
+      <button role="tab" aria-selected="false" data-tab="celtic">ケルト</button>
+      <button role="tab" aria-selected="false" data-tab="africa">アフリカ</button>
+      <button role="tab" aria-selected="false" data-tab="caribbean">カリブ・地中海</button>
+    </div>
+
+    <section id="stationGrid" class="station-grid" aria-label="ラジオ局一覧"></section>
+    <p class="radio-note">放送局側の仕様変更や地域制限により再生できない場合があります。各局の公式ライブページへつながる導線を優先しています。</p>
+  </main>
+
+  <nav class="mb-primary-bottom-nav" aria-label="下部ナビゲーション">
+    <a class="mb-primary-bottom-tab" href="../index.html"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 14.5 16 5l10.5 9.5v11.2a1.8 1.8 0 0 1-1.8 1.8H7.3a1.8 1.8 0 0 1-1.8-1.8Z"></path><path d="M12 27.5v-8.8h8v8.8"></path></svg></span><b>ホーム</b></a>
+    <a class="mb-primary-bottom-tab" href="../market-base-currency-converter-v273-r29.html"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="11" cy="16" r="6.5"></circle><circle cx="21" cy="16" r="6.5"></circle><path d="M8 12.5h6M11 9.5v13M18 12.5h6M18 19.5h6"></path></svg></span><b>ツール</b></a>
+    <a class="mb-primary-bottom-tab active" aria-current="page" href="../index.html?view=learn"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 6.5h8.2c1.25 0 2.3.45 3.3 1.35 1-.9 2.05-1.35 3.3-1.35h6.2v19h-6.2c-1.25 0-2.3.45-3.3 1.35-1-.9-2.05-1.35-3.3-1.35H5.5Z"></path><path d="M16 8v18.5M8.5 11h4.5M8.5 15h4.5M19 11h4.5M19 15h4.5"></path></svg></span><b>学ぶ</b></a>
+    <a class="mb-primary-bottom-tab" href="../index.html?view=rankings"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 27.5V19h5v8.5M13.5 27.5V13h5v14.5M22 27.5V5h5v22.5M3.5 27.5h25"></path></svg></span><b>ランキング</b></a>
+  </nav>
+  <script src="assets/world-radio.js"></script>
+  <script src="../assets/js/market-base-desktop-icon-nav-r11337.js" data-mb-root="../" data-mb-active="learn"></script>
+  <script src="../assets/js/market-base-scroll-controls-r11328.js"></script>
+</body>
+</html>
