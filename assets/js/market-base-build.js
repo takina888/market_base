@@ -1,10 +1,10 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V321_MODULES_UNDER_CONSTRUCTION_20260730',
-    label: 'MARKET BASE V.321',
-    release: 'V.321',
+    id: 'MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730',
+    label: 'MARKET BASE V.322',
+    release: 'V.322',
     date: '2026-07-30',
-    assetVersion: '20260730-v321-building-modules'
+    assetVersion: '20260730-v322-global-update-journey-stability'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseBuild = build.id;

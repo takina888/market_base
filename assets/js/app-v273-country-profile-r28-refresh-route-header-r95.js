@@ -2560,7 +2560,7 @@ function openRequestedCountryFromUrl(){
 const TODAYS_JOURNEY_MAX_HISTORY_DAYS=7;
 let todaysJourneyOffset=0;
 let todaysJourneyRenderToken=0;
-function todaysJourneyBaseDate(){
+const todaysJourneySessionBaseDate=(()=>{
   const now=new Date();
   const base=new Date(now.getFullYear(),now.getMonth(),now.getDate(),12,0,0,0);
   const override=new URLSearchParams(window.location.search).get('journey_date');
@@ -2570,6 +2570,9 @@ function todaysJourneyBaseDate(){
     if(candidate.getMonth()===month-1&&candidate.getDate()===day) return candidate;
   }
   return base;
+})();
+function todaysJourneyBaseDate(){
+  return new Date(todaysJourneySessionBaseDate.getTime());
 }
 function todaysJourneyDateKey(offset=todaysJourneyOffset){
   const days=Math.max(0,Math.min(TODAYS_JOURNEY_MAX_HISTORY_DAYS,Number(offset)||0));
@@ -2629,7 +2632,7 @@ function todaysJourneyLink(entry){
   });
   return entity ? {entity_id:entity.entity_id,type:'exact'} : null;
 }
-const JOURNEY_IMAGE_CACHE_VERSION='r11388-v1';
+const JOURNEY_IMAGE_CACHE_VERSION='v322-stable-v1';
 const journeyImageMemory=new Map();
 const journeyImageFailures=new Map();
 const journeyImageInFlight=new Map();
@@ -2804,18 +2807,13 @@ async function firstWorkingJourneyImage(entry,candidates,exclude=new Set()){
   }
   for(let start=0;start<usable.length;start+=2){
     const batch=usable.slice(start,start+2);
-    const checks=batch.map(async image=>{
-      if(await probeJourneyImage(image.image_url)) return image;
-      markJourneyImageFailed(entry,image.image_url);
-      throw new Error('journey image unavailable');
-    });
-    if(typeof Promise.any==='function'){
-      try{ return await Promise.any(checks); }catch(_){}
-    }else{
-      const settled=await Promise.allSettled(checks);
-      const working=settled.find(item=>item.status==='fulfilled');
-      if(working) return working.value;
-    }
+    const checks=await Promise.all(batch.map(async image=>{
+      const working=await probeJourneyImage(image.image_url);
+      if(!working) markJourneyImageFailed(entry,image.image_url);
+      return {image,working};
+    }));
+    const selected=checks.find(item=>item.working);
+    if(selected) return selected.image;
   }
   return null;
 }
@@ -2862,12 +2860,13 @@ async function resolveTodaysJourneyImageNow(entry,options={}){
   const locked=bundle.images?.[entry.id]; if(locked?.image_url) preferred.push(locked);
   let image=await firstWorkingJourneyImage(entry,preferred,exclude);
   if(!image){
-    const direct=[...journeyManifestCandidates(entry)];
+    const direct=[];
     if(!options.forceSearch&&journeyImageMemory.has(entry.id)) direct.push(journeyImageMemory.get(entry.id));
     if(!options.forceSearch){ const cached=readJourneyImageCache(entry); if(cached?.image_url) direct.push(cached); }
+    direct.push(...journeyManifestCandidates(entry));
     image=await firstWorkingJourneyImage(entry,direct,exclude);
   }
-  if(!image){
+  if(!image&&options.forceSearch){
     const searched=await searchJourneyImageCandidates(entry,exclude);
     image=await firstWorkingJourneyImage(entry,searched,exclude);
   }
@@ -3235,8 +3234,7 @@ async function purgeMarketBaseLocalCache(){
   if('caches' in window){
     const keys=await caches.keys();
     const marketBaseKeys=keys.filter(key=>String(key).startsWith('market-base-'));
-    const keepKeys=new Set(marketBaseKeys.slice(-2));
-    await Promise.all(marketBaseKeys.filter(key=>!keepKeys.has(key)).map(key=>caches.delete(key)));
+    await Promise.all(marketBaseKeys.map(key=>caches.delete(key)));
   }
   if('serviceWorker' in navigator){
     const regs=await navigator.serviceWorker.getRegistrations();
@@ -3247,6 +3245,7 @@ async function purgeMarketBaseLocalCache(){
   }
 }
 async function checkMarketBaseVersion(){
+  if(window.MarketBaseUpdate?.checkOnOpen) return window.MarketBaseUpdate.checkOnOpen();
   if(!/^https?:$/.test(window.location.protocol)) return false;
   try{
     const res=await fetch('version.txt?check='+Date.now(), {cache:'no-store'});
@@ -3287,6 +3286,7 @@ async function checkMarketBaseVersion(){
 }
 
 async function refreshMarketBaseCache(event){
+  if(window.MarketBaseUpdate?.refresh) return window.MarketBaseUpdate.refresh({event,broadcast:true});
   if(event){ event.preventDefault(); event.stopPropagation(); }
   if(window.__marketBaseRefreshRunning) return;
   window.__marketBaseRefreshRunning=true;

@@ -31,8 +31,8 @@
     global.addEventListener('load',()=>{
       const runtimeScript=[...document.scripts].find(node=>/market-base-runtime-r11348\.js(?:[?#]|$)/.test(node.src));
       const rootUrl=new URL(runtimeScript?.dataset.mbRoot||'../../',runtimeScript?.src||document.baseURI);
-      const swUrl=new URL(`sw.js?v=${encodeURIComponent(build.assetVersion)}`,rootUrl);
-      navigator.serviceWorker.register(swUrl.href,{scope:rootUrl.pathname})
+      const swUrl=new URL(`sw.js?v=${encodeURIComponent(build.id)}`,rootUrl);
+      navigator.serviceWorker.register(swUrl.href,{scope:rootUrl.pathname,updateViaCache:'none'})
         .then(reg=>reg.update()).catch(err=>console.warn('MARKET BASE service worker registration skipped',err));
     },{once:true});
   }

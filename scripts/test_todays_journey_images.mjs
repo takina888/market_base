@@ -13,13 +13,17 @@ const FILES = {
   sw: 'sw.js',
   build: 'assets/js/market-base-build.js',
   app: 'assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js',
+  updateController: 'assets/js/market-base-update-controller-v322.js',
+  scrollController: 'assets/js/market-base-scroll-controls-r11328.js',
+  workBasicsSw: 'work-basics/sw.js',
+  registry: 'data/images/photo-registry-embedded.js',
   builder: 'scripts/build_todays_journey_image_manifest.mjs',
   self: 'scripts/test_todays_journey_images.mjs'
 };
-const BUILD_ID = 'MARKET_BASE_R113_79_RETAIL_LOGO_DIRECTORY_20260727';
-const VERSION = '20260727-r11379';
-const JOURNEY_VERSION = '20260726-r11370';
-const COMMON_THUMB_WIDTHS = new Set([20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920, 3840]);
+const BUILD_ID = 'MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730';
+const VERSION = '20260730-v322-global-update-journey-stability';
+const JOURNEY_VERSION = '20260730-v322';
+const COMMON_THUMB_WIDTHS = new Set([20, 40, 60, 120, 250, 330, 500, 960, 1200, 1280, 1920, 3840]);
 const failures = [];
 let checks = 0;
 
@@ -52,6 +56,11 @@ function validHttps(value) {
 const embedded = evaluate(FILES.data).MARKET_BASE_TODAYS_JOURNEY?.data?.entries;
 check(Array.isArray(embedded), 'embedded Today’s Journey data is not an array');
 check(embedded?.length === 365, `embedded entry count must be 365; got ${embedded?.length ?? 0}`);
+check(new Set((embedded || []).map(entry => entry.id)).size === 365, 'Today’s Journey IDs must be unique');
+check(new Set((embedded || []).map(entry => entry.display_date)).size === 365,
+  'Today’s Journey display dates must be unique');
+check((embedded || []).every(entry => entry.text.startsWith(`${entry.title}。`)),
+  'every Today’s Journey title must match the opening sentence');
 
 const manifest = evaluate(FILES.manifest).MARKET_BASE_TODAYS_JOURNEY_IMAGE_MANIFEST;
 const rows = manifest?.entries || {};
@@ -65,6 +74,16 @@ check(rowIds.length === 365, `manifest entries must contain 365 keys; got ${rowI
 const embeddedIds = new Set((embedded || []).map(entry => entry.id));
 check(rowIds.every(id => embeddedIds.has(id)), 'manifest contains an ID absent from embedded data');
 check((embedded || []).every(entry => rows[entry.id]), 'one or more embedded IDs are absent from manifest');
+check((embedded || []).every(entry => {
+  const row = rows[entry.id];
+  return row?.display_date === entry.display_date &&
+    row?.country === entry.country &&
+    row?.title === entry.title &&
+    row?.candidates?.every(candidate =>
+      candidate.caption === entry.title &&
+      candidate.alt === `${entry.country}・${entry.title}`
+    );
+}), 'manifest article metadata does not match the embedded Journey master');
 
 const nonRomanizedQueries = [];
 const invalidCandidates = [];
@@ -77,11 +96,18 @@ for (const [id, row] of Object.entries(rows)) {
   }
   for (const [index, candidate] of row.candidates.entries()) {
     const prefix = `${id}[${index}]`;
+    const imageUrl = String(candidate?.image_url || '');
+    const isUploadThumb = imageUrl.startsWith('https://upload.wikimedia.org/');
+    const isCommonsRedirect = imageUrl.startsWith('https://commons.wikimedia.org/wiki/Special:Redirect/file/');
     if (!validHttps(candidate?.image_url)
-      || !String(candidate.image_url).startsWith('https://upload.wikimedia.org/')) {
+      || (!isUploadThumb && !isCommonsRedirect)) {
       invalidCandidates.push(`${prefix}: invalid Wikimedia image_url`);
     }
-    const thumbWidth = Number(String(candidate?.image_url || '').match(/\/(?:[^/]*-)?(\d+)px-[^/]+$/)?.[1] || 0);
+    const thumbWidth = Number(
+      imageUrl.match(/\/(?:[^/]*-)?(\d+)px-[^/]+$/)?.[1] ||
+      new URL(imageUrl).searchParams.get('width') ||
+      0
+    );
     if (!COMMON_THUMB_WIDTHS.has(thumbWidth)) {
       invalidCandidates.push(`${prefix}: unsupported Wikimedia thumbnail width ${thumbWidth || 'missing'}`);
     }
@@ -123,18 +149,26 @@ const index = read(FILES.index);
 const sw = read(FILES.sw);
 const build = read(FILES.build);
 const app = read(FILES.app);
+const updateController = read(FILES.updateController);
+const scrollController = read(FILES.scrollController);
+const workBasicsSw = read(FILES.workBasicsSw);
+const registry = evaluate(FILES.registry).MARKET_BASE_PHOTO_REGISTRY_EMBEDDED;
 const manifestTag = `data/images/todays-journey-image-manifest-r11370.js?v=${JOURNEY_VERSION}`;
 const appTag = `${FILES.app}?v=${JOURNEY_VERSION}`;
 check(index.includes(`content="${BUILD_ID}"`) || index.includes(`content='${BUILD_ID}'`),
-  'index.html build meta is not R113.79');
-check(index.includes(manifestTag), 'index.html does not load the R113.70 image manifest');
-check(index.includes(appTag), 'index.html does not load the R113.70 app asset');
+  'index.html build meta is not V322');
+check(index.includes(manifestTag), 'index.html does not load the V322 image manifest');
+check(index.includes(appTag), 'index.html does not load the V322 app asset');
 check(index.indexOf(manifestTag) < index.indexOf(appTag), 'image manifest must load before the app asset');
-check(sw.includes(`const BUILD_ID='${BUILD_ID}'`), 'sw.js BUILD_ID is not R113.79');
+check(sw.includes(`const BUILD_ID='${BUILD_ID}'`), 'sw.js BUILD_ID is not V322');
 check(sw.includes(`todays-journey-image-manifest-r11370.js?v=${JOURNEY_VERSION}`),
-  'sw.js does not precache the R113.70 image manifest');
-check(sw.includes(`${FILES.app}?v=${JOURNEY_VERSION}`), 'sw.js does not precache the R113.70 app asset');
-check(sw.includes(`./manifest.json?v=${VERSION}`), 'sw.js does not precache the R113.79 web manifest');
+  'sw.js does not precache the V322 image manifest');
+check(sw.includes(`${FILES.app}?v=${JOURNEY_VERSION}`), 'sw.js does not precache the V322 app asset');
+check(sw.includes(`./manifest.json?v=${JOURNEY_VERSION}`), 'sw.js does not precache the V322 web manifest');
+check(sw.includes(`./assets/js/market-base-update-controller-v322.js?v=${JOURNEY_VERSION}`),
+  'sw.js does not precache the common V322 update controller');
+check(sw.includes(`./assets/js/market-base-scroll-controls-r11328.js?v=${JOURNEY_VERSION}`),
+  'sw.js does not precache the V322 controller loader');
 const coreLiteral = sw.match(/const CORE=(\[[\s\S]*?\]);/)?.[1];
 let coreMissing = ['unable to parse CORE'];
 if (coreLiteral) {
@@ -145,15 +179,90 @@ if (coreLiteral) {
     .filter(item => !fs.existsSync(path.join(ROOT, item)));
 }
 check(coreMissing.length === 0, `service worker CORE files missing: ${coreMissing.join(', ')}`);
-check(build.includes(`id: '${BUILD_ID}'`), 'market-base-build.js ID is not R113.79');
-check(build.includes("release: 'R113.79'"), 'market-base-build.js release is not R113.79');
-check(build.includes(`assetVersion: '${VERSION}'`), 'market-base-build.js assetVersion is not R113.79');
+check(build.includes(`id: '${BUILD_ID}'`), 'market-base-build.js ID is not V322');
+check(build.includes("release: 'V.322'"), 'market-base-build.js release is not V.322');
+check(build.includes(`assetVersion: '${VERSION}'`), 'market-base-build.js assetVersion is not V322');
 check(!app.includes('写真を再取得中') && !app.includes('写真を再取得しています'),
   'old automatic retry placeholder text remains in the app');
 check(!app.includes('ja.wikipedia.org/w/api.php'),
   'the unrelated Japanese Wikipedia image-candidate route remains in the app');
 check(app.includes('journeyImageQueryVariants(entry).slice(0,2)'),
   'runtime fallback search must be capped at two short-query attempts');
+check(app.includes('todaysJourneySessionBaseDate'),
+  'Today’s Journey must pin its base date for the page session');
+check(!app.includes('Promise.any('),
+  'Today’s Journey image selection must not depend on response-race order');
+check(app.includes('const checks=await Promise.all(') &&
+  app.includes('const selected=checks.find(item=>item.working);'),
+  'Today’s Journey must choose the first working manifest candidate in configured order');
+check(app.includes('if(!image&&options.forceSearch){'),
+  'runtime image search must only run after an explicit manual retry');
+
+const embeddedById = new Map((embedded || []).map(entry => [entry.id, entry]));
+const linkedPhotos = (registry?.photos || []).filter(photo => photo.article_id);
+check(linkedPhotos.length === 91, `photo registry must contain 91 linked Journey rows; got ${linkedPhotos.length}`);
+check(linkedPhotos.every(photo => {
+  const entry = embeddedById.get(photo.article_id);
+  return entry &&
+    photo.article_title_ja === entry.title &&
+    photo.display_date === entry.display_date &&
+    photo.country_name_ja === entry.country;
+}), 'photo registry Journey metadata does not match the embedded master');
+
+check(updateController.includes(`const BUILD_ID = '${BUILD_ID}'`),
+  'common update controller BUILD_ID is not V322');
+check(updateController.includes('meta[name="market-base-site-build"]') &&
+  !updateController.includes('meta[name="market-base-build"]'),
+  'common update controller must not compare legacy page-specific build metadata');
+check(updateController.includes("cache: 'no-store'") &&
+  updateController.includes("'Cache-Control': 'no-cache'"),
+  'automatic version checks must bypass HTTP caches');
+check(updateController.includes("startsWith('market-base-')"),
+  'manual update must clear all MARKET BASE caches');
+check(updateController.includes('BroadcastChannel') && updateController.includes('MARKET_BASE_RELOAD'),
+  'manual update must notify other open MARKET BASE tabs');
+check(scrollController.includes(`market-base-update-controller-v322.js?v=${JOURNEY_VERSION}`),
+  'scroll controller must load the V322 common update controller');
+check(workBasicsSw.includes('registration.unregister()') &&
+  /startsWith\(["']market-base-work-basics-["']\)/.test(workBasicsSw),
+  'legacy Work Basics service worker must clean up its cache and unregister');
+check(!sw.includes('caches.match('),
+  'root service worker must not use an unscoped match across old caches');
+check(sw.includes("filter(key=>key!==CACHE_NAME).map(key=>caches.delete(key))"),
+  'root service worker must delete every prior MARKET BASE cache on activate');
+
+function allFiles(directory) {
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap(entry => {
+    const absolute = path.join(directory, entry.name);
+    return entry.isDirectory() ? allFiles(absolute) : [absolute];
+  });
+}
+const htmlFiles = allFiles(ROOT).filter(file => file.endsWith('.html'));
+const uncoveredHtml = [];
+const staleScrollTags = [];
+const staleSiteBuildMeta = [];
+for (const file of htmlFiles) {
+  const html = fs.readFileSync(file, 'utf8');
+  const relative = path.relative(ROOT, file);
+  const direct = html.includes(`market-base-update-controller-v322.js?v=${JOURNEY_VERSION}`);
+  const viaLoader = html.includes(`market-base-scroll-controls-r11328.js?v=${JOURNEY_VERSION}`);
+  if (!direct && !viaLoader) uncoveredHtml.push(relative);
+  if (/market-base-scroll-controls-r11328\.js\?v=(?!20260730-v322)/.test(html)) {
+    staleScrollTags.push(relative);
+  }
+  if (!html.includes(
+    `<meta name="market-base-site-build" content="${BUILD_ID}">`
+  )) {
+    staleSiteBuildMeta.push(relative);
+  }
+}
+check(htmlFiles.length === 35, `expected 35 HTML pages; got ${htmlFiles.length}`);
+check(uncoveredHtml.length === 0,
+  `HTML pages missing common update coverage: ${uncoveredHtml.join(', ')}`);
+check(staleScrollTags.length === 0,
+  `HTML pages retaining stale update-loader versions: ${staleScrollTags.join(', ')}`);
+check(staleSiteBuildMeta.length === 0,
+  `HTML pages missing the V322 site-build marker: ${staleSiteBuildMeta.join(', ')}`);
 
 for (const relativePath of [
   FILES.data,
@@ -161,6 +270,10 @@ for (const relativePath of [
   FILES.sw,
   FILES.build,
   FILES.app,
+  FILES.updateController,
+  FILES.scrollController,
+  FILES.workBasicsSw,
+  FILES.registry,
   FILES.builder,
   FILES.self
 ]) {
@@ -178,4 +291,4 @@ if (failures.length) {
 
 console.log(`PASS — ${checks} checks`);
 console.log(`365/365 entries resolved; ${manifest.candidate_count} candidates validated.`);
-console.log('Preferred files, external URLs/credits, R113.79 wiring, retry UI, and JS syntax are valid.');
+console.log('V322 update coverage, Journey stability, registry synchronization, external credits, and JS syntax are valid.');

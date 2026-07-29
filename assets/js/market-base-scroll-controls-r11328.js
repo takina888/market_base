@@ -6,6 +6,7 @@
   var SITE_ROOT;
   try{SITE_ROOT=SCRIPT_URL?new URL('../../',SCRIPT_URL):new URL('./',location.href);}catch(_e){SITE_ROOT=new URL('./',location.href);}
   var HOME_URL=new URL('index.html',SITE_ROOT);
+  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v322.js?v=20260730-v322',SITE_ROOT);
   var LEARN_PREFIXES=[
     'british-jokes/','classic-move/','haccp-quiz/','hs-learning/','international-logistics/',
     'machine-container-packing/','material-check/','rakuda-no-me/','sutra-no-yoin/',
@@ -25,6 +26,15 @@
 
   function removeLegacyControls(){
     document.querySelectorAll(LEGACY_SELECTOR).forEach(function(node){node.remove();});
+  }
+
+  function loadUpdateController(){
+    if(window.MarketBaseUpdate||document.querySelector('script[data-mb-update-controller]'))return;
+    var script=document.createElement('script');
+    script.src=UPDATE_CONTROLLER_URL.href;
+    script.async=false;
+    script.dataset.mbUpdateController='';
+    document.head.appendChild(script);
   }
 
   function hasBottomNav(){
@@ -75,7 +85,7 @@
     if(LEARN_FILES[file]||LEARN_PREFIXES.some(function(prefix){return rel.indexOf(prefix)===0;}))return homeTarget('learn');
     if(COUNTRY_FILES[file])return homeTarget('countries');
     if(TOOL_FILES[file]||rel.indexOf('world-radio/')===0)return homeTarget('');
-    if(/(?:-v273-|food-machinery-import|rice-additive-products)/i.test(file))return homeTarget('global-search');
+    if(/(?:-v273-|food-machinery-import|rice-additive-products)/i.test(file))return homeTarget('');
     return homeTarget('');
   }
 
@@ -181,6 +191,7 @@
 
   window.MarketBaseSafeBack=Object.freeze({target:safeBackTarget,go:goSafeBack});
   document.addEventListener('click',interceptPageBack,true);
+  loadUpdateController();
 
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mountScrollControls,{once:true});
   else mountScrollControls();
