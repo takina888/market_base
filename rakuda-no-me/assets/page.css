@@ -845,3 +845,8 @@
     display:none;
   }
 }
+
+
+/* V.311: decorative hero illustration removed */
+.rakuda-eye-page .rakuda-hero{grid-template-columns:minmax(0,1fr)!important}
+.rakuda-eye-page .rakuda-hero__mark{display:none!important}
