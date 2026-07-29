@@ -1,12 +1,23 @@
 'use strict';
-const BUILD_ID='MARKET_BASE_R114_11_NEWS_MOVED_TO_HOME_BOTTOM_20260728';
-const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260728-r11411';
+const BUILD_ID='MARKET_BASE_V303_MAP_READING_QA_HANDOFF_20260728';
+const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260728-v303-final';
 const CACHE_NAME=`market-base-${VERSION}`;
 const CORE=[
+  "./assets/css/market-base-header-audit-v302.css?v=20260728-v302",
+  "./assets/css/home-search-mode-v302.css?v=20260728-v302",
+  "./assets/js/home-search-mode-v302.js?v=20260728-v302",
+  "./assets/css/map-search-v301.css?v=20260728-v303",
+  "./assets/js/map-search-v301.js?v=20260728-v303",
+  "./assets/svg/world-countries-v301.svg?v=20260728-v303",
+  "./assets/images/market-base-world-wind-v301.webp?v=20260728-v303",
+  "./assets/images/market-base-world-wind-v301.jpg?v=20260728-v303",
   "./",
-  "./index.html?v=20260728-r11411",
-  "./version.txt?v=20260728-r11411",
-  "./offline.html?v=20260727-r11372",
+  "./index.html?v=20260728-v303-final",
+  "./version.txt?v=20260728-v303-final",
+  "./offline.html?v=20260728-v303-final",
+  "./news.html?v=20260728-v303-final",
+  "./market-base-v273-country-profile-r28.html?v=20260728-v303-final",
+  "./material-check/material-check-standalone.html?v=20260728-v303-final",
   "./international-logistics/guide.html?v=20260727-r11372",
   "./international-logistics/assets/export-learning-structure-r11351.css?v=20260726-r11369",
   "./international-logistics/assets/export-learning-content-r11352.css?v=20260726-r11369",
@@ -25,7 +36,8 @@ const CORE=[
   "./material-check/assets/market-base-learning-r1131.css?v=20260726-r11369",
   "./material-check/data/material-check-data.js?v=20260726-r11369",
   "./material-check/assets/app.js?v=20260726-r11369",
-  "./assets/css/market-base-reading-yellow-r11407.css?v=20260728-r11407",
+  "./assets/css/market-base-reading-yellow-r11407.css?v=20260728-r11413-pastel-lemon",
+  "./assets/css/market-base-home-refinements-r11413.css?v=20260728-r11413",
   "./classic-move/index.html?v=20260728-r11406",
   "./classic-move/styles.css?v=20260728-r11406",
   "./classic-move/app.js?v=20260728-r11406",
@@ -38,6 +50,10 @@ const CORE=[
   "./sutra-no-yoin/assets/page.css?v=20260728-r11391",
   "./sutra-no-yoin/assets/page.js?v=20260728-r11391",
   "./sutra-no-yoin/assets/stories.json?v=20260728-r11391",
+  "./british-jokes/index.html?v=20260728-v303",
+  "./british-jokes/assets/page.css?v=20260728-v303",
+  "./british-jokes/assets/page.js?v=20260728-v303",
+  "./british-jokes/data/jokes-data.js?v=20260728-v303",
   "./machine-container-packing/index.html?v=20260727-r11372",
   "./hs-learning/index.html?v=20260727-r11372",
   "./ul-ce-learning/index.html?v=20260727-r11372",
@@ -86,23 +102,22 @@ const CORE=[
   "./assets/css/market-base-learn-shell-r11314.css?v=20260726-r11369",
   "./assets/css/upload-layout-fix-r11318.css?v=20260726-r11369",
   "./assets/css/world-why-learn-r11327.css?v=20260727-r11377",
-  "./assets/css/market-base-scroll-controls-r11328.css?v=20260727-r11376",
-  "./assets/css/world-history-learn-r11330.css?v=20260727-r11383",
+  "./assets/css/market-base-scroll-controls-r11328.css?v=20260728-v302-back",
+  "./assets/css/world-history-learn-r11330.css?v=20260728-r11414",
   "./assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371",
-  "./assets/css/market-base-news-tabs-v1.css?v=20260727-r11386-mobile-font",
   "./assets/css/market-base-weather-panel-v005.css?v=20260726-r11369",
   "./assets/css/market-base-weather-home-compact-r11342.css?v=20260726-r11369",
   "./assets/css/market-base-global-bottom-nav-r11345.css?v=20260726-r11369",
   "./assets/css/market-base-bottom-press-feedback-r11367.css?v=20260726-r11369",
   "./assets/css/market-base-reading-section-r11366.css?v=20260727-r11383",
-  "./assets/js/market-base-build.js?v=20260727-r11387",
+  "./assets/js/market-base-build.js?v=20260728-v303-final",
   "./assets/js/market-base-runtime-r11348.js?v=20260726-r11369",
   "./assets/flags/flag-svg-data.js?v=20260727-r11385-flaglock",
   "./assets/js/news.js?v=20260726-r11369",
   "./data/images/photo-registry-embedded.js?v=20260727-r11390-vanuatu",
     "./data/images/todays-journey-image-manifest-r11370.js?v=20260727-r11390",
   "./assets/js/photo-registry-v1.js?v=20260727-r11373-photo-final",
-  "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260726-r11370",
+  "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260728-r11414",
   "./retail-sales-v273-db-title-r27.html?v=20260727-r11373-photo-final",
   "./assets/css/retail-store-gallery-v2.css?v=20260725-r11348",
   "./assets/js/retail-store-gallery-v2.js?v=20260727-r11373-photo-final",
@@ -120,12 +135,11 @@ const CORE=[
   "./assets/images/retail-logo-directory/logo-sheet-08.jpg?v=20260727-r11379",
   "./assets/js/market-base-pc-unified-shell-r95-v1.js?v=20260726-r11369",
   "./assets/js/reading-highlights-v1.js?v=20260726-r11369",
-  "./data/world-history-today-v028.js?v=20260728-r11410-history-v044",
-  "./assets/js/world-history-learn-r11330.js?v=20260727-r11383",
+  "./data/world-history-today-v028.js?v=20260728-r11413-ui-refine",
+  "./assets/js/world-history-learn-r11330.js?v=20260728-r11414",
   "./assets/js/world-why-learn-r11327.js?v=20260726-r11369",
-  "./assets/js/market-base-scroll-controls-r11328.js?v=20260727-r11376",
+  "./assets/js/market-base-scroll-controls-r11328.js?v=20260728-v302-back",
   "./assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371",
-  "./assets/js/market-base-news-tabs-v1.js?v=20260726-r11369",
   "./assets/js/market-base-weather-panel-v005.js?v=20260726-r11369"
 ];
 async function cacheCoreSafely(){
@@ -144,7 +158,11 @@ self.addEventListener('install',event=>{
 self.addEventListener('activate',event=>{
   event.waitUntil((async()=>{
     const keys=await caches.keys();
-    await Promise.all(keys.filter(key=>key.startsWith('market-base-')&&key!==CACHE_NAME).map(key=>caches.delete(key)));
+    const marketBaseKeys=keys.filter(key=>key.startsWith('market-base-'));
+    const previousKeys=marketBaseKeys.filter(key=>key!==CACHE_NAME);
+    const keepPrevious=previousKeys.slice(-2);
+    const keepKeys=new Set([CACHE_NAME].concat(keepPrevious));
+    await Promise.all(marketBaseKeys.filter(key=>!keepKeys.has(key)).map(key=>caches.delete(key)));
     await self.clients.claim();
   })());
 });
@@ -158,6 +176,7 @@ self.addEventListener('fetch',event=>{
   if(url.origin!==self.location.origin) return;
   const isDocument=event.request.mode==='navigate'||event.request.destination==='document';
   const isFreshData=url.pathname.endsWith('.json')||url.pathname.endsWith('version.txt');
+  const isHistoryAsset=url.pathname.endsWith('/data/world-history-today-v028.js')||url.pathname.endsWith('/assets/js/world-history-learn-r11330.js');
   const isWorldRoute=url.pathname.endsWith('/world-route.html')||url.pathname.includes('/world-route/')||url.pathname.includes('/assets/images/world-route/');
   if(isWorldRoute){
     event.respondWith((async()=>{
@@ -171,7 +190,7 @@ self.addEventListener('fetch',event=>{
     })());
     return;
   }
-  if(isDocument||isFreshData){
+  if(isDocument||isFreshData||isHistoryAsset){
     event.respondWith((async()=>{
       try{
         const response=await fetch(event.request,{cache:'no-store'});

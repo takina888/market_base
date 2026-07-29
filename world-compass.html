@@ -8,8 +8,10 @@
 <title>WORLD COMPASS | MARKET BASE</title>
 
 
-<link href="assets/css/world-compass-ui-base-r11311.css?v=20260727-r11385-status" rel="stylesheet"/><link href="assets/css/world-compass-r11311.css?v=20260728-r11408-geolocation" rel="stylesheet"/><link href="assets/css/world-compass-controls-r11357.css?v=20260727-r11385-status" rel="stylesheet"/><link href="icons/favicon-32.png?v=20260725-r11348" rel="icon" sizes="32x32" type="image/png"/><link href="icons/apple-touch-icon-180.png?v=20260725-r11348" rel="apple-touch-icon" sizes="180x180"/><link href="assets/css/market-base-primary-components-r11326.css?v=20260727-r11372" rel="stylesheet"/><link href="assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371" rel="stylesheet"/><link href="assets/css/market-base-standard-shell-r11372.css?v=20260727-r11385-halfpc" rel="stylesheet"/><meta content="MARKET_BASE_R114_08_COMPASS_GEOLOCATION_FIX_20260728" name="market-base-nav-build"/><meta name="market-base-build" content="MARKET_BASE_R114_08_COMPASS_GEOLOCATION_FIX_20260728"><link rel="stylesheet" href="assets/css/market-base-scroll-controls-r11328.css?v=20260727-r11376">
+<link href="assets/css/world-compass-ui-base-r11311.css?v=20260727-r11385-status" rel="stylesheet"/><link href="assets/css/world-compass-r11311.css?v=20260728-r11408-geolocation" rel="stylesheet"/><link href="assets/css/world-compass-controls-r11357.css?v=20260727-r11385-status" rel="stylesheet"/><link href="icons/favicon-32.png?v=20260725-r11348" rel="icon" sizes="32x32" type="image/png"/><link href="icons/apple-touch-icon-180.png?v=20260725-r11348" rel="apple-touch-icon" sizes="180x180"/><link href="assets/css/market-base-primary-components-r11326.css?v=20260727-r11372" rel="stylesheet"/><link href="assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371" rel="stylesheet"/><link href="assets/css/market-base-standard-shell-r11372.css?v=20260727-r11385-halfpc" rel="stylesheet"/><meta content="MARKET_BASE_R114_08_COMPASS_GEOLOCATION_FIX_20260728" name="market-base-nav-build"/><meta name="market-base-build" content="MARKET_BASE_R114_08_COMPASS_GEOLOCATION_FIX_20260728"><link rel="stylesheet" href="assets/css/market-base-scroll-controls-r11328.css?v=20260728-v302-back">
 <link rel="stylesheet" href="assets/css/market-base-bottom-nav-unified-r11409.css?v=20260728-r11409">
+<link rel="stylesheet" href="assets/css/market-base-header-actions-v301.css?v=20260728-v301">
+<link rel="stylesheet" href="assets/css/market-base-header-audit-v302.css?v=20260728-v302">
 </head>
 <body class="mb-ui-page mb-ui-has-mobile-nav mb-unified-specialist-page mb-standard-page wc-integrated-page world-compass-standard-page" data-mb-active-nav="home" data-mb-layout="wide">
 <div class="mb-primary-header-host world-compass-standard-header">
@@ -92,6 +94,10 @@
 <span id="locationButtonLabel">現在地を取得</span>
 </button>
 </div>
+<div class="wc-sensor-status-grid">
+<p class="wc-status wc-status--location is-demo" id="locationStatus" role="status" aria-live="polite"><strong>現在地：台北（デモ地点）</strong><span>「現在地を取得」を押すと、端末の位置へ更新します。</span></p>
+<p class="wc-status wc-status--orientation" id="sensorStatus" role="status" aria-live="polite"><strong>方位磁針：未開始</strong><span>端末の向きを使う場合は「方位磁針を開始」を押してください。</span></p>
+</div>
 <section aria-labelledby="routeMapTitle" class="wc-map-card" id="routeMapCard">
 <div class="wc-map-head">
 <div>
@@ -132,10 +138,6 @@
 </span>
 <svg aria-hidden="true" viewbox="0 0 24 24"><path d="m9 18 6-6-6-6"></path></svg>
 </button>
-<div class="wc-sensor-status-grid">
-<p class="wc-status wc-status--location is-demo" id="locationStatus" role="status" aria-live="polite"><strong>現在地：台北（デモ地点）</strong><span>「現在地を取得」を押すと、端末の位置へ更新します。</span></p>
-<p class="wc-status wc-status--orientation" id="sensorStatus" role="status" aria-live="polite"><strong>方位磁針：未開始</strong><span>端末の向きを使う場合は「方位磁針を開始」を押してください。</span></p>
-</div>
 <div hidden="" aria-hidden="true">
 <output id="headingPreviewValue">0°</output>
 <input id="headingPreview" max="359" min="0" type="range" value="0"/>
@@ -251,6 +253,6 @@
 
 
 
-<script src="assets/flags/flag-svg-data.js?v=20260727-r11385-flaglock"></script><script src="assets/js/world-compass-country-capitals-r11311.js?v=20260727-r11385-flaglock"></script><script src="assets/js/world-compass-r11311.js?v=20260728-r11408-geolocation"></script><script src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371" data-mb-root="" data-mb-active="countries"></script><script src="assets/js/market-base-scroll-controls-r11328.js?v=20260727-r11376"></script>
+<script src="assets/flags/flag-svg-data.js?v=20260727-r11385-flaglock"></script><script src="assets/js/world-compass-country-capitals-r11311.js?v=20260727-r11385-flaglock"></script><script src="assets/js/world-compass-r11311.js?v=20260728-r11408-geolocation"></script><script src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371" data-mb-root="" data-mb-active="countries"></script><script src="assets/js/market-base-scroll-controls-r11328.js?v=20260728-v302-back"></script>
 </body>
 </html>
