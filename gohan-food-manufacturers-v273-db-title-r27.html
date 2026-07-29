@@ -83,6 +83,8 @@ main{max-width:900px!important;padding:20px 22px 70px!important}
 <meta content="default" name="apple-mobile-web-app-status-bar-style"/>
 <link href="assets/css/market-base-header-geometry-lock-r1138.css?v=20260725-r11348" rel="stylesheet"/>
 <link href="assets/css/market-base-scroll-controls-r11328.css?v=20260728-v302-back" rel="stylesheet"/><link href="assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371" rel="stylesheet"/><meta content="MARKET_BASE_R113_37_PC_NAV_ACTIVE_STATE_20260723" name="market-base-nav-build"/><link href="assets/css/market-base-large-db-performance-r11345.css?v=20260725-r11348" rel="stylesheet"/><meta name="market-base-build" content="MARKET_BASE_R113_48_SPECIALIST_CSS_OWNERSHIP_20260725"><link href="assets/css/market-base-daily-company-target-r11349.css?v=20260725-r11349" rel="stylesheet"/><link rel="stylesheet" href="assets/css/market-base-header-audit-v302.css?v=20260728-v302">
+
+<link rel="stylesheet" href="assets/css/db-header-unified-v310.css?v=20260729-v310"/>
 </head><body class="mb-unified-specialist-page mb-large-db-performance"><main>
 <header class="mbu-header"><div class="mbu-header-inner"><div class="mbu-brand">MARKET BASE</div><div class="mbu-toolbar"><div class="mbu-actions"><a aria-label="本体に戻る" class="mbu-button" href="index.html?from=specialist">戻る</a><button class="mbu-button" data-mbu-refresh="" type="button">更新</button></div><div class="mbu-meta">食品製造<br/>メーカー</div></div></div></header><h1>世界ご飯関連食品メーカーDB</h1>
 <div class="notice">世界のご飯関連食品メーカーを、国・地域、製品、工場・施設、ブランドなどから検索できます。</div>
@@ -298,7 +300,7 @@ function rebuildCountries(){
  country.replaceChildren(new Option(label,''),...countriesForRegion(region.value).map(v=>new Option(v,v)));
  if([...country.options].some(o=>o.value===selected))country.value=selected;
 }
-function apply(){const term=(q.value||'').toLowerCase();let n=0;cards.forEach(c=>{const ok=(!term||c.dataset.search.includes(term))&&(!region.value||regionGroup(c.dataset.region)===region.value)&&(!country.value||countryGroup(c.dataset.country)===country.value);c.classList.toggle('hidden',!ok);if(ok)n++});count.textContent=n}
+function apply(){const term=(q.value||'').trim().toLowerCase();let n=0;cards.forEach(c=>{const hay=((c.dataset.search||c.textContent||'')+'').toLowerCase();const ok=(!term||hay.includes(term))&&(!region.value||regionGroup(c.dataset.region)===region.value)&&(!country.value||countryGroup(c.dataset.country)===country.value);c.classList.toggle('hidden',!ok);if(ok)n++});count.textContent=n}
 function renderFeaturedCompanies(){
  const host=document.getElementById('featuredCompaniesGrid');if(!host)return;
  const byName=new Map(cards.map(company=>[company.querySelector(':scope>summary h2')?.textContent.trim(),company]));
