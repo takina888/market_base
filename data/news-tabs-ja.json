@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-07-29T14:35:06Z",
+  "generated_at": "2026-07-29T19:49:05Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -24,6 +24,16 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02TkhkNDlQTnJfOHVOcm9XVlJ1X3Z6c003MkVBNUl1dTRSelZ6Z0dNWjcwOGVjdDNNNlZUU0NSRmZxZGdKSGZLZUhzNFZfdXdxRUFUTTRNS19xcGpmN1lFVDlPRGFKV05BaVpuQg?oc=5",
           "source": "日本経済新聞",
           "published_at": "2026-07-26T20:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-07-29T16:55:15Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZHlyNUtleHVtd3Q3ei1XSHJWcDFOc2FHNkg2bFhwTDQtYTAzYnlxMk9QcWhFTlhiWEVfcUxhd18xUW05dHp5NGVYbnloMWpFYmV6U3NJQWxjdWlOUXJ1TzJTWlp5eVAyYmlwLUg2Ym8zYkY3eEFaWkxvaWVxT2M?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-07-29T02:24:28Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6bb95aa6f7dd8dac",
-          "title": "高額な支出に批判が集まる海外視察巡り蔵内県議会議長、全容解明求める地元市議会の意見書「厳粛に受け止めている」",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XeE5TRnp3dlNzOV9rZXJDNW1WakZpTW5rZkdJcWxmUWQ4cVNiZDkzN05ES08yenZLWFdURkFVV2pCOFRkeHFjZzBDYXNPdFhPYmgyZWlmSXNEWmVzSWJrdkdxcGVsTmxlb2hSa1FzYlBjeVZHSUVBcy1lRURqUnM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-07-29T01:43:27Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,6 +179,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "b2ea39a0e775737c",
+          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "df5032e43e049da4",
           "title": "もやし工場で「わさび」生産 食品工場内に栽培モジュール導入し高付加価値化へ新モデル始動",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY19GNjlvZ0FzVmlqN281VUlfWXRNdjNyTWtFM0NQTGM4bU44czJJWDFzSWxVeWFLSVJ2Y3M3UjJvNWhMQ2R6bXR1bTM2X1Vqak5SUDV2YTV5VmJCZUU2d2UxcHNqUXhVczhkWFJpd3E1UWlMSVNZaWNfMEJsWGxSWDFueFIwdw?oc=5",
@@ -227,16 +237,6 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "factory-kanemi-fuso",
-          "title": "カネ美食品、愛知県扶桑町に約48億円の調理済食品工場を新設",
-          "url": "https://www.automation-news.jp/2026/07/106102/",
-          "source": "オートメーション新聞",
-          "published_at": "",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "direct"
         }
       ]
     },
@@ -258,7 +258,7 @@
           "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
           "source": "PR TIMES",
-          "published_at": "2026-07-21T05:30:02Z",
+          "published_at": "2026-07-21T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -269,16 +269,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55eU5mMWdzdU40cTRHQlNQbDQwTk5rM1RvbUxLSjVYUnF5NnZIV2ZtVE1ZRGlTMnNTc2NlTTdGY3JLdXZjLVVlbkdZYlVyREhaWFFLag?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-07-21T05:15:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9485756834da4116",
-          "title": "コスモス薬品／京都府に「ドラッグコスモス」計2店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zSjI2Z0RtTGZIYzdyMWZhQ3VzMEJrbnJ2Q1NsMGladHFlTHpGaVZoX2RnY2xlWXo0c3YyVlBkTTQwa1luSExQcHR1QXlZVVdWY09PSUZn?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-21T01:33:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -309,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xTER0ZGxwc2JxdVVtOW1nbkFsUVBlN05QbDJQWHNKRmcyZ0VoTmNBRkttS3BXSzFET3JJRDZlblYycnlHeUVQZm4wcDdfbnlNT0kzWEFRNGl6Wm5LWmthNG5Da0FMQzRfeFE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-07-17T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "973325067d0151bd",
+          "title": "わかやま市民生協／和歌山市に「コープ宇須店（店舗面積2795m2）」27年2月26日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IUW1lZmFzX3ZYZDRrVVhXeTdOcEZEbHZVTm43V1lDcWQwc0RnY01jRmdzLWgwcEZhRmt6NHUyZktKMWtvQ2JRMFZSV094MnhaX0Y1cXh3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-16T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-07-29T14:35:06Z",
-  "last_success_at": "2026-07-29T14:35:06Z",
+  "last_attempt_at": "2026-07-29T19:49:05Z",
+  "last_success_at": "2026-07-29T19:49:05Z",
   "consecutive_failure_count": 0
 }
