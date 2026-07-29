@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-07-29T03:46:05Z",
+  "generated_at": "2026-07-29T09:16:40Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -33,7 +33,37 @@
           "title": "NTTドコモ Presents Lemino BOXING ダブル世界タイトルマッチ[世界][世界][OPBF][日本]",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1c0ExdEU4UnpDQUZxQVJpWkVSNEtRM0lJRlNuS0pzaUFDVFI1YXprSlhoWTFhczh1VVRtbk1qSVFrUVFka0FxOXFyZ3lGbjVqVF9GcUZsYzJuMV9oQlc5V2tkSQ?oc=5",
           "source": "ボクシングモバイル",
-          "published_at": "2026-07-29T01:41:36Z",
+          "published_at": "2026-07-29T07:45:01Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-07-29T06:00:50Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1f7433518c143423",
+          "title": "熊本地震に海外から“お見舞い” イタリア首相「政府代表して連帯の意」 台湾総統「いつでも協力できるよう準備」",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZHlyNUtleHVtd3Q3ei1XSHJWcDFOc2FHNkg2bFhwTDQtYTAzYnlxMk9QcWhFTlhiWEVfcUxhd18xUW05dHp5NGVYbnloMWpFYmV6U3NJQWxjdWlOUXJ1TzJTWlp5eVAyYmlwLUg2Ym8zYkY3eEFaWkxvaWVxT2M?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-07-29T02:24:28Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6bb95aa6f7dd8dac",
+          "title": "高額な支出に批判が集まる海外視察巡り蔵内県議会議長、全容解明求める地元市議会の意見書「厳粛に受け止めている」",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XeE5TRnp3dlNzOV9rZXJDNW1WakZpTW5rZkdJcWxmUWQ4cVNiZDkzN05ES08yenZLWFdURkFVV2pCOFRkeHFjZzBDYXNPdFhPYmgyZWlmSXNEWmVzSWJrdkdxcGVsTmxlb2hSa1FzYlBjeVZHSUVBcy1lRURqUnM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-07-29T01:43:27Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -49,41 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e900f13f1de673ad",
-          "title": "ICCブックナイトで広がった世界 ICCブックナイト参加者レポート",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55STJQS2lyQXJOX3YtalJkSXlPNWVrNjFubUhERmZ3bDZUR0dCd1FBR2NYYzJzYlZPTU8ySy1FS185Yk1nLW9ydUdqSjRJVC05NU0xZUVxbjJ4TGo4NF84SHNB?oc=5",
-          "source": "waseda.jp",
-          "published_at": "2026-07-28T16:13:28Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "84bc3a6731421e1e",
-          "title": "熊本震度7、海外メディアも速報 訪日客や半導体製造で関心高く（毎日新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSaHAzcDRoajdxQkd3Mkh6a2JyVjVPUWJLeEtXakhLdmFqbjByY3lfZEg4TVlFQk02T244WFpEU0Nqa0JhdGpLdkhLa3N2R2xMODNoYkMyNHU1SUdBcVJsMFUyZkhaU1otQ0ZRV0t0TUdlLTM5eTJRbWRRQkk5dnM?oc=5",
+          "id": "abbdfedc333e0b67",
+          "title": "熊本地震、海外メディアが一斉に速報…中国のＳＮＳでは「日本地震」が検索ワード１位に",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5RZENBa2h2UTYyVnZFQVdWUFBtNDVNUWc1NTFQWElvOElEbFh1WS12R2NlUzBfbURQUWlZZWU4bXBLeXdKa2FUZTNjVTBDVHBM?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-07-28T12:22:28Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b7ebac76f30c3d91",
-          "title": "熊本地震、海外メディアが一斉に速報…中国のＳＮＳでは「日本地震」が検索ワード１位に（読売新聞オンライン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfZi0tUXR6OEo2S1VuVnlMVklMczVqQjhaam5hczZWZnpueVI1WWdudU9nZ29KUk9xOXExc1VYSVE4LWhlaU9FZUVIWmVjT0NHaDBHaVZ4a0w5clgySGV5c2RMcS1CYVBRUVAtNFkwMkZDemFBSTh5SU1JVGo4Tmc?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-07-28T11:18:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8a167abd4654a387",
-          "title": "『バキ外伝 烈海王は異世界転生しても一向にかまわんッッ』舞台化決定 来年3月上演（オリコン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85Vkp6cmJuakVKS25WLURNY0dsd2s4R1ZtbkpkUTNGbnhsWGxMZXBtaERZTHR5Y2hlRUl3XzlycWwyRjZ3d0ZJeHc5RDlicjNPVXhYdGZMWTUwVG1rMFhQaTlvNGVCemxUMUZWcEN5bTdvdkY0MkxoZEU5LWI1Mjg?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-07-28T09:30:00Z",
+          "published_at": "2026-07-28T22:12:42Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -244,16 +244,6 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "9cc38d6f413a845e",
-          "title": "ロフト／「イオンモールナゴヤドーム前」に新店舗10月オープン、名古屋市内4店舗目",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85dFpXQmtzQ1RPV3VQMGdMZ1lrTU82TGotNXA2aC1UNHI2S1plSTdIRFZ6cDNxWnZ6dlVrYm1vZWVyR2hGQlZqUUZHZjZVNTZ2WUVEVQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-28T04:23:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "23d6df9de557097b",
           "title": "ムシンサ／韓国発「マーティンキム」ルクア大阪に新店舗オープン、関西に初出店",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94X1o4UklpdE1VYlpLcTFxaE8tRVlJUHFGT2QwQWRmRjQ3R2xCMzlxSzBsTjUzcFdIczgwUkRIc3hyNTUzeWZjMTdkTk5vNG5Kbzh3cw?oc=5",
@@ -309,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PU2U5RjZ2ZU9QUktXYktNb1Y2dWRFc2prQW0wbEx4eVc5R3BJVHp4S3lka0doamNGZHdZQ25oRVViaEFUZW8tLXlxaWVxcS1IdGYxWXRR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-07-21T01:32:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "836190694752b62a",
+          "title": "猿田彦珈琲／岡山一番街に新店舗9月18日オープン、岡山県初出店",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03MVpfSDk0V3ZjcXZ2bTBuTHdKSE9kaklDb0RtYXlvcHNWWko3UEdYOXhQcEVVd0ZqNFM2UTN2cHd4OE9oS1ZJTVFzbmNQZ0xBSDVhZQ?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-21T01:20:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-07-29T03:46:05Z",
-  "last_success_at": "2026-07-29T03:46:05Z",
+  "last_attempt_at": "2026-07-29T09:16:40Z",
+  "last_success_at": "2026-07-29T09:16:40Z",
   "consecutive_failure_count": 0
 }
