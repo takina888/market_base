@@ -595,7 +595,7 @@
   dom.favoriteButton.addEventListener('click', toggleFavorite);
   $('clearRecentButton').addEventListener('click', () => { state.recent=[]; writeStore('wcRecent',[]); renderRecent(); });
   dom.headingPreview.addEventListener('input', () => { state.heading=Number(dom.headingPreview.value); dom.headingPreviewValue.textContent=`${state.heading}°`; updateCompass(); });
-  $('backButton').addEventListener('click', () => { if(history.length>1) history.back(); else window.location.href='index.html'; });
+  $('backButton').addEventListener('click', () => { window.location.replace('index.html'); });
   $('compassRefreshButton')?.addEventListener('click', () => {
     const button=$('compassRefreshButton');
     if(button?.disabled) return;

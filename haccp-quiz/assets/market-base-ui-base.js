@@ -3,7 +3,7 @@
   const refresh = document.getElementById('refreshButton');
   back?.addEventListener('click', () => {
     const fallback = document.body.dataset.marketBaseHome || '../index.html?view=learn';
-    if (document.referrer && history.length > 1) history.back(); else location.href = fallback;
+    location.replace(fallback);
   });
   refresh?.addEventListener('click', () => location.reload());
   document.querySelectorAll('[data-page-action="top"]').forEach((button) => {
