@@ -3,10 +3,20 @@
 
   if (global.MarketBaseUpdate) return;
 
-  const BUILD_ID = 'MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730';
+  const BUILD_ID = 'MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730';
   const LEGACY_PAGE_BUILD = 'MARKET_BASE_LEGACY_PAGE';
   const CHANNEL_NAME = 'market-base-update-v1';
   const SIGNAL_KEY = 'market_base_global_refresh_signal';
+  const LAST_ACTIVE_KEY = 'market_base_last_active_at_v1';
+  const RADIO_STATE_KEY = 'market_base_radio_state_v1';
+  const OFFLINE_STATE_KEY = 'market_base_offline_mode_v1';
+  const OFFLINE_CACHE_NAMES = [
+    'mb-user-offline-v324-text',
+    'mb-user-offline-v324-images',
+    'mb-user-offline-v324-state'
+  ];
+  const INACTIVITY_MS = 6 * 60 * 60 * 1000;
+  const RADIO_GRACE_MS = 12 * 60 * 60 * 1000;
   const SCRIPT_URL = document.currentScript?.src || '';
   let siteRoot;
   try {
@@ -17,10 +27,15 @@
 
   const state = {
     autoPromise: null,
+    onlineTransitionPromise: null,
     working: false,
     sourceId: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
     channel: null
   };
+  const radioDockUrl = new URL(
+    'assets/js/market-base-radio-dock-v323.js?v=20260730-v324',
+    siteRoot
+  );
 
   function storageGet(areaName, key) {
     try { return global[areaName]?.getItem(key) || null; }
@@ -39,6 +54,113 @@
 
   function versionToken(value) {
     return String(value || '').split(/\r?\n/)[0].trim();
+  }
+
+  function radioIsPlaying() {
+    try {
+      const radio = JSON.parse(storageGet('localStorage', RADIO_STATE_KEY) || 'null');
+      return !!(
+        radio &&
+        radio.playing &&
+        (
+          Number(radio.validUntil || 0) > Date.now() ||
+          Date.now() - Number(radio.updatedAt || 0) < RADIO_GRACE_MS
+        )
+      );
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function offlineState() {
+    try {
+      return JSON.parse(storageGet('localStorage', OFFLINE_STATE_KEY) || 'null') || {
+        enabled: false,
+        pendingCleanup: false
+      };
+    } catch (_) {
+      return { enabled: false, pendingCleanup: false };
+    }
+  }
+
+  function offlineModeActive() {
+    const offline = offlineState();
+    return !!(offline.enabled || offline.pendingCleanup);
+  }
+
+  function writeOfflineState(next) {
+    const value = { ...offlineState(), ...next, updatedAt: Date.now() };
+    storageSet('localStorage', OFFLINE_STATE_KEY, JSON.stringify(value));
+    try {
+      global.dispatchEvent(new CustomEvent('marketbase:offline-state-changed', {
+        detail: value
+      }));
+    } catch (_) {}
+    return value;
+  }
+
+  function isHomePage() {
+    const home = new URL('index.html', siteRoot);
+    return normalizedPath(global.location.pathname) === normalizedPath(home.pathname);
+  }
+
+  function normalizedPath(pathname) {
+    return String(pathname || '').replace(/\/index\.html$/i, '/');
+  }
+
+  function redirectAfterInactivity() {
+    if (!/^https?:$/.test(global.location.protocol)) return false;
+    if (offlineModeActive()) return false;
+    if (/\/world-radio\/player\.html$/i.test(global.location.pathname)) return false;
+    const lastActive = Number(storageGet('localStorage', LAST_ACTIVE_KEY) || 0);
+    const idle = (
+      lastActive > 0 &&
+      Date.now() - lastActive >= INACTIVITY_MS &&
+      !radioIsPlaying()
+    );
+    if (!idle) return false;
+    const current = new URL(global.location.href);
+    if (isHomePage() && current.searchParams.get('from') === 'idle') return false;
+    const home = new URL('index.html', siteRoot);
+    home.searchParams.set('from', 'idle');
+    global.location.replace(home.href);
+    return true;
+  }
+
+  function markActive(force = false) {
+    const now = Date.now();
+    const previous = Number(storageGet('localStorage', LAST_ACTIVE_KEY) || 0);
+    if (!force && now - previous < 30000) return;
+    storageSet('localStorage', LAST_ACTIVE_KEY, String(now));
+  }
+
+  function initActivityTracking() {
+    const activity = () => markActive(false);
+    const resume = () => {
+      if (!redirectAfterInactivity()) markActive(true);
+    };
+    global.addEventListener('pointerdown', activity, { passive: true });
+    global.addEventListener('keydown', activity);
+    global.addEventListener('focus', resume);
+    global.addEventListener('pageshow', resume);
+    global.addEventListener('pagehide', () => markActive(true));
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) markActive(true);
+      else resume();
+    });
+    markActive(true);
+  }
+
+  function loadRadioDock() {
+    if (
+      /\/world-radio\/player\.html$/i.test(global.location.pathname) ||
+      document.querySelector('script[data-mb-radio-dock]')
+    ) return;
+    const script = document.createElement('script');
+    script.src = radioDockUrl.href;
+    script.async = true;
+    script.dataset.mbRadioDock = '';
+    document.body?.appendChild(script);
   }
 
   function currentBuildId() {
@@ -247,10 +369,39 @@
       const keys = await caches.keys();
       await Promise.all(
         keys
-          .filter(key => String(key).startsWith('market-base-') && key !== currentCache)
+          .filter(key => (
+            String(key).startsWith('market-base-') &&
+            key !== currentCache
+          ))
           .map(key => caches.delete(key))
       );
     }
+  }
+
+  async function clearOfflineDownloadCaches() {
+    if (!('caches' in global)) return;
+    await Promise.all(OFFLINE_CACHE_NAMES.map(name => caches.delete(name)));
+  }
+
+  async function clearOfflineSentinel() {
+    if (!('caches' in global)) return;
+    await caches.delete(OFFLINE_CACHE_NAMES[2]);
+  }
+
+  async function restoreOfflineSentinel(stored) {
+    if (!('caches' in global)) return;
+    const cache = await caches.open(OFFLINE_CACHE_NAMES[2]);
+    const request = new URL('__market_base_offline_mode__', siteRoot).href;
+    await cache.put(request, new Response(JSON.stringify({
+      enabled: true,
+      buildId: stored.buildId || BUILD_ID,
+      savedAt: stored.savedAt || null
+    }), {
+      headers: {
+        'Content-Type': 'application/json',
+        'Cache-Control': 'no-store'
+      }
+    }));
   }
 
   async function clearClientCaches() {
@@ -319,6 +470,10 @@
       event.preventDefault();
       event.stopImmediatePropagation();
     }
+    if (offlineModeActive()) {
+      announce('オフラインモード中です。設定からオンラインモードへ切り替えてください。', false);
+      return false;
+    }
     if (state.working) return true;
     setWorking(true);
     try {
@@ -338,6 +493,7 @@
   }
 
   async function checkOnOpen() {
+    if (offlineModeActive()) return false;
     if (state.autoPromise) return state.autoPromise;
     state.autoPromise = (async () => {
       let remote;
@@ -373,6 +529,7 @@
 
   function handleRemoteReload(message) {
     if (
+      offlineModeActive() ||
       !message ||
       message.type !== 'MARKET_BASE_RELOAD' ||
       message.sourceId === state.sourceId ||
@@ -385,6 +542,86 @@
     global.setTimeout(() => {
       global.location.replace(reloadUrl(versionToken(message.version) || BUILD_ID, 'manual'));
     }, 350);
+  }
+
+  async function finishPendingOnlineTransition() {
+    const stored = offlineState();
+    if (
+      !stored.pendingCleanup ||
+      stored.enabled ||
+      !navigator.onLine
+    ) return false;
+    if (state.onlineTransitionPromise) return state.onlineTransitionPromise;
+    state.onlineTransitionPromise = (async () => {
+      let sentinelRemoved = false;
+      try {
+        writeOfflineState({
+          ...stored,
+          enabled: false,
+          pendingCleanup: true,
+          phase: 'checking-online'
+        });
+        // The sentinel makes the service worker intentionally cache-first.
+        // Remove only that marker so the version check can reach the network;
+        // text and compressed-photo caches remain recoverable until success.
+        await clearOfflineSentinel();
+        sentinelRemoved = true;
+        const remote = await fetchRemoteVersion();
+        const current = currentBuildId();
+        if (remote !== current) {
+          writeOfflineState({
+            ...stored,
+            enabled: false,
+            pendingCleanup: true,
+            phase: 'updating-online',
+            targetVersion: remote
+          });
+          const refreshed = await performRefresh(remote, {
+            mode: 'auto',
+            broadcast: true,
+            silent: true
+          });
+          if (!refreshed) throw new Error('online refresh failed');
+          return true;
+        }
+
+        // A matching page build and an activated matching worker together mark
+        // the safe point at which the user-created offline snapshot can go.
+        await updateServiceWorkers(remote);
+        await clearOfflineDownloadCaches();
+        sentinelRemoved = false;
+        writeOfflineState({
+          ...stored,
+          enabled: false,
+          pendingCleanup: false,
+          phase: 'online',
+          textSaved: 0,
+          textTotal: 0,
+          imageSaved: 0,
+          imageTotal: 0,
+          savedAt: null,
+          targetVersion: null,
+          switchedOnlineAt: Date.now()
+        });
+        return true;
+      } catch (error) {
+        console.warn('MARKET BASE online transition skipped', error);
+        if (sentinelRemoved) {
+          try { await restoreOfflineSentinel(stored); } catch (_) {}
+        }
+        writeOfflineState({
+          ...stored,
+          enabled: false,
+          pendingCleanup: true,
+          phase: 'waiting-online',
+          targetVersion: null
+        });
+        return false;
+      }
+    })().finally(() => {
+      state.onlineTransitionPromise = null;
+    });
+    return state.onlineTransitionPromise;
   }
 
   function initCrossPageSignals() {
@@ -401,14 +638,25 @@
   }
 
   function init() {
+    if (redirectAfterInactivity()) return;
+    initActivityTracking();
     document.addEventListener('click', handleRefreshClick, true);
     initCrossPageSignals();
-    checkOnOpen();
+    loadRadioDock();
+    global.addEventListener('online', finishPendingOnlineTransition);
+    if (offlineState().pendingCleanup && navigator.onLine) {
+      finishPendingOnlineTransition();
+    } else {
+      checkOnOpen();
+    }
   }
 
   global.MarketBaseUpdate = Object.freeze({
     buildId: BUILD_ID,
     root: siteRoot.href,
+    inactivityMs: INACTIVITY_MS,
+    offlineModeActive,
+    finishPendingOnlineTransition,
     refresh,
     checkOnOpen
   });

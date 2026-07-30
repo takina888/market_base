@@ -6,15 +6,14 @@
   var SITE_ROOT;
   try{SITE_ROOT=SCRIPT_URL?new URL('../../',SCRIPT_URL):new URL('./',location.href);}catch(_e){SITE_ROOT=new URL('./',location.href);}
   var HOME_URL=new URL('index.html',SITE_ROOT);
-  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v322.js?v=20260730-v322',SITE_ROOT);
+  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v322.js?v=20260730-v324',SITE_ROOT);
   var LEARN_PREFIXES=[
     'british-jokes/','classic-move/','haccp-quiz/','hs-learning/','international-logistics/',
-    'machine-container-packing/','material-check/','rakuda-no-me/','sutra-no-yoin/',
-    'ul-ce-learning/','work-basics/','world-route/'
+    'material-check/','rakuda-no-me/','sutra-no-yoin/',
+    'ul-ce-learning/','work-basics/'
   ];
   var LEARN_FILES={
-    'world-history-today.html':true,
-    'world-route.html':true
+    'world-history-today.html':true
   };
   var COUNTRY_FILES={
     'market-base-v273-country-profile-r28.html':true

@@ -1,0 +1,288 @@
+.mb-radio-dock {
+  --dock-panel-width: min(300px, calc(100vw - 72px));
+  --dock-safe-top: env(safe-area-inset-top, 0px);
+  --dock-safe-right: env(safe-area-inset-right, 0px);
+  --dock-safe-bottom: env(safe-area-inset-bottom, 0px);
+  --dock-safe-left: env(safe-area-inset-left, 0px);
+  position: fixed;
+  z-index: 10020;
+  top: 58%;
+  left: calc(100vw - var(--dock-panel-width) - 12px);
+  width: var(--dock-panel-width);
+  color: #18324f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    "Yu Gothic UI", "Yu Gothic", Meiryo, sans-serif;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.mb-radio-dock.is-positioned {
+  visibility: visible;
+}
+
+.mb-radio-dock-panel {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(184, 207, 232, .96);
+  border-radius: 17px 0 0 17px;
+  background: rgba(255, 255, 255, .97);
+  box-shadow: 0 12px 34px rgba(17, 48, 84, .2);
+  backdrop-filter: blur(16px);
+  pointer-events: auto;
+  transform: translateX(0);
+  transform-origin: right center;
+  opacity: 1;
+  visibility: visible;
+  transition:
+    transform .24s ease,
+    opacity .18s ease,
+    visibility 0s linear 0s;
+}
+
+.mb-radio-dock[data-collapsed="true"] .mb-radio-dock-panel {
+  transform: translateX(calc(100% + 10px));
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    transform .24s ease,
+    opacity .18s ease,
+    visibility 0s linear .24s;
+}
+
+.mb-radio-dock-tab {
+  position: absolute;
+  top: 18px;
+  right: 100%;
+  display: grid;
+  width: 38px;
+  min-height: 82px;
+  place-items: center;
+  padding: 8px 5px;
+  border: 1px solid #b9cee5;
+  border-right: 0;
+  border-radius: 14px 0 0 14px;
+  background: #075fc7;
+  color: #fff;
+  box-shadow: 0 8px 22px rgba(17, 48, 84, .19);
+  font: 900 10px/1 system-ui, sans-serif;
+  letter-spacing: .12em;
+  cursor: pointer;
+  pointer-events: auto;
+  writing-mode: vertical-rl;
+  transition:
+    transform .24s ease,
+    background-color .18s ease;
+}
+
+.mb-radio-dock[data-collapsed="true"] .mb-radio-dock-tab {
+  transform: translateX(var(--dock-panel-width));
+}
+
+.mb-radio-dock[data-state="playing"] .mb-radio-dock-tab {
+  background: #14713a;
+}
+
+.mb-radio-dock[data-state="gesture"] .mb-radio-dock-tab,
+.mb-radio-dock[data-state="error"] .mb-radio-dock-tab {
+  background: #9b3f2c;
+}
+
+.mb-radio-dock-head {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+}
+
+.mb-radio-dock-drag {
+  width: 36px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid #cad9e8;
+  border-radius: 11px;
+  background: #f4f8fc;
+  color: #607087;
+  font: 900 22px/1 system-ui, sans-serif;
+  cursor: grab;
+  touch-action: none;
+}
+
+.mb-radio-dock[data-dragging="true"] .mb-radio-dock-drag {
+  cursor: grabbing;
+  background: #e7f0fa;
+}
+
+.mb-radio-dock-copy {
+  min-width: 0;
+}
+
+.mb-radio-dock-kicker {
+  display: block;
+  color: #65768b;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .08em;
+  line-height: 1.2;
+}
+
+.mb-radio-dock[data-state="playing"] .mb-radio-dock-kicker {
+  color: #15743d;
+}
+
+.mb-radio-dock[data-state="gesture"] .mb-radio-dock-kicker,
+.mb-radio-dock[data-state="error"] .mb-radio-dock-kicker {
+  color: #9b3f2c;
+}
+
+.mb-radio-dock-copy strong,
+.mb-radio-dock-copy small {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mb-radio-dock-copy strong {
+  margin-top: 2px;
+  color: #0b3976;
+  font-size: 15px;
+  font-weight: 950;
+  line-height: 1.25;
+}
+
+.mb-radio-dock-copy small {
+  margin-top: 2px;
+  color: #607087;
+  font-size: 11px;
+  font-weight: 750;
+  line-height: 1.25;
+}
+
+.mb-radio-dock-actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  margin-top: 9px;
+}
+
+.mb-radio-dock-controls {
+  display: grid;
+  grid-template-columns: repeat(3, 42px);
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+.mb-radio-dock-controls[hidden] {
+  display: none !important;
+}
+
+.mb-radio-dock-controls button {
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 1px solid #c8d9ea;
+  border-radius: 12px;
+  background: #f3f8fe;
+  color: #174c86;
+  font: 900 21px/1 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.mb-radio-dock-open {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: #075fc7;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.mb-radio-dock-open b {
+  font-weight: 900;
+}
+
+.mb-radio-dock-message {
+  min-height: 0;
+  margin: 6px 1px 0;
+  color: #8a4e25;
+  font-size: 10.5px;
+  font-weight: 750;
+  line-height: 1.4;
+}
+
+.mb-radio-dock-message:empty {
+  display: none;
+}
+
+.mb-radio-dock button:focus-visible,
+.mb-radio-dock a:focus-visible {
+  outline: 3px solid #f4c94e;
+  outline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+  .mb-radio-dock {
+    --dock-panel-width: min(280px, calc(100vw - 70px));
+  }
+
+  .mb-radio-dock-panel {
+    padding: 9px;
+    border-radius: 15px 0 0 15px;
+  }
+
+  .mb-radio-dock-tab {
+    top: 13px;
+    min-height: 74px;
+  }
+
+  .mb-radio-dock-controls {
+    grid-template-columns: repeat(3, 39px);
+  }
+
+  .mb-radio-dock-controls button {
+    width: 39px;
+    height: 40px;
+  }
+
+  .mb-radio-dock-open {
+    min-height: 40px;
+    padding-inline: 8px;
+  }
+}
+
+@media (max-width: 340px) {
+  .mb-radio-dock {
+    --dock-panel-width: calc(100vw - 66px);
+  }
+
+  .mb-radio-dock-controls {
+    grid-template-columns: repeat(3, 36px);
+  }
+
+  .mb-radio-dock-controls button {
+    width: 36px;
+  }
+
+  .mb-radio-dock-open b {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mb-radio-dock-panel,
+  .mb-radio-dock-tab {
+    transition: none;
+  }
+}

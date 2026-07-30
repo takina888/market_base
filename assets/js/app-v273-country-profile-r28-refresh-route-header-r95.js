@@ -225,18 +225,7 @@ function fmtJapaneseIntegerUnit(n, unit){
 function fmtJapaneseRankingPopulation(n){
   const value=Number(n);
   if(!Number.isFinite(value)) return '—';
-  const sign=value<0?'-':'';
-  const abs=Math.abs(value);
-  if(abs<10000) return `${sign}${Math.round(abs).toLocaleString('ja-JP')}人`;
-  const totalMan=Math.round(abs/10000);
-  const cho=Math.floor(totalMan/100000000);
-  const oku=Math.floor((totalMan%100000000)/10000);
-  const man=totalMan%10000;
-  const parts=[];
-  if(cho) parts.push(`${cho.toLocaleString('ja-JP')}兆`);
-  if(oku) parts.push(`${oku.toLocaleString('ja-JP')}億`);
-  if(man || !parts.length) parts.push(`${man.toLocaleString('ja-JP')}万`);
-  return `${sign}${parts.join('')}人`;
+  return `${Math.round(value).toLocaleString('ja-JP')}人`;
 }
 function fmtJapaneseGdp(n){
   const sign=n<0?'-':'';
@@ -257,7 +246,7 @@ function fmt(v, metric){
   const n=Number(v);
   if(!Number.isFinite(n)) return safe(v);
   if(lang==='ja'){
-    if(metric==='population') return fmtJapaneseIntegerUnit(n,'人');
+    if(metric==='population') return `${Math.round(n).toLocaleString('ja-JP')}人`;
     if(metric==='area_land_km2') return fmtJapaneseIntegerUnit(n,'km²');
     if(metric==='gdp_current_usd') return fmtJapaneseGdp(n);
     if(metric==='gdp_pc_current_usd') return `${fmtJapaneseIntegerUnit(n,'米ドル')}／人`;
@@ -3230,7 +3219,14 @@ function setMarketBaseRefreshState(working){
     }
   });
 }
+function marketBaseOfflineModeActive(){
+  try{
+    const state=JSON.parse(localStorage.getItem('market_base_offline_mode_v1')||'null');
+    return !!(state&&(state.enabled||state.pendingCleanup));
+  }catch(_){ return false; }
+}
 async function purgeMarketBaseLocalCache(){
+  if(marketBaseOfflineModeActive()) return false;
   if('caches' in window){
     const keys=await caches.keys();
     const marketBaseKeys=keys.filter(key=>String(key).startsWith('market-base-'));
@@ -3243,9 +3239,11 @@ async function purgeMarketBaseLocalCache(){
       catch(_){ return false; }
     }).map(reg=>reg.update().catch(()=>undefined)));
   }
+  return true;
 }
 async function checkMarketBaseVersion(){
   if(window.MarketBaseUpdate?.checkOnOpen) return window.MarketBaseUpdate.checkOnOpen();
+  if(marketBaseOfflineModeActive()) return false;
   if(!/^https?:$/.test(window.location.protocol)) return false;
   try{
     const res=await fetch('version.txt?check='+Date.now(), {cache:'no-store'});
@@ -3288,6 +3286,7 @@ async function checkMarketBaseVersion(){
 async function refreshMarketBaseCache(event){
   if(window.MarketBaseUpdate?.refresh) return window.MarketBaseUpdate.refresh({event,broadcast:true});
   if(event){ event.preventDefault(); event.stopPropagation(); }
+  if(marketBaseOfflineModeActive()) return false;
   if(window.__marketBaseRefreshRunning) return;
   window.__marketBaseRefreshRunning=true;
   setMarketBaseRefreshState(true);

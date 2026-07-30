@@ -1,10 +1,10 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730',
-    label: 'MARKET BASE V.322',
-    release: 'V.322',
+    id: 'MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730',
+    label: 'MARKET BASE V.324',
+    release: 'V.324',
     date: '2026-07-30',
-    assetVersion: '20260730-v322-global-update-journey-stability'
+    assetVersion: '20260730-v324-offline-music-precise-numbers'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseBuild = build.id;

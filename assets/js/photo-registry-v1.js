@@ -5,6 +5,7 @@ if(window.MARKET_BASE_PHOTO_REGISTRY) return;
 const REGISTRY_PATH='data/images/photo_registry.json';
 const CACHE_KEY='market_base_photo_registry_cache_v1';
 const VERSION_KEY='market_base_photo_registry_version_v1';
+const OFFLINE_STATE_KEY='market_base_offline_mode_v1';
 const MIN_RELOAD_INTERVAL=60*1000;
 const PERIODIC_RELOAD_INTERVAL=4*60*60*1000;
 const PLACEHOLDER_PATH="data:image/svg+xml;charset=UTF-8,"+encodeURIComponent('<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\"><rect width=\"800\" height=\"500\" fill=\"%23eef4fa\"/><path d=\"M250 340l105-120 75 85 55-60 85 95H250z\" fill=\"%23c8d9e9\"/><circle cx=\"315\" cy=\"160\" r=\"36\" fill=\"%23c8d9e9\"/><text x=\"400\" y=\"420\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"30\" fill=\"%2368798f\">写真を読み込めません</text></svg>');
@@ -17,6 +18,12 @@ let midnightTimer=null;
 const subscribers=new Set();
 
 const now=()=>Date.now();
+function offlineModeActive(){
+  try{
+    const state=JSON.parse(localStorage.getItem(OFFLINE_STATE_KEY)||'null');
+    return !!(state&&(state.enabled||state.pendingCleanup));
+  }catch(_){ return false; }
+}
 const isPublished=photo=>photo&&photo.status==='published';
 const hasLocation=(photo,location)=>!location||Array.isArray(photo.display_locations)&&photo.display_locations.includes(location);
 const orderPhotos=list=>list.slice().sort((a,b)=>(Number(a.display_order)||9999)-(Number(b.display_order)||9999)||String(a.photo_id||'').localeCompare(String(b.photo_id||'')));
@@ -106,6 +113,7 @@ async function fetchRegistry(reason){
   }
 }
 async function load(options={}){
+  if(offlineModeActive()) return registry;
   const force=options.force===true;
   const reason=String(options.reason||'manual');
   if(loadPromise) return loadPromise;
@@ -208,5 +216,6 @@ document.addEventListener('visibilitychange',()=>{
 window.addEventListener('online',()=>load({force:true,reason:'online'}));
 window.addEventListener('storage',event=>{
   if(event.key===VERSION_KEY&&event.newValue&&event.newValue!==signature) load({force:true,reason:'other-tab-update'});
+  if(event.key===OFFLINE_STATE_KEY&&!offlineModeActive()) load({force:true,reason:'online-mode'});
 });
 })();
