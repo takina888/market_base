@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-07-29T19:49:05Z",
+  "generated_at": "2026-07-30T03:37:26Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,11 +29,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-07-29T16:55:15Z",
+          "id": "6648c8840b185ce3",
+          "title": "海外展開の基礎を学ぶ食品輸出講座、オンラインで開催",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Oc2JGdEtORzlKc0tteTRjR0M0Z0pVYWcwdDNmb3NvMHY1dUZOQ3hyWTBDSk1qVXAycjRRdnNmaXJBQjlWR3RqM1hjNS1iOUh3TEdpTUZmRDBHT01lX1ppTHE1Zw?oc=5",
+          "source": "J-Net21[中小企業ビジネス支援サイト]",
+          "published_at": "2026-07-30T01:48:39Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0094c91199a1bcfc",
+          "title": "アダム・ミツキェヴィチ大学（ポーランド）との国際交流協定調印式",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yMVRtb2FEVWZ0aktsOXEwWkJEdjcyckFHMlBrSWxJN1NodXBvVWU1aUxHYVl0QXFfNEpsci16NVFHYzBTWEtHREkxcnp6RFk?oc=5",
+          "source": "u-ryukyu.ac.jp",
+          "published_at": "2026-07-30T01:11:55Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ae954d53ff9608a1",
+          "title": "赤十字国際委員会（ICRC）代表団が来訪",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9pR2lKcXREQkhxdHJ5MkFDb2p3Z01Tc1o1N0hYWnU2a3NuZDktekM2a3NEUzBMaFBNUlhFY0RIR1dpVU9VSThNSUI0M2w3UQ?oc=5",
+          "source": "waseda.jp",
+          "published_at": "2026-07-30T01:11:36Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -43,47 +63,27 @@
           "title": "NTTドコモ Presents Lemino BOXING ダブル世界タイトルマッチ[世界][世界][OPBF][日本]",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1c0ExdEU4UnpDQUZxQVJpWkVSNEtRM0lJRlNuS0pzaUFDVFI1YXprSlhoWTFhczh1VVRtbk1qSVFrUVFka0FxOXFyZ3lGbjVqVF9GcUZsYzJuMV9oQlc5V2tkSQ?oc=5",
           "source": "ボクシングモバイル",
-          "published_at": "2026-07-29T13:50:23Z",
+          "published_at": "2026-07-30T00:06:35Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "4ce95654ba424d18",
-          "title": "【キックスレポート】世界とつながろう",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JLVN4ZDkwbS1Ic08tN1lwa2liWHA5TlhXSlRtbXo0Zlh4V0NUSndheXhIcHFzUFlSWFcwc3pacEJCeUVDenpvaThTSmszUzNqeTFOa1NUeGJlTVBSMTNsa2RPYVpjVHY3X2pF?oc=5",
-          "source": "city.kawachinagano.lg.jp",
-          "published_at": "2026-07-29T09:38:49Z",
+          "id": "05db61a8884f420b",
+          "title": "東京国際フォーラム｜あぁ、だから一人はいやなんだ。｜いとうあさこ",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1EQnN3cGEtMDJBN2o4OEk2ZWtodGhMMDQ2QUttVkphbXpTUDVHdTRjdWdaUHZ3S2tIb29kUGZQc1FhNnRIeFVWVWx6aFB1cGc?oc=5",
+          "source": "幻冬舎plus",
+          "published_at": "2026-07-29T21:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1479b5bb3a9b6410",
-          "title": "世界を席巻する中国の人型ロボット、米国が輸入を禁止 「容認できない」安保リスク",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LMWFFSEhBV0RCTmwxQ0NQbFU4R0dkYTk0TkVSdC11NjR6RGdMY2tOeTNLMl9fU2dmYzV1OWVZbnFBbjlWQmwyOC03cVlrNVYzQlRsUEtRNA?oc=5",
-          "source": "CNN.co.jp",
-          "published_at": "2026-07-29T08:26:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "eaa942de082dc87f",
-          "title": "Vol.39 「世界遺産 姫路城を守る会」会長 ／ 岡本 一さん",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GTHNIQVNNalB4a3FQRDdRMG5vb3RVclhud0tTMjM3THlQZTR2SFZ2OTQtLXF4QmNHRDNIVklNUERIVVh3eF9fdUMwbTI4X0Y0a0YteFY2azRlUTVPUE94aGhTYllHSmFudXc?oc=5",
-          "source": "city.himeji.lg.jp",
-          "published_at": "2026-07-29T07:41:03Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1f7433518c143423",
-          "title": "熊本地震に海外から“お見舞い” イタリア首相「政府代表して連帯の意」 台湾総統「いつでも協力できるよう準備」",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZHlyNUtleHVtd3Q3ei1XSHJWcDFOc2FHNkg2bFhwTDQtYTAzYnlxMk9QcWhFTlhiWEVfcUxhd18xUW05dHp5NGVYbnloMWpFYmV6U3NJQWxjdWlOUXJ1TzJTWlp5eVAyYmlwLUg2Ym8zYkY3eEFaWkxvaWVxT2M?oc=5",
+          "id": "f3a9d5ae319ff8cd",
+          "title": "伊・仏・台湾・韓国など海外の要人から 熊本地震に対しお見舞いと支援のメッセージ（日テレNEWS NNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BQ2RWcWFVOHUyWHg1ZHhMLW5DSlM5OV9hRnQzTjdNbVlHS2RsSmt1bUhyV0pGaUlRbmw2dV9CcS1vRWJ6OWpYY3I3empMOWdkVmdFNWF0c05MQWdkQ1hVVGtUeHJ3ZGR5ZmktSWpLZDRaQWgwcG1tOHNiYUs4NUk?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-07-29T02:24:28Z",
+          "published_at": "2026-07-29T16:29:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -254,6 +254,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "7e053bc766a46fc9",
+          "title": "環境配慮の木造コンビニがオープン 四国中央",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAybnlzRndCRUo2aU95cWhxczZsR0RoZmM5T3g5T1FScktqMFg4V2YzYkotTUNPcVJpOFc1Tng0S1NCLXlicEo4VWtBeGtaR2Njb0ZKRk1aWW0?oc=5",
+          "source": "NHKニュース",
+          "published_at": "2026-07-22T09:15:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "6def167432cca401",
           "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
@@ -274,6 +284,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "9485756834da4116",
+          "title": "コスモス薬品／京都府に「ドラッグコスモス」計2店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zSjI2Z0RtTGZIYzdyMWZhQ3VzMEJrbnJ2Q1NsMGladHFlTHpGaVZoX2RnY2xlWXo0c3YyVlBkTTQwa1luSExQcHR1QXlZVVdWY09PSUZn?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-21T01:33:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "f9f8018d0c5bb5fb",
           "title": "ドンキ／広島市に「広島市西区観音新町二丁目 新築計画（店舗面積3102m2）」27年2月1日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PU2U5RjZ2ZU9QUktXYktNb1Y2dWRFc2prQW0wbEx4eVc5R3BJVHp4S3lka0doamNGZHdZQ25oRVViaEFUZW8tLXlxaWVxcS1IdGYxWXRR?oc=5",
@@ -289,26 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03MVpfSDk0V3ZjcXZ2bTBuTHdKSE9kaklDb0RtYXlvcHNWWko3UEdYOXhQcEVVd0ZqNFM2UTN2cHd4OE9oS1ZJTVFzbmNQZ0xBSDVhZQ?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-07-21T01:20:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f0fae92ec616b465",
-          "title": "カスミ 「BLΛNDE塩浜店」オープンのお知らせ | ユナイテッド・スーパーマーケット・ホールディングス株式会社のプレスリリース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xTER0ZGxwc2JxdVVtOW1nbkFsUVBlN05QbDJQWHNKRmcyZ0VoTmNBRkttS3BXSzFET3JJRDZlblYycnlHeUVQZm4wcDdfbnlNT0kzWEFRNGl6Wm5LWmthNG5Da0FMQzRfeFE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-17T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "973325067d0151bd",
-          "title": "わかやま市民生協／和歌山市に「コープ宇須店（店舗面積2795m2）」27年2月26日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IUW1lZmFzX3ZYZDRrVVhXeTdOcEZEbHZVTm43V1lDcWQwc0RnY01jRmdzLWgwcEZhRmt6NHUyZktKMWtvQ2JRMFZSV094MnhaX0Y1cXh3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-16T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -382,7 +382,7 @@
           "id": "d529bbc0ada98a18",
           "title": "食品安全規制の進展と石油化学原料の需給変動を考える ～ポジティブリスト制度・前面栄養表示の運用とナフサ確保懸念について～｜桜山 響詩朗",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NYVMxejRpODJJS3g2LUdaSGs0cmtXSV9EZEJDclFRR3JYYTU2UHV6STRWbm9pRVJXOE1PbHJ0LWJ5TFhTRFExd3ZYRDNYTjFqZkl2OHBPbFhYUQ?oc=5",
-          "source": "note",
+          "source": "Note.com",
           "published_at": "2026-04-10T07:00:00Z",
           "language": "ja",
           "category": "regulations",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-07-29T19:49:05Z",
-  "last_success_at": "2026-07-29T19:49:05Z",
+  "last_attempt_at": "2026-07-30T03:37:26Z",
+  "last_success_at": "2026-07-30T03:37:26Z",
   "consecutive_failure_count": 0
 }
