@@ -118,7 +118,10 @@
       <button class="mb-radio-dock-tab" id="mbRadioDockTab" type="button"
         aria-expanded="false" aria-controls="mbRadioDockPanel"
         aria-label="ラジオ小窓を開く">
-        <span aria-hidden="true">RADIO</span>
+        <span class="mb-radio-dock-tab-arrow" id="mbRadioDockTabArrow" aria-hidden="true">‹</span>
+        <span class="mb-radio-dock-tab-label" aria-hidden="true">RADIO</span>
+        <span class="mb-radio-dock-tab-grip" id="mbRadioDockTabGrip"
+          aria-hidden="true" title="押したまま移動">⠿</span>
       </button>
     `;
     document.body.appendChild(node);
@@ -129,6 +132,8 @@
   const dock = createDock();
   const panel = dock.querySelector('#mbRadioDockPanel');
   const dockTab = dock.querySelector('#mbRadioDockTab');
+  const dockTabArrow = dock.querySelector('#mbRadioDockTabArrow');
+  const dockTabGrip = dock.querySelector('#mbRadioDockTabGrip');
   const dragHandle = dock.querySelector('#mbRadioDockDrag');
   const stateLabel = dock.querySelector('#mbRadioDockState');
   const stationLabel = dock.querySelector('#mbRadioDockName');
@@ -151,6 +156,7 @@
     dock.dataset.collapsed = String(collapsed);
     panel.setAttribute('aria-hidden', String(collapsed));
     dockTab.setAttribute('aria-expanded', String(!collapsed));
+    dockTabArrow.textContent = collapsed ? '‹' : '›';
     dockTab.setAttribute(
       'aria-label',
       collapsed ? 'ラジオ小窓を開く' : 'ラジオ小窓をしまう'
@@ -369,9 +375,10 @@
       startX: event.clientX,
       startY: event.clientY,
       left: clamp(rect.left, bounds.minimumX, bounds.maximumX),
-      top: clamp(rect.top, bounds.minimumY, bounds.maximumY)
+      top: clamp(rect.top, bounds.minimumY, bounds.maximumY),
+      captureTarget: event.currentTarget
     };
-    dragHandle.setPointerCapture?.(event.pointerId);
+    dragState.captureTarget.setPointerCapture?.(event.pointerId);
     dock.dataset.dragging = 'true';
     event.preventDefault();
   }
@@ -389,14 +396,16 @@
   function finishDrag(event) {
     if (!dragState || event.pointerId !== dragState.pointerId) return;
     const rect = dock.getBoundingClientRect();
-    dragHandle.releasePointerCapture?.(event.pointerId);
+    const captureTarget = dragState.captureTarget;
+    captureTarget.releasePointerCapture?.(event.pointerId);
     dragState = null;
     delete dock.dataset.dragging;
     applyPosition(rect.left, rect.top, true);
     event.preventDefault();
   }
 
-  dockTab.addEventListener('click', () => {
+  dockTab.addEventListener('click', event => {
+    if (event.target.closest('.mb-radio-dock-tab-grip')) return;
     const next = !collapsed;
     collapsedPreference = next ? '1' : '0';
     storageSet(COLLAPSED_KEY, collapsedPreference);
@@ -413,6 +422,14 @@
   dragHandle.addEventListener('pointermove', moveDrag);
   dragHandle.addEventListener('pointerup', finishDrag);
   dragHandle.addEventListener('pointercancel', finishDrag);
+  dockTabGrip.addEventListener('click', event => {
+    event.preventDefault();
+    event.stopPropagation();
+  });
+  dockTabGrip.addEventListener('pointerdown', beginDrag);
+  dockTabGrip.addEventListener('pointermove', moveDrag);
+  dockTabGrip.addEventListener('pointerup', finishDrag);
+  dockTabGrip.addEventListener('pointercancel', finishDrag);
 
   if ('BroadcastChannel' in global) {
     try {

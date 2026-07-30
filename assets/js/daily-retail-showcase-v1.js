@@ -118,10 +118,19 @@ function mountHost(){
     retailMain.append(host);
     return host;
   }
-  const home=document.getElementById('home')||document.querySelector('main');
+  const fixedMount=document.getElementById('retailDiscoveryHomeMount');
+  if(fixedMount){
+    const logoDirectory=document.getElementById('retailLogoDirectory');
+    if(logoDirectory&&logoDirectory.parentNode===fixedMount)fixedMount.insertBefore(host,logoDirectory);
+    else fixedMount.prepend(host);
+    return host;
+  }
+  const home=document.getElementById('homeViewContent')||document.getElementById('home')||document.querySelector('main');
   if(home){
     const reading=document.getElementById('homeReadingSection');
-    if(reading&&reading.parentNode===home)home.insertBefore(host,reading);
+    const logoDirectory=document.getElementById('retailLogoDirectory');
+    if(logoDirectory&&logoDirectory.parentNode===home)home.insertBefore(host,logoDirectory);
+    else if(reading&&reading.parentNode===home)home.insertBefore(host,reading);
     else home.append(host);
     return host;
   }

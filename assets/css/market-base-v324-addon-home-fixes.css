@@ -1,0 +1,22 @@
+/* MARKET BASE V324 add-on: keep home ranking icons compact on full-width PC. */
+@media (min-width: 1200px) {
+  body.mb-unified-main-page .target-ranking-grid .ranking-line-icon {
+    box-sizing: border-box !important;
+    width: 42px !important;
+    height: 42px !important;
+    min-width: 42px !important;
+    min-height: 42px !important;
+    max-width: 42px !important;
+    max-height: 42px !important;
+    flex: 0 0 42px !important;
+    padding: 6px !important;
+  }
+
+  body.mb-unified-main-page .target-ranking-grid .ranking-line-icon svg {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 30px !important;
+    max-height: 30px !important;
+  }
+}

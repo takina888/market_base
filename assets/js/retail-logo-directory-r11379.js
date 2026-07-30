@@ -72,7 +72,7 @@
   function mount(){
     if(document.getElementById('retailLogoDirectory'))return true;
     var daily=document.getElementById('dailyRetailShowcase');
-    var home=document.getElementById('home')||document.querySelector('main');
+    var home=document.getElementById('retailDiscoveryHomeMount')||document.getElementById('homeViewContent')||document.getElementById('home')||document.querySelector('main');
     if(!home)return false;
     var section=el('section','retail-logo-directory');
     section.id='retailLogoDirectory';
@@ -92,7 +92,13 @@
     viewport.setAttribute('tabindex','0');viewport.setAttribute('aria-label','小売企業ロゴ一覧。横方向にスクロールできます');
     DATA.boards.forEach(function(board,index){viewport.appendChild(createBoard(board,index));});
     section.appendChild(viewport);
-    if(daily&&daily.parentNode){daily.insertAdjacentElement('afterend',section);}else{home.appendChild(section);}
+    if(daily&&daily.parentNode===home){
+      daily.insertAdjacentElement('afterend',section);
+    }else{
+      var reading=document.getElementById('homeReadingSection');
+      if(reading&&reading.parentNode===home)home.insertBefore(section,reading);
+      else home.appendChild(section);
+    }
     var cards=[].slice.call(viewport.children);
     function currentIndex(){
       var left=viewport.scrollLeft;var best=0;var dist=Infinity;
@@ -114,7 +120,7 @@
   }
   function start(){
     if(mount())return;
-    var home=document.getElementById('home')||document.body;
+    var home=document.getElementById('retailDiscoveryHomeMount')||document.getElementById('homeViewContent')||document.getElementById('home')||document.body;
     var observer=new MutationObserver(function(){if(mount())observer.disconnect();});
     observer.observe(home,{childList:true,subtree:true});
     window.setTimeout(function(){mount();observer.disconnect();},12000);

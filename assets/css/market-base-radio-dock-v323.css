@@ -55,11 +55,14 @@
   position: absolute;
   top: 18px;
   right: 100%;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
   width: 38px;
-  min-height: 82px;
-  place-items: center;
-  padding: 8px 5px;
+  min-height: 92px;
+  padding: 7px 5px 9px;
   border: 1px solid #b9cee5;
   border-right: 0;
   border-radius: 14px 0 0 14px;
@@ -70,10 +73,46 @@
   letter-spacing: .12em;
   cursor: pointer;
   pointer-events: auto;
-  writing-mode: vertical-rl;
   transition:
     transform .24s ease,
     background-color .18s ease;
+}
+
+.mb-radio-dock-tab-arrow {
+  display: grid;
+  place-items: center;
+  width: 21px;
+  height: 21px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .2);
+  color: #fff;
+  font: 950 17px/1 system-ui, sans-serif;
+  letter-spacing: 0;
+}
+
+.mb-radio-dock-tab-label {
+  display: block;
+  writing-mode: vertical-rl;
+}
+
+.mb-radio-dock-tab-grip {
+  display: grid;
+  place-items: center;
+  width: 23px;
+  height: 18px;
+  margin-top: 1px;
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  color: rgba(255, 255, 255, .94);
+  font: 900 15px/1 system-ui, sans-serif;
+  letter-spacing: 0;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.mb-radio-dock[data-dragging="true"] .mb-radio-dock-tab-grip {
+  cursor: grabbing;
 }
 
 .mb-radio-dock[data-collapsed="true"] .mb-radio-dock-tab {
@@ -244,7 +283,7 @@
 
   .mb-radio-dock-tab {
     top: 13px;
-    min-height: 74px;
+    min-height: 86px;
   }
 
   .mb-radio-dock-controls {
