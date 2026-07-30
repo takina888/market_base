@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-07-30T09:08:23Z",
+  "generated_at": "2026-07-30T14:37:50Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,6 +29,26 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-07-30T12:08:50Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "37aa9ce55d1b3417",
+          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-07-30T09:30:14Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "16f2ab324dd15bcb",
           "title": "「飛鳥・藤原の宮都」世界遺産に決定!奈良県が4件で最多に | お知らせ | ニュース",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kZTVqX0JEOG1na0dHUkpYektmd2drUkpKOVhyZTVsUUZEYlExQi1iQjdvUkZJaWtsYk1ObDJWSndRVm85ODM4N1dlOG9sVldkVndlckZaYVNDbnp2UHc?oc=5",
@@ -39,51 +59,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "37aa9ce55d1b3417",
-          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-07-30T06:28:53Z",
+          "id": "68d6aac1012e3613",
+          "title": "辺野古沖転覆事故で死亡の女子高校生遺族が初の会見～同志社国際高校校長は事故2日後に「今後も訪問」 #エキスパートトピ",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcW0tWUxxeGVGLVJteFk3Mjc1c21fTXBfeTRiZC1lYTRJb0kyeVdqSVNqQTdyOFJLa3YtSUR0RUZSTEVFeUtlRXFWMmtpWi0temsyakY4R3Q0N0RmcExhdWQ4clQyQXl4X2tmSjBydi1SVXRhUFM5aE9FNVpjR3BkS0FYUkNBQWE4?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-07-30T08:05:39Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b10a99b886cb5b21",
-          "title": "台湾・国立新化高級工業職業学校との国際交流協定が地元紙で紹介されました",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zWHVQd2I0Qzk3cUpfZlprNE5KTVJreDBhMjJzOERNQy1WSjdacXF2U092TUtrTVUzajc4eWNSRFNxbXdvMGVEVTNZdWUxem5uVXZrd3RWLUZmVnBKYmJ1cm5nTS0?oc=5",
-          "source": "hachinohe-ct.ac.jp",
-          "published_at": "2026-07-30T04:28:55Z",
+          "id": "a25044098400f333",
+          "title": "世界遺産の合掌造り集落で火事 かやぶき屋根が焼ける 富山・南砺市（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83SzA4anVOd05Yck9EcG1ibHYxZzc4S2EzUWZSdWxDR0NleFJhMFVmQ09lNzEyNmlWaVJXek9yM1ZOOFgyNDdiVld5ZHE5UzZ5TFYxUFg3ZENBbHluQXlHME4xUG4xSnJySE5SOExlaEV2N25xSmF4V1BZdTNCNnM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-07-30T07:57:43Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6648c8840b185ce3",
-          "title": "海外展開の基礎を学ぶ食品輸出講座、オンラインで開催",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Oc2JGdEtORzlKc0tteTRjR0M0Z0pVYWcwdDNmb3NvMHY1dUZOQ3hyWTBDSk1qVXAycjRRdnNmaXJBQjlWR3RqM1hjNS1iOUh3TEdpTUZmRDBHT01lX1ppTHE1Zw?oc=5",
-          "source": "J-Net21[中小企業ビジネス支援サイト]",
-          "published_at": "2026-07-30T03:12:55Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0094c91199a1bcfc",
-          "title": "アダム・ミツキェヴィチ大学（ポーランド）との国際交流協定調印式",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yMVRtb2FEVWZ0aktsOXEwWkJEdjcyckFHMlBrSWxJN1NodXBvVWU1aUxHYVl0QXFfNEpsci16NVFHYzBTWEtHREkxcnp6RFk?oc=5",
-          "source": "u-ryukyu.ac.jp",
-          "published_at": "2026-07-30T01:11:55Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ae954d53ff9608a1",
-          "title": "赤十字国際委員会（ICRC）代表団が来訪",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9pR2lKcXREQkhxdHJ5MkFDb2p3Z01Tc1o1N0hYWnU2a3NuZDktekM2a3NEUzBMaFBNUlhFY0RIR1dpVU9VSThNSUI0M2w3UQ?oc=5",
-          "source": "waseda.jp",
-          "published_at": "2026-07-30T01:11:36Z",
+          "id": "b7ebac76f30c3d91",
+          "title": "熊本地震、海外メディアが一斉に速報…中国のＳＮＳでは「日本地震」が検索ワード１位に（読売新聞オンライン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfZi0tUXR6OEo2S1VuVnlMVklMczVqQjhaam5hczZWZnpueVI1WWdudU9nZ29KUk9xOXExc1VYSVE4LWhlaU9FZUVIWmVjT0NHaDBHaVZ4a0w5clgySGV5c2RMcS1CYVBRUVAtNFkwMkZDemFBSTh5SU1JVGo4Tmc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-07-30T07:42:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -182,7 +182,7 @@
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "monoist.itmedia.co.jp",
+          "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -212,7 +212,7 @@
           "id": "99b1c95f0b01beaa",
           "title": "自動車工場で見えるのに、食品工場では見えないモノ～今日何個作ると決めたか",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ed0JQbFVtSVgzNlgzM2daVTNSSG1oOEFVUFNXVXFPZWplUW5ObFVpNUQxYkJpU05jQm1hcGhZR1dsbURwWDc3N01TaDk3cTRPOFY0dFVIT0FMREo4VmN5eDJ1b3JSYjRCbVJXR05rcw?oc=5",
-          "source": "monoist.itmedia.co.jp",
+          "source": "MONOist",
           "published_at": "2026-05-25T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -257,7 +257,7 @@
           "id": "7e053bc766a46fc9",
           "title": "環境配慮の木造コンビニがオープン 四国中央",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAybnlzRndCRUo2aU95cWhxczZsR0RoZmM5T3g5T1FScktqMFg4V2YzYkotTUNPcVJpOFc1Tng0S1NCLXlicEo4VWtBeGtaR2Njb0ZKRk1aWW0?oc=5",
-          "source": "news.web.nhk",
+          "source": "NHKニュース",
           "published_at": "2026-07-22T09:15:00Z",
           "language": "ja",
           "category": "retail",
@@ -319,16 +319,6 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "f6fc1e08094f3800",
-          "title": "改正食品安全法の完成：地方分権化、デジタル変革、行政手続きの合理化の推進。",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY2ZpLTBvZXJ0V25vaHQ1UVdYM05CdWVYcVRLWHV4QmFMMk8wa19JNHJiOFFnY1k1VE42bTVOYV92cnFQMm0zTlJHWksxSHBVZkFldUoxT2FXLUFJVFlPUXJsUUxfWk1iSmJkVnpiQ19ZWDR0Mkxqa0dMeERzQmtUU3BybWdidER5LUhRNV9UOXowRHd2YUpqZW4yc0Jwb2RUbGtiWFJRNUVNXzE5Wi0wd0Y2ZXRCcWF6NGg1RHk3ZWpDbDBsMkE?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-07-23T17:08:38Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "19a307e3c8f59b8b",
           "title": "食品安全法を改正する際は、重複を避けるようにしてください。",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb2JkYjR3QTRvelZnU0RIQk1LdEZ0SkpZSm9KNzNtV0YtU05mY2twX0gyZDNRN0RwcXk3NW01VVQ5WVpEdm9NZ2RTMWZ1TWRZdF9UM3NSZ1RCZnc2VnJOQmhOV1FjRE1wRl9fLVlsZlk4NkNsQWJQX3NsWndaTUFxZXpLUQ?oc=5",
@@ -379,11 +369,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d529bbc0ada98a18",
-          "title": "食品安全規制の進展と石油化学原料の需給変動を考える ～ポジティブリスト制度・前面栄養表示の運用とナフサ確保懸念について～｜桜山 響詩朗",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NYVMxejRpODJJS3g2LUdaSGs0cmtXSV9EZEJDclFRR3JYYTU2UHV6STRWbm9pRVJXOE1PbHJ0LWJ5TFhTRFExd3ZYRDNYTjFqZkl2OHBPbFhYUQ?oc=5",
-          "source": "note",
-          "published_at": "2026-04-10T07:00:00Z",
+          "id": "494c5cdb50763b22",
+          "title": "米国包装材規制の今（1）輸出企業が注意すべきラベリング規制 | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2NWQxVWE4SEptakxqV0hjbjI3VDROeG5wbWpmU3dKMk5wNnhaMHRrcnpKaUxiRGNKZGxOWjlRRUVvN0ZHazdEOThqZ3N2MnJQWHVvMTgzbU91U2JuV0tTUXZXak94Rk9qWURfQV9oRXQ4cGg3?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-04-08T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c50535a38efdae7e",
+          "title": "リサイクラスが示すプラスチックのリサイクル認証基準（EU） 包装・包装廃棄物規則（PPWR）に対応",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS2wzOXFjcF83dnREZU9EanRBTHktWXQ4azVtRFU0T0hNZmlOOFRlbmxFYnQzZDRrU254cUlYRnlmbkNNLUdCRjhFbU9udXRiUlVCWXd4NEk1TkZRYnltSkl5TlRVYVZGaGh5S0tLSDlxTVFSTWd2YjExc3N1WUl0OUZiOXhtZw?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-04-08T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-07-30T09:08:23Z",
-  "last_success_at": "2026-07-30T09:08:23Z",
+  "last_attempt_at": "2026-07-30T14:37:50Z",
+  "last_success_at": "2026-07-30T14:37:50Z",
   "consecutive_failure_count": 0
 }
