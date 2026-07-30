@@ -1,7 +1,7 @@
 'use strict';
 importScripts('./assets/js/market-base-offline-manifest-v324.js?v=20260730-v324-offline-save-fix');
-const BUILD_ID='MARKET_BASE_V324_FLIGHT_LOCATION_CLEANUP_20260730';
-const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260730-v324-flight-location-cleanup';
+const BUILD_ID='MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730';
+const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260730-v324-offline-music-precise-numbers';
 const CACHE_NAME=`market-base-${VERSION}`;
 const OFFLINE_TEXT_CACHE='mb-user-offline-v324-text';
 const OFFLINE_IMAGE_CACHE='mb-user-offline-v324-images';
@@ -13,11 +13,11 @@ const REQUIRED=[
   "./index.html?v=20260730-v324-ifm225",
   "./offline.html?v=20260730-v324",
   "./version.txt?v=20260730-v324-ifm225",
-  "./assets/js/market-base-build.js?v=20260730-v324-ifm225",
-  "./assets/js/market-base-update-controller-v322.js?v=20260730-v324-radio-edge",
+  "./assets/js/market-base-build.js?v=20260730-v324-radio-update-recovery",
+  "./assets/js/market-base-update-controller-v322.js?v=20260730-v324-radio-update-recovery",
   "./assets/js/market-base-scroll-controls-r11328.js?v=20260730-v324-final",
-  "./assets/js/market-base-radio-dock-v323.js?v=20260730-v324-edge",
-  "./assets/css/market-base-radio-dock-v323.css?v=20260730-v324-edge",
+  "./assets/js/market-base-radio-dock-v323.js?v=20260730-v324-radio-recovery",
+  "./assets/css/market-base-radio-dock-v323.css?v=20260730-v324-radio-recovery",
   "./assets/js/market-base-offline-manifest-v324.js?v=20260730-v324-offline-save-fix",
   "./assets/css/market-base-offline-status-badge-v324.css?v=20260730-v324-offline-save-fix",
   "./assets/js/market-base-offline-status-badge-v324.js?v=20260730-v324-offline-save-fix",
@@ -32,8 +32,8 @@ const REQUIRED=[
 const CORE=[
   "./assets/css/v311-ui-fixes.css?v=20260729-v318",
   "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260730-v324",
-  "./assets/js/market-base-build.js?v=20260730-v324-ifm225",
-  "./assets/js/market-base-update-controller-v322.js?v=20260730-v324-radio-edge",
+  "./assets/js/market-base-build.js?v=20260730-v324-radio-update-recovery",
+  "./assets/js/market-base-update-controller-v322.js?v=20260730-v324-radio-update-recovery",
   "./embedded-country-profile-data-v273-r28.js?v=20260730-v324",
   "./assets/css/market-base-header-audit-v302.css?v=20260728-v302",
   "./assets/css/home-search-mode-v302.css?v=20260728-v302",
@@ -132,7 +132,7 @@ const CORE=[
   "./assets/css/market-base-global-bottom-nav-r11345.css?v=20260726-r11369",
   "./assets/css/market-base-bottom-press-feedback-r11367.css?v=20260726-r11369",
   "./assets/css/market-base-reading-section-r11366.css?v=20260727-r11383",
-  "./assets/js/market-base-build.js?v=20260730-v324-ifm225",
+  "./assets/js/market-base-build.js?v=20260730-v324-radio-update-recovery",
   "./assets/js/market-base-runtime-r11348.js?v=20260726-r11369",
   "./assets/flags/flag-svg-data.js?v=20260727-r11385-flaglock",
   "./assets/js/news.js?v=20260726-r11369",
@@ -172,17 +172,17 @@ const CORE=[
   ,"./work-basics/assets/data.js?v=20260730-v324"
   ,"./work-basics/assets/icon.svg?v=20260730-v324"
   ,"./work-basics/manifest.webmanifest?v=20260730-v324"
-  ,"./world-radio/index.html?v=20260730-v324"
-  ,"./world-radio/player.html?v=20260730-v324"
-  ,"./world-radio/assets/world-radio.css?v=20260730-v324"
-  ,"./world-radio/assets/world-radio-stations.js?v=20260730-v324"
-  ,"./world-radio/assets/world-radio.js?v=20260730-v324"
-  ,"./world-radio/assets/world-radio-player.css?v=20260730-v324"
-  ,"./world-radio/assets/world-radio-player.js?v=20260730-v324"
+  ,"./world-radio/index.html?v=20260730-v324-radio-recovery"
+  ,"./world-radio/player.html?v=20260730-v324-radio-recovery"
+  ,"./world-radio/assets/world-radio.css?v=20260730-v324-radio-recovery"
+  ,"./world-radio/assets/world-radio-stations.js?v=20260730-v324-radio-recovery"
+  ,"./world-radio/assets/world-radio.js?v=20260730-v324-radio-recovery"
+  ,"./world-radio/assets/world-radio-player.css?v=20260730-v324-radio-recovery"
+  ,"./world-radio/assets/world-radio-player.js?v=20260730-v324-radio-recovery"
   ,"./assets/css/world-radio-home-card-v307.css?v=20260730-v324"
   ,"./assets/css/market-base-v324-addon-home-fixes.css?v=20260730-v324-home-headings-edge"
-  ,"./assets/js/market-base-radio-dock-v323.js?v=20260730-v324-edge"
-  ,"./assets/css/market-base-radio-dock-v323.css?v=20260730-v324-edge"
+  ,"./assets/js/market-base-radio-dock-v323.js?v=20260730-v324-radio-recovery"
+  ,"./assets/css/market-base-radio-dock-v323.css?v=20260730-v324-radio-recovery"
   ,"./world-route.html?v=20260730-v324"
   ,"./world-route/index.html?v=20260730-v324"
   ,"./world-route/market-base-ui-base.css?v=20260730-v324"
@@ -204,27 +204,27 @@ async function cacheCoreSafely(){
     if(!response.ok)throw new Error(`precache ${response.status}: ${item}`);
     await cache.put(request,response.clone());
   };
+  // Only the shell required to recover and navigate is installation-blocking.
+  // The large CORE set is cached on first use or by the explicit offline save.
+  const installRequired=[
+    ...REQUIRED.slice(0,9),
+    "./flight-kitchen-v273-db-title-r27.html?v=20260730-v324-radio-recovery",
+    "./embedded-cross-db-search-index-v273-db-title-r27.js?v=20260730-v324-radio-recovery",
+    "./world-radio/index.html?v=20260730-v324-radio-recovery",
+    "./world-radio/player.html?v=20260730-v324-radio-recovery",
+    "./world-radio/assets/world-radio-stations.js?v=20260730-v324-radio-recovery",
+    "./world-radio/assets/world-radio.js?v=20260730-v324-radio-recovery",
+    "./world-radio/assets/world-radio-player.js?v=20260730-v324-radio-recovery"
+  ];
   const requiredController=new AbortController();
-  const requiredTimeout=setTimeout(()=>requiredController.abort(),15000);
+  const requiredTimeout=setTimeout(()=>requiredController.abort(),12000);
   try{
-    await Promise.all(REQUIRED.map(item=>put(item,requiredController.signal)));
+    await Promise.all(installRequired.map(item=>put(item,requiredController.signal)));
   }catch(error){
     await caches.delete(CACHE_NAME);
     throw error;
   }finally{
     clearTimeout(requiredTimeout);
-  }
-  const required=new Set(REQUIRED);
-  const optionalController=new AbortController();
-  const optionalTimeout=setTimeout(()=>optionalController.abort(),8000);
-  try{
-    await Promise.allSettled(CORE.filter(item=>!required.has(item)).map(async item=>{
-      try{
-        await put(item,optionalController.signal);
-      }catch(_e){/* one missing optional asset must not abort the whole service worker */}
-    }));
-  }finally{
-    clearTimeout(optionalTimeout);
   }
 }
 self.addEventListener('install',event=>{

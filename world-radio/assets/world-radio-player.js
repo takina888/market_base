@@ -58,6 +58,11 @@
     }
   }
 
+  function storageRemove(key) {
+    try { localStorage.removeItem(key); }
+    catch (_) {}
+  }
+
   function readJson(key) {
     try { return JSON.parse(storageGet(key) || 'null'); }
     catch (_) { return null; }
@@ -75,7 +80,7 @@
     const station = currentStation();
     const now = Date.now();
     return {
-      version: 1,
+      version: 2,
       instanceId,
       stationId: station.id,
       stationName: station.name,
@@ -103,7 +108,14 @@
     status = 'paused';
     playIntent = false;
     needsGesture = false;
-    publishState();
+    storageRemove(STATE_KEY);
+    try {
+      channel?.postMessage({
+        type: 'STATE',
+        state: null,
+        releasedInstanceId: instanceId
+      });
+    } catch (_) {}
   }
 
   function setMessage(message) {
@@ -406,10 +418,14 @@
   initializeMediaSessionActions();
 
   const requestedId = new URLSearchParams(location.search).get('id');
+  const autoplayRequested = new URLSearchParams(location.search).get('autoplay') === '1';
   const requestedIndex = stations.findIndex(station => station.id === requestedId);
   setStation(requestedIndex >= 0 ? requestedIndex : 0);
   claimPlayer();
   publishState();
+  if (autoplayRequested) {
+    playCurrent('button');
+  }
 
   window.setInterval(() => {
     if (!shuttingDown && ownsState) publishState();

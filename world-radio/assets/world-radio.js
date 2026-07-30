@@ -48,7 +48,7 @@
         <p class="station-meta">${escapeHtml(station.place)}</p>
         <h3>${escapeHtml(station.name)}</h3>
         <p>${escapeHtml(station.description)}</p>
-        <a class="radio-open" href="player.html?id=${encodeURIComponent(station.id)}&amp;v=20260730-v324" target="_blank" rel="noopener">
+        <a class="radio-open" href="player.html?id=${encodeURIComponent(station.id)}&amp;autoplay=1&amp;v=20260730-v324-radio-recovery" target="_blank" rel="noopener">
           <span aria-hidden="true">▶</span> 別タブで聴く
         </a>
       </article>

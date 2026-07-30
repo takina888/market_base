@@ -16,6 +16,13 @@
   visibility: hidden;
 }
 
+.mb-radio-dock,
+.mb-radio-dock *,
+.mb-radio-dock *::before,
+.mb-radio-dock *::after {
+  box-sizing: border-box;
+}
+
 .mb-radio-dock.is-positioned {
   visibility: visible;
 }
@@ -27,6 +34,7 @@
 .mb-radio-dock-panel {
   position: relative;
   width: 100%;
+  max-width: calc(100vw - 70px - var(--dock-safe-right));
   padding: 10px;
   border: 1px solid rgba(184, 207, 232, .96);
   border-radius: 17px 0 0 17px;

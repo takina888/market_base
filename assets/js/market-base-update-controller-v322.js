@@ -3,7 +3,7 @@
 
   if (global.MarketBaseUpdate) return;
 
-  const BUILD_ID = 'MARKET_BASE_V324_FLIGHT_LOCATION_CLEANUP_20260730';
+  const BUILD_ID = 'MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730';
   const LEGACY_PAGE_BUILD = 'MARKET_BASE_LEGACY_PAGE';
   const CHANNEL_NAME = 'market-base-update-v1';
   const SIGNAL_KEY = 'market_base_global_refresh_signal';
@@ -17,6 +17,7 @@
   ];
   const INACTIVITY_MS = 6 * 60 * 60 * 1000;
   const RADIO_GRACE_MS = 12 * 60 * 60 * 1000;
+  const SERVICE_WORKER_TIMEOUT_MS = 12000;
   const SCRIPT_URL = document.currentScript?.src || '';
   let siteRoot;
   try {
@@ -33,7 +34,7 @@
     channel: null
   };
   const radioDockUrl = new URL(
-    'assets/js/market-base-radio-dock-v323.js?v=20260730-v324-edge',
+    'assets/js/market-base-radio-dock-v323.js?v=20260730-v324-radio-recovery',
     siteRoot
   );
 
@@ -104,6 +105,10 @@
     return normalizedPath(global.location.pathname) === normalizedPath(home.pathname);
   }
 
+  function isRadioPlayerPage() {
+    return /\/world-radio\/player\.html$/i.test(global.location.pathname);
+  }
+
   function normalizedPath(pathname) {
     return String(pathname || '').replace(/\/index\.html$/i, '/');
   }
@@ -111,7 +116,7 @@
   function redirectAfterInactivity() {
     if (!/^https?:$/.test(global.location.protocol)) return false;
     if (offlineModeActive()) return false;
-    if (/\/world-radio\/player\.html$/i.test(global.location.pathname)) return false;
+    if (isRadioPlayerPage()) return false;
     const lastActive = Number(storageGet('localStorage', LAST_ACTIVE_KEY) || 0);
     const idle = (
       lastActive > 0 &&
@@ -153,7 +158,7 @@
 
   function loadRadioDock() {
     if (
-      /\/world-radio\/player\.html$/i.test(global.location.pathname) ||
+      isRadioPlayerPage() ||
       document.querySelector('script[data-mb-radio-dock]')
     ) return;
     const script = document.createElement('script');
@@ -164,10 +169,10 @@
   }
 
   function currentBuildId() {
-    return versionToken(
-      document.querySelector('meta[name="market-base-site-build"]')?.content ||
-      LEGACY_PAGE_BUILD
-    );
+    // The controller itself is the authoritative site generation. Some
+    // specialist pages intentionally keep older static metadata, which must
+    // not trigger an automatic refresh loop on every open.
+    return versionToken(BUILD_ID || LEGACY_PAGE_BUILD);
   }
 
   function sitePath() {
@@ -284,9 +289,22 @@
     catch (_) { return ''; }
   }
 
+  function withTimeout(promise, timeoutMs, message) {
+    let timeout = 0;
+    const timed = new Promise((_, reject) => {
+      timeout = global.setTimeout(
+        () => reject(new Error(message || 'operation timed out')),
+        timeoutMs
+      );
+    });
+    return Promise.race([Promise.resolve(promise), timed])
+      .finally(() => global.clearTimeout(timeout));
+  }
+
   function waitForTargetWorker(registration, remoteVersion) {
     return new Promise((resolve, reject) => {
       let finished = false;
+      const observed = new Set();
       const finish = error => {
         if (finished) return;
         finished = true;
@@ -294,18 +312,35 @@
         global.clearInterval(poll);
         registration.removeEventListener?.('updatefound', inspect);
         navigator.serviceWorker.removeEventListener?.('controllerchange', inspect);
+        observed.forEach(worker => {
+          worker.removeEventListener?.('statechange', inspect);
+        });
         if (error) reject(error);
         else resolve(registration);
       };
+      const observe = worker => {
+        if (
+          !worker ||
+          workerVersion(worker) !== remoteVersion ||
+          observed.has(worker)
+        ) return;
+        observed.add(worker);
+        worker.addEventListener?.('statechange', inspect);
+      };
       const inspect = () => {
-        const target = [registration.waiting, registration.installing]
+        [registration.waiting, registration.installing].forEach(observe);
+        const target = Array.from(observed)
           .find(worker => worker && workerVersion(worker) === remoteVersion);
         if (target) {
           if (target.state === 'installed') target.postMessage({ type: 'SKIP_WAITING' });
+          if (target.state === 'activated') {
+            finish();
+            return;
+          }
           if (target.state === 'redundant') {
             finish(new Error('service worker install failed'));
+            return;
           }
-          return;
         }
         const active = registration.active;
         if (
@@ -318,7 +353,7 @@
       };
       const timeout = global.setTimeout(
         () => finish(new Error('service worker activation timed out')),
-        45000
+        SERVICE_WORKER_TIMEOUT_MS
       );
       const poll = global.setInterval(inspect, 100);
       registration.addEventListener?.('updatefound', inspect);
@@ -327,7 +362,7 @@
     });
   }
 
-  async function updateServiceWorkers(remoteVersion) {
+  async function updateServiceWorkersInternal(remoteVersion) {
     if (!('serviceWorker' in navigator) || !/^https?:$/.test(global.location.protocol)) return;
     const rootScope = sitePath();
     const swUrl = new URL('sw.js', siteRoot);
@@ -336,31 +371,50 @@
       scope: rootScope,
       updateViaCache: 'none'
     });
-    if (
-      workerVersion(rootRegistration.active) === remoteVersion &&
-      typeof rootRegistration.update === 'function'
-    ) {
-      await rootRegistration.update();
+    if (typeof rootRegistration.update === 'function') {
+      await withTimeout(
+        rootRegistration.update(),
+        Math.min(7000, SERVICE_WORKER_TIMEOUT_MS),
+        'service worker update check timed out'
+      );
     }
     rootRegistration.waiting?.postMessage({ type: 'SKIP_WAITING' });
     rootRegistration.installing?.postMessage({ type: 'SKIP_WAITING' });
-    await waitForTargetWorker(rootRegistration, remoteVersion);
+    if (
+      rootRegistration.waiting ||
+      rootRegistration.installing ||
+      workerVersion(rootRegistration.active) !== remoteVersion
+    ) {
+      await waitForTargetWorker(rootRegistration, remoteVersion);
+    }
 
-    const registrations = await navigator.serviceWorker.getRegistrations();
-    const nestedRegistrations = registrations.filter(registration => {
-      if (!isSiteRegistration(registration)) return false;
-      try { return new URL(registration.scope).pathname !== rootScope; }
-      catch (_) { return false; }
-    });
-    await Promise.all(nestedRegistrations.map(async registration => {
-      try {
-        await registration.update();
-        registration.waiting?.postMessage({ type: 'SKIP_WAITING' });
-        registration.installing?.postMessage({ type: 'SKIP_WAITING' });
-      } catch (_) {
-        // A legacy nested registration must not block the root update.
-      }
-    }));
+    // Legacy nested registrations are reconciled in the background. A single
+    // stalled child worker must never keep the global update button busy.
+    Promise.resolve(navigator.serviceWorker.getRegistrations())
+      .then(registrations => registrations.filter(registration => {
+        if (!isSiteRegistration(registration)) return false;
+        try { return new URL(registration.scope).pathname !== rootScope; }
+        catch (_) { return false; }
+      }))
+      .then(nestedRegistrations => {
+        nestedRegistrations.forEach(registration => {
+          Promise.resolve(registration.update?.())
+            .then(() => {
+              registration.waiting?.postMessage({ type: 'SKIP_WAITING' });
+              registration.installing?.postMessage({ type: 'SKIP_WAITING' });
+            })
+            .catch(() => {});
+        });
+      })
+      .catch(() => {});
+  }
+
+  function updateServiceWorkers(remoteVersion) {
+    return withTimeout(
+      updateServiceWorkersInternal(remoteVersion),
+      SERVICE_WORKER_TIMEOUT_MS,
+      'service worker update timed out'
+    );
   }
 
   async function pruneOldSiteCaches(remoteVersion) {
@@ -493,6 +547,7 @@
   }
 
   async function checkOnOpen() {
+    if (isRadioPlayerPage()) return false;
     if (offlineModeActive()) return false;
     if (state.autoPromise) return state.autoPromise;
     state.autoPromise = (async () => {
@@ -529,6 +584,7 @@
 
   function handleRemoteReload(message) {
     if (
+      isRadioPlayerPage() ||
       offlineModeActive() ||
       !message ||
       message.type !== 'MARKET_BASE_RELOAD' ||

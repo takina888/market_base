@@ -10,6 +10,7 @@
   const DISMISSED_KEY = 'market_base_radio_dock_dismissed_v1';
   const CHANNEL_NAME = 'market-base-radio-v1';
   const STATE_GRACE_MS = 12 * 60 * 60 * 1000;
+  const COMMAND_ACK_TIMEOUT_MS = 3200;
   const VERTICAL_EDGE_GAP = 10;
   const sourceId = `dock-${Date.now()}-${Math.random().toString(36).slice(2)}`;
   const scriptNode = document.currentScript ||
@@ -31,6 +32,8 @@
   let collapsed = collapsedPreference === '1';
   let dismissed = storageGet(DISMISSED_KEY) === '1';
   let messageResetHandle = 0;
+  let commandAckHandle = 0;
+  let pendingCommandId = '';
   let positionFrame = 0;
   let dragState = null;
 
@@ -48,6 +51,11 @@
     }
   }
 
+  function storageRemove(key) {
+    try { localStorage.removeItem(key); }
+    catch (_) {}
+  }
+
   function readJson(key) {
     try { return JSON.parse(storageGet(key) || 'null'); }
     catch (_) { return null; }
@@ -60,12 +68,11 @@
   function stateIsFresh(state) {
     return !!(
       state &&
+      Number(state.version || 0) >= 2 &&
       state.stationId &&
       Number.isFinite(Number(state.updatedAt)) &&
-      (
-        Number(state.validUntil || 0) > Date.now() ||
-        Date.now() - Number(state.updatedAt) < STATE_GRACE_MS
-      )
+      Date.now() - Number(state.updatedAt) >= 0 &&
+      Date.now() - Number(state.updatedAt) < STATE_GRACE_MS
     );
   }
 
@@ -74,7 +81,7 @@
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = new URL(
-      'assets/css/market-base-radio-dock-v323.css?v=20260730-v324-edge',
+      'assets/css/market-base-radio-dock-v323.css?v=20260730-v324-radio-recovery',
       siteRoot
     ).href;
     link.dataset.mbRadioDockStyle = '';
@@ -110,7 +117,7 @@
             <button type="button" data-radio-command="next" aria-label="次の放送局">›</button>
           </div>
           <a class="mb-radio-dock-open" id="mbRadioDockOpen"
-            href="${new URL('world-radio/player.html?id=wnyc&v=20260730-v324', siteRoot).href}"
+            href="${new URL('world-radio/player.html?id=wnyc&autoplay=1&v=20260730-v324-radio-recovery', siteRoot).href}"
             target="_blank" rel="noopener"
             aria-label="世界のラジオプレイヤーを別タブで開く">
             <span aria-hidden="true">↗</span>
@@ -195,14 +202,15 @@
       return Number.isFinite(parsed) ? parsed : 0;
     };
     const safeTop = cssPixels('--dock-safe-top');
+    const safeRight = cssPixels('--dock-safe-right');
     const safeBottom = cssPixels('--dock-safe-bottom');
-    const panelWidth = Math.max(1, dock.offsetWidth || panel.offsetWidth || 280);
+    const panelWidth = Math.max(1, dock.offsetWidth || 0, panel.offsetWidth || 280);
     const panelHeight = Math.max(1, panel.offsetHeight || 132);
     const tabWidth = Math.max(1, dockTab.offsetWidth || 38);
     const minimumX = tabWidth;
     const maximumX = Math.max(
       minimumX,
-      global.innerWidth - panelWidth
+      global.innerWidth - safeRight - panelWidth
     );
     const minimumY = VERTICAL_EDGE_GAP + safeTop;
     const maximumY = Math.max(
@@ -309,7 +317,7 @@
       placeLabel.textContent = 'WNYCから聴く';
       controls.hidden = true;
       openLink.href = new URL(
-        'world-radio/player.html?id=wnyc&v=20260730-v324',
+        'world-radio/player.html?id=wnyc&autoplay=1&v=20260730-v324-radio-recovery',
         siteRoot
       ).href;
       message.textContent = '';
@@ -331,7 +339,7 @@
       active ? '再生を停止する' : '再生する'
     );
     openLink.href = new URL(
-      `world-radio/player.html?id=${encodeURIComponent(currentState.stationId)}&v=20260730-v324`,
+      `world-radio/player.html?id=${encodeURIComponent(currentState.stationId)}&autoplay=1&v=20260730-v324-radio-recovery`,
       siteRoot
     ).href;
     if (currentState.needsGesture) {
@@ -368,6 +376,16 @@
     };
     try { channel?.postMessage(command); } catch (_) {}
     storageSet(COMMAND_KEY, JSON.stringify(command));
+    pendingCommandId = command.id;
+    global.clearTimeout(commandAckHandle);
+    commandAckHandle = global.setTimeout(() => {
+      if (pendingCommandId !== command.id) return;
+      pendingCommandId = '';
+      const stored = readState();
+      if (stored?.instanceId === command.targetInstanceId) storageRemove(STATE_KEY);
+      render(null);
+      temporaryMessage('再生タブとの接続が切れました。別タブを開いてください。');
+    }, COMMAND_ACK_TIMEOUT_MS);
     temporaryMessage(
       action === 'toggle'
         ? (currentState.playing || currentState.status === 'loading'
@@ -465,7 +483,16 @@
       channel = new BroadcastChannel(CHANNEL_NAME);
       channel.addEventListener('message', event => {
         if (event.data?.type === 'STATE') render(event.data.state);
-        if (event.data?.type === 'ACK' && event.data.state) render(event.data.state);
+        if (event.data?.type === 'ACK') {
+          if (
+            pendingCommandId &&
+            event.data.commandId === pendingCommandId
+          ) {
+            pendingCommandId = '';
+            global.clearTimeout(commandAckHandle);
+          }
+          if (event.data.state) render(event.data.state);
+        }
       });
     } catch (_) {}
   }
@@ -492,6 +519,7 @@
   render();
   global.setInterval(() => render(), 30000);
   global.addEventListener('pagehide', () => {
+    global.clearTimeout(commandAckHandle);
     try { channel?.close(); } catch (_) {}
   }, { once: true });
 
