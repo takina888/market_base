@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="description" content="英語の会話と世界の音楽を、公式ライブ放送で楽しむMARKET BASEの世界ラジオ。">
+  <meta name="description" content="聞き取りやすい英語放送と、ハワイアンやボサノバなどの穏やかな音楽を楽しむMARKET BASEの世界ラジオ。">
   <title>世界のラジオ｜MARKET BASE</title>
   <link rel="icon" sizes="32x32" type="image/png" href="../icons/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon-180.png">
   <link rel="stylesheet" href="../assets/css/market-base-primary-components-r11326.css">
   <link rel="stylesheet" href="../assets/css/market-base-desktop-icon-nav-r11337.css">
   <link rel="stylesheet" href="../assets/css/market-base-standard-shell-r11372.css">
-  <link rel="stylesheet" href="../assets/css/market-base-scroll-controls-r11328.css?v=20260729-v307">
+  <link rel="stylesheet" href="../assets/css/market-base-scroll-controls-r11328.css?v=20260730-v324">
   <link rel="stylesheet" href="../assets/css/market-base-header-audit-v302.css?v=20260729-v307">
   <link rel="stylesheet" href="../assets/css/market-base-bottom-nav-unified-r11409.css?v=20260729-v307">
-  <link rel="stylesheet" href="assets/world-radio.css?v=20260730-v322">
-  <meta name="market-base-build" content="MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730">
-<meta name="market-base-site-build" content="MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730">
+  <link rel="stylesheet" href="assets/world-radio.css?v=20260730-v324">
+  <meta name="market-base-build" content="MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730">
+  <meta name="market-base-site-build" content="MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730">
 </head>
 <body class="mb-unified-specialist-page mb-standard-page mb-has-primary-bottom-nav world-radio-page">
   <div class="mb-primary-header-host">
@@ -32,7 +32,7 @@
     <section class="radio-hero" aria-labelledby="pageTitle">
       <p class="radio-eyebrow">LISTEN TO THE WORLD</p>
       <h1 id="pageTitle">世界のラジオ</h1>
-      <p class="radio-lead">遠くの街の声や、世界各地の音楽に耳を傾ける。局を選ぶと、MARKET BASEとは別のラジオウインドウが開きます。</p>
+      <p class="radio-lead">聞き取りやすい英語放送と、ハワイアンやボサノバなどの音楽局を選びました。局を選ぶと、直接再生できる専用プレイヤーが別タブで開きます。</p>
     </section>
 
     <section class="best-selection" aria-labelledby="bestTitle">
@@ -42,36 +42,48 @@
         <h2 id="bestTitle">WNYC</h2>
         <p>ニュース、文化、社会、インタビュー。自然なアメリカ英語をたっぷり聴けるニューヨークの公共ラジオです。</p>
       </div>
-      <button class="best-play radio-open" type="button" data-station="wnyc"><span aria-hidden="true">▶</span> WNYCを聴く</button>
+      <a class="best-play radio-open" href="player.html?id=wnyc&amp;v=20260730-v324" target="_blank" rel="noopener">
+        <span aria-hidden="true">▶</span> WNYCを聴く
+      </a>
     </section>
 
-    <section class="player-status" aria-live="polite" aria-label="ラジオウインドウの状況">
-      <div><span class="status-label">RADIO WINDOW</span><strong id="nowPlaying">局を選んでください</strong><small id="nowDetail">選んだ局を独立したラジオウインドウで開きます</small></div>
+    <section class="player-status" aria-live="polite" aria-label="ラジオの再生状況">
+      <div>
+        <span class="status-label">NOW PLAYING</span>
+        <strong id="nowPlaying">停止中</strong>
+        <small id="nowDetail">局を選び、別タブで再生ボタンを押してください</small>
+      </div>
     </section>
 
-    <div class="radio-tabs" role="tablist" aria-label="ラジオの分類">
-      <button role="tab" aria-selected="true" data-tab="english">英語を聴く</button>
-      <button role="tab" aria-selected="false" data-tab="hawaii">ハワイ</button>
-      <button role="tab" aria-selected="false" data-tab="india">インド</button>
-      <button role="tab" aria-selected="false" data-tab="arabia">アラビア</button>
-      <button role="tab" aria-selected="false" data-tab="brazil">ブラジル</button>
-      <button role="tab" aria-selected="false" data-tab="celtic">ケルト</button>
-      <button role="tab" aria-selected="false" data-tab="africa">アフリカ</button>
-      <button role="tab" aria-selected="false" data-tab="caribbean">カリブ・地中海</button>
-    </div>
+    <section class="station-section" aria-labelledby="englishStationTitle">
+      <div class="station-heading">
+        <p>ENGLISH RADIO</p>
+        <h2 id="englishStationTitle">英語を聴く</h2>
+      </div>
+      <div id="englishStationGrid" class="station-grid" aria-label="英語のラジオ局一覧"></div>
+    </section>
 
-    <section id="stationGrid" class="station-grid" aria-label="ラジオ局一覧"></section>
-    <p class="radio-note">公式放送は独立したタブで開きます。再生したままMARKET BASEへ戻るときは、公式放送のタブを閉じずにMARKET BASEのタブへ切り替えてください。放送局や端末の仕様により、バックグラウンド再生が制限される場合があります。</p>
+    <section class="station-section music-station-section" aria-labelledby="musicStationTitle">
+      <div class="station-heading">
+        <p>CALM MUSIC</p>
+        <h2 id="musicStationTitle">音楽を聴く</h2>
+      </div>
+      <p class="station-intro">ハワイアン、ボサノバ、アイランド音楽と、アメリカのポップを選びました。</p>
+      <div id="musicStationGrid" class="station-grid" aria-label="音楽のラジオ局一覧"></div>
+    </section>
+
+    <p class="radio-note">再生を始めた専用プレイヤーのタブは閉じず、「戻る」ではなくタブを切り替えてMARKET BASEへ戻ってください。iPhoneでは最初の再生時に、プレイヤー内の再生ボタンを一度押す必要があります。放送局や端末の状態により、バックグラウンド再生が止まる場合があります。</p>
   </main>
 
   <nav class="mb-primary-bottom-nav" aria-label="下部ナビゲーション">
     <a class="mb-primary-bottom-tab" href="../index.html"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 14.5 16 5l10.5 9.5v11.2a1.8 1.8 0 0 1-1.8 1.8H7.3a1.8 1.8 0 0 1-1.8-1.8Z"></path><path d="M12 27.5v-8.8h8v8.8"></path></svg></span><b>ホーム</b></a>
-    <a class="mb-primary-bottom-tab" href="../market-base-currency-converter-v273-r29.html"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="11" cy="16" r="6.5"></circle><circle cx="21" cy="16" r="6.5"></circle><path d="M8 12.5h6M11 9.5v13M18 12.5h6M18 19.5h6"></path></svg></span><b>ツール</b></a>
-    <a class="mb-primary-bottom-tab active" aria-current="page" href="../index.html?view=learn"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 6.5h8.2c1.25 0 2.3.45 3.3 1.35 1-.9 2.05-1.35 3.3-1.35h6.2v19h-6.2c-1.25 0-2.3.45-3.3 1.35-1-.9-2.05-1.35-3.3-1.35H5.5Z"></path><path d="M16 8v18.5M8.5 11h4.5M8.5 15h4.5M19 11h4.5M19 15h4.5"></path></svg></span><b>学ぶ</b></a>
+    <a class="mb-primary-bottom-tab active" aria-current="page" href="../market-base-currency-converter-v273-r29.html"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="11" cy="16" r="6.5"></circle><circle cx="21" cy="16" r="6.5"></circle><path d="M8 12.5h6M11 9.5v13M18 12.5h6M18 19.5h6"></path></svg></span><b>ツール</b></a>
+    <a class="mb-primary-bottom-tab" href="../index.html?view=learn"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 6.5h8.2c1.25 0 2.3.45 3.3 1.35 1-.9 2.05-1.35 3.3-1.35h6.2v19h-6.2c-1.25 0-2.3.45-3.3 1.35-1-.9-2.05-1.35-3.3-1.35H5.5Z"></path><path d="M16 8v18.5M8.5 11h4.5M8.5 15h4.5M19 11h4.5M19 15h4.5"></path></svg></span><b>学ぶ</b></a>
     <a class="mb-primary-bottom-tab" href="../index.html?view=rankings"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 27.5V19h5v8.5M13.5 27.5V13h5v14.5M22 27.5V5h5v22.5M3.5 27.5h25"></path></svg></span><b>ランキング</b></a>
   </nav>
-  <script src="assets/world-radio.js?v=20260730-v322"></script>
-  <script src="../assets/js/market-base-desktop-icon-nav-r11337.js" data-mb-root="../" data-mb-active="learn"></script>
-  <script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260730-v322"></script>
+  <script src="assets/world-radio-stations.js?v=20260730-v324"></script>
+  <script src="assets/world-radio.js?v=20260730-v324"></script>
+  <script src="../assets/js/market-base-desktop-icon-nav-r11337.js" data-mb-root="../" data-mb-active="tools"></script>
+  <script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260730-v324"></script>
 </body>
 </html>

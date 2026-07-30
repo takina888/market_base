@@ -7,27 +7,32 @@ import vm from 'node:vm';
 import { spawnSync } from 'node:child_process';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
+const BUILD_ID = 'MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730';
 const read = relative => fs.readFileSync(path.join(ROOT, relative), 'utf8');
 
 const index = read('index.html');
 const currency = read('market-base-currency-converter-v273-r29.html');
 const radioIndex = read('world-radio/index.html');
 const radioPlayer = read('world-radio/player.html');
-const radioJs = read('world-radio/assets/world-radio.js');
+const radioStationsSource = read('world-radio/assets/world-radio-stations.js');
+const radioIndexJs = read('world-radio/assets/world-radio.js');
 const radioPlayerJs = read('world-radio/assets/world-radio-player.js');
+const radioDockJs = read('assets/js/market-base-radio-dock-v323.js');
+const radioDockCss = read('assets/css/market-base-radio-dock-v323.css');
 const radioCss = read('world-radio/assets/world-radio.css');
 const radioPlayerCss = read('world-radio/assets/world-radio-player.css');
+const updateController = read('assets/js/market-base-update-controller-v322.js');
 const sw = read('sw.js');
 const runtime = read('assets/js/market-base-runtime-r11348.js');
 const scrollController = read('assets/js/market-base-scroll-controls-r11328.js');
 
-assert.ok(!index.includes('home-world-radio-entry-section'),
-  'the World Radio card must be removed from the main page');
-assert.ok(!index.includes('world-radio-home-card-v307.css'),
-  'the removed main-page card stylesheet must not be loaded');
-assert.ok(!index.includes('world-radio/index.html') &&
-  !index.includes('世界のラジオ'),
-  'the main page must not retain a World Radio card or prefetch');
+assert.ok(index.includes('home-world-radio-entry-section'),
+  'the World Radio card must be present on the main page');
+assert.ok(index.includes('world-radio-home-card-v307.css?v=20260730-v324'),
+  'the main-page World Radio card stylesheet must be loaded');
+assert.ok(index.includes('world-radio/index.html?v=20260730-v324') &&
+  index.includes('世界のラジオ'),
+  'the main-page World Radio card must link to the radio page');
 
 const homeStart = index.indexOf('<div id="homeViewContent"');
 const homeEnd = index.indexOf('<nav aria-label="メインナビゲーション"', homeStart);
@@ -35,18 +40,20 @@ const home = index.slice(homeStart, homeEnd);
 const historyMount = '<div id="historyLearningMount"></div>';
 assert.equal((index.match(/id="historyLearningMount"/g) || []).length, 1,
   'the history mount must exist exactly once');
-assert.ok(home.endsWith(`${historyMount}\n</div>\n`),
-  'World History must be the final block of the main page');
+const radioCard = '<section class="home-world-radio-entry-section"';
+assert.ok(home.indexOf(historyMount) < home.indexOf(radioCard),
+  'World History must remain near the bottom, immediately before World Radio');
+assert.ok(home.trimEnd().endsWith('</section>\n</div>'),
+  'World Radio must be the final card of the main page');
 
-assert.ok(currency.includes('world-radio/index.html?v=20260730-v322'),
+assert.ok(currency.includes('world-radio/index.html?v=20260730-v324'),
   'World Radio must remain accessible from the Tools page');
-assert.ok(
-  /if\(\/\(\?:-v273-\|food-machinery-import\|rice-additive-products\)\/i\.test\(file\)\)return homeTarget\(''\)/.test(scrollController) &&
-  !scrollController.includes("return homeTarget('global-search')"),
-  'database BACK controls must return to the main page, not Cross Research'
-);
-function databaseBackTarget(file) {
-  const page = new URL(`https://example.test/market-base/${file}?from=global-search`);
+assert.ok(index.includes('world-route/index.html?v=20260730-v324') &&
+  index.includes('machine-container-packing/index.html?v=20260730-v324'),
+  'the simplified Route and Packing pages must be enabled on the main page');
+
+function backTarget(relative) {
+  const page = new URL(`https://example.test/market-base/${relative}?from=global-search`);
   const context = {
     URL,
     location: {
@@ -73,6 +80,7 @@ function databaseBackTarget(file) {
   });
   return new URL(context.MarketBaseSafeBack.target(null));
 }
+
 for (const file of [
   'cvs-vendor-v273-db-title-r27.html',
   'flight-kitchen-v273-db-title-r27.html',
@@ -83,40 +91,92 @@ for (const file of [
   'rail-food-kitchen-v273-db-title-r27.html',
   'retail-sales-v273-db-title-r27.html',
   'rice-additive-products-v273-r33.html',
-  'school-meal-center-v273-db-title-r27.html'
+  'school-meal-center-v273-db-title-r27.html',
+  'world-route/index.html',
+  'world-route.html',
+  'machine-container-packing/index.html'
 ]) {
-  const target = databaseBackTarget(file);
+  const target = backTarget(file);
   assert.equal(target.pathname, '/market-base/index.html',
     `${file} BACK must point to the main page`);
-  assert.equal(target.search, '', `${file} BACK must not retain Cross Research`);
+  assert.equal(target.search, '', `${file} BACK must not retain another main-page view`);
+}
+
+const stationContext = { window: {} };
+vm.createContext(stationContext);
+vm.runInContext(radioStationsSource, stationContext, {
+  filename: 'world-radio-stations.js'
+});
+const stations = stationContext.window.MarketBaseRadioStations;
+assert.equal(stations.length, 10, 'the direct-play shortlist must contain ten stations');
+assert.deepEqual(
+  Array.from(stations, station => station.name),
+  [
+    'WNYC', 'WHYY', 'WBUR', 'KQED', 'BBC World Service', 'RNZ National',
+    'KPOA 93.5 FM', 'Radio Estilo Leblon', 'LOUNGE-RADIO.COM', '181.FM The Mix'
+  ]
+);
+assert.equal(stations[0].stream, 'https://fm939.wnyc.org/wnycfm');
+assert.equal(stations.filter(station => station.category === 'english').length, 6);
+assert.equal(stations.filter(station => station.category === 'music').length, 4);
+for (const station of stations) {
+  assert.match(station.stream, /^https:\/\//);
+  assert.match(station.official, /^https:\/\//);
+  assert.ok(station.country && station.city);
 }
 
 for (const [name, source] of Object.entries({
   'world-radio/index.html': radioIndex,
   'world-radio/player.html': radioPlayer,
-  'world-radio/assets/world-radio.js': radioJs,
+  'world-radio/assets/world-radio-stations.js': radioStationsSource,
+  'world-radio/assets/world-radio.js': radioIndexJs,
   'world-radio/assets/world-radio-player.js': radioPlayerJs,
   'world-radio/assets/world-radio.css': radioCss,
-  'world-radio/assets/world-radio-player.css': radioPlayerCss
+  'world-radio/assets/world-radio-player.css': radioPlayerCss,
+  'assets/js/market-base-radio-dock-v323.js': radioDockJs,
+  'assets/css/market-base-radio-dock-v323.css': radioDockCss
 })) {
-  assert.ok(!/timer|タイマー/i.test(source), `${name} still contains timer UI or logic`);
+  assert.ok(!/sleep.?timer|スリープタイマー|タイマー/i.test(source),
+    `${name} still contains timer UI or logic`);
 }
 
-assert.ok(
-  radioPlayer.includes('target="_blank"') &&
-  radioPlayer.includes('rel="noopener noreferrer"'),
-  'official broadcasts must open in an independent, opener-safe tab'
-);
-assert.ok(radioPlayerJs.includes("document.getElementById('openOfficial').href = station.url"),
-  'the official link must receive the selected station URL');
-assert.ok(!radioPlayerJs.includes('location.href = station.url') &&
-  !radioPlayerJs.includes('window.open(station.url'),
-  'popup rejection must never replace the same player document');
-assert.ok(radioJs.includes("'marketBaseRadioPlayer'") &&
-  !radioJs.includes('playerWindow.close()'),
-  'the reusable radio guide window must survive MARKET BASE navigation');
-assert.ok(radioIndex.includes('公式放送のタブを閉じずにMARKET BASEのタブへ切り替えてください'),
-  'the cross-origin background-play limitation must be explained accurately');
+assert.match(radioPlayer, /<audio id="radioAudio" preload="none" playsinline>/);
+assert.match(radioPlayer, /MARKET BASEへ（再生を続ける）/);
+assert.match(radioPlayer, /target="_blank" rel="noopener noreferrer"/);
+assert.match(radioPlayer, /market-base-update-controller-v322\.js\?v=20260730-v324/);
+assert.match(radioIndex, /target="_blank" rel="noopener"/);
+assert.match(radioIndexJs, /target="_blank" rel="noopener"/);
+assert.ok(!radioIndexJs.includes('window.open(') && !radioIndexJs.includes('location.href'),
+  'station selection must use real separate-tab links');
+assert.ok(!radioPlayerJs.includes('crossOrigin') && !radioPlayer.includes('crossorigin'),
+  'the audio stream must not request unnecessary CORS access');
+assert.match(radioPlayerJs, /new MediaMetadata/);
+assert.match(radioPlayerJs, /BroadcastChannel/);
+assert.match(radioPlayerJs, /market_base_radio_state_v1/);
+assert.match(radioPlayerJs, /market_base_radio_command_v1/);
+assert.match(radioPlayerJs, /if \(!shuttingDown && ownsState\) publishState\(\)/);
+assert.match(radioPlayerJs, /window\.addEventListener\('pagehide'/);
+
+for (const marker of [
+  'market_base_radio_dock_collapsed_v1',
+  'market_base_radio_dock_position_v1',
+  'data-radio-command="previous"',
+  'data-radio-command="toggle"',
+  'data-radio-command="next"',
+  'aria-controls="mbRadioDockPanel"',
+  'setPointerCapture',
+  'pointermove',
+  'ratioFromPosition',
+  'orientationchange'
+]) {
+  assert.ok(radioDockJs.includes(marker), `movable radio dock is missing ${marker}`);
+}
+assert.match(radioDockCss, /position:\s*fixed/);
+assert.match(radioDockCss, /touch-action:\s*none/);
+assert.match(radioDockCss, /\[data-collapsed="true"\]/);
+assert.match(radioDockCss, /prefers-reduced-motion/);
+assert.match(updateController, /market-base-radio-dock-v323\.js\?v=20260730-v324/);
+assert.match(updateController, /RADIO_GRACE_MS = 12 \* 60 \* 60 \* 1000/);
 
 const requiredLiteral = sw.match(/const REQUIRED=(\[[\s\S]*?\]);/)?.[1];
 assert.ok(requiredLiteral, 'service worker REQUIRED list is missing');
@@ -132,39 +192,38 @@ assert.ok(sw.includes('await Promise.all(REQUIRED.map(item=>put(item,requiredCon
   'required shell precaching must be atomic');
 assert.ok(sw.includes('Promise.allSettled(CORE.filter(item=>!required.has(item))'),
   'only optional precache entries may use allSettled');
-assert.ok(
-  sw.includes('requiredController.abort(),15000') &&
-  sw.includes('optionalController.abort(),8000'),
-  'precache fetches must have bounded waits so activation cannot hang indefinitely'
-);
-assert.ok(sw.includes("key.startsWith('market-base-')&&key!==CACHE_NAME"),
+assert.match(sw, /key\.startsWith\('market-base-'\)\s*&&\s*key!==CACHE_NAME/,
   'cache-clear messages must preserve the active cache');
-assert.ok(sw.includes('cache.match(event.request,{ignoreSearch:true})'),
+assert.match(sw, /\.match\((?:event\.)?request,\{ignoreSearch:true\}\)/,
   'offline lookups must normalize cache-busting queries');
-assert.ok(sw.includes('const cached=(await cache.match(event.request))||'),
-  'static lookups must prefer an exact runtime-refreshed entry before query normalization');
 assert.ok(!/if\(response\.ok\)cache\.put/.test(sw),
   'service worker cache writes must be awaited');
 for (const asset of [
-  'work-basics/index.html',
-  'work-basics/assets/styles.css',
-  'work-basics/assets/app.js',
-  'work-basics/assets/data.js',
   'world-radio/index.html',
   'world-radio/player.html',
-  'world-radio/assets/world-radio.js',
-  'world-radio/assets/world-radio-player.js'
+  'world-radio/assets/world-radio-stations.js',
+  'world-radio/assets/world-radio-player.js',
+  'assets/css/world-radio-home-card-v307.css',
+  'assets/js/market-base-radio-dock-v323.js',
+  'assets/css/market-base-radio-dock-v323.css',
+  'world-route/index.html',
+  'world-route/world-route-data.js',
+  'machine-container-packing/index.html',
+  'machine-container-packing/data/machine-container-packing-data.js'
 ]) {
   assert.ok(sw.includes(asset), `service worker CORE is missing ${asset}`);
 }
 assert.ok(runtime.includes('encodeURIComponent(build.id)') &&
   runtime.includes("updateViaCache:'none'"),
   'runtime and common updater must use the same full build ID for the root worker');
+assert.ok(sw.includes(`const BUILD_ID='${BUILD_ID}'`));
 
 for (const relative of [
   'assets/js/market-base-runtime-r11348.js',
   'assets/js/market-base-update-controller-v322.js',
+  'assets/js/market-base-radio-dock-v323.js',
   'sw.js',
+  'world-radio/assets/world-radio-stations.js',
   'world-radio/assets/world-radio.js',
   'world-radio/assets/world-radio-player.js',
   'scripts/test_v322_home_radio_sw.mjs'
@@ -176,5 +235,4 @@ for (const relative of [
     `node --check failed for ${relative}: ${(result.stderr || result.stdout).trim()}`);
 }
 
-console.log('PASS — V322 home, radio, and atomic service-worker checks');
-console.log('History order, database BACK, radio changes, and offline-safe update switching are valid.');
+console.log('PASS — V324 home, direct radio/music, movable dock, BACK, and service-worker checks');

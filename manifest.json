@@ -1,8 +1,9 @@
 {
-  "name": "MARKET BASE V.322",
+  "name": "MARKET BASE V.324",
   "short_name": "MARKET BASE",
   "description": "国・地域と市場情報を確認できるMARKET BASE",
-  "start_url": "./index.html?v=20260730-v322-global-update-journey-stability",
+  "start_url": "./index.html?v=20260730-v324-offline-music-precise-numbers",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#EEF3F9",
   "theme_color": "#EEF3F9",
@@ -21,6 +22,6 @@
     }
   ],
   "id": "market-base-v322",
-  "version": "MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730",
-  "build_id": "MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730"
+  "version": "MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730",
+  "build_id": "MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730"
 }

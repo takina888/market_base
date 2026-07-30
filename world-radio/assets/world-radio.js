@@ -1,47 +1,120 @@
 (() => {
   'use strict';
-  const stations = [
-    {id:'wnyc',tab:'english',name:'WNYC',place:'ニューヨーク・アメリカ',desc:'ニュース、文化、社会、インタビュー。会話量が多い公共ラジオ。',url:'https://www.wnyc.org/live'},
-    {id:'abc-rn',tab:'english',name:'ABC Radio National',place:'オーストラリア',desc:'文化、科学、社会、仕事を落ち着いた英語で掘り下げます。',url:'https://www.abc.net.au/listen/live/radionational'},
-    {id:'hpr1',tab:'english',name:'Hawaiʻi Public Radio HPR-1',place:'ホノルル・ハワイ',desc:'ハワイの地域ニュース、文化、インタビューを中心に放送。',url:'https://www.hawaiipublicradio.org/where-to-listen'},
-    {id:'abc-aus',tab:'english',name:'ABC Radio Australia',place:'オーストラリア／太平洋',desc:'太平洋地域のニュースと生活情報。比較的明瞭な英語です。',url:'https://www.abc.net.au/listen/live/radioaustralia'},
-    {id:'kpoa',tab:'hawaii',name:'KPOA 93.5 FM',place:'マウイ・ハワイ',desc:'伝統的なハワイアンから現代のアイランド音楽まで。',url:'https://kpoa.com/'},
-    {id:'kapa',tab:'hawaii',name:'KAPA Hawaiian FM',place:'ハワイ島',desc:'地元アーティストを中心に、ハワイ島らしい音楽を楽しめます。',url:'https://kaparadio.com/'},
-    {id:'kine',tab:'hawaii',name:'Hawaiian 105 KINE',place:'ホノルル・ハワイ',desc:'明るく聴きやすい定番のハワイアン音楽局。',url:'https://www.hawaiian105.com/'},
-    {id:'raagam',tab:'india',name:'AIR Raagam',place:'インド',desc:'ヒンドゥスターニー音楽とカルナータカ音楽を中心とするインド古典音楽。',url:'https://akashvani.gov.in/radio/live.php'},
-    {id:'fmgold',tab:'india',name:'FM Gold Delhi',place:'デリー・インド',desc:'インド映画音楽、懐かしい曲、情報やトークを織り交ぜます。',url:'https://akashvani.gov.in/radio/live.php'},
-    {id:'mcd',tab:'arabia',name:'Monte Carlo Doualiya',place:'アラブ世界',desc:'アラビア語のニュース、文化、社会、音楽を届ける国際放送。',url:'https://www.mc-doualiya.com/'},
-    {id:'sawt',tab:'arabia',name:'Sawt El Ghad',place:'ベイルート・レバノン',desc:'アラブ音楽、娯楽、ニュース、トークが混ざる都市型ラジオ。',url:'https://www.sawtelghad.com/'},
-    {id:'connect',tab:'brazil',name:'Connect Brazil',place:'ブラジル',desc:'ボサノヴァ、サンバ、MPB、ブラジリアンジャズ。',url:'https://www.connectbrazil.com/lounge/'},
-    {id:'radio-cultura',tab:'brazil',name:'Rádio Cultura Brasil',place:'サンパウロ・ブラジル',desc:'ブラジル音楽と文化を落ち着いて楽しめる公共系放送。',url:'https://culturabrasil.cmais.com.br/'},
-    {id:'celtic',tab:'celtic',name:'Celtic Music Radio',place:'グラスゴー・スコットランド',desc:'ケルト、フォーク、ルーツ音楽と出演者のトーク。',url:'https://www.celticmusicradio.net/'},
-    {id:'rte',tab:'celtic',name:'RTÉ Raidió na Gaeltachta',place:'アイルランド',desc:'アイルランド語の会話と伝統音楽。土地の空気を感じられます。',url:'https://www.rte.ie/radio/rnag/'},
-    {id:'afropulse',tab:'africa',name:'AfroPulse FM',place:'西アフリカ',desc:'アフロビーツ、ハイライフ、アフリカンポップ。',url:'https://afropulsefm.com/'},
-    {id:'classic105',tab:'africa',name:'Classic 105 Kenya',place:'ナイロビ・ケニア',desc:'英語のトークとアフリカンポップを混ぜて楽しめる都市型放送。',url:'https://classic105.com/'},
-    {id:'radio-caribbean',tab:'caribbean',name:'Radio Caribbean International',place:'セントルシア・カリブ海',desc:'カリブの音楽、ニュース、地域トーク。',url:'https://www.rcistlucia.com/'},
-    {id:'radio3',tab:'caribbean',name:'RTVE Radio 3',place:'スペイン',desc:'スペインと地中海周辺の多彩な音楽、文化番組。',url:'https://www.rtve.es/play/radio/radio-3/'},
-    {id:'antena2',tab:'caribbean',name:'Antena 2',place:'ポルトガル',desc:'クラシック、現代音楽、文化。静かに聴きたい時間向け。',url:'https://www.rtp.pt/play/direto/antena2'}
-  ];
-  const grid = document.getElementById('stationGrid');
+
+  const stations = Array.isArray(window.MarketBaseRadioStations)
+    ? window.MarketBaseRadioStations
+    : [];
+  const STATE_KEY = 'market_base_radio_state_v1';
+  const CHANNEL_NAME = 'market-base-radio-v1';
+  const STATE_GRACE_MS = 12 * 60 * 60 * 1000;
+  const englishGrid = document.getElementById('englishStationGrid');
+  const musicGrid = document.getElementById('musicStationGrid');
   const nowPlaying = document.getElementById('nowPlaying');
   const nowDetail = document.getElementById('nowDetail');
-  let playerWindow = null;
+  let channel = null;
 
-  function render(tab){
-    grid.innerHTML = stations.filter(s => s.tab === tab).map(s => `<article class="station-card"><p class="station-meta">${s.place}</p><h2>${s.name}</h2><p>${s.desc}</p><button class="radio-open" type="button" data-station="${s.id}">▶ 公式ライブを聴く</button></article>`).join('');
+  function escapeHtml(value) {
+    return String(value || '')
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#39;');
   }
-  function openStation(id){
-    const s = stations.find(x => x.id === id); if(!s) return;
-    playerWindow = window.open(`player.html?id=${encodeURIComponent(s.id)}`,'marketBaseRadioPlayer','popup=yes,width=520,height=760,resizable=yes,scrollbars=yes');
-    if(!playerWindow){ nowDetail.textContent='ポップアップがブロックされました。ブラウザで許可してください。'; return; }
-    try{ playerWindow.focus(); }catch(_){}
-    nowPlaying.textContent=s.name;
-    nowDetail.textContent=`${s.place}｜独立したラジオウインドウを開きました`;
+
+  function readState() {
+    try {
+      return JSON.parse(localStorage.getItem(STATE_KEY) || 'null');
+    } catch (_) {
+      return null;
+    }
   }
-  document.addEventListener('click',e=>{
-    const open=e.target.closest('.radio-open'); if(open){openStation(open.dataset.station);return;}
-    const tab=e.target.closest('[role="tab"]'); if(tab){document.querySelectorAll('[role="tab"]').forEach(b=>b.setAttribute('aria-selected',String(b===tab)));render(tab.dataset.tab);return;}
-  });
-  document.getElementById('pageRefreshButton').addEventListener('click',()=>location.reload());
-  render('english');
+
+  function stateIsFresh(state) {
+    return !!(
+      state &&
+      state.stationId &&
+      Number.isFinite(Number(state.updatedAt)) &&
+      (
+        Number(state.validUntil || 0) > Date.now() ||
+        Date.now() - Number(state.updatedAt) < STATE_GRACE_MS
+      )
+    );
+  }
+
+  function stationCards(rows) {
+    return rows.map(station => `
+      <article class="station-card" data-station-card="${escapeHtml(station.id)}">
+        <p class="station-meta">${escapeHtml(station.place)}</p>
+        <h3>${escapeHtml(station.name)}</h3>
+        <p>${escapeHtml(station.description)}</p>
+        <a class="radio-open" href="player.html?id=${encodeURIComponent(station.id)}&amp;v=20260730-v324" target="_blank" rel="noopener">
+          <span aria-hidden="true">▶</span> 別タブで聴く
+        </a>
+      </article>
+    `).join('');
+  }
+
+  function renderStations() {
+    if (englishGrid) {
+      englishGrid.innerHTML = stationCards(
+        stations.filter(station => station.category !== 'music')
+      );
+    }
+    if (musicGrid) {
+      musicGrid.innerHTML = stationCards(
+        stations.filter(station => station.category === 'music')
+      );
+    }
+  }
+
+  function renderState(state = readState()) {
+    document.querySelectorAll('[data-station-card]').forEach(card => {
+      card.classList.toggle(
+        'is-playing',
+        !!(stateIsFresh(state) && state.playing && card.dataset.stationCard === state.stationId)
+      );
+    });
+
+    if (!nowPlaying || !nowDetail) return;
+    if (!stateIsFresh(state)) {
+      nowPlaying.textContent = '停止中';
+      nowDetail.textContent = '局を選び、別タブで再生ボタンを押してください';
+      return;
+    }
+
+    const place = [state.city, state.country].filter(Boolean).join('・');
+    nowPlaying.textContent = state.stationName || '世界のラジオ';
+    if (state.playing) {
+      nowDetail.textContent = `${place || 'LIVE'}｜再生中`;
+    } else if (state.needsGesture) {
+      nowDetail.textContent = `${place || 'LIVE'}｜プレイヤーで再生ボタンを押してください`;
+    } else {
+      nowDetail.textContent = `${place || 'LIVE'}｜停止中`;
+    }
+  }
+
+  function initializeSignals() {
+    if ('BroadcastChannel' in window) {
+      try {
+        channel = new BroadcastChannel(CHANNEL_NAME);
+        channel.addEventListener('message', event => {
+          if (event.data?.type === 'STATE') renderState(event.data.state);
+        });
+      } catch (_) {}
+    }
+    window.addEventListener('storage', event => {
+      if (event.key !== STATE_KEY) return;
+      renderState();
+    });
+    window.setInterval(() => renderState(), 30000);
+  }
+
+  renderStations();
+  renderState();
+  initializeSignals();
+
+  window.addEventListener('pagehide', () => {
+    try { channel?.close(); } catch (_) {}
+  }, { once: true });
 })();

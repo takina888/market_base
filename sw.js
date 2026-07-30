@@ -1,26 +1,37 @@
 'use strict';
-const BUILD_ID='MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730';
-const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260730-v322-global-update-journey-stability';
+importScripts('./assets/js/market-base-offline-manifest-v324.js?v=20260730-v324');
+const BUILD_ID='MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730';
+const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260730-v324-offline-music-precise-numbers';
 const CACHE_NAME=`market-base-${VERSION}`;
+const OFFLINE_TEXT_CACHE='mb-user-offline-v324-text';
+const OFFLINE_IMAGE_CACHE='mb-user-offline-v324-images';
+const OFFLINE_STATE_CACHE='mb-user-offline-v324-state';
+const OFFLINE_STATE_REQUEST=new URL('./__market_base_offline_mode__',self.location.href).href;
 const REQUIRED=[
   "./",
-  "./index.html?v=20260730-v322-global-update-journey-stability",
-  "./offline.html?v=20260730-v322",
-  "./version.txt?v=20260730-v322-global-update-journey-stability",
-  "./assets/js/market-base-build.js?v=20260730-v322-global-update-journey-stability",
-  "./assets/js/market-base-update-controller-v322.js?v=20260730-v322",
-  "./assets/js/market-base-scroll-controls-r11328.js?v=20260730-v322",
-  "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260730-v322",
-  "./embedded-country-profile-data-v273-r28.js?v=20260730-v322",
-  "./data/images/todays-journey-image-manifest-r11370.js?v=20260730-v322",
-  "./data/images/photo-registry-embedded.js?v=20260730-v322"
+  "./index.html?v=20260730-v324-offline-music-precise-numbers",
+  "./offline.html?v=20260730-v324",
+  "./version.txt?v=20260730-v324-offline-music-precise-numbers",
+  "./assets/js/market-base-build.js?v=20260730-v324-offline-music-precise-numbers",
+  "./assets/js/market-base-update-controller-v322.js?v=20260730-v324",
+  "./assets/js/market-base-scroll-controls-r11328.js?v=20260730-v324",
+  "./assets/js/market-base-radio-dock-v323.js?v=20260730-v324",
+  "./assets/css/market-base-radio-dock-v323.css?v=20260730-v324",
+  "./assets/js/market-base-offline-manifest-v324.js?v=20260730-v324",
+  "./settings/index.html?v=20260730-v324",
+  "./settings/assets/settings.css?v=20260730-v324",
+  "./settings/assets/offline-settings.js?v=20260730-v324",
+  "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260730-v324",
+  "./embedded-country-profile-data-v273-r28.js?v=20260730-v324",
+  "./data/images/todays-journey-image-manifest-r11370.js?v=20260730-v324",
+  "./data/images/photo-registry-embedded.js?v=20260730-v324"
 ];
 const CORE=[
   "./assets/css/v311-ui-fixes.css?v=20260729-v318",
-  "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260730-v322",
-  "./assets/js/market-base-build.js?v=20260730-v322-global-update-journey-stability",
-  "./assets/js/market-base-update-controller-v322.js?v=20260730-v322",
-  "./embedded-country-profile-data-v273-r28.js?v=20260730-v322",
+  "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260730-v324",
+  "./assets/js/market-base-build.js?v=20260730-v324-offline-music-precise-numbers",
+  "./assets/js/market-base-update-controller-v322.js?v=20260730-v324",
+  "./embedded-country-profile-data-v273-r28.js?v=20260730-v324",
   "./assets/css/market-base-header-audit-v302.css?v=20260728-v302",
   "./assets/css/home-search-mode-v302.css?v=20260728-v302",
   "./assets/js/home-search-mode-v302.js?v=20260728-v302",
@@ -30,9 +41,9 @@ const CORE=[
   "./assets/images/market-base-world-wind-v301.webp?v=20260728-v303",
   "./assets/images/market-base-world-wind-v301.jpg?v=20260728-v303",
   "./",
-  "./index.html?v=20260730-v322-global-update-journey-stability",
-  "./version.txt?v=20260730-v322-global-update-journey-stability",
-  "./offline.html?v=20260730-v322",
+  "./index.html?v=20260730-v324-offline-music-precise-numbers",
+  "./version.txt?v=20260730-v324-offline-music-precise-numbers",
+  "./offline.html?v=20260730-v324",
   "./news.html?v=20260728-v303-final",
   "./market-base-v273-country-profile-r28.html?v=20260728-v303-final",
   "./international-logistics/guide.html?v=20260727-r11372",
@@ -75,7 +86,7 @@ const CORE=[
   "./assets/js/world-compass-country-capitals-r11311.js?v=20260727-r11385-flaglock",
   "./assets/js/world-compass-r11311.js?v=20260729-v319-public-text",
   "./assets/maps/world-map.svg?v=20260726-r11369",
-  "./manifest.json?v=20260730-v322",
+  "./manifest.json?v=20260730-v324",
   "./market-base-currency-converter-v273-r29.html?v=20260727-r11385",
   "./assets/css/market-base-primary-components-r11326.css?v=20260727-r11373",
   "./assets/css/market-base-bottom-nav-unified-r11409.css?v=20260728-r11409",
@@ -118,12 +129,12 @@ const CORE=[
   "./assets/css/market-base-global-bottom-nav-r11345.css?v=20260726-r11369",
   "./assets/css/market-base-bottom-press-feedback-r11367.css?v=20260726-r11369",
   "./assets/css/market-base-reading-section-r11366.css?v=20260727-r11383",
-  "./assets/js/market-base-build.js?v=20260730-v322-global-update-journey-stability",
+  "./assets/js/market-base-build.js?v=20260730-v324-offline-music-precise-numbers",
   "./assets/js/market-base-runtime-r11348.js?v=20260726-r11369",
   "./assets/flags/flag-svg-data.js?v=20260727-r11385-flaglock",
   "./assets/js/news.js?v=20260726-r11369",
-  "./data/images/photo-registry-embedded.js?v=20260730-v322",
-  "./data/images/todays-journey-image-manifest-r11370.js?v=20260730-v322",
+  "./data/images/photo-registry-embedded.js?v=20260730-v324",
+  "./data/images/todays-journey-image-manifest-r11370.js?v=20260730-v324",
   "./assets/js/photo-registry-v1.js?v=20260727-r11373-photo-final",
   "./retail-sales-v273-db-title-r27.html?v=20260727-r11373-photo-final",
   "./assets/css/retail-store-gallery-v2.css?v=20260725-r11348",
@@ -145,21 +156,37 @@ const CORE=[
   "./data/world-history-today-v028.js?v=20260728-r11413-ui-refine",
   "./assets/js/world-history-learn-r11330.js?v=20260728-r11414",
   "./assets/js/world-why-learn-r11327.js?v=20260726-r11369",
-  "./assets/js/market-base-scroll-controls-r11328.js?v=20260730-v322",
+  "./assets/js/market-base-scroll-controls-r11328.js?v=20260730-v324",
   "./assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371",
   "./assets/js/market-base-weather-panel-v005.js?v=20260726-r11369"
-  ,"./work-basics/index.html?v=20260730-v322"
-  ,"./work-basics/assets/styles.css?v=20260730-v322"
-  ,"./work-basics/assets/app.js?v=20260730-v322"
-  ,"./work-basics/assets/data.js?v=20260730-v322"
-  ,"./work-basics/assets/icon.svg?v=20260730-v322"
-  ,"./work-basics/manifest.webmanifest?v=20260730-v322"
-  ,"./world-radio/index.html?v=20260730-v322"
-  ,"./world-radio/player.html?v=20260730-v322"
-  ,"./world-radio/assets/world-radio.css?v=20260730-v322"
-  ,"./world-radio/assets/world-radio.js?v=20260730-v322"
-  ,"./world-radio/assets/world-radio-player.css?v=20260730-v322"
-  ,"./world-radio/assets/world-radio-player.js?v=20260730-v322"
+  ,"./work-basics/index.html?v=20260730-v324"
+  ,"./work-basics/assets/styles.css?v=20260730-v324"
+  ,"./work-basics/assets/app.js?v=20260730-v324"
+  ,"./work-basics/assets/data.js?v=20260730-v324"
+  ,"./work-basics/assets/icon.svg?v=20260730-v324"
+  ,"./work-basics/manifest.webmanifest?v=20260730-v324"
+  ,"./world-radio/index.html?v=20260730-v324"
+  ,"./world-radio/player.html?v=20260730-v324"
+  ,"./world-radio/assets/world-radio.css?v=20260730-v324"
+  ,"./world-radio/assets/world-radio-stations.js?v=20260730-v324"
+  ,"./world-radio/assets/world-radio.js?v=20260730-v324"
+  ,"./world-radio/assets/world-radio-player.css?v=20260730-v324"
+  ,"./world-radio/assets/world-radio-player.js?v=20260730-v324"
+  ,"./assets/css/world-radio-home-card-v307.css?v=20260730-v324"
+  ,"./assets/js/market-base-radio-dock-v323.js?v=20260730-v324"
+  ,"./assets/css/market-base-radio-dock-v323.css?v=20260730-v324"
+  ,"./world-route.html?v=20260730-v324"
+  ,"./world-route/index.html?v=20260730-v324"
+  ,"./world-route/market-base-ui-base.css?v=20260730-v324"
+  ,"./world-route/world-route.css?v=20260730-v324"
+  ,"./world-route/world-route-data.js?v=20260730-v324"
+  ,"./world-route/world-route.js?v=20260730-v324"
+  ,"./machine-container-packing/index.html?v=20260730-v324"
+  ,"./machine-container-packing/assets/market-base-ui-base.css?v=20260730-v324"
+  ,"./machine-container-packing/assets/market-base-ui-base.js?v=20260730-v324"
+  ,"./machine-container-packing/assets/machine-container-packing.css?v=20260730-v324"
+  ,"./machine-container-packing/assets/machine-container-packing.js?v=20260730-v324"
+  ,"./machine-container-packing/data/machine-container-packing-data.js?v=20260730-v324"
 ];
 async function cacheCoreSafely(){
   const cache=await caches.open(CACHE_NAME);
@@ -199,62 +226,134 @@ self.addEventListener('activate',event=>{
   event.waitUntil((async()=>{
     const keys=await caches.keys();
     const marketBaseKeys=keys.filter(key=>key.startsWith('market-base-'));
-    await Promise.all(marketBaseKeys.filter(key=>key!==CACHE_NAME).map(key=>caches.delete(key)));
+    await Promise.all(
+      marketBaseKeys
+        .filter(key=>key!==CACHE_NAME)
+        .map(key=>caches.delete(key))
+    );
     await self.clients.claim();
   })());
 });
 self.addEventListener('message',event=>{
   if(event.data?.type==='SKIP_WAITING') self.skipWaiting();
-  if(event.data?.type==='CLEAR_MARKET_BASE_CACHE') event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith('market-base-')&&key!==CACHE_NAME)await caches.delete(key)})());
+  if(event.data?.type==='CLEAR_MARKET_BASE_CACHE') event.waitUntil((async()=>{
+    for(const key of await caches.keys()){
+      if(
+        key.startsWith('market-base-') &&
+        key!==CACHE_NAME
+      ) await caches.delete(key);
+    }
+  })());
+  if(event.data?.type==='CLEAR_OFFLINE_CONTENT') event.waitUntil(
+    Promise.all([
+      caches.delete(OFFLINE_TEXT_CACHE),
+      caches.delete(OFFLINE_IMAGE_CACHE),
+      caches.delete(OFFLINE_STATE_CACHE)
+    ])
+  );
 });
-self.addEventListener('fetch',event=>{
-  if(event.request.method!=='GET') return;
-  const url=new URL(event.request.url);
-  if(url.origin!==self.location.origin) return;
-  const isDocument=event.request.mode==='navigate'||event.request.destination==='document';
+
+async function offlineModeIsActive(){
+  try{
+    const cache=await caches.open(OFFLINE_STATE_CACHE);
+    return !!(await cache.match(OFFLINE_STATE_REQUEST));
+  }catch(_e){
+    return false;
+  }
+}
+
+async function offlineMatch(request,url){
+  const imageCache=await caches.open(OFFLINE_IMAGE_CACHE);
+  const exactImage=await imageCache.match(request);
+  if(exactImage)return exactImage;
+  if(url.origin===self.location.origin){
+    const localImage=await imageCache.match(request,{ignoreSearch:true});
+    if(localImage)return localImage;
+    const textCache=await caches.open(OFFLINE_TEXT_CACHE);
+    const text=(await textCache.match(request))||
+      (await textCache.match(request,{ignoreSearch:true}));
+    if(text)return text;
+    const core=await caches.open(CACHE_NAME);
+    return (await core.match(request))||
+      (await core.match(request,{ignoreSearch:true}))||
+      null;
+  }
+  return null;
+}
+
+async function offlineFallback(request){
+  if(request.destination==='image'){
+    const imageCache=await caches.open(OFFLINE_IMAGE_CACHE);
+    const placeholder=new URL('./assets/images/photo-placeholder.webp',self.location.href).href;
+    const savedPlaceholder=await imageCache.match(placeholder,{ignoreSearch:true});
+    if(savedPlaceholder)return savedPlaceholder;
+  }
+  if(request.mode==='navigate'||request.destination==='document'){
+    const textCache=await caches.open(OFFLINE_TEXT_CACHE);
+    const offlinePage=new URL('./offline.html',self.location.href).href;
+    const savedOffline=(await textCache.match(offlinePage,{ignoreSearch:true}));
+    if(savedOffline)return savedOffline;
+    const core=await caches.open(CACHE_NAME);
+    const coreOffline=await core.match('./offline.html?v=20260730-v324',{ignoreSearch:true});
+    if(coreOffline)return coreOffline;
+  }
+  return Response.error();
+}
+
+async function onlineSameOriginResponse(event,url){
+  const request=event.request;
+  const cache=await caches.open(CACHE_NAME);
+  const isDocument=request.mode==='navigate'||request.destination==='document';
   const isFreshData=url.pathname.endsWith('.json')||url.pathname.endsWith('version.txt');
   const isHistoryAsset=url.pathname.endsWith('/data/world-history-today-v028.js')||url.pathname.endsWith('/assets/js/world-history-learn-r11330.js');
   const isWorldRoute=url.pathname.endsWith('/world-route.html')||url.pathname.includes('/world-route/')||url.pathname.includes('/assets/images/world-route/');
-  if(isWorldRoute){
-    event.respondWith((async()=>{
-      const cache=await caches.open(CACHE_NAME);
-      try{
-        const response=await fetch(event.request,{cache:'no-store'});
-        if(response.ok)await cache.put(event.request,response.clone());
-        return response;
-      }catch(_e){
-        return (await cache.match(event.request,{ignoreSearch:true}))||Response.error();
-      }
-    })());
-    return;
-  }
-  if(isDocument||isFreshData||isHistoryAsset){
-    event.respondWith((async()=>{
-      const cache=await caches.open(CACHE_NAME);
-      try{
-        const response=await fetch(event.request,{cache:'no-store'});
-        if(response.ok)await cache.put(event.request,response.clone());
-        return response;
-      }catch(_e){
-        const cached=await cache.match(event.request,{ignoreSearch:true});
-        if(cached)return cached;
-      return isDocument?(await cache.match('./offline.html?v=20260730-v322',{ignoreSearch:true})):Response.error();
-      }
-    })());
-    return;
-  }
-  event.respondWith((async()=>{
-    const cache=await caches.open(CACHE_NAME);
-    const cached=(await cache.match(event.request))||
-      (await cache.match(event.request,{ignoreSearch:true}));
-    if(cached){
-      event.waitUntil(fetch(event.request).then(async response=>{if(response.ok)await cache.put(event.request,response.clone())}).catch(()=>undefined));
-      return cached;
-    }
+  if(isWorldRoute||isDocument||isFreshData||isHistoryAsset){
     try{
-      const response=await fetch(event.request);
-      if(response.ok)await cache.put(event.request,response.clone());
+      const response=await fetch(request,{cache:'no-store'});
+      if(response.ok)await cache.put(request,response.clone());
       return response;
-    }catch(_e){return Response.error()}
+    }catch(_e){
+      const cached=await cache.match(request,{ignoreSearch:true});
+      if(cached)return cached;
+      return isDocument
+        ? (await cache.match('./offline.html?v=20260730-v324',{ignoreSearch:true}))||Response.error()
+        : Response.error();
+    }
+  }
+  const cached=(await cache.match(request))||
+    (await cache.match(request,{ignoreSearch:true}));
+  if(cached){
+    event.waitUntil(
+      fetch(request)
+        .then(async response=>{if(response.ok)await cache.put(request,response.clone())})
+        .catch(()=>undefined)
+    );
+    return cached;
+  }
+  try{
+    const response=await fetch(request);
+    if(response.ok)await cache.put(request,response.clone());
+    return response;
+  }catch(_e){
+    return Response.error();
+  }
+}
+
+self.addEventListener('fetch',event=>{
+  if(event.request.method!=='GET')return;
+  const url=new URL(event.request.url);
+  const sameOrigin=url.origin===self.location.origin;
+  if(!sameOrigin&&event.request.destination!=='image')return;
+  event.respondWith((async()=>{
+    if(await offlineModeIsActive()){
+      const cached=await offlineMatch(event.request,url);
+      if(cached)return cached;
+      return offlineFallback(event.request);
+    }
+    if(!sameOrigin){
+      try{return await fetch(event.request)}
+      catch(_e){return Response.error()}
+    }
+    return onlineSameOriginResponse(event,url);
   })());
 });

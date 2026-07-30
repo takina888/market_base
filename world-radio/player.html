@@ -3,40 +3,75 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#edf4fb">
+  <meta name="description" content="MARKET BASE 世界のラジオ専用プレイヤー">
   <title>世界のラジオ｜MARKET BASE</title>
   <link rel="icon" sizes="32x32" type="image/png" href="../icons/favicon-32.png">
-  <link rel="stylesheet" href="assets/world-radio-player.css?v=20260730-v322">
-<meta name="market-base-site-build" content="MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730">
+  <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon-180.png">
+  <link rel="stylesheet" href="assets/world-radio-player.css?v=20260730-v324">
+  <meta name="market-base-build" content="MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730">
+  <meta name="market-base-site-build" content="MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730">
 </head>
-<body>
+<body class="world-radio-player-page">
   <header class="player-header">
     <div>
       <a class="player-brand" href="../index.html" target="_blank" rel="noopener">MARKET BASE</a>
       <p>世界のラジオ</p>
     </div>
-    <button id="windowClose" type="button" aria-label="小窓を閉じる">×</button>
+    <button id="windowClose" type="button" aria-label="ラジオのタブを閉じる">×</button>
   </header>
 
   <main class="player-main">
     <section class="station-intro" aria-labelledby="stationName">
-      <p class="station-place" id="stationPlace"></p>
-      <h1 id="stationName">ラジオ局を読み込んでいます</h1>
-      <p class="station-description" id="stationDescription"></p>
+      <p class="station-place" id="stationPlace">NEW YORK · USA</p>
+      <h1 id="stationName">WNYC</h1>
+      <p class="station-description" id="stationDescription">ラジオ局を読み込んでいます。</p>
     </section>
 
     <section class="live-panel" aria-labelledby="liveTitle">
-      <div>
-        <p class="panel-label">LIVE RADIO</p>
-        <h2 id="liveTitle">公式ライブ放送</h2>
-        <p>放送局の公式プレーヤーを、この小窓から開きます。</p>
+      <div class="live-panel-heading">
+        <div>
+          <p class="panel-label">LIVE RADIO</p>
+          <h2 id="liveTitle">直接再生</h2>
+        </div>
+        <span class="live-state" id="liveState" data-state="paused">停止中</span>
       </div>
-      <a class="primary-button" id="openOfficial" href="#" target="_blank" rel="noopener noreferrer">▶ 公式ライブを別タブで開く</a>
-      <p class="live-note">公式放送のタブを開いたままMARKET BASEのタブへ切り替えると、MARKET BASE側で「戻る」を押しても放送ページは閉じません。</p>
+
+      <audio id="radioAudio" preload="none" playsinline></audio>
+
+      <p class="player-message" id="playerMessage" role="status" aria-live="polite">再生ボタンを押してください</p>
+
+      <div class="player-controls" aria-label="ラジオ再生操作">
+        <button class="station-step" id="previousStation" type="button" aria-label="前の放送局">
+          <span aria-hidden="true">‹</span>
+          <small>前の局</small>
+        </button>
+        <button class="play-pause" id="playPause" type="button" aria-label="再生する" aria-pressed="false">
+          <span class="play-icon" id="playIcon" aria-hidden="true">▶</span>
+          <strong id="playLabel">再生</strong>
+        </button>
+        <button class="station-step" id="nextStation" type="button" aria-label="次の放送局">
+          <span aria-hidden="true">›</span>
+          <small>次の局</small>
+        </button>
+      </div>
+
+      <label class="station-select-label" for="stationSelect">放送局を選ぶ</label>
+      <select id="stationSelect" class="station-select" aria-label="放送局を選ぶ"></select>
+
+      <a class="official-link" id="openOfficial" href="https://www.wnyc.org/live" target="_blank" rel="noopener noreferrer">直接再生できない場合は公式ページを開く</a>
+      <a class="market-return-link" href="../index.html" target="_blank" rel="noopener">MARKET BASEへ（再生を続ける）</a>
+      <p class="live-note">ブラウザの「戻る」ではなく、このリンクまたはタブ切替でMARKET BASEへ移動してください。このプレイヤーを開いたままにすると再生を続けられます。</p>
     </section>
 
-    <p class="player-footnote">遠くの街の声や音楽を、いつものページを眺めながらお楽しみください。</p>
+    <section class="player-help" aria-labelledby="helpTitle">
+      <h2 id="helpTitle">iPhoneで再生するとき</h2>
+      <p>最初の一度は、この画面の「再生」を押してください。別のアプリへ切り替えたり画面をロックしたりしても、ラジオのタブを開いたままなら再生を続けられます。</p>
+      <p>ラジオのタブを閉じた場合、ブラウザを強制終了した場合、またはiPhoneがバックグラウンド再生を終了した場合は停止します。</p>
+    </section>
   </main>
-  <script src="assets/world-radio-player.js?v=20260730-v322"></script>
-  <script src="../assets/js/market-base-update-controller-v322.js?v=20260730-v322" data-mb-update-controller></script>
+  <script src="assets/world-radio-stations.js?v=20260730-v324"></script>
+  <script src="assets/world-radio-player.js?v=20260730-v324"></script>
+  <script src="../assets/js/market-base-update-controller-v322.js?v=20260730-v324" data-mb-update-controller></script>
 </body>
 </html>

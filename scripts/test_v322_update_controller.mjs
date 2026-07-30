@@ -10,7 +10,7 @@ const SOURCE = fs.readFileSync(
   path.join(ROOT, 'assets/js/market-base-update-controller-v322.js'),
   'utf8'
 );
-const BUILD_ID = 'MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730';
+const BUILD_ID = 'MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730';
 
 class StorageMock {
   constructor(values = {}) {
@@ -26,7 +26,7 @@ class StorageMock {
 function makeRuntime({
   remoteVersion = BUILD_ID,
   pageUrl = 'https://example.test/market-base/tools/page.html?view=learn',
-  scriptUrl = 'https://example.test/market-base/assets/js/market-base-update-controller-v322.js?v=20260730-v322',
+  scriptUrl = 'https://example.test/market-base/assets/js/market-base-update-controller-v322.js?v=20260730-v324',
   legacyMeta = 'MARKET_BASE_OLD_PAGE_BUILD',
   siteMeta = BUILD_ID,
   withServiceWorker = true
@@ -161,7 +161,7 @@ function makeRuntime({
   const test = makeRuntime();
   const changed = await test.runtime.MarketBaseUpdate.checkOnOpen();
   await new Promise(resolve => setTimeout(resolve, 0));
-  assert.equal(changed, false, 'same V322 build must not auto-reload');
+  assert.equal(changed, false, 'same V324 build must not auto-reload');
   assert.deepEqual(test.replaced, [], 'legacy page meta must not trigger a false update');
   assert.deepEqual(test.deletedCaches, [], 'same build must not clear caches');
   assert.equal(
@@ -186,7 +186,7 @@ function makeRuntime({
 {
   const test = makeRuntime({ siteMeta: '' });
   const changed = await test.runtime.MarketBaseUpdate.checkOnOpen();
-  assert.equal(changed, true, 'a cached legacy page without the V322 site meta must migrate');
+  assert.equal(changed, true, 'a cached legacy page without the V324 site meta must migrate');
   assert.equal(test.replaced.length, 1, 'legacy page migration must reload once');
   assert.equal(new URL(test.replaced[0]).searchParams.get('v'), BUILD_ID);
 }
@@ -227,5 +227,5 @@ function makeRuntime({
   assert.equal(reload.searchParams.get('autoRefresh'), null);
 }
 
-console.log('PASS — V322 update controller runtime checks');
+console.log('PASS — V324 update controller runtime checks');
 console.log('Same-build open, new-build auto-refresh, cache scope, nested root, and manual refresh are valid.');

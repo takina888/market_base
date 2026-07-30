@@ -30,14 +30,51 @@
 <link href="assets/css/main-r11347/market-base-app-04-country-detail-r11347.css?v=20260727-r11388-journey-history" rel="stylesheet"/>
 <link href="assets/css/r1137-ranking-compare-learn.css?v=20260725-r11348" rel="stylesheet"/>
 
-<script>try{const splashKey='market_base_splash_seen_v273';const fromPage=new URLSearchParams(location.search).get('from');const skipSplash=sessionStorage.getItem(splashKey)==='1'||fromPage==='specialist'||fromPage==='currency'||fromPage==='news'||fromPage==='world-compass'||fromPage==='ulce'||fromPage==='world-route'||fromPage==='machine-packing'||fromPage==='daily-company';if(skipSplash)document.documentElement.classList.add('mb-splash-skip');sessionStorage.setItem(splashKey,'1')}catch(_){}</script>
+<script>
+try{
+  const splashKey='market_base_splash_seen_v273';
+  const lastActiveKey='market_base_last_active_at_v1';
+  const radioStateKey='market_base_radio_state_v1';
+  const offlineStateKey='market_base_offline_mode_v1';
+  const idleMs=6*60*60*1000;
+  const radioGraceMs=180*1000;
+  const now=Date.now();
+  const params=new URLSearchParams(location.search);
+  const fromPage=params.get('from');
+  const lastActive=Number(localStorage.getItem(lastActiveKey)||0);
+  let radioActive=false;
+  let offlineActive=false;
+  try{
+    const radio=JSON.parse(localStorage.getItem(radioStateKey)||'null');
+    radioActive=!!(radio&&radio.playing&&now-Number(radio.updatedAt||0)<radioGraceMs);
+  }catch(_){}
+  try{
+    const offline=JSON.parse(localStorage.getItem(offlineStateKey)||'null');
+    offlineActive=!!(offline&&(offline.enabled||offline.pendingCleanup));
+  }catch(_){}
+  const idleReturn=!offlineActive&&!radioActive&&(fromPage==='idle'||(lastActive>0&&now-lastActive>=idleMs));
+  if(idleReturn){
+    sessionStorage.removeItem(splashKey);
+    const clean=new URL(location.href);
+    clean.search='';
+    clean.hash='';
+    history.replaceState(null,'',clean.pathname);
+  }
+  const knownReturn=['specialist','currency','news','world-compass','ulce','world-route','machine-packing','daily-company','settings','settings-online'].includes(fromPage);
+  const skipSplash=!idleReturn&&(offlineActive||radioActive||sessionStorage.getItem(splashKey)==='1'||knownReturn);
+  if(skipSplash)document.documentElement.classList.add('mb-splash-skip');
+  document.documentElement.dataset.marketBaseIdleEntry=idleReturn?'1':'0';
+  sessionStorage.setItem(splashKey,'1');
+  localStorage.setItem(lastActiveKey,String(now));
+}catch(_){}
+</script>
 <style>html.mb-initial-subview #homeViewContent{display:none}</style>
 <script>try{const requestedView=new URLSearchParams(location.search).get('view');if(['countries','compare','rankings','learn','global-search','rice','school','japan'].includes(requestedView))document.documentElement.classList.add('mb-initial-subview')}catch(_){}</script>
 <style id="mbSplashStyle">
 .mb-splash-skip .app-splash{display:none!important}.app-splash{position:fixed;inset:0;z-index:10050;display:grid;place-items:center;background:linear-gradient(180deg,#F8FBFF 0%,#EDF5FF 100%);transition:opacity .30s ease,visibility .30s ease;pointer-events:auto}.app-splash.is-hidden{opacity:0;visibility:hidden}.splash-card{display:grid;justify-items:center;gap:10px;transform:translateY(-10px);animation:splashRise .62s ease both}.splash-mark{width:74px;height:74px;border-radius:24px;background:linear-gradient(135deg,#0A2D68,#2E66D0);display:grid;place-items:center;color:#fff;font-weight:950;letter-spacing:.05em;font-size:26px;box-shadow:0 18px 50px rgba(10,45,104,.22)}.splash-title{font-size:30px;line-height:1;font-weight:950;letter-spacing:.06em;color:#0A2D68}.splash-line{font-size:13px;font-weight:900;color:#6B7890;letter-spacing:.12em;text-transform:uppercase}@keyframes splashRise{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:translateY(-10px) scale(1)}}
 @media (max-width:520px){.splash-mark{width:66px;height:66px;border-radius:22px;font-size:23px}.splash-title{font-size:27px}}
 </style>
-<link href="manifest.json?v=20260730-v322" rel="manifest"/>
+<link href="manifest.json?v=20260730-v324" rel="manifest"/>
 <link href="icons/favicon-32.png?v=20260725-r11348" rel="icon" sizes="32x32" type="image/png"/>
 <link href="icons/apple-touch-icon-180.png?v=20260725-r11348" rel="apple-touch-icon" sizes="180x180"/>
 <link as="document" href="market-base-currency-converter-v273-r29.html?v=20260727-r11385" rel="prefetch"/>
@@ -69,14 +106,17 @@
 <link as="document" href="sutra-no-yoin/index.html?v=20260728-r11391" rel="prefetch"/>
 <link href="assets/css/market-base-reading-section-r11366.css?v=20260727-r11383" rel="stylesheet"/>
 <link href="assets/css/market-base-reading-yellow-r11407.css?v=20260728-v306" rel="stylesheet"/>
-<link href="assets/css/international-logistics-integration-r11313.css?v=20260725-r11348" rel="stylesheet"/><link href="assets/css/market-base-learn-shell-r11314.css?v=20260725-r11348" rel="stylesheet"/><link as="document" href="haccp-quiz/index.html?v=20260727-r11372" rel="prefetch"/><link as="document" href="international-logistics/guide.html?v=20260727-r11372" rel="prefetch"/><link href="assets/css/upload-layout-fix-r11318.css?v=20260725-r11348" rel="stylesheet"/><link href="assets/css/market-base-primary-components-r11326.css?v=20260727-r11373" rel="stylesheet"/><link href="assets/css/world-why-learn-r11327.css?v=20260727-r11377" rel="stylesheet"/><link href="assets/css/market-base-scroll-controls-r11328.css?v=20260728-v302-back" rel="stylesheet"/><link href="assets/css/world-history-learn-r11330.css?v=20260729-v316" rel="stylesheet"/><link as="document" href="hs-learning/index.html?v=20260727-r11372" rel="prefetch"/><link as="document" href="ul-ce-learning/index.html?v=20260727-r11372" rel="prefetch"/><link href="assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371" rel="stylesheet"/><meta content="MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730" name="market-base-nav-build"/><link href="assets/css/market-base-weather-panel-v005.css?v=20260725-r11348" rel="stylesheet"/><link href="assets/css/market-base-weather-home-compact-r11342.css?v=20260725-r11348" rel="stylesheet"/><link href="assets/css/market-base-global-bottom-nav-r11345.css?v=20260725-r11348" rel="stylesheet"/><link href="assets/css/market-base-bottom-press-feedback-r11367.css?v=20260726-r11369" rel="stylesheet"/><meta name="market-base-build" content="MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730"><link rel="stylesheet" href="assets/css/market-base-bottom-nav-unified-r11409.css?v=20260728-r11409"><link rel="stylesheet" href="assets/css/market-base-home-refinements-r11413.css?v=20260728-v306">
+<link href="assets/css/international-logistics-integration-r11313.css?v=20260725-r11348" rel="stylesheet"/><link href="assets/css/market-base-learn-shell-r11314.css?v=20260725-r11348" rel="stylesheet"/><link as="document" href="haccp-quiz/index.html?v=20260727-r11372" rel="prefetch"/><link as="document" href="international-logistics/guide.html?v=20260727-r11372" rel="prefetch"/><link href="assets/css/upload-layout-fix-r11318.css?v=20260725-r11348" rel="stylesheet"/><link href="assets/css/market-base-primary-components-r11326.css?v=20260727-r11373" rel="stylesheet"/><link href="assets/css/world-why-learn-r11327.css?v=20260727-r11377" rel="stylesheet"/><link href="assets/css/market-base-scroll-controls-r11328.css?v=20260728-v302-back" rel="stylesheet"/><link href="assets/css/world-history-learn-r11330.css?v=20260729-v316" rel="stylesheet"/><link as="document" href="hs-learning/index.html?v=20260727-r11372" rel="prefetch"/><link as="document" href="ul-ce-learning/index.html?v=20260727-r11372" rel="prefetch"/><link href="assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371" rel="stylesheet"/><meta content="MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730" name="market-base-nav-build"/><link href="assets/css/market-base-weather-panel-v005.css?v=20260725-r11348" rel="stylesheet"/><link href="assets/css/market-base-weather-home-compact-r11342.css?v=20260725-r11348" rel="stylesheet"/><link href="assets/css/market-base-global-bottom-nav-r11345.css?v=20260725-r11348" rel="stylesheet"/><link href="assets/css/market-base-bottom-press-feedback-r11367.css?v=20260726-r11369" rel="stylesheet"/><meta name="market-base-build" content="MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730"><link rel="stylesheet" href="assets/css/market-base-bottom-nav-unified-r11409.css?v=20260728-r11409"><link rel="stylesheet" href="assets/css/market-base-home-refinements-r11413.css?v=20260728-v306">
 <link rel="stylesheet" href="assets/css/market-base-header-actions-v301.css?v=20260728-v301">
 <link rel="stylesheet" href="assets/css/market-base-header-audit-v302.css?v=20260728-v302">
 <link rel="stylesheet" href="assets/css/home-search-mode-v302.css?v=20260728-v302">
 <link rel="stylesheet" href="assets/css/map-search-v301.css?v=20260729-v316"/>
+<link rel="stylesheet" href="assets/css/market-base-settings-entry-v324.css?v=20260730-v324"/>
+<link rel="stylesheet" href="assets/css/world-radio-home-card-v307.css?v=20260730-v324"/>
+<link as="document" href="world-radio/index.html?v=20260730-v324" rel="prefetch"/>
 
 <link rel="stylesheet" href="assets/css/v311-ui-fixes.css?v=20260729-v317">
-<meta name="market-base-site-build" content="MARKET_BASE_V322_GLOBAL_UPDATE_JOURNEY_STABILITY_20260730">
+<meta name="market-base-site-build" content="MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730">
 </head>
 <body class="mb-unified-main-page">
 <div aria-label="MARKET BASE loading" class="app-splash" id="appSplash" role="status">
@@ -89,7 +129,7 @@
 <main class="app-shell" id="home"><h1 class="mb-visually-hidden">MARKET BASE</h1>
 <div id="homeViewContent" class="home-view-content">
 <section aria-label="MARKET BASE target reference home layout" class="target-home-reference">
-<div aria-label="ホームページ操作" class="mb-global-header mb-primary-header"><strong class="mb-global-brand">MARKET BASE</strong><div class="mb-global-actions"><span class="mb-global-button mb-global-count">196</span><button aria-label="キャッシュを更新" class="mb-global-button cache-refresh-btn" id="cacheRefreshBtn" type="button">更新</button></div></div>
+<div aria-label="ホームページ操作" class="mb-global-header mb-primary-header"><strong class="mb-global-brand">MARKET BASE</strong><div class="mb-global-actions"><a aria-label="設定を開く" class="mb-global-button mb-global-settings" href="settings/index.html?v=20260730-v324"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9.8 2.9h4.4l.6 2.1c.6.2 1.2.5 1.7.9l2.1-.6 2.2 3.8-1.6 1.5c.1.7.1 1.3 0 2l1.6 1.5-2.2 3.8-2.1-.6c-.5.4-1.1.7-1.7.9l-.6 2.1H9.8l-.6-2.1c-.6-.2-1.2-.5-1.7-.9l-2.1.6-2.2-3.8 1.6-1.5a7 7 0 0 1 0-2L3.2 9.1l2.2-3.8 2.1.6c.5-.4 1.1-.7 1.7-.9z"></path><circle cx="12" cy="11.6" r="3.2"></circle></svg><span class="mb-visually-hidden">設定</span></a><button aria-label="キャッシュを更新" class="mb-global-button cache-refresh-btn" id="cacheRefreshBtn" type="button">更新</button></div></div>
 <div class="mb-weather-root mb-weather-integrated" id="mbWeatherPrototypeRoot">
 <section aria-labelledby="weatherSectionTitle" class="mb-weather-home-slot">
 <h2 class="sr-only" id="weatherSectionTitle">地点を選んで天気を確認</h2>
@@ -600,6 +640,14 @@
 </div>
 </section>
 <div id="historyLearningMount"></div>
+<section class="home-world-radio-entry-section" aria-labelledby="homeWorldRadioTitle">
+<h3 class="home-world-radio-entry-title" id="homeWorldRadioTitle">世界のラジオ</h3>
+<a class="mb-world-radio-entry" href="world-radio/index.html?v=20260730-v324" aria-label="世界のラジオを開く">
+<span class="mb-world-radio-entry-icon" aria-hidden="true">◉</span>
+<span><b>世界のラジオを聴く</b><small>英語放送、穏やかなリゾート音楽、アメリカのポップをライブで楽しむ</small></span>
+<span class="mb-world-radio-entry-arrow" aria-hidden="true">›</span>
+</a>
+</section>
 </div>
 <nav aria-label="メインナビゲーション" class="tabs">
 <button class="tab" data-i18n="tabCountries" data-view="countries">国・地域</button>
@@ -765,8 +813,8 @@
 <div class="learn-intro"><strong>LEARNING HUB</strong><span>完成した学習コンテンツから、このページへ順次追加します。</span></div>
 <div class="learn-card-grid"><a class="learn-card learn-card-link learn-card-featured" href="haccp-quiz/index.html?v=20260727-r11372" id="haccp-quiz"><span aria-hidden="true" class="learn-card-icon">衛</span><div><h4>HACCP実務クイズ</h4><p>危害分析、CCP、工程トラブル、食品機械、海外対応を200問の実務クイズで確認します。</p></div><span class="learn-status learn-status-open">開く</span></a>
 <a class="learn-card learn-card-link" href="international-logistics/guide.html?v=20260727-r11372"><span aria-hidden="true" class="learn-card-icon">物</span><div><h4>国際物流を学ぶ</h4><p>輸出可否・価格・書類・通関から、食品機械・失敗防止まで、事実監査済みの輸出実務を順番に学びます。</p></div><span class="learn-status learn-status-open">開く</span></a>
-<article aria-disabled="true" class="learn-card" id="world-route-learning"><span aria-hidden="true" class="learn-card-icon">航</span><div><h4>世界のコンテナ輸送ルート</h4><p>現在、内容を整理しています。</p></div><span class="learn-status">作成中</span></article>
-<article aria-disabled="true" class="learn-card" id="machine-container-packing-learning"><span aria-hidden="true" class="learn-card-icon">梱</span><div><h4>機械コンテナ梱包</h4><p>現在、内容を整理しています。</p></div><span class="learn-status">作成中</span></article>
+<a class="learn-card learn-card-link" href="world-route/index.html?v=20260730-v324" id="world-route-learning"><span aria-hidden="true" class="learn-card-icon">航</span><div><h4>世界のコンテナ輸送ルート</h4><p>日本から20か国へ、どの海や港を通って届くかをシンプルな図で確認します。</p></div><span class="learn-status learn-status-open">開く</span></a>
+<a class="learn-card learn-card-link" href="machine-container-packing/index.html?v=20260730-v324" id="machine-container-packing-learning"><span aria-hidden="true" class="learn-card-icon">梱</span><div><h4>機械コンテナ梱包</h4><p>よくある疑問への短い答えと、梱包の流れをわかりやすく確認します。</p></div><span class="learn-status learn-status-open">開く</span></a>
 <a class="learn-card learn-card-link" href="hs-learning/index.html?v=20260727-r11372"><span aria-hidden="true" class="learn-card-icon">HS</span><div><h4>HSコード実務ナビ</h4><p>食品機械・製造ライン・部品の分類と通関実務を段階的に学びます。</p></div><span class="learn-status learn-status-open">開く</span></a>
 <a class="learn-card learn-card-link" href="ul-ce-learning/index.html?v=20260727-r11372"><span aria-hidden="true" class="learn-card-icon">規</span><div><h4>UL・CE規格</h4><p>食品機械の北米・欧州展開に必要な安全規格と実務対応を学びます。</p></div><span class="learn-status learn-status-open">開く</span></a>
 <article aria-disabled="true" class="learn-card" id="material-check-learning"><span aria-hidden="true" class="learn-card-icon">材</span><div><h4>食品接触部規制</h4><p>現在、内容を整理しています。</p></div><span class="learn-status">作成中</span></article>
@@ -836,11 +884,11 @@
 </figcaption>
 </figure>
 </dialog>
-<script src="assets/js/market-base-build.js?v=20260730-v322-global-update-journey-stability"></script>
+<script src="assets/js/market-base-build.js?v=20260730-v324-offline-music-precise-numbers"></script>
 <script src="assets/js/market-base-runtime-r11348.js?v=20260726-r11369"></script>
-<script src="assets/js/market-base-update-controller-v322.js?v=20260730-v322" data-mb-update-controller></script>
-<script src="embedded-country-profile-data-v273-r28.js?v=20260730-v322"></script>
-<script src="data/images/todays-journey-image-manifest-r11370.js?v=20260730-v322"></script>
+<script src="assets/js/market-base-update-controller-v322.js?v=20260730-v324" data-mb-update-controller></script>
+<script src="embedded-country-profile-data-v273-r28.js?v=20260730-v324"></script>
+<script src="data/images/todays-journey-image-manifest-r11370.js?v=20260730-v324"></script>
 <script src="data/country-local-rules.js?v=20260725-r11348"></script>
 <script src="embedded-prefecture-reference-data-v273-db-title-r27.js?v=20260725-r11348"></script>
 <script src="embedded-cross-db-search-index-v273-db-title-r27.js?v=20260725-r11348"></script>
@@ -848,15 +896,15 @@
 <script src="rice-additive-products-search-v273-r33.js?v=20260725-r11348"></script>
 <script src="assets/flags/flag-svg-data.js?v=20260725-r11348"></script>
 <script src="assets/js/news.js?v=20260725-r11348"></script>
-<script src="data/images/photo-registry-embedded.js?v=20260730-v322"></script>
+<script src="data/images/photo-registry-embedded.js?v=20260730-v324"></script>
 <script src="assets/js/photo-registry-v1.js?v=20260727-r11388-vanuatu"></script>
-<script src="assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260730-v322"></script>
+<script src="assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260730-v324"></script>
 <script src="assets/js/daily-retail-showcase-v1.js?v=20260727-r11383-home-reading"></script><script src="data/retail-logo-directory-r11379.js?v=20260727-r11382-gridfix"></script><script src="assets/js/retail-logo-directory-r11379.js?v=20260727-r11382-gridfix"></script>
 <script src="external-db-links-v273-db-title-r27.js?v=20260725-r11348"></script>
 <script src="assets/js/market-base-pc-unified-shell-r95-v1.js?v=20260725-r11348"></script>
 <script src="assets/js/reading-highlights-v1.js?v=20260725-r11348"></script>
 <script src="data/world-history-today-v028.js?v=20260728-r11413-ui-refine"></script><script src="assets/js/world-history-learn-r11330.js?v=20260728-r11414"></script><script src="data/world-why-365-v015.js?v=20260725-r11348"></script>
 <script src="assets/js/world-why-learn-r11327.js?v=20260725-r11348"></script>
-<script src="assets/js/market-base-scroll-controls-r11328.js?v=20260730-v322"></script><script data-mb-root="" src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371"></script><script src="assets/js/market-base-weather-panel-v005.js?v=20260725-r11348"></script><script src="data/market-base-daily-company-200-r11349.js?v=20260726-r11369"></script><script src="assets/js/market-base-daily-company-slot-r11361.js?v=20260726-r11369"></script><script src="assets/js/market-base-daily-fortune-r11363.js?v=20260726-r11369"></script><script src="assets/js/home-search-mode-v302.js?v=20260728-v302"></script><script src="assets/js/map-search-v301.js?v=20260729-v307"></script>
+<script src="assets/js/market-base-scroll-controls-r11328.js?v=20260730-v324"></script><script data-mb-root="" src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371"></script><script src="assets/js/market-base-weather-panel-v005.js?v=20260725-r11348"></script><script src="data/market-base-daily-company-200-r11349.js?v=20260726-r11369"></script><script src="assets/js/market-base-daily-company-slot-r11361.js?v=20260726-r11369"></script><script src="assets/js/market-base-daily-fortune-r11363.js?v=20260726-r11369"></script><script src="assets/js/home-search-mode-v302.js?v=20260728-v302"></script><script src="assets/js/map-search-v301.js?v=20260729-v307"></script>
 </body>
 </html>

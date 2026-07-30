@@ -1,0 +1,320 @@
+:root {
+  --navy: #082c67;
+  --blue: #1769d3;
+  --soft: #eef6ff;
+  --line: #d7e4f3;
+  --ink: #172b48;
+  --muted: #64748b;
+  --green: #18724a;
+  --yellow: #fff5c7;
+}
+
+* { box-sizing: border-box; }
+
+html { background: #eef3f9; }
+
+body {
+  margin: 0;
+  background: #eef3f9;
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Yu Gothic UI", "Yu Gothic", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, a { font: inherit; }
+button { cursor: pointer; }
+
+.settings-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  width: min(100%, 900px);
+  margin: 0 auto;
+  padding: max(18px, env(safe-area-inset-top)) 22px 18px;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+
+.settings-header strong {
+  color: var(--navy);
+  font-size: clamp(25px, 6vw, 35px);
+  font-weight: 950;
+  line-height: 1;
+  letter-spacing: .02em;
+}
+
+.settings-header > div {
+  display: flex;
+  gap: 8px;
+}
+
+.settings-header a,
+.settings-header button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 13px;
+  border: 2px solid #cbdff3;
+  border-radius: 15px;
+  background: #fff;
+  color: var(--navy);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.settings-header button { color: var(--blue); }
+
+.settings-main {
+  width: min(100%, 900px);
+  min-height: calc(100vh - 94px);
+  margin: 0 auto;
+  padding: 24px 22px 48px;
+}
+
+.settings-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+}
+
+.settings-title p {
+  margin: 0 0 1px;
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: .14em;
+}
+
+.settings-title h1 {
+  margin: 0;
+  color: var(--navy);
+  font-size: clamp(30px, 8vw, 42px);
+  line-height: 1.15;
+}
+
+.settings-gear {
+  display: grid;
+  place-items: center;
+  width: 62px;
+  height: 62px;
+  flex: 0 0 62px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #edf4fb, #d6e2ef);
+  box-shadow: inset 0 0 0 1px rgba(30, 64, 100, .08), 0 7px 20px rgba(25, 61, 103, .12);
+}
+
+.settings-gear svg {
+  width: 37px;
+  height: 37px;
+  fill: none;
+  stroke: #687d94;
+  stroke-width: 1.9;
+  stroke-linejoin: round;
+}
+
+.mode-card,
+.flight-card {
+  margin-bottom: 16px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 0 9px 28px rgba(28, 61, 104, .08);
+}
+
+.mode-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.mode-heading p {
+  margin: 0 0 3px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.mode-heading h2,
+.flight-card h2 {
+  margin: 0;
+  color: var(--navy);
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.mode-badge {
+  flex: 0 0 auto;
+  padding: 7px 11px;
+  border-radius: 999px;
+  background: var(--soft);
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 950;
+}
+
+.mode-badge.is-offline {
+  background: #e3f5eb;
+  color: var(--green);
+}
+
+.mode-lead {
+  margin: 16px 0;
+  color: #405773;
+}
+
+.mode-state {
+  display: grid;
+  gap: 2px;
+  padding: 14px 15px;
+  border-radius: 17px;
+  background: var(--soft);
+}
+
+.mode-state strong { color: var(--navy); }
+.mode-state span { color: var(--muted); font-size: 14px; }
+
+.save-progress {
+  margin-top: 14px;
+  padding: 15px;
+  border: 1px solid #cfe0f2;
+  border-radius: 17px;
+  background: #f9fcff;
+}
+
+.progress-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+  color: var(--navy);
+  font-size: 14px;
+}
+
+.save-progress progress {
+  display: block;
+  width: 100%;
+  height: 14px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 999px;
+  background: #dce9f6;
+}
+
+.save-progress progress::-webkit-progress-bar { background: #dce9f6; }
+.save-progress progress::-webkit-progress-value { background: linear-gradient(90deg, #1f70d5, #2f9ad5); }
+.save-progress progress::-moz-progress-bar { background: linear-gradient(90deg, #1f70d5, #2f9ad5); }
+
+.save-progress p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.save-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+  margin: 14px 0 0;
+}
+
+.save-summary div {
+  min-width: 0;
+  padding: 11px 12px;
+  border: 1px solid #e1ebf5;
+  border-radius: 15px;
+  background: #fbfdff;
+}
+
+.save-summary dt {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.save-summary dd {
+  margin: 1px 0 0;
+  color: var(--navy);
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.mode-actions {
+  display: grid;
+  gap: 9px;
+  margin-top: 16px;
+}
+
+.mode-actions button {
+  min-height: 54px;
+  padding: 10px 16px;
+  border-radius: 17px;
+  font-weight: 950;
+}
+
+.primary-action {
+  border: 0;
+  background: linear-gradient(135deg, #0c58bd, #207fdd);
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(23, 105, 211, .22);
+}
+
+.secondary-action {
+  border: 2px solid #cbdff3;
+  background: #fff;
+  color: var(--navy);
+}
+
+.mode-actions button:disabled {
+  cursor: wait;
+  opacity: .62;
+}
+
+.mode-notes {
+  margin: 17px 0 0;
+  padding: 14px 14px 14px 34px;
+  border-radius: 17px;
+  background: var(--yellow);
+  color: #60551f;
+  font-size: 13px;
+}
+
+.mode-notes li + li { margin-top: 5px; }
+
+.flight-card ol {
+  margin: 13px 0 0;
+  padding-left: 23px;
+}
+
+.flight-card li + li { margin-top: 7px; }
+
+footer {
+  width: min(100%, 900px);
+  margin: 0 auto;
+  padding: 0 22px calc(28px + env(safe-area-inset-bottom));
+  text-align: center;
+}
+
+footer a {
+  color: var(--blue);
+  font-weight: 900;
+}
+
+@media (max-width: 520px) {
+  .settings-header { padding-left: 16px; padding-right: 16px; }
+  .settings-header strong { font-size: 25px; }
+  .settings-header a, .settings-header button { min-height: 42px; padding: 0 10px; font-size: 14px; }
+  .settings-main { padding: 19px 16px 36px; }
+  .mode-card, .flight-card { padding: 18px 15px; border-radius: 21px; }
+  .mode-heading { align-items: center; }
+  .mode-heading h2, .flight-card h2 { font-size: 21px; }
+  .save-summary { grid-template-columns: 1fr; }
+  .settings-gear { width: 56px; height: 56px; flex-basis: 56px; border-radius: 18px; }
+  .settings-gear svg { width: 33px; height: 33px; }
+}

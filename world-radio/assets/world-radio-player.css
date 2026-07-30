@@ -1,10 +1,333 @@
-:root{--text:#17243a;--muted:#607087;--line:#dce6f2;--accent:#075fc7;--navy:#0b3976;--soft:#f5f8fc}
-*{box-sizing:border-box}html{background:#eef4fa}body{margin:0;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Yu Gothic UI","Yu Gothic",Meiryo,sans-serif;background:linear-gradient(180deg,#f8fbff 0%,#edf4fb 100%);min-height:100vh}
-.player-header{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:15px 18px;border-bottom:1px solid rgba(220,230,242,.95);background:rgba(255,255,255,.94);backdrop-filter:blur(14px)}
-.player-brand{color:var(--navy);font-size:17px;font-weight:950;letter-spacing:.035em;text-decoration:none}.player-header p{margin:2px 0 0;color:var(--muted);font-size:12px}.player-header button{width:40px;height:40px;border:1px solid var(--line);border-radius:50%;background:#fff;color:var(--navy);font:700 25px/1 inherit;cursor:pointer}
-.player-main{max-width:620px;margin:0 auto;padding:18px 16px 30px}.station-intro,.live-panel{border:1px solid var(--line);border-radius:20px;background:#fff;box-shadow:0 10px 28px rgba(22,51,88,.06)}
-.station-intro{padding:24px;background:linear-gradient(145deg,#fff 0%,#f1f7ff 100%)}.station-place,.panel-label{margin:0 0 7px;color:var(--accent);font-size:11px;font-weight:900;letter-spacing:.1em}.station-intro h1{margin:0;color:var(--navy);font-size:clamp(27px,8vw,38px);line-height:1.16}.station-description{margin:12px 0 0;color:#506177;font-size:15px;line-height:1.75}
-.live-panel{margin-top:14px;padding:19px}.live-panel h2{margin:0;color:var(--navy);font-size:20px}.live-panel p:not(.panel-label):not(.live-note){margin:7px 0 0;color:var(--muted);font-size:14px;line-height:1.65}.primary-button{display:flex;box-sizing:border-box;width:100%;min-height:52px;margin-top:16px;border:0;border-radius:15px;background:var(--accent);color:#fff;font:900 16px/1.2 inherit;text-decoration:none;cursor:pointer;align-items:center;justify-content:center}.live-note{margin:10px 0 0;color:#758399;font-size:12px;line-height:1.55}
-.player-footnote{margin:18px 4px 0;color:#69788c;font-size:13px;line-height:1.7;text-align:center}
-@media(min-width:520px){.player-main{padding:22px 20px 36px}.station-intro{padding:28px}.live-panel{padding:22px}}
-@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+:root {
+  --text: #17243a;
+  --muted: #607087;
+  --line: #dce6f2;
+  --accent: #075fc7;
+  --navy: #0b3976;
+  --soft: #f5f8fc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #eef4fa;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(180deg, #f8fbff 0%, #edf4fb 100%);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    "Yu Gothic UI", "Yu Gothic", Meiryo, sans-serif;
+}
+
+.player-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 15px 18px;
+  border-bottom: 1px solid rgba(220, 230, 242, .95);
+  background: rgba(255, 255, 255, .94);
+  backdrop-filter: blur(14px);
+}
+
+.player-brand {
+  color: var(--navy);
+  font-size: 17px;
+  font-weight: 950;
+  letter-spacing: .035em;
+  text-decoration: none;
+}
+
+.player-header p {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.player-header button {
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #fff;
+  color: var(--navy);
+  font: 700 25px/1 inherit;
+  cursor: pointer;
+}
+
+.player-main {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 18px 16px calc(30px + env(safe-area-inset-bottom));
+}
+
+.station-intro,
+.live-panel,
+.player-help {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(22, 51, 88, .06);
+}
+
+.station-intro {
+  padding: 24px;
+  background: linear-gradient(145deg, #fff 0%, #f1f7ff 100%);
+}
+
+.station-place,
+.panel-label {
+  margin: 0 0 7px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .1em;
+}
+
+.station-intro h1 {
+  margin: 0;
+  color: var(--navy);
+  font-size: clamp(27px, 8vw, 38px);
+  line-height: 1.16;
+}
+
+.station-description {
+  margin: 12px 0 0;
+  color: #506177;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.live-panel {
+  margin-top: 14px;
+  padding: 19px;
+}
+
+.live-panel-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.live-panel h2 {
+  margin: 0;
+  color: var(--navy);
+  font-size: 20px;
+}
+
+.live-state {
+  display: inline-flex;
+  min-height: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: #edf2f7;
+  color: #5c6c80;
+  font-size: 12px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.live-state[data-state="playing"] {
+  background: #e5f7eb;
+  color: #14713a;
+}
+
+.live-state[data-state="loading"] {
+  background: #fff4d7;
+  color: #816018;
+}
+
+.live-state[data-state="error"],
+.live-state[data-state="gesture"] {
+  background: #fff0ec;
+  color: #9b3f2c;
+}
+
+#radioAudio {
+  display: none;
+}
+
+.player-message {
+  min-height: 24px;
+  margin: 18px 0 10px;
+  color: #41536b;
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.player-controls {
+  display: grid;
+  grid-template-columns: minmax(72px, 1fr) minmax(118px, 1.35fr) minmax(72px, 1fr);
+  align-items: center;
+  gap: 10px;
+}
+
+.player-controls button {
+  min-height: 58px;
+  border: 0;
+  border-radius: 17px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.station-step {
+  display: grid;
+  place-items: center;
+  padding: 5px 8px;
+  background: #edf4fc;
+  color: #174c86;
+}
+
+.station-step span {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: .75;
+}
+
+.station-step small {
+  margin-top: 4px;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.play-pause {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 10px 17px;
+  background: var(--accent);
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(7, 95, 199, .22);
+}
+
+.play-pause[aria-pressed="true"] {
+  background: #173d70;
+}
+
+.play-icon {
+  min-width: 17px;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.play-pause strong {
+  font-size: 17px;
+}
+
+.player-controls button:focus-visible,
+.station-select:focus-visible,
+.official-link:focus-visible,
+.market-return-link:focus-visible,
+.player-brand:focus-visible,
+.player-header button:focus-visible {
+  outline: 3px solid #f4c94e;
+  outline-offset: 3px;
+}
+
+.station-select-label {
+  display: block;
+  margin: 19px 0 7px;
+  color: #52657c;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.station-select {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  padding: 9px 42px 9px 12px;
+  border: 1px solid #cbd9e8;
+  border-radius: 13px;
+  background: #fff;
+  color: #173d70;
+  font: 800 15px/1.3 inherit;
+}
+
+.official-link,
+.market-return-link {
+  display: flex;
+  width: 100%;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13px;
+  padding: 10px 13px;
+  border: 1px solid #b9cde3;
+  border-radius: 13px;
+  background: #f7faff;
+  color: #075fc7;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.35;
+  text-align: center;
+  text-decoration: none;
+}
+
+.market-return-link {
+  margin-top: 9px;
+  border-color: #075fc7;
+  background: #075fc7;
+  color: #fff;
+  font-size: 14px;
+}
+
+.live-note {
+  margin: 11px 2px 0;
+  color: #758399;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.player-help {
+  margin-top: 14px;
+  padding: 17px 19px;
+}
+
+.player-help h2 {
+  margin: 0;
+  color: var(--navy);
+  font-size: 16px;
+}
+
+.player-help p {
+  margin: 7px 0 0;
+  color: #63748a;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+@media (min-width: 520px) {
+  .player-main {
+    padding: 22px 20px 36px;
+  }
+
+  .station-intro {
+    padding: 28px;
+  }
+
+  .live-panel {
+    padding: 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto;
+  }
+}

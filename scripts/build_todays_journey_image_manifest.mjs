@@ -463,6 +463,7 @@ async function mapLimit(items, limit, mapper) {
 }
 
 const entries = loadEntries();
+const entryById = new Map(entries.map(entry => [entry.id, entry]));
 const existingRows = loadExistingRows();
 const reusableCount = entries.filter(entry => existingRows.get(entry.id)?.candidates?.length).length;
 if (reusableCount) process.stdout.write(`reusing ${reusableCount}/${entries.length} resolved entries\n`);
@@ -478,15 +479,29 @@ const rows = (await mapLimit(entries, CONCURRENCY, entry => {
     ? existing
     : resolveEntry(entry);
 })).map(row => {
+  const entry = entryById.get(row.article_id);
   const priority = CANDIDATE_FILE_PRIORITIES[row.article_id];
   const candidates = row.candidates.map(candidate => ({
     ...candidate,
-    image_url: resizeWikiThumb(candidate.image_url, candidate.width) || candidate.image_url
+    image_url: resizeWikiThumb(candidate.image_url, candidate.width) || candidate.image_url,
+    ...(entry ? {
+      alt: `${entry.country}・${entry.title}`,
+      caption: entry.title
+    } : {})
   }));
   if (priority) {
     candidates.sort((a, b) => Number(b.file_title === priority) - Number(a.file_title === priority));
   }
-  return { ...row, candidates };
+  return {
+    ...row,
+    ...(entry ? {
+      display_date: entry.display_date,
+      country: entry.country,
+      title: entry.title,
+      query: JAPANESE_QUERY_OVERRIDES[entry.id] || entry.image_search || row.query || ''
+    } : {}),
+    candidates
+  };
 });
 const unresolved = rows.filter(row => !row.candidates.length).map(row => row.article_id);
 const candidateCount = rows.reduce((sum, row) => sum + row.candidates.length, 0);
