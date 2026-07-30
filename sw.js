@@ -1,7 +1,7 @@
 'use strict';
 importScripts('./assets/js/market-base-offline-manifest-v324.js?v=20260730-v324-offline-save-fix');
-const BUILD_ID='MARKET_BASE_V324_IFM225_OFFLINE_BADGE_20260730';
-const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260730-v324-offline-save-fix';
+const BUILD_ID='MARKET_BASE_V324_FLIGHT_LOCATION_CLEANUP_20260730';
+const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260730-v324-flight-location-cleanup';
 const CACHE_NAME=`market-base-${VERSION}`;
 const OFFLINE_TEXT_CACHE='mb-user-offline-v324-text';
 const OFFLINE_IMAGE_CACHE='mb-user-offline-v324-images';

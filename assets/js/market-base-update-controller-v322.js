@@ -3,7 +3,7 @@
 
   if (global.MarketBaseUpdate) return;
 
-  const BUILD_ID = 'MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730';
+  const BUILD_ID = 'MARKET_BASE_V324_FLIGHT_LOCATION_CLEANUP_20260730';
   const LEGACY_PAGE_BUILD = 'MARKET_BASE_LEGACY_PAGE';
   const CHANNEL_NAME = 'market-base-update-v1';
   const SIGNAL_KEY = 'market_base_global_refresh_signal';
