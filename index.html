@@ -116,7 +116,8 @@ try{
 <link as="document" href="world-radio/index.html?v=20260730-v324" rel="prefetch"/>
 
 <link rel="stylesheet" href="assets/css/v311-ui-fixes.css?v=20260729-v317">
-<link rel="stylesheet" href="assets/css/market-base-v324-addon-home-fixes.css?v=20260730-v324-addon">
+<link rel="stylesheet" href="assets/css/market-base-v324-addon-home-fixes.css?v=20260730-v324-home-headings-edge">
+<link rel="stylesheet" href="assets/css/market-base-offline-status-badge-v324.css?v=20260730-v324-offline-save-fix">
 <meta name="market-base-site-build" content="MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730">
 </head>
 <body class="mb-unified-main-page">
@@ -130,7 +131,7 @@ try{
 <main class="app-shell" id="home"><h1 class="mb-visually-hidden">MARKET BASE</h1>
 <div id="homeViewContent" class="home-view-content">
 <section aria-label="MARKET BASE target reference home layout" class="target-home-reference">
-<div aria-label="ホームページ操作" class="mb-global-header mb-primary-header"><strong class="mb-global-brand">MARKET BASE</strong><div class="mb-global-actions"><a aria-label="設定を開く" class="mb-global-button mb-global-settings" href="settings/index.html?v=20260730-v324"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9.8 2.9h4.4l.6 2.1c.6.2 1.2.5 1.7.9l2.1-.6 2.2 3.8-1.6 1.5c.1.7.1 1.3 0 2l1.6 1.5-2.2 3.8-2.1-.6c-.5.4-1.1.7-1.7.9l-.6 2.1H9.8l-.6-2.1c-.6-.2-1.2-.5-1.7-.9l-2.1.6-2.2-3.8 1.6-1.5a7 7 0 0 1 0-2L3.2 9.1l2.2-3.8 2.1.6c.5-.4 1.1-.7 1.7-.9z"></path><circle cx="12" cy="11.6" r="3.2"></circle></svg><span class="mb-visually-hidden">設定</span></a><button aria-label="キャッシュを更新" class="mb-global-button cache-refresh-btn" id="cacheRefreshBtn" type="button">更新</button></div></div>
+<div aria-label="ホームページ操作" class="mb-global-header mb-primary-header mb-home-header"><div class="mb-home-brand-stack"><strong class="mb-global-brand">MARKET BASE</strong><span class="mb-home-offline-badge" id="mbHomeOfflineModeBadge" role="status" aria-live="polite" hidden>オフラインモード</span></div><div class="mb-global-actions"><a aria-label="設定を開く" class="mb-global-button mb-global-settings" href="settings/index.html?v=20260730-v324"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9.8 2.9h4.4l.6 2.1c.6.2 1.2.5 1.7.9l2.1-.6 2.2 3.8-1.6 1.5c.1.7.1 1.3 0 2l1.6 1.5-2.2 3.8-2.1-.6c-.5.4-1.1.7-1.7.9l-.6 2.1H9.8l-.6-2.1c-.6-.2-1.2-.5-1.7-.9l-2.1.6-2.2-3.8 1.6-1.5a7 7 0 0 1 0-2L3.2 9.1l2.2-3.8 2.1.6c.5-.4 1.1-.7 1.7-.9z"></path><circle cx="12" cy="11.6" r="3.2"></circle></svg><span class="mb-visually-hidden">設定</span></a><button aria-label="キャッシュを更新" class="mb-global-button cache-refresh-btn" id="cacheRefreshBtn" type="button">更新</button></div></div>
 <div class="mb-weather-root mb-weather-integrated" id="mbWeatherPrototypeRoot">
 <section aria-labelledby="weatherSectionTitle" class="mb-weather-home-slot">
 <h2 class="sr-only" id="weatherSectionTitle">地点を選んで天気を確認</h2>
@@ -259,22 +260,22 @@ try{
 <form class="target-search-box global-search-form" id="homeGlobalSearchForm" data-search-mode="internal">
 <span aria-hidden="true">⌕</span><input aria-label="国・地域・企業・ブランドを検索" id="homeGlobalSearchInput" placeholder="国・地域・企業・ブランドを検索" type="search"/><button type="submit">検索</button>
 </form>
-<h3 class="target-section-title">探し方</h3>
+<h3 class="target-section-title home-content-title">探し方</h3>
 <div class="target-route-list target-route-list--two">
 <button data-jump="countries" data-reset-country-filters="true"><span aria-hidden="true" class="target-icon line-ui-icon"><svg viewbox="0 0 24 24"><circle cx="12" cy="12" r="9.25"></circle><path d="M2.75 12h18.5M12 2.75c2.35 2.53 3.55 5.61 3.55 9.25S14.35 18.72 12 21.25M12 2.75C9.65 5.28 8.45 8.36 8.45 12s1.2 6.72 3.55 9.25"></path></svg></span><strong>国・地域から探す</strong><em>196の国・地域をすべて表示</em><b>›</b></button>
 <button data-jump="rankings"><span aria-hidden="true" class="target-icon line-ui-icon"><svg viewbox="0 0 24 24"><rect height="8" rx=".7" width="4.25" x="2.75" y="13.25"></rect><rect height="12.5" rx=".7" width="4.25" x="9.85" y="8.75"></rect><rect height="18" rx=".7" width="4.25" x="16.95" y="3.25"></rect></svg></span><strong>ランキングから探す</strong><em>指標のランキングを見る</em><b>›</b></button>
 <a class="world-compass-route-card" href="world-compass.html?v=20260727-r11385"><span aria-hidden="true" class="target-icon line-ui-icon"><svg viewbox="0 0 24 24"><circle cx="12" cy="12" r="9.25"></circle><path d="M12 5.25 15.2 10.8 12 18.75 8.8 13.2Z"></path><path d="M12 2.75v2.5M21.25 12h-2.5M12 21.25v-2.5M2.75 12h2.5"></path></svg></span><strong>世界方位から探す</strong><em>方角・距離から世界を見る</em><b>›</b></a>
 </div>
-<div class="target-row-head recent-countries-heading"><h3 id="recentCountriesHeading">最近見た国</h3><button data-jump="countries" data-reset-country-filters="true">すべて見る ›</button></div>
+<div class="target-row-head recent-countries-heading home-content-heading home-content-heading--action"><h3 class="home-content-title" id="recentCountriesHeading">最近見た国</h3><button data-jump="countries" data-reset-country-filters="true">すべて見る ›</button></div>
 <div aria-label="最近見た国" class="target-recent-grid" id="targetRecentGrid"></div>
 <!-- MARKET BASE V.301 | insert immediately before the existing 「探し方」 heading -->
 <section class="mb-map-search" id="mbMapSearchV301" aria-labelledby="mbMapSearchTitleV301"
          data-map-src="assets/svg/world-countries-v301.svg"
          data-intro-delay="2000">
-  <header class="mb-map-search__heading">
+  <header class="mb-map-search__heading home-content-heading">
     <div>
-      <h3 id="mbMapSearchTitleV301">地図で探す</h3>
-      <p>世界地図から国・地域を選択</p>
+      <h3 class="home-content-title" id="mbMapSearchTitleV301">地図で探す</h3>
+      <p class="home-content-description">世界地図から国・地域を選択</p>
     </div>
   </header>
 
@@ -337,7 +338,7 @@ try{
   <div class="mb-map-toast" data-map-toast role="status" aria-live="polite" hidden></div>
 </section>
 
-<h3 class="target-section-title">地域から探す</h3>
+<h3 class="target-section-title home-content-title">地域から探す</h3>
 <div class="target-region-grid">
 <button data-region-preset="Asia" data-subregion-preset="Eastern Asia">東アジア</button>
 <button data-region-preset="Asia" data-subregion-preset="South-eastern Asia">東南アジア</button>
@@ -349,8 +350,8 @@ try{
 <button data-region-preset="Oceania">オセアニア</button>
 </div>
 <section aria-label="Today’s Journey" class="todays-journey-section" hidden="" id="todaysJourney">
-<div class="todays-journey-heading">
-<div class="todays-journey-title-group"><span>Today’s Journey</span><small id="todaysJourneyDate"></small></div>
+<div class="todays-journey-heading home-content-heading">
+<div class="todays-journey-title-group"><span class="home-content-title">Today’s Journey</span><small id="todaysJourneyDate"></small></div>
 <div class="todays-journey-heading-tools">
 <em id="todaysJourneyCategory"></em>
 </div>
@@ -379,7 +380,7 @@ try{
 </div>
 </article>
 </section>
-<h3 class="target-section-title">人気ランキング</h3>
+<h3 class="target-section-title home-content-title">人気ランキング</h3>
 <div class="target-ranking-grid">
 <button data-jump="rankings"><span aria-hidden="true" class="ranking-line-icon line-ui-icon"><svg viewbox="0 0 24 24"><circle cx="8" cy="8" r="3.25"></circle><circle cx="16.55" cy="8" r="3.25"></circle><path d="M2.65 20.5v-1.25A5.35 5.35 0 0 1 8 13.9a5.35 5.35 0 0 1 5.35 5.35v1.25M12.25 15.75a5.35 5.35 0 0 1 9.1 3.8v.95"></path></svg></span><b>人口</b></button>
 <button data-jump="rankings"><span aria-hidden="true" class="ranking-line-icon line-ui-icon"><svg viewbox="0 0 24 24"><path d="M3 20.75V4M3 20.75h18M6.25 16.6l4.25-4.25 3.1 2.45 5.85-7.25M16.85 7.55h2.6v2.6"></path><circle cx="17.25" cy="17.15" r="3.75"></circle><path d="M17.25 14.85v4.6M18.7 15.8h-2.05a1 1 0 0 0 0 2h1.2a1 1 0 0 1 0 2H15.8"></path></svg></span><b>GDP</b></button>
@@ -506,9 +507,9 @@ try{
 <div class="external-db-card-copy">
 <h3 class="external-db-card-title">輸入食品機械代理店DB</h3><span class="external-db-card-note">（代理店・商社・貿易会社）</span>
 <p>各国・地域の食品加工機械、包装機、厨房機器の代理店・販売会社を一覧できます。</p>
-<div class="external-db-card-stats"><span>企業 <b>185</b></span><span>日本メーカー <b>68</b></span></div>
+<div class="external-db-card-stats"><span>企業 <b>225</b></span><span>日本メーカー <b>72</b></span></div>
 </div>
-<a class="external-db-card-link" data-external-db="imported_food_machinery" href="imported-food-machinery-v273-db-title-r27.html?v=20260725-r11348">DBを見る</a>
+<a class="external-db-card-link" data-external-db="imported_food_machinery" href="imported-food-machinery-v273-db-title-r27.html?v=20260730-v324-ifm225">DBを見る</a>
 </article>
 <article class="external-db-card retail-entry-card compact-external-card icon-external-card">
 <div aria-hidden="true" class="external-db-icon">
@@ -574,8 +575,10 @@ try{
 <span aria-hidden="true" class="cross-research-card__action"><span>検索ページへ</span><b>›</b></span>
 </a>
 </section>
+<header class="home-content-heading home-featured-companies-heading">
+<h2 class="home-content-title" id="homeFeaturedCompaniesTitle">ピックアップ企業</h2>
+</header>
 <section aria-labelledby="homeFeaturedCompaniesTitle" class="home-featured-companies">
-<h2 id="homeFeaturedCompaniesTitle">ピックアップ企業</h2>
 <div class="home-featured-grid">
 <a class="home-featured-card" href="gohan-food-manufacturers-v273-db-title-r27.html?q=%E6%B5%B7%E9%80%9A%E9%A3%9F%E5%93%81&amp;v=20260725-r11348">海通食品</a>
 <a class="home-featured-card" href="cvs-vendor-v273-db-title-r27.html?q=Tianjin%20Daqiaodao&amp;v=20260725-r11348">天津大橋道</a>
@@ -629,11 +632,11 @@ try{
 <span>データ <b>更新済み</b></span>
 </section>
 <div id="retailDiscoveryHomeMount" class="home-retail-discovery-mount" aria-label="コンビニ・スーパー紹介"></div>
-<section aria-labelledby="homeReadingSectionTitle" class="learn-reading-section home-reading-section" id="homeReadingSection">
-<header class="learn-reading-divider home-reading-divider-v306">
-<h3 class="target-section-title home-reading-title" id="homeReadingSectionTitle">読み物</h3>
-<p class="home-reading-description">文章でゆっくり読んで世界の風を読むコンテンツです。</p>
+<header class="home-content-heading home-reading-heading">
+<h3 class="home-content-title" id="homeReadingSectionTitle">読み物</h3>
+<p class="home-content-description">文章でゆっくり読んで世界の風を読むコンテンツです。</p>
 </header>
+<section aria-labelledby="homeReadingSectionTitle" class="learn-reading-section home-reading-section" id="homeReadingSection">
 <div class="learn-card-grid learn-reading-grid">
 <a class="learn-card learn-card-link learn-reading-card reading-region-card reading-region-china" href="classic-move/index.html?v=20260728-r11406" id="classic-move-home"><span aria-hidden="true" class="learn-card-icon">典</span><div><h4>古典の一手</h4><p>論語・孫子・韓非子など100作品を、原文・読み下し・現代語訳・解読の順に読んで学びます。</p></div><span class="learn-status learn-status-open">開く</span></a>
 <a class="learn-card learn-card-link learn-reading-card reading-region-card reading-region-arab" href="rakuda-no-me/index.html?v=20260729-v309" id="rakuda-no-me-home"><span aria-hidden="true" class="learn-card-icon">駱</span><div><h4>ラクダの目</h4><p>砂漠と商いをモチーフにした60の短い寓話から、人の本質と仕事の判断を静かに読み取ります。</p></div><span class="learn-status learn-status-open">開く</span></a>
@@ -643,7 +646,9 @@ try{
 </section>
 <div id="historyLearningMount"></div>
 <section class="home-world-radio-entry-section" aria-labelledby="homeWorldRadioTitle">
-<h3 class="home-world-radio-entry-title" id="homeWorldRadioTitle">世界のラジオ</h3>
+<header class="home-content-heading home-world-radio-heading">
+<h3 class="home-world-radio-entry-title home-content-title" id="homeWorldRadioTitle">世界のラジオ</h3>
+</header>
 <a class="mb-world-radio-entry" href="world-radio/index.html?v=20260730-v324" data-mb-radio-dock-show aria-label="世界のラジオを開く">
 <span class="mb-world-radio-entry-icon" aria-hidden="true">◉</span>
 <span><b>世界のラジオを聴く</b><small>英語放送、穏やかなリゾート音楽、アメリカのポップをライブで楽しむ</small></span>
@@ -887,8 +892,9 @@ try{
 </figure>
 </dialog>
 <script src="assets/js/market-base-build.js?v=20260730-v324-offline-music-precise-numbers"></script>
+<script src="assets/js/market-base-offline-status-badge-v324.js?v=20260730-v324-offline-save-fix"></script>
 <script src="assets/js/market-base-runtime-r11348.js?v=20260726-r11369"></script>
-<script src="assets/js/market-base-update-controller-v322.js?v=20260730-v324" data-mb-update-controller></script>
+<script src="assets/js/market-base-update-controller-v322.js?v=20260730-v324-radio-edge" data-mb-update-controller></script>
 <script src="embedded-country-profile-data-v273-r28.js?v=20260730-v324"></script>
 <script src="data/images/todays-journey-image-manifest-r11370.js?v=20260730-v324"></script>
 <script src="data/country-local-rules.js?v=20260725-r11348"></script>
@@ -901,12 +907,12 @@ try{
 <script src="data/images/photo-registry-embedded.js?v=20260730-v324-big-c-hotfix"></script>
 <script src="assets/js/photo-registry-v1.js?v=20260727-r11388-vanuatu"></script>
 <script src="assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260730-v324"></script>
-<script src="assets/js/daily-retail-showcase-v1.js?v=20260730-v324-retail-mount-fix"></script><script src="data/retail-logo-directory-r11379.js?v=20260727-r11382-gridfix"></script><script src="assets/js/retail-logo-directory-r11379.js?v=20260730-v324-retail-mount-fix"></script>
+<script src="assets/js/daily-retail-showcase-v1.js?v=20260730-v324-home-headings"></script><script src="data/retail-logo-directory-r11379.js?v=20260727-r11382-gridfix"></script><script src="assets/js/retail-logo-directory-r11379.js?v=20260730-v324-home-headings"></script>
 <script src="external-db-links-v273-db-title-r27.js?v=20260725-r11348"></script>
 <script src="assets/js/market-base-pc-unified-shell-r95-v1.js?v=20260725-r11348"></script>
 <script src="assets/js/reading-highlights-v1.js?v=20260725-r11348"></script>
-<script src="data/world-history-today-v028.js?v=20260728-r11413-ui-refine"></script><script src="assets/js/world-history-learn-r11330.js?v=20260728-r11414"></script><script src="data/world-why-365-v015.js?v=20260725-r11348"></script>
+<script src="data/world-history-today-v028.js?v=20260730-v324-history-photo-json"></script><script src="assets/js/world-history-learn-r11330.js?v=20260730-v324-home-headings"></script><script src="data/world-why-365-v015.js?v=20260725-r11348"></script>
 <script src="assets/js/world-why-learn-r11327.js?v=20260725-r11348"></script>
-<script src="assets/js/market-base-scroll-controls-r11328.js?v=20260730-v324"></script><script data-mb-root="" src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371"></script><script src="assets/js/market-base-weather-panel-v005.js?v=20260725-r11348"></script><script src="data/market-base-daily-company-200-r11349.js?v=20260726-r11369"></script><script src="assets/js/market-base-daily-company-slot-r11361.js?v=20260726-r11369"></script><script src="assets/js/market-base-daily-fortune-r11363.js?v=20260726-r11369"></script><script src="assets/js/home-search-mode-v302.js?v=20260728-v302"></script><script src="assets/js/map-search-v301.js?v=20260729-v307"></script>
+<script src="assets/js/market-base-scroll-controls-r11328.js?v=20260730-v324-final"></script><script data-mb-root="" src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371"></script><script src="assets/js/market-base-weather-panel-v005.js?v=20260725-r11348"></script><script src="data/market-base-daily-company-200-r11349.js?v=20260726-r11369"></script><script src="assets/js/market-base-daily-company-slot-r11361.js?v=20260726-r11369"></script><script src="assets/js/market-base-daily-fortune-r11363.js?v=20260726-r11369"></script><script src="assets/js/home-search-mode-v302.js?v=20260728-v302"></script><script src="assets/js/map-search-v301.js?v=20260729-v307"></script>
 </body>
 </html>

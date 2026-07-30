@@ -1,0 +1,46 @@
+/* V324: show the saved offline-mode state beside the home brand only. */
+#home .mb-home-header .mb-home-brand-stack{
+  display:flex;
+  flex:1 1 auto;
+  min-width:0;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  gap:2px;
+}
+#home .mb-home-header .mb-home-brand-stack .mb-global-brand{
+  flex:0 0 auto;
+}
+#home .mb-home-offline-badge{
+  display:inline-flex;
+  align-items:center;
+  min-height:16px;
+  padding:2px 7px;
+  border:1px solid #b42318;
+  border-radius:999px;
+  background:#d92d20;
+  color:#fff;
+  font:900 10px/1.05 -apple-system,BlinkMacSystemFont,"Segoe UI","Yu Gothic UI","Yu Gothic",Meiryo,sans-serif;
+  letter-spacing:.035em;
+  white-space:nowrap;
+  box-shadow:0 2px 7px rgba(180,35,24,.18);
+}
+#home .mb-home-offline-badge[hidden]{
+  display:none!important;
+}
+#home .mb-home-header.mb-has-offline-badge{
+  height:82px!important;
+  min-height:82px!important;
+}
+@media(min-width:900px){
+  #home .mb-home-header.mb-has-offline-badge{
+    height:88px!important;
+    min-height:88px!important;
+  }
+  #home .mb-home-offline-badge{
+    min-height:17px;
+    padding:2px 8px;
+    font-size:11px;
+  }
+}
+

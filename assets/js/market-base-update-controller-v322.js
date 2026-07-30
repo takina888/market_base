@@ -33,7 +33,7 @@
     channel: null
   };
   const radioDockUrl = new URL(
-    'assets/js/market-base-radio-dock-v323.js?v=20260730-v324',
+    'assets/js/market-base-radio-dock-v323.js?v=20260730-v324-edge',
     siteRoot
   );
 

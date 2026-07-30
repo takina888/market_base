@@ -1,7 +1,7 @@
 'use strict';
-importScripts('./assets/js/market-base-offline-manifest-v324.js?v=20260730-v324-big-c-hotfix');
-const BUILD_ID='MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730';
-const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260730-v324-offline-music-precise-numbers';
+importScripts('./assets/js/market-base-offline-manifest-v324.js?v=20260730-v324-offline-save-fix');
+const BUILD_ID='MARKET_BASE_V324_IFM225_OFFLINE_BADGE_20260730';
+const VERSION=(new URL(self.location.href)).searchParams.get('v')||'20260730-v324-offline-save-fix';
 const CACHE_NAME=`market-base-${VERSION}`;
 const OFFLINE_TEXT_CACHE='mb-user-offline-v324-text';
 const OFFLINE_IMAGE_CACHE='mb-user-offline-v324-images';
@@ -10,18 +10,20 @@ const OFFLINE_STATE_REQUEST=new URL('./__market_base_offline_mode__',self.locati
 // V324 add-on: the radio dock can be dismissed and restored from the radio card.
 const REQUIRED=[
   "./",
-  "./index.html?v=20260730-v324-offline-music-precise-numbers",
+  "./index.html?v=20260730-v324-ifm225",
   "./offline.html?v=20260730-v324",
-  "./version.txt?v=20260730-v324-offline-music-precise-numbers",
-  "./assets/js/market-base-build.js?v=20260730-v324-offline-music-precise-numbers",
-  "./assets/js/market-base-update-controller-v322.js?v=20260730-v324",
-  "./assets/js/market-base-scroll-controls-r11328.js?v=20260730-v324",
-  "./assets/js/market-base-radio-dock-v323.js?v=20260730-v324",
-  "./assets/css/market-base-radio-dock-v323.css?v=20260730-v324",
-  "./assets/js/market-base-offline-manifest-v324.js?v=20260730-v324-big-c-hotfix",
+  "./version.txt?v=20260730-v324-ifm225",
+  "./assets/js/market-base-build.js?v=20260730-v324-ifm225",
+  "./assets/js/market-base-update-controller-v322.js?v=20260730-v324-radio-edge",
+  "./assets/js/market-base-scroll-controls-r11328.js?v=20260730-v324-final",
+  "./assets/js/market-base-radio-dock-v323.js?v=20260730-v324-edge",
+  "./assets/css/market-base-radio-dock-v323.css?v=20260730-v324-edge",
+  "./assets/js/market-base-offline-manifest-v324.js?v=20260730-v324-offline-save-fix",
+  "./assets/css/market-base-offline-status-badge-v324.css?v=20260730-v324-offline-save-fix",
+  "./assets/js/market-base-offline-status-badge-v324.js?v=20260730-v324-offline-save-fix",
   "./settings/index.html?v=20260730-v324",
   "./settings/assets/settings.css?v=20260730-v324",
-  "./settings/assets/offline-settings.js?v=20260730-v324",
+  "./settings/assets/offline-settings.js?v=20260730-v324-offline-save-fix",
   "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260730-v324",
   "./embedded-country-profile-data-v273-r28.js?v=20260730-v324",
   "./data/images/todays-journey-image-manifest-r11370.js?v=20260730-v324",
@@ -30,8 +32,8 @@ const REQUIRED=[
 const CORE=[
   "./assets/css/v311-ui-fixes.css?v=20260729-v318",
   "./assets/js/app-v273-country-profile-r28-refresh-route-header-r95.js?v=20260730-v324",
-  "./assets/js/market-base-build.js?v=20260730-v324-offline-music-precise-numbers",
-  "./assets/js/market-base-update-controller-v322.js?v=20260730-v324",
+  "./assets/js/market-base-build.js?v=20260730-v324-ifm225",
+  "./assets/js/market-base-update-controller-v322.js?v=20260730-v324-radio-edge",
   "./embedded-country-profile-data-v273-r28.js?v=20260730-v324",
   "./assets/css/market-base-header-audit-v302.css?v=20260728-v302",
   "./assets/css/home-search-mode-v302.css?v=20260728-v302",
@@ -42,8 +44,8 @@ const CORE=[
   "./assets/images/market-base-world-wind-v301.webp?v=20260728-v303",
   "./assets/images/market-base-world-wind-v301.jpg?v=20260728-v303",
   "./",
-  "./index.html?v=20260730-v324-offline-music-precise-numbers",
-  "./version.txt?v=20260730-v324-offline-music-precise-numbers",
+  "./index.html?v=20260730-v324-ifm225",
+  "./version.txt?v=20260730-v324-ifm225",
   "./offline.html?v=20260730-v324",
   "./news.html?v=20260728-v303-final",
   "./market-base-v273-country-profile-r28.html?v=20260728-v303-final",
@@ -130,7 +132,7 @@ const CORE=[
   "./assets/css/market-base-global-bottom-nav-r11345.css?v=20260726-r11369",
   "./assets/css/market-base-bottom-press-feedback-r11367.css?v=20260726-r11369",
   "./assets/css/market-base-reading-section-r11366.css?v=20260727-r11383",
-  "./assets/js/market-base-build.js?v=20260730-v324-offline-music-precise-numbers",
+  "./assets/js/market-base-build.js?v=20260730-v324-ifm225",
   "./assets/js/market-base-runtime-r11348.js?v=20260726-r11369",
   "./assets/flags/flag-svg-data.js?v=20260727-r11385-flaglock",
   "./assets/js/news.js?v=20260726-r11369",
@@ -140,10 +142,10 @@ const CORE=[
   "./retail-sales-v273-db-title-r27.html?v=20260727-r11373-photo-final",
   "./assets/css/retail-store-gallery-v2.css?v=20260725-r11348",
   "./assets/js/retail-store-gallery-v2.js?v=20260727-r11373-photo-final",
-  "./assets/js/daily-retail-showcase-v1.js?v=20260730-v324-retail-mount-fix",
+  "./assets/js/daily-retail-showcase-v1.js?v=20260730-v324-home-headings",
   "./assets/css/retail-logo-directory-r11379.css?v=20260727-r11384-compact",
   "./data/retail-logo-directory-r11379.js?v=20260727-r11382-gridfix",
-  "./assets/js/retail-logo-directory-r11379.js?v=20260730-v324-retail-mount-fix",
+  "./assets/js/retail-logo-directory-r11379.js?v=20260730-v324-home-headings",
   "./assets/images/retail-logo-directory/logo-sheet-01.jpg?v=20260727-r11379",
   "./assets/images/retail-logo-directory/logo-sheet-02.jpg?v=20260727-r11379",
   "./assets/images/retail-logo-directory/logo-sheet-03.jpg?v=20260727-r11379",
@@ -158,10 +160,10 @@ const CORE=[
   "./assets/images/retail/big-c-thailand-chaeng-watthana-exterior.webp?v=20260730-v324-big-c-hotfix",
   "./assets/js/market-base-pc-unified-shell-r95-v1.js?v=20260726-r11369",
   "./assets/js/reading-highlights-v1.js?v=20260726-r11369",
-  "./data/world-history-today-v028.js?v=20260728-r11413-ui-refine",
-  "./assets/js/world-history-learn-r11330.js?v=20260728-r11414",
+  "./data/world-history-today-v028.js?v=20260730-v324-history-photo-json",
+  "./assets/js/world-history-learn-r11330.js?v=20260730-v324-home-headings",
   "./assets/js/world-why-learn-r11327.js?v=20260726-r11369",
-  "./assets/js/market-base-scroll-controls-r11328.js?v=20260730-v324",
+  "./assets/js/market-base-scroll-controls-r11328.js?v=20260730-v324-final",
   "./assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371",
   "./assets/js/market-base-weather-panel-v005.js?v=20260726-r11369"
   ,"./work-basics/index.html?v=20260730-v324"
@@ -178,9 +180,9 @@ const CORE=[
   ,"./world-radio/assets/world-radio-player.css?v=20260730-v324"
   ,"./world-radio/assets/world-radio-player.js?v=20260730-v324"
   ,"./assets/css/world-radio-home-card-v307.css?v=20260730-v324"
-  ,"./assets/css/market-base-v324-addon-home-fixes.css?v=20260730-v324-addon"
-  ,"./assets/js/market-base-radio-dock-v323.js?v=20260730-v324"
-  ,"./assets/css/market-base-radio-dock-v323.css?v=20260730-v324"
+  ,"./assets/css/market-base-v324-addon-home-fixes.css?v=20260730-v324-home-headings-edge"
+  ,"./assets/js/market-base-radio-dock-v323.js?v=20260730-v324-edge"
+  ,"./assets/css/market-base-radio-dock-v323.css?v=20260730-v324-edge"
   ,"./world-route.html?v=20260730-v324"
   ,"./world-route/index.html?v=20260730-v324"
   ,"./world-route/market-base-ui-base.css?v=20260730-v324"
@@ -309,6 +311,20 @@ async function offlineFallback(request){
 async function onlineSameOriginResponse(event,url){
   const request=event.request;
   const cache=await caches.open(CACHE_NAME);
+  const forceRefresh=request.cache==='reload'||
+    request.cache==='no-store'||
+    url.searchParams.has('mb-offline-save');
+  if(forceRefresh){
+    try{
+      const response=await fetch(request,{cache:'reload'});
+      if(response.ok)await cache.put(request,response.clone());
+      return response;
+    }catch(_e){
+      const cached=await cache.match(request,{ignoreSearch:true});
+      if(cached)return cached;
+      return Response.error();
+    }
+  }
   const isDocument=request.mode==='navigate'||request.destination==='document';
   const isFreshData=url.pathname.endsWith('.json')||url.pathname.endsWith('version.txt');
   const isHistoryAsset=url.pathname.endsWith('/data/world-history-today-v028.js')||url.pathname.endsWith('/assets/js/world-history-learn-r11330.js');

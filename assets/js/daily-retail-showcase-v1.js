@@ -108,9 +108,35 @@ function ensureDialog(){
 function openPhoto(photo){
   const d=ensureDialog();setSafeImage(d.img,photo);d.title.textContent=photo.caption_ja||photo.alt_ja||photo.company_name_ja||'店舗写真';d.credit.replaceChildren(creditDetails(photo));if(!d.root.open)d.root.showModal();
 }
+function ensureHomeHeading(host){
+  if(!host||document.body.dataset.dailyRetailPage==='retail')return null;
+  const parent=host.parentNode;
+  if(!parent)return null;
+  let heading=document.getElementById('dailyRetailHomeHeading');
+  if(!heading){
+    heading=el('header','home-content-heading daily-retail-home-heading');
+    heading.id='dailyRetailHomeHeading';
+    const title=el('h2','home-content-title','コンビニ・スーパー紹介画像集');
+    title.id='dailyRetailHomeTitle';
+    heading.append(
+      title,
+      el('p','home-content-description','世界の店舗を、外観と店内の写真で紹介します。')
+    );
+  }
+  if(heading.parentNode!==parent||heading.nextElementSibling!==host){
+    parent.insertBefore(heading,host);
+  }
+  host.dataset.homeHeading='external';
+  host.removeAttribute('aria-label');
+  host.setAttribute('aria-labelledby','dailyRetailHomeTitle');
+  return heading;
+}
 function mountHost(){
   let host=document.getElementById('dailyRetailShowcase');
-  if(host)return host;
+  if(host){
+    ensureHomeHeading(host);
+    return host;
+  }
   host=el('section','daily-retail-showcase');host.id='dailyRetailShowcase';host.hidden=true;host.setAttribute('aria-label','コンビニ・スーパー紹介画像集');
   const retailMain=document.querySelector('main.page');
   if(retailMain&&/retail-sales-v273-db-title-r27\.html$/i.test(location.pathname)){
@@ -120,18 +146,26 @@ function mountHost(){
   }
   const fixedMount=document.getElementById('retailDiscoveryHomeMount');
   if(fixedMount){
+    const logoHeading=document.getElementById('retailLogoHomeHeading');
     const logoDirectory=document.getElementById('retailLogoDirectory');
-    if(logoDirectory&&logoDirectory.parentNode===fixedMount)fixedMount.insertBefore(host,logoDirectory);
+    if(logoHeading&&logoHeading.parentNode===fixedMount)fixedMount.insertBefore(host,logoHeading);
+    else if(logoDirectory&&logoDirectory.parentNode===fixedMount)fixedMount.insertBefore(host,logoDirectory);
     else fixedMount.prepend(host);
+    ensureHomeHeading(host);
     return host;
   }
   const home=document.getElementById('homeViewContent')||document.getElementById('home')||document.querySelector('main');
   if(home){
     const reading=document.getElementById('homeReadingSection');
+    const readingHeading=document.querySelector('.home-reading-heading');
+    const logoHeading=document.getElementById('retailLogoHomeHeading');
     const logoDirectory=document.getElementById('retailLogoDirectory');
-    if(logoDirectory&&logoDirectory.parentNode===home)home.insertBefore(host,logoDirectory);
+    if(logoHeading&&logoHeading.parentNode===home)home.insertBefore(host,logoHeading);
+    else if(logoDirectory&&logoDirectory.parentNode===home)home.insertBefore(host,logoDirectory);
+    else if(readingHeading&&readingHeading.parentNode===home)home.insertBefore(host,readingHeading);
     else if(reading&&reading.parentNode===home)home.insertBefore(host,reading);
     else home.append(host);
+    ensureHomeHeading(host);
     return host;
   }
   return null;
@@ -143,18 +177,28 @@ function render(dateOffset=dailyRetailState.dateOffset){
   dailyRetailState.dateOffset=dateOffset;
   stopRotation();
   const host=mountHost();if(!host)return;
+  const homeHeading=ensureHomeHeading(host);
   const photos=registry.query({database_id:'retail_sales_db',display_location:'photo_gallery'});
   const groups=groupPhotos(photos);
   const selectedDate=dateFromOffset(dateOffset);
   const group=chooseGroup(groups,dateOffset);
   document.documentElement.dataset.dailyRetailGroups=String(groups.length);
   document.documentElement.dataset.dailyRetailPhotos=String(photos.length);
-  if(!group){host.hidden=true;host.replaceChildren();document.documentElement.dataset.dailyRetailGallery='empty';return;}
+  if(!group){
+    host.hidden=true;
+    if(homeHeading)homeHeading.hidden=true;
+    host.replaceChildren();
+    document.documentElement.dataset.dailyRetailGallery='empty';
+    return;
+  }
+  if(homeHeading)homeHeading.hidden=false;
   host.hidden=false;host.dataset.companyId=group.company_id;host.dataset.day=localDayKey(selectedDate);host.dataset.dayOffset=String(dateOffset);host.replaceChildren();
   const galleryPhotos=group.photos.slice(0,4);
   const first=galleryPhotos[0];
   const heading=el('div','daily-retail-heading');
-  const titleWrap=el('div');titleWrap.append(el('span',null,'DAILY STORE GALLERY'),el('h2',null,'コンビニ・スーパー紹介画像集'));
+  const titleWrap=el('div');
+  titleWrap.append(el('span',null,'DAILY STORE GALLERY'));
+  if(!homeHeading)titleWrap.append(el('h2',null,'コンビニ・スーパー紹介画像集'));
   const dateMeta=el('div','daily-retail-date-meta');
   const date=el('em',null,formatDayLabel(selectedDate));
   const range=el('small',null,'過去2週間の紹介を表示');

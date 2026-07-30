@@ -10,7 +10,7 @@
   const DISMISSED_KEY = 'market_base_radio_dock_dismissed_v1';
   const CHANNEL_NAME = 'market-base-radio-v1';
   const STATE_GRACE_MS = 12 * 60 * 60 * 1000;
-  const EDGE_GAP = 10;
+  const VERTICAL_EDGE_GAP = 10;
   const sourceId = `dock-${Date.now()}-${Math.random().toString(36).slice(2)}`;
   const scriptNode = document.currentScript ||
     document.querySelector('script[data-mb-radio-dock]');
@@ -74,7 +74,7 @@
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = new URL(
-      'assets/css/market-base-radio-dock-v323.css?v=20260730-v324',
+      'assets/css/market-base-radio-dock-v323.css?v=20260730-v324-edge',
       siteRoot
     ).href;
     link.dataset.mbRadioDockStyle = '';
@@ -195,21 +195,19 @@
       return Number.isFinite(parsed) ? parsed : 0;
     };
     const safeTop = cssPixels('--dock-safe-top');
-    const safeRight = cssPixels('--dock-safe-right');
     const safeBottom = cssPixels('--dock-safe-bottom');
-    const safeLeft = cssPixels('--dock-safe-left');
     const panelWidth = Math.max(1, dock.offsetWidth || panel.offsetWidth || 280);
     const panelHeight = Math.max(1, panel.offsetHeight || 132);
     const tabWidth = Math.max(1, dockTab.offsetWidth || 38);
-    const minimumX = EDGE_GAP + safeLeft + tabWidth;
+    const minimumX = tabWidth;
     const maximumX = Math.max(
       minimumX,
-      global.innerWidth - EDGE_GAP - safeRight - panelWidth
+      global.innerWidth - panelWidth
     );
-    const minimumY = EDGE_GAP + safeTop;
+    const minimumY = VERTICAL_EDGE_GAP + safeTop;
     const maximumY = Math.max(
       minimumY,
-      global.innerHeight - EDGE_GAP - safeBottom - panelHeight
+      global.innerHeight - VERTICAL_EDGE_GAP - safeBottom - panelHeight
     );
     return {
       panelWidth,

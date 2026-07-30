@@ -357,12 +357,12 @@
       mount.replaceChildren();
       var section=el('section','history-learning');
       section.id='historyLearning';section.setAttribute('aria-labelledby','historyLearnTitle');
-      var head=el('header','history-section-head');
+      var head=el('header','history-section-head home-content-heading');
       var headCopy=el('div','');
       headCopy.appendChild(el('p','history-kicker','WORLD HISTORY TODAY'));
-      var h=el('h4','', '歴史を学ぶ');h.id='historyLearnTitle';headCopy.appendChild(h);
-      headCopy.appendChild(el('p','', '左右で日付を切り替え、上下で同じ日の5記事を1本ずつ全文で読めます。'));
-      head.appendChild(headCopy);section.appendChild(head);
+      var h=el('h4','home-content-title', '歴史を学ぶ');h.id='historyLearnTitle';headCopy.appendChild(h);
+      headCopy.appendChild(el('p','home-content-description', '左右で日付を切り替え、上下で同じ日の5記事を1本ずつ全文で読めます。'));
+      head.appendChild(headCopy);
       section.appendChild(dateAxis(selectedKey,selectDate,false));
       section.appendChild(articleAxis(selectedIndex,day.articleIds.length,selectArticle,false));
       section.appendChild(mainArticleNode(article,'h5',false));
@@ -375,7 +375,7 @@
       var byDate=el('a','history-more-action','日付から探す');byDate.href='world-history-today.html?mode=date&date='+selectedKey;
       var byTheme=el('a','history-more-action','テーマ・人物から探す');byTheme.href='world-history-today.html?mode=search&date='+selectedKey;
       append(actions,full,byDate,byTheme);section.appendChild(actions);
-      mount.appendChild(section);
+      mount.append(head,section);
       remember();
       if(scrollBack)scrollArticleIntoView('historyLearnMainArticle');
     }

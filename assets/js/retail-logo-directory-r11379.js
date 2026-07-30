@@ -74,15 +74,28 @@
     var daily=document.getElementById('dailyRetailShowcase');
     var home=document.getElementById('retailDiscoveryHomeMount')||document.getElementById('homeViewContent')||document.getElementById('home')||document.querySelector('main');
     if(!home)return false;
+    var useExternalHeading=home.id==='retailDiscoveryHomeMount';
     var section=el('section','retail-logo-directory');
     section.id='retailLogoDirectory';
     section.setAttribute('aria-labelledby','retailLogoDirectoryTitle');
+    if(useExternalHeading)section.dataset.homeHeading='external';
+    var externalHead=null;
+    if(useExternalHeading){
+      externalHead=el('header','home-content-heading retail-logo-home-heading');
+      externalHead.id='retailLogoHomeHeading';
+      var externalTitle=el('h2','home-content-title','世界の小売ロゴから探す');
+      externalTitle.id='retailLogoDirectoryTitle';
+      externalHead.appendChild(externalTitle);
+      externalHead.appendChild(el('p','home-content-description','ロゴを選ぶと、小売業データベースの企業詳細へ移動します。'));
+    }
     var head=el('div','retail-logo-directory__head');
     var copy=el('div','retail-logo-directory__copy');
     copy.appendChild(el('span','retail-logo-directory__eyebrow','RETAIL LOGO DIRECTORY'));
-    var title=el('h2','', '世界の小売ロゴから探す');
-    title.id='retailLogoDirectoryTitle';copy.appendChild(title);
-    copy.appendChild(el('p','retail-logo-directory__lead','ロゴを選ぶと、小売業データベースの企業詳細へ移動します。'));
+    if(!useExternalHeading){
+      var title=el('h2','', '世界の小売ロゴから探す');
+      title.id='retailLogoDirectoryTitle';copy.appendChild(title);
+      copy.appendChild(el('p','retail-logo-directory__lead','ロゴを選ぶと、小売業データベースの企業詳細へ移動します。'));
+    }
     var controls=el('div','retail-logo-directory__controls');
     var prev=el('button','retail-logo-directory__button','‹');prev.type='button';prev.setAttribute('aria-label','前のロゴ一覧へ');
     var status=el('span','retail-logo-directory__status','1 / '+DATA.boards.length);status.setAttribute('aria-live','polite');
@@ -93,11 +106,26 @@
     DATA.boards.forEach(function(board,index){viewport.appendChild(createBoard(board,index));});
     section.appendChild(viewport);
     if(daily&&daily.parentNode===home){
-      daily.insertAdjacentElement('afterend',section);
+      if(externalHead){
+        daily.insertAdjacentElement('afterend',externalHead);
+        externalHead.insertAdjacentElement('afterend',section);
+      }else{
+        daily.insertAdjacentElement('afterend',section);
+      }
     }else{
       var reading=document.getElementById('homeReadingSection');
-      if(reading&&reading.parentNode===home)home.insertBefore(section,reading);
-      else home.appendChild(section);
+      var readingHeading=document.querySelector('.home-reading-heading');
+      var reference=readingHeading&&readingHeading.parentNode===home?readingHeading:
+        (reading&&reading.parentNode===home?reading:null);
+      if(externalHead){
+        if(reference)home.insertBefore(externalHead,reference);
+        else home.appendChild(externalHead);
+        externalHead.insertAdjacentElement('afterend',section);
+      }else if(reference){
+        home.insertBefore(section,reference);
+      }else{
+        home.appendChild(section);
+      }
     }
     var cards=[].slice.call(viewport.children);
     function currentIndex(){

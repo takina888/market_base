@@ -11,9 +11,10 @@
     datePhotoWindowDays: 10,
     textAssets: [],
     supportAssets: [],
-    localPhotoAssets: []
+    localPhotoAssets: [],
+    remotePhotoAliases: {}
   };
-  const BUILD_ID = 'MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730';
+  const BUILD_ID = 'MARKET_BASE_V324_OFFLINE_RELIABLE_SAVE_20260730';
   const MAX_IMAGE_EDGE = 960;
   const IMAGE_QUALITY = 0.64;
   const MIN_FREE_BYTES = 8 * 1024 * 1024;
@@ -116,13 +117,42 @@
       elements.phaseLabel.textContent = 'オンライン接続を待っています';
       elements.phaseDetail.textContent = '接続を確認すると、保存データを整理して最新版へ更新します。';
     } else if (offline) {
-      elements.modeBadge.textContent = state.phase === 'complete' ? 'オフライン' : '保存中';
+      elements.modeBadge.textContent = state.phase === 'complete'
+        ? 'オフライン'
+        : state.phase === 'partial'
+          ? '一部保存'
+          : '保存中';
       if (state.phase === 'complete') {
         elements.phaseLabel.textContent = '保存完了';
-        elements.phaseDetail.textContent = '通信がない場所でも、保存済みの文章と圧縮写真を閲覧できます。';
+        const textSaved = Number(state.textSaved || 0);
+        const textTotal = Number(state.textTotal || 0);
+        const supportSaved = Number(state.supportSaved || 0);
+        const supportTotal = Number(state.supportTotal || 0);
+        const supportFailed = Number(state.supportFailed || 0);
+        const imageSaved = Number(state.imageSaved || 0);
+        const imageTotal = Number(state.imageTotal || 0);
+        const imageSkipped = Number(state.imageSkipped || 0);
+        const supportNote = supportFailed
+          ? ` 画面表示用の任意ファイルは${supportSaved.toLocaleString('ja-JP')} / ` +
+            `${supportTotal.toLocaleString('ja-JP')}件です。未保存でも文章の閲覧には影響しません。`
+          : '';
+        if (imageTotal && imageSaved < imageTotal) {
+          const reason = imageSkipped
+            ? '端末の空き容量を守るため、残りの写真は保存していません。'
+            : '保存できない写真は、オンライン接続時のみ表示されます。';
+          elements.phaseDetail.textContent =
+            `文章は${textSaved.toLocaleString('ja-JP')} / ${textTotal.toLocaleString('ja-JP')}件、` +
+            `写真は${imageSaved.toLocaleString('ja-JP')} / ${imageTotal.toLocaleString('ja-JP')}件を保存しました。` +
+            `${reason}${supportNote}`;
+        } else {
+          elements.phaseDetail.textContent =
+            `文章と、保存対象の圧縮写真をすべて保存しました。${supportNote}`;
+        }
       } else if (state.phase === 'partial') {
         elements.phaseLabel.textContent = '一部を保存しました';
-        elements.phaseDetail.textContent = '保存できなかった項目があります。通信状態を確認して、もう一度保存してください。';
+        elements.phaseDetail.textContent =
+          `文章に${Number(state.textFailed || 0).toLocaleString('ja-JP')}件の未保存があります。` +
+          '保存済みデータは残るため、通信状態を確認して再実行できます。';
       } else {
         elements.phaseLabel.textContent = 'オフライン用データを保存中';
         elements.phaseDetail.textContent = 'この画面を閉じずにお待ちください。';
@@ -137,9 +167,27 @@
     elements.textSummary.textContent = state.textTotal
       ? `${Number(state.textSaved || 0).toLocaleString('ja-JP')} / ${Number(state.textTotal).toLocaleString('ja-JP')}件`
       : '未保存';
-    elements.imageSummary.textContent = state.imageTotal
-      ? `${Number(state.imageSaved || 0).toLocaleString('ja-JP')} / ${Number(state.imageTotal).toLocaleString('ja-JP')}件（圧縮）`
-      : '未保存';
+    if (state.supportTotal) {
+      const supportSaved = Number(state.supportSaved || 0);
+      const supportTotal = Number(state.supportTotal || 0);
+      const supportFailed = Number(state.supportFailed || 0);
+      elements.supportSummary.textContent =
+        `${supportSaved.toLocaleString('ja-JP')} / ${supportTotal.toLocaleString('ja-JP')}件` +
+        (supportFailed ? `（任意・未保存 ${supportFailed.toLocaleString('ja-JP')}件）` : '（任意）');
+    } else {
+      elements.supportSummary.textContent = '未保存';
+    }
+    if (state.imageTotal) {
+      const originalCount = Number(state.imageOriginal || 0);
+      const suffix = originalCount
+        ? `（圧縮、原寸${originalCount.toLocaleString('ja-JP')}件を含む）`
+        : '（圧縮）';
+      elements.imageSummary.textContent =
+        `${Number(state.imageSaved || 0).toLocaleString('ja-JP')} / ` +
+        `${Number(state.imageTotal).toLocaleString('ja-JP')}件 ${suffix}`;
+    } else {
+      elements.imageSummary.textContent = '未保存';
+    }
     elements.savedAtSummary.textContent = formatDate(state.savedAt);
   }
 
@@ -195,6 +243,10 @@
     return [...new Set(urls.filter(url => /^https?:/i.test(url || '')))];
   }
 
+  function imageFetchUrl(cacheUrl) {
+    return MANIFEST.remotePhotoAliases?.[cacheUrl] || cacheUrl;
+  }
+
   async function enableOfflineSentinel(state) {
     const cache = await caches.open(STATE_CACHE);
     await cache.put(STATE_REQUEST, new Response(JSON.stringify({
@@ -213,33 +265,49 @@
     await caches.delete(STATE_CACHE);
   }
 
+  async function cacheOneStaticAsset(cache, asset) {
+    const url = absoluteAsset(asset);
+    const cached = await cache.match(url, { ignoreSearch: true });
+    try {
+      const response = await fetch(url, {
+        cache: 'reload',
+        credentials: 'same-origin'
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      await cache.put(url, response.clone());
+      return { saved: true, refreshed: true };
+    } catch (error) {
+      if (cached) {
+        return {
+          saved: true,
+          refreshed: false,
+          reused: true,
+          message: String(error?.message || error)
+        };
+      }
+      return {
+        saved: false,
+        refreshed: false,
+        message: String(error?.message || error)
+      };
+    }
+  }
+
   async function cacheStaticAssets(assets) {
     const cache = await caches.open(TEXT_CACHE);
     let completed = 0;
     let saved = 0;
+    let reused = 0;
     const failures = [];
     const queue = [...assets];
 
     async function worker() {
       while (queue.length) {
         const asset = queue.shift();
-        const url = absoluteAsset(asset);
-        try {
-          const cached = await cache.match(url, { ignoreSearch: true });
-          if (cached) {
-            saved += 1;
-          } else {
-            const response = await fetch(url, {
-              cache: 'reload',
-              credentials: 'same-origin'
-            });
-            if (!response.ok) throw new Error(`HTTP ${response.status}`);
-            await cache.put(url, response.clone());
-            saved += 1;
-          }
-        } catch (error) {
-          failures.push({ asset, message: String(error?.message || error) });
-        }
+        const result = await cacheOneStaticAsset(cache, asset);
+        if (result.saved) saved += 1;
+        if (result.reused) reused += 1;
+        if (!result.saved) failures.push({ asset, message: result.message });
         completed += 1;
         setProgress(
           '文章を保存中',
@@ -254,6 +322,42 @@
             textSaved: saved,
             textTotal: assets.length,
             textFailed: failures.length
+          });
+        }
+      }
+    }
+
+    await Promise.all(Array.from({ length: Math.min(4, assets.length) }, worker));
+    return { saved, reused, failures };
+  }
+
+  async function cacheOptionalAssets(assets) {
+    const cache = await caches.open(TEXT_CACHE);
+    const queue = [...assets];
+    let saved = 0;
+    let completed = 0;
+    const failures = [];
+
+    async function worker() {
+      while (queue.length) {
+        const asset = queue.shift();
+        const result = await cacheOneStaticAsset(cache, asset);
+        if (result.saved) saved += 1;
+        if (!result.saved) failures.push({ asset, message: result.message });
+        completed += 1;
+        setProgress(
+          '画面表示用ファイルを保存中',
+          completed,
+          assets.length,
+          `${saved.toLocaleString('ja-JP')}件を保存しました（任意）。`
+        );
+        if (completed % 4 === 0) {
+          writeState({
+            enabled: true,
+            phase: 'saving-support',
+            supportSaved: saved,
+            supportTotal: assets.length,
+            supportFailed: failures.length
           });
         }
       }
@@ -332,15 +436,22 @@
   async function cacheCompressedImages(urls) {
     const cache = await caches.open(IMAGE_CACHE);
     let saved = 0;
+    let compressed = 0;
+    let original = 0;
     let skipped = 0;
     const failures = [];
 
     for (let index = 0; index < urls.length; index += 1) {
-      const url = urls[index];
+      const cacheUrl = urls[index];
       try {
-        const cached = await cache.match(url);
+        const cached = await cache.match(cacheUrl);
         if (cached) {
           saved += 1;
+          if (cached.headers.get('X-Market-Base-Offline-Compressed') === '1') {
+            compressed += 1;
+          } else {
+            original += 1;
+          }
         } else {
           const estimate = index % 5 === 0 ? await navigator.storage?.estimate?.() : null;
           if (
@@ -350,8 +461,11 @@
             skipped = urls.length - index;
             break;
           }
-          const blob = await compressImage(url);
-          await cache.put(url, new Response(blob, {
+          // Cache under the URL used by the page, while fetching a direct
+          // Wikimedia thumbnail when the source is a CORS-incompatible
+          // Special:Redirect URL.
+          const blob = await compressImage(imageFetchUrl(cacheUrl));
+          await cache.put(cacheUrl, new Response(blob, {
             headers: {
               'Content-Type': blob.type || 'image/webp',
               'Cache-Control': 'public, max-age=31536000, immutable',
@@ -359,16 +473,19 @@
             }
           }));
           saved += 1;
+          compressed += 1;
         }
       } catch (error) {
-        failures.push({ url, message: String(error?.message || error) });
+        failures.push({ url: cacheUrl, message: String(error?.message || error) });
       }
       const current = index + 1;
+      const unavailable = failures.length + skipped;
       setProgress(
         '写真を圧縮して保存中',
         current,
         urls.length,
-        `${saved.toLocaleString('ja-JP')}件を圧縮保存しました。`
+        `${saved.toLocaleString('ja-JP')}件を保存中` +
+          (unavailable ? `（未保存 ${unavailable.toLocaleString('ja-JP')}件）` : '')
       );
       if (current % 5 === 0) {
         writeState({
@@ -376,13 +493,15 @@
           phase: 'saving-images',
           imageSaved: saved,
           imageTotal: urls.length,
+          imageCompressed: compressed,
+          imageOriginal: original,
           imageFailed: failures.length,
           imageSkipped: skipped
         });
         await storageEstimate();
       }
     }
-    return { saved, skipped, failures };
+    return { saved, compressed, original, skipped, failures };
   }
 
   async function saveOffline() {
@@ -409,8 +528,13 @@
       textFailed: 0,
       imageSaved: 0,
       imageTotal: 0,
+      imageCompressed: 0,
+      imageOriginal: 0,
       imageFailed: 0,
-      imageSkipped: 0
+      imageSkipped: 0,
+      supportSaved: 0,
+      supportTotal: 0,
+      supportFailed: 0
     });
     updateUi();
     setProgress('保存準備中', 0, 1, '保存する文章と写真を確認しています。');
@@ -420,34 +544,42 @@
       // A previous snapshot may already be active. Keep its text/photos, but
       // briefly release cache-first mode so missing items can be downloaded.
       await disableOfflineSentinel();
-      const registration = await navigator.serviceWorker.register('../sw.js?v=20260730-v324', {
+      const registration = await navigator.serviceWorker.register('../sw.js?v=20260730-v324-offline-save-fix', {
         scope: '../',
         updateViaCache: 'none'
       });
       await registration.update().catch(() => undefined);
       await navigator.serviceWorker.ready;
 
-      const staticAssets = [...new Set([
-        ...(MANIFEST.textAssets || []),
-        ...(MANIFEST.supportAssets || [])
-      ])];
+      const textAssets = [...new Set(MANIFEST.textAssets || [])];
+      const supportAssets = [...new Set(MANIFEST.supportAssets || [])];
       const photoUrls = imageTargets();
       writeState({
         enabled: true,
         phase: 'saving-text',
-        textTotal: staticAssets.length,
+        textTotal: textAssets.length,
+        supportTotal: supportAssets.length,
         imageTotal: photoUrls.length
       });
-      const textResult = await cacheStaticAssets(staticAssets);
+      const textResult = await cacheStaticAssets(textAssets);
+      // Fonts and app icons improve appearance, but they are not article data.
+      // Cache them best-effort without making the offline snapshot "partial".
+      const supportResult = await cacheOptionalAssets(supportAssets);
       writeState({
         enabled: true,
         phase: 'saving-images',
         textSaved: textResult.saved,
-        textTotal: staticAssets.length,
-        textFailed: textResult.failures.length
+        textTotal: textAssets.length,
+        textFailed: textResult.failures.length,
+        supportSaved: supportResult.saved,
+        supportTotal: supportAssets.length,
+        supportFailed: supportResult.failures.length
       });
 
       const imageResult = await cacheCompressedImages(photoUrls);
+      // Text is required for offline reading. Photos are explicitly best-effort:
+      // unavailable remote images or the device's free-space guard must not
+      // cause an endless "partial" result when all reading data is ready.
       const complete = textResult.failures.length === 0;
       const finished = writeState({
         enabled: true,
@@ -456,22 +588,31 @@
         buildId: BUILD_ID,
         savedAt: Date.now(),
         textSaved: textResult.saved,
-        textTotal: staticAssets.length,
+        textTotal: textAssets.length,
         textFailed: textResult.failures.length,
+        textReused: textResult.reused,
+        supportSaved: supportResult.saved,
+        supportTotal: supportAssets.length,
+        supportFailed: supportResult.failures.length,
         imageSaved: imageResult.saved,
         imageTotal: photoUrls.length,
+        imageCompressed: imageResult.compressed,
+        imageOriginal: imageResult.original,
         imageFailed: imageResult.failures.length,
         imageSkipped: imageResult.skipped,
-        compressedImages: true
+        imageUnavailable: imageResult.failures.length + imageResult.skipped,
+        imageFailureSamples: imageResult.failures.slice(0, 5),
+        compressedImages: imageResult.original === 0
       });
       await enableOfflineSentinel(finished);
+      const processedTotal = textAssets.length + supportAssets.length + photoUrls.length;
       setProgress(
-        complete ? '保存完了' : '一部を保存しました',
-        1,
-        1,
-        complete
-          ? '文章と、保存可能な写真の準備ができました。'
-          : '保存できなかった文章があります。通信状態を確認して再実行できます。'
+        complete ? '保存処理が完了しました' : '保存処理が完了しました（文章に未保存あり）',
+        processedTotal,
+        processedTotal,
+        `文章 ${textResult.saved.toLocaleString('ja-JP')} / ${textAssets.length.toLocaleString('ja-JP')}件、` +
+          `画面表示用 ${supportResult.saved.toLocaleString('ja-JP')} / ${supportAssets.length.toLocaleString('ja-JP')}件、` +
+          `写真 ${imageResult.saved.toLocaleString('ja-JP')} / ${photoUrls.length.toLocaleString('ja-JP')}件を保存しました。`
       );
     } catch (error) {
       console.warn('MARKET BASE offline save failed', error);
@@ -544,7 +685,7 @@
     [
       'modeBadge', 'phaseLabel', 'phaseDetail', 'saveProgress', 'progressLabel',
       'progressCount', 'progressBar', 'progressDetail', 'textSummary',
-      'imageSummary', 'savedAtSummary', 'storageSummary', 'saveOfflineButton',
+      'supportSummary', 'imageSummary', 'savedAtSummary', 'storageSummary', 'saveOfflineButton',
       'switchOnlineButton'
     ].forEach(id => { elements[id] = $(id); });
   }

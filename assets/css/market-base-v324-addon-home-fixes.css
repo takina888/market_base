@@ -20,3 +20,140 @@
     max-height: 30px !important;
   }
 }
+
+/*
+ * Home World History:
+ * the article already has its own card, so the surrounding section must not
+ * add a second frame. Keep only a modest separation from the section above.
+ */
+#historyLearningMount .history-learning {
+  margin: 0 0 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+#historyLearningMount > .history-section-head {
+  padding: 0 2px;
+}
+
+@media (max-width: 640px) {
+  #historyLearningMount .history-learning {
+    margin-top: 0;
+  }
+
+  #historyLearningMount > .history-section-head {
+    padding-inline: 1px;
+  }
+}
+
+/*
+ * Home section headings:
+ * use one navy, one size and one rhythm for the main content entrances.
+ * Today’s Journey keeps its English name, but no longer grows larger than
+ * the surrounding sections.
+ */
+body.mb-unified-main-page {
+  --mb-home-section-title-color: #0a326d;
+  --mb-home-section-title-size: clamp(24px, 3vw, 30px);
+  --mb-home-section-description-color: #607189;
+}
+
+body.mb-unified-main-page .home-content-heading {
+  box-sizing: border-box;
+  margin: clamp(22px, 3vw, 34px) 0 12px;
+  padding: 0 2px;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+body.mb-unified-main-page .home-content-title {
+  margin: 0 !important;
+  color: var(--mb-home-section-title-color) !important;
+  font-size: var(--mb-home-section-title-size) !important;
+  font-weight: 950 !important;
+  line-height: 1.25 !important;
+  letter-spacing: .005em !important;
+}
+
+body.mb-unified-main-page .target-section-title.home-content-title {
+  margin: clamp(22px, 4vw, 32px) 0 12px !important;
+}
+
+body.mb-unified-main-page .home-content-heading--action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+body.mb-unified-main-page .mb-map-search__heading.home-content-heading,
+body.mb-unified-main-page .todays-journey-heading.home-content-heading,
+body.mb-unified-main-page .home-world-radio-heading {
+  margin-top: 0 !important;
+  margin-bottom: 12px !important;
+}
+
+body.mb-unified-main-page .home-content-description {
+  margin: 6px 0 0 !important;
+  color: var(--mb-home-section-description-color) !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;
+}
+
+body.mb-unified-main-page .todays-journey-title-group > small {
+  color: #6e8197 !important;
+  font-size: clamp(17px, 2vw, 21px) !important;
+  font-weight: 900 !important;
+  line-height: 1.2 !important;
+}
+
+/*
+ * Reading:
+ * the heading and description belong to the home page, not inside the
+ * lemon content card. The section now contains the card grid only.
+ */
+body.mb-unified-main-page #homeReadingSection.home-reading-section {
+  margin: 0 0 clamp(22px, 3vw, 34px) !important;
+}
+
+/*
+ * Titles for framed home content live immediately before their cards.
+ * The frame now begins with the content itself, avoiding a second title style
+ * inside each card.
+ */
+body.mb-unified-main-page .home-featured-companies,
+body.mb-unified-main-page .home-retail-discovery-mount > .daily-retail-showcase,
+body.mb-unified-main-page .home-retail-discovery-mount > .retail-logo-directory {
+  margin-top: 0 !important;
+}
+
+body.mb-unified-main-page .home-retail-discovery-mount > .home-content-heading[hidden] {
+  display: none !important;
+}
+
+body.mb-unified-main-page .daily-retail-showcase[data-home-heading="external"] .daily-retail-heading,
+body.mb-unified-main-page .retail-logo-directory[data-home-heading="external"] .retail-logo-directory__head {
+  margin-top: 0;
+}
+
+@media (max-width: 640px) {
+  body.mb-unified-main-page {
+    --mb-home-section-title-size: 24px;
+  }
+
+  body.mb-unified-main-page .home-content-heading {
+    margin-top: 22px;
+    margin-bottom: 11px;
+    padding-inline: 1px;
+  }
+
+  body.mb-unified-main-page .home-content-description {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+  }
+}
