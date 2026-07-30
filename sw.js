@@ -7,6 +7,7 @@ const OFFLINE_TEXT_CACHE='mb-user-offline-v324-text';
 const OFFLINE_IMAGE_CACHE='mb-user-offline-v324-images';
 const OFFLINE_STATE_CACHE='mb-user-offline-v324-state';
 const OFFLINE_STATE_REQUEST=new URL('./__market_base_offline_mode__',self.location.href).href;
+// V324 add-on: the radio dock can be dismissed and restored from the radio card.
 const REQUIRED=[
   "./",
   "./index.html?v=20260730-v324-offline-music-precise-numbers",

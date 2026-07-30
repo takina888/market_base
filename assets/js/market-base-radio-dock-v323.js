@@ -7,6 +7,7 @@
   const COMMAND_KEY = 'market_base_radio_command_v1';
   const COLLAPSED_KEY = 'market_base_radio_dock_collapsed_v1';
   const POSITION_KEY = 'market_base_radio_dock_position_v1';
+  const DISMISSED_KEY = 'market_base_radio_dock_dismissed_v1';
   const CHANNEL_NAME = 'market-base-radio-v1';
   const STATE_GRACE_MS = 12 * 60 * 60 * 1000;
   const EDGE_GAP = 10;
@@ -28,6 +29,7 @@
   let currentState = null;
   let collapsedPreference = storageGet(COLLAPSED_KEY);
   let collapsed = collapsedPreference === '1';
+  let dismissed = storageGet(DISMISSED_KEY) === '1';
   let messageResetHandle = 0;
   let positionFrame = 0;
   let dragState = null;
@@ -96,6 +98,8 @@
             <strong id="mbRadioDockName">世界のラジオ</strong>
             <small id="mbRadioDockPlace">WNYCから聴く</small>
           </div>
+          <button class="mb-radio-dock-close" id="mbRadioDockClose" type="button"
+            aria-label="ラジオ小窓とタブを閉じる" title="閉じる">×</button>
         </div>
         <div class="mb-radio-dock-actions">
           <div class="mb-radio-dock-controls" id="mbRadioDockControls"
@@ -135,6 +139,7 @@
   const dockTabArrow = dock.querySelector('#mbRadioDockTabArrow');
   const dockTabGrip = dock.querySelector('#mbRadioDockTabGrip');
   const dragHandle = dock.querySelector('#mbRadioDockDrag');
+  const closeButton = dock.querySelector('#mbRadioDockClose');
   const stateLabel = dock.querySelector('#mbRadioDockState');
   const stationLabel = dock.querySelector('#mbRadioDockName');
   const placeLabel = dock.querySelector('#mbRadioDockPlace');
@@ -161,6 +166,14 @@
       'aria-label',
       collapsed ? 'ラジオ小窓を開く' : 'ラジオ小窓をしまう'
     );
+  }
+
+  function applyDismissed(next, persist = false) {
+    dismissed = !!next;
+    dock.hidden = dismissed;
+    dock.dataset.dismissed = String(dismissed);
+    if (persist) storageSet(DISMISSED_KEY, dismissed ? '1' : '0');
+    if (!dismissed) schedulePositionRestore();
   }
 
   function syncAutomaticCollapse() {
@@ -277,7 +290,7 @@
   }
 
   function schedulePositionRestore() {
-    if (dragState) return;
+    if (dismissed || dragState) return;
     global.cancelAnimationFrame?.(positionFrame);
     positionFrame = global.requestAnimationFrame(() => {
       if (dragState) return;
@@ -412,6 +425,24 @@
     applyCollapsed(next);
   });
 
+  closeButton.addEventListener('click', event => {
+    event.preventDefault();
+    event.stopPropagation();
+    applyDismissed(true, true);
+  });
+
+  document.addEventListener('click', event => {
+    const radioEntry = event.target.closest?.(
+      '[data-mb-radio-dock-show],a[href*="world-radio/"]'
+    );
+    if (!radioEntry || !dismissed) return;
+    applyDismissed(false, true);
+  }, true);
+
+  global.addEventListener('marketbase:radio-dock-show', () => {
+    applyDismissed(false, true);
+  });
+
   controls.addEventListener('click', event => {
     const button = event.target.closest('[data-radio-command]');
     if (!button) return;
@@ -448,6 +479,9 @@
       syncAutomaticCollapse();
     }
     if (event.key === POSITION_KEY) schedulePositionRestore();
+    if (event.key === DISMISSED_KEY) {
+      applyDismissed(event.newValue === '1', false);
+    }
   });
 
   global.addEventListener('resize', schedulePositionRestore, { passive: true });
@@ -456,6 +490,7 @@
   });
   global.addEventListener('load', schedulePositionRestore, { once: true });
 
+  applyDismissed(dismissed, false);
   render();
   global.setInterval(() => render(), 30000);
   global.addEventListener('pagehide', () => {
@@ -466,6 +501,9 @@
     root: siteRoot.href,
     refresh: render,
     sendCommand,
-    restorePosition
+    restorePosition,
+    show: () => applyDismissed(false, true),
+    hide: () => applyDismissed(true, true),
+    isHidden: () => dismissed
   });
 })(window);

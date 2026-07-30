@@ -20,6 +20,10 @@
   visibility: visible;
 }
 
+.mb-radio-dock[hidden] {
+  display: none !important;
+}
+
 .mb-radio-dock-panel {
   position: relative;
   width: 100%;
@@ -130,7 +134,7 @@
 
 .mb-radio-dock-head {
   display: grid;
-  grid-template-columns: 36px minmax(0, 1fr);
+  grid-template-columns: 36px minmax(0, 1fr) 30px;
   align-items: center;
   gap: 8px;
 }
@@ -155,6 +159,24 @@
 
 .mb-radio-dock-copy {
   min-width: 0;
+}
+
+.mb-radio-dock-close {
+  align-self: start;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid #cad9e8;
+  border-radius: 999px;
+  background: #f4f8fc;
+  color: #53677e;
+  font: 800 19px/1 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.mb-radio-dock-close:hover {
+  background: #e7f0fa;
+  color: #143f72;
 }
 
 .mb-radio-dock-kicker {
