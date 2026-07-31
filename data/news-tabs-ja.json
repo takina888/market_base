@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-07-31T03:56:08Z",
+  "generated_at": "2026-07-31T09:20:53Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,6 +29,46 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "988f86f0a7e987f8",
+          "title": "浅虫海洋生物学教育研究センターで国際臨海実習が行われました",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MelI5NGdubHRyZkRMR19KcEJVRFlOYk92eE8ycmFtXzdSTDF2MGVhMlpZZ29OcHhmZWVGTVdzajRESC1JNklmVG90UHNiSkx0eUFGNXFfbWFBMlBoRDBvN3Bnbk5wQWlwd3AtUFY0LXhpLUI3X0dR?oc=5",
+          "source": "tohoku.ac.jp",
+          "published_at": "2026-07-31T07:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7aeae68f6b7cb642",
+          "title": "福島 康仁 研究会「国際関係と宇宙をめぐる政策課題に向き合う」 | SFCの現場 | SFC 湘南藤沢キャンパス",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xTXpobkUzcmpwdE1XLTNIOF9ld0JDYkx5azFHSmNkcmtkOWxrNkRMdDlwdUZoNkNZX3pnRVlJZTN5NEtXVi1jUXhaM0lPQlZ2WTRDd2RaeWNjbHBnY3psUS16UWhyMzl2ZnYycEJFdGJDQ2M?oc=5",
+          "source": "慶應義塾",
+          "published_at": "2026-07-31T06:13:27Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b1c2ee18a9c1da47",
+          "title": "台湾・国立新化高級工業職業学校との国際交流協定が地元紙で紹介されました",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxLTNaaW1CVXJxSlRWOVVtam13c3gwYTV3YmhJbENCd3dMaHhwS3h3eURBNzRCMHJLMFpvT0JscDFJcXJZWEZ2RHlMVXlFOUg3ekdTY2piVGZUMXptaWhQaDE0Vm8?oc=5",
+          "source": "hachinohe-ct.ac.jp",
+          "published_at": "2026-07-31T04:32:35Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4aa9668d94ab33f6",
+          "title": "【#佐藤優のシン世界地図探索171】世界の未来を左右する「ドイツ第四帝国」の夢と野望（週プレNEWS）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aM05Va2x0SlVqSmhUWk90MVZjR0hHT0IxV1h1N1dLTXluOUNZNEs3V1llcC15aUFEREx1Y2NvNnRzT1RPemMyZWI0LWptSHJLLWZwYjBMTjhJMmZHcGtJU1dUa1QxLUdBWk9fNDhzMFI0bWxVcER2ZVl3bzY4VFE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-07-31T02:33:15Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "65e56031c075ea76",
           "title": "埼玉大学留学・国際交流課学生インターン募集のお知らせ",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1oREx3eUdtMTNfNm1OcFo0aVFwcnlCMGxwc243VzRxZHlIN25HcXNtYXJWWlFFYWZBdGwyUW5Za1ItY0VYOXRtMTFJcUxwZ254QWRWYXppM2xkR3M0VVFSX21EMEFjQ1JPdkJuLXFQdlB5dXUtSXpz?oc=5",
@@ -44,46 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBFWnpERG42T0VJcjgwWkNFRk53T1VrckFjWURWQThmMlk1cGg0OUV1NjR6WmV3SVJXa2taZTM4Q296eUtFZ2c?oc=5",
           "source": "別府大学",
           "published_at": "2026-07-31T01:45:17Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e9d8146ec91d2f99",
-          "title": "ピアニストの演奏を映画館で、ショパン国際ピアノコンクール映像選が10月公開（映画ナタリー）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55MjVHZjJQTGRKMnVjS0h2MVYya1JaczAtb1B6VnN4MFZMNEU2OU53UUxoY190RW9ha3ZNLWhsMTk1QkwzZ2F4MkkwVktqUEV5Q0czRzV4MVVlZUZOemZybE4wR1VHb3hZNXp0LVlsVHBzSTlUSU1CT3NUWEFCS0U?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-07-30T23:00:19Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a98d2d78df2f4352",
-          "title": "そもそもAIを中心に物理世界を見ることはできるのか【第26回】",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fRFIyR3lZM0xWREFOaHJPU09Ya0g1RWlSQzFNX2QzTWhGUk9obWJWY0pCLVlNQXVsMkJONEQ3TDAxaWRqZHJmSmh3NXdkSnBxbXpXLXVjN0RZdnNmNy1nZ1lPTFV4VWRYTTNNLW50MVJTeWZnUnc?oc=5",
-          "source": "デジタルクロス",
-          "published_at": "2026-07-30T21:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "818ecbc63f2bc0c2",
-          "title": "中部国際空港国際線旅客施設使用料（国際線PSFC）の改定について",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xWmtNeVNpTHNVc3FiS2xvZXhxMklTLWZPMGE1VFlWT01WYV95OWw0Y0xKZFF4TDI2MDhUd1o5YktLbHBCUm5UWnFQY0I2QXV2QzU5RW5KWU5ydw?oc=5",
-          "source": "centrair.jp",
-          "published_at": "2026-07-30T20:04:02Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0a906809ab058972",
-          "title": "［新連載］MUFG、時価総額トヨタ超え国内首位 海外M＆A花開き純利益2兆円",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ERU44Z0RqVnVtd0E3NkNNTTVPeUVXSFNlcEhNbG43ekw3WjBUdDVtNGNWNEoxeFVjVm81OVFvYWpYX1dQRTRhLXBVYTZsUGVYdFpJU0JHeWRNSWJGTTFPaEE2Nk1xdW8?oc=5",
-          "source": "business.nikkei.com",
-          "published_at": "2026-07-30T20:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -319,16 +319,6 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "bf100f85ec43fd50",
-          "title": "食品安全法の改正 - パート2：消費者はどのように保護されるのか？",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTVdHeU41VFpuMW53UDRqQl9FbFRtekpqS1JPck9KbFE0eFRKZWJSUk96NjJKMjFodHpNNzItZVJqU0trdmUxLUhqS01jU0t2SnEtci1YTVdrbjBKNUxvNE8wVjFvbUZMQlZtbTMtLWt6bjZJMV9fdXpQYTdjT0pQNThYSTdvbTk0d2lsOVc1bDhVcXRGSEQ0cks2TjB2M09uODc0?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-07-28T08:31:28Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "12bce3970c06a975",
           "title": "保健省は、輸入食品の検査が必要となる場合と、検査が免除される場合を規定している。",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMFVYV0NWRGFfWnlOMXRrLXlIS19Qd1ctNVdhWXE5ZnA4dTBEeDZoZkNkN2V1cVFXOGRWejZPY0ZmNlRrYzZnYmJFZ0VNSWRsSFhDVWFabnJZRmtERHZlN0JLNm1TQ25LWDExaXBWMS1EbXFXeVJFSHpjemFqYURyUnRBSlB5TDBBRmFjNmNUQmpkSUNGYkRVZ3I0eDljazZ1blB0Q3U4c29WWnFiNU5VRQ?oc=5",
@@ -387,11 +377,21 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "494c5cdb50763b22",
+          "title": "米国包装材規制の今（1）輸出企業が注意すべきラベリング規制 | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2NWQxVWE4SEptakxqV0hjbjI3VDROeG5wbWpmU3dKMk5wNnhaMHRrcnpKaUxiRGNKZGxOWjlRRUVvN0ZHazdEOThqZ3N2MnJQWHVvMTgzbU91U2JuV0tTUXZXak94Rk9qWURfQV9oRXQ4cGg3?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-04-08T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-07-31T03:56:08Z",
-  "last_success_at": "2026-07-31T03:56:08Z",
+  "last_attempt_at": "2026-07-31T09:20:53Z",
+  "last_success_at": "2026-07-31T09:20:53Z",
   "consecutive_failure_count": 0
 }
