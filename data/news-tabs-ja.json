@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-07-31T09:20:53Z",
+  "generated_at": "2026-07-31T14:41:29Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -24,6 +24,16 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02TkhkNDlQTnJfOHVOcm9XVlJ1X3Z6c003MkVBNUl1dTRSelZ6Z0dNWjcwOGVjdDNNNlZUU0NSRmZxZGdKSGZLZUhzNFZfdXdxRUFUTTRNS19xcGpmN1lFVDlPRGFKV05BaVpuQg?oc=5",
           "source": "日本経済新聞",
           "published_at": "2026-07-26T20:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2efafe244ed20a8f",
+          "title": "「ずさんな現場で信じられない」…同志社国際高校調査の第三者委が会見で指摘 辺野古転覆（産経新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxLTc4OXZQUWZrcHctSGNPcU9kUDlyWThjYkZrako2TG95amlJeVZRaFRMNWUzczlpWm1ZTW9YVVVNN1g4WUV3S1QtZThoUHdPcXNJTkVYSnJFWlotZ3p6Qkd1cXp6Ml9IUE1IS0xzZHlQdmFXQlZCZjhkS2tGMG8?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-07-31T09:31:49Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,31 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "10055c2d9f201d7d",
+          "title": "熊本地震 全壊1.4万棟 国際航業が衛星データ独自解析",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EUEpqX3lNVUJ5ZW5LWUhIbUxCd0Fad2pzTUdjM0xraXBhMm00ZW1MMVJHWEJxNE1LVS1tdFF4R3hVeGNtZ2ZVNVhHdkhKLXRvNmRQbmtB?oc=5",
+          "source": "建設通信新聞Digital",
+          "published_at": "2026-07-31T03:22:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "4aa9668d94ab33f6",
           "title": "【#佐藤優のシン世界地図探索171】世界の未来を左右する「ドイツ第四帝国」の夢と野望（週プレNEWS）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aM05Va2x0SlVqSmhUWk90MVZjR0hHT0IxV1h1N1dLTXluOUNZNEs3V1llcC15aUFEREx1Y2NvNnRzT1RPemMyZWI0LWptSHJLLWZwYjBMTjhJMmZHcGtJU1dUa1QxLUdBWk9fNDhzMFI0bWxVcER2ZVl3bzY4VFE?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-07-31T02:33:15Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "65e56031c075ea76",
-          "title": "埼玉大学留学・国際交流課学生インターン募集のお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1oREx3eUdtMTNfNm1OcFo0aVFwcnlCMGxwc243VzRxZHlIN25HcXNtYXJWWlFFYWZBdGwyUW5Za1ItY0VYOXRtMTFJcUxwZ254QWRWYXppM2xkR3M0VVFSX21EMEFjQ1JPdkJuLXFQdlB5dXUtSXpz?oc=5",
-          "source": "saitama-u.ac.jp",
-          "published_at": "2026-07-31T02:08:24Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ce600f4b44f1aba9",
-          "title": "【国際交流】国際交流カフェ「日本の夏 ～スイカ割り～」を開催しました",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBFWnpERG42T0VJcjgwWkNFRk53T1VrckFjWURWQThmMlk1cGg0OUV1NjR6WmV3SVJXa2taZTM4Q296eUtFZ2c?oc=5",
-          "source": "別府大学",
-          "published_at": "2026-07-31T01:45:17Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -94,11 +94,61 @@
       "label": "食品機械",
       "articles": [
         {
+          "id": "9b8e308b96932cc1",
+          "title": "カワタ[6292]：「FOOMA JAPAN 2026」出展のお知らせ 2026年5月19日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xbV9CT2Y3NFJTalRwQUYwZDR0eS1Nb2JtMXZTX2xSaDVUdE04OV9sd0JCWFhHTUdtQ2NhQjZTdlYteS1tdmxsWlFrenB0OU1nMWQwd0tZTDhHQXdCam92VFZUbTE1Rm82X2c?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-05-19T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0ba195f75d73e99f",
+          "title": "FOOMA JAPAN 2026 過去最多1025社で堂々開催 フードテックの最新技術が集結 日本食品機械工業会",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SQUVBYW1ZSDBKVVRTZE9rQmMtamNBeUZua25jWWRMM1RvS2VfYWZvYTV3Q1Z3UXA5RnN2Q3hVSHhSaDI3d2Z1SWhoT2xzQWRZWXQ3MjVhbU1GN2JSNjVUVzNB?oc=5",
+          "source": "食品新聞 WEB版",
+          "published_at": "2026-05-18T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "06e0c696da355c46",
+          "title": "スクリュー式充填機の世界市場2026年、グローバル市場規模（縦型包装機、横型包装機）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13TWUzU1o0OHJWN2ZORm1Od1JnWU5IZzVxN3RRcHhOZTRQSXhTNEVnaE5nSER1a1JFb2M5RTQ1MlRUZTR1UTlQWVhNNWg4TWNNTmZr?oc=5",
+          "source": "ドリームニュース",
+          "published_at": "2026-07-29T02:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "92c075d4cbc91c1b",
+          "title": "包装機械メーカーが地元神戸で日本酒に挑戦。“一合缶”日本酒を1,000人に届ける",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhZHpmdzFjU2twOWl5eDVPZE9vWVJGalVwVDdyT19PMjdreFF6VGlKSGx4a2FSOEMwY29mS25xaHJCS1B6bU1QMDZyQlhYaHhEaU9r?oc=5",
+          "source": "キャンプファイヤー",
+          "published_at": "2026-07-25T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "c5b26c7796e664db",
           "title": "【出展報告】前川製作所、「FOOMA JAPAN 2026」に出展",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZSWMzbkg2bWxJbTd2M2F1UUhpUjd6Mkdha3VxdTVHVWJIeXBXYXEwZXFGeWQwUHNWM2pFd2hvRU9yMkwtaUxfX3hVbzlnRzZ0UXo2cjFjOGQ5SzRzMkUyZEV4YTNTTktDalE?oc=5",
-          "source": "PR TIMES",
+          "source": "prtimes.jp",
           "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "79a86ee53a29cfc7",
+          "title": "間接散水方式で猛暑の異常停止を回避、三菱電機が暑熱対策キットなど訴求：FOOMA JAPAN 2026",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5mLTllY1lhaGxmVkFkSUNnWkM2SU01MVhEclZOYnJGOHNKVlR1MnBlSUZuLVhjeGZfYVg1dF95Si1zZ1RodnZKcFVtV3NVbmdqRUdlWHJCc1Roenlqek95bEhpLWtNczEyY05Qa3ZBSQ?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-06-17T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -107,58 +157,8 @@
           "id": "4180d1106bcbc393",
           "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LbUlhc2Q0X3c1QTdaYjVtTEdPNTUzYmhPdktDeXJmRFpSM3k4b3lHLXFPbV9UVC1BRDJIRkFJS1NWM1JybWxPYkl1SDZNeFQwZDdxeTAwc0tWRTRZTE03eFhCZ3Z2TVpuaXc?oc=5",
-          "source": "PR TIMES",
+          "source": "prtimes.jp",
           "published_at": "2026-06-15T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "db7a9824ff303538",
-          "title": "次世代設備保全クラウド「M2X」が「第5回FOOMAアワード2026」にて審査委員会賞を受賞",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2MERlWnFRVDVmZWNMNnl4ZURyd2FzVzJqcGY4WjlUYk8zMXBOVmw5R0ZYbXdjWTdCN1RuV0txaS10dmxpNVVSemF5YWJiQXRSZnNveHBxVmFSYU4zSWQ1Z0pRbXdqTmVxU2c?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-03T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5e37cd107f0844fc",
-          "title": "【FOOMA JAPAN 2026】株式会社NEXTAGE、次世代わさび栽培モジュールに国内外から多数の反響",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DQWNIY0czNjRJZTJwM0tFaW9ENXZEOUlrd21UNmppcnY2WlprbVJZUFNCMXo1WTFiZWdVRU9JNXppY0VZc1Uya1A0TFBjVWllSGg5WjNFdE9OYzc0YlV6aHVvNl9LYXlucXc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-03T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7aed765d46a06c3c",
-          "title": "第5回FOOMAアワード2026にて「連続式真空冷却装置」が優秀賞を受賞",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13VElGb1hqdUZMR0pKXzFQSWEyQ2ZTLURBTHd5SnJaV3duaWV5UGJvMEc2UWIyWUNoekt2MDRXSndoZmpka2NRZUdJSGlsMnU1ZjhfZkp6MjNzOWNWeF9JTmgwRUdnVDdsSHc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-03T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e0309508e7e526c",
-          "title": "フジワラテクノアート「小型通気式固体培養装置」が第5回FOOMAアワード2026 経済産業省製造産業局長賞/最優秀賞を受賞",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nZ3VfdlpFLU55c082RkRNU2c4YXVWMHItbTd0MmVWdGxtcmIybnV3Snh6WGt3ZUVmVlV5R1F3b2d6Z0lqRGFjeW5Pam5ERW5Vc1I1SkpUd0hySkNjb2c3QzFneHF4cndVRmc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-03T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "22eecb263b8b1739",
-          "title": "不揃いでつぶれやすい食品もやさしくつかむ。フィジカルAI時代のカスタムロボットハンドをFOOMA JAPANで初公開",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxQV94Tjh3VGxuR3VESlZGZWZncDB2V0lrb0FkTFJPOUphdFAzRjhOaGtRY0gteFpDYTBzbEpFVTZhblV4VUVRc1pybzF2OWxGOG5PeV83TDljOEp1U1ZZN2RNT3cwNE9fV2c?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-02T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -268,7 +268,7 @@
           "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-07-23T01:30:00Z",
+          "published_at": "2026-07-23T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -284,16 +284,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6def167432cca401",
-          "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-21T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "634091c9f72bc051",
           "title": "角上魚類／埼玉県鶴ヶ島市に新店舗8月20日オープン、生鮮3品がワンフロアにそろう",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55eU5mMWdzdU40cTRHQlNQbDQwTk5rM1RvbUxLSjVYUnF5NnZIV2ZtVE1ZRGlTMnNTc2NlTTdGY3JLdXZjLVVlbkdZYlVyREhaWFFLag?oc=5",
@@ -304,11 +294,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9485756834da4116",
-          "title": "コスモス薬品／京都府に「ドラッグコスモス」計2店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zSjI2Z0RtTGZIYzdyMWZhQ3VzMEJrbnJ2Q1NsMGladHFlTHpGaVZoX2RnY2xlWXo0c3YyVlBkTTQwa1luSExQcHR1QXlZVVdWY09PSUZn?oc=5",
+          "id": "836190694752b62a",
+          "title": "猿田彦珈琲／岡山一番街に新店舗9月18日オープン、岡山県初出店",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03MVpfSDk0V3ZjcXZ2bTBuTHdKSE9kaklDb0RtYXlvcHNWWko3UEdYOXhQcEVVd0ZqNFM2UTN2cHd4OE9oS1ZJTVFzbmNQZ0xBSDVhZQ?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-07-21T01:33:00Z",
+          "published_at": "2026-07-21T01:20:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "df608e9180467e7e",
+          "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-17T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -322,7 +322,7 @@
           "id": "12bce3970c06a975",
           "title": "保健省は、輸入食品の検査が必要となる場合と、検査が免除される場合を規定している。",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMFVYV0NWRGFfWnlOMXRrLXlIS19Qd1ctNVdhWXE5ZnA4dTBEeDZoZkNkN2V1cVFXOGRWejZPY0ZmNlRrYzZnYmJFZ0VNSWRsSFhDVWFabnJZRmtERHZlN0JLNm1TQ25LWDExaXBWMS1EbXFXeVJFSHpjemFqYURyUnRBSlB5TDBBRmFjNmNUQmpkSUNGYkRVZ3I0eDljazZ1blB0Q3U4c29WWnFiNU5VRQ?oc=5",
-          "source": "Vietnam.vn",
+          "source": "vietnam.vn",
           "published_at": "2026-07-26T06:51:26Z",
           "language": "ja",
           "category": "regulations",
@@ -332,7 +332,7 @@
           "id": "19a307e3c8f59b8b",
           "title": "食品安全法を改正する際は、重複を避けるようにしてください。",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb2JkYjR3QTRvelZnU0RIQk1LdEZ0SkpZSm9KNzNtV0YtU05mY2twX0gyZDNRN0RwcXk3NW01VVQ5WVpEdm9NZ2RTMWZ1TWRZdF9UM3NSZ1RCZnc2VnJOQmhOV1FjRE1wRl9fLVlsZlk4NkNsQWJQX3NsWndaTUFxZXpLUQ?oc=5",
-          "source": "Vietnam.vn",
+          "source": "vietnam.vn",
           "published_at": "2026-07-23T16:58:14Z",
           "language": "ja",
           "category": "regulations",
@@ -342,7 +342,7 @@
           "id": "228326b647025b5f",
           "title": "主要な農産物輸入市場を維持するための適応",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUUhJQk8wUUE0Y1MyMXRoZUE5VjkwY1E3azk5Tk5FMHNpZ21oZVVxc2NNUmFab2ZnczF5U2FmS0FkazBxZ2tQUWd1anVVOTktMDV0TUFXbERnQjNFQ25hM0R2RUltVkJuTlhqdWRUOHBjU25mYXVNVGl0a2dWcjJLRXNmNFRlQUk?oc=5",
-          "source": "Vietnam.vn",
+          "source": "vietnam.vn",
           "published_at": "2026-07-22T10:01:44Z",
           "language": "ja",
           "category": "regulations",
@@ -352,7 +352,7 @@
           "id": "1466542cdca92b8e",
           "title": "輸出入品の分類に関する新たな規制。",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNenRJWEdveE1GMmtyUTduTUNYMVRHSnExaEJ1ckpVWlA4emJKQ3VPY3V5OWdQc3g2SlNfZU94b3A3UG9WRV9McGNwSU5wRWNSZDd6S3RoYjJsemk0SnNxVzAtWEhtWVhwY3dOZkg2MFpwZU9wdEg4a3NlOHBzVUZ0Q1NGbkhjZ2c?oc=5",
-          "source": "Vietnam.vn",
+          "source": "vietnam.vn",
           "published_at": "2026-07-20T07:00:00Z",
           "language": "ja",
           "category": "regulations",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-07-31T09:20:53Z",
-  "last_success_at": "2026-07-31T09:20:53Z",
+  "last_attempt_at": "2026-07-31T14:41:29Z",
+  "last_success_at": "2026-07-31T14:41:29Z",
   "consecutive_failure_count": 0
 }
