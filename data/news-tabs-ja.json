@@ -1,17 +1,19 @@
 {
   "schema_version": 2,
-  "status": "stale",
+  "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-01T14:02:29Z",
-  "successful_categories": [],
-  "retained_categories": [],
-  "failed_categories": {
-    "regulations": "HTTPError: HTTP Error 503: Service Unavailable",
-    "food_machinery": "HTTPError: HTTP Error 503: Service Unavailable",
-    "food_factory": "HTTPError: HTTP Error 503: Service Unavailable",
-    "retail": "HTTPError: HTTP Error 503: Service Unavailable",
-    "overseas": "HTTPError: HTTP Error 503: Service Unavailable"
-  },
+  "generated_at": "2026-08-01T19:38:52Z",
+  "successful_categories": [
+    "regulations",
+    "food_machinery",
+    "food_factory",
+    "retail",
+    "overseas"
+  ],
+  "retained_categories": [
+    "food_factory"
+  ],
+  "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
@@ -21,7 +23,7 @@
           "title": "夏だ！祭りだ！！N響ほっとコンサート ～翔けよう！まほうの森と夢の世界～",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xR2d0VmQ5QTczMlFOVEtEODdnYkltTGpnbFAzUE5pOC1DQkRxSXUwVTMwQ21FS0s1ek0wVEhJYzNEeWQxR090OXFPTXlTSjhDOVFsTnJWemU?oc=5",
           "source": "nhkso.or.jp",
-          "published_at": "2026-08-01T05:59:54Z",
+          "published_at": "2026-08-01T13:11:03Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -37,6 +39,26 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "05f1e78500b1de8e",
+          "title": "崖のカプセルから地下400ｍ超のホテルまで、世界のヤバい宿5選",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBJWHlJX3Exc28tOTYybWRMdUJzQXJYTG1pdllUM1BqQy1iUVdvR3RLekVUTDFHRTlPREZNLVRfcktYTjNiaHlCTUIxNk9oUWt0c0RWWDFES1I1M2JkbElNZHAyZw?oc=5",
+          "source": "ナショナルジオグラフィック日本版",
+          "published_at": "2026-08-01T11:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "dc6dd0b914a2e4b4",
+          "title": "防衛省、「国際政策局」新設へ 最大3局増、退職隊員庁も（共同通信）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wVTBDZGtSazB6Zy1qSmxRWlY2MXhncnh3RllFVTl1ekNsU3dfUG1jVm1rZ0VmNWt5Q1BXaldEOWR5eHNEZDNKWGFUdVZFZDI2RWFKRHViM3I4WWlmNDlLZnhoRFNybTF6WUVPLU5sb1VxWm5TalNWdGpja01FYVU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-01T06:52:57Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "1cc2de59d890499a",
           "title": "「出航！世界をつなぐ ふねならべ」販売！ | 商船三井ミュージアム ふねしる | 商船三井",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EdDhFR2ROVEpmaWxKQ3BzcXBXWWJQQktab3hZNkthVmFibFhpMnJFWHhWRlBYTlV0VWIyY3JPMGtrWXJ4eTNZZWNKLUhoR0J2OUZrdEhWWUxiWW9QbHZ2Y3NWdkZmZkp0aHc?oc=5",
@@ -47,41 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "e426fe95fe41d39c",
+          "title": "世界コスプレサミット（WCS）2026開幕 Kis-My-Ft2宮田俊哉氏のサプライズ出演も（中村仁） - エキスパート",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZVdMLWhGcG9QUjYyTnU2MjZEcUs4bXY5ZVo1MjcxYm9DdVhMZ0hnZEhtYkE3Ymw2ZjFKdVE1NVNiczFrcUlGS3M5OHVmMDJrdzN0NDNBYnhiN3hBOXNqX2tydzBVWTRuTWJTS1hXX0lhOC1CMXBkVGxZMXg3dFhHT1FxWXA1dVFD?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-01T04:48:34Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "9a7b0a9e3a4a679f",
           "title": "国際交流員コーナー第50号 CIR's Corner Issue #50",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nNjVmZGw4R3pjNm5sMElsMlBLZzFVel96Y0FQQ0JpR1RNLXNvbVU3MlRQT3JnWTJGNUVHX09JeVJQZkZKTk5zVFRXeGdjX1FzeE1qQjBMcy1qSS1lWWdNMEdaalh6WldBV0c0X1laM0oweUgzTHVseQ?oc=5",
           "source": "city.ebetsu.hokkaido.jp",
           "published_at": "2026-08-01T01:27:36Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "566f168a689d7547",
-          "title": "令和８年度２期の「国際交流員の英会話」 Fall 2026 English Class with the CIR",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ITkFVeGZsLTZuZlptbDRlSC1hemtBdXVuUndCVWlFYVI0eGVVMTJIWlY5aC1YcHpjYUlJVE43SEtBZ3F6QW1jaERSY0NyaWlzRWdsbzhTRnRUclVtVnZzYS1GOEo2OHZZQXdWamdYVmlDbE9SYnhjbA?oc=5",
-          "source": "city.ebetsu.hokkaido.jp",
-          "published_at": "2026-08-01T01:27:36Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3aa5e737b31a94c1",
-          "title": "世界遺産で火事…原因は“ハチの駆除” 合掌造り家屋で屋根焼ける 富山・南砺市（日テレNEWS NNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tVjVjaGJiR2hKM2ZFWlpjMFZlSjBnc0VZM2VOU1hYX2ExNmxkR2hfaVNYMXRCcmJ4LVhwVTJ6ZWJOZkdaUTVpcWVPeDE0WFJCcHZqZnFfUHJSRVVYR0NKLU5hN2puazZxUDdHdWVxam5qck1iODFQUTVQX1NTdGs?oc=5",
-          "source": "news.yahoo.co.jp",
-          "published_at": "2026-07-31T14:42:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "842c46aa7289c97d",
-          "title": "辺野古事故2日後に沖縄・玉城知事と面会の同志社国際高・校長「研修を継続していきたい」（産経新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxc25CU1NCcW1SVUppdWNrSm1fbnJiQ1BuZnF1eVFYN2JaMUExVFpRMlpSZi1HZVU3UWtqSzM3N1E1TGc2TVNoa2NHWmJQbFJSM0RIMkppWFQ5c1AtV0dHUXgwelRndTFwNjZEb080cGlaMmRsdFBWWi1VWmw3WmM?oc=5",
-          "source": "news.yahoo.co.jp",
-          "published_at": "2026-07-31T13:09:52Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -180,7 +182,7 @@
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "monoist.itmedia.co.jp",
+          "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -210,7 +212,7 @@
           "id": "99b1c95f0b01beaa",
           "title": "自動車工場で見えるのに、食品工場では見えないモノ～今日何個作ると決めたか",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ed0JQbFVtSVgzNlgzM2daVTNSSG1oOEFVUFNXVXFPZWplUW5ObFVpNUQxYkJpU05jQm1hcGhZR1dsbURwWDc3N01TaDk3cTRPOFY0dFVIT0FMREo4VmN5eDJ1b3JSYjRCbVJXR05rcw?oc=5",
-          "source": "monoist.itmedia.co.jp",
+          "source": "MONOist",
           "published_at": "2026-05-25T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -252,6 +254,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "94ace283ac879e07",
+          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-23T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "6def167432cca401",
           "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
@@ -272,41 +284,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ae9b11e76bdf754a",
-          "title": "沖縄・コンビニ激戦県に新風、必須の「駐車場」ない店相次ぎ開業",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsUk9CbUl4aTdjbFNoMFk2UW9vRUY3amx3TXB0WElQM2cwWkhJZXlwMkJEYWhjdWdyNldIQ0cxNk85dll1SUZLdmNWQTRKZFJZTm9GSmZsejN0eEFRM3QwdjlxNkswcmIwemRCVQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-07-13T07:00:00Z",
+          "id": "df608e9180467e7e",
+          "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-17T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5e3ed92025a78a88",
-          "title": "ファミリーマート “わざわざ行きたくなるコンビニ”に挑戦 麻布台に初の旗艦店「FAMIMA」オープン",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSUdxVGg4dHRwVndnQ2JxZWUxOG4yUjJwQnQ4aExFTEs3SFFBU25ubkg0RS1wRkptZ3YxcjZUVVdycXZaYVZTbF9DRlhmX0ZOWENSRk5hUGN5Vk1kTThTVE1VcEpxYkhLbW5ySzlsMmwwYU1mMFMzYW8wY2RTV1F6WjV0c196Zw?oc=5",
-          "source": "食品新聞 WEB版",
-          "published_at": "2026-07-10T01:30:47Z",
+          "id": "973325067d0151bd",
+          "title": "わかやま市民生協／和歌山市に「コープ宇須店（店舗面積2795m2）」27年2月26日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IUW1lZmFzX3ZYZDRrVVhXeTdOcEZEbHZVTm43V1lDcWQwc0RnY01jRmdzLWgwcEZhRmt6NHUyZktKMWtvQ2JRMFZSV094MnhaX0Y1cXh3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-16T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e114f84c979cbe47",
-          "title": "ファミマ、NIGO氏とのコラボ店 コンビニ像刷新の売り場構成",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mWHd6UGY0V1Y5LTZKZzdKaUFwUlhqVXhaa2VJZlhwY3V3QjFYLVM1MWdHOGZ0WHJxWE9QVlV4eGJsTTNybGRGOU13UVlEWVZoOTVfeTFJSzk2MldxamtsZ2ppSUZjWXM1dlJwTg?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-07-09T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "55a41c4030a9b524",
-          "title": "コンビニがない町の道沿いに、お遍路さんや住民がくつろげる新店舗を！",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5HN2loOG9kVzBlazVfWFVERlVDX01BVkVKTllsSW43MFAyUW82eFNDejFIRGJsdFpQc09OVlpLOUdOdGhKSkN4dHd3OURnOVp1?oc=5",
-          "source": "クラウドファンディング - READYFOR",
-          "published_at": "2026-07-29T02:40:11Z",
+          "id": "6982c8165127ff8e",
+          "title": "クスリのアオキ／新潟県・埼玉県・千葉県に計3店舗、27年1～2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BUkc2S3J6am1KSVlYSDZlYVJkNUR6ZjJtUGxyZEEzQ0EwSkd0Y2hXc3ZEbDRPYnFVQVFJMUQ0eGRoYjZoVkxQaDNUZmlncWJxU1I5M2FB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-14T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -316,6 +318,26 @@
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "30b1b0c1e67bbc45",
+          "title": "基準がベトナム農産物の「パスポート」となる時。",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY3hMSnhfdi1yV2ZVQkZKc1BYZlBqcUNKZXFrMVNCemM4aF9KV01uYUR6Z1BLMWlqV21JVE1oN3R5d05aUDB5RGtNR3l0QnJsTlNnZzV6aDdMMHJrc0lIYVNKS3l1Tjhjdk1DalJ6X3dyMDdsUDlwZk5YMlJ0QnY1Mi1zSWlFZWpUYl9hVzBVUQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-07-28T15:58:36Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a467926b2e15f3f8",
+          "title": "EUのSPS規制を克服するには、生産チェーン全体を管理することが鍵となる。",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcjdkX05uNjlTZ1hTMnBjVHM3N3pldUticXR4QWZrVkVjaHVtS3B3OVRlbGhoeThKNlpHRWktMGlzUHN0ajM3OFBCaENrQ2tkUm5yNU9ZR2NfTmlpVFJxZE5HLXJ3UVhSY2dzMDRYamU0VnBkNHlxbWlGMW83MjJqUi1vOXItdWlsb2J6N3pnTkdDLW5vc0RV?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-07-26T07:10:25Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "12bce3970c06a975",
           "title": "保健省は、輸入食品の検査が必要となる場合と、検査が免除される場合を規定している。",
@@ -365,31 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "228326b647025b5f",
-          "title": "主要な農産物輸入市場を維持するための適応",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUUhJQk8wUUE0Y1MyMXRoZUE5VjkwY1E3azk5Tk5FMHNpZ21oZVVxc2NNUmFab2ZnczF5U2FmS0FkazBxZ2tQUWd1anVVOTktMDV0TUFXbERnQjNFQ25hM0R2RUltVkJuTlhqdWRUOHBjU25mYXVNVGl0a2dWcjJLRXNmNFRlQUk?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-07-22T10:01:44Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "19a307e3c8f59b8b",
-          "title": "食品安全法を改正する際は、重複を避けるようにしてください。",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb2JkYjR3QTRvelZnU0RIQk1LdEZ0SkpZSm9KNzNtV0YtU05mY2twX0gyZDNRN0RwcXk3NW01VVQ5WVpEdm9NZ2RTMWZ1TWRZdF9UM3NSZ1RCZnc2VnJOQmhOV1FjRE1wRl9fLVlsZlk4NkNsQWJQX3NsWndaTUFxZXpLUQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-07-23T16:58:14Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-08-01T14:02:29Z",
-  "last_success_at": "2026-08-01T08:36:42Z",
-  "consecutive_failure_count": 1
+  "last_attempt_at": "2026-08-01T19:38:52Z",
+  "last_success_at": "2026-08-01T19:38:52Z",
+  "consecutive_failure_count": 0
 }
