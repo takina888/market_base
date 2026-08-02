@@ -1,0 +1,731 @@
+.mb-radio-dock {
+  --dock-panel-width: min(300px, calc(100vw - 72px));
+  --dock-safe-top: env(safe-area-inset-top, 0px);
+  --dock-safe-right: env(safe-area-inset-right, 0px);
+  --dock-safe-bottom: env(safe-area-inset-bottom, 0px);
+  --dock-safe-left: env(safe-area-inset-left, 0px);
+  position: fixed;
+  z-index: 10020;
+  top: 58%;
+  left: calc(100vw - var(--dock-panel-width) - 12px);
+  width: var(--dock-panel-width);
+  color: #18324f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    "Yu Gothic UI", "Yu Gothic", Meiryo, sans-serif;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.mb-radio-dock,
+.mb-radio-dock *,
+.mb-radio-dock *::before,
+.mb-radio-dock *::after {
+  box-sizing: border-box;
+}
+
+.mb-radio-dock.is-positioned {
+  visibility: visible;
+}
+
+.mb-radio-dock[hidden] {
+  display: none !important;
+}
+
+.mb-radio-dock-panel {
+  position: relative;
+  width: 100%;
+  max-width: calc(100vw - 70px - var(--dock-safe-right));
+  min-height: 108px;
+  padding: 10px;
+  border: 1px solid rgba(184, 207, 232, .96);
+  border-left: 0;
+  border-radius: 0 17px 17px 0;
+  background: rgba(255, 255, 255, .97);
+  box-shadow: 0 12px 34px rgba(17, 48, 84, .2);
+  backdrop-filter: blur(16px);
+  pointer-events: auto;
+  transform: translateX(0);
+  transform-origin: right center;
+  opacity: 1;
+  visibility: visible;
+  transition:
+    transform .24s ease,
+    opacity .18s ease,
+    visibility 0s linear 0s;
+}
+
+.mb-radio-dock[data-collapsed="true"] .mb-radio-dock-panel {
+  transform: translateX(calc(100% + 10px));
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    transform .24s ease,
+    opacity .18s ease,
+    visibility 0s linear .24s;
+}
+
+.mb-radio-dock-tab {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 36px;
+  height: auto;
+  min-height: 108px;
+  padding: 7px 5px 9px;
+  border: 1px solid #b9cee5;
+  border-right: 0;
+  border-radius: 14px 0 0 14px;
+  background: #075fc7;
+  color: #fff;
+  box-shadow: 0 8px 22px rgba(17, 48, 84, .19);
+  font: 900 10px/1 system-ui, sans-serif;
+  letter-spacing: .12em;
+  cursor: pointer;
+  pointer-events: auto;
+  transition:
+    transform .24s ease,
+    background-color .18s ease;
+}
+
+/* Keep a 44px touch target while the visible tab stays 36px. */
+.mb-radio-dock-tab::before{content:"";position:absolute;inset:0 -4px}
+
+.mb-radio-dock-tab-arrow {
+  display: grid;
+  place-items: center;
+  width: 21px;
+  height: 21px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .2);
+  color: #fff;
+  font: 950 17px/1 system-ui, sans-serif;
+  letter-spacing: 0;
+}
+
+.mb-radio-dock-tab-label {
+  display: block;
+  writing-mode: vertical-rl;
+}
+
+.mb-radio-dock-tab-grip {
+  display: grid;
+  place-items: center;
+  width: 23px;
+  height: 18px;
+  margin-top: 1px;
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  color: rgba(255, 255, 255, .94);
+  font: 900 15px/1 system-ui, sans-serif;
+  letter-spacing: 0;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.mb-radio-dock[data-dragging="true"] .mb-radio-dock-tab-grip {
+  cursor: grabbing;
+}
+
+.mb-radio-dock[data-collapsed="true"] .mb-radio-dock-tab {
+  transform: translateX(var(--dock-panel-width));
+}
+
+.mb-radio-dock[data-state="playing"] .mb-radio-dock-tab {
+  background: #14713a;
+}
+
+.mb-radio-dock[data-state="gesture"] .mb-radio-dock-tab,
+.mb-radio-dock[data-state="error"] .mb-radio-dock-tab {
+  background: #9b3f2c;
+}
+
+.mb-radio-dock-head {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr) 30px;
+  align-items: center;
+  gap: 8px;
+}
+
+.mb-radio-dock-drag {
+  width: 36px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid #cad9e8;
+  border-radius: 11px;
+  background: #f4f8fc;
+  color: #607087;
+  font: 900 22px/1 system-ui, sans-serif;
+  cursor: grab;
+  touch-action: none;
+}
+
+.mb-radio-dock[data-dragging="true"] .mb-radio-dock-drag {
+  cursor: grabbing;
+  background: #e7f0fa;
+}
+
+.mb-radio-dock-copy {
+  min-width: 0;
+}
+
+.mb-radio-dock-close {
+  align-self: start;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid #cad9e8;
+  border-radius: 999px;
+  background: #f4f8fc;
+  color: #53677e;
+  font: 800 19px/1 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.mb-radio-dock-close:hover {
+  background: #e7f0fa;
+  color: #143f72;
+}
+
+.mb-radio-dock-kicker {
+  display: block;
+  color: #65768b;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .08em;
+  line-height: 1.2;
+}
+
+.mb-radio-dock[data-state="playing"] .mb-radio-dock-kicker {
+  color: #15743d;
+}
+
+.mb-radio-dock[data-state="gesture"] .mb-radio-dock-kicker,
+.mb-radio-dock[data-state="error"] .mb-radio-dock-kicker {
+  color: #9b3f2c;
+}
+
+.mb-radio-dock-copy strong,
+.mb-radio-dock-copy small {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mb-radio-dock-copy strong {
+  margin-top: 2px;
+  color: #0b3976;
+  font-size: 15px;
+  font-weight: 950;
+  line-height: 1.25;
+}
+
+.mb-radio-dock-copy small {
+  margin-top: 2px;
+  color: #607087;
+  font-size: 11px;
+  font-weight: 750;
+  line-height: 1.25;
+}
+
+.mb-radio-dock-actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  margin-top: 9px;
+}
+
+.mb-radio-dock-controls {
+  display: grid;
+  grid-template-columns: repeat(3, 42px);
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+.mb-radio-dock-controls[hidden] {
+  display: none !important;
+}
+
+.mb-radio-dock-controls button {
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 1px solid #c8d9ea;
+  border-radius: 12px;
+  background: #f3f8fe;
+  color: #174c86;
+  font: 900 21px/1 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.mb-radio-dock-open {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: #075fc7;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.mb-radio-dock-open b {
+  font-weight: 900;
+}
+
+.mb-radio-dock-message {
+  min-height: 0;
+  margin: 6px 1px 0;
+  color: #8a4e25;
+  font-size: 10.5px;
+  font-weight: 750;
+  line-height: 1.4;
+}
+
+.mb-radio-dock-message:empty {
+  display: none;
+}
+
+.mb-radio-dock button:focus-visible,
+.mb-radio-dock a:focus-visible {
+  outline: 3px solid #f4c94e;
+  outline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+  .mb-radio-dock {
+    --dock-panel-width: min(280px, calc(100vw - 70px));
+  }
+
+  .mb-radio-dock-panel {
+    padding: 9px;
+    border-radius: 0 15px 15px 0;
+  }
+
+  .mb-radio-dock-tab {
+    top: 0;
+    bottom: 0;
+    height: auto;
+    min-height: 108px;
+  }
+
+  .mb-radio-dock-controls {
+    grid-template-columns: repeat(3, 39px);
+  }
+
+  .mb-radio-dock-controls button {
+    width: 36px;
+    height: 40px;
+  }
+
+  .mb-radio-dock-open {
+    min-height: 40px;
+    padding-inline: 8px;
+  }
+}
+
+@media (max-width: 340px) {
+  .mb-radio-dock {
+    --dock-panel-width: calc(100vw - 66px);
+  }
+
+  .mb-radio-dock-controls {
+    grid-template-columns: repeat(3, 36px);
+  }
+
+  .mb-radio-dock-controls button {
+    width: 36px;
+  }
+
+  .mb-radio-dock-open b {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mb-radio-dock-panel,
+  .mb-radio-dock-tab {
+    transition: none;
+  }
+}
+
+
+/* V.327: second magnetic dock above RADIO. It reuses the RADIO dimensions
+   and horizontal open/close motion. The upper panel ends where its tab ends,
+   while the RADIO panel starts where its tab starts, so the two panels can
+   touch without ever covering one another. */
+.mb-secondary-dock {
+  z-index: 10021;
+}
+
+.mb-secondary-dock .mb-radio-dock-tab {
+  top: auto;
+  bottom: 0;
+  background: #315d8f;
+}
+
+.mb-secondary-dock[data-collapsed="true"] .mb-radio-dock-tab {
+  transform: translateX(var(--dock-panel-width));
+}
+
+.mb-secondary-dock .mb-radio-dock-kicker {
+  color: #65768b;
+}
+
+.mb-secondary-dock .mb-radio-dock-copy strong {
+  color: #173f70;
+}
+
+.mb-secondary-dock-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 9px;
+}
+
+.mb-secondary-dock-link {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px 10px;
+  border: 1px solid #c8d9ea;
+  border-radius: 12px;
+  background: #f3f8fe;
+  color: #174c86;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.mb-secondary-dock-link:hover {
+  background: #e7f0fa;
+  color: #143f72;
+}
+
+.mb-secondary-dock[data-magnet="true"] .mb-radio-dock-tab {
+  box-shadow:
+    0 8px 22px rgba(17, 48, 84, .19),
+    0 0 0 2px rgba(90, 151, 213, .22);
+}
+
+.mb-secondary-dock[data-dragging="true"] .mb-radio-dock-tab,
+.mb-secondary-dock[data-dragging="true"] .mb-radio-dock-panel {
+  transition: none;
+}
+
+@media (max-width: 640px) {
+  .mb-secondary-dock .mb-radio-dock-tab {
+    top: auto;
+    bottom: 0;
+  }
+
+  .mb-secondary-dock-link {
+    min-height: 40px;
+    padding-inline: 8px;
+    font-size: 11.5px;
+  }
+}
+
+
+/* V.330: compact tool launcher and flush lower-edge geometry.
+   The white panel is the dimensional reference. Both white panel and colored
+   vertical tab are exactly 108px high, so their lower edges are flush and the
+   magnetized upper/lower tabs meet without panel overlap. */
+.mb-radio-dock {
+  --dock-panel-height: 108px;
+}
+
+.mb-radio-dock-panel {
+  height: var(--dock-panel-height);
+  min-height: var(--dock-panel-height);
+  max-height: var(--dock-panel-height);
+  padding: 8px;
+  border-radius: 16px 16px 16px 0;
+  overflow: visible;
+}
+
+.mb-radio-dock-tab,
+.mb-secondary-dock .mb-radio-dock-tab {
+  top: 0;
+  bottom: auto;
+  height: var(--dock-panel-height);
+  min-height: var(--dock-panel-height);
+  max-height: var(--dock-panel-height);
+}
+
+.mb-radio-dock-head {
+  grid-template-columns: 32px minmax(0, 1fr) 28px;
+  gap: 6px;
+  min-height: 38px;
+}
+
+.mb-radio-dock-drag {
+  width: 32px;
+  height: 38px;
+  border-radius: 10px;
+  font-size: 19px;
+}
+
+.mb-radio-dock-close {
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+}
+
+.mb-radio-dock-kicker { font-size: 9px; }
+.mb-radio-dock-copy strong { margin-top: 1px; font-size: 14px; }
+.mb-radio-dock-copy small { margin-top: 1px; font-size: 10px; }
+
+.mb-radio-dock-actions {
+  gap: 6px;
+  margin-top: 5px;
+}
+
+.mb-radio-dock-controls {
+  grid-template-columns: repeat(3, 34px);
+  gap: 4px;
+}
+
+.mb-radio-dock-controls button {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.mb-radio-dock-open {
+  min-height: 34px;
+  padding: 6px 9px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.mb-radio-dock-message:not(:empty) {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: calc(100% + 6px);
+  z-index: 3;
+  margin: 0;
+  padding: 7px 9px;
+  border: 1px solid #ead8be;
+  border-radius: 10px;
+  background: rgba(255, 250, 241, .98);
+  box-shadow: 0 7px 18px rgba(17, 48, 84, .14);
+}
+
+.mb-tool-dock-panel {
+  padding: 8px;
+}
+
+.mb-tool-dock-compact {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr) 28px;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  height: 100%;
+}
+
+.mb-secondary-dock-links {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 43px;
+  grid-template-columns: none;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  max-width: 187px;
+  height: 58px;
+  margin: 0;
+  padding: 5px 1px 7px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline proximity;
+  scrollbar-width: thin;
+  scrollbar-color: #b6cce3 transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mb-secondary-dock-links::-webkit-scrollbar { height: 3px; }
+.mb-secondary-dock-links::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: #b6cce3;
+}
+
+.mb-secondary-dock-link {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  min-width: 43px;
+  height: 43px;
+  min-height: 43px;
+  padding: 0;
+  border: 1px solid #c7d8ea;
+  border-radius: 13px;
+  background: linear-gradient(180deg, #fff, #edf5fd);
+  color: #164f8d;
+  box-shadow: 0 4px 10px rgba(17, 48, 84, .10);
+  scroll-snap-align: start;
+  text-decoration: none;
+}
+
+.mb-secondary-dock-link svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.mb-secondary-dock-link[data-active="true"] {
+  border-color: #6ca6df;
+  background: #e4f1ff;
+  box-shadow: 0 0 0 2px rgba(11, 95, 199, .10), 0 4px 10px rgba(17, 48, 84, .10);
+}
+
+.mb-secondary-dock-link:hover,
+.mb-secondary-dock-link:active {
+  background: #dcecff;
+}
+
+.mb-secondary-dock[data-magnet="true"] .mb-radio-dock-panel {
+  border-bottom-left-radius: 0;
+}
+
+@media (max-width: 640px) {
+  .mb-radio-dock-panel {
+    height: var(--dock-panel-height);
+    min-height: var(--dock-panel-height);
+    max-height: var(--dock-panel-height);
+    padding: 8px;
+    border-radius: 15px 15px 15px 0;
+  }
+  .mb-radio-dock-tab,
+  .mb-secondary-dock .mb-radio-dock-tab {
+    top: 0;
+    bottom: auto;
+    height: var(--dock-panel-height);
+    min-height: var(--dock-panel-height);
+    max-height: var(--dock-panel-height);
+  }
+  .mb-radio-dock-controls { grid-template-columns: repeat(3, 34px); }
+  .mb-radio-dock-controls button { width: 34px; height: 34px; }
+  .mb-radio-dock-open { min-height: 34px; padding-inline: 8px; }
+}
+
+@media (max-width: 340px) {
+  .mb-secondary-dock-links {
+    grid-auto-columns: 42px;
+    gap: 5px;
+    max-width: 183px;
+  }
+  .mb-secondary-dock-link {
+    width: 42px;
+    min-width: 42px;
+    height: 42px;
+    min-height: 42px;
+    border-radius: 12px;
+  }
+  .mb-secondary-dock-link svg { width: 29px; height: 29px; }
+}
+
+/* V.330 launcher: four 43px icons + three 5px gaps fit before horizontal scrolling. */
+.mb-secondary-dock-links{max-width:187px;grid-auto-columns:43px;scroll-padding-inline:1px}
+.mb-secondary-dock-link:nth-child(-n+4){scroll-snap-align:start}
+
+
+/* V331: text-first tool picker, exact tab/panel flush alignment and radio metadata */
+.mb-radio-dock-panel{overflow:visible}
+.mb-radio-dock-tab{border-right:0;border-top-right-radius:0;border-bottom-right-radius:0}
+.mb-radio-dock[data-collapsed="false"] .mb-radio-dock-panel{border-top-left-radius:0;border-bottom-left-radius:0}
+.mb-radio-dock-copy{overflow:hidden}
+.mb-radio-dock-track{display:block;min-width:0;margin-top:2px}
+.mb-radio-dock-track[hidden]{display:none!important}
+.mb-radio-dock-track b,.mb-radio-dock-track small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mb-radio-dock-track b{color:#183f72;font-size:11.5px;font-weight:900;line-height:1.25}
+.mb-radio-dock-track small{margin-top:1px;color:#68798d;font-size:10.5px;font-weight:750;line-height:1.2}
+.mb-tool-dock-panel{padding:10px;min-height:108px}
+.mb-tool-picker-row{display:grid;grid-template-columns:36px minmax(0,1fr) 30px;align-items:start;gap:8px;min-height:86px}
+.mb-tool-picker-shell{position:relative;min-width:0}
+.mb-tool-picker-trigger{display:flex;width:100%;min-height:48px;align-items:center;justify-content:space-between;gap:10px;padding:10px 13px;border:1px solid #c8d9ea;border-radius:13px;background:#f3f8fe;color:#123f74;font:900 15px/1.25 system-ui,-apple-system,"Yu Gothic",sans-serif;text-align:left;cursor:pointer}
+.mb-tool-picker-trigger b{color:#0b63c8;font-size:18px;line-height:1}
+.mb-secondary-dock-links{display:grid;max-height:210px;gap:5px;margin-top:7px;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin}
+.mb-secondary-dock-links[hidden]{display:none!important}
+.mb-secondary-dock-link{display:flex;min-height:44px;align-items:center;justify-content:space-between;gap:12px;padding:9px 12px;border:1px solid #d3e1ef;border-radius:12px;background:#fff;color:#173f70;font-size:13px;font-weight:850;line-height:1.3;text-decoration:none}
+.mb-secondary-dock-link[data-active="true"]{border-color:#91bae4;background:#eaf4ff;color:#075fc7}
+.mb-secondary-dock-link b{font-size:18px;line-height:1;color:#3770aa}
+.mb-tool-dock[data-picker-open="true"] .mb-tool-dock-panel{min-height:108px}
+@media(max-width:640px){.mb-tool-picker-trigger{font-size:14px}.mb-secondary-dock-link{font-size:12.5px}}
+
+/* V331 final overrides: remove the V330 fixed-height/icon launcher rules. */
+.mb-radio-dock-panel{
+  height:auto;
+  min-height:108px;
+  max-height:none;
+  border-radius:0 16px 16px 0;
+}
+.mb-radio-dock-tab,
+.mb-secondary-dock .mb-radio-dock-tab{
+  top:0;
+  bottom:0;
+  height:auto;
+  min-height:108px;
+  max-height:none;
+}
+.mb-secondary-dock-links{
+  grid-auto-flow:row;
+  grid-auto-columns:auto;
+  grid-template-columns:minmax(0,1fr);
+  align-items:stretch;
+  justify-content:stretch;
+  max-width:none;
+  width:100%;
+  height:auto;
+  max-height:210px;
+  margin-top:7px;
+  padding:0;
+  overflow-x:hidden;
+  overflow-y:auto;
+  scroll-snap-type:none;
+  scrollbar-width:thin;
+}
+.mb-secondary-dock-link{
+  display:flex;
+  width:auto;
+  min-width:0;
+  height:auto;
+  min-height:44px;
+  padding:9px 12px;
+  border-radius:12px;
+  box-shadow:none;
+  scroll-snap-align:none;
+}
+@media(max-width:640px){
+  .mb-radio-dock-panel{height:auto;min-height:108px;max-height:none;border-radius:0 15px 15px 0}
+  .mb-radio-dock-tab,.mb-secondary-dock .mb-radio-dock-tab{top:0;bottom:0;height:auto;min-height:108px;max-height:none}
+}

@@ -101,7 +101,7 @@ body.mb-has-page-bottom-nav .mb-scroll-controls{
 }
 
 
-/* V326 mobile smart-idle: visible while moving, click-through after 3 seconds */
+/* V326 mobile smart-idle: visible while moving, click-through after 1.5 seconds */
 .mb-scroll-control-wake{display:none}
 @media(max-width:760px){
   .mb-scroll-controls{transition:opacity .42s ease,filter .42s ease}

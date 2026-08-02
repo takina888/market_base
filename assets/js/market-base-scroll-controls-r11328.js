@@ -6,13 +6,13 @@
   var SITE_ROOT;
   try{SITE_ROOT=SCRIPT_URL?new URL('../../',SCRIPT_URL):new URL('./',location.href);}catch(_e){SITE_ROOT=new URL('./',location.href);}
   var HOME_URL=new URL('index.html',SITE_ROOT);
-  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v322.js?v=20260802-v330-work-code-late-order',SITE_ROOT);
+  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v331.js?v=20260802-v331-dock-list-update-hotfix',SITE_ROOT);
   var LEARN_PREFIXES=['british-jokes/','classic-move/','haccp-quiz/','hs-learning/','international-logistics/','material-check/','rakuda-no-me/','sutra-no-yoin/','ul-ce-learning/','work-basics/'];
   var LEARN_FILES={'world-history-today.html':true};
   var COUNTRY_FILES={'market-base-v273-country-profile-r28.html':true};
-  var TOOL_FILES={'market-base-currency-converter-v273-r29.html':true,'world-compass.html':true};
+  var TOOL_FILES={'market-base-currency-converter-v273-r29.html':true,'market-base-code-tool.html':true,'world-compass.html':true};
   var MOBILE_QUERY=window.matchMedia('(max-width:760px)');
-  var IDLE_DELAY=3000;
+  var IDLE_DELAY=1500;
   var PASS_THROUGH_MS=420;
 
   function removeLegacyControls(){document.querySelectorAll(LEGACY_SELECTOR).forEach(function(node){node.remove();});}

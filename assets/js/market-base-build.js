@@ -1,10 +1,10 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V330_WORK_CODE_LATE_TOOL_ORDER_20260802',
-    label: 'MARKET BASE V.330',
-    release: 'V.330',
+    id: 'MARKET_BASE_V331_DOCK_LIST_UPDATE_HOTFIX_20260802',
+    label: 'MARKET BASE V.331',
+    release: 'V.331',
     date: '2026-08-02',
-    assetVersion: '20260802-v330-work-code-late-order'
+    assetVersion: '20260802-v331-dock-list-update-hotfix'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseBuild = build.id;

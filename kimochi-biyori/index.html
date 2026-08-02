@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#EEF3F9">
+  <meta name="description" content="今日の気持ちが、少し軽くなる30の物語。日本語・英語・簡体字中国語で読めます。">
+  <title>気持ち日和｜MARKET BASE</title>
+  <link rel="icon" sizes="32x32" type="image/png" href="../icons/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon-180.png">
+  <link rel="stylesheet" href="../assets/css/market-base-primary-components-r11326.css?v=20260802-v331">
+  <link rel="stylesheet" href="../assets/css/market-base-desktop-icon-nav-r11337.css?v=20260802-v331">
+  <link rel="stylesheet" href="../assets/css/market-base-standard-shell-r11372.css?v=20260802-v331">
+  <link rel="stylesheet" href="../assets/css/market-base-scroll-controls-r11328.css?v=20260802-v331-dock-list-update-hotfix">
+  <link rel="stylesheet" href="../assets/css/market-base-bottom-nav-unified-r11409.css?v=20260802-v331">
+  <link rel="stylesheet" href="assets/page.css?v=20260802-v331">
+  <meta name="market-base-site-build" content="MARKET_BASE_V331_DOCK_LIST_UPDATE_HOTFIX_20260802">
+</head>
+<body class="mb-unified-specialist-page mb-standard-page mb-has-primary-bottom-nav kb-page">
+  <div class="mb-primary-header-host">
+    <header class="mb-global-header mb-primary-header" aria-label="気持ち日和の操作">
+      <a class="mb-global-brand" href="../index.html">MARKET BASE</a>
+      <div class="mb-global-actions">
+        <a class="mb-global-button" href="../index.html?view=learn#kimochi-biyori-home">戻る</a>
+        <button class="mb-global-button" id="pageRefreshButton" type="button">更新</button>
+      </div>
+    </header>
+  </div>
+
+  <main class="mb-standard-content-shell kb-main" id="mainContent">
+    <section class="kb-hero" aria-labelledby="seriesTitle">
+      <div>
+        <p class="kb-eyebrow" id="seriesEyebrow">POSITIVE STORIES</p>
+        <h1 id="seriesTitle">気持ち日和</h1>
+        <p class="kb-subtitle" id="seriesSubtitle">今日の気持ちが、少し軽くなる物語</p>
+      </div>
+      <div class="kb-count"><strong>30</strong><span id="storyCountLabel">全30話</span></div>
+    </section>
+
+    <section class="kb-toolbar" aria-label="表示設定">
+      <div class="kb-control-group">
+        <span class="kb-control-label" id="languageLabel">言語</span>
+        <div class="kb-segmented" id="languageSwitch" role="group" aria-label="言語を選択">
+          <button type="button" data-lang="ja">日本語</button>
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="zh">简体中文</button>
+        </div>
+      </div>
+      <div class="kb-control-group kb-font-group">
+        <span class="kb-control-label" id="fontLabel">文字サイズ</span>
+        <div class="kb-segmented kb-font-switch" id="fontSwitch" role="group" aria-label="文字サイズを選択">
+          <button type="button" data-font="small">小</button>
+          <button type="button" data-font="normal">標準</button>
+          <button type="button" data-font="large">大</button>
+          <button type="button" data-font="xlarge">特大</button>
+        </div>
+      </div>
+      <label class="kb-jump-label">
+        <span id="jumpLabel">話を選ぶ</span>
+        <select id="storySelect" aria-label="話を選ぶ"></select>
+      </label>
+    </section>
+
+    <div class="kb-layout">
+      <aside class="kb-index" aria-labelledby="storyIndexTitle">
+        <div class="kb-index-head"><h2 id="storyIndexTitle">全30話</h2><span id="readProgress">0 / 30</span></div>
+        <div class="kb-story-list" id="storyList"></div>
+      </aside>
+
+      <article class="kb-reader" id="reader">
+        <header class="kb-reader-head">
+          <div>
+            <p class="kb-story-meta"><span id="storyNumber">01</span><span id="storyLocation"></span></p>
+            <h2 id="storyTitle"></h2>
+          </div>
+          <button class="kb-read-button" id="readButton" type="button" aria-pressed="false">読了にする</button>
+        </header>
+        <div class="kb-story-body" id="storyBody"></div>
+        <footer class="kb-reader-nav">
+          <button type="button" id="previousButton"><span aria-hidden="true">‹</span><span id="previousLabel">前の話</span></button>
+          <span id="storyPosition">1 / 30</span>
+          <button type="button" id="nextButton"><span id="nextLabel">次の話</span><span aria-hidden="true">›</span></button>
+        </footer>
+      </article>
+    </div>
+    <p class="kb-status" id="liveStatus" role="status" aria-live="polite"></p>
+  </main>
+
+  <nav class="mb-primary-bottom-nav" aria-label="下部ナビゲーション">
+    <a class="mb-primary-bottom-tab" href="../index.html"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 14.5 16 5l10.5 9.5v11.2a1.8 1.8 0 0 1-1.8 1.8H7.3a1.8 1.8 0 0 1-1.8-1.8Z"></path><path d="M12 27.5v-8.8h8v8.8"></path></svg></span><b>ホーム</b></a>
+    <a class="mb-primary-bottom-tab" href="../market-base-currency-converter-v273-r29.html?tool=currency&amp;v=20260802-v331"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="11" cy="16" r="6.5"></circle><circle cx="21" cy="16" r="6.5"></circle><path d="M8 12.5h6M11 9.5v13M18 12.5h6M18 19.5h6"></path></svg></span><b>ツール</b></a>
+    <a class="mb-primary-bottom-tab active" aria-current="page" href="../index.html?view=learn#kimochi-biyori-home"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5.5 6.5h8.2c1.25 0 2.3.45 3.3 1.35 1-.9 2.05-1.35 3.3-1.35h6.2v19h-6.2c-1.25 0-2.3.45-3.3 1.35-1-.9-2.05-1.35-3.3-1.35H5.5Z"></path><path d="M16 8v18.5M8.5 11h4.5M8.5 15h4.5M19 11h4.5M19 15h4.5"></path></svg></span><b>学ぶ</b></a>
+    <a class="mb-primary-bottom-tab" href="../index.html?view=rankings"><span class="mb-primary-bottom-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 27.5V19h5v8.5M13.5 27.5V13h5v14.5M22 27.5V5h5v22.5M3.5 27.5h25"></path></svg></span><b>ランキング</b></a>
+  </nav>
+
+  <script src="data/stories-data.js?v=20260802-v331"></script>
+  <script src="assets/page.js?v=20260802-v331"></script>
+  <script src="../assets/js/market-base-desktop-icon-nav-r11337.js?v=20260802-v331" data-mb-root="../" data-mb-active="learn"></script>
+  <script src="../assets/js/market-base-scroll-controls-r11328.js?v=20260802-v331-dock-list-update-hotfix"></script>
+</body>
+</html>

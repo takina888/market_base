@@ -1,0 +1,15 @@
+/* V331: five reading cards use a slightly slimmer, denser layout. */
+#homeReadingSection .learn-reading-grid{gap:12px}
+#homeReadingSection .learn-reading-card{min-height:146px;padding:15px 15px 14px;border-radius:18px;grid-template-columns:48px minmax(0,1fr);gap:11px}
+#homeReadingSection .learn-reading-card .learn-card-icon{width:45px;height:45px;border-radius:14px;font-size:16px}
+#homeReadingSection .learn-reading-card h4{margin-bottom:5px;font-size:clamp(1.02rem,1.35vw,1.17rem)}
+#homeReadingSection .learn-reading-card p{font-size:.9rem;line-height:1.58}
+#homeReadingSection .learn-reading-card .learn-status{right:11px;bottom:10px}
+#homeReadingSection .reading-new-badge{display:inline-flex;align-items:center;min-height:22px;margin-left:7px;padding:2px 7px;border-radius:999px;background:#e45e58;color:#fff;font-size:10px;font-weight:950;vertical-align:middle;white-space:nowrap}
+#homeReadingSection .reading-kimochi-card{background:linear-gradient(180deg,#f6fbff 0%,#e6f3ff 100%);border-color:#b9d8ee;color:#254a67}
+#homeReadingSection .reading-kimochi-card .learn-card-icon{background:#cae5f7;color:#175f96}
+#homeReadingSection .reading-kimochi-card h4{color:#16486f}
+#homeReadingSection .reading-kimochi-card p{color:#567286}
+#homeReadingSection .reading-kimochi-card .learn-status-open{background:#d8ecfa;color:#175f96;border-color:#bdd9ec}
+@media(max-width:900px){#homeReadingSection .learn-reading-card{min-height:0}}
+@media(max-width:640px){#homeReadingSection .learn-reading-card{padding:14px 13px 13px;grid-template-columns:44px minmax(0,1fr);gap:10px}#homeReadingSection .learn-reading-card .learn-card-icon{width:42px;height:42px}#homeReadingSection .learn-reading-card p{font-size:.88rem;line-height:1.55}}
