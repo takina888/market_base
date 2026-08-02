@@ -3,7 +3,7 @@
 
   if (global.MarketBaseUpdate) return;
 
-  const BUILD_ID = 'MARKET_BASE_V333_1_BOTTOM_TOOL_MENU_RADIO_CURRENCY_SAFE_20260803';
+  const BUILD_ID = 'MARKET_BASE_V333_3_RADIO_RESTORE_V331_CURRENCY_RUNTIME_FIX_20260803';
   const LEGACY_PAGE_BUILD = 'MARKET_BASE_LEGACY_PAGE';
   const CHANNEL_NAME = 'market-base-update-v1';
   const SIGNAL_KEY = 'market_base_global_refresh_signal';
@@ -34,11 +34,11 @@
     channel: null
   };
   const radioDockUrl = new URL(
-    'assets/js/market-base-radio-dock-v333.js?v=20260803-v333-1-bottom-tool-menu-radio-currency-safe',
+    'assets/js/market-base-radio-dock-v331.js?v=20260803-v333-3-radio-restore-v331-currency-runtime-fix',
     siteRoot
   );
   const toolMenuUrl = new URL(
-    'assets/js/market-base-tool-menu-v333.js?v=20260803-v333-1-bottom-tool-menu-radio-currency-safe',
+    'assets/js/market-base-tool-menu-v333.js?v=20260803-v333-3-radio-restore-v331-currency-runtime-fix',
     siteRoot
   );
 
@@ -484,7 +484,8 @@
         const key = storage.key(index);
         if (
           key === 'market_base_photo_registry_cache_v1' ||
-          String(key || '').startsWith('mbJourneyImage:')
+          String(key || '').startsWith('mbJourneyImage:') ||
+          String(key || '').startsWith('mb_rates_')
         ) removable.push(key);
       }
       removable.forEach(key => storage.removeItem(key));

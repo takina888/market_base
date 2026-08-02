@@ -1,10 +1,10 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V333_1_BOTTOM_TOOL_MENU_RADIO_CURRENCY_SAFE_20260803',
-    label: 'MARKET BASE V.333.1',
-    release: 'V.333.1',
+    id: 'MARKET_BASE_V333_3_RADIO_RESTORE_V331_CURRENCY_RUNTIME_FIX_20260803',
+    label: 'MARKET BASE V.333.3',
+    release: 'V.333.3',
     date: '2026-08-03',
-    assetVersion: '20260803-v333-1-bottom-tool-menu-radio-currency-safe'
+    assetVersion: '20260803-v333-3-radio-restore-v331-currency-runtime-fix'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseBuild = build.id;
