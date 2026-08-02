@@ -331,3 +331,15 @@ body {
     scroll-behavior: auto;
   }
 }
+
+
+/* V326: station-provided now-playing metadata and offline state */
+.now-playing-meta{margin:12px 0 18px;padding:14px 16px;border:1px solid #cfe0f3;border-radius:16px;background:#f5f9fe;display:grid;gap:3px;text-align:left}
+.now-playing-meta[hidden]{display:none!important}
+.now-playing-kicker{margin:0;color:#3971aa;font-size:.72rem;font-weight:900;letter-spacing:.13em}
+.now-playing-meta strong{font-size:1.05rem;line-height:1.45;color:#183d68;overflow-wrap:anywhere}
+.now-playing-meta span{font-size:.9rem;font-weight:700;color:#4d6177;overflow-wrap:anywhere}
+.now-playing-meta small{margin-top:4px;color:#708196}
+.live-state[data-state="offline"]{background:#eceff3;color:#586576}
+.official-link[aria-disabled="true"]{opacity:.45;pointer-events:none;text-decoration:none}
+.play-pause:disabled{opacity:.46;cursor:not-allowed}

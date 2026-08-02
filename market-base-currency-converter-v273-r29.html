@@ -5,7 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
 <meta content="#EEF3F9" name="theme-color"/>
-<title>為替換算・単位換算 | MARKET BASE</title>
+<title>為替換算・計算機 | MARKET BASE</title>
 
 <style>
     :root{--navy:#082f6b;--blue:#0967d8;--ink:#102b50;--muted:#6f8098;--line:#d9e7f6;--soft:#f4f8fd;--active:#e7f2ff;--shadow:0 8px 24px rgba(30,77,130,.08)}
@@ -48,19 +48,20 @@
 <link href="assets/css/reading-highlights-v1.css?v=20260725-r11348" rel="stylesheet"/>
 <link href="assets/css/market-base-pc-unified-shell-r95-v1.css?v=20260725-r11348" rel="stylesheet"/>
 <link href="assets/css/prism-calculator-integrated-r1136.css?v=20260727-r11385-halfpc" rel="stylesheet"/><meta content="default" name="apple-mobile-web-app-status-bar-style"/>
-<link href="assets/css/market-base-primary-components-r11326.css?v=20260727-r11372" rel="stylesheet"/><link href="assets/css/currency-standard-shell-r11335.css?v=20260727-r11385-halfpc" rel="stylesheet"/><link href="assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371" rel="stylesheet"/><link href="assets/css/market-base-standard-shell-r11372.css?v=20260727-r11385-halfpc" rel="stylesheet"/><meta content="MARKET_BASE_R113_85_RESPONSIVE_FLAGS_GEOLOCATION_GALLERY_20260727" name="market-base-nav-build"/><meta name="market-base-build" content="MARKET_BASE_R113_85_RESPONSIVE_FLAGS_GEOLOCATION_GALLERY_20260727"><link rel="stylesheet" href="assets/css/market-base-scroll-controls-r11328.css?v=20260728-v302-back">
+<link href="assets/css/market-base-primary-components-r11326.css?v=20260727-r11372" rel="stylesheet"/><link href="assets/css/currency-standard-shell-r11335.css?v=20260727-r11385-halfpc" rel="stylesheet"/><link href="assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371" rel="stylesheet"/><link href="assets/css/market-base-standard-shell-r11372.css?v=20260727-r11385-halfpc" rel="stylesheet"/><meta content="MARKET_BASE_R113_85_RESPONSIVE_FLAGS_GEOLOCATION_GALLERY_20260727" name="market-base-nav-build"/><meta name="market-base-build" content="MARKET_BASE_R113_85_RESPONSIVE_FLAGS_GEOLOCATION_GALLERY_20260727"><link rel="stylesheet" href="assets/css/market-base-scroll-controls-r11328.css?v=20260802-v330-work-code-late-order">
 <link rel="stylesheet" href="assets/css/market-base-bottom-nav-unified-r11409.css?v=20260728-r11409">
 <link rel="stylesheet" href="assets/css/market-base-header-actions-v301.css?v=20260728-v301">
 <link rel="stylesheet" href="assets/css/market-base-header-audit-v302.css?v=20260728-v302">
 <link rel="stylesheet" href="assets/css/world-radio-tool-tab-v309.css?v=20260729-v309">
-<meta name="market-base-site-build" content="MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730">
+<meta name="market-base-site-build" content="MARKET_BASE_V330_WORK_CODE_LATE_TOOL_ORDER_20260802">
+<link rel="stylesheet" href="assets/css/market-base-pc-shell-alignment-v324-fix.css?v=20260731-pc-shell-fix">
 </head>
 <body class="mb-unified-specialist-page mb-standard-page currency-standard-page">
 <div class="mb-primary-header-host currency-standard-header">
 <header aria-label="換算ページ操作" class="mb-global-header mb-primary-header"><strong class="mb-global-brand">MARKET BASE</strong><div class="mb-global-actions"><a class="mb-global-button" href="./index.html?from=currency">戻る</a><button class="mb-global-button" id="refresh" type="button">更新</button></div></header>
 </div>
 
-<main class="mb-primary-currency-content currency-standard-shell mb-standard-content-shell"><div class="world-radio-tool-row" aria-label="世界のラジオ"><a class="world-radio-tool-tab" href="world-radio/index.html?v=20260730-v324">世界のラジオ</a></div><div aria-label="為替換算と単位換算の切り替え" class="tool-tabs" role="tablist"><button aria-controls="currencyToolPanel" aria-selected="true" class="tool-tab" data-tool-tab="currency" id="currencyToolTab" role="tab" tabindex="0" type="button">為替換算</button><button aria-controls="prismToolPanel" aria-selected="false" class="tool-tab" data-tool-tab="prism" id="prismToolTab" role="tab" tabindex="-1" type="button">単位換算</button></div><section aria-labelledby="currencyToolTab" class="tool-panel" id="currencyToolPanel" role="tabpanel">
+<main class="mb-primary-currency-content currency-standard-shell mb-standard-content-shell"><div class="world-radio-tool-row" aria-label="世界のラジオ"><a class="world-radio-tool-tab" href="world-radio/index.html?v=20260730-v324">世界のラジオ</a></div><div aria-label="為替換算と計算機の切り替え" class="tool-tabs" role="tablist"><button aria-controls="currencyToolPanel" aria-selected="true" class="tool-tab" data-tool-tab="currency" id="currencyToolTab" role="tab" tabindex="0" type="button">為替換算</button><button aria-controls="prismToolPanel" aria-selected="false" class="tool-tab" data-tool-tab="prism" id="prismToolTab" role="tab" tabindex="-1" type="button">計算機</button></div><section aria-labelledby="currencyToolTab" class="tool-panel" id="currencyToolPanel" role="tabpanel">
 <h1>為替換算</h1>
 <div aria-live="polite" class="status"><span id="rateStatus"><strong>最終更新</strong> 2026/07/16 11:54</span></div>
 <div aria-hidden="true" class="order-help"><svg viewbox="0 0 18 18"><circle cx="5" cy="4" r="1.4"></circle><circle cx="13" cy="4" r="1.4"></circle><circle cx="5" cy="9" r="1.4"></circle><circle cx="13" cy="9" r="1.4"></circle><circle cx="5" cy="14" r="1.4"></circle><circle cx="13" cy="14" r="1.4"></circle></svg><span>6点ハンドルを長押しして並べ替え</span></div>
@@ -80,8 +81,8 @@
 <p class="notice">参考レートです。カード会社・両替所・銀行の手数料は含みません。</p>
 </section><section aria-labelledby="prismToolTab" class="tool-panel" hidden="" id="prismToolPanel" role="tabpanel"><section class="mb-ui-page-head">
 <div class="mb-ui-page-head__copy">
-<h2 class="mb-ui-title">単位換算</h2>
-<p class="mb-ui-lead">単位の枠へ直接入力すると、同じ種類の全単位が同時に更新されます。通常電卓、関数電卓、チップ・割り勘も同じ画面で利用できます。</p>
+<h2 class="mb-ui-title">計算機</h2>
+<p class="mb-ui-lead">通常電卓、関数電卓、チップ・割り勘を利用できます。下の単位換算へ計算結果をそのまま反映できます。</p>
 </div>
 <span class="mb-ui-chip">TOOL</span>
 </section>
@@ -259,7 +260,7 @@
 <div aria-live="polite" class="prism-toast" id="toast" role="status">コピーしました</div></section></main>
 <nav aria-label="下部ナビゲーション" class="mb-primary-bottom-nav">
 <a class="mb-primary-bottom-tab" href="index.html?from=currency"><span aria-hidden="true" class="mb-primary-bottom-icon"><svg viewbox="0 0 32 32"><path d="M5.5 14.5 16 5l10.5 9.5v11.2a1.8 1.8 0 0 1-1.8 1.8H7.3a1.8 1.8 0 0 1-1.8-1.8Z"></path><path d="M12 27.5v-8.8h8v8.8"></path></svg></span><b>ホーム</b></a>
-<a aria-current="page" class="mb-primary-bottom-tab active" href="market-base-currency-converter-v273-r29.html"><span aria-hidden="true" class="mb-primary-bottom-icon"><svg viewbox="0 0 32 32"><circle cx="11" cy="16" r="6.5"></circle><circle cx="21" cy="16" r="6.5"></circle><path d="M8 12.5h6M11 9.5v13M18 12.5h6M18 19.5h6"></path></svg></span><b>ツール</b></a>
+<a aria-current="page" class="mb-primary-bottom-tab active" href="market-base-currency-converter-v273-r29.html?tool=currency&amp;v=20260802-v330-work-code-late-order"><span aria-hidden="true" class="mb-primary-bottom-icon"><svg viewbox="0 0 32 32"><circle cx="11" cy="16" r="6.5"></circle><circle cx="21" cy="16" r="6.5"></circle><path d="M8 12.5h6M11 9.5v13M18 12.5h6M18 19.5h6"></path></svg></span><b>ツール</b></a>
 <a class="mb-primary-bottom-tab" href="index.html?from=currency&amp;view=learn"><span aria-hidden="true" class="mb-primary-bottom-icon"><svg viewbox="0 0 32 32"><path d="M5.5 6.5h8.2c1.25 0 2.3.45 3.3 1.35 1-.9 2.05-1.35 3.3-1.35h6.2v19h-6.2c-1.25 0-2.3.45-3.3 1.35-1-.9-2.05-1.35-3.3-1.35H5.5Z"></path><path d="M16 8v18.5M8.5 11h4.5M8.5 15h4.5M19 11h4.5M19 15h4.5"></path></svg></span><b>学ぶ</b></a>
 <a class="mb-primary-bottom-tab" href="index.html?from=currency&amp;view=rankings"><span aria-hidden="true" class="mb-primary-bottom-icon"><svg viewbox="0 0 32 32"><path d="M5 27.5V19h5v8.5M13.5 27.5V13h5v14.5M22 27.5V5h5v22.5M3.5 27.5h25"></path></svg></span><b>ランキング</b></a>
 </nav>
@@ -408,8 +409,15 @@
   const prismPanel=document.getElementById('prismToolPanel');
   const refreshButton=document.getElementById('refresh');
   const toolTabs=document.querySelector('.tool-tabs');
-  function activateTool(name,{focus=false}={}){
+  const LAST_TOOL_KEY='market_base_last_tool_v1';
+  function rememberTool(id){
+    try{localStorage.setItem(LAST_TOOL_KEY,id)}catch(_e){}
+    try{window.dispatchEvent(new CustomEvent('marketbase:tool-used',{detail:{id}}))}catch(_e){}
+    window.MarketBaseToolMemory?.remember?.(id,false);
+  }
+  function activateTool(name,{focus=false,remember=true}={}){
     const currencyActive=name!=='prism';
+    const toolId=currencyActive?'currency':'calculator';
     currencyPanel.hidden=!currencyActive;
     prismPanel.hidden=currencyActive;
     tabs.forEach(tab=>{
@@ -424,6 +432,10 @@
     }else{
       requestAnimationFrame(()=>window.MBPrismCalculator?.ensureInitialized?.());
     }
+    if(remember)rememberTool(toolId);
+    const url=new URL(location.href);
+    url.searchParams.set('tool',toolId);
+    history.replaceState(history.state,'',url);
   }
   tabs.forEach((tab,index)=>{
     tab.addEventListener('click',()=>activateTool(tab.dataset.toolTab));
@@ -434,12 +446,16 @@
       activateTool(tabs[next].dataset.toolTab,{focus:true});
     });
   });
-  // Opening the page always starts with currency conversion.
-  activateTool('currency');
+  const requested=new URL(location.href).searchParams.get('tool');
+  let initial=requested;
+  if(initial!=='currency'&&initial!=='calculator'){
+    try{initial=localStorage.getItem(LAST_TOOL_KEY)||'currency'}catch(_e){initial='currency'}
+  }
+  activateTool(initial==='calculator'?'prism':'currency',{remember:true});
   window.MBCurrencyPrismTabs=Object.freeze({activate:activateTool,tabsElement:toolTabs});
 })();
 </script><script src="assets/js/market-base-pc-unified-shell-r95-v1.js?v=20260725-r11348"></script>
 <script src="assets/js/reading-highlights-v1.js?v=20260725-r11348"></script>
-<script src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371" data-mb-root="" data-mb-active="tools"></script><script src="assets/js/market-base-scroll-controls-r11328.js?v=20260730-v324"></script>
+<script src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371" data-mb-root="" data-mb-active="tools"></script><script src="assets/js/market-base-scroll-controls-r11328.js?v=20260802-v330-work-code-late-order"></script>
 </body>
 </html>
