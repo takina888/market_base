@@ -48,17 +48,17 @@
 <link href="assets/css/reading-highlights-v1.css?v=20260725-r11348" rel="stylesheet"/>
 <link href="assets/css/market-base-pc-unified-shell-r95-v1.css?v=20260725-r11348" rel="stylesheet"/>
 <link href="assets/css/prism-calculator-integrated-r1136.css?v=20260727-r11385-halfpc" rel="stylesheet"/><meta content="default" name="apple-mobile-web-app-status-bar-style"/>
-<link href="assets/css/market-base-primary-components-r11326.css?v=20260727-r11372" rel="stylesheet"/><link href="assets/css/currency-standard-shell-r11335.css?v=20260727-r11385-halfpc" rel="stylesheet"/><link href="assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371" rel="stylesheet"/><link href="assets/css/market-base-standard-shell-r11372.css?v=20260727-r11385-halfpc" rel="stylesheet"/><meta content="MARKET_BASE_R113_85_RESPONSIVE_FLAGS_GEOLOCATION_GALLERY_20260727" name="market-base-nav-build"/><meta name="market-base-build" content="MARKET_BASE_R113_85_RESPONSIVE_FLAGS_GEOLOCATION_GALLERY_20260727"><link rel="stylesheet" href="assets/css/market-base-scroll-controls-r11328.css?v=20260802-v331-dock-list-update-hotfix">
+<link href="assets/css/market-base-primary-components-r11326.css?v=20260727-r11372" rel="stylesheet"/><link href="assets/css/currency-standard-shell-r11335.css?v=20260727-r11385-halfpc" rel="stylesheet"/><link href="assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371" rel="stylesheet"/><link href="assets/css/market-base-standard-shell-r11372.css?v=20260727-r11385-halfpc" rel="stylesheet"/><meta content="MARKET_BASE_R113_85_RESPONSIVE_FLAGS_GEOLOCATION_GALLERY_20260727" name="market-base-nav-build"/><meta name="market-base-build" content="MARKET_BASE_R113_85_RESPONSIVE_FLAGS_GEOLOCATION_GALLERY_20260727"><link rel="stylesheet" href="assets/css/market-base-scroll-controls-r11328.css?v=20260803-v332-global-refresh-shell-dock-workphoto-line-no-chatgpt">
 <link rel="stylesheet" href="assets/css/market-base-bottom-nav-unified-r11409.css?v=20260728-r11409">
 <link rel="stylesheet" href="assets/css/market-base-header-actions-v301.css?v=20260728-v301">
 <link rel="stylesheet" href="assets/css/market-base-header-audit-v302.css?v=20260728-v302">
 <link rel="stylesheet" href="assets/css/world-radio-tool-tab-v309.css?v=20260729-v309">
-<meta name="market-base-site-build" content="MARKET_BASE_V331_DOCK_LIST_UPDATE_HOTFIX_20260802">
+<meta name="market-base-site-build" content="MARKET_BASE_V332_GLOBAL_REFRESH_SHELL_DOCK_WORKPHOTO_LINE_NO_CHATGPT_20260803">
 <link rel="stylesheet" href="assets/css/market-base-pc-shell-alignment-v324-fix.css?v=20260731-pc-shell-fix">
 </head>
 <body class="mb-unified-specialist-page mb-standard-page currency-standard-page">
 <div class="mb-primary-header-host currency-standard-header">
-<header aria-label="換算ページ操作" class="mb-global-header mb-primary-header"><strong class="mb-global-brand">MARKET BASE</strong><div class="mb-global-actions"><a class="mb-global-button" href="./index.html?from=currency">戻る</a><button class="mb-global-button" id="refresh" type="button">更新</button></div></header>
+<header aria-label="換算ページ操作" class="mb-global-header mb-primary-header"><strong class="mb-global-brand">MARKET BASE</strong><div class="mb-global-actions"><a class="mb-global-button" href="./index.html?from=currency">戻る</a><button class="mb-global-button" id="pageRefreshButton" type="button" data-mb-site-refresh>更新</button></div></header>
 </div>
 
 <main class="mb-primary-currency-content currency-standard-shell mb-standard-content-shell"><div class="world-radio-tool-row" aria-label="世界のラジオ"><a class="world-radio-tool-tab" href="world-radio/index.html?v=20260730-v324">世界のラジオ</a></div><div aria-label="為替換算と計算機の切り替え" class="tool-tabs" role="tablist"><button aria-controls="currencyToolPanel" aria-selected="true" class="tool-tab" data-tool-tab="currency" id="currencyToolTab" role="tab" tabindex="0" type="button">為替換算</button><button aria-controls="prismToolPanel" aria-selected="false" class="tool-tab" data-tool-tab="prism" id="prismToolTab" role="tab" tabindex="-1" type="button">計算機</button></div><section aria-labelledby="currencyToolTab" class="tool-panel" id="currencyToolPanel" role="tabpanel">
@@ -328,7 +328,7 @@
     cards.addEventListener('touchstart',e=>{const card=e.target.closest('.currency-card');if(!card||e.target.closest('.change,.reorder-handle')||e.target.matches('.amount-input'))return;const t=e.changedTouches[0];touchState={card,startX:t.clientX,startY:t.clientY,index:Number(card.dataset.index)};card.classList.add('swiping')},{passive:true});
     cards.addEventListener('touchmove',e=>{if(!touchState)return;const t=e.changedTouches[0],dx=t.clientX-touchState.startX,dy=t.clientY-touchState.startY;if(Math.abs(dx)>Math.abs(dy))touchState.card.style.transform=`translateX(${Math.max(-85,Math.min(85,dx))}px)`},{passive:true});
     cards.addEventListener('touchend',e=>{if(!touchState)return;const t=e.changedTouches[0],dx=t.clientX-touchState.startX;touchState.card.style.transform='';touchState.card.classList.remove('swiping');const index=touchState.index;touchState=null;if(Math.abs(dx)>55){ignoreNextClick=true;openDrawer(index)}},{passive:true});
-    $('#refresh').addEventListener('click',()=>getRates(true));
+    $('#rateRefreshButton').addEventListener('click',()=>getRates(true));
 
     const drawer=$('#drawerLayer'),search=$('#currencySearch'),list=$('#currencyList');
     function renderCurrencyList(query=''){const q=query.trim().toLowerCase();list.innerHTML=Object.keys(CURRENCIES).filter(code=>!q||code.toLowerCase().includes(q)||CURRENCIES[code].toLowerCase().includes(q)).map(code=>`<button class="currency-option${favorites[replaceIndex]===code?' selected':''}" type="button" data-pick="${code}"><span class="option-flag">${currencyFlagMarkup(code)}</span><span class="option-title">${code} <span class="option-name">${CURRENCIES[code]}</span></span>${favorites.includes(code)?'<span class="shown">表示中</span>':''}</button>`).join('')}
@@ -407,7 +407,7 @@
   const tabs=[...document.querySelectorAll('[data-tool-tab]')];
   const currencyPanel=document.getElementById('currencyToolPanel');
   const prismPanel=document.getElementById('prismToolPanel');
-  const refreshButton=document.getElementById('refresh');
+  const refreshButton=document.getElementById('rateRefreshButton');
   const toolTabs=document.querySelector('.tool-tabs');
   const LAST_TOOL_KEY='market_base_last_tool_v1';
   function rememberTool(id){
@@ -456,6 +456,6 @@
 })();
 </script><script src="assets/js/market-base-pc-unified-shell-r95-v1.js?v=20260725-r11348"></script>
 <script src="assets/js/reading-highlights-v1.js?v=20260725-r11348"></script>
-<script src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371" data-mb-root="" data-mb-active="tools"></script><script src="assets/js/market-base-scroll-controls-r11328.js?v=20260802-v331-dock-list-update-hotfix"></script>
-</body>
+<script src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371" data-mb-root="" data-mb-active="tools"></script><script src="assets/js/market-base-scroll-controls-r11328.js?v=20260803-v332-global-refresh-shell-dock-workphoto-line-no-chatgpt"></script>
+<script src="assets/js/market-base-update-controller-v332.js?v=20260803-v332-global-refresh-shell-dock-workphoto-line-no-chatgpt" data-mb-update-controller></script></body>
 </html>
