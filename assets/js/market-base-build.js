@@ -1,6 +1,6 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V331_DOCK_LIST_UPDATE_HOTFIX_20260802',
+    id: 'MARKET_BASE_V332_GLOBAL_REFRESH_SHELL_DOCK_WORKPHOTO_LINE_NO_CHATGPT_20260803',
     label: 'MARKET BASE V.331',
     release: 'V.331',
     date: '2026-08-02',
