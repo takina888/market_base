@@ -1,10 +1,10 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V332_GLOBAL_REFRESH_SHELL_DOCK_WORKPHOTO_LINE_NO_CHATGPT_20260803',
-    label: 'MARKET BASE V.331',
-    release: 'V.331',
-    date: '2026-08-02',
-    assetVersion: '20260802-v331-dock-list-update-hotfix'
+    id: 'MARKET_BASE_V333_1_BOTTOM_TOOL_MENU_RADIO_CURRENCY_SAFE_20260803',
+    label: 'MARKET BASE V.333.1',
+    release: 'V.333.1',
+    date: '2026-08-03',
+    assetVersion: '20260803-v333-1-bottom-tool-menu-radio-currency-safe'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseBuild = build.id;
