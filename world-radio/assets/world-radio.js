@@ -34,7 +34,7 @@
         <h3>${escapeHtml(station.name)}</h3>
         <p>${escapeHtml(station.description)}</p>
         ${station.note ? `<small class="station-note">${escapeHtml(station.note)}</small>` : ''}
-        <a class="radio-open" data-radio-online-only href="player.html?id=${encodeURIComponent(station.id)}&amp;autoplay=1&amp;v=20260802-v330-work-code-late-order" target="_blank" rel="noopener">
+        <a class="radio-open" data-radio-online-only href="player.html?id=${encodeURIComponent(station.id)}&amp;autoplay=1&amp;v=20260803-v333-1-bottom-tool-menu-radio-currency-safe" target="marketBaseWorldRadioPlayer">
           <span aria-hidden="true">▶</span> 別タブで聴く
         </a>
       </article>`).join('');
@@ -86,7 +86,14 @@
   }
   document.addEventListener('click', event => {
     const link = event.target.closest('[data-radio-online-only]');
-    if (!link || navigator.onLine) return;
+    if (!link) return;
+    if (navigator.onLine) {
+      event.preventDefault();
+      const opened = window.open(link.href, 'marketBaseWorldRadioPlayer');
+      try { opened?.focus?.(); } catch (_) {}
+      if (!opened) window.location.href = link.href;
+      return;
+    }
     event.preventDefault();
     if (offlineNotice) {
       offlineNotice.hidden = false;

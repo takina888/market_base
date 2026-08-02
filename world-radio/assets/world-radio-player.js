@@ -4,10 +4,13 @@
   const stations = Array.isArray(window.MarketBaseRadioStations) ? window.MarketBaseRadioStations : [];
   const STATE_KEY = 'market_base_radio_state_v1';
   const COMMAND_KEY = 'market_base_radio_command_v1';
+  const OWNER_KEY = 'market_base_radio_owner_v1';
   const LAST_ACTIVE_KEY = 'market_base_last_active_at_v1';
   const CHANNEL_NAME = 'market-base-radio-v1';
   const HEARTBEAT_MS = 15000;
   const STATE_TTL_MS = 45000;
+  const OWNER_TTL_MS = 35000;
+  const RECOVERY_COOLDOWN_MS = 2500;
   const instanceId = `radio-${Date.now()}-${Math.random().toString(36).slice(2)}`;
 
   const audio = document.getElementById('radioAudio');
@@ -52,10 +55,28 @@
   let resumeAfterInterruption = false;
   let interrupted = false;
   let recoveryInFlight = false;
+  let playbackPromise = null;
+  let lastRecoveryAt = 0;
 
   function storageGet(key) { try { return localStorage.getItem(key); } catch (_) { return null; } }
   function storageSet(key, value) { try { localStorage.setItem(key, value); return true; } catch (_) { return false; } }
   function storageRemove(key) { try { localStorage.removeItem(key); } catch (_) {} }
+  function readJson(key) { try { return JSON.parse(storageGet(key) || 'null'); } catch (_) { return null; } }
+  function ownerIsFresh(owner) { return !!(owner && owner.instanceId && Number(owner.validUntil || 0) > Date.now()); }
+  function writeOwner() {
+    if (!ownsState || shuttingDown) return;
+    const now = Date.now();
+    storageSet(OWNER_KEY, JSON.stringify({ instanceId, updatedAt: now, validUntil: now + OWNER_TTL_MS }));
+  }
+  function releaseOwner() {
+    const owner = readJson(OWNER_KEY);
+    if (owner?.instanceId === instanceId) storageRemove(OWNER_KEY);
+  }
+  function ensureNormalRate() {
+    try { audio.defaultPlaybackRate = 1; } catch (_) {}
+    try { if (audio.playbackRate !== 1) audio.playbackRate = 1; } catch (_) {}
+    try { if ('preservesPitch' in audio) audio.preservesPitch = true; } catch (_) {}
+  }
   function currentStation() { return stations[currentIndex] || stations[0]; }
   function markActive() { storageSet(LAST_ACTIVE_KEY, String(Date.now())); }
 
@@ -64,16 +85,20 @@
     const now = Date.now();
     return {
       version: 3, instanceId, stationId: station.id, stationName: station.name,
-      country: station.country, city: station.city,
+      country: station.country, city: station.city, category: station.category || '',
+      metadataLabel: station.metadataLabel || '',
       playing: status === 'playing', status, needsGesture, interrupted,
+      active: !!(playIntent || status === 'playing' || status === 'loading' || resumeAfterInterruption),
       resumeRequested: resumeAfterInterruption,
       trackTitle, trackArtist, metadataSource,
+      metadataExpected: !!station.metadataLabel, metadataLabel: station.metadataLabel || '',
       updatedAt: now, validUntil: now + STATE_TTL_MS
     };
   }
   function publishState() {
     if (!ownsState || shuttingDown) return statePayload();
     const state = statePayload();
+    writeOwner();
     storageSet(STATE_KEY, JSON.stringify(state));
     try { channel?.postMessage({ type: 'STATE', state }); } catch (_) {}
     return state;
@@ -81,6 +106,7 @@
   function publishRelease() {
     const saved = (() => { try { return JSON.parse(storageGet(STATE_KEY) || 'null'); } catch (_) { return null; } })();
     if (saved?.instanceId === instanceId) storageRemove(STATE_KEY);
+    releaseOwner();
     try { channel?.postMessage({ type: 'STATE', state: null, releasedInstanceId: instanceId }); } catch (_) {}
   }
   function setMessage(message) { if (playerMessage) playerMessage.textContent = message; }
@@ -122,6 +148,55 @@
     } catch (_) { return ''; }
   }
   function syncSafe(bytes, offset) { return ((bytes[offset]&0x7f)<<21)|((bytes[offset+1]&0x7f)<<14)|((bytes[offset+2]&0x7f)<<7)|(bytes[offset+3]&0x7f); }
+  function metadataFromCueValue(value) {
+    if (value == null) return { title: '', artist: '' };
+    if (value instanceof ArrayBuffer || ArrayBuffer.isView(value)) {
+      const raw = value instanceof ArrayBuffer ? value : value.buffer;
+      return parseId3(raw);
+    }
+    if (typeof value === 'object') {
+      const data = value.data || value.value || value.info || value;
+      if (data instanceof ArrayBuffer || ArrayBuffer.isView(data)) {
+        const raw = data instanceof ArrayBuffer ? data : data.buffer;
+        return parseId3(raw);
+      }
+      const title = value.title || value.trackTitle || value.TIT2 || value.name || '';
+      const artist = value.artist || value.trackArtist || value.TPE1 || value.performer || '';
+      if (title || artist) return { title, artist };
+      try { value = JSON.stringify(value); } catch (_) { value = ''; }
+    }
+    const text = String(value || '').replace(/StreamTitle\s*=\s*/i, '').replace(/^['"]|['"];?$/g, '').trim();
+    if (!text) return { title: '', artist: '' };
+    if (text.includes(' - ')) {
+      const parts = text.split(' - ');
+      const artist = parts.shift().trim();
+      const title = parts.join(' - ').trim();
+      return { title, artist };
+    }
+    return { title: text, artist: '' };
+  }
+  function readNativeMetadataTrack(track) {
+    if (!track) return;
+    try { track.mode = 'hidden'; } catch (_) {}
+    const process = () => {
+      const cues = Array.from(track.activeCues || []);
+      for (const cue of cues) {
+        const parsed = metadataFromCueValue(cue?.value ?? cue?.data ?? cue?.text ?? '');
+        if (parsed.title) normalizeMetadata(parsed.title, parsed.artist, '放送ストリームの曲名情報');
+      }
+    };
+    try { track.addEventListener('cuechange', process); } catch (_) { track.oncuechange = process; }
+    process();
+  }
+  function attachNativeMetadataTracks() {
+    const tracks = audio.textTracks;
+    if (!tracks) return;
+    for (let i = 0; i < tracks.length; i += 1) {
+      const track = tracks[i];
+      if (track && (track.kind === 'metadata' || /id3|metadata/i.test(`${track.label || ''} ${track.language || ''}`))) readNativeMetadataTrack(track);
+    }
+  }
+
   function parseId3(data) {
     const bytes = data instanceof Uint8Array ? data : new Uint8Array(data || []);
     let title = '', artist = '';
@@ -257,13 +332,16 @@
   }
   function claimPlayer() {
     ownsState = true;
+    writeOwner();
     const message = { type: 'CLAIM', instanceId, id: `${instanceId}-claim-${Date.now()}`, sentAt: Date.now() };
     try { channel?.postMessage(message); } catch (_) {}
     storageSet(COMMAND_KEY, JSON.stringify(message));
   }
   function pauseForNewPlayer() {
+    if (!ownsState) return;
     ownsState = false; playIntent = false; status = navigator.onLine ? 'paused' : 'offline'; needsGesture = false;
     suppressPauseEvent = true; if (!audio.paused) audio.pause(); suppressPauseEvent = false;
+    playbackPromise = null;
     destroyHls(); render(); publishRelease();
   }
   function setStation(index, options = {}) {
@@ -278,24 +356,49 @@
     if (shouldResume && navigator.onLine) playCurrent(options.origin || 'station-change');
   }
   async function startAudioPlayback() {
-    try {
-      const result = audio.play();
-      if (result && typeof result.then === 'function') await result;
-    } catch (error) {
-      playIntent = false; status = navigator.onLine ? 'paused' : 'offline';
-      needsGesture = error?.name === 'NotAllowedError'; render(); publishState();
+    ensureNormalRate();
+    if (!audio.paused && !audio.ended) {
+      status = 'playing';
+      interrupted = false;
+      resumeAfterInterruption = false;
+      render(); publishState();
+      return true;
     }
+    if (playbackPromise) return playbackPromise;
+    playbackPromise = (async () => {
+      try {
+        const result = audio.play();
+        if (result && typeof result.then === 'function') await result;
+        ensureNormalRate();
+        return true;
+      } catch (error) {
+        playIntent = false; status = navigator.onLine ? 'paused' : 'offline';
+        needsGesture = error?.name === 'NotAllowedError'; render(); publishState();
+        return false;
+      } finally {
+        playbackPromise = null;
+      }
+    })();
+    return playbackPromise;
   }
   async function playCurrent(origin = 'button') {
-    if (!navigator.onLine) { status = 'offline'; playIntent = false; render(); publishState(); return; }
+    if (!navigator.onLine) { status = 'offline'; playIntent = false; render(); publishState(); return false; }
+    const station = currentStation();
+    if (status === 'playing' && !audio.paused && preparedStationId === station.id) {
+      ensureNormalRate();
+      interrupted = false; resumeAfterInterruption = false;
+      render(); publishState();
+      return true;
+    }
+    if (status === 'loading' && playbackPromise) return playbackPromise;
     claimPlayer();
     if (['button','select','step'].includes(origin)) markActive();
     needsGesture = false; interrupted = false; resumeAfterInterruption = false; playIntent = true; status = 'loading'; render(); publishState();
-    const station = currentStation();
     if (!prepareStream(station)) {
-      playIntent = false; status = 'error'; render(); publishState(); return;
+      playIntent = false; status = 'error'; render(); publishState(); return false;
     }
-    if (station.streamType !== 'hls' || audio.src) await startAudioPlayback();
+    if (station.streamType !== 'hls' || audio.src) return startAudioPlayback();
+    return true;
   }
   function pauseCurrent(markActivity = false) {
     resumeAfterInterruption = false; interrupted = false; playIntent = false; needsGesture = false; audio.pause(); status = navigator.onLine ? 'paused' : 'offline';
@@ -320,7 +423,10 @@
     if (message.action === 'pause' || message.action === 'stop') pauseCurrent(false);
     else if (message.action === 'previous') stepStation(-1, 'remote');
     else if (message.action === 'next') stepStation(1, 'remote');
-    else if (message.action === 'resume' || message.action === 'play') playCurrent('recovery');
+    else if (message.action === 'resume' || message.action === 'play') {
+      if (status !== 'playing' || audio.paused) playCurrent('recovery');
+      else { ensureNormalRate(); publishState(); }
+    }
     else if (message.action === 'toggle') (status === 'playing' || status === 'loading') ? pauseCurrent(false) : playCurrent('remote');
     acknowledge(message);
   }
@@ -330,6 +436,9 @@
     }
     window.addEventListener('storage', event => {
       if (event.key === COMMAND_KEY && event.newValue) { try { handleSignal(JSON.parse(event.newValue)); } catch (_) {} }
+      if (event.key === OWNER_KEY && event.newValue) {
+        try { const owner = JSON.parse(event.newValue); if (ownerIsFresh(owner) && owner.instanceId !== instanceId) pauseForNewPlayer(); } catch (_) {}
+      }
       if (event.key === STATE_KEY && event.newValue) {
         try { const state = JSON.parse(event.newValue); if (state?.instanceId && state.instanceId !== instanceId && state.playing) pauseForNewPlayer(); } catch (_) {}
       }
@@ -355,10 +464,17 @@
     shuttingDown = true; pauseCurrent(true); destroyHls(); publishRelease(); window.close();
     window.setTimeout(() => { if (!window.closed) setMessage('ブラウザのタブを閉じてください。'); }, 150);
   });
-  audio.addEventListener('playing', () => { playIntent = true; needsGesture = false; interrupted = false; resumeAfterInterruption = false; recoveryInFlight = false; status = 'playing'; render(); publishState(); });
+  audio.addEventListener('loadedmetadata', attachNativeMetadataTracks);
+  try { audio.textTracks?.addEventListener?.('addtrack', event => readNativeMetadataTrack(event.track)); } catch (_) {}
+  audio.addEventListener('playing', () => { ensureNormalRate(); playIntent = true; needsGesture = false; interrupted = false; resumeAfterInterruption = false; recoveryInFlight = false; status = 'playing'; render(); publishState(); });
   audio.addEventListener('waiting', () => { if (playIntent) { status = 'loading'; render(); publishState(); } });
   audio.addEventListener('stalled', () => { if (playIntent) { status = 'loading'; render(); publishState(); } });
-  audio.addEventListener('pause', () => { if (!shuttingDown && !suppressPauseEvent) { if (document.hidden && resumeAfterInterruption) { interrupted = true; status = navigator.onLine ? 'interrupted' : 'offline'; } else { playIntent = false; status = navigator.onLine ? 'paused' : 'offline'; } render(); publishState(); } });
+  audio.addEventListener('pause', () => { if (!shuttingDown && !suppressPauseEvent) {
+    if (document.hidden && playIntent) { resumeAfterInterruption = true; interrupted = true; status = navigator.onLine ? 'interrupted' : 'offline'; }
+    else { playIntent = false; resumeAfterInterruption = false; interrupted = false; status = navigator.onLine ? 'paused' : 'offline'; }
+    render(); publishState();
+  } });
+  audio.addEventListener('ratechange', () => { ensureNormalRate(); });
   audio.addEventListener('ended', () => { playIntent = false; status = navigator.onLine ? 'paused' : 'offline'; render(); publishState(); });
   audio.addEventListener('error', () => { if (!shuttingDown && !hls) { playIntent = false; needsGesture = false; status = navigator.onLine ? 'error' : 'offline'; render(); publishState(); } });
   officialLink.addEventListener('click', event => { if (!navigator.onLine) event.preventDefault(); });
@@ -371,16 +487,27 @@
   window.addEventListener('offline', handleOffline);
   window.addEventListener('online', handleOnline);
 
+  ensureNormalRate();
   initializeSignals(); initializeMediaSessionActions();
   const params = new URLSearchParams(location.search);
   const requestedIndex = stations.findIndex(station => station.id === params.get('id'));
   setStation(requestedIndex >= 0 ? requestedIndex : 0);
   claimPlayer(); publishState();
   if (params.get('autoplay') === '1' && navigator.onLine) playCurrent('button');
-  window.setInterval(() => { if (!shuttingDown && ownsState) publishState(); }, HEARTBEAT_MS);
+  window.setInterval(() => {
+    if (shuttingDown || !ownsState) return;
+    const owner = readJson(OWNER_KEY);
+    if (ownerIsFresh(owner) && owner.instanceId !== instanceId) { pauseForNewPlayer(); return; }
+    publishState();
+  }, HEARTBEAT_MS);
   async function recoverAfterExternalApp() {
-    if (recoveryInFlight || shuttingDown || !ownsState || !navigator.onLine || !resumeAfterInterruption) return;
-    recoveryInFlight = true; interrupted = true; status = 'loading'; render(); publishState();
+    if (recoveryInFlight || shuttingDown || !ownsState || !navigator.onLine || !resumeAfterInterruption || !interrupted) return;
+    if (Date.now() - lastRecoveryAt < RECOVERY_COOLDOWN_MS) return;
+    lastRecoveryAt = Date.now();
+    if (!audio.paused) {
+      ensureNormalRate(); interrupted = false; resumeAfterInterruption = false; status = 'playing'; render(); publishState(); return;
+    }
+    recoveryInFlight = true; status = 'loading'; render(); publishState();
     try {
       const station = currentStation();
       if (!prepareStream(station)) throw new Error('stream-unavailable');
@@ -394,16 +521,10 @@
   }
   document.addEventListener('visibilitychange', () => {
     if (shuttingDown || !ownsState) return;
-    if (document.hidden) {
-      resumeAfterInterruption = !!(playIntent || status === 'playing' || status === 'loading');
-      if (resumeAfterInterruption) interrupted = true;
-      publishState();
-    } else {
-      recoverAfterExternalApp();
-      publishState();
-    }
+    if (document.hidden) publishState();
+    else window.setTimeout(recoverAfterExternalApp, 180);
   });
-  window.addEventListener('pageshow', () => recoverAfterExternalApp());
+  window.addEventListener('pageshow', () => window.setTimeout(recoverAfterExternalApp, 180));
   window.addEventListener('pagehide', event => {
     if (event.persisted) { if (ownsState) publishState(); return; }
     shuttingDown = true; destroyHls(); publishRelease(); try { channel?.close(); } catch (_) {}

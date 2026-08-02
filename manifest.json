@@ -1,8 +1,8 @@
 {
-  "name": "MARKET BASE V.332",
+  "name": "MARKET BASE V.333.1",
   "short_name": "MARKET BASE",
   "description": "国・地域と市場情報を確認できるMARKET BASE",
-  "start_url": "./index.html?v=20260803-v332-global-refresh-shell-dock-workphoto-line-no-chatgpt",
+  "start_url": "./index.html?v=20260803-v333-1-bottom-tool-menu-radio-currency-safe",
   "scope": "./",
   "display": "standalone",
   "background_color": "#EEF3F9",
@@ -21,7 +21,7 @@
       "purpose": "any"
     }
   ],
-  "id": "./?v=20260803-v332-global-refresh-shell-dock-workphoto-line-no-chatgpt",
-  "version": "V332",
-  "build_id": "MARKET_BASE_V332_GLOBAL_REFRESH_SHELL_DOCK_WORKPHOTO_LINE_NO_CHATGPT_20260803"
+  "id": "./?v=20260803-v333-1-bottom-tool-menu-radio-currency-safe",
+  "version": "V333.1",
+  "build_id": "MARKET_BASE_V333_1_BOTTOM_TOOL_MENU_RADIO_CURRENCY_SAFE_20260803"
 }
