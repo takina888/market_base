@@ -3,7 +3,7 @@
 
   if (global.MarketBaseUpdate) return;
 
-  const BUILD_ID = 'MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730';
+  const BUILD_ID = 'MARKET_BASE_V330_WORK_CODE_LATE_TOOL_ORDER_20260802';
   const LEGACY_PAGE_BUILD = 'MARKET_BASE_LEGACY_PAGE';
   const CHANNEL_NAME = 'market-base-update-v1';
   const SIGNAL_KEY = 'market_base_global_refresh_signal';
@@ -34,7 +34,11 @@
     channel: null
   };
   const radioDockUrl = new URL(
-    'assets/js/market-base-radio-dock-v323.js?v=20260730-v324-radio-recovery',
+    'assets/js/market-base-radio-dock-v330.js?v=20260802-v330-work-code-late-order',
+    siteRoot
+  );
+  const secondaryDockUrl = new URL(
+    'assets/js/market-base-tool-dock-v330.js?v=20260802-v330-work-code-late-order',
     siteRoot
   );
 
@@ -156,16 +160,19 @@
     markActive(true);
   }
 
-  function loadRadioDock() {
-    if (
-      isRadioPlayerPage() ||
-      document.querySelector('script[data-mb-radio-dock]')
-    ) return;
+  function appendDockScript(url, dataKey) {
+    if (document.querySelector(`script[${dataKey}]`)) return;
     const script = document.createElement('script');
-    script.src = radioDockUrl.href;
+    script.src = url.href;
     script.async = true;
-    script.dataset.mbRadioDock = '';
+    script.setAttribute(dataKey, '');
     document.body?.appendChild(script);
+  }
+
+  function loadRadioDock() {
+    if (isRadioPlayerPage()) return;
+    appendDockScript(radioDockUrl, 'data-mb-radio-dock');
+    appendDockScript(secondaryDockUrl, 'data-mb-secondary-dock');
   }
 
   function currentBuildId() {

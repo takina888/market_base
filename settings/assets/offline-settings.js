@@ -14,7 +14,7 @@
     localPhotoAssets: [],
     remotePhotoAliases: {}
   };
-  const BUILD_ID = 'MARKET_BASE_V324_OFFLINE_RELIABLE_SAVE_20260730';
+  const BUILD_ID = 'MARKET_BASE_V325_OFFICIAL_SITE_PREVIEW_20260801';
   const MAX_IMAGE_EDGE = 960;
   const IMAGE_QUALITY = 0.64;
   const MIN_FREE_BYTES = 8 * 1024 * 1024;
@@ -544,7 +544,7 @@
       // A previous snapshot may already be active. Keep its text/photos, but
       // briefly release cache-first mode so missing items can be downloaded.
       await disableOfflineSentinel();
-      const registration = await navigator.serviceWorker.register('../sw.js?v=20260730-v324-offline-save-fix', {
+      const registration = await navigator.serviceWorker.register('../sw.js?v=20260801-v325-official-site-preview-tall-rect', {
         scope: '../',
         updateViaCache: 'none'
       });

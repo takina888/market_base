@@ -438,3 +438,215 @@
     font-size: 11.5px;
   }
 }
+
+
+/* V.330: compact tool launcher and flush lower-edge geometry.
+   The white panel is the dimensional reference. Both white panel and colored
+   vertical tab are exactly 108px high, so their lower edges are flush and the
+   magnetized upper/lower tabs meet without panel overlap. */
+.mb-radio-dock {
+  --dock-panel-height: 108px;
+}
+
+.mb-radio-dock-panel {
+  height: var(--dock-panel-height);
+  min-height: var(--dock-panel-height);
+  max-height: var(--dock-panel-height);
+  padding: 8px;
+  border-radius: 16px 16px 16px 0;
+  overflow: visible;
+}
+
+.mb-radio-dock-tab,
+.mb-secondary-dock .mb-radio-dock-tab {
+  top: 0;
+  bottom: auto;
+  height: var(--dock-panel-height);
+  min-height: var(--dock-panel-height);
+  max-height: var(--dock-panel-height);
+}
+
+.mb-radio-dock-head {
+  grid-template-columns: 32px minmax(0, 1fr) 28px;
+  gap: 6px;
+  min-height: 38px;
+}
+
+.mb-radio-dock-drag {
+  width: 32px;
+  height: 38px;
+  border-radius: 10px;
+  font-size: 19px;
+}
+
+.mb-radio-dock-close {
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+}
+
+.mb-radio-dock-kicker { font-size: 9px; }
+.mb-radio-dock-copy strong { margin-top: 1px; font-size: 14px; }
+.mb-radio-dock-copy small { margin-top: 1px; font-size: 10px; }
+
+.mb-radio-dock-actions {
+  gap: 6px;
+  margin-top: 5px;
+}
+
+.mb-radio-dock-controls {
+  grid-template-columns: repeat(3, 34px);
+  gap: 4px;
+}
+
+.mb-radio-dock-controls button {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.mb-radio-dock-open {
+  min-height: 34px;
+  padding: 6px 9px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.mb-radio-dock-message:not(:empty) {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: calc(100% + 6px);
+  z-index: 3;
+  margin: 0;
+  padding: 7px 9px;
+  border: 1px solid #ead8be;
+  border-radius: 10px;
+  background: rgba(255, 250, 241, .98);
+  box-shadow: 0 7px 18px rgba(17, 48, 84, .14);
+}
+
+.mb-tool-dock-panel {
+  padding: 8px;
+}
+
+.mb-tool-dock-compact {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr) 28px;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  height: 100%;
+}
+
+.mb-secondary-dock-links {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 43px;
+  grid-template-columns: none;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  max-width: 187px;
+  height: 58px;
+  margin: 0;
+  padding: 5px 1px 7px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline proximity;
+  scrollbar-width: thin;
+  scrollbar-color: #b6cce3 transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mb-secondary-dock-links::-webkit-scrollbar { height: 3px; }
+.mb-secondary-dock-links::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: #b6cce3;
+}
+
+.mb-secondary-dock-link {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  min-width: 43px;
+  height: 43px;
+  min-height: 43px;
+  padding: 0;
+  border: 1px solid #c7d8ea;
+  border-radius: 13px;
+  background: linear-gradient(180deg, #fff, #edf5fd);
+  color: #164f8d;
+  box-shadow: 0 4px 10px rgba(17, 48, 84, .10);
+  scroll-snap-align: start;
+  text-decoration: none;
+}
+
+.mb-secondary-dock-link svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.mb-secondary-dock-link[data-active="true"] {
+  border-color: #6ca6df;
+  background: #e4f1ff;
+  box-shadow: 0 0 0 2px rgba(11, 95, 199, .10), 0 4px 10px rgba(17, 48, 84, .10);
+}
+
+.mb-secondary-dock-link:hover,
+.mb-secondary-dock-link:active {
+  background: #dcecff;
+}
+
+.mb-secondary-dock[data-magnet="true"] .mb-radio-dock-panel {
+  border-bottom-left-radius: 0;
+}
+
+@media (max-width: 640px) {
+  .mb-radio-dock-panel {
+    height: var(--dock-panel-height);
+    min-height: var(--dock-panel-height);
+    max-height: var(--dock-panel-height);
+    padding: 8px;
+    border-radius: 15px 15px 15px 0;
+  }
+  .mb-radio-dock-tab,
+  .mb-secondary-dock .mb-radio-dock-tab {
+    top: 0;
+    bottom: auto;
+    height: var(--dock-panel-height);
+    min-height: var(--dock-panel-height);
+    max-height: var(--dock-panel-height);
+  }
+  .mb-radio-dock-controls { grid-template-columns: repeat(3, 34px); }
+  .mb-radio-dock-controls button { width: 34px; height: 34px; }
+  .mb-radio-dock-open { min-height: 34px; padding-inline: 8px; }
+}
+
+@media (max-width: 340px) {
+  .mb-secondary-dock-links {
+    grid-auto-columns: 42px;
+    gap: 5px;
+    max-width: 183px;
+  }
+  .mb-secondary-dock-link {
+    width: 42px;
+    min-width: 42px;
+    height: 42px;
+    min-height: 42px;
+    border-radius: 12px;
+  }
+  .mb-secondary-dock-link svg { width: 29px; height: 29px; }
+}
+
+/* V.330 launcher: four 43px icons + three 5px gaps fit before horizontal scrolling. */
+.mb-secondary-dock-links{max-width:187px;grid-auto-columns:43px;scroll-padding-inline:1px}
+.mb-secondary-dock-link:nth-child(-n+4){scroll-snap-align:start}

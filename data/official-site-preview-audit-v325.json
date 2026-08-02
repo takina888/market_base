@@ -1,0 +1,11 @@
+{
+  "version": "V325",
+  "status": "pending_initial_github_scan",
+  "generated_at": null,
+  "parent_origin": "https://takina888.github.io",
+  "candidate_policy": "Only explicitly identified official company URLs. Retail main URLs require a host match against a source marked official in the retail masters. Related, reference, news and social-platform URLs are excluded before frameability testing.",
+  "candidate_count": 938,
+  "allowed_count": 0,
+  "blocked_or_unverified_count": 938,
+  "note": "The first GitHub Actions verification run populates this file and the exact-URL allowlist. Until then, no preview button is shown."
+}

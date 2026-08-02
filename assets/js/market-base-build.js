@@ -1,18 +1,14 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V324_OFFLINE_MUSIC_PRECISE_NUMBERS_20260730',
-    label: 'MARKET BASE V.324',
-    release: 'V.324',
-    date: '2026-07-30',
-    assetVersion: '20260730-v324-offline-music-precise-numbers'
+    id: 'MARKET_BASE_V330_WORK_CODE_LATE_TOOL_ORDER_20260802',
+    label: 'MARKET BASE V.330',
+    release: 'V.330',
+    date: '2026-08-02',
+    assetVersion: '20260802-v330-work-code-late-order'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseBuild = build.id;
-  [
-    'meta[name="market-base-build"]',
-    'meta[name="market-base-site-build"]'
-  ].forEach(selector => {
-    const meta = document.querySelector(selector);
-    if (meta) meta.setAttribute('content', build.id);
+  ['meta[name="market-base-build"]','meta[name="market-base-site-build"]'].forEach(selector => {
+    const meta = document.querySelector(selector); if (meta) meta.setAttribute('content', build.id);
   });
 })();

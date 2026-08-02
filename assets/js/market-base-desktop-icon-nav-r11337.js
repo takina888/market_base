@@ -7,7 +7,12 @@
   var file=(path.split('/').pop()||'index.html').toLowerCase();
   var valid=['home','countries','tools','search','rankings','compare','learn'];
 
-  function href(target){return root+target;}
+  var LAST_TOOL_KEY='market_base_last_tool_v1';
+  function lastTool(){try{return localStorage.getItem(LAST_TOOL_KEY)==='calculator'?'calculator':'currency';}catch(_e){return 'currency';}}
+  function href(target){
+    if(target==='market-base-currency-converter-v273-r29.html')return root+target+'?tool='+lastTool()+'&v=20260802-v330-work-code-late-order';
+    return root+target;
+  }
   function icon(name){
     var icons={
       home:'<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3.5 10.5 12 3l8.5 7.5v9a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5Z"></path><path d="M9 21v-7h6v7"></path></svg>',
@@ -108,6 +113,8 @@
   },true);
   window.addEventListener('popstate',sync);
   window.addEventListener('hashchange',sync);
+  window.addEventListener('storage',function(event){if(event.key===LAST_TOOL_KEY){var link=document.querySelector('a[data-mb-global-nav="tools"]');if(link)link.href=href('market-base-currency-converter-v273-r29.html');}});
+  window.addEventListener('marketbase:tool-used',function(){var link=document.querySelector('a[data-mb-global-nav="tools"]');if(link)link.href=href('market-base-currency-converter-v273-r29.html');});
   var home=document.getElementById('home');
   if(home)new MutationObserver(function(){setTimeout(sync,0);}).observe(home,{subtree:true,attributes:true,attributeFilter:['class','hidden','aria-selected']});
 })();

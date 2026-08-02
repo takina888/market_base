@@ -99,3 +99,23 @@ body.mb-has-page-bottom-nav .mb-scroll-controls{
   .mb-scroll-control-back{width:70px;min-width:70px}
   .mb-scroll-control-back-label{font-size:11.5px}
 }
+
+
+/* V326 mobile smart-idle: visible while moving, click-through after 3 seconds */
+.mb-scroll-control-wake{display:none}
+@media(max-width:760px){
+  .mb-scroll-controls{transition:opacity .42s ease,filter .42s ease}
+  .mb-scroll-controls.is-idle{opacity:.08;filter:saturate(.6)}
+  .mb-scroll-controls.is-idle .mb-scroll-control,
+  .mb-scroll-controls.is-pass-through .mb-scroll-control{pointer-events:none!important}
+  .mb-scroll-control-wake{
+    position:fixed;right:0;bottom:calc(176px + env(safe-area-inset-bottom));z-index:9751;
+    display:grid;place-items:center;width:16px;height:58px;padding:0;border:0;border-radius:12px 0 0 12px;
+    background:rgba(31,76,130,.13);color:rgba(11,63,130,.44);font-size:20px;font-weight:900;
+    box-shadow:none;-webkit-tap-highlight-color:transparent;transition:opacity .2s ease
+  }
+  body.mb-has-primary-bottom-nav .mb-scroll-control-wake,
+  body.mb-has-page-bottom-nav .mb-scroll-control-wake{bottom:calc(257px + env(safe-area-inset-bottom))}
+  .mb-scroll-control-wake[hidden]{display:none!important}
+  .mb-scroll-control-wake:focus-visible{outline:3px solid rgba(23,100,194,.3);outline-offset:2px}
+}

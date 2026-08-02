@@ -81,7 +81,7 @@
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = new URL(
-      'assets/css/market-base-radio-dock-v323.css?v=20260802-v327-dual-dock-magnet',
+      'assets/css/market-base-dual-dock-v330.css?v=20260802-v330-work-code-late-order',
       siteRoot
     ).href;
     link.dataset.mbRadioDockStyle = '';
@@ -92,6 +92,7 @@
     const node = document.createElement('aside');
     node.className = 'mb-radio-dock';
     node.id = 'marketBaseRadioDock';
+    node.dataset.dockKind = 'radio';
     node.setAttribute('aria-label', '世界のラジオ');
     node.innerHTML = `
       <section class="mb-radio-dock-panel" id="mbRadioDockPanel" aria-label="世界のラジオ操作">
@@ -117,7 +118,7 @@
             <button type="button" data-radio-command="next" aria-label="次の放送局">›</button>
           </div>
           <a class="mb-radio-dock-open" id="mbRadioDockOpen"
-            href="${new URL('world-radio/player.html?id=wnyc&autoplay=1&v=20260802-v327-dual-dock-magnet', siteRoot).href}"
+            href="${new URL('world-radio/player.html?id=wnyc&autoplay=1&v=20260802-v330-work-code-late-order', siteRoot).href}"
             target="_blank" rel="noopener"
             aria-label="世界のラジオプレイヤーを別タブで開く">
             <span aria-hidden="true">↗</span>
@@ -327,7 +328,7 @@
       placeLabel.textContent = 'WNYCから聴く';
       controls.hidden = true;
       openLink.href = new URL(
-        'world-radio/player.html?id=wnyc&autoplay=1&v=20260802-v327-dual-dock-magnet',
+        'world-radio/player.html?id=wnyc&autoplay=1&v=20260802-v330-work-code-late-order',
         siteRoot
       ).href;
       message.textContent = '';
@@ -349,10 +350,14 @@
       active ? '再生を停止する' : '再生する'
     );
     openLink.href = new URL(
-      `world-radio/player.html?id=${encodeURIComponent(currentState.stationId)}&autoplay=1&v=20260802-v327-dual-dock-magnet`,
+      `world-radio/player.html?id=${encodeURIComponent(currentState.stationId)}&autoplay=1&v=20260802-v330-work-code-late-order`,
       siteRoot
     ).href;
-    if (currentState.needsGesture) {
+    if (currentState.needsGesture && currentState.interrupted) {
+      message.textContent = '外部アプリで中断されました。▶を押して再開してください。';
+    } else if (currentState.interrupted) {
+      message.textContent = 'ラジオを再開しています…';
+    } else if (currentState.needsGesture) {
       message.textContent = 'iPhoneでは別タブを開き、再生を押してください。';
     } else if (message.dataset.temporary !== '1') {
       message.textContent = '';
@@ -527,6 +532,22 @@
     passive: true
   });
   global.addEventListener('load', schedulePositionRestore, { once: true });
+
+
+  let recoveryRequestedAt = 0;
+  function requestRecoveryOnReturn() {
+    render();
+    const state = readState();
+    if (!stateIsFresh(state) || !state.interrupted || !state.instanceId) return;
+    if (Date.now() - recoveryRequestedAt < 2500) return;
+    recoveryRequestedAt = Date.now();
+    currentState = state;
+    sendCommand('resume');
+  }
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) global.setTimeout(requestRecoveryOnReturn, 120);
+  });
+  global.addEventListener('pageshow', () => global.setTimeout(requestRecoveryOnReturn, 120));
 
   applyDismissed(dismissed, false);
   render();

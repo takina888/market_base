@@ -1,0 +1,53 @@
+/* MARKET BASE V324 PC shell correction — 2026-07-31
+   1) The PC icon band uses exactly the same outer width as the current main shell.
+   2) The converter uses that same shell for icon band, header and content.
+   3) The converter safe area returns to the shared light-gray background.
+   Loaded last so older page-specific width and white-body overrides cannot win. */
+
+@media (min-width:900px){
+  /* Current canonical PC shell from the main page: 16px outer gutter, 1480px cap. */
+  body.mb-unified-main-page,
+  body.currency-standard-page{
+    --mb-v324-fix-pc-shell-width:min(1480px,calc(100% - 32px));
+  }
+
+  /* The upper icon band must not be shorter than the main white shell. */
+  body.mb-unified-main-page > .mb-global-icon-band,
+  body.mb-unified-main-page .mb-global-icon-band{
+    box-sizing:border-box!important;
+    width:var(--mb-v324-fix-pc-shell-width)!important;
+    max-width:1480px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+  }
+
+  /* Converter: one shared outer frame for nav, title header and tool content. */
+  body.currency-standard-page{
+    background:#EEF3F9!important;
+    padding-bottom:32px!important;
+  }
+  body.currency-standard-page > .mb-global-icon-band,
+  body.currency-standard-page > .mb-primary-header-host,
+  body.currency-standard-page > main.currency-standard-shell,
+  body.currency-standard-page > main.mb-standard-content-shell{
+    box-sizing:border-box!important;
+    width:var(--mb-v324-fix-pc-shell-width)!important;
+    max-width:1480px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+  }
+  body.currency-standard-page > .mb-primary-header-host,
+  body.currency-standard-page > main.currency-standard-shell,
+  body.currency-standard-page > main.mb-standard-content-shell{
+    background:#FFFFFF!important;
+  }
+  body.currency-standard-page > .mb-primary-header-host{
+    padding-left:24px!important;
+    padding-right:24px!important;
+  }
+  body.currency-standard-page > main.currency-standard-shell,
+  body.currency-standard-page > main.mb-standard-content-shell{
+    padding-left:24px!important;
+    padding-right:24px!important;
+  }
+}
