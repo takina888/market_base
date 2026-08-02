@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-02T14:03:00Z",
+  "generated_at": "2026-08-02T19:39:14Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -23,7 +23,7 @@
           "title": "夏だ！祭りだ！！N響ほっとコンサート ～翔けよう！まほうの森と夢の世界～",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xR2d0VmQ5QTczMlFOVEtEODdnYkltTGpnbFAzUE5pOC1DQkRxSXUwVTMwQ21FS0s1ek0wVEhJYzNEeWQxR090OXFPTXlTSjhDOVFsTnJWemU?oc=5",
           "source": "nhkso.or.jp",
-          "published_at": "2026-08-02T06:03:28Z",
+          "published_at": "2026-08-02T15:15:59Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -49,6 +49,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "7c05d9595c9aa763",
+          "title": "世界遺産／精霊が宿る針山の迷宮〜ラオス・ヒンナムノ国立公園 [解] [字]",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52OXE1ZThXalk1amNQTjl4emR6ajhnRHZrNzVmNy1CZ3plSUtNdGdIVm1KcUtBUkpveEVyZTZIeV9lVVhFVGxndFlUSV9EaDItTmRfOFJR?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-08-02T11:58:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b02ee82e3059503b",
           "title": "4年連続世界チャンピオンのSOTA凱旋！BE:FIRSTがアメリカ・アリゾナ州で開催されたダンスの世界大会「2026 World Hip Hop Dance Championship – World Finals」でのハーフタイムショーに出演！最新曲「BRUCE WAYNE feat. Flo Milli, ATL Jacob」を初パフォーマンス",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4zWmNSWUxDM0NnUUNsX3ZnWWtoUF94akVVREhxaWExLTZlaHNyS3RRMjI5RXdzX1JObVZEWkFCV093bkxzRVE?oc=5",
@@ -59,31 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "8856d5ffd6dd1371",
+          "title": "BE:FIRST、ストリートダンス世界最高峰の大会でハーフタイムショーに登場",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5UYjNZWDN5MTV3Qk53anBUVmpmRTFyVmpFcXFYRHJ5SS1kVHBJRThDSGI2OGtiMEdwNWd0RVBmeXpXaWNvcDJFbnE4RUw5RjZLbEFyUXdTWGk?oc=5",
+          "source": "THE FIRST TIMES",
+          "published_at": "2026-08-02T06:32:34Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "04b46b243275d148",
           "title": "ソウル 世界の若者に「最も人気な都市」＝5年連続1位",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QanVYQWZPZ09lcURVeHVHR2hUMTE5czQxRFhmX3dIS3VxckFqMmFlQUtYNElSRmtKQ3ZxUjJQckNxZnUzM010X0FZZGdRbGZFNDBaNWpmSVVEWC1PY2VSMnJ6NXl2VWU0N2RTdG5VWUJ1dDhFNlMtNFpMNkRTdGs?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-08-02T05:25:42Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5b340b9a91fafff6",
-          "title": "関西外国語大学が海外就業体験「Global Internship in Asia」を実施。4社と連携し、アジアで次世代のグローバル人材を育成します | プレスリリース | 広報サイト",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzSmowVmNoOWpyZTNITXpvM0EyTlpvYzJoTmdDWkZwM2h1c01QbXhaU1NyVVNmdEJSYWNkZTlicDZaWjdETzVkVWdhNmxmOGpiQlJLZ3k2T3BMVGtuUHNaeXhhTjhXQmp0RWc?oc=5",
-          "source": "kansaigaidai.ac.jp",
-          "published_at": "2026-08-02T04:32:06Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "04d2decfa2bb07b6",
-          "title": "2026年に訪れたい、新たに登録されたユネスコ世界遺産7選",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wRnJGclBjZ3Y5UFQwcmlRSTJOWDNJQjhHSVRkUGF4cDVNTGRIZm1jZTlrSnBpa0s5QlljZjRHakR6N3BMTm1GdW9MdjVGZmQzdVh6U1htV1FGdERuY1hZcXl6VQ?oc=5",
-          "source": "ナショナルジオグラフィック日本版",
-          "published_at": "2026-08-02T03:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -169,21 +169,21 @@
       "label": "食品工場",
       "articles": [
         {
-          "id": "b2ea39a0e775737c",
-          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-07-06T07:00:00Z",
+          "id": "1e3558dd99c398af",
+          "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-06-04T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1e3558dd99c398af",
-          "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
-          "source": "news.nissyoku.co.jp",
-          "published_at": "2026-06-04T07:00:00Z",
+          "id": "b2ea39a0e775737c",
+          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -244,6 +244,16 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "42e55a9dd6ecad7f",
+          "title": "イズミグループ、SM新店舗「ユアーズ広瀬北店」開店 24時間営業を省人化・省力化",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWbllENjZ4Z1hucGZEVFhyUW5ZeUhoeWhkdE41OXdjR0tVYzFTUU4zWFptWXJvVHVWNW0xWjA5dnBOUUNJa2RNbkdVRld2UnI3djhjZS1lWURna3dTMUhvNjdXTTNIY2Z0?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-07-23T15:03:01Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "94ace283ac879e07",
           "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
@@ -302,16 +312,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6982c8165127ff8e",
-          "title": "クスリのアオキ／新潟県・埼玉県・千葉県に計3店舗、27年1～2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BUkc2S3J6am1KSVlYSDZlYVJkNUR6ZjJtUGxyZEEzQ0EwSkd0Y2hXc3ZEbDRPYnFVQVFJMUQ0eGRoYjZoVkxQaDNUZmlncWJxU1I5M2FB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-14T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -319,20 +319,10 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "30b1b0c1e67bbc45",
-          "title": "基準がベトナム農産物の「パスポート」となる時。",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY3hMSnhfdi1yV2ZVQkZKc1BYZlBqcUNKZXFrMVNCemM4aF9KV01uYUR6Z1BLMWlqV21JVE1oN3R5d05aUDB5RGtNR3l0QnJsTlNnZzV6aDdMMHJrc0lIYVNKS3l1Tjhjdk1DalJ6X3dyMDdsUDlwZk5YMlJ0QnY1Mi1zSWlFZWpUYl9hVzBVUQ?oc=5",
-          "source": "vietnam.vn",
-          "published_at": "2026-07-28T15:58:36Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "a467926b2e15f3f8",
           "title": "EUのSPS規制を克服するには、生産チェーン全体を管理することが鍵となる。",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcjdkX05uNjlTZ1hTMnBjVHM3N3pldUticXR4QWZrVkVjaHVtS3B3OVRlbGhoeThKNlpHRWktMGlzUHN0ajM3OFBCaENrQ2tkUm5yNU9ZR2NfTmlpVFJxZE5HLXJ3UVhSY2dzMDRYamU0VnBkNHlxbWlGMW83MjJqUi1vOXItdWlsb2J6N3pnTkdDLW5vc0RV?oc=5",
-          "source": "vietnam.vn",
+          "source": "Vietnam.vn",
           "published_at": "2026-07-26T07:10:25Z",
           "language": "ja",
           "category": "regulations",
@@ -342,7 +332,7 @@
           "id": "12bce3970c06a975",
           "title": "保健省は、輸入食品の検査が必要となる場合と、検査が免除される場合を規定している。",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMFVYV0NWRGFfWnlOMXRrLXlIS19Qd1ctNVdhWXE5ZnA4dTBEeDZoZkNkN2V1cVFXOGRWejZPY0ZmNlRrYzZnYmJFZ0VNSWRsSFhDVWFabnJZRmtERHZlN0JLNm1TQ25LWDExaXBWMS1EbXFXeVJFSHpjemFqYURyUnRBSlB5TDBBRmFjNmNUQmpkSUNGYkRVZ3I0eDljazZ1blB0Q3U4c29WWnFiNU5VRQ?oc=5",
-          "source": "vietnam.vn",
+          "source": "Vietnam.vn",
           "published_at": "2026-07-26T06:51:26Z",
           "language": "ja",
           "category": "regulations",
@@ -364,6 +354,16 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
           "source": "jetro.go.jp",
           "published_at": "2026-06-04T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5fcd1501001e6c13",
+          "title": "SQNZ、イタリアにおける持続可能な畜産認証 - ギフト",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ2dPYVBGdGNDcF83MUFmeHB6ZzdxeENtVW1mZ2xkYjBWZUVaaVNFcHg5b1hFaW94X2hVNHJ4VjY1SG5vVzlBLU9namMwRXRGemU0cWNSY1FRdjBITVVQWndKSDFfOWlSUDhpdlRKMlZaaHBUT0E4LXVHZncwZ2lEd2tCQWNkYnRiOThlVDY2clFqd2xNM3F0dHNlT2JHT2J0V0tlWE5TTHNYRlBodThxMk5YTXlyNTg?oc=5",
+          "source": "greatitalianfoodtrade.it",
+          "published_at": "2026-05-05T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-02T14:03:00Z",
-  "last_success_at": "2026-08-02T14:03:00Z",
+  "last_attempt_at": "2026-08-02T19:39:14Z",
+  "last_success_at": "2026-08-02T19:39:14Z",
   "consecutive_failure_count": 0
 }
