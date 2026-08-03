@@ -5,7 +5,7 @@
   const SCRIPT_URL = document.currentScript && document.currentScript.src
     ? document.currentScript.src
     : global.location.href;
-  const WORLD_MAP_URL = new URL('../assets/maps/world-map.svg?v=20260803-v333-7-layout-nav-route-map-unification', SCRIPT_URL).href;
+  const WORLD_MAP_URL = new URL('../assets/maps/world-map.svg?v=20260803-v333-7-2-work-code-controls', SCRIPT_URL).href;
   const data = global.MB_WORLD_ROUTE_V323;
   const state = {
     countryIndex: 0,

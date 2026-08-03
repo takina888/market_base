@@ -10,8 +10,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TOKEN = "20260803-v333-7-layout-nav-route-map-unification"
-BUILD = "MARKET_BASE_V333_7_LAYOUT_NAV_ROUTE_MAP_UNIFICATION_20260803"
+TOKEN = "20260803-v333-7-2-work-code-controls"
+BUILD = "MARKET_BASE_V333_7_2_WORK_CODE_CONTROLS_20260803"
 
 
 def read(path: str) -> str:
@@ -27,7 +27,7 @@ def main() -> None:
     build = read("assets/js/market-base-build.js")
     manifest = json.loads(read("manifest.json"))
     require(BUILD in build and TOKEN in build, "current build metadata is missing")
-    require(manifest["version"] == "V333.7", "manifest version is not V333.7")
+    require(manifest["version"] == "V333.7.2", "manifest version is not V333.7.2")
     require(manifest["build_id"] == BUILD, "manifest build ID mismatch")
     require(TOKEN in manifest["start_url"] and TOKEN in manifest["id"], "manifest cache token mismatch")
 
@@ -88,13 +88,13 @@ def main() -> None:
 
     sw = read("sw.js")
     require(TOKEN in sw and BUILD in sw, "service worker build metadata mismatch")
-    require("layout-nav-route-map-unification-layout" not in sw, "duplicated cache token found")
+    require("work-code-share-guide-work-code-share-guide" not in sw, "duplicated cache token found")
     offline = read("assets/js/market-base-offline-manifest-v324.js")
-    require("MARKET_BASE_OFFLINE_MANIFEST_V333_7_LAYOUT_NAV_ROUTE_MAP_UNIFICATION_20260803" in offline,
+    require("MARKET_BASE_OFFLINE_MANIFEST_V333_7_1_WORK_CODE_SHARE_GUIDE_20260803" in offline,
             "offline manifest version mismatch")
 
     subprocess.run(["node", str(ROOT / "scripts/test_v333_7_route_viewports.mjs")], check=True)
-    print("V333.7 layout/navigation/route-map regression checks passed")
+    print("V333.7.2 layout/navigation/route-map regression checks passed")
 
 
 if __name__ == "__main__":

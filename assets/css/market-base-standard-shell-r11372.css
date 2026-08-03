@@ -87,7 +87,7 @@ body.mb-unified-learning-page main.guide-page{
     padding-right:15px;
   }
 }
-/* V333.7 — tablet / half-PC shells must not remain locked to 430px.
+/* V333.7.1 — tablet / half-PC shells must not remain locked to 430px.
    This is the shared fix for reading pages, HACCP, HS code, logistics guides
    and every other page using the standard learning shell. */
 @media(min-width:431px) and (max-width:899px){

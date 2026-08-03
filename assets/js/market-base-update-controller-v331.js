@@ -34,11 +34,11 @@
     channel: null
   };
   const radioDockUrl = new URL(
-    'assets/js/market-base-radio-dock-v331.js?v=20260803-v333-7-layout-nav-route-map-unification',
+    'assets/js/market-base-radio-dock-v331.js?v=20260803-v333-7-2-work-code-controls',
     siteRoot
   );
   const secondaryDockUrl = new URL(
-    'assets/js/market-base-tool-dock-v331.js?v=20260803-v333-7-layout-nav-route-map-unification',
+    'assets/js/market-base-tool-dock-v331.js?v=20260803-v333-7-2-work-code-controls',
     siteRoot
   );
 

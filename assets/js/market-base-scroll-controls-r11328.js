@@ -8,7 +8,7 @@
   var HOME_URL=new URL('index.html',SITE_ROOT);
   /* Keep one canonical controller. Loading V331 here raced the explicit V333
      controller and briefly mounted the retired tool dock on some pages. */
-  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v333.js?v=20260803-v333-7-layout-nav-route-map-unification',SITE_ROOT);
+  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v333.js?v=20260803-v333-7-2-work-code-controls',SITE_ROOT);
   var LEARN_PREFIXES=['british-jokes/','classic-move/','haccp-quiz/','hs-learning/','international-logistics/','material-check/','rakuda-no-me/','sutra-no-yoin/','ul-ce-learning/','work-basics/'];
   var HOME_RETURN_PREFIXES=['british-jokes/','classic-move/','kimochi-biyori/','rakuda-no-me/','sutra-no-yoin/'];
   var LEARN_FILES={'world-history-today.html':true};

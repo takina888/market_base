@@ -3,7 +3,7 @@
 
   if (global.MarketBaseUpdate) return;
 
-  const BUILD_ID = 'MARKET_BASE_V333_7_LAYOUT_NAV_ROUTE_MAP_UNIFICATION_20260803';
+  const BUILD_ID = 'MARKET_BASE_V333_7_2_WORK_CODE_CONTROLS_20260803';
   const LEGACY_PAGE_BUILD = 'MARKET_BASE_LEGACY_PAGE';
   const CHANNEL_NAME = 'market-base-update-v1';
   const SIGNAL_KEY = 'market_base_global_refresh_signal';
@@ -34,11 +34,11 @@
     channel: null
   };
   const radioDockUrl = new URL(
-    'assets/js/market-base-radio-dock-v331.js?v=20260803-v333-7-layout-nav-route-map-unification',
+    'assets/js/market-base-radio-dock-v331.js?v=20260803-v333-7-2-work-code-controls',
     siteRoot
   );
   const toolMenuUrl = new URL(
-    'assets/js/market-base-tool-menu-v333.js?v=20260803-v333-7-layout-nav-route-map-unification',
+    'assets/js/market-base-tool-menu-v333.js?v=20260803-v333-7-2-work-code-controls',
     siteRoot
   );
 
