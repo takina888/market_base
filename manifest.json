@@ -1,8 +1,8 @@
 {
-  "name": "MARKET BASE V.333.7.2",
+  "name": "MARKET BASE V.333.8",
   "short_name": "MARKET BASE",
   "description": "国・地域と市場情報を確認できるMARKET BASE",
-  "start_url": "./index.html?v=20260803-v333-7-2-work-code-controls",
+  "start_url": "./index.html?v=20260803-v333-8-jfm-export-db",
   "scope": "./",
   "display": "standalone",
   "background_color": "#EEF3F9",
@@ -21,7 +21,7 @@
       "purpose": "any"
     }
   ],
-  "id": "./?v=20260803-v333-7-2-work-code-controls",
-  "version": "V333.7.2",
-  "build_id": "MARKET_BASE_V333_7_2_WORK_CODE_CONTROLS_20260803"
+  "id": "./?v=20260803-v333-8-jfm-export-db",
+  "version": "V333.8",
+  "build_id": "MARKET_BASE_V333_8_JFM_EXPORT_DB_20260803"
 }

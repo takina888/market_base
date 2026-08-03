@@ -1,10 +1,10 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V333_7_2_WORK_CODE_CONTROLS_20260803',
-    label: 'MARKET BASE V.333.7.2',
-    release: 'V.333.7.2',
+    id: 'MARKET_BASE_V333_8_JFM_EXPORT_DB_20260803',
+    label: 'MARKET BASE V.333.8',
+    release: 'V.333.8',
     date: '2026-08-03',
-    assetVersion: '20260803-v333-7-2-work-code-controls'
+    assetVersion: '20260803-v333-8-jfm-export-db'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseBuild = build.id;
