@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-03T10:09:46Z",
+  "generated_at": "2026-08-03T15:21:41Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,21 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "f059a5d2f155b5b0",
-          "title": "三洋貿易[3176]：株主優待制度の導入に関するお知らせ 2026年8月3日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPY0pHTVdWdVZrMlZ0ZElpVWVjMExSLVlnb2hGblpXT19lRGttSXM4d3g2QldYczFOWXFESWpJVUotajBOTWo4QkVlT2ZnYURZTjlnQnJMME5qS1NTWVJESjQ4NmF0Vi11eHVEX09mMFp0bXZweEE3R1h3YXBVNndEZHN4b1kzZHkzOTNHdjg3NllqUzNPdnBxYW9hWFVVS0hDdzVYNzFadXczN2RQSWpKazFfYmVfTU43ZzBRMEFkV20zOHljX1B4WGptV18?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-03T05:00:00Z",
+          "id": "31973d77dd032ffa",
+          "title": "夏だ！祭りだ！！N響ほっとコンサート ～翔けよう！まほうの森と夢の世界～",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xR2d0VmQ5QTczMlFOVEtEODdnYkltTGpnbFAzUE5pOC1DQkRxSXUwVTMwQ21FS0s1ek0wVEhJYzNEeWQxR090OXFPTXlTSjhDOVFsTnJWemU?oc=5",
+          "source": "nhkso.or.jp",
+          "published_at": "2026-08-03T09:53:49Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "31973d77dd032ffa",
-          "title": "夏だ！祭りだ！！N響ほっとコンサート ～翔けよう！まほうの森と夢の世界～",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xR2d0VmQ5QTczMlFOVEtEODdnYkltTGpnbFAzUE5pOC1DQkRxSXUwVTMwQ21FS0s1ek0wVEhJYzNEeWQxR090OXFPTXlTSjhDOVFsTnJWemU?oc=5",
-          "source": "nhkso.or.jp",
-          "published_at": "2026-08-02T15:15:59Z",
+          "id": "37a84c0ec3fd2caf",
+          "title": "三洋貿易[3176]：株主優待制度の導入に関するお知らせ 2026年8月3日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wdG15OThXaGhNYnJfYlg0ci1TdXp4bkpCWDJjN1lwSmJOWUt5U2ZOVDRXWjNGMk15bm5za3RITVVWdjNqc0diWWpaMGFUOGFaTDNjcERBYlNWX3BwWVVzcHY5UDhSZDVmb1E?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-08-03T05:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -43,7 +43,17 @@
           "title": "JIRCAS-NARO-FFTC合同国際ワークショップ「土壌の健康と多機能性」を開催",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqWWJkQ19YaFJiX3pPelBzbmFOYlREVUdlZzhNSndpZ0V1dVpWZVdqalczNHY5MGgtdXF1S3ViSU9hSjRwWi1QbktRcTNyRmFOdjBSZ2ExeXZiSllENXl3?oc=5",
           "source": "jircas.go.jp",
-          "published_at": "2026-08-03T08:54:28Z",
+          "published_at": "2026-08-03T12:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "56a2eb76139ce89a",
+          "title": "旅行気分で海外の文化を体験 子供たちがモンゴルの文字や中国の数の数え方などに挑戦｜ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOeGc2cXhBX3lfRkNLZ1psaGFzLXE5WFhjVGYySTllQTNOT3FlblBBaHAxUVRiMGsydGZXS05kQlhubFhqRzBvOXBvVHItd1Jpb0M0UWNXR0YzUjdPcnpucHdR?oc=5",
+          "source": "ktn.co.jp",
+          "published_at": "2026-08-03T11:20:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -69,21 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5d12fbf2d82f7af5",
-          "title": "商用化目指す光量子コンピューターが稼働 研究拠点で世界初",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGQ3hXbnVKbjc2RXZ5a0Z0cWNNZXVGc19yWTgzN2Mxa3VKMi12Y1RaR29fVlpjejZwQWtOLTctVmxfNW5YZFlGTkVLMGtOZHdnR3FWNWNQeGhXV1ptRmZOOTlyam9NUQ?oc=5",
-          "source": "Science Portal",
-          "published_at": "2026-08-03T05:23:51Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "e420bdde4f93d91e",
           "title": "東京工科大学 NVIDIA AI Technology Center Joint Lab設立記念 国際シンポジウム「Computing the Physical World」を開催",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CY2ZNNlVPc01wWWxuWXlrVkdBaGNjTnc2S1Y0a1dieDc3YXI2cG9iWGl4V1R6eTRNU0JhSEptbzYzUWdyeE1hOG1hbnFSSFQ2WkNrTWQ0aWRqbWxtQnFz?oc=5",
           "source": "teu.ac.jp",
-          "published_at": "2026-08-03T05:21:21Z",
+          "published_at": "2026-08-03T05:22:58Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -329,11 +329,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "12bce3970c06a975",
-          "title": "保健省は、輸入食品の検査が必要となる場合と、検査が免除される場合を規定している。",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMFVYV0NWRGFfWnlOMXRrLXlIS19Qd1ctNVdhWXE5ZnA4dTBEeDZoZkNkN2V1cVFXOGRWejZPY0ZmNlRrYzZnYmJFZ0VNSWRsSFhDVWFabnJZRmtERHZlN0JLNm1TQ25LWDExaXBWMS1EbXFXeVJFSHpjemFqYURyUnRBSlB5TDBBRmFjNmNUQmpkSUNGYkRVZ3I0eDljazZ1blB0Q3U4c29WWnFiNU5VRQ?oc=5",
+          "id": "63db6ab7af234edd",
+          "title": "人々は食品安全法が障害を取り除き、消費者を保護することを期待している。",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZDI5TUJPcVRremlYbzV6ZVNuVVlCbWNJdmVnVW9qYUxEc0NsazdNZ0U2Y1QzWEVLWkhhbXBRTTBORG1sVEpkOS10TmlHNmdKcFRnR1U5dk53aDdkQVEzcnFKV3gzUmY4cFVvS21SemRMbmxGd0stV0ZPSXRkbFlVUVhXVTEwQi1paFlxTFhDOEFzbGVOTkY1RUM1RW9pTjQ?oc=5",
           "source": "Vietnam.vn",
-          "published_at": "2026-07-26T06:51:26Z",
+          "published_at": "2026-07-22T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-03T10:09:46Z",
-  "last_success_at": "2026-08-03T10:09:46Z",
+  "last_attempt_at": "2026-08-03T15:21:41Z",
+  "last_success_at": "2026-08-03T15:21:41Z",
   "consecutive_failure_count": 0
 }
