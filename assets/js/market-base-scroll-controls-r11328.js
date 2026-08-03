@@ -8,8 +8,9 @@
   var HOME_URL=new URL('index.html',SITE_ROOT);
   /* Keep one canonical controller. Loading V331 here raced the explicit V333
      controller and briefly mounted the retired tool dock on some pages. */
-  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v333.js?v=20260803-v333-6-radio-dock-reading-half-pc-unification',SITE_ROOT);
+  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v333.js?v=20260803-v333-7-layout-nav-route-map-unification',SITE_ROOT);
   var LEARN_PREFIXES=['british-jokes/','classic-move/','haccp-quiz/','hs-learning/','international-logistics/','material-check/','rakuda-no-me/','sutra-no-yoin/','ul-ce-learning/','work-basics/'];
+  var HOME_RETURN_PREFIXES=['british-jokes/','classic-move/','kimochi-biyori/','rakuda-no-me/','sutra-no-yoin/'];
   var LEARN_FILES={'world-history-today.html':true};
   var COUNTRY_FILES={'market-base-v273-country-profile-r28.html':true};
   var TOOL_FILES={'market-base-currency-converter-v273-r29.html':true,'market-base-code-tool.html':true,'world-compass.html':true};
@@ -31,6 +32,7 @@
     var explicit=explicitTarget(control);if(explicit&&normalizedIndexPath(new URL(explicit).pathname)!==normalizedIndexPath(location.pathname))return explicit;
     var rel=siteRelativePath();var file=rel.split('/').filter(Boolean).pop()||'index.html';var currentIsHome=normalizedIndexPath(location.pathname)===normalizedIndexPath(HOME_URL.pathname);
     if(currentIsHome){var view=new URL(location.href).searchParams.get('view');if(view||location.hash)return homeTarget('');return '';}
+    if(HOME_RETURN_PREFIXES.some(function(prefix){return rel.indexOf(prefix)===0;}))return homeTarget('');
     if(LEARN_FILES[file]||LEARN_PREFIXES.some(function(prefix){return rel.indexOf(prefix)===0;}))return homeTarget('learn');
     if(COUNTRY_FILES[file])return homeTarget('countries');
     if(TOOL_FILES[file]||rel.indexOf('world-radio/')===0)return homeTarget('');

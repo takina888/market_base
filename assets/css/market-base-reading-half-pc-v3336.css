@@ -1,4 +1,4 @@
-/* MARKET BASE V333.6 — reading and radio pages at tablet / half-PC widths.
+/* MARKET BASE V333.7 — reading and radio pages at tablet / half-PC widths.
    Rakuda no Me already owns this geometry; mirror its proven shell here so
    the header band and content surface always share one outer width. */
 @media (min-width:431px) and (max-width:899px){

@@ -730,3 +730,11 @@
   .mb-radio-dock-panel{height:auto;min-height:108px;max-height:none;border-radius:0 15px 15px 0}
   .mb-radio-dock-tab,.mb-secondary-dock .mb-radio-dock-tab{top:0;bottom:0;height:auto;min-height:108px;max-height:none}
 }
+
+/* V333.7: page-local button rules must never restyle the global radio tab.
+   Sutra uses `.sutra-page button { font: inherit }`, which otherwise wins by
+   specificity and makes this one tab look different from every other page. */
+html body .mb-radio-dock .mb-radio-dock-tab{
+  font:900 10px/1 system-ui,-apple-system,"Yu Gothic",sans-serif;
+  letter-spacing:.12em;
+}

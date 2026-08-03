@@ -34,11 +34,11 @@
     channel: null
   };
   const radioDockUrl = new URL(
-    'assets/js/market-base-radio-dock-v330.js?v=20260803-v333-6-radio-dock-reading-half-pc-unification',
+    'assets/js/market-base-radio-dock-v330.js?v=20260803-v333-7-layout-nav-route-map-unification',
     siteRoot
   );
   const secondaryDockUrl = new URL(
-    'assets/js/market-base-tool-dock-v330.js?v=20260803-v333-6-radio-dock-reading-half-pc-unification',
+    'assets/js/market-base-tool-dock-v330.js?v=20260803-v333-7-layout-nav-route-map-unification',
     siteRoot
   );
 

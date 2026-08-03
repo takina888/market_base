@@ -11,6 +11,15 @@
   --route-warm: #fff8e8;
 }
 
+.route-primary-header-host{
+  box-sizing:border-box;
+  width:calc(100% - 30px);
+  max-width:var(--mbx-content-mobile);
+  margin:0 auto;
+  padding:8px 0 0;
+  background:#fff;
+}
+
 .route-page-main {
   padding-bottom: calc(42px + env(safe-area-inset-bottom));
 }
@@ -154,19 +163,24 @@
   border: 1px solid #c7d8e9;
   border-radius: 16px;
   background-color: #eef7fb;
-  background-image:
-    linear-gradient(rgba(238, 247, 251, 0.08), rgba(238, 247, 251, 0.08)),
-    url("../assets/maps/world-map.svg?v=20260730-v324-simple-route");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-image:linear-gradient(rgba(238,247,251,.08),rgba(238,247,251,.08));
 }
+
+.route-map-base{pointer-events:none}
 
 .route-map-svg {
   display: block;
   width: 100%;
   height: 100%;
   overflow: visible;
+}
+
+@media(min-width:900px){
+  .route-primary-header-host{
+    width:min(var(--mbx-content-desktop),calc(100% - 72px));
+    max-width:none;
+    padding-top:0;
+  }
 }
 
 .route-map-line {

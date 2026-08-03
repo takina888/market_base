@@ -1,8 +1,8 @@
 {
-  "name": "MARKET BASE V.333.6",
+  "name": "MARKET BASE V.333.7",
   "short_name": "MARKET BASE",
   "description": "国・地域と市場情報を確認できるMARKET BASE",
-  "start_url": "./index.html?v=20260803-v333-6-radio-dock-reading-half-pc-unification",
+  "start_url": "./index.html?v=20260803-v333-7-layout-nav-route-map-unification",
   "scope": "./",
   "display": "standalone",
   "background_color": "#EEF3F9",
@@ -21,7 +21,7 @@
       "purpose": "any"
     }
   ],
-  "id": "./?v=20260803-v333-6-radio-dock-reading-half-pc-unification",
-  "version": "V333.6",
-  "build_id": "MARKET_BASE_V333_6_RADIO_DOCK_READING_HALF_PC_UNIFICATION_20260803"
+  "id": "./?v=20260803-v333-7-layout-nav-route-map-unification",
+  "version": "V333.7",
+  "build_id": "MARKET_BASE_V333_7_LAYOUT_NAV_ROUTE_MAP_UNIFICATION_20260803"
 }

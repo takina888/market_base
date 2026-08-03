@@ -69,12 +69,49 @@ body.mb-unified-learning-page main.guide-page{
   body.mb-unified-learning-page .mb-learning-content-shell{
     min-height:auto;
   }
+  /* The logistics guide already sits inside the shared shell. Its historical
+     extra 10px side margin made only this learning page visibly narrower. */
+  body.mb-unified-learning-page main.guide-page .guide-shell{
+    width:100%!important;
+    max-width:none!important;
+  }
+  body.mb-unified-learning-page main.guide-page .guide-section{
+    margin-left:0!important;
+    margin-right:0!important;
+  }
 }
 @media(max-width:370px){
   body.mb-standard-page .mb-standard-content-shell,
   body.mb-unified-learning-page .mb-learning-content-shell{
     padding-left:15px;
     padding-right:15px;
+  }
+}
+/* V333.7 — tablet / half-PC shells must not remain locked to 430px.
+   This is the shared fix for reading pages, HACCP, HS code, logistics guides
+   and every other page using the standard learning shell. */
+@media(min-width:431px) and (max-width:899px){
+  body.mb-standard-page .mb-primary-header-host,
+  body.mb-standard-page .mb-standard-content-shell,
+  body.mb-unified-learning-page .mb-primary-header-host,
+  body.mb-unified-learning-page .mb-learning-content-shell,
+  body.mb-unified-learning-page .mb-standard-local-toolbar,
+  body.mb-unified-learning-page .mb-standard-local-tabs{
+    box-sizing:border-box;
+    width:min(calc(100% - 32px),760px)!important;
+    max-width:760px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+  }
+  body.mb-standard-page .mb-primary-header-host,
+  body.mb-unified-learning-page .mb-primary-header-host{
+    padding-left:16px!important;
+    padding-right:16px!important;
+  }
+  body.mb-standard-page .mb-standard-content-shell,
+  body.mb-unified-learning-page .mb-learning-content-shell{
+    padding-left:16px!important;
+    padding-right:16px!important;
   }
 }
 @media(min-width:900px){

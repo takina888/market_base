@@ -2,6 +2,10 @@
   'use strict';
 
   const SVG_NS = 'http://www.w3.org/2000/svg';
+  const SCRIPT_URL = document.currentScript && document.currentScript.src
+    ? document.currentScript.src
+    : global.location.href;
+  const WORLD_MAP_URL = new URL('../assets/maps/world-map.svg?v=20260803-v333-7-layout-nav-route-map-unification', SCRIPT_URL).href;
   const data = global.MB_WORLD_ROUTE_V323;
   const state = {
     countryIndex: 0,
@@ -228,6 +232,24 @@
     };
   }
 
+  const REGION_VIEWPORTS = Object.freeze({
+    '東アジア': { x: 700, y: 75, width: 300, height: 150, label: '東アジア拡大' },
+    '東南アジア': { x: 620, y: 80, width: 380, height: 190, label: '東南アジア拡大' },
+    '南アジア': { x: 600, y: 75, width: 400, height: 200, label: 'アジア拡大' },
+    '中東': { x: 520, y: 70, width: 480, height: 240, label: 'アジア・中東広域' },
+    '中東・地中海': { x: 450, y: 55, width: 550, height: 275, label: 'ユーラシア広域' },
+    'ヨーロッパ': { x: 400, y: 55, width: 600, height: 300, label: 'ユーラシア広域' },
+    'オセアニア': { x: 500, y: 100, width: 500, height: 250, label: 'アジア・オセアニア広域' },
+    'アフリカ': { x: 400, y: 55, width: 600, height: 300, label: 'アジア・アフリカ広域' }
+  });
+  const WORLD_VIEWPORT = Object.freeze({
+    x: 0, y: 0, width: 1000, height: 500, label: '世界表示'
+  });
+
+  function mapViewport() {
+    return REGION_VIEWPORTS[currentCountry().region] || WORLD_VIEWPORT;
+  }
+
   function routePath(points) {
     const parts = [];
     points.slice(0, -1).forEach((point, index) => {
@@ -265,11 +287,30 @@
   function renderMap() {
     const route = currentRoute();
     const points = route.steps.map(project);
+    const viewport = mapViewport();
+    const markerScale = Math.max(.24, viewport.width / 1000);
     elements.mapSvg.replaceChildren();
+    elements.mapSvg.setAttribute(
+      'viewBox',
+      `${viewport.x} ${viewport.y} ${viewport.width} ${viewport.height}`
+    );
+    elements.mapSvg.dataset.mapScope = viewport.label;
+
+    const baseMap = svgElement('image', {
+      class: 'route-map-base',
+      href: WORLD_MAP_URL,
+      x: 0,
+      y: 0,
+      width: 1000,
+      height: 500,
+      preserveAspectRatio: 'none'
+    });
+    elements.mapSvg.append(baseMap);
 
     const path = svgElement('path', {
       class: 'route-map-line',
-      d: routePath(points)
+      d: routePath(points),
+      style: `stroke-width:${(6 * markerScale).toFixed(2)}`
     });
     elements.mapSvg.append(path);
 
@@ -280,12 +321,20 @@
       });
       const title = svgElement('title');
       title.textContent = `${index + 1}. ${route.steps[index].label}`;
-      const halo = svgElement('circle', { class: 'route-map-halo', r: 19 });
-      const circle = svgElement('circle', { class: 'route-map-circle', r: 13 });
+      const halo = svgElement('circle', {
+        class: 'route-map-halo',
+        r: (19 * markerScale).toFixed(2)
+      });
+      const circle = svgElement('circle', {
+        class: 'route-map-circle',
+        r: (13 * markerScale).toFixed(2),
+        style: `stroke-width:${(3 * markerScale).toFixed(2)}`
+      });
       const number = svgElement('text', {
         class: 'route-map-number',
         'text-anchor': 'middle',
-        y: 4.5
+        y: (4.5 * markerScale).toFixed(2),
+        style: `font-size:${(13 * markerScale).toFixed(2)}px`
       });
       number.textContent = String(index + 1);
       group.append(title, halo, circle, number);
@@ -293,7 +342,10 @@
     });
 
     const description = route.steps.map((step, index) => `${index + 1}. ${step.label}`).join('、');
-    elements.map.setAttribute('aria-label', `${currentCountry().name}へのルート。${description}`);
+    elements.map.setAttribute(
+      'aria-label',
+      `${viewport.label}。${currentCountry().name}へのルート。${description}`
+    );
   }
 
   function renderFlow() {
