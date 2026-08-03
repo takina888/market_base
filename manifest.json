@@ -1,8 +1,8 @@
 {
-  "name": "MARKET BASE V.333.3",
+  "name": "MARKET BASE V.333.4",
   "short_name": "MARKET BASE",
   "description": "国・地域と市場情報を確認できるMARKET BASE",
-  "start_url": "./index.html?v=20260803-v333-3-radio-restore-v331-currency-runtime-fix",
+  "start_url": "./index.html?v=20260803-v333-4-radio-state-pc-shell-fix",
   "scope": "./",
   "display": "standalone",
   "background_color": "#EEF3F9",
@@ -21,7 +21,7 @@
       "purpose": "any"
     }
   ],
-  "id": "./?v=20260803-v333-3-radio-restore-v331-currency-runtime-fix",
-  "version": "V333.3",
-  "build_id": "MARKET_BASE_V333_3_RADIO_RESTORE_V331_CURRENCY_RUNTIME_FIX_20260803"
+  "id": "./?v=20260803-v333-4-radio-state-pc-shell-fix",
+  "version": "V333.4",
+  "build_id": "MARKET_BASE_V333_4_RADIO_STATE_PC_SHELL_FIX_20260803"
 }

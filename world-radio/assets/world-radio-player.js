@@ -52,6 +52,7 @@
   let resumeAfterInterruption = false;
   let interrupted = false;
   let recoveryInFlight = false;
+  let lastConfirmedMediaTime = 0;
 
   function storageGet(key) { try { return localStorage.getItem(key); } catch (_) { return null; } }
   function storageSet(key, value) { try { localStorage.setItem(key, value); return true; } catch (_) { return false; } }
@@ -255,6 +256,23 @@
     renderMetadata();
     updateMediaSession();
   }
+  function confirmPlaybackFromMedia() {
+    if (!playIntent || audio.paused || audio.ended || !navigator.onLine) return false;
+    const mediaTime = Number(audio.currentTime || 0);
+    const hasMedia = audio.readyState >= 2 || mediaTime > lastConfirmedMediaTime;
+    if (!hasMedia) return false;
+    lastConfirmedMediaTime = Math.max(lastConfirmedMediaTime, mediaTime);
+    if (status !== 'playing' || needsGesture || interrupted || resumeAfterInterruption) {
+      status = 'playing';
+      needsGesture = false;
+      interrupted = false;
+      resumeAfterInterruption = false;
+      recoveryInFlight = false;
+      render();
+      publishState();
+    }
+    return true;
+  }
   function claimPlayer() {
     ownsState = true;
     const message = { type: 'CLAIM', instanceId, id: `${instanceId}-claim-${Date.now()}`, sentAt: Date.now() };
@@ -355,7 +373,15 @@
     shuttingDown = true; pauseCurrent(true); destroyHls(); publishRelease(); window.close();
     window.setTimeout(() => { if (!window.closed) setMessage('ブラウザのタブを閉じてください。'); }, 150);
   });
-  audio.addEventListener('playing', () => { playIntent = true; needsGesture = false; interrupted = false; resumeAfterInterruption = false; recoveryInFlight = false; status = 'playing'; render(); publishState(); });
+  audio.addEventListener('playing', () => {
+    playIntent = true; needsGesture = false; interrupted = false;
+    resumeAfterInterruption = false; recoveryInFlight = false; status = 'playing';
+    lastConfirmedMediaTime = Math.max(lastConfirmedMediaTime, Number(audio.currentTime || 0));
+    render(); publishState();
+  });
+  audio.addEventListener('timeupdate', confirmPlaybackFromMedia);
+  audio.addEventListener('canplay', confirmPlaybackFromMedia);
+  audio.addEventListener('progress', confirmPlaybackFromMedia);
   audio.addEventListener('waiting', () => { if (playIntent) { status = 'loading'; render(); publishState(); } });
   audio.addEventListener('stalled', () => { if (playIntent) { status = 'loading'; render(); publishState(); } });
   audio.addEventListener('pause', () => { if (!shuttingDown && !suppressPauseEvent) { if (document.hidden && resumeAfterInterruption) { interrupted = true; status = navigator.onLine ? 'interrupted' : 'offline'; } else { playIntent = false; status = navigator.onLine ? 'paused' : 'offline'; } render(); publishState(); } });
@@ -377,7 +403,11 @@
   setStation(requestedIndex >= 0 ? requestedIndex : 0);
   claimPlayer(); publishState();
   if (params.get('autoplay') === '1' && navigator.onLine) playCurrent('button');
-  window.setInterval(() => { if (!shuttingDown && ownsState) publishState(); }, HEARTBEAT_MS);
+  window.setInterval(() => {
+    if (!shuttingDown && ownsState) {
+      if (!confirmPlaybackFromMedia()) publishState();
+    }
+  }, HEARTBEAT_MS);
   async function recoverAfterExternalApp() {
     if (recoveryInFlight || shuttingDown || !ownsState || !navigator.onLine || !resumeAfterInterruption) return;
     recoveryInFlight = true; interrupted = true; status = 'loading'; render(); publishState();
