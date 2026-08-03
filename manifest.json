@@ -1,8 +1,8 @@
 {
-  "name": "MARKET BASE V.333.8",
+  "name": "MARKET BASE V.333.10",
   "short_name": "MARKET BASE",
   "description": "国・地域と市場情報を確認できるMARKET BASE",
-  "start_url": "./index.html?v=20260803-v333-8-jfm-export-db",
+  "start_url": "./index.html?v=20260803-v333-10-cloudflare-web-analytics",
   "scope": "./",
   "display": "standalone",
   "background_color": "#EEF3F9",
@@ -21,7 +21,7 @@
       "purpose": "any"
     }
   ],
-  "id": "./?v=20260803-v333-8-jfm-export-db",
-  "version": "V333.8",
-  "build_id": "MARKET_BASE_V333_8_JFM_EXPORT_DB_20260803"
+  "id": "./?v=20260803-v333-10-cloudflare-web-analytics",
+  "version": "V333.10",
+  "build_id": "MARKET_BASE_V333_10_CLOUDFLARE_WEB_ANALYTICS_20260803"
 }

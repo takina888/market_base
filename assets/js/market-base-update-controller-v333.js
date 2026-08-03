@@ -3,7 +3,7 @@
 
   if (global.MarketBaseUpdate) return;
 
-  const BUILD_ID = 'MARKET_BASE_V333_8_JFM_EXPORT_DB_20260803';
+  const BUILD_ID = 'MARKET_BASE_V333_10_CLOUDFLARE_WEB_ANALYTICS_20260803';
   const LEGACY_PAGE_BUILD = 'MARKET_BASE_LEGACY_PAGE';
   const CHANNEL_NAME = 'market-base-update-v1';
   const SIGNAL_KEY = 'market_base_global_refresh_signal';
@@ -34,11 +34,11 @@
     channel: null
   };
   const radioDockUrl = new URL(
-    'assets/js/market-base-radio-dock-v331.js?v=20260803-v333-8-jfm-export-db',
+    'assets/js/market-base-radio-dock-v331.js?v=20260803-v333-10-cloudflare-web-analytics',
     siteRoot
   );
   const toolMenuUrl = new URL(
-    'assets/js/market-base-tool-menu-v333.js?v=20260803-v333-8-jfm-export-db',
+    'assets/js/market-base-tool-menu-v333.js?v=20260803-v333-10-cloudflare-web-analytics',
     siteRoot
   );
 
