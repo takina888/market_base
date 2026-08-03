@@ -45,6 +45,8 @@
   let suppressPauseEvent = false;
   let lastCommandId = '';
   let preparedStationId = '';
+  let activeStreamIndex = 0;
+  let streamWatchdog = 0;
   let trackTitle = '';
   let trackArtist = '';
   let metadataSource = '';
@@ -147,33 +149,75 @@
   }
 
   function destroyHls() {
+    window.clearTimeout(streamWatchdog);
+    streamWatchdog = 0;
     if (hls) { try { hls.destroy(); } catch (_) {} hls = null; }
     preparedStationId = '';
     hlsRecoveryCount = 0;
     audio.removeAttribute('src');
     try { audio.load(); } catch (_) {}
   }
-  function prepareRegular(station) {
-    if (preparedStationId === station.id && audio.src) return;
+  function streamCandidates(station) {
+    const configured = Array.isArray(station.streams) ? station.streams : [];
+    const normalized = configured.map(item => typeof item === 'string' ? { url: item, type: station.streamType || 'audio' } : item)
+      .filter(item => item && item.url);
+    if (!normalized.length && station.stream) normalized.push({ url: station.stream, type: station.streamType || 'audio' });
+    return normalized;
+  }
+  function activeStream(station) {
+    const candidates = streamCandidates(station);
+    return candidates[Math.min(activeStreamIndex, Math.max(0, candidates.length - 1))] || null;
+  }
+  function preparedKey(station) { return `${station.id}:${activeStreamIndex}`; }
+  function armStreamWatchdog() {
+    window.clearTimeout(streamWatchdog);
+    streamWatchdog = window.setTimeout(() => {
+      if (playIntent && status === 'loading' && !shuttingDown) tryNextStream('timeout');
+    }, 18000);
+  }
+  function tryNextStream(_reason = 'error') {
+    const station = currentStation();
+    const candidates = streamCandidates(station);
+    if (!playIntent || activeStreamIndex + 1 >= candidates.length) {
+      playIntent = false; needsGesture = false; status = navigator.onLine ? 'error' : 'offline';
+      destroyHls(); render(); publishState();
+      return false;
+    }
+    activeStreamIndex += 1;
     destroyHls();
-    audio.src = station.stream;
+    status = 'loading'; render(); publishState();
+    if (!prepareStream(station)) { tryNextStream('unsupported'); return false; }
+    const candidate = activeStream(station);
+    if (candidate?.type !== 'hls' || audio.src) startAudioPlayback();
+    return true;
+  }
+  function prepareRegular(station) {
+    const candidate = activeStream(station);
+    if (!candidate) return;
+    if (preparedStationId === preparedKey(station) && audio.src) return;
+    destroyHls();
+    audio.src = candidate.url;
     audio.load();
-    preparedStationId = station.id;
+    preparedStationId = preparedKey(station);
+    armStreamWatchdog();
   }
   function prepareHls(station) {
-    if (preparedStationId === station.id && (hls || audio.src)) return true;
+    const candidate = activeStream(station);
+    if (!candidate) return false;
+    if (preparedStationId === preparedKey(station) && (hls || audio.src)) return true;
     destroyHls();
     const nativeHls = audio.canPlayType('application/vnd.apple.mpegurl') || audio.canPlayType('application/x-mpegURL');
     if (nativeHls) {
-      audio.src = station.stream;
+      audio.src = candidate.url;
       audio.load();
-      preparedStationId = station.id;
+      preparedStationId = preparedKey(station);
+      armStreamWatchdog();
       return true;
     }
     if (!window.Hls || !window.Hls.isSupported()) return false;
     hls = new window.Hls({ enableWorker: true, lowLatencyMode: false, backBufferLength: 30 });
     hls.attachMedia(audio);
-    hls.on(window.Hls.Events.MEDIA_ATTACHED, () => hls?.loadSource(station.stream));
+    hls.on(window.Hls.Events.MEDIA_ATTACHED, () => hls?.loadSource(candidate.url));
     hls.on(window.Hls.Events.MANIFEST_PARSED, () => { if (playIntent && navigator.onLine) startAudioPlayback(); });
     hls.on(window.Hls.Events.FRAG_PARSING_METADATA, (_event, data) => {
       (data?.samples || []).forEach(sample => {
@@ -189,13 +233,16 @@
       if (hlsRecoveryCount < 2 && data.type === window.Hls.ErrorTypes.MEDIA_ERROR) {
         hlsRecoveryCount += 1; hls.recoverMediaError(); return;
       }
-      playIntent = false; needsGesture = false; status = 'error'; render(); publishState();
+      tryNextStream('hls-fatal');
     });
-    preparedStationId = station.id;
+    preparedStationId = preparedKey(station);
+    armStreamWatchdog();
     return true;
   }
   function prepareStream(station) {
-    return station.streamType === 'hls' ? prepareHls(station) : (prepareRegular(station), true);
+    const candidate = activeStream(station);
+    if (!candidate) return false;
+    return candidate.type === 'hls' ? prepareHls(station) : (prepareRegular(station), true);
   }
 
   function statusCopy() {
@@ -289,6 +336,7 @@
     const shouldResume = !!options.resume;
     if (options.markActivity) claimPlayer();
     currentIndex = normalized; playIntent = false; needsGesture = false;
+    activeStreamIndex = 0;
     status = navigator.onLine ? 'paused' : 'offline';
     suppressPauseEvent = true; audio.pause(); suppressPauseEvent = false;
     destroyHls(); clearMetadata(); render(); publishState();
@@ -313,7 +361,8 @@
     if (!prepareStream(station)) {
       playIntent = false; status = 'error'; render(); publishState(); return;
     }
-    if (station.streamType !== 'hls' || audio.src) await startAudioPlayback();
+    const candidate = activeStream(station);
+    if (candidate?.type !== 'hls' || audio.src) await startAudioPlayback();
   }
   function pauseCurrent(markActivity = false) {
     resumeAfterInterruption = false; interrupted = false; playIntent = false; needsGesture = false; audio.pause(); status = navigator.onLine ? 'paused' : 'offline';
@@ -374,6 +423,7 @@
     window.setTimeout(() => { if (!window.closed) setMessage('ブラウザのタブを閉じてください。'); }, 150);
   });
   audio.addEventListener('playing', () => {
+    window.clearTimeout(streamWatchdog); streamWatchdog = 0;
     playIntent = true; needsGesture = false; interrupted = false;
     resumeAfterInterruption = false; recoveryInFlight = false; status = 'playing';
     lastConfirmedMediaTime = Math.max(lastConfirmedMediaTime, Number(audio.currentTime || 0));
@@ -386,7 +436,7 @@
   audio.addEventListener('stalled', () => { if (playIntent) { status = 'loading'; render(); publishState(); } });
   audio.addEventListener('pause', () => { if (!shuttingDown && !suppressPauseEvent) { if (document.hidden && resumeAfterInterruption) { interrupted = true; status = navigator.onLine ? 'interrupted' : 'offline'; } else { playIntent = false; status = navigator.onLine ? 'paused' : 'offline'; } render(); publishState(); } });
   audio.addEventListener('ended', () => { playIntent = false; status = navigator.onLine ? 'paused' : 'offline'; render(); publishState(); });
-  audio.addEventListener('error', () => { if (!shuttingDown && !hls) { playIntent = false; needsGesture = false; status = navigator.onLine ? 'error' : 'offline'; render(); publishState(); } });
+  audio.addEventListener('error', () => { if (!shuttingDown && !hls && playIntent) tryNextStream('audio-error'); });
   officialLink.addEventListener('click', event => { if (!navigator.onLine) event.preventDefault(); });
 
   function handleOffline() {

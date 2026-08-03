@@ -81,7 +81,7 @@
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = new URL(
-      'assets/css/market-base-dual-dock-v330.css?v=20260802-v330-work-code-late-order',
+      'assets/css/market-base-dual-dock-v330.css?v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco',
       siteRoot
     ).href;
     link.dataset.mbRadioDockStyle = '';
@@ -118,7 +118,7 @@
             <button type="button" data-radio-command="next" aria-label="次の放送局">›</button>
           </div>
           <a class="mb-radio-dock-open" id="mbRadioDockOpen"
-            href="${new URL('world-radio/player.html?id=wnyc&autoplay=1&v=20260802-v330-work-code-late-order', siteRoot).href}"
+            href="${new URL('world-radio/player.html?id=wnyc&autoplay=1&v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco', siteRoot).href}"
             target="_blank" rel="noopener"
             aria-label="世界のラジオプレイヤーを別タブで開く">
             <span aria-hidden="true">↗</span>
@@ -328,7 +328,7 @@
       placeLabel.textContent = 'WNYCから聴く';
       controls.hidden = true;
       openLink.href = new URL(
-        'world-radio/player.html?id=wnyc&autoplay=1&v=20260802-v330-work-code-late-order',
+        'world-radio/player.html?id=wnyc&autoplay=1&v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco',
         siteRoot
       ).href;
       message.textContent = '';
@@ -350,7 +350,7 @@
       active ? '再生を停止する' : '再生する'
     );
     openLink.href = new URL(
-      `world-radio/player.html?id=${encodeURIComponent(currentState.stationId)}&autoplay=1&v=20260802-v330-work-code-late-order`,
+      `world-radio/player.html?id=${encodeURIComponent(currentState.stationId)}&autoplay=1&v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco`,
       siteRoot
     ).href;
     if (currentState.needsGesture && currentState.interrupted) {

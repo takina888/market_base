@@ -34,11 +34,11 @@
     channel: null
   };
   const radioDockUrl = new URL(
-    'assets/js/market-base-radio-dock-v330.js?v=20260802-v330-work-code-late-order',
+    'assets/js/market-base-radio-dock-v330.js?v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco',
     siteRoot
   );
   const secondaryDockUrl = new URL(
-    'assets/js/market-base-tool-dock-v330.js?v=20260802-v330-work-code-late-order',
+    'assets/js/market-base-tool-dock-v330.js?v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco',
     siteRoot
   );
 

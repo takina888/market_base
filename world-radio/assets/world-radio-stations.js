@@ -42,16 +42,22 @@
     {
       id: 'fm-gold-delhi', name: 'Akashvani FM Gold Delhi', category: 'talk-music', country: 'インド', city: 'デリー',
       place: 'デリー・インド',
-      description: '英語・ヒンディー語のニュースや会話と、インド映画音楽などを組み合わせた国営放送です。',
-      stream: 'https://air.pc.cdn.bitgravity.com/air/live/pbaudio005/chunklist.m3u8',
+      description: 'ヒンディー語のニュースや会話と、インド映画音楽などを組み合わせた国営放送です。',
+      stream: 'https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio005_Auto.m3u8',
       streamType: 'hls', official: 'https://akashvani.gov.in/radio/live.php',
-      note: '英語番組の時間帯は放送スケジュールにより変わります。'
+      note: '番組内容は放送スケジュールにより変わります。'
     },
     {
       id: 'kpoa', name: 'KPOA 93.5 FM', category: 'music', country: 'アメリカ', city: 'マウイ',
       place: 'マウイ・ハワイ・アメリカ',
       description: '現代のハワイアンを中心に、島の空気を穏やかに感じられるマウイの音楽局です。',
-      stream: 'https://pacificmedia.cdnstream1.com/2794_128.mp3', official: 'https://kpoa.com/'
+      stream: 'https://pacificmedia.cdnstream1.com/2794_64.aac',
+      streams: [
+        { url: 'https://pacificmedia.cdnstream1.com/2794_64.aac', type: 'audio' },
+        { url: 'https://pacificmedia.cdnstream1.com/2794_128.mp3', type: 'audio' }
+      ],
+      official: 'https://kpoa.com/',
+      availabilityNote: 'AACで接続できない場合はMP3へ自動で切り替えます。'
     },
     {
       id: 'estilo-leblon', name: 'Radio Estilo Leblon', category: 'music', country: 'ブラジル', city: 'リオデジャネイロ',
@@ -61,10 +67,13 @@
       official: 'https://radioestiloleblon.com/'
     },
     {
-      id: 'lounge-radio', name: 'LOUNGE-RADIO.COM', category: 'music', country: 'スイス', city: 'オンライン放送',
-      place: 'スイス',
-      description: 'ラウンジ、ニュージャズ、ブラジリアン・エレクトロをゆったり流す音楽局です。',
-      stream: 'https://fr1.streamhosting.ch/lounge128.mp3', official: 'https://lounge-radio.com/'
+      id: 'flamenco-radio', name: '🇪🇸 スペイン｜Flamenco Radio', category: 'music', country: 'スペイン', city: 'アンダルシア',
+      place: 'アンダルシア・スペイン',
+      description: 'フラメンコを24時間届けるCanal Surの公式局です。ギター中心の穏やかな曲から情熱的な歌まで楽しめます。',
+      stream: 'https://rtva-live-radio.flumotion.com/rtva/flamenco.mp3',
+      official: 'https://www.canalsur.es/radio/flamenco-radio/',
+      metadataLabel: '曲名・アーティスト',
+      availabilityNote: '曲によって歌や手拍子が力強い時間があります。'
     },
     {
       id: '181-the-mix', name: '181.FM The Mix', category: 'music', country: 'アメリカ', city: '全米',
@@ -90,7 +99,7 @@
       id: 'air-raagam', name: 'Akashvani Raagam', category: 'music', country: 'インド', city: 'インド全国',
       place: 'インド',
       description: 'ラーガを軸に、ヒンドゥスターニー音楽やカルナータカ音楽などを穏やかに聴ける古典音楽局です。',
-      stream: 'https://air.pc.cdn.bitgravity.com/air/live/pbaudio139/chunklist.m3u8',
+      stream: 'https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudioragam/hlspbaudioragam_Auto.m3u8',
       streamType: 'hls', official: 'https://akashvani.gov.in/radio/live.php',
       metadataLabel: '曲名・演奏情報'
     },

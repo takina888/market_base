@@ -34,21 +34,21 @@
         order: 10,
         label: '計算機・単位換算',
         icon: 'calculator',
-        href: 'market-base-currency-converter-v273-r29.html?tool=calculator&v=20260803-v333-4-radio-state-pc-shell-fix'
+        href: 'market-base-currency-converter-v273-r29.html?tool=calculator&v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco'
       },
       {
         id: 'currency',
         order: 20,
         label: '為替換算',
         icon: 'currency',
-        href: 'market-base-currency-converter-v273-r29.html?tool=currency&v=20260803-v333-4-radio-state-pc-shell-fix'
+        href: 'market-base-currency-converter-v273-r29.html?tool=currency&v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco'
       },
       {
         id: 'code',
         order: 900,
         label: 'WORK CODE',
         icon: 'code',
-        href: 'market-base-code-tool.html?v=20260803-v333-4-radio-state-pc-shell-fix'
+        href: 'market-base-code-tool.html?v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco'
       }
     ]
   });
@@ -128,7 +128,7 @@
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = new URL(
-      'assets/css/market-base-dual-dock-v331.css?v=20260803-v333-4-radio-state-pc-shell-fix',
+      'assets/css/market-base-dual-dock-v331.css?v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco',
       siteRoot
     ).href;
     link.dataset.mbRadioDockStyle = '';

@@ -1,10 +1,10 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V333_4_RADIO_STATE_PC_SHELL_FIX_20260803',
-    label: 'MARKET BASE V.333.4',
-    release: 'V.333.4',
+    id: 'MARKET_BASE_V333_5_RADIO_STREAM_REFRESH_INDIA_HAWAII_FLAMENCO_20260803',
+    label: 'MARKET BASE V.333.5',
+    release: 'V.333.5',
     date: '2026-08-03',
-    assetVersion: '20260803-v333-4-radio-state-pc-shell-fix'
+    assetVersion: '20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseBuild = build.id;
