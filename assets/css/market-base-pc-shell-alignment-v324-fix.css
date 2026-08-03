@@ -51,3 +51,27 @@
     padding-right:24px!important;
   }
 }
+
+/* V333.4: a narrow desktop window must reflow like a tablet. Historical
+   desktop shell rules may otherwise leave a wide centered surface clipped. */
+@media (max-width:899px){
+  html,body{width:100%!important;max-width:100%!important;overflow-x:clip!important}
+  body.mb-unified-main-page > main.app-shell#home,
+  body.mb-unified-main-page #home > .home-view-content,
+  body.mb-unified-main-page #home > .view,
+  body.mb-unified-main-page #home .target-home-reference{
+    box-sizing:border-box!important;
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    margin-left:0!important;
+    margin-right:0!important;
+    left:auto!important;
+    right:auto!important;
+    transform:none!important;
+  }
+  body.mb-unified-main-page > main.app-shell#home{
+    padding-left:15px!important;
+    padding-right:15px!important;
+  }
+}

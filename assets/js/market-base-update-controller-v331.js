@@ -34,11 +34,11 @@
     channel: null
   };
   const radioDockUrl = new URL(
-    'assets/js/market-base-radio-dock-v331.js?v=20260802-v331-dock-list-update-hotfix',
+    'assets/js/market-base-radio-dock-v331.js?v=20260803-v333-4-radio-state-pc-shell-fix',
     siteRoot
   );
   const secondaryDockUrl = new URL(
-    'assets/js/market-base-tool-dock-v331.js?v=20260802-v331-dock-list-update-hotfix',
+    'assets/js/market-base-tool-dock-v331.js?v=20260803-v333-4-radio-state-pc-shell-fix',
     siteRoot
   );
 

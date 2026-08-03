@@ -40,4 +40,13 @@
   const before=location.href;
   const url=cleanMalformedRefresh(new URL(before));
   if(url.toString()!==before)history.replaceState(history.state,'',url.toString());
+
+  function normalizeNarrowShellPosition(){
+    if(window.innerWidth>899)return;
+    document.documentElement.scrollLeft=0;
+    document.body.scrollLeft=0;
+  }
+  window.addEventListener('pageshow',normalizeNarrowShellPosition);
+  window.addEventListener('resize',normalizeNarrowShellPosition,{passive:true});
+  normalizeNarrowShellPosition();
 })();
