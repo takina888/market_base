@@ -6,7 +6,9 @@
   var SITE_ROOT;
   try{SITE_ROOT=SCRIPT_URL?new URL('../../',SCRIPT_URL):new URL('./',location.href);}catch(_e){SITE_ROOT=new URL('./',location.href);}
   var HOME_URL=new URL('index.html',SITE_ROOT);
-  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v331.js?v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco',SITE_ROOT);
+  /* Keep one canonical controller. Loading V331 here raced the explicit V333
+     controller and briefly mounted the retired tool dock on some pages. */
+  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v333.js?v=20260803-v333-6-radio-dock-reading-half-pc-unification',SITE_ROOT);
   var LEARN_PREFIXES=['british-jokes/','classic-move/','haccp-quiz/','hs-learning/','international-logistics/','material-check/','rakuda-no-me/','sutra-no-yoin/','ul-ce-learning/','work-basics/'];
   var LEARN_FILES={'world-history-today.html':true};
   var COUNTRY_FILES={'market-base-v273-country-profile-r28.html':true};

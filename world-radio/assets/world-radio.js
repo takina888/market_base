@@ -34,7 +34,7 @@
         <h3>${escapeHtml(station.name)}</h3>
         <p>${escapeHtml(station.description)}</p>
         ${station.note ? `<small class="station-note">${escapeHtml(station.note)}</small>` : ''}
-        <a class="radio-open" data-radio-online-only href="player.html?id=${encodeURIComponent(station.id)}&amp;autoplay=1&amp;v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco" target="_blank" rel="noopener">
+        <a class="radio-open" data-radio-online-only href="player.html?id=${encodeURIComponent(station.id)}&amp;autoplay=1&amp;v=20260803-v333-6-radio-dock-reading-half-pc-unification" target="_blank" rel="noopener">
           <span aria-hidden="true">▶</span> 別タブで聴く
         </a>
       </article>`).join('');

@@ -1,0 +1,40 @@
+/* MARKET BASE V333.6 — reading and radio pages at tablet / half-PC widths.
+   Rakuda no Me already owns this geometry; mirror its proven shell here so
+   the header band and content surface always share one outer width. */
+@media (min-width:431px) and (max-width:899px){
+  body.british-jokes-page .mb-primary-header-host,
+  body.british-jokes-page .bj-main,
+  body.kb-page .mb-primary-header-host,
+  body.kb-page .kb-main,
+  body.sutra-page .mb-primary-header-host,
+  body.sutra-page .sutra-main,
+  body.world-radio-page .mb-primary-header-host,
+  body.world-radio-page .radio-main,
+  body.classic-move-page .mb-primary-header-host,
+  body.classic-move-page .mb-standard-local-toolbar,
+  body.classic-move-page .app-shell{
+    box-sizing:border-box;
+    width:min(calc(100% - 32px),760px)!important;
+    max-width:760px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+  }
+
+  body.british-jokes-page .mb-primary-header-host,
+  body.kb-page .mb-primary-header-host,
+  body.sutra-page .mb-primary-header-host,
+  body.world-radio-page .mb-primary-header-host,
+  body.classic-move-page .mb-primary-header-host{
+    padding-left:16px!important;
+    padding-right:16px!important;
+  }
+
+  body.british-jokes-page .bj-main,
+  body.kb-page .kb-main,
+  body.sutra-page .sutra-main,
+  body.world-radio-page .radio-main,
+  body.classic-move-page .app-shell{
+    padding-left:16px!important;
+    padding-right:16px!important;
+  }
+}

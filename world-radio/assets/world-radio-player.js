@@ -404,7 +404,18 @@
   }
   function initializeMediaSessionActions() {
     if (!('mediaSession' in navigator)) return;
-    const actions = { play: () => playCurrent('media-session'), pause: () => pauseCurrent(false), stop: () => pauseCurrent(false), previoustrack: () => stepStation(-1, 'media-session'), nexttrack: () => stepStation(1, 'media-session') };
+    const actions = {
+      play: () => playCurrent('media-session'),
+      pause: () => pauseCurrent(false),
+      stop: () => pauseCurrent(false),
+      previoustrack: () => stepStation(-1, 'media-session'),
+      nexttrack: () => stepStation(1, 'media-session'),
+      /* iOS commonly renders live web audio with ±10-second controls instead
+         of previous/next. Seeking has no useful meaning for a live station,
+         so treat those Media Session commands as station navigation too. */
+      seekbackward: () => stepStation(-1, 'media-session'),
+      seekforward: () => stepStation(1, 'media-session')
+    };
     Object.entries(actions).forEach(([action, handler]) => { try { navigator.mediaSession.setActionHandler(action, handler); } catch (_) {} });
   }
 

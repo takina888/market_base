@@ -3,7 +3,7 @@
 
   if (global.MarketBaseUpdate) return;
 
-  const BUILD_ID = 'MARKET_BASE_V333_5_RADIO_STREAM_REFRESH_INDIA_HAWAII_FLAMENCO_20260803';
+  const BUILD_ID = 'MARKET_BASE_V333_6_RADIO_DOCK_READING_HALF_PC_UNIFICATION_20260803';
   const LEGACY_PAGE_BUILD = 'MARKET_BASE_LEGACY_PAGE';
   const CHANNEL_NAME = 'market-base-update-v1';
   const SIGNAL_KEY = 'market_base_global_refresh_signal';
@@ -34,11 +34,11 @@
     channel: null
   };
   const radioDockUrl = new URL(
-    'assets/js/market-base-radio-dock-v331.js?v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco',
+    'assets/js/market-base-radio-dock-v331.js?v=20260803-v333-6-radio-dock-reading-half-pc-unification',
     siteRoot
   );
   const toolMenuUrl = new URL(
-    'assets/js/market-base-tool-menu-v333.js?v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco',
+    'assets/js/market-base-tool-menu-v333.js?v=20260803-v333-6-radio-dock-reading-half-pc-unification',
     siteRoot
   );
 

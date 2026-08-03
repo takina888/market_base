@@ -12,6 +12,7 @@
   const STATE_GRACE_MS = 12 * 60 * 60 * 1000;
   const COMMAND_ACK_TIMEOUT_MS = 3200;
   const VERTICAL_EDGE_GAP = 10;
+  const HORIZONTAL_EDGE_GAP = 8;
   const sourceId = `dock-${Date.now()}-${Math.random().toString(36).slice(2)}`;
   const scriptNode = document.currentScript ||
     document.querySelector('script[data-mb-radio-dock]');
@@ -81,7 +82,7 @@
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = new URL(
-      'assets/css/market-base-dual-dock-v331.css?v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco',
+      'assets/css/market-base-dual-dock-v331.css?v=20260803-v333-6-radio-dock-reading-half-pc-unification',
       siteRoot
     ).href;
     link.dataset.mbRadioDockStyle = '';
@@ -122,7 +123,7 @@
             <button type="button" data-radio-command="next" aria-label="次の放送局">›</button>
           </div>
           <a class="mb-radio-dock-open" id="mbRadioDockOpen"
-            href="${new URL('world-radio/player.html?id=wnyc&autoplay=1&v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco', siteRoot).href}"
+            href="${new URL('world-radio/player.html?id=wnyc&autoplay=1&v=20260803-v333-6-radio-dock-reading-half-pc-unification', siteRoot).href}"
             target="_blank" rel="noopener"
             aria-label="世界のラジオプレイヤーを別タブで開く">
             <span aria-hidden="true">↗</span>
@@ -216,9 +217,16 @@
     const panelHeight = Math.max(1, panel.offsetHeight || 132);
     const tabWidth = Math.max(1, dockTab.offsetWidth || 38);
     const minimumX = tabWidth;
+    /* innerWidth includes the classic PC scrollbar in some browsers. Use the
+       layout viewport and leave a visible gap so the collapsed tab is never
+       buried under the scrollbar or clipped by the right edge. */
+    const viewportWidth = Math.max(
+      1,
+      document.documentElement?.clientWidth || global.innerWidth || 1
+    );
     const maximumX = Math.max(
       minimumX,
-      global.innerWidth - safeRight - panelWidth
+      viewportWidth - safeRight - HORIZONTAL_EDGE_GAP - panelWidth
     );
     const minimumY = VERTICAL_EDGE_GAP + safeTop;
     const maximumY = Math.max(
@@ -356,7 +364,7 @@
       renderTrack(null);
       controls.hidden = true;
       openLink.href = new URL(
-        'world-radio/player.html?id=wnyc&autoplay=1&v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco',
+        'world-radio/player.html?id=wnyc&autoplay=1&v=20260803-v333-6-radio-dock-reading-half-pc-unification',
         siteRoot
       ).href;
       message.textContent = '';
@@ -379,7 +387,7 @@
       active ? '再生を停止する' : '再生する'
     );
     openLink.href = new URL(
-      `world-radio/player.html?id=${encodeURIComponent(currentState.stationId)}&autoplay=1&v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco`,
+      `world-radio/player.html?id=${encodeURIComponent(currentState.stationId)}&autoplay=1&v=20260803-v333-6-radio-dock-reading-half-pc-unification`,
       siteRoot
     ).href;
     if (currentState.needsGesture && currentState.interrupted) {

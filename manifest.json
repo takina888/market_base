@@ -1,8 +1,8 @@
 {
-  "name": "MARKET BASE V.333.5",
+  "name": "MARKET BASE V.333.6",
   "short_name": "MARKET BASE",
   "description": "国・地域と市場情報を確認できるMARKET BASE",
-  "start_url": "./index.html?v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco",
+  "start_url": "./index.html?v=20260803-v333-6-radio-dock-reading-half-pc-unification",
   "scope": "./",
   "display": "standalone",
   "background_color": "#EEF3F9",
@@ -21,7 +21,7 @@
       "purpose": "any"
     }
   ],
-  "id": "./?v=20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco",
-  "version": "V333.5",
-  "build_id": "MARKET_BASE_V333_5_RADIO_STREAM_REFRESH_INDIA_HAWAII_FLAMENCO_20260803"
+  "id": "./?v=20260803-v333-6-radio-dock-reading-half-pc-unification",
+  "version": "V333.6",
+  "build_id": "MARKET_BASE_V333_6_RADIO_DOCK_READING_HALF_PC_UNIFICATION_20260803"
 }

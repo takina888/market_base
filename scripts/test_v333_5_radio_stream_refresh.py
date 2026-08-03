@@ -7,8 +7,8 @@ build = (ROOT / "assets/js/market-base-build.js").read_text(encoding="utf-8")
 manifest = (ROOT / "manifest.json").read_text(encoding="utf-8")
 service_worker = (ROOT / "sw.js").read_text(encoding="utf-8")
 
-token = "20260803-v333-5-radio-stream-refresh-india-hawaii-flamenco"
-build_id = "MARKET_BASE_V333_5_RADIO_STREAM_REFRESH_INDIA_HAWAII_FLAMENCO_20260803"
+token = "20260803-v333-6-radio-dock-reading-half-pc-unification"
+build_id = "MARKET_BASE_V333_6_RADIO_DOCK_READING_HALF_PC_UNIFICATION_20260803"
 
 assert "airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio005_Auto.m3u8" in stations
 assert "airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudioragam/hlspbaudioragam_Auto.m3u8" in stations
@@ -28,9 +28,9 @@ assert "18000" in player
 
 assert build_id in build
 assert token in build
-assert 'V.333.5' in build
+assert 'V.333.6' in build
 assert build_id in service_worker
 assert token in service_worker
-assert '"version": "V333.5"' in manifest
+assert '"version": "V333.6"' in manifest
 
-print("PASS: V333.5 radio stream refresh and fallback checks")
+print("PASS: V333.6 radio stream refresh and fallback checks")
