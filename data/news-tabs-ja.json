@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-04T03:43:53Z",
+  "generated_at": "2026-08-04T09:16:07Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -39,11 +39,41 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "a56c6c41fc021bca",
+          "title": "【参加レポート】世界銀行 G・IFC がエッジ AI に初投資。投資家視点の「主権ある AI」課題と将来性｜BLOG",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xNHBYWjV6UlplamhEczRuS3hFc25fMUtnMVNEU2ZHOVU3aldudnVaYnpmeG5OU2R3UkhaLWNaVDNUZlpKZm51VWxXTzEzUDM4ejBtSEl1NWRMNlVQSjFQUTBEZFlWYVc5SVA2Rw?oc=5",
+          "source": "サイバートラスト",
+          "published_at": "2026-08-04T07:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0d7ed1296fb5a1c8",
+          "title": "世界初：海水由来のマグネシウムを用いたマグネシウム空気電池用電極の試作に成功、同電池を用いた車両走行試験に挑戦",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vUWRYWUJ4UFlWMFNlZDFDOHppbnowM1ViaV9USmlMVGtxZnREUzJjbmw3UUlIRlNZVWRTcjktNTlNOGlmbTRFeVp1c0R5YUJJOF9seGV6R1dybjZHVFpCY2tPc2xCWVBlbkZScGV2SGNUM1h6?oc=5",
+          "source": "tohoku.ac.jp",
+          "published_at": "2026-08-04T04:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "c7fa658d4d88d36d",
           "title": "【報告】大学の世界展開力強化事業のウェブサイトを公開",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JNGN1anktSnBNU1FVYTlMWjVvM1dCTmJtVnFPUmpSRGRZaUNNN256emUtVmNiekxPZk9IYXVkRDFrTTZMek00WVZsSk81S21Ja3Y3bUZqUjZkSmFIOHZ2VVpsYXVrd3VHVXdudmRnZW8?oc=5",
           "source": "国立大学法人 電気通信大学",
           "published_at": "2026-08-04T02:10:13Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9769292449a42eab",
+          "title": "「Anker Store 中部国際空港 セントレア」が国際線保安検査場横に2026年9月4日にオープン",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5tR3NxTnJUQ1M2akhlakxCZmhZQTlPNjNrR2ZUa3BYWTM0Y2g1R0FDeHZvaFlqdGE4TEZoYUlrXzd2aFBpakhGOXJpdGdvQQ?oc=5",
+          "source": "アンカー・ジャパン株式会社",
+          "published_at": "2026-08-04T02:03:26Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -57,36 +87,6 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e38ffb0e7ad0f738",
-          "title": "武蔵貿易通関株式会社とのオフィシャルパートナー(ブロンズ)契約締結のお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzMDJXNGRTZW1zT1ZzeVQ2V0dVMGdaUmo3X2RjbVJCYnRiLXl6bTZ4QWtXMkZyVzhxLVVpT2QydnVWdThPQjNuV1JTUXBtVFRTZDFkNVE2cGhWeU0?oc=5",
-          "source": "横浜ビー・コルセアーズ",
-          "published_at": "2026-08-04T01:02:34Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4e7c576b21286864",
-          "title": "【国際学部】JICA海外協力隊セミナーを実施―卒業生がインドでの海外協力隊経験を講演",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GMTdRNzN3Q2g0SjJ6UmF2SUFDSjFyTVJaUXVVZU9YemM0ZTVDS19sVVRpQ1lxbWJBVGhQYnBrWFE1ZzBZa0pIOGtScnhiT3VXWHUwcml3?oc=5",
-          "source": "setsunan.ac.jp",
-          "published_at": "2026-08-04T00:17:16Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a445b8028ec2cbe5",
-          "title": "米国より中国を信頼する世界 エネルギーからAIでも政策に支持拡大か",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QcHhaNXdwWmhjT19RdUVEYmN0cmduamNXQzZTVXc1RnVxUDBnLWVLSVp1amlPaXRlVm96bDZhTXpjYTc4b3VFcUJoUFA4clRkbDhsTnpKN040MW5IT20zRHNB?oc=5",
-          "source": "business.nikkei.com",
-          "published_at": "2026-08-03T20:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -94,41 +94,11 @@
       "label": "食品機械",
       "articles": [
         {
-          "id": "9b8e308b96932cc1",
-          "title": "カワタ[6292]：「FOOMA JAPAN 2026」出展のお知らせ 2026年5月19日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xbV9CT2Y3NFJTalRwQUYwZDR0eS1Nb2JtMXZTX2xSaDVUdE04OV9sd0JCWFhHTUdtQ2NhQjZTdlYteS1tdmxsWlFrenB0OU1nMWQwd0tZTDhHQXdCam92VFZUbTE1Rm82X2c?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-05-19T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0ba195f75d73e99f",
-          "title": "FOOMA JAPAN 2026 過去最多1025社で堂々開催 フードテックの最新技術が集結 日本食品機械工業会",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SQUVBYW1ZSDBKVVRTZE9rQmMtamNBeUZua25jWWRMM1RvS2VfYWZvYTV3Q1Z3UXA5RnN2Q3hVSHhSaDI3d2Z1SWhoT2xzQWRZWXQ3MjVhbU1GN2JSNjVUVzNB?oc=5",
-          "source": "食品新聞 WEB版",
-          "published_at": "2026-05-18T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c1f00e79e568fa01",
-          "title": "包装機械市場規模、シェア、予測レポート、2034",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPYXBVcjM2VkZMOTNubzVPQ3VzUkhSY3N6cjNXQmdUeWxIbmdmLWtaQTFidmV4LWZLeU1vU2R2bXVHMUdRanpFY2J4RDJvMmdPVnUtS3VQX2dtaFotNWJRN3RLWVl2ZjUwc0ZJSEdYdGZNR1pldlpUaUtmY2Rqb0xxaWNwNV9yYllUdGxMMThWYy0wQXFlZ2c1WGFRbUczenlPSEE5OTB4WmlUampJVm5oN09ZV0NOTW15eW1GYkJQS1Q1d0xoVmJNcW0wd0Q0ZU1CV19Ec2NxcUhtbmNOejZxcDk5bmRNSGpDMlZlM0NkaGxHdw?oc=5",
-          "source": "Fortune Business Insights",
-          "published_at": "2026-07-13T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "50fc883dad09ba34",
-          "title": "果物・野菜選別機の世界市場（2026年～2032年）、市場規模（ローラー選別機、スプリットベルト選別機、計量選別機）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SaS05ZDFoWUZwbktkVFFPcFNuYWV0dWE3NUJZbXFvLVFkTjBteGJ5U0xONFcwdWJaTURYWHllcExabzI2bWUtTHhSNzM5dmM?oc=5",
-          "source": "アットプレス",
-          "published_at": "2026-07-07T07:00:00Z",
+          "id": "05cf05b47710b11c",
+          "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-16T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -137,18 +107,8 @@
           "id": "c5b26c7796e664db",
           "title": "【出展報告】前川製作所、「FOOMA JAPAN 2026」に出展",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZSWMzbkg2bWxJbTd2M2F1UUhpUjd6Mkdha3VxdTVHVWJIeXBXYXEwZXFGeWQwUHNWM2pFd2hvRU9yMkwtaUxfX3hVbzlnRzZ0UXo2cjFjOGQ5SzRzMkUyZEV4YTNTTktDalE?oc=5",
-          "source": "prtimes.jp",
+          "source": "PR TIMES",
           "published_at": "2026-07-06T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "79a86ee53a29cfc7",
-          "title": "間接散水方式で猛暑の異常停止を回避、三菱電機が暑熱対策キットなど訴求：FOOMA JAPAN 2026",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5mLTllY1lhaGxmVkFkSUNnWkM2SU01MVhEclZOYnJGOHNKVlR1MnBlSUZuLVhjeGZfYVg1dF95Si1zZ1RodnZKcFVtV3NVbmdqRUdlWHJCc1Roenlqek95bEhpLWtNczEyY05Qa3ZBSQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-06-17T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -157,8 +117,48 @@
           "id": "4180d1106bcbc393",
           "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LbUlhc2Q0X3c1QTdaYjVtTEdPNTUzYmhPdktDeXJmRFpSM3k4b3lHLXFPbV9UVC1BRDJIRkFJS1NWM1JybWxPYkl1SDZNeFQwZDdxeTAwc0tWRTRZTE03eFhCZ3Z2TVpuaXc?oc=5",
-          "source": "prtimes.jp",
+          "source": "PR TIMES",
           "published_at": "2026-06-15T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "db7a9824ff303538",
+          "title": "次世代設備保全クラウド「M2X」が「第5回FOOMAアワード2026」にて審査委員会賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2MERlWnFRVDVmZWNMNnl4ZURyd2FzVzJqcGY4WjlUYk8zMXBOVmw5R0ZYbXdjWTdCN1RuV0txaS10dmxpNVVSemF5YWJiQXRSZnNveHBxVmFSYU4zSWQ1Z0pRbXdqTmVxU2c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-03T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5e37cd107f0844fc",
+          "title": "【FOOMA JAPAN 2026】株式会社NEXTAGE、次世代わさび栽培モジュールに国内外から多数の反響",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DQWNIY0czNjRJZTJwM0tFaW9ENXZEOUlrd21UNmppcnY2WlprbVJZUFNCMXo1WTFiZWdVRU9JNXppY0VZc1Uya1A0TFBjVWllSGg5WjNFdE9OYzc0YlV6aHVvNl9LYXlucXc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-03T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7aed765d46a06c3c",
+          "title": "第5回FOOMAアワード2026にて「連続式真空冷却装置」が優秀賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13VElGb1hqdUZMR0pKXzFQSWEyQ2ZTLURBTHd5SnJaV3duaWV5UGJvMEc2UWIyWUNoekt2MDRXSndoZmpka2NRZUdJSGlsMnU1ZjhfZkp6MjNzOWNWeF9JTmgwRUdnVDdsSHc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-03T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e0309508e7e526c",
+          "title": "フジワラテクノアート「小型通気式固体培養装置」が第5回FOOMAアワード2026 経済産業省製造産業局長賞/最優秀賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nZ3VfdlpFLU55c082RkRNU2c4YXVWMHItbTd0MmVWdGxtcmIybnV3Snh6WGt3ZUVmVlV5R1F3b2d6Z0lqRGFjeW5Pam5ERW5Vc1I1SkpUd0hySkNjb2c3QzFneHF4cndVRmc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-03T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -264,6 +264,26 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "6def167432cca401",
+          "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-21T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f0fae92ec616b465",
+          "title": "カスミ 「BLΛNDE塩浜店」オープンのお知らせ | ユナイテッド・スーパーマーケット・ホールディングス株式会社のプレスリリース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xTER0ZGxwc2JxdVVtOW1nbkFsUVBlN05QbDJQWHNKRmcyZ0VoTmNBRkttS3BXSzFET3JJRDZlblYycnlHeUVQZm4wcDdfbnlNT0kzWEFRNGl6Wm5LWmthNG5Da0FMQzRfeFE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-17T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "df608e9180467e7e",
           "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
@@ -292,42 +312,12 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5e3ed92025a78a88",
-          "title": "ファミリーマート “わざわざ行きたくなるコンビニ”に挑戦 麻布台に初の旗艦店「FAMIMA」オープン",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSUdxVGg4dHRwVndnQ2JxZWUxOG4yUjJwQnQ4aExFTEs3SFFBU25ubkg0RS1wRkptZ3YxcjZUVVdycXZaYVZTbF9DRlhmX0ZOWENSRk5hUGN5Vk1kTThTVE1VcEpxYkhLbW5ySzlsMmwwYU1mMFMzYW8wY2RTV1F6WjV0c196Zw?oc=5",
-          "source": "食品新聞 WEB版",
-          "published_at": "2026-07-10T01:30:47Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e114f84c979cbe47",
-          "title": "ファミマ、NIGO氏とのコラボ店 コンビニ像刷新の売り場構成",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mWHd6UGY0V1Y5LTZKZzdKaUFwUlhqVXhaa2VJZlhwY3V3QjFYLVM1MWdHOGZ0WHJxWE9QVlV4eGJsTTNybGRGOU13UVlEWVZoOTVfeTFJSzk2MldxamtsZ2ppSUZjWXM1dlJwTg?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-07-09T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "regulations": {
       "label": "規制関連",
       "articles": [
-        {
-          "id": "a467926b2e15f3f8",
-          "title": "EUのSPS規制を克服するには、生産チェーン全体を管理することが鍵となる。",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcjdkX05uNjlTZ1hTMnBjVHM3N3pldUticXR4QWZrVkVjaHVtS3B3OVRlbGhoeThKNlpHRWktMGlzUHN0ajM3OFBCaENrQ2tkUm5yNU9ZR2NfTmlpVFJxZE5HLXJ3UVhSY2dzMDRYamU0VnBkNHlxbWlGMW83MjJqUi1vOXItdWlsb2J6N3pnTkdDLW5vc0RV?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-07-26T07:10:25Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "63db6ab7af234edd",
           "title": "人々は食品安全法が障害を取り除き、消費者を保護することを期待している。",
@@ -387,11 +377,21 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c50535a38efdae7e",
+          "title": "リサイクラスが示すプラスチックのリサイクル認証基準（EU） 包装・包装廃棄物規則（PPWR）に対応",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS2wzOXFjcF83dnREZU9EanRBTHktWXQ4azVtRFU0T0hNZmlOOFRlbmxFYnQzZDRrU254cUlYRnlmbkNNLUdCRjhFbU9udXRiUlVCWXd4NEk1TkZRYnltSkl5TlRVYVZGaGh5S0tLSDlxTVFSTWd2YjExc3N1WUl0OUZiOXhtZw?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-04-08T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-08-04T03:43:53Z",
-  "last_success_at": "2026-08-04T03:43:53Z",
+  "last_attempt_at": "2026-08-04T09:16:07Z",
+  "last_success_at": "2026-08-04T09:16:07Z",
   "consecutive_failure_count": 0
 }
