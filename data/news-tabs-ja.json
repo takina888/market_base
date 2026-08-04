@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-04T09:16:07Z",
+  "generated_at": "2026-08-04T14:45:31Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -11,6 +11,7 @@
     "overseas"
   ],
   "retained_categories": [
+    "regulations",
     "food_factory"
   ],
   "failed_categories": {},
@@ -19,21 +20,31 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "31973d77dd032ffa",
-          "title": "夏だ！祭りだ！！N響ほっとコンサート ～翔けよう！まほうの森と夢の世界～",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xR2d0VmQ5QTczMlFOVEtEODdnYkltTGpnbFAzUE5pOC1DQkRxSXUwVTMwQ21FS0s1ek0wVEhJYzNEeWQxR090OXFPTXlTSjhDOVFsTnJWemU?oc=5",
-          "source": "nhkso.or.jp",
-          "published_at": "2026-08-03T09:53:49Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "37a84c0ec3fd2caf",
           "title": "三洋貿易[3176]：株主優待制度の導入に関するお知らせ 2026年8月3日(適時開示) ：日経会社情報DIGITAL",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wdG15OThXaGhNYnJfYlg0ci1TdXp4bkpCWDJjN1lwSmJOWUt5U2ZOVDRXWjNGMk15bm5za3RITVVWdjNqc0diWWpaMGFUOGFaTDNjcERBYlNWX3BwWVVzcHY5UDhSZDVmb1E?oc=5",
           "source": "日本経済新聞",
           "published_at": "2026-08-03T05:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "31973d77dd032ffa",
+          "title": "夏だ！祭りだ！！N響ほっとコンサート ～翔けよう！まほうの森と夢の世界～",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xR2d0VmQ5QTczMlFOVEtEODdnYkltTGpnbFAzUE5pOC1DQkRxSXUwVTMwQ21FS0s1ek0wVEhJYzNEeWQxR090OXFPTXlTSjhDOVFsTnJWemU?oc=5",
+          "source": "nhkso.or.jp",
+          "published_at": "2026-08-02T07:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3ebe142f59d3fa85",
+          "title": "型破りな世界的登山家プルジャ氏が遭難死、一体何が起こったのか",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5nOXcxODdlcmFGSHREWndoR2pNVF9xbmFZaW1zZUNOSy1iR2lHdzJZb2dTYnVydXNJTkFUZ0FsNmNBMm9CZkRqNGhMT0dWUWNOeDNVMGttNFhSOGlpU2JJX3ZVQQ?oc=5",
+          "source": "ナショナルジオグラフィック日本版",
+          "published_at": "2026-08-04T11:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,31 +70,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "7278b35c4e4a740b",
+          "title": "「世界オキアミの日」ユース向けウェビナー",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94Z2VhZGpBaEFVMXY3VjdJYUVOd2VrcHVhMEYtak5WU0I0U05PVG04ZmdkaTFGdWhCcXVEZW9RcHdyeFd1ekExVElLbmNobGhtd2RSdw?oc=5",
+          "source": "国際環境NGO FoE Japan",
+          "published_at": "2026-08-04T02:36:26Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "c7fa658d4d88d36d",
           "title": "【報告】大学の世界展開力強化事業のウェブサイトを公開",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JNGN1anktSnBNU1FVYTlMWjVvM1dCTmJtVnFPUmpSRGRZaUNNN256emUtVmNiekxPZk9IYXVkRDFrTTZMek00WVZsSk81S21Ja3Y3bUZqUjZkSmFIOHZ2VVpsYXVrd3VHVXdudmRnZW8?oc=5",
           "source": "国立大学法人 電気通信大学",
           "published_at": "2026-08-04T02:10:13Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9769292449a42eab",
-          "title": "「Anker Store 中部国際空港 セントレア」が国際線保安検査場横に2026年9月4日にオープン",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5tR3NxTnJUQ1M2akhlakxCZmhZQTlPNjNrR2ZUa3BYWTM0Y2g1R0FDeHZvaFlqdGE4TEZoYUlrXzd2aFBpakhGOXJpdGdvQQ?oc=5",
-          "source": "アンカー・ジャパン株式会社",
-          "published_at": "2026-08-04T02:03:26Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "22e4d23bdc503ced",
-          "title": "NHKニュースに国際文化交流学部の学生と島根県大田市による取り組みが紹介されました。",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRldUZlUwcFlZLXNLWU1LTlRVaDZZczJUTDVwNDZyZGxxbFA0TWRXSFJqM0pMR0dfZmtPdnltelN0M2dpcjJxbG5sTEdUT1UwMmtHdEtRTVVETEppMmN4NDRwYmJMcjI3XzN2S1F4TTRfR1R6MWVYTG5mOEQ2SlZXVW12aHBGTjB4ZVJyN1BIX1dabXVqYXBvRDRB?oc=5",
-          "source": "univ.gakushuin.ac.jp",
-          "published_at": "2026-08-04T01:54:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -172,18 +173,8 @@
           "id": "6652fe439c5cbd0b",
           "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS1＝ビオストック",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0WjVGVG9rOHQ1emphdlBzWVIySmgwOTZSVmdReEE0ejBYbHZSNzRKWlZ4SFc1eVdHazd2ZURHNENDSUlkbW1lWmtfQVdLZ0FHZkdyYmJyQ1AzeTVjNUdGTkhCZ3l5WDM5V3dz?oc=5",
-          "source": "日本食糧新聞・電子版",
+          "source": "news.nissyoku.co.jp",
           "published_at": "2026-07-31T16:57:58Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1e3558dd99c398af",
-          "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-06-04T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -194,6 +185,16 @@
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1e3558dd99c398af",
+          "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
+          "source": "news.nissyoku.co.jp",
+          "published_at": "2026-06-04T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -349,16 +350,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "bfe0ffcd1e7f18ca",
-          "title": "国連食糧農業機関の報告書、再生プラ食品包装の安全性確保へ国際規制統一を提言",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBVMDk1QjkyS1ZlcTZnLW5kMXhiUXhTM3VRYmJsblZSNW5JQktCZFFyel9vbk9Mcjhqb3dqdkdicXZQYXZPT1ZzN3FGWmg1VkJsX01SLVEwTTNudWtMalM2eWZGRU5HX25rQnJzdzRPMVJ0QjQ?oc=5",
-          "source": "Circular Economy Hub",
-          "published_at": "2026-05-29T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "5fcd1501001e6c13",
           "title": "SQNZ、イタリアにおける持続可能な畜産認証 - ギフト",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ2dPYVBGdGNDcF83MUFmeHB6ZzdxeENtVW1mZ2xkYjBWZUVaaVNFcHg5b1hFaW94X2hVNHJ4VjY1SG5vVzlBLU9namMwRXRGemU0cWNSY1FRdjBITVVQWndKSDFfOWlSUDhpdlRKMlZaaHBUT0E4LXVHZncwZ2lEd2tCQWNkYnRiOThlVDY2clFqd2xNM3F0dHNlT2JHT2J0V0tlWE5TTHNYRlBodThxMk5YTXlyNTg?oc=5",
@@ -387,11 +378,21 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "bfe0ffcd1e7f18ca",
+          "title": "国連食糧農業機関の報告書、再生プラ食品包装の安全性確保へ国際規制統一を提言",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBVMDk1QjkyS1ZlcTZnLW5kMXhiUXhTM3VRYmJsblZSNW5JQktCZFFyel9vbk9Mcjhqb3dqdkdicXZQYXZPT1ZzN3FGWmg1VkJsX01SLVEwTTNudWtMalM2eWZGRU5HX25rQnJzdzRPMVJ0QjQ?oc=5",
+          "source": "Circular Economy Hub",
+          "published_at": "2026-05-29T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-08-04T09:16:07Z",
-  "last_success_at": "2026-08-04T09:16:07Z",
+  "last_attempt_at": "2026-08-04T14:45:31Z",
+  "last_success_at": "2026-08-04T14:45:31Z",
   "consecutive_failure_count": 0
 }
