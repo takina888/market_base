@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-04T14:45:31Z",
+  "generated_at": "2026-08-04T20:02:35Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -11,24 +11,13 @@
     "overseas"
   ],
   "retained_categories": [
-    "regulations",
-    "food_factory"
+    "regulations"
   ],
   "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
-        {
-          "id": "37a84c0ec3fd2caf",
-          "title": "三洋貿易[3176]：株主優待制度の導入に関するお知らせ 2026年8月3日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wdG15OThXaGhNYnJfYlg0ci1TdXp4bkpCWDJjN1lwSmJOWUt5U2ZOVDRXWjNGMk15bm5za3RITVVWdjNqc0diWWpaMGFUOGFaTDNjcERBYlNWX3BwWVVzcHY5UDhSZDVmb1E?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-03T05:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "31973d77dd032ffa",
           "title": "夏だ！祭りだ！！N響ほっとコンサート ～翔けよう！まほうの森と夢の世界～",
@@ -40,11 +29,41 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "81b557bf6f57019c",
+          "title": "ファイアーエムブレム 万紫千紅 : 世界の命運を握る者たち | Nintendo Switch 2 | 任天堂",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pZWpRNWNIMGVoa3haUmpLT0RLaXRzOTVJVGVtcFUyOEVZZ0VVbDdPQ2pCdTlZUm5iZ05ZTXN0VVhMYmVYVm9vVUNrS1FhVVZfVF96d1RsbGJtLTF1Q0lzN3NndjhmLUhuZEl0VERqS3BYNXY0ei1R?oc=5",
+          "source": "nintendo.com",
+          "published_at": "2026-08-04T14:29:33Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "fe57f9e20cef8a2a",
+          "title": "6月の米貿易赤字、5．6％減＝2カ月ぶり縮小(時事通信)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPakdKZ1o0blJZdl9oaC1OemZjLTlaLVg3NUdUeDdkZ2hjQk44RURHS1dIaWN4Z2dxYkZCSFMtXzZGc093eGNWVnRNRkY5el9BV0ZjWF9aMGMteGkzRFpPMVV4TjBadWE4VzhUUE5zODFGanI5ZUVLZ0NfVDIxTDBLZm40bGR4aTA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-04T13:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "3ebe142f59d3fa85",
           "title": "型破りな世界的登山家プルジャ氏が遭難死、一体何が起こったのか",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5nOXcxODdlcmFGSHREWndoR2pNVF9xbmFZaW1zZUNOSy1iR2lHdzJZb2dTYnVydXNJTkFUZ0FsNmNBMm9CZkRqNGhMT0dWUWNOeDNVMGttNFhSOGlpU2JJX3ZVQQ?oc=5",
           "source": "ナショナルジオグラフィック日本版",
           "published_at": "2026-08-04T11:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9c8b5cad5b7e5e8a",
+          "title": "エアコン普及率の国際比較 ～日本は9割超、欧州や東南アジアは3割未満～ | 前田 和馬 | 第一ライフ資産運用経済研究所",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YLUhicEZWTXhobWx2aXZwU1d2QnZPUnVoOGtxU1RmUnAxTG9CN0RqSEN5QmlLbFFGdDlMWWdJcVQ2ZGJkT2lhcDIxMjB4RnFIbUd3a1BkdjFxRm8?oc=5",
+          "source": "dlri.co.jp",
+          "published_at": "2026-08-04T09:13:43Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -68,26 +87,6 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7278b35c4e4a740b",
-          "title": "「世界オキアミの日」ユース向けウェビナー",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94Z2VhZGpBaEFVMXY3VjdJYUVOd2VrcHVhMEYtak5WU0I0U05PVG04ZmdkaTFGdWhCcXVEZW9RcHdyeFd1ekExVElLbmNobGhtd2RSdw?oc=5",
-          "source": "国際環境NGO FoE Japan",
-          "published_at": "2026-08-04T02:36:26Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c7fa658d4d88d36d",
-          "title": "【報告】大学の世界展開力強化事業のウェブサイトを公開",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JNGN1anktSnBNU1FVYTlMWjVvM1dCTmJtVnFPUmpSRGRZaUNNN256emUtVmNiekxPZk9IYXVkRDFrTTZMek00WVZsSk81S21Ja3Y3bUZqUjZkSmFIOHZ2VVpsYXVrd3VHVXdudmRnZW8?oc=5",
-          "source": "国立大学法人 電気通信大学",
-          "published_at": "2026-08-04T02:10:13Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -100,16 +99,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-07-16T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c5b26c7796e664db",
-          "title": "【出展報告】前川製作所、「FOOMA JAPAN 2026」に出展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZSWMzbkg2bWxJbTd2M2F1UUhpUjd6Mkdha3VxdTVHVWJIeXBXYXEwZXFGeWQwUHNWM2pFd2hvRU9yMkwtaUxfX3hVbzlnRzZ0UXo2cjFjOGQ5SzRzMkUyZEV4YTNTTktDalE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -163,6 +152,16 @@
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "22eecb263b8b1739",
+          "title": "不揃いでつぶれやすい食品もやさしくつかむ。フィジカルAI時代のカスタムロボットハンドをFOOMA JAPANで初公開",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxQV94Tjh3VGxuR3VESlZGZWZncDB2V0lrb0FkTFJPOUphdFAzRjhOaGtRY0gteFpDYTBzbEpFVTZhblV4VUVRc1pybzF2OWxGOG5PeV83TDljOEp1U1ZZN2RNT3cwNE9fV2c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-02T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -170,11 +169,31 @@
       "label": "食品工場",
       "articles": [
         {
-          "id": "6652fe439c5cbd0b",
-          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS1＝ビオストック",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0WjVGVG9rOHQ1emphdlBzWVIySmgwOTZSVmdReEE0ejBYbHZSNzRKWlZ4SFc1eVdHazd2ZURHNENDSUlkbW1lWmtfQVdLZ0FHZkdyYmJyQ1AzeTVjNUdGTkhCZ3l5WDM5V3dz?oc=5",
-          "source": "news.nissyoku.co.jp",
-          "published_at": "2026-07-31T16:57:58Z",
+          "id": "55bc0f61dd099dfe",
+          "title": "特集・食品工場の環境対策2026［省エネ］：技術FOCUS3＝キョーワクリーン",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLWGdLTTNDZUNOeFQ4QUJ1elFZeHliOHZtXy1xdDY3Sy1WcDFYdE9taVJPaURjOTh1WXZrd1hLQTdnM2UxRDBfNkcza2pfcGZyWUtuM1hhZmMxZjZHbFpzSDQwTmZLWGY1d19V?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-07-31T17:12:36Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1eeab751375981e9",
+          "title": "特集・食品工場の環境対策2026［排水処理］：技術FOCUS1＝ケルヒャージャパン",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mWi05ZHBnbUNnRkFwaG1GanBjV2Z0eTJiRGdHb0hmM0poOHdZeEZFZDFhWlJybk1WWk8xNjFfWTVZdndQS0NrYVJOQ3RiRU9aZlBGb1l0LVdTVjZYSzQ5UGJWVzB6VmhiWGZvUg?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-07-31T15:39:11Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1e3558dd99c398af",
+          "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-06-04T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -185,16 +204,6 @@
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1e3558dd99c398af",
-          "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
-          "source": "news.nissyoku.co.jp",
-          "published_at": "2026-06-04T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -228,16 +237,6 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c7572784f59161b0",
-          "title": "食品工場の新設工期、10年で2倍に 強まる人手不足の影響",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Mc0pJUC1SVjJUN0ZEOFJDaWxOVVJMS2t1bDhSeWNBWjJkTkxjV2l3RmU2V1lETXpYWlpRcDNCcTE0TTBWNXl6Vl9GREx6d053NElpZnNKZmlOYUoyWWUyVlkwRGFXbDU4?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-06-21T15:07:05Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -250,6 +249,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vVWJDNmZ6X2ZEdGtWanJpWkwzeEFIbGNPS2Q0RDVwcTBELV9Eb0pTTzktdFNrc3RrV3luQUZCZW1qbzlhU1RTT1RKZTZGUHJWa0lwakJR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-07-28T01:30:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a1f5a8bf09514ea9",
+          "title": "薬王堂／栃木県に計3店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QVXBZaEFsUEVabE9QbHYyMlAzS1lXa1lYNWdHMFJ5MDB5SEhfQk5Jay1iVGVfN01jeFZBSHhyYzJITmpBNFRfbFdMR3NiNkY3YldXRUVR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-27T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -285,16 +294,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "df608e9180467e7e",
-          "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-17T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "973325067d0151bd",
           "title": "わかやま市民生協／和歌山市に「コープ宇須店（店舗面積2795m2）」27年2月26日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IUW1lZmFzX3ZYZDRrVVhXeTdOcEZEbHZVTm43V1lDcWQwc0RnY01jRmdzLWgwcEZhRmt6NHUyZktKMWtvQ2JRMFZSV094MnhaX0Y1cXh3?oc=5",
@@ -305,11 +304,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6982c8165127ff8e",
-          "title": "クスリのアオキ／新潟県・埼玉県・千葉県に計3店舗、27年1～2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BUkc2S3J6am1KSVlYSDZlYVJkNUR6ZjJtUGxyZEEzQ0EwSkd0Y2hXc3ZEbDRPYnFVQVFJMUQ0eGRoYjZoVkxQaDNUZmlncWJxU1I5M2FB?oc=5",
+          "id": "1d1ae133cbab1829",
+          "title": "コスモス薬品／埼玉県・群馬県に「ドラッグコスモス」計2店舗、27年1～2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zSXhoSW1mV2F2ZFlWSVplYXN6aFZoR0hEUVhUcVV5cG5TSEpSYzVNVDVpNzNUVUd5dUdLcHRCRjUxSDBoZnk4MzhyXzBabnVlb0tWY1dR?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-07-14T07:00:00Z",
+          "published_at": "2026-07-15T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -392,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-04T14:45:31Z",
-  "last_success_at": "2026-08-04T14:45:31Z",
+  "last_attempt_at": "2026-08-04T20:02:35Z",
+  "last_success_at": "2026-08-04T20:02:35Z",
   "consecutive_failure_count": 0
 }
