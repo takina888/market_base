@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-05T14:39:49Z",
+  "generated_at": "2026-08-05T19:59:40Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -39,16 +39,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-05T11:48:07Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "987cb946dad57f3f",
           "title": "『リトルマーメイド』舞浜公演の開幕に向けて――海外クリエイティブスタッフによる稽古が進んでいます｜最新ニュース",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZUFJsQVhiSWVhMkxSeFRpbUpyWm1SbGVKR3BmMk9zQnVPNHhpdTlhVllCN0ZKY0VjOU80NkhwcTZZTHRaTUtoQzA3OHlSSkRkNHRuS1ZzZXp4SjhsbDRUSV93?oc=5",
@@ -72,18 +62,28 @@
           "id": "31db7a0d86f2fa02",
           "title": "「ネパールは天国だった」海外出張から帰国の蔵内勇夫議長が発言 福岡県議会に姿見せる “金銭授受”疑惑は第三者委員会設置へ（TNCテレビ西日本）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0TTIySTFCLWhkVWY1b1kzUWlTdFI1T0xIVGF1cU5qMDdYRUt0TFRDeGptUlFoTUFuelNPNzhGZGVWczJuSWVCREFFWDZ4WUNFTGs5RU5TOVB3eDItYmlLSmtLeDF5czRreHFjc3NJZDItMmNFQWZRQUtTZkllaWM?oc=5",
-          "source": "news.yahoo.co.jp",
+          "source": "Yahoo!ニュース",
           "published_at": "2026-08-05T06:02:02Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "351075d9f4d3bc8b",
-          "title": "【世界初】永久磁石内部の数千個の微小磁石粒子の結晶方位を非破壊3次元観察 ―高性能磁石の開発を加速する結晶方位イメージング技術を開発―",
+          "id": "8404e6b6a4374721",
+          "title": "【世界初】永久磁石内部の数千個の微小磁石粒子の結晶... | プレスリリース・研究成果 | 東北大学 -TOHOKU UNIVERSITY-",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE03WXcwUkx4Z29tZnRPNEdiNk1GYUJ3UG1FTThzSEdDU1dNZlhMS3Z6VGNMdXBzQ05ObXlxcjlkRHNEYmtVNlpKbVNHR05PcG9TOW1tWkE0WVZoRU1tbE93anlRcGNWOUFxS0JMMmphTThJQ1k4TUN4M0ZB?oc=5",
           "source": "tohoku.ac.jp",
           "published_at": "2026-08-05T06:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "49398267654f88b3",
+          "title": "世界の生乳生産、2026年は引き続き緩やかに成長 乳製品貿易量もプラス（2026/8/5） FAO「食料アウトルック」2026年6月号より",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xcVNlUS1abzFYLVRYQWtMZU5NbmdxdUZIS1FHWVNIa0NabEsyREstMXJodWw1ZmhrcEZWb0RDUWZwSFU1dldHN183dmFVOW1MUHFpcFZCYk1xYzRDV3F3Mll5bGFoMWpIR3ZnQnNpdDNXZHJJZk9r?oc=5",
+          "source": "j-milk.jp",
+          "published_at": "2026-08-05T02:21:48Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-05T14:39:49Z",
-  "last_success_at": "2026-08-05T14:39:49Z",
+  "last_attempt_at": "2026-08-05T19:59:40Z",
+  "last_success_at": "2026-08-05T19:59:40Z",
   "consecutive_failure_count": 0
 }
