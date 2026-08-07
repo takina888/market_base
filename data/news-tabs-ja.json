@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-07T13:43:02Z",
+  "generated_at": "2026-08-07T19:25:08Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -39,6 +39,26 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-07T15:48:53Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-07T15:44:53Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "ec92b4be84398363",
           "title": "国際交流イベント「共創・日本の夏祭り灯篭フェス」を開催しました",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yRUJ0b2VITnB3bFZ6ckM1dlZ1aXdLQWZTY0UydERWb3pPZG5jN21jQXFPR2RpdG9SblNhVFdkZ2l5RU9RS0JNZ3ZzWlZZeGdWTWNTRklDWQ?oc=5",
@@ -59,31 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-07T08:58:42Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d90f3fc8caa6b504",
-          "title": "極東貿易、4-6月期(1Q)経常は16％増益で着地",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nQ29yODVWMTVhU0dvM2txY0lYV09oMk9KVUVyd2pPVzh3SnRPWi1IM0lweGY0TTFkc2FiMHpRSEVVSlUtczlpZEtHOVlxS1B0MHc?oc=5",
-          "source": "株探",
-          "published_at": "2026-08-07T06:30:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "691dae1e992e71e3",
-          "title": "イベント情報",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94NWRPTmI1WTZoZzRRS1ZUUkhwZllZTXlkOGJLMU1Gc3hFc0RFQ1pTNHdBNzdST0Mta0Z6YllvVGxxTnJFaU81aW9oTVUyZnRsVGs4d2l3LUVnVC03MkE2SHJ4MkJuUzQ?oc=5",
-          "source": "uec.ac.jp",
-          "published_at": "2026-08-07T06:13:22Z",
+          "id": "0d18da672dca1b26",
+          "title": "佐渡汽船公式サイト | 佐渡汽船の公式情報を提供しています。",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBGZmJ1Q0htT0xqQXduclRHeDRRaUpILVUwNElhVGJLMkdqTzlKSnF5UTAxWUJrTG9qMVhlTU9LR3JvYndHek9QbUpyYVpwb1dmNEFPdi1ENA?oc=5",
+          "source": "sadokisen.co.jp",
+          "published_at": "2026-08-07T07:51:21Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -199,16 +199,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6652fe439c5cbd0b",
-          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS1＝ビオストック",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0WjVGVG9rOHQ1emphdlBzWVIySmgwOTZSVmdReEE0ejBYbHZSNzRKWlZ4SFc1eVdHazd2ZURHNENDSUlkbW1lWmtfQVdLZ0FHZkdyYmJyQ1AzeTVjNUdGTkhCZ3l5WDM5V3dz?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-07-31T16:57:58Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "1eeab751375981e9",
           "title": "特集・食品工場の環境対策2026［排水処理］：技術FOCUS1＝ケルヒャージャパン",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mWi05ZHBnbUNnRkFwaG1GanBjV2Z0eTJiRGdHb0hmM0poOHdZeEZFZDFhWlJybk1WWk8xNjFfWTVZdndQS0NrYVJOQ3RiRU9aZlBGb1l0LVdTVjZYSzQ5UGJWVzB6VmhiWGZvUg?oc=5",
@@ -234,6 +224,16 @@
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "df5032e43e049da4",
+          "title": "もやし工場で「わさび」生産 食品工場内に栽培モジュール導入し高付加価値化へ新モデル始動",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY19GNjlvZ0FzVmlqN281VUlfWXRNdjNyTWtFM0NQTGM4bU44czJJWDFzSWxVeWFLSVJ2Y3M3UjJvNWhMQ2R6bXR1bTM2X1Vqak5SUDV2YTV5VmJCZUU2d2UxcHNqUXhVczhkWFJpd3E1UWlMSVNZaWNfMEJsWGxSWDFueFIwdw?oc=5",
+          "source": "projectdesign.jp",
+          "published_at": "2026-06-02T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -284,16 +284,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "df608e9180467e7e",
-          "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-17T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "973325067d0151bd",
           "title": "わかやま市民生協／和歌山市に「コープ宇須店（店舗面積2795m2）」27年2月26日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IUW1lZmFzX3ZYZDRrVVhXeTdOcEZEbHZVTm43V1lDcWQwc0RnY01jRmdzLWgwcEZhRmt6NHUyZktKMWtvQ2JRMFZSV094MnhaX0Y1cXh3?oc=5",
@@ -312,22 +302,22 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1b99e57a9565234a",
+          "title": "ゴンチャ／東京都台東区「上野マルイ」に新店舗7月17日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XTG93X3AwamxheE92YnJNb2xPYmNiMXoxUGRkSUtwUEREUDNTSGpHeFlrVy1ZOEptNDc3b3doQXNfU1BaR1pVZl9KTzFYbWZ5OEJBdA?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-10T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "regulations": {
       "label": "規制関連",
       "articles": [
-        {
-          "id": "1eacfbb13f27c7cd",
-          "title": "株式会社Re・Labの所沢工房がハラール認証を取得「焼き芋缶」など3商品に認証ロゴを表示へ",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB4Um5nem1lMHRoUi03cGFqVUJGdmtIek5reWpBNHdIakdOdnJYTXlSVFAzc29yVVRPRExqa0puRVl6b214bzVON1J4STVILXo1aWZRcw?oc=5",
-          "source": "ニコニコニュース",
-          "published_at": "2026-07-21T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "a42eaf13c40076e7",
           "title": "米国流通市場を読む（3）マーケティングに影響する超加工食品基準 | 地域・分析レポート - 海外ビジネス情報",
@@ -354,6 +344,16 @@
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ2dPYVBGdGNDcF83MUFmeHB6ZzdxeENtVW1mZ2xkYjBWZUVaaVNFcHg5b1hFaW94X2hVNHJ4VjY1SG5vVzlBLU9namMwRXRGemU0cWNSY1FRdjBITVVQWndKSDFfOWlSUDhpdlRKMlZaaHBUT0E4LXVHZncwZ2lEd2tCQWNkYnRiOThlVDY2clFqd2xNM3F0dHNlT2JHT2J0V0tlWE5TTHNYRlBodThxMk5YTXlyNTg?oc=5",
           "source": "greatitalianfoodtrade.it",
           "published_at": "2026-05-05T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1eacfbb13f27c7cd",
+          "title": "株式会社Re・Labの所沢工房がハラール認証を取得「焼き芋缶」など3商品に認証ロゴを表示へ",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB4Um5nem1lMHRoUi03cGFqVUJGdmtIek5reWpBNHdIakdOdnJYTXlSVFAzc29yVVRPRExqa0puRVl6b214bzVON1J4STVILXo1aWZRcw?oc=5",
+          "source": "ニコニコニュース",
+          "published_at": "2026-07-21T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-07T13:43:02Z",
-  "last_success_at": "2026-08-07T13:43:02Z",
+  "last_attempt_at": "2026-08-07T19:25:08Z",
+  "last_success_at": "2026-08-07T19:25:08Z",
   "consecutive_failure_count": 0
 }
