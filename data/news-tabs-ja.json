@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-07T07:47:48Z",
+  "generated_at": "2026-08-07T13:43:02Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -39,21 +39,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "7f6ea9afc595268a",
-          "title": "国際卓越研究大学研究等体制強化計画の認可について",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11T2xJbGk2QlU3YUJYdEY5MDNyM3Nzb2QyRnRPNW1od0Exc2FVMDFnZEJtSFI2QWM3TWtjMnR1V0lzM0pBTkR2aUMzelJHUmRfb3ZzbVpwSnJXdw?oc=5",
+          "id": "ec92b4be84398363",
+          "title": "国際交流イベント「共創・日本の夏祭り灯篭フェス」を開催しました",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yRUJ0b2VITnB3bFZ6ckM1dlZ1aXdLQWZTY0UydERWb3pPZG5jN21jQXFPR2RpdG9SblNhVFdkZ2l5RU9RS0JNZ3ZzWlZZeGdWTWNTRklDWQ?oc=5",
           "source": "京都大学",
-          "published_at": "2026-08-07T07:02:30Z",
+          "published_at": "2026-08-07T12:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ec92b4be84398363",
-          "title": "国際交流イベント「共創・日本の夏祭り灯篭フェス」を開催しました",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yRUJ0b2VITnB3bFZ6ckM1dlZ1aXdLQWZTY0UydERWb3pPZG5jN21jQXFPR2RpdG9SblNhVFdkZ2l5RU9RS0JNZ3ZzWlZZeGdWTWNTRklDWQ?oc=5",
+          "id": "7f6ea9afc595268a",
+          "title": "国際卓越研究大学研究等体制強化計画の認可について",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11T2xJbGk2QlU3YUJYdEY5MDNyM3Nzb2QyRnRPNW1od0Exc2FVMDFnZEJtSFI2QWM3TWtjMnR1V0lzM0pBTkR2aUMzelJHUmRfb3ZzbVpwSnJXdw?oc=5",
           "source": "京都大学",
-          "published_at": "2026-08-07T06:16:37Z",
+          "published_at": "2026-08-07T12:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-07T08:58:42Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d90f3fc8caa6b504",
+          "title": "極東貿易、4-6月期(1Q)経常は16％増益で着地",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nQ29yODVWMTVhU0dvM2txY0lYV09oMk9KVUVyd2pPVzh3SnRPWi1IM0lweGY0TTFkc2FiMHpRSEVVSlUtczlpZEtHOVlxS1B0MHc?oc=5",
+          "source": "株探",
+          "published_at": "2026-08-07T06:30:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -62,28 +82,8 @@
           "id": "691dae1e992e71e3",
           "title": "イベント情報",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94NWRPTmI1WTZoZzRRS1ZUUkhwZllZTXlkOGJLMU1Gc3hFc0RFQ1pTNHdBNzdST0Mta0Z6YllvVGxxTnJFaU81aW9oTVUyZnRsVGs4d2l3LUVnVC03MkE2SHJ4MkJuUzQ?oc=5",
-          "source": "国立大学法人 電気通信大学",
+          "source": "uec.ac.jp",
           "published_at": "2026-08-07T06:13:22Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "80f01e99e3372a86",
-          "title": "煙台大学・楊思韵さん、札幌国際プラザ「SKYオープンセミナー」に参加",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByb0NkR2tBdmw0b0I2M2E0cmVfeVdCRmZvZEdTaFV1a3oxd1d4TVNySU45aDhmRzhmbUhGQ0xCUjVQYlp6dVQzU3EyYW5RR1dDX085Z3NENTdwMEpIR0Nn?oc=5",
-          "source": "hokkai.ac.jp",
-          "published_at": "2026-08-07T05:39:50Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "37aa9ce55d1b3417",
-          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-07T05:09:27Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -209,16 +209,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "89f471b5159296cc",
-          "title": "特集・食品工場の環境対策2026［排水処理］：技術FOCUS4＝ダイキアクシス",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83RDVfLWVzeXdWa3JuTnVaRnZiWDVPODRNOElqRWM1RmtvYTZKQ3VKZWVZMWVDSkNCU2I1N2h3Q0szS1lGWGtLTDZISkNnMzM4c1pNSFo2VTVvNlNpM0Zrb3RfNW16VU15SmJPVw?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-07-31T16:36:45Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "1eeab751375981e9",
           "title": "特集・食品工場の環境対策2026［排水処理］：技術FOCUS1＝ケルヒャージャパン",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mWi05ZHBnbUNnRkFwaG1GanBjV2Z0eTJiRGdHb0hmM0poOHdZeEZFZDFhWlJybk1WWk8xNjFfWTVZdndQS0NrYVJOQ3RiRU9aZlBGb1l0LVdTVjZYSzQ5UGJWVzB6VmhiWGZvUg?oc=5",
@@ -234,6 +224,16 @@
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
           "source": "日本食糧新聞・電子版",
           "published_at": "2026-06-04T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b2ea39a0e775737c",
+          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-07T07:47:48Z",
-  "last_success_at": "2026-08-07T07:47:48Z",
+  "last_attempt_at": "2026-08-07T13:43:02Z",
+  "last_success_at": "2026-08-07T13:43:02Z",
   "consecutive_failure_count": 0
 }
