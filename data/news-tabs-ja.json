@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-07T19:25:08Z",
+  "generated_at": "2026-08-08T02:25:13Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -39,21 +39,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-07T15:48:53Z",
+          "published_at": "2026-08-07T21:47:32Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-07T15:44:53Z",
+          "id": "d3bbbe4babb2ea0c",
+          "title": "【江戸時代の貿易政策】海外への金銀流出阻止に奮闘した新井白石、「双子の赤字」に着目した初めての“エコノミスト”だった",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE56NkoxRHRydFRpMEh3MGpwYkJTOVBvR1NLMXNSbndqdm0zWWVIVnBFUVpaSExneGQyYzUyYTN2TlRRZHh2cXg4cXg4WjHSAU9BVV95cUxNZEo1dkdGZHNQRWRhM3VBZEgxRFU0aVhyMUdOUi1tUlhfNnZfTDZ1Zm50aTRGVklYel9USWMyeTdXbDVoUkViZjBRd0dhaW1n?oc=5",
+          "source": "ダイヤモンド・オンライン",
+          "published_at": "2026-08-07T19:50:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -79,11 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0d18da672dca1b26",
-          "title": "佐渡汽船公式サイト | 佐渡汽船の公式情報を提供しています。",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBGZmJ1Q0htT0xqQXduclRHeDRRaUpILVUwNElhVGJLMkdqTzlKSnF5UTAxWUJrTG9qMVhlTU9LR3JvYndHek9QbUpyYVpwb1dmNEFPdi1ENA?oc=5",
-          "source": "sadokisen.co.jp",
-          "published_at": "2026-08-07T07:51:21Z",
+          "id": "6aadca931766f25f",
+          "title": "空港が中国人22人“搭乗拒否”映像残るも…国際問題に発展 タイ（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41QTZZQ2lYVEJSd09MSkNOeEl3Y2dOS1RWbHl3VzR3TW5rX25wOGRlSkl6czZPeEIteDBnNUhCTTlYQ0hxV3N1NTlqQUp1QU5SNV82eE1WLVVVQnBGUGlHbFpUd09FU0UzeF9aMEF3N0JsLVVtNkl6YWlTenYzQkk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-07T10:04:22Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -294,19 +294,19 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1d1ae133cbab1829",
-          "title": "コスモス薬品／埼玉県・群馬県に「ドラッグコスモス」計2店舗、27年1～2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zSXhoSW1mV2F2ZFlWSVplYXN6aFZoR0hEUVhUcVV5cG5TSEpSYzVNVDVpNzNUVUd5dUdLcHRCRjUxSDBoZnk4MzhyXzBabnVlb0tWY1dR?oc=5",
+          "id": "1b99e57a9565234a",
+          "title": "ゴンチャ／東京都台東区「上野マルイ」に新店舗7月17日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XTG93X3AwamxheE92YnJNb2xPYmNiMXoxUGRkSUtwUEREUDNTSGpHeFlrVy1ZOEptNDc3b3doQXNfU1BaR1pVZl9KTzFYbWZ5OEJBdA?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-07-15T07:00:00Z",
+          "published_at": "2026-07-10T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1b99e57a9565234a",
-          "title": "ゴンチャ／東京都台東区「上野マルイ」に新店舗7月17日オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XTG93X3AwamxheE92YnJNb2xPYmNiMXoxUGRkSUtwUEREUDNTSGpHeFlrVy1ZOEptNDc3b3doQXNfU1BaR1pVZl9KTzFYbWZ5OEJBdA?oc=5",
+          "id": "c3ea737cf6af3407",
+          "title": "ヨドバシカメラ／名鉄百貨店本店跡地「名鉄ビル」に26年夏新店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wLVJKdlQ0dUdRaGNvZ1kzMkZMWDVHaENGN1hMSDB4QWl1bkw1M2RPUlUwUVRMWXVxMVpUakNZOEVILV9hRTEwQnpmRWdpY3VNanhMVw?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-07-10T07:00:00Z",
           "language": "ja",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-07T19:25:08Z",
-  "last_success_at": "2026-08-07T19:25:08Z",
+  "last_attempt_at": "2026-08-08T02:25:13Z",
+  "last_success_at": "2026-08-08T02:25:13Z",
   "consecutive_failure_count": 0
 }
