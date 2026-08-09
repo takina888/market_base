@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-09T13:25:06Z",
+  "generated_at": "2026-08-09T19:06:51Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,16 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "223284e29335de27",
+          "title": "三洋貿易[3176]：通期業績予想の修正に関するお知らせ 2026年8月7日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwcWtCMUVRN2xtMmt4N3ZCc3F5N3h3NWZ3bjNGM0NsODdXVmh2ZzZwWDVvcl9kbVQzaElENTYxSnpzaXFnUTJkc28zRjBLLTh4Umo5SmhrQlpWQWlRSDFkX1cxOUlBb0dlakE?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-08-07T05:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "37a84c0ec3fd2caf",
           "title": "三洋貿易[3176]：株主優待制度の導入に関するお知らせ 2026年8月3日(適時開示) ：日経会社情報DIGITAL",
@@ -43,7 +53,7 @@
           "id": "385a7a3db3b6aabf",
           "title": "ポーランドが誇る世界への窓「グディニア・モダニズム都市中心地区」がユネスコ世界遺産に登録！",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVTVVnNnFvLVcxam5TT2JmMFRfWEVxbm82MDZKQW0xZ3FIU0VvT0xUR3I1NHV4LUFoZU1LQlFRZ21SdDR6eFFTVXhWT0g0eXhnUlFUNlEzMXZhbXZGdlBTZXJ0MnpqVFlNNnlRTXZXOHByRzFWZnNERg?oc=5",
-          "source": "TECTURE MAG",
+          "source": "mag.tecture.jp",
           "published_at": "2026-08-08T23:00:11Z",
           "language": "ja",
           "category": "overseas",
@@ -55,16 +65,6 @@
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5hRkx3NnVOc3BpeFBsSEk5bEZOejFsaUVNQTlLT1Z2Mjh1TFlwcHdPdUFIQjhWRVdWal9LVDJsa2x3eXd4OFE?oc=5",
           "source": "エイベックス・ポータル",
           "published_at": "2026-08-08T11:24:59Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9b4bacef8c6ba175",
-          "title": "【大阪・新世界】18禁の下ネタ系ガチャガチャがそこらじゅうに…むしろ前より増えてない!?（ラジトピ ラジオ関西トピックス）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wWUNxa2R2OE9IelJ5ZEVZeHZsam50SXVCX0VWYmRaYnlDYnBvSndqR1ZWZnlWZDhnZnhBNEYtSEJVT1dOLTd3dzRkQVAtak5fdEwyd0QzUExxaW4wQ2pmcWljRnhiVnVCOE9NQWNvd044SWZsYmNqaXExNUg5T1E?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-08T10:00:50Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -193,7 +193,7 @@
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "MONOist",
+          "source": "monoist.itmedia.co.jp",
           "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -223,7 +223,7 @@
           "id": "99b1c95f0b01beaa",
           "title": "自動車工場で見えるのに、食品工場では見えないモノ～今日何個作ると決めたか",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ed0JQbFVtSVgzNlgzM2daVTNSSG1oOEFVUFNXVXFPZWplUW5ObFVpNUQxYkJpU05jQm1hcGhZR1dsbURwWDc3N01TaDk3cTRPOFY0dFVIT0FMREo4VmN5eDJ1b3JSYjRCbVJXR05rcw?oc=5",
-          "source": "MONOist",
+          "source": "monoist.itmedia.co.jp",
           "published_at": "2026-05-25T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -295,9 +295,9 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "df608e9180467e7e",
-          "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
+          "id": "1beb9cb013778c99",
+          "title": "コメリ／大阪府泉南市に「コメリパワー泉南店（店舗面積9736m2）」27年1月31日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxQjhwZHpFa0RQV3VEcVpDaFg5OVk0R0I4dmR5WFZwd3puY0cwb0RrOGhlWXNwTi1yTHF0WjUtakp1TFBSUEo0dmhYUTBFMUhBNkFpVmp3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-07-17T07:00:00Z",
           "language": "ja",
@@ -305,11 +305,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "973325067d0151bd",
-          "title": "わかやま市民生協／和歌山市に「コープ宇須店（店舗面積2795m2）」27年2月26日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IUW1lZmFzX3ZYZDRrVVhXeTdOcEZEbHZVTm43V1lDcWQwc0RnY01jRmdzLWgwcEZhRmt6NHUyZktKMWtvQ2JRMFZSV094MnhaX0Y1cXh3?oc=5",
+          "id": "df608e9180467e7e",
+          "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-07-16T07:00:00Z",
+          "published_at": "2026-07-17T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -319,16 +319,6 @@
     "regulations": {
       "label": "規制関連",
       "articles": [
-        {
-          "id": "876761cc4bc41796",
-          "title": "企業はEUの新たな包装規制に対応するために何ができるでしょうか？",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM2ttX2E0VzBlVVBFUHplQ3VkcUxOVHRsb0JJMEV0VnpHdFJBU3liSTFpcDVNMmdQQ3JfdHVCQUlqRG5PSms0d3N0ZkFYcExnem00SzZWZDNZcnMyVEw0MTllTGZyVy0yd3ctXzhRdl8wOVY4VzUwMGhBNC1rZzhSdXcyRTdIWVZKb1FLOG9IWUxzM21RWGJ3TQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-08T17:32:10Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "a42eaf13c40076e7",
           "title": "米国流通市場を読む（3）マーケティングに影響する超加工食品基準 | 地域・分析レポート - 海外ビジネス情報",
@@ -355,6 +345,16 @@
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ2dPYVBGdGNDcF83MUFmeHB6ZzdxeENtVW1mZ2xkYjBWZUVaaVNFcHg5b1hFaW94X2hVNHJ4VjY1SG5vVzlBLU9namMwRXRGemU0cWNSY1FRdjBITVVQWndKSDFfOWlSUDhpdlRKMlZaaHBUT0E4LXVHZncwZ2lEd2tCQWNkYnRiOThlVDY2clFqd2xNM3F0dHNlT2JHT2J0V0tlWE5TTHNYRlBodThxMk5YTXlyNTg?oc=5",
           "source": "greatitalianfoodtrade.it",
           "published_at": "2026-05-05T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "876761cc4bc41796",
+          "title": "企業はEUの新たな包装規制に対応するために何ができるでしょうか？",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM2ttX2E0VzBlVVBFUHplQ3VkcUxOVHRsb0JJMEV0VnpHdFJBU3liSTFpcDVNMmdQQ3JfdHVCQUlqRG5PSms0d3N0ZkFYcExnem00SzZWZDNZcnMyVEw0MTllTGZyVy0yd3ctXzhRdl8wOVY4VzUwMGhBNC1rZzhSdXcyRTdIWVZKb1FLOG9IWUxzM21RWGJ3TQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-08T17:32:10Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-09T13:25:06Z",
-  "last_success_at": "2026-08-09T13:25:06Z",
+  "last_attempt_at": "2026-08-09T19:06:51Z",
+  "last_success_at": "2026-08-09T19:06:51Z",
   "consecutive_failure_count": 0
 }
