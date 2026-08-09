@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-09T02:32:46Z",
+  "generated_at": "2026-08-09T13:25:06Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -11,7 +11,8 @@
     "overseas"
   ],
   "retained_categories": [
-    "regulations"
+    "regulations",
+    "food_factory"
   ],
   "failed_categories": {},
   "categories": {
@@ -29,21 +30,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "31973d77dd032ffa",
-          "title": "夏だ！祭りだ！！N響ほっとコンサート ～翔けよう！まほうの森と夢の世界～",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xR2d0VmQ5QTczMlFOVEtEODdnYkltTGpnbFAzUE5pOC1DQkRxSXUwVTMwQ21FS0s1ek0wVEhJYzNEeWQxR090OXFPTXlTSjhDOVFsTnJWemU?oc=5",
-          "source": "nhkso.or.jp",
-          "published_at": "2026-08-02T07:00:00Z",
+          "id": "1265ae507deeb306",
+          "title": "新潟・長岡の国道でひき逃げか 49歳の国際大准教授が死亡（毎日新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tNllpM2FEUDJqV19UTEFwUldJaGY5QUhCYnM5RklWcjFDVUJfZUEwUmZLeTlVQ0NQdTZVSGFrWmlLVWlHaW1yaDBiSXR4WUdkakgwNFhoVmtXd252bWk4RDJxM2NBQnFMNks2dWJMSDZPX2o0MU1BY001eDZmV1E?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-09T04:01:18Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-08T21:55:51Z",
+          "id": "385a7a3db3b6aabf",
+          "title": "ポーランドが誇る世界への窓「グディニア・モダニズム都市中心地区」がユネスコ世界遺産に登録！",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVTVVnNnFvLVcxam5TT2JmMFRfWEVxbm82MDZKQW0xZ3FIU0VvT0xUR3I1NHV4LUFoZU1LQlFRZ21SdDR6eFFTVXhWT0g0eXhnUlFUNlEzMXZhbXZGdlBTZXJ0MnpqVFlNNnlRTXZXOHByRzFWZnNERg?oc=5",
+          "source": "TECTURE MAG",
+          "published_at": "2026-08-08T23:00:11Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "114847ab418e1334",
+          "title": "世界は本来、境界なくつながっている── チームラボ代表・猪子寿之が語る創作の思想や原体験に、森山未來が迫る。【MEET YOUR ARTISTS】 | ニュース | エイベックス・ポータル",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5hRkx3NnVOc3BpeFBsSEk5bEZOejFsaUVNQTlLT1Z2Mjh1TFlwcHdPdUFIQjhWRVdWal9LVDJsa2x3eXd4OFE?oc=5",
+          "source": "エイベックス・ポータル",
+          "published_at": "2026-08-08T11:24:59Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9b4bacef8c6ba175",
+          "title": "【大阪・新世界】18禁の下ネタ系ガチャガチャがそこらじゅうに…むしろ前より増えてない!?（ラジトピ ラジオ関西トピックス）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wWUNxa2R2OE9IelJ5ZEVZeHZsam50SXVCX0VWYmRaYnlDYnBvSndqR1ZWZnlWZDhnZnhBNEYtSEJVT1dOLTd3dzRkQVAtak5fdEwyd0QzUExxaW4wQ2pmcWljRnhiVnVCOE9NQWNvd044SWZsYmNqaXExNUg5T1E?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-08T10:00:50Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -64,26 +85,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05QTJfcHFsZDdqTktsemZXeGNrd2ZWbGhYMUNRdkhRci1rdndSTV93SFgyS1gwVmxzWXVIY0sxNm9UdExSV2hGWVRFc2NaX0ZCc1VpNXJILXJsX01uUmZXQnJTMHNMZS1Bd0F5TG5naDhPUUZTZlNJMVktTHAwalE?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-08-08T03:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "25c3f528efd35660",
-          "title": "8月8日は「世界猫の日」 『ダーウィンが来た！』劇場版第6弾 予告映像＆場面写真公開（オリコン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JYjB2ZFctX3JURGR6UnNkenpJSmFFMTFzdTQ5RWwxdXZRamJncS1URWVoV3loQlVhRUdaWGRabElydVoxdjFfaUd5RG1KR2YzaUpqQ1dhU01JWFlvRWJ5azRTOV9lX1FXZ2swcjJMYTVFcGxvaXVkTnZ1dXRhem8?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-08T02:04:33Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9e09001070ca09bf",
-          "title": "日本のマヨネーズが世界を魅了 「ソース類」の輸出額が過去最高を更新 人気の裏には卵黄のコク アメリカでは“日本風”が誕生",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03YXFZcHVXV3E4cjA1RkF6WGFnN0VHNU1IZE1LVzhWVXBSdHVkR19NRHpIOEthcnNHMjROZWdCcFVTQU9NT0lScVo3V1pCdENqZjluT3ZDVHZzdDVlZUd0Z3ZPbGNKT1BIdlNpeER6anFHX0ZkVDNKN0FNdTlHakk?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-07T20:00:01Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,16 +180,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f57b1fa0b81b02ba",
-          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS2＝大川原製作所",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SQ3VhcjV5bWJONGpCTDA2VmFRUmEtQ2ZFUDYzVFBsQUFjc1dCR2ZOUGZqWS1LaTQ5dVlESWdNUHBxMUhvQzQ5bk83SWJRS1NlSTVseGpIMVF2ZGhpWWZwWjhPOURUZ0tFX1Iw?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-07-31T18:17:40Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "1e3558dd99c398af",
           "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
@@ -237,6 +228,16 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f57b1fa0b81b02ba",
+          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS2＝大川原製作所",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SQ3VhcjV5bWJONGpCTDA2VmFRUmEtQ2ZFUDYzVFBsQUFjc1dCR2ZOUGZqWS1LaTQ5dVlESWdNUHBxMUhvQzQ5bk83SWJRS1NlSTVseGpIMVF2ZGhpWWZwWjhPOURUZ0tFX1Iw?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-07-31T18:17:40Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -254,11 +255,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ba98a553caf26756",
-          "title": "ロピア、コスモス薬品／宮崎県都城市に「都城早水複合商業施設（店舗面積3355m2）」27年2月20日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vVWJDNmZ6X2ZEdGtWanJpWkwzeEFIbGNPS2Q0RDVwcTBELV9Eb0pTTzktdFNrc3RrV3luQUZCZW1qbzlhU1RTT1RKZTZGUHJWa0lwakJR?oc=5",
+          "id": "a1f5a8bf09514ea9",
+          "title": "薬王堂／栃木県に計3店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QVXBZaEFsUEVabE9QbHYyMlAzS1lXa1lYNWdHMFJ5MDB5SEhfQk5Jay1iVGVfN01jeFZBSHhyYzJITmpBNFRfbFdMR3NiNkY3YldXRUVR?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-07-28T07:00:00Z",
+          "published_at": "2026-07-27T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-09T02:32:46Z",
-  "last_success_at": "2026-08-09T02:32:46Z",
+  "last_attempt_at": "2026-08-09T13:25:06Z",
+  "last_success_at": "2026-08-09T13:25:06Z",
   "consecutive_failure_count": 0
 }
