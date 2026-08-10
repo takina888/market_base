@@ -3,8 +3,8 @@
 
   if (global.MarketBaseUpdate) return;
 
-  const BUILD_ID = 'MARKET_BASE_V333_18_CACHE_RADIO_NAVIGATION_STABILITY_20260810';
-  const ASSET_VERSION = '20260810-v333-18-cache-radio-navigation-stability';
+  const BUILD_ID = 'MARKET_BASE_V333_19_ANDROID_INSTALL_STABILITY_20260810';
+  const ASSET_VERSION = '20260810-v333-19-android-install-stability';
   const LEGACY_PAGE_BUILD = 'MARKET_BASE_LEGACY_PAGE';
   const CHANNEL_NAME = 'market-base-update-v1';
   const SIGNAL_KEY = 'market_base_global_refresh_signal';

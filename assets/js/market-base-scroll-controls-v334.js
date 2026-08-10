@@ -8,9 +8,9 @@
   var HOME_URL=new URL('index.html',SITE_ROOT);
   /* Keep one canonical controller. Loading V331 here raced the explicit V333
      controller and briefly mounted the retired tool dock on some pages. */
-  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v335.js?v=20260810-v333-18-cache-radio-navigation-stability',SITE_ROOT);
-  var NAVIGATION_URL=new URL('assets/js/market-base-navigation-v333-18.js?v=20260810-v333-18-cache-radio-navigation-stability',SITE_ROOT);
-  var NAVIGATION_STYLE_URL=new URL('assets/css/market-base-navigation-v333-18.css?v=20260810-v333-18-cache-radio-navigation-stability',SITE_ROOT);
+  var UPDATE_CONTROLLER_URL=new URL('assets/js/market-base-update-controller-v335.js?v=20260810-v333-19-android-install-stability',SITE_ROOT);
+  var NAVIGATION_URL=new URL('assets/js/market-base-navigation-v333-18.js?v=20260810-v333-19-android-install-stability',SITE_ROOT);
+  var NAVIGATION_STYLE_URL=new URL('assets/css/market-base-navigation-v333-18.css?v=20260810-v333-19-android-install-stability',SITE_ROOT);
   var LEARN_PREFIXES=['british-jokes/','classic-move/','haccp-quiz/','hs-learning/','international-logistics/','material-check/','rakuda-no-me/','sutra-no-yoin/','ul-ce-learning/','work-basics/'];
   var HOME_RETURN_PREFIXES=['british-jokes/','classic-move/','kimochi-biyori/','rakuda-no-me/','sutra-no-yoin/'];
   var LEARN_FILES={'world-history-today.html':true};

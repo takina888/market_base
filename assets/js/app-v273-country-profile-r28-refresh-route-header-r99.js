@@ -1,4 +1,4 @@
-// V333.18 / R98: in-page History API routing and deferred country-detail assets.
+// V333.19 / R98: in-page History API routing and deferred country-detail assets.
 // V127: unified rankings include basic stats, rice, school meals, and Japan-related metrics
 // V87: navigation/home view hardening + normalized non-cropped inline SVG flags.
 const FLAG_SVG_DIR_MAP = {};
@@ -529,7 +529,7 @@ function ensureCrossDbSearchIndex(){
     ? window.MarketBaseRuntime.loadScript(CROSS_DB_SEARCH_INDEX_PATH,'MARKET_BASE_CROSS_DB_SEARCH_INDEX')
     : new Promise((resolve,reject)=>{
       const script=document.createElement('script');
-      const token=window.MARKET_BASE_BUILD?.assetVersion||'20260810-v333-18-cache-radio-navigation-stability';
+      const token=window.MARKET_BASE_BUILD?.assetVersion||'20260810-v333-19-android-install-stability';
       script.src=`${CROSS_DB_SEARCH_INDEX_PATH}?v=${encodeURIComponent(token)}`;
       script.onload=resolve;
       script.onerror=()=>reject(new Error('cross database search index failed to load'));
@@ -3640,7 +3640,7 @@ document.getElementById('globalSearchForm')?.addEventListener('submit',event=>{
   openGlobalSearch(document.getElementById('globalSearchInput')?.value || '');
 });
 document.querySelectorAll('[data-global-search-scope]').forEach(button=>button.addEventListener('click',()=>setGlobalSearchScope(button.dataset.globalSearchScope)));
-// V333.18: focus remains instant. The large cross-DB index is requested by a
+// V333.19: focus remains instant. The large cross-DB index is requested by a
 // submitted search (openGlobalSearch) or another explicit search-scope action.
 
 

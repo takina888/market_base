@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MARKET BASE</string>
+    <string name="launch_url" translatable="false">https://takina888.github.io/market_base/</string>
+    <string name="fallback_strategy" translatable="false">customtabs</string>
+    <string name="screen_orientation" translatable="false">any</string>
+    <string name="asset_statements" translatable="false">[{&quot;relation&quot;:[&quot;delegate_permission/common.handle_all_urls&quot;],&quot;target&quot;:{&quot;namespace&quot;:&quot;web&quot;,&quot;site&quot;:&quot;https://takina888.github.io&quot;}}]</string>
+</resources>

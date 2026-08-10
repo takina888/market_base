@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color">#EEF3F9</color>
+    <color name="theme_color_dark">#0B2240</color>
+    <color name="navigation_color">#FFFFFF</color>
+    <color name="navigation_color_dark">#0B2240</color>
+</resources>

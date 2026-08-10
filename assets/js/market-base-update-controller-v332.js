@@ -5,7 +5,7 @@
   let root;
   try { root = new URL('../../', source); } catch (_) { root = new URL('./', global.location.href); }
   const target = new URL('assets/js/market-base-update-controller-v335.js', root);
-  target.searchParams.set('v', '20260810-v333-18-cache-radio-navigation-stability');
+  target.searchParams.set('v', '20260810-v333-19-android-install-stability');
   const script = document.createElement('script');
   script.src = target.href;
   script.async = false;

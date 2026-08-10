@@ -6,10 +6,10 @@ const LAST_TOOL_KEY='market_base_last_tool_v1';
 const scriptNode=document.currentScript||document.querySelector('script[data-mb-tool-menu]');
 let siteRoot;try{siteRoot=scriptNode?.src?new URL('../../',scriptNode.src):new URL('./',global.location.href)}catch(_){siteRoot=new URL('./',global.location.href)}
 const tools=[
- {id:'calculator',label:'計算機・単位換算',note:'計算と各種換算',icon:'calculator',href:'market-base-currency-converter-v273-r29.html?tool=calculator&v=20260810-v333-18-cache-radio-navigation-stability'},
- {id:'currency',label:'為替換算',note:'通貨レートを換算',icon:'currency',href:'market-base-currency-converter-v273-r29.html?tool=currency&v=20260810-v333-18-cache-radio-navigation-stability'},
+ {id:'calculator',label:'計算機・単位換算',note:'計算と各種換算',icon:'calculator',href:'market-base-currency-converter-v273-r29.html?tool=calculator&v=20260810-v333-19-android-install-stability'},
+ {id:'currency',label:'為替換算',note:'通貨レートを換算',icon:'currency',href:'market-base-currency-converter-v273-r29.html?tool=currency&v=20260810-v333-19-android-install-stability'},
  {id:'workphoto',label:'WORK PHOTO',note:'写真撮影・加工',icon:'camera',disabled:true,badge:'作成中'},
- {id:'code',label:'WORK CODE',note:'QR・バーコードの読取・作成・共有',icon:'code',href:'market-base-code-tool.html?v=20260810-v333-18-cache-radio-navigation-stability'}
+ {id:'code',label:'WORK CODE',note:'QR・バーコードの読取・作成・共有',icon:'code',href:'market-base-code-tool.html?v=20260810-v333-19-android-install-stability'}
 ];
 let backdrop=null,dialog=null,closeButton=null,lastFocused=null,observer=null;
 function storageSet(k,v){try{localStorage.setItem(k,v)}catch(_){}}
@@ -20,7 +20,7 @@ function iconSvg(name){const icons={
  code:'<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 8h12v12H8zM28 8h12v12H28zM8 28h12v12H8zM29 29h4v4h-4zM36 28v6M28 38h6M38 36v4M35 35h5"></path></svg>',
  camera:'<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 15h8l3-5h10l3 5h8a4 4 0 0 1 4 4v19a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V19a4 4 0 0 1 4-4Z"></path><circle cx="24" cy="28" r="9"></circle><circle cx="24" cy="28" r="4.5"></circle><path d="M36 21h2"></path></svg>'
 };return icons[name]||icons.code}
-function addStylesheet(){if(document.querySelector('link[data-mb-tool-menu-style]'))return;const link=document.createElement('link');link.rel='stylesheet';link.href=new URL('assets/css/market-base-tool-menu-v333.css?v=20260810-v333-18-cache-radio-navigation-stability',siteRoot).href;link.dataset.mbToolMenuStyle='';document.head.appendChild(link)}
+function addStylesheet(){if(document.querySelector('link[data-mb-tool-menu-style]'))return;const link=document.createElement('link');link.rel='stylesheet';link.href=new URL('assets/css/market-base-tool-menu-v333.css?v=20260810-v333-19-android-install-stability',siteRoot).href;link.dataset.mbToolMenuStyle='';document.head.appendChild(link)}
 function removeLegacyDock(){document.querySelectorAll('#marketBaseSecondaryDock,.mb-secondary-dock,.mb-tool-dock').forEach(node=>node.remove())}
 function createMenu(){
  const node=document.createElement('div');node.className='mb-tool-menu-backdrop';node.id='marketBaseToolMenu';node.hidden=true;

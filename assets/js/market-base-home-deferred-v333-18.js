@@ -2,7 +2,7 @@
   'use strict';
   if(global.MarketBaseHomeDeferred)return;
 
-  var TOKEN='20260810-v333-18-cache-radio-navigation-stability';
+  var TOKEN='20260810-v333-19-android-install-stability';
   var promises=Object.create(null);
   var failures=Object.create(null);
   var states=Object.create(null);

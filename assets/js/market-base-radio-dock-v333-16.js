@@ -14,7 +14,7 @@
   const VERTICAL_EDGE_GAP = 10;
   const SCROLL_CONTROL_GAP = 10;
   const DRAG_THRESHOLD_PX = 6;
-  const ASSET_VERSION = '20260810-v333-18-cache-radio-navigation-stability';
+  const ASSET_VERSION = '20260810-v333-19-android-install-stability';
   const sourceId = `dock-${Date.now()}-${Math.random().toString(36).slice(2)}`;
   const scriptNode = document.currentScript ||
     document.querySelector('script[data-mb-radio-dock]');

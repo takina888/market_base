@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.takina888.marketbase",
+      "sha256_cert_fingerprints": [
+        "72:4B:15:77:8E:77:07:F2:4B:2A:54:46:80:6E:99:9C:92:E4:36:5D:F7:6B:A7:A3:D8:5D:36:1D:00:5E:4C:85"
+      ]
+    }
+  }
+]

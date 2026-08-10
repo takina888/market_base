@@ -1,10 +1,10 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V333_18_CACHE_RADIO_NAVIGATION_STABILITY_20260810',
-    label: 'MARKET BASE V.333.18',
-    release: 'V.333.18',
+    id: 'MARKET_BASE_V333_19_ANDROID_INSTALL_STABILITY_20260810',
+    label: 'MARKET BASE V.333.19',
+    release: 'V.333.19',
     date: '2026-08-10',
-    assetVersion: '20260810-v333-18-cache-radio-navigation-stability'
+    assetVersion: '20260810-v333-19-android-install-stability'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseRuntimeBuild = build.id;

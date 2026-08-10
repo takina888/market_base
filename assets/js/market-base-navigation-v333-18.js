@@ -2,7 +2,7 @@
   'use strict';
   if(global.MarketBaseNavigation)return;
 
-  var TOKEN='20260810-v333-18-cache-radio-navigation-stability';
+  var TOKEN='20260810-v333-19-android-install-stability';
   var script=document.currentScript;
   var scriptUrl=script&&script.src?new URL(script.src):new URL('assets/js/market-base-navigation-v333-18.js',location.href);
   var siteRoot=new URL('../../',scriptUrl);

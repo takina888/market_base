@@ -1,0 +1,182 @@
+.mb-install-help-dialog {
+  width: min(560px, calc(100% - 28px));
+  max-width: 560px;
+  max-height: min(760px, calc(100dvh - 32px));
+  margin: auto;
+  padding: 0;
+  overflow: auto;
+  border: 0;
+  border-radius: 26px;
+  background: #fff;
+  color: #102b50;
+  box-shadow: 0 28px 90px rgba(5, 28, 61, .32);
+}
+
+.mb-install-help-dialog::backdrop {
+  background: rgba(5, 20, 43, .62);
+  backdrop-filter: blur(3px);
+}
+
+.mb-install-help-dialog[open] {
+  display: block;
+}
+
+.mb-install-help-dialog.mb-install-help-fallback {
+  position: fixed;
+  inset: 16px;
+  z-index: 12000;
+}
+
+.mb-install-help-card {
+  display: grid;
+  gap: 16px;
+  padding: 24px;
+}
+
+.mb-install-help-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.mb-install-help-kicker {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  margin: 0 0 8px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: #e8f2ff;
+  color: #0865cc;
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.mb-install-help-title {
+  margin: 0;
+  color: #082e68;
+  font-size: clamp(23px, 6vw, 30px);
+  line-height: 1.25;
+}
+
+.mb-install-help-close {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: #edf4fc;
+  color: #274f7a;
+  font-size: 27px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.mb-install-help-summary,
+.mb-install-help-note {
+  margin: 0;
+  color: #465f79;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.mb-install-help-note {
+  padding: 12px 14px;
+  border: 1px solid #d8e5f3;
+  border-radius: 16px;
+  background: #f5f9fe;
+  font-size: 13px;
+}
+
+.mb-install-help-actions {
+  display: grid;
+  gap: 9px;
+}
+
+.mb-install-help-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 11px 15px;
+  border: 1px solid #c9dced;
+  border-radius: 15px;
+  background: #f3f8fe;
+  color: #124d8c;
+  text-align: center;
+  text-decoration: none;
+  font: inherit;
+  font-weight: 950;
+  cursor: pointer;
+}
+
+.mb-install-help-action--primary {
+  border-color: #0868d7;
+  background: #0868d7;
+  color: #fff;
+}
+
+.mb-install-help-action[hidden] {
+  display: none !important;
+}
+
+.mb-install-help-details {
+  border-top: 1px solid #e1eaf4;
+  padding-top: 12px;
+  color: #526b85;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.mb-install-help-details summary {
+  color: #175b9d;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.mb-install-help-details ol {
+  margin: 10px 0 0;
+  padding-left: 22px;
+}
+
+.mb-install-help-details[hidden] {
+  display: none !important;
+}
+
+.mb-install-help-security {
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #fff6dc;
+  color: #6f4b00;
+  font-weight: 850;
+}
+
+@media (max-width: 520px) {
+  .mb-install-help-dialog {
+    width: calc(100% - 20px);
+    max-height: calc(100dvh - 20px);
+    border-radius: 22px;
+  }
+
+  .mb-install-help-card {
+    gap: 14px;
+    padding: 20px 17px calc(20px + env(safe-area-inset-bottom));
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .mb-install-help-dialog[open] .mb-install-help-card {
+    animation: mbInstallHelpIn .18s ease-out both;
+  }
+
+  @keyframes mbInstallHelpIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
