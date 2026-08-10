@@ -9,9 +9,12 @@
   const POSITION_KEY = 'market_base_radio_dock_position_v1';
   const DISMISSED_KEY = 'market_base_radio_dock_dismissed_v1';
   const CHANNEL_NAME = 'market-base-radio-v1';
-  const STATE_GRACE_MS = 12 * 60 * 60 * 1000;
+  const LEGACY_STATE_GRACE_MS = 12 * 60 * 60 * 1000;
   const COMMAND_ACK_TIMEOUT_MS = 3200;
   const VERTICAL_EDGE_GAP = 10;
+  const SCROLL_CONTROL_GAP = 10;
+  const DRAG_THRESHOLD_PX = 6;
+  const ASSET_VERSION = '20260810-v333-18-cache-radio-navigation-stability';
   const sourceId = `dock-${Date.now()}-${Math.random().toString(36).slice(2)}`;
   const scriptNode = document.currentScript ||
     document.querySelector('script[data-mb-radio-dock]');
@@ -34,8 +37,14 @@
   let messageResetHandle = 0;
   let commandAckHandle = 0;
   let pendingCommandId = '';
+  let pendingCommandSentAt = 0;
+  let pendingCommandTargetId = '';
   let positionFrame = 0;
   let dragState = null;
+  let suppressTabClickUntil = 0;
+  let scrollControlsObserver = null;
+  let scrollControlsResizeObserver = null;
+  let observedScrollControls = null;
 
   function storageGet(key) {
     try { return localStorage.getItem(key); }
@@ -66,26 +75,39 @@
   }
 
   function stateIsFresh(state) {
-    return !!(
-      state &&
-      Number(state.version || 0) >= 2 &&
-      state.stationId &&
-      Number.isFinite(Number(state.updatedAt)) &&
-      Date.now() - Number(state.updatedAt) >= 0 &&
-      Date.now() - Number(state.updatedAt) < STATE_GRACE_MS
-    );
+    if (!state || Number(state.version || 0) < 2 || !state.stationId) return false;
+    const now = Date.now();
+    const updatedAt = Number(state.updatedAt);
+    if (!Number.isFinite(updatedAt) || now - updatedAt < 0) return false;
+    const validUntil = Number(state.validUntil);
+    if (Number.isFinite(validUntil) && validUntil > 0) return validUntil > now;
+    return now - updatedAt < LEGACY_STATE_GRACE_MS;
+  }
+
+  function addBootstrapStyle() {
+    if (document.querySelector('style[data-mb-radio-dock-bootstrap]')) return;
+    const style = document.createElement('style');
+    style.dataset.mbRadioDockBootstrap = '';
+    style.textContent = [
+      '.mb-radio-dock[data-style-ready="false"]{visibility:hidden!important}',
+      '.mb-radio-dock[data-style-ready="false"],',
+      '.mb-radio-dock[data-style-ready="false"] *{transition:none!important}'
+    ].join('');
+    document.head.appendChild(style);
   }
 
   function addStylesheet() {
-    if (document.querySelector('link[data-mb-radio-dock-style]')) return;
+    const existing = document.querySelector('link[data-mb-radio-dock-style]');
+    if (existing) return existing;
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = new URL(
-      'assets/css/market-base-dual-dock-v331.css?v=20260804-v333-14-cache-refresh-stabilization',
+      `assets/css/market-base-radio-dock-v333-16.css?v=${ASSET_VERSION}`,
       siteRoot
     ).href;
     link.dataset.mbRadioDockStyle = '';
     document.head.appendChild(link);
+    return link;
   }
 
   function createDock() {
@@ -93,6 +115,8 @@
     node.className = 'mb-radio-dock';
     node.id = 'marketBaseRadioDock';
     node.dataset.dockKind = 'radio';
+    node.dataset.collapsed = String(collapsed);
+    node.dataset.styleReady = 'false';
     node.setAttribute('aria-label', '世界のラジオ');
     node.innerHTML = `
       <section class="mb-radio-dock-panel" id="mbRadioDockPanel" aria-label="世界のラジオ操作">
@@ -122,7 +146,7 @@
             <button type="button" data-radio-command="next" aria-label="次の放送局">›</button>
           </div>
           <a class="mb-radio-dock-open" id="mbRadioDockOpen"
-            href="${new URL('world-radio/player.html?id=wnyc&autoplay=1&v=20260804-v333-14-cache-refresh-stabilization', siteRoot).href}"
+            href="${new URL(`world-radio/player.html?id=wnyc&autoplay=1&v=${ASSET_VERSION}`, siteRoot).href}"
             target="_blank" rel="noopener"
             aria-label="世界のラジオプレイヤーを別タブで開く">
             <span aria-hidden="true">↗</span>
@@ -140,11 +164,26 @@
           aria-hidden="true" title="押したまま移動">⠿</span>
       </button>
     `;
+    const initialPanel = node.querySelector('#mbRadioDockPanel');
+    const initialTab = node.querySelector('#mbRadioDockTab');
+    const initialArrow = node.querySelector('#mbRadioDockTabArrow');
+    initialPanel?.setAttribute('aria-hidden', String(collapsed));
+    initialTab?.setAttribute('aria-expanded', String(!collapsed));
+    initialTab?.setAttribute(
+      'aria-label',
+      collapsed ? 'ラジオ小窓を開く' : 'ラジオ小窓をしまう'
+    );
+    if (initialArrow) initialArrow.textContent = collapsed ? '‹' : '›';
     document.body.appendChild(node);
     return node;
   }
 
-  addStylesheet();
+  currentState = stateIsFresh(readState()) ? readState() : null;
+  if (collapsedPreference === '1') collapsed = true;
+  else if (collapsedPreference === '0') collapsed = false;
+  else collapsed = !currentState;
+  addBootstrapStyle();
+  const dockStylesheet = addStylesheet();
   const dock = createDock();
   const panel = dock.querySelector('#mbRadioDockPanel');
   const dockTab = dock.querySelector('#mbRadioDockTab');
@@ -213,7 +252,12 @@
     const safeRight = cssPixels('--dock-safe-right');
     const safeBottom = cssPixels('--dock-safe-bottom');
     const panelWidth = Math.max(1, dock.offsetWidth || 0, panel.offsetWidth || 280);
-    const panelHeight = Math.max(1, panel.offsetHeight || 132);
+    const panelHeight = Math.max(
+      1,
+      dock.offsetHeight || 0,
+      panel.offsetHeight || 132,
+      dockTab.offsetHeight || 108
+    );
     const tabWidth = Math.max(1, dockTab.offsetWidth || 38);
     const minimumX = tabWidth;
     /* innerWidth includes the classic PC scrollbar in some browsers. Use the
@@ -228,10 +272,31 @@
       viewportWidth - safeRight - panelWidth
     );
     const minimumY = VERTICAL_EDGE_GAP + safeTop;
-    const maximumY = Math.max(
-      minimumY,
-      global.innerHeight - VERTICAL_EDGE_GAP - safeBottom - panelHeight
+    const viewportHeight = Math.max(
+      1,
+      document.documentElement?.clientHeight || global.innerHeight || 1
     );
+    let maximumY = viewportHeight - VERTICAL_EDGE_GAP - safeBottom - panelHeight;
+    let scrollControlTop = 0;
+    const upButton = document.querySelector(
+      '[data-mb-scroll-controls]:not([hidden]) .mb-scroll-control-up:not([hidden])'
+    );
+    if (upButton) {
+      const upRect = upButton.getBoundingClientRect();
+      if (
+        upRect.width > 0 &&
+        upRect.height > 0 &&
+        upRect.bottom > 0 &&
+        upRect.top < viewportHeight
+      ) {
+        scrollControlTop = upRect.top;
+        maximumY = Math.min(
+          maximumY,
+          scrollControlTop - SCROLL_CONTROL_GAP - panelHeight
+        );
+      }
+    }
+    maximumY = Math.max(minimumY, maximumY);
     return {
       panelWidth,
       panelHeight,
@@ -239,7 +304,8 @@
       minimumX,
       maximumX,
       minimumY,
-      maximumY
+      maximumY,
+      scrollControlTop
     };
   }
 
@@ -282,7 +348,9 @@
     return {
       x: bounds.maximumX,
       y: compact
-        ? Math.max(bounds.minimumY, bounds.maximumY - 82)
+        ? (bounds.scrollControlTop
+          ? bounds.maximumY
+          : Math.max(bounds.minimumY, bounds.maximumY - 82))
         : bounds.minimumY +
           (bounds.maximumY - bounds.minimumY) * .62
     };
@@ -317,6 +385,75 @@
       if (dragState) return;
       positionFrame = global.requestAnimationFrame(restorePosition);
     });
+  }
+
+  function markDockStyleReady() {
+    if (dock.dataset.styleReady === 'true') return;
+    global.requestAnimationFrame(() => {
+      restorePosition();
+      global.requestAnimationFrame(() => {
+        dock.dataset.styleReady = 'true';
+      });
+    });
+  }
+
+  function waitForDockStylesheet() {
+    if (!dockStylesheet) {
+      markDockStyleReady();
+      return;
+    }
+    if (dockStylesheet.sheet) {
+      markDockStyleReady();
+      return;
+    }
+    dockStylesheet.addEventListener('load', markDockStyleReady, { once: true });
+    dockStylesheet.addEventListener('error', () => {
+      dock.hidden = true;
+      console.warn('MARKET BASE radio dock stylesheet failed to load');
+    }, { once: true });
+  }
+
+  function attachScrollControlsObserver() {
+    const rail = document.querySelector('[data-mb-scroll-controls]');
+    if (rail === observedScrollControls) {
+      schedulePositionRestore();
+      return;
+    }
+    if (observedScrollControls) scrollControlsResizeObserver?.unobserve(observedScrollControls);
+    observedScrollControls = rail;
+    if (rail) scrollControlsResizeObserver?.observe(rail);
+    schedulePositionRestore();
+  }
+
+  function observeScrollControls() {
+    if ('ResizeObserver' in global) {
+      scrollControlsResizeObserver = new ResizeObserver(schedulePositionRestore);
+    }
+    attachScrollControlsObserver();
+    if ('MutationObserver' in global && document.body) {
+      scrollControlsObserver = new MutationObserver(records => {
+        const relevant = records.some(record => {
+          if (record.type === 'attributes') {
+            if (record.target === document.body) return true;
+            return record.target === observedScrollControls ||
+              record.target.closest?.('[data-mb-scroll-controls]');
+          }
+          return [...record.addedNodes, ...record.removedNodes].some(node =>
+            node.nodeType === 1 && (
+              node.matches?.('[data-mb-scroll-controls]') ||
+              node.querySelector?.('[data-mb-scroll-controls]')
+            )
+          );
+        });
+        if (relevant) attachScrollControlsObserver();
+      });
+      scrollControlsObserver.observe(document.body, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+        attributeFilter: ['hidden', 'class', 'style']
+      });
+    }
   }
 
   function renderTrack(state) {
@@ -365,7 +502,7 @@
       renderTrack(null);
       controls.hidden = true;
       openLink.href = new URL(
-        'world-radio/player.html?id=wnyc&autoplay=1&v=20260804-v333-14-cache-refresh-stabilization',
+        `world-radio/player.html?id=wnyc&autoplay=1&v=${ASSET_VERSION}`,
         siteRoot
       ).href;
       message.textContent = '';
@@ -388,7 +525,7 @@
       active ? '再生を停止する' : '再生する'
     );
     openLink.href = new URL(
-      `world-radio/player.html?id=${encodeURIComponent(currentState.stationId)}&autoplay=1&v=20260804-v333-14-cache-refresh-stabilization`,
+      `world-radio/player.html?id=${encodeURIComponent(currentState.stationId)}&autoplay=1&v=${ASSET_VERSION}`,
       siteRoot
     ).href;
     if (currentState.needsGesture && currentState.interrupted) {
@@ -416,6 +553,10 @@
 
   function sendCommand(action) {
     if (!global.navigator.onLine) { temporaryMessage('オンライン時に利用できます。'); return; }
+    if (pendingCommandId) {
+      temporaryMessage('前の操作を処理しています…');
+      return;
+    }
     if (!currentState?.instanceId) {
       temporaryMessage('別タブのプレイヤーを開いてください。');
       return;
@@ -431,11 +572,25 @@
     try { channel?.postMessage(command); } catch (_) {}
     storageSet(COMMAND_KEY, JSON.stringify(command));
     pendingCommandId = command.id;
+    pendingCommandSentAt = command.sentAt;
+    pendingCommandTargetId = command.targetInstanceId;
     global.clearTimeout(commandAckHandle);
     commandAckHandle = global.setTimeout(() => {
       if (pendingCommandId !== command.id) return;
-      pendingCommandId = '';
       const stored = readState();
+      if (
+        stored?.instanceId === command.targetInstanceId &&
+        Number(stored.updatedAt || 0) >= command.sentAt
+      ) {
+        pendingCommandId = '';
+        pendingCommandSentAt = 0;
+        pendingCommandTargetId = '';
+        render(stored);
+        return;
+      }
+      pendingCommandId = '';
+      pendingCommandSentAt = 0;
+      pendingCommandTargetId = '';
       if (stored?.instanceId === command.targetInstanceId) storageRemove(STATE_KEY);
       render(null);
       temporaryMessage('再生タブとの接続が切れました。別タブを開いてください。');
@@ -459,18 +614,24 @@
       startY: event.clientY,
       left: clamp(rect.left, bounds.minimumX, bounds.maximumX),
       top: clamp(rect.top, bounds.minimumY, bounds.maximumY),
-      captureTarget: event.currentTarget
+      captureTarget: event.currentTarget,
+      moved: false
     };
     dragState.captureTarget.setPointerCapture?.(event.pointerId);
-    dock.dataset.dragging = 'true';
-    event.preventDefault();
   }
 
   function moveDrag(event) {
     if (!dragState || event.pointerId !== dragState.pointerId) return;
+    const deltaX = event.clientX - dragState.startX;
+    const deltaY = event.clientY - dragState.startY;
+    if (!dragState.moved) {
+      if (Math.hypot(deltaX, deltaY) < DRAG_THRESHOLD_PX) return;
+      dragState.moved = true;
+      dock.dataset.dragging = 'true';
+    }
     applyPosition(
-      dragState.left + event.clientX - dragState.startX,
-      dragState.top + event.clientY - dragState.startY,
+      dragState.left + deltaX,
+      dragState.top + deltaY,
       false
     );
     event.preventDefault();
@@ -478,17 +639,24 @@
 
   function finishDrag(event) {
     if (!dragState || event.pointerId !== dragState.pointerId) return;
-    const rect = dock.getBoundingClientRect();
+    const moved = dragState.moved;
+    const rect = moved ? dock.getBoundingClientRect() : null;
     const captureTarget = dragState.captureTarget;
     captureTarget.releasePointerCapture?.(event.pointerId);
     dragState = null;
     delete dock.dataset.dragging;
-    applyPosition(rect.left, rect.top, true);
-    event.preventDefault();
+    if (moved && rect) {
+      suppressTabClickUntil = Date.now() + 400;
+      applyPosition(rect.left, rect.top, true);
+      event.preventDefault();
+    }
   }
 
   dockTab.addEventListener('click', event => {
-    if (event.target.closest('.mb-radio-dock-tab-grip')) return;
+    if (Date.now() < suppressTabClickUntil) {
+      event.preventDefault();
+      return;
+    }
     const next = !collapsed;
     collapsedPreference = next ? '1' : '0';
     storageSet(COLLAPSED_KEY, collapsedPreference);
@@ -523,16 +691,13 @@
   dragHandle.addEventListener('pointermove', moveDrag);
   dragHandle.addEventListener('pointerup', finishDrag);
   dragHandle.addEventListener('pointercancel', finishDrag);
-  dockTabGrip.addEventListener('click', event => {
-    event.preventDefault();
-    event.stopPropagation();
-  });
-  dockTabGrip.addEventListener('pointerdown', beginDrag);
-  dockTabGrip.addEventListener('pointermove', moveDrag);
-  dockTabGrip.addEventListener('pointerup', finishDrag);
-  dockTabGrip.addEventListener('pointercancel', finishDrag);
+  dockTab.addEventListener('pointerdown', beginDrag);
+  dockTab.addEventListener('pointermove', moveDrag);
+  dockTab.addEventListener('pointerup', finishDrag);
+  dockTab.addEventListener('pointercancel', finishDrag);
 
-  if ('BroadcastChannel' in global) {
+  function openChannel() {
+    if (channel || !('BroadcastChannel' in global)) return;
     try {
       channel = new BroadcastChannel(CHANNEL_NAME);
       channel.addEventListener('message', event => {
@@ -543,16 +708,38 @@
             event.data.commandId === pendingCommandId
           ) {
             pendingCommandId = '';
+            pendingCommandSentAt = 0;
+            pendingCommandTargetId = '';
             global.clearTimeout(commandAckHandle);
           }
           if (event.data.state) render(event.data.state);
         }
       });
-    } catch (_) {}
+    } catch (_) { channel = null; }
   }
 
+  function closeChannel() {
+    try { channel?.close(); } catch (_) {}
+    channel = null;
+  }
+
+  openChannel();
+
   global.addEventListener('storage', event => {
-    if (event.key === STATE_KEY) render();
+    if (event.key === STATE_KEY) {
+      const state = readState();
+      if (
+        pendingCommandId &&
+        state?.instanceId === pendingCommandTargetId &&
+        Number(state.updatedAt || 0) >= pendingCommandSentAt
+      ) {
+        pendingCommandId = '';
+        pendingCommandSentAt = 0;
+        pendingCommandTargetId = '';
+        global.clearTimeout(commandAckHandle);
+      }
+      render(state);
+    }
     if (event.key === COLLAPSED_KEY) {
       collapsedPreference = event.newValue;
       syncAutomaticCollapse();
@@ -585,15 +772,28 @@
   document.addEventListener('visibilitychange', () => {
     if (!document.hidden) global.setTimeout(requestRecoveryOnReturn, 120);
   });
-  global.addEventListener('pageshow', () => global.setTimeout(requestRecoveryOnReturn, 120));
+  global.addEventListener('pageshow', () => {
+    openChannel();
+    global.setTimeout(requestRecoveryOnReturn, 120);
+    schedulePositionRestore();
+  });
 
   applyDismissed(dismissed, false);
   render();
-  global.setInterval(() => render(), 30000);
-  global.addEventListener('pagehide', () => {
+  waitForDockStylesheet();
+  observeScrollControls();
+  const renderInterval = global.setInterval(() => render(), 30000);
+  global.addEventListener('pagehide', event => {
+    if (event.persisted) {
+      closeChannel();
+      return;
+    }
     global.clearTimeout(commandAckHandle);
-    try { channel?.close(); } catch (_) {}
-  }, { once: true });
+    global.clearInterval(renderInterval);
+    scrollControlsObserver?.disconnect();
+    scrollControlsResizeObserver?.disconnect();
+    closeChannel();
+  });
 
   global.MarketBaseRadioDock = Object.freeze({
     root: siteRoot.href,

@@ -1,0 +1,94 @@
+/* MARKET BASE V333.18: fixed-UI-safe, opacity-only navigation feedback. */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 160ms;
+  animation-timing-function: cubic-bezier(.2,.72,.2,1);
+}
+
+::view-transition-old(root) {
+  animation-name: mb-view-fade-out;
+}
+
+::view-transition-new(root) {
+  animation-name: mb-view-fade-in;
+}
+
+@keyframes mb-view-fade-out {
+  to { opacity: .88; }
+}
+
+@keyframes mb-view-fade-in {
+  from { opacity: .82; }
+}
+
+@keyframes mb-route-enter {
+  from { opacity: .82; }
+  to { opacity: 1; }
+}
+
+.view.mb-route-enter,
+.home-view-content.mb-route-enter {
+  animation: mb-route-enter 150ms cubic-bezier(.2,.72,.2,1) both;
+}
+
+/* Never animate body/html: a transformed root changes the containing block of
+   the fixed radio dock and scroll controls. Only document content may fade. */
+html.mb-page-entering body > main {
+  animation: mb-route-enter 140ms ease-out both;
+}
+
+body.mb-view-switching {
+  cursor: progress;
+}
+
+#historyLearningMount[data-mb-deferred-loading="true"],
+#worldWhyLearning[data-mb-deferred-loading="true"] #worldWhyList {
+  min-height: 96px;
+}
+
+.mb-deferred-status {
+  margin: 14px 0;
+  padding: 13px 15px;
+  border: 1px solid #d8e5f3;
+  border-radius: 12px;
+  background: #f7fbff;
+  color: #365776;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.mb-deferred-status.is-error {
+  border-color: #ead8d8;
+  background: #fff9f9;
+  color: #7e4141;
+}
+
+.mb-deferred-sentinel {
+  min-height: 1px;
+}
+
+#historyLearningMount,
+#worldWhyLearning {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 420px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition { navigation: none; }
+
+  ::view-transition-old(root),
+  ::view-transition-new(root),
+  .view.mb-route-enter,
+  .home-view-content.mb-route-enter,
+  html.mb-page-entering body > main {
+    animation: none !important;
+  }
+
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+}

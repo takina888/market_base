@@ -34,21 +34,21 @@
         order: 10,
         label: '計算機・単位換算',
         icon: 'calculator',
-        href: 'market-base-currency-converter-v273-r29.html?tool=calculator&v=20260803-v333-7-2-work-code-controls'
+        href: 'market-base-currency-converter-v273-r29.html?tool=calculator&v=20260804-v333-14-cache-refresh-stabilization'
       },
       {
         id: 'currency',
         order: 20,
         label: '為替換算',
         icon: 'currency',
-        href: 'market-base-currency-converter-v273-r29.html?tool=currency&v=20260803-v333-7-2-work-code-controls'
+        href: 'market-base-currency-converter-v273-r29.html?tool=currency&v=20260804-v333-14-cache-refresh-stabilization'
       },
       {
         id: 'code',
         order: 900,
         label: 'WORK CODE',
         icon: 'code',
-        href: 'market-base-code-tool.html?v=20260803-v333-7-2-work-code-controls'
+        href: 'market-base-code-tool.html?v=20260804-v333-14-cache-refresh-stabilization'
       }
     ]
   });

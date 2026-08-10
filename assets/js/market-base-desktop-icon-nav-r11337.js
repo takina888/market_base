@@ -5,12 +5,13 @@
   var explicit=(script&&script.dataset.mbActive||'').toLowerCase();
   var path=(location.pathname||'').toLowerCase();
   var file=(path.split('/').pop()||'index.html').toLowerCase();
+  var isMainIndex=file==='index.html' && !/\/(ul-ce-learning|hs-learning|international-logistics)\//.test(path);
   var valid=['home','countries','tools','search','rankings','compare','learn'];
 
   var LAST_TOOL_KEY='market_base_last_tool_v1';
   function lastTool(){try{return localStorage.getItem(LAST_TOOL_KEY)==='calculator'?'calculator':'currency';}catch(_e){return 'currency';}}
   function href(target){
-    if(target==='market-base-currency-converter-v273-r29.html')return root+target+'?tool='+lastTool()+'&v=20260803-v333-7-2-work-code-controls';
+    if(target==='market-base-currency-converter-v273-r29.html')return root+target+'?tool='+lastTool()+'&v=20260810-v333-18-cache-radio-navigation-stability';
     return root+target;
   }
   function icon(name){
@@ -61,7 +62,6 @@
   function detectActive(){
     var query=new URLSearchParams(location.search);
     var view=(query.get('view')||'').toLowerCase();
-    var isMainIndex=file==='index.html' && !/\/(ul-ce-learning|hs-learning|international-logistics)\//.test(path);
     if(isMainIndex){
       var live=liveIndexActive();
       if(live)return live;
@@ -109,8 +109,22 @@
   }
   create();
   document.addEventListener('click',function(e){
+    if(!isMainIndex||e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+    var link=e.target.closest('.mb-global-icon-band a[data-mb-global-nav]');
+    if(!link)return;
+    var key=link.dataset.mbGlobalNav;
+    if(key==='tools')return;
+    var router=window.MarketBaseInPageRouter;
+    if(!router||typeof router.navigate!=='function')return;
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    router.navigate(key==='search'?'global-search':key,{source:'desktop-icon-nav'});
+    setTimeout(sync,0);
+  },true);
+  document.addEventListener('click',function(e){
     if(e.target.closest('[data-view],[data-jump],[data-home],[data-ranking-compare-tab]'))setTimeout(sync,0);
   },true);
+  document.addEventListener('marketbase:viewchange',sync);
   window.addEventListener('popstate',sync);
   window.addEventListener('hashchange',sync);
   window.addEventListener('storage',function(event){if(event.key===LAST_TOOL_KEY){var link=document.querySelector('a[data-mb-global-nav="tools"]');if(link)link.href=href('market-base-currency-converter-v273-r29.html');}});
