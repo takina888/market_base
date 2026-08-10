@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-09T19:06:51Z",
+  "generated_at": "2026-08-10T02:38:24Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -50,31 +50,31 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "d6378533cd774673",
+          "title": "原水爆禁止２０２６年世界大会/核廃絶の連帯大きく/海外代表との交流のつどい | しんぶん赤旗",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KNENSVXMyRmJmc1JZUWQwWExCa2lZMmhJODJOdTVxYVBKbWtGeWs0MFUxcmJiQWZkTzVLNFB2c0c0emVTdWlESFBJTDNWcVRTMDQ1WmhWYWRhUVdTSDVqX1RKaU8wVk5TeFZ4S2Z6V3NGMnE5?oc=5",
+          "source": "jcp.or.jp",
+          "published_at": "2026-08-08T23:51:38Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "385a7a3db3b6aabf",
           "title": "ポーランドが誇る世界への窓「グディニア・モダニズム都市中心地区」がユネスコ世界遺産に登録！",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVTVVnNnFvLVcxam5TT2JmMFRfWEVxbm82MDZKQW0xZ3FIU0VvT0xUR3I1NHV4LUFoZU1LQlFRZ21SdDR6eFFTVXhWT0g0eXhnUlFUNlEzMXZhbXZGdlBTZXJ0MnpqVFlNNnlRTXZXOHByRzFWZnNERg?oc=5",
-          "source": "mag.tecture.jp",
+          "source": "TECTURE MAG（テクチャーマガジン）",
           "published_at": "2026-08-08T23:00:11Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "114847ab418e1334",
-          "title": "世界は本来、境界なくつながっている── チームラボ代表・猪子寿之が語る創作の思想や原体験に、森山未來が迫る。【MEET YOUR ARTISTS】 | ニュース | エイベックス・ポータル",
+          "id": "77b4b5015c7d90ab",
+          "title": "世界は本来、境界なくつながっている── チームラボ代表・猪子寿之が語る創作の思想や原体験に、森山未來が迫る。【MEET YOUR ARTISTS】",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5hRkx3NnVOc3BpeFBsSEk5bEZOejFsaUVNQTlLT1Z2Mjh1TFlwcHdPdUFIQjhWRVdWal9LVDJsa2x3eXd4OFE?oc=5",
           "source": "エイベックス・ポータル",
           "published_at": "2026-08-08T11:24:59Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b900f8ca0240d2f6",
-          "title": "「#世界猫の日」ノンタンからアイルーまで猫キャラがお祝い！意外なパパキャラまで猫耳で登場（ハフポスト日本版）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54b1k3d1ZiS1MzSmhUdVlNRV9vaXg1bUZITGEwRGx5RmI4UXE3cDB5c2lYY1N4ckl2Y3dmTWtyOExBUW45U050QWlRUWhtZ0pacEoxWXplYUJMb1RGbHZoZ3JDTUdDTUZWX0duZk4xdUljQkJGTzg4WmV4V2psc2c?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-08T06:45:37Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -193,7 +193,7 @@
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "monoist.itmedia.co.jp",
+          "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -223,7 +223,7 @@
           "id": "99b1c95f0b01beaa",
           "title": "自動車工場で見えるのに、食品工場では見えないモノ～今日何個作ると決めたか",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ed0JQbFVtSVgzNlgzM2daVTNSSG1oOEFVUFNXVXFPZWplUW5ObFVpNUQxYkJpU05jQm1hcGhZR1dsbURwWDc3N01TaDk3cTRPOFY0dFVIT0FMREo4VmN5eDJ1b3JSYjRCbVJXR05rcw?oc=5",
-          "source": "monoist.itmedia.co.jp",
+          "source": "MONOist",
           "published_at": "2026-05-25T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -255,26 +255,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a1f5a8bf09514ea9",
-          "title": "薬王堂／栃木県に計3店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QVXBZaEFsUEVabE9QbHYyMlAzS1lXa1lYNWdHMFJ5MDB5SEhfQk5Jay1iVGVfN01jeFZBSHhyYzJITmpBNFRfbFdMR3NiNkY3YldXRUVR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-27T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "94ace283ac879e07",
-          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-23T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "6def167432cca401",
           "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
@@ -295,21 +275,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1beb9cb013778c99",
-          "title": "コメリ／大阪府泉南市に「コメリパワー泉南店（店舗面積9736m2）」27年1月31日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxQjhwZHpFa0RQV3VEcVpDaFg5OVk0R0I4dmR5WFZwd3puY0cwb0RrOGhlWXNwTi1yTHF0WjUtakp1TFBSUEo0dmhYUTBFMUhBNkFpVmp3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-17T07:00:00Z",
+          "id": "ae9b11e76bdf754a",
+          "title": "沖縄・コンビニ激戦県に新風、必須の「駐車場」ない店相次ぎ開業",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsUk9CbUl4aTdjbFNoMFk2UW9vRUY3amx3TXB0WElQM2cwWkhJZXlwMkJEYWhjdWdyNldIQ0cxNk85dll1SUZLdmNWQTRKZFJZTm9GSmZsejN0eEFRM3QwdjlxNkswcmIwemRCVQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-07-13T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "df608e9180467e7e",
-          "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-17T07:00:00Z",
+          "id": "ecfe7cfdecc47fba",
+          "title": "伊勢神宮・おはらい町通りに新店舗 二軒茶屋餅角屋本店：ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SY19qWlJEbnBoTmNPUy1XYUVocWxIX3g5WW0zVmltX3ZsMDZHV2hGcG1ubUZONXdkdGo4eWx6dWtqVTVzTHdwN1BfazZ4YlJEUzdDNFA0eGMwOUplQXlV?oc=5",
+          "source": "中日BIZナビ",
+          "published_at": "2026-08-07T02:20:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "006e80fbadce103e",
+          "title": "東京・多摩地域に「製造物流IT小売業」が新店舗、10月着工",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xbHJicmhDNENLTGlzV3RQWmxyNDFqaFZzUnhiZ2EtWjl6TFN2VzdfS1BkVG1FMmRmX2FtLWVucnFWSGFhb3NTUUVWU3pYcDVsR2Z3ZENR?oc=5",
+          "source": "建設通信新聞Digital",
+          "published_at": "2026-08-04T02:21:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "55c4d4ca1e04efa5",
+          "title": "清々しい木の香り漂うコンビニが四国中央に セブン-イレブンが中四国初の木造店舗をオープン（南海放送）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iUEFoclUxaFJZbDhQZ2RDQURhSzdJSEV4ekc3MXE5ZVZ5YU1mSUJpb3J1b1k3VzNnb18xa0k2SjgzQ0sydzF0Vi1KMDRjRV9TSmtMa3ZFemhvc2FmdmtKTWtONXVHXzVJNEhDLVhHRml0WVJsekVnSXFhR3ljbGc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-02T15:01:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-09T19:06:51Z",
-  "last_success_at": "2026-08-09T19:06:51Z",
+  "last_attempt_at": "2026-08-10T02:38:24Z",
+  "last_success_at": "2026-08-10T02:38:24Z",
   "consecutive_failure_count": 0
 }
