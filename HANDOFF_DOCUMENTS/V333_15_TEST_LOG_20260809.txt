@@ -1,0 +1,238 @@
+===== country_distinctive_facts =====
+{
+  "status": "PASS",
+  "release": "V333.15",
+  "buildId": "MARKET_BASE_V333_15_COUNTRY_DISTINCTIVE_FACTS_20260809",
+  "entityCount": 196,
+  "profileCount": 196,
+  "factCount": 196,
+  "htmlPages": 38,
+  "controllerPages": 37,
+  "sourceDomainCount": 184,
+  "mostUsedSourceDomains": [
+    [
+      "www.constituteproject.org",
+      9
+    ],
+    [
+      "whc.unesco.org",
+      3
+    ],
+    [
+      "en.wikipedia.org",
+      2
+    ],
+    [
+      "ich.unesco.org",
+      2
+    ],
+    [
+      "ab.gov.ag",
+      1
+    ],
+    [
+      "achpr.au.int",
+      1
+    ],
+    [
+      "almg.org.gt",
+      1
+    ],
+    [
+      "ambasadat.gov.al",
+      1
+    ],
+    [
+      "armenia.travel",
+      1
+    ],
+    [
+      "au.int",
+      1
+    ],
+    [
+      "banque-centrale.dj",
+      1
+    ],
+    [
+      "bcgdubai.gov.bd",
+      1
+    ],
+    [
+      "brunei.mfa.gov.ir",
+      1
+    ],
+    [
+      "c2a.portais.gov.ao",
+      1
+    ],
+    [
+      "cdn.amcm.gov.mo",
+      1
+    ]
+  ],
+  "titleLength": {
+    "min": 8,
+    "max": 26
+  },
+  "bodyLength": {
+    "min": 39,
+    "max": 80
+  },
+  "dataSha256": "16c6d09fe2afe6ca7f00d7f6af5928ed54bf689e56a21e870af81c8950886bcd",
+  "rendererSha256": "7f80a1be19ee95aaf528e0996cf8eff8afe071d5eab04470cee0beb91a6d85b9",
+  "failures": []
+}
+RESULT: PASS
+
+===== cache_refresh_stabilization =====
+PASS  HTML pages = 38
+PASS  all HTML market-base-build metadata is V333.15
+PASS  all optional market-base-site-build metadata is V333.15
+PASS  controller pages = 37
+PASS  radio player intentionally omits global controller
+PASS  scroll-control pages = 32
+PASS  no page has competing controller tags
+PASS  HTML boot references use only V333.15 physical files/tokens
+PASS  version.txt matches V333.15 build ID
+PASS  manifest version is V333.15
+PASS  manifest build_id matches version.txt
+PASS  manifest start_url and id use V333.15 token
+PASS  canonical file exists: assets/js/market-base-build-v335.js
+PASS  assets/js/market-base-build-v335.js contains MARKET_BASE_V333_15_COUNTRY_DISTINCTIVE_FACTS_20260809
+PASS  assets/js/market-base-build-v335.js contains 20260809-v333-15-country-distinctive-facts
+PASS  canonical file exists: assets/js/market-base-runtime-v335.js
+PASS  assets/js/market-base-runtime-v335.js contains MARKET_BASE_V333_15_COUNTRY_DISTINCTIVE_FACTS_20260809
+PASS  canonical file exists: assets/js/market-base-scroll-controls-v334.js
+PASS  assets/js/market-base-scroll-controls-v334.js contains 20260809-v333-15-country-distinctive-facts
+PASS  assets/js/market-base-scroll-controls-v334.js contains scheduleUpdateControllerFallback();
+PASS  canonical file exists: assets/js/market-base-update-controller-v335.js
+PASS  assets/js/market-base-update-controller-v335.js contains MARKET_BASE_V333_15_COUNTRY_DISTINCTIVE_FACTS_20260809
+PASS  assets/js/market-base-update-controller-v335.js contains controllerRevision: 'v335'
+PASS  assets/js/market-base-update-controller-v335.js contains pageShellIsCurrent
+PASS  assets/js/market-base-update-controller-v335.js contains AUTO_REFRESH_STATE_KEY
+PASS  canonical file exists: assets/js/market-base-offline-manifest-v335.js
+PASS  assets/js/market-base-offline-manifest-v335.js contains MARKET_BASE_OFFLINE_MANIFEST_V333_15_COUNTRY_DISTINCTIVE_FACTS_20260809
+PASS  canonical file exists: settings/assets/offline-settings-v335.js
+PASS  settings/assets/offline-settings-v335.js contains MARKET_BASE_V333_15_COUNTRY_DISTINCTIVE_FACTS_20260809
+PASS  shared runtime no longer competes for root Service Worker
+PASS  scroll fallback waits for DOMContentLoaded
+PASS  scroll script has no immediate parser-time controller injection
+PASS  controller recovery guard present: VISIBLE_WORKER_WAIT_MS = 1200
+PASS  controller recovery guard present: global.addEventListener('pageshow', finishRefreshUi)
+PASS  controller recovery guard present: Number(previous.attempts || 0) >= 2
+PASS  controller recovery guard present: url.searchParams.delete('refresh')
+PASS  controller recovery guard present: rootRegistration.update()
+PASS  offline settings no longer hard-code V325
+PASS  offline settings register the computed current worker URL
+PASS  legacy compatibility copy matches assets/js/market-base-build-v335.js
+PASS  legacy compatibility copy matches assets/js/market-base-runtime-v335.js
+PASS  legacy compatibility copy matches assets/js/market-base-scroll-controls-v334.js
+PASS  legacy compatibility copy matches assets/js/market-base-offline-manifest-v335.js
+PASS  legacy compatibility copy matches settings/assets/offline-settings-v335.js
+PASS  legacy controller shim migrates to V333.15: assets/js/market-base-update-controller-v322.js
+PASS  legacy controller shim migrates to V333.15: assets/js/market-base-update-controller-v331.js
+PASS  legacy controller shim migrates to V333.15: assets/js/market-base-update-controller-v332.js
+PASS  legacy controller shim migrates to V333.15: assets/js/market-base-update-controller-v333.js
+PASS  legacy controller shim migrates to V333.15: assets/js/market-base-update-controller-v334.js
+PASS  Service Worker build ID is V333.15
+PASS  Service Worker imports the new physical offline manifest
+PASS  Service Worker installation blocks on only nine shell requests
+PASS  nine install-blocking requests parsed
+PASS  large search/flight databases are not install-blocking
+PASS  all install-blocking shell files exist
+PASS  install-blocking payload is lightweight (222,896 bytes)
+PASS  no prior release token remains in deployable shell files
+PASS  modified JavaScript passes node --check
+
+SUMMARY
+HTML pages: 38
+Controller pages: 37
+Scroll-control pages: 32
+Install-blocking transfer: 222,896 bytes
+PASSED: V333.15 cache/refresh static audit
+RESULT: PASS
+
+===== cumulative_content_regressions =====
+{
+  "version": "v075 / 2026-08-04",
+  "qaCount": 315,
+  "officialFaqAdded": 12,
+  "factuallyCorrected": 51,
+  "guidance": {
+    "explanation": 20,
+    "decision": 78,
+    "check": 177,
+    "omit": 28
+  },
+  "htmlPagesWithAnalytics": 38,
+  "databaseRegressions": "PASS",
+  "result": "PASS"
+}
+RESULT: PASS
+
+===== feature_regressions =====
+{
+  "status": "PASS",
+  "workCode": "PASS",
+  "worldRadio": "PASS",
+  "worldRoute": "PASS",
+  "halfPcReading": "PASS",
+  "release": "V333.15"
+}
+RESULT: PASS
+
+===== chromium_component_smoke =====
+{
+  "status": "PASS",
+  "desktopEthiopia": {
+    "heading": "この国ならでは",
+    "category": "暦・時間",
+    "title": "1年が13か月ある",
+    "body": "エチオピア暦は30日間の月が12か月あり、その後に5日間、うるう年には6日間の短い第13月が続きます。西暦とは年数も異なります。",
+    "sourceText": "出典エチオピア大使館 ↗",
+    "sourceHref": "https://ethiopianembassy.org/ethiopian-time/",
+    "sourceTarget": "_blank",
+    "sourceRel": "noopener noreferrer",
+    "orderAfterFacts": true,
+    "orderBeforeStats": true,
+    "widthRatio": 1,
+    "leftOverflow": 0,
+    "rightOverflow": 0,
+    "display": "grid",
+    "titleFont": 24,
+    "bodyFont": 18,
+    "lineHeight": 32.76
+  },
+  "mobilePakistan": {
+    "heading": "この国ならでは",
+    "category": "言語・制度",
+    "title": "国語はウルドゥー語、行政では英語も使われる",
+    "body": "憲法はウルドゥー語を国語とし、英語はウルドゥー語へ置き換えられるまで公的目的に使用できると定めています。州が地域言語の教育や振興を進めることも認めています。",
+    "sourceText": "出典パキスタン国民議会・憲法 ↗",
+    "sourceHref": "https://na.gov.pk/uploads/documents/1333523681_951.pdf",
+    "sourceTarget": "_blank",
+    "sourceRel": "noopener noreferrer",
+    "orderAfterFacts": true,
+    "orderBeforeStats": true,
+    "widthRatio": 1,
+    "leftOverflow": 0,
+    "rightOverflow": 0,
+    "display": "grid",
+    "titleFont": 22,
+    "bodyFont": 17.5,
+    "lineHeight": 31.5
+  },
+  "escaping": {
+    "html": "<article class=\"country-distinctive-fact\" aria-label=\"この国ならでは\">\n    <div class=\"country-distinctive-fact-heading\"><span>この国ならでは</span><em>検証</em></div>\n    <h4>&lt;img src=x onerror=alert(1)&gt;</h4>\n    <p data-thesis-highlight>A &amp; B &lt;script&gt;bad&lt;/script&gt;</p>\n    \n  </article>",
+    "images": 0,
+    "scripts": 0,
+    "sourceLinks": 0,
+    "title": "<img src=x onerror=alert(1)>",
+    "body": "A & B <script>bad</script>"
+  },
+  "note": "Executed with Chromium set_content because managed URL navigation is blocked in the test environment."
+}
+PASSED: V333.15 country distinctive fact Chromium UI smoke
+RESULT: PASS
+

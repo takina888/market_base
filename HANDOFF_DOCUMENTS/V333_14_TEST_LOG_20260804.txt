@@ -1,0 +1,38 @@
+MARKET BASE V333.14 FINAL TEST LOG
+Build: MARKET_BASE_V333_14_CACHE_REFRESH_STABILIZATION_20260804
+Date: 2026-08-04
+
+[STATIC AUDIT]
+PASS
+HTML pages: 38
+Controller pages: 37
+Scroll-control pages: 32
+Install-blocking transfer: 227,710 bytes
+
+[BROWSER SMOKE]
+PASS
+Active worker: sw.js?v=MARKET_BASE_V333_14_CACHE_REFRESH_STABILIZATION_20260804
+Current MARKET BASE cache count: 1
+Initial entries: 9
+Manual refresh elapsed: 1.868 seconds
+Refresh button after navigation: 更新 / enabled
+Local request failures: 0
+Page errors: 0
+Stale shell recovery: PASS
+
+[CUMULATIVE CONTENT/DATA]
+PASS
+UL/CE Q&A: 315
+Official FAQ additions: 12
+Factually reviewed: 51
+JFM: 112 manufacturers / 485 machines / hashes matched
+Catering: 247 companies / 81 researched / 311 source links
+Cloudflare analytics: 38 of 38 HTML pages
+
+[FEATURE REGRESSION]
+PASS
+WORK CODE / World Radio / World Route / Half-PC reading
+
+[LOCAL REFERENCES]
+PASS
+Missing local HTML asset references: 0

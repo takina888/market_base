@@ -1,0 +1,43 @@
+{
+  "release": "V333.16",
+  "build_id": "MARKET_BASE_V333_16_RADIO_LIFECYCLE_UI_PERFORMANCE_20260810",
+  "asset_version": "20260810-v333-16-radio-lifecycle-ui-performance",
+  "base_release": "V333.15",
+  "changed_or_added_files": 82,
+  "public_html_files": 38,
+  "scope": [
+    "radio_live_transport_teardown_and_generation_guards",
+    "radio_dock_first_frame_drag_and_scroll_control_collision",
+    "service_worker_media_bypass_and_nonblocking_exact_cache",
+    "main_page_staged_data_lazy_views_and_lazy_full_search"
+  ],
+  "performance": {
+    "initial_local_script_raw_before_bytes": 13496019,
+    "initial_local_script_raw_after_bytes": 8448668,
+    "initial_local_script_gzip_before_bytes": 2753386,
+    "initial_local_script_gzip_after_bytes": 1957892,
+    "full_cross_db_index_bytes": 5090411,
+    "initial_cross_db_summary_bytes": 7840,
+    "flag_bundle_bytes": 176096
+  },
+  "tests": {
+    "radio_lifecycle": "PASS",
+    "radio_dock_contract": "PASS",
+    "service_worker_and_boot_performance": "PASS",
+    "release_integrity": "PASS",
+    "all_javascript_syntax": "PASS",
+    "core_optional_embedded_key_equivalence": "PASS",
+    "browser_visual_smoke": "SKIP_NO_BROWSER_BINARY"
+  },
+  "mobile_viewports_checked": [
+    "320x568",
+    "375x667",
+    "390x844",
+    "430x932"
+  ],
+  "known_non_blockers": [
+    "iPhone Safari real-device smoke is required before production because WebKit was unavailable in the test environment",
+    "one optional JSON failure uses the full embedded fallback, which adds cost only on the failure path"
+  ],
+  "status": "READY_FOR_DEVICE_SMOKE_AND_DEPLOYMENT"
+}

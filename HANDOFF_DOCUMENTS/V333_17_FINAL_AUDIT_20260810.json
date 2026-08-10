@@ -1,0 +1,34 @@
+{
+  "buildId": "MARKET_BASE_V333_17_CACHE_COHERENCE_SMOOTH_NAVIGATION_20260810",
+  "assetVersion": "20260810-v333-17-cache-coherence-smooth-navigation",
+  "baseRelease": "V333.16",
+  "publicHtmlPages": 38,
+  "controllerPages": 37,
+  "radioPlayerControllerPages": 0,
+  "newShellPages": 12,
+  "serviceWorkerLocalReferences": 199,
+  "initialLocalJavaScript": {
+    "beforeBytes": 8448668,
+    "afterBytes": 910186,
+    "reductionPercent": 89.2,
+    "beforeScripts": 36,
+    "afterScripts": 25
+  },
+  "offlineManifest": {
+    "textAssets": 336,
+    "textBytes": 82960137,
+    "supportAssets": 15,
+    "localPhotoAssets": 16
+  },
+  "checks": {
+    "cacheCoherence": "PASS",
+    "navigationPerformance": "PASS",
+    "manifestHardening": "PASS",
+    "releaseIntegrity": "PASS",
+    "radioLifecycle": "PASS",
+    "radioDock": "PASS",
+    "javascriptSyntaxFiles": 147,
+    "javascriptSyntax": "PASS",
+    "realBrowserSmoke": "SKIPPED_NO_BROWSER_EXECUTABLE"
+  }
+}

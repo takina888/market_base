@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "release": "V333.15",
+  "build_id": "MARKET_BASE_V333_15_COUNTRY_DISTINCTIVE_FACTS_20260809",
+  "asset_token": "20260809-v333-15-country-distinctive-facts",
+  "base": "V333.14",
+  "generated_at": "2026-08-09",
+  "entity_count": 196,
+  "profile_count": 196,
+  "fact_count": 196,
+  "missing_codes": [],
+  "extra_codes": [],
+  "category_counts": {
+    "国の仕組み": 12,
+    "暦・時間": 15,
+    "国土・行政": 13,
+    "言語・文字": 32,
+    "選挙・制度": 9,
+    "政治・歴史": 1,
+    "季節・暮らし": 1,
+    "国名・言語": 2,
+    "産業・歴史": 1,
+    "首都・行政": 11,
+    "休日・仕事": 1,
+    "通貨・お金": 18,
+    "国の考え方": 1,
+    "首都・地理": 3,
+    "交通・制度": 2,
+    "住所・行政": 1,
+    "教育・制度": 1,
+    "仕事・制度": 1,
+    "国旗・制度": 4,
+    "暦・休日": 5,
+    "選挙・デジタル": 1,
+    "暮らし・制度": 2,
+    "教育・言語": 1,
+    "自然・制度": 1,
+    "名前・暮らし": 3,
+    "国土・地理": 8,
+    "自然・地理": 6,
+    "国名・首都": 1,
+    "住所・郵便": 2,
+    "名前・言語": 1,
+    "休日・時間": 1,
+    "言語・制度": 8,
+    "暦・制度": 2,
+    "通貨・暮らし": 1,
+    "休日・暮らし": 1,
+    "年齢・制度": 1,
+    "暮らし・社会": 2,
+    "国名・歴史": 1,
+    "休日・歴史": 1,
+    "交通・公共": 1,
+    "名前・行政": 2,
+    "インフラ・地理": 1,
+    "国土・観光制度": 1,
+    "国名・制度": 1,
+    "季節・地域": 1,
+    "首都・歴史": 1,
+    "番号・行政": 2,
+    "入国・環境": 1,
+    "自然・首都": 1,
+    "言語・歴史": 1,
+    "国の立場": 1,
+    "土地・制度": 1,
+    "デジタル・国名": 1,
+    "暦・選挙": 1,
+    "暮らし・自治": 1
+  },
+  "source_domain_count": 184,
+  "title_length": {
+    "min": 8,
+    "max": 26
+  },
+  "body_length": {
+    "min": 39,
+    "max": 80
+  },
+  "key_examples": {
+    "ET": {
+      "category": "暦・時間",
+      "title": "1年が13か月ある",
+      "body": "エチオピア暦は30日間の月が12か月あり、その後に5日間、うるう年には6日間の短い第13月が続きます。西暦とは年数も異なります。",
+      "source_name": "エチオピア大使館",
+      "source_url": "https://ethiopianembassy.org/ethiopian-time/"
+    },
+    "PK": {
+      "category": "言語・制度",
+      "title": "国語はウルドゥー語、行政では英語も使われる",
+      "body": "憲法はウルドゥー語を国語とし、英語はウルドゥー語へ置き換えられるまで公的目的に使用できると定めています。州が地域言語の教育や振興を進めることも認めています。",
+      "source_name": "パキスタン国民議会・憲法",
+      "source_url": "https://na.gov.pk/uploads/documents/1333523681_951.pdf"
+    },
+    "TW": {
+      "category": "暦・制度",
+      "title": "1912年が「民国元年」",
+      "body": "行政書類や公的な日付では民国紀年が使われることがあります。1912年を民国元年とするため、西暦2026年は民国115年です。",
+      "source_name": "台湾総統府",
+      "source_url": "https://www.president.gov.tw/Page/49"
+    },
+    "WS": {
+      "category": "暦・時間",
+      "title": "2011年12月30日が存在しなかった",
+      "body": "国際日付変更線の位置を変え、2011年12月29日の翌日を12月31日としました。サモア国内では12月30日が丸ごとなくなりました。",
+      "source_name": "サモア司法長官室",
+      "source_url": "https://www.ag.gov.ws/wp-content/uploads/2018/10/volume-4-combined-issue-1-and-2.pdf"
+    }
+  },
+  "tests": {
+    "test_v333_15_country_distinctive_facts": "PASS",
+    "test_v333_15_cache_refresh_stabilization": "PASS",
+    "test_v333_15_cumulative_content_regressions": "PASS",
+    "test_v333_15_feature_regressions": "PASS",
+    "browser_smoke_v333_15": "PASS"
+  },
+  "sha256": {
+    "data": "16c6d09fe2afe6ca7f00d7f6af5928ed54bf689e56a21e870af81c8950886bcd",
+    "builder": "778085aecbc7595ce12851b678bc7ff6d60579791a28730c1551692ce513567b",
+    "renderer": "7f80a1be19ee95aaf528e0996cf8eff8afe071d5eab04470cee0beb91a6d85b9",
+    "css": "d4d35806622167e4ae708abf50493db681f774946f57ee0cea703673d9eea590",
+    "index_csv": "3042d478ca04c32a0cb5dacaf2354758d7b5e00ad656131608f0dd078257f2b1"
+  }
+}

@@ -1,0 +1,77 @@
+===== test_classics_reading_runtime.py =====
+Traceback (most recent call last):
+  File "/mnt/data/mb_v333_15_work/scripts/test_classics_reading_runtime.py", line 33, in <module>
+    assert page.locator("[data-classic-card]").count() == 14
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+RESULT: FAIL (exit 1)
+
+===== test_currency_alignment.py =====
+CURRENCY ALIGNMENT TEST: FAIL — shared R113.72 standard shell stylesheet is not linked
+RESULT: FAIL (exit 1)
+
+===== test_half_pc_responsive.py =====
+HALF-PC RESPONSIVE TEST: PASS — 431–1099px has no card/text overflow; shell and bottom navigation align through 899px
+RESULT: PASS
+
+===== test_learn_reading_order.py =====
+LEARN READING ORDER TEST: FAIL — work-basics public folder still exists
+RESULT: FAIL (exit 1)
+
+===== test_news_home_compact_layout.py =====
+NEWS HOME COMPACT LAYOUT TEST: FAIL
+- news section uses compact modifier
+- title and pause are in same head
+- new CSS version is wired
+RESULT: FAIL (exit 1)
+
+===== test_news_tabs.py =====
+All sources failed; previous articles retained with stale status.
+NEWS TAB TESTS: PASS
+RESULT: PASS
+
+===== test_pc_top_nav.py =====
+PC TOP NAV TEST: FAIL — stale navigation asset version: british-jokes/index.html, kimochi-biyori/index.html, rakuda-no-me/index.html, sutra-no-yoin/index.html, world-radio/index.html
+RESULT: FAIL (exit 1)
+
+===== test_r11385_all_fixes.py =====
+R113.85 ALL FIXES TEST: PASS
+{
+  "currency_600": {
+    "shell": 568,
+    "header": 568
+  },
+  "currency_800": {
+    "shell": 768,
+    "header": 768
+  },
+  "currency_960": {
+    "shell": 928,
+    "header": 928
+  },
+  "currency_1100": {
+    "shell": 1068,
+    "header": 1068
+  },
+  "daily_full": {
+    "main": 720,
+    "side": 380
+  },
+  "daily_half": {
+    "main": 360
+  },
+  "flags": {
+    "buttons": 196,
+    "svgs": 196,
+    "emoji": 0,
+    "statusDisplay": "grid"
+  },
+  "geolocation": {
+    "status": "現在地：取得完了\n端末の現在地へ更新しました（精度 約12m）。緯度 25.0478、経度 121.5319。",
+    "button": "現在地を再取得",
+    "current": "端末の現在地"
+  }
+}
+RESULT: PASS
+
+===== test_r11385_layout.py =====
