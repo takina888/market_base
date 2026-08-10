@@ -6,11 +6,11 @@ import vm from 'node:vm';
 const root = path.resolve(import.meta.dirname, '..');
 const output = path.join(root, 'assets/js/market-base-offline-manifest-v335.js');
 const textExtensions = new Set([
-  '.html', '.js', '.css', '.json', '.csv', '.txt', '.xml', '.svg', '.webmanifest'
+  '.html', '.htm', '.js', '.css', '.json', '.csv', '.txt', '.xml', '.svg', '.webmanifest'
 ]);
 const imageExtensions = new Set(['.png', '.jpg', '.jpeg', '.webp', '.gif']);
 const excludedDirectories = new Set([
-  '.git', '.agents', '.codex', 'HANDOFF_DOCUMENTS', 'research', '__pycache__'
+  '.git', '.agents', '.codex', 'HANDOFF_DOCUMENTS', 'research', '__pycache__', 'android'
 ]);
 
 // The offline snapshot is a user-facing reading/data bundle, not an archive of
@@ -239,9 +239,9 @@ supportAssets.sort();
 localPhotoAssets.sort();
 
 const payload = {
-  version: 'MARKET_BASE_OFFLINE_MANIFEST_V333_18_CACHE_RADIO_NAVIGATION_STABILITY_20260810',
-  buildId: 'MARKET_BASE_V333_18_CACHE_RADIO_NAVIGATION_STABILITY_20260810',
-  assetVersion: '20260810-v333-18-cache-radio-navigation-stability',
+  version: 'MARKET_BASE_OFFLINE_MANIFEST_V333_19_ANDROID_INSTALL_STABILITY_20260810',
+  buildId: 'MARKET_BASE_V333_19_ANDROID_INSTALL_STABILITY_20260810',
+  assetVersion: '20260810-v333-19-android-install-stability',
   generatedAt: '2026-08-10T12:00:00+08:00',
   datePhotoWindowDays: 10,
   textAssets,

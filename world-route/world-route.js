@@ -5,7 +5,7 @@
   const SCRIPT_URL = document.currentScript && document.currentScript.src
     ? document.currentScript.src
     : global.location.href;
-  const WORLD_MAP_URL = new URL('../assets/maps/world-map.svg?v=20260810-v333-18-cache-radio-navigation-stability', SCRIPT_URL).href;
+  const WORLD_MAP_URL = new URL('../assets/maps/world-map.svg?v=20260810-v333-19-android-install-stability', SCRIPT_URL).href;
   const data = global.MB_WORLD_ROUTE_V323;
   const state = {
     countryIndex: 0,
