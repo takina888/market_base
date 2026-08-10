@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-10T02:38:24Z",
+  "generated_at": "2026-08-10T13:49:31Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -11,8 +11,7 @@
     "overseas"
   ],
   "retained_categories": [
-    "regulations",
-    "food_factory"
+    "regulations"
   ],
   "failed_categories": {},
   "categories": {
@@ -20,71 +19,71 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "223284e29335de27",
-          "title": "三洋貿易[3176]：通期業績予想の修正に関するお知らせ 2026年8月7日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwcWtCMUVRN2xtMmt4N3ZCc3F5N3h3NWZ3bjNGM0NsODdXVmh2ZzZwWDVvcl9kbVQzaElENTYxSnpzaXFnUTJkc28zRjBLLTh4Umo5SmhrQlpWQWlRSDFkX1cxOUlBb0dlakE?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-07T05:00:00Z",
+          "id": "d7ddf1d29a1ad4eb",
+          "title": "【北海道発】戦後81年～混沌（こんとん）とする世界で～",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02aFQ1NjFDemRnTGpJRkVMYmwydkl6U3pPdFhrOHYtLVkycjNGdGI1akh4UU9laEN4NE9QV3RudXpQUmRHc2VZV3QyMzQxeUJsQnNzd0N3YW13WnBqb1h2Um5PZ3BlbU0?oc=5",
+          "source": "nhk.or.jp",
+          "published_at": "2026-08-07T12:02:27Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "37a84c0ec3fd2caf",
-          "title": "三洋貿易[3176]：株主優待制度の導入に関するお知らせ 2026年8月3日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wdG15OThXaGhNYnJfYlg0ci1TdXp4bkpCWDJjN1lwSmJOWUt5U2ZOVDRXWjNGMk15bm5za3RITVVWdjNqc0diWWpaMGFUOGFaTDNjcERBYlNWX3BwWVVzcHY5UDhSZDVmb1E?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-03T05:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1265ae507deeb306",
-          "title": "新潟・長岡の国道でひき逃げか 49歳の国際大准教授が死亡（毎日新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tNllpM2FEUDJqV19UTEFwUldJaGY5QUhCYnM5RklWcjFDVUJfZUEwUmZLeTlVQ0NQdTZVSGFrWmlLVWlHaW1yaDBiSXR4WUdkakgwNFhoVmtXd252bWk4RDJxM2NBQnFMNks2dWJMSDZPX2o0MU1BY001eDZmV1E?oc=5",
+          "id": "4d70e3c4e2d9f60b",
+          "title": "東日本国際大昌平が甲子園初勝利 いわき勢51年ぶり白星（福島中央テレビ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xdXV3ek9kMmpxSFVjVlBDbTRtS0xETjYtSlNsb2lQZXZkRnlFVVV4Q05PaVQtV2F1a2JmWlY4LU9PTF9wNHYxSVlmYjl2Z3VFeUNmUHhORkdjVkVLZFdMd2N1NnFLcXJLZjl1UGdvM3pCSTliamxJdjBFbmNrR1E?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-08-09T04:01:18Z",
+          "published_at": "2026-08-10T09:39:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d6378533cd774673",
-          "title": "原水爆禁止２０２６年世界大会/核廃絶の連帯大きく/海外代表との交流のつどい | しんぶん赤旗",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KNENSVXMyRmJmc1JZUWQwWExCa2lZMmhJODJOdTVxYVBKbWtGeWs0MFUxcmJiQWZkTzVLNFB2c0c0emVTdWlESFBJTDNWcVRTMDQ1WmhWYWRhUVdTSDVqX1RKaU8wVk5TeFZ4S2Z6V3NGMnE5?oc=5",
-          "source": "jcp.or.jp",
-          "published_at": "2026-08-08T23:51:38Z",
+          "id": "91a39eb7af2804c4",
+          "title": "世界トップだった日本の銀行はなぜ消え、「冬の時代」の商社は復活したのか…30年で明暗を分けた人事とは",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5oU01SQ0NVM05PYmJhY3lSR3ctTllYRVdsZlV6ZjlIdGY1cEJ0TTJwMGZPSzBaREhsclJqVW8zRkpxV1Z1OF9zSjZvSUnSAU9BVV95cUxPbnNZU1ppSjVqdXI1R0t1dGZOMXRXbi1kM290R3kwWk1aZmRRakN2R3RtdXhvWmR1bkNJMzRYRWgwUTRubHNCM184VUdaZzdV?oc=5",
+          "source": "ダイヤモンド・オンライン",
+          "published_at": "2026-08-10T09:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "385a7a3db3b6aabf",
-          "title": "ポーランドが誇る世界への窓「グディニア・モダニズム都市中心地区」がユネスコ世界遺産に登録！",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVTVVnNnFvLVcxam5TT2JmMFRfWEVxbm82MDZKQW0xZ3FIU0VvT0xUR3I1NHV4LUFoZU1LQlFRZ21SdDR6eFFTVXhWT0g0eXhnUlFUNlEzMXZhbXZGdlBTZXJ0MnpqVFlNNnlRTXZXOHByRzFWZnNERg?oc=5",
-          "source": "TECTURE MAG（テクチャーマガジン）",
-          "published_at": "2026-08-08T23:00:11Z",
+          "id": "3fee58adb12fe4ab",
+          "title": "世界に発信！みなかみの自然との共生 「グローバルネイチャーポジティブサミット2026」参加",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV1FQY3FSMXd6LXRSem1tcXhjeW5VTW1YR1Z0Zmgyb0NYM1gzU0VQSFlZcG5JLVFNVGc0ekZjRkNCbnVhUG9LWlN3T185Zk1CODdFWk9UbGRudFpFUGNXdkhncVo2RXNxN0dOcDUwT2ZJVktYanBfdjZmLWhPcW5nS1VYZ00?oc=5",
+          "source": "town.minakami.gunma.jp",
+          "published_at": "2026-08-10T07:54:28Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "77b4b5015c7d90ab",
-          "title": "世界は本来、境界なくつながっている── チームラボ代表・猪子寿之が語る創作の思想や原体験に、森山未來が迫る。【MEET YOUR ARTISTS】",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5hRkx3NnVOc3BpeFBsSEk5bEZOejFsaUVNQTlLT1Z2Mjh1TFlwcHdPdUFIQjhWRVdWal9LVDJsa2x3eXd4OFE?oc=5",
-          "source": "エイベックス・ポータル",
-          "published_at": "2026-08-08T11:24:59Z",
+          "id": "756428ccf961cddb",
+          "title": "【報告】2028年国際19世紀学会 INCSA を本学にて開催予定―時代、国、ジャンルを超えた交流を目指して―",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sVjhIckVaemxzOFFfd0Q5N1RzTW42UVFabV9nOFJWODNkQ0lya25WZjZteVNIdE5HNGN2MERPSDZFMVJsZGRWbGVzSDBYNEVyeE1FbkRnQlh2dGNaVkNaalBrYV9hUFdEdWFqenMtY2Q?oc=5",
+          "source": "国立大学法人 電気通信大学",
+          "published_at": "2026-08-10T07:14:29Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e473ea81df42a4f6",
-          "title": "トム・ハンクス製作総指揮『第二次世界大戦全史』 ノルマンディー上陸の壮絶な戦場を収めた特別映像解禁（クランクイン！）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05QTJfcHFsZDdqTktsemZXeGNrd2ZWbGhYMUNRdkhRci1rdndSTV93SFgyS1gwVmxzWXVIY0sxNm9UdExSV2hGWVRFc2NaX0ZCc1VpNXJILXJsX01uUmZXQnJTMHNMZS1Bd0F5TG5naDhPUUZTZlNJMVktTHAwalE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-08T03:00:00Z",
+          "id": "1eadecb4fe087d06",
+          "title": "中国1-7月の物品貿易輸出入総額が前年比17.3％増",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LWl9SUlgwOFdsYTRoc3h2YlE3anZaMmcxbzJVX0ZqWlZYVkdnWW5FbGVLem41WGFNTFVfLXk3OFpiTm5wdlQtdVNHWXNFY0w4WHNxbzlLcEFTVkQtN3Npc1BLczYxcWM?oc=5",
+          "source": "人民網日本語版",
+          "published_at": "2026-08-10T06:15:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "62d326c64588cae0",
+          "title": "【東京国際フォーラム店限定】 秋の味覚の代表格『栗』を贅沢に味わう新商品、2種の栗の味わいと白玉を楽しむ“お月見仕立て”のドーナツが登場！",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE93OVV6TjEzUFBvT2VaS3NROUJ2d1cxRXJJYlJFQzJ3bnB0REJ5Q1VzNkltMXFjM2NkcnozS2hnaWFfb1k3V05hUA?oc=5",
+          "source": "クリスピー・クリーム・ドーナツ",
+          "published_at": "2026-08-10T05:29:39Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -210,6 +209,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "80f34afd1f5856c9",
+          "title": "山洋電気(E1-17-08)食品工場の自動化に貢献する駆動・電源・冷却の3製品群【FOOMA JAPAN 2026 特集】",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81dDJveFhiblU2NmVUWEgwcjhnTThmZ2xOcm9OZ0h3X1MteE9QLU5jMVZXYnEyc2FwVW1vRkt1N1ZkSHhQRXZtM204b1dlS3VTMWduaWp4QXdSdw?oc=5",
+          "source": "automation-news.jp",
+          "published_at": "2026-05-29T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "64ecec45bf94837d",
           "title": "2025年冷凍食品工場出荷額8577億円で過去最高 生産量157万トンと3年ぶり増加",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWkYtMXoyanRsNFUycVZxcEpwZnRXdFpGOENNRU9OUXRUSnlZSGR4UWJGVmk4a3dwYWFETHRuYUtOX0FCMDFfUHRZN3owdjJSX1N4cXNQYnNIUEppdFNseVo3dlNGMWpwcXpOOUVTZ1ByVncxc0wxQ21vdmNDRXMxeUR5ajZkQQ?oc=5",
@@ -228,16 +237,6 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f57b1fa0b81b02ba",
-          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS2＝大川原製作所",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SQ3VhcjV5bWJONGpCTDA2VmFRUmEtQ2ZFUDYzVFBsQUFjc1dCR2ZOUGZqWS1LaTQ5dVlESWdNUHBxMUhvQzQ5bk83SWJRS1NlSTVseGpIMVF2ZGhpWWZwWjhPOURUZ0tFX1Iw?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-07-31T18:17:40Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -250,6 +249,36 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0weXRpYWlsS3k4TW5JYzlwVE1LZ2RyeHZXWnc0MzdPYlFxLWZLeUlXdllnX2tTZmtCaERVYXVBc2M3X1VZMER5S3BUSm54SGdEUS1oMlBmcXZVdDNrdmY1a09meGhpYWxvSFE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-06T04:30:01Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ba98a553caf26756",
+          "title": "ロピア、コスモス薬品／宮崎県都城市に「都城早水複合商業施設（店舗面積3355m2）」27年2月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vVWJDNmZ6X2ZEdGtWanJpWkwzeEFIbGNPS2Q0RDVwcTBELV9Eb0pTTzktdFNrc3RrV3luQUZCZW1qbzlhU1RTT1RKZTZGUHJWa0lwakJR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-28T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a1f5a8bf09514ea9",
+          "title": "薬王堂／栃木県に計3店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QVXBZaEFsUEVabE9QbHYyMlAzS1lXa1lYNWdHMFJ5MDB5SEhfQk5Jay1iVGVfN01jeFZBSHhyYzJITmpBNFRfbFdMR3NiNkY3YldXRUVR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-27T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "94ace283ac879e07",
+          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-23T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -275,41 +304,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ae9b11e76bdf754a",
-          "title": "沖縄・コンビニ激戦県に新風、必須の「駐車場」ない店相次ぎ開業",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsUk9CbUl4aTdjbFNoMFk2UW9vRUY3amx3TXB0WElQM2cwWkhJZXlwMkJEYWhjdWdyNldIQ0cxNk85dll1SUZLdmNWQTRKZFJZTm9GSmZsejN0eEFRM3QwdjlxNkswcmIwemRCVQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-07-13T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ecfe7cfdecc47fba",
-          "title": "伊勢神宮・おはらい町通りに新店舗 二軒茶屋餅角屋本店：ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SY19qWlJEbnBoTmNPUy1XYUVocWxIX3g5WW0zVmltX3ZsMDZHV2hGcG1ubUZONXdkdGo4eWx6dWtqVTVzTHdwN1BfazZ4YlJEUzdDNFA0eGMwOUplQXlV?oc=5",
-          "source": "中日BIZナビ",
-          "published_at": "2026-08-07T02:20:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "006e80fbadce103e",
-          "title": "東京・多摩地域に「製造物流IT小売業」が新店舗、10月着工",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xbHJicmhDNENLTGlzV3RQWmxyNDFqaFZzUnhiZ2EtWjl6TFN2VzdfS1BkVG1FMmRmX2FtLWVucnFWSGFhb3NTUUVWU3pYcDVsR2Z3ZENR?oc=5",
-          "source": "建設通信新聞Digital",
-          "published_at": "2026-08-04T02:21:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "55c4d4ca1e04efa5",
-          "title": "清々しい木の香り漂うコンビニが四国中央に セブン-イレブンが中四国初の木造店舗をオープン（南海放送）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iUEFoclUxaFJZbDhQZ2RDQURhSzdJSEV4ekc3MXE5ZVZ5YU1mSUJpb3J1b1k3VzNnb18xa0k2SjgzQ0sydzF0Vi1KMDRjRV9TSmtMa3ZFemhvc2FmdmtKTWtONXVHXzVJNEhDLVhHRml0WVJsekVnSXFhR3ljbGc?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-02T15:01:00Z",
+          "id": "1beb9cb013778c99",
+          "title": "コメリ／大阪府泉南市に「コメリパワー泉南店（店舗面積9736m2）」27年1月31日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxQjhwZHpFa0RQV3VEcVpDaFg5OVk0R0I4dmR5WFZwd3puY0cwb0RrOGhlWXNwTi1yTHF0WjUtakp1TFBSUEo0dmhYUTBFMUhBNkFpVmp3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-17T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -392,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-10T02:38:24Z",
-  "last_success_at": "2026-08-10T02:38:24Z",
+  "last_attempt_at": "2026-08-10T13:49:31Z",
+  "last_success_at": "2026-08-10T13:49:31Z",
   "consecutive_failure_count": 0
 }
