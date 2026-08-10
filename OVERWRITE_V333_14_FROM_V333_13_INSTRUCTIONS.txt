@@ -1,0 +1,13 @@
+MARKET BASE V333.14 上書き手順
+
+対象: MARKET BASE V333.13
+
+1. MARKET_BASE_V333_14_OVERWRITE_FROM_V333_13_20260804.zip を展開します。
+2. 展開した内容を公開リポジトリのルートへ、フォルダ構造を維持して全て上書きします。
+3. version.txt / manifest.json / sw.js と、assets/js 内の V334 新規ファイルを必ず同時に反映します。
+4. 旧 market-base-update-controller-v322/v331/v332/v333.js は削除しないでください。旧キャッシュからV333.14へ移行する互換ファイルです。
+5. 公開完了後、トップページを開き、ヘッダーの「更新」を一度押します。
+6. 更新後にボタンが「更新」へ戻り、URLに refresh / autoRefresh / v が残らないことを確認します。
+
+詳細:
+HANDOFF_DOCUMENTS/V333_14_OVERWRITE_INSTRUCTIONS_20260804.md

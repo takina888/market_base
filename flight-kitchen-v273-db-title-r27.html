@@ -67,22 +67,22 @@
 }
 
 .research-note{margin:8px 0 14px;padding:10px 12px;border:1px solid #cfe0f4;border-radius:10px;background:#f5f9ff;color:#375675;font-size:13px;line-height:1.65}.value a{color:#0b62b4;text-decoration:underline;text-underline-offset:2px}.value .source-link{display:block;margin:2px 0}.value .source-meta{color:#637b96;font-size:12px}</style>
-<link rel="stylesheet" href="assets/css/specialist-r11348/specialist-cvs-theme-r11348.css?v=20260725-r11348"/>
+<link rel="stylesheet" href="assets/css/specialist-r11348/specialist-cvs-theme-r11348.css?v=20260810-v333-18-cache-radio-navigation-stability"/>
 
-<link rel="stylesheet" href="assets/css/specialist-r11348/specialist-common-overrides-r11348.css?v=20260725-r11348"/>
+<link rel="stylesheet" href="assets/css/specialist-r11348/specialist-common-overrides-r11348.css?v=20260810-v333-18-cache-radio-navigation-stability"/>
 
-<link rel="stylesheet" href="assets/css/specialist-r11348/specialist-content-foundation-r11348.css?v=20260725-r11348"/>
-<link href="assets/css/market-base-desktop-navigation-v273-r32.css?v=20260725-r11348" rel="stylesheet"/>
-<link href="assets/css/specialist-wide-universal-v273-r32u8k.css?v=20260725-r11348" rel="stylesheet"/>
-<link href="assets/css/reading-highlights-v1.css?v=20260725-r11348" rel="stylesheet"/>
-<link href="assets/css/specialist-header-unified-v273-r30.css?v=20260725-r11348" rel="stylesheet"/>
-<link href="assets/css/market-base-pc-unified-shell-r95-v1.css?v=20260725-r11348" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/specialist-r11348/specialist-content-foundation-r11348.css?v=20260810-v333-18-cache-radio-navigation-stability"/>
+<link href="assets/css/market-base-desktop-navigation-v273-r32.css?v=20260810-v333-18-cache-radio-navigation-stability" rel="stylesheet"/>
+<link href="assets/css/specialist-wide-universal-v273-r32u8k.css?v=20260810-v333-18-cache-radio-navigation-stability" rel="stylesheet"/>
+<link href="assets/css/reading-highlights-v1.css?v=20260810-v333-18-cache-radio-navigation-stability" rel="stylesheet"/>
+<link href="assets/css/specialist-header-unified-v273-r30.css?v=20260810-v333-18-cache-radio-navigation-stability" rel="stylesheet"/>
+<link href="assets/css/market-base-pc-unified-shell-r95-v1.css?v=20260810-v333-18-cache-radio-navigation-stability" rel="stylesheet">
 <meta content="default" name="apple-mobile-web-app-status-bar-style"/>
-<link href="assets/css/market-base-header-geometry-lock-r1138.css?v=20260725-r11348" rel="stylesheet"/>
-<link href="assets/css/market-base-scroll-controls-r11328.css?v=20260803-v333-10-cloudflare-web-analytics" rel="stylesheet"/><link href="assets/css/market-base-desktop-icon-nav-r11337.css?v=20260727-r11371" rel="stylesheet"/><meta content="MARKET_BASE_V333_10_CLOUDFLARE_WEB_ANALYTICS_20260803" name="market-base-nav-build"/><link href="assets/css/market-base-large-db-performance-r11345.css?v=20260725-r11348" rel="stylesheet"/><meta name="market-base-build" content="MARKET_BASE_V333_10_CLOUDFLARE_WEB_ANALYTICS_20260803"><link rel="stylesheet" href="assets/css/market-base-header-audit-v302.css?v=20260728-v302">
+<link href="assets/css/market-base-header-geometry-lock-r1138.css?v=20260810-v333-18-cache-radio-navigation-stability" rel="stylesheet"/>
+<link href="assets/css/market-base-scroll-controls-r11328.css?v=20260810-v333-18-cache-radio-navigation-stability" rel="stylesheet"/><link href="assets/css/market-base-desktop-icon-nav-r11337.css?v=20260810-v333-18-cache-radio-navigation-stability" rel="stylesheet"/><meta content="MARKET_BASE_V333_18_CACHE_RADIO_NAVIGATION_STABILITY_20260810" name="market-base-nav-build"/><link href="assets/css/market-base-large-db-performance-r11345.css?v=20260810-v333-18-cache-radio-navigation-stability" rel="stylesheet"/><meta name="market-base-build" content="MARKET_BASE_V333_18_CACHE_RADIO_NAVIGATION_STABILITY_20260810"><link rel="stylesheet" href="assets/css/market-base-header-audit-v302.css?v=20260810-v333-18-cache-radio-navigation-stability">
 
-<link rel="stylesheet" href="assets/css/db-header-unified-v310.css?v=20260729-v310"/>
-<meta name="market-base-site-build" content="MARKET_BASE_V333_10_CLOUDFLARE_WEB_ANALYTICS_20260803">
+<link rel="stylesheet" href="assets/css/db-header-unified-v310.css?v=20260810-v333-18-cache-radio-navigation-stability"/>
+<meta name="market-base-site-build" content="MARKET_BASE_V333_18_CACHE_RADIO_NAVIGATION_STABILITY_20260810">
 </head>
 <body class="mb-unified-specialist-page mb-large-db-performance"><main class="page" id="top">
 <header class="mbu-header"><div class="mbu-header-inner"><div class="mbu-brand">MARKET BASE</div><div class="mbu-toolbar"><div class="mbu-actions"><a aria-label="本体に戻る" class="mbu-button" href="index.html?from=specialist">戻る</a><button aria-label="更新" class="mbu-button" id="flightRefreshBtn" type="button">更新</button></div><div class="mbu-meta">航空<br/>給食</div></div></div></header>
@@ -10341,42 +10341,12 @@ apply();
 </script>
 <script>
 (function(){
-  const VERSION='V258_FLIGHT_RAIL_BACK_BUTTON_NO_BOTTOM_NAV_20260713';
-  async function refreshSpecialistPage(){
-    const btn=document.getElementById('flightRefreshBtn');
-    const original=btn?btn.textContent:'更新';
-    if(btn){btn.disabled=true;btn.textContent='更新中';}
-    try{
-      if('serviceWorker' in navigator){
-        const regs=await navigator.serviceWorker.getRegistrations();
-        await Promise.all(regs.filter(reg=>{
-          try{ return new URL(reg.scope).origin===location.origin; }catch(_){ return String(reg.scope||'').includes('/market_base/'); }
-        }).map(reg=>reg.unregister()));
-      }
-      if('caches' in window){
-        const keys=await caches.keys();
-        await Promise.all(keys.map(async key=>{
-          const name=String(key);
-          const local=/market[_-]?base|marketbase|mb-|mb_|flight|rail/i.test(name);
-          if(local) return caches.delete(key);
-          try{
-            const cache=await caches.open(key);
-            const requests=await cache.keys();
-            await Promise.all(requests.filter(req=>{
-              try{ return new URL(req.url).origin===location.origin; }catch(_){ return false; }
-            }).map(req=>cache.delete(req)));
-          }catch(_){}
-        }));
-      }
-      try{ localStorage.setItem('market_base_last_cache_refresh', new Date().toISOString()); }catch(_){}
-    }catch(e){ console.warn('refresh skipped', e); }
-    finally{
-      const url=new URL(location.href);
-      url.searchParams.set('v',VERSION);
-      url.searchParams.set('refresh',Date.now().toString());
-      location.replace(url.toString());
-      if(btn){btn.disabled=false;btn.textContent=original;}
+  function refreshSpecialistPage(event){
+    if(window.MarketBaseUpdate?.refresh){
+      void window.MarketBaseUpdate.refresh({event,broadcast:true});
+      return;
     }
+    location.reload();
   }
   document.getElementById('flightRefreshBtn')?.addEventListener('click',refreshSpecialistPage);
 })();
@@ -10418,8 +10388,8 @@ apply();
   setTimeout(applyInboundSearch,80);
   setTimeout(applyInboundSearch,320);
 })();
-</script><script src="assets/js/specialist-header-unified-v273-r30.js?v=20260725-r11348"></script>
-<script src="assets/js/market-base-pc-unified-shell-r95-v1.js?v=20260725-r11348"></script>
-<script src="assets/js/reading-highlights-v1.js?v=20260725-r11348"></script>
-<script src="assets/js/market-base-scroll-controls-r11328.js?v=20260803-v333-10-cloudflare-web-analytics"></script><script src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260727-r11371" data-mb-root="" data-mb-active="search"></script><script src="assets/js/market-base-update-controller-v333.js?v=20260803-v333-10-cloudflare-web-analytics" data-mb-update-controller></script><!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"8cd800af9e2541f2ba41adb0d3c46a75"}'></script><!-- End Cloudflare Web Analytics -->
+</script><script src="assets/js/specialist-header-unified-v273-r30.js?v=20260810-v333-18-cache-radio-navigation-stability"></script>
+<script src="assets/js/market-base-pc-unified-shell-v333-18.js?v=20260810-v333-18-cache-radio-navigation-stability"></script>
+<script src="assets/js/reading-highlights-v1.js?v=20260810-v333-18-cache-radio-navigation-stability"></script>
+<script src="assets/js/market-base-scroll-controls-v334.js?v=20260810-v333-18-cache-radio-navigation-stability"></script><script src="assets/js/market-base-desktop-icon-nav-r11337.js?v=20260810-v333-18-cache-radio-navigation-stability" data-mb-root="" data-mb-active="search"></script><script src="assets/js/market-base-update-controller-v335.js?v=20260810-v333-18-cache-radio-navigation-stability" data-mb-update-controller></script><!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"8cd800af9e2541f2ba41adb0d3c46a75"}'></script><!-- End Cloudflare Web Analytics -->
 </body></html>

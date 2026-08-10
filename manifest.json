@@ -1,8 +1,8 @@
 {
-  "name": "MARKET BASE V.333.10",
+  "name": "MARKET BASE V.333.18",
   "short_name": "MARKET BASE",
   "description": "国・地域と市場情報を確認できるMARKET BASE",
-  "start_url": "./index.html?v=20260803-v333-10-cloudflare-web-analytics",
+  "start_url": "./index.html?v=20260810-v333-18-cache-radio-navigation-stability",
   "scope": "./",
   "display": "standalone",
   "background_color": "#EEF3F9",
@@ -21,7 +21,7 @@
       "purpose": "any"
     }
   ],
-  "id": "./?v=20260803-v333-10-cloudflare-web-analytics",
-  "version": "V333.10",
-  "build_id": "MARKET_BASE_V333_10_CLOUDFLARE_WEB_ANALYTICS_20260803"
+  "id": "./?v=20260810-v333-18-cache-radio-navigation-stability",
+  "version": "V333.18",
+  "build_id": "MARKET_BASE_V333_18_CACHE_RADIO_NAVIGATION_STABILITY_20260810"
 }

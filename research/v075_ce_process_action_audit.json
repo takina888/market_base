@@ -1,0 +1,751 @@
+{
+  "categories": [
+    "CE基礎",
+    "CEリスク・技術文書",
+    "熱源・適用範囲",
+    "ガス・燃焼",
+    "蒸気・圧力",
+    "食品機械実例"
+  ],
+  "items": {
+    "QA-CEB-001": {
+      "classification": "explanation",
+      "label": "回答本文へ統合",
+      "revisedText": "CEマークは、原則としてメーカーが必要なEU法令への適合を宣言する表示です。製品によってはNotified Bodyの関与が必要ですが、認証機関から一律に合格シールを買う制度ではありません。",
+      "reason": "既存文は行動ではなく、質問への重要な補足説明です。",
+      "factualIssue": "大筋で正しい。ただしCEマークはメーカーの自己宣言だけを意味するのではなく、適用法令が要求するときはNotified Bodyを含む所定の適合評価後に表示する。",
+      "correctionSuggestion": "『CEマークは、適用法令に定められた適合評価を終えた後、メーカーが適合を示す表示です。第三者関与が必要かは法令ごとに異なります』とする。",
+      "officialSources": [
+        "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
+        "https://single-market-economy.ec.europa.eu/single-market/goods/conformity-assessment_en"
+      ]
+    },
+    "QA-CEB-002": {
+      "classification": "explanation",
+      "label": "回答本文へ統合",
+      "revisedText": "試験や文書作成を外部へ委託しても、製品の適合を成立させる責任は基本的に製造者に残ります。",
+      "reason": "外部委託と責任の関係は回答そのもので、別の実務欄は不要です。"
+    },
+    "QA-CEB-003": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "まず製品に適用される法令と製品カテゴリーを確認します。その法令が第三者関与を要求する場合にNotified Bodyが必要です。",
+      "reason": "顧客希望よりも法令とカテゴリーが判断軸であり、質問に直結します。",
+      "factualIssue": "回答は正しいが、『製品カテゴリー』だけではNotified Body要否を決められない。適用法令に定める適合評価手順まで確認する必要がある。",
+      "correctionSuggestion": "『適用法令と、その法令が製品に指定する適合評価手順を確認します。自己評価が認められる場合は不要で、第三者評価が要求される場合は必要です』と補足する。",
+      "officialSources": [
+        "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
+        "https://single-market-economy.ec.europa.eu/single-market/goods/conformity-assessment_en"
+      ]
+    },
+    "QA-CEB-004": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "その機械をEU市場へ投入する日を確認してください。2027年1月20日より前か後かで、原則として適用する機械法令が変わります。",
+      "reason": "市場投入日は適用法令を決める直接的な確認事項です。",
+      "factualIssue": "日付は正しい。2026-08-04時点ではRegulation (EU) 2023/1230の主要実体規定はまだ全面適用前で、2027-01-20より前にEU市場へ投入される機械は現行Machinery Directive 2006/42/ECへ適合させる必要がある。一部条文だけ先行適用されている。",
+      "correctionSuggestion": "『2026年8月現在は機械指令2006/42/ECが中心です。機械規則(EU) 2023/1230は原則2027年1月20日から適用されます』と現在地を先に書く。",
+      "officialSources": [
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+        "https://eur-lex.europa.eu/eli/reg/2023/1230/oj/eng"
+      ]
+    },
+    "QA-CEB-005": {
+      "classification": "omit",
+      "label": "表示しない",
+      "revisedText": "",
+      "reason": "既存文は回答内容の言い換えで、新しい判断材料や確認事項を加えていません。"
+    },
+    "QA-CEB-006": {
+      "classification": "omit",
+      "label": "表示しない",
+      "revisedText": "",
+      "reason": "一台物でも必要手続きは省略できないことが回答ですでに完結しています。"
+    },
+    "QA-CEB-007": {
+      "classification": "explanation",
+      "label": "回答本文へ統合",
+      "revisedText": "EU適合宣言には、製造者を代表して責任を負える権限者が署名します。試験所や文書作成会社へ委託しただけでは、その会社が自動的に署名者になるわけではありません。",
+      "reason": "署名者の考え方を説明する内容で、行動指示ではありません。",
+      "factualIssue": "『製造者の権限者』だけでは少し曖昧。現行機械指令のEC適合宣言は、製造者または認定代理人を代表して宣言を作成する権限を与えられた者の氏名・署名を含む。",
+      "correctionSuggestion": "『製造者またはEUの認定代理人を代表して宣言を作成できる権限者が署名します』とする。試験所が署名できないと一律断定せず、その試験所の人物に製造者を代表する正式権限があるかで説明する。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/dir/2006/42/2026-05-30/eng"
+      ]
+    },
+    "QA-CEB-008": {
+      "classification": "omit",
+      "label": "表示しない",
+      "revisedText": "",
+      "reason": "製品へ表示するという回答に含まれており、別枠にすると重複します。"
+    },
+    "QA-CEB-009": {
+      "classification": "omit",
+      "label": "表示しない",
+      "revisedText": "",
+      "reason": "部品資料と完成機械の適合が別であることは回答本文ですでに明確です。"
+    },
+    "QA-CEB-010": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "仕向国の言語、電気・消防・ガス・圧力設備などの据付条件を確認します。消費者向けに販売する場合だけ、GPSRやオンライン表示の対象になるかも確認します。",
+      "reason": "社内記録方法を指示するより、追加確認が必要な条件を直接示す方が有用です。",
+      "factualIssue": "『EUで追加要求』という表現は、EUで調和された製品要求へ加盟国が自由に追加できるようにも読める。区別すべきなのは、CE対象の製品要求と、設置・建物・使用段階など別領域の国別要求である。GPSRは消費者製品等について、他のEU法に同じ目的の個別規定がない範囲を確認するため、一律追加とは書かない方がよい。",
+      "correctionSuggestion": "『CE対象の製品要求はEUで共通ですが、説明書言語や、製品法令の範囲外にある建物・施工・消防・ガス・圧力設備・使用時安全は国や設置地で異なることがあります』と範囲を明示する。",
+      "officialSources": [
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+        "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng"
+      ]
+    },
+    "QA-CEB-011": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "仕向国と設置場所を決め、必要言語、建物側の電気工事、消防、ガス、圧力設備、使用時の労働安全を確認します。",
+      "reason": "販売できるかではなく、実際に据付・運転できる条件の確認が必要です。",
+      "factualIssue": "内容は概ね正しいが、『各国の追加製品要求』と誤読されないよう、EUで調和された製品要求と、設置・使用段階の国別条件を分ける必要がある。",
+      "correctionSuggestion": "『CEマーキングで扱う製品要求はEU共通です。一方、説明書言語と、建物側工事、消防、ガス、圧力設備、使用時の労働安全は別に確認します』とする。",
+      "officialSources": [
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+        "https://eur-lex.europa.eu/eli/dir/2006/42/2026-05-30/eng"
+      ]
+    },
+    "QA-CEB-012": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "機械を使用する加盟国と、その国が要求する説明書・警告・画面表示の言語を確認してください。",
+      "reason": "翻訳開始時期という社内工程より、必要言語の確認が質問に直結します。",
+      "factualIssue": "現行機械指令では、機械が市場投入または使用開始される加盟国の公用語による説明書が原則必要で、英語だけでよいとは一般化できない。原文が現地語でなければ翻訳版と原文を伴わせる。メーカーが指定した専門保守員向け保守説明には限定的な例外がある。",
+      "correctionSuggestion": "『原則として使用国が求める公用語の説明書が必要です。原文がその言語でなければ「原文の翻訳」と原文を提供します』とし、例外は注記へ回す。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/dir/2006/42/2026-05-30/eng"
+      ]
+    },
+    "QA-CEB-013": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "安全の基本設計は共通化できますが、言語、電源・建物設備、消防、ガス、圧力設備、労働安全は国別差分として確認します。",
+      "reason": "全面的な別設計か共通化かを判断するための境界を示しています。",
+      "factualIssue": "概ね正しい。EU調和法令に適合する製品へ、加盟国が同じ製品安全面の別設計を一律要求するという意味ではない。国別差は主に言語、供給条件、建物・施工、登録・検査、使用時安全などに限定して説明すべきである。",
+      "correctionSuggestion": "『製品安全の基本設計は共通化し、言語、電源・ガス供給、建物・消防、圧力設備の登録・検査、使用時安全を国別差分として確認します』とする。",
+      "officialSources": [
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng"
+      ]
+    },
+    "QA-CEB-014": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "部品交換だけでなく、ガード、安全回路、電気設備、EMC、衛生、表示、説明書、リスク評価、EU適合宣言まで変更範囲を見ます。",
+      "reason": "既存の工数見積りは質問から外れており、変更範囲そのものを示す方が適切です。"
+    },
+    "QA-CED-001": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "通常運転だけでなく、据付、段取り、清掃、詰まり除去、保守、廃棄まで含めて機械の限界と危険を洗い出します。",
+      "reason": "リスク評価の対象範囲を決める判断基準として有用です。"
+    },
+    "QA-CED-002": {
+      "classification": "omit",
+      "label": "表示しない",
+      "revisedText": "",
+      "reason": "本質的安全設計、ガード、安全装置、警告の優先順は回答で説明済みです。"
+    },
+    "QA-CED-003": {
+      "classification": "omit",
+      "label": "表示しない",
+      "revisedText": "",
+      "reason": "非常停止はガードの代わりにならないことが回答本文と重複します。"
+    },
+    "QA-CED-004": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "危険な動きを止める、再起動を防ぐなど、安全機能ごとに必要性能PLrを決めます。すべてを一律にPL eへ上げるのではなく、各機能のリスクと回路を検証します。",
+      "reason": "安全機能ごとの評価がPL選定の直接的な判断軸です。"
+    },
+    "QA-CED-005": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "図面、計算、リスク評価、適用規格、試験結果、説明書、宣言書が同じ型式と改訂内容を示しているか確認します。",
+      "reason": "単なる改訂番号管理ではなく、技術文書一式の整合確認へ直しています。"
+    },
+    "QA-CED-006": {
+      "classification": "explanation",
+      "label": "回答本文へ統合",
+      "revisedText": "顧客へ渡すのは通常、説明書、宣言書、契約で定めた資料です。設計計算や詳細リスク評価などの技術文書は、当局へ提示できるようメーカーが保管します。",
+      "reason": "顧客提供資料と保管資料の違いは質問への説明です。"
+    },
+    "QA-CED-007": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "それ単独では特定用途を実行できず、他の機械へ組み込まれて初めて機能するものかを確認します。ガードを外した完成機を半完成機械として扱うことはできません。",
+      "reason": "半完成機械かどうかを判断する本質的な条件を示しています。"
+    },
+    "QA-CED-008": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "変更部品が安全機能、定格、温度、EMC、材料、洗浄性へ影響しないか確認し、影響があれば試験・図面・リスク評価・宣言を更新します。",
+      "reason": "購買手順ではなく、再評価が必要になる影響範囲を直接示しています。"
+    },
+    "QA-CED-009": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "仕向国が要求する言語を確認し、安全情報、設置、清掃、保守、画面表示を同じ改訂内容でそろえます。",
+      "reason": "翻訳版の社内管理より、必要言語と内容一致の確認が重要です。"
+    },
+    "QA-CED-010": {
+      "classification": "omit",
+      "label": "表示しない",
+      "revisedText": "",
+      "reason": "Notified Body証明書だけでは技術文書にならないことは回答本文と重複します。"
+    },
+    "QA-CED-011": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "許容電流、電圧降下、短絡時耐量、周囲温度、布設方法、可とう性を計算し、端子が導体クラスと断面積に対応しているか確認します。",
+      "reason": "技術文書へ残すという管理指示より、実際に確認する電気条件を示しています。"
+    },
+    "QA-CED-012": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "盤本体だけでなく、グランド、HMI、押しボタン、ファン、窓、ガスケット、未使用穴を含む完成状態でIP等級を確認します。",
+      "reason": "一覧化の指示ではなく、完成状態で見る対象を直接示しています。"
+    },
+    "QA-CED-013": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "食品、温度、塩分、洗浄薬品、表面仕上げ、溶接条件に対して、実際に購入する材質グレードと証明書が適合するか確認します。",
+      "reason": "SUS304という名称だけでは足りず、使用条件と実材の照合が必要です。"
+    },
+    "QA-CED-014": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "ケーブルメーカーの動的使用条件と、曲げ半径、移動速度、加速度、ねじり、想定寿命、キャリア寸法を照合します。",
+      "reason": "文書保存の指示より、ドラッグチェーン用途での適合条件が質問に直結します。"
+    },
+    "QA-CED-015": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "固定配線かプラグ接続かを決める前に、現地電源の電圧・電流・極数・接地方式、使用環境、据付方法を確認します。",
+      "reason": "IEC 60309を採用するかの判断に必要な現地条件です。"
+    },
+    "QA-CED-016": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "実際の洗浄温度、圧力、薬品、頻度を確認し、盤のIP等級とは別にケーブル被覆、シール、接続部の耐久性を照合します。",
+      "reason": "IPと材料耐久性を分ける理由が分かる具体的な確認事項です。"
+    },
+    "QA-CED-017": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "固定配線かプラグ接続か、保守時に電源をロックできるか、遮断後も給電が残る回路があるかを基に主遮断方式を決めます。",
+      "reason": "据付方法と保守条件が主遮断装置の構成を決めます。"
+    },
+    "QA-CED-018": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "扉を開ける人、開ける目的、通電の必要性、内部の活線部への接触可能性から、鍵・工具、インターロック、バリアを選びます。",
+      "reason": "一律インターロックではなく、アクセス条件から保護方法を決める質問です。"
+    },
+    "QA-CED-019": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "予想短絡電流、遮断能力、保護協調、過負荷設定、始動電流、モーター定格を回路全体で照合します。",
+      "reason": "部品の規格表示ではなく、完成回路で確認すべき条件を示しています。"
+    },
+    "QA-CED-020": {
+      "classification": "explanation",
+      "label": "回答本文へ統合",
+      "revisedText": "24VDCやPELVは主に感電リスクを下げる手段です。火災、短絡、誤動作、機能安全、蓄積エネルギーまで自動的に安全になるわけではありません。",
+      "reason": "既存文は行動ではなく、24VDCの意味を補足する説明です。"
+    },
+    "QA-HEAT-001": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "まず主熱源と補助熱源を特定します。電気、ガス、蒸気のどれを使うかによって、追加される危険、試験、現地設備、適用制度が変わります。",
+      "reason": "電圧決定という既存文は質問からずれており、熱源差分の判断順に直しています。"
+    },
+    "QA-HEAT-002": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "ガス加熱と電気保温の定格、安全装置、同時使用の可否、切替時のインターロックをそれぞれ確認します。",
+      "reason": "複合熱源で実際に確認すべき項目へ簡潔に直しています。"
+    },
+    "QA-HEAT-003": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "工場側との接続点から、機械内配管、減圧弁、ジャケット、熱交換器、トラップ、ドレンまで、圧力がかかる範囲と許容圧力を確認します。",
+      "reason": "図面作成を目的にせず、圧力設備として見る境界を直接示しています。"
+    },
+    "QA-HEAT-004": {
+      "classification": "explanation",
+      "label": "回答本文へ統合",
+      "revisedText": "電気式でも、蒸気を発生させる容器や配管には圧力、低水位、空焚き、安全弁、蒸気放出の危険があります。電気安全だけで完了しません。",
+      "reason": "チェック欄を分けるという社内形式は不要で、理由を回答へ統合すべきです。"
+    },
+    "QA-HEAT-005": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "機械の大きさではなく、設置場所、バッチか連続か、ラインへ組み込むか、特定の工業プロセス専用かで製品カテゴリーを判断します。",
+      "reason": "厨房機器か工場設備かを分ける判断基準です。"
+    },
+    "QA-HEAT-006": {
+      "classification": "explanation",
+      "label": "回答本文へ統合",
+      "revisedText": "GARの除外に該当しても、その除外はGARに限られます。機械法令、EMC、圧力設備、食品接触、燃焼安全、現地設置の確認は別に残ります。",
+      "reason": "法令対応表の作成より、除外の意味を明確に説明する方が質問に直結します。",
+      "factualIssue": "GARの工業プロセス除外はGARだけの適用除外であり、他のEU法令が自動的に消えるわけではない点は正しい。ただし『工業プロセス専用』だけで即断せず、工業施設で行われる工業プロセス用に特別設計され、その設計が特定の工程・用途の特定ニーズだけを意図するかを確認する必要がある。",
+      "correctionSuggestion": "『GAR Article 1(3)(a)の除外条件を満たす場合でも、機械指令または機械規則、EMC、PEDなど該当する他法令は別に確認します』とする。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng",
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en"
+      ]
+    },
+    "QA-HEAT-007": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "顧客工事との接続点を決め、必要なガス種・圧力・流量、蒸気条件、遮断、換気、排気、ドレン、試運転条件を図面と説明書で一致させます。",
+      "reason": "境界線を入れるだけでなく、メーカーが示すべき接続条件を具体化しています。"
+    },
+    "QA-HEAT-008": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "認証書やレポートで、対象型式、評価範囲、使用条件を確認します。その範囲外のガード、制御盤、圧力部、換気、配管、消火設備は別に確認します。",
+      "reason": "認証済みの範囲と残る範囲を直接確認できます。"
+    },
+    "QA-HEAT-009": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "機械、電気、燃焼、圧力、衛生、現地設備に分け、それぞれに適用する法令・規格と必要な試験を判断します。",
+      "reason": "一つの主要規格だけでは足りない理由を、分野別の判断へ置き換えています。"
+    },
+    "QA-HEAT-010": {
+      "classification": "check",
+      "label": "顧客へ確認すること",
+      "revisedText": "販売国・設置場所、用途、バッチ／連続、熱源と燃料、ガス・蒸気の供給条件、最大圧力、換気・排気、現地工事の範囲を確認します。",
+      "reason": "内部語の24項目マトリクスを削り、顧客へ聞く内容をそのまま示しています。"
+    },
+    "QA-GAS-001": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "認証機関は、対象製品と適用規格を認証できる範囲を持ち、販売国、顧客、設置地の検査担当が受け入れるかで選びます。",
+      "reason": "機関名ではなく認証範囲と受入条件が選定基準です。"
+    },
+    "QA-GAS-002": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "厨房用か工場プロセス用か、バッチか連続か、単体かライン組込みかを確認し、その用途を規格の適用範囲と照合します。",
+      "reason": "製品名だけで規格を決めず、用途と構造から判断する必要があります。"
+    },
+    "QA-GAS-003": {
+      "classification": "explanation",
+      "label": "回答本文へ統合",
+      "revisedText": "NFPA 86への適合、第三者による製品認証、設置地での承認は別のものです。NFPA 86を参照しただけで認証マークを表示できるわけではありません。",
+      "reason": "欄へ記録するという指示ではなく、三者の違いを説明すべき質問です。"
+    },
+    "QA-GAS-004": {
+      "classification": "omit",
+      "label": "表示しない",
+      "revisedText": "",
+      "reason": "認証部品と完成機評価が別であることは回答本文に十分含まれています。"
+    },
+    "QA-GAS-005": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "変換後のガス種、供給圧、ノズル、空気比、入力、点火、火炎安定、COを確認し、変換キットと手順が認証範囲に含まれるか照合します。",
+      "reason": "ノズル交換だけでは足りない具体的な確認内容です。"
+    },
+    "QA-GAS-006": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "弁の数は、機械カテゴリー、燃焼入力、燃焼方式、適用規格、認証条件から決めます。一律に一重または二重とは判断できません。",
+      "reason": "記録方法ではなく弁構成を決める基準が必要です。"
+    },
+    "QA-GAS-007": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "適用規格と燃焼安全制御の認証条件で、点火試行時間、失敗時の遮断、パージ、再試行回数、ロックアウト、手動リセットを確認します。",
+      "reason": "危険な独自設定を避けるため、確認するシーケンス条件を具体化しています。"
+    },
+    "QA-GAS-008": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "火炎検出、故障診断、遮断時間、出力故障、ソフトウェア変更を含め、燃焼安全用途として評価された制御構成かで判断します。",
+      "reason": "一般PLCか専用制御かという名称ではなく、安全性能が判断基準です。"
+    },
+    "QA-GAS-009": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "排気停止時に危険が生じるかを確認し、必要な場合はファン運転信号だけでなく、必要風量または圧力が確保されたことを燃焼許可条件にします。",
+      "reason": "排気連動が必要な理由と検出対象を直接示しています。"
+    },
+    "QA-GAS-010": {
+      "classification": "explanation",
+      "label": "回答本文へ統合",
+      "revisedText": "燃焼空気は燃焼に使う空気、室内換気は熱やガスの滞留を防ぐ空気、排気フード・煙道は排ガスや油煙を外へ出す設備です。役割が違うため、一つで代用できるとは限りません。",
+      "reason": "仕様書の欄分けではなく、三つの役割の違いを説明する質問です。"
+    },
+    "QA-GAS-011": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "最終設置地の採用コードと検査担当を確認し、ガス配管、圧力、換気、排気、離隔、フード、消火設備、施工資格、試運転に必要な承認を確認します。",
+      "reason": "出荷前の社内確定ではなく、認証マークの外に残る現地確認を示しています。"
+    },
+    "QA-GAS-012": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "製品の用途と工程、ガストレイン、制御、安全停止、設置条件をまとめ、設計初期に認証機関と現地検査担当へ評価方法を相談します。",
+      "reason": "規格が見つからない場合に取るべき次の確認として直接役立ちます。"
+    },
+    "QA-GAS-013": {
+      "classification": "explanation",
+      "label": "回答本文へ統合",
+      "revisedText": "GARではNotified Bodyの適合評価に加え、メーカーが技術文書、EU適合宣言書、CE表示を完成させます。第三者の証明書一枚だけでは完了しません。",
+      "reason": "既存文は行動ではなくGAR手続きの説明です。",
+      "factualIssue": "正しい。GAR Article 14は量産品にModule BとC2/D/E/Fの組合せを、一台物・少量品にはそれらまたはModule Gを定め、いずれもNotified Bodyが関与する。メーカーの技術文書・EU適合宣言・CE表示も別に必要である。",
+      "correctionSuggestion": "『GAR対象品は自己宣言だけでは完了せず、Article 14の適合評価手順にNotified Bodyが関与します』と条文根拠を添える。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng"
+      ]
+    },
+    "QA-GAS-014": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "工業施設で使うだけではなく、特定の工業プロセスと用途だけのために設計され、一般用途へ転用できないかを確認します。",
+      "reason": "GARの工業プロセス除外を判断する条件へ絞っています。",
+      "factualIssue": "結論は正しいが、『三条件』という独自整理は法文上の用語ではない。GAR Article 1(3)(a)は、工業施設で行われる工業プロセス用に特別設計された機器を除外し、『特別設計』を特定工程・用途の特定ニーズだけを意図する設計と定義している。",
+      "correctionSuggestion": "『食品工場に置くという事実だけでは除外されません。その機械が、工業施設で行われる特定の工業プロセスの特定ニーズだけに向けて設計されたかを確認します』と法文に沿わせる。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng"
+      ]
+    },
+    "QA-GAS-015": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "台数ではなく、特定の工業プロセス専用設計か、工業施設で使うか、一般用途へ転用できるかで除外を判断します。",
+      "reason": "一台物という数量とGAR除外条件を混同しないための判断軸です。",
+      "factualIssue": "正しい。一台物・特注という数量や商流はArticle 1(3)(a)の除外条件ではない。特定の工業プロセスまたは用途の特定ニーズだけに向けた設計かが中心である。",
+      "correctionSuggestion": "『一台物であることは除外理由になりません。特定の工業プロセスの特定ニーズだけに向けた設計で、工業施設で使われるかを確認します』とする。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng"
+      ]
+    },
+    "QA-GAS-016": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "GARから除外されても、機械法令、PED、食品接触材料、無線機能があればREDなど、製品の各機能に残る法令を確認します。",
+      "reason": "内部的な対応表の作成ではなく、除外後に何を判断するかを直接示しています。",
+      "factualIssue": "GAR除外後も他法令が残る点は正しい。REDサイバーセキュリティ部分は日付を明確にする必要がある。Delegated Regulation (EU) 2022/30は2025-08-01から適用され、2026/339により2027-12-11付で廃止されるため、対象無線機器には2027-12-10までArticle 3(3)(d)〜(f)が関係する。",
+      "correctionSuggestion": "REDの詳細は別注記へ分け、『対象無線機器ではDelegated Regulation (EU) 2022/30が2025年8月1日から2027年12月10日まで適用。2027年12月11日からはCRAとの関係を確認』と更新する。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/reg_del/2022/30/oj/eng",
+        "https://eur-lex.europa.eu/eli/reg_del/2026/339/oj/eng",
+        "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng"
+      ]
+    },
+    "QA-GAS-017": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "EU型式審査証明書がModule Bだけかを確認し、量産品ではC2、D、E、Fのどの後段モジュールで承認型式への継続適合を示すか確認します。",
+      "reason": "証明書を見て直接確認できる項目で、出荷可否に直結します。",
+      "factualIssue": "正しい。GAR Article 14(2)はModule Bの後にC2、D、E、Fのいずれかを組み合わせる。Module B単独は量産品の出荷手順として完結しない。",
+      "correctionSuggestion": "現行文を維持し、『GAR Article 14(2)』を公式資料リンクの説明に加える。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng"
+      ]
+    },
+    "QA-GAS-018": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "一台物・少量品ではModule Gが候補になりますが、製品と試験条件に適用できるかをNotified Bodyと確認して方式を選びます。",
+      "reason": "単に第三者が必要という説明より、Module Gを選べる条件を示しています。",
+      "factualIssue": "正しい。GAR Article 14(3)は、一台物または少量品について、Article 14(2)の手順またはModule Gをメーカーが選択できるとしている。Module GはNotified Bodyによる個別検証を含む。",
+      "correctionSuggestion": "『一台物・少量品ではModule Gを選択できますが、Notified Bodyによる個別検証を受けます』と簡潔にする。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng"
+      ]
+    },
+    "QA-GAS-019": {
+      "classification": "omit",
+      "label": "表示しない",
+      "revisedText": "",
+      "reason": "整合規格を使わなくても代替根拠が必要という回答と同じ内容です。",
+      "factualIssue": "正しい。整合規格の利用は原則任意だが、使わない場合にもGAR Annex Iの必須要求を満たす設計・試験根拠が必要で、GARではNotified Bodyが適合評価へ関与する。",
+      "correctionSuggestion": "回答本文を維持し、別の実務欄は削除する。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng",
+        "https://single-market-economy.ec.europa.eu/single-market/goods/european-standards/harmonised-standards/gas-appliances_en"
+      ]
+    },
+    "QA-GAS-020": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "証明書に記載された規格番号と版を、現在のEU官報掲載、失効日、制限事項、証明書の有効条件、製品の設計変更と照合します。",
+      "reason": "古い証明書を使えるか判断するための直接的な確認です。",
+      "factualIssue": "内容は正しい。2026-08-04時点ではGAR整合規格の参照はCommission Implementing Decision (EU) 2024/2944の2025-09-11統合状態を基準に確認する。規格番号だけでなく、追加・制限・失効日と証明書条件の照合が必要である。",
+      "correctionSuggestion": "公式資料名を『Implementing Decision (EU) 2024/2944（現行統合版を確認）』と明記し、固定した古い一覧を本文へ埋め込まない。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/dec_impl/2024/2944/2025-09-11/eng",
+        "https://single-market-economy.ec.europa.eu/single-market/goods/european-standards/harmonised-standards/gas-appliances_en"
+      ]
+    },
+    "QA-GAS-021": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "販売国ごとのガスファミリー、Wobbe指数、組成、供給圧力を確認し、機器カテゴリー、型式、設定、銘板、説明書がその条件に合うか照合します。",
+      "reason": "国別表を作ること自体ではなく、同一設定で販売できるかの照合内容を示しています。"
+    },
+    "QA-GAS-022": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "供給ガスの水素混合率、Wobbe指数、圧力と、認証されたガス条件の範囲を照合し、点火、火炎安定、入力、CO、材料への影響を確認します。",
+      "reason": "名称ではなく、実際の組成と認証範囲を確認する質問です。"
+    },
+    "QA-GAS-023": {
+      "classification": "omit",
+      "label": "表示しない",
+      "revisedText": "",
+      "reason": "フィッティング文書と完成機全体の評価が別であることは回答本文に含まれています。"
+    },
+    "QA-GAS-024": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "Notified Body証明書、技術文書、EU適合宣言書、銘板、説明書が同じ対象型式・版・仕様を示しているか確認します。",
+      "reason": "証明書があってもメーカー文書が必要という点を、実際の整合確認へ落としています。"
+    },
+    "QA-STM-001": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "顧客配管との接続点から、機械内配管、減圧、遮断、トラップ、ドレン、ジャケット、熱交換器までの圧力条件と責任範囲を確認します。",
+      "reason": "P&ID作成そのものではなく、メーカーが確認すべき圧力範囲を示しています。"
+    },
+    "QA-STM-002": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "食品側が確実に大気開放されるかを確認し、蒸気配管、ジャケット、コイル、熱交換器は別の圧力境界として確認します。",
+      "reason": "開放槽でも残る圧力部分を直接特定できます。"
+    },
+    "QA-STM-003": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "ジャケット側の最大許容圧力、容積、温度、材料、溶接、腐食、真空、過圧保護、ドレン条件を確認します。",
+      "reason": "記録作業ではなく、圧力設備として必要な確認項目を示しています。"
+    },
+    "QA-STM-004": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "通常圧力だけでなく、最大供給圧、減圧弁故障時の圧力、PSまたはMAWP、設計温度、容積・配管径、流体、設置地を確認します。",
+      "reason": "PED・ASME判定に必要な入力条件へ絞っています。"
+    },
+    "QA-STM-005": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "PSが0.5 bar以下のPED対象外か、0.5 bar超のSEPか、Category I〜IVかを区別します。どの場合も機械安全、高温、蒸気噴出、衛生など他の要求は別に確認します。",
+      "reason": "0.5 bar以下なら全て不要という誤解を、PED分類と他法令の二段階判断に直しています。",
+      "factualIssue": "結論は正しい。PEDはPSが0.5 barを超える圧力機器・アセンブリへ適用する。0.5 bar以下はPEDの適用範囲外であり、0.5 bar超でもArticle 4(1)・(2)の閾値未満ならArticle 4(3)のSound Engineering Practiceとなる。両者を混同しない表現が必要である。",
+      "correctionSuggestion": "『PS≦0.5 barはPED対象外。PS＞0.5 barでもカテゴリーIの閾値未満ならArticle 4(3)のSEPとなる場合があります』と二段階で書く。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/dir/2014/68/2026-05-30/eng"
+      ]
+    },
+    "QA-STM-006": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "最終設置州・省と設備区分を確認し、その管轄が要求するASME Section、採用版、スタンプ、登録、現地検査、免除条件を確認します。",
+      "reason": "ASMEスタンプの要否は設置地の管轄確認に直接依存します。"
+    },
+    "QA-STM-007": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "圧力だけでなく、低水位、空焚き、高温、給水停止、ポンプ故障、過圧、電源復帰を安全停止条件に含めるか、適用コードと機器構造から判断します。",
+      "reason": "回路図への記載より、必要な安全機能を決める基準が重要です。"
+    },
+    "QA-STM-008": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "減圧弁が全開故障したとき下流へ到達する圧力と、下流機器の許容圧力を比較し、必要な過圧保護を確認します。",
+      "reason": "下流安全弁の要否を判断する直接的な確認です。"
+    },
+    "QA-STM-009": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "保護対象から安全弁までの経路に、通常操作で閉止できる弁がないか確認します。切替式構成を使う場合は適用コードと管轄の条件を確認します。",
+      "reason": "監査という内部語を避け、危険な閉止構成の確認へ直しています。"
+    },
+    "QA-STM-010": {
+      "classification": "omit",
+      "label": "表示しない",
+      "revisedText": "",
+      "reason": "部品表へ分けて記載することは質問への回答に不要で、トラップと安全弁の役割差は本文で完結しています。"
+    },
+    "QA-STM-011": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "蒸気源、水質、ボイラー水添加剤の製品名・成分・投入量、キャリーオーバー、配管汚染、使用点での測定値と受入基準を確認します。",
+      "reason": "条文番号の照合作業に偏らず、食品へ直接触れる蒸気の受入確認を示しています。"
+    },
+    "QA-STM-012": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "名称だけで判断せず、用途、生成方法、添加剤、測定項目、サンプリング位置、受入基準を仕様として確認します。",
+      "reason": "契約仕様という形式より、cleanとculinaryを区別するための確認内容が重要です。"
+    },
+    "QA-CASE-001": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "厨房用か工場用か、バッチか連続か、単体かライン組込みか、熱源と圧力条件は何かを確認してから規格を選びます。",
+      "reason": "機種名ではなく用途・構造で規格を決める判断基準です。"
+    },
+    "QA-CASE-002": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "大きさではなく、使用場所、操作者、バッチ／連続、ラインとの接続、特定工程専用か、他用途へ転用できるかで区分します。",
+      "reason": "工程図の作成指示より、厨房機と工場機の区分条件が質問に直結します。"
+    },
+    "QA-CASE-003": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "厨房で使うバッチ式の多目的調理パンか、食品工場の連続炒め・ライン設備かを確認し、規格の適用範囲と照合します。",
+      "reason": "IEC 60335-2-39を使えるかの直接的な判断軸です。",
+      "factualIssue": "規格名の方向性は妥当。ただし2026-08-04時点のIEC刊行物にはIEC 60335-2-39:2021+A1:2025があり、EUで適合推定を得る版はIEC最新版ではなく、該当EU法令の官報に引用されたEN版とその適用範囲で決まる。工場設置や大型という事実だけで規格対象外とは断定できない。",
+      "correctionSuggestion": "『IECの最新版、欧州EN採用版、EU官報で引用された版は同じとは限りません。機械の用途・定格・構造を、適用するEN版のScopeと照合します』と補足する。",
+      "officialSources": [
+        "https://webstore.iec.ch/en/publication/67831",
+        "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/low-voltage-directive-lvd_en",
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en"
+      ]
+    },
+    "QA-CASE-004": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "フライヤー本体の製品規格だけでなく、連続搬送、油循環、排気フード、消火設備、火災時停止、衛生、現地工事が評価範囲に入るか確認します。",
+      "reason": "内部的な範囲分けではなく、追加評価の要否を判断する内容へ直しています。",
+      "factualIssue": "UL 197やIEC 60335-2-37だけで排気・消火・現地設備まで完了しないという結論は妥当。EUではIEC番号だけで適合推定を主張せず、適用法令と官報引用されたEN版を特定する必要がある。",
+      "correctionSuggestion": "本文中の『IEC 60335-2-37』を『該当するEN 60335-2-37の官報引用版』へ直し、IEC規格は技術的参照、CEの適合推定はEN版の官報状態で説明する。",
+      "officialSources": [
+        "https://webstore.iec.ch/en/publication/67834",
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en"
+      ]
+    },
+    "QA-CASE-005": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "最大圧力、容積、圧力と容積の積、ふたのロック、残圧時の開放防止、安全弁、適用する圧力設備規則を確認します。",
+      "reason": "開放式フライヤーにはない圧力固有の確認事項です。",
+      "factualIssue": "IEC 60335-2-37:2021の公開Scopeは、加圧型について圧力50 kPa以下かつ圧力×容積(L)が200以下としており、現在の数値説明は合っている。ただし版を示さず固定値だけを書くと、EN採用版・改訂時に追随できない。PEDや現地圧力規則の適用判断とは別である。",
+      "correctionSuggestion": "『IEC 60335-2-37:2021のScopeでは…』と版を付け、EU案件では官報引用されたEN版のScopeを案件ごとに再確認する注記を加える。",
+      "officialSources": [
+        "https://webstore.iec.ch/en/publication/67834",
+        "https://eur-lex.europa.eu/eli/dir/2014/68/2026-05-30/eng"
+      ]
+    },
+    "QA-CASE-006": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "電気安全とは別に、外部蒸気または内蔵発生器の圧力境界と、食品へ触れる蒸気の水質・添加剤・配管衛生を確認します。",
+      "reason": "三つの欄という内部形式を外し、残る確認を直接示しています。",
+      "factualIssue": "IEC 60335-2-42は商業用電気式の強制対流オーブン、蒸し機、スチームコンベクションオーブン等を扱うが、PED適用や食品接触蒸気の衛生適合を一括証明する規格ではないという結論は正しい。EUでの適合推定は該当EN版の官報状態で確認する。",
+      "correctionSuggestion": "現行の結論を維持し、規格名を出すときはIEC/ENの版と、どの法令への適合推定に使うかを明記する。",
+      "officialSources": [
+        "https://webstore.iec.ch/en/publication/67830",
+        "https://eur-lex.europa.eu/eli/dir/2014/68/2026-05-30/eng"
+      ]
+    },
+    "QA-CASE-007": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "煮るだけか、炒め・撹拌・傾動も行うか、バッチか連続か、圧力部があるか、厨房用か工場用かを規格の適用範囲と照合します。",
+      "reason": "二つの規格を選び分ける機能・構造上の判断軸です。",
+      "factualIssue": "IEC 60335-2-47がcommercial electric boiling pans、IEC 60335-2-39がcommercial electric multi-purpose cooking pansを扱うという説明は正しい。ただし最新版IEC 2021+A1:2025と、EU官報引用EN版を混同しないことが必要である。",
+      "correctionSuggestion": "『製品機能を、適用候補となるEN 60335-2-47またはEN 60335-2-39の官報引用版のScopeと照合します』とする。",
+      "officialSources": [
+        "https://webstore.iec.ch/en/publication/67829",
+        "https://webstore.iec.ch/en/publication/67831"
+      ]
+    },
+    "QA-CASE-008": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "厨房用の焼成・スチームオーブンか、連続乾燥・工業加熱設備かを用途、可燃物、連続運転、排気・ダクト、ライン統合から判断します。",
+      "reason": "候補規格を選ぶために必要な用途区分を示しています。",
+      "factualIssue": "厨房型と工業オーブンを用途で分ける考え方は妥当。ただしIEC 60335-2-36/-2-42を挙げるだけではEUの適合推定版が確定せず、工場設備であるだけで機械法令中心とも断定できない。製品のScope、適用法令、官報引用EN版を順に確認する必要がある。",
+      "correctionSuggestion": "『用途と構造を候補規格のScopeへ照合し、EUでは適用法令と官報引用されたEN版を確認します。連続乾燥・工業加熱設備では機械法令や燃焼安全規格も候補になります』とする。",
+      "officialSources": [
+        "https://webstore.iec.ch/en/publication/67830",
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en"
+      ]
+    },
+    "QA-CASE-009": {
+      "classification": "check",
+      "label": "次に確認すること",
+      "revisedText": "認証レポートの用途、設置条件、ガス条件、排気条件を確認し、実際のラインで追加される搬送、ガード、非常停止、排気連動、火災対策と照合します。",
+      "reason": "厨房向け認証を工場ラインへ使えるかの直接的な照合です。"
+    },
+    "QA-CASE-010": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "傾動、撹拌、排出は別の危険な動きとして、挟まれ、熱液、意図しない動作、保持、清掃時の起動をそれぞれ評価します。",
+      "reason": "非常停止の有無ではなく、各動作の危険から安全機能を決める内容です。"
+    },
+    "QA-CASE-011": {
+      "classification": "explanation",
+      "label": "回答本文へ統合",
+      "revisedText": "熱源変更はユニット交換ではなく、燃焼または圧力の危険、現地設備、制御、温度分布、表示、説明書、認証範囲まで変わる設計変更です。",
+      "reason": "プロジェクト管理という抽象的な行動ではなく、変更の意味を回答へ統合すべきです。"
+    },
+    "QA-CASE-012": {
+      "classification": "check",
+      "label": "安全対応とは別に確認すること",
+      "revisedText": "食品接触材料、洗浄できる構造、隙間や滞留、排水、洗浄薬品への耐性、顧客の衛生・アレルゲン基準を確認します。安全認証の対象範囲に衛生まで含まれるかも証明書で確認します。",
+      "reason": "担当者・帳票・承認手順を削り、安全対応後に残る衛生確認へ直接つなげています。"
+    },
+    "QA-CASE-013": {
+      "classification": "check",
+      "label": "ライン化するときに確認すること",
+      "revisedText": "機械間の受渡し部、上流・下流の停止連動、非常停止の範囲、再起動、追加ガード、清掃・保守時の隔離をライン全体で確認します。",
+      "reason": "役職別の社内作業を削り、単体機をつないだときに新しく生じる危険へ絞っています。"
+    },
+    "QA-CASE-014": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "台数、出荷前か設置後か、完成機か制御盤か、販売国と適用法令を確認し、通常認証、一台物向け評価、現地評価の候補から選びます。",
+      "reason": "一台物で選べる方式を判断する条件を示しています。",
+      "factualIssue": "GAR対象の一台物・少量品にModule Gが選択肢となる点は正しい。ただしCE機械法令について、一台物向けの簡易CE手続きがあるわけではなく、適用される基本手続きは一台物でも必要である。",
+      "correctionSuggestion": "『GAR対象ならModule Gが候補。機械指令または機械規則は一台物でも通常の適合手続きを省略できません』と制度ごとに分ける。",
+      "officialSources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng",
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en"
+      ]
+    },
+    "QA-CASE-015": {
+      "classification": "decision",
+      "label": "判断するときのポイント",
+      "revisedText": "ガード、清掃性、材料などは共通化しやすい一方、電気部品、SCCR、ガス条件、圧力規則、認証方式、銘板、言語は市場別に分けます。",
+      "reason": "BOM管理という社内作業ではなく、共通化できる範囲の判断を示しています。"
+    }
+  },
+  "summary": {
+    "total": 95,
+    "classificationCounts": {
+      "explanation": 11,
+      "decision": 30,
+      "check": 43,
+      "omit": 11
+    },
+    "factualAuditDate": "2026-08-04",
+    "factualItems": 25,
+    "factualFindings": [
+      "2026-08-04時点ではMachinery Directive 2006/42/ECが現行の中心で、Regulation (EU) 2023/1230は原則2027-01-20から全面適用。",
+      "Notified BodyはCE全般で一律必須ではなく、適用法令が指定する適合評価手順で決まる。一方、GAR対象品ではArticle 14の全ルートにNotified Bodyが関与する。",
+      "現行機械指令の取扱説明書は、原則として市場投入・使用開始する加盟国の公用語が必要。英語だけでよいとは一般化できない。",
+      "EU調和製品要求と、言語・建物・施工・消防・ガス・圧力設備・使用時安全など国別または設置地別の条件を混同しない。",
+      "GARの工業プロセス除外は、工場設置や一台物だけでは成立しない。工業施設で行われる工業プロセスの特定ニーズだけに向けた特別設計かを確認する。",
+      "PEDはPSが0.5 bar以下の対象外と、0.5 bar超でArticle 4(3) SEPとなる場合を分けて説明する。",
+      "IEC規格番号だけではEUでの適合推定版を特定できない。適用法令と官報引用されたEN版・版数・Scopeを確認する。"
+    ],
+    "starterItems": [
+      "QA-CASE-012",
+      "QA-CASE-013"
+    ],
+    "finding": "『実務で行うこと』の一律表示は廃止し、回答本文への統合、判断するときのポイント、次に確認すること、非表示へ出し分ける。担当者名、帳票名、承認手順は質問へ直接必要な場合を除き削る。"
+  }
+}

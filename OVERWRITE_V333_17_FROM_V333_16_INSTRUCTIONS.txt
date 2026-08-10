@@ -1,0 +1,21 @@
+MARKET BASE V333.17 上書き手順
+
+対象: MARKET BASE V333.16
+
+1. MARKET_BASE_V333_17_OVERWRITE_FROM_V333_16_20260810.zip を展開します。
+2. 展開した内容を公開ルートへ、フォルダ構造を維持して全て上書きします。
+3. assets / settings / world-radio / 公開HTML 38件 / sw.js / version.txt / manifest.json を同じリリースとして反映します。
+4. assets/js 内の旧controller・runtime・radio dock互換ファイルは削除しないでください。古いページやキャッシュからV333.17へ移行するために必要です。
+5. 配信順は、新しいCSS・JS・データ → sw.jsとHTML → version.txtを推奨します。
+6. 公開完了後、メインページの「更新」を一度押します。同一版内の壊れた資産も安全なネットワーク再取得で修復されます。
+7. ホーム、検索、ランキング、学ぶ、比較を切り替え、全ページ再読込が起きないことを確認します。
+8. ラジオの再生→停止→再生、タブ移動、上矢印との非重複をiPhoneで確認します。
+
+注意:
+- この上書きZIPはV333.16を基準にしています。
+- V333.15以前を公開中の場合は、上書きZIPではなくV333.17フル一式へ入れ替えてください。
+- 新Service Workerの有効化前に旧回復キャッシュを削除しない設計です。公開途中で手作業の全キャッシュ削除やSW解除を行わないでください。
+
+詳細:
+HANDOFF_DOCUMENTS/V333_17_ROOT_CAUSE_AND_FIX_20260810.md
+HANDOFF_DOCUMENTS/V333_17_TEST_REPORT_20260810.md

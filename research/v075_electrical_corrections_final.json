@@ -1,0 +1,96 @@
+{
+  "items": {
+    "QA-PNL-002": {
+      "question": "UL 508AのPanel Shopとは何ですか？",
+      "shortAnswer": "UL 508A制御盤を、認定された範囲で製作・検査し、対象盤へULマークを表示できる工場です。",
+      "answer": "Panel Shopは、UL 508Aに基づく産業用制御盤を製作するための認定プログラムに参加している工場です。認定された工場は、決められた部品選定、配線、検査、表示の条件に従って盤を製作し、認定範囲に入る盤へULマークを表示できます。\n\n認定は、会社名だけでなく製造拠点と認定範囲に結び付いています。同じ会社の別工場や外注先が、同じ図面を使っただけでULマークを貼れるわけではありません。また、Panel Shopが認証するのは制御盤の範囲であり、盤が動かす機械全体まで自動的にUL認証されるわけではありません。確認するときは、製造拠点、認証番号、対象となる盤の種類、認定範囲を公式登録で照合します。",
+      "sources": [
+        "https://www.ul.com/services/industrial-control-panels-and-panel-shop-program",
+        "https://www.ul.com/resources/does-ul-certified-industrial-control-panel-certification-cover-equipment-it-controls"
+      ]
+    },
+    "QA-PNL-003": {
+      "question": "UL 508A制御盤を使えば、機械全体の認証確認は不要ですか？",
+      "shortAnswer": "いいえ。UL 508A制御盤の認証範囲と、完成機械に残る確認範囲は別です。",
+      "answer": "UL 508A制御盤の認証は、盤の箱、盤内の部品・配線、盤面へ取り付けた部品など、制御盤としての範囲を確認するものです。盤が制御するモーター、ヒーター、コンベヤ、ガード、可動部、配管などの機械側までは、その認証に含まれません。\n\nそのため、UL 508A盤を付けたことだけで『機械全体がUL認証済み』とは説明できません。ただし、すべての機械が必ず別のUL認証を取得しなければならないという意味でもありません。完成機械について何が必要かは、製品の種類、設置場所の規則、顧客契約、設置地の検査・承認条件で変わります。まず制御盤の認証表示と公式登録で対象範囲を確認し、盤外に残る電気・機械安全について、完成機械認証、現地評価、設置時の確認のどれが必要かを案件ごとに確認します。",
+      "sources": [
+        "https://www.ul.com/resources/does-ul-certified-industrial-control-panel-certification-cover-equipment-it-controls",
+        "https://www.osha.gov/nationally-recognized-testing-laboratory-program/frequently-asked-questions"
+      ]
+    },
+    "QA-PNL-005": {
+      "question": "UL 508A制御盤の中は、すべてUL Listed部品にする必要がありますか？",
+      "shortAnswer": "いいえ。Listed部品だけでなく、組込み条件を満たしたRecognized部品などを使える場合があります。",
+      "answer": "盤内のすべての部品をUL Listed部品だけにそろえる必要はありません。完成品として評価されたListed部品のほか、完成品へ組み込むことを前提に評価されたRecognized Componentや、UL 508Aの部品選定ルールで使用が認められる部品を使える場合があります。\n\n大切なのはマークの有無だけではなく、採用する完全型式が盤内の用途に合うことです。Recognized部品では、電圧、温度、必要な箱、上位保護装置、取付方向、端子、周囲との間隔などの組込み条件が付くことがあります。公式認証情報で、認証カテゴリー、完全型式、定格、組込み条件を確認します。別の試験・認証機関が認証した部品については、自動的にUL認証盤へ使えるとは限りません。完成盤を認証する機関が、その認証結果を受け入れるかも採用前に確認します。",
+      "sources": [
+        "https://www.ul.com/thecodeauthority/knowledge/ul-component-recognition-classification",
+        "https://www.ul.com/resources/ul-508a-supplement-sa-specific-component-requirements",
+        "https://www.osha.gov/nationally-recognized-testing-laboratory-program/frequently-asked-questions"
+      ]
+    },
+    "QA-PNL-008": {
+      "question": "制御盤のSCCRが、設置場所の利用可能短絡電流より低くても使えますか？",
+      "shortAnswer": "そのままでは使えません。盤のSCCRは、設置点の利用可能短絡電流以上にする必要があります。",
+      "answer": "SCCRは、制御盤が短絡事故に対して耐えられる電流の定格です。一方、利用可能短絡電流は、その設置点で短絡が起きたときに流れ得る電流です。設置点の利用可能短絡電流が盤のSCCRを上回る状態では、盤をそのまま通電・使用できません。\n\n最初に、機械へ電源を接続する位置の電圧と利用可能短絡電流を、顧客の設備担当へ確認します。その値と盤銘板のSCCRを同じ電圧条件で比較します。不足する場合は、盤内の低いSCCRの部品や回路を変更して盤SCCRを上げるか、規格で認められた電流制限保護や組合せを、指定された型式・定格・条件どおりに適用します。設備側を変更する場合も、実際に利用可能短絡電流が下がることを計算と資料で示す必要があります。遮断容量の高いブレーカーを上流へ追加しただけでは、盤SCCRが自動的に上がるわけではありません。",
+      "sources": [
+        "https://www.ul.com/resources/determining-short-circuit-current-rating-sccr-machinery",
+        "https://www.ul.com/news/short-circuit-current-rating-versus-arc-flash"
+      ]
+    },
+    "QA-PNL-012": {
+      "question": "Series Combination Ratingを使えば、盤のSCCRを上げられますか？",
+      "shortAnswer": "使える場合はありますが、指定された組合せまたは認められた計算・試験の根拠が必要です。",
+      "answer": "Series Combination Ratingは、上流と下流の保護装置を組み合わせて使う考え方ですが、同じメーカー、同じ電流値というだけでは成立しません。公開された試験済みの組合せを使う場合は、上流・下流機器の完全型式、電圧、電流定格、最大保護値などを実機と一致させます。条件を変えた場合は、元の組合せ定格をそのまま引用できません。\n\nまた、設置現場で不足SCCRを補うためのseries ratingは、計算または組合せ試験による根拠が必要で、UL Solutionsも一般的に容易な解決方法ではないと説明しています。まず、話しているのが盤内部品の公表された高短絡定格組合せなのか、設置側のseries ratingなのかを分けます。そのうえで、対象となる完全型式と条件を公式資料で照合し、完成盤の認証機関と設置地の検査・承認担当へ適用可否を確認します。",
+      "sources": [
+        "https://www.ul.com/resources/determining-short-circuit-current-rating-sccr-machinery",
+        "https://www.ul.com/resources/short-circuit-current-ratings-combination-motor-controller-components"
+      ]
+    },
+    "QA-PNL-036": {
+      "question": "機械のプラグを抜けば、主電源遮断装置の代わりになりますか？",
+      "shortAnswer": "条件によっては使えますが、プラグ付きというだけで主電源遮断装置を省略できるわけではありません。",
+      "answer": "プラグを機械の電源遮断手段として扱えるかは、機械の容量、プラグと受口の認証用途、電圧・電流・相数、負荷を開閉できる定格、設置位置、適用する機械規格によって変わります。負荷開閉用として評価されていないプラグを、運転中の開閉器のように抜き差ししてはいけません。\n\n保守時のエネルギー遮断として使う場合は、さらに別の確認が必要です。米国労働安全衛生局の規定では、コード・プラグ接続機器について、プラグを抜くことで作業者がさらされるすべての危険エネルギーを遮断でき、作業中のプラグをその作業者が継続して管理できる場合に限り、特定の例外が認められます。空圧、蒸気、重力、蓄電などが残る機械では、プラグを抜くだけでは十分ではありません。採用前に、電気的な主遮断用途、通常操作、保守時のエネルギー遮断を分けて確認します。",
+      "sources": [
+        "https://www.ul.com/resources/machine-supply-circuit-and-disconnecting-means",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+        "https://www.osha.gov/laws-regs/standardinterpretations/2010-11-30"
+      ]
+    },
+    "QA-PNL-038": {
+      "question": "UL 508のディスコネクト部品を、機械の主電源遮断装置に使えますか？",
+      "shortAnswer": "UL 508部品という理由だけでは使えません。機械の主電源遮断には、通常UL 98スイッチやUL 489ブレーカーなどを確認します。",
+      "answer": "UL 508のmanual motor controllerなどは、モーター回路内の特定用途に使う部品です。UL Solutionsは、UL 508部品をUL 508A盤で使う場合、分岐回路用の過電流保護装置より負荷側へ配置する必要があり、機械の供給回路を切り離す主電源遮断装置には適さないと説明しています。\n\n機械の主電源遮断装置には、一般にUL 98の非ヒューズ式スイッチ、またはUL 489の配線用遮断器など、その用途に認められた機器を選びます。ただし、商品名にdisconnectと書かれているかでは判断できません。採用する完全型式について、認証カテゴリー、機械供給回路の遮断用途、電圧、電流、モーター負荷定格、SCCR、外部操作とロックアウト条件を公式資料で確認します。",
+      "sources": [
+        "https://www.ul.com/services/industrial-control-panels-and-panel-shop-program",
+        "https://www.ul.com/resources/machine-supply-circuit-and-disconnecting-means"
+      ]
+    },
+    "QA-PNL-049": {
+      "question": "盤のSCCRが設置点の利用可能短絡電流より低い場合、どう対応しますか？",
+      "shortAnswer": "そのまま設置・通電せず、盤SCCRを上げるか、根拠のある方法で設置点の短絡条件を下げます。",
+      "answer": "盤のSCCRは、設置点の利用可能短絡電流以上でなければなりません。盤SCCRが下回る場合は、『実際には短絡しないだろう』という判断や警告表示だけで使用せず、条件が成立するまで設置・通電を止めます。\n\n対応方法は二つに分けます。一つは、低いSCCRの部品や回路を特定し、高いSCCRの部品、試験済みの組合せ、UL 508Aの算定手順で認められた電流制限保護などを使って盤側のSCCRを上げる方法です。もう一つは、変圧器やインピーダンス、認められた保護方式などにより、設置点の利用可能短絡電流そのものを下げ、その結果を計算・資料で確認する方法です。遮断容量の大きい上流ブレーカーへ交換しただけでは、下流の利用可能短絡電流や盤SCCRが自動的に変わるわけではありません。変更後の数値、使用部品、適用条件、盤銘板を再確認します。",
+      "sources": [
+        "https://www.ul.com/resources/determining-short-circuit-current-rating-sccr-machinery",
+        "https://www.ul.com/news/short-circuit-current-rating-versus-arc-flash"
+      ]
+    },
+    "QA-PNL-050": {
+      "question": "電流制限ヒューズを付ければ、必ず盤のSCCRを上げられますか？",
+      "shortAnswer": "いいえ。ヒューズの種類と通過電流が、下流部品のSCCRに合う場合だけ利用できます。",
+      "answer": "高い遮断容量のヒューズへ交換しただけでは、盤のSCCRは自動的に上がりません。遮断容量はヒューズ自身が遮断できる電流であり、電流制限性能は、短絡電流のピークを下流部品が耐えられる範囲まで抑えられるかという別の確認です。\n\nUL 508AのSCCR算定手順を使う場合は、採用するヒューズが電流制限形として認証されていることを確認し、Class、電圧、電流定格、最大ヒューズサイズ、想定する短絡電流の範囲、ピーク通過電流を確認します。その値が、保護されるすべての下流部品・盤のSCCRに対して使えるかを照合します。特定のヒューズと定格を条件にSCCRを決めた場合は、銘板、回路図、部品表でもその条件が分かるようにし、別Classや別定格へ自由に交換しません。",
+      "sources": [
+        "https://www.ul.com/resources/determining-short-circuit-current-rating-sccr-machinery",
+        "https://www.ul.com/resources/determining-sccr-industrial-control-panels-and-industrial-machinery"
+      ]
+    },
+    "QA-PNL-060": {
+      "question": "遮断容量の高いブレーカーなら、Current-Limitingとして盤のSCCRを上げられますか？",
+      "shortAnswer": "いいえ。遮断容量が高いことと、電流制限形として評価されていることは別です。",
+      "answer": "ブレーカーのInterrupting Ratingは、そのブレーカー自身が安全に遮断できる短絡電流を示します。Current-Limitingは、短絡電流が最大値へ達する前に抑え、下流へ流れるピーク電流を小さくする性能です。そのため、遮断容量が高いだけのブレーカーをCurrent-Limitingとして扱うことはできません。\n\n盤SCCRの算定に利用する場合は、採用する完全型式が電流制限形として認証・表示されているかを最初に確認します。次に、電圧、電流定格、適用できる短絡電流の範囲、ピーク通過電流など、UL 508Aの算定手順で必要となるデータをメーカーの公式資料で確認し、保護される下流部品のSCCRと照合します。条件を満たさない場合は、ブレーカーの遮断容量が高くても盤SCCRを引き上げる根拠には使えません。",
+      "sources": [
+        "https://www.ul.com/resources/determining-short-circuit-current-rating-sccr-machinery",
+        "https://www.ul.com/services/ul-508a-training-industrial-control-panels"
+      ]
+    }
+  }
+}

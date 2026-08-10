@@ -1,0 +1,226 @@
+{
+  "reviewedAt": "2026-08-04",
+  "baseData": "data/ulce-data-v074.json",
+  "purpose": "事実監査対象25問の表示用短答・本文・一次資料URLの完全置換案",
+  "items": {
+    "QA-CEB-001": {
+      "shortAnswer": "いいえ。CEマークは、EU法令への適合をメーカーが示す表示です。",
+      "answer": "CEマークは、EUの認証機関が一律に発行する合格シールではありません。メーカーは、製品に適用されるEU法令を特定し、必要な評価と試験を行い、技術文書とEU適合宣言書を整えたうえでCEマークを表示します。\n\nNotified Bodyという第三者機関が関与するかどうかは、製品に適用される法令と適合評価手順によって異なります。自己評価が認められる製品もあれば、第三者評価が必要な製品もあります。",
+      "sources": [
+        "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
+        "https://single-market-economy.ec.europa.eu/single-market/goods/building-blocks/conformity-assessment_en"
+      ]
+    },
+    "QA-CEB-003": {
+      "shortAnswer": "一律には必要ありません。適用法令が定める評価手順で決まります。",
+      "answer": "Notified Bodyが必要かどうかは、『CE対象だから』『食品機械だから』という理由だけでは決まりません。まず製品に適用されるEU法令を特定し、その法令が該当製品に指定する適合評価手順を確認します。\n\nメーカーによる自己評価が認められている場合は、Notified Bodyを利用しなくてもCE手続きを進められます。第三者による型式審査や品質管理の評価などが法令で要求される場合は、その範囲について認定されたNotified Bodyを選びます。任意の民間証明書は、法令で要求されるNotified Bodyの評価の代わりにはなりません。",
+      "sources": [
+        "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
+        "https://single-market-economy.ec.europa.eu/single-market/goods/building-blocks/notified-bodies_en",
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en"
+      ]
+    },
+    "QA-CEB-004": {
+      "shortAnswer": "原則2027年1月20日からです。2026年8月現在は、機械指令2006/42/ECが中心です。",
+      "answer": "Regulation (EU) 2023/1230（機械規則）は、原則として2027年1月20日から適用されます。2026年8月4日時点では主要な製品安全要求はまだ全面適用前で、2027年1月20日より前にEU市場へ投入する機械は、現行のMachinery Directive 2006/42/EC（機械指令）へ適合させます。\n\n機械規則には一部の条文が先に適用されているため、『規則がまだ存在しない』という意味ではありません。ただし、設計・リスク評価・適合宣言を説明するときは、市場投入日を基準に、現行の機械指令と将来の機械規則を混同しないことが重要です。",
+      "sources": [
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+        "https://eur-lex.europa.eu/eli/dir/2006/42/2026-05-30/eng",
+        "https://eur-lex.europa.eu/eli/reg/2023/1230/oj/eng"
+      ]
+    },
+    "QA-CEB-007": {
+      "shortAnswer": "製造者または認定代理人を代表して宣言できる権限者が署名します。",
+      "answer": "現行の機械指令では、EC適合宣言に、製造者または認定代理人を代表して宣言を作成する権限を与えられた人の氏名と署名を記載します。会社名だけ、試験所名だけ、担当部署名だけでは署名者の説明になりません。\n\n試験所やコンサルタントが試験・文書作成を支援しても、その試験報告書や民間証明書がメーカーの適合宣言書へ自動的に置き換わるわけではありません。署名者は、対象製品、適用法令、宣言内容を会社として確認できる権限を持つ必要があります。",
+      "sources": [
+        "https://eur-lex.europa.eu/eli/dir/2006/42/2026-05-30/eng"
+      ]
+    },
+    "QA-CEB-010": {
+      "shortAnswer": "いいえ。CEマークで確認される製品要求と、設置・使用時の条件は別です。",
+      "answer": "CEマークは、その製品に適用されるEUの製品法令へ適合していることを示します。EUで調和された製品要求について、加盟国が自由に別の製品安全要求を追加できるという意味ではありません。\n\n一方、取扱説明書の言語、建物側の電気工事、消防、ガス配管、圧力設備の登録・検査、換気・排気、使用時の労働安全などは、製品のCE手続きとは別に、仕向国や設置場所の条件を確認する必要があります。消費者向け製品または消費者による使用が合理的に予見される製品では、GPSRなど別法令の適用範囲も個別に確認します。",
+      "sources": [
+        "https://single-market-economy.ec.europa.eu/single-market/goods/ce-marking_en",
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+        "https://eur-lex.europa.eu/eli/reg/2023/988/2026-05-29/eng"
+      ]
+    },
+    "QA-CEB-011": {
+      "shortAnswer": "いいえ。EU共通の製品要求に適合しても、言語や据付条件の確認は残ります。",
+      "answer": "CEマーキングの対象となる製品要求はEUで調和されているため、同じ安全項目について国ごとに最初から別の機械を設計するのが基本ではありません。\n\nただし、機械を実際に据え付けて運転するには、仕向国が要求する取扱説明書・警告の言語、建物側の電気工事、消防、ガス供給、圧力設備の登録・検査、換気・排気、使用時の労働安全を確認します。『EUで販売できること』と『その工場へ安全に据え付けて運転できること』は分けて考えます。",
+      "sources": [
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+        "https://eur-lex.europa.eu/eli/dir/2006/42/2026-05-30/eng"
+      ]
+    },
+    "QA-CEB-012": {
+      "shortAnswer": "通常は英語だけでは足りません。機械を使用する国が求める公用語を確認します。",
+      "answer": "現行の機械指令では、機械を市場投入または使用開始する加盟国の公用語による取扱説明書が原則として必要です。どの言語が必要かは、最終的な仕向国とその国の要求を確認します。\n\nメーカーが確認した言語版には『Original instructions』、原文から作成した現地語版には『Translation of the original instructions』と表示し、翻訳版には原文を伴わせます。メーカーが指定した専門保守員だけが使う保守説明には限定的な言語例外がありますが、一般の設置・運転・清掃・安全説明まで英語だけでよいという例外ではありません。",
+      "sources": [
+        "https://eur-lex.europa.eu/eli/dir/2006/42/2026-05-30/eng"
+      ]
+    },
+    "QA-CEB-013": {
+      "shortAnswer": "通常は基本設計を共通化し、言語や設置条件を国別差分として確認します。",
+      "answer": "EUで調和された製品安全要求を土台にすれば、加盟国ごとに機械本体を全面的に別設計する必要があるとは限りません。ガード、安全回路、リスク低減などは共通設計にしやすい部分です。\n\n一方、取扱説明書と警告の言語、電源・ガスの供給条件、建物・消防・換気、圧力設備の登録や検査、使用時の労働安全は、仕向国と設置場所によって差が出る場合があります。共通仕様と国別・現場別の差分を分けて確認します。",
+      "sources": [
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+        "https://eur-lex.europa.eu/eli/dir/2006/42/2026-05-30/eng",
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng"
+      ]
+    },
+    "QA-HEAT-006": {
+      "shortAnswer": "いいえ。GARの対象外でも、ほかのEU法令と安全要求は残ります。",
+      "answer": "GARの工業プロセス除外は、『工場に置く』『一台物である』だけでは成立しません。工業施設で行われる工業プロセスのために特別設計され、その設計が特定の工程または用途の特定ニーズだけを意図しているかを確認します。\n\nこの条件を満たしてGARの対象外になっても、除外されるのはGARです。機械法令、EMC、圧力設備、食品接触材料など、製品の構造と機能に適用されるほかのEU法令は別に確認します。したがって、『GAR対象外＝CE対応がすべて不要』ではありません。",
+      "sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng",
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+        "https://eur-lex.europa.eu/eli/dir/2014/68/2026-05-30/eng"
+      ]
+    },
+    "QA-GAS-013": {
+      "shortAnswer": "いいえ。GAR対象品は、Notified Bodyが関与する適合評価を受けます。",
+      "answer": "GAR対象のガス機器・フィッティングは、メーカーの自己宣言だけではCE手続きが完了しません。GAR Article 14に従い、量産品ではEU型式審査Module Bと、C2・D・E・Fのいずれかを組み合わせます。一台物・少量品では、これらの手順またはModule Gを選択できます。いずれのルートにもNotified Bodyが関与します。\n\nその後も、メーカーは技術文書を整え、EU適合宣言書を作成し、対象型式と適合評価結果に基づいてCEマークを表示します。Notified Bodyの証明書一枚だけで、メーカー側の文書と宣言が不要になるわけではありません。",
+      "sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng",
+        "https://single-market-economy.ec.europa.eu/sectors/pressure-equipment-and-gas-appliances/gas-appliances-sector/gas-appliances-regulation_en"
+      ]
+    },
+    "QA-GAS-014": {
+      "shortAnswer": "いいえ。食品工場に設置するだけではGAR対象外になりません。",
+      "answer": "GAR Article 1(3)(a)は、工業施設で行われる工業プロセスに使用するため特別設計されたガス機器を対象外としています。さらにGARは、『特別設計』を、特定の工程または用途の特定ニーズだけに対応することを意図した設計と定義しています。\n\nそのため、食品工場へ置くという設置場所だけでは除外を判断できません。一般厨房や別の工程にも転用できる汎用品なのか、工場の特定工程だけに使える専用設計なのかを、用途、構造、販売仕様、使用説明から確認します。",
+      "sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng"
+      ]
+    },
+    "QA-GAS-015": {
+      "shortAnswer": "いいえ。一台物であることは、GARの工業プロセス除外の条件ではありません。",
+      "answer": "GARの工業プロセス除外は、製造台数や特注契約の有無ではなく、機器の用途と設計で判断します。工業施設で行われる工業プロセスのために設計され、特定の工程または用途の特定ニーズだけに対応する設計かを確認します。\n\n一台しか製作しない機器でも、一般厨房や別用途へ転用できる設計なら、数量だけを理由に対象外とはできません。反対に、除外条件を満たす専用機でも、機械法令、EMC、圧力設備などほかの法令の確認は残ります。",
+      "sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng"
+      ]
+    },
+    "QA-GAS-016": {
+      "shortAnswer": "いいえ。GARから除外されても、製品のほかの機能に適用されるEU法令は残ります。",
+      "answer": "GARの工業プロセス除外は、GARの適用範囲についての判断です。機械としての危険には機械法令、電磁両立性にはEMC、圧力部にはPED、無線機能にはRED、食品接触部には食品接触材料規則など、製品の各機能に応じた法令を別に確認します。\n\n同じ危険へ複数法令を機械的に重ねるのではなく、各法令が扱う製品範囲と安全項目を区切ります。『GAR対象外』という結論だけで、機械全体のCE対応が不要になったとは判断できません。",
+      "sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng",
+        "https://eur-lex.europa.eu/eli/dir/2014/30/2026-05-30/eng",
+        "https://eur-lex.europa.eu/eli/dir/2014/68/2026-05-30/eng",
+        "https://eur-lex.europa.eu/eli/dir/2014/53/2024-12-28/eng"
+      ]
+    },
+    "QA-GAS-017": {
+      "shortAnswer": "いいえ。量産品はModule Bに、C2・D・E・Fのいずれかを組み合わせます。",
+      "answer": "Module Bは、製品の設計型式をNotified Bodyが審査するEU型式審査です。それだけでは、実際に量産される製品が承認された型式へ継続して一致することまで完了しません。\n\nGAR Article 14では、Module Bの後に、監督付き製品チェックのC2、製造工程の品質保証D、製品品質保証E、製品検証Fのいずれかを組み合わせます。証明書に記載されたModuleと対象型式を確認し、後段の量産管理・監視方法まで成立してから出荷します。",
+      "sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng"
+      ]
+    },
+    "QA-GAS-018": {
+      "shortAnswer": "はい。一台物・少量品ではModule Gを選択できます。",
+      "answer": "GAR Article 14(3)では、一台物または少量品について、量産品と同じModule B＋C2・D・E・Fのルート、または個別製品を確認するModule Gをメーカーが選択できます。\n\nModule Gは『第三者不要の簡易手続き』ではありません。メーカーが技術文書を作成し、Notified Bodyが対象となる個別製品を検査・試験して適合を確認します。案件の製品範囲、試験場所、設置後にしか確認できない項目をNotified Bodyと事前に確認します。",
+      "sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng"
+      ]
+    },
+    "QA-GAS-019": {
+      "shortAnswer": "必須ではありません。ただし、使わない場合も必須要求への適合根拠が必要です。",
+      "answer": "GARの整合規格を正しく適用すると、その規格がカバーするGAR Annex Iの必須要求について適合推定を利用できます。整合規格の使用自体は原則として任意です。\n\n整合規格を使わない、または一部だけ使う場合は、適用しない必須要求が消えるわけではありません。代替設計、計算、リスク評価、試験方法と結果を技術文書で説明し、GARの適合評価を行うNotified Bodyへ示します。",
+      "sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng",
+        "https://single-market-economy.ec.europa.eu/single-market/goods/european-standards/harmonised-standards/gas-appliances_en"
+      ]
+    },
+    "QA-GAS-020": {
+      "shortAnswer": "そのまま使えるとは限りません。現行の官報引用、失効日、制限、証明書条件を確認します。",
+      "answer": "整合規格は改訂、追加、制限、官報からの削除が行われます。古いEN規格で取得した証明書がある場合は、証明書に記載された規格番号と版、製品型式、設計変更、証明書の有効条件を、現在のEU官報情報と照合します。\n\n2026年8月4日時点では、GAR整合規格はCommission Implementing Decision (EU) 2024/2944の現行統合状態を確認します。規格番号が同じでも版や制限事項が違うことがあるため、証明書が存在することだけで現在の適合を判断しません。",
+      "sources": [
+        "https://single-market-economy.ec.europa.eu/single-market/goods/european-standards/harmonised-standards/gas-appliances_en",
+        "https://eur-lex.europa.eu/eli/dec_impl/2024/2944/2025-09-11/eng"
+      ]
+    },
+    "QA-STM-005": {
+      "shortAnswer": "いいえ。PSが0.5 bar以下ならPED対象外ですが、ほかの安全要求は残ります。",
+      "answer": "PEDは、最大許容圧力PSが0.5 barを超える圧力機器とアセンブリへ適用されます。したがってPSが0.5 bar以下ならPEDの適用範囲外です。\n\n一方、PSが0.5 barを超えていても、容積V、呼び径DN、流体グループ、気体・液体の区分などがCategory Iの閾値に達しない場合は、PED Article 4(3)のSound Engineering Practice（SEP）となることがあります。PED対象外とSEPは同じではありません。どちらの場合も、高温、蒸気噴出、やけど、機械構造、配管、衛生、取扱説明など、機械法令やほかの要求は別に確認します。",
+      "sources": [
+        "https://eur-lex.europa.eu/eli/dir/2014/68/2026-05-30/eng",
+        "https://single-market-economy.ec.europa.eu/sectors/pressure-equipment-and-gas-appliances/pressure-equipment-sector/pressure-equipment-directive_en"
+      ]
+    },
+    "QA-CASE-003": {
+      "shortAnswer": "いいえ。用途・運転方式・定格を規格の適用範囲と照合します。",
+      "answer": "IEC 60335-2-39:2021+A1:2025は、商業用の電気式多目的調理パンを扱い、単相機は250 V以下、その他は480 V以下を対象としています。一方、工業専用に設計された機器と、食品を連続大量生産する機器は公開Scopeで対象外です。したがって、電気式の炒め機すべてへ自動的に使えるわけではありません。\n\nEU案件では、IECの最新版をそのまま『CEで使う規格』としません。適用するEU法令を決め、その法令に対してEU官報で引用されたEN版、版数、適用範囲を確認します。連続式の工場用炒め機では、機械法令、EN 60204-1、安全機能、ガードなどを含む別の評価ルートを検討します。",
+      "sources": [
+        "https://webstore.iec.ch/en/publication/105596",
+        "https://webstore.iec.ch/en/publication/71256",
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en"
+      ]
+    },
+    "QA-CASE-004": {
+      "shortAnswer": "いいえ。製品規格のほかに、排気・火災・衛生・ライン安全・現地設備が残ります。",
+      "answer": "UL 197は600 V以下の屋内用商業電気調理機器を扱い、フライヤーも対象例に含みます。IEC 60335-2-37:2021+A1:2025は商業用電気フライヤー等を扱いますが、工業専用機器と食品の連続大量生産用機器は公開Scopeで対象外です。機械の用途と運転方式を規格のScopeへ照合します。\n\nフライヤー本体の製品安全規格だけで、排気フード、消火設備、油循環、火災時停止、衛生認証、建物側工事、ラインへ追加されるコンベヤやガードまで承認されたことにはなりません。EUではIEC番号だけでなく、適用法令とEU官報で引用されたEN版を確認します。",
+      "sources": [
+        "https://www.shopulstandards.com/ProductDetail.aspx?UniqueKey=21141",
+        "https://webstore.iec.ch/en/publication/105578",
+        "https://www.nfpa.org/codes-and-standards/nfpa-96-standard-development/96"
+      ]
+    },
+    "QA-CASE-005": {
+      "shortAnswer": "いいえ。圧力、ふたのロック、残圧、過圧保護を追加で確認します。",
+      "answer": "IEC 60335-2-37:2021+A1:2025の公開Scopeでは、加圧型フライヤーは圧力50 kPa以下、かつ圧力［kPa］×容積［L］が200以下の範囲を扱います。また、工業専用機器と食品の連続大量生産用機器は対象外です。版とScopeを示さず、数値だけで適用を判断しないでください。\n\n規格の対象範囲に入っても、ふたのロック、残圧がある状態での開放防止、安全弁、圧力放出、実際の最大圧力と容積を確認します。EUではPED、北米ではASMEや設置州・省の圧力設備要求が別に関係する場合があります。",
+      "sources": [
+        "https://webstore.iec.ch/en/publication/105578",
+        "https://eur-lex.europa.eu/eli/dir/2014/68/2026-05-30/eng",
+        "https://www.asme.org/codes-standards/bpvc-standards/bpvc-2025"
+      ]
+    },
+    "QA-CASE-006": {
+      "shortAnswer": "完了しません。電気安全とは別に、圧力安全と食品接触蒸気を確認します。",
+      "answer": "IEC 60335-2-42:2021+A1:2025は、商業用の電気式強制対流オーブン、蒸し機、スチームコンベクションオーブンと、それら専用の蒸気発生器を扱います。一方、工業専用機器と食品の連続大量生産用機器は公開Scopeで対象外です。EUで使う場合は、適用法令と官報で引用されたEN版を確認します。\n\nこの規格を使っても、外部蒸気配管、内蔵蒸気発生器、ジャケットなどの圧力境界に対するPED・ASME・現地要求が自動的に完了するわけではありません。食品へ直接触れる蒸気についても、水質、ボイラー水添加剤、配管、キャリーオーバー、使用点での受入基準を別に確認します。",
+      "sources": [
+        "https://webstore.iec.ch/en/publication/105597",
+        "https://eur-lex.europa.eu/eli/dir/2014/68/2026-05-30/eng",
+        "https://www.3-a.org/standards/a-method-of-producing-culinary-steam"
+      ]
+    },
+    "QA-CASE-007": {
+      "shortAnswer": "煮沸用か多目的調理用かを、機能と構造から規格のScopeへ照合します。",
+      "answer": "IEC 60335-2-47:2021+A1:2025は商業用電気煮沸パン、IEC 60335-2-39:2021+A1:2025は商業用電気多目的調理パンを扱います。煮ることが中心か、炒め、撹拌、傾動など複数の調理機能を持つかを確認します。\n\nどちらの最新版も、工業専用に設計された機器と食品の連続大量生産用機器を公開Scopeから除外しています。EUではIECの最新版だけで決めず、適用法令とEU官報で引用されたEN版・版数・Scopeを確認します。工場の連続煮炊き設備では、機械法令を中心とする別の評価ルートが必要になる場合があります。",
+      "sources": [
+        "https://webstore.iec.ch/en/publication/105598",
+        "https://webstore.iec.ch/en/publication/105596",
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en"
+      ]
+    },
+    "QA-CASE-008": {
+      "shortAnswer": "厨房型の候補です。工業用・連続生産用オーブンは別の規格ルートを確認します。",
+      "answer": "IEC 60335-2-36:2021+A1:2025は商業用電気レンジ、焼成オーブン、ホブ等を扱い、IEC 60335-2-42:2021+A1:2025は強制対流オーブン、蒸し機、スチームコンベクションオーブン等を扱います。どちらも工業専用機器と食品の連続大量生産用機器を公開Scopeから除外しています。\n\nそのため、食品工場の連続乾燥機や工業加熱オーブンへ自動的に適用できるとは限りません。用途、処理物、可燃物、連続運転、排気・ダクト、燃焼方式、ライン統合を確認します。EUでは適用法令と官報で引用されたEN版、北米の工業オーブンではNFPA 86などの適用範囲を確認します。",
+      "sources": [
+        "https://webstore.iec.ch/en/publication/105577",
+        "https://webstore.iec.ch/en/publication/105597",
+        "https://www.nfpa.org/product/nfpa-86-standard/p0086code/nfpa-86-standard-for-ovens-and-furnaces-2023/8623",
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en"
+      ]
+    },
+    "QA-CASE-014": {
+      "shortAnswer": "一台物向けの候補はありますが、すべての制度に共通する簡易手続きではありません。",
+      "answer": "北米では、出荷前に一台物・限定数量を評価するLPCや、設置後の状態を確認するField Evaluationが候補になる場合があります。ただし、製品、台数、評価時期、適用規格、設置地によって利用できる方式は異なります。\n\nEUでは、GAR対象の一台物・少量品にModule Gを選択できますが、Notified Bodyによる個別製品の検証を受けます。一方、機械指令または機械規則には、『一台物だからCE手続きを省略できる』という一般的な簡易ルートはありません。販売国、対象法令、完成機か制御盤か、出荷前か設置後かを分けて方式を選びます。",
+      "sources": [
+        "https://www.ul.com/insights/limited-production-certification-ess-installation",
+        "https://www.ul.com/services/field-evaluations",
+        "https://eur-lex.europa.eu/eli/reg/2016/426/2026-05-29/eng",
+        "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en"
+      ]
+    }
+  },
+  "summary": {
+    "itemCount": 25,
+    "replacementKeys": [
+      "shortAnswer",
+      "answer",
+      "sources"
+    ],
+    "notes": "question、id、category、subcategory等は変更しない。IEC最新版とEU官報で引用されたEN版を同一視しない。"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "sourceBuilder": "work/v333_12/scripts/build_ulce_qa_v075.py",
+  "reviewedAudit": "work/v333_12/research/v075_north_action_audit.json",
+  "reviewedFactualIssueCount": 12,
+  "policy": "CORRECTIONSまたはOFFICIAL_FAQ_ADDITIONSで同じ論点が十分に説明されている項目は重複修正しない。元Q&Aに残る重要な誤読だけを完全置換する。",
+  "resolvedByCurrentBuilder": {
+    "QA-COM-002": "CORRECTIONSでNRTLの認定範囲と共通NRTLマークがないことを説明し、QA-COM-021でOSHAが個別製品を認証・推奨しないことを独立して説明済み。",
+    "QA-COM-003": "QA-COM-024で、共通のNRTLマークはなく各NRTLの登録認証マークを確認することを独立して説明済み。現行の『別のNRTLマーク』は『別NRTLの登録認証マーク』を指す文脈であり、追加の重複修正は不要。",
+    "QA-COM-009": "QA-COM-022で、OSHAの権限は雇用主へ向き、メーカーへの直接義務ではないことを独立して説明済み。",
+    "QA-COM-011": "CORRECTIONSで、custom-made equipmentの限定条件、メーカーの試験データ、雇用主による保管、一般免除ではないことを説明済み。",
+    "QA-COM-015": "CORRECTIONSで実機マークと公式情報の照合を説明し、QA-COM-024で共通NRTLマークがないことを補足済み。",
+    "QA-INT-015": "QA-COM-023で、別NRTLの試験・認証成果は受入れ可能だが受入れ義務はなく、各NRTLが判断することを独立して説明済み。",
+    "QA-LST-010": "現行回答で代替前の認証担当による承認を要求しており、QA-COM-023で別NRTL成果の受入れが任意であることも説明済み。",
+    "QA-LPC-017": "現行回答で製造者だけの同等判定を否定し、事前承認を求めている。QA-COM-023で別NRTL成果の受入れ可否も説明済み。",
+    "QA-FUS-016": "CORRECTIONSで完全型式、認証種類、対象市場、組込み条件、完成機Procedureとの一致を説明し、QA-COM-023で別NRTL成果の受入れ可否を説明済み。",
+    "QA-FUS-018": "現行回答で事前Revisionを要求し、QA-COM-023で別NRTL成果の受入れは各NRTL判断であることを説明済み。"
+  },
+  "items": {
+    "QA-COM-001": {
+      "shortAnswer": "いいえ。ULは法律名ではなく、OSHAもメーカーへUL認証の取得を直接義務付けているわけではありません。",
+      "answer": "UL Solutionsは、OSHAから一定の規格・拠点・業務範囲について認定された民間の試験・認証機関（NRTL）の一つです。ULという名称自体が米国の法律なのではありません。\n\nOSHAの規則は、職場で使用する一定の機器についてapprovalを求めます。ただし、OSHAの権限は基本的に雇用主へ向くため、OSHAがメーカーや供給者へNRTL認証の取得を直接義務付けているわけではありません。一方、米国の顧客は雇用主として対象機器のapproval要求を満たす必要があるため、メーカーには契約上・受入れ上、NRTL認証品の供給を求めることがあります。\n\nまた、特定顧客向けに設計・製作され、その顧客が使用するcustom-made equipmentには限定的な別経路があります。この場合も、メーカーが試験データに基づいて意図した用途で安全と判断し、そのデータを雇用主が保管してOSHAの検査時に提示できることが条件です。『特注1台なら認証不要』という一般免除ではなく、製品種類、顧客契約、設置地のコードと受入れを個別に確認します。",
+      "sources": [
+        "https://www.osha.gov/nationally-recognized-testing-laboratory-program/frequently-asked-questions",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.399",
+        "https://www.osha.gov/nationally-recognized-testing-laboratory-program/products-requiring-approval"
+      ],
+      "reason": "現行CORRECTIONSは特注設備の限定経路を説明しているが、OSHAの直接の規制対象が雇用主であり、メーカー・供給者への直接取得義務ではないという最重要の区別が本文にない。"
+    },
+    "QA-COM-014": {
+      "shortAnswer": "いいえ。米国でNRTL approvalが求められる製品では、CEマークはその代わりになりません。",
+      "answer": "CEマークは、製品が適用されるEU法令の要求を満たしていることを示すEU市場向けの表示です。OSHAの公式FAQは、CEマークは米国の製品安全要求とは無関係であり、NRTL approvalの代わりにはならないと説明しています。\n\n米国でNRTL approvalが必要な製品は、原則として、その製品と試験規格を認定範囲に持つNRTLによる認証と、そのNRTLの登録認証マークを確認します。OSHA共通の一つのNRTLマークがあるわけではありません。限定的な別経路が適用される場合はありますが、CEマーク自体はその別経路にもなりません。\n\nCEの技術文書、試験結果、リスクアセスメントを北米評価の参考資料として利用できる場合はあります。しかし、それだけでNRTL認証済みとは判断できません。対象型式、認証機関、適用規格、認証範囲、登録認証マークを米国向けとして別に確認します。",
+      "sources": [
+        "https://www.osha.gov/nationally-recognized-testing-laboratory-program/frequently-asked-questions",
+        "https://www.osha.gov/nationally-recognized-testing-laboratory-program/products-requiring-approval",
+        "https://single-market-economy.ec.europa.eu/single-market/goods/ce-marking_en"
+      ],
+      "reason": "現行回答の『一方の証明が他方へ自動的に置き換わるとは限らない』は、OSHA FAQの『CEマークは米国の製品安全要求とは無関係』より弱く、CEが条件次第でNRTL approvalの代用になるように誤読される余地が残る。"
+    }
+  },
+  "summary": {
+    "unresolvedCorrectionCount": 2,
+    "unresolvedIds": [
+      "QA-COM-001",
+      "QA-COM-014"
+    ],
+    "priorityCoverage": {
+      "oshaEmployerVsManufacturer": "QA-COM-001を完全置換",
+      "ceCannotSubstituteForNrtlApproval": "QA-COM-014を完全置換",
+      "otherNrtlWorkMayBeAcceptedButAcceptanceIsNotMandatory": "QA-COM-023で解消済みのため重複修正なし"
+    }
+  }
+}

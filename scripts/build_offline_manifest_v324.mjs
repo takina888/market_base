@@ -10,7 +10,7 @@ const textExtensions = new Set([
 ]);
 const imageExtensions = new Set(['.png', '.jpg', '.jpeg', '.webp', '.gif']);
 const excludedDirectories = new Set([
-  '.git', '.agents', '.codex', 'HANDOFF_DOCUMENTS', '__pycache__'
+  '.git', '.agents', '.codex', 'HANDOFF_DOCUMENTS', 'research', '__pycache__'
 ]);
 
 function wikimediaRedirectFilename(source) {
@@ -139,8 +139,8 @@ supportAssets.sort();
 localPhotoAssets.sort();
 
 const payload = {
-  version: 'MARKET_BASE_OFFLINE_MANIFEST_V330_WORK_CODE_20260802',
-  generatedAt: '2026-08-02T17:30:00+08:00',
+  version: 'MARKET_BASE_OFFLINE_MANIFEST_V333_14_CACHE_REFRESH_STABILIZATION_20260804',
+  generatedAt: '2026-08-04T13:30:00+08:00',
   datePhotoWindowDays: 10,
   textAssets,
   supportAssets,
