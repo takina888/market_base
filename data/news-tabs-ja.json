@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-11T02:31:35Z",
+  "generated_at": "2026-08-11T07:42:19Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "finance.yahoo.co.jp",
-          "published_at": "2026-08-10T22:22:53Z",
+          "id": "115223860719ba20",
+          "title": "世界の海、7月の最高水温を記録",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uM2hVWURBNzFtR0pDXzN4TGV2UFRvbVFIcGdhRHlQX01yT2hTMXhUYjZ4UmVyY3Atc1JlRG10ZE85TDZfZ1B6eDdJcnpOSjlLcWZyTTdXbENYNVc0eGYw0gFkQVVfeXFMTVNBU05YQjVhaF9oXzlhYzJ4YnZFS3dWbUlYYmdkZVM1d05PMkxKSE1rUFJpaGNNTXduWHE0SVUyejlnNTRoTzc3V0diVmV2NVJJdWE5R0gwZEFMSEtQb1BhZGFnWA?oc=5",
+          "source": "BBC",
+          "published_at": "2026-08-11T03:40:45Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "539f51ee21b360aa",
-          "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53cEZQMldVUW91SEJyZmh0ZHowSTBCenBkZUthMTR6ZTVxM2h5bWFORFFKRk5YdnRVY0NtbklqWTE4X1BHZFpTbjhacHJyeDhMRnY3MQ?oc=5",
-          "source": "abema.tv",
-          "published_at": "2026-08-10T15:00:00Z",
+          "id": "a4ceaf7f3569d140",
+          "title": "【プレゼント】『世界遺産 奈良』『50歳からのツアー旅』を各10名様に",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oejNmUXNSdW0tYWx4LVMyYjdYcWoyWnlINmFndjU3ajJyU2FscDFGY2NBRndNQTZhRDNxTWhDck5uUmVhdmhzLVlFSHZLa1dnQld5WWt5MXc?oc=5",
+          "source": "朝日新聞",
+          "published_at": "2026-08-11T02:05:17Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b4a1ed5392d9e846",
+          "title": "あべのハルカス近鉄本店で「世界の昆虫展」 カブトムシ200匹放虫も（みんなの経済新聞ネットワーク）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhLWlSc2NvRG4wZndyX3pkNm1SblMxUVk1SkViWVctYk82RV82cW1IMWEtbXdBSXdKYUJkeHByemxCWkdSbHc5SlNJdEpfMHlROG1FXzdPWUdRMmRnWnMtQTZ3UDJob2RReHk2MGFHXzhiWU9FRmhWVThXdnRsUFE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-11T00:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4b448083d7b58764",
+          "title": "〔海外地震〕コロンビアでM7.4(8/10)（レスキューナウニュース）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FdHo2ZkoyTzN5T2xuaWhpRk5iZjktTHVwVjZMdkdjQ044djRVYlloUEpQa2dtc01DVU9HZWt5WjdkVmtFU1piX1F0WGZLcVV0dnVrVmZyc20zcjU1R3RXOEQyd1cwY01yYm9uandreWVmMlBZZEctQkxnQWZlTXM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-10T13:20:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -49,20 +69,10 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "4d70e3c4e2d9f60b",
-          "title": "東日本国際大昌平が甲子園初勝利 いわき勢51年ぶり白星（福島中央テレビ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xdXV3ek9kMmpxSFVjVlBDbTRtS0xETjYtSlNsb2lQZXZkRnlFVVV4Q05PaVQtV2F1a2JmWlY4LU9PTF9wNHYxSVlmYjl2Z3VFeUNmUHhORkdjVkVLZFdMd2N1NnFLcXJLZjl1UGdvM3pCSTliamxJdjBFbmNrR1E?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-10T09:39:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "9501bafbab9179ad",
           "title": "人型ロボット、中国メーカーが世界出荷の97%占める－米調査会社",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hbWlsTF9jRDZTZWFRZ016QVhvTmt5TzQ4YzFMbU9ZY29UMVZwaDg3M3REelNlbzdNRHpKOVJKOGVBQVljWUJiYmY5RTRpZS1NYUVDTnZSamgya3pmNzhFaVRCVmhmeGNwckIxVkVfTG83Rkx2ZENr?oc=5",
-          "source": "Bloomberg.com",
+          "source": "bloomberg.com",
           "published_at": "2026-08-10T08:44:38Z",
           "language": "ja",
           "category": "overseas",
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV1FQY3FSMXd6LXRSem1tcXhjeW5VTW1YR1Z0Zmgyb0NYM1gzU0VQSFlZcG5JLVFNVGc0ekZjRkNCbnVhUG9LWlN3T185Zk1CODdFWk9UbGRudFpFUGNXdkhncVo2RXNxN0dOcDUwT2ZJVktYanBfdjZmLWhPcW5nS1VYZ00?oc=5",
           "source": "town.minakami.gunma.jp",
           "published_at": "2026-08-10T07:54:28Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "756428ccf961cddb",
-          "title": "【報告】2028年国際19世紀学会 INCSA を本学にて開催予定―時代、国、ジャンルを超えた交流を目指して―",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sVjhIckVaemxzOFFfd0Q5N1RzTW42UVFabV9nOFJWODNkQ0lya25WZjZteVNIdE5HNGN2MERPSDZFMVJsZGRWbGVzSDBYNEVyeE1FbkRnQlh2dGNaVkNaalBrYV9hUFdEdWFqenMtY2Q?oc=5",
-          "source": "国立大学法人 電気通信大学",
-          "published_at": "2026-08-10T07:14:29Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,6 +179,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "b7c7af7720364232",
+          "title": "【速報】日清食品、つくばみらい市に新工場 29年度中の稼働予定",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TTnNBOUVPdk11Vy1LdFdId0dwbHROc1JVcVllVC1QOGFScjJNZFFCb1hoU25YTnBYZ2ZZWFZXSGFveTNGOUJpY3I3RmdOZ2xNeklZ?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-05T10:53:53Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "6652fe439c5cbd0b",
           "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS1＝ビオストック",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0WjVGVG9rOHQ1emphdlBzWVIySmgwOTZSVmdReEE0ejBYbHZSNzRKWlZ4SFc1eVdHazd2ZURHNENDSUlkbW1lWmtfQVdLZ0FHZkdyYmJyQ1AzeTVjNUdGTkhCZ3l5WDM5V3dz?oc=5",
@@ -224,16 +234,6 @@
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY19GNjlvZ0FzVmlqN281VUlfWXRNdjNyTWtFM0NQTGM4bU44czJJWDFzSWxVeWFLSVJ2Y3M3UjJvNWhMQ2R6bXR1bTM2X1Vqak5SUDV2YTV5VmJCZUU2d2UxcHNqUXhVczhkWFJpd3E1UWlMSVNZaWNfMEJsWGxSWDFueFIwdw?oc=5",
           "source": "projectdesign.jp",
           "published_at": "2026-06-02T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "64ecec45bf94837d",
-          "title": "2025年冷凍食品工場出荷額8577億円で過去最高 生産量157万トンと3年ぶり増加",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWkYtMXoyanRsNFUycVZxcEpwZnRXdFpGOENNRU9OUXRUSnlZSGR4UWJGVmk4a3dwYWFETHRuYUtOX0FCMDFfUHRZN3owdjJSX1N4cXNQYnNIUEppdFNseVo3dlNGMWpwcXpOOUVTZ1ByVncxc0wxQ21vdmNDRXMxeUR5ajZkQQ?oc=5",
-          "source": "projectdesign.jp",
-          "published_at": "2026-05-28T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-11T02:31:35Z",
-  "last_success_at": "2026-08-11T02:31:35Z",
+  "last_attempt_at": "2026-08-11T07:42:19Z",
+  "last_success_at": "2026-08-11T07:42:19Z",
   "consecutive_failure_count": 0
 }
