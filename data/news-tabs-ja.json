@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-11T07:42:19Z",
+  "generated_at": "2026-08-11T13:47:31Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,6 +18,26 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "8597c19806c4f6b7",
+          "title": "平和のための、技術の武装解除テーマに、来年度「世界平和の日」",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMlk3b0o0QnhOaE5EWkNPVjBmN28yWXZwcjdhX2tjY2RFQVBlMVpxUmFIMkF1cE9HUHNidkVqWGxWWUZMS3FncG5OeXFtWGdLanBZQ2FXWkhXdDBJZGlibjRjTkFNdHNmc3VFejQzbGdTUldjRDQ1bndpdGJFdGh6REd2NUlXVHB0Q2hMNk1KS1p2UE9wTjV6Q0I2MEtrZlcwR2RySWo5UXk?oc=5",
+          "source": "Vatican News",
+          "published_at": "2026-08-11T12:39:48Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0cee3a3b018260ba",
+          "title": "【BE:FIRST】「夢中」、ストリーミング全世界累計再生回数3億回を突破！ | ニュース | エイベックス・ポータル",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1IWDBual9kTlVDUzN5SExwODJTSXhnSHZCdkVfWUlEd2VXMC0wclpPeWJGZE45Mkt6aVRNQnNqQ2ZLODBjSlE?oc=5",
+          "source": "エイベックス・ポータル",
+          "published_at": "2026-08-11T09:44:04Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "115223860719ba20",
           "title": "世界の海、7月の最高水温を記録",
@@ -39,6 +59,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "25649bb46956c74c",
+          "title": "「海外旅行保険はクレカでOK」は終わった? 「利用付帯」は旅行前に注意を",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lN2dUSGl5Vk5zbDBCT3pRdlNpNnktZFFGcHRQYWN4R0pfSFFuWThUUmJEN3Y4Y3BoUGREamhGS1ZWVmVYbm9IbWFEbURZZUNWcGV2R2t3QXJtUkktTVFBQmVsVGplUQ?oc=5",
+          "source": "Impress Watch",
+          "published_at": "2026-08-11T00:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b4a1ed5392d9e846",
           "title": "あべのハルカス近鉄本店で「世界の昆虫展」 カブトムシ200匹放虫も（みんなの経済新聞ネットワーク）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhLWlSc2NvRG4wZndyX3pkNm1SblMxUVk1SkViWVctYk82RV82cW1IMWEtbXdBSXdKYUJkeHByemxCWkdSbHc5SlNJdEpfMHlROG1FXzdPWUdRMmRnWnMtQTZ3UDJob2RReHk2MGFHXzhiWU9FRmhWVThXdnRsUFE?oc=5",
@@ -49,41 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "4b448083d7b58764",
-          "title": "〔海外地震〕コロンビアでM7.4(8/10)（レスキューナウニュース）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FdHo2ZkoyTzN5T2xuaWhpRk5iZjktTHVwVjZMdkdjQ044djRVYlloUEpQa2dtc01DVU9HZWt5WjdkVmtFU1piX1F0WGZLcVV0dnVrVmZyc20zcjU1R3RXOEQyd1cwY01yYm9uandreWVmMlBZZEctQkxnQWZlTXM?oc=5",
+          "id": "6aadca931766f25f",
+          "title": "空港が中国人22人“搭乗拒否”映像残るも…国際問題に発展 タイ（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41QTZZQ2lYVEJSd09MSkNOeEl3Y2dOS1RWbHl3VzR3TW5rX25wOGRlSkl6czZPeEIteDBnNUhCTTlYQ0hxV3N1NTlqQUp1QU5SNV82eE1WLVVVQnBGUGlHbFpUd09FU0UzeF9aMEF3N0JsLVVtNkl6YWlTenYzQkk?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-08-10T13:20:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5145a555df841e1a",
-          "title": "大牟田市の「明光学園」が2027年4月から男女共学化 国際医療福祉大の附属校へ再編 新校長には前太宰府市長の楠田氏",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGSlBmdkEzN0o5UDhPdW1ldG13eHRXV0FNUUFyZzZHd1Q2ZXQ5RlRSY3lVenV5SEx6NUtEaFpXa1JrdURRNkNoN2JWNk1uX21mYkJidUZQdE1EUjNhdEZVMW9kVnJWbXpQLTRsLUxjNWN1MGRPdWxjRFVuREtRVmM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-10T10:00:03Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9501bafbab9179ad",
-          "title": "人型ロボット、中国メーカーが世界出荷の97%占める－米調査会社",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hbWlsTF9jRDZTZWFRZ016QVhvTmt5TzQ4YzFMbU9ZY29UMVZwaDg3M3REelNlbzdNRHpKOVJKOGVBQVljWUJiYmY5RTRpZS1NYUVDTnZSamgya3pmNzhFaVRCVmhmeGNwckIxVkVfTG83Rkx2ZENr?oc=5",
-          "source": "bloomberg.com",
-          "published_at": "2026-08-10T08:44:38Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3fee58adb12fe4ab",
-          "title": "世界に発信！みなかみの自然との共生 「グローバルネイチャーポジティブサミット2026」参加",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV1FQY3FSMXd6LXRSem1tcXhjeW5VTW1YR1Z0Zmgyb0NYM1gzU0VQSFlZcG5JLVFNVGc0ekZjRkNCbnVhUG9LWlN3T185Zk1CODdFWk9UbGRudFpFUGNXdkhncVo2RXNxN0dOcDUwT2ZJVktYanBfdjZmLWhPcW5nS1VYZ00?oc=5",
-          "source": "town.minakami.gunma.jp",
-          "published_at": "2026-08-10T07:54:28Z",
+          "published_at": "2026-08-10T23:35:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -304,9 +304,9 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1beb9cb013778c99",
-          "title": "コメリ／大阪府泉南市に「コメリパワー泉南店（店舗面積9736m2）」27年1月31日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxQjhwZHpFa0RQV3VEcVpDaFg5OVk0R0I4dmR5WFZwd3puY0cwb0RrOGhlWXNwTi1yTHF0WjUtakp1TFBSUEo0dmhYUTBFMUhBNkFpVmp3?oc=5",
+          "id": "df608e9180467e7e",
+          "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-07-17T07:00:00Z",
           "language": "ja",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-11T07:42:19Z",
-  "last_success_at": "2026-08-11T07:42:19Z",
+  "last_attempt_at": "2026-08-11T13:47:31Z",
+  "last_success_at": "2026-08-11T13:47:31Z",
   "consecutive_failure_count": 0
 }
