@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-10T19:25:29Z",
+  "generated_at": "2026-08-11T02:31:35Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "d7ddf1d29a1ad4eb",
-          "title": "【北海道発】戦後81年～混沌（こんとん）とする世界で～",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02aFQ1NjFDemRnTGpJRkVMYmwydkl6U3pPdFhrOHYtLVkycjNGdGI1akh4UU9laEN4NE9QV3RudXpQUmRHc2VZV3QyMzQxeUJsQnNzd0N3YW13WnBqb1h2Um5PZ3BlbU0?oc=5",
-          "source": "nhk.or.jp",
-          "published_at": "2026-08-07T12:02:27Z",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "finance.yahoo.co.jp",
+          "published_at": "2026-08-10T22:22:53Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -32,7 +32,7 @@
           "id": "539f51ee21b360aa",
           "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53cEZQMldVUW91SEJyZmh0ZHowSTBCenBkZUthMTR6ZTVxM2h5bWFORFFKRk5YdnRVY0NtbklqWTE4X1BHZFpTbjhacHJyeDhMRnY3MQ?oc=5",
-          "source": "ABEMA",
+          "source": "abema.tv",
           "published_at": "2026-08-10T15:00:00Z",
           "language": "ja",
           "category": "overseas",
@@ -59,6 +59,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "9501bafbab9179ad",
+          "title": "人型ロボット、中国メーカーが世界出荷の97%占める－米調査会社",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hbWlsTF9jRDZTZWFRZ016QVhvTmt5TzQ4YzFMbU9ZY29UMVZwaDg3M3REelNlbzdNRHpKOVJKOGVBQVljWUJiYmY5RTRpZS1NYUVDTnZSamgya3pmNzhFaVRCVmhmeGNwckIxVkVfTG83Rkx2ZENr?oc=5",
+          "source": "Bloomberg.com",
+          "published_at": "2026-08-10T08:44:38Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "3fee58adb12fe4ab",
           "title": "世界に発信！みなかみの自然との共生 「グローバルネイチャーポジティブサミット2026」参加",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV1FQY3FSMXd6LXRSem1tcXhjeW5VTW1YR1Z0Zmgyb0NYM1gzU0VQSFlZcG5JLVFNVGc0ekZjRkNCbnVhUG9LWlN3T185Zk1CODdFWk9UbGRudFpFUGNXdkhncVo2RXNxN0dOcDUwT2ZJVktYanBfdjZmLWhPcW5nS1VYZ00?oc=5",
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sVjhIckVaemxzOFFfd0Q5N1RzTW42UVFabV9nOFJWODNkQ0lya25WZjZteVNIdE5HNGN2MERPSDZFMVJsZGRWbGVzSDBYNEVyeE1FbkRnQlh2dGNaVkNaalBrYV9hUFdEdWFqenMtY2Q?oc=5",
           "source": "国立大学法人 電気通信大学",
           "published_at": "2026-08-10T07:14:29Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "50923c6922bedc2b",
-          "title": "世界のクロサワの『羅生門』が、蛇足で駄作になった理由",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90Qnp5enlscC1ON1N3OU9KcG1WVXdKaGdvcWozbmxyUUNTa2lYZ1BZVzRxSWQzS2ltUmdVODZ5UmIzcmtIUzFiZXg2WjkycjFMNWF5dHFqcnpJaVpGc2VOcmZtUkM3QkU?oc=5",
-          "source": "ニューズウィーク日本版",
-          "published_at": "2026-08-10T05:40:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -254,6 +254,36 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "ba98a553caf26756",
+          "title": "ロピア、コスモス薬品／宮崎県都城市に「都城早水複合商業施設（店舗面積3355m2）」27年2月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vVWJDNmZ6X2ZEdGtWanJpWkwzeEFIbGNPS2Q0RDVwcTBELV9Eb0pTTzktdFNrc3RrV3luQUZCZW1qbzlhU1RTT1RKZTZGUHJWa0lwakJR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-28T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a1f5a8bf09514ea9",
+          "title": "薬王堂／栃木県に計3店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QVXBZaEFsUEVabE9QbHYyMlAzS1lXa1lYNWdHMFJ5MDB5SEhfQk5Jay1iVGVfN01jeFZBSHhyYzJITmpBNFRfbFdMR3NiNkY3YldXRUVR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-27T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "94ace283ac879e07",
+          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-23T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "6def167432cca401",
           "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
@@ -274,41 +304,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ae9b11e76bdf754a",
-          "title": "沖縄・コンビニ激戦県に新風、必須の「駐車場」ない店相次ぎ開業",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsUk9CbUl4aTdjbFNoMFk2UW9vRUY3amx3TXB0WElQM2cwWkhJZXlwMkJEYWhjdWdyNldIQ0cxNk85dll1SUZLdmNWQTRKZFJZTm9GSmZsejN0eEFRM3QwdjlxNkswcmIwemRCVQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-07-13T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ecfe7cfdecc47fba",
-          "title": "伊勢神宮・おはらい町通りに新店舗 二軒茶屋餅角屋本店：ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SY19qWlJEbnBoTmNPUy1XYUVocWxIX3g5WW0zVmltX3ZsMDZHV2hGcG1ubUZONXdkdGo4eWx6dWtqVTVzTHdwN1BfazZ4YlJEUzdDNFA0eGMwOUplQXlV?oc=5",
-          "source": "中日BIZナビ",
-          "published_at": "2026-08-07T02:20:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "006e80fbadce103e",
-          "title": "東京・多摩地域に「製造物流IT小売業」が新店舗、10月着工",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xbHJicmhDNENLTGlzV3RQWmxyNDFqaFZzUnhiZ2EtWjl6TFN2VzdfS1BkVG1FMmRmX2FtLWVucnFWSGFhb3NTUUVWU3pYcDVsR2Z3ZENR?oc=5",
-          "source": "建設通信新聞Digital",
-          "published_at": "2026-08-04T02:21:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "55c4d4ca1e04efa5",
-          "title": "清々しい木の香り漂うコンビニが四国中央に セブン-イレブンが中四国初の木造店舗をオープン（南海放送）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iUEFoclUxaFJZbDhQZ2RDQURhSzdJSEV4ekc3MXE5ZVZ5YU1mSUJpb3J1b1k3VzNnb18xa0k2SjgzQ0sydzF0Vi1KMDRjRV9TSmtMa3ZFemhvc2FmdmtKTWtONXVHXzVJNEhDLVhHRml0WVJsekVnSXFhR3ljbGc?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-02T15:01:00Z",
+          "id": "1beb9cb013778c99",
+          "title": "コメリ／大阪府泉南市に「コメリパワー泉南店（店舗面積9736m2）」27年1月31日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxQjhwZHpFa0RQV3VEcVpDaFg5OVk0R0I4dmR5WFZwd3puY0cwb0RrOGhlWXNwTi1yTHF0WjUtakp1TFBSUEo0dmhYUTBFMUhBNkFpVmp3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-17T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-10T19:25:29Z",
-  "last_success_at": "2026-08-10T19:25:29Z",
+  "last_attempt_at": "2026-08-11T02:31:35Z",
+  "last_success_at": "2026-08-11T02:31:35Z",
   "consecutive_failure_count": 0
 }
