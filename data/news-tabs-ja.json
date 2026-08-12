@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-11T19:29:53Z",
+  "generated_at": "2026-08-12T03:00:10Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -23,7 +23,47 @@
           "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-11T16:11:45Z",
+          "published_at": "2026-08-12T01:14:35Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9d068ab067e0a79b",
+          "title": "入学前の集中英語プログラム→9割が海外大学へ IBとビジネススクールの手法で学ぶ全寮制国際高校の3年間",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95WUxaUHdhU1dVYWEyOEFYM01zS1lDUWdRN0NacHgzZG1UT0c2ODJZaU56Zm90N0xBcmFiUW5xVmpIWDBDRFZKaDk2WVJ6MTA0dkI3dThR?oc=5",
+          "source": "朝日新聞",
+          "published_at": "2026-08-11T22:31:38Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8a377cff2baacdda",
+          "title": "教育移住最新トレンド（上）海外への教育移住に一番大切なことは「子ども自身が納得していること」",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13VWI0eTY2Tm5SQWhZejI5VHdoYTcyWC1qTHlqTXQtTURCZkdaM0JuRFV5OXdmVUdzQkZvYzFqTkVacXZYSjJFR0lNM0tBQUJFakRiZ0tn?oc=5",
+          "source": "朝日新聞",
+          "published_at": "2026-08-11T22:31:38Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f624c9d4c15176bc",
+          "title": "【ウェビナー】2026年版世界貿易投資報告：高リスクが常態化する時代に、踏みとどまる自由貿易体制",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1IQW1LMkxTOE5OTjlTTFlmd0VKeFFXWVpFUHBybFRBanBzMDNLNnZVS3ZvWlRITHV0RmZVdTZsS2J6YW95amU2ME9Ed2dIZUJFc2FqcGR0aU1ySEZLLUZ0RjVNQ0N4REFtOEJvUE5kUQ?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-08-11T16:24:45Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "539f51ee21b360aa",
+          "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53cEZQMldVUW91SEJyZmh0ZHowSTBCenBkZUthMTR6ZTVxM2h5bWFORFFKRk5YdnRVY0NtbklqWTE4X1BHZFpTbjhacHJyeDhMRnY3MQ?oc=5",
+          "source": "ABEMA",
+          "published_at": "2026-08-11T15:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -44,46 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1IWDBual9kTlVDUzN5SExwODJTSXhnSHZCdkVfWUlEd2VXMC0wclpPeWJGZE45Mkt6aVRNQnNqQ2ZLODBjSlE?oc=5",
           "source": "エイベックス・ポータル",
           "published_at": "2026-08-11T09:44:04Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "115223860719ba20",
-          "title": "世界の海、7月の最高水温を記録",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uM2hVWURBNzFtR0pDXzN4TGV2UFRvbVFIcGdhRHlQX01yT2hTMXhUYjZ4UmVyY3Atc1JlRG10ZE85TDZfZ1B6eDdJcnpOSjlLcWZyTTdXbENYNVc0eGYw0gFkQVVfeXFMTVNBU05YQjVhaF9oXzlhYzJ4YnZFS3dWbUlYYmdkZVM1d05PMkxKSE1rUFJpaGNNTXduWHE0SVUyejlnNTRoTzc3V0diVmV2NVJJdWE5R0gwZEFMSEtQb1BhZGFnWA?oc=5",
-          "source": "bbc.com",
-          "published_at": "2026-08-11T03:40:45Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a4ceaf7f3569d140",
-          "title": "【プレゼント】『世界遺産 奈良』『50歳からのツアー旅』を各10名様に",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oejNmUXNSdW0tYWx4LVMyYjdYcWoyWnlINmFndjU3ajJyU2FscDFGY2NBRndNQTZhRDNxTWhDck5uUmVhdmhzLVlFSHZLa1dnQld5WWt5MXc?oc=5",
-          "source": "朝日新聞",
-          "published_at": "2026-08-11T02:05:17Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "25649bb46956c74c",
-          "title": "「海外旅行保険はクレカでOK」は終わった? 「利用付帯」は旅行前に注意を",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lN2dUSGl5Vk5zbDBCT3pRdlNpNnktZFFGcHRQYWN4R0pfSFFuWThUUmJEN3Y4Y3BoUGREamhGS1ZWVmVYbm9IbWFEbURZZUNWcGV2R2t3QXJtUkktTVFBQmVsVGplUQ?oc=5",
-          "source": "Impress Watch",
-          "published_at": "2026-08-11T00:30:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6aadca931766f25f",
-          "title": "空港が中国人22人“搭乗拒否”映像残るも…国際問題に発展 タイ（テレビ朝日系（ANN））",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41QTZZQ2lYVEJSd09MSkNOeEl3Y2dOS1RWbHl3VzR3TW5rX25wOGRlSkl6czZPeEIteDBnNUhCTTlYQ0hxV3N1NTlqQUp1QU5SNV82eE1WLVVVQnBGUGlHbFpUd09FU0UzeF9aMEF3N0JsLVVtNkl6YWlTenYzQkk?oc=5",
-          "source": "news.yahoo.co.jp",
-          "published_at": "2026-08-10T23:35:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -169,16 +169,6 @@
       "label": "食品工場",
       "articles": [
         {
-          "id": "b7c7af7720364232",
-          "title": "【速報】日清食品、つくばみらい市に新工場 29年度中の稼働予定",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TTnNBOUVPdk11Vy1LdFdId0dwbHROc1JVcVllVC1QOGFScjJNZFFCb1hoU25YTnBYZ2ZZWFZXSGFveTNGOUJpY3I3RmdOZ2xNeklZ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-05T10:53:53Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "6652fe439c5cbd0b",
           "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS1＝ビオストック",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0WjVGVG9rOHQ1emphdlBzWVIySmgwOTZSVmdReEE0ejBYbHZSNzRKWlZ4SFc1eVdHazd2ZURHNENDSUlkbW1lWmtfQVdLZ0FHZkdyYmJyQ1AzeTVjNUdGTkhCZ3l5WDM5V3dz?oc=5",
@@ -234,6 +224,16 @@
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWkYtMXoyanRsNFUycVZxcEpwZnRXdFpGOENNRU9OUXRUSnlZSGR4UWJGVmk4a3dwYWFETHRuYUtOX0FCMDFfUHRZN3owdjJSX1N4cXNQYnNIUEppdFNseVo3dlNGMWpwcXpOOUVTZ1ByVncxc0wxQ21vdmNDRXMxeUR5ajZkQQ?oc=5",
           "source": "projectdesign.jp",
           "published_at": "2026-05-28T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "99b1c95f0b01beaa",
+          "title": "自動車工場で見えるのに、食品工場では見えないモノ～今日何個作ると決めたか",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ed0JQbFVtSVgzNlgzM2daVTNSSG1oOEFVUFNXVXFPZWplUW5ObFVpNUQxYkJpU05jQm1hcGhZR1dsbURwWDc3N01TaDk3cTRPOFY0dFVIT0FMREo4VmN5eDJ1b3JSYjRCbVJXR05rcw?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-05-25T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-11T19:29:53Z",
-  "last_success_at": "2026-08-11T19:29:53Z",
+  "last_attempt_at": "2026-08-12T03:00:10Z",
+  "last_success_at": "2026-08-12T03:00:10Z",
   "consecutive_failure_count": 0
 }
