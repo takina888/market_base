@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-12T03:00:10Z",
+  "generated_at": "2026-08-12T07:56:17Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,61 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-12T01:14:35Z",
+          "id": "cfb6996f2b2c66c1",
+          "title": "渡辺銀次 × 朝井リョウ - ウチらと世界とエンタメと",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LNnZkUlVFT0tWc0RGTzNvVjJIUWZCX2VSalE2a2l6bmFPNGVZdkdWcUMxRFloemhVc2NSNWxkaXJJc2RpNjFXaTA0VFF5cFN6VHFaVWpKMUhNVGJyWXkydWZtZzlZNHRY?oc=5",
+          "source": "NHK",
+          "published_at": "2026-08-10T07:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9d068ab067e0a79b",
-          "title": "入学前の集中英語プログラム→9割が海外大学へ IBとビジネススクールの手法で学ぶ全寮制国際高校の3年間",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95WUxaUHdhU1dVYWEyOEFYM01zS1lDUWdRN0NacHgzZG1UT0c2ODJZaU56Zm90N0xBcmFiUW5xVmpIWDBDRFZKaDk2WVJ6MTA0dkI3dThR?oc=5",
+          "id": "f6f822c1124e0a78",
+          "title": "世界最高峰のコレクションが神戸にやってきた！ 楽しいフォトスポットも満喫 「河鍋暁斎の世界」",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE00MkJPTUtwUUtHM0YzcjVMU1pyMDJuUkxUZm5ESlRub05jYzZBYzRoelVpZE80Q2hqeG96andheWFpQ1VHbl9yM21pRDlrU1g3bHV2MlFQWQ?oc=5",
           "source": "朝日新聞",
-          "published_at": "2026-08-11T22:31:38Z",
+          "published_at": "2026-08-12T04:34:47Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "080d4360af73a3c9",
+          "title": "世界最大級の花「ショクダイオオコンニャク」が開花 宮崎市・宮交ボタニックガーデン青島（MRT宮崎放送）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiNk11aWZPblE5akVFcUFLc0d1ak1uTmdyMU5KdU9pTFJ5SUdZbUFaUU1qcjZEZV9jWUM5RzVoUFV6RzdqMW5idzZGY0lWZV8tVWxmWXM4WG9KQ2l0M2ZTVk5ZcjhkcGtIOFRHbmVOQi0tYTE5SXBnRXRYeUVlNm8?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-12T03:09:15Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "cc0a0b60b65cbbcf",
+          "title": "世界の物流を支える船も脱炭素化へ。実用化が進むゼロエミッション船の現在地",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFelBGaFREcEk4WEdJTENFbExuc1NMLVowWm1xQXJxTm9iek82Z2ZNc3NVcjRlWEt5ZXVpUFRQUi1NUERJSGFEeGZ3ZXlaOTREYUM3X01Vdkx4OXlXaE54eWpydUJ1VFNqZG9felNEY0VTRkNzOWc?oc=5",
+          "source": "日本財団",
+          "published_at": "2026-08-12T01:12:48Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "fd22ea7188746526",
+          "title": "レカム－大幅高 「実在エージェント」が「OSWorld」において世界第1位認定(トレーダーズ・ウェブ)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUXBxMXJSQWpTN3dYeUFSNHZBN2c2bUZiRmdvUmlNS1h3NWtxVWZva0R2X09oTGFCSWRONHhudWZuMVQ5VWtwZFE1bEozRHNabnpwN2p4NEh2eDZPdUhHTFpjTC1mQkp3cHQ1a0JkUXkxQzYxN3pid0k5amtVc282Qm5GX1Q4RmM?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-12T00:36:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "195ba1640e720c1e",
+          "title": "普段は立ち入れない、オウサマペンギンが暮らす世界へ 探検隊の一員となり、目の前で躍動する息遣いを五感で味わう アドベンチャーワールドでしか体験できない「極地探検ツアー ～penguin nice to meet yotour～」誕生｜トピックス",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1udFZUME45U0ZQd0lBZ0x0VnhJUldkbFhWclNJR3k5V1liS2dza203YU9VbGplVmV2NXVRdklkd0c3YmhweHBLa0JIQllOTDdKZGRySjdpR3M4Zw?oc=5",
+          "source": "アドベンチャーワールド",
+          "published_at": "2026-08-12T00:31:14Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -44,46 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13VWI0eTY2Tm5SQWhZejI5VHdoYTcyWC1qTHlqTXQtTURCZkdaM0JuRFV5OXdmVUdzQkZvYzFqTkVacXZYSjJFR0lNM0tBQUJFakRiZ0tn?oc=5",
           "source": "朝日新聞",
           "published_at": "2026-08-11T22:31:38Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f624c9d4c15176bc",
-          "title": "【ウェビナー】2026年版世界貿易投資報告：高リスクが常態化する時代に、踏みとどまる自由貿易体制",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1IQW1LMkxTOE5OTjlTTFlmd0VKeFFXWVpFUHBybFRBanBzMDNLNnZVS3ZvWlRITHV0RmZVdTZsS2J6YW95amU2ME9Ed2dIZUJFc2FqcGR0aU1ySEZLLUZ0RjVNQ0N4REFtOEJvUE5kUQ?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-08-11T16:24:45Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "539f51ee21b360aa",
-          "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53cEZQMldVUW91SEJyZmh0ZHowSTBCenBkZUthMTR6ZTVxM2h5bWFORFFKRk5YdnRVY0NtbklqWTE4X1BHZFpTbjhacHJyeDhMRnY3MQ?oc=5",
-          "source": "ABEMA",
-          "published_at": "2026-08-11T15:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8597c19806c4f6b7",
-          "title": "平和のための、技術の武装解除テーマに、来年度「世界平和の日」",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMlk3b0o0QnhOaE5EWkNPVjBmN28yWXZwcjdhX2tjY2RFQVBlMVpxUmFIMkF1cE9HUHNidkVqWGxWWUZMS3FncG5OeXFtWGdLanBZQ2FXWkhXdDBJZGlibjRjTkFNdHNmc3VFejQzbGdTUldjRDQ1bndpdGJFdGh6REd2NUlXVHB0Q2hMNk1KS1p2UE9wTjV6Q0I2MEtrZlcwR2RySWo5UXk?oc=5",
-          "source": "Vatican News",
-          "published_at": "2026-08-11T12:39:48Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0cee3a3b018260ba",
-          "title": "【BE:FIRST】「夢中」、ストリーミング全世界累計再生回数3億回を突破！ | ニュース | エイベックス・ポータル",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1IWDBual9kTlVDUzN5SExwODJTSXhnSHZCdkVfWUlEd2VXMC0wclpPeWJGZE45Mkt6aVRNQnNqQ2ZLODBjSlE?oc=5",
-          "source": "エイベックス・ポータル",
-          "published_at": "2026-08-11T09:44:04Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -304,11 +304,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "df608e9180467e7e",
-          "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
+          "id": "9485756834da4116",
+          "title": "コスモス薬品／京都府に「ドラッグコスモス」計2店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zSjI2Z0RtTGZIYzdyMWZhQ3VzMEJrbnJ2Q1NsMGladHFlTHpGaVZoX2RnY2xlWXo0c3YyVlBkTTQwa1luSExQcHR1QXlZVVdWY09PSUZn?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-07-17T07:00:00Z",
+          "published_at": "2026-07-21T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -318,6 +318,16 @@
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "899cd0b710aea772",
+          "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-12T06:35:04Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "e75af2b3c38972e5",
           "title": "食品安全法（改正）：サプライチェーン全体における食品管理の強化。",
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "513ed0467e23d781",
-          "title": "リサイクルをゴリ押し→業者が次々廃業…環境重視なのに｢資源ごみ｣すら処理できない\"EUの過剰規制\"の大誤算",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95SWxMWGw2bG4yaUo2T1N6dDhkSzFlRnBCMW5QRVlFYVRDcUF0Z0tSU19uSWdQekNlSzhnRDQ5RVdZZmRXdE1WRFRxMzV1Ty1RR0ZEY0UzSW5ySFc4ZVpXdkpjVQ?oc=5",
-          "source": "Infoseek",
-          "published_at": "2026-08-02T23:15:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-08-12T03:00:10Z",
-  "last_success_at": "2026-08-12T03:00:10Z",
+  "last_attempt_at": "2026-08-12T07:56:17Z",
+  "last_success_at": "2026-08-12T07:56:17Z",
   "consecutive_failure_count": 0
 }
