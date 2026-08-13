@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-13T07:58:08Z",
+  "generated_at": "2026-08-13T13:52:44Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,6 +29,36 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-13T10:49:09Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ff795662f36b330c",
+          "title": "ロビト回廊が変える南部アフリカ経済地図 | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SckYxM3NObXlVMUxqZXRqcjB2QnhuNTNOUUlfaDhIRjJoWVR5S2RsT0FCRERweUQxWDJxN0VkeXY1SUZuSmRkWEFBZW1Pc2FSYVdzbnpfZHVUakR1eUZOa3pQbnVUTW9VbWJwSHp3REVfY1JR?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-08-13T08:04:10Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "baf8154379af9f53",
+          "title": "アンゴラ経済の構造変化 | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjallaZTJjMVJuMHplMnV3Tk12ZjRmel9qS0tLRG9ydGhPd0U3S290eUlkM29jb2xhYi03c0h4Q0JnMW1jdkpfSEczX3JnQ0xNYi1ScGtfRkhta2JZOEk3ZWx2WTdCNktzaTREd1kzV1NqNl9u?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-08-13T06:59:09Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "bb63c05d30767119",
           "title": "世界銀行は気候ファイナンスの目標を撤廃すべき時が来た",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xdmE4bkZFbHJGbVJabXNjdjZ0V3lPSlRGRHpPWXNvTnBrWWxaVHZlOFB5OGswdW1fMmVNR3pzdDhkTWJDT01GcHFGTkREbTRhTUZBclFZS1UxUQ?oc=5",
@@ -39,51 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "83c132ff2ff7352c",
-          "title": "Re:ゼロから始める異世界生活 4th #78【地上波先行・WEB最速】",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0UFNFY3pGbHVmaUN4UThVWFNGTGlwTGVLQ2Nvajkwb0VzWVpnMjlaVkNzMmlLQVlIbXVQWENDajBJMnRRcks5dGNCb1VTN2tJVnZ0TjliMXB1RlZ1OGpBT0FZY1NxQkVZcEE?oc=5",
-          "source": "ABEMA",
-          "published_at": "2026-08-13T03:37:36Z",
+          "id": "d17014ef09b0e8e3",
+          "title": "第12回「10×15の世界コンテスト展」作品募集のお知らせ",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yMHlYVUhrQUpVUE9qbWNPODBJX3RqUTgwSzQ5RUdkVWhhdEFjVU45VFNSZDhrOEFUaHc5cTRadDU0YkdwWWdvb3BXZkV5YzZLamxfX3UtU3Bod204YzFMLTBUTTQ4Yy1IbUFpZG5tUzE1cHg5UHVrVA?oc=5",
+          "source": "city.oyama.tochigi.jp",
+          "published_at": "2026-08-13T04:47:24Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e5c41746538c6cf3",
-          "title": "プーチン大統領、北方領土めぐり“国際文書でロシア領と明記”（日テレNEWS NNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNNVY1OUZSN2tKQUdVUS1KVjRQUXFaQ2l1dHlWLWw3akhaMUMwb1JFeTlWQTZzY3pIdG5CanZXOEYwYzVvZWFaS1htcTk2dW1SVnVIbDZvVFdJZ1pEemtldnk0VlY5Nnc1OVZWNHpQVDhTNFQtdHhKcjdfU29KbG8?oc=5",
+          "id": "a8ea57eb27174f4b",
+          "title": "ahamo海外でも30→40GB化？ SNS上に疑問の声、ドコモ広報の回答は（ITmedia Mobile）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4Q3BKVXplejlXRU9SeHp2QVVsZXlwYllNR2tFLVkzUzZXeTBjSXlaUVBLbHd2aDNXb2lZajdRMUllcmN1QmYxaXByMmUzczZucGotQ0JiYzJLTXZpVFNWamlFZjIyYXRtWUNib0NpQ29NdWtzV0Q2SWxUUE1xNFk?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-08-13T02:55:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "729046b1fae5618f",
-          "title": "「ゴールドマン コレクション 河鍋暁斎の世界」展 オリジナルグッズプレゼント",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5kbFpVX3pzLVE1S01DbnlXRXJNbmJfd1JqTkhPbHNaNDc4TUxBc3hzc2RaTnV6MFVsMHFXeWtlMGl0VzgzTnVCeXBTbG9QeWVGa1dTTHZhMA?oc=5",
-          "source": "朝日新聞",
-          "published_at": "2026-08-13T01:56:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0426d0baadb55626",
-          "title": "世界くらべてみたら★SixTONES森本＆あばれる君参戦！世界で自由研究 [字] [デ]",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fc0hTUWtrbXcyTjVTeE9pUHcwMnU1eDYwWnZkc1ptelpmWWdYR0EtdUkxbVhvd1N1TEZMYUw5ZHRuZHZzTGtvRm5vak8wZFpCcUFkT2Jn?oc=5",
-          "source": "tbs.co.jp",
-          "published_at": "2026-08-13T01:04:41Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7f8104c2115f078b",
-          "title": "珍しい夕暮れ時の皆既日食、世界の天体ファンを魅了",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wR0xmekV0SVpXNEVkdW9CX1U2blVMWF9haUxTajVVZkwtRGZncUFwZlRUMW1JMkRCdkV0M0JpaU9Jc3Z1dm1wNFVCVWJIQlhJc1pZZg?oc=5",
-          "source": "CNN.co.jp",
-          "published_at": "2026-08-13T01:03:00Z",
+          "published_at": "2026-08-13T03:56:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -169,36 +169,6 @@
       "label": "食品工場",
       "articles": [
         {
-          "id": "06aa911108b0039f",
-          "title": "日清食品、茨城に新工場建設へ カップヌードルに特化 投資額は700億円",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ELUt5U2NzcDY2YkRzeksxOFRydEdBRDZnazd3enR6WFBVcGQ3OXhRMnc3Ul9GSlJKR0E0OTN4YlBMcG5GUGlUMnIxM0JpenlBa1k1Y3RzcUxiTnB3SU1BWFhqREZabFZ1Y3pn?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-05T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6652fe439c5cbd0b",
-          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS1＝ビオストック",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0WjVGVG9rOHQ1emphdlBzWVIySmgwOTZSVmdReEE0ejBYbHZSNzRKWlZ4SFc1eVdHazd2ZURHNENDSUlkbW1lWmtfQVdLZ0FHZkdyYmJyQ1AzeTVjNUdGTkhCZ3l5WDM5V3dz?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-07-31T16:57:58Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1e3558dd99c398af",
-          "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-06-04T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "80f34afd1f5856c9",
           "title": "山洋電気(E1-17-08)食品工場の自動化に貢献する駆動・電源・冷却の3製品群【FOOMA JAPAN 2026 特集】",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81dDJveFhiblU2NmVUWEgwcjhnTThmZ2xOcm9OZ0h3X1MteE9QLU5jMVZXYnEyc2FwVW1vRkt1N1ZkSHhQRXZtM204b1dlS3VTMWduaWp4QXdSdw?oc=5",
@@ -219,11 +189,41 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "6652fe439c5cbd0b",
+          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS1＝ビオストック",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0WjVGVG9rOHQ1emphdlBzWVIySmgwOTZSVmdReEE0ejBYbHZSNzRKWlZ4SFc1eVdHazd2ZURHNENDSUlkbW1lWmtfQVdLZ0FHZkdyYmJyQ1AzeTVjNUdGTkhCZ3l5WDM5V3dz?oc=5",
+          "source": "news.nissyoku.co.jp",
+          "published_at": "2026-07-31T16:57:58Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "89f471b5159296cc",
+          "title": "特集・食品工場の環境対策2026［排水処理］：技術FOCUS4＝ダイキアクシス",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83RDVfLWVzeXdWa3JuTnVaRnZiWDVPODRNOElqRWM1RmtvYTZKQ3VKZWVZMWVDSkNCU2I1N2h3Q0szS1lGWGtLTDZISkNnMzM4c1pNSFo2VTVvNlNpM0Zrb3RfNW16VU15SmJPVw?oc=5",
+          "source": "news.nissyoku.co.jp",
+          "published_at": "2026-07-31T16:36:45Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1e3558dd99c398af",
+          "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
+          "source": "news.nissyoku.co.jp",
+          "published_at": "2026-06-04T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -264,6 +264,36 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "9cc38d6f413a845e",
+          "title": "ロフト／「イオンモールナゴヤドーム前」に新店舗10月オープン、名古屋市内4店舗目",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85dFpXQmtzQ1RPV3VQMGdMZ1lrTU82TGotNXA2aC1UNHI2S1plSTdIRFZ6cDNxWnZ6dlVrYm1vZWVyR2hGQlZqUUZHZjZVNTZ2WUVEVQ?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-28T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a1f5a8bf09514ea9",
+          "title": "薬王堂／栃木県に計3店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QVXBZaEFsUEVabE9QbHYyMlAzS1lXa1lYNWdHMFJ5MDB5SEhfQk5Jay1iVGVfN01jeFZBSHhyYzJITmpBNFRfbFdMR3NiNkY3YldXRUVR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-27T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "94ace283ac879e07",
+          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-23T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "6def167432cca401",
           "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
@@ -274,41 +304,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "09ca1fa4f2570b09",
-          "title": "東中野に「街のパーソナルコンビニ」 日常品と新しい「モノ」「コト」が共存",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkWFpVQjRBaDdxZUpfekstX19GaVYyb01GZE9nOGU4a2pwMlJLY2NuZGZDV2tGcW1MVFI2NUp1Qmw3NG5hN3B5TXJlblRhemdoRlE?oc=5",
-          "source": "中野経済新聞",
-          "published_at": "2026-08-11T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b080a9085fc61261",
-          "title": "鳥取県倉吉市に新店舗オープン！「ワッツウィズ 生田ウェルネス店」でお得な生活を。",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GUU9OWUZFMkhubVVpamNRTjlYbFdSRkpsQ3ZTQUNfczZqemxVeGl0cnJPcEcwUFY1bHJoeWFtS3JzR3dqVjY2Z0hTNXp5V1FHb2c?oc=5",
-          "source": "山陽新聞",
-          "published_at": "2026-08-10T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4edb231e9dea0352",
-          "title": "平和堂アルプラフードマーケット富山掛尾店、2026年9月18日開店－同社県内約26年ぶりの新店舗、アルプラザ派生の食品スーパー業態に",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1mclUzbXE1VVF3dC01VWZ5cFozMEliUld5bTJGU1ppLUQyLUVvdVR4blYxdjVldVFGZmRUNWVjQVlfTHlmdXc?oc=5",
-          "source": "都市商業研究所",
-          "published_at": "2026-08-07T10:33:05Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ecfe7cfdecc47fba",
-          "title": "伊勢神宮・おはらい町通りに新店舗 二軒茶屋餅角屋本店：ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SY19qWlJEbnBoTmNPUy1XYUVocWxIX3g5WW0zVmltX3ZsMDZHV2hGcG1ubUZONXdkdGo4eWx6dWtqVTVzTHdwN1BfazZ4YlJEUzdDNFA0eGMwOUplQXlV?oc=5",
-          "source": "中日BIZナビ",
-          "published_at": "2026-08-07T02:20:00Z",
+          "id": "9485756834da4116",
+          "title": "コスモス薬品／京都府に「ドラッグコスモス」計2店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zSjI2Z0RtTGZIYzdyMWZhQ3VzMEJrbnJ2Q1NsMGladHFlTHpGaVZoX2RnY2xlWXo0c3YyVlBkTTQwa1luSExQcHR1QXlZVVdWY09PSUZn?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-21T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -322,7 +322,7 @@
           "id": "899cd0b710aea772",
           "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
-          "source": "Vietnam.vn",
+          "source": "vietnam.vn",
           "published_at": "2026-08-12T06:35:04Z",
           "language": "ja",
           "category": "regulations",
@@ -332,7 +332,7 @@
           "id": "e75af2b3c38972e5",
           "title": "食品安全法（改正）：サプライチェーン全体における食品管理の強化。",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeFVIdTY2aHozVmF3OTVJXzl0NHFxV0w5M0p4T3BuUk9aQkVyamFSS2JuQVdQb3JXVFR0TDJwT0NJREVDVkdxVjhIcFg0eGVmVWtxTXlVUVpLNmxySVkxalVuWlNXZWR3UUtSSEFneGwydTZXWjFEYUF5aXBzamVDeUFQTjdyNXh6N0NOQW1tWWVKcno5QkFqZkNuSQ?oc=5",
-          "source": "Vietnam.vn",
+          "source": "vietnam.vn",
           "published_at": "2026-08-08T07:00:00Z",
           "language": "ja",
           "category": "regulations",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-13T07:58:08Z",
-  "last_success_at": "2026-08-13T07:58:08Z",
+  "last_attempt_at": "2026-08-13T13:52:44Z",
+  "last_success_at": "2026-08-13T13:52:44Z",
   "consecutive_failure_count": 0
 }
