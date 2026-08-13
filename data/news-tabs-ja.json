@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-12T19:36:27Z",
+  "generated_at": "2026-08-13T03:03:17Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,46 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "7f8104c2115f078b",
+          "title": "珍しい夕暮れ時の皆既日食、世界の天体ファンを魅了",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wR0xmekV0SVpXNEVkdW9CX1U2blVMWF9haUxTajVVZkwtRGZncUFwZlRUMW1JMkRCdkV0M0JpaU9Jc3Z1dm1wNFVCVWJIQlhJc1pZZg?oc=5",
+          "source": "CNN.co.jp",
+          "published_at": "2026-08-13T01:03:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-13T00:37:03Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "733343ef764538e4",
+          "title": "「海外展開はじめ方セミナー」を開催いたします！",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NTWJ4WlhWREk1dnYwc3otVl8xcmtuNTRXVmMwRTZmdU11MGpDamZRX3ZEOHdHZVRQazBMeW52SlJGclZFWV9iQWZCZjdGSHplXzFraDRmZllVY1Vz?oc=5",
+          "source": "city.otaru.lg.jp",
+          "published_at": "2026-08-12T23:55:04Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "37c81b09e160470f",
+          "title": "香川で経済安全保障セミナーを開催、地政学リスクの影響や安全保障貿易管理、技術流出対策について解説",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jQTVONERoMXE0Vl9sUUhrc0lmYm5GOXUxVTJ2Q1RDZEI2cktUSXZ3V05sQ1p4VHRfc2h3emY0aVVMSDZNcUdzdmxRT0M0eFZsZHJoTTdBYndRWlU2cHFFYzh1MHlHVE5QQ0lyc3NR?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-08-12T18:11:29Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "e801dbdf97145702",
           "title": "世界銀行グループ日本人職員採用「2026年リクルートミッション」第2弾",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVEtuRE5qVXNhbG9RaXZzRzZ5c0l4bVczTnZNcHlDekhjX0Q3SEMyTkNOS2hMakhkdzVrTnZJMXF5TjhyU0E3V1FXYmVuc25ibEw1V1hjOXFrY3d1bThIa0VsN2tldExldzI0bVhHOEU5a3F3YnVYNU81Y0dMb0Y4VFppSQ?oc=5",
@@ -29,61 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-12T16:42:58Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "37c81b09e160470f",
-          "title": "香川で経済安全保障セミナーを開催、地政学リスクの影響や安全保障貿易管理、技術流出対策について解説",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jQTVONERoMXE0Vl9sUUhrc0lmYm5GOXUxVTJ2Q1RDZEI2cktUSXZ3V05sQ1p4VHRfc2h3emY0aVVMSDZNcUdzdmxRT0M0eFZsZHJoTTdBYndRWlU2cHFFYzh1MHlHVE5QQ0lyc3NR?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-08-12T15:03:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1453a5120f735de1",
-          "title": "【カルデア広報局より】「京都国際マンガ･アニメフェア2026」出展情報について",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wRWwwYVE5T1h0cjcwa1FWVVJRTTdmeURDMEpseno4UkUzRTVvV2g3NUFUc3diWTQ4amJYeThLSEswNU5iTExYQXM1UncyNXNZMDd5YzRR?oc=5",
-          "source": "Fate/Grand Order 公式サイト",
-          "published_at": "2026-08-12T11:07:57Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6334e3ba819daf1a",
-          "title": "宇宙の「産業化」急ぐ中国 軌道投入は世界２位",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE92N0RnekVwcEdHaHg1bmJGWXJ6YW1PY2lYYWFPX2wtWnJmeHhheGw4aWphYmRLMU9hX1BOY2VWdWg0SUZ6RnpIM1ZIaGQySmFDRi1YQzN3MWo1VkFEcml1a2xBZ1A?oc=5",
-          "source": "jcer.or.jp",
-          "published_at": "2026-08-12T08:54:49Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f6f822c1124e0a78",
-          "title": "世界最高峰のコレクションが神戸にやってきた！ 楽しいフォトスポットも満喫 「河鍋暁斎の世界」",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE00MkJPTUtwUUtHM0YzcjVMU1pyMDJuUkxUZm5ESlRub05jYzZBYzRoelVpZE80Q2hqeG96andheWFpQ1VHbl9yM21pRDlrU1g3bHV2MlFQWQ?oc=5",
-          "source": "朝日新聞",
-          "published_at": "2026-08-12T04:34:47Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "080d4360af73a3c9",
-          "title": "世界最大級の花「ショクダイオオコンニャク」が開花 宮崎市・宮交ボタニックガーデン青島（MRT宮崎放送）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiNk11aWZPblE5akVFcUFLc0d1ak1uTmdyMU5KdU9pTFJ5SUdZbUFaUU1qcjZEZV9jWUM5RzVoUFV6RzdqMW5idzZGY0lWZV8tVWxmWXM4WG9KQ2l0M2ZTVk5ZcjhkcGtIOFRHbmVOQi0tYTE5SXBnRXRYeUVlNm8?oc=5",
+          "id": "f57d7879fe336e3e",
+          "title": "総務省がふるさと納税返礼品の海外ワインを調査へ。寄付額の上限は引き下げ（さんきゅう倉田） - エキスパート",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYkFOc1dFYVJrWWNTRlExX3d0Y01VbEhQZy1wQUNiMlNDbXdBUHdhaXQtQnpxQ2tJbWxLN1hyczVtZElISXo1cnRFSXBMZEhDWHpPV2lwOWJZTWZYWF9WUWN1VXhXcnFvSVUtbWdLN1ZhbDZOVkhyTHNFdFJpOHVkZ0g4eVF1SW55?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-08-12T03:09:15Z",
+          "published_at": "2026-08-12T14:05:27Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9ef49b3ffa162757",
+          "title": "辺野古沖事故、亡くなった同志社国際高の生徒の両親や弁護士らが「事件の全容解明と再発防止を求める会」設立",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WQkdmMFZaQW5zQlJBZWFaTzZJTHEwY3Y1dzRqbWJBSFoxeFFSVkZ6dGctOWZibUdzcVJnLXpWY2tReDVZajVaeVdUYkY1a3ZZMDdJTWtQS0hBWUJSZVhaQVR0ZGUtc3BfbXd1X0gxVnRXblNHclFhTHJHUDdnM2c?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-12T12:47:03Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -304,11 +304,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "df608e9180467e7e",
-          "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
+          "id": "9485756834da4116",
+          "title": "コスモス薬品／京都府に「ドラッグコスモス」計2店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zSjI2Z0RtTGZIYzdyMWZhQ3VzMEJrbnJ2Q1NsMGladHFlTHpGaVZoX2RnY2xlWXo0c3YyVlBkTTQwa1luSExQcHR1QXlZVVdWY09PSUZn?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-07-17T07:00:00Z",
+          "published_at": "2026-07-21T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-12T19:36:27Z",
-  "last_success_at": "2026-08-12T19:36:27Z",
+  "last_attempt_at": "2026-08-13T03:03:17Z",
+  "last_success_at": "2026-08-13T03:03:17Z",
   "consecutive_failure_count": 0
 }
