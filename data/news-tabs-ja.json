@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-14T03:02:13Z",
+  "generated_at": "2026-08-14T07:54:30Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,16 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "b889c664017df61e",
+          "title": "コアウィーブ、カバ・グループ 海外市場ビュー&米国株ピックアップ（8月13日）",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UZnVLazdqcFJqZEs3QWVFTFJzYXMtR2pwamtkd0lYOGpsNlA2RTdHclVMMnZid1k5dE8tYzdjZUNuRjJGNTROV3h2SU5XRFlmVFI0WkNkV1U2SklOaDhqT0lwcE5xR1lSWDBPZERZS2pDczJDVzRQZi1NVWFvZw?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-08-13T01:20:12Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "f38aed4f7ad60a85",
           "title": "ゼンショHD、コメ値下がり追い風 海外の中食に注目",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11U3p3UHdXX0xnWTZma3VVQm1Bamkyc1hDdFhPWDZCbHRmWXNTSllTV05FMjQ5VzR4dHQta2RGNjRTVzJlYkkzQkZaeUxfaGNkd2hBb0VIRTBVeEN3YzhsRlE5RC1iU1Z5RlhhRU4tdE9sQkxGcXNyUGJRbFkwZw?oc=5",
@@ -29,31 +39,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "480ed602302a81aa",
-          "title": "スーパー・マイクロ・コンピューター、デル・テクノロジーズ 海外市場ビュー&米国株ピックアップ（8月12日）",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iMzNnSk9CNWg0bHdXLS1ycEVaMFdJblRwY21kNDEyNW9DNXJMV1gxU2xFNlozSVRWalJuekllVXJRXzJkUGJxTzlsQjE2X1BCeGZXUjRzYThOY1ZxY3dkQUtkVkdUTnNtUUZRdjYzaURfRE9RbUJPQUF5dUpRdw?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-12T01:18:52Z",
+          "id": "e0b29cc9fb3b7c3a",
+          "title": "『国際問題』ウェビナー「ドル覇権の持続性と国際金融システムの行方」を論じる",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOblk3OFlTbW1kVDdtRzM3X3hCZVFuTFFuZGJSZHFLSWVJSVZ2MjQ1b1hPRG9qN0VJQzlESFhjVmc3ZDBwYTlzNm4zTXp1RlZuMlZPRnBRVGl1TFUta1FPT3FBY0FQZTlZY05qZW0yREZyX2Y5Wnp6MUFwdXV5RmpTSUxFdm5IM0FyT2xMVFNR?oc=5",
+          "source": "jiia.or.jp",
+          "published_at": "2026-08-14T06:40:19Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e3bd7f903930e48a",
-          "title": "≪Laos Study Visit 2026 REPORT≫ 国際共生学部2年 吉水恒晴さんVol.1／自分の中での正解とは一体何なのか",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxbmlUQVB5UjhGaEpqTGRRWmhNTVhCSHNPX0NveGlSNVN4ODk0ZXF5SzVETDZMMjRGVkNqU3NEbnRIaGN4bVNGekp3MFRrWjk4dU44T25zdWYxbTdzVG12TmR3?oc=5",
-          "source": "kansaigaidai.ac.jp",
-          "published_at": "2026-08-13T23:40:10Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "37aa9ce55d1b3417",
-          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-13T21:28:29Z",
+          "id": "e31ec2d298fb87e5",
+          "title": "トランプ氏、海外で艦艇建造許可 空母蒸気カタパルト復活も指示（ロイター）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3enJWMmw0UTBjWi0yM09RSmY5SVo2OUZWYXpnMnZQTXhmb3FoREpsQ2RxVnZFbU5jQzdDT0RkamJzd1ppa0lwa1JhNWxENjV4QjdNS3Fydk9RamFHYjduMm1LQlpacUlSR1pGWTRPR0FQRlpwRk0zLURyVkx1Mjg?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-14T01:08:30Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -63,7 +63,7 @@
           "title": "1555. 2026年7月の世界食料価格動向（FAO食料価格指数）",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00SmZZQ3AzN2RHRU0xQ0NGY1N4V3QtbzB1S1I1SV9SSDBJWlNpbnJBNjZEY2pXdmNxbm0wTW16Ulp5azNGbk85UlB5bGNRdkhudHR5QVJUazJuSXBlQTVNZVpLNUU?oc=5",
           "source": "jircas.go.jp",
-          "published_at": "2026-08-13T21:02:25Z",
+          "published_at": "2026-08-14T01:02:15Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -169,6 +169,16 @@
       "label": "食品工場",
       "articles": [
         {
+          "id": "6d865337a2a677d3",
+          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-14T07:00:02Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b7c7af7720364232",
           "title": "【速報】日清食品、つくばみらい市に新工場 29年度中の稼働予定",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TTnNBOUVPdk11Vy1LdFdId0dwbHROc1JVcVllVC1QOGFScjJNZFFCb1hoU25YTnBYZ2ZZWFZXSGFveTNGOUJpY3I3RmdOZ2xNeklZ?oc=5",
@@ -184,16 +194,6 @@
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLWGdLTTNDZUNOeFQ4QUJ1elFZeHliOHZtXy1xdDY3Sy1WcDFYdE9taVJPaURjOTh1WXZrd1hLQTdnM2UxRDBfNkcza2pfcGZyWUtuM1hhZmMxZjZHbFpzSDQwTmZLWGY1d19V?oc=5",
           "source": "日本食糧新聞・電子版",
           "published_at": "2026-08-01T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f57b1fa0b81b02ba",
-          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS2＝大川原製作所",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SQ3VhcjV5bWJONGpCTDA2VmFRUmEtQ2ZFUDYzVFBsQUFjc1dCR2ZOUGZqWS1LaTQ5dVlESWdNUHBxMUhvQzQ5bk83SWJRS1NlSTVseGpIMVF2ZGhpWWZwWjhPOURUZ0tFX1Iw?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-07-31T18:17:40Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -284,16 +284,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5274f63858428bf4",
-          "title": "コスモス薬品／宮崎県・福岡県に「ドラッグコスモス」計2店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QaTdhSGhWTERsa2ptZ2VJaDdPN0dXS2dXLW5QMHd2Mkswa1pYaDFVRTE5V2VldlV6UDRhTDFQdzJFSnVBVENLNFVUcDJsNHpjbEdQYTBB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-24T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "94ace283ac879e07",
           "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
@@ -307,6 +297,16 @@
           "id": "6def167432cca401",
           "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-21T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ef33c65ae6b5c2dc",
+          "title": "【角上魚類】新潟・豊洲からの鮮魚を届ける“流通の心臓部”へ出店！新店舗「鶴ヶ島店」、8月20日（木）オープン！ 関越道と圏央道が交わる自社流通の重要拠点で、圧倒的な鮮度の「市場型店舗」を展開！",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuUGFaMTFWVWFhcGdzaFZZRjJ0RnNpalBKMjhiaEcwaldra2h3TzFiNzlJaldZVGxVOHNuaVYtMjZiOG16WUVrSU12UTlqTy0xckJweEE2cFBlWDBhTllKRDFpSV9meklUZFE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-07-21T07:00:00Z",
           "language": "ja",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-14T03:02:13Z",
-  "last_success_at": "2026-08-14T03:02:13Z",
+  "last_attempt_at": "2026-08-14T07:54:30Z",
+  "last_success_at": "2026-08-14T07:54:30Z",
   "consecutive_failure_count": 0
 }
