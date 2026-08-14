@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-13T19:30:04Z",
+  "generated_at": "2026-08-14T03:02:13Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -39,51 +39,51 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "id": "e3bd7f903930e48a",
+          "title": "≪Laos Study Visit 2026 REPORT≫ 国際共生学部2年 吉水恒晴さんVol.1／自分の中での正解とは一体何なのか",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxbmlUQVB5UjhGaEpqTGRRWmhNTVhCSHNPX0NveGlSNVN4ODk0ZXF5SzVETDZMMjRGVkNqU3NEbnRIaGN4bVNGekp3MFRrWjk4dU44T25zdWYxbTdzVG12TmR3?oc=5",
+          "source": "kansaigaidai.ac.jp",
+          "published_at": "2026-08-13T23:40:10Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "37aa9ce55d1b3417",
+          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-13T16:24:31Z",
+          "published_at": "2026-08-13T21:28:29Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "539f51ee21b360aa",
-          "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53cEZQMldVUW91SEJyZmh0ZHowSTBCenBkZUthMTR6ZTVxM2h5bWFORFFKRk5YdnRVY0NtbklqWTE4X1BHZFpTbjhacHJyeDhMRnY3MQ?oc=5",
-          "source": "ABEMA",
-          "published_at": "2026-08-13T15:00:00Z",
+          "id": "b413bf6cf334b100",
+          "title": "1555. 2026年7月の世界食料価格動向（FAO食料価格指数）",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00SmZZQ3AzN2RHRU0xQ0NGY1N4V3QtbzB1S1I1SV9SSDBJWlNpbnJBNjZEY2pXdmNxbm0wTW16Ulp5azNGbk85UlB5bGNRdkhudHR5QVJUazJuSXBlQTVNZVpLNUU?oc=5",
+          "source": "jircas.go.jp",
+          "published_at": "2026-08-13T21:02:25Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ff795662f36b330c",
-          "title": "ロビト回廊が変える南部アフリカ経済地図 | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SckYxM3NObXlVMUxqZXRqcjB2QnhuNTNOUUlfaDhIRjJoWVR5S2RsT0FCRERweUQxWDJxN0VkeXY1SUZuSmRkWEFBZW1Pc2FSYVdzbnpfZHVUakR1eUZOa3pQbnVUTW9VbWJwSHp3REVfY1JR?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-08-13T08:04:10Z",
+          "id": "b0699ac24db1ac9f",
+          "title": "戦争が直撃する世界のもう一つの要衝「黒海」",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1zUWRrOHlfV3U5UWlzT2tCMG9BSmZRVXhtUmZ4eDExYzNDX2lrMng5cVo3cnhxTXdYTGs4R3lNdTJkU05rVkhnVXpCTjc?oc=5",
+          "source": "ダイヤモンド・オンライン",
+          "published_at": "2026-08-13T19:05:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "baf8154379af9f53",
-          "title": "アンゴラ経済の構造変化 | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjallaZTJjMVJuMHplMnV3Tk12ZjRmel9qS0tLRG9ydGhPd0U3S290eUlkM29jb2xhYi03c0h4Q0JnMW1jdkpfSEczX3JnQ0xNYi1ScGtfRkhta2JZOEk3ZWx2WTdCNktzaTREd1kzV1NqNl9u?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-08-13T06:59:09Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1268d97b9fc31689",
-          "title": "ディズニー新アトラクションの名称決定 シューティング型、世界初も（朝日新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02ektXTktsYkozQ3ZERExwS3RFOFBISk1ua1VDWGVwSkdZTlZ2WUozcUhHR0QxZG9JTkpBOXJNcU5sSlktc1dEMmJGVWFxbHBBWXA5NElEY3pOOGZEbjF1aUt3ak8zVURHRUJuMEtLdlRwZjdGQ2RFU0d5a1NtMjA?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-13T06:06:58Z",
+          "id": "e82baba445e9d861",
+          "title": "Book Review：世界から取り残された日本の銀行の未来を探る議論の記録 評者・井堀利宏",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hdC1QM19CaC1qRmgwUlRPWFJISHVxNUpNRmNIczRXbm16VS1sSDBTQTVWZm9lS2R4b0FJZWgydldxWm9vNG1vYTFnZVZiVDFZZFZnaHNCdTJqV09HUnVRZmhobUhjREdvS0dKOUQ3U1FjZkJ1Mkw1UENVSlNYNTA?oc=5",
+          "source": "週刊エコノミスト Online",
+          "published_at": "2026-08-13T15:04:59Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -169,6 +169,16 @@
       "label": "食品工場",
       "articles": [
         {
+          "id": "b7c7af7720364232",
+          "title": "【速報】日清食品、つくばみらい市に新工場 29年度中の稼働予定",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TTnNBOUVPdk11Vy1LdFdId0dwbHROc1JVcVllVC1QOGFScjJNZFFCb1hoU25YTnBYZ2ZZWFZXSGFveTNGOUJpY3I3RmdOZ2xNeklZ?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-05T10:53:53Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "55bc0f61dd099dfe",
           "title": "特集・食品工場の環境対策2026［省エネ］：技術FOCUS3＝キョーワクリーン",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLWGdLTTNDZUNOeFQ4QUJ1elFZeHliOHZtXy1xdDY3Sy1WcDFYdE9taVJPaURjOTh1WXZrd1hLQTdnM2UxRDBfNkcza2pfcGZyWUtuM1hhZmMxZjZHbFpzSDQwTmZLWGY1d19V?oc=5",
@@ -227,16 +237,6 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5a015c34f98856db",
-          "title": "いかに名店の味を再現？ 三井不動産が手掛けるプレミアム冷食の製造拠点公開：工場ニュース（2/2 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-08-11T21:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -284,6 +284,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "5274f63858428bf4",
+          "title": "コスモス薬品／宮崎県・福岡県に「ドラッグコスモス」計2店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QaTdhSGhWTERsa2ptZ2VJaDdPN0dXS2dXLW5QMHd2Mkswa1pYaDFVRTE5V2VldlV6UDRhTDFQdzJFSnVBVENLNFVUcDJsNHpjbEdQYTBB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-24T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "94ace283ac879e07",
           "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
@@ -299,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-07-21T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "df608e9180467e7e",
-          "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-17T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-13T19:30:04Z",
-  "last_success_at": "2026-08-13T19:30:04Z",
+  "last_attempt_at": "2026-08-14T03:02:13Z",
+  "last_success_at": "2026-08-14T03:02:13Z",
   "consecutive_failure_count": 0
 }
