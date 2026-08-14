@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-14T07:54:30Z",
+  "generated_at": "2026-08-14T13:49:06Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,16 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "8130e7202477b838",
+          "title": "「適温」期待で世界株高 銘柄選別は進行中 ヴェリタスEYE（8月14日）",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43aVlfQnY2cFZDTDRVcEtHc3RRbUx5SHNZNGdnNFZYOU1fYmNFdTA3QVVwRTZMdDZ0NWRmNldHd2xGUS1OLWxYLUp1TUxWT055cDRZbHFnYnAyVUNIYlFnTGRVeHVjeUZqTFk5YWlKMWUtN2NxTmpDdzRVaTRzQQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-08-14T07:02:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b889c664017df61e",
           "title": "コアウィーブ、カバ・グループ 海外市場ビュー&米国株ピックアップ（8月13日）",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UZnVLazdqcFJqZEs3QWVFTFJzYXMtR2pwamtkd0lYOGpsNlA2RTdHclVMMnZid1k5dE8tYzdjZUNuRjJGNTROV3h2SU5XRFlmVFI0WkNkV1U2SklOaDhqT0lwcE5xR1lSWDBPZERZS2pDczJDVzRQZi1NVWFvZw?oc=5",
@@ -29,61 +39,51 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f38aed4f7ad60a85",
-          "title": "ゼンショHD、コメ値下がり追い風 海外の中食に注目",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11U3p3UHdXX0xnWTZma3VVQm1Bamkyc1hDdFhPWDZCbHRmWXNTSllTV05FMjQ5VzR4dHQta2RGNjRTVzJlYkkzQkZaeUxfaGNkd2hBb0VIRTBVeEN3YzhsRlE5RC1iU1Z5RlhhRU4tdE9sQkxGcXNyUGJRbFkwZw?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-12T20:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e0b29cc9fb3b7c3a",
-          "title": "『国際問題』ウェビナー「ドル覇権の持続性と国際金融システムの行方」を論じる",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOblk3OFlTbW1kVDdtRzM3X3hCZVFuTFFuZGJSZHFLSWVJSVZ2MjQ1b1hPRG9qN0VJQzlESFhjVmc3ZDBwYTlzNm4zTXp1RlZuMlZPRnBRVGl1TFUta1FPT3FBY0FQZTlZY05qZW0yREZyX2Y5Wnp6MUFwdXV5RmpTSUxFdm5IM0FyT2xMVFNR?oc=5",
-          "source": "jiia.or.jp",
-          "published_at": "2026-08-14T06:40:19Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e31ec2d298fb87e5",
-          "title": "トランプ氏、海外で艦艇建造許可 空母蒸気カタパルト復活も指示（ロイター）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3enJWMmw0UTBjWi0yM09RSmY5SVo2OUZWYXpnMnZQTXhmb3FoREpsQ2RxVnZFbU5jQzdDT0RkamJzd1ppa0lwa1JhNWxENjV4QjdNS3Fydk9RamFHYjduMm1LQlpacUlSR1pGWTRPR0FQRlpwRk0zLURyVkx1Mjg?oc=5",
+          "id": "60c28aa8cdb8c213",
+          "title": "【地政学リスクの時代】ホルムズ海峡を巡る緊張で世界の主要物流動脈が同時多発的に不安定化 米中貿易は停滞 一方で世界全体の貿易量は過去最高水準を記録【中東情勢 日中関係をどうみる】（RSK山陽放送）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CaU43b3kxd08zVlluUzhnLVcydDdDZVV1NE1rX09saFF0TVRYcjlyeG41dnphUGZUOHZ2TnlJX3g4Ny1FeHlEVU1ucFRZOUtRTE9fV29UajJVeWpZdVIyZVRxSjhWZ01tMVZGdzlFZHdDM1RMUHlVd05RWHdWZ1U?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-08-14T01:08:30Z",
+          "published_at": "2026-08-14T11:00:34Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b413bf6cf334b100",
-          "title": "1555. 2026年7月の世界食料価格動向（FAO食料価格指数）",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00SmZZQ3AzN2RHRU0xQ0NGY1N4V3QtbzB1S1I1SV9SSDBJWlNpbnJBNjZEY2pXdmNxbm0wTW16Ulp5azNGbk85UlB5bGNRdkhudHR5QVJUazJuSXBlQTVNZVpLNUU?oc=5",
-          "source": "jircas.go.jp",
-          "published_at": "2026-08-14T01:02:15Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-14T10:29:11Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b0699ac24db1ac9f",
-          "title": "戦争が直撃する世界のもう一つの要衝「黒海」",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1zUWRrOHlfV3U5UWlzT2tCMG9BSmZRVXhtUmZ4eDExYzNDX2lrMng5cVo3cnhxTXdYTGs4R3lNdTJkU05rVkhnVXpCTjc?oc=5",
-          "source": "ダイヤモンド・オンライン",
-          "published_at": "2026-08-13T19:05:00Z",
+          "id": "11f00fecf085f446",
+          "title": "『THEワールドチェンジ ＡＩが変える戦争の世界』",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZZFp6YXp1enRhY3FzallncW9RX0EtdGl3Qk1EM1ZfNTVBc01NQXRYVEgxRkZVZHNqZjk5YzJKeUVUbVRPWGdBYXFiam9vWUJ5RGc?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-08-14T09:47:43Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e82baba445e9d861",
-          "title": "Book Review：世界から取り残された日本の銀行の未来を探る議論の記録 評者・井堀利宏",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hdC1QM19CaC1qRmgwUlRPWFJISHVxNUpNRmNIczRXbm16VS1sSDBTQTVWZm9lS2R4b0FJZWgydldxWm9vNG1vYTFnZVZiVDFZZFZnaHNCdTJqV09HUnVRZmhobUhjREdvS0dKOUQ3U1FjZkJ1Mkw1UENVSlNYNTA?oc=5",
-          "source": "週刊エコノミスト Online",
-          "published_at": "2026-08-13T15:04:59Z",
+          "id": "b0d8e7774b529cfb",
+          "title": "【速報２】コロンビア地震：国際赤十字の緊急救援アピールに応え、日本赤十字社は資金援助を決定",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vQ1NlcUVpZENnZ2IzUDlab3ZQelhjN1BVZjZ2RGlyMjVFaW1rTWhHU0VNZE5NeXpNUE5pV2Zncl82bHNiVExMVzExbmxGREpreHphcV8yTUdnRU1XaG8zLUdSVklSN0JfTEtISEdxOA?oc=5",
+          "source": "日本赤十字社",
+          "published_at": "2026-08-14T08:15:35Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5357b727c20c1a45",
+          "title": "ニュースワード「世界貿易機関（WTO）」（時事通信）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RTExuLWRLVFlBQ1RfMF9qYmJ4S3pqV2w3Vk5xZEJqRVpLWkFOWnlLMUw4NktILUlNOVFUWGI0c2pxemQ2eXgzRWU5a1VmeFdjaW50NzR5RjltclJZTXJhWDNlaVZPN2RtXy1SbjUzUFB3dnlFd1B3THJVd090M0U?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-14T07:52:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,21 +179,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b7c7af7720364232",
-          "title": "【速報】日清食品、つくばみらい市に新工場 29年度中の稼働予定",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TTnNBOUVPdk11Vy1LdFdId0dwbHROc1JVcVllVC1QOGFScjJNZFFCb1hoU25YTnBYZ2ZZWFZXSGFveTNGOUJpY3I3RmdOZ2xNeklZ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-05T10:53:53Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "55bc0f61dd099dfe",
           "title": "特集・食品工場の環境対策2026［省エネ］：技術FOCUS3＝キョーワクリーン",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLWGdLTTNDZUNOeFQ4QUJ1elFZeHliOHZtXy1xdDY3Sy1WcDFYdE9taVJPaURjOTh1WXZrd1hLQTdnM2UxRDBfNkcza2pfcGZyWUtuM1hhZmMxZjZHbFpzSDQwTmZLWGY1d19V?oc=5",
           "source": "日本食糧新聞・電子版",
           "published_at": "2026-08-01T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c52720d7daa64a67",
+          "title": "特集・食品工場の環境対策2026［PickUp PFAS］：技術FOCUS2＝東洋濾紙・アドバンテック東洋",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxRXFrV2VJclFQb1pIWDdzU3JEa0lHQzlrMnJISlpYWHBPSURDVTNJak1vVXRnU2g3MkhCeGdBVDVSTGRVVHNrNm05YlJ4QWJDOHlTWlhMa0ZUTUlVSnNRR2VNd2MtZXY3ZzNfbA?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-07-31T23:30:35Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f57b1fa0b81b02ba",
+          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS2＝大川原製作所",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SQ3VhcjV5bWJONGpCTDA2VmFRUmEtQ2ZFUDYzVFBsQUFjc1dCR2ZOUGZqWS1LaTQ5dVlESWdNUHBxMUhvQzQ5bk83SWJRS1NlSTVseGpIMVF2ZGhpWWZwWjhPOURUZ0tFX1Iw?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-07-31T18:17:40Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -227,16 +237,6 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "80f34afd1f5856c9",
-          "title": "山洋電気(E1-17-08)食品工場の自動化に貢献する駆動・電源・冷却の3製品群【FOOMA JAPAN 2026 特集】",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81dDJveFhiblU2NmVUWEgwcjhnTThmZ2xOcm9OZ0h3X1MteE9QLU5jMVZXYnEyc2FwVW1vRkt1N1ZkSHhQRXZtM204b1dlS3VTMWduaWp4QXdSdw?oc=5",
-          "source": "オートメーション新聞WEB",
-          "published_at": "2026-05-29T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -248,7 +248,7 @@
           "title": "【平和堂】「アルプラフーズマーケット富山掛尾」オープン日のご案内 ～2026年9月18日（金）、平和堂の食品スーパーが富山市内にオープン～",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0weXRpYWlsS3k4TW5JYzlwVE1LZ2RyeHZXWnc0MzdPYlFxLWZLeUlXdllnX2tTZmtCaERVYXVBc2M3X1VZMER5S3BUSm54SGdEUS1oMlBmcXZVdDNrdmY1a09meGhpYWxvSFE?oc=5",
           "source": "PR TIMES",
-          "published_at": "2026-08-06T04:30:01Z",
+          "published_at": "2026-08-06T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-14T07:54:30Z",
-  "last_success_at": "2026-08-14T07:54:30Z",
+  "last_attempt_at": "2026-08-14T13:49:06Z",
+  "last_success_at": "2026-08-14T13:49:06Z",
   "consecutive_failure_count": 0
 }
