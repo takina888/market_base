@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-14T13:49:06Z",
+  "generated_at": "2026-08-14T19:19:45Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,21 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "8130e7202477b838",
-          "title": "「適温」期待で世界株高 銘柄選別は進行中 ヴェリタスEYE（8月14日）",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43aVlfQnY2cFZDTDRVcEtHc3RRbUx5SHNZNGdnNFZYOU1fYmNFdTA3QVVwRTZMdDZ0NWRmNldHd2xGUS1OLWxYLUp1TUxWT055cDRZbHFnYnAyVUNIYlFnTGRVeHVjeUZqTFk5YWlKMWUtN2NxTmpDdzRVaTRzQQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-14T07:02:30Z",
+          "id": "11f00fecf085f446",
+          "title": "『THEワールドチェンジ ＡＩが変える戦争の世界』",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZZFp6YXp1enRhY3FzallncW9RX0EtdGl3Qk1EM1ZfNTVBc01NQXRYVEgxRkZVZHNqZjk5YzJKeUVUbVRPWGdBYXFiam9vWUJ5RGc?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-08-14T18:56:15Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b889c664017df61e",
-          "title": "コアウィーブ、カバ・グループ 海外市場ビュー&米国株ピックアップ（8月13日）",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UZnVLazdqcFJqZEs3QWVFTFJzYXMtR2pwamtkd0lYOGpsNlA2RTdHclVMMnZid1k5dE8tYzdjZUNuRjJGNTROV3h2SU5XRFlmVFI0WkNkV1U2SklOaDhqT0lwcE5xR1lSWDBPZERZS2pDczJDVzRQZi1NVWFvZw?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-13T01:20:12Z",
+          "id": "539f51ee21b360aa",
+          "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53cEZQMldVUW91SEJyZmh0ZHowSTBCenBkZUthMTR6ZTVxM2h5bWFORFFKRk5YdnRVY0NtbklqWTE4X1BHZFpTbjhacHJyeDhMRnY3MQ?oc=5",
+          "source": "ABEMA",
+          "published_at": "2026-08-14T15:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -49,21 +49,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-14T10:29:11Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "11f00fecf085f446",
-          "title": "『THEワールドチェンジ ＡＩが変える戦争の世界』",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZZFp6YXp1enRhY3FzallncW9RX0EtdGl3Qk1EM1ZfNTVBc01NQXRYVEgxRkZVZHNqZjk5YzJKeUVUbVRPWGdBYXFiam9vWUJ5RGc?oc=5",
-          "source": "tbs.co.jp",
-          "published_at": "2026-08-14T09:47:43Z",
+          "id": "bda686c8b697c80c",
+          "title": "NATO、ウクライナから人道的地雷除去機材について緊急の国際支援要請があったことを公表（8月12日）",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMd3FDSVU1dkhTSVJKa3V3bUxlNDF0b3RjaFUwd0RhYmpKVGVyb2xWdEFTalVPZjFKc2hWTlJVUS1zN3NUVGVmbmVSNFE2VV9XazUwdWtETk9EY0pW?oc=5",
+          "source": "J ディフェンス ニュース",
+          "published_at": "2026-08-14T10:07:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -79,11 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5357b727c20c1a45",
-          "title": "ニュースワード「世界貿易機関（WTO）」（時事通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RTExuLWRLVFlBQ1RfMF9qYmJ4S3pqV2w3Vk5xZEJqRVpLWkFOWnlLMUw4NktILUlNOVFUWGI0c2pxemQ2eXgzRWU5a1VmeFdjaW50NzR5RjltclJZTXJhWDNlaVZPN2RtXy1SbjUzUFB3dnlFd1B3THJVd090M0U?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-14T07:52:41Z",
+          "id": "d8390f199a767e86",
+          "title": "ニュースワード「世界貿易機関（WTO）」(時事通信)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOY2EzNkp0NXpPendJUEhoSXZ3N3lldEl1dC12SjBoSV9USmhRX2x3SmRoZm9rWVBNbk01V1E1Z09VV0xIcGQyY1ZwRlJKRTlMVHh1b0hMTWIwY0ZUaHBuRExvaU5YQy1aY3VLZW9ENy1nNGFicEQ3NGkwVGlfaVJFUFNSUVoxZG8?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-14T08:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8130e7202477b838",
+          "title": "「適温」期待で世界株高 銘柄選別は進行中 ヴェリタスEYE（8月14日）",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43aVlfQnY2cFZDTDRVcEtHc3RRbUx5SHNZNGdnNFZYOU1fYmNFdTA3QVVwRTZMdDZ0NWRmNldHd2xGUS1OLWxYLUp1TUxWT055cDRZbHFnYnAyVUNIYlFnTGRVeHVjeUZqTFk5YWlKMWUtN2NxTmpDdzRVaTRzQQ?oc=5",
+          "source": "nikkei.com",
+          "published_at": "2026-08-14T07:02:30Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,21 +179,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "55bc0f61dd099dfe",
-          "title": "特集・食品工場の環境対策2026［省エネ］：技術FOCUS3＝キョーワクリーン",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLWGdLTTNDZUNOeFQ4QUJ1elFZeHliOHZtXy1xdDY3Sy1WcDFYdE9taVJPaURjOTh1WXZrd1hLQTdnM2UxRDBfNkcza2pfcGZyWUtuM1hhZmMxZjZHbFpzSDQwTmZLWGY1d19V?oc=5",
+          "id": "b7c7af7720364232",
+          "title": "【速報】日清食品、つくばみらい市に新工場 29年度中の稼働予定",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TTnNBOUVPdk11Vy1LdFdId0dwbHROc1JVcVllVC1QOGFScjJNZFFCb1hoU25YTnBYZ2ZZWFZXSGFveTNGOUJpY3I3RmdOZ2xNeklZ?oc=5",
           "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-01T07:00:00Z",
+          "published_at": "2026-08-05T10:53:53Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c52720d7daa64a67",
-          "title": "特集・食品工場の環境対策2026［PickUp PFAS］：技術FOCUS2＝東洋濾紙・アドバンテック東洋",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxRXFrV2VJclFQb1pIWDdzU3JEa0lHQzlrMnJISlpYWHBPSURDVTNJak1vVXRnU2g3MkhCeGdBVDVSTGRVVHNrNm05YlJ4QWJDOHlTWlhMa0ZUTUlVSnNRR2VNd2MtZXY3ZzNfbA?oc=5",
+          "id": "55bc0f61dd099dfe",
+          "title": "特集・食品工場の環境対策2026［省エネ］：技術FOCUS3＝キョーワクリーン",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLWGdLTTNDZUNOeFQ4QUJ1elFZeHliOHZtXy1xdDY3Sy1WcDFYdE9taVJPaURjOTh1WXZrd1hLQTdnM2UxRDBfNkcza2pfcGZyWUtuM1hhZmMxZjZHbFpzSDQwTmZLWGY1d19V?oc=5",
           "source": "日本食糧新聞・電子版",
-          "published_at": "2026-07-31T23:30:35Z",
+          "published_at": "2026-08-01T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -264,36 +264,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9cc38d6f413a845e",
-          "title": "ロフト／「イオンモールナゴヤドーム前」に新店舗10月オープン、名古屋市内4店舗目",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85dFpXQmtzQ1RPV3VQMGdMZ1lrTU82TGotNXA2aC1UNHI2S1plSTdIRFZ6cDNxWnZ6dlVrYm1vZWVyR2hGQlZqUUZHZjZVNTZ2WUVEVQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4d01ab908c9727b5",
-          "title": "牛カツ京都勝牛／京都駅八条口「みやこみち」に初出店、7月31日新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QRWdhQ3Z4M2R1OVF0aG9YVEdocG0ybTBHU0x0RHZWZWRqMGYtdU1zb0phRVVpRE1Kc3lEVC13d0Jqb2tGdGZDSElKS1lzeWt2TEV1aQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "94ace283ac879e07",
-          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-23T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "6def167432cca401",
           "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
@@ -312,12 +282,52 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1380540d03a185b3",
+          "title": "【札幌市厚別区】新店舗「ローソン札幌厚別中央5条店」オープン日決定！ホクノースーパー跡地",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zSzdNcHN0OFJPbUp6VU0zbERPZW1EN0pibG1ySkpsTGlxQWxmdXhMZVl5RWRGZmVRbFZ4RHI1MkNONmVPNGNHQ0l3?oc=5",
+          "source": "ebetsunopporo.com",
+          "published_at": "2026-08-13T08:39:56Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "09ca1fa4f2570b09",
+          "title": "東中野に「街のパーソナルコンビニ」 日常品と新しい「モノ」「コト」が共存",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkWFpVQjRBaDdxZUpfekstX19GaVYyb01GZE9nOGU4a2pwMlJLY2NuZGZDV2tGcW1MVFI2NUp1Qmw3NG5hN3B5TXJlblRhemdoRlE?oc=5",
+          "source": "中野経済新聞",
+          "published_at": "2026-08-11T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4edb231e9dea0352",
+          "title": "平和堂アルプラフードマーケット富山掛尾店、2026年9月18日開店－同社県内約26年ぶりの新店舗、アルプラザ派生の食品スーパー業態に",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1mclUzbXE1VVF3dC01VWZ5cFozMEliUld5bTJGU1ppLUQyLUVvdVR4blYxdjVldVFGZmRUNWVjQVlfTHlmdXc?oc=5",
+          "source": "toshoken.com",
+          "published_at": "2026-08-07T10:33:05Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "ce888d556de3b273",
+          "title": "道洪蘭大臣：食品安全法の改正は、実際的な要件を満たし、国民の健康を守るものでなければならない。",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdkcySXRuQ0V3QW1qWWJpakRHUVcwaUdNQVEtVk9DN25kNDRGQTExcFQ5Zi1NYXZOU2hHX1FhT2FQUVFhS1JaUkxGQTJmWmJ4b0FwbE5RSV9ZQWR5NXA1amFYZWszZ0xJZHVndEJ1cm1sS1l2cVZHdV85bncwN2tBTjBLdkVuelJ1TUhneXRlQ2JGa0ZDT1dzc3BmUDYyU01qV1BsZ1lDQWNqNlV1OFN0ZGdFckVOaHIyWE9wV0pOT1ozSmpFWnhnN3JqNFI?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-14T16:38:04Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "899cd0b710aea772",
           "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1eacfbb13f27c7cd",
-          "title": "株式会社Re・Labの所沢工房がハラール認証を取得「焼き芋缶」など3商品に認証ロゴを表示へ",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB4Um5nem1lMHRoUi03cGFqVUJGdmtIek5reWpBNHdIakdOdnJYTXlSVFAzc29yVVRPRExqa0puRVl6b214bzVON1J4STVILXo1aWZRcw?oc=5",
-          "source": "ニコニコニュース",
-          "published_at": "2026-07-21T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-08-14T13:49:06Z",
-  "last_success_at": "2026-08-14T13:49:06Z",
+  "last_attempt_at": "2026-08-14T19:19:45Z",
+  "last_success_at": "2026-08-14T19:19:45Z",
   "consecutive_failure_count": 0
 }
