@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-15T01:52:52Z",
+  "generated_at": "2026-08-15T07:01:57Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -24,6 +24,16 @@
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43aVlfQnY2cFZDTDRVcEtHc3RRbUx5SHNZNGdnNFZYOU1fYmNFdTA3QVVwRTZMdDZ0NWRmNldHd2xGUS1OLWxYLUp1TUxWT055cDRZbHFnYnAyVUNIYlFnTGRVeHVjeUZqTFk5YWlKMWUtN2NxTmpDdzRVaTRzQQ?oc=5",
           "source": "日本経済新聞",
           "published_at": "2026-08-14T07:02:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-15T04:31:28Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oR0YxNE1DNjZMS3gzSUFhRG80SWFoZ1locDkycVVmZ05jbHRsZVNMUUt2N0lQaFNFbWtQXzg4VzJrQ1dBZUdaWHd4OG1TdElMYVA2Zk93U3N1S0JtREJKNHNFdklyQUpmSXh4UGxPMUh2NlJQalQxNVhKaG1adHc?oc=5",
           "source": "dir.co.jp",
           "published_at": "2026-08-14T15:24:03Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "539f51ee21b360aa",
-          "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53cEZQMldVUW91SEJyZmh0ZHowSTBCenBkZUthMTR6ZTVxM2h5bWFORFFKRk5YdnRVY0NtbklqWTE4X1BHZFpTbjhacHJyeDhMRnY3MQ?oc=5",
-          "source": "ABEMA",
-          "published_at": "2026-08-14T15:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,10 +179,40 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "80f34afd1f5856c9",
+          "title": "山洋電気(E1-17-08)食品工場の自動化に貢献する駆動・電源・冷却の3製品群【FOOMA JAPAN 2026 特集】",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81dDJveFhiblU2NmVUWEgwcjhnTThmZ2xOcm9OZ0h3X1MteE9QLU5jMVZXYnEyc2FwVW1vRkt1N1ZkSHhQRXZtM204b1dlS3VTMWduaWp4QXdSdw?oc=5",
+          "source": "オートメーション新聞WEB",
+          "published_at": "2026-05-29T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b132578f8b996311",
+          "title": "食品工場の粉体計量工程へのロボット導入―AMRと多関節ロボットによる完全自動化の実現―【食品と開発8月号技術紹介】🔒",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QRHJvbTFsR3RlOEdIejlOMGxVYjYzbUlRMF9XLUVCcU9CWnlSUDNhZnNwc1Yzc2VTUW4yWDFsMUFualpjVzRFQWhBcGtjcW90SXNOM1ZWOXc?oc=5",
+          "source": "kenko-media.com",
+          "published_at": "2026-08-13T23:33:58Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5a015c34f98856db",
+          "title": "いかに名店の味を再現？ 三井不動産が手掛けるプレミアム冷食の製造拠点公開：工場ニュース（2/2 ページ）",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-08-11T21:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b7c7af7720364232",
           "title": "【速報】日清食品、つくばみらい市に新工場 29年度中の稼働予定",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TTnNBOUVPdk11Vy1LdFdId0dwbHROc1JVcVllVC1QOGFScjJNZFFCb1hoU25YTnBYZ2ZZWFZXSGFveTNGOUJpY3I3RmdOZ2xNeklZ?oc=5",
-          "source": "日本食糧新聞・電子版",
+          "source": "news.nissyoku.co.jp",
           "published_at": "2026-08-05T10:53:53Z",
           "language": "ja",
           "category": "food_factory",
@@ -192,7 +222,7 @@
           "id": "55bc0f61dd099dfe",
           "title": "特集・食品工場の環境対策2026［省エネ］：技術FOCUS3＝キョーワクリーン",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLWGdLTTNDZUNOeFQ4QUJ1elFZeHliOHZtXy1xdDY3Sy1WcDFYdE9taVJPaURjOTh1WXZrd1hLQTdnM2UxRDBfNkcza2pfcGZyWUtuM1hhZmMxZjZHbFpzSDQwTmZLWGY1d19V?oc=5",
-          "source": "日本食糧新聞・電子版",
+          "source": "news.nissyoku.co.jp",
           "published_at": "2026-08-01T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -202,38 +232,8 @@
           "id": "f57b1fa0b81b02ba",
           "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS2＝大川原製作所",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SQ3VhcjV5bWJONGpCTDA2VmFRUmEtQ2ZFUDYzVFBsQUFjc1dCR2ZOUGZqWS1LaTQ5dVlESWdNUHBxMUhvQzQ5bk83SWJRS1NlSTVseGpIMVF2ZGhpWWZwWjhPOURUZ0tFX1Iw?oc=5",
-          "source": "日本食糧新聞・電子版",
+          "source": "news.nissyoku.co.jp",
           "published_at": "2026-07-31T18:17:40Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6652fe439c5cbd0b",
-          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS1＝ビオストック",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0WjVGVG9rOHQ1emphdlBzWVIySmgwOTZSVmdReEE0ejBYbHZSNzRKWlZ4SFc1eVdHazd2ZURHNENDSUlkbW1lWmtfQVdLZ0FHZkdyYmJyQ1AzeTVjNUdGTkhCZ3l5WDM5V3dz?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-07-31T16:57:58Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "89f471b5159296cc",
-          "title": "特集・食品工場の環境対策2026［排水処理］：技術FOCUS4＝ダイキアクシス",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83RDVfLWVzeXdWa3JuTnVaRnZiWDVPODRNOElqRWM1RmtvYTZKQ3VKZWVZMWVDSkNCU2I1N2h3Q0szS1lGWGtLTDZISkNnMzM4c1pNSFo2VTVvNlNpM0Zrb3RfNW16VU15SmJPVw?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-07-31T16:36:45Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1e3558dd99c398af",
-          "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-06-04T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -249,6 +249,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0weXRpYWlsS3k4TW5JYzlwVE1LZ2RyeHZXWnc0MzdPYlFxLWZLeUlXdllnX2tTZmtCaERVYXVBc2M3X1VZMER5S3BUSm54SGdEUS1oMlBmcXZVdDNrdmY1a09meGhpYWxvSFE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-06T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9ea813e196b3a88a",
+          "title": "丸井グループ 決算／4～6月営業利益10.5％増、小売・フィンテック好調で過去最高更新",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5JdlJCZklHOWtmX0dtWmQ2MXA4V0JCenB1WWo5RFZfcXd3TEdmU01tZHdybms2Z2hIdk0wd0ZuRlNMVTVla3FfeHR0dUdjYXFlUkRGN2dHbkw?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-04T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -302,16 +312,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ef33c65ae6b5c2dc",
-          "title": "【角上魚類】新潟・豊洲からの鮮魚を届ける“流通の心臓部”へ出店！新店舗「鶴ヶ島店」、8月20日（木）オープン！ 関越道と圏央道が交わる自社流通の重要拠点で、圧倒的な鮮度の「市場型店舗」を展開！",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuUGFaMTFWVWFhcGdzaFZZRjJ0RnNpalBKMjhiaEcwaldra2h3TzFiNzlJaldZVGxVOHNuaVYtMjZiOG16WUVrSU12UTlqTy0xckJweEE2cFBlWDBhTllKRDFpSV9meklUZFE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-21T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -322,7 +322,7 @@
           "id": "899cd0b710aea772",
           "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
-          "source": "vietnam.vn",
+          "source": "Vietnam.vn",
           "published_at": "2026-08-12T06:35:04Z",
           "language": "ja",
           "category": "regulations",
@@ -332,7 +332,7 @@
           "id": "e75af2b3c38972e5",
           "title": "食品安全法（改正）：サプライチェーン全体における食品管理の強化。",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeFVIdTY2aHozVmF3OTVJXzl0NHFxV0w5M0p4T3BuUk9aQkVyamFSS2JuQVdQb3JXVFR0TDJwT0NJREVDVkdxVjhIcFg0eGVmVWtxTXlVUVpLNmxySVkxalVuWlNXZWR3UUtSSEFneGwydTZXWjFEYUF5aXBzamVDeUFQTjdyNXh6N0NOQW1tWWVKcno5QkFqZkNuSQ?oc=5",
-          "source": "vietnam.vn",
+          "source": "Vietnam.vn",
           "published_at": "2026-08-08T07:00:00Z",
           "language": "ja",
           "category": "regulations",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-15T01:52:52Z",
-  "last_success_at": "2026-08-15T01:52:52Z",
+  "last_attempt_at": "2026-08-15T07:01:57Z",
+  "last_success_at": "2026-08-15T07:01:57Z",
   "consecutive_failure_count": 0
 }
