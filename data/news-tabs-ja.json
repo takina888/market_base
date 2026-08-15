@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-14T19:19:45Z",
+  "generated_at": "2026-08-15T01:52:52Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,61 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "8130e7202477b838",
+          "title": "「適温」期待で世界株高 銘柄選別は進行中 ヴェリタスEYE（8月14日）",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43aVlfQnY2cFZDTDRVcEtHc3RRbUx5SHNZNGdnNFZYOU1fYmNFdTA3QVVwRTZMdDZ0NWRmNldHd2xGUS1OLWxYLUp1TUxWT055cDRZbHFnYnAyVUNIYlFnTGRVeHVjeUZqTFk5YWlKMWUtN2NxTmpDdzRVaTRzQQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-08-14T07:02:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c8b477c863e278e3",
+          "title": "≪Laos Study Visit 2026 REPORT≫ 国際共生学部2年 吉水恒晴さんVol.2／ギャップとジレンマの向こうに見えたもの",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56a05oSW4wV05Pcm5ETHpmQ08wQ2doVkdMdFpjN0k4ampJV1BadUtEQ1BlSE9mQTFnTVljZU5vR001TFJhbmFHbmpmcENGc2dHd2x2X3BHQ251UjdwMGZkcmVn?oc=5",
+          "source": "kansaigaidai.ac.jp",
+          "published_at": "2026-08-14T23:37:59Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4925af5085e6e335",
+          "title": "来週の主な予定 日本貿易収支とGDP速報 FOMC議事録に英消費者物価指数",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5hc29hOC1uMF9uanBnUE9qb1lONUEtS2E5NkRmVzRmaFc0Z3NZd2ZqLTRONUZKZjQ1NmZ5enVBNmhPWXFsUHBhaQ?oc=5",
+          "source": "みんかぶ FX/為替",
+          "published_at": "2026-08-14T22:40:44Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7de13cedabdbd0c4",
+          "title": "｢親ナチスによる銃殺場｣｢第二次世界大戦の悲しい歴史｣…日本と同じ枢軸国≪ハンガリー≫1人旅した正直な感想",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12b051ZDAxYmE4OGxTaGtoVHQwa1NFQ3l1a3hGVHc5Y1V4NjhwWWR5cTRWSkE2VEtFeEZUMzdXbl9CLWF4OElWREZIYjZvN1RGbjg1WmRDRWVHZ0U?oc=5",
+          "source": "東洋経済オンライン",
+          "published_at": "2026-08-14T20:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "11f00fecf085f446",
           "title": "『THEワールドチェンジ ＡＩが変える戦争の世界』",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZZFp6YXp1enRhY3FzallncW9RX0EtdGl3Qk1EM1ZfNTVBc01NQXRYVEgxRkZVZHNqZjk5YzJKeUVUbVRPWGdBYXFiam9vWUJ5RGc?oc=5",
           "source": "tbs.co.jp",
-          "published_at": "2026-08-14T18:56:15Z",
+          "published_at": "2026-08-14T19:03:32Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1fa8eea6c5b43a5f",
+          "title": "ボランタリー・カーボン市場（VCM）の動向と国際取引の課題",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oR0YxNE1DNjZMS3gzSUFhRG80SWFoZ1locDkycVVmZ05jbHRsZVNMUUt2N0lQaFNFbWtQXzg4VzJrQ1dBZUdaWHd4OG1TdElMYVA2Zk93U3N1S0JtREJKNHNFdklyQUpmSXh4UGxPMUh2NlJQalQxNVhKaG1adHc?oc=5",
+          "source": "dir.co.jp",
+          "published_at": "2026-08-14T15:24:03Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -34,56 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53cEZQMldVUW91SEJyZmh0ZHowSTBCenBkZUthMTR6ZTVxM2h5bWFORFFKRk5YdnRVY0NtbklqWTE4X1BHZFpTbjhacHJyeDhMRnY3MQ?oc=5",
           "source": "ABEMA",
           "published_at": "2026-08-14T15:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "60c28aa8cdb8c213",
-          "title": "【地政学リスクの時代】ホルムズ海峡を巡る緊張で世界の主要物流動脈が同時多発的に不安定化 米中貿易は停滞 一方で世界全体の貿易量は過去最高水準を記録【中東情勢 日中関係をどうみる】（RSK山陽放送）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CaU43b3kxd08zVlluUzhnLVcydDdDZVV1NE1rX09saFF0TVRYcjlyeG41dnphUGZUOHZ2TnlJX3g4Ny1FeHlEVU1ucFRZOUtRTE9fV29UajJVeWpZdVIyZVRxSjhWZ01tMVZGdzlFZHdDM1RMUHlVd05RWHdWZ1U?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-14T11:00:34Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "bda686c8b697c80c",
-          "title": "NATO、ウクライナから人道的地雷除去機材について緊急の国際支援要請があったことを公表（8月12日）",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMd3FDSVU1dkhTSVJKa3V3bUxlNDF0b3RjaFUwd0RhYmpKVGVyb2xWdEFTalVPZjFKc2hWTlJVUS1zN3NUVGVmbmVSNFE2VV9XazUwdWtETk9EY0pW?oc=5",
-          "source": "J ディフェンス ニュース",
-          "published_at": "2026-08-14T10:07:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b0d8e7774b529cfb",
-          "title": "【速報２】コロンビア地震：国際赤十字の緊急救援アピールに応え、日本赤十字社は資金援助を決定",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vQ1NlcUVpZENnZ2IzUDlab3ZQelhjN1BVZjZ2RGlyMjVFaW1rTWhHU0VNZE5NeXpNUE5pV2Zncl82bHNiVExMVzExbmxGREpreHphcV8yTUdnRU1XaG8zLUdSVklSN0JfTEtISEdxOA?oc=5",
-          "source": "日本赤十字社",
-          "published_at": "2026-08-14T08:15:35Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d8390f199a767e86",
-          "title": "ニュースワード「世界貿易機関（WTO）」(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOY2EzNkp0NXpPendJUEhoSXZ3N3lldEl1dC12SjBoSV9USmhRX2x3SmRoZm9rWVBNbk01V1E1Z09VV0xIcGQyY1ZwRlJKRTlMVHh1b0hMTWIwY0ZUaHBuRExvaU5YQy1aY3VLZW9ENy1nNGFicEQ3NGkwVGlfaVJFUFNSUVoxZG8?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-14T08:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8130e7202477b838",
-          "title": "「適温」期待で世界株高 銘柄選別は進行中 ヴェリタスEYE（8月14日）",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43aVlfQnY2cFZDTDRVcEtHc3RRbUx5SHNZNGdnNFZYOU1fYmNFdTA3QVVwRTZMdDZ0NWRmNldHd2xGUS1OLWxYLUp1TUxWT055cDRZbHFnYnAyVUNIYlFnTGRVeHVjeUZqTFk5YWlKMWUtN2NxTmpDdzRVaTRzQQ?oc=5",
-          "source": "nikkei.com",
-          "published_at": "2026-08-14T07:02:30Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -264,6 +264,36 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "9cc38d6f413a845e",
+          "title": "ロフト／「イオンモールナゴヤドーム前」に新店舗10月オープン、名古屋市内4店舗目",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85dFpXQmtzQ1RPV3VQMGdMZ1lrTU82TGotNXA2aC1UNHI2S1plSTdIRFZ6cDNxWnZ6dlVrYm1vZWVyR2hGQlZqUUZHZjZVNTZ2WUVEVQ?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-28T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4d01ab908c9727b5",
+          "title": "牛カツ京都勝牛／京都駅八条口「みやこみち」に初出店、7月31日新店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QRWdhQ3Z4M2R1OVF0aG9YVEdocG0ybTBHU0x0RHZWZWRqMGYtdU1zb0phRVVpRE1Kc3lEVC13d0Jqb2tGdGZDSElKS1lzeWt2TEV1aQ?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-28T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "94ace283ac879e07",
+          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-23T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "6def167432cca401",
           "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
@@ -282,36 +312,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1380540d03a185b3",
-          "title": "【札幌市厚別区】新店舗「ローソン札幌厚別中央5条店」オープン日決定！ホクノースーパー跡地",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zSzdNcHN0OFJPbUp6VU0zbERPZW1EN0pibG1ySkpsTGlxQWxmdXhMZVl5RWRGZmVRbFZ4RHI1MkNONmVPNGNHQ0l3?oc=5",
-          "source": "ebetsunopporo.com",
-          "published_at": "2026-08-13T08:39:56Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "09ca1fa4f2570b09",
-          "title": "東中野に「街のパーソナルコンビニ」 日常品と新しい「モノ」「コト」が共存",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkWFpVQjRBaDdxZUpfekstX19GaVYyb01GZE9nOGU4a2pwMlJLY2NuZGZDV2tGcW1MVFI2NUp1Qmw3NG5hN3B5TXJlblRhemdoRlE?oc=5",
-          "source": "中野経済新聞",
-          "published_at": "2026-08-11T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4edb231e9dea0352",
-          "title": "平和堂アルプラフードマーケット富山掛尾店、2026年9月18日開店－同社県内約26年ぶりの新店舗、アルプラザ派生の食品スーパー業態に",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1mclUzbXE1VVF3dC01VWZ5cFozMEliUld5bTJGU1ppLUQyLUVvdVR4blYxdjVldVFGZmRUNWVjQVlfTHlmdXc?oc=5",
-          "source": "toshoken.com",
-          "published_at": "2026-08-07T10:33:05Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -319,20 +319,10 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "ce888d556de3b273",
-          "title": "道洪蘭大臣：食品安全法の改正は、実際的な要件を満たし、国民の健康を守るものでなければならない。",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdkcySXRuQ0V3QW1qWWJpakRHUVcwaUdNQVEtVk9DN25kNDRGQTExcFQ5Zi1NYXZOU2hHX1FhT2FQUVFhS1JaUkxGQTJmWmJ4b0FwbE5RSV9ZQWR5NXA1amFYZWszZ0xJZHVndEJ1cm1sS1l2cVZHdV85bncwN2tBTjBLdkVuelJ1TUhneXRlQ2JGa0ZDT1dzc3BmUDYyU01qV1BsZ1lDQWNqNlV1OFN0ZGdFckVOaHIyWE9wV0pOT1ozSmpFWnhnN3JqNFI?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-14T16:38:04Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "899cd0b710aea772",
           "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
-          "source": "Vietnam.vn",
+          "source": "vietnam.vn",
           "published_at": "2026-08-12T06:35:04Z",
           "language": "ja",
           "category": "regulations",
@@ -342,7 +332,7 @@
           "id": "e75af2b3c38972e5",
           "title": "食品安全法（改正）：サプライチェーン全体における食品管理の強化。",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeFVIdTY2aHozVmF3OTVJXzl0NHFxV0w5M0p4T3BuUk9aQkVyamFSS2JuQVdQb3JXVFR0TDJwT0NJREVDVkdxVjhIcFg0eGVmVWtxTXlVUVpLNmxySVkxalVuWlNXZWR3UUtSSEFneGwydTZXWjFEYUF5aXBzamVDeUFQTjdyNXh6N0NOQW1tWWVKcno5QkFqZkNuSQ?oc=5",
-          "source": "Vietnam.vn",
+          "source": "vietnam.vn",
           "published_at": "2026-08-08T07:00:00Z",
           "language": "ja",
           "category": "regulations",
@@ -379,6 +369,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "ce888d556de3b273",
+          "title": "道洪蘭大臣：食品安全法の改正は、実際的な要件を満たし、国民の健康を守るものでなければならない。",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdkcySXRuQ0V3QW1qWWJpakRHUVcwaUdNQVEtVk9DN25kNDRGQTExcFQ5Zi1NYXZOU2hHX1FhT2FQUVFhS1JaUkxGQTJmWmJ4b0FwbE5RSV9ZQWR5NXA1amFYZWszZ0xJZHVndEJ1cm1sS1l2cVZHdV85bncwN2tBTjBLdkVuelJ1TUhneXRlQ2JGa0ZDT1dzc3BmUDYyU01qV1BsZ1lDQWNqNlV1OFN0ZGdFckVOaHIyWE9wV0pOT1ozSmpFWnhnN3JqNFI?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-14T16:38:04Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "876761cc4bc41796",
           "title": "企業はEUの新たな包装規制に対応するために何ができるでしょうか？",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM2ttX2E0VzBlVVBFUHplQ3VkcUxOVHRsb0JJMEV0VnpHdFJBU3liSTFpcDVNMmdQQ3JfdHVCQUlqRG5PSms0d3N0ZkFYcExnem00SzZWZDNZcnMyVEw0MTllTGZyVy0yd3ctXzhRdl8wOVY4VzUwMGhBNC1rZzhSdXcyRTdIWVZKb1FLOG9IWUxzM21RWGJ3TQ?oc=5",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-14T19:19:45Z",
-  "last_success_at": "2026-08-14T19:19:45Z",
+  "last_attempt_at": "2026-08-15T01:52:52Z",
+  "last_success_at": "2026-08-15T01:52:52Z",
   "consecutive_failure_count": 0
 }
