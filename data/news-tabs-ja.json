@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-16T02:00:03Z",
+  "generated_at": "2026-08-16T07:04:19Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,16 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "8130e7202477b838",
+          "title": "「適温」期待で世界株高 銘柄選別は進行中 ヴェリタスEYE（8月14日）",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43aVlfQnY2cFZDTDRVcEtHc3RRbUx5SHNZNGdnNFZYOU1fYmNFdTA3QVVwRTZMdDZ0NWRmNldHd2xGUS1OLWxYLUp1TUxWT055cDRZbHFnYnAyVUNIYlFnTGRVeHVjeUZqTFk5YWlKMWUtN2NxTmpDdzRVaTRzQQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-08-14T07:02:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "22f701dab25e3b1e",
           "title": "Laos Study Visit 2026 REPORT≫ 国際共生学部2年 西村和樹さんVol.1／Awarenessを上げる難しさ | NEWS | 広報サイト",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WSjRfeGpNbmZJaFV4X2twZXF1R0k4WF9QSTc2a3pqTUJFNnNPaVAtaVhYV2xXNng5NUZXaUNtLTBoQjBJS1JRNk5IQ3NfdlljVU5WRjR2U1FndTNxdzhEM3ln?oc=5",
@@ -29,11 +39,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-15T22:41:34Z",
+          "id": "e48f3b02516ba125",
+          "title": "世界で最も住みやすい都市ランキング・トップ10【2026年版】…東京と大阪がランクイン",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNGItQ3hPeWVXbWRnYjhNQk1yME4wSkxqeWxURTZUOXRraUpzX05vRElfZjJhNnNmaDN6UGNsc2dndzdLSmdBM1kyUC1RdUgwcndfRnFVZW1haVdxVnZ4ckJHVjR0XzhJak5tbEFLOC1ybEJEYlE0ZzdLYnRKVUFCN1Nic3JSdXNLQ0doVVZhOC01OWdYWFo3Y3gwWVhIZExsbHkwTnpVVlZITW0zNk1tZm5SS1lHdkFzWmZlOQ?oc=5",
+          "source": "Business Insider Japan",
+          "published_at": "2026-08-15T23:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "bfc2254715ca3902",
+          "title": "ジブリ映画「風の谷のナウシカ」海外版ポスター、「日本でも売って」「大胆ですごい」と大反響。日本版とどう違う？",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UMFR1WDcxSXQ5WjhYdjJGdEZEWVFYQzdONjVxV2dhUWJQa3JzNWF2dUZmNTVWNGduZTExZXl4VXpOTU9aOXU3dVFBUFpOel9JejhiU184YzZCOENnblJJbnFqV2ZxVGMxMER0Wk0xZDdWSmNQczFzNFpnVUZ6Ukk?oc=5",
+          "source": "news.yahoo.co.jp",
+          "published_at": "2026-08-15T22:40:13Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -62,28 +82,8 @@
           "id": "17811d7ff1e8d907",
           "title": "〔海外地震〕インドネシアでM6.9(8/15)（レスキューナウニュース）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UTnJ0cVhyRzZzeC15MnFNcFBWN0NsR1NLejNxVUdwR1BSNDJxWEpUSWJ6OVJPN3pYTUFERTJ4bjNBRHdlaUxYOG92OXM4UWRIUnlhWWo0VFdCSTdsQ0J6OGY3WEF4LVJ1WnFFRGNzd0dRYTVRZ2pIYnRXbXRURDQ?oc=5",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "published_at": "2026-08-15T11:35:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a8c460f1357b968b",
-          "title": "世界シェア6割の中国、合成ダイヤの輸出が急拡大 1〜6月は65％増",
-          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1SbV9BNXFUT0M3aHdOVTVDbmdLUzhyNS1mMUs5b2FOMVp3YzZxbXdKcHhkYTFRUnVGMF9v?oc=5",
-          "source": "36Kr Japan",
-          "published_at": "2026-08-15T09:34:36Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "19f7e445f836ebde",
-          "title": "閣僚靖国参拝に強烈な抗議 中国「国際秩序への挑戦」（共同通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jZFREVFdXN3ROU284cmJSaDZ6VGF5MkdWTUpSWm9NaTlTZGNJZTB5U1dBTzJkREZWZkhyUWtjUFpPckpUUXdxUjktQ1htRHgzRVBqRUI5alI2eVFGdk5fZTRGUFRRZmJCY3Y0TjU0UVM2ZnZ2TW1kTFlncHZPdWM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-15T04:11:14Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -94,71 +94,71 @@
       "label": "食品機械",
       "articles": [
         {
-          "id": "2338f874d62d6979",
-          "title": "CKD（E1-17-28）自動化技術によるソリューション提案【FOOMA JAPAN 2026 特集】",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlYVM1MW5GMmU3aWJGRHJIaE5Mc0NvbXR0THREZjd3S25VWmNzbUR3Y3JEbTZac3dKNkVKamJFLWQ2UmNoWnRVSkota29DZkk5TG9rSlNrVDNUdw?oc=5",
-          "source": "オートメーション新聞WEB",
-          "published_at": "2026-05-29T07:00:00Z",
+          "id": "05cf05b47710b11c",
+          "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-16T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "603546632a87db03",
-          "title": "世界最大級の食品製造総合展 FOOMA JAPAN 2026 6/2～6/5東京ビッグサイトで開催 過去最多の1025社が出展 次世代の食品製造技術が集結",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SaFVMaEI4ZW81V0lmODdFTi1rVFlPY2VNNFh3bU83SXVXLWgwZkhPVVhZTHRjNG1jdXd3S3c2a1NVMG9lQkpDVXRMR2tZVlhKcE5SNU9JdF9kUQ?oc=5",
-          "source": "オートメーション新聞WEB",
-          "published_at": "2026-05-28T07:00:00Z",
+          "id": "4180d1106bcbc393",
+          "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LbUlhc2Q0X3c1QTdaYjVtTEdPNTUzYmhPdktDeXJmRFpSM3k4b3lHLXFPbV9UVC1BRDJIRkFJS1NWM1JybWxPYkl1SDZNeFQwZDdxeTAwc0tWRTRZTE03eFhCZ3Z2TVpuaXc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-15T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0ba195f75d73e99f",
-          "title": "FOOMA JAPAN 2026 過去最多1025社で堂々開催 フードテックの最新技術が集結 日本食品機械工業会",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SQUVBYW1ZSDBKVVRTZE9rQmMtamNBeUZua25jWWRMM1RvS2VfYWZvYTV3Q1Z3UXA5RnN2Q3hVSHhSaDI3d2Z1SWhoT2xzQWRZWXQ3MjVhbU1GN2JSNjVUVzNB?oc=5",
-          "source": "食品新聞 WEB版",
-          "published_at": "2026-05-18T07:00:00Z",
+          "id": "db7a9824ff303538",
+          "title": "次世代設備保全クラウド「M2X」が「第5回FOOMAアワード2026」にて審査委員会賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2MERlWnFRVDVmZWNMNnl4ZURyd2FzVzJqcGY4WjlUYk8zMXBOVmw5R0ZYbXdjWTdCN1RuV0txaS10dmxpNVVSemF5YWJiQXRSZnNveHBxVmFSYU4zSWQ1Z0pRbXdqTmVxU2c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-03T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9d925bc645b3edcc",
-          "title": "液体充填機市場規模、シェア |成長 [2034]",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTnlUNGRVa19BeEcweEdXZmJqcXdmbzBZOGZQQWNFeVVObzVzMUU2LVk1NjhhVzdWNS05S3dpZTBuZ05GdDNZdHkzNXNLQ0FOVERvTm1TZDVVakNnemgzOERIYWNXU1JGc1FJal9QWVMtNWVGcjVMTzdOanlvZUhibl9aOU42NzRvV2M3WU9kRTQwYWFrc0xZNW9UY0RaNzl5T21tbXVwQldZRXprUmprYXM5dw?oc=5",
-          "source": "Fortune Business Insights",
-          "published_at": "2026-07-27T07:00:00Z",
+          "id": "5e37cd107f0844fc",
+          "title": "【FOOMA JAPAN 2026】株式会社NEXTAGE、次世代わさび栽培モジュールに国内外から多数の反響",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DQWNIY0czNjRJZTJwM0tFaW9ENXZEOUlrd21UNmppcnY2WlprbVJZUFNCMXo1WTFiZWdVRU9JNXppY0VZc1Uya1A0TFBjVWllSGg5WjNFdE9OYzc0YlV6aHVvNl9LYXlucXc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-03T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c1f00e79e568fa01",
-          "title": "包装機械市場規模、シェア、予測レポート、2034",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPYXBVcjM2VkZMOTNubzVPQ3VzUkhSY3N6cjNXQmdUeWxIbmdmLWtaQTFidmV4LWZLeU1vU2R2bXVHMUdRanpFY2J4RDJvMmdPVnUtS3VQX2dtaFotNWJRN3RLWVl2ZjUwc0ZJSEdYdGZNR1pldlpUaUtmY2Rqb0xxaWNwNV9yYllUdGxMMThWYy0wQXFlZ2c1WGFRbUczenlPSEE5OTB4WmlUampJVm5oN09ZV0NOTW15eW1GYkJQS1Q1d0xoVmJNcW0wd0Q0ZU1CV19Ec2NxcUhtbmNOejZxcDk5bmRNSGpDMlZlM0NkaGxHdw?oc=5",
-          "source": "Fortune Business Insights",
-          "published_at": "2026-07-13T07:00:00Z",
+          "id": "7aed765d46a06c3c",
+          "title": "第5回FOOMAアワード2026にて「連続式真空冷却装置」が優秀賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13VElGb1hqdUZMR0pKXzFQSWEyQ2ZTLURBTHd5SnJaV3duaWV5UGJvMEc2UWIyWUNoekt2MDRXSndoZmpka2NRZUdJSGlsMnU1ZjhfZkp6MjNzOWNWeF9JTmgwRUdnVDdsSHc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-03T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d212f7f4b565ba46",
-          "title": "食品産業とロボットの相性は抜群【前編】／FOOMA JAPAN2026",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RNFNoaG5RRWI3R3Jud2JsWmJFbDRFMUtJY09FajlHZ1p4TkdoalRtbmdGb1g1VlJvejZ5SUtNRW1iQXNtQVFxYWtzQmNLeWx0ZWdtOTJWalg0Nnc5THhCM09keG5KU0FYRndn?oc=5",
-          "source": "robot digest",
-          "published_at": "2026-07-10T07:00:00Z",
+          "id": "0e0309508e7e526c",
+          "title": "フジワラテクノアート「小型通気式固体培養装置」が第5回FOOMAアワード2026 経済産業省製造産業局長賞/最優秀賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nZ3VfdlpFLU55c082RkRNU2c4YXVWMHItbTd0MmVWdGxtcmIybnV3Snh6WGt3ZUVmVlV5R1F3b2d6Z0lqRGFjeW5Pam5ERW5Vc1I1SkpUd0hySkNjb2c3QzFneHF4cndVRmc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-03T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b2ea39a0e775737c",
-          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-07-06T07:00:00Z",
+          "id": "faa2e35019ac503f",
+          "title": "日本食品機械工業会、総会開催 創立80周年見据え国際展開・自動化を加速",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tY21RMVIyY19mRWo4R2Y1RjQxZFNpQ3FZS3U0cFB1R0NVby1ncDJpRFl0OHhrbnMxZGp2ZHdZYUM2SHEySFZVeVpDeURZTWE0akktVDR4bFBFS0xQVnBhQzJaRFFIdw?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-06-02T15:05:26Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -168,6 +168,16 @@
     "food_factory": {
       "label": "食品工場",
       "articles": [
+        {
+          "id": "6d865337a2a677d3",
+          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-14T07:00:02Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "55bc0f61dd099dfe",
           "title": "特集・食品工場の環境対策2026［省エネ］：技術FOCUS3＝キョーワクリーン",
@@ -219,16 +229,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6d865337a2a677d3",
-          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
-          "source": "prtimes.jp",
-          "published_at": "2026-08-14T07:00:02Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "b132578f8b996311",
           "title": "食品工場の粉体計量工程へのロボット導入―AMRと多関節ロボットによる完全自動化の実現―【食品と開発8月号技術紹介】🔒",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QRHJvbTFsR3RlOEdIejlOMGxVYjYzbUlRMF9XLUVCcU9CWnlSUDNhZnNwc1Yzc2VTUW4yWDFsMUFualpjVzRFQWhBcGtjcW90SXNOM1ZWOXc?oc=5",
@@ -244,61 +244,51 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "9cc38d6f413a845e",
-          "title": "ロフト／「イオンモールナゴヤドーム前」に新店舗10月オープン、名古屋市内4店舗目",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85dFpXQmtzQ1RPV3VQMGdMZ1lrTU82TGotNXA2aC1UNHI2S1plSTdIRFZ6cDNxWnZ6dlVrYm1vZWVyR2hGQlZqUUZHZjZVNTZ2WUVEVQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-28T07:00:00Z",
+          "id": "372e53e649902493",
+          "title": "【平和堂】「アルプラフーズマーケット富山掛尾」オープン日のご案内 ～2026年9月18日（金）、平和堂の食品スーパーが富山市内にオープン～",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0weXRpYWlsS3k4TW5JYzlwVE1LZ2RyeHZXWnc0MzdPYlFxLWZLeUlXdllnX2tTZmtCaERVYXVBc2M3X1VZMER5S3BUSm54SGdEUS1oMlBmcXZVdDNrdmY1a09meGhpYWxvSFE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-06T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "4d01ab908c9727b5",
-          "title": "牛カツ京都勝牛／京都駅八条口「みやこみち」に初出店、7月31日新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QRWdhQ3Z4M2R1OVF0aG9YVEdocG0ybTBHU0x0RHZWZWRqMGYtdU1zb0phRVVpRE1Kc3lEVC13d0Jqb2tGdGZDSElKS1lzeWt2TEV1aQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-28T07:00:00Z",
+          "id": "e9506c8e8e9cc732",
+          "title": "【NEW OPEN】発酵エイジングケア*¹ブランド「FAS」、日本橋髙島屋に8月12日（水）より新店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tSEp4cWVjclBZaDhZcURaQjQwZERpVVRrcXp0WXJQUDAzNVY4bmlCQWhaUWk2aGNMOHpfS1dKeHZRaXc0U3JpTzQ5T1Z0OTRCaE5MVURFUUp4enhSRWQ2Z01zc080THBVeGc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-06T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "94ace283ac879e07",
-          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-23T07:00:00Z",
+          "id": "270fe4a3f365ac9f",
+          "title": "スーパーマーケット型クレーンゲーム「クレーンマート」が愛知県に初進出",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEeEJGaXpmZ2oycWdXNVpxUzdyZm1nTldXa0laeGtCMEZYZnNsTHJZWUtBWktEQ0xZZnBEUlo4QkdUWllaTFZlZ19BaTRkWm14ZkVNVW5WaXBmMTVRc2dsaXg2SGVEUk9NSkE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-01T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f9f8018d0c5bb5fb",
-          "title": "ドンキ／広島市に「広島市西区観音新町二丁目 新築計画（店舗面積3102m2）」27年2月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PU2U5RjZ2ZU9QUktXYktNb1Y2dWRFc2prQW0wbEx4eVc5R3BJVHp4S3lka0doamNGZHdZQ25oRVViaEFUZW8tLXlxaWVxcS1IdGYxWXRR?oc=5",
-          "source": "流通ニュース",
+          "id": "6def167432cca401",
+          "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
+          "source": "PR TIMES",
           "published_at": "2026-07-21T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "df608e9180467e7e",
-          "title": "コスモス薬品／大阪府に「ドラッグコスモス」計3店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MX1hWbjNIM0ZhQ29ydGtjb3AtZno1anp1SzJ6c0NUd3NjR2xSZkZQV3JCemdqRDhvWmpXZWZtNjl3NS1ScXZtMnB0dV94eGpsek0xVnl3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-17T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1beb9cb013778c99",
-          "title": "コメリ／大阪府泉南市に「コメリパワー泉南店（店舗面積9736m2）」27年1月31日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxQjhwZHpFa0RQV3VEcVpDaFg5OVk0R0I4dmR5WFZwd3puY0cwb0RrOGhlWXNwTi1yTHF0WjUtakp1TFBSUEo0dmhYUTBFMUhBNkFpVmp3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-17T07:00:00Z",
+          "id": "ef33c65ae6b5c2dc",
+          "title": "【角上魚類】新潟・豊洲からの鮮魚を届ける“流通の心臓部”へ出店！新店舗「鶴ヶ島店」、8月20日（木）オープン！ 関越道と圏央道が交わる自社流通の重要拠点で、圧倒的な鮮度の「市場型店舗」を展開！",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuUGFaMTFWVWFhcGdzaFZZRjJ0RnNpalBKMjhiaEcwaldra2h3TzFiNzlJaldZVGxVOHNuaVYtMjZiOG16WUVrSU12UTlqTy0xckJweEE2cFBlWDBhTllKRDFpSV9meklUZFE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-21T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -309,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zSzdNcHN0OFJPbUp6VU0zbERPZW1EN0pibG1ySkpsTGlxQWxmdXhMZVl5RWRGZmVRbFZ4RHI1MkNONmVPNGNHQ0l3?oc=5",
           "source": "【えべナビ！】江別・野幌 情報ナビ",
           "published_at": "2026-08-13T08:39:56Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "09ca1fa4f2570b09",
+          "title": "東中野に「街のパーソナルコンビニ」 日常品と新しい「モノ」「コト」が共存",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkWFpVQjRBaDdxZUpfekstX19GaVYyb01GZE9nOGU4a2pwMlJLY2NuZGZDV2tGcW1MVFI2NUp1Qmw3NG5hN3B5TXJlblRhemdoRlE?oc=5",
+          "source": "中野経済新聞",
+          "published_at": "2026-08-11T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-16T02:00:03Z",
-  "last_success_at": "2026-08-16T02:00:03Z",
+  "last_attempt_at": "2026-08-16T07:04:19Z",
+  "last_success_at": "2026-08-16T07:04:19Z",
   "consecutive_failure_count": 0
 }
