@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-17T01:57:54Z",
+  "generated_at": "2026-08-17T07:27:01Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,71 +19,71 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "8130e7202477b838",
-          "title": "「適温」期待で世界株高 銘柄選別は進行中 ヴェリタスEYE（8月14日）",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43aVlfQnY2cFZDTDRVcEtHc3RRbUx5SHNZNGdnNFZYOU1fYmNFdTA3QVVwRTZMdDZ0NWRmNldHd2xGUS1OLWxYLUp1TUxWT055cDRZbHFnYnAyVUNIYlFnTGRVeHVjeUZqTFk5YWlKMWUtN2NxTmpDdzRVaTRzQQ?oc=5",
+          "id": "280b53a7c0c2d4e4",
+          "title": "海外市場ビュー&米国株ピックアップ（8月17日）",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBhMlI0ZzBuZjR4VUZiLUNuY1IwQU9DYk43VnI2QTR6aHZwZUxmd0pUbE5yUHRoT2VILVFyenZtSS1YMDdCTXc1aUVrRnVoRGNNRkxFNWxxMEFKYlM5Y05BTHhON0xFbnh0T2lFUG1mel9KRU95S2VnQm1tZ0g3Zw?oc=5",
           "source": "日本経済新聞",
-          "published_at": "2026-08-14T07:02:30Z",
+          "published_at": "2026-08-17T01:16:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "33e6b4067d2f9ab2",
-          "title": "愛子さま、2回目となる国際会議でお言葉へ 天皇陛下から受け継がれる「伝える心」 #エキスパートトピ",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObXE2X3VPWGNfMGNZS2k2dmh6TzRJTExyVmRxTlFfcm9MYWZUdko1OWdZLXpoOWRLXzBkbU9LenlGbkNMRFVwemEwdWpoeGxNUkg4elJvdjkzNjB4bVpraDEtN2lGRjFqRVBtVGZ2aG51RTBsZVN3Ry1wUzVnQWJOVmF4YnhqdXE0?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-17T00:01:17Z",
+          "id": "c9289e858b5f97fd",
+          "title": "「世界一醜い犬」コンテスト、6歳のパグが優勝",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBxQU5pMFB5akEwSG9UNkQtZ1p0eU8ySXRQcGs4V3p6VDU2dkRmbVJXWGluUUt0aHItTnZjY2R6QW8xd0dkT296VEJBV1o1cWlIWWJQaQ?oc=5",
+          "source": "CNN.co.jp",
+          "published_at": "2026-08-17T05:33:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "eb1b0b0c3361b44f",
-          "title": "「大戸屋」海外出店を加速 訪日客追い風、進出先拡大に意欲 三森社長",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBTQkhVdXFwUHVNc2xtRkYyTko5Zy1EM0lRWmlfX2hjSlpVZkdFS0Q5MC00X19fdS1IMG9wUVAwR1FZbDhSV0dlZUp1dm5IaEVY?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-16T23:17:13Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6a003333ed828570",
-          "title": "2026年12月の海外公演情報〈フランス/ベネルクス〉",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFByd0xGUGwzQmU5Z181RDd2Q1IxLUhKb1h4WTQ2S0w0VGZ6X3VBay02bW1JZzd1T2lydmlqcXhRbzBkMHkyV0x3YQ?oc=5",
-          "source": "ぶらあぼONLINE | クラシック音楽情報ポータル",
-          "published_at": "2026-08-16T22:28:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "854d93239bb76933",
-          "title": "2026年12月の海外公演情報〈スイス/イタリア/スペイン〉",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5MV2dHRDhCbzdWWktXMnMzY3ZySHdCUFFWaTZkTkxJc2wzVXhubWJOQjVwSGt0V3N0MnhoUXBMVFZhRl96Wjc5Uw?oc=5",
-          "source": "ぶらあぼONLINE | クラシック音楽情報ポータル",
-          "published_at": "2026-08-16T22:27:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3ec986a3e4dcfb27",
-          "title": "世界水準の科学研究が、次々に生まれるヒミツは？ 高知コア研究所の異分野研究者たちが語る「独創的な研究ができる理由」",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DbERXWlVyWkUwOC1OR0xUcWUyLTZSZU96cDFERERuUk94MVFXWkhpRzFXejRRbktxY1lGclp3Zy1UVlZMRDc4eHlnNlJ3LXlQNV9TVEQ3eVRWR2tSZzd1NmNTU3otQVFCVXNZ?oc=5",
-          "source": "jamstec.go.jp",
-          "published_at": "2026-08-16T21:54:31Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fb63145a39eb6d68",
-          "title": "1556. 2026年7月、世界の海面水温が7月として過去最高に－西ヨーロッパでは猛暑と干ばつにより森林火災が拡大",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsR3J6d3BlaXl2QWgtd1l5M2JRZWRwdnRJanJsQllNTXR6MGhhcmpqbFRWczNoNVZ0VGNqWVVSYmNmRTZEX0JGYmxXN1gzRV9pYloxa2hMYjFHWk1FRGtkN3EtQ0Q?oc=5",
+          "id": "22acefcfc27ecb30",
+          "title": "IRRI連携耐暑性イネフォーラム開催 －CoolRiceを契機に、耐暑性イネ研究の日・IRRI連携を強化－",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EQ3I2NlpDdy1HZlFJT21wSm8zeVFfSl8tQXUzWUJja0ZpZFJBbldyTHFkSEFLZDlvTV9jR1pITUxhSVZlZmpfVmIxNmJjWllUNzhyejlUZldsdnJjT05yN3FB?oc=5",
           "source": "jircas.go.jp",
-          "published_at": "2026-08-16T21:01:22Z",
+          "published_at": "2026-08-17T05:06:36Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "446794079ad389a4",
+          "title": "2025年の海外旅行マーケットの実態と今後の展望 『JTB 海外旅行レポート2026 日本市場における海外旅行のすべて』を発行",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1UeXR6Tm5MWFMwLVhWc29rU0JKUGJwTTRUUmdyTHB3NTlIN2ZpelVMMTFyUjI1amhpaURPdVN3Z2sySUhBZEhnbmM2NTM1T0lPWDlka21zamhLbjdXUTFReVotZ1BmdF9sUlZYc04wX0Y2VTJFTHQw?oc=5",
+          "source": "jtbcorp.jp",
+          "published_at": "2026-08-17T05:05:23Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "78ddfb03194d6a91",
+          "title": "無職転生Ⅲ ～異世界行ったら本気だす～ #3〜7【無料ビデオ1週間】",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAySVlNRWp4MllidEZYakZKaEFpQ1d6S0UzNWMwazJLNmlia2t3dTBaMTgwcDVoUjVoQURyYVpKR0VoTVExRGJBVHlPU3pHVjViRGhKVXdHRXJBUGw5MUl4SkpiR0xlNnZZUlVz?oc=5",
+          "source": "ABEMA",
+          "published_at": "2026-08-17T03:52:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7a21e56c2473ed83",
+          "title": "愛子さま国際会議であいさつ「平穏な日常が一日も早く」熊本地震・千葉豪雨の被災者にお見舞いの気持ち 半導体物理国際会議【スピーチ全文】（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15YVNzajZmekUtQ0lNTW45aTZldUlBSXdheFZaM3ZzVzFfSUwydHRndGF1ZDFQcXZrYmp5djVnNmxra0Mta1k2RnBwRTlNeEJ1czRmOGo1b3lNSmFwSUlpdTFvWnZRMnJyQ3dxYzQ0NGJsakN3eG5ZaENqQ095TFE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-17T03:25:32Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "84798928b1a15da7",
+          "title": "「実り多いものとなることを」愛子さまが半導体に関する国際会議でおことば 冒頭で熊本地震や千葉豪雨の犠牲者に哀悼の意",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sZ3ZRN1lDOHA3SDFfQXZDVVlXZ1pDLUZHYXRydHFpWUt6Qk9rVVM2U1JCd3pGZnotbXBkckNtOW1aeF9meTN1OXdsUDBSWktmVFh1N0JCcFV0elNteWFkSk1zZkZlNERLcTFyQ2QwU0V2eHRLQVFoYkp5WUU5SXM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-17T03:09:21Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -93,16 +93,6 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
-        {
-          "id": "05cf05b47710b11c",
-          "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-16T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "4180d1106bcbc393",
           "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
@@ -159,6 +149,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxQV94Tjh3VGxuR3VESlZGZWZncDB2V0lrb0FkTFJPOUphdFAzRjhOaGtRY0gteFpDYTBzbEpFVTZhblV4VUVRc1pybzF2OWxGOG5PeV83TDljOEp1U1ZZN2RNT3cwNE9fV2c?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-06-02T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "361943967e0ca83e",
+          "title": "アネスト岩田、「FOOMA JAPAN 2026」に出展し新型オイルフリーコンプレッサを発表",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZNEpscFpFWmFDY0ZzS2NOZFZOWHp3c2JWMHRiYWpNZGw1SnI3U0dUbFNQTlpUdFl6MU9aczFrSHBJWWI3QXhuaEF4MlY5OFV0SUpuRTFNQ0RLZTZ4MmpMd1h6a3AxVDVXT3c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-01T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -319,10 +319,20 @@
       "label": "規制関連",
       "articles": [
         {
+          "id": "4180320d0efa326b",
+          "title": "EUへの輸出は、厳格な包装基準を遵守しなければならない。",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaTcxblduOWlVUVpobHhtTXJIc1U1cEVXMEVoUndnQjdGaXo4YnVETFZ0Y3UyNGVlcXFxYTN3WG82QXZWb0dBdDhRU1dhSFVjVF9SMlM5M0JnVTEtRHJPdkt4RzRNQUQxNHVrWkZyMXJSY2dIcGNzOHlaZFozTGhzOENFd3JnRTV3VU9Uc3RqOVY?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-17T05:18:15Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "899cd0b710aea772",
           "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
-          "source": "vietnam.vn",
+          "source": "Vietnam.vn",
           "published_at": "2026-08-12T06:35:04Z",
           "language": "ja",
           "category": "regulations",
@@ -332,7 +342,7 @@
           "id": "e75af2b3c38972e5",
           "title": "食品安全法（改正）：サプライチェーン全体における食品管理の強化。",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeFVIdTY2aHozVmF3OTVJXzl0NHFxV0w5M0p4T3BuUk9aQkVyamFSS2JuQVdQb3JXVFR0TDJwT0NJREVDVkdxVjhIcFg0eGVmVWtxTXlVUVpLNmxySVkxalVuWlNXZWR3UUtSSEFneGwydTZXWjFEYUF5aXBzamVDeUFQTjdyNXh6N0NOQW1tWWVKcno5QkFqZkNuSQ?oc=5",
-          "source": "vietnam.vn",
+          "source": "Vietnam.vn",
           "published_at": "2026-08-08T07:00:00Z",
           "language": "ja",
           "category": "regulations",
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "876761cc4bc41796",
-          "title": "企業はEUの新たな包装規制に対応するために何ができるでしょうか？",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM2ttX2E0VzBlVVBFUHplQ3VkcUxOVHRsb0JJMEV0VnpHdFJBU3liSTFpcDVNMmdQQ3JfdHVCQUlqRG5PSms0d3N0ZkFYcExnem00SzZWZDNZcnMyVEw0MTllTGZyVy0yd3ctXzhRdl8wOVY4VzUwMGhBNC1rZzhSdXcyRTdIWVZKb1FLOG9IWUxzM21RWGJ3TQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-08T17:32:10Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-08-17T01:57:54Z",
-  "last_success_at": "2026-08-17T01:57:54Z",
+  "last_attempt_at": "2026-08-17T07:27:01Z",
+  "last_success_at": "2026-08-17T07:27:01Z",
   "consecutive_failure_count": 0
 }
