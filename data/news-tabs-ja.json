@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-17T13:10:42Z",
+  "generated_at": "2026-08-17T19:03:01Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,21 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "280b53a7c0c2d4e4",
-          "title": "海外市場ビュー&米国株ピックアップ（8月17日）",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBhMlI0ZzBuZjR4VUZiLUNuY1IwQU9DYk43VnI2QTR6aHZwZUxmd0pUbE5yUHRoT2VILVFyenZtSS1YMDdCTXc1aUVrRnVoRGNNRkxFNWxxMEFKYlM5Y05BTHhON0xFbnh0T2lFUG1mel9KRU95S2VnQm1tZ0g3Zw?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-17T01:16:00Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-17T16:51:51Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "37aa9ce55d1b3417",
+          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-17T16:13:51Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -33,17 +43,27 @@
           "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53cEZQMldVUW91SEJyZmh0ZHowSTBCenBkZUthMTR6ZTVxM2h5bWFORFFKRk5YdnRVY0NtbklqWTE4X1BHZFpTbjhacHJyeDhMRnY3MQ?oc=5",
           "source": "ABEMA",
-          "published_at": "2026-08-17T11:12:06Z",
+          "published_at": "2026-08-17T15:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "id": "5bf06c115f32ce8b",
+          "title": "【ユーカリが丘国際福祉専門学校】 オープンキャンパスのご案内",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBTel92TktjS0NUZFFldWsyNzB3T1prcXpHX0ZRZ0NxMGQwWWh0dEt2YjR4enNMcXVmdno5elR1cnJXdm5UR3puSU9HSE9SXzZMRHhCdklrbw?oc=5",
+          "source": "ユーカリが丘 公式タウンポータルサイト",
+          "published_at": "2026-08-17T14:42:44Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-17T10:51:23Z",
+          "published_at": "2026-08-17T14:22:23Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,31 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "304ca241738a0dc3",
-          "title": "被爆地の思い 世界に伝える「ナガサキ・ユース代表団が活動報告」NPT再検討会議も傍聴《長崎》（長崎国際テレビ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aNktqTTBaV2Q0RWlFTjRCbkNJWjZBQnJWeVhEV2U2b1VDYTFwcm9HUUg2cTA3Z0U1UUNNaDRnUUtvNmZ6RTEya2JYcnU4ckpwWlJvZUZ3REVVUE53NVNBWmZWY3h1U2wwMm9jWlp0ajdwQXhiRnpGSTVFQUFqbjQ?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-17T09:53:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "aaf7d42e994cf90c",
-          "title": "愛子さまが半導体の国際会議出席、「会議での経験が実り多いものとなることを願っています」…２６年ぶり日本開催",
+          "id": "c693b608f6e67ded",
+          "title": "愛子さま、熊本地震や千葉豪雨の被害者へ「避難生活を余儀なくされ案じています」…半導体の国際会議であいさつ",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yV3hkWTN2OThvNjQwYWYyLUF1c2NiZ1FPdDZyd3lvQVV4VjFFM1lKSjFJYXhaWUtmc3BiZHlyem5kbkZVcDZPNzZ0VGZlNVR1WGhUN3lzeUVTeFBXbEZ4czloUVJNYXZqR3BzMlJRYV91NzIzU0tYT3pLSEFrMmc?oc=5",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "published_at": "2026-08-17T08:38:53Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c2450b7d3614233c",
-          "title": "中国、貿易黒字1兆ドル超えが示すもの | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUQkZuMW8wZzZaQTRJTXhJVFVoNGp2bHRfTUVwNUFTVThMMzdJS2xiTExTOEVwMVR0ZzJ0UGo5RUJBaWU2YW4xWmRLUmNJVlV4N0Z2WEJUWXZMeDMtVHRPMVl0ZDhmRGZYNGNhZEUzTHI2NE1s?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-08-17T07:52:54Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -93,16 +93,6 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
-        {
-          "id": "05cf05b47710b11c",
-          "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-16T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "4180d1106bcbc393",
           "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
@@ -162,6 +152,16 @@
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "361943967e0ca83e",
+          "title": "アネスト岩田、「FOOMA JAPAN 2026」に出展し新型オイルフリーコンプレッサを発表",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZNEpscFpFWmFDY0ZzS2NOZFZOWHp3c2JWMHRiYWpNZGw1SnI3U0dUbFNQTlpUdFl6MU9aczFrSHBJWWI3QXhuaEF4MlY5OFV0SUpuRTFNQ0RLZTZ4MmpMd1h6a3AxVDVXT3c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-01T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -179,31 +179,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6652fe439c5cbd0b",
-          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS1＝ビオストック",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0WjVGVG9rOHQ1emphdlBzWVIySmgwOTZSVmdReEE0ejBYbHZSNzRKWlZ4SFc1eVdHazd2ZURHNENDSUlkbW1lWmtfQVdLZ0FHZkdyYmJyQ1AzeTVjNUdGTkhCZ3l5WDM5V3dz?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-07-31T16:57:58Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "1e3558dd99c398af",
           "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
           "source": "日本食糧新聞・電子版",
           "published_at": "2026-06-04T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "80f34afd1f5856c9",
-          "title": "山洋電気(E1-17-08)食品工場の自動化に貢献する駆動・電源・冷却の3製品群【FOOMA JAPAN 2026 特集】",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81dDJveFhiblU2NmVUWEgwcjhnTThmZ2xOcm9OZ0h3X1MteE9QLU5jMVZXYnEyc2FwVW1vRkt1N1ZkSHhQRXZtM204b1dlS3VTMWduaWp4QXdSdw?oc=5",
-          "source": "オートメーション新聞WEB",
-          "published_at": "2026-05-29T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -237,6 +217,26 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b2ea39a0e775737c",
+          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "df5032e43e049da4",
+          "title": "もやし工場で「わさび」生産 食品工場内に栽培モジュール導入し高付加価値化へ新モデル始動",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY19GNjlvZ0FzVmlqN281VUlfWXRNdjNyTWtFM0NQTGM4bU44czJJWDFzSWxVeWFLSVJ2Y3M3UjJvNWhMQ2R6bXR1bTM2X1Vqak5SUDV2YTV5VmJCZUU2d2UxcHNqUXhVczhkWFJpd3E1UWlMSVNZaWNfMEJsWGxSWDFueFIwdw?oc=5",
+          "source": "projectdesign.jp",
+          "published_at": "2026-06-02T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -259,16 +259,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tSEp4cWVjclBZaDhZcURaQjQwZERpVVRrcXp0WXJQUDAzNVY4bmlCQWhaUWk2aGNMOHpfS1dKeHZRaXc0U3JpTzQ5T1Z0OTRCaE5MVURFUUp4enhSRWQ2Z01zc080THBVeGc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-06T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "270fe4a3f365ac9f",
-          "title": "スーパーマーケット型クレーンゲーム「クレーンマート」が愛知県に初進出",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEeEJGaXpmZ2oycWdXNVpxUzdyZm1nTldXa0laeGtCMEZYZnNsTHJZWUtBWktEQ0xZZnBEUlo4QkdUWllaTFZlZ19BaTRkWm14ZkVNVW5WaXBmMTVRc2dsaXg2SGVEUk9NSkE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-01T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -307,6 +297,16 @@
           "id": "f9f8018d0c5bb5fb",
           "title": "ドンキ／広島市に「広島市西区観音新町二丁目 新築計画（店舗面積3102m2）」27年2月1日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PU2U5RjZ2ZU9QUktXYktNb1Y2dWRFc2prQW0wbEx4eVc5R3BJVHp4S3lka0doamNGZHdZQ25oRVViaEFUZW8tLXlxaWVxcS1IdGYxWXRR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-21T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9485756834da4116",
+          "title": "コスモス薬品／京都府に「ドラッグコスモス」計2店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zSjI2Z0RtTGZIYzdyMWZhQ3VzMEJrbnJ2Q1NsMGladHFlTHpGaVZoX2RnY2xlWXo0c3YyVlBkTTQwa1luSExQcHR1QXlZVVdWY09PSUZn?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-07-21T07:00:00Z",
           "language": "ja",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-17T13:10:42Z",
-  "last_success_at": "2026-08-17T13:10:42Z",
+  "last_attempt_at": "2026-08-17T19:03:01Z",
+  "last_success_at": "2026-08-17T19:03:01Z",
   "consecutive_failure_count": 0
 }
