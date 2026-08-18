@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-18T07:09:18Z",
+  "generated_at": "2026-08-18T13:13:06Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,6 +18,16 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-18T10:56:03Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "06fa1ac691ab2735",
           "title": "世界56か国・地域の経済成長と脱炭素化の「進展過程」を解明",
@@ -39,11 +49,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-18T04:52:54Z",
+          "id": "edc118ab77cf8621",
+          "title": "【国際文学館翻訳プロジェクト特別企画】多和田葉子×満谷マーガレット 「相棒、仲間、それとも…？ 作家と翻訳者のトーク」 10月28日(水)開催",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xVUR5RG9vNjAzaWFrV2UyREZzSzItOVFtUUVJbWpoTXBZT2paLWsxSTNhd1RKMjNpenVFSmxOeVJXXzl4MDB4NGxHaHF5RmdNZVhxV1Q3aWpvQQ?oc=5",
+          "source": "waseda.jp",
+          "published_at": "2026-08-18T05:03:05Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -69,21 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-18T03:22:11Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "824447c0da02ec7b",
-          "title": "ニューヨーク・香港を追加 ジェトロのコンテンツ海外展開支援拠点が世界9都市に | 2026年 - お知らせ - お知らせ・記者発表",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9VODdoYkYwX0p5TTV3X2FZdW42bThWVU5ycEZsUnRRaTVvd3g2NWgydUFLZk1XVmFkcUlmcmdCUTBwU1JqcEg2Wm5MX2V4VHJxeFlFVTY0cHhHcmdHQ0Q3MC1xaVQzRkRZNG45UENmOVJ1Wm9kUHlF?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-08-18T03:02:38Z",
+          "id": "846883fbf7270a6c",
+          "title": "「世界一美しいスタバ」目玉に 東名・浜名湖SAが大変身 金子国交大臣と城内大臣が新たな観光拠点を視察 浜松市",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QLTZzN1I0LXVXUmE3ODNpeUxCRU5IMWk5UVBaZkp2dTFVeXhlYjBSSkp1WFRack0xQktUSFpTbmkxTk45SUFrb0xVa1hBLXBtRUEtVUJmRkMwUzlQR2JFUjFPOHdYeWFmVGt4SzJyUmxXeTBXQ0duUC01N21xeVk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-18T03:52:23Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,16 +179,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6652fe439c5cbd0b",
-          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS1＝ビオストック",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0WjVGVG9rOHQ1emphdlBzWVIySmgwOTZSVmdReEE0ejBYbHZSNzRKWlZ4SFc1eVdHazd2ZURHNENDSUlkbW1lWmtfQVdLZ0FHZkdyYmJyQ1AzeTVjNUdGTkhCZ3l5WDM5V3dz?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-07-31T16:57:58Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "1e3558dd99c398af",
           "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
@@ -212,7 +202,7 @@
           "id": "fdf4111e3bd47dbf",
           "title": "食品工場のAI化、次に伸びるのはどこ？ 特許から見えた「3つの有望領域」と日本企業の勝ち筋",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90RjJVdXA5V25yZXk5N2NWbUhxMnVEemphWjA1cEtxdmMtY19LVlJyUFdBSDA1dk9renhCekxuT1cwenJCV0t5TVpLOA?oc=5",
-          "source": "DXマガジン",
+          "source": "dxmagazine.jp",
           "published_at": "2026-08-12T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -237,22 +227,22 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "df5032e43e049da4",
+          "title": "もやし工場で「わさび」生産 食品工場内に栽培モジュール導入し高付加価値化へ新モデル始動",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY19GNjlvZ0FzVmlqN281VUlfWXRNdjNyTWtFM0NQTGM4bU44czJJWDFzSWxVeWFLSVJ2Y3M3UjJvNWhMQ2R6bXR1bTM2X1Vqak5SUDV2YTV5VmJCZUU2d2UxcHNqUXhVczhkWFJpd3E1UWlMSVNZaWNfMEJsWGxSWDFueFIwdw?oc=5",
+          "source": "projectdesign.jp",
+          "published_at": "2026-06-02T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "retail": {
       "label": "小売店",
       "articles": [
-        {
-          "id": "5a97fe8078d75f26",
-          "title": "スガキヤ／10月、神奈川県に2店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBOWZLaWNJdlRmd0poWUVseUxOeEtjM1BmWTRhUTV5UTM2aFAtMFlOOVhuNmZLUzl2d3dZSlViTnFHd1dNMnk2Z0J4b1dzQ29PcXc0Sg?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-17T05:31:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "372e53e649902493",
           "title": "【平和堂】「アルプラフーズマーケット富山掛尾」オープン日のご案内 ～2026年9月18日（金）、平和堂の食品スーパーが富山市内にオープン～",
@@ -274,26 +264,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9f1e6d1f16e39817",
-          "title": "【NEW OPEN】発酵エイジングケア*¹ブランド「FAS」、羽田空港 第3ターミナルに7月31日（金）より新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82NjBTT2xCQmlaQUZzc043ZjV4aXZkN3hNSWlyUC1YVkN0RFo3LXBaRlg3SHlkU2czdFZ3SDZsZk9FN0gzWEtqSmZWT0dJYkotSEx6MDNZWjg2U1hILUpZamhJU3ZYNTBsZEE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-31T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "94ace283ac879e07",
-          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-23T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "6def167432cca401",
           "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
@@ -304,11 +274,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f9f8018d0c5bb5fb",
-          "title": "ドンキ／広島市に「広島市西区観音新町二丁目 新築計画（店舗面積3102m2）」27年2月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PU2U5RjZ2ZU9QUktXYktNb1Y2dWRFc2prQW0wbEx4eVc5R3BJVHp4S3lka0doamNGZHdZQ25oRVViaEFUZW8tLXlxaWVxcS1IdGYxWXRR?oc=5",
-          "source": "流通ニュース",
+          "id": "ef33c65ae6b5c2dc",
+          "title": "【角上魚類】新潟・豊洲からの鮮魚を届ける“流通の心臓部”へ出店！新店舗「鶴ヶ島店」、8月20日（木）オープン！ 関越道と圏央道が交わる自社流通の重要拠点で、圧倒的な鮮度の「市場型店舗」を展開！",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuUGFaMTFWVWFhcGdzaFZZRjJ0RnNpalBKMjhiaEcwaldra2h3TzFiNzlJaldZVGxVOHNuaVYtMjZiOG16WUVrSU12UTlqTy0xckJweEE2cFBlWDBhTllKRDFpSV9meklUZFE?oc=5",
+          "source": "PR TIMES",
           "published_at": "2026-07-21T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9cf09e0e29f9fa4a",
+          "title": "BGFリテールが運営するコンビニCUが営業を終了したガソリンスタンドをコンビニにリサイクルする新しい店舗モデルを披露する。 既存住居·生活商圏を越えて国道沿いと都市外郭に出店領域を広げるための戦略だ。",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9PYzhjSW1BTFhPVi1UQzNqZTRoVklsWl9vVm91QjRaMGJTVWUyeXRwSWFNWnZfeUFOMjlVTVNNTWNMU3U4N3JoRjAwZXM1aGpJc3c?oc=5",
+          "source": "매일경제",
+          "published_at": "2026-08-18T04:30:43Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5a97fe8078d75f26",
+          "title": "スガキヤ／10月、神奈川県に2店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBOWZLaWNJdlRmd0poWUVseUxOeEtjM1BmWTRhUTV5UTM2aFAtMFlOOVhuNmZLUzl2d3dZSlViTnFHd1dNMnk2Z0J4b1dzQ29PcXc0Sg?oc=5",
+          "source": "ryutsuu.biz",
+          "published_at": "2026-08-17T05:31:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1380540d03a185b3",
+          "title": "【札幌市厚別区】新店舗「ローソン札幌厚別中央5条店」オープン日決定！ホクノースーパー跡地",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zSzdNcHN0OFJPbUp6VU0zbERPZW1EN0pibG1ySkpsTGlxQWxmdXhMZVl5RWRGZmVRbFZ4RHI1MkNONmVPNGNHQ0l3?oc=5",
+          "source": "【えべナビ！】江別・野幌 情報ナビ",
+          "published_at": "2026-08-13T08:39:56Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-18T07:09:18Z",
-  "last_success_at": "2026-08-18T07:09:18Z",
+  "last_attempt_at": "2026-08-18T13:13:06Z",
+  "last_success_at": "2026-08-18T13:13:06Z",
   "consecutive_failure_count": 0
 }
