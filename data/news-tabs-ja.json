@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-17T19:03:01Z",
+  "generated_at": "2026-08-18T01:54:03Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-17T16:51:51Z",
+          "id": "280b53a7c0c2d4e4",
+          "title": "海外市場ビュー&米国株ピックアップ（8月17日）",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBhMlI0ZzBuZjR4VUZiLUNuY1IwQU9DYk43VnI2QTR6aHZwZUxmd0pUbE5yUHRoT2VILVFyenZtSS1YMDdCTXc1aUVrRnVoRGNNRkxFNWxxMEFKYlM5Y05BTHhON0xFbnh0T2lFUG1mel9KRU95S2VnQm1tZ0g3Zw?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-08-17T01:16:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "37aa9ce55d1b3417",
-          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-17T16:13:51Z",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "finance.yahoo.co.jp",
+          "published_at": "2026-08-17T23:24:51Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2aaa6587e1558947",
+          "title": "【国際交流】前期最後の国際交流カフェ「日本の夏 ～流しそうめん～」を開催しました",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1nY0VGdmhXZmN5MEdYVE1ZUEp3c1F2TXAzdnlEdFNmQlNha0pxMW1sekJ6M2x4QURmWjRjZWNSbnVmeXdE?oc=5",
+          "source": "別府大学",
+          "published_at": "2026-08-17T23:05:34Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d92ec37090253ea0",
+          "title": "東京・関西の創価中学生が世界を舞台に充実の研修",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MUTJJN0g2S0xXU0M3cXVqRWNPT2V4aGtKMXRuV3hpekUxcHZiRDBSbkhLR2xQblhlaUo2OGUzTkNBc3pYcnN4eXBvdEM0SFZPQXE5emRYbVJJQlowaEhRSXczcG5VRjNqemozVUpSTUZ5VzZyZ19pdg?oc=5",
+          "source": "seikyoonline.com",
+          "published_at": "2026-08-17T20:14:21Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,31 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-17T14:22:23Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "405c52ff5c43c261",
           "title": "GMOインターネットグループのホワイトハッカーが参画する「Blue Water」、世界最高峰「DEF CON 34 CTF Finals」で悲願の世界1位～4年目で初優勝、世界で磨いた技術を社会へ還元",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ZVGJMdWRQWXFJdmZmOUQ1NE1jeWg5eXNhdDNkdDFKOEdoTzkycV90MEFmNEszSVk4eWp1QWJSNnQwQ1RhM1lhWl9NemlUTXVBWUFGV0xycw?oc=5",
           "source": "gmo-cybersecurity.com",
           "published_at": "2026-08-17T10:07:56Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c693b608f6e67ded",
-          "title": "愛子さま、熊本地震や千葉豪雨の被害者へ「避難生活を余儀なくされ案じています」…半導体の国際会議であいさつ",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yV3hkWTN2OThvNjQwYWYyLUF1c2NiZ1FPdDZyd3lvQVV4VjFFM1lKSjFJYXhaWUtmc3BiZHlyem5kbkZVcDZPNzZ0VGZlNVR1WGhUN3lzeUVTeFBXbEZ4czloUVJNYXZqR3BzMlJRYV91NzIzU0tYT3pLSEFrMmc?oc=5",
-          "source": "news.yahoo.co.jp",
-          "published_at": "2026-08-17T08:38:53Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,6 +179,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "6652fe439c5cbd0b",
+          "title": "特集・食品工場の環境対策2026［食品ロス・廃棄物削減］：技術FOCUS1＝ビオストック",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0WjVGVG9rOHQ1emphdlBzWVIySmgwOTZSVmdReEE0ejBYbHZSNzRKWlZ4SFc1eVdHazd2ZURHNENDSUlkbW1lWmtfQVdLZ0FHZkdyYmJyQ1AzeTVjNUdGTkhCZ3l5WDM5V3dz?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-07-31T16:57:58Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "1e3558dd99c398af",
           "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
@@ -192,7 +202,7 @@
           "id": "b132578f8b996311",
           "title": "食品工場の粉体計量工程へのロボット導入―AMRと多関節ロボットによる完全自動化の実現―【食品と開発8月号技術紹介】🔒",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QRHJvbTFsR3RlOEdIejlOMGxVYjYzbUlRMF9XLUVCcU9CWnlSUDNhZnNwc1Yzc2VTUW4yWDFsMUFualpjVzRFQWhBcGtjcW90SXNOM1ZWOXc?oc=5",
-          "source": "健康メディア.com",
+          "source": "kenko-media.com",
           "published_at": "2026-08-13T23:33:58Z",
           "language": "ja",
           "category": "food_factory",
@@ -224,16 +234,6 @@
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "df5032e43e049da4",
-          "title": "もやし工場で「わさび」生産 食品工場内に栽培モジュール導入し高付加価値化へ新モデル始動",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY19GNjlvZ0FzVmlqN281VUlfWXRNdjNyTWtFM0NQTGM4bU44czJJWDFzSWxVeWFLSVJ2Y3M3UjJvNWhMQ2R6bXR1bTM2X1Vqak5SUDV2YTV5VmJCZUU2d2UxcHNqUXhVczhkWFJpd3E1UWlMSVNZaWNfMEJsWGxSWDFueFIwdw?oc=5",
-          "source": "projectdesign.jp",
-          "published_at": "2026-06-02T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -284,16 +284,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ef33c65ae6b5c2dc",
-          "title": "【角上魚類】新潟・豊洲からの鮮魚を届ける“流通の心臓部”へ出店！新店舗「鶴ヶ島店」、8月20日（木）オープン！ 関越道と圏央道が交わる自社流通の重要拠点で、圧倒的な鮮度の「市場型店舗」を展開！",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuUGFaMTFWVWFhcGdzaFZZRjJ0RnNpalBKMjhiaEcwaldra2h3TzFiNzlJaldZVGxVOHNuaVYtMjZiOG16WUVrSU12UTlqTy0xckJweEE2cFBlWDBhTllKRDFpSV9meklUZFE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-21T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "f9f8018d0c5bb5fb",
           "title": "ドンキ／広島市に「広島市西区観音新町二丁目 新築計画（店舗面積3102m2）」27年2月1日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PU2U5RjZ2ZU9QUktXYktNb1Y2dWRFc2prQW0wbEx4eVc5R3BJVHp4S3lka0doamNGZHdZQ25oRVViaEFUZW8tLXlxaWVxcS1IdGYxWXRR?oc=5",
@@ -309,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zSjI2Z0RtTGZIYzdyMWZhQ3VzMEJrbnJ2Q1NsMGladHFlTHpGaVZoX2RnY2xlWXo0c3YyVlBkTTQwa1luSExQcHR1QXlZVVdWY09PSUZn?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-07-21T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b2d495d5fe3618e6",
+          "title": "島根県隠岐郡隠岐の島町に新店舗オープン！「ワッツウィズ 隠岐の島ウェルネス店」でお得な生活を。",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZVUZkYjJQbHZ5YmJKcWw2NlFRVzJmc1dua1RNQmZZVXhkVFgxWEZIY05oUFZ3bnhyN0hEbTBJWnRteW9zM2RiYUVqV295bU96LWc?oc=5",
+          "source": "山陽新聞",
+          "published_at": "2026-08-15T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-17T19:03:01Z",
-  "last_success_at": "2026-08-17T19:03:01Z",
+  "last_attempt_at": "2026-08-18T01:54:03Z",
+  "last_success_at": "2026-08-18T01:54:03Z",
   "consecutive_failure_count": 0
 }
