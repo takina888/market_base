@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-18T13:13:06Z",
+  "generated_at": "2026-08-18T19:01:57Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "id": "539f51ee21b360aa",
+          "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53cEZQMldVUW91SEJyZmh0ZHowSTBCenBkZUthMTR6ZTVxM2h5bWFORFFKRk5YdnRVY0NtbklqWTE4X1BHZFpTbjhacHJyeDhMRnY3MQ?oc=5",
+          "source": "ABEMA",
+          "published_at": "2026-08-18T14:13:50Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "37aa9ce55d1b3417",
+          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-18T10:56:03Z",
+          "published_at": "2026-08-18T13:21:24Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "bdff4daa3659caae",
+          "title": "ハンガリー看護留学 出発｜健康科学部 看護学科",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QdGNvNGpIZXI1Yy01SzhJRTFFX2VzeC1kZk5Ic1IyemFzcC1keUYzWklJRkkwWGt2LWZCZy1VR0Y3ZENYdWttbk85OEFNS1h3ZU5WX0tiU1hYdWdscVZZeXZCQTY?oc=5",
+          "source": "jiu.ac.jp",
+          "published_at": "2026-08-18T13:17:57Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e611efaa4e47ca15",
+          "title": "「フリューくじ MUNDO PIXAR」8月15日より「ピクサーの世界展」会場にて発売中！",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91VDU5enRtVVU5RmxIeXRGYkdIVFlWQjJFZUdWdkNCZDZTNnotQWM4dUUyS1ZKbGRnYzVuUUxDUWt6OWlmZEtpUTFibjE5SzhNbjZOYzBhQkl0bVo3ektpb084dS1VQQ?oc=5",
+          "source": "フリュー株式会社",
+          "published_at": "2026-08-18T08:48:52Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -54,36 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xVUR5RG9vNjAzaWFrV2UyREZzSzItOVFtUUVJbWpoTXBZT2paLWsxSTNhd1RKMjNpenVFSmxOeVJXXzl4MDB4NGxHaHF5RmdNZVhxV1Q3aWpvQQ?oc=5",
           "source": "waseda.jp",
           "published_at": "2026-08-18T05:03:05Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8794d49732f72997",
-          "title": "【国際学部】8月8日，9日、寝屋川キャンパスでの今年度２回目のオープンキャンパスが開催されました",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBULXJZNXZpY1NhXzRQTDNscENNbkFlcjctZVlzX2VlXy00V21fVzhVWHJFOEdPZkZOUnZpbmZCU0x3d3FjcnF5V1BROHFwZXk1UzJyLXZR?oc=5",
-          "source": "setsunan.ac.jp",
-          "published_at": "2026-08-18T04:39:13Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4b3d9d115134ab1f",
-          "title": "「ガーナは犯罪現場だった」 奴隷貿易の補償要求を主導するアフリカの国",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41NV93Y041WkY2dmNZdm9sTkc4SUFvUXBUdTVheWRVMW9taVdQLTc1Z0Z2YWluZmFVeWtjYmFzaHd1dmd6N1RJSEI1bzE1SjhXLXN1RmZpTHFHaFkxWEc00gFkQVVfeXFMTkxGN3NYRDZZcDFwWGd5b2lVaWt4b0NNbTRTYWxmSUVnaTExV3puQ2g0Wk1BTFNkZFNoVFpmMzZmeXRYcHdvYzY5ZzdCclFjQzFHQ01WTXg5dzNpYVpxR0dHWXhxcw?oc=5",
-          "source": "BBC",
-          "published_at": "2026-08-18T04:37:41Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "846883fbf7270a6c",
-          "title": "「世界一美しいスタバ」目玉に 東名・浜名湖SAが大変身 金子国交大臣と城内大臣が新たな観光拠点を視察 浜松市",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QLTZzN1I0LXVXUmE3ODNpeUxCRU5IMWk5UVBaZkp2dTFVeXhlYjBSSkp1WFRack0xQktUSFpTbmkxTk45SUFrb0xVa1hBLXBtRUEtVUJmRkMwUzlQR2JFUjFPOHdYeWFmVGt4SzJyUmxXeTBXQ0duUC01N21xeVk?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-18T03:52:23Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -202,7 +202,7 @@
           "id": "fdf4111e3bd47dbf",
           "title": "食品工場のAI化、次に伸びるのはどこ？ 特許から見えた「3つの有望領域」と日本企業の勝ち筋",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90RjJVdXA5V25yZXk5N2NWbUhxMnVEemphWjA1cEtxdmMtY19LVlJyUFdBSDA1dk9renhCekxuT1cwenJCV0t5TVpLOA?oc=5",
-          "source": "dxmagazine.jp",
+          "source": "DXマガジン",
           "published_at": "2026-08-12T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -244,6 +244,26 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "5a97fe8078d75f26",
+          "title": "スガキヤ／10月、神奈川県に2店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBOWZLaWNJdlRmd0poWUVseUxOeEtjM1BmWTRhUTV5UTM2aFAtMFlOOVhuNmZLUzl2d3dZSlViTnFHd1dNMnk2Z0J4b1dzQ29PcXc0Sg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-17T05:31:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "bebc12c2d13b4fff",
+          "title": "コジマ×ビックカメラ／26年下期、イオンモール伊達に新店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvbVVkRDdtdXJUVHV4TnotN2s3d0dMVnc1OENUc05YS0tPSkRMZDFKT0w2b2lTM1VoX0M1QlpEQ2RveE9BZEhBZERnTG9TTHR6bEdLZg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-17T04:45:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "372e53e649902493",
           "title": "【平和堂】「アルプラフーズマーケット富山掛尾」オープン日のご案内 ～2026年9月18日（金）、平和堂の食品スーパーが富山市内にオープン～",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0weXRpYWlsS3k4TW5JYzlwVE1LZ2RyeHZXWnc0MzdPYlFxLWZLeUlXdllnX2tTZmtCaERVYXVBc2M3X1VZMER5S3BUSm54SGdEUS1oMlBmcXZVdDNrdmY1a09meGhpYWxvSFE?oc=5",
@@ -264,6 +284,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "94ace283ac879e07",
+          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-23T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "6def167432cca401",
           "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
@@ -279,36 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuUGFaMTFWVWFhcGdzaFZZRjJ0RnNpalBKMjhiaEcwaldra2h3TzFiNzlJaldZVGxVOHNuaVYtMjZiOG16WUVrSU12UTlqTy0xckJweEE2cFBlWDBhTllKRDFpSV9meklUZFE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-07-21T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9cf09e0e29f9fa4a",
-          "title": "BGFリテールが運営するコンビニCUが営業を終了したガソリンスタンドをコンビニにリサイクルする新しい店舗モデルを披露する。 既存住居·生活商圏を越えて国道沿いと都市外郭に出店領域を広げるための戦略だ。",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9PYzhjSW1BTFhPVi1UQzNqZTRoVklsWl9vVm91QjRaMGJTVWUyeXRwSWFNWnZfeUFOMjlVTVNNTWNMU3U4N3JoRjAwZXM1aGpJc3c?oc=5",
-          "source": "매일경제",
-          "published_at": "2026-08-18T04:30:43Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5a97fe8078d75f26",
-          "title": "スガキヤ／10月、神奈川県に2店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBOWZLaWNJdlRmd0poWUVseUxOeEtjM1BmWTRhUTV5UTM2aFAtMFlOOVhuNmZLUzl2d3dZSlViTnFHd1dNMnk2Z0J4b1dzQ29PcXc0Sg?oc=5",
-          "source": "ryutsuu.biz",
-          "published_at": "2026-08-17T05:31:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1380540d03a185b3",
-          "title": "【札幌市厚別区】新店舗「ローソン札幌厚別中央5条店」オープン日決定！ホクノースーパー跡地",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zSzdNcHN0OFJPbUp6VU0zbERPZW1EN0pibG1ySkpsTGlxQWxmdXhMZVl5RWRGZmVRbFZ4RHI1MkNONmVPNGNHQ0l3?oc=5",
-          "source": "【えべナビ！】江別・野幌 情報ナビ",
-          "published_at": "2026-08-13T08:39:56Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-18T13:13:06Z",
-  "last_success_at": "2026-08-18T13:13:06Z",
+  "last_attempt_at": "2026-08-18T19:01:57Z",
+  "last_success_at": "2026-08-18T19:01:57Z",
   "consecutive_failure_count": 0
 }
