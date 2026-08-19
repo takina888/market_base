@@ -1,87 +1,89 @@
 {
   "schema_version": 2,
-  "status": "stale",
+  "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-19T01:56:54Z",
-  "successful_categories": [],
-  "retained_categories": [],
-  "failed_categories": {
-    "regulations": "HTTPError: HTTP Error 503: Service Unavailable",
-    "food_machinery": "HTTPError: HTTP Error 503: Service Unavailable",
-    "food_factory": "HTTPError: HTTP Error 503: Service Unavailable",
-    "retail": "HTTPError: HTTP Error 503: Service Unavailable",
-    "overseas": "HTTPError: HTTP Error 503: Service Unavailable"
-  },
+  "generated_at": "2026-08-19T07:10:27Z",
+  "successful_categories": [
+    "regulations",
+    "food_machinery",
+    "food_factory",
+    "retail",
+    "overseas"
+  ],
+  "retained_categories": [
+    "regulations"
+  ],
+  "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "539f51ee21b360aa",
-          "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53cEZQMldVUW91SEJyZmh0ZHowSTBCenBkZUthMTR6ZTVxM2h5bWFORFFKRk5YdnRVY0NtbklqWTE4X1BHZFpTbjhacHJyeDhMRnY3MQ?oc=5",
-          "source": "ABEMA",
-          "published_at": "2026-08-18T14:13:50Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "37aa9ce55d1b3417",
-          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-18T13:21:24Z",
+          "published_at": "2026-08-19T05:35:31Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "bdff4daa3659caae",
-          "title": "ハンガリー看護留学 出発｜健康科学部 看護学科",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QdGNvNGpIZXI1Yy01SzhJRTFFX2VzeC1kZk5Ic1IyemFzcC1keUYzWklJRkkwWGt2LWZCZy1VR0Y3ZENYdWttbk85OEFNS1h3ZU5WX0tiU1hYdWdscVZZeXZCQTY?oc=5",
-          "source": "jiu.ac.jp",
-          "published_at": "2026-08-18T13:17:57Z",
+          "id": "9740707052de91e9",
+          "title": "映画『ママがもうこの世界にいなくても 私の命の日記』とタイアップ！",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMnM3bnR3MHBVeDJKcmFVelo2WlZvbUNHS0V4SXhRNDZaeWtqaGlTQWhmanZiRFZrSHc1RVVMT0VaWEFkeDlReUtkWmZhWjlfRXl3cGVaVHBrUjQ3LXJHTXNTUFNSRXJWSFJDMGZfSkZ5TFM5NTJxa0ViOHdIeFhISTdtWUpjdXdE?oc=5",
+          "source": "mhlw.go.jp",
+          "published_at": "2026-08-19T05:13:53Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e611efaa4e47ca15",
-          "title": "「フリューくじ MUNDO PIXAR」8月15日より「ピクサーの世界展」会場にて発売中！",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91VDU5enRtVVU5RmxIeXRGYkdIVFlWQjJFZUdWdkNCZDZTNnotQWM4dUUyS1ZKbGRnYzVuUUxDUWt6OWlmZEtpUTFibjE5SzhNbjZOYzBhQkl0bVo3ektpb084dS1VQQ?oc=5",
-          "source": "フリュー株式会社",
-          "published_at": "2026-08-18T08:48:52Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-19T04:58:43Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "06fa1ac691ab2735",
-          "title": "世界56か国・地域の経済成長と脱炭素化の「進展過程」を解明",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82S1Y3VmtrNk9VUnM1TWhJdzFrcDJUa3JpOXBkazN1ZWZTZU9xUFFGYmhyZmg3Q2ZXTk9Fekx2WEZtTTIyZm9lbzBXbG9nLXpwYVFUUV80OVItbDNyTEs4?oc=5",
-          "source": "kyushu-u.ac.jp",
-          "published_at": "2026-08-18T06:20:24Z",
+          "id": "c2d471538f720f33",
+          "title": "2026年度第1回グローバル萩海外留学奨励賞・グローバルリーダー認定証授与式を開催しました",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAwQXVld0xWcXhvNFJPakRuRl9hUlo5cGQ5RWRTX0Fua2JDclRpTkVQSlBLSW9iNFNHNWlvdXQ2bTV1RUpJc0dGc2ltMUlLUXVDc2pabjRZQmczMU8tMDc4RWdXbGlHSUxuY3VLU0RUSnhsdHF0?oc=5",
+          "source": "tohoku.ac.jp",
+          "published_at": "2026-08-19T04:30:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "da58ead612f8a476",
-          "title": "【国際交流プログラム】「その場でIPPO ～Hawaii編～ 2026」",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPOTl1VkhJRG1raktGMXAyOWtmaTRIMEd5TU54NzRIS1dFVllWT1RTejRueDVGbTU2MlEzQlRJZlFuSnNvRnNPWDNxVDlER1p1N2J3VXN0aDJhdU5x?oc=5",
-          "source": "tuc.ac.jp",
-          "published_at": "2026-08-18T05:35:51Z",
+          "id": "8cb9f92032360159",
+          "title": "【御案内】9/16(水)開催 J-PEAKS WEEK ELSIセンター・国際シンポジウムについて",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95WXR1dGxJWWZIVGdRZTZJVDdGUW1KWFl6V2tTemxqYWxmSy1tdEtGNDFLQ3RYSnFNd3R4TWFHbDVyZkpfYXNXc281SHpRQUZrQ05KQlB4N21GVk9vMFE?oc=5",
+          "source": "niigata-u.ac.jp",
+          "published_at": "2026-08-19T03:37:38Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "edc118ab77cf8621",
-          "title": "【国際文学館翻訳プロジェクト特別企画】多和田葉子×満谷マーガレット 「相棒、仲間、それとも…？ 作家と翻訳者のトーク」 10月28日(水)開催",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xVUR5RG9vNjAzaWFrV2UyREZzSzItOVFtUUVJbWpoTXBZT2paLWsxSTNhd1RKMjNpenVFSmxOeVJXXzl4MDB4NGxHaHF5RmdNZVhxV1Q3aWpvQQ?oc=5",
-          "source": "waseda.jp",
-          "published_at": "2026-08-18T05:03:05Z",
+          "id": "c0d947c3c97d1c7d",
+          "title": "シェアの会（８月）「日本の赤十字国際委員会（ICRC）のお話 ～皆さんの質問にお答えします～」",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KNDE5SEUyZmg0LXZFdzIxTDhiQVVCVEc3cllvUWVsZzFpM0h6UlpfaE00YkRyVGt0R1kxV0ZYNmphYVpaUU4wbUVVMW1PeWZKQlBINnJkTjRvcWlLQ0ZHTFhfVVh5SDFlOHJQSGxFdFBiR3hwTTdkUXUzbXUtUkU?oc=5",
+          "source": "日本赤十字社",
+          "published_at": "2026-08-19T02:17:35Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "85e4b12eac5f10ea",
+          "title": "中学生が「国際理解」と「平和」について考えました！",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XMFBraV9kVDJkamUyeVdmV3Jkc0FLbDBRTUxGeDgyOWVZNmRnc2p0N1NrMWppR2lBQ0Y5VGR6ZzdOdWgyVGVIWE5IaUdhZjQwUWNKbDJKTkJsaFRwcmFndjFhQ0RkQl90MGlJdXp0LUdQZEk?oc=5",
+          "source": "日本赤十字社",
+          "published_at": "2026-08-19T02:04:54Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -91,6 +93,16 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "05cf05b47710b11c",
+          "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-16T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "4180d1106bcbc393",
           "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
@@ -150,16 +162,6 @@
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "361943967e0ca83e",
-          "title": "アネスト岩田、「FOOMA JAPAN 2026」に出展し新型オイルフリーコンプレッサを発表",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZNEpscFpFWmFDY0ZzS2NOZFZOWHp3c2JWMHRiYWpNZGw1SnI3U0dUbFNQTlpUdFl6MU9aczFrSHBJWWI3QXhuaEF4MlY5OFV0SUpuRTFNQ0RLZTZ4MmpMd1h6a3AxVDVXT3c?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-01T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -190,7 +192,7 @@
           "id": "b132578f8b996311",
           "title": "食品工場の粉体計量工程へのロボット導入―AMRと多関節ロボットによる完全自動化の実現―【食品と開発8月号技術紹介】🔒",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QRHJvbTFsR3RlOEdIejlOMGxVYjYzbUlRMF9XLUVCcU9CWnlSUDNhZnNwc1Yzc2VTUW4yWDFsMUFualpjVzRFQWhBcGtjcW90SXNOM1ZWOXc?oc=5",
-          "source": "健康メディア.com",
+          "source": "kenko-media.com",
           "published_at": "2026-08-13T23:33:58Z",
           "language": "ja",
           "category": "food_factory",
@@ -282,31 +284,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "94ace283ac879e07",
-          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
+          "id": "270fe4a3f365ac9f",
+          "title": "スーパーマーケット型クレーンゲーム「クレーンマート」が愛知県に初進出",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEeEJGaXpmZ2oycWdXNVpxUzdyZm1nTldXa0laeGtCMEZYZnNsTHJZWUtBWktEQ0xZZnBEUlo4QkdUWllaTFZlZ19BaTRkWm14ZkVNVW5WaXBmMTVRc2dsaXg2SGVEUk9NSkE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-01T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ba98a553caf26756",
+          "title": "ロピア、コスモス薬品／宮崎県都城市に「都城早水複合商業施設（店舗面積3355m2）」27年2月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vVWJDNmZ6X2ZEdGtWanJpWkwzeEFIbGNPS2Q0RDVwcTBELV9Eb0pTTzktdFNrc3RrV3luQUZCZW1qbzlhU1RTT1RKZTZGUHJWa0lwakJR?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-07-23T07:00:00Z",
+          "published_at": "2026-07-28T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6def167432cca401",
-          "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」1階スーパーマーケットは「ライフ」に決定！12月上旬に先行オープン",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BZFBhYWtJOHZBTVJTVnRZV1h5aFU0c2kwTzV2Y2tzVk5peVFWWi10OS1ncXd6U19uU183Wk5CWFoyZmxEamhSdVBhWFllYVVpS2VPMFphRXpaNzlXZDVJWUo1ekVwWDVxOUE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-21T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ef33c65ae6b5c2dc",
-          "title": "【角上魚類】新潟・豊洲からの鮮魚を届ける“流通の心臓部”へ出店！新店舗「鶴ヶ島店」、8月20日（木）オープン！ 関越道と圏央道が交わる自社流通の重要拠点で、圧倒的な鮮度の「市場型店舗」を展開！",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuUGFaMTFWVWFhcGdzaFZZRjJ0RnNpalBKMjhiaEcwaldra2h3TzFiNzlJaldZVGxVOHNuaVYtMjZiOG16WUVrSU12UTlqTy0xckJweEE2cFBlWDBhTllKRDFpSV9meklUZFE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-21T07:00:00Z",
+          "id": "5274f63858428bf4",
+          "title": "コスモス薬品／宮崎県・福岡県に「ドラッグコスモス」計2店舗、27年2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QaTdhSGhWTERsa2ptZ2VJaDdPN0dXS2dXLW5QMHd2Mkswa1pYaDFVRTE5V2VldlV6UDRhTDFQdzJFSnVBVENLNFVUcDJsNHpjbEdQYTBB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-24T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -320,7 +322,7 @@
           "id": "4180320d0efa326b",
           "title": "EUへの輸出は、厳格な包装基準を遵守しなければならない。",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaTcxblduOWlVUVpobHhtTXJIc1U1cEVXMEVoUndnQjdGaXo4YnVETFZ0Y3UyNGVlcXFxYTN3WG82QXZWb0dBdDhRU1dhSFVjVF9SMlM5M0JnVTEtRHJPdkt4RzRNQUQxNHVrWkZyMXJSY2dIcGNzOHlaZFozTGhzOENFd3JnRTV3VU9Uc3RqOVY?oc=5",
-          "source": "Vietnam.vn",
+          "source": "vietnam.vn",
           "published_at": "2026-08-17T05:18:15Z",
           "language": "ja",
           "category": "regulations",
@@ -330,18 +332,8 @@
           "id": "899cd0b710aea772",
           "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
-          "source": "Vietnam.vn",
+          "source": "vietnam.vn",
           "published_at": "2026-08-12T06:35:04Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e75af2b3c38972e5",
-          "title": "食品安全法（改正）：サプライチェーン全体における食品管理の強化。",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeFVIdTY2aHozVmF3OTVJXzl0NHFxV0w5M0p4T3BuUk9aQkVyamFSS2JuQVdQb3JXVFR0TDJwT0NJREVDVkdxVjhIcFg0eGVmVWtxTXlVUVpLNmxySVkxalVuWlNXZWR3UUtSSEFneGwydTZXWjFEYUF5aXBzamVDeUFQTjdyNXh6N0NOQW1tWWVKcno5QkFqZkNuSQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-08T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -377,6 +369,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "e75af2b3c38972e5",
+          "title": "食品安全法（改正）：サプライチェーン全体における食品管理の強化。",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeFVIdTY2aHozVmF3OTVJXzl0NHFxV0w5M0p4T3BuUk9aQkVyamFSS2JuQVdQb3JXVFR0TDJwT0NJREVDVkdxVjhIcFg0eGVmVWtxTXlVUVpLNmxySVkxalVuWlNXZWR3UUtSSEFneGwydTZXWjFEYUF5aXBzamVDeUFQTjdyNXh6N0NOQW1tWWVKcno5QkFqZkNuSQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-08T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "ce888d556de3b273",
           "title": "道洪蘭大臣：食品安全法の改正は、実際的な要件を満たし、国民の健康を守るものでなければならない。",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdkcySXRuQ0V3QW1qWWJpakRHUVcwaUdNQVEtVk9DN25kNDRGQTExcFQ5Zi1NYXZOU2hHX1FhT2FQUVFhS1JaUkxGQTJmWmJ4b0FwbE5RSV9ZQWR5NXA1amFYZWszZ0xJZHVndEJ1cm1sS1l2cVZHdV85bncwN2tBTjBLdkVuelJ1TUhneXRlQ2JGa0ZDT1dzc3BmUDYyU01qV1BsZ1lDQWNqNlV1OFN0ZGdFckVOaHIyWE9wV0pOT1ozSmpFWnhnN3JqNFI?oc=5",
@@ -389,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-19T01:56:54Z",
-  "last_success_at": "2026-08-18T19:01:57Z",
-  "consecutive_failure_count": 1
+  "last_attempt_at": "2026-08-19T07:10:27Z",
+  "last_success_at": "2026-08-19T07:10:27Z",
+  "consecutive_failure_count": 0
 }
