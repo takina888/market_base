@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-19T07:10:27Z",
+  "generated_at": "2026-08-19T13:14:51Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,6 +18,46 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-19T07:57:59Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "37aa9ce55d1b3417",
+          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-19T07:33:43Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2deb2c0ef157beaf",
+          "title": "ICC所長へ米制裁 外務省「残念」",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGQ21vZmRhdl84bTlfQXFzOU0zLUEzZEQ5bENjT0xrN1dlb1JSbmJJaGhLeERYcE40czZsdUFYNTBMU29DZFhxelBseGJ5MTVh?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-19T07:28:58Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "bc5e80cf257f3a5d",
+          "title": "世界経済見通し（日米欧亜・2026年8月） @@@metain fo__subtitle@@@ | 新家 義貴 | 第一ライフ資産運用経済研究所",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQd1puM2ctcDNJczNsdzhPTUNLX0VDUDQ0R3E4SlNTWm9BeEdmcm9MS21sU0l0cFZtc1l3ajhON2tMSUNveTd4Y1BNQnNVWUJzcDJ1X0hxQ3VSRkE?oc=5",
+          "source": "dlri.co.jp",
+          "published_at": "2026-08-19T07:27:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "47ca560e1ad8af49",
           "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
@@ -39,51 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-19T04:58:43Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "c2d471538f720f33",
           "title": "2026年度第1回グローバル萩海外留学奨励賞・グローバルリーダー認定証授与式を開催しました",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAwQXVld0xWcXhvNFJPakRuRl9hUlo5cGQ5RWRTX0Fua2JDclRpTkVQSlBLSW9iNFNHNWlvdXQ2bTV1RUpJc0dGc2ltMUlLUXVDc2pabjRZQmczMU8tMDc4RWdXbGlHSUxuY3VLU0RUSnhsdHF0?oc=5",
           "source": "tohoku.ac.jp",
           "published_at": "2026-08-19T04:30:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8cb9f92032360159",
-          "title": "【御案内】9/16(水)開催 J-PEAKS WEEK ELSIセンター・国際シンポジウムについて",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95WXR1dGxJWWZIVGdRZTZJVDdGUW1KWFl6V2tTemxqYWxmSy1tdEtGNDFLQ3RYSnFNd3R4TWFHbDVyZkpfYXNXc281SHpRQUZrQ05KQlB4N21GVk9vMFE?oc=5",
-          "source": "niigata-u.ac.jp",
-          "published_at": "2026-08-19T03:37:38Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c0d947c3c97d1c7d",
-          "title": "シェアの会（８月）「日本の赤十字国際委員会（ICRC）のお話 ～皆さんの質問にお答えします～」",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KNDE5SEUyZmg0LXZFdzIxTDhiQVVCVEc3cllvUWVsZzFpM0h6UlpfaE00YkRyVGt0R1kxV0ZYNmphYVpaUU4wbUVVMW1PeWZKQlBINnJkTjRvcWlLQ0ZHTFhfVVh5SDFlOHJQSGxFdFBiR3hwTTdkUXUzbXUtUkU?oc=5",
-          "source": "日本赤十字社",
-          "published_at": "2026-08-19T02:17:35Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "85e4b12eac5f10ea",
-          "title": "中学生が「国際理解」と「平和」について考えました！",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XMFBraV9kVDJkamUyeVdmV3Jkc0FLbDBRTUxGeDgyOWVZNmRnc2p0N1NrMWppR2lBQ0Y5VGR6ZzdOdWgyVGVIWE5IaUdhZjQwUWNKbDJKTkJsaFRwcmFndjFhQ0RkQl90MGlJdXp0LUdQZEk?oc=5",
-          "source": "日本赤十字社",
-          "published_at": "2026-08-19T02:04:54Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -93,16 +93,6 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
-        {
-          "id": "05cf05b47710b11c",
-          "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-16T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "4180d1106bcbc393",
           "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
@@ -162,6 +152,16 @@
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "361943967e0ca83e",
+          "title": "アネスト岩田、「FOOMA JAPAN 2026」に出展し新型オイルフリーコンプレッサを発表",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZNEpscFpFWmFDY0ZzS2NOZFZOWHp3c2JWMHRiYWpNZGw1SnI3U0dUbFNQTlpUdFl6MU9aczFrSHBJWWI3QXhuaEF4MlY5OFV0SUpuRTFNQ0RLZTZ4MmpMd1h6a3AxVDVXT3c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-01T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -192,7 +192,7 @@
           "id": "b132578f8b996311",
           "title": "食品工場の粉体計量工程へのロボット導入―AMRと多関節ロボットによる完全自動化の実現―【食品と開発8月号技術紹介】🔒",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QRHJvbTFsR3RlOEdIejlOMGxVYjYzbUlRMF9XLUVCcU9CWnlSUDNhZnNwc1Yzc2VTUW4yWDFsMUFualpjVzRFQWhBcGtjcW90SXNOM1ZWOXc?oc=5",
-          "source": "kenko-media.com",
+          "source": "健康メディア.com",
           "published_at": "2026-08-13T23:33:58Z",
           "language": "ja",
           "category": "food_factory",
@@ -243,16 +243,6 @@
     "retail": {
       "label": "小売店",
       "articles": [
-        {
-          "id": "5a97fe8078d75f26",
-          "title": "スガキヤ／10月、神奈川県に2店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBOWZLaWNJdlRmd0poWUVseUxOeEtjM1BmWTRhUTV5UTM2aFAtMFlOOVhuNmZLUzl2d3dZSlViTnFHd1dNMnk2Z0J4b1dzQ29PcXc0Sg?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-17T05:31:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "bebc12c2d13b4fff",
           "title": "コジマ×ビックカメラ／26年下期、イオンモール伊達に新店舗オープン",
@@ -312,6 +302,16 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "94ace283ac879e07",
+          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-07-23T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -322,7 +322,7 @@
           "id": "4180320d0efa326b",
           "title": "EUへの輸出は、厳格な包装基準を遵守しなければならない。",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaTcxblduOWlVUVpobHhtTXJIc1U1cEVXMEVoUndnQjdGaXo4YnVETFZ0Y3UyNGVlcXFxYTN3WG82QXZWb0dBdDhRU1dhSFVjVF9SMlM5M0JnVTEtRHJPdkt4RzRNQUQxNHVrWkZyMXJSY2dIcGNzOHlaZFozTGhzOENFd3JnRTV3VU9Uc3RqOVY?oc=5",
-          "source": "vietnam.vn",
+          "source": "Vietnam.vn",
           "published_at": "2026-08-17T05:18:15Z",
           "language": "ja",
           "category": "regulations",
@@ -332,7 +332,7 @@
           "id": "899cd0b710aea772",
           "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
-          "source": "vietnam.vn",
+          "source": "Vietnam.vn",
           "published_at": "2026-08-12T06:35:04Z",
           "language": "ja",
           "category": "regulations",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-19T07:10:27Z",
-  "last_success_at": "2026-08-19T07:10:27Z",
+  "last_attempt_at": "2026-08-19T13:14:51Z",
+  "last_success_at": "2026-08-19T13:14:51Z",
   "consecutive_failure_count": 0
 }
