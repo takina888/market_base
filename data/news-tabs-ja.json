@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-20T13:16:14Z",
+  "generated_at": "2026-08-20T19:06:14Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,21 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "6034725c8abc0cb3",
-          "title": "『マツコの知らない世界』婚活企画 相手の年収“5000万円”以上希望の女性に反響集まる→本人が反応「かなり大荒れしてる」",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VX3RuZU9Cc0hDX1hnUk41UFEybVJydFBKTzVlSC04NWFDRndtc0pBSFpyeVRpcXRsbFgwbXJYU29USjFZTE1wVWlSck1DZ0c0bURFN0U5NVZVRnVqbzRwdjdXY2ZDd0dfYktwSXFOWDZUanJWLUhGX1Q2WUdVaEE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-20T12:10:02Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-20T17:03:40Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e610dffac98cca07",
+          "title": "寺社の水景で交わるカエルと人の世界―目視・鳴き声・環境DNAで探る―",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE84cFEzanZGREZrMTRtdl9tZmh5VUJXSjR2NzE1MGQydXQ4MWxLNmIxVVVsZWRIVnJkZHhOLWFOZDVUZ3FpVkV4cHRrVl9GY21wdnJCNEVteng1Z1MyRzVzWmpxdHI5Zw?oc=5",
+          "source": "京都大学",
+          "published_at": "2026-08-20T12:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -33,7 +43,7 @@
           "title": "米国の国際司法裁判所（ICC）関係者への制裁措置に対する日本政府の毅然とした外交対応を求める声明",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6OHE3WTFZTWtvOFlENmZUeHN5cDdybXRhYWJCb25qMW9CaVNEZFM0ZEJJVi03bUIyaGlsTTAzVVVmLWxPd3ktRW81S09HZXBLNjVwZjJGN0ZtaEY3?oc=5",
           "source": "新・国民民主党",
-          "published_at": "2026-08-20T08:25:56Z",
+          "published_at": "2026-08-20T08:29:02Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,31 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "6034725c8abc0cb3",
+          "title": "『マツコの知らない世界』婚活企画 相手の年収“5000万円”以上希望の女性に反響集まる→本人が反応「かなり大荒れしてる」",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VX3RuZU9Cc0hDX1hnUk41UFEybVJydFBKTzVlSC04NWFDRndtc0pBSFpyeVRpcXRsbFgwbXJYU29USjFZTE1wVWlSck1DZ0c0bURFN0U5NVZVRnVqbzRwdjdXY2ZDd0dfYktwSXFOWDZUanJWLUhGX1Q2WUdVaEE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-20T04:50:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "bd8ad9f09b6af0a6",
           "title": "9/19 “世界ゴリラの日”にちなむイベント「ゴリラクエスト～森の未来2026～」の参加者を募集します（9/3締切）",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LQkxndkctdVpVTE8wVzBBTzBpMExnWDFYTFVOaVRzeS1DN19mWUg2dHFUay1kSy0tUmpYVzNVRnFyckdFNE5FMUFaWFdRZmtsa1RxZUROY0JsTWt4WnlNZ2Rn?oc=5",
           "source": "tokyo-zoo.net",
           "published_at": "2026-08-20T04:41:07Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1d30cc4a923328d2",
-          "title": "萩の世界遺産ビンゴラリー2026の開催について",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SVnA5dGIzYWhLdlJsSnh1UWtic2l4YVpHWkx6eTJINmllV0FPOEgtd1d5azNYUEV6RkV0UnNKclQ4WW9VaG9mbjFFT0ZaQUNXbGdBUkxKOGpmMVcyaXZz?oc=5",
-          "source": "city.hagi.lg.jp",
-          "published_at": "2026-08-20T04:34:28Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6db9ae8432623160",
-          "title": "世界人道デー",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEODROUWJLN1psWm1ya0IxWGFyWGxod3lWVEc3WEJtaDVqTE92aHhvUmtEbmZfVWJBNGZMQVdUdXo0Ukh0bzVYOEdtWi15YXZNVWRUajJvVDg5eWEyS3pLR3ZzYlh5UjZjUDZSbFRUSkxPUTFFZldYMEZB?oc=5",
-          "source": "La France au Japon",
-          "published_at": "2026-08-20T04:09:47Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -209,16 +209,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "fdf4111e3bd47dbf",
-          "title": "食品工場のAI化、次に伸びるのはどこ？ 特許から見えた「3つの有望領域」と日本企業の勝ち筋",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90RjJVdXA5V25yZXk5N2NWbUhxMnVEemphWjA1cEtxdmMtY19LVlJyUFdBSDA1dk9renhCekxuT1cwenJCV0t5TVpLOA?oc=5",
-          "source": "DXマガジン",
-          "published_at": "2026-08-12T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "5a015c34f98856db",
           "title": "いかに名店の味を再現？ 三井不動産が手掛けるプレミアム冷食の製造拠点公開：工場ニュース（2/2 ページ）",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
@@ -237,12 +227,32 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "df5032e43e049da4",
+          "title": "もやし工場で「わさび」生産 食品工場内に栽培モジュール導入し高付加価値化へ新モデル始動",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY19GNjlvZ0FzVmlqN281VUlfWXRNdjNyTWtFM0NQTGM4bU44czJJWDFzSWxVeWFLSVJ2Y3M3UjJvNWhMQ2R6bXR1bTM2X1Vqak5SUDV2YTV5VmJCZUU2d2UxcHNqUXhVczhkWFJpd3E1UWlMSVNZaWNfMEJsWGxSWDFueFIwdw?oc=5",
+          "source": "projectdesign.jp",
+          "published_at": "2026-06-02T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "735893c68c58cf24",
+          "title": "ベイシア／千葉県八千代市に「（仮称）八千代市緑が丘店（店舗面積3896m2）」27年2月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BaEFYUlN3OVk0bWJ1dmlNcnBwVVY4aUJJNkJ1SmRuUHhTSDI5dWdSZGNWRXpPUjdhd1hYVENDSERhNzUyYmFRWHhHbUZNdlJmMkg4MXVn?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-20T01:32:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "bab577c1dc0cc988",
           "title": "資さんうどん／都内5店舗目「奥戸店」9月7日オープン、葛飾区に初出店",
@@ -299,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEeEJGaXpmZ2oycWdXNVpxUzdyZm1nTldXa0laeGtCMEZYZnNsTHJZWUtBWktEQ0xZZnBEUlo4QkdUWllaTFZlZ19BaTRkWm14ZkVNVW5WaXBmMTVRc2dsaXg2SGVEUk9NSkE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-01T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ba98a553caf26756",
-          "title": "ロピア、コスモス薬品／宮崎県都城市に「都城早水複合商業施設（店舗面積3355m2）」27年2月20日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vVWJDNmZ6X2ZEdGtWanJpWkwzeEFIbGNPS2Q0RDVwcTBELV9Eb0pTTzktdFNrc3RrV3luQUZCZW1qbzlhU1RTT1RKZTZGUHJWa0lwakJR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-28T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-20T13:16:14Z",
-  "last_success_at": "2026-08-20T13:16:14Z",
+  "last_attempt_at": "2026-08-20T19:06:14Z",
+  "last_success_at": "2026-08-20T19:06:14Z",
   "consecutive_failure_count": 0
 }
