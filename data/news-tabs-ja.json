@@ -1,57 +1,79 @@
 {
   "schema_version": 2,
-  "status": "stale",
+  "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-19T18:58:09Z",
-  "successful_categories": [],
-  "retained_categories": [],
-  "failed_categories": {
-    "regulations": "HTTPError: HTTP Error 503: Service Unavailable",
-    "food_machinery": "HTTPError: HTTP Error 503: Service Unavailable",
-    "food_factory": "HTTPError: HTTP Error 503: Service Unavailable",
-    "retail": "HTTPError: HTTP Error 503: Service Unavailable",
-    "overseas": "HTTPError: HTTP Error 503: Service Unavailable"
-  },
+  "generated_at": "2026-08-20T01:54:58Z",
+  "successful_categories": [
+    "regulations",
+    "food_machinery",
+    "food_factory",
+    "retail",
+    "overseas"
+  ],
+  "retained_categories": [
+    "regulations"
+  ],
+  "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-19T07:57:59Z",
+          "id": "0858432177116757",
+          "title": "[インフォパック] 洋上風力発電の動向2026：世界と日本における現状 | 報告書・提言",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84YzFTX2ZTZmtuSWRVU20zcWVlTE5FdVE0Q0hrTGZIN0hvbHhlc3N2T1ZVUUZJdzdnRlhpR3ZsUmRwVjRuUDlVeWhHYjIzT2t1TjRkWmt6TUdvMy1vWThfSVBoTDBLVnNCekhjNw?oc=5",
+          "source": "自然エネルギー財団",
+          "published_at": "2026-08-20T01:15:07Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "37aa9ce55d1b3417",
-          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-19T07:33:43Z",
+          "id": "0088d987f3aa1fd1",
+          "title": "【9月18日(金)】先端産業国際ラボラトリーMiU第37回ワークショップ開催のご案内",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51Wk1kc2FVZjBpTXA0VWRtVFMyZU1lbjNtN3pRQV9fOU1mdHhSTHhyMFFRNXpQMGhrQkxaZmNZR2V1ZEhDQXY1V2pFTTFsQ18xN2F0SE85bnlyRmduSTRQNk82dzZTanJobXF1OFhjTQ?oc=5",
+          "source": "saitama-u.ac.jp",
+          "published_at": "2026-08-20T01:14:33Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2deb2c0ef157beaf",
-          "title": "ICC所長へ米制裁 外務省「残念」",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGQ21vZmRhdl84bTlfQXFzOU0zLUEzZEQ5bENjT0xrN1dlb1JSbmJJaGhLeERYcE40czZsdUFYNTBMU29DZFhxelBseGJ5MTVh?oc=5",
+          "id": "3e9ea78b09f22c14",
+          "title": "日本発スタートアップの海外展開を支援「KDDI Beyond Borders Accelerator」開始",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ncnA3cFRSM3IzX0c2NmFrZElwSl9Sck9pdjhRZ3ZkbHhsV0hxTU9pbUctMTNqbWNheTNyUGR6T2UwLUtYYzJhcTVhYU5jRm9SdDFXVGhSTGMzRFdoZmZpUDNYWk9Lc2NIclJ6eQ?oc=5",
+          "source": "KDDI ニュースルーム",
+          "published_at": "2026-08-20T01:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "53c9c39fbc9975ea",
+          "title": "たふえねインタビューシリーズ「地域の声で紡ぐ世界」 | 学生による広報活動 | 広報活動 | 大学案内",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rcUFDWTFNMmthbEJpeDJuZDdfaUtRYlA2T3U2M193eUphMHlmRFNRR1VfVHdLR0RUSjdKOFRYNndsQXJfZ1Uza203MnBYb3dIYUQ5eE5DSWhDcFMxcmVtbmVGMXBmeHRtalE?oc=5",
+          "source": "tufs.ac.jp",
+          "published_at": "2026-08-20T00:14:06Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6c04c6e096469c41",
+          "title": "ICC所長らへの米制裁 相次ぐ非難",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9oam90cFNqakt2ZmF1TkhoV0RQY0xtbmZpZlBvYWlmdzM0MWw3TEZyOWtuQTBSVS1RbWVpWUZMd203LTAyNENpMzh6THJZOEZh?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-08-19T07:28:58Z",
+          "published_at": "2026-08-19T21:28:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "bc5e80cf257f3a5d",
-          "title": "世界経済見通し（日米欧亜・2026年8月） @@@metain fo__subtitle@@@ | 新家 義貴 | 第一ライフ資産運用経済研究所",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQd1puM2ctcDNJczNsdzhPTUNLX0VDUDQ0R3E4SlNTWm9BeEdmcm9MS21sU0l0cFZtc1l3ajhON2tMSUNveTd4Y1BNQnNVWUJzcDJ1X0hxQ3VSRkE?oc=5",
-          "source": "dlri.co.jp",
-          "published_at": "2026-08-19T07:27:00Z",
+          "id": "2c2b57a463abb519",
+          "title": "「GREEN×EXPO 2027」国際参加者会議（IPM）のエクスカーション・夕食会を運営",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RSlI3dER3TjRoRk5hOGszUERMeFV2RThBeUZEVE1BczZCX3RZaHJCeklwTFFMNXYtQzRMa3ZGZEY0UUxWSFRFS0JJQjNpb25p?oc=5",
+          "source": "株式会社コングレ",
+          "published_at": "2026-08-19T20:51:22Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -61,27 +83,7 @@
           "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-19T05:35:31Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9740707052de91e9",
-          "title": "映画『ママがもうこの世界にいなくても 私の命の日記』とタイアップ！",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMnM3bnR3MHBVeDJKcmFVelo2WlZvbUNHS0V4SXhRNDZaeWtqaGlTQWhmanZiRFZrSHc1RVVMT0VaWEFkeDlReUtkWmZhWjlfRXl3cGVaVHBrUjQ3LXJHTXNTUFNSRXJWSFJDMGZfSkZ5TFM5NTJxa0ViOHdIeFhISTdtWUpjdXdE?oc=5",
-          "source": "mhlw.go.jp",
-          "published_at": "2026-08-19T05:13:53Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c2d471538f720f33",
-          "title": "2026年度第1回グローバル萩海外留学奨励賞・グローバルリーダー認定証授与式を開催しました",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAwQXVld0xWcXhvNFJPakRuRl9hUlo5cGQ5RWRTX0Fua2JDclRpTkVQSlBLSW9iNFNHNWlvdXQ2bTV1RUpJc0dGc2ltMUlLUXVDc2pabjRZQmczMU8tMDc4RWdXbGlHSUxuY3VLU0RUSnhsdHF0?oc=5",
-          "source": "tohoku.ac.jp",
-          "published_at": "2026-08-19T04:30:00Z",
+          "published_at": "2026-08-19T20:42:26Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -200,7 +202,7 @@
           "id": "fdf4111e3bd47dbf",
           "title": "食品工場のAI化、次に伸びるのはどこ？ 特許から見えた「3つの有望領域」と日本企業の勝ち筋",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90RjJVdXA5V25yZXk5N2NWbUhxMnVEemphWjA1cEtxdmMtY19LVlJyUFdBSDA1dk9renhCekxuT1cwenJCV0t5TVpLOA?oc=5",
-          "source": "DXマガジン",
+          "source": "dxmagazine.jp",
           "published_at": "2026-08-12T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -241,6 +243,26 @@
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "bab577c1dc0cc988",
+          "title": "資さんうどん／都内5店舗目「奥戸店」9月7日オープン、葛飾区に初出店",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95Rk9jYnloZXhfMElmaGxyZzI2R1Y5c0JHekNROGF5d2hqZTVRWko2aTMyMEl2VDMxRGdBUGs4Ti1yeF9fZ3FBblZVWUV0UnNvY1cwQQ?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-19T02:53:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5a97fe8078d75f26",
+          "title": "スガキヤ／10月、神奈川県に2店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBOWZLaWNJdlRmd0poWUVseUxOeEtjM1BmWTRhUTV5UTM2aFAtMFlOOVhuNmZLUzl2d3dZSlViTnFHd1dNMnk2Z0J4b1dzQ29PcXc0Sg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-17T05:31:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "bebc12c2d13b4fff",
           "title": "コジマ×ビックカメラ／26年下期、イオンモール伊達に新店舗オープン",
@@ -287,26 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vVWJDNmZ6X2ZEdGtWanJpWkwzeEFIbGNPS2Q0RDVwcTBELV9Eb0pTTzktdFNrc3RrV3luQUZCZW1qbzlhU1RTT1RKZTZGUHJWa0lwakJR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-07-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5274f63858428bf4",
-          "title": "コスモス薬品／宮崎県・福岡県に「ドラッグコスモス」計2店舗、27年2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QaTdhSGhWTERsa2ptZ2VJaDdPN0dXS2dXLW5QMHd2Mkswa1pYaDFVRTE5V2VldlV6UDRhTDFQdzJFSnVBVENLNFVUcDJsNHpjbEdQYTBB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-24T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "94ace283ac879e07",
-          "title": "カスミ、ミスターマックスほか／茨城県つくば市に「つくば市陣場複合施設（店舗面積5342m2）」27年2月9日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmZXpwYVhreEhFZkh2dHotUkdoOTdPTkhrZ0w5cXRLZ0pqLXdnVEpSUnZVNFRWbnppSVVJZDFnX0w5eVA0T1lVRVZaZzhPeUFILWxHZzhB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-07-23T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -389,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-19T18:58:09Z",
-  "last_success_at": "2026-08-19T13:14:51Z",
-  "consecutive_failure_count": 1
+  "last_attempt_at": "2026-08-20T01:54:58Z",
+  "last_success_at": "2026-08-20T01:54:58Z",
+  "consecutive_failure_count": 0
 }
