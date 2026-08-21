@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-21T07:12:24Z",
+  "generated_at": "2026-08-21T13:16:14Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,11 +29,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "396eadd05c84263e",
-          "title": "ベトナムが海外不法滞在の罰則強化へ 来月10日の施行前に日本の入管に出頭者増える（テレビ朝日系（ANN））",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85Uks4RS1ZOUpYMWdIcTM3elQybVdNaUk5TzlVZEhIdnM3OXhveHRfYjhIbDZUWVMxeHF0UEN4VVluZGxZRWZWODBzR0s5dkdKMnlwejktWmt5c0MzOHhMSWkwVXFXRE90QkE4VEtaeWMxTFhzWUpNNlZFY05HUmc?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-21T06:09:13Z",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-21T08:56:01Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -43,7 +43,17 @@
           "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-21T05:06:35Z",
+          "published_at": "2026-08-21T08:07:26Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "396eadd05c84263e",
+          "title": "ベトナムが海外不法滞在の罰則強化へ 来月10日の施行前に日本の入管に出頭者増える（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85Uks4RS1ZOUpYMWdIcTM3elQybVdNaUk5TzlVZEhIdnM3OXhveHRfYjhIbDZUWVMxeHF0UEN4VVluZGxZRWZWODBzR0s5dkdKMnlwejktWmt5c0MzOHhMSWkwVXFXRE90QkE4VEtaeWMxTFhzWUpNNlZFY05HUmc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-21T04:00:36Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -53,7 +63,7 @@
           "title": "【献血×国際協力 イベントのご案内】ルワンダ産コーヒーを味わいながら、世界とつながる献血を",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrbTVVemYySlo4aE9WZWhyazBPVzZjSDZ2VEtJQ0xDOFEwRU8tVGNkNWZDTElZWTJJZk1IRnRUdXBoNFdoVER6cXRMQndlVmwySUJDWkI3VG41V3ZDZHc?oc=5",
           "source": "日本赤十字社",
-          "published_at": "2026-08-21T03:22:30Z",
+          "published_at": "2026-08-21T03:24:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -69,21 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2443b4da4adfd67b",
-          "title": "ディズニーストア オリジナル自動販売機が成田国際空港に登場！＜ディズニーストア＞",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKbVpBVVUwSjVJZzE1NEVuNFN1eEp0Z3RXaEFNdVAtX0phZ3lTRkVIOWlUUzY2aXRJTXNLeGFhM0gzdklUVEZkSGxkaVhqZHBzangtUU5FbXFCUFZfWXlnNVZ1UHpueTFtVWhsbGw4OA?oc=5",
-          "source": "Disney.jp",
+          "id": "ca62fd70faedf4b5",
+          "title": "イギリス王室ゆかりの海外名門校が和歌山に 全寮制で学費は年間８００万円超 選ばれた理由はセーリングに便利な立地？",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4M3lOYWVyR2lUNTBNLWROU2RzV1RORmUzaEZIVy1Uclc4TGpSRlhtOHJsWExNRjJqUmduUkJLUTlBa1Vscl8yMXpUeDVqN0NsZkpmWEd1RWNjRWRFaFlTcWlTal9veHF6MmhMeW5UZURoYllxeWpoSC1fOVYwOVk?oc=5",
+          "source": "Yahoo!ニュース",
           "published_at": "2026-08-21T00:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f3f9cedd81765c98",
-          "title": "「え、もう終わり？」40代タイミーおじさんが「ごみ収集」で体験した〈まさかの結末〉",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9hV0JWREpudC1yRkNEWHpCSi1QanlyX2tZWUN4U2ZUMWdDNzZ6SklWLUdvTHo4VzdlTzhFRTBSYlk3TjRnWGpteTVfQlXSAU9BVV95cUxPdElScUJVNXhybmdnQ0hjeHdpZmhDdkNkdFdxM21XQ3hEWkpOOVpGMEJIMXRMSklvRXdpV19tM3RqcDFkT2ZmVXYwU0E0eVow?oc=5",
-          "source": "ダイヤモンド・オンライン",
-          "published_at": "2026-08-20T21:01:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -169,6 +169,16 @@
       "label": "食品工場",
       "articles": [
         {
+          "id": "cbbbd1904db9d4a2",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:44:56Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "6d865337a2a677d3",
           "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
@@ -224,16 +234,6 @@
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "df5032e43e049da4",
-          "title": "もやし工場で「わさび」生産 食品工場内に栽培モジュール導入し高付加価値化へ新モデル始動",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY19GNjlvZ0FzVmlqN281VUlfWXRNdjNyTWtFM0NQTGM4bU44czJJWDFzSWxVeWFLSVJ2Y3M3UjJvNWhMQ2R6bXR1bTM2X1Vqak5SUDV2YTV5VmJCZUU2d2UxcHNqUXhVczhkWFJpd3E1UWlMSVNZaWNfMEJsWGxSWDFueFIwdw?oc=5",
-          "source": "projectdesign.jp",
-          "published_at": "2026-06-02T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-21T07:12:24Z",
-  "last_success_at": "2026-08-21T07:12:24Z",
+  "last_attempt_at": "2026-08-21T13:16:14Z",
+  "last_success_at": "2026-08-21T13:16:14Z",
   "consecutive_failure_count": 0
 }
