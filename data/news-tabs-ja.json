@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-20T19:06:14Z",
+  "generated_at": "2026-08-21T02:01:03Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,71 +19,71 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-20T17:03:40Z",
+          "id": "0aa5f72b9e780680",
+          "title": "国際情勢の緊迫化で揺れる安全保障への意識。18歳意識調査から読み解く若者の戸惑いと現実感",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5FQ1lOc3p1c2QxUWhPdGVwT2FnUVhhLUp3aTdzS3dsZFVBc3J1bzZvQ0szeHBZSVViQmU2YUdVSmNwbGd5SHBaYndhWmdpQ0ZsVHJPMkRQWFhrN1NJZVVxb0FHd0RnUllCQUNLZHE3QlB0a3Atbzk0bmk5QQ?oc=5",
+          "source": "日本財団",
+          "published_at": "2026-08-21T01:01:31Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e610dffac98cca07",
-          "title": "寺社の水景で交わるカエルと人の世界―目視・鳴き声・環境DNAで探る―",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE84cFEzanZGREZrMTRtdl9tZmh5VUJXSjR2NzE1MGQydXQ4MWxLNmIxVVVsZWRIVnJkZHhOLWFOZDVUZ3FpVkV4cHRrVl9GY21wdnJCNEVteng1Z1MyRzVzWmpxdHI5Zw?oc=5",
-          "source": "京都大学",
-          "published_at": "2026-08-20T12:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "37e9505121424180",
-          "title": "米国の国際司法裁判所（ICC）関係者への制裁措置に対する日本政府の毅然とした外交対応を求める声明",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6OHE3WTFZTWtvOFlENmZUeHN5cDdybXRhYWJCb25qMW9CaVNEZFM0ZEJJVi03bUIyaGlsTTAzVVVmLWxPd3ktRW81S09HZXBLNjVwZjJGN0ZtaEY3?oc=5",
-          "source": "新・国民民主党",
-          "published_at": "2026-08-20T08:29:02Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "65e09db70156684d",
-          "title": "クールジャパン機構廃止へ 経産省、予算要求見送り 巨額累積赤字で（朝日新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQbUNOSWs4dmZlUkFJTDJmcTBYSWdGSlNRbUlpb3BPOVEtdjlUZlFHam4xLWNrSGs0MnIzcElobW9TSEl0U2JfZXlBZGZBbTNIemxka2p6QjRRek9mQThJU1VuS2dqUndpMU5xZ1dBSk9BNHVJRnhXRTRxa3YzY1k?oc=5",
+          "id": "ca62fd70faedf4b5",
+          "title": "イギリス王室ゆかりの海外名門校が和歌山に 全寮制で学費は年間８００万円超 選ばれた理由はセーリングに便利な立地？",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4M3lOYWVyR2lUNTBNLWROU2RzV1RORmUzaEZIVy1Uclc4TGpSRlhtOHJsWExNRjJqUmduUkJLUTlBa1Vscl8yMXpUeDVqN0NsZkpmWEd1RWNjRWRFaFlTcWlTal9veHF6MmhMeW5UZURoYllxeWpoSC1fOVYwOVk?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-08-20T08:00:00Z",
+          "published_at": "2026-08-21T00:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "07c75076bdacdf20",
-          "title": "世界初、燃料電池・水電解の材料を「動かしながら丸ごと診る」専用ビームラインをSPring-8-IIに建設します",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkNkZEOGRCOXAtRHVVZHFwdTgyUmVYMnJpU0RLVlFyQnl1STFBZWt5VnplUlUyblktUXFSX2xpXzFjOGtDcU1lS21ZaE9DMlJraHpVSnY3aFpkb1h3WFE?oc=5",
-          "source": "nedo.go.jp",
-          "published_at": "2026-08-20T06:40:24Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6034725c8abc0cb3",
-          "title": "『マツコの知らない世界』婚活企画 相手の年収“5000万円”以上希望の女性に反響集まる→本人が反応「かなり大荒れしてる」",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VX3RuZU9Cc0hDX1hnUk41UFEybVJydFBKTzVlSC04NWFDRndtc0pBSFpyeVRpcXRsbFgwbXJYU29USjFZTE1wVWlSck1DZ0c0bURFN0U5NVZVRnVqbzRwdjdXY2ZDd0dfYktwSXFOWDZUanJWLUhGX1Q2WUdVaEE?oc=5",
+          "id": "557deeb4568549c7",
+          "title": "「最高峰の国際資格」に合格した加藤紀子 作業にいそしむ53歳の近影 畑仕事でもマジカル美貌",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5EcFcxSFVKOHhVR01MZlF3NmwzZjhyM1BxSEx1QmcxX1JuamxpQjJoSW81N3pQX1hiQVYwYkdoMUowQWpjb2JtNHBlRE1XdlBQYjVOMXljdS0tQVVZM19BblZlMkFGWlJ4eDE4dWNHNVdhWnNrMlY0NjZBSjJpVTQ?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-08-20T04:50:00Z",
+          "published_at": "2026-08-20T22:31:33Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "bd8ad9f09b6af0a6",
-          "title": "9/19 “世界ゴリラの日”にちなむイベント「ゴリラクエスト～森の未来2026～」の参加者を募集します（9/3締切）",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LQkxndkctdVpVTE8wVzBBTzBpMExnWDFYTFVOaVRzeS1DN19mWUg2dHFUay1kSy0tUmpYVzNVRnFyckdFNE5FMUFaWFdRZmtsa1RxZUROY0JsTWt4WnlNZ2Rn?oc=5",
-          "source": "tokyo-zoo.net",
-          "published_at": "2026-08-20T04:41:07Z",
+          "id": "9dea3e83d3cd5328",
+          "title": "【ラスト・サバイバー】世界で活躍する名優・國村隼さんがリドリー・スコットへの想いを綴る特別映像解禁！",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52ZUpHTi04TW5FM29NSkt1ekdPVV9lbmhzVTMtdHg5ZGl4UjhxLWp5OTNkZkJIMWZtalRCTS1GY1hteW5ndnU4WEVHNVRlNk9ubTVWWEM0V1BTMXpzdnlmZFVoWGNHN0pkOGp2NE1hX21XdlRyZ2hYa1U3cw?oc=5",
+          "source": "20世紀スタジオ公式サイト",
+          "published_at": "2026-08-20T22:00:02Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f3f9cedd81765c98",
+          "title": "「え、もう終わり？」40代タイミーおじさんが「ごみ収集」で体験した〈まさかの結末〉",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9hV0JWREpudC1yRkNEWHpCSi1QanlyX2tZWUN4U2ZUMWdDNzZ6SklWLUdvTHo4VzdlTzhFRTBSYlk3TjRnWGpteTVfQlXSAU9BVV95cUxPdElScUJVNXhybmdnQ0hjeHdpZmhDdkNkdFdxM21XQ3hEWkpOOVpGMEJIMXRMSklvRXdpV19tM3RqcDFkT2ZmVXYwU0E0eVow?oc=5",
+          "source": "ダイヤモンド・オンライン",
+          "published_at": "2026-08-20T21:01:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "66c644c708cac0c2",
+          "title": "〔海外地震〕ペルーでM6.7(8/21)（レスキューナウニュース）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvd3VYT2ZXNjVuRTZiSDdob2ZtZVdBVjZ1MzVLdUZUdGJkT3NBLVBVT3NVRFRWUDlKOFlTRVF5eWJOblpwU1JCM250WmZLUTNTWldIRk9sZWczMVExNkZWemo1SGpmRlctRFhhaVd6cWlRWlhLcXpfWEtMamtQVWs?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-20T18:50:43Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0057e245b62ef636",
+          "title": "【記者の目】「中国のチャンス2.0」が国際的なホットワードになった理由とは",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuVWczbGphRnpCM2pSZ2hvRExSMWlFWVpReEVyY1kwSWZGMUh6TnRrTlpZd3VMUjdFb3RJUXFsdFlxek9qcEdTbGxMczVHU1ByZGpWNkpGQUpsLWpxYTJNZElUdXRmeWVsRWphbQ?oc=5",
+          "source": "日経BP",
+          "published_at": "2026-08-20T15:07:43Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -93,6 +93,16 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "05cf05b47710b11c",
+          "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-16T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "4180d1106bcbc393",
           "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
@@ -152,16 +162,6 @@
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "361943967e0ca83e",
-          "title": "アネスト岩田、「FOOMA JAPAN 2026」に出展し新型オイルフリーコンプレッサを発表",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZNEpscFpFWmFDY0ZzS2NOZFZOWHp3c2JWMHRiYWpNZGw1SnI3U0dUbFNQTlpUdFl6MU9aczFrSHBJWWI3QXhuaEF4MlY5OFV0SUpuRTFNQ0RLZTZ4MmpMd1h6a3AxVDVXT3c?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-01T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -193,7 +193,7 @@
           "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
           "source": "LOGISTICS TODAY",
-          "published_at": "2026-08-20T04:59:31Z",
+          "published_at": "2026-08-20T20:26:15Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -244,21 +244,21 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "735893c68c58cf24",
-          "title": "ベイシア／千葉県八千代市に「（仮称）八千代市緑が丘店（店舗面積3896m2）」27年2月20日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BaEFYUlN3OVk0bWJ1dmlNcnBwVVY4aUJJNkJ1SmRuUHhTSDI5dWdSZGNWRXpPUjdhd1hYVENDSERhNzUyYmFRWHhHbUZNdlJmMkg4MXVn?oc=5",
+          "id": "03ef189a696225f0",
+          "title": "マムート／さいたま新都心「コクーンシティ」に新店舗9月11日オープン、埼玉初出店",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14dVRqT0l0U01BY3hsWjJiSjNkMndRRnNEN3k3c0xiMmREekVpay1NWEFnQWNySnpiSFJmbWhoMERSTkhGejcwX1l2b2gxbnRCMkkwXw?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-08-20T01:32:00Z",
+          "published_at": "2026-08-21T01:15:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "bab577c1dc0cc988",
-          "title": "資さんうどん／都内5店舗目「奥戸店」9月7日オープン、葛飾区に初出店",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95Rk9jYnloZXhfMElmaGxyZzI2R1Y5c0JHekNROGF5d2hqZTVRWko2aTMyMEl2VDMxRGdBUGs4Ti1yeF9fZ3FBblZVWUV0UnNvY1cwQQ?oc=5",
+          "id": "735893c68c58cf24",
+          "title": "ベイシア／千葉県八千代市に「（仮称）八千代市緑が丘店（店舗面積3896m2）」27年2月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BaEFYUlN3OVk0bWJ1dmlNcnBwVVY4aUJJNkJ1SmRuUHhTSDI5dWdSZGNWRXpPUjdhd1hYVENDSERhNzUyYmFRWHhHbUZNdlJmMkg4MXVn?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-08-19T02:53:00Z",
+          "published_at": "2026-08-20T01:32:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-20T19:06:14Z",
-  "last_success_at": "2026-08-20T19:06:14Z",
+  "last_attempt_at": "2026-08-21T02:01:03Z",
+  "last_success_at": "2026-08-21T02:01:03Z",
   "consecutive_failure_count": 0
 }
