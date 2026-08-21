@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-21T13:16:14Z",
+  "generated_at": "2026-08-21T19:02:01Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,21 +29,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-21T08:56:01Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-21T08:07:26Z",
+          "id": "826d57339294f6e6",
+          "title": "【ONE PIECEカードゲーム 最新情報】明日8月22日(土)にブースターパック 世界最強の戦士【OP-17】が新発売！",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHMGR3ZHY5MUZ3Yl9IQWE4TEF4S0JzWkczcGV6aTlqM1pxc2xYT1BGTUVfT0xuekp1M1VIaG9jVkJjTVJUYTZySjlhemZ1cXZQMnhBS1Vn?oc=5",
+          "source": "ONE PIECE.com",
+          "published_at": "2026-08-21T09:09:07Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -74,6 +64,16 @@
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQ3Q4MTl3SUtFQkx3Y0N3NkVBWDhra2xRbjRSN2ZJS0JyYVFGYWVrcmFUTkFlS0JkZm93bTRyaVBmZ1c0NFI0UnBHTmNKYWQ2dHhhQlZzQjBtWVQxWUVzelBHeE1aYnNxRUhPZVp6ZS10ZUVCUEI1SzJJMDRya1lmTlR0QzUwb0FOTGc?oc=5",
           "source": "konan-u.ac.jp",
           "published_at": "2026-08-21T02:13:56Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b972ac5a9e9aab7a",
+          "title": "それＳｎｏｗ Ｍａｎにやらせて下さいＳＰ★ラウール世界一へ…米・ダンス大会出場 [字]",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45VjFIc0NFd3ZXUkZTSGVFV1JFaEk3d1hQa1N4NW1XYkg2SE9uLS12OTFQcnF4MXpXeFAxbzBqVGRXLXh2QW00dnFBclZ1VHN1cTU3X1VR?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-08-21T00:11:42Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -274,6 +274,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "7625e85f05bb1f2e",
+          "title": "コスモス薬品／福島県・高知県・福岡県に「ドラッグコスモス」計3店舗、27年3月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByaGNPQTM4dVlub3Z0cUpfdjRReXhpOWl0S0pEQ1hqa0RRUV9RcDlrNHZYNkQyMmJIYnlmY1dpbkFJTW9rOTBTTWt0NGxQVlpXamlGZDRB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-20T01:31:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "bab577c1dc0cc988",
           "title": "資さんうどん／都内5店舗目「奥戸店」9月7日オープン、葛飾区に初出店",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95Rk9jYnloZXhfMElmaGxyZzI2R1Y5c0JHekNROGF5d2hqZTVRWko2aTMyMEl2VDMxRGdBUGs4Ti1yeF9fZ3FBblZVWUV0UnNvY1cwQQ?oc=5",
@@ -299,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBOWZLaWNJdlRmd0poWUVseUxOeEtjM1BmWTRhUTV5UTM2aFAtMFlOOVhuNmZLUzl2d3dZSlViTnFHd1dNMnk2Z0J4b1dzQ29PcXc0Sg?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-17T05:31:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "bebc12c2d13b4fff",
-          "title": "コジマ×ビックカメラ／26年下期、イオンモール伊達に新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvbVVkRDdtdXJUVHV4TnotN2s3d0dMVnc1OENUc05YS0tPSkRMZDFKT0w2b2lTM1VoX0M1QlpEQ2RveE9BZEhBZERnTG9TTHR6bEdLZg?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-17T04:45:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-21T13:16:14Z",
-  "last_success_at": "2026-08-21T13:16:14Z",
+  "last_attempt_at": "2026-08-21T19:02:01Z",
+  "last_success_at": "2026-08-21T19:02:01Z",
   "consecutive_failure_count": 0
 }
