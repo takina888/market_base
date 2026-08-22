@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-22T13:04:59Z",
+  "generated_at": "2026-08-22T18:52:30Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -304,11 +304,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e9506c8e8e9cc732",
-          "title": "【NEW OPEN】発酵エイジングケア*¹ブランド「FAS」、日本橋髙島屋に8月12日（水）より新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tSEp4cWVjclBZaDhZcURaQjQwZERpVVRrcXp0WXJQUDAzNVY4bmlCQWhaUWk2aGNMOHpfS1dKeHZRaXc0U3JpTzQ5T1Z0OTRCaE5MVURFUUp4enhSRWQ2Z01zc080THBVeGc?oc=5",
+          "id": "270fe4a3f365ac9f",
+          "title": "スーパーマーケット型クレーンゲーム「クレーンマート」が愛知県に初進出",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEeEJGaXpmZ2oycWdXNVpxUzdyZm1nTldXa0laeGtCMEZYZnNsTHJZWUtBWktEQ0xZZnBEUlo4QkdUWllaTFZlZ19BaTRkWm14ZkVNVW5WaXBmMTVRc2dsaXg2SGVEUk9NSkE?oc=5",
           "source": "PR TIMES",
-          "published_at": "2026-08-06T07:00:00Z",
+          "published_at": "2026-08-01T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-22T13:04:59Z",
-  "last_success_at": "2026-08-22T13:04:59Z",
+  "last_attempt_at": "2026-08-22T18:52:30Z",
+  "last_success_at": "2026-08-22T18:52:30Z",
   "consecutive_failure_count": 0
 }
