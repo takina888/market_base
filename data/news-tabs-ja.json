@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-22T18:52:30Z",
+  "generated_at": "2026-08-23T02:03:07Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,6 +18,26 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-22T23:18:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5a07d321a876f8d3",
+          "title": "国際刑事裁判所（ICC）・赤根智子所長の新書が緊急大重版 トランプ政権からの制裁「ある程度予期していた」（オリコン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yN1hmNDRha0RrMEdlVktyaHlscXZ2bUkwNnByQmRyZDV1clFjaUlXUjJBTk9jQzJjaVhDb01JM0VFZ1dRS1ViVnVkT0lBbHRtU21kbFh2M0lFbXJSdVBpdU9lWjlXNGNjdHRVUHZSUURZY3F0NFRISlZwaUpjTlk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-22T21:11:07Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "2b9e259c077f0f0b",
           "title": "カナダは米関税に「同額」で対抗とカーニー首相、貿易交渉が決裂",
@@ -67,42 +87,12 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6192b3d2ea0107e0",
-          "title": "「アイダホ大学広島キャンパス」開校式を開催 ～世界へ羽ばたく半導体人材育成の新たな学び舎が広島に誕生",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kT2NOWGhFZXp3ZFlxZ0p3ZmdGeTlLSnM4a0ZHV2VpaTltS2xBa0ZSYzBCNVJUdjYxeEkwcHpwcDNlc1VRaUticjl2SDRfaTQ0OGpkMXdiTURZR0g1aGJPeHBXVHo?oc=5",
-          "source": "hiroshima-u.ac.jp",
-          "published_at": "2026-08-21T12:53:05Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "27ee57d01e16adf6",
-          "title": "大型客船「パシフィック・ワールド号」が南極航路“世界一周クルーズ”を実施！ 横浜発着で地球規模の自然・文化・歴史に出会える特別な109日間（VAGUE）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mQVltSVUtYzkzUzhFMDJIbHZBZVBUSzFUSGZkV3A1OG5WRXJqQ1VlcUFwTHNISVQ1dzM0SlVxVTNNaEFSYngtamVHWDBhQWZJZE5pdGl5eVpvaWpoNWpMTF8zRGdaWklVRFlkZ3htTllQUHhmX081NzlIX0dKazQ?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-21T12:40:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "food_machinery": {
       "label": "食品機械",
       "articles": [
-        {
-          "id": "a772bd383a2af7eb",
-          "title": "日本盛、大型紙パック充填機を移設",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-16T15:06:10Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "e780d8ff9c3cf320",
           "title": "マスダック、食品機械事業を強化 入間工場新棟で生産能力向上",
@@ -159,6 +149,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nZ3VfdlpFLU55c082RkRNU2c4YXVWMHItbTd0MmVWdGxtcmIybnV3Snh6WGt3ZUVmVlV5R1F3b2d6Z0lqRGFjeW5Pam5ERW5Vc1I1SkpUd0hySkNjb2c3QzFneHF4cndVRmc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-06-03T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "faa2e35019ac503f",
+          "title": "日本食品機械工業会、総会開催 創立80周年見据え国際展開・自動化を加速",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tY21RMVIyY19mRWo4R2Y1RjQxZFNpQ3FZS3U0cFB1R0NVby1ncDJpRFl0OHhrbnMxZGp2ZHdZYUM2SHEySFZVeVpDeURZTWE0akktVDR4bFBFS0xQVnBhQzJaRFFIdw?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-06-02T15:05:26Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -254,6 +254,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "7e0c1f167b072da3",
+          "title": "エースワン／高知県土佐市に「土佐高岡店（店舗面積2074m2）」27年2月17日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uSlY2c1NuNnM3MDc1a1VZT3o2MDBJSTNNeTJOYXVtXzIxanRrUzJrbXlGVS1RcFRobE9OSjZMX0YtNFQ5MDJ1THlnUVp0NUx4Yk9NQmVR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-21T01:32:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "03ef189a696225f0",
           "title": "マムート／さいたま新都心「コクーンシティ」に新店舗9月11日オープン、埼玉初出店",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14dVRqT0l0U01BY3hsWjJiSjNkMndRRnNEN3k3c0xiMmREekVpay1NWEFnQWNySnpiSFJmbWhoMERSTkhGejcwX1l2b2gxbnRCMkkwXw?oc=5",
@@ -302,32 +312,12 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "270fe4a3f365ac9f",
-          "title": "スーパーマーケット型クレーンゲーム「クレーンマート」が愛知県に初進出",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEeEJGaXpmZ2oycWdXNVpxUzdyZm1nTldXa0laeGtCMEZYZnNsTHJZWUtBWktEQ0xZZnBEUlo4QkdUWllaTFZlZ19BaTRkWm14ZkVNVW5WaXBmMTVRc2dsaXg2SGVEUk9NSkE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-01T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "regulations": {
       "label": "規制関連",
       "articles": [
-        {
-          "id": "899cd0b710aea772",
-          "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-12T06:35:04Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "a42eaf13c40076e7",
           "title": "米国流通市場を読む（3）マーケティングに影響する超加工食品基準 | 地域・分析レポート - 海外ビジネス情報",
@@ -349,11 +339,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5fcd1501001e6c13",
-          "title": "SQNZ、イタリアにおける持続可能な畜産認証 - ギフト",
+          "id": "5cf1e028fa5c3ecc",
+          "title": "SQNZは、イタリアにおける持続可能な畜産の認証制度です。",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ2dPYVBGdGNDcF83MUFmeHB6ZzdxeENtVW1mZ2xkYjBWZUVaaVNFcHg5b1hFaW94X2hVNHJ4VjY1SG5vVzlBLU9namMwRXRGemU0cWNSY1FRdjBITVVQWndKSDFfOWlSUDhpdlRKMlZaaHBUT0E4LXVHZncwZ2lEd2tCQWNkYnRiOThlVDY2clFqd2xNM3F0dHNlT2JHT2J0V0tlWE5TTHNYRlBodThxMk5YTXlyNTg?oc=5",
           "source": "greatitalianfoodtrade.it",
           "published_at": "2026-05-05T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "899cd0b710aea772",
+          "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-12T06:35:04Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-22T18:52:30Z",
-  "last_success_at": "2026-08-22T18:52:30Z",
+  "last_attempt_at": "2026-08-23T02:03:07Z",
+  "last_success_at": "2026-08-23T02:03:07Z",
   "consecutive_failure_count": 0
 }
