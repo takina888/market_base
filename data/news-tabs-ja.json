@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-23T02:03:07Z",
+  "generated_at": "2026-08-23T07:06:32Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-22T23:18:00Z",
+          "id": "e9af3c60066b575f",
+          "title": "第2回 ONE PIECE キャラクター世界人気投票「WORLD TOP 100」最終結果を発表！",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2aWFDNXVmOU5NamtNekhZSkJEQXI5T3ZkQVJTdjUyOHB4RFNZSmR6YXEyTi1iSHRFUndvTnRfY1RiZDd0a0c2enJJTXBiV08zYXZtdG9n?oc=5",
+          "source": "ONE PIECE.com",
+          "published_at": "2026-08-23T03:10:32Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -34,6 +34,16 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yN1hmNDRha0RrMEdlVktyaHlscXZ2bUkwNnByQmRyZDV1clFjaUlXUjJBTk9jQzJjaVhDb01JM0VFZ1dRS1ViVnVkT0lBbHRtU21kbFh2M0lFbXJSdVBpdU9lWjlXNGNjdHRVUHZSUURZY3F0NFRISlZwaUpjTlk?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-08-22T21:11:07Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "705d17cd8869d043",
+          "title": "「国際興業って、バス会社じゃないの？」 売上2324億円のグループ、いったい何で稼いでいるのか（Merkmal）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iYXRxX1pOZ0RneWxNWk5aTFNnRnFkN25ud04tXzVRdTRWSzNUNFZ4UmtJQ0dyT1JHX1pyZkV3T2g5MVplSjcyNzdaTVN6aUFodXZnSHFyemx5NFNpd2Q0cnBRaEt1OFdjSmFmN0VnVUgwMzFFQlBZOXpDSUM5eVU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-22T08:29:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -69,21 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "62b8e9355798cf67",
-          "title": "世界最高齢の英女性、117歳に 過去1年「多くの初体験」（時事通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93aS0tOHZwRTN0R3BaeDZudU04WDRtd0lCY1RxVVdzTEQxdFh3UjR1TGxTMXBvdTBMbldDMUhrNXZteXZGYndhMElTTEFGR3RDX01uek0yWHJtTHRaMVVnUHlLY3RKTmtlaG5QajdZVi1CeFJmM1NHbDR6NGhkb3M?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-21T23:22:34Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "47b491382c742245",
-          "title": "「第25回 国際鉄道模型コンベンション」開催｜鉄道ニュース｜2026年8月22日掲載｜鉄道ファン・railf.jp",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE45dVZmV1VlMlh6dlpQMnVIYnUtdTNNelZ4Uk55MGZjWThrYV9mdnNhRE1WclAtVjNVUFBtRk5RVDJRMmRWdk9EOUZzTldDUksybFloS2Z0SQ?oc=5",
-          "source": "鉄道ファン・railf.jp",
-          "published_at": "2026-08-21T16:22:39Z",
+          "id": "2cec6d67cc7c2e3d",
+          "title": "【参加募集】IOG地経学オンラインサロン「国連と国際秩序」(9/26開催)",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvMlcyNnhvRmxPQXVlMzhzRjJqQ05VbmlkUVE5ZGQwc2lTdlhZRHVtSE9xZXQ5V255SWxsbXNVSllwcnQ4YzZfdGFMRnVKYUw0TXFXQ3lkR25lZmpJNXlB?oc=5",
+          "source": "地経学研究所",
+          "published_at": "2026-08-22T02:00:50Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -93,6 +93,16 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "a772bd383a2af7eb",
+          "title": "日本盛、大型紙パック充填機を移設",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-16T15:06:10Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "e780d8ff9c3cf320",
           "title": "マスダック、食品機械事業を強化 入間工場新棟で生産能力向上",
@@ -109,6 +119,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-07-16T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4180d1106bcbc393",
+          "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LbUlhc2Q0X3c1QTdaYjVtTEdPNTUzYmhPdktDeXJmRFpSM3k4b3lHLXFPbV9UVC1BRDJIRkFJS1NWM1JybWxPYkl1SDZNeFQwZDdxeTAwc0tWRTRZTE03eFhCZ3Z2TVpuaXc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-15T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -139,26 +159,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13VElGb1hqdUZMR0pKXzFQSWEyQ2ZTLURBTHd5SnJaV3duaWV5UGJvMEc2UWIyWUNoekt2MDRXSndoZmpka2NRZUdJSGlsMnU1ZjhfZkp6MjNzOWNWeF9JTmgwRUdnVDdsSHc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-06-03T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e0309508e7e526c",
-          "title": "フジワラテクノアート「小型通気式固体培養装置」が第5回FOOMAアワード2026 経済産業省製造産業局長賞/最優秀賞を受賞",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nZ3VfdlpFLU55c082RkRNU2c4YXVWMHItbTd0MmVWdGxtcmIybnV3Snh6WGt3ZUVmVlV5R1F3b2d6Z0lqRGFjeW5Pam5ERW5Vc1I1SkpUd0hySkNjb2c3QzFneHF4cndVRmc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-03T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "faa2e35019ac503f",
-          "title": "日本食品機械工業会、総会開催 創立80周年見据え国際展開・自動化を加速",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tY21RMVIyY19mRWo4R2Y1RjQxZFNpQ3FZS3U0cFB1R0NVby1ncDJpRFl0OHhrbnMxZGp2ZHdZYUM2SHEySFZVeVpDeURZTWE0akktVDR4bFBFS0xQVnBhQzJaRFFIdw?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-06-02T15:05:26Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-23T02:03:07Z",
-  "last_success_at": "2026-08-23T02:03:07Z",
+  "last_attempt_at": "2026-08-23T07:06:32Z",
+  "last_success_at": "2026-08-23T07:06:32Z",
   "consecutive_failure_count": 0
 }
