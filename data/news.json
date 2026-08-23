@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "dataset_status": "partial",
-  "generated_at": "2026-08-23T07:06:32Z",
+  "dataset_status": "stale",
+  "generated_at": "2026-08-23T13:06:49Z",
   "phase": 1,
-  "phase_label": "一部前回データ",
-  "auto_update_status": "partial",
-  "notice_ja": "一部カテゴリーは前回取得データを保持しています。最終更新状態と情報源を確認してください。",
+  "phase_label": "stale",
+  "auto_update_status": "stale",
+  "notice_ja": "全ニュース取得に失敗しました。前回成功時の記事を保持しています。最終成功日時を確認してください。",
   "categories": {
     "overseas": "海外ニュース",
     "food_machinery": "食品機械",
@@ -27,17 +27,15 @@
   },
   "pilot_countries": {},
   "live_country_codes": [],
-  "successful_categories": [
-    "regulations",
-    "food_machinery",
-    "food_factory",
-    "retail",
-    "overseas"
-  ],
-  "retained_categories": [
-    "regulations"
-  ],
-  "failed_categories": {},
+  "successful_categories": [],
+  "retained_categories": [],
+  "failed_categories": {
+    "regulations": "HTTPError: HTTP Error 503: Service Unavailable",
+    "food_machinery": "HTTPError: HTTP Error 503: Service Unavailable",
+    "food_factory": "HTTPError: HTTP Error 503: Service Unavailable",
+    "retail": "HTTPError: HTTP Error 503: Service Unavailable",
+    "overseas": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
   "articles": [
     {
       "id": "e9af3c60066b575f",
@@ -55,7 +53,7 @@
       "classification_confidence": 1.0,
       "source_id": "ONE PIECE.com",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -75,7 +73,7 @@
       "classification_confidence": 1.0,
       "source_id": "Yahoo!ニュース",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -95,7 +93,7 @@
       "classification_confidence": 1.0,
       "source_id": "Yahoo!ニュース",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -115,7 +113,7 @@
       "classification_confidence": 1.0,
       "source_id": "BBC",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -135,7 +133,7 @@
       "classification_confidence": 1.0,
       "source_id": "CNN.co.jp",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -155,7 +153,7 @@
       "classification_confidence": 1.0,
       "source_id": "CNN.co.jp",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -175,7 +173,7 @@
       "classification_confidence": 1.0,
       "source_id": "地経学研究所",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -195,7 +193,7 @@
       "classification_confidence": 1.0,
       "source_id": "日本食糧新聞・電子版",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -215,7 +213,7 @@
       "classification_confidence": 1.0,
       "source_id": "日本食糧新聞・電子版",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -235,7 +233,7 @@
       "classification_confidence": 1.0,
       "source_id": "PR TIMES",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -255,7 +253,7 @@
       "classification_confidence": 1.0,
       "source_id": "PR TIMES",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -275,7 +273,7 @@
       "classification_confidence": 1.0,
       "source_id": "PR TIMES",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -295,7 +293,7 @@
       "classification_confidence": 1.0,
       "source_id": "PR TIMES",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -315,7 +313,7 @@
       "classification_confidence": 1.0,
       "source_id": "PR TIMES",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -335,7 +333,7 @@
       "classification_confidence": 1.0,
       "source_id": "PR TIMES",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -355,7 +353,7 @@
       "classification_confidence": 1.0,
       "source_id": "日本食糧新聞・電子版",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -375,7 +373,7 @@
       "classification_confidence": 1.0,
       "source_id": "Infoseek",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -395,7 +393,7 @@
       "classification_confidence": 1.0,
       "source_id": "LOGISTICS TODAY",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -415,7 +413,7 @@
       "classification_confidence": 1.0,
       "source_id": "健康メディア.com",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -435,7 +433,7 @@
       "classification_confidence": 1.0,
       "source_id": "MONOist",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -455,7 +453,7 @@
       "classification_confidence": 1.0,
       "source_id": "MONOist",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -475,7 +473,7 @@
       "classification_confidence": 1.0,
       "source_id": "PR TIMES",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -495,7 +493,7 @@
       "classification_confidence": 1.0,
       "source_id": "流通ニュース",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -515,7 +513,7 @@
       "classification_confidence": 1.0,
       "source_id": "流通ニュース",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -535,7 +533,7 @@
       "classification_confidence": 1.0,
       "source_id": "流通ニュース",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -555,7 +553,7 @@
       "classification_confidence": 1.0,
       "source_id": "流通ニュース",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -575,7 +573,7 @@
       "classification_confidence": 1.0,
       "source_id": "流通ニュース",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -595,7 +593,7 @@
       "classification_confidence": 1.0,
       "source_id": "流通ニュース",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -615,7 +613,7 @@
       "classification_confidence": 1.0,
       "source_id": "jetro.go.jp",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -635,7 +633,7 @@
       "classification_confidence": 1.0,
       "source_id": "jetro.go.jp",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -655,7 +653,7 @@
       "classification_confidence": 1.0,
       "source_id": "greatitalianfoodtrade.it",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -675,7 +673,7 @@
       "classification_confidence": 1.0,
       "source_id": "Vietnam.vn",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -695,7 +693,7 @@
       "classification_confidence": 1.0,
       "source_id": "Vietnam.vn",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -715,7 +713,7 @@
       "classification_confidence": 1.0,
       "source_id": "Vietnam.vn",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     },
@@ -735,7 +733,7 @@
       "classification_confidence": 1.0,
       "source_id": "Vietnam.vn",
       "retrieved_via": "google_news_rss",
-      "auto_generated": true,
+      "auto_generated": false,
       "is_test_data": false,
       "published_at_estimated": false
     }
