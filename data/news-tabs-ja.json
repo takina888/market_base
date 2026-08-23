@@ -1,37 +1,39 @@
 {
   "schema_version": 2,
-  "status": "stale",
+  "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-23T13:06:49Z",
-  "successful_categories": [],
-  "retained_categories": [],
-  "failed_categories": {
-    "regulations": "HTTPError: HTTP Error 503: Service Unavailable",
-    "food_machinery": "HTTPError: HTTP Error 503: Service Unavailable",
-    "food_factory": "HTTPError: HTTP Error 503: Service Unavailable",
-    "retail": "HTTPError: HTTP Error 503: Service Unavailable",
-    "overseas": "HTTPError: HTTP Error 503: Service Unavailable"
-  },
+  "generated_at": "2026-08-23T18:52:13Z",
+  "successful_categories": [
+    "regulations",
+    "food_machinery",
+    "food_factory",
+    "retail",
+    "overseas"
+  ],
+  "retained_categories": [
+    "regulations"
+  ],
+  "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "eb1e234056bc201c",
+          "title": "ストライクグループ[6196]：海外子会社（特定子会社）の設立に関するお知らせ 2026年8月21日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83dmsybm95bjNoaFFheTFhYlRYMVlmMzRPZjVTMW9vMUJ6UUp4TWhJY1Y1LW5lengxYUc1VTA3YVZvc3V1dWdRU3hENlMxQXdzNXNOQ0NoenJzLXB4dEh5Q1g2R08wZzBQTVE?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-08-21T06:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "e9af3c60066b575f",
           "title": "第2回 ONE PIECE キャラクター世界人気投票「WORLD TOP 100」最終結果を発表！",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2aWFDNXVmOU5NamtNekhZSkJEQXI5T3ZkQVJTdjUyOHB4RFNZSmR6YXEyTi1iSHRFUndvTnRfY1RiZDd0a0c2enJJTXBiV08zYXZtdG9n?oc=5",
           "source": "ONE PIECE.com",
           "published_at": "2026-08-23T03:10:32Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5a07d321a876f8d3",
-          "title": "国際刑事裁判所（ICC）・赤根智子所長の新書が緊急大重版 トランプ政権からの制裁「ある程度予期していた」（オリコン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yN1hmNDRha0RrMEdlVktyaHlscXZ2bUkwNnByQmRyZDV1clFjaUlXUjJBTk9jQzJjaVhDb01JM0VFZ1dRS1ViVnVkT0lBbHRtU21kbFh2M0lFbXJSdVBpdU9lWjlXNGNjdHRVUHZSUURZY3F0NFRISlZwaUpjTlk?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-22T21:11:07Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -77,11 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2cec6d67cc7c2e3d",
-          "title": "【参加募集】IOG地経学オンラインサロン「国連と国際秩序」(9/26開催)",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvMlcyNnhvRmxPQXVlMzhzRjJqQ05VbmlkUVE5ZGQwc2lTdlhZRHVtSE9xZXQ5V255SWxsbXNVSllwcnQ4YzZfdGFMRnVKYUw0TXFXQ3lkR25lZmpJNXlB?oc=5",
-          "source": "地経学研究所",
-          "published_at": "2026-08-22T02:00:50Z",
+          "id": "7d100cf79669e8c0",
+          "title": "埼玉東部を流れる「葛西用水」世界かんがい施設遺産に 17世紀から水路を変えながら発展 江戸の農業を支えた約80キロの水利システム 見沼代用水、備前渠用水路に続き県内3例目（埼玉新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qaHRqcmJST3NYcmpUbVh5ci1NeVIwNXJJcG1aV1hpV0s1YnpONEZwWS1ocGdKdU11VjlScTZVVkZqUElfcjJrcG5tZWgyaThILU8yemZjZlVZS3J1RE5fbDA4UVlNU2lVaHJjU0Z4aDNsLUpyYVQ2eUhhdVJOQVU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-22T03:55:35Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -91,26 +93,6 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
-        {
-          "id": "a772bd383a2af7eb",
-          "title": "日本盛、大型紙パック充填機を移設",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-16T15:06:10Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e780d8ff9c3cf320",
-          "title": "マスダック、食品機械事業を強化 入間工場新棟で生産能力向上",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tUUVwQjFkRVluZmNja3BKT2lrZmFDUkhEcTF6UkNVb0x5UnF0elFSQWhtTk1YOEl5b1ExM25Nc3k2VnMxXzJ5YnFJZTBHSFg1UTR5eTEtVUxSQnh4MWdPM0pjRjJXUQ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-16T15:04:11Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "05cf05b47710b11c",
           "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
@@ -160,6 +142,26 @@
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e0309508e7e526c",
+          "title": "フジワラテクノアート「小型通気式固体培養装置」が第5回FOOMAアワード2026 経済産業省製造産業局長賞/最優秀賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nZ3VfdlpFLU55c082RkRNU2c4YXVWMHItbTd0MmVWdGxtcmIybnV3Snh6WGt3ZUVmVlV5R1F3b2d6Z0lqRGFjeW5Pam5ERW5Vc1I1SkpUd0hySkNjb2c3QzFneHF4cndVRmc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-03T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "faa2e35019ac503f",
+          "title": "日本食品機械工業会、総会開催 創立80周年見据え国際展開・自動化を加速",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tY21RMVIyY19mRWo4R2Y1RjQxZFNpQ3FZS3U0cFB1R0NVby1ncDJpRFl0OHhrbnMxZGp2ZHdZYUM2SHEySFZVeVpDeURZTWE0akktVDR4bFBFS0xQVnBhQzJaRFFIdw?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-06-02T15:05:26Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -171,7 +173,7 @@
           "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
           "source": "PR TIMES",
-          "published_at": "2026-08-14T07:00:02Z",
+          "published_at": "2026-08-14T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -221,7 +223,7 @@
           "title": "いかに名店の味を再現？ 三井不動産が手掛けるプレミアム冷食の製造拠点公開：工場ニュース（2/2 ページ）",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
           "source": "MONOist",
-          "published_at": "2026-08-11T21:00:00Z",
+          "published_at": "2026-08-12T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -389,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-23T13:06:49Z",
-  "last_success_at": "2026-08-23T07:06:32Z",
-  "consecutive_failure_count": 1
+  "last_attempt_at": "2026-08-23T18:52:13Z",
+  "last_success_at": "2026-08-23T18:52:13Z",
+  "consecutive_failure_count": 0
 }
