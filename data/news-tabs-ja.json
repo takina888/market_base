@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-24T02:00:39Z",
+  "generated_at": "2026-08-24T07:32:36Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,61 +29,61 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "0d217d90035dbbe8",
+          "title": "「デリカシーがない」川口春奈主演の映画『ママがもうこの世界にいなくても』タイアップポスターにがん当事者らから批判続出…厚労省は「配慮欠けていた」と認め、各病院にもポスター取り下げを依頼へ（女性自身）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uTHZXTzBJRnVKS2VnOTdscVJYTWR1S3ExU01ocVBpb3V4SEZPSDJIUGF6d1Jhak9JSVl6NVE5RVZHUmtpeDBWelhkWDM0YXFacGpWWkdINzRwU21TZ1dmTHVkWEZWTkJDNTVTcEtNaGladnVpbFB3RjVuSzhVaTQ?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-24T05:10:42Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "798a6894ebebcfed",
+          "title": "変容する国際秩序、進む国際社会の分断",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SYmNvUy11NWhFY0FYUENIR3dTM09lYUJ3X29VbEhERnA0WDRTZDlOSHEtVDQzZXlsNmRwTFkwb0YzQnpocXF5QnBpS0F0LWpKczl3bGhzSFBkcFc0M3ZwRlo3YllBWHNIbWtXSHZpZXJVNHVwWi1jZTh3?oc=5",
+          "source": "kpmg.com",
+          "published_at": "2026-08-24T04:42:26Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "536e3386e188a9a4",
+          "title": "がん治療の病院に「ママがもうこの世界にいなくても」ポスター タイアップに批判殺到、厚労省が「お詫び」...対応は「精査中」",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LM1gzbXlQd29DdGZVNXB2cVNRNkhzZzRVMG1FWWFCZ2kxMmx1c2l0cDFBSkJWcnNqRHRoUXZObEtSTk1SekR1bnVOUjhNMTNfczEzUmNMQi1JOERwcG5pWTZSalItRkh6TDFpUFRibzlxM3FpS3hDQjBIR1g0VFE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-24T04:24:39Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "79849cf559e3664c",
+          "title": "第4回「東京国際法セミナー」における茂木外務大臣ビデオ・メッセージの発出｜外務省",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5BNkNaX0h5VEpYaW1tR2dNVE9QLTVHWVNSbVI1dE5UWFVkTm9yS29tQWo3TmhlWU5TVml0ZTdwRjQwRWUxdU1TODNYQTZjbzMxampjWlhpU1JMWi1Za2NvbmRmT1ZFbnRlbnRSamVzTENZUlZzUHJz?oc=5",
+          "source": "mofa.go.jp",
+          "published_at": "2026-08-24T02:20:32Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "fdb8f7644160ce7a",
           "title": "【速報２】コロンビア地震：国際赤十字の緊急救援アピールに応え、日本赤十字社は資金援助を決定",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwOE9ETFVRY0VFLWVKZDlFYW5UREpRWks0Zkl5UWF2eVBSa3RuSWdlSVd1QVZFcFlsblliZUpLak91azQzY1R2Yl9jZ3hBdHZDUG5XVmRyNGQ0UVpiUXVZYlh2bTM1aUhydDlKYzNqaw?oc=5",
           "source": "日本赤十字社",
-          "published_at": "2026-08-24T01:46:43Z",
+          "published_at": "2026-08-24T02:04:56Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "213d7b875331317c",
-          "title": "Ｕ２０世界陸上２０２６オレゴン",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yeUQ3b21CSm96R2lzQzZBeGpYcjBvdXB1ME9teFlqNGhYclk0Rjh0U2RSYXY3YWlnYjhOZjhOVjFEYUJJZFdRZGIxRnczOVJhN3NhYS1n?oc=5",
-          "source": "tbs.co.jp",
-          "published_at": "2026-08-23T19:01:47Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "07b993a9897a9cc5",
-          "title": "人型ロボがウサイン・ボルト超え 100メートル走で「世界記録」 北京で運動会（時事通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YVG9zV053NDMwaTc4TkJoRG93VWQ0ZHBnQzl2dXQ0UFAxSWF3S1dNclFMNGU3a2JId0pSYXptX2ctVU9aVVZ4eGFUazgtOTUxRE9BQ3NwZGFqeHgxUkViXzQ4Z0hXUTVWOTZqMTBCRE5IN2luaGZTTXFWRmJfZmc?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-23T10:01:54Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f5effe785f76c468",
-          "title": "米国とカナダの貿易交渉結局決裂…カナダ製品に50％の追加関税（中央日報日本語版）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JVjNFSGVRcFU2X0hsSlhGTVlkeTlEc0d4RUc3WndnZ3VjUlRiNG8wWXo1ZmZlZHFUUTBlV1lnQ044OWtkQm9sc1lQcGZtQzZCQU1oWS1WdHFUTV9Tc2VtdmY2UC10ak05M216MDJjdFo4bkJSNEtVWTFfSENYWEE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-23T03:16:19Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e9af3c60066b575f",
-          "title": "第2回 ONE PIECE キャラクター世界人気投票「WORLD TOP 100」最終結果を発表！",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2aWFDNXVmOU5NamtNekhZSkJEQXI5T3ZkQVJTdjUyOHB4RFNZSmR6YXEyTi1iSHRFUndvTnRfY1RiZDd0a0c2enJJTXBiV08zYXZtdG9n?oc=5",
-          "source": "ONE PIECE.com",
-          "published_at": "2026-08-23T03:10:32Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "562851e4ff07db08",
-          "title": "100メートル走でボルト超え、世界記録続々 中国でロボット運動会 動画",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02dU53VVRoNHlfU29lT2NGMFdqbXVzd0ZRa1ZGZzdSTVZpNlZTMlY1YklZclBCWUdKVlowaUlSbURRNG9BUURPRmgzRl9IcmRXLWpMU3FMYjdiN2NITVhURi1MazBKZWFVUUVKY2JPQQ?oc=5",
-          "source": "朝日新聞",
-          "published_at": "2026-08-22T22:00:00Z",
+          "id": "d625818695d992c3",
+          "title": "人のがんの先端治療、世界で初めてヘビに応用 順調に回復 英国",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE54YlJUQXhQSkl4bTdMVzdWdUJYTk9RZl9vV3AxUlVaanZPamEyc0ZYMTAyVy05bVZwRUdYc1V2RmJJUHJNSlA4Vkd5ODUtUHZyWENj?oc=5",
+          "source": "CNN.co.jp",
+          "published_at": "2026-08-24T01:57:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,6 +179,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "806d89c42d867d0a",
+          "title": "ヤマモリ、三重・多気にレトルト食品工場 シャープ事業所を一部買収",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13MzZXU3k5QXhvU05GVVVXajRjclNaZjlOOWZsUlFTcl9Od05RQkNReWxIdnRaWFpLakdRNnBhRjlVb0xnNWZveWl1NmFDUWxtQTJfcjBnWnMzOGw2OGtlV3dYRUlOdzlnUURSQw?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-06-08T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "1e3558dd99c398af",
           "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
@@ -224,16 +234,6 @@
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-08-12T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b2ea39a0e775737c",
-          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -284,16 +284,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "7625e85f05bb1f2e",
-          "title": "コスモス薬品／福島県・高知県・福岡県に「ドラッグコスモス」計3店舗、27年3月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByaGNPQTM4dVlub3Z0cUpfdjRReXhpOWl0S0pEQ1hqa0RRUV9RcDlrNHZYNkQyMmJIYnlmY1dpbkFJTW9rOTBTTWt0NGxQVlpXamlGZDRB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-20T01:31:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "c9101e8d4beab29a",
           "title": "コスモス薬品／長野県・静岡県・兵庫県に「ドラッグコスモス」計3店舗、27年1～2月新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jNmZYSWdxbXdMV2JYX09oSy04aTZhRGl4ckpXdGhIai03c0Zja2JyTDB5TmhZQzJMYkFMT281OFhkcmM1Z3puT284R1NhQ0VOeEt5cU1R?oc=5",
@@ -309,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvbVVkRDdtdXJUVHV4TnotN2s3d0dMVnc1OENUc05YS0tPSkRMZDFKT0w2b2lTM1VoX0M1QlpEQ2RveE9BZEhBZERnTG9TTHR6bEdLZg?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-17T04:45:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e9506c8e8e9cc732",
+          "title": "【NEW OPEN】発酵エイジングケア*¹ブランド「FAS」、日本橋髙島屋に8月12日（水）より新店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tSEp4cWVjclBZaDhZcURaQjQwZERpVVRrcXp0WXJQUDAzNVY4bmlCQWhaUWk2aGNMOHpfS1dKeHZRaXc0U3JpTzQ5T1Z0OTRCaE5MVURFUUp4enhSRWQ2Z01zc080THBVeGc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-06T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-24T02:00:39Z",
-  "last_success_at": "2026-08-24T02:00:39Z",
+  "last_attempt_at": "2026-08-24T07:32:36Z",
+  "last_success_at": "2026-08-24T07:32:36Z",
   "consecutive_failure_count": 0
 }
