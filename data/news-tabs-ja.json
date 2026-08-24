@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-24T07:32:36Z",
+  "generated_at": "2026-08-24T13:24:47Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,71 +19,71 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "b8b567fdf5dccd84",
-          "title": "円相場、年末に1ドル=160円 海外投資が円安促す",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmZWNwcjZzTTZ1Y2xSbGNtTFdzYU9yT19xT0RxbGJvZG4zaFFVcmRSTXpSbkRHQUZITWE2aFd6NHpPOU5PWnVzYUthSndTM2Fra0JqYVZ2QnRKb3dOQkYzbFBVb1J2V1ZVTDNCTTFXMmlUSFc3RVdtM2ljMWR4QQ?oc=5",
+          "id": "c54bbfd49ffc64f5",
+          "title": "国際計測器[7722]：親会社等の決算に関するお知らせ 2026年8月24日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbDdYLXVpLThWOHBXYlREdUR1UGEzTldQSWc0LXhVeEdGd2xDT3NBYlZFVmV5NkZtV0MtY1B0VzZ5eEktS0N2THcxakhNMEstamdzOV9nQVc2c0xWWFBRWUkweThmbFlIbGtrV1hCNVE0Yi15MDN6cnVBWmtIaGkzSG9zOU54YWdRMVh1RnRkSnFEajAtdjZDNnBNam9UWUs1Q0FUakdsdjRkN1JHVFRxd1UwQUxoa2VNeWhkRmlxbHFpSndmaUNMNTVScFE?oc=5",
           "source": "日本経済新聞",
-          "published_at": "2026-08-23T20:00:00Z",
+          "published_at": "2026-08-24T07:30:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0d217d90035dbbe8",
-          "title": "「デリカシーがない」川口春奈主演の映画『ママがもうこの世界にいなくても』タイアップポスターにがん当事者らから批判続出…厚労省は「配慮欠けていた」と認め、各病院にもポスター取り下げを依頼へ（女性自身）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uTHZXTzBJRnVKS2VnOTdscVJYTWR1S3ExU01ocVBpb3V4SEZPSDJIUGF6d1Jhak9JSVl6NVE5RVZHUmtpeDBWelhkWDM0YXFacGpWWkdINzRwU21TZ1dmTHVkWEZWTkJDNTVTcEtNaGladnVpbFB3RjVuSzhVaTQ?oc=5",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-24T11:26:22Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "45378c83b7f5c3af",
+          "title": "映画「ママがもうこの世界にいなくても 私の命の日記」とのタイアップ中止について",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0OEh3d190eU1ReUtib0c5cW9meHNhV2VzQ3o1SHBtRmpJNXFoUEFwMERuZGV0djI4SzFxS28yd0lleDNwTVJPVjB3b1ZPWFJUMm5HM2ktUnZaQm9XUUs5cA?oc=5",
+          "source": "mhlw.go.jp",
+          "published_at": "2026-08-24T08:23:17Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "853d53e0f724071b",
+          "title": "湾岸地域の航空貨物が急減 中東情勢悪化が国際航空網に与えた影響（2）",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWFF0N0VsaTdpQW5EZTYzNDV1TGxfZE5fbkZzRWM3TUEtcTY1bVBMT2VMYXdJZGF6elBrd25FQjd6V2Vhc1hkYWU1dmZDTE9ZRTN3Sk5RVXRndXEtSjh4WWJ3NGVIM0dpRVBxVl9NVUxFYTFhbFYyX2U2VGVZbjhNT2o5YVc4Zw?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-08-24T08:09:26Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "213d7b875331317c",
+          "title": "Ｕ２０世界陸上２０２６オレゴン",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yeUQ3b21CSm96R2lzQzZBeGpYcjBvdXB1ME9teFlqNGhYclk0Rjh0U2RSYXY3YWlnYjhOZjhOVjFEYUJJZFdRZGIxRnczOVJhN3NhYS1n?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-08-24T07:01:47Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ed6d9655f3abd7a3",
+          "title": "映画『ママがもうこの世界にいなくても』厚労省とのタイアップパンフレットが物議「誰か止めなかったのか」（SmartFLASH）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RM3VDQmRSeEJrSmU5V3JqZUZRZG1tOUFZTWhVSDQxWlg1eXNMRHNXUkRSN0pWbVlITTBRbUY5MFRsbGtDMEJWMjEzbEh5azZPa3BrakdXb1FWRzludHBacENEaWFON2E4SlZzSlRjTWRzbU1RVkhJNmRjS0E5VGM?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-08-24T05:10:42Z",
+          "published_at": "2026-08-24T06:35:27Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "798a6894ebebcfed",
-          "title": "変容する国際秩序、進む国際社会の分断",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SYmNvUy11NWhFY0FYUENIR3dTM09lYUJ3X29VbEhERnA0WDRTZDlOSHEtVDQzZXlsNmRwTFkwb0YzQnpocXF5QnBpS0F0LWpKczl3bGhzSFBkcFc0M3ZwRlo3YllBWHNIbWtXSHZpZXJVNHVwWi1jZTh3?oc=5",
-          "source": "kpmg.com",
-          "published_at": "2026-08-24T04:42:26Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "536e3386e188a9a4",
-          "title": "がん治療の病院に「ママがもうこの世界にいなくても」ポスター タイアップに批判殺到、厚労省が「お詫び」...対応は「精査中」",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LM1gzbXlQd29DdGZVNXB2cVNRNkhzZzRVMG1FWWFCZ2kxMmx1c2l0cDFBSkJWcnNqRHRoUXZObEtSTk1SekR1bnVOUjhNMTNfczEzUmNMQi1JOERwcG5pWTZSalItRkh6TDFpUFRibzlxM3FpS3hDQjBIR1g0VFE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-24T04:24:39Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "79849cf559e3664c",
-          "title": "第4回「東京国際法セミナー」における茂木外務大臣ビデオ・メッセージの発出｜外務省",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5BNkNaX0h5VEpYaW1tR2dNVE9QLTVHWVNSbVI1dE5UWFVkTm9yS29tQWo3TmhlWU5TVml0ZTdwRjQwRWUxdU1TODNYQTZjbzMxampjWlhpU1JMWi1Za2NvbmRmT1ZFbnRlbnRSamVzTENZUlZzUHJz?oc=5",
-          "source": "mofa.go.jp",
-          "published_at": "2026-08-24T02:20:32Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fdb8f7644160ce7a",
-          "title": "【速報２】コロンビア地震：国際赤十字の緊急救援アピールに応え、日本赤十字社は資金援助を決定",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwOE9ETFVRY0VFLWVKZDlFYW5UREpRWks0Zkl5UWF2eVBSa3RuSWdlSVd1QVZFcFlsblliZUpLak91azQzY1R2Yl9jZ3hBdHZDUG5XVmRyNGQ0UVpiUXVZYlh2bTM1aUhydDlKYzNqaw?oc=5",
-          "source": "日本赤十字社",
-          "published_at": "2026-08-24T02:04:56Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d625818695d992c3",
-          "title": "人のがんの先端治療、世界で初めてヘビに応用 順調に回復 英国",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE54YlJUQXhQSkl4bTdMVzdWdUJYTk9RZl9vV3AxUlVaanZPamEyc0ZYMTAyVy05bVZwRUdYc1V2RmJJUHJNSlA4Vkd5ODUtUHZyWENj?oc=5",
-          "source": "CNN.co.jp",
-          "published_at": "2026-08-24T01:57:00Z",
+          "id": "01055027044d89fc",
+          "title": "材料科学-スピントロニクス国際シンポジウム「MSSp2026」東北から持続可能な未来へ（11.9-13開催）",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0dnZfeUdBVTBEaFNhc1U2R3A2SWtCb2tmSU55NXFpd2xMYTVRWUNOVUxXb1ZYTFhxa29jWlNlajVxeHZnTUd0aEdhemI4RWlmSnBUM1AzOFpVaHQxeWRNcHVzMkNkcG9TZmVERHZlZnBfZ1ZjYk9R?oc=5",
+          "source": "tohoku.ac.jp",
+          "published_at": "2026-08-24T06:30:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -244,6 +244,16 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "9b6369b8b4f8693d",
+          "title": "オーケー／神奈川県横須賀市に「横須賀店（店舗面積2286m2）」27年2月5日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LZWZxLU5TcHFQMFZ2S0JMdFVmOEZ6N21MS3VsQVBGaTZCOE1mRWN2bUlCWXMwOEVDWnZhVmVsbjZFalBlWG1OcEFINEoweDBUcEctU2FB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-24T01:32:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "39f4ac2189f7dc73",
           "title": "イオンフードスタイル 価値提案型スーパーマーケット「ＦｏｏｄＳｔｙｌｅ」都内８店舗目「フードスタイル東大島店」がオープン！",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZnBHSXNTdHRUWGp6alVFT2tFUUlhUTh1NHV2UTVHV1FBbG9qMHdUd1lTd0JrTjlpTHM4NTk2MHd1UjNua0RuaUN6MlJPdmc2VkZYRnNUT0VqaXBxd1dRaHk0end3Y2EycGc?oc=5",
@@ -299,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvbVVkRDdtdXJUVHV4TnotN2s3d0dMVnc1OENUc05YS0tPSkRMZDFKT0w2b2lTM1VoX0M1QlpEQ2RveE9BZEhBZERnTG9TTHR6bEdLZg?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-17T04:45:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e9506c8e8e9cc732",
-          "title": "【NEW OPEN】発酵エイジングケア*¹ブランド「FAS」、日本橋髙島屋に8月12日（水）より新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tSEp4cWVjclBZaDhZcURaQjQwZERpVVRrcXp0WXJQUDAzNVY4bmlCQWhaUWk2aGNMOHpfS1dKeHZRaXc0U3JpTzQ5T1Z0OTRCaE5MVURFUUp4enhSRWQ2Z01zc080THBVeGc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-06T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-24T07:32:36Z",
-  "last_success_at": "2026-08-24T07:32:36Z",
+  "last_attempt_at": "2026-08-24T13:24:47Z",
+  "last_success_at": "2026-08-24T13:24:47Z",
   "consecutive_failure_count": 0
 }
