@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-23T18:52:13Z",
+  "generated_at": "2026-08-24T02:00:39Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,51 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "eb1e234056bc201c",
-          "title": "ストライクグループ[6196]：海外子会社（特定子会社）の設立に関するお知らせ 2026年8月21日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83dmsybm95bjNoaFFheTFhYlRYMVlmMzRPZjVTMW9vMUJ6UUp4TWhJY1Y1LW5lengxYUc1VTA3YVZvc3V1dWdRU3hENlMxQXdzNXNOQ0NoenJzLXB4dEh5Q1g2R08wZzBQTVE?oc=5",
+          "id": "b8b567fdf5dccd84",
+          "title": "円相場、年末に1ドル=160円 海外投資が円安促す",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmZWNwcjZzTTZ1Y2xSbGNtTFdzYU9yT19xT0RxbGJvZG4zaFFVcmRSTXpSbkRHQUZITWE2aFd6NHpPOU5PWnVzYUthSndTM2Fra0JqYVZ2QnRKb3dOQkYzbFBVb1J2V1ZVTDNCTTFXMmlUSFc3RVdtM2ljMWR4QQ?oc=5",
           "source": "日本経済新聞",
-          "published_at": "2026-08-21T06:30:00Z",
+          "published_at": "2026-08-23T20:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "fdb8f7644160ce7a",
+          "title": "【速報２】コロンビア地震：国際赤十字の緊急救援アピールに応え、日本赤十字社は資金援助を決定",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwOE9ETFVRY0VFLWVKZDlFYW5UREpRWks0Zkl5UWF2eVBSa3RuSWdlSVd1QVZFcFlsblliZUpLak91azQzY1R2Yl9jZ3hBdHZDUG5XVmRyNGQ0UVpiUXVZYlh2bTM1aUhydDlKYzNqaw?oc=5",
+          "source": "日本赤十字社",
+          "published_at": "2026-08-24T01:46:43Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "213d7b875331317c",
+          "title": "Ｕ２０世界陸上２０２６オレゴン",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yeUQ3b21CSm96R2lzQzZBeGpYcjBvdXB1ME9teFlqNGhYclk0Rjh0U2RSYXY3YWlnYjhOZjhOVjFEYUJJZFdRZGIxRnczOVJhN3NhYS1n?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-08-23T19:01:47Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "07b993a9897a9cc5",
+          "title": "人型ロボがウサイン・ボルト超え 100メートル走で「世界記録」 北京で運動会（時事通信）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YVG9zV053NDMwaTc4TkJoRG93VWQ0ZHBnQzl2dXQ0UFAxSWF3S1dNclFMNGU3a2JId0pSYXptX2ctVU9aVVZ4eGFUazgtOTUxRE9BQ3NwZGFqeHgxUkViXzQ4Z0hXUTVWOTZqMTBCRE5IN2luaGZTTXFWRmJfZmc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-23T10:01:54Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f5effe785f76c468",
+          "title": "米国とカナダの貿易交渉結局決裂…カナダ製品に50％の追加関税（中央日報日本語版）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JVjNFSGVRcFU2X0hsSlhGTVlkeTlEc0d4RUc3WndnZ3VjUlRiNG8wWXo1ZmZlZHFUUTBlV1lnQ044OWtkQm9sc1lQcGZtQzZCQU1oWS1WdHFUTV9Tc2VtdmY2UC10ak05M216MDJjdFo4bkJSNEtVWTFfSENYWEE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-23T03:16:19Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -39,51 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "705d17cd8869d043",
-          "title": "「国際興業って、バス会社じゃないの？」 売上2324億円のグループ、いったい何で稼いでいるのか（Merkmal）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iYXRxX1pOZ0RneWxNWk5aTFNnRnFkN25ud04tXzVRdTRWSzNUNFZ4UmtJQ0dyT1JHX1pyZkV3T2g5MVplSjcyNzdaTVN6aUFodXZnSHFyemx5NFNpd2Q0cnBRaEt1OFdjSmFmN0VnVUgwMzFFQlBZOXpDSUM5eVU?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-22T08:29:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2b9e259c077f0f0b",
-          "title": "カナダは米関税に「同額」で対抗とカーニー首相、貿易交渉が決裂",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwQXNXUkVMTFh5VEpOT1pvNzF0dkZNNndSUzRISF9vOG5QXzdHX2diUkNSZGdEZXJFcVhSMnQ5YmdubWJtbWd4OGVlZklTT1FyblBqUDZBLWhVal8tSEQ40gFkQVVfeXFMT2lvVElIdGhyUFEwTkk1SzNuVk5sY0lJcEd5dnFVaHJkaFhGQ3JMVUQwLXVuVGozUTNxOW1kcGtRaVNfbjRhTzE0NmlmcjdJTzlPMmNqMHFMNWNsQjdacVZ0WnJBcg?oc=5",
-          "source": "BBC",
-          "published_at": "2026-08-22T06:13:48Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4e75f62afbdde5e6",
-          "title": "世界最高齢の英国人女性、117歳に 2度の世界大戦にコロナ感染乗り越える",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5hR3lnMnA4SlRvYlc5MHZ5M1VaQ0drV0Itd1ZuMlFqY3FLTEdyTzdQSGZQM0NvUHZJaWk5eUdvZ0xJQTdnTXVyNmhMNHRBaVQ2UHRB?oc=5",
-          "source": "CNN.co.jp",
-          "published_at": "2026-08-22T06:13:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "611680c15ba9335e",
-          "title": "カナダ、米国との貿易交渉を停止 米国の関税に同額の対抗措置",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPN2xBVjN3WnNiQ1lFVW5IQ2pTdmo0ME9BTzNZczgzZFRxU2Y3c3FsY0NjNXEwc0JkQVM4eERqbXUxYklCZHQzRnVyOVY1R3V1U0Nv?oc=5",
-          "source": "CNN.co.jp",
-          "published_at": "2026-08-22T04:51:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7d100cf79669e8c0",
-          "title": "埼玉東部を流れる「葛西用水」世界かんがい施設遺産に 17世紀から水路を変えながら発展 江戸の農業を支えた約80キロの水利システム 見沼代用水、備前渠用水路に続き県内3例目（埼玉新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qaHRqcmJST3NYcmpUbVh5ci1NeVIwNXJJcG1aV1hpV0s1YnpONEZwWS1ocGdKdU11VjlScTZVVkZqUElfcjJrcG5tZWgyaThILU8yemZjZlVZS3J1RE5fbDA4UVlNU2lVaHJjU0Z4aDNsLUpyYVQ2eUhhdVJOQVU?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-22T03:55:35Z",
+          "id": "562851e4ff07db08",
+          "title": "100メートル走でボルト超え、世界記録続々 中国でロボット運動会 動画",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02dU53VVRoNHlfU29lT2NGMFdqbXVzd0ZRa1ZGZzdSTVZpNlZTMlY1YklZclBCWUdKVlowaUlSbURRNG9BUURPRmgzRl9IcmRXLWpMU3FMYjdiN2NITVhURi1MazBKZWFVUUVKY2JPQQ?oc=5",
+          "source": "朝日新聞",
+          "published_at": "2026-08-22T22:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-23T18:52:13Z",
-  "last_success_at": "2026-08-23T18:52:13Z",
+  "last_attempt_at": "2026-08-24T02:00:39Z",
+  "last_success_at": "2026-08-24T02:00:39Z",
   "consecutive_failure_count": 0
 }
