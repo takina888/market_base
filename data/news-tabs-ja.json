@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-25T07:13:16Z",
+  "generated_at": "2026-08-25T13:16:23Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,61 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "c54bbfd49ffc64f5",
-          "title": "国際計測器[7722]：親会社等の決算に関するお知らせ 2026年8月24日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbDdYLXVpLThWOHBXYlREdUR1UGEzTldQSWc0LXhVeEdGd2xDT3NBYlZFVmV5NkZtV0MtY1B0VzZ5eEktS0N2THcxakhNMEstamdzOV9nQVc2c0xWWFBRWUkweThmbFlIbGtrV1hCNVE0Yi15MDN6cnVBWmtIaGkzSG9zOU54YWdRMVh1RnRkSnFEajAtdjZDNnBNam9UWUs1Q0FUakdsdjRkN1JHVFRxd1UwQUxoa2VNeWhkRmlxbHFpSndmaUNMNTVScFE?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-24T07:30:00Z",
+          "id": "1a2da3f13e8e890a",
+          "title": "海外駐在員の活動レポート(2026年8月・北米事務所)",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBEamNrU2VqdXltRFhSREh1UTFoTXBYNHZ5NTRsa1ViUXRHdG00bGRhMWJLWTZUVlgzVDF3cVhtQTJKb1RoOXEyREZWQnVsWlpELUxzZVVBLXR2ckN5M2RyOGNnaHp0c0Fzbk1TN2hn?oc=5",
+          "source": "pref.kanagawa.jp",
+          "published_at": "2026-08-25T11:19:50Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "37917496adbd01a1",
-          "title": "国際フィールドワークII（タイ）：１日目！",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5iTm1wOEE1Y0tjVTkxcmZlQUt4OEs1VW93WUN2dWxzWTVTZFYxOWY3b08xRmY3WnNqMUJhN25Fd0N4cUdOVHl5N0N2ZXJxTnNTYjF6cl8zaV9KSDNoU1RjRFlyejBsSFRLZzhyN2ln?oc=5",
-          "source": "meijo-u.ac.jp",
-          "published_at": "2026-08-25T04:40:03Z",
+          "id": "e76c6e3601159712",
+          "title": "辺野古沖転覆、学校法人同志社は同志社国際高校長を「解任」 後任は同大副学長に（産経新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53TDNUMkVsYk9iN0FGc1pseE1rODE1UFdHSFBDMEt3bkVPenE3bDVSQnR0VmNJNmE2SmdTUU51MVdJMVFoYTVLZjJvcm8wbkJ4LXI1ODFCcW5YcWcxOUgtb0tuZzlkRFNiMmpIZXFkdnk0U0pSSERiNTZneEFGT00?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-25T10:53:47Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "cddbe417da50c207",
+          "title": "井野経済産業副大臣がコスタリカ共和国のトレホス貿易大臣と会談しました",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zelVSMUtVWDUyZGRkQlpzdXViazlCUTh4ZnRkbmlvMm4xb2U4YzRJVVBUVmxlbllXcWRfQ1BlNDNwOE9PNnBZYWVzOHB0ZTZRRnI1NHFObnpqUkZRN1NlRkQzSQ?oc=5",
+          "source": "meti.go.jp",
+          "published_at": "2026-08-25T10:47:31Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "712bfedd4e478e3a",
+          "title": "令和8年版 情報通信白書｜我が国の放送系コンテンツの海外輸出の動向",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLUMwOHJoY29XQkRxNEpoSXM2UlBuVDFEMVRkdWVSc2FkLU11VFBydmwwTndob2JGQVJuVzhrY0RaTmdVTHdLSGRqcjJpWnVQcGJHdERDRUhCSUtMMU5BVU0tWGVMdmNPRmxXT2FGc2lxQS1jM0hqTnRJTFZZWmxpN2xB?oc=5",
+          "source": "soumu.go.jp",
+          "published_at": "2026-08-25T10:20:37Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d3d579c840ea1e30",
+          "title": "『ワンピース カードゲーム』4周年パック「世界最強の戦士」がしまむらパークで抽選販売！新旧四皇が揃い踏み、新たに「覇王色SP」も収録（インサイド）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KdEljM2NoVjN3NldCUVRpLU5aeDBxbm05emhOZFBRX2F1ZFJTQkd0YXUyTktxNHRqWDJ0MDF2WEhOQU9oZllGYTgzc1ZwcDVfYm52c1NtczVKdHlwYXVES3JzTDNPNnJiSzUxUlpYeUR6Q1JRSFJWdU9NLXVtcFk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-25T10:00:04Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "774543beee72d257",
+          "title": "宇宙産業は民間参入が主流に（世界） 強みを生かし参入を目指す各国と企業",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOU54M09Nd1RldVRQdlZoNEVCRE45WEVnT3d6UHJwTjBTZl9ibGV5bWZHS3V5d2VXMXdUazV4bzkxWk5waDhTMmllTzFhaVNRSVV0b1Y5cll0ZlV6NUtOb3BZb2MyeFZjU21JWG1zd09Yd2pqdS1oOHJmN1ZYU3RmQ1VFUmRRQQ?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-08-25T08:08:57Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -44,46 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5rWFMzMnNOM09jcGFaeVpZNjJ1M3U4N0tkSGcyY0ZvYmpfLXVFeFh3dUJ3VUJLeVIwa05QS0x6VlExcVhWTURGc0Q4MXBjY0ZLcVhidlZsaXUxZ1VVZFlqRDJnYw?oc=5",
           "source": "meti.go.jp",
           "published_at": "2026-08-25T04:02:48Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0a959c4103055d0e",
-          "title": "福岡県議会・蔵内氏、揺れた発言 「海外旅行続ける」 議員辞職「何でしないといけないんでしょうか」（KBC九州朝日放送）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tRUZuaTlOX003NFZpZ1Rfc0dLUTFFU2RSbXh6MVpfYTQ2VTBEdkt6aDYwcTVIWnA0N0prbWxYUkk0RzNWR0xEZGJGZGVqV09FaXdzYllDeThSUEtOYW40bXc2Z2EwMWp1ZlFNYzk4QmlqR1E1REotT0tLOWhVdTg?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-25T03:53:10Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "54e6c06ce5d303a1",
-          "title": "世界の海面水温が観測史上最高 エルニーニョ発達",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KY0dlU0JoSjFzWXlyR2dOZUN3b3ZPcTVRX3F5VzlxVy1uSk9GUTJhQTItMGx3bVg2UW45Y3BtcG1KTGFvOERQVjN2c2ZMQ21kV3BsQVpCTXBXR1BYaUtj0gFkQVVfeXFMTndGWVNUMWs1ZTV5bHRmQkd2QkpqVmxONVQ4aDRGUkl5czFFOUpNdmhIRmpUYjNFMk1zbVVBTk1McUZLYVd6Y1ZsTy1GY043Wlhucnc2UTBzN2l1X24yME1rVDRZbQ?oc=5",
-          "source": "BBC",
-          "published_at": "2026-08-25T03:45:43Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e84683cf8765143a",
-          "title": "第4回「東京国際法セミナー」歓迎レセプションの開催｜外務省",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBhUWVSaHVPNUJTTy16YkZuOVhBMUxod1ZCNkNBbHFnSTJnYXNtR1FOMEN3QUNBSndXaFdkWGh3OEhtUGVDSTZwWFpnS1NoajRaVWQ5SWE3RlhBQkJaZ3JhZ0x0c0lOajF0R0ItQTFJaUFnNmFXUmxn?oc=5",
-          "source": "mofa.go.jp",
-          "published_at": "2026-08-25T01:28:57Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2d4bd1853c2829a8",
-          "title": "日本気象協会、国際物流総合展 2026にて 物流向けサービス「GoStopマネジメントシステム」を紹介します | ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zazlJVVhWY29OZnZnZGVuRUxPMURnc2JoaHdJWU1nVElwamlqUnIxOVpfZElTbFpUSllKaDVfNHRnSjk4amtpcy1aYXM0UWc3OU1z?oc=5",
-          "source": "jwa.or.jp",
-          "published_at": "2026-08-25T01:00:40Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -244,16 +244,6 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "572ed3cd729d2500",
-          "title": "コーナン商事／神奈川県横須賀市に「（仮称）コーナンPRO横須賀市日の出町店（店舗面積2604m2）」27年2月19日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iMHFQWEFsdk12TkJKT1BvX1F5OHM3NENwQjd6M1JGa085bXhVNU1wQzg0QTdtX2dTYmxkbjFQeDkwM1pUeVRUbERBSV9YMV95dkVzVnl3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-25T01:41:55Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "bbd227da8dab972e",
           "title": "シャミネ松江／スーパーマーケットマルイの新業態など2店舗今秋オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oY2NSeDZxMDQweXdaVzlHYjhZNkZZTFk4bXRFZTVwWC1aTW5zNmU0RDZMdlZQVkNSMldHVFFpTjVVNW5SZmJpZ3VvQWYzbXItV1NPTw?oc=5",
@@ -269,16 +259,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LZWZxLU5TcHFQMFZ2S0JMdFVmOEZ6N21MS3VsQVBGaTZCOE1mRWN2bUlCWXMwOEVDWnZhVmVsbjZFalBlWG1OcEFINEoweDBUcEctU2FB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-24T01:32:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "88f32619fec0edc7",
-          "title": "ゆめマート熊本／福岡県に「サニー博多店（店舗面積2143m2）」27年3月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ld1hyVHVTMk0yZ3k1WkJhN0ZiSUpEcDEtN3UwOGVQTWlMTDdQcU10amg2ZjItTlpCSVV6d0FFcnR1X3VSMk9zcUFSaXhtSmtkT3JCbnZB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-24T01:31:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -309,6 +289,26 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BaEFYUlN3OVk0bWJ1dmlNcnBwVVY4aUJJNkJ1SmRuUHhTSDI5dWdSZGNWRXpPUjdhd1hYVENDSERhNzUyYmFRWHhHbUZNdlJmMkg4MXVn?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-20T01:32:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d4481706dec8d638",
+          "title": "ニトリ／長野県飯田市に「飯田インター店（店舗面積4085m2）」27年1月30日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwNTU4MlhfZTNjdW1PUFdRek82REN1VjRKUXR3N1MyNWthT2Y5SXFyOW9GVEhYMVpCdUswQWQ2elNsR3hNeEN1LVd6UWdrZ21mYWRyM1NB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-19T01:30:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c9101e8d4beab29a",
+          "title": "コスモス薬品／長野県・静岡県・兵庫県に「ドラッグコスモス」計3店舗、27年1～2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jNmZYSWdxbXdMV2JYX09oSy04aTZhRGl4ckpXdGhIai03c0Zja2JyTDB5TmhZQzJMYkFMT281OFhkcmM1Z3puT284R1NhQ0VOeEt5cU1R?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-19T01:29:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-25T07:13:16Z",
-  "last_success_at": "2026-08-25T07:13:16Z",
+  "last_attempt_at": "2026-08-25T13:16:23Z",
+  "last_success_at": "2026-08-25T13:16:23Z",
   "consecutive_failure_count": 0
 }
