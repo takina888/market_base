@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-24T19:05:26Z",
+  "generated_at": "2026-08-25T01:56:05Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "c54bbfd49ffc64f5",
-          "title": "国際計測器[7722]：親会社等の決算に関するお知らせ 2026年8月24日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbDdYLXVpLThWOHBXYlREdUR1UGEzTldQSWc0LXhVeEdGd2xDT3NBYlZFVmV5NkZtV0MtY1B0VzZ5eEktS0N2THcxakhNMEstamdzOV9nQVc2c0xWWFBRWUkweThmbFlIbGtrV1hCNVE0Yi15MDN6cnVBWmtIaGkzSG9zOU54YWdRMVh1RnRkSnFEajAtdjZDNnBNam9UWUs1Q0FUakdsdjRkN1JHVFRxd1UwQUxoa2VNeWhkRmlxbHFpSndmaUNMNTVScFE?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-24T07:30:00Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-24T23:31:07Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b8b567fdf5dccd84",
-          "title": "円相場、年末に1ドル=160円 海外投資が円安促す",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmZWNwcjZzTTZ1Y2xSbGNtTFdzYU9yT19xT0RxbGJvZG4zaFFVcmRSTXpSbkRHQUZITWE2aFd6NHpPOU5PWnVzYUthSndTM2Fra0JqYVZ2QnRKb3dOQkYzbFBVb1J2V1ZVTDNCTTFXMmlUSFc3RVdtM2ljMWR4QQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-23T20:00:00Z",
+          "id": "f654679ffedcedec",
+          "title": "同志社の八田英二理事長が引責辞任へ…運営高校の女子生徒が辺野古沖事故で死亡（読売新聞オンライン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoS0VVT2tGMVhXc0N2WC16UUliWThPQnFmMDN0MHZtbVVOT1VVSWsxZXNYQlZCVXdVRTFMSVF1NnV1UGxVOXA2ODBpZDFnbkxzXzk1Z1BVWWIzM1ZqQl90b1hKOFNJQ01rMGY0S0p2M2czREM0clFETGNYMVpwRzA?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-24T20:00:54Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "213d7b875331317c",
+          "title": "Ｕ２０世界陸上２０２６オレゴン",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yeUQ3b21CSm96R2lzQzZBeGpYcjBvdXB1ME9teFlqNGhYclk0Rjh0U2RSYXY3YWlnYjhOZjhOVjFEYUJJZFdRZGIxRnczOVJhN3NhYS1n?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-08-24T17:53:21Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "22fb8034886accac",
+          "title": "”福岡県政のドン”蔵内議長が突然の辞職発表 「海外旅行」など物議かもした発言の数々 金銭授受疑惑など不透明なまま 県民からは厳しい声も（RKB毎日放送）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlbmV3NnF2MmFfRkRHbzhjYURFTXowYXJPT3dwOXFXeU9lclVCdkVwRXcxZ3JSVkhIOGpyUmhjdGRoalJxdUNKV3M0a21xXzhJUFg3RDdzLWZKSE1QU2hmN2tOLWdqVlVqbXdiWkhHODJrUkFtMmVwX1h1cDdNNE0?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-24T10:12:17Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -44,16 +64,6 @@
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWFF0N0VsaTdpQW5EZTYzNDV1TGxfZE5fbkZzRWM3TUEtcTY1bVBMT2VMYXdJZGF6elBrd25FQjd6V2Vhc1hkYWU1dmZDTE9ZRTN3Sk5RVXRndXEtSjh4WWJ3NGVIM0dpRVBxVl9NVUxFYTFhbFYyX2U2VGVZbjhNT2o5YVc4Zw?oc=5",
           "source": "jetro.go.jp",
           "published_at": "2026-08-24T09:28:48Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "97fb1173343fc400",
-          "title": "市川染五郎＆尾上辰之助「ロンドン歌舞伎」で初の海外公演「古典の力信じて」「外から内へも成果を」（ステージナタリー）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwM0RQWEVkdmh2N2RCUkVOWG1LVjFvclI3ck4yOG9vZ0l2cEZybkNkNzI1a09ZM3RxOThyeDI4WEJROXU4LW1VcWRGT3dZYTFDejNua0I1bTZvOWhoR1F3RWdtQmVha1FGS0pDWC1UdG5POW5xdnVlRVVNLXpkUmM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-24T09:28:11Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RM3VDQmRSeEJrSmU5V3JqZUZRZG1tOUFZTWhVSDQxWlg1eXNMRHNXUkRSN0pWbVlITTBRbUY5MFRsbGtDMEJWMjEzbEh5azZPa3BrakdXb1FWRzludHBacENEaWFON2E4SlZzSlRjTWRzbU1RVkhJNmRjS0E5VGM?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-08-24T06:35:27Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "01055027044d89fc",
-          "title": "材料科学-スピントロニクス国際シンポジウム「MSSp2026」東北から持続可能な未来へ（11.9-13開催）",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0dnZfeUdBVTBEaFNhc1U2R3A2SWtCb2tmSU55NXFpd2xMYTVRWUNOVUxXb1ZYTFhxa29jWlNlajVxeHZnTUd0aEdhemI4RWlmSnBUM1AzOFpVaHQxeWRNcHVzMkNkcG9TZmVERHZlZnBfZ1ZjYk9R?oc=5",
-          "source": "tohoku.ac.jp",
-          "published_at": "2026-08-24T06:30:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,16 +179,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "806d89c42d867d0a",
-          "title": "ヤマモリ、三重・多気にレトルト食品工場 シャープ事業所を一部買収",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13MzZXU3k5QXhvU05GVVVXajRjclNaZjlOOWZsUlFTcl9Od05RQkNReWxIdnRaWFpLakdRNnBhRjlVb0xnNWZveWl1NmFDUWxtQTJfcjBnWnMzOGw2OGtlV3dYRUlOdzlnUURSQw?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-06-08T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "1e3558dd99c398af",
           "title": "コープこうべ・26年3月期 食品工場売却で純利益大幅増加",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qODF5dkhlVGZhOWFKeDUxVXlNWVNLWl9GdEE2MFVJcmJ5U0tzemZieFBfSE1KTUt5WlZoQzB1TlR3QUdRWl8wdUl4Q280bEx2TjBubXJMUVZWT3NvX3dNYmJGQkk?oc=5",
@@ -212,7 +202,7 @@
           "id": "4a4031dcf4ae9bd6",
           "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
-          "source": "LOGISTICS TODAY",
+          "source": "logi-today.com",
           "published_at": "2026-08-20T20:27:49Z",
           "language": "ja",
           "category": "food_factory",
@@ -237,12 +227,32 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "df5032e43e049da4",
+          "title": "もやし工場で「わさび」生産 食品工場内に栽培モジュール導入し高付加価値化へ新モデル始動",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY19GNjlvZ0FzVmlqN281VUlfWXRNdjNyTWtFM0NQTGM4bU44czJJWDFzSWxVeWFLSVJ2Y3M3UjJvNWhMQ2R6bXR1bTM2X1Vqak5SUDV2YTV5VmJCZUU2d2UxcHNqUXhVczhkWFJpd3E1UWlMSVNZaWNfMEJsWGxSWDFueFIwdw?oc=5",
+          "source": "projectdesign.jp",
+          "published_at": "2026-06-02T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "bbd227da8dab972e",
+          "title": "シャミネ松江／スーパーマーケットマルイの新業態など2店舗今秋オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oY2NSeDZxMDQweXdaVzlHYjhZNkZZTFk4bXRFZTVwWC1aTW5zNmU0RDZMdlZQVkNSMldHVFFpTjVVNW5SZmJpZ3VvQWYzbXItV1NPTw?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-25T01:31:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "9b6369b8b4f8693d",
           "title": "オーケー／神奈川県横須賀市に「横須賀店（店舗面積2286m2）」27年2月5日新設",
@@ -299,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tSEp4cWVjclBZaDhZcURaQjQwZERpVVRrcXp0WXJQUDAzNVY4bmlCQWhaUWk2aGNMOHpfS1dKeHZRaXc0U3JpTzQ5T1Z0OTRCaE5MVURFUUp4enhSRWQ2Z01zc080THBVeGc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-06T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "270fe4a3f365ac9f",
-          "title": "スーパーマーケット型クレーンゲーム「クレーンマート」が愛知県に初進出",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEeEJGaXpmZ2oycWdXNVpxUzdyZm1nTldXa0laeGtCMEZYZnNsTHJZWUtBWktEQ0xZZnBEUlo4QkdUWllaTFZlZ19BaTRkWm14ZkVNVW5WaXBmMTVRc2dsaXg2SGVEUk9NSkE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-01T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-24T19:05:26Z",
-  "last_success_at": "2026-08-24T19:05:26Z",
+  "last_attempt_at": "2026-08-25T01:56:05Z",
+  "last_success_at": "2026-08-25T01:56:05Z",
   "consecutive_failure_count": 0
 }
