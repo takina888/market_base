@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-25T19:04:00Z",
+  "generated_at": "2026-08-26T02:02:03Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,6 +18,56 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "972f38bb00b61e41",
+          "title": "海外企業向けに気象データAPI「WxTech Data」を販売開始",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9IcVNoWVhEUURmRnlyckd3TGg0WlJTZkcycC1Gb1RkTDduajJ3R3RJWDV3ekJIak5aUkpLLW9VcjVIZUZFX1BGbm9SeEM1aFE?oc=5",
+          "source": "株式会社ウェザーニューズ",
+          "published_at": "2026-08-26T01:00:56Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-25T23:35:31Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2f7102a4a87fd912",
+          "title": "1563. 世界人口の4分の1が「極めて高い水ストレス」に直面",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wbGZzZDhNTXJLcGk2QldJQ2dXVHYzMVFGTy1DTkpUZkQyNkVqMkVndDlWaHJaRmhPUDlTT0VkelV0STlvN2RSZHlVNF9DVnJQOS1IODF2TmNiYjl6ejZ3QlpLT1c?oc=5",
+          "source": "jircas.go.jp",
+          "published_at": "2026-08-25T21:02:48Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "765831dcbc6bea64",
+          "title": "世界平和アピール七人委員会講演会（市長日記 R8.8.25）",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVFBlTm4zUXI0c2tHMGFBOV8yT2hOSFJrU2l1VmlzZFJ6Q0JmSUVGNzFNVE1ybDZxelREWmRPS045MnV4djlxUnJEX2NHbzdTZWdmVGc0M3VzcGpUOWZzYkpqNk1DazdMTmp2bTU5aWgtWmVUNE5BVXE3aEg1SlRPRjZrV29jVDlKbFAxMXh2TVdFbVNvRXB1dTh6QQ?oc=5",
+          "source": "city.tambasasayama.lg.jp",
+          "published_at": "2026-08-25T19:20:56Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "704c17932ec1fa48",
+          "title": "【海外在住の方向け】『BE:FIRST WORLD SHOWCASE 2026 ”WATCH ME”』OFFICIAL MERCHANDISE EC事前販売のお知らせ",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZSTdIREtHdklMV19qMDNyNHVXSWNRX3hXZFdPUE92MkZZV0MwWmJsU211SmJRZm1FUS1UazlaU0VpejZRcVloRVdKTDhWNm0zV0tpVDFKTDk5YnlZd3cyZG5n?oc=5",
+          "source": "BE:FIRST",
+          "published_at": "2026-08-25T11:28:52Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "1a2da3f13e8e890a",
           "title": "海外駐在員の活動レポート(2026年8月・北米事務所)",
@@ -37,56 +87,6 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "cddbe417da50c207",
-          "title": "井野経済産業副大臣がコスタリカ共和国のトレホス貿易大臣と会談しました",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zelVSMUtVWDUyZGRkQlpzdXViazlCUTh4ZnRkbmlvMm4xb2U4YzRJVVBUVmxlbllXcWRfQ1BlNDNwOE9PNnBZYWVzOHB0ZTZRRnI1NHFObnpqUkZRN1NlRkQzSQ?oc=5",
-          "source": "meti.go.jp",
-          "published_at": "2026-08-25T10:47:31Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ed9834b5d6b4affc",
-          "title": "【ワンピカード】世界最強の戦士がAmazonで抽選販売中。ヒロインズエディションvol.2、神の島の冒険、蒼海の七傑も",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5LUTFHQU9aNkllS2hkYkNWV3h5ODA0QzhlQlB4dlRHLUhsejBKalNBNTJKUWhZT1haV0ZPTnI4Q3hCQjc5Ml81NXFFVENuTDdKanI2RDZnaw?oc=5",
-          "source": "ファミ通",
-          "published_at": "2026-08-25T10:28:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "712bfedd4e478e3a",
-          "title": "令和8年版 情報通信白書｜我が国の放送系コンテンツの海外輸出の動向",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLUMwOHJoY29XQkRxNEpoSXM2UlBuVDFEMVRkdWVSc2FkLU11VFBydmwwTndob2JGQVJuVzhrY0RaTmdVTHdLSGRqcjJpWnVQcGJHdERDRUhCSUtMMU5BVU0tWGVMdmNPRmxXT2FGc2lxQS1jM0hqTnRJTFZZWmxpN2xB?oc=5",
-          "source": "soumu.go.jp",
-          "published_at": "2026-08-25T10:20:37Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "774543beee72d257",
-          "title": "宇宙産業は民間参入が主流に（世界） 強みを生かし参入を目指す各国と企業",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOU54M09Nd1RldVRQdlZoNEVCRE45WEVnT3d6UHJwTjBTZl9ibGV5bWZHS3V5d2VXMXdUazV4bzkxWk5waDhTMmllTzFhaVNRSVV0b1Y5cll0ZlV6NUtOb3BZb2MyeFZjU21JWG1zd09Yd2pqdS1oOHJmN1ZYU3RmQ1VFUmRRQQ?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-08-25T08:08:57Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "246640839cc49d13",
-          "title": "国連が警告“水破産”世界で深刻「水が底をついた」日本のダムも 解決への技術と課題（テレビ朝日系（ANN））",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLVVQ1Vk9Fcm9ZdUFYWjNMOE5CSDNNV3pQcjdHNDlkWEtpbDRtS0lkQnpwdGU5TjhZWnR4T09POUZBc2FFUThWWnF5bERZU2pHT3gtWjNrMEIxek4tcW9hdzNjWS1DeVRtSzR6bzF2Z2FxT0lKRXExVzZYQV9ScW8?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-25T07:00:14Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -99,16 +99,6 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
           "source": "日本食糧新聞・電子版",
           "published_at": "2026-08-16T15:06:10Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e780d8ff9c3cf320",
-          "title": "マスダック、食品機械事業を強化 入間工場新棟で生産能力向上",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tUUVwQjFkRVluZmNja3BKT2lrZmFDUkhEcTF6UkNVb0x5UnF0elFSQWhtTk1YOEl5b1ExM25Nc3k2VnMxXzJ5YnFJZTBHSFg1UTR5eTEtVUxSQnh4MWdPM0pjRjJXUQ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-16T15:04:11Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -162,6 +152,16 @@
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "361943967e0ca83e",
+          "title": "アネスト岩田、「FOOMA JAPAN 2026」に出展し新型オイルフリーコンプレッサを発表",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZNEpscFpFWmFDY0ZzS2NOZFZOWHp3c2JWMHRiYWpNZGw1SnI3U0dUbFNQTlpUdFl6MU9aczFrSHBJWWI3QXhuaEF4MlY5OFV0SUpuRTFNQ0RLZTZ4MmpMd1h6a3AxVDVXT3c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-01T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -212,7 +212,7 @@
           "id": "4a4031dcf4ae9bd6",
           "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
-          "source": "LOGISTICS TODAY",
+          "source": "logi-today.com",
           "published_at": "2026-08-20T20:27:49Z",
           "language": "ja",
           "category": "food_factory",
@@ -243,6 +243,16 @@
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "583a1abd3e18435d",
+          "title": "浦和パルコ／レトルト食品専門店「ニシキヤキッチン」の期間限定店9月3日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fM0hEQlRhbGNVUURQNHpfLVdCOVloVjVfUXNST1d1TjlCcnE5Zkt5UWJaTjI0X0JrdzZFeVVpY1BReVdRY1plUFlyU1kxS2JENXVqeQ?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-26T01:23:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "572ed3cd729d2500",
           "title": "コーナン商事／神奈川県横須賀市に「（仮称）コーナンPRO横須賀市日の出町店（店舗面積2604m2）」27年2月19日新設",
@@ -299,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BaEFYUlN3OVk0bWJ1dmlNcnBwVVY4aUJJNkJ1SmRuUHhTSDI5dWdSZGNWRXpPUjdhd1hYVENDSERhNzUyYmFRWHhHbUZNdlJmMkg4MXVn?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-20T01:32:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d4481706dec8d638",
-          "title": "ニトリ／長野県飯田市に「飯田インター店（店舗面積4085m2）」27年1月30日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwNTU4MlhfZTNjdW1PUFdRek82REN1VjRKUXR3N1MyNWthT2Y5SXFyOW9GVEhYMVpCdUswQWQ2elNsR3hNeEN1LVd6UWdrZ21mYWRyM1NB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-19T01:30:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-25T19:04:00Z",
-  "last_success_at": "2026-08-25T19:04:00Z",
+  "last_attempt_at": "2026-08-26T02:02:03Z",
+  "last_success_at": "2026-08-26T02:02:03Z",
   "consecutive_failure_count": 0
 }
