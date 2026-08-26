@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-26T02:02:03Z",
+  "generated_at": "2026-08-26T07:13:08Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,36 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-26T03:28:57Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d5942264a283ce4f",
+          "title": "中国、アメリカの対イラン制裁は「違法」 貿易相手国に「対象拡大」で反発",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xMl9aVlpGMDh1azBiZjdNZGNmRm9rUEZtZmFPeTBuRklnZ1lWZzdmNkhfM3FiTEc4RWMzMy1BbnV2MFFfSTdoVDUtT3lTV0trQ1M2ZHJadlBRTHRMY1lZ0gFkQVVfeXFMT0QxOElLS3R4U09NNkRZeV8zN0poWXRHTWFqMVV0bWluMlJtVmIwQ0hNcURWUDhBTEFLcG9seEF4TnBDaEZPdG5DcU02SmRSMG1Na1JVUXpUbThTazVuNFZDSlNoMg?oc=5",
+          "source": "BBC",
+          "published_at": "2026-08-26T03:23:55Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-26T02:36:18Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "972f38bb00b61e41",
           "title": "海外企業向けに気象データAPI「WxTech Data」を販売開始",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9IcVNoWVhEUURmRnlyckd3TGg0WlJTZkcycC1Gb1RkTDduajJ3R3RJWDV3ekJIak5aUkpLLW9VcjVIZUZFX1BGbm9SeEM1aFE?oc=5",
@@ -29,61 +59,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-25T23:35:31Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2f7102a4a87fd912",
-          "title": "1563. 世界人口の4分の1が「極めて高い水ストレス」に直面",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wbGZzZDhNTXJLcGk2QldJQ2dXVHYzMVFGTy1DTkpUZkQyNkVqMkVndDlWaHJaRmhPUDlTT0VkelV0STlvN2RSZHlVNF9DVnJQOS1IODF2TmNiYjl6ejZ3QlpLT1c?oc=5",
-          "source": "jircas.go.jp",
-          "published_at": "2026-08-25T21:02:48Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "765831dcbc6bea64",
-          "title": "世界平和アピール七人委員会講演会（市長日記 R8.8.25）",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVFBlTm4zUXI0c2tHMGFBOV8yT2hOSFJrU2l1VmlzZFJ6Q0JmSUVGNzFNVE1ybDZxelREWmRPS045MnV4djlxUnJEX2NHbzdTZWdmVGc0M3VzcGpUOWZzYkpqNk1DazdMTmp2bTU5aWgtWmVUNE5BVXE3aEg1SlRPRjZrV29jVDlKbFAxMXh2TVdFbVNvRXB1dTh6QQ?oc=5",
-          "source": "city.tambasasayama.lg.jp",
-          "published_at": "2026-08-25T19:20:56Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "704c17932ec1fa48",
-          "title": "【海外在住の方向け】『BE:FIRST WORLD SHOWCASE 2026 ”WATCH ME”』OFFICIAL MERCHANDISE EC事前販売のお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZSTdIREtHdklMV19qMDNyNHVXSWNRX3hXZFdPUE92MkZZV0MwWmJsU211SmJRZm1FUS1UazlaU0VpejZRcVloRVdKTDhWNm0zV0tpVDFKTDk5YnlZd3cyZG5n?oc=5",
-          "source": "BE:FIRST",
-          "published_at": "2026-08-25T11:28:52Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1a2da3f13e8e890a",
-          "title": "海外駐在員の活動レポート(2026年8月・北米事務所)",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBEamNrU2VqdXltRFhSREh1UTFoTXBYNHZ5NTRsa1ViUXRHdG00bGRhMWJLWTZUVlgzVDF3cVhtQTJKb1RoOXEyREZWQnVsWlpELUxzZVVBLXR2ckN5M2RyOGNnaHp0c0Fzbk1TN2hn?oc=5",
-          "source": "pref.kanagawa.jp",
-          "published_at": "2026-08-25T11:19:50Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e76c6e3601159712",
-          "title": "辺野古沖転覆、学校法人同志社は同志社国際高校長を「解任」 後任は同大副学長に（産経新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53TDNUMkVsYk9iN0FGc1pseE1rODE1UFdHSFBDMEt3bkVPenE3bDVSQnR0VmNJNmE2SmdTUU51MVdJMVFoYTVLZjJvcm8wbkJ4LXI1ODFCcW5YcWcxOUgtb0tuZzlkRFNiMmpIZXFkdnk0U0pSSERiNTZneEFGT00?oc=5",
+          "id": "a980066992adbf5e",
+          "title": "同志社国際高校、現校長を解任へ「新学期を新体制で迎える必要…」新校長には同志社大・宿久洋副学長が就任【辺野古転覆事故】",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaTzNYazZKUzFJa2c2SkFLTmFxZC1iTTI2RlF6RlFNMDBRSHMtOEVlMjUyYzZvTmU2ZnRtYl81anlJUmZUbTVtbnpPUFctUkdSVHJrelJNcFVQMmh0UjFPdHM0VlVEaVRxZkREanQxd1JOV0haRWpZdlRSMlFxN1U?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-08-25T10:53:47Z",
+          "published_at": "2026-08-26T00:34:44Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c60030c315d6de32",
+          "title": "「日本一高い」福岡県議会の海外視察1泊17万円 他県は「廃止」も（朝日新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6UDlyQXhxNVRQRS04VWYtZmpybFdoQTJ3NzRrUE9DRkxBNEJ1YWtfRzdMX3FOb01uNTl3UG9mSGpKc290T3RjOHFyUDhiNlFLVFc1RjRlYlpiM3ZTdHRsNDdRZEhWVTV5ZEdEQVBzWE56NndvcW5XUzd4SjlVSUE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-25T21:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b198458540a02aec",
+          "title": "世界くらべてみたら★SixTONES全員クロアチア世界遺産ロケ絶景美食 [字] [デ]",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43Szc2S1lTZlk1aE5WYUhKQ2JzQUo4LWFNNHloZTZTd0o2WVMxTkgtMllycm5WM2tqd2xmOFg0LWh1eUhhSkdFcGtUN1ZhdTdsbndDbktn?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-08-25T19:34:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -212,7 +212,7 @@
           "id": "4a4031dcf4ae9bd6",
           "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
-          "source": "logi-today.com",
+          "source": "LOGISTICS TODAY",
           "published_at": "2026-08-20T20:27:49Z",
           "language": "ja",
           "category": "food_factory",
@@ -249,16 +249,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fM0hEQlRhbGNVUURQNHpfLVdCOVloVjVfUXNST1d1TjlCcnE5Zkt5UWJaTjI0X0JrdzZFeVVpY1BReVdRY1plUFlyU1kxS2JENXVqeQ?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-26T01:23:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "572ed3cd729d2500",
-          "title": "コーナン商事／神奈川県横須賀市に「（仮称）コーナンPRO横須賀市日の出町店（店舗面積2604m2）」27年2月19日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iMHFQWEFsdk12TkJKT1BvX1F5OHM3NENwQjd6M1JGa085bXhVNU1wQzg0QTdtX2dTYmxkbjFQeDkwM1pUeVRUbERBSV9YMV95dkVzVnl3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-25T01:41:55Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -309,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BaEFYUlN3OVk0bWJ1dmlNcnBwVVY4aUJJNkJ1SmRuUHhTSDI5dWdSZGNWRXpPUjdhd1hYVENDSERhNzUyYmFRWHhHbUZNdlJmMkg4MXVn?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-20T01:32:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c9101e8d4beab29a",
+          "title": "コスモス薬品／長野県・静岡県・兵庫県に「ドラッグコスモス」計3店舗、27年1～2月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jNmZYSWdxbXdMV2JYX09oSy04aTZhRGl4ckpXdGhIai03c0Zja2JyTDB5TmhZQzJMYkFMT281OFhkcmM1Z3puT284R1NhQ0VOeEt5cU1R?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-19T01:29:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-26T02:02:03Z",
-  "last_success_at": "2026-08-26T02:02:03Z",
+  "last_attempt_at": "2026-08-26T07:13:08Z",
+  "last_success_at": "2026-08-26T07:13:08Z",
   "consecutive_failure_count": 0
 }
