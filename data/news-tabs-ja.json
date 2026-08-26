@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-26T07:13:08Z",
+  "generated_at": "2026-08-26T13:27:38Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "id": "b2e2106cda0016ae",
+          "title": "「日本が圧力に負けるのか、世界が見ている」ICC赤根智子所長がICCを守る理由――「法の支配」か「力の支配」か【独占インタビュー 第2回】（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlZzhGUVdEWUhCYXUyeFNXTl9SVXlmRkRSUzVib2ozc2hzR01TY1RzdmlYQlVPbEVVSlIxSGdRbjJ6U3ViV3N0WlE5eVF0bEZJeTF4aE5tQ2NHbDdSX21NZ25OM3l6SHh1U29Wb2cyMFFoaGVES2huZGlkWmJGM0E?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-26T12:02:14Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-26T03:28:57Z",
+          "published_at": "2026-08-26T11:37:26Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7aaddea82b18ecf3",
+          "title": "入管にベトナム人が相次ぐ…なぜ 海外不法滞在の罰則強化へ（日テレNEWS NNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKVjdDTUpjMlBoWUcySVBNZm9EREdoQUhsZVVfcERDeDkyYTAzV3M5UDFjOVRZSkVKQjU3VzdObWQzZEhwdUtoSzFmOThfaVA2MXMxWjBTbDdwd0NqbkFUWFlac1VUQzNSY2JYeHB3S2FCc0pfOGtBai1vTXU5ZTg?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-26T09:01:01Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "dc9bb9c1fc322f88",
+          "title": "日本映画の海外進出等についてヒアリング | お知らせ | ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WYTlWTGZYbWVTS0p4MEFnUFdoeXdPVGF5VkZQb3JycjhNYU51UnZ4cHI0SUVIWXA0aXZILThJd05rOTBlalhqNGxtR2RCN0Jpam1TRi1za052VFZuOGc?oc=5",
+          "source": "jimin.jp",
+          "published_at": "2026-08-26T05:34:48Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -39,11 +69,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-26T02:36:18Z",
+          "id": "2f7102a4a87fd912",
+          "title": "1563. 世界人口の4分の1が「極めて高い水ストレス」に直面",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wbGZzZDhNTXJLcGk2QldJQ2dXVHYzMVFGTy1DTkpUZkQyNkVqMkVndDlWaHJaRmhPUDlTT0VkelV0STlvN2RSZHlVNF9DVnJQOS1IODF2TmNiYjl6ejZ3QlpLT1c?oc=5",
+          "source": "jircas.go.jp",
+          "published_at": "2026-08-26T01:30:44Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -57,42 +87,22 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a980066992adbf5e",
-          "title": "同志社国際高校、現校長を解任へ「新学期を新体制で迎える必要…」新校長には同志社大・宿久洋副学長が就任【辺野古転覆事故】",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaTzNYazZKUzFJa2c2SkFLTmFxZC1iTTI2RlF6RlFNMDBRSHMtOEVlMjUyYzZvTmU2ZnRtYl81anlJUmZUbTVtbnpPUFctUkdSVHJrelJNcFVQMmh0UjFPdHM0VlVEaVRxZkREanQxd1JOV0haRWpZdlRSMlFxN1U?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-26T00:34:44Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c60030c315d6de32",
-          "title": "「日本一高い」福岡県議会の海外視察1泊17万円 他県は「廃止」も（朝日新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6UDlyQXhxNVRQRS04VWYtZmpybFdoQTJ3NzRrUE9DRkxBNEJ1YWtfRzdMX3FOb01uNTl3UG9mSGpKc290T3RjOHFyUDhiNlFLVFc1RjRlYlpiM3ZTdHRsNDdRZEhWVTV5ZEdEQVBzWE56NndvcW5XUzd4SjlVSUE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-25T21:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b198458540a02aec",
-          "title": "世界くらべてみたら★SixTONES全員クロアチア世界遺産ロケ絶景美食 [字] [デ]",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43Szc2S1lTZlk1aE5WYUhKQ2JzQUo4LWFNNHloZTZTd0o2WVMxTkgtMllycm5WM2tqd2xmOFg0LWh1eUhhSkdFcGtUN1ZhdTdsbndDbktn?oc=5",
-          "source": "tbs.co.jp",
-          "published_at": "2026-08-25T19:34:55Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "6de479b68f1ffe25",
+          "title": "日本包装機械工業会×東京工科大学デザイン学部の産学共同研究プロジェクト、包装業界の魅力を発信するコンセプトムービーなどを制作",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZGQ0M0tCdGlfNEdSR1lXUHF6NXhkNWhEcjNSQVlNVUtuVmdlUVdKM3VXa1I4UExReEU5WXJ5WE5WZDdOUnBVYUdDYTJkc3NIQjcxSl9PcUlJTUdDNkxremdqLUhXOFh0bmc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-24T03:16:35Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "a772bd383a2af7eb",
           "title": "日本盛、大型紙パック充填機を移設",
@@ -149,16 +159,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxQV94Tjh3VGxuR3VESlZGZWZncDB2V0lrb0FkTFJPOUphdFAzRjhOaGtRY0gteFpDYTBzbEpFVTZhblV4VUVRc1pybzF2OWxGOG5PeV83TDljOEp1U1ZZN2RNT3cwNE9fV2c?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-06-02T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "361943967e0ca83e",
-          "title": "アネスト岩田、「FOOMA JAPAN 2026」に出展し新型オイルフリーコンプレッサを発表",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZNEpscFpFWmFDY0ZzS2NOZFZOWHp3c2JWMHRiYWpNZGw1SnI3U0dUbFNQTlpUdFl6MU9aczFrSHBJWWI3QXhuaEF4MlY5OFV0SUpuRTFNQ0RLZTZ4MmpMd1h6a3AxVDVXT3c?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-01T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-26T07:13:08Z",
-  "last_success_at": "2026-08-26T07:13:08Z",
+  "last_attempt_at": "2026-08-26T13:27:38Z",
+  "last_success_at": "2026-08-26T13:27:38Z",
   "consecutive_failure_count": 0
 }
