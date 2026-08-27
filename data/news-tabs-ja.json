@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-27T09:59:19Z",
+  "generated_at": "2026-08-27T22:25:21Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,51 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "f1a7d92f08602e37",
+          "title": "村上信五のしくみを知れば世界が変わる！",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96MC1ZV2VVOGxoQmR1d0w2TlprV1g1cWg0UFpFUzFUdFBuRmNSb1BBMVI2YkJEeDVzendxOUtCRkdkaVAtLVdtSzg1bnpOTUNEMHJKZ2d4WkI?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-08-27T13:21:14Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "f3c74d4547239842",
           "title": "未来科学人材アカデミー第32・33回： サレジアン国際学園世田谷中学高等学校理科科1年生がスーパーフード「キヌア」の可能性を体験",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14aHdDWmdnd1NuM1BqS2xpaU52RjM1aHItV19CaFhfS1JfUEswdTdvenh3MW1CQWNyVFQwajJ5Q3Nkb21reFVYWExiQUR0Xy0zLUt6RHFrV0lNajVPcWI4?oc=5",
           "source": "jircas.go.jp",
-          "published_at": "2026-08-27T09:39:42Z",
+          "published_at": "2026-08-27T12:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "41fc1abd08281999",
+          "title": "航空機の車輪格納部に性別不明遺体…クアラルンプール国際空港着機、羽田・成田両空港のいずれかを出発か",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5eC1wNzU2Qy1uNmc1ZGZzTE5pUUthY011bTZTbjNTaTRZc0ZNRGFyM3lWanpsT0xqM2FmbGlDdVhfb0xHTmphY0FLQ01qN1A4b0Z3ZEhOek9PdXJkeGJtZXRWNjhIeGdhalhNVGkxbXpXeWtkWlVfUzZYUWtqcjA?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-27T11:15:40Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e3f157bf61775a04",
+          "title": "世界平和アピール七人委員会と高校生の平和への思い（市長日記 R8.8.27）",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNemphb0ZsSWVUUFBpZG5va254WWtvNng0XzR1emFuTjZHd3hWRW90ZGVnR1lldnBmMTgtNXhhWEFDT2RPd0Jzam1TLVZpQXoyVnpuN1dKRDl5eXU2R0lvby1wTnNsUTNGM3hKY2thbWZZZll4VjdMcV93YnlqRFJXSWdnRW1OakFtRl9wTDI2WWlHZkhid1FnVkFIUQ?oc=5",
+          "source": "city.tambasasayama.lg.jp",
+          "published_at": "2026-08-27T10:57:33Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "383174c9abc6fee1",
+          "title": "草間彌生さん死去、97歳 水玉模様で有名な世界的前衛芸術家",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KTGdZTUN6NjZUZUpHMFNIem84a0xKdFluRVJUb3k4Tk9oSk9FZmhpRktNcVpla1MzaEp6aTVJRWFZRVhBaHFranZGdjg3dWRUaGZtUUJjRUFzV2pabXlV0gFkQVVfeXFMUDhZYXhMQzJ5T0V3dXQ5VWZGZmJVRVJvZFJzWC05TkJrX0htZHZDR20yRjRZcVBvdTgzWVNERU5wNS1PNmR4VEZ6R21aYkNWbHVtZGdHajBLUVdSYUlicWxvXzJJWg?oc=5",
+          "source": "BBC",
+          "published_at": "2026-08-27T09:33:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -39,51 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "bb3bb1d6791ffb37",
-          "title": "トランプ政権下の国際秩序の変容と日米関係 (2026年8月27日 No.3741)",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oNEFkWG9jcGNuUkdkaTJXNXhHaTNkMjhpYktvUDdYb1VkcWtOeFg1YlktSmZ2Zi04ZzkyeEJwaUpRZW40dHJWSmhOSU12aW1PdFc3SmpGbVlGTGk2VHhWQzdtX2JXSkgyejIw?oc=5",
-          "source": "keidanren.or.jp",
-          "published_at": "2026-08-27T07:33:31Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8715a2cac9671460",
-          "title": "ギブリー、Salesforce顧客で世界初の「Adaptive Websites」本番環境で稼働",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ORG0wdDh1TjRwa2ZhWm9kbGNOYlpwcmVtVWtMWnFhb3hFY1RYUFIzTmRkRHlNd1J0cVd1b0V5SGg1YVBFQ1JRakhpY1RaLTlGbndHQ0lR?oc=5",
-          "source": "EnterpriseZine",
-          "published_at": "2026-08-27T05:53:43Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-27T05:43:30Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0baeeb68f1f8d77a",
-          "title": "上下水道技術海外実証事業（WOW TO JAPAN プロジェクト）の採択技術を決定しました ～マレーシアで非開削管更生技術を実証～",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBbWs3MWxTUHRRdkZnVEFUZlpYVWpkTmJoTVNacHZWazBjbVFQbHZhWjViV3JhTEt0bFJSWVpBWkZValhseGdHT0JNZnNTMWZpZ2hOYjI2cHVzYnNNRW1YdTFVWHl2ZjRWbW9OMnU3YkE?oc=5",
-          "source": "mlit.go.jp",
-          "published_at": "2026-08-27T05:15:25Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a7ee7c21026b3c59",
-          "title": "「夏休み子ども科学教室 ～電子顕微鏡でミクロの世界探検」を開催しました | 2026のお知らせ | お知らせ一覧",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00WFVrTU8yeklFMDJhaVNvVUhZSXJMR2UyNWFJUk0zRWhPZnVLQUdVejQ0YXVZODd6bUhVNFd0a3RBcWJHQzF2Y215Mk5ldXBOVjJtOWNWY1h4N1pCYl9r?oc=5",
-          "source": "teu.ac.jp",
-          "published_at": "2026-08-27T05:08:21Z",
+          "id": "c2930642c564c790",
+          "title": "人材マネジメントの国際規格「ISO30201」正式発行 経営層を動かす切り札に",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZV1BkTk0wakVfMWs4aU83TFBudi1zQ2JLYmZWVzUwdFlmQzVUM2xzUmlVbUhORFNXeDc2aTFqd0oybGNKVGl3WnoxRllmOVo4UUNjSHFXNnVnWDJXUlJmSllDOEduLVE?oc=5",
+          "source": "日経ビジネス電子版",
+          "published_at": "2026-08-27T08:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -104,16 +104,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e780d8ff9c3cf320",
-          "title": "マスダック、食品機械事業を強化 入間工場新棟で生産能力向上",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tUUVwQjFkRVluZmNja3BKT2lrZmFDUkhEcTF6UkNVb0x5UnF0elFSQWhtTk1YOEl5b1ExM25Nc3k2VnMxXzJ5YnFJZTBHSFg1UTR5eTEtVUxSQnh4MWdPM0pjRjJXUQ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-16T15:04:11Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "05cf05b47710b11c",
           "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
@@ -124,11 +114,31 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "e780d8ff9c3cf320",
+          "title": "マスダック、食品機械事業を強化 入間工場新棟で生産能力向上",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tUUVwQjFkRVluZmNja3BKT2lrZmFDUkhEcTF6UkNVb0x5UnF0elFSQWhtTk1YOEl5b1ExM25Nc3k2VnMxXzJ5YnFJZTBHSFg1UTR5eTEtVUxSQnh4MWdPM0pjRjJXUQ?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-06-25T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "4180d1106bcbc393",
           "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LbUlhc2Q0X3c1QTdaYjVtTEdPNTUzYmhPdktDeXJmRFpSM3k4b3lHLXFPbV9UVC1BRDJIRkFJS1NWM1JybWxPYkl1SDZNeFQwZDdxeTAwc0tWRTRZTE03eFhCZ3Z2TVpuaXc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-06-15T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9d8c680faa3b6e31",
+          "title": "FOOMA JAPAN2026：農水省、「人を育てる自動化」テーマにセミナー",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ob0ZOekwxNUt5eUJ1X1h5VDA4U3VrZm5ydGM3UXJ3aHpIQXlkd0Fzbm51LWwxS3lPTEFVcDNKazJOY0dYamFfOERPODFQUS0zTzMtdzVSRGd1UDItMlhoOG1uYW9ZQQ?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-06-14T15:03:37Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -152,16 +162,6 @@
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e0309508e7e526c",
-          "title": "フジワラテクノアート「小型通気式固体培養装置」が第5回FOOMAアワード2026 経済産業省製造産業局長賞/最優秀賞を受賞",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nZ3VfdlpFLU55c082RkRNU2c4YXVWMHItbTd0MmVWdGxtcmIybnV3Snh6WGt3ZUVmVlV5R1F3b2d6Z0lqRGFjeW5Pam5ERW5Vc1I1SkpUd0hySkNjb2c3QzFneHF4cndVRmc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-03T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -174,6 +174,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-25T02:28:44Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "cbbbd1904db9d4a2",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:44:56Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -204,16 +214,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxTUpMcFJPOTNUQnM1bmItc1VMY0dvR01JQ09ubXpnR0JzcUx4ZzdkYVBUNTJkaFF1N2NmYXllbWxDSkVtN3I1d1ZPTXAwRk1xVWVLczBoVURYbThUbTdERGUtazgtNkRZWVE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-06-01T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "490326a0a5021998",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
-          "source": "Infoseek",
-          "published_at": "2026-08-21T07:44:56Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -308,7 +308,7 @@
           "title": "コスモス薬品／長野県・静岡県・兵庫県に「ドラッグコスモス」計3店舗、27年1～2月新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jNmZYSWdxbXdMV2JYX09oSy04aTZhRGl4ckpXdGhIai03c0Zja2JyTDB5TmhZQzJMYkFMT281OFhkcmM1Z3puT284R1NhQ0VOeEt5cU1R?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-08-19T01:29:00Z",
+          "published_at": "2026-08-19T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-27T09:59:19Z",
-  "last_success_at": "2026-08-27T09:59:19Z",
+  "last_attempt_at": "2026-08-27T22:25:21Z",
+  "last_success_at": "2026-08-27T22:25:21Z",
   "consecutive_failure_count": 0
 }
