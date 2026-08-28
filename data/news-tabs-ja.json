@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-27T22:25:21Z",
+  "generated_at": "2026-08-28T11:31:26Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,71 +19,71 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "f1a7d92f08602e37",
-          "title": "村上信五のしくみを知れば世界が変わる！",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96MC1ZV2VVOGxoQmR1d0w2TlprV1g1cWg0UFpFUzFUdFBuRmNSb1BBMVI2YkJEeDVzendxOUtCRkdkaVAtLVdtSzg1bnpOTUNEMHJKZ2d4WkI?oc=5",
-          "source": "tbs.co.jp",
-          "published_at": "2026-08-27T13:21:14Z",
+          "id": "28d304cced47f19a",
+          "title": "「国際人道法普及ツール『レイドクロス』の基礎を学ぼう」のご案内",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yZ25yTFZucVpNUDJpZzNqd2JiTmtjVWYxTlRXc21hdGY5cEFBWDNmOHc2VW5wZVJoVFE3N0syVG1BTzFPX1Q5cVRNVmNYYm9WN3RDZXR1T3U4bDYxYzN5Y2IxZTl0ODlNM0U5VUJQVVhxYWYxeG1uaHVoRnZ6alk?oc=5",
+          "source": "日本赤十字社",
+          "published_at": "2026-08-28T09:46:31Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f3c74d4547239842",
-          "title": "未来科学人材アカデミー第32・33回： サレジアン国際学園世田谷中学高等学校理科科1年生がスーパーフード「キヌア」の可能性を体験",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14aHdDWmdnd1NuM1BqS2xpaU52RjM1aHItV19CaFhfS1JfUEswdTdvenh3MW1CQWNyVFQwajJ5Q3Nkb21reFVYWExiQUR0Xy0zLUt6RHFrV0lNajVPcWI4?oc=5",
-          "source": "jircas.go.jp",
-          "published_at": "2026-08-27T12:00:00Z",
+          "id": "7420955084aa99dc",
+          "title": "国際卓越研究大学 研究等体制強化計画の開始に伴う湊長博 総長のメッセージについて",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MeUlhbkdIMzBDLXF6TGU3VHpMQmVkSXBkTVdaemxMM2F4OVNXS0J3UE5adUNSNXo5S19IUE0zV3lvQWplRHNhN1FYUVExQ1NoZFJGOUhMUQ?oc=5",
+          "source": "京都大学",
+          "published_at": "2026-08-28T09:37:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "41fc1abd08281999",
-          "title": "航空機の車輪格納部に性別不明遺体…クアラルンプール国際空港着機、羽田・成田両空港のいずれかを出発か",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5eC1wNzU2Qy1uNmc1ZGZzTE5pUUthY011bTZTbjNTaTRZc0ZNRGFyM3lWanpsT0xqM2FmbGlDdVhfb0xHTmphY0FLQ01qN1A4b0Z3ZEhOek9PdXJkeGJtZXRWNjhIeGdhalhNVGkxbXpXeWtkWlVfUzZYUWtqcjA?oc=5",
+          "id": "178e58d8cf3c06f3",
+          "title": "【お知らせ】インドネシア共和国における国際緊急援助活動の実施について",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SaDRLQmZZaU44U0FCVXg5bXRyM0QtTUdpT1U5T0NpQmpOMndfbEREdXZkcXpwVFNrTkdJb3REOUZtcXJjcWk0TW82R3FGWHRPaWZqbm9DWWxHaTRIc1Vscg?oc=5",
+          "source": "mod.go.jp",
+          "published_at": "2026-08-28T09:28:50Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "873e46daa239d7e0",
+          "title": "アクリルぷちスタンド「TVアニメ『女神「異世界転生何になりたいですか」俺「勇者の肋骨で」』」01/コンプリートセット(全7種)(場面写イラスト)",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qWFBaY1V6VVQ5VGtlbkhGMFpZUnVOWVNyRHFWZnppbE9ITEdKWFpCQ3RjQmRELTk1UDZJYTZJZUphMUxBaWdOLTlXR2hld2VTeFVlNG9ld0pjajZNclRn?oc=5",
+          "source": "eeo",
+          "published_at": "2026-08-28T08:02:34Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "79e0f55278d6f205",
+          "title": "国際マウス疾患研究の新たな戦略を提言",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GaTZMeTNDRkxQdkFMek9kNE5SMV9YNnhlZHc5QXJWamJaZkhfSld0b1ItLThwZGdaVjBMMkg1RmpJc0E0U2tULWJQQWVzUkR2UDl3Q1FTRWhqVjZRdGVVQjRRb3FDZw?oc=5",
+          "source": "riken.jp",
+          "published_at": "2026-08-28T06:02:46Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2b3ea63e0bb35e6a",
+          "title": "同志社国際高校が今年度の修学旅行中止を検討 女子高校生が死亡した辺野古転覆事故受け（関西テレビ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBMmhXRTJmalBaRkdYM3pOeEhtZFVOVHVZWGhURlducmk4LWNzcFI2MW1RbEk3TnBPS2p5dGR4Z2pTbFdnZkQxa25uc1AxRHEtVVJCQ1o1MHZCRldqTTl0M1dVc25DRlFVcDVaREtvbHRqQWNEaUpMMWcyU1A0bjg?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-08-27T11:15:40Z",
+          "published_at": "2026-08-28T03:58:01Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e3f157bf61775a04",
-          "title": "世界平和アピール七人委員会と高校生の平和への思い（市長日記 R8.8.27）",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNemphb0ZsSWVUUFBpZG5va254WWtvNng0XzR1emFuTjZHd3hWRW90ZGVnR1lldnBmMTgtNXhhWEFDT2RPd0Jzam1TLVZpQXoyVnpuN1dKRDl5eXU2R0lvby1wTnNsUTNGM3hKY2thbWZZZll4VjdMcV93YnlqRFJXSWdnRW1OakFtRl9wTDI2WWlHZkhid1FnVkFIUQ?oc=5",
-          "source": "city.tambasasayama.lg.jp",
-          "published_at": "2026-08-27T10:57:33Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "383174c9abc6fee1",
-          "title": "草間彌生さん死去、97歳 水玉模様で有名な世界的前衛芸術家",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KTGdZTUN6NjZUZUpHMFNIem84a0xKdFluRVJUb3k4Tk9oSk9FZmhpRktNcVpla1MzaEp6aTVJRWFZRVhBaHFranZGdjg3dWRUaGZtUUJjRUFzV2pabXlV0gFkQVVfeXFMUDhZYXhMQzJ5T0V3dXQ5VWZGZmJVRVJvZFJzWC05TkJrX0htZHZDR20yRjRZcVBvdTgzWVNERU5wNS1PNmR4VEZ6R21aYkNWbHVtZGdHajBLUVdSYUlicWxvXzJJWg?oc=5",
-          "source": "BBC",
-          "published_at": "2026-08-27T09:33:55Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "404aa4537039dc1f",
-          "title": "一般財団法人国際クラブから「国際クラブ研究教育助成事業」へご寄附をいただきました",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HaWltSU9yaG9UTl93TkJHbFZFRW5pNm9tem16Ymd6RklhckhhR1Q0UGtMVVVVSkZvS1ZSXzUzTHZpSlBYcFRCSDk3RzZWVkRRUk9RQnlERGQwajBaeXJSTVY5MUpObElYUFJIMHRn?oc=5",
-          "source": "gifu-u.ac.jp",
-          "published_at": "2026-08-27T08:30:40Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c2930642c564c790",
-          "title": "人材マネジメントの国際規格「ISO30201」正式発行 経営層を動かす切り札に",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZV1BkTk0wakVfMWs4aU83TFBudi1zQ2JLYmZWVzUwdFlmQzVUM2xzUmlVbUhORFNXeDc2aTFqd0oybGNKVGl3WnoxRllmOVo4UUNjSHFXNnVnWDJXUlJmSllDOEduLVE?oc=5",
-          "source": "日経ビジネス電子版",
-          "published_at": "2026-08-27T08:00:00Z",
+          "id": "949b05b3d63a6fb9",
+          "title": "辺野古沖転覆受け…同志社国際高 今年度の「沖縄研修旅行」中止を検討（読売テレビ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kMG5maGdqZE1YUWNjY3VfS0NYR29rU0lSRXRzWXU2UjByMXdNbXdEQzFnV2VuaGR5YVhiU2RGdUFoSjg0Y0xSYkJWc2NHNldxSUU2eEpib0tMSXRkek43TTAzbldCZS1taUh2QjNlak9ZRVQxamtDSGxUWkptbWc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-28T03:15:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,16 +179,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cbbbd1904db9d4a2",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:44:56Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "6d865337a2a677d3",
           "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
@@ -214,6 +204,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxTUpMcFJPOTNUQnM1bmItc1VMY0dvR01JQ09ubXpnR0JzcUx4ZzdkYVBUNTJkaFF1N2NmYXllbWxDSkVtN3I1d1ZPTXAwRk1xVWVLczBoVURYbThUbTdERGUtazgtNkRZWVE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-06-01T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "490326a0a5021998",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
+          "source": "Infoseek",
+          "published_at": "2026-08-21T07:44:56Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -319,6 +319,26 @@
       "label": "規制関連",
       "articles": [
         {
+          "id": "2c86a62a62c8e90d",
+          "title": "EUが包装のライフサイクルに関する新たな規制を導入するにあたり、水産物関連企業は何をすべきでしょうか？",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdmhVOTJESnFLdUZOV2s2Qy1DcDZmalluaEFfOFZlajBVbE01WnU0Q2JkekFxc0ZmcUhvVWhwQmxGUk53VVFwVVJHTHJTdUdYT3pHSVJIcWVVTVliSUZCNFMxeUZCaC1SeGRjVS1uSFc1cDlKNlRvU3J1SVgwQktLdUdDeFVmUFNVUVdMOU5BeHMzZHRNSGluRVE0SnNDaWwtZm9Z?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-27T00:58:44Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6965fc1a5eaad69b",
+          "title": "EU向け海産物輸出における包装の標準化。",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13bXY2WkhuSmZMNWxIUlozX0p1X2RZaE5zWGJxSDVkRDFHb1pQQ3F6d0c4WjRyckVZMmxHMGNTSmVveFpaZk4yZ1JfUG1uclJndUI0Ym5aMUM5MnlXbXBPTW9mZzl4M19VVFNSendleGFlWE1yZ0tfUQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-25T17:08:55Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "899cd0b710aea772",
           "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
@@ -367,31 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e75af2b3c38972e5",
-          "title": "食品安全法（改正）：サプライチェーン全体における食品管理の強化。",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeFVIdTY2aHozVmF3OTVJXzl0NHFxV0w5M0p4T3BuUk9aQkVyamFSS2JuQVdQb3JXVFR0TDJwT0NJREVDVkdxVjhIcFg0eGVmVWtxTXlVUVpLNmxySVkxalVuWlNXZWR3UUtSSEFneGwydTZXWjFEYUF5aXBzamVDeUFQTjdyNXh6N0NOQW1tWWVKcno5QkFqZkNuSQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-08T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ce888d556de3b273",
-          "title": "道洪蘭大臣：食品安全法の改正は、実際的な要件を満たし、国民の健康を守るものでなければならない。",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdkcySXRuQ0V3QW1qWWJpakRHUVcwaUdNQVEtVk9DN25kNDRGQTExcFQ5Zi1NYXZOU2hHX1FhT2FQUVFhS1JaUkxGQTJmWmJ4b0FwbE5RSV9ZQWR5NXA1amFYZWszZ0xJZHVndEJ1cm1sS1l2cVZHdV85bncwN2tBTjBLdkVuelJ1TUhneXRlQ2JGa0ZDT1dzc3BmUDYyU01qV1BsZ1lDQWNqNlV1OFN0ZGdFckVOaHIyWE9wV0pOT1ozSmpFWnhnN3JqNFI?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-14T16:38:04Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-08-27T22:25:21Z",
-  "last_success_at": "2026-08-27T22:25:21Z",
+  "last_attempt_at": "2026-08-28T11:31:26Z",
+  "last_success_at": "2026-08-28T11:31:26Z",
   "consecutive_failure_count": 0
 }
