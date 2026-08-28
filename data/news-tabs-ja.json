@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-28T11:31:26Z",
+  "generated_at": "2026-08-28T22:27:57Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "28d304cced47f19a",
-          "title": "「国際人道法普及ツール『レイドクロス』の基礎を学ぼう」のご案内",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yZ25yTFZucVpNUDJpZzNqd2JiTmtjVWYxTlRXc21hdGY5cEFBWDNmOHc2VW5wZVJoVFE3N0syVG1BTzFPX1Q5cVRNVmNYYm9WN3RDZXR1T3U4bDYxYzN5Y2IxZTl0ODlNM0U5VUJQVVhxYWYxeG1uaHVoRnZ6alk?oc=5",
-          "source": "日本赤十字社",
-          "published_at": "2026-08-28T09:46:31Z",
+          "id": "b972ac5a9e9aab7a",
+          "title": "それＳｎｏｗ Ｍａｎにやらせて下さいＳＰ★ラウール世界一へ…米・ダンス大会出場 [字]",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45VjFIc0NFd3ZXUkZTSGVFV1JFaEk3d1hQa1N4NW1XYkg2SE9uLS12OTFQcnF4MXpXeFAxbzBqVGRXLXh2QW00dnFBclZ1VHN1cTU3X1VR?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-08-28T20:08:49Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f1a7d92f08602e37",
+          "title": "村上信五のしくみを知れば世界が変わる！",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96MC1ZV2VVOGxoQmR1d0w2TlprV1g1cWg0UFpFUzFUdFBuRmNSb1BBMVI2YkJEeDVzendxOUtCRkdkaVAtLVdtSzg1bnpOTUNEMHJKZ2d4WkI?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-08-28T18:56:15Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "478b84554c515005",
+          "title": "【シャニマス】「京都国際マンガ・アニメフェア2026（京まふ）」にて「放課後クライマックスガールズ」の新規描き下ろしイラストを使用したグッズの販売が決定！",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBEcWRrcXlzRFBZbGtQcU4weUpaNW5LcGFpRG5vSGlCTlByeENyVFE1MTZuNk91YjNab0tZdDlvaExrOFdtSVdvUXc1YWNMcUQ0RVBfb2drdw?oc=5",
+          "source": "idolmaster-official.jp",
+          "published_at": "2026-08-28T15:04:43Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b1cfacbe9bee3903",
+          "title": "Snow Manラウール＆天才姉妹“BUMPY”、世界ダンス大会2位に 約2年8ヶ月の挑戦に幕【ネタバレあり】（オリコン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vcEl2dGxlbXgyZXRWOXR1SW5wdzZIUzd0SXQ5S0hIbjc2RGM5SjdXNjRnUncxTWZKN3hVNmpYT3ZjTGttMEZBLUZMU1pkZXFzbHNWNGVFOEg5ZWZTYTVJNTRRcnZ1U1paM2hxUFQxRlRwYW9SQ3lONW8yNnczQlE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-28T13:06:44Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -33,7 +63,17 @@
           "title": "国際卓越研究大学 研究等体制強化計画の開始に伴う湊長博 総長のメッセージについて",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MeUlhbkdIMzBDLXF6TGU3VHpMQmVkSXBkTVdaemxMM2F4OVNXS0J3UE5adUNSNXo5S19IUE0zV3lvQWplRHNhN1FYUVExQ1NoZFJGOUhMUQ?oc=5",
           "source": "京都大学",
-          "published_at": "2026-08-28T09:37:41Z",
+          "published_at": "2026-08-28T12:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "28d304cced47f19a",
+          "title": "「国際人道法普及ツール『レイドクロス』の基礎を学ぼう」のご案内",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yZ25yTFZucVpNUDJpZzNqd2JiTmtjVWYxTlRXc21hdGY5cEFBWDNmOHc2VW5wZVJoVFE3N0syVG1BTzFPX1Q5cVRNVmNYYm9WN3RDZXR1T3U4bDYxYzN5Y2IxZTl0ODlNM0U5VUJQVVhxYWYxeG1uaHVoRnZ6alk?oc=5",
+          "source": "日本赤十字社",
+          "published_at": "2026-08-28T09:46:31Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -47,52 +87,32 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "873e46daa239d7e0",
-          "title": "アクリルぷちスタンド「TVアニメ『女神「異世界転生何になりたいですか」俺「勇者の肋骨で」』」01/コンプリートセット(全7種)(場面写イラスト)",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qWFBaY1V6VVQ5VGtlbkhGMFpZUnVOWVNyRHFWZnppbE9ITEdKWFpCQ3RjQmRELTk1UDZJYTZJZUphMUxBaWdOLTlXR2hld2VTeFVlNG9ld0pjajZNclRn?oc=5",
-          "source": "eeo",
-          "published_at": "2026-08-28T08:02:34Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "79e0f55278d6f205",
-          "title": "国際マウス疾患研究の新たな戦略を提言",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GaTZMeTNDRkxQdkFMek9kNE5SMV9YNnhlZHc5QXJWamJaZkhfSld0b1ItLThwZGdaVjBMMkg1RmpJc0E0U2tULWJQQWVzUkR2UDl3Q1FTRWhqVjZRdGVVQjRRb3FDZw?oc=5",
-          "source": "riken.jp",
-          "published_at": "2026-08-28T06:02:46Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2b3ea63e0bb35e6a",
-          "title": "同志社国際高校が今年度の修学旅行中止を検討 女子高校生が死亡した辺野古転覆事故受け（関西テレビ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBMmhXRTJmalBaRkdYM3pOeEhtZFVOVHVZWGhURlducmk4LWNzcFI2MW1RbEk3TnBPS2p5dGR4Z2pTbFdnZkQxa25uc1AxRHEtVVJCQ1o1MHZCRldqTTl0M1dVc25DRlFVcDVaREtvbHRqQWNEaUpMMWcyU1A0bjg?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-28T03:58:01Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "949b05b3d63a6fb9",
-          "title": "辺野古沖転覆受け…同志社国際高 今年度の「沖縄研修旅行」中止を検討（読売テレビ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kMG5maGdqZE1YUWNjY3VfS0NYR29rU0lSRXRzWXU2UjByMXdNbXdEQzFnV2VuaGR5YVhiU2RGdUFoSjg0Y0xSYkJWc2NHNldxSUU2eEpib0tMSXRkek43TTAzbldCZS1taUh2QjNlak9ZRVQxamtDSGxUWkptbWc?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-28T03:15:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "7b3ce71c979c7072",
+          "title": "FOOMA JAPAN 2027 会期：2027年6月8日（火）～11日（金）の4日間 出展申込受付は、2026年9月1日（火）～10月15日（木）",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41TURZeUVaUUZUNmFNVXRzUE9Xc0xxU1ZEQ2FLWmt0LVVMMEJRR0lsbkpnZXJJeEJhWGJ4TGJfSVRIUlpxRmhYSGlseWN6SXJCMWl4SDQyX0p0OUE3aXJYbTlDWFBUTUo2WkE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-28T06:00:02Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6de479b68f1ffe25",
+          "title": "日本包装機械工業会×東京工科大学デザイン学部の産学共同研究プロジェクト、包装業界の魅力を発信するコンセプトムービーなどを制作",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZGQ0M0tCdGlfNEdSR1lXUHF6NXhkNWhEcjNSQVlNVUtuVmdlUVdKM3VXa1I4UExReEU5WXJ5WE5WZDdOUnBVYUdDYTJkc3NIQjcxSl9PcUlJTUdDNkxremdqLUhXOFh0bmc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-24T03:16:35Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "a772bd383a2af7eb",
           "title": "日本盛、大型紙パック充填機を移設",
@@ -134,29 +154,9 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9d8c680faa3b6e31",
-          "title": "FOOMA JAPAN2026：農水省、「人を育てる自動化」テーマにセミナー",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ob0ZOekwxNUt5eUJ1X1h5VDA4U3VrZm5ydGM3UXJ3aHpIQXlkd0Fzbm51LWwxS3lPTEFVcDNKazJOY0dYamFfOERPODFQUS0zTzMtdzVSRGd1UDItMlhoOG1uYW9ZQQ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-06-14T15:03:37Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "db7a9824ff303538",
           "title": "次世代設備保全クラウド「M2X」が「第5回FOOMAアワード2026」にて審査委員会賞を受賞",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2MERlWnFRVDVmZWNMNnl4ZURyd2FzVzJqcGY4WjlUYk8zMXBOVmw5R0ZYbXdjWTdCN1RuV0txaS10dmxpNVVSemF5YWJiQXRSZnNveHBxVmFSYU4zSWQ1Z0pRbXdqTmVxU2c?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-03T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5e37cd107f0844fc",
-          "title": "【FOOMA JAPAN 2026】株式会社NEXTAGE、次世代わさび栽培モジュールに国内外から多数の反響",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DQWNIY0czNjRJZTJwM0tFaW9ENXZEOUlrd21UNmppcnY2WlprbVJZUFNCMXo1WTFiZWdVRU9JNXppY0VZc1Uya1A0TFBjVWllSGg5WjNFdE9OYzc0YlV6aHVvNl9LYXlucXc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-06-03T07:00:00Z",
           "language": "ja",
@@ -229,11 +229,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5a015c34f98856db",
-          "title": "いかに名店の味を再現？ 三井不動産が手掛けるプレミアム冷食の製造拠点公開：工場ニュース（2/2 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
+          "id": "b2ea39a0e775737c",
+          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
           "source": "MONOist",
-          "published_at": "2026-08-12T07:00:00Z",
+          "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -244,11 +244,31 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "f6f5fc423947453e",
+          "title": "平和堂／大阪府吹田市に「（仮称）岸辺店（店舗面積3651m2）」27年3月2日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jdms2RzRDLXQ1NjltTUs3enpVREw2ZWNmX215S0lUUDVyZklmRFBHQVhTRWViZVNaSmhESHhCZG5BX20wOW9vZENCWlBXdnJQYjdCZnVn?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-26T01:33:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "583a1abd3e18435d",
           "title": "浦和パルコ／レトルト食品専門店「ニシキヤキッチン」の期間限定店9月3日オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fM0hEQlRhbGNVUURQNHpfLVdCOVloVjVfUXNST1d1TjlCcnE5Zkt5UWJaTjI0X0JrdzZFeVVpY1BReVdRY1plUFlyU1kxS2JENXVqeQ?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-26T01:23:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "572ed3cd729d2500",
+          "title": "コーナン商事／神奈川県横須賀市に「（仮称）コーナンPRO横須賀市日の出町店（店舗面積2604m2）」27年2月19日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iMHFQWEFsdk12TkJKT1BvX1F5OHM3NENwQjd6M1JGa085bXhVNU1wQzg0QTdtX2dTYmxkbjFQeDkwM1pUeVRUbERBSV9YMV95dkVzVnl3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-25T01:41:55Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -289,26 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uSlY2c1NuNnM3MDc1a1VZT3o2MDBJSTNNeTJOYXVtXzIxanRrUzJrbXlGVS1RcFRobE9OSjZMX0YtNFQ5MDJ1THlnUVp0NUx4Yk9NQmVR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-21T01:32:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "735893c68c58cf24",
-          "title": "ベイシア／千葉県八千代市に「（仮称）八千代市緑が丘店（店舗面積3896m2）」27年2月20日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BaEFYUlN3OVk0bWJ1dmlNcnBwVVY4aUJJNkJ1SmRuUHhTSDI5dWdSZGNWRXpPUjdhd1hYVENDSERhNzUyYmFRWHhHbUZNdlJmMkg4MXVn?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-20T01:32:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c9101e8d4beab29a",
-          "title": "コスモス薬品／長野県・静岡県・兵庫県に「ドラッグコスモス」計3店舗、27年1～2月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jNmZYSWdxbXdMV2JYX09oSy04aTZhRGl4ckpXdGhIai03c0Zja2JyTDB5TmhZQzJMYkFMT281OFhkcmM1Z3puT284R1NhQ0VOeEt5cU1R?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-19T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-28T11:31:26Z",
-  "last_success_at": "2026-08-28T11:31:26Z",
+  "last_attempt_at": "2026-08-28T22:27:57Z",
+  "last_success_at": "2026-08-28T22:27:57Z",
   "consecutive_failure_count": 0
 }
