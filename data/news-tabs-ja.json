@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-29T07:10:45Z",
+  "generated_at": "2026-08-29T16:47:33Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,26 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "478b84554c515005",
+          "title": "【シャニマス】「京都国際マンガ・アニメフェア2026（京まふ）」にて「放課後クライマックスガールズ」の新規描き下ろしイラストを使用したグッズの販売が決定！",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBEcWRrcXlzRFBZbGtQcU4weUpaNW5LcGFpRG5vSGlCTlByeENyVFE1MTZuNk91YjNab0tZdDlvaExrOFdtSVdvUXc1YWNMcUQ0RVBfb2drdw?oc=5",
+          "source": "idolmaster-official.jp",
+          "published_at": "2026-08-29T10:10:18Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8dfa8ccda27af804",
+          "title": "ラウール、世界大会の裏側で語ったSnow Manへの思い「勝てる人しか集まってないチームでいたい」＜それスノ＞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84Umg1Q2pvQTZ6dkJKUUR0NzNReWNueW1wZGliaERGN3BNa2dYMjRFWlZzWURtRzJ1MHBDZkxKcG1DUUF5SDBVQ01KMFZ3Q1hwSE1RSXdUa0R3MEVzVVFUZmZUUUdyMk5YZDZOeDhCSVZwcDBNUV8wSXBRQ3BnTTA?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-29T08:48:50Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "0552a2f2cf981705",
           "title": "『それスノ』ダンス世界大会企画で「まじでありえん」視聴者が抱えた違和感「カメラなしにして」中1少女の悲痛訴えをスルー",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45OExHY1AyX25fMG9HZklQaTJOZzRYYU9Db2lmdGZfSW51bHk3VndsZVJ1SUJZcVdtOGFTQ0FPV3dTX1hyenk1amxHMGxmRm9MZWtwOUs2c09VVzBLb0JZakNSN0MtUS1udHViSUVqZzBsNjIxazJoYy1YSlNrNHM?oc=5",
@@ -29,31 +49,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "478b84554c515005",
-          "title": "【シャニマス】「京都国際マンガ・アニメフェア2026（京まふ）」にて「放課後クライマックスガールズ」の新規描き下ろしイラストを使用したグッズの販売が決定！",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBEcWRrcXlzRFBZbGtQcU4weUpaNW5LcGFpRG5vSGlCTlByeENyVFE1MTZuNk91YjNab0tZdDlvaExrOFdtSVdvUXc1YWNMcUQ0RVBfb2drdw?oc=5",
-          "source": "idolmaster-official.jp",
-          "published_at": "2026-08-29T04:08:26Z",
+          "id": "eb1f144c1a7e9c9f",
+          "title": "福岡国際センターと福岡サンパレス、福岡市が移転を含め建て替え検討…築４０年以上で設備機器が耐用年数超",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKb3FUZElnYVZYN09wS1IyTG52UklLdy0tUmctRnJTX1MxMThmVWlTUEZSM3BOb3N5NW5rN2NFRWIzdUJBbjJHYzg4VWpPWV9BOEhiTXJfYklTeXh3elpETWh0Y3lvWnlpUUJpOTJDVklkajFWLThKUThqbjR5aXc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-29T02:47:04Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b972ac5a9e9aab7a",
-          "title": "それＳｎｏｗ Ｍａｎにやらせて下さいＳＰ★ラウール世界一へ…米・ダンス大会出場 [字]",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45VjFIc0NFd3ZXUkZTSGVFV1JFaEk3d1hQa1N4NW1XYkg2SE9uLS12OTFQcnF4MXpXeFAxbzBqVGRXLXh2QW00dnFBclZ1VHN1cTU3X1VR?oc=5",
-          "source": "tbs.co.jp",
-          "published_at": "2026-08-29T04:01:53Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-29T02:56:16Z",
+          "id": "64a39f2666ee4894",
+          "title": "埼玉の小学生チーム、世界大会へ 所沢を拠点、チア教室のメンバー6人 7月の大会で推薦を獲得、出場が決まり市長に報告 キャプテンが意気込み「世界大会で1位を目指して練習に励みたい」（埼玉新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQZ2hIZFdkU1pNeTVrdGc5Zk01aDJmS3dKRkJmRTUzQV9Oc01kM2hxd2FFc2FOa0NaVzl6OUxVektfam11WkZIQzJtT3dBaHBwb2ZneWtFbGRFRUl0RXhPLUVVZkNsdk1zY1A0amZieF9pUzZXelBZQWJoOUVIR00?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-29T02:25:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aMEdlUllRcTlMWHFmVFNmVEJHM3Etb2k2TVJsRG1wVWlyLVRMMHVnZnpqeFVKM0E3YmhCUEJ3M3JzWEUxLU9BZ1BnT05SYXNlaHh2VTdUZHhPQmhWTjBNWXpXUTNMQXRndVJpR0lfYVV1VUdP?oc=5",
           "source": "jcp.or.jp",
           "published_at": "2026-08-29T00:28:06Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "522dde4b02a3f3f0",
-          "title": "タイ国際航空、2027年1月18日より名古屋/中部～バンコク/スワンナプーム線を増便し1日最大2往復運航へ",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1xMHRWTlIzdnpGbFlkekJQQWdqMTVZSU00TnBzUUtzakxzUXZpSVlDUlVuUDF1N2tZZERpTkJSZ1hhbVRJNlVTam1uS0x0cnlfaDRrR1BqUTRqb3hYYmJaN19zcmhiUW5WUk9yMkVWMFB4bHZYd20yOEJILUM?oc=5",
-          "source": "sky-budget.com",
-          "published_at": "2026-08-28T23:16:48Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -319,16 +319,6 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "2c86a62a62c8e90d",
-          "title": "EUが包装のライフサイクルに関する新たな規制を導入するにあたり、水産物関連企業は何をすべきでしょうか？",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdmhVOTJESnFLdUZOV2s2Qy1DcDZmalluaEFfOFZlajBVbE01WnU0Q2JkekFxc0ZmcUhvVWhwQmxGUk53VVFwVVJHTHJTdUdYT3pHSVJIcWVVTVliSUZCNFMxeUZCaC1SeGRjVS1uSFc1cDlKNlRvU3J1SVgwQktLdUdDeFVmUFNVUVdMOU5BeHMzZHRNSGluRVE0SnNDaWwtZm9Z?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-27T00:58:44Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "6965fc1a5eaad69b",
           "title": "EU向け海産物輸出における包装の標準化。",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13bXY2WkhuSmZMNWxIUlozX0p1X2RZaE5zWGJxSDVkRDFHb1pQQ3F6d0c4WjRyckVZMmxHMGNTSmVveFpaZk4yZ1JfUG1uclJndUI0Ym5aMUM5MnlXbXBPTW9mZzl4M19VVFNSendleGFlWE1yZ0tfUQ?oc=5",
@@ -369,6 +359,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "2c86a62a62c8e90d",
+          "title": "EUが包装のライフサイクルに関する新たな規制を導入するにあたり、水産物関連企業は何をすべきでしょうか？",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdmhVOTJESnFLdUZOV2s2Qy1DcDZmalluaEFfOFZlajBVbE01WnU0Q2JkekFxc0ZmcUhvVWhwQmxGUk53VVFwVVJHTHJTdUdYT3pHSVJIcWVVTVliSUZCNFMxeUZCaC1SeGRjVS1uSFc1cDlKNlRvU3J1SVgwQktLdUdDeFVmUFNVUVdMOU5BeHMzZHRNSGluRVE0SnNDaWwtZm9Z?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-27T00:58:44Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "899cd0b710aea772",
           "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-29T07:10:45Z",
-  "last_success_at": "2026-08-29T07:10:45Z",
+  "last_attempt_at": "2026-08-29T16:47:33Z",
+  "last_success_at": "2026-08-29T16:47:33Z",
   "consecutive_failure_count": 0
 }
