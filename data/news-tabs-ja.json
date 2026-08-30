@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-30T12:00:58Z",
+  "generated_at": "2026-08-30T16:47:50Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "170f1d00fb9fff45",
+          "title": "「沖縄研修旅行」の意義を強調…同志社国際高の西田校長、保護者説明会では冒頭で退席（産経新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TTU9ibUtKNjhZV29oOEZJY054UUxYZU9fZzVpZUo3eXA2RXFScHFaUlJWa18zaU9UckxVSFBLeTdKRjUxZk5yN3FfMV91MnNvaGVlYjlZTjRIdGhsenFoWFhweXlTLVlTYUFOeHpRdjRJb1hEbXhCMmY4SERjU1k?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-30T14:39:18Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "36c47268e5dffee1",
+          "title": "辺野古転覆事故 同志社国際高校が今年度の沖縄研修旅行の中止を決定",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10emZvTzlHSzA0dkg2a3ctdE9VczZyRXdKMTFjek9rUlN3RmNLUmtfSmFkaDM3cGh1UExLUE5na1RUZlF4ek1nQTFSdUw4SlVmdmFpcVd0V0gwWkY0SnNKZFpqQ2dJbVN3OEN4SW1OR29PUnYzekNCWEU1bGRVNFU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-30T13:20:08Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b459d447b583a78b",
           "title": "日本の世界貿易への取り組みが加速",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1haU1hOGhzNXp5UnRURm01UlZPdXg1REQxMFh6LXVzUWMyc19yWFB3MTB1UFNMbUpoMFlrSUhlaFdqTXJyMVd2UXRzRGJ4UzMwRml6RnlZTm5ONW1OZV9jT3NmTWZUdXNxUVlF?oc=5",
           "source": "arabnews.jp",
-          "published_at": "2026-08-30T10:44:00Z",
+          "published_at": "2026-08-30T12:08:45Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4f5ef3356d363e02",
+          "title": "「これまでの学校側対応に不満」辺野古沖転覆事故 同志社国際高が3回目の保護者説明会（産経新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VdkowN3R2Z3N2TUZJSFhhNnZFZkY1MG82MXJEOTdYWnJNcE0zNVV6a3hDa3RqUS05WTFZLWctTTdIejJJMUZHTlp4WkpIUGpzZVVUMm9Cd1RaLTc1U3M5M1ltaTNKaGhmYm1Ka2lZRkw4a2t0RzF0cWNXX3ZOZVU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-30T11:33:03Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -54,36 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45OExHY1AyX25fMG9HZklQaTJOZzRYYU9Db2lmdGZfSW51bHk3VndsZVJ1SUJZcVdtOGFTQ0FPV3dTX1hyenk1amxHMGxmRm9MZWtwOUs2c09VVzBLb0JZakNSN0MtUS1udHViSUVqZzBsNjIxazJoYy1YSlNrNHM?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-08-29T05:20:41Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "eb1f144c1a7e9c9f",
-          "title": "福岡国際センターと福岡サンパレス、福岡市が移転を含め建て替え検討…築４０年以上で設備機器が耐用年数超",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKb3FUZElnYVZYN09wS1IyTG52UklLdy0tUmctRnJTX1MxMThmVWlTUEZSM3BOb3N5NW5rN2NFRWIzdUJBbjJHYzg4VWpPWV9BOEhiTXJfYklTeXh3elpETWh0Y3lvWnlpUUJpOTJDVklkajFWLThKUThqbjR5aXc?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-29T02:47:04Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "64a39f2666ee4894",
-          "title": "埼玉の小学生チーム、世界大会へ 所沢を拠点、チア教室のメンバー6人 7月の大会で推薦を獲得、出場が決まり市長に報告 キャプテンが意気込み「世界大会で1位を目指して練習に励みたい」（埼玉新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQZ2hIZFdkU1pNeTVrdGc5Zk01aDJmS3dKRkJmRTUzQV9Oc01kM2hxd2FFc2FOa0NaVzl6OUxVektfam11WkZIQzJtT3dBaHBwb2ZneWtFbGRFRUl0RXhPLUVVZkNsdk1zY1A0amZieF9pUzZXelBZQWJoOUVIR00?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-29T02:25:06Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7f029d228da683e5",
-          "title": "「国際レッサーパンダデー」イベントを開催します｜八木山動物公園フジサキの杜",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OZUpOdzQ1X0dPOW1OU1VYNTJfemhWVU5KNmVZbnVGaXZuRnhHMU5QQmpNR3JpSXVpWFhYU3pvQ2ZRQXM3cVhFYWxGMTRfUFFiUjMwSng3UGp6LU55UnN0N1pFcVpEamlORkJRdzl3a1dCRHV3dTVmaQ?oc=5",
-          "source": "city.sendai.jp",
-          "published_at": "2026-08-29T02:03:15Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -254,16 +254,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e88d412383f38f69",
-          "title": "ヨークベニマル／福島県郡山市に「（仮称）ヨークタウン富久山（店舗面積3480m2）」27年3月17日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FbW9PVEIxZk5kQXNGdEw2Q08xNVFBa0xmQTVEQWEzcm9DYjFqenFNTmgzeGZ5Q3FRNEJ5X19ZeXNkV3dlemhzc2lkd0JsYzcwREZvTEN3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-28T01:33:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "f6f5fc423947453e",
           "title": "平和堂／大阪府吹田市に「（仮称）岸辺店（店舗面積3651m2）」27年3月2日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jdms2RzRDLXQ1NjltTUs3enpVREw2ZWNmX215S0lUUDVyZklmRFBHQVhTRWViZVNaSmhESHhCZG5BX20wOW9vZENCWlBXdnJQYjdCZnVn?oc=5",
@@ -284,16 +274,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "583a1abd3e18435d",
-          "title": "浦和パルコ／レトルト食品専門店「ニシキヤキッチン」の期間限定店9月3日オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fM0hEQlRhbGNVUURQNHpfLVdCOVloVjVfUXNST1d1TjlCcnE5Zkt5UWJaTjI0X0JrdzZFeVVpY1BReVdRY1plUFlyU1kxS2JENXVqeQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-26T01:23:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "572ed3cd729d2500",
           "title": "コーナン商事／神奈川県横須賀市に「（仮称）コーナンPRO横須賀市日の出町店（店舗面積2604m2）」27年2月19日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iMHFQWEFsdk12TkJKT1BvX1F5OHM3NENwQjd6M1JGa085bXhVNU1wQzg0QTdtX2dTYmxkbjFQeDkwM1pUeVRUbERBSV9YMV95dkVzVnl3?oc=5",
@@ -309,6 +289,26 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oY2NSeDZxMDQweXdaVzlHYjhZNkZZTFk4bXRFZTVwWC1aTW5zNmU0RDZMdlZQVkNSMldHVFFpTjVVNW5SZmJpZ3VvQWYzbXItV1NPTw?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-25T01:31:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "39f4ac2189f7dc73",
+          "title": "イオンフードスタイル 価値提案型スーパーマーケット「ＦｏｏｄＳｔｙｌｅ」都内８店舗目「フードスタイル東大島店」がオープン！",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZnBHSXNTdHRUWGp6alVFT2tFUUlhUTh1NHV2UTVHV1FBbG9qMHdUd1lTd0JrTjlpTHM4NTk2MHd1UjNua0RuaUN6MlJPdmc2VkZYRnNUT0VqaXBxd1dRaHk0end3Y2EycGc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7e0c1f167b072da3",
+          "title": "エースワン／高知県土佐市に「土佐高岡店（店舗面積2074m2）」27年2月17日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uSlY2c1NuNnM3MDc1a1VZT3o2MDBJSTNNeTJOYXVtXzIxanRrUzJrbXlGVS1RcFRobE9OSjZMX0YtNFQ5MDJ1THlnUVp0NUx4Yk9NQmVR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-21T01:32:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-30T12:00:58Z",
-  "last_success_at": "2026-08-30T12:00:58Z",
+  "last_attempt_at": "2026-08-30T16:47:50Z",
+  "last_success_at": "2026-08-30T16:47:50Z",
   "consecutive_failure_count": 0
 }
