@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-29T20:59:27Z",
+  "generated_at": "2026-08-30T05:32:11Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "478b84554c515005",
-          "title": "【シャニマス】「京都国際マンガ・アニメフェア2026（京まふ）」にて「放課後クライマックスガールズ」の新規描き下ろしイラストを使用したグッズの販売が決定！",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBEcWRrcXlzRFBZbGtQcU4weUpaNW5LcGFpRG5vSGlCTlByeENyVFE1MTZuNk91YjNab0tZdDlvaExrOFdtSVdvUXc1YWNMcUQ0RVBfb2drdw?oc=5",
-          "source": "idolmaster-official.jp",
-          "published_at": "2026-08-29T16:34:53Z",
+          "id": "005799d3406ac984",
+          "title": "デンマーク海運のマースク株高騰 世界物流逼迫、空コンテナも利益運ぶ",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03YWY3TExFRlZVeDdFY01oWDRXNXdwNmUta25hYXRaZEVGLTVuZEhlTTVsdlljNFA0a0ZSZ2lMRTkwQ3NLWGN6RlZzVURLWDVnMFBQbUpNWm44b21TVkszQUswU3hHUmduaUZ5dlp4S0dmd0ZRNjA2V3ctaXMxdw?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-08-25T20:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b459d447b583a78b",
+          "title": "日本の世界貿易への取り組みが加速",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1haU1hOGhzNXp5UnRURm01UlZPdXg1REQxMFh6LXVzUWMyc19yWFB3MTB1UFNMbUpoMFlrSUhlaFdqTXJyMVd2UXRzRGJ4UzMwRml6RnlZTm5ONW1OZV9jT3NmTWZUdXNxUVlF?oc=5",
+          "source": "arabnews.jp",
+          "published_at": "2026-08-30T04:14:46Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-08-30T03:01:05Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5cfd0e9d65a6246d",
+          "title": "ネパール政府、海外救助隊を一転受け入れへ インド・中・豪・韓 ネパール・中国土石流（産経新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwQTR1Mi0wX2cyN2RKeWJXM3FDMWYyY3pFcGNHbi1lSk5WclQxdDQ4TUstVDJtMkZDWURHaEdXeEg0STJkd0xnaFQtWm5oOWN0NFNFMFFueGE3YW9ETFdJRFBhTXNTaS1IRmwtdkd6bzVzdDB5cUprdFFMalVKdzg?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-29T12:12:20Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -54,36 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKb3FUZElnYVZYN09wS1IyTG52UklLdy0tUmctRnJTX1MxMThmVWlTUEZSM3BOb3N5NW5rN2NFRWIzdUJBbjJHYzg4VWpPWV9BOEhiTXJfYklTeXh3elpETWh0Y3lvWnlpUUJpOTJDVklkajFWLThKUThqbjR5aXc?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-08-29T02:47:04Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "64a39f2666ee4894",
-          "title": "埼玉の小学生チーム、世界大会へ 所沢を拠点、チア教室のメンバー6人 7月の大会で推薦を獲得、出場が決まり市長に報告 キャプテンが意気込み「世界大会で1位を目指して練習に励みたい」（埼玉新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQZ2hIZFdkU1pNeTVrdGc5Zk01aDJmS3dKRkJmRTUzQV9Oc01kM2hxd2FFc2FOa0NaVzl6OUxVektfam11WkZIQzJtT3dBaHBwb2ZneWtFbGRFRUl0RXhPLUVVZkNsdk1zY1A0amZieF9pUzZXelBZQWJoOUVIR00?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-29T02:25:06Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7f029d228da683e5",
-          "title": "「国際レッサーパンダデー」イベントを開催します｜八木山動物公園フジサキの杜",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OZUpOdzQ1X0dPOW1OU1VYNTJfemhWVU5KNmVZbnVGaXZuRnhHMU5QQmpNR3JpSXVpWFhYU3pvQ2ZRQXM3cVhFYWxGMTRfUFFiUjMwSng3UGp6LU55UnN0N1pFcVpEamlORkJRdzl3a1dCRHV3dTVmaQ?oc=5",
-          "source": "city.sendai.jp",
-          "published_at": "2026-08-29T02:03:15Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "398c14dd3b9578b7",
-          "title": "四つの国際課題で協力確認/志位議長、ベトナム中央理論評議会のタン議長と会談 | しんぶん赤旗",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aMEdlUllRcTlMWHFmVFNmVEJHM3Etb2k2TVJsRG1wVWlyLVRMMHVnZnpqeFVKM0E3YmhCUEJ3M3JzWEUxLU9BZ1BnT05SYXNlaHh2VTdUZHhPQmhWTjBNWXpXUTNMQXRndVJpR0lfYVV1VUdP?oc=5",
-          "source": "jcp.or.jp",
-          "published_at": "2026-08-29T00:28:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -274,16 +274,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "572ed3cd729d2500",
-          "title": "コーナン商事／神奈川県横須賀市に「（仮称）コーナンPRO横須賀市日の出町店（店舗面積2604m2）」27年2月19日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iMHFQWEFsdk12TkJKT1BvX1F5OHM3NENwQjd6M1JGa085bXhVNU1wQzg0QTdtX2dTYmxkbjFQeDkwM1pUeVRUbERBSV9YMV95dkVzVnl3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-25T01:41:55Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "bbd227da8dab972e",
           "title": "シャミネ松江／スーパーマーケットマルイの新業態など2店舗今秋オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oY2NSeDZxMDQweXdaVzlHYjhZNkZZTFk4bXRFZTVwWC1aTW5zNmU0RDZMdlZQVkNSMldHVFFpTjVVNW5SZmJpZ3VvQWYzbXItV1NPTw?oc=5",
@@ -309,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZnBHSXNTdHRUWGp6alVFT2tFUUlhUTh1NHV2UTVHV1FBbG9qMHdUd1lTd0JrTjlpTHM4NTk2MHd1UjNua0RuaUN6MlJPdmc2VkZYRnNUT0VqaXBxd1dRaHk0end3Y2EycGc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-21T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7e0c1f167b072da3",
+          "title": "エースワン／高知県土佐市に「土佐高岡店（店舗面積2074m2）」27年2月17日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uSlY2c1NuNnM3MDc1a1VZT3o2MDBJSTNNeTJOYXVtXzIxanRrUzJrbXlGVS1RcFRobE9OSjZMX0YtNFQ5MDJ1THlnUVp0NUx4Yk9NQmVR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-21T01:32:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -339,21 +339,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6965fc1a5eaad69b",
-          "title": "EU向け海産物輸出における包装の標準化。",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13bXY2WkhuSmZMNWxIUlozX0p1X2RZaE5zWGJxSDVkRDFHb1pQQ3F6d0c4WjRyckVZMmxHMGNTSmVveFpaZk4yZ1JfUG1uclJndUI0Ym5aMUM5MnlXbXBPTW9mZzl4M19VVFNSendleGFlWE1yZ0tfUQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-25T17:08:55Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "5cf1e028fa5c3ecc",
           "title": "SQNZは、イタリアにおける持続可能な畜産の認証制度です。",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ2dPYVBGdGNDcF83MUFmeHB6ZzdxeENtVW1mZ2xkYjBWZUVaaVNFcHg5b1hFaW94X2hVNHJ4VjY1SG5vVzlBLU9namMwRXRGemU0cWNSY1FRdjBITVVQWndKSDFfOWlSUDhpdlRKMlZaaHBUT0E4LXVHZncwZ2lEd2tCQWNkYnRiOThlVDY2clFqd2xNM3F0dHNlT2JHT2J0V0tlWE5TTHNYRlBodThxMk5YTXlyNTg?oc=5",
           "source": "greatitalianfoodtrade.it",
           "published_at": "2026-05-05T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6965fc1a5eaad69b",
+          "title": "EU向け海産物輸出における包装の標準化。",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13bXY2WkhuSmZMNWxIUlozX0p1X2RZaE5zWGJxSDVkRDFHb1pQQ3F6d0c4WjRyckVZMmxHMGNTSmVveFpaZk4yZ1JfUG1uclJndUI0Ym5aMUM5MnlXbXBPTW9mZzl4M19VVFNSendleGFlWE1yZ0tfUQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-25T17:08:55Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-29T20:59:27Z",
-  "last_success_at": "2026-08-29T20:59:27Z",
+  "last_attempt_at": "2026-08-30T05:32:11Z",
+  "last_success_at": "2026-08-30T05:32:11Z",
   "consecutive_failure_count": 0
 }
