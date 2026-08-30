@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-30T16:47:50Z",
+  "generated_at": "2026-08-30T21:14:18Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,16 +18,6 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
-        {
-          "id": "170f1d00fb9fff45",
-          "title": "「沖縄研修旅行」の意義を強調…同志社国際高の西田校長、保護者説明会では冒頭で退席（産経新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TTU9ibUtKNjhZV29oOEZJY054UUxYZU9fZzVpZUo3eXA2RXFScHFaUlJWa18zaU9UckxVSFBLeTdKRjUxZk5yN3FfMV91MnNvaGVlYjlZTjRIdGhsenFoWFhweXlTLVlTYUFOeHpRdjRJb1hEbXhCMmY4SERjU1k?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-30T14:39:18Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "36c47268e5dffee1",
           "title": "辺野古転覆事故 同志社国際高校が今年度の沖縄研修旅行の中止を決定",
@@ -49,11 +39,31 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "170f1d00fb9fff45",
+          "title": "「沖縄研修旅行」の意義を強調…同志社国際高の西田校長、保護者説明会では冒頭で退席（産経新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TTU9ibUtKNjhZV29oOEZJY054UUxYZU9fZzVpZUo3eXA2RXFScHFaUlJWa18zaU9UckxVSFBLeTdKRjUxZk5yN3FfMV91MnNvaGVlYjlZTjRIdGhsenFoWFhweXlTLVlTYUFOeHpRdjRJb1hEbXhCMmY4SERjU1k?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-30T12:07:37Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "4f5ef3356d363e02",
           "title": "「これまでの学校側対応に不満」辺野古沖転覆事故 同志社国際高が3回目の保護者説明会（産経新聞）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VdkowN3R2Z3N2TUZJSFhhNnZFZkY1MG82MXJEOTdYWnJNcE0zNVV6a3hDa3RqUS05WTFZLWctTTdIejJJMUZHTlp4WkpIUGpzZVVUMm9Cd1RaLTc1U3M5M1ltaTNKaGhmYm1Ka2lZRkw4a2t0RzF0cWNXX3ZOZVU?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-08-30T11:33:03Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0975b0f12b78641f",
+          "title": "自衛隊 海外で初めての\"消火活動\" インドネシア山林火災で国際緊急援助隊 呉基地「くにさき」出港（テレビ新広島）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LUzQ1Q2pKc1J5bk5UcUhVNmRpWjh0Rk9ObTBlRHRyUVNfajA0M1JNOWFSTHZ6ZWI1VS1oUENPRFZNekNSeXUwdzZfTDNYUkVMZlViWTV2ZVNOYm9xLTdtOFU0WEhmZVhDeEJLb3U3RF9qMGhxWmtyOUJNSlFhUU0?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-30T09:09:01Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84Umg1Q2pvQTZ6dkJKUUR0NzNReWNueW1wZGliaERGN3BNa2dYMjRFWlZzWURtRzJ1MHBDZkxKcG1DUUF5SDBVQ01KMFZ3Q1hwSE1RSXdUa0R3MEVzVVFUZmZUUUdyMk5YZDZOeDhCSVZwcDBNUV8wSXBRQ3BnTTA?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-08-29T08:48:50Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0552a2f2cf981705",
-          "title": "『それスノ』ダンス世界大会企画で「まじでありえん」視聴者が抱えた違和感「カメラなしにして」中1少女の悲痛訴えをスルー",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45OExHY1AyX25fMG9HZklQaTJOZzRYYU9Db2lmdGZfSW51bHk3VndsZVJ1SUJZcVdtOGFTQ0FPV3dTX1hyenk1amxHMGxmRm9MZWtwOUs2c09VVzBLb0JZakNSN0MtUS1udHViSUVqZzBsNjIxazJoYy1YSlNrNHM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-29T05:20:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-30T16:47:50Z",
-  "last_success_at": "2026-08-30T16:47:50Z",
+  "last_attempt_at": "2026-08-30T21:14:18Z",
+  "last_success_at": "2026-08-30T21:14:18Z",
   "consecutive_failure_count": 0
 }
