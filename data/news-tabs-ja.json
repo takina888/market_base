@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-30T05:32:11Z",
+  "generated_at": "2026-08-30T12:00:58Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,31 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "005799d3406ac984",
-          "title": "デンマーク海運のマースク株高騰 世界物流逼迫、空コンテナも利益運ぶ",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03YWY3TExFRlZVeDdFY01oWDRXNXdwNmUta25hYXRaZEVGLTVuZEhlTTVsdlljNFA0a0ZSZ2lMRTkwQ3NLWGN6RlZzVURLWDVnMFBQbUpNWm44b21TVkszQUswU3hHUmduaUZ5dlp4S0dmd0ZRNjA2V3ctaXMxdw?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-08-25T20:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "b459d447b583a78b",
           "title": "日本の世界貿易への取り組みが加速",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1haU1hOGhzNXp5UnRURm01UlZPdXg1REQxMFh6LXVzUWMyc19yWFB3MTB1UFNMbUpoMFlrSUhlaFdqTXJyMVd2UXRzRGJ4UzMwRml6RnlZTm5ONW1OZV9jT3NmTWZUdXNxUVlF?oc=5",
           "source": "arabnews.jp",
-          "published_at": "2026-08-30T04:14:46Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-08-30T03:01:05Z",
+          "published_at": "2026-08-30T10:44:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -84,6 +64,26 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKb3FUZElnYVZYN09wS1IyTG52UklLdy0tUmctRnJTX1MxMThmVWlTUEZSM3BOb3N5NW5rN2NFRWIzdUJBbjJHYzg4VWpPWV9BOEhiTXJfYklTeXh3elpETWh0Y3lvWnlpUUJpOTJDVklkajFWLThKUThqbjR5aXc?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-08-29T02:47:04Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "64a39f2666ee4894",
+          "title": "埼玉の小学生チーム、世界大会へ 所沢を拠点、チア教室のメンバー6人 7月の大会で推薦を獲得、出場が決まり市長に報告 キャプテンが意気込み「世界大会で1位を目指して練習に励みたい」（埼玉新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQZ2hIZFdkU1pNeTVrdGc5Zk01aDJmS3dKRkJmRTUzQV9Oc01kM2hxd2FFc2FOa0NaVzl6OUxVektfam11WkZIQzJtT3dBaHBwb2ZneWtFbGRFRUl0RXhPLUVVZkNsdk1zY1A0amZieF9pUzZXelBZQWJoOUVIR00?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-29T02:25:06Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7f029d228da683e5",
+          "title": "「国際レッサーパンダデー」イベントを開催します｜八木山動物公園フジサキの杜",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OZUpOdzQ1X0dPOW1OU1VYNTJfemhWVU5KNmVZbnVGaXZuRnhHMU5QQmpNR3JpSXVpWFhYU3pvQ2ZRQXM3cVhFYWxGMTRfUFFiUjMwSng3UGp6LU55UnN0N1pFcVpEamlORkJRdzl3a1dCRHV3dTVmaQ?oc=5",
+          "source": "city.sendai.jp",
+          "published_at": "2026-08-29T02:03:15Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -199,16 +199,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b78cb65cc2396d6a",
-          "title": "タカハシガリレイ｜食品工場向け「冷媒ガス漏れ10年保証付き点検契約（TGX）」を開始",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxTUpMcFJPOTNUQnM1bmItc1VMY0dvR01JQ09ubXpnR0JzcUx4ZzdkYVBUNTJkaFF1N2NmYXllbWxDSkVtN3I1d1ZPTXAwRk1xVWVLczBoVURYbThUbTdERGUtazgtNkRZWVE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-01T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "490326a0a5021998",
           "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
@@ -237,12 +227,32 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b2ea39a0e775737c",
+          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "65177bac6b476850",
+          "title": "ダイレックス／福岡県・鹿児島県に計3店舗、27年3月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWF9tbnpwbkJSdVplYnc1STBYMUlnZDZwRmJtRk8wX25mbV9XbjFIY3lrdWlSZlp6Z0wzcVVwM1pWcWQxT2o5Q3ZSNUxOYVZmbk5yaVdB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-28T01:34:20Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "e88d412383f38f69",
           "title": "ヨークベニマル／福島県郡山市に「（仮称）ヨークタウン富久山（店舗面積3480m2）」27年3月17日新設",
@@ -264,11 +274,31 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "ad416bc4e95190a7",
+          "title": "原信ほか／新潟県加茂市に「原信加茂店（店舗面積3498m2）」27年3月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ocHdiWGUxQ3R2TW1ONnFFRmpuaUFjRFp3NzhDX2c3OFNidEpJMm5JZEkxZXJDVUxQeDNjT0dxRXVyS3d5SW00Zk9yajlkWEhFYkVBNE9R?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-26T01:32:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "583a1abd3e18435d",
           "title": "浦和パルコ／レトルト食品専門店「ニシキヤキッチン」の期間限定店9月3日オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fM0hEQlRhbGNVUURQNHpfLVdCOVloVjVfUXNST1d1TjlCcnE5Zkt5UWJaTjI0X0JrdzZFeVVpY1BReVdRY1plUFlyU1kxS2JENXVqeQ?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-26T01:23:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "572ed3cd729d2500",
+          "title": "コーナン商事／神奈川県横須賀市に「（仮称）コーナンPRO横須賀市日の出町店（店舗面積2604m2）」27年2月19日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iMHFQWEFsdk12TkJKT1BvX1F5OHM3NENwQjd6M1JGa085bXhVNU1wQzg0QTdtX2dTYmxkbjFQeDkwM1pUeVRUbERBSV9YMV95dkVzVnl3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-25T01:41:55Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -282,36 +312,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9b6369b8b4f8693d",
-          "title": "オーケー／神奈川県横須賀市に「横須賀店（店舗面積2286m2）」27年2月5日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LZWZxLU5TcHFQMFZ2S0JMdFVmOEZ6N21MS3VsQVBGaTZCOE1mRWN2bUlCWXMwOEVDWnZhVmVsbjZFalBlWG1OcEFINEoweDBUcEctU2FB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-24T01:32:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "39f4ac2189f7dc73",
-          "title": "イオンフードスタイル 価値提案型スーパーマーケット「ＦｏｏｄＳｔｙｌｅ」都内８店舗目「フードスタイル東大島店」がオープン！",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZnBHSXNTdHRUWGp6alVFT2tFUUlhUTh1NHV2UTVHV1FBbG9qMHdUd1lTd0JrTjlpTHM4NTk2MHd1UjNua0RuaUN6MlJPdmc2VkZYRnNUT0VqaXBxd1dRaHk0end3Y2EycGc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7e0c1f167b072da3",
-          "title": "エースワン／高知県土佐市に「土佐高岡店（店舗面積2074m2）」27年2月17日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uSlY2c1NuNnM3MDc1a1VZT3o2MDBJSTNNeTJOYXVtXzIxanRrUzJrbXlGVS1RcFRobE9OSjZMX0YtNFQ5MDJ1THlnUVp0NUx4Yk9NQmVR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-21T01:32:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -319,11 +319,11 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "a42eaf13c40076e7",
-          "title": "米国流通市場を読む（3）マーケティングに影響する超加工食品基準 | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HdmFWWjZnclp3VjBZNEtpd3NaOGwwM0ZiS04wU3dlNzBHWUJxMGhUTTQwclpLdVZaN1dzSndnNENQX3hvdVZjUmpqMFdXdzhUM1k5bkdWTWN5MDdfZXZ3MmVIOGcwbFNiQXgxT2t0YUNJT0FF?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-06-18T07:00:00Z",
+          "id": "4180320d0efa326b",
+          "title": "EUへの輸出は、厳格な包装基準を遵守しなければならない。",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaTcxblduOWlVUVpobHhtTXJIc1U1cEVXMEVoUndnQjdGaXo4YnVETFZ0Y3UyNGVlcXFxYTN3WG82QXZWb0dBdDhRU1dhSFVjVF9SMlM5M0JnVTEtRHJPdkt4RzRNQUQxNHVrWkZyMXJSY2dIcGNzOHlaZFozTGhzOENFd3JnRTV3VU9Uc3RqOVY?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-17T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -334,6 +334,16 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
           "source": "jetro.go.jp",
           "published_at": "2026-06-04T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a42eaf13c40076e7",
+          "title": "米国流通市場を読む（3）マーケティングに影響する超加工食品基準 | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HdmFWWjZnclp3VjBZNEtpd3NaOGwwM0ZiS04wU3dlNzBHWUJxMGhUTTQwclpLdVZaN1dzSndnNENQX3hvdVZjUmpqMFdXdzhUM1k5bkdWTWN5MDdfZXZ3MmVIOGcwbFNiQXgxT2t0YUNJT0FF?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-06-18T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4180320d0efa326b",
-          "title": "EUへの輸出は、厳格な包装基準を遵守しなければならない。",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaTcxblduOWlVUVpobHhtTXJIc1U1cEVXMEVoUndnQjdGaXo4YnVETFZ0Y3UyNGVlcXFxYTN3WG82QXZWb0dBdDhRU1dhSFVjVF9SMlM5M0JnVTEtRHJPdkt4RzRNQUQxNHVrWkZyMXJSY2dIcGNzOHlaZFozTGhzOENFd3JnRTV3VU9Uc3RqOVY?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-17T05:18:15Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-08-30T05:32:11Z",
-  "last_success_at": "2026-08-30T05:32:11Z",
+  "last_attempt_at": "2026-08-30T12:00:58Z",
+  "last_success_at": "2026-08-30T12:00:58Z",
   "consecutive_failure_count": 0
 }
