@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-31T14:05:47Z",
+  "generated_at": "2026-08-31T22:55:38Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,51 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "7befa54b5c2d038a",
+          "title": "＜国際園芸博２０２７＞開幕まで２００日 園芸文化の魅力伝える 企業や自治体４００超出展",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9WRDJ1dGIxRThwdG94R19VTmVTTGlSVlRuYmdRSU0zeG1laVpET1BGeXBHbmRhUS1uN2hJYkVXLWNMYXR3Ykk1TFV1bEhEQnNOUTlHVVVrOA?oc=5",
+          "source": "agrinews.co.jp",
+          "published_at": "2026-08-31T20:32:17Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "05f6674c3a69ceb2",
+          "title": "世界遺産「Aalto Works」から深める アルヴァ・アアルトの建築とデザイン",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16VDBRZ0Z3MUpEOTVKeGNWLVhqN29uYkl5UUttbjdYTlRjWGptU213d0k1VnBsRzRkdGl5S2VoOXI0eUZjSEpBZzdLNm9Fem5JbXdaWUY4S2wwVHl0?oc=5",
+          "source": "kyusan-u.ac.jp",
+          "published_at": "2026-08-31T19:41:15Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "66091d305733a169",
+          "title": "鈴木ちなみ 孤独を感じた海外移住",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9rTnZJc29FN01iUDJXRlJ0bDd3Y1pqcDZYSnNvSGs5aTEySHAyR1VhaG5BZnRNN0txMmRvRkNjbFhFYTBsVW9hdk1uTXBCOFdE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-31T14:05:23Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "70a431e19600579e",
           "title": "第10回福島第一廃炉国際フォーラムにおいて東京電力福島第一原子力発電所の廃炉と未来について地元の皆様と語り合いました（METI",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WMzRwd1J2SmVVNUM0bGVobmhwcklZMWdpQ1UxRlk5NnpBVzVYZE9yLU5GdzVtcG9IVTRHYl9sWVdjdkVHUkVUM0ZGWUZNVVUzc1E1WnJMdjhaOVVqNDVfTXZXNA?oc=5",
           "source": "meti.go.jp",
           "published_at": "2026-08-31T11:10:06Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7e0856368c7dabad",
+          "title": "世界各地で水害相次ぐ 米グランドキャニオンで大規模洪水 1人死亡、14人行方不明（日テレNEWS NNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JN1AtVzF3WE9xT1pkRGV1djZSMGRTaVhlRVlWaFhKU1RnMjFYUmplSnp6UDEwSGtCcl94YVk3SEhkLU5TQ21WS2pNY1ozb0hlQmN6Y1BwSGxyNzFOVzgtSDlKdnM0VUx1VVpkVGN1YXBQY1MzbFQ3TUlaa1Y2bXM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-31T10:23:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -44,46 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9rNjY5ei1PM3E1ZTdsMGs3REx0N3Y3TGZJOWd1aDJKNHBXQnVQZG1tVGdPdjdEYlE2UVVHcDFrRXV2TDFDSFNUUnJhbF8?oc=5",
           "source": "株式会社ヘラルボニー",
           "published_at": "2026-08-31T09:35:07Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "512e2041971a4c3c",
-          "title": "同志社国際高校が2026年度の修学旅行を中止 刑事告訴された教師2人は配置換えへ 3月の辺野古転覆事故で17歳女子高校生死亡（FNNプライムオンライン（フジテレビ系））",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YRXoxU2EyRjVIek5YZFhGTWhmN2h5cjI3eE5IbUZGV0dyR0h4dkx0QlZqNXpzWW5tSFhVMmRXYnhDazA0bm9ZcDliQ1BJa0thNFBvZzFaeDZTNnN4NkdfNEpzTTVUa0lfRTk2VXozQTJiVlZZQ0RPOU9BZ3RqSkE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-31T08:04:19Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "dae49553688443cd",
-          "title": "同志社国際高校 沖縄・辺野古沖の転覆事故で研修旅行に関わった教師が死亡",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0weVphUWMxNUN0VWR6c1dtTVo3RDQtWXltYkpsT3V0ai1Ecl9jYU4tUHd6RnVkTkFSeTliWG1YdndXZDE1TXMwbEFPeHRJLVRESDVJRzVFUDRYZjRMbWx1TUFSX2JmQ1lIQTRScm81R0U2RHlFeEZzc2NUbHRUR3M?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-31T06:44:58Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "cb8ddce713e3b32b",
-          "title": "世界半導体企業ランキングでキオクシア8位、26年Q2：ソニー、ルネサスもトップ20入り（1/2 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3RHllTnA1OXA4NEdudEZOSzNKbDR3ZjBiazNIMFQ5WVBrS3I4OThTN1NtempIU3MyUU0zbVRyNmw5ejdQUEF4YjFUOTNtOWM3bUZnWERHbEpKLVJfLU9LN0R3M0x6TENtM0lPdTREdw?oc=5",
-          "source": "EE Times Japan",
-          "published_at": "2026-08-31T06:30:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "63d95b706da8eb45",
-          "title": "「外交・安全保障研究会」がスタートしました | 国際情勢・通商 | 研究分野",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtNFhOY1NIMjZhR1JYT1k0LXNnVkk5SE5wY1RULVNZMncySjJxSzJLSkF6SmFMWnBYRzNSbE56bk9PeDJqanN1Nm1EX0MxQ3F5TEMzNGNRZTZvVGI0YzNHMVlaYkdQdUV5TDU0?oc=5",
-          "source": "keidanren.or.jp",
-          "published_at": "2026-08-31T04:14:47Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-31T14:05:47Z",
-  "last_success_at": "2026-08-31T14:05:47Z",
+  "last_attempt_at": "2026-08-31T22:55:38Z",
+  "last_success_at": "2026-08-31T22:55:38Z",
   "consecutive_failure_count": 0
 }
