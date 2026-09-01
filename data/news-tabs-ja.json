@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-01T16:45:01Z",
+  "generated_at": "2026-09-01T21:08:10Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -39,11 +39,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0a9381a73c701c7c",
-          "title": "マツコの知らない世界 ご飯もビールもすすむ！ローカル餃子１時間SP",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FYWZrcGZhSUJZOFczY2lmOHlQRlVlcmxFaGVOTVM2SXl6UVZmTmFCUlNpd1pZR3RTQmo2LWRFRU4ySHVRZUhvLXdjVURGVk1WYldud1hB?oc=5",
-          "source": "tbs.co.jp",
-          "published_at": "2026-09-01T14:06:44Z",
+          "id": "37aa9ce55d1b3417",
+          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-01T16:53:07Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "801164596333aac1",
+          "title": "塩田知事の海外出張費が1億7300万円 鹿児島県（KKB鹿児島放送）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sZGh1UkpnUm1WRlpJZEluaHJxR1hxNnJpQlZpekRhSGl0V0N5TmhHa2s1SVBsalotWldNUzFBZVpoOXBHY256TF8yaTdhOG1mdFhKOHdYRlNCcks4SmZCLWZ6ZW14WkU0bXk5clBtVW5sZ29mS1JUR0xtYWpmLXc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-01T10:22:10Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,21 +69,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "bd855c31c5486802",
-          "title": "【海外事情研究所共催】ガリツィア・ユダヤ博物館の展覧会「世界に何かを残したい レーニャ・シュピゲルの日記の向こう側」",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBneG03NDZmdkpxYUFTYUtKUHppYTdpRDNCOFQwVTZpSlRKTkkwZXNhSEtNU0FOMnphS3MzUm04bjRXUmF0amxrakk4WUVXdng1ZVQtZklvUFo5SGxTbnNDUXBB?oc=5",
-          "source": "tufs.ac.jp",
-          "published_at": "2026-09-01T08:21:52Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ea292ce3aa255629",
-          "title": "井野経済産業副大臣がベルギー王国のフランケン国防大臣兼対外貿易担当大臣による表敬を受けました",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05TzFOSHg0eTdCOThnbkdleDlORWFGR1RDclJ4a1luOXJteFVqWFdVRjNWZ2RLV2FtMFNJNEN4NWVtN2w0bEV2dzFlX0pYdzlOWC1NdXNsSVNpRHFjSlRYM3d2UQ?oc=5",
-          "source": "meti.go.jp",
-          "published_at": "2026-09-01T08:10:11Z",
+          "id": "679820ee3c72bca1",
+          "title": "天気アプリ「ウェザーニュース」が世界中で利用可能に、日本の高品質な情報をグローバルで展開",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzQzJLalZmdGZQMktzV3JPbWlmSG5ISjNBdU9UVWY3ZkUtYl9wTXpxdTZ4U25Eb0VkNzRuQ0h6NmdOWnY3VzAycDZTRkI0LU00WEJyMm0zRGtaODA5TFdJRw?oc=5",
+          "source": "株式会社ウェザーニューズ",
+          "published_at": "2026-09-01T07:47:27Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -82,7 +82,7 @@
           "id": "4954d67110697cfb",
           "title": "第31回釜山国際映画祭への正式出品が決定！｜News｜映画『殺人の門』公式サイト",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OcGdXeHpBN2VWczhxVHdRUFpDN1BsNGNRLVBaMERuYm9ZZkNrVmI5bFhxejI2Tzd0UTd6WHctU3AtcGN5YzZWWWM2bnpJZjZoRjRacWVkSkhxZlBIWTlfN0UyaWlfd0U?oc=5",
-          "source": "KADOKAWAオフィシャルサイト",
+          "source": "movies.kadokawa.co.jp",
           "published_at": "2026-09-01T07:06:38Z",
           "language": "ja",
           "category": "overseas",
@@ -144,21 +144,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e780d8ff9c3cf320",
-          "title": "マスダック、食品機械事業を強化 入間工場新棟で生産能力向上",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tUUVwQjFkRVluZmNja3BKT2lrZmFDUkhEcTF6UkNVb0x5UnF0elFSQWhtTk1YOEl5b1ExM25Nc3k2VnMxXzJ5YnFJZTBHSFg1UTR5eTEtVUxSQnh4MWdPM0pjRjJXUQ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-06-25T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "9d8c680faa3b6e31",
           "title": "FOOMA JAPAN2026：農水省、「人を育てる自動化」テーマにセミナー",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ob0ZOekwxNUt5eUJ1X1h5VDA4U3VrZm5ydGM3UXJ3aHpIQXlkd0Fzbm51LWwxS3lPTEFVcDNKazJOY0dYamFfOERPODFQUS0zTzMtdzVSRGd1UDItMlhoOG1uYW9ZQQ?oc=5",
           "source": "日本食糧新聞・電子版",
           "published_at": "2026-06-14T15:03:37Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ae6d194d8bd574c2",
+          "title": "冷媒充填機世界市場の深層分析2026-2032：市場規模・成長率・競合戦略・地域別展望",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rZFdwbmF3ZUd1V0tMenFTVl9wMHhjeFFqUkN6eHc4b3IwNGw2XzI3emZoVEVOanJMOFE2T0Y2REdGbFlmTUxDZ2pES1ZuamtnZExv?oc=5",
+          "source": "dreamnews.jp",
+          "published_at": "2026-09-01T03:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -274,6 +274,26 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "e88d412383f38f69",
+          "title": "ヨークベニマル／福島県郡山市に「（仮称）ヨークタウン富久山（店舗面積3480m2）」27年3月17日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FbW9PVEIxZk5kQXNGdEw2Q08xNVFBa0xmQTVEQWEzcm9DYjFqenFNTmgzeGZ5Q3FRNEJ5X19ZeXNkV3dlemhzc2lkd0JsYzcwREZvTEN3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-28T01:33:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ad416bc4e95190a7",
+          "title": "原信ほか／新潟県加茂市に「原信加茂店（店舗面積3498m2）」27年3月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ocHdiWGUxQ3R2TW1ONnFFRmpuaUFjRFp3NzhDX2c3OFNidEpJMm5JZEkxZXJDVUxQeDNjT0dxRXVyS3d5SW00Zk9yajlkWEhFYkVBNE9R?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-26T01:32:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "583a1abd3e18435d",
           "title": "浦和パルコ／レトルト食品専門店「ニシキヤキッチン」の期間限定店9月3日オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fM0hEQlRhbGNVUURQNHpfLVdCOVloVjVfUXNST1d1TjlCcnE5Zkt5UWJaTjI0X0JrdzZFeVVpY1BReVdRY1plUFlyU1kxS2JENXVqeQ?oc=5",
@@ -289,26 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oY2NSeDZxMDQweXdaVzlHYjhZNkZZTFk4bXRFZTVwWC1aTW5zNmU0RDZMdlZQVkNSMldHVFFpTjVVNW5SZmJpZ3VvQWYzbXItV1NPTw?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-25T01:31:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9b6369b8b4f8693d",
-          "title": "オーケー／神奈川県横須賀市に「横須賀店（店舗面積2286m2）」27年2月5日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LZWZxLU5TcHFQMFZ2S0JMdFVmOEZ6N21MS3VsQVBGaTZCOE1mRWN2bUlCWXMwOEVDWnZhVmVsbjZFalBlWG1OcEFINEoweDBUcEctU2FB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-24T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "39f4ac2189f7dc73",
-          "title": "イオンフードスタイル 価値提案型スーパーマーケット「ＦｏｏｄＳｔｙｌｅ」都内８店舗目「フードスタイル東大島店」がオープン！",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZnBHSXNTdHRUWGp6alVFT2tFUUlhUTh1NHV2UTVHV1FBbG9qMHdUd1lTd0JrTjlpTHM4NTk2MHd1UjNua0RuaUN6MlJPdmc2VkZYRnNUT0VqaXBxd1dRaHk0end3Y2EycGc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-01T16:45:01Z",
-  "last_success_at": "2026-09-01T16:45:01Z",
+  "last_attempt_at": "2026-09-01T21:08:10Z",
+  "last_success_at": "2026-09-01T21:08:10Z",
   "consecutive_failure_count": 0
 }
