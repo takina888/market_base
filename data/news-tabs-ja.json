@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-08-31T22:55:38Z",
+  "generated_at": "2026-09-01T05:19:35Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,10 +19,50 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "caed10d518697d5a",
+          "title": "安部憲明在ジュネーブ日本政府代表部公使の世界貿易機関（WTO）事務局長上級補佐官への就任について",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9nV0E2djV4SFNnVFVHYk1xWW9HcW1VZ1VfM0tqcVBCUlZ2Vmt0WW83eWpubVVRT1JXalRPUzBTYV9ndlM5b3BRYW5scHVhQ0x2b01HcXJic3JQZ28xRWJaTVh5eHluOWRFcnlOd0ZDejVJMnVONVJv?oc=5",
+          "source": "mofa.go.jp",
+          "published_at": "2026-09-01T02:35:24Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1079f4a99d71d52d",
+          "title": "国際交流員コーナー第51号 CIR's Corner Issue #51",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12YV9WenZ1ZUlCNjMxaExYNXExdzZuYkhNQUV0TFlFRXh4d3BaZlIycFAwcE9hODl6eWZmbmU3LThFcXhfSVNhbV9CeDhJbmNISlhiVlpjRFRMRWhEX3h0QmtjMkt6eDhMODJTREFiRkRvTHEwZGl3Tw?oc=5",
+          "source": "city.ebetsu.hokkaido.jp",
+          "published_at": "2026-09-01T00:14:52Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c3babcc31aaf96cf",
+          "title": "９月は世界アルツハイマー月間（認知症月間）",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrM1NON2pYTl9WSzVFOTFReDZ2M3AyRUthSFZDWlJfRGdhbi1lUFh0LU1iQklSQlJlTW5xUEozRFJELVRMVXRtQ0pQdHFxZy15VHhyOUNfYXR3TldfYkE?oc=5",
+          "source": "city.kamo.niigata.jp",
+          "published_at": "2026-09-01T00:07:58Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "15e68cd00dd54123",
+          "title": "辺野古沖の転覆事故 研修旅行に関わった同志社国際高校の教師が死亡（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iV3ZjdlR6b0dKWXhnbnptM19ta3hQRlFocXY2VE00RC11TWQ2QV9iU0IxV2NFaUVBaE9NME1kSHMyVWx5cmc0MVpia1paUXMyek0wZEh1djRrVkV6VGd6QVhVemlBbUs0bUR1YV9BYWNJUU5VUGd1QzN3dUdaY0k?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-08-31T20:52:05Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "7befa54b5c2d038a",
           "title": "＜国際園芸博２０２７＞開幕まで２００日 園芸文化の魅力伝える 企業や自治体４００超出展",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9WRDJ1dGIxRThwdG94R19VTmVTTGlSVlRuYmdRSU0zeG1laVpET1BGeXBHbmRhUS1uN2hJYkVXLWNMYXR3Ykk1TFV1bEhEQnNOUTlHVVVrOA?oc=5",
-          "source": "agrinews.co.jp",
+          "source": "日本農業新聞",
           "published_at": "2026-08-31T20:32:17Z",
           "language": "ja",
           "category": "overseas",
@@ -33,7 +73,7 @@
           "title": "世界遺産「Aalto Works」から深める アルヴァ・アアルトの建築とデザイン",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16VDBRZ0Z3MUpEOTVKeGNWLVhqN29uYkl5UUttbjdYTlRjWGptU213d0k1VnBsRzRkdGl5S2VoOXI0eUZjSEpBZzdLNm9Fem5JbXdaWUY4S2wwVHl0?oc=5",
           "source": "kyusan-u.ac.jp",
-          "published_at": "2026-08-31T19:41:15Z",
+          "published_at": "2026-08-31T19:45:01Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -44,46 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9rTnZJc29FN01iUDJXRlJ0bDd3Y1pqcDZYSnNvSGs5aTEySHAyR1VhaG5BZnRNN0txMmRvRkNjbFhFYTBsVW9hdk1uTXBCOFdE?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-08-31T14:05:23Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "70a431e19600579e",
-          "title": "第10回福島第一廃炉国際フォーラムにおいて東京電力福島第一原子力発電所の廃炉と未来について地元の皆様と語り合いました（METI",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WMzRwd1J2SmVVNUM0bGVobmhwcklZMWdpQ1UxRlk5NnpBVzVYZE9yLU5GdzVtcG9IVTRHYl9sWVdjdkVHUkVUM0ZGWUZNVVUzc1E1WnJMdjhaOVVqNDVfTXZXNA?oc=5",
-          "source": "meti.go.jp",
-          "published_at": "2026-08-31T11:10:06Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7e0856368c7dabad",
-          "title": "世界各地で水害相次ぐ 米グランドキャニオンで大規模洪水 1人死亡、14人行方不明（日テレNEWS NNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JN1AtVzF3WE9xT1pkRGV1djZSMGRTaVhlRVlWaFhKU1RnMjFYUmplSnp6UDEwSGtCcl94YVk3SEhkLU5TQ21WS2pNY1ozb0hlQmN6Y1BwSGxyNzFOVzgtSDlKdnM0VUx1VVpkVGN1YXBQY1MzbFQ3TUlaa1Y2bXM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-31T10:23:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d9b3cc8bf0e1c236",
-          "title": "同志社国際高校の説明は「グダグダ」「誠意がない」保護者ら憤り \"沖縄での修学旅行中止”発表 教員の事故死も明らかに【辺野古沖転覆死亡事故】",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZNG1rS0d6eTBMOEtXLWJrSEc1cmJ3LXFRU1Itc2g4SWdkYlViNF9JbjV2d0daa1VNVGMzUl95OGQyRjRKTXBhZ1FKWkNXb2JtNVk2RnVQMkNDNUJmNlljZkVXT1VMVmI1LVk2WjkzVk5XS1Jpb0JVNDlMY2ZmV00?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-08-31T09:54:18Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e6f2696e5b33d760",
-          "title": "国際アートアワード「HERALBONY Art Prize」第４回開催へ。9月30日（水）より作品募集を開始",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9rNjY5ei1PM3E1ZTdsMGs3REx0N3Y3TGZJOWd1aDJKNHBXQnVQZG1tVGdPdjdEYlE2UVVHcDFrRXV2TDFDSFNUUnJhbF8?oc=5",
-          "source": "株式会社ヘラルボニー",
-          "published_at": "2026-08-31T09:35:07Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -144,21 +144,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e780d8ff9c3cf320",
-          "title": "マスダック、食品機械事業を強化 入間工場新棟で生産能力向上",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tUUVwQjFkRVluZmNja3BKT2lrZmFDUkhEcTF6UkNVb0x5UnF0elFSQWhtTk1YOEl5b1ExM25Nc3k2VnMxXzJ5YnFJZTBHSFg1UTR5eTEtVUxSQnh4MWdPM0pjRjJXUQ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-06-25T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "4180d1106bcbc393",
           "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LbUlhc2Q0X3c1QTdaYjVtTEdPNTUzYmhPdktDeXJmRFpSM3k4b3lHLXFPbV9UVC1BRDJIRkFJS1NWM1JybWxPYkl1SDZNeFQwZDdxeTAwc0tWRTRZTE03eFhCZ3Z2TVpuaXc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-06-15T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "db7a9824ff303538",
+          "title": "次世代設備保全クラウド「M2X」が「第5回FOOMAアワード2026」にて審査委員会賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2MERlWnFRVDVmZWNMNnl4ZURyd2FzVzJqcGY4WjlUYk8zMXBOVmw5R0ZYbXdjWTdCN1RuV0txaS10dmxpNVVSemF5YWJiQXRSZnNveHBxVmFSYU4zSWQ1Z0pRbXdqTmVxU2c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-03T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -168,6 +168,26 @@
     "food_factory": {
       "label": "食品工場",
       "articles": [
+        {
+          "id": "e1d5ccdf871d84a2",
+          "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-31T16:04:47Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "60ef901336748543",
+          "title": "特集・食品工場の設備保全・予兆保全2026：技術FOCUS2＝アンリツ",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vWkk3WWY3VlVaVWRtbFlFZTZNM0lERktta2xoVm82RHM2cE9TU0t5NHd3WXdNMzZEYmU1Wlhva0N1Z2gtOXpGb2ZwUTh6UDJwSVlzTG5EZ2FJakpyWFh6Q2FFVk9xZGpaRGUw?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-31T15:59:14Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "56b76612a9a8629b",
           "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
@@ -217,32 +237,22 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5a015c34f98856db",
-          "title": "いかに名店の味を再現？ 三井不動産が手掛けるプレミアム冷食の製造拠点公開：工場ニュース（2/2 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-08-12T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b2ea39a0e775737c",
-          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-07-06T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "112715125e88d3e8",
+          "title": "月会費3,300円の「アッティーボジム」、名古屋市内2店舗目を9/25（金）にオープン！「カネスエ木場店」2階に新店舗",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pNzNYclNmQjlHMkRIWDVvWTRla0xVTFZOYXVlb2RPSnlGcjdRTkk3M2ljcjA0enB5Z0F2eUxBSFlDNGVqS0o1UG9aU04tMG9ick5tSElPYTFGRWwwZVRoMzE0M1QxYTZ3M1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-01T02:37:22Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "e3790a2a21c30472",
           "title": "りんくうプレミアム・アウトレット／9～10月に5店舗オープン、イッセイミヤケ・TASAKIなど登場",
@@ -302,16 +312,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9b6369b8b4f8693d",
-          "title": "オーケー／神奈川県横須賀市に「横須賀店（店舗面積2286m2）」27年2月5日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LZWZxLU5TcHFQMFZ2S0JMdFVmOEZ6N21MS3VsQVBGaTZCOE1mRWN2bUlCWXMwOEVDWnZhVmVsbjZFalBlWG1OcEFINEoweDBUcEctU2FB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-24T01:32:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -319,21 +319,21 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "4180320d0efa326b",
-          "title": "EUへの輸出は、厳格な包装基準を遵守しなければならない。",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaTcxblduOWlVUVpobHhtTXJIc1U1cEVXMEVoUndnQjdGaXo4YnVETFZ0Y3UyNGVlcXFxYTN3WG82QXZWb0dBdDhRU1dhSFVjVF9SMlM5M0JnVTEtRHJPdkt4RzRNQUQxNHVrWkZyMXJSY2dIcGNzOHlaZFozTGhzOENFd3JnRTV3VU9Uc3RqOVY?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-17T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "e8dc2b1dc051806f",
           "title": "米国包装材規制の今（4）プラスチック規制の現状と先取権法 | 地域・分析レポート - 海外ビジネス情報",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
           "source": "jetro.go.jp",
           "published_at": "2026-06-04T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4180320d0efa326b",
+          "title": "EUへの輸出は、厳格な包装基準を遵守しなければならない。",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaTcxblduOWlVUVpobHhtTXJIc1U1cEVXMEVoUndnQjdGaXo4YnVETFZ0Y3UyNGVlcXFxYTN3WG82QXZWb0dBdDhRU1dhSFVjVF9SMlM5M0JnVTEtRHJPdkt4RzRNQUQxNHVrWkZyMXJSY2dIcGNzOHlaZFozTGhzOENFd3JnRTV3VU9Uc3RqOVY?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-08-17T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-08-31T22:55:38Z",
-  "last_success_at": "2026-08-31T22:55:38Z",
+  "last_attempt_at": "2026-09-01T05:19:35Z",
+  "last_success_at": "2026-09-01T05:19:35Z",
   "consecutive_failure_count": 0
 }
