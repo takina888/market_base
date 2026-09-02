@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-02T16:41:12Z",
+  "generated_at": "2026-09-02T21:08:05Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -40,31 +40,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b198458540a02aec",
-          "title": "世界くらべてみたら★SixTONES全員クロアチア世界遺産ロケ絶景美食 [字] [デ]",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43Szc2S1lTZlk1aE5WYUhKQ2JzQUo4LWFNNHloZTZTd0o2WVMxTkgtMllycm5WM2tqd2xmOFg0LWh1eUhhSkdFcGtUN1ZhdTdsbndDbktn?oc=5",
-          "source": "tbs.co.jp",
-          "published_at": "2026-09-02T13:06:01Z",
+          "id": "c17c47a1d335562b",
+          "title": "【分析】米国民は「アメリカ湖」も対カナダ貿易戦争も大嫌い 最新世論調査",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pLTVCWUZ5U1pVaExFTExzLVBXTnVHME13TXN4cnYtLUFnTEw3TnllQnQzX05sbWF5UkFHMUFGSVRRR0xtSmhSbU1odHl4RXRm?oc=5",
+          "source": "CNN.co.jp",
+          "published_at": "2026-09-02T09:07:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9ff678250655015f",
-          "title": "大空を大冒険するドラえもんの特別装飾 | 成田国際空港",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XT0ZzOUZZUWxkNTRGaDBTdXBieXI5Ujg0VmNoS3BEMjlVYVRNOUhfUnZkbGlGTm5TY2xwQlBmeUtqdTI4a082NWdZekNXSXl5M3h6OHI3OWhmQnhUX2lXaGx4c1U?oc=5",
-          "source": "narita-airport.jp",
-          "published_at": "2026-09-02T09:17:04Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d282f3e052d0cdce",
-          "title": "Switch2新作『世界のテーブルゲーム＆遊びコレクション60＋』12/10発売。全64種類のゲームを収録、『ドリームクラブ』キャラ登場のパズルも【先出し週刊ファミ通】",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9UX0VmLVVTTjAzdDloQi1QUjFDQ1p1Y3VLSi1OUHRMazA4UEtqeHBLOUdCWWZpcks4aUYxd0FrZjJUeGwwWWFwU3JSbEl0eXJKNjNxLWJQbw?oc=5",
-          "source": "ファミ通",
-          "published_at": "2026-09-02T08:30:00Z",
+          "id": "c013d5c4d026ad0f",
+          "title": "日経平均株価1,889円安 長期金利3％台到達も、「金利のある世界」への移行では整合的とみる 野村證券・岡崎康平",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82Z1BwUEx3R2RIN3NDbUloYjQwYjdJV0tvbVZXNEpuUHI4dEktODlHNHhnYng0aUZBOUNibGQ3S3QtUENUUGRoTGtTNnNISHo0SmR6UUw4YUtoUDlkS0Jn?oc=5",
+          "source": "nomura.co.jp",
+          "published_at": "2026-09-02T08:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -80,11 +70,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1c9d475dccede9a3",
-          "title": "スターマー前英首相が下院議員辞任を発表、国際問題などに専念と",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PRHZLQ3BhaWVJU1hOQXhfMjBVeXA4cERTRGZpLUpyM0xOdTdfTllxY2R5YlVUQTZyZnFyMHg5amdfaDBIalFjc1J0R1BaenFzbzFQMU5lcmRwY0JSc0040gFkQVVfeXFMUFlBR2xBZHBhckhEYXZxS1BYQlpnZS1VREQwbS00Z0hWaXZlakhaMS1IVjRjYWxrREhLdTFHZDdRUnZVaUdrdjFlOFdabm1CN25Mbms5YUE4Qm8zV1NabEt2eUZYaQ?oc=5",
-          "source": "BBC",
-          "published_at": "2026-09-02T04:24:18Z",
+          "id": "e7b6aade91e3f92b",
+          "title": "『世界最強の後衛』柳瀬雄之監督が死去 アニメ公式が報告、追悼（オリコン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DRHRaVWlNVnFCbGcxUTV1RV8yaTNqR2dnVW53ZGtHcVpHLWwyTnB4bkhiUl9JbDBJQ2ZsZ3FjTXZKeUM3NlRYM3RSU2tfU3N2c0E1Z2tCTHVrZkUteFpaNE1iRFFWWXg2b3RtNzZ3ZTlKalA3X21mdGd0dldCYmc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-02T03:46:54Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5ee677d2bff1edb9",
+          "title": "教1184 戦争は終わっても終わらない 世界平和アピール七人委員会講演会（教育長ブログR8.9.1）",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOEdOcnhxNUdtUzhGa0Q5TWtXR2Znd0xZQjNQVEpUQWdjRlNrUDhCa2tubVN3aDFNcFZMeVRyYk0wbFUyZ0xzUE12clF6Q3puaG8wU3ZMakgxVDUwNTVqcHZUNzJFQk1zZ3BVUVUtdll6eGk4UmdCeXNWNWtfeVpHVjRQUTJpWWNWaV9tMmxGWUVzbEQzTXRtRnF5a0twcC1wYzc5VDByb3AwVkY3VDJSZg?oc=5",
+          "source": "city.tambasasayama.lg.jp",
+          "published_at": "2026-09-02T03:26:59Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -105,26 +105,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6de479b68f1ffe25",
-          "title": "日本包装機械工業会×東京工科大学デザイン学部の産学共同研究プロジェクト、包装業界の魅力を発信するコンセプトムービーなどを制作",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZGQ0M0tCdGlfNEdSR1lXUHF6NXhkNWhEcjNSQVlNVUtuVmdlUVdKM3VXa1I4UExReEU5WXJ5WE5WZDdOUnBVYUdDYTJkc3NIQjcxSl9PcUlJTUdDNkxremdqLUhXOFh0bmc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-24T03:16:35Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a772bd383a2af7eb",
-          "title": "日本盛、大型紙パック充填機を移設",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-16T15:06:10Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "c5b26c7796e664db",
           "title": "【出展報告】前川製作所、「FOOMA JAPAN 2026」に出展",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZSWMzbkg2bWxJbTd2M2F1UUhpUjd6Mkdha3VxdTVHVWJIeXBXYXEwZXFGeWQwUHNWM2pFd2hvRU9yMkwtaUxfX3hVbzlnRzZ0UXo2cjFjOGQ5SzRzMkUyZEV4YTNTTktDalE?oc=5",
@@ -135,31 +115,51 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "39c8e82ea1ae296e",
-          "title": "株式会社マスダック 入間工場に新棟「M5棟」を竣工 食品機械事業の体制を強化し、生産性向上と事業拡大を推進",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQTmRRQUVrRFI3Y3RPX1l4empSM0FqdVlZcmxqN29zQTJnR3c1OXZNenV5Q1R2VFROaXRLekdSc3dBaWlnMWtNTmtmcjFCRDY1OEhlbHA3aHlEel9aYTBwVUs4eHB5QnhYa3c?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-25T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9d8c680faa3b6e31",
-          "title": "FOOMA JAPAN2026：農水省、「人を育てる自動化」テーマにセミナー",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ob0ZOekwxNUt5eUJ1X1h5VDA4U3VrZm5ydGM3UXJ3aHpIQXlkd0Fzbm51LWwxS3lPTEFVcDNKazJOY0dYamFfOERPODFQUS0zTzMtdzVSRGd1UDItMlhoOG1uYW9ZQQ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-06-14T15:03:37Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "ae6d194d8bd574c2",
           "title": "冷媒充填機世界市場の深層分析2026-2032：市場規模・成長率・競合戦略・地域別展望",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rZFdwbmF3ZUd1V0tMenFTVl9wMHhjeFFqUkN6eHc4b3IwNGw2XzI3emZoVEVOanJMOFE2T0Y2REdGbFlmTUxDZ2pES1ZuamtnZExv?oc=5",
-          "source": "ドリームニュース",
+          "source": "dreamnews.jp",
           "published_at": "2026-09-01T03:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "55290f0b5178b00e",
+          "title": "ソディック 工作・産業・食品機械のグローバル企業へ進化を遂げる 国境を越える理念体系を策定",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BUkJxa0VvbmdIWXF6QUhGaWdRc0QzZTBCYk1ianItZDF2YjZmMkFyNUxTN1pFR0hnUmFfMnptV0toQlJhU0plaGdZaTJUclloMllYcE1Rclljc01fem1abUlsUlF3VmUtZnlwS2c0bTdCaEdsVk1qQVJQd0l2c28?oc=5",
+          "source": "projectdesign.jp",
+          "published_at": "2026-08-31T11:02:38Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7c0ca4334a58c39b",
+          "title": "包装機械工業会、ドバイ展示会で日本の食品発信",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NU3A0QjhhZGw3Wkp5Q0FBdkZXUDY2WFFBNjFTZjIyNkZGcW5yT2JrWEt3Q0VKUGc5Um50R3NySzBJazBVT1JsWEFHUlkwWG9JbU1mQkU1UHo?oc=5",
+          "source": "日刊工業新聞",
+          "published_at": "2026-08-29T23:42:52Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b8b26fd7625572be",
+          "title": "マルチピストン式粘性充填機の世界市場（2026年～2032年）、市場規模（サーボ駆動式マルチピストン充填機、容積式ピストン充填機、ロータリーピストン充填機、インラインピストン充填機、その他）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SZlRreWZPUlNfbTIyZmtXYXJCT0FLMFJTRFVETDNMUG8zcGN5YkdFalpFaklfVkZudVB1OGhkS3kzYjZRR2JIaHV1QkhLSWc?oc=5",
+          "source": "アットプレス",
+          "published_at": "2026-08-28T01:30:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "98049526d54e8726",
+          "title": "日本包装機械工業会、JAPAN PACK 2027公式サイトをリニューアル",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tdTFnV0ppLXpUSG5Pcl9LeVBRZjhwZXNxamEtMGpXQTlCYUFHOW1GTzFvYXgtcTV0MXgxbmtkZVBCRWJrajdyQUxHTlYzQ292ajBqbmk3WnRtaFh6b3pXUg?oc=5",
+          "source": "印刷ジャーナルDIGITAL",
+          "published_at": "2026-08-28T01:29:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -180,6 +180,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "cbbbd1904db9d4a2",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:44:56Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "6d865337a2a677d3",
           "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
@@ -190,11 +200,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "490326a0a5021998",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
-          "source": "Infoseek",
-          "published_at": "2026-08-21T07:44:56Z",
+          "id": "b2ea39a0e775737c",
+          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
+          "source": "monoist.itmedia.co.jp",
+          "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -205,16 +215,6 @@
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-08-12T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b2ea39a0e775737c",
-          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -245,11 +245,11 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "cf75f32db13d6fb4",
-          "title": "トライアル／鹿児島県曾於郡大崎町に「スーパーセンタートライアル大崎店（店舗面積4054m2）」27年3月7日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IbkEydFo2ZmNSdlhSQlplQTNyWnk0a25CWDRzdnhvZWhwR2Rxc1l1MS1nS3ZZbWl4b2Mtc3laZkVQU3o3VXd6YnZJQmRvSmlCUmZlUg?oc=5",
+          "id": "a560c63a907c65de",
+          "title": "モスバーガー／埼玉県に「八潮店」9月3日オープン、郊外立地の次世代型店舗",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Dd3FyMFpzcThOMTdySFpXLVdjOGpPeHd3bV9IbGRYQ0VfaGh0Zjd1a29zSjd6WkdTaTFHeFJ1VVBESjA3UXQ4NTIxQmc2QnN4dUV2Tg?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-08-31T01:42:06Z",
+          "published_at": "2026-09-01T05:19:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -260,6 +260,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWF9tbnpwbkJSdVplYnc1STBYMUlnZDZwRmJtRk8wX25mbV9XbjFIY3lrdWlSZlp6Z0wzcVVwM1pWcWQxT2o5Q3ZSNUxOYVZmbk5yaVdB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-28T01:34:20Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e88d412383f38f69",
+          "title": "ヨークベニマル／福島県郡山市に「（仮称）ヨークタウン富久山（店舗面積3480m2）」27年3月17日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FbW9PVEIxZk5kQXNGdEw2Q08xNVFBa0xmQTVEQWEzcm9DYjFqenFNTmgzeGZ5Q3FRNEJ5X19ZeXNkV3dlemhzc2lkd0JsYzcwREZvTEN3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-28T01:33:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -300,16 +310,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LZWZxLU5TcHFQMFZ2S0JMdFVmOEZ6N21MS3VsQVBGaTZCOE1mRWN2bUlCWXMwOEVDWnZhVmVsbjZFalBlWG1OcEFINEoweDBUcEctU2FB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-24T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "39f4ac2189f7dc73",
-          "title": "イオンフードスタイル 価値提案型スーパーマーケット「ＦｏｏｄＳｔｙｌｅ」都内８店舗目「フードスタイル東大島店」がオープン！",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZnBHSXNTdHRUWGp6alVFT2tFUUlhUTh1NHV2UTVHV1FBbG9qMHdUd1lTd0JrTjlpTHM4NTk2MHd1UjNua0RuaUN6MlJPdmc2VkZYRnNUT0VqaXBxd1dRaHk0end3Y2EycGc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-02T16:41:12Z",
-  "last_success_at": "2026-09-02T16:41:12Z",
+  "last_attempt_at": "2026-09-02T21:08:05Z",
+  "last_success_at": "2026-09-02T21:08:05Z",
   "consecutive_failure_count": 0
 }
