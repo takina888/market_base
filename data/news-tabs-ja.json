@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-02T11:28:33Z",
+  "generated_at": "2026-09-02T16:41:12Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -20,6 +20,36 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "8295ae9c9350e2e6",
+          "title": "極東貿易[8093]：自己株式の取得状況に関するお知らせ 2026年9月1日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNY1VtR0ttd2xyYnFSNmNNZUhQRlhncklPRGtpQTZhMkFTUk9fOGE5VFJxSGllUzBXcmhsTmJ0a2xheVR3Q0x3aEx1YXZYRHZGU1U0MHZHMzNkcTlEZWNoR1lWSE5Hd0F4bG1fdmZZQ2s4cUlORGpTbldSZmJKRG9IakhwYUV4VFVlU1UyZDZTTGM4MGdVQ3l5VkRQME43cnROeklEa3FSMk4yak9CTkRnOHp2VmdJeUNDRFVhZEpQV0dOb0hDZVhqU01zal8?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-09-01T06:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "fd822f0ae195ffbc",
+          "title": "極東貿易[8093]：執行役員の異動に関するお知らせ 2026年9月1日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOTRNcjlBMUh5VjRocVBpWUlXdjZHZlpwcVBKaWtxTEZ1cEk0Zl9ka2E0dDZ5eUMzV09nc0JqLTNlZFJtcUxpN3BISUdON05tTzhwUFRXVlRJdjRPbnlBUGRqY0ROSF9HUkJ4QlJqSjhHcXhkMnBhWXZOV1FuTmlRQ2k5OEVpTlQ1aGZnajNCMERvQWgtX1FzZXpwSTkxOGFMX2p3d0FkU2pEZVhkeXhxaWdvNjdSb1pNYnRvc0Rxc0J4M0s5OXY2U05QTFY?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-09-01T06:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b198458540a02aec",
+          "title": "世界くらべてみたら★SixTONES全員クロアチア世界遺産ロケ絶景美食 [字] [デ]",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43Szc2S1lTZlk1aE5WYUhKQ2JzQUo4LWFNNHloZTZTd0o2WVMxTkgtMllycm5WM2tqd2xmOFg0LWh1eUhhSkdFcGtUN1ZhdTdsbndDbktn?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-09-02T13:06:01Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "9ff678250655015f",
           "title": "大空を大冒険するドラえもんの特別装飾 | 成田国際空港",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XT0ZzOUZZUWxkNTRGaDBTdXBieXI5Ujg0VmNoS3BEMjlVYVRNOUhfUnZkbGlGTm5TY2xwQlBmeUtqdTI4a082NWdZekNXSXl5M3h6OHI3OWhmQnhUX2lXaGx4c1U?oc=5",
@@ -30,21 +60,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c17c47a1d335562b",
-          "title": "【分析】米国民は「アメリカ湖」も対カナダ貿易戦争も大嫌い 最新世論調査",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pLTVCWUZ5U1pVaExFTExzLVBXTnVHME13TXN4cnYtLUFnTEw3TnllQnQzX05sbWF5UkFHMUFGSVRRR0xtSmhSbU1odHl4RXRm?oc=5",
-          "source": "CNN.co.jp",
-          "published_at": "2026-09-02T09:07:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f2add568af0b6c62",
-          "title": "【中国経済FAQ】貿易黒字が3ヶ月連続で1000億ドル超、中国製品は世界を圧迫しているのか？",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9oSkFqT2taNGZQUFg3bWZYRzRCOGtHNFhrOERybjVTNXk1ZUE4NDhKalpSSU9MMGVhTUN3Q0J6Sm1SanVIaGc1NXJYMUs2TVVWMFFCTTNiYWtkQWtsbVl1S182S1BPNDA?oc=5",
-          "source": "j.people.com.cn",
-          "published_at": "2026-09-02T07:01:00Z",
+          "id": "d282f3e052d0cdce",
+          "title": "Switch2新作『世界のテーブルゲーム＆遊びコレクション60＋』12/10発売。全64種類のゲームを収録、『ドリームクラブ』キャラ登場のパズルも【先出し週刊ファミ通】",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9UX0VmLVVTTjAzdDloQi1QUjFDQ1p1Y3VLSi1OUHRMazA4UEtqeHBLOUdCWWZpcks4aUYxd0FrZjJUeGwwWWFwU3JSbEl0eXJKNjNxLWJQbw?oc=5",
+          "source": "ファミ通",
+          "published_at": "2026-09-02T08:30:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -60,31 +80,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2e6a3cabb6e84d77",
-          "title": "世界遺産白神山地で幻の「ミズラモグラ」を発見！",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FcmZxZHVGWU1kTWVmUjZZbVNUdm40RmlJclp0ZTIyRXZUbTlLRUpxN2ZpV3F5VlhvVkxxVFp2TzduVXp1U1NNNWdNWnNlUmtlemtMWmJ3?oc=5",
-          "source": "hirosaki-u.ac.jp",
-          "published_at": "2026-09-02T05:10:10Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a656847ad5bcd566",
-          "title": "辺野古沖転覆事故「自分のせいだ」と漏らし… 同志社国際高校の59歳教諭が死亡 「校長に『休職させてほしい』と願い出るも、引き止められた」（デイリー新潮）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55cW1aQkUtb1g5ZEkwSjB4S0t1Qmo1dzJId0NmWkhpbmVjV0ZmMUxZMUVWcURwS19Qc1ZiTjY2MmJIVEZuT29kSVZlVkVwdkJmVDRPbld3a1g2Y0JRc2hlMVVqZjdjSW84X2t5Ri1wa2tzWjVnbExYZkhaQW00ZWs?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-02T02:42:04Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1c2b39bb98c8289b",
-          "title": "「国際物流総合展 2026」に出展｜ニュースリリース",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTV1dESThSWDViTGN2S3E5MENobDIzM2FhS0tlSXoxZnBNRXc5cjY1SjEtbjRoTkxVLUxSamJNRi10RjhPWGZvYWp4WHFHQm43ZnFpNDd2N1M?oc=5",
-          "source": "シャープ株式会社",
-          "published_at": "2026-09-02T02:01:28Z",
+          "id": "1c9d475dccede9a3",
+          "title": "スターマー前英首相が下院議員辞任を発表、国際問題などに専念と",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PRHZLQ3BhaWVJU1hOQXhfMjBVeXA4cERTRGZpLUpyM0xOdTdfTllxY2R5YlVUQTZyZnFyMHg5amdfaDBIalFjc1J0R1BaenFzbzFQMU5lcmRwY0JSc0040gFkQVVfeXFMUFlBR2xBZHBhckhEYXZxS1BYQlpnZS1VREQwbS00Z0hWaXZlakhaMS1IVjRjYWxrREhLdTFHZDdRUnZVaUdrdjFlOFdabm1CN25Mbms5YUE4Qm8zV1NabEt2eUZYaQ?oc=5",
+          "source": "BBC",
+          "published_at": "2026-09-02T04:24:18Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -125,21 +125,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "05cf05b47710b11c",
-          "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-16T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "c5b26c7796e664db",
           "title": "【出展報告】前川製作所、「FOOMA JAPAN 2026」に出展",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZSWMzbkg2bWxJbTd2M2F1UUhpUjd6Mkdha3VxdTVHVWJIeXBXYXEwZXFGeWQwUHNWM2pFd2hvRU9yMkwtaUxfX3hVbzlnRzZ0UXo2cjFjOGQ5SzRzMkUyZEV4YTNTTktDalE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "39c8e82ea1ae296e",
+          "title": "株式会社マスダック 入間工場に新棟「M5棟」を竣工 食品機械事業の体制を強化し、生産性向上と事業拡大を推進",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQTmRRQUVrRFI3Y3RPX1l4empSM0FqdVlZcmxqN29zQTJnR3c1OXZNenV5Q1R2VFROaXRLekdSc3dBaWlnMWtNTmtmcjFCRDY1OEhlbHA3aHlEel9aYTBwVUs4eHB5QnhYa3c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-25T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -194,17 +194,7 @@
           "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
           "source": "Infoseek",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4a4031dcf4ae9bd6",
-          "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
-          "source": "logi-today.com",
-          "published_at": "2026-08-20T20:27:49Z",
+          "published_at": "2026-08-21T07:44:56Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -230,6 +220,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "4a4031dcf4ae9bd6",
+          "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
+          "source": "logi-today.com",
+          "published_at": "2026-08-20T20:27:49Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "e1d5ccdf871d84a2",
           "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
@@ -245,16 +245,6 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "112715125e88d3e8",
-          "title": "月会費3,300円の「アッティーボジム」、名古屋市内2店舗目を9/25（金）にオープン！「カネスエ木場店」2階に新店舗",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pNzNYclNmQjlHMkRIWDVvWTRla0xVTFZOYXVlb2RPSnlGcjdRTkk3M2ljcjA0enB5Z0F2eUxBSFlDNGVqS0o1UG9aU04tMG9ick5tSElPYTFGRWwwZVRoMzE0M1QxYTZ3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-09-01T02:30:01Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "cf75f32db13d6fb4",
           "title": "トライアル／鹿児島県曾於郡大崎町に「スーパーセンタートライアル大崎店（店舗面積4054m2）」27年3月7日新設",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IbkEydFo2ZmNSdlhSQlplQTNyWnk0a25CWDRzdnhvZWhwR2Rxc1l1MS1nS3ZZbWl4b2Mtc3laZkVQU3o3VXd6YnZJQmRvSmlCUmZlUg?oc=5",
@@ -265,11 +255,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e3790a2a21c30472",
-          "title": "りんくうプレミアム・アウトレット／9～10月に5店舗オープン、イッセイミヤケ・TASAKIなど登場",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ldHU5NjlOYW5USlo3NzVOY3ZaYXZMVjM0TWlWa3dwTDV0MU1aa2x5c1p4OVFwQUhYOGF0N25KLXp1eUhpeURUbHJWaGtmS3R0MjhxXw?oc=5",
+          "id": "65177bac6b476850",
+          "title": "ダイレックス／福岡県・鹿児島県に計3店舗、27年3月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWF9tbnpwbkJSdVplYnc1STBYMUlnZDZwRmJtRk8wX25mbV9XbjFIY3lrdWlSZlp6Z0wzcVVwM1pWcWQxT2o5Q3ZSNUxOYVZmbk5yaVdB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-08-28T04:31:00Z",
+          "published_at": "2026-08-28T01:34:20Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -310,6 +300,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LZWZxLU5TcHFQMFZ2S0JMdFVmOEZ6N21MS3VsQVBGaTZCOE1mRWN2bUlCWXMwOEVDWnZhVmVsbjZFalBlWG1OcEFINEoweDBUcEctU2FB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-24T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "39f4ac2189f7dc73",
+          "title": "イオンフードスタイル 価値提案型スーパーマーケット「ＦｏｏｄＳｔｙｌｅ」都内８店舗目「フードスタイル東大島店」がオープン！",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZnBHSXNTdHRUWGp6alVFT2tFUUlhUTh1NHV2UTVHV1FBbG9qMHdUd1lTd0JrTjlpTHM4NTk2MHd1UjNua0RuaUN6MlJPdmc2VkZYRnNUT0VqaXBxd1dRaHk0end3Y2EycGc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-02T11:28:33Z",
-  "last_success_at": "2026-09-02T11:28:33Z",
+  "last_attempt_at": "2026-09-02T16:41:12Z",
+  "last_success_at": "2026-09-02T16:41:12Z",
   "consecutive_failure_count": 0
 }
