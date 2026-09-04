@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-04T11:28:02Z",
+  "generated_at": "2026-09-04T16:28:19Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -30,11 +30,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "04b9d1f4212ae44e",
-          "title": "「中国も被災者だ」 土石流災害めぐりネパールが補償を要求の報道に「気候変動は世界的な課題」中国外務省",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pZzFyX1psMmlVeWh2NkRmS1JEdzh0TzYyVFVkRWE2Xzk4OVNGU1FpbHF2YVlNcFVLX005Znl2cTJqNEJEeklBSDZJNXNpZk9jNndBZlI4QUthTlpkdGRxZG9HZXBfVnBId1JBQVpEMGFxSEFsa19QQzloSXFyZzQ?oc=5",
+          "id": "609e5a0eabe23ae0",
+          "title": "トランプ氏、ＦＲＢに利下げ要求 「応じなければ対米赤字国との貿易停止」（ロイター）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84RHM1ZlpTQ09XUWJhZGpWdjVnR3NXTXRzMTBseVF2ZWczZWY0aTV2ZTRrODdjc21WVVg1NlQyMFRoS01RbEFYRGg4UmQwdV8wTjYtWml6aU56UVVjaC0xZ2duLUxsb0tDQ2R2aHBYeXV5R3dZRWhUX1Fhcmw2NXM?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-09-04T07:07:00Z",
+          "published_at": "2026-09-04T14:06:57Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1e949c0d05fcc46a",
+          "title": "【独自】「日本国際貿易促進協会」訪中団が北京を訪れる方向で調整 今月27日から4日間の日程（日テレNEWS NNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkaGdqSWlJNy1IZFhNbVdURlk1dzNBN0NGeXNsZ0ttZ2pndFFhX1pUWVRrbjM1TFJubFdwSlN2T1dlekYwSm9lUzN1ckdWNEVzTkxqakEzd09PaE4tUGVDOHctMEZTdTdfcWFpd084WEJWNXh5U0pDbHlUaEg3Q1U?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-04T10:24:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -53,7 +63,7 @@
           "id": "a14782703bd26aaf",
           "title": "9/12(土)2026年度 東京国際交流館国際交流フェスティバル 参加のお知らせ",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fbzVFcjAxbm5fVi1IcG9wdXIxbGNnblQ1ZkNlX2hlNU9fWVg4bDJvZGRHYzFIcWZrN3hiV2FsRXJaZnRFQ3FRRmZ4bXcySEZ6UWZ0UmFtX1hKWHZwOUJ5Uk05QXFLeW1TdTlRT2hSa0w3Xzg?oc=5",
-          "source": "alvark-tokyo.jp",
+          "source": "アルバルク東京",
           "published_at": "2026-09-04T03:34:37Z",
           "language": "ja",
           "category": "overseas",
@@ -75,16 +85,6 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5IUE5ZT1RfTUVvb0tjTDZNTnJ0bzAwNWI4dEM2bXlMWEdoa3lyOUMtVkhPOVZVdFdzWnVHSkFCUTFyTVR1UXY1bE9XMzUwalRLVnc?oc=5",
           "source": "med.kyoto-u.ac.jp",
           "published_at": "2026-09-04T02:45:41Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3e4a00910d309e10",
-          "title": "世界トップレベル大学院教育拠点、神戸大1件を選定…文科省",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFbXJsOXU1WG5DN3h1SXYweUo4V3JlZUtiWHNCT29wLUliUWpqOV92a2VfRFBMVElPZnZsZG1WWmFnb1J6Zm42OE1ObjVEUzNmUHQ3RTk0LUJOd1U0azlldEJCSURBUQ?oc=5",
-          "source": "reseed.resemom.jp",
-          "published_at": "2026-09-04T02:45:03Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -115,21 +115,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a772bd383a2af7eb",
-          "title": "日本盛、大型紙パック充填機を移設",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-16T15:06:10Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "05cf05b47710b11c",
           "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-07-16T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9d8c680faa3b6e31",
+          "title": "FOOMA JAPAN2026：農水省、「人を育てる自動化」テーマにセミナー",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ob0ZOekwxNUt5eUJ1X1h5VDA4U3VrZm5ydGM3UXJ3aHpIQXlkd0Fzbm51LWwxS3lPTEFVcDNKazJOY0dYamFfOERPODFQUS0zTzMtdzVSRGd1UDItMlhoOG1uYW9ZQQ?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-06-14T15:03:37Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -245,6 +245,16 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "0f795321d13e6019",
+          "title": "ロフト／京都府内3店舗目「イオンモールKYOTOロフト」11月27日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyaEZrLWxPWHRwSzUxT18wUkxkMTVHdEJSNi1XQmJfSnZBc285QVVVQm9ESFN1R1ZYYXYyMEZtRzdicWJHOTZMRGJYTENNSklHdXltZg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-04T01:19:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "9bd88acecffcffd4",
           "title": "アクロスプラザ富山掛尾／平和堂、サンドラッグ、ヤマダデンキ、ゼビオが新店舗オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCcmplVWpubF9XMnNGY0MyWWUtNDBsV2JxVHVDbHg1aTJTX3VJeDMwUGJsaVVqM1BWdWZZbktlYVptTUx0VTFmdFUtcnM4Rmh5dEJmaQ?oc=5",
@@ -285,31 +295,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "32e3ee41ab87f8bd",
+          "title": "コメダ／「和喫茶 おかげ庵」兵庫県西宮市に27年新店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HbXlSZU9ic3ktSndsd3J0ZWQ3djUyNTZwM0RZZk9wS0hlbTNrR0laVDNMY0E1WVEyck9UVDczTTUzeFhEZkx3N2UtUlpBVGhaVGZ5Ug?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-27T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "fb681f05a1202ffb",
           "title": "ヤマダデンキ／愛知県豊田市に「（仮称）テックライフセレクト豊田広路店（店舗面積8752m2）」27年3月4日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oVzBrd0w3SnNsR3lQVmdJUkh6LTZIblN6RUxBNWRDVmdnWWw0bDZqVFN2QW1mVG9HZy04d3NDOFV4SWNCVXlrMjZ4VVdLakVXaS1HWGxR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-27T01:32:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "32e3ee41ab87f8bd",
-          "title": "コメダ／「和喫茶 おかげ庵」兵庫県西宮市に27年新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HbXlSZU9ic3ktSndsd3J0ZWQ3djUyNTZwM0RZZk9wS0hlbTNrR0laVDNMY0E1WVEyck9UVDczTTUzeFhEZkx3N2UtUlpBVGhaVGZ5Ug?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-27T01:26:23Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f6f5fc423947453e",
-          "title": "平和堂／大阪府吹田市に「（仮称）岸辺店（店舗面積3651m2）」27年3月2日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jdms2RzRDLXQ1NjltTUs3enpVREw2ZWNmX215S0lUUDVyZklmRFBHQVhTRWViZVNaSmhESHhCZG5BX20wOW9vZENCWlBXdnJQYjdCZnVn?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-26T01:33:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -319,6 +319,16 @@
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "6fec7f365bdc3f4e",
+          "title": "アルゼンチン政府、食品輸入手続き簡素化の対象品目を拡大（アルゼンチン）",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuYUZVb2dlclU3d2pkTWpPUXN4ekFmc1FOcVJXZmxCTDRNRDBiSUdfcGEyWEVKME1pNDZ6R0l4NDZpRllqS3lDM01McUtBMlBaQUtBcUI5aE5WdlpheVpSSDBucTJvaXlSd21n?oc=5",
+          "source": "Infoseek",
+          "published_at": "2026-08-10T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "e3eb956f85cd4512",
           "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
@@ -378,21 +388,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6965fc1a5eaad69b",
-          "title": "EU向け海産物輸出における包装の標準化。",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13bXY2WkhuSmZMNWxIUlozX0p1X2RZaE5zWGJxSDVkRDFHb1pQQ3F6d0c4WjRyckVZMmxHMGNTSmVveFpaZk4yZ1JfUG1uclJndUI0Ym5aMUM5MnlXbXBPTW9mZzl4M19VVFNSendleGFlWE1yZ0tfUQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-25T17:08:55Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-04T11:28:02Z",
-  "last_success_at": "2026-09-04T11:28:02Z",
+  "last_attempt_at": "2026-09-04T16:28:19Z",
+  "last_success_at": "2026-09-04T16:28:19Z",
   "consecutive_failure_count": 0
 }
