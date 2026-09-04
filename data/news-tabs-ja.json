@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-04T04:43:24Z",
+  "generated_at": "2026-09-04T11:28:02Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -20,6 +20,56 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "8a572ee88d42f5f6",
+          "title": "「戦時のホワイトハウス トランプ政権中枢の内幕」前編 | 世界のドキュメンタリー",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rQ3dsMTB3eFZVa0pNOG5Qb3p5TkdzaEJxa1FnbkZvOFhnNkVsZG45Yy1WSkFqd0ZIMG1LZ095cmdCZkxTN1BZbUVYeUE4NXItelFMa1lRU1BJbVBMaWlKc2kxU3d3a09sbmhjZmFOUWM1N1ZPcFA3eA?oc=5",
+          "source": "web.nhk",
+          "published_at": "2026-09-01T14:25:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "04b9d1f4212ae44e",
+          "title": "「中国も被災者だ」 土石流災害めぐりネパールが補償を要求の報道に「気候変動は世界的な課題」中国外務省",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pZzFyX1psMmlVeWh2NkRmS1JEdzh0TzYyVFVkRWE2Xzk4OVNGU1FpbHF2YVlNcFVLX005Znl2cTJqNEJEeklBSDZJNXNpZk9jNndBZlI4QUthTlpkdGRxZG9HZXBfVnBId1JBQVpEMGFxSEFsa19QQzloSXFyZzQ?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-04T07:07:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6e1a96fb4afdc93d",
+          "title": "米サンフランシスコで国際ビジネス週間、23カ国・地域がビジネス交流(フィリピン、日本、米国) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lQ19MeHh4bVh0ZTR2OEt2WXltenRkZ0xrOFBoWElGSGF6QzZkbFZ6X1VlZDBGZ0J5b3pKenJYYUxFMk9kTWY0X0JFMUxLOWZyRjloaXJlUk0xamRHamhQSkItRnIwYWd0ZWEyU3FR?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-09-04T04:22:02Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a14782703bd26aaf",
+          "title": "9/12(土)2026年度 東京国際交流館国際交流フェスティバル 参加のお知らせ",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fbzVFcjAxbm5fVi1IcG9wdXIxbGNnblQ1ZkNlX2hlNU9fWVg4bDJvZGRHYzFIcWZrN3hiV2FsRXJaZnRFQ3FRRmZ4bXcySEZ6UWZ0UmFtX1hKWHZwOUJ5Uk05QXFLeW1TdTlRT2hSa0w3Xzg?oc=5",
+          "source": "alvark-tokyo.jp",
+          "published_at": "2026-09-04T03:34:37Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "bc42b484546da14d",
+          "title": "原発推進で、私たちの電気代は上がるの？",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5XMFZhbDczSGZNNmZJMGNhaFJ4TFphQlpyeEJZSWJFOU40c09SZ0VVZ0V4X1NNZFVHd09mWWdrMlFzLUk4eHU2ZS1Pc3dnMGR2NWVtc01iTjdBZkZqUkZmTm5pQ1hBOUVFVTh4VnVwdGI2Zw?oc=5",
+          "source": "国際環境NGO FoE Japan",
+          "published_at": "2026-09-04T02:48:44Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "ef933d818ab06394",
           "title": "【リレーエッセイ】E棟百年物語（医学教育・国際化推進センター 国際化推進部門 タムケオ ディーン 教授）",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5IUE5ZT1RfTUVvb0tjTDZNTnJ0bzAwNWI4dEM2bXlMWEdoa3lyOUMtVkhPOVZVdFdzWnVHSkFCUTFyTVR1UXY1bE9XMzUwalRLVnc?oc=5",
@@ -30,61 +80,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6e1a96fb4afdc93d",
-          "title": "米サンフランシスコで国際ビジネス週間、23カ国・地域がビジネス交流(フィリピン、日本、米国) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lQ19MeHh4bVh0ZTR2OEt2WXltenRkZ0xrOFBoWElGSGF6QzZkbFZ6X1VlZDBGZ0J5b3pKenJYYUxFMk9kTWY0X0JFMUxLOWZyRjloaXJlUk0xamRHamhQSkItRnIwYWd0ZWEyU3FR?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-09-04T02:29:55Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f8d7255c09eeca35",
-          "title": "東北大学とカレル大学が大学間学術交流協定を締結しました",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Zc0VjQ0FLU3NrXzhPamVMb2Q5aW5PLXQtMnYxR0RKbE1IaGpFdjNsU3JKQ003dzRxbVJjMl95UzZaLTJBbU5teHZ2eWdqZzR5emNNNFp6U2wySk5NemxUTEM2bFliSHAtRTFPOUxBZ2hkdTlPNVE?oc=5",
-          "source": "tohoku.ac.jp",
-          "published_at": "2026-09-04T02:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "343eeef1df49a00e",
-          "title": "【国際学部】森ゼミが韓国で調査研修を実施しました",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHX3V4NHYybjNMdU1RZWc1VDREUlU0YU9uakJ1ZTloUWp0aDhZVFMxM1ZkV2QxamI1Y0tUd3FIc3FRNndiZF9LSExuMDBBOGstZWxFLUtR?oc=5",
-          "source": "setsunan.ac.jp",
-          "published_at": "2026-09-04T01:41:54Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "17311eaed8937f7d",
-          "title": "「何様のつもりか」世界的美術家が高市首相を痛烈批判…細川元首相の“昭和100年式典”発言に反応（週刊女性PRIME）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBubFRsLWVKTVd3NFcxN2pSQ3hkNTdXam9FLS1NRjFjdWRQTEF3cHI3eW1lYi1QWDdtYmFMY05RT1VDTmFOdlkwVUdzUDFkRUFrRXBkalRLMlpGejlrZW00dWJSWTJ6Vl9YZ3ZCNEhSNVl3a1NNOXlzeVNadmpQOVk?oc=5",
-          "source": "news.yahoo.co.jp",
-          "published_at": "2026-09-03T22:00:35Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4c07c11d16f4bda3",
-          "title": "吉田仁人出演「RECOFES.2027 in 東京国際フォーラム ホールA」PREMIUM MILK会員先行受付＜抽選",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE92OUlJN2Z0em1yZnhjNDFQalFROWY0UUM4bmtHa0JxU1VBZEN4enpZWjZySzE4b09OXzFHMGhsSm04NUt2bE1YMVZMcDE?oc=5",
-          "source": "M!LKオフィシャルサイト",
-          "published_at": "2026-09-03T14:01:44Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "684d4773cd2834f5",
-          "title": "【吉田仁人】ライブフェスイベント「RECOFES.2027 in 東京国際フォーラム ホールA」開催決定！",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBTSGVQdmo3UlVBS0dJRWt2WDZuWXJ4UXpSY2ZrNVg4aWRGVkZyaWdKSWI2NTcyN0xKcC1SNEZYQ2hjZk9lR1duZ1BRMDU?oc=5",
-          "source": "M!LKオフィシャルサイト",
-          "published_at": "2026-09-03T14:01:44Z",
+          "id": "3e4a00910d309e10",
+          "title": "世界トップレベル大学院教育拠点、神戸大1件を選定…文科省",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFbXJsOXU1WG5DN3h1SXYweUo4V3JlZUtiWHNCT29wLUliUWpqOV92a2VfRFBMVElPZnZsZG1WWmFnb1J6Zm42OE1ObjVEUzNmUHQ3RTk0LUJOd1U0azlldEJCSURBUQ?oc=5",
+          "source": "reseed.resemom.jp",
+          "published_at": "2026-09-04T02:45:03Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -94,6 +94,26 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "7b3ce71c979c7072",
+          "title": "FOOMA JAPAN 2027 会期：2027年6月8日（火）～11日（金）の4日間 出展申込受付は、2026年9月1日（火）～10月15日（木）",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41TURZeUVaUUZUNmFNVXRzUE9Xc0xxU1ZEQ2FLWmt0LVVMMEJRR0lsbkpnZXJJeEJhWGJ4TGJfSVRIUlpxRmhYSGlseWN6SXJCMWl4SDQyX0p0OUE3aXJYbTlDWFBUTUo2WkE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-28T06:00:02Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6de479b68f1ffe25",
+          "title": "日本包装機械工業会×東京工科大学デザイン学部の産学共同研究プロジェクト、包装業界の魅力を発信するコンセプトムービーなどを制作",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZGQ0M0tCdGlfNEdSR1lXUHF6NXhkNWhEcjNSQVlNVUtuVmdlUVdKM3VXa1I4UExReEU5WXJ5WE5WZDdOUnBVYUdDYTJkc3NIQjcxSl9PcUlJTUdDNkxremdqLUhXOFh0bmc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-24T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "a772bd383a2af7eb",
           "title": "日本盛、大型紙パック充填機を移設",
@@ -140,26 +160,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BUkJxa0VvbmdIWXF6QUhGaWdRc0QzZTBCYk1ianItZDF2YjZmMkFyNUxTN1pFR0hnUmFfMnptV0toQlJhU0plaGdZaTJUclloMllYcE1Rclljc01fem1abUlsUlF3VmUtZnlwS2c0bTdCaEdsVk1qQVJQd0l2c28?oc=5",
           "source": "projectdesign.jp",
           "published_at": "2026-08-31T11:02:38Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "98049526d54e8726",
-          "title": "日本包装機械工業会、JAPAN PACK 2027公式サイトをリニューアル",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tdTFnV0ppLXpUSG5Pcl9LeVBRZjhwZXNxamEtMGpXQTlCYUFHOW1GTzFvYXgtcTV0MXgxbmtkZVBCRWJrajdyQUxHTlYzQ292ajBqbmk3WnRtaFh6b3pXUg?oc=5",
-          "source": "pjl.co.jp",
-          "published_at": "2026-08-28T01:29:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "adb9c70e08eddba8",
-          "title": "韓国・釜山の工場で20代外国人労働者が包装機械に挟まれ重体",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0wWWhWU1RUODZLZlRnYTlHYW14S3hXQjVVLWdSYVZ4ZXM4eWhUX2F2d2hHTl9fVGJaWUoxOHMwRFZsc2hnS3JqbVJLNzMxTl9JQVI3VXlnYXp2UzdaRnBpZ21udlktUW_SAWxBVV95cUxPNmZMZ2UtdFpRazhIZjl5dzRLa3pTSnhodVVzMFhuT1VNN1Y2c094V1liYTRjaUZrbjB3a3Rwb1ZiTE9JUWlXQmxqNU1CUG5MNmVjWVMwcmNtaWs3aWg4NUZIYVRNM2xEbFp2MTA?oc=5",
-          "source": "Infoseek",
-          "published_at": "2026-08-26T23:18:52Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -265,16 +265,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "112715125e88d3e8",
-          "title": "月会費3,300円の「アッティーボジム」、名古屋市内2店舗目を9/25（金）にオープン！「カネスエ木場店」2階に新店舗",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pNzNYclNmQjlHMkRIWDVvWTRla0xVTFZOYXVlb2RPSnlGcjdRTkk3M2ljcjA0enB5Z0F2eUxBSFlDNGVqS0o1UG9aU04tMG9ick5tSElPYTFGRWwwZVRoMzE0M1QxYTZ3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-09-01T02:30:01Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "e3790a2a21c30472",
           "title": "りんくうプレミアム・アウトレット／9～10月に5店舗オープン、イッセイミヤケ・TASAKIなど登場",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ldHU5NjlOYW5USlo3NzVOY3ZaYXZMVjM0TWlWa3dwTDV0MU1aa2x5c1p4OVFwQUhYOGF0N25KLXp1eUhpeURUbHJWaGtmS3R0MjhxXw?oc=5",
@@ -313,6 +303,16 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f6f5fc423947453e",
+          "title": "平和堂／大阪府吹田市に「（仮称）岸辺店（店舗面積3651m2）」27年3月2日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jdms2RzRDLXQ1NjltTUs3enpVREw2ZWNmX215S0lUUDVyZklmRFBHQVhTRWViZVNaSmhESHhCZG5BX20wOW9vZENCWlBXdnJQYjdCZnVn?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-26T01:33:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -320,21 +320,31 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "e8dc2b1dc051806f",
-          "title": "米国包装材規制の今（4）プラスチック規制の現状と先取権法 | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-06-04T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "e3eb956f85cd4512",
           "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
           "source": "jetro.go.jp",
           "published_at": "2026-07-15T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7338dc41e445e013",
+          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
+          "source": "独立行政法人 農畜産業振興機構",
+          "published_at": "2026-06-25T10:48:49Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e8dc2b1dc051806f",
+          "title": "米国包装材規制の今（4）プラスチック規制の現状と先取権法 | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-06-04T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -378,21 +388,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2c86a62a62c8e90d",
-          "title": "EUが包装のライフサイクルに関する新たな規制を導入するにあたり、水産物関連企業は何をすべきでしょうか？",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdmhVOTJESnFLdUZOV2s2Qy1DcDZmalluaEFfOFZlajBVbE01WnU0Q2JkekFxc0ZmcUhvVWhwQmxGUk53VVFwVVJHTHJTdUdYT3pHSVJIcWVVTVliSUZCNFMxeUZCaC1SeGRjVS1uSFc1cDlKNlRvU3J1SVgwQktLdUdDeFVmUFNVUVdMOU5BeHMzZHRNSGluRVE0SnNDaWwtZm9Z?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-27T00:58:44Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-04T04:43:24Z",
-  "last_success_at": "2026-09-04T04:43:24Z",
+  "last_attempt_at": "2026-09-04T11:28:02Z",
+  "last_success_at": "2026-09-04T11:28:02Z",
   "consecutive_failure_count": 0
 }
