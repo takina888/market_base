@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-05T10:44:17Z",
+  "generated_at": "2026-09-05T15:20:27Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -30,6 +30,46 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "ddcc428ba4060a6c",
+          "title": "神椿所属Vシンガー・ヰ世界情緒 自身初のオフィシャルファンクラブ 「1209Carat.」開設決定｜NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1FRzF5MXJ4OE9xRUJNelIxWkt6NVQ5ZERGVy1QQ2JzZW1ZQWhIa0Vwdlc0WE1qSkVhUFFwZ0FnTnJiM0U4dktJUjRzQ204LWJvY0dwM1owTWs?oc=5",
+          "source": "KAMITSUBAKI STUDIO",
+          "published_at": "2026-09-05T11:31:35Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-05T10:57:51Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "dbd7296a930c2a44",
+          "title": "トランプ氏、FRBに利下げ要求 「貿易赤字国と取引停止」と警告（毎日新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04ZVA3ZXdlcHNlUGI0cVJZRVZtSUcxenVqZ09leVVWbVU2SnlwdTh6QnV6ZXpObUdRX1lJemFDdWdUVUhSQU5yVEViQ01rTUI3SkF4eDJka0dSMGl6Q1dwdGp4alA4d3pncTEtYjV4R2lzMkF1QzFGSU9zTHF5Y1k?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-05T06:59:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0de9816a3e492dee",
+          "title": "国連総会、アフリカの実際の面積を反映した世界地図への置き換えを決議",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qZUVBV01MOVBDbE5OVmN3eTVpSGtwMGMwQVN5WjNEUmtKb1lOYW1NclBtYThXYzBVaWFiU2VlSnU0RWEwMERFa3Y2Z05YWTctOVA2WjVsTU5VSFZsaXdj0gFkQVVfeXFMTjVJZXBMUjhxQ1FFTnBQYkJNRk9weFROc2RaYUFaV19ucVN0UkQyaVBsWUNTaEJmTUkwUHpRaXV6MTlIN3ZITFBIMWNiTWx1d2lyOF9CMERXZXZOZDlTeXQ0c2VSQg?oc=5",
+          "source": "BBC",
+          "published_at": "2026-09-05T01:36:23Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "df80183528b0d550",
           "title": "メルカトル図法でない「正しい世界地図を使って」 国連総会決議（毎日新聞）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCZmprUmM4RngyVlBCYlRIS1Z4Nm56V2xzQVVZUS1jZ0o0ZllrbXpveGMyNWVjd25ETGQwLXRHV0c4U1RBejRBajZta3dnZ1I3Q0xDMER4Sm9wRzFtd20xTVVOaVV3UjJPZDV6NXJzWk8yeUtHZnJ1aF92WUpqclE?oc=5",
@@ -45,46 +85,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pbmpOQk1BaXUtbmFwMFlsaFMtOXB0T0xDWl9MenVDRmIxdWpwX1loVWlMeXExOWJRVVJCcmIwLTJsQm9XOTRrbElzaG9YTEdzc3ZVcXJCWWN6Ynh6WHdDYnlacW5Cb2Zzc3dZM3NEVFBPZW1yYW5ZSjdIY0gzSEE?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-04T22:48:03Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1f93f61ed2682545",
-          "title": "アフリカなどが小さく見える世界地図の使用見直しを 国連総会が実際の面積をより正確に表す地図の使用促す議案採択 アメリカは唯一反対（TBS NEWS DIG Powered by JNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SV1ZzcVVxSF96MngtRTZBZlVJY3BhcWsyc2s4SFdManNQd1Y0NWM1Rm1jUURfN2RXVHFmeURtdXF6S1pkVkJxQ3NlcHB0TWRtWVRpcVgzYXJjajVjeVdieGZsQnhNYmZuUUlneUI4Y1dNWnR1UWllUlpScUZaeVU?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-04T22:26:36Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "609e5a0eabe23ae0",
-          "title": "トランプ氏、ＦＲＢに利下げ要求 「応じなければ対米赤字国との貿易停止」（ロイター）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84RHM1ZlpTQ09XUWJhZGpWdjVnR3NXTXRzMTBseVF2ZWczZWY0aTV2ZTRrODdjc21WVVg1NlQyMFRoS01RbEFYRGg4UmQwdV8wTjYtWml6aU56UVVjaC0xZ2duLUxsb0tDQ2R2aHBYeXV5R3dZRWhUX1Fhcmw2NXM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-04T14:06:57Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4e479b248c04b18d",
-          "title": "日本の国際緊急援助隊がネパール到着「スピード感が重要 現地当局と協力体制を」大規模土砂災害",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGaFdWd205RGF0OE5zUlJudjhFanZRTEUwZExvaDd1MlVxNjdzMVF6ZWtTT2NjZFdHSVRPdWtiejRfZVlfdzNQV3pMY0xTVVNxaEVJN0Y4UDYyMUVRdUtZT21ZVkVLU0VmRGd2TVl0QUhjUG44MXVEbWRWU01JaFk?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-04T13:40:33Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "286ee6c2a342bf8e",
-          "title": "ぐんま国際アカデミーに通信制課程 群馬・太田市（群馬テレビ）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zbEJmc1dJU1BTMlh2UUdjak5KVEJqTzJBaXdzMW5uT2YxZ3h4RnFVREJ3bW1OSjBwUG1ZMS1idXphZ1R1M1dyaENXRkpjZVJrQ3ZDaDV5azJoaE5fRWE2cE9pZzRIMFp1OUdYSWFkNVZLM2dvZ01pWGd4Vlotdzg?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-04T11:32:21Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -170,6 +170,16 @@
       "label": "食品工場",
       "articles": [
         {
+          "id": "60ef901336748543",
+          "title": "特集・食品工場の設備保全・予兆保全2026：技術FOCUS2＝アンリツ",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vWkk3WWY3VlVaVWRtbFlFZTZNM0lERktta2xoVm82RHM2cE9TU0t5NHd3WXdNMzZEYmU1Wlhva0N1Z2gtOXpGb2ZwUTh6UDJwSVlzTG5EZ2FJakpyWFh6Q2FFVk9xZGpaRGUw?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-31T15:59:14Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "56b76612a9a8629b",
           "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
@@ -200,16 +210,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5a015c34f98856db",
-          "title": "いかに名店の味を再現？ 三井不動産が手掛けるプレミアム冷食の製造拠点公開：工場ニュース（2/2 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-08-12T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
@@ -220,21 +220,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6d865337a2a677d3",
-          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
-          "source": "prtimes.jp",
-          "published_at": "2026-08-14T07:00:00Z",
+          "id": "5a015c34f98856db",
+          "title": "いかに名店の味を再現？ 三井不動産が手掛けるプレミアム冷食の製造拠点公開：工場ニュース（2/2 ページ）",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-08-12T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e1d5ccdf871d84a2",
-          "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-31T16:04:47Z",
+          "id": "6d865337a2a677d3",
+          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
+          "source": "prtimes.jp",
+          "published_at": "2026-08-14T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -265,11 +265,31 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "a560c63a907c65de",
+          "title": "モスバーガー／埼玉県に「八潮店」9月3日オープン、郊外立地の次世代型店舗",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Dd3FyMFpzcThOMTdySFpXLVdjOGpPeHd3bV9IbGRYQ0VfaGh0Zjd1a29zSjd6WkdTaTFHeFJ1VVBESjA3UXQ4NTIxQmc2QnN4dUV2Tg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-01T05:19:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "112715125e88d3e8",
           "title": "月会費3,300円の「アッティーボジム」、名古屋市内2店舗目を9/25（金）にオープン！「カネスエ木場店」2階に新店舗",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pNzNYclNmQjlHMkRIWDVvWTRla0xVTFZOYXVlb2RPSnlGcjdRTkk3M2ljcjA0enB5Z0F2eUxBSFlDNGVqS0o1UG9aU04tMG9ick5tSElPYTFGRWwwZVRoMzE0M1QxYTZ3M1E?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-09-01T02:30:01Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "65177bac6b476850",
+          "title": "ダイレックス／福岡県・鹿児島県に計3店舗、27年3月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWF9tbnpwbkJSdVplYnc1STBYMUlnZDZwRmJtRk8wX25mbV9XbjFIY3lrdWlSZlp6Z0wzcVVwM1pWcWQxT2o5Q3ZSNUxOYVZmbk5yaVdB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-28T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -285,31 +305,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "65177bac6b476850",
-          "title": "ダイレックス／福岡県・鹿児島県に計3店舗、27年3月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWF9tbnpwbkJSdVplYnc1STBYMUlnZDZwRmJtRk8wX25mbV9XbjFIY3lrdWlSZlp6Z0wzcVVwM1pWcWQxT2o5Q3ZSNUxOYVZmbk5yaVdB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-28T01:34:20Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "32e3ee41ab87f8bd",
           "title": "コメダ／「和喫茶 おかげ庵」兵庫県西宮市に27年新店舗オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HbXlSZU9ic3ktSndsd3J0ZWQ3djUyNTZwM0RZZk9wS0hlbTNrR0laVDNMY0E1WVEyck9UVDczTTUzeFhEZkx3N2UtUlpBVGhaVGZ5Ug?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-27T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fb681f05a1202ffb",
-          "title": "ヤマダデンキ／愛知県豊田市に「（仮称）テックライフセレクト豊田広路店（店舗面積8752m2）」27年3月4日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oVzBrd0w3SnNsR3lQVmdJUkh6LTZIblN6RUxBNWRDVmdnWWw0bDZqVFN2QW1mVG9HZy04d3NDOFV4SWNCVXlrMjZ4VVdLakVXaS1HWGxR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-27T01:32:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-05T10:44:17Z",
-  "last_success_at": "2026-09-05T10:44:17Z",
+  "last_attempt_at": "2026-09-05T15:20:27Z",
+  "last_success_at": "2026-09-05T15:20:27Z",
   "consecutive_failure_count": 0
 }
