@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-04T20:50:38Z",
+  "generated_at": "2026-09-05T04:39:12Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -30,11 +30,51 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-04T18:32:04Z",
+          "published_at": "2026-09-05T01:50:44Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0de9816a3e492dee",
+          "title": "国連総会、アフリカの実際の面積を反映した世界地図への置き換えを決議",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qZUVBV01MOVBDbE5OVmN3eTVpSGtwMGMwQVN5WjNEUmtKb1lOYW1NclBtYThXYzBVaWFiU2VlSnU0RWEwMERFa3Y2Z05YWTctOVA2WjVsTU5VSFZsaXdj0gFkQVVfeXFMTjVJZXBMUjhxQ1FFTnBQYkJNRk9weFROc2RaYUFaV19ucVN0UkQyaVBsWUNTaEJmTUkwUHpRaXV6MTlIN3ZITFBIMWNiTWx1d2lyOF9CMERXZXZOZDlTeXQ0c2VSQg?oc=5",
+          "source": "BBC",
+          "published_at": "2026-09-05T01:36:23Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4dfaf38d70be90d3",
+          "title": "「メルカトル図法の世界地図やめて」 国連決議が採択、日本も賛成（朝日新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pbmpOQk1BaXUtbmFwMFlsaFMtOXB0T0xDWl9MenVDRmIxdWpwX1loVWlMeXExOWJRVVJCcmIwLTJsQm9XOTRrbElzaG9YTEdzc3ZVcXJCWWN6Ynh6WHdDYnlacW5Cb2Zzc3dZM3NEVFBPZW1yYW5ZSjdIY0gzSEE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-05T01:31:36Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "df80183528b0d550",
+          "title": "メルカトル図法でない「正しい世界地図を使って」 国連総会決議（毎日新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCZmprUmM4RngyVlBCYlRIS1Z4Nm56V2xzQVVZUS1jZ0o0ZllrbXpveGMyNWVjd25ETGQwLXRHV0c4U1RBejRBajZta3dnZ1I3Q0xDMER4Sm9wRzFtd20xTVVOaVV3UjJPZDV6NXJzWk8yeUtHZnJ1aF92WUpqclE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-04T23:03:18Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1f93f61ed2682545",
+          "title": "アフリカなどが小さく見える世界地図の使用見直しを 国連総会が実際の面積をより正確に表す地図の使用促す議案採択 アメリカは唯一反対（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SV1ZzcVVxSF96MngtRTZBZlVJY3BhcWsyc2s4SFdManNQd1Y0NWM1Rm1jUURfN2RXVHFmeURtdXF6S1pkVkJxQ3NlcHB0TWRtWVRpcVgzYXJjajVjeVdieGZsQnhNYmZuUUlneUI4Y1dNWnR1UWllUlpScUZaeVU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-04T22:26:36Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -45,46 +85,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84RHM1ZlpTQ09XUWJhZGpWdjVnR3NXTXRzMTBseVF2ZWczZWY0aTV2ZTRrODdjc21WVVg1NlQyMFRoS01RbEFYRGg4UmQwdV8wTjYtWml6aU56UVVjaC0xZ2duLUxsb0tDQ2R2aHBYeXV5R3dZRWhUX1Fhcmw2NXM?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-04T14:06:57Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5a360633d9c8cb26",
-          "title": "コウモリが空中で鳥を捕まえる様子、世界で初めて撮影成功 東京大など",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mMG9fVDJLcndkVTRweWFRZVhmWUtDVnVZMVBIbnlrS19VMXpjQUZ5dXdPTzdVM0tlbmU5Z005ZjN1NWJvbWgxdEVBNU9wY0dYdTVwNUlHUDdqRzBZdzUzZnc4VjdxQQ?oc=5",
-          "source": "Science Portal",
-          "published_at": "2026-09-04T07:21:22Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6e1a96fb4afdc93d",
-          "title": "米サンフランシスコで国際ビジネス週間、23カ国・地域がビジネス交流(フィリピン、日本、米国) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lQ19MeHh4bVh0ZTR2OEt2WXltenRkZ0xrOFBoWElGSGF6QzZkbFZ6X1VlZDBGZ0J5b3pKenJYYUxFMk9kTWY0X0JFMUxLOWZyRjloaXJlUk0xamRHamhQSkItRnIwYWd0ZWEyU3FR?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-09-04T04:22:02Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a14782703bd26aaf",
-          "title": "9/12(土)2026年度 東京国際交流館国際交流フェスティバル 参加のお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fbzVFcjAxbm5fVi1IcG9wdXIxbGNnblQ1ZkNlX2hlNU9fWVg4bDJvZGRHYzFIcWZrN3hiV2FsRXJaZnRFQ3FRRmZ4bXcySEZ6UWZ0UmFtX1hKWHZwOUJ5Uk05QXFLeW1TdTlRT2hSa0w3Xzg?oc=5",
-          "source": "アルバルク東京",
-          "published_at": "2026-09-04T03:34:37Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "bc42b484546da14d",
-          "title": "原発推進で、私たちの電気代は上がるの？",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5XMFZhbDczSGZNNmZJMGNhaFJ4TFphQlpyeEJZSWJFOU40c09SZ0VVZ0V4X1NNZFVHd09mWWdrMlFzLUk4eHU2ZS1Pc3dnMGR2NWVtc01iTjdBZkZqUkZmTm5pQ1hBOUVFVTh4VnVwdGI2Zw?oc=5",
-          "source": "国際環境NGO FoE Japan",
-          "published_at": "2026-09-04T02:48:44Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -125,6 +125,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "c5b26c7796e664db",
+          "title": "【出展報告】前川製作所、「FOOMA JAPAN 2026」に出展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZSWMzbkg2bWxJbTd2M2F1UUhpUjd6Mkdha3VxdTVHVWJIeXBXYXEwZXFGeWQwUHNWM2pFd2hvRU9yMkwtaUxfX3hVbzlnRzZ0UXo2cjFjOGQ5SzRzMkUyZEV4YTNTTktDalE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "9d8c680faa3b6e31",
           "title": "FOOMA JAPAN2026：農水省、「人を育てる自動化」テーマにセミナー",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ob0ZOekwxNUt5eUJ1X1h5VDA4U3VrZm5ydGM3UXJ3aHpIQXlkd0Fzbm51LWwxS3lPTEFVcDNKazJOY0dYamFfOERPODFQUS0zTzMtdzVSRGd1UDItMlhoOG1uYW9ZQQ?oc=5",
@@ -150,16 +160,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BUkJxa0VvbmdIWXF6QUhGaWdRc0QzZTBCYk1ianItZDF2YjZmMkFyNUxTN1pFR0hnUmFfMnptV0toQlJhU0plaGdZaTJUclloMllYcE1Rclljc01fem1abUlsUlF3VmUtZnlwS2c0bTdCaEdsVk1qQVJQd0l2c28?oc=5",
           "source": "projectdesign.jp",
           "published_at": "2026-08-31T11:02:38Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "adb9c70e08eddba8",
-          "title": "韓国・釜山の工場で20代外国人労働者が包装機械に挟まれ重体",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0wWWhWU1RUODZLZlRnYTlHYW14S3hXQjVVLWdSYVZ4ZXM4eWhUX2F2d2hHTl9fVGJaWUoxOHMwRFZsc2hnS3JqbVJLNzMxTl9JQVI3VXlnYXp2UzdaRnBpZ21udlktUW_SAWxBVV95cUxPNmZMZ2UtdFpRazhIZjl5dzRLa3pTSnhodVVzMFhuT1VNN1Y2c094V1liYTRjaUZrbjB3a3Rwb1ZiTE9JUWlXQmxqNU1CUG5MNmVjWVMwcmNtaWs3aWg4NUZIYVRNM2xEbFp2MTA?oc=5",
-          "source": "Infoseek",
-          "published_at": "2026-08-26T23:18:52Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -200,10 +200,20 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "5a015c34f98856db",
+          "title": "いかに名店の味を再現？ 三井不動産が手掛けるプレミアム冷食の製造拠点公開：工場ニュース（2/2 ページ）",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-08-12T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "monoist.itmedia.co.jp",
+          "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -215,16 +225,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
           "source": "prtimes.jp",
           "published_at": "2026-08-14T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5a015c34f98856db",
-          "title": "いかに名店の味を再現？ 三井不動産が手掛けるプレミアム冷食の製造拠点公開：工場ニュース（2/2 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-08-12T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -320,26 +320,6 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "6fec7f365bdc3f4e",
-          "title": "アルゼンチン政府、食品輸入手続き簡素化の対象品目を拡大（アルゼンチン）",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuYUZVb2dlclU3d2pkTWpPUXN4ekFmc1FOcVJXZmxCTDRNRDBiSUdfcGEyWEVKME1pNDZ6R0l4NDZpRllqS3lDM01McUtBMlBaQUtBcUI5aE5WdlpheVpSSDBucTJvaXlSd21n?oc=5",
-          "source": "Infoseek",
-          "published_at": "2026-08-10T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e3eb956f85cd4512",
-          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-07-15T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
@@ -355,6 +335,26 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
           "source": "jetro.go.jp",
           "published_at": "2026-06-04T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6fec7f365bdc3f4e",
+          "title": "アルゼンチン政府、食品輸入手続き簡素化の対象品目を拡大（アルゼンチン）",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuYUZVb2dlclU3d2pkTWpPUXN4ekFmc1FOcVJXZmxCTDRNRDBiSUdfcGEyWEVKME1pNDZ6R0l4NDZpRllqS3lDM01McUtBMlBaQUtBcUI5aE5WdlpheVpSSDBucTJvaXlSd21n?oc=5",
+          "source": "Infoseek",
+          "published_at": "2026-08-10T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e3eb956f85cd4512",
+          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-07-15T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-04T20:50:38Z",
-  "last_success_at": "2026-09-04T20:50:38Z",
+  "last_attempt_at": "2026-09-05T04:39:12Z",
+  "last_success_at": "2026-09-05T04:39:12Z",
   "consecutive_failure_count": 0
 }
