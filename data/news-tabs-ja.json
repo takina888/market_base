@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-05T15:20:27Z",
+  "generated_at": "2026-09-05T20:28:43Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -40,16 +40,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-05T10:57:51Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "dbd7296a930c2a44",
           "title": "トランプ氏、FRBに利下げ要求 「貿易赤字国と取引停止」と警告（毎日新聞）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04ZVA3ZXdlcHNlUGI0cVJZRVZtSUcxenVqZ09leVVWbVU2SnlwdTh6QnV6ZXpObUdRX1lJemFDdWdUVUhSQU5yVEViQ01rTUI3SkF4eDJka0dSMGl6Q1dwdGp4alA4d3pncTEtYjV4R2lzMkF1QzFGSU9zTHF5Y1k?oc=5",
@@ -60,11 +50,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0de9816a3e492dee",
-          "title": "国連総会、アフリカの実際の面積を反映した世界地図への置き換えを決議",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qZUVBV01MOVBDbE5OVmN3eTVpSGtwMGMwQVN5WjNEUmtKb1lOYW1NclBtYThXYzBVaWFiU2VlSnU0RWEwMERFa3Y2Z05YWTctOVA2WjVsTU5VSFZsaXdj0gFkQVVfeXFMTjVJZXBMUjhxQ1FFTnBQYkJNRk9weFROc2RaYUFaV19ucVN0UkQyaVBsWUNTaEJmTUkwUHpRaXV6MTlIN3ZITFBIMWNiTWx1d2lyOF9CMERXZXZOZDlTeXQ0c2VSQg?oc=5",
-          "source": "BBC",
-          "published_at": "2026-09-05T01:36:23Z",
+          "id": "edc898222b9ce2df",
+          "title": "国連総会、アフリカの実際の面積を反映した世界地図への置き換えを決議（BBC News）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrYXlVVDEwM2VoTTdSTi1XZ2p0MkpGQUtOUHF5NHdnTEJMQWhjM2VOWWFYVDNUY3hxcm5NYkZTTm04OWJROTVhNUg1ZXN2NWQ5U3NfZnI2NklURTJPTVJrajVSUW9LV3BGX2MtX1BFbGNNY25yTVVEQ1ZzRk9YNzg?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-05T01:36:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -88,6 +78,16 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1f93f61ed2682545",
+          "title": "アフリカなどが小さく見える世界地図の使用見直しを 国連総会が実際の面積をより正確に表す地図の使用促す議案採択 アメリカは唯一反対（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SV1ZzcVVxSF96MngtRTZBZlVJY3BhcWsyc2s4SFdManNQd1Y0NWM1Rm1jUURfN2RXVHFmeURtdXF6S1pkVkJxQ3NlcHB0TWRtWVRpcVgzYXJjajVjeVdieGZsQnhNYmZuUUlneUI4Y1dNWnR1UWllUlpScUZaeVU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-04T22:26:36Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -99,7 +99,7 @@
           "title": "FOOMA JAPAN 2027 会期：2027年6月8日（火）～11日（金）の4日間 出展申込受付は、2026年9月1日（火）～10月15日（木）",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41TURZeUVaUUZUNmFNVXRzUE9Xc0xxU1ZEQ2FLWmt0LVVMMEJRR0lsbkpnZXJJeEJhWGJ4TGJfSVRIUlpxRmhYSGlseWN6SXJCMWl4SDQyX0p0OUE3aXJYbTlDWFBUTUo2WkE?oc=5",
           "source": "PR TIMES",
-          "published_at": "2026-08-28T06:00:02Z",
+          "published_at": "2026-08-28T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -170,16 +170,6 @@
       "label": "食品工場",
       "articles": [
         {
-          "id": "60ef901336748543",
-          "title": "特集・食品工場の設備保全・予兆保全2026：技術FOCUS2＝アンリツ",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vWkk3WWY3VlVaVWRtbFlFZTZNM0lERktta2xoVm82RHM2cE9TU0t5NHd3WXdNMzZEYmU1Wlhva0N1Z2gtOXpGb2ZwUTh6UDJwSVlzTG5EZ2FJakpyWFh6Q2FFVk9xZGpaRGUw?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-31T15:59:14Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "56b76612a9a8629b",
           "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
@@ -215,6 +205,16 @@
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "60ef901336748543",
+          "title": "特集・食品工場の設備保全・予兆保全2026：技術FOCUS2＝アンリツ",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vWkk3WWY3VlVaVWRtbFlFZTZNM0lERktta2xoVm82RHM2cE9TU0t5NHd3WXdNMzZEYmU1Wlhva0N1Z2gtOXpGb2ZwUTh6UDJwSVlzTG5EZ2FJakpyWFh6Q2FFVk9xZGpaRGUw?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-31T15:59:14Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -299,7 +299,7 @@
           "title": "りんくうプレミアム・アウトレット／9～10月に5店舗オープン、イッセイミヤケ・TASAKIなど登場",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ldHU5NjlOYW5USlo3NzVOY3ZaYXZMVjM0TWlWa3dwTDV0MU1aa2x5c1p4OVFwQUhYOGF0N25KLXp1eUhpeURUbHJWaGtmS3R0MjhxXw?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-08-28T04:31:00Z",
+          "published_at": "2026-08-28T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-05T15:20:27Z",
-  "last_success_at": "2026-09-05T15:20:27Z",
+  "last_attempt_at": "2026-09-05T20:28:43Z",
+  "last_success_at": "2026-09-05T20:28:43Z",
   "consecutive_failure_count": 0
 }
