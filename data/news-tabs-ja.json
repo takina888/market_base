@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-05T20:28:43Z",
+  "generated_at": "2026-09-06T04:49:14Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -30,10 +30,40 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "f849baf9c9802f86",
+          "title": "国民民主党福岡県連・大田京子氏が代表辞任へ…海外視察で「タイタニック」ポーズ披露「反省している」（読売新聞オンライン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yMW11ZzZ0WVYxZmtQQWlnSWpzYUYyNmx1TEl5Wk9FMHREZERuTjVtS2RWbkszRmdFZTNWcWtXaFFkWlpSYzhzcmJlYUlKRmxnQkEtZnF2XzlJb0RscnZ6UEcwYUc5dkctMERYeHBiaDdqUG85cEtsWnlxZ2loX1U?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-06T04:02:44Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "13330690469a70ca",
+          "title": "世界地図「メルカトル図法」ではなく「イコールアース図法」使用促す国連決議、日本も賛成…各国面積がより正確",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZMTE1Y3UwYVVud2ZVVG1Tekx6b1NpZExpZmhMRlZMYl8zVTJCd1dneXNZUzZGVFE1WWJKeFNUckdtTHJNV3YxTjdSNjJFQW9YU2hwUzhKdVhUd2todnNITldabVRHbHFqaDZVZk5yT2NOSVI2dHpuVzJYbGMxNGs?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-05T23:48:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "47b4554b2a838004",
+          "title": "《福岡県議会》蔵内元議長らの海外での“タイタニックごっこ”写真が拡散…「ふざけてるのか」と信頼失墜に追い討ち",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaRTFhZ3A3YmRaa0d6elBvWVJWT2dsSWVBb1lrME5xellUQy1hZHFWdFM5Rzd2VkpvRFd0RmZUWUFwX09uT28ta1YxaE1LZHVvTE04VklIaUVEeTRUVERPdjltamdOcXVqZXJiQ1Y3MTlXd3ZhWTVYSEgwOEVxbEk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-05T23:00:34Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "ddcc428ba4060a6c",
           "title": "神椿所属Vシンガー・ヰ世界情緒 自身初のオフィシャルファンクラブ 「1209Carat.」開設決定｜NEWS",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1FRzF5MXJ4OE9xRUJNelIxWkt6NVQ5ZERGVy1QQ2JzZW1ZQWhIa0Vwdlc0WE1qSkVhUFFwZ0FnTnJiM0U4dktJUjRzQ204LWJvY0dwM1owTWs?oc=5",
-          "source": "KAMITSUBAKI STUDIO",
+          "source": "kamitsubaki.jp",
           "published_at": "2026-09-05T11:31:35Z",
           "language": "ja",
           "category": "overseas",
@@ -50,41 +80,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "edc898222b9ce2df",
-          "title": "国連総会、アフリカの実際の面積を反映した世界地図への置き換えを決議（BBC News）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrYXlVVDEwM2VoTTdSTi1XZ2p0MkpGQUtOUHF5NHdnTEJMQWhjM2VOWWFYVDNUY3hxcm5NYkZTTm04OWJROTVhNUg1ZXN2NWQ5U3NfZnI2NklURTJPTVJrajVSUW9LV3BGX2MtX1BFbGNNY25yTVVEQ1ZzRk9YNzg?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-05T01:36:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "df80183528b0d550",
-          "title": "メルカトル図法でない「正しい世界地図を使って」 国連総会決議（毎日新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCZmprUmM4RngyVlBCYlRIS1Z4Nm56V2xzQVVZUS1jZ0o0ZllrbXpveGMyNWVjd25ETGQwLXRHV0c4U1RBejRBajZta3dnZ1I3Q0xDMER4Sm9wRzFtd20xTVVOaVV3UjJPZDV6NXJzWk8yeUtHZnJ1aF92WUpqclE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-04T23:03:18Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4dfaf38d70be90d3",
-          "title": "「メルカトル図法の世界地図やめて」 国連決議が採択、日本も賛成（朝日新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pbmpOQk1BaXUtbmFwMFlsaFMtOXB0T0xDWl9MenVDRmIxdWpwX1loVWlMeXExOWJRVVJCcmIwLTJsQm9XOTRrbElzaG9YTEdzc3ZVcXJCWWN6Ynh6WHdDYnlacW5Cb2Zzc3dZM3NEVFBPZW1yYW5ZSjdIY0gzSEE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-04T22:48:03Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1f93f61ed2682545",
-          "title": "アフリカなどが小さく見える世界地図の使用見直しを 国連総会が実際の面積をより正確に表す地図の使用促す議案採択 アメリカは唯一反対（TBS NEWS DIG Powered by JNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SV1ZzcVVxSF96MngtRTZBZlVJY3BhcWsyc2s4SFdManNQd1Y0NWM1Rm1jUURfN2RXVHFmeURtdXF6S1pkVkJxQ3NlcHB0TWRtWVRpcVgzYXJjajVjeVdieGZsQnhNYmZuUUlneUI4Y1dNWnR1UWllUlpScUZaeVU?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-04T22:26:36Z",
+          "id": "91483c7f553fcdff",
+          "title": "「国際スローロリスの日」に関するイベントを開催します",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kSHJyUzA5RnNwQVNxNzJnRzJpRHRrNU1NcTFreGx5YUNjakNTN09ERmZLQm82X0lTdndfT2RTdDJGZmVuUEp4eVF0MTFDZS1VWGh5QkpJemNEQm9DZy1MemNR?oc=5",
+          "source": "tokyo-zoo.net",
+          "published_at": "2026-09-05T01:55:25Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -155,11 +155,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ae6d194d8bd574c2",
-          "title": "冷媒充填機世界市場の深層分析2026-2032：市場規模・成長率・競合戦略・地域別展望",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rZFdwbmF3ZUd1V0tMenFTVl9wMHhjeFFqUkN6eHc4b3IwNGw2XzI3emZoVEVOanJMOFE2T0Y2REdGbFlmTUxDZ2pES1ZuamtnZExv?oc=5",
-          "source": "ドリームニュース",
-          "published_at": "2026-09-01T03:00:00Z",
+          "id": "acc176fde3f8a4e1",
+          "title": "【FOOMA JAPAN 2026出展】未利用資源を微生物のチカラでアップサイクル",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEZlJmVF81NUFnYXFpY0ZUOGZHVlRpWFBpRHJNUy1HU2xZQ21FV0JyOUVqZFJFMVVXS19pRTN4azVwUk9jcm51c1NpV3lIQXpCcHpUUl9WckJiODZP?oc=5",
+          "source": "山陽新聞",
+          "published_at": "2026-09-04T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -203,8 +203,18 @@
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "MONOist",
+          "source": "monoist.itmedia.co.jp",
           "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "76e532917eeb7ec7",
+          "title": "Steam食品工場自動化シム『Snacktorio』に好評集まる。食材収穫から調理まで工程ぜんぶ自動化、“腹ぺこビースト”の料理をエンドレス大量生産",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkZGxrYkkybkZwbGxZUHdiSEp2eTlXMnlnRU5sX0FNXzM1cm1NVEtfaE9MZkZ0bGxwcVlBcGE1VTh6aDhhdG9QSmhzd0pGcmVpSi1hTmMzVWNnZ3VoVkVEUlBHYlJlU0J0aFRSREVXdE9fS3g5aVZYSi1NUQ?oc=5",
+          "source": "automaton-media.com",
+          "published_at": "2026-06-11T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -225,16 +235,6 @@
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-08-12T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6d865337a2a677d3",
-          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
-          "source": "prtimes.jp",
-          "published_at": "2026-08-14T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -285,16 +285,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "65177bac6b476850",
-          "title": "ダイレックス／福岡県・鹿児島県に計3店舗、27年3月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWF9tbnpwbkJSdVplYnc1STBYMUlnZDZwRmJtRk8wX25mbV9XbjFIY3lrdWlSZlp6Z0wzcVVwM1pWcWQxT2o5Q3ZSNUxOYVZmbk5yaVdB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "e3790a2a21c30472",
           "title": "りんくうプレミアム・アウトレット／9～10月に5店舗オープン、イッセイミヤケ・TASAKIなど登場",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ldHU5NjlOYW5USlo3NzVOY3ZaYXZMVjM0TWlWa3dwTDV0MU1aa2x5c1p4OVFwQUhYOGF0N25KLXp1eUhpeURUbHJWaGtmS3R0MjhxXw?oc=5",
@@ -310,6 +300,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HbXlSZU9ic3ktSndsd3J0ZWQ3djUyNTZwM0RZZk9wS0hlbTNrR0laVDNMY0E1WVEyck9UVDczTTUzeFhEZkx3N2UtUlpBVGhaVGZ5Ug?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-27T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "fb681f05a1202ffb",
+          "title": "ヤマダデンキ／愛知県豊田市に「（仮称）テックライフセレクト豊田広路店（店舗面積8752m2）」27年3月4日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oVzBrd0w3SnNsR3lQVmdJUkh6LTZIblN6RUxBNWRDVmdnWWw0bDZqVFN2QW1mVG9HZy04d3NDOFV4SWNCVXlrMjZ4VVdLakVXaS1HWGxR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-27T01:32:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -343,7 +343,7 @@
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
+          "source": "alic.go.jp",
           "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-05T20:28:43Z",
-  "last_success_at": "2026-09-05T20:28:43Z",
+  "last_attempt_at": "2026-09-06T04:49:14Z",
+  "last_success_at": "2026-09-06T04:49:14Z",
   "consecutive_failure_count": 0
 }
