@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-06T04:49:14Z",
+  "generated_at": "2026-09-06T11:06:03Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -20,11 +20,21 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "8a572ee88d42f5f6",
-          "title": "「戦時のホワイトハウス トランプ政権中枢の内幕」前編 | 世界のドキュメンタリー",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rQ3dsMTB3eFZVa0pNOG5Qb3p5TkdzaEJxa1FnbkZvOFhnNkVsZG45Yy1WSkFqd0ZIMG1LZ095cmdCZkxTN1BZbUVYeUE4NXItelFMa1lRU1BJbVBMaWlKc2kxU3d3a09sbmhjZmFOUWM1N1ZPcFA3eA?oc=5",
-          "source": "web.nhk",
-          "published_at": "2026-09-01T14:25:00Z",
+          "id": "9003bc95463fa2ad",
+          "title": "玉木宏、ブラジリアン柔術世界大会で3位 岡田准一も祝福「悔しいと連絡きたけど、凄いよ。」（オリコン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vRWJXUzZHYXpnanFCNDY2amhienRyMGYtYVZJXzh5MnZ6RTlJNTdhTWJ0cFNpejBXX1ppOUt5S1AxTUtTWUtScXZJYlh6cVVYeWY2TkVra3Q4V2tSMEhGSS1VaS1WTktub2RvekI1Unh1TmxQS2VvZW1ZeXF5SE0?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-06T05:21:51Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "beb989098157e446",
+          "title": "国連総会、世界地図に「イコールアース図法」使用促す決議 アフリカの実際の大きさ反映",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5pSm5URktvQlo2ZXV4Q2hhMWlOYVJMdjBUbTZvYVhqaGJKVEFDbTUxbDRVaXB4b09OVXl4enpKeDFSUjAtdXo5OVM1STZveHZ3Y1ZR?oc=5",
+          "source": "CNN.co.jp",
+          "published_at": "2026-09-06T02:35:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -34,7 +44,7 @@
           "title": "国民民主党福岡県連・大田京子氏が代表辞任へ…海外視察で「タイタニック」ポーズ披露「反省している」（読売新聞オンライン）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yMW11ZzZ0WVYxZmtQQWlnSWpzYUYyNmx1TEl5Wk9FMHREZERuTjVtS2RWbkszRmdFZTNWcWtXaFFkWlpSYzhzcmJlYUlKRmxnQkEtZnF2XzlJb0RscnZ6UEcwYUc5dkctMERYeHBiaDdqUG85cEtsWnlxZ2loX1U?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-09-06T04:02:44Z",
+          "published_at": "2026-09-06T00:52:12Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -50,20 +60,10 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47b4554b2a838004",
-          "title": "《福岡県議会》蔵内元議長らの海外での“タイタニックごっこ”写真が拡散…「ふざけてるのか」と信頼失墜に追い討ち",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaRTFhZ3A3YmRaa0d6elBvWVJWT2dsSWVBb1lrME5xellUQy1hZHFWdFM5Rzd2VkpvRFd0RmZUWUFwX09uT28ta1YxaE1LZHVvTE04VklIaUVEeTRUVERPdjltamdOcXVqZXJiQ1Y3MTlXd3ZhWTVYSEgwOEVxbEk?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-05T23:00:34Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "ddcc428ba4060a6c",
           "title": "神椿所属Vシンガー・ヰ世界情緒 自身初のオフィシャルファンクラブ 「1209Carat.」開設決定｜NEWS",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1FRzF5MXJ4OE9xRUJNelIxWkt6NVQ5ZERGVy1QQ2JzZW1ZQWhIa0Vwdlc0WE1qSkVhUFFwZ0FnTnJiM0U4dktJUjRzQ204LWJvY0dwM1owTWs?oc=5",
-          "source": "kamitsubaki.jp",
+          "source": "KAMITSUBAKI STUDIO",
           "published_at": "2026-09-05T11:31:35Z",
           "language": "ja",
           "category": "overseas",
@@ -145,21 +145,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9d8c680faa3b6e31",
-          "title": "FOOMA JAPAN2026：農水省、「人を育てる自動化」テーマにセミナー",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ob0ZOekwxNUt5eUJ1X1h5VDA4U3VrZm5ydGM3UXJ3aHpIQXlkd0Fzbm51LWwxS3lPTEFVcDNKazJOY0dYamFfOERPODFQUS0zTzMtdzVSRGd1UDItMlhoOG1uYW9ZQQ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-06-14T15:03:37Z",
+          "id": "4180d1106bcbc393",
+          "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LbUlhc2Q0X3c1QTdaYjVtTEdPNTUzYmhPdktDeXJmRFpSM3k4b3lHLXFPbV9UVC1BRDJIRkFJS1NWM1JybWxPYkl1SDZNeFQwZDdxeTAwc0tWRTRZTE03eFhCZ3Z2TVpuaXc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-15T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "acc176fde3f8a4e1",
-          "title": "【FOOMA JAPAN 2026出展】未利用資源を微生物のチカラでアップサイクル",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEZlJmVF81NUFnYXFpY0ZUOGZHVlRpWFBpRHJNUy1HU2xZQ21FV0JyOUVqZFJFMVVXS19pRTN4azVwUk9jcm51c1NpV3lIQXpCcHpUUl9WckJiODZP?oc=5",
-          "source": "山陽新聞",
-          "published_at": "2026-09-04T07:00:00Z",
+          "id": "9d8c680faa3b6e31",
+          "title": "FOOMA JAPAN2026：農水省、「人を育てる自動化」テーマにセミナー",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ob0ZOekwxNUt5eUJ1X1h5VDA4U3VrZm5ydGM3UXJ3aHpIQXlkd0Fzbm51LWwxS3lPTEFVcDNKazJOY0dYamFfOERPODFQUS0zTzMtdzVSRGd1UDItMlhoOG1uYW9ZQQ?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-06-14T15:03:37Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -169,6 +169,16 @@
     "food_factory": {
       "label": "食品工場",
       "articles": [
+        {
+          "id": "e1d5ccdf871d84a2",
+          "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-31T16:04:47Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "56b76612a9a8629b",
           "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
@@ -193,7 +203,7 @@
           "id": "4a4031dcf4ae9bd6",
           "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
-          "source": "LOGISTICS TODAY",
+          "source": "logi-today.com",
           "published_at": "2026-08-20T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -203,7 +213,7 @@
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "monoist.itmedia.co.jp",
+          "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -213,7 +223,7 @@
           "id": "76e532917eeb7ec7",
           "title": "Steam食品工場自動化シム『Snacktorio』に好評集まる。食材収穫から調理まで工程ぜんぶ自動化、“腹ぺこビースト”の料理をエンドレス大量生産",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkZGxrYkkybkZwbGxZUHdiSEp2eTlXMnlnRU5sX0FNXzM1cm1NVEtfaE9MZkZ0bGxwcVlBcGE1VTh6aDhhdG9QSmhzd0pGcmVpSi1hTmMzVWNnZ3VoVkVEUlBHYlJlU0J0aFRSREVXdE9fS3g5aVZYSi1NUQ?oc=5",
-          "source": "automaton-media.com",
+          "source": "AUTOMATON",
           "published_at": "2026-06-11T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -228,22 +238,22 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5a015c34f98856db",
-          "title": "いかに名店の味を再現？ 三井不動産が手掛けるプレミアム冷食の製造拠点公開：工場ニュース（2/2 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iQS1PbkJwSkZNcFAwUzFnakFnTmo3YklUdnAtMlVyYS15T2E0VmhQTUhkRzN5elJHcjRPSTZXMm1nTkcwaW0weFhiTTk3TzFNbTZzNzk0M0ZLX0JBWEVfUkZ2cTNMbVRqQnp3LXppQVpTQQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-08-12T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "e8fcd9681f993593",
+          "title": "バロー／「スーパーマーケットバロー豊中島江店」9月11日オープン、コーナンに出店",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhMWV4SlJyVDlGUnNTWW9KamM5dVVPbXMzRkVpQzRzaWhKY3hCeGR2TW5Lc3lZUjVESlRnTkxmOGt2NTlJaHRyMVN1dmtfSE12X0FEUw?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-04T05:50:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "0f795321d13e6019",
           "title": "ロフト／京都府内3店舗目「イオンモールKYOTOロフト」11月27日オープン",
@@ -303,16 +313,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fb681f05a1202ffb",
-          "title": "ヤマダデンキ／愛知県豊田市に「（仮称）テックライフセレクト豊田広路店（店舗面積8752m2）」27年3月4日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oVzBrd0w3SnNsR3lQVmdJUkh6LTZIblN6RUxBNWRDVmdnWWw0bDZqVFN2QW1mVG9HZy04d3NDOFV4SWNCVXlrMjZ4VVdLakVXaS1HWGxR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-27T01:32:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -343,7 +343,7 @@
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "alic.go.jp",
+          "source": "独立行政法人 農畜産業振興機構",
           "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-06T04:49:14Z",
-  "last_success_at": "2026-09-06T04:49:14Z",
+  "last_attempt_at": "2026-09-06T11:06:03Z",
+  "last_success_at": "2026-09-06T11:06:03Z",
   "consecutive_failure_count": 0
 }
