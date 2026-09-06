@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-06T15:33:08Z",
+  "generated_at": "2026-09-06T20:30:34Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -20,10 +20,20 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "fca35924e318e9e8",
+          "title": "100年前に描かれた「幸福によって支配される世界」が現実に？──堤未果さんと読む、ハクスリー『すばらしい新世界』【NHK100分de名著】",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WTzQxNWt3YWN3dzYzVTZKcy11U0k5M0VydDBYcVJDUVNtWE84c3BZc0VYWnNNQmNxaERwUURuTWdid1VCZ3I0WDNqVFg5Z0VDZkE?oc=5",
+          "source": "mag.nhk-book.co.jp",
+          "published_at": "2026-09-03T11:02:15Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "4ed84ecdedfa0b76",
           "title": "アラル海からの警鐘 世界4位の湖が消える日",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hNWdsS3oyX1B6VGRvMV9WcFBqS29TQk0tOXdmcHBELWtNQmhNM1U0M2d1blB5aUdZM1Vxem0wQkxKWWRmanEtbWYxTGdtMEVURTZ5ZzN0RnJNVkpISkZ3QllvZw?oc=5",
-          "source": "ナショナルジオグラフィック日本版",
+          "source": "natgeo.nikkeibp.co.jp",
           "published_at": "2026-09-06T11:00:00Z",
           "language": "ja",
           "category": "overseas",
@@ -75,16 +85,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZMTE1Y3UwYVVud2ZVVG1Tekx6b1NpZExpZmhMRlZMYl8zVTJCd1dneXNZUzZGVFE1WWJKeFNUckdtTHJNV3YxTjdSNjJFQW9YU2hwUzhKdVhUd2todnNITldabVRHbHFqaDZVZk5yT2NOSVI2dHpuVzJYbGMxNGs?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-05T23:48:30Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ddcc428ba4060a6c",
-          "title": "神椿所属Vシンガー・ヰ世界情緒 自身初のオフィシャルファンクラブ 「1209Carat.」開設決定｜NEWS",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1FRzF5MXJ4OE9xRUJNelIxWkt6NVQ5ZERGVy1QQ2JzZW1ZQWhIa0Vwdlc0WE1qSkVhUFFwZ0FnTnJiM0U4dktJUjRzQ204LWJvY0dwM1owTWs?oc=5",
-          "source": "KAMITSUBAKI STUDIO",
-          "published_at": "2026-09-05T11:31:35Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -155,11 +155,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9d8c680faa3b6e31",
-          "title": "FOOMA JAPAN2026：農水省、「人を育てる自動化」テーマにセミナー",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ob0ZOekwxNUt5eUJ1X1h5VDA4U3VrZm5ydGM3UXJ3aHpIQXlkd0Fzbm51LWwxS3lPTEFVcDNKazJOY0dYamFfOERPODFQUS0zTzMtdzVSRGd1UDItMlhoOG1uYW9ZQQ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-06-14T15:03:37Z",
+          "id": "acc176fde3f8a4e1",
+          "title": "【FOOMA JAPAN 2026出展】未利用資源を微生物のチカラでアップサイクル",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEZlJmVF81NUFnYXFpY0ZUOGZHVlRpWFBpRHJNUy1HU2xZQ21FV0JyOUVqZFJFMVVXS19pRTN4azVwUk9jcm51c1NpV3lIQXpCcHpUUl9WckJiODZP?oc=5",
+          "source": "山陽新聞",
+          "published_at": "2026-09-04T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -170,21 +170,21 @@
       "label": "食品工場",
       "articles": [
         {
-          "id": "e1d5ccdf871d84a2",
-          "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-31T16:04:47Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "56b76612a9a8629b",
           "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-25T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e1d5ccdf871d84a2",
+          "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
+          "source": "news.nissyoku.co.jp",
+          "published_at": "2026-08-31T16:04:47Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -275,6 +275,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "a560c63a907c65de",
+          "title": "モスバーガー／埼玉県に「八潮店」9月3日オープン、郊外立地の次世代型店舗",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Dd3FyMFpzcThOMTdySFpXLVdjOGpPeHd3bV9IbGRYQ0VfaGh0Zjd1a29zSjd6WkdTaTFHeFJ1VVBESjA3UXQ4NTIxQmc2QnN4dUV2Tg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-01T05:19:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "65177bac6b476850",
           "title": "ダイレックス／福岡県・鹿児島県に計3店舗、27年3月新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWF9tbnpwbkJSdVplYnc1STBYMUlnZDZwRmJtRk8wX25mbV9XbjFIY3lrdWlSZlp6Z0wzcVVwM1pWcWQxT2o5Q3ZSNUxOYVZmbk5yaVdB?oc=5",
@@ -290,16 +300,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ldHU5NjlOYW5USlo3NzVOY3ZaYXZMVjM0TWlWa3dwTDV0MU1aa2x5c1p4OVFwQUhYOGF0N25KLXp1eUhpeURUbHJWaGtmS3R0MjhxXw?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "32e3ee41ab87f8bd",
-          "title": "コメダ／「和喫茶 おかげ庵」兵庫県西宮市に27年新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HbXlSZU9ic3ktSndsd3J0ZWQ3djUyNTZwM0RZZk9wS0hlbTNrR0laVDNMY0E1WVEyck9UVDczTTUzeFhEZkx3N2UtUlpBVGhaVGZ5Ug?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-27T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-06T15:33:08Z",
-  "last_success_at": "2026-09-06T15:33:08Z",
+  "last_attempt_at": "2026-09-06T20:30:34Z",
+  "last_success_at": "2026-09-06T20:30:34Z",
   "consecutive_failure_count": 0
 }
