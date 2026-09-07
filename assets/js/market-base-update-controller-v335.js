@@ -3,8 +3,8 @@
 
   if (global.MarketBaseUpdate) return;
 
-  const BUILD_ID = 'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907';
-  const ASSET_VERSION = '20260907-v333-19-jfm-v077-currency-hf2';
+  const BUILD_ID = 'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF3_20260907';
+  const ASSET_VERSION = '20260907-v333-19-jfm-v077-currency-hf3';
   const LEGACY_PAGE_BUILD = 'MARKET_BASE_LEGACY_PAGE';
   const CHANNEL_NAME = 'market-base-update-v1';
   const SIGNAL_KEY = 'market_base_global_refresh_signal';
