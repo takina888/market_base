@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-06T20:30:34Z",
+  "generated_at": "2026-09-07T04:54:40Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -11,8 +11,7 @@
     "overseas"
   ],
   "retained_categories": [
-    "regulations",
-    "food_factory"
+    "regulations"
   ],
   "failed_categories": {},
   "categories": {
@@ -23,8 +22,48 @@
           "id": "fca35924e318e9e8",
           "title": "100年前に描かれた「幸福によって支配される世界」が現実に？──堤未果さんと読む、ハクスリー『すばらしい新世界』【NHK100分de名著】",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WTzQxNWt3YWN3dzYzVTZKcy11U0k5M0VydDBYcVJDUVNtWE84c3BZc0VYWnNNQmNxaERwUURuTWdid1VCZ3I0WDNqVFg5Z0VDZkE?oc=5",
-          "source": "mag.nhk-book.co.jp",
+          "source": "NHK出版デジタルマガジン",
           "published_at": "2026-09-03T11:02:15Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d58466e0b71aa083",
+          "title": "「タイ語は話せず通訳もしない」のに…元県議が公費で海外視察に2回同行 議長がコーディネーターを委嘱 知事は第三者委員会で調査へ 福岡県議会（TNCテレビ西日本）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uUE5xSi1sVUhXOUt1dHgzNzVybGdjT0hGbmNQal96dTJsdmlJMTZ1WWFuSm1FaVY2cWNSNGc2dzItTDFOWng0dm1pblluODZlWEJJb1pZVkkyWmtpR1JYaGFNelp0ajhuVzRKc3F3bkdqbUVuNzFIN3dhb3I5UkE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-07T02:51:01Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "570dca66d4a5ebd5",
+          "title": "第9回なら国際映画祭 ベルリン国際映画祭とSSFF & ASIAからの優秀作を10代が審査する「ユース審査員」ラインナップ発表！",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KQ3VqM2E5TVZTY1phXzItVGlfV3lpMm1VUmJzZDZYeGx0d1lqQ2sxNHNocFlVT05qUDVCTTNkbHdUZzRXdFpNRnBXcVFWOFdCSWZGNHp3?oc=5",
+          "source": "ショートショート フィルム",
+          "published_at": "2026-09-07T01:04:47Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "983ffbc6f393c943",
+          "title": "海外では｢日本人の貧困＝政府の失策｣は常識だが…｢自己責任｣という言葉を広めて責任逃れした\"するい首相\"",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05SFo2X1A1VFFHWmRxbXZ6VWZkT1lEcmt4X1FhZ3J6NUdxVXBJemEzTWtlNDZEOWhBSUg1QkpKcEUteHBiRW5qcncyWWF1RTNZUlFYWDR6QlJGT1AxV0I2Y2hOZ2w1cjFMUzU4TTR0R19MYktpN1UzMU1BSjNBS0U?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-06T22:15:37Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7ea5c91007fe2da0",
+          "title": "【令和8年10月】国際物流特区制度、産業イノベーション特区制度税制活用オンラインセミナーの開催について",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBka3l6Z1RWeDRDVXhiUllETEdwRnJjLUpic1JMQTZ2QlZqZlAyLXZBQ3BKYUJBUjdGOER2VDcxTnBvb3psRW9KWDNKSzZ4QjNPbmtHVWdYUmtMbW1vVjZFWQ?oc=5",
+          "source": "city.itoman.lg.jp",
+          "published_at": "2026-09-06T17:33:38Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -45,46 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nQUFEMHl6TWNZWUpqUmpYdzVoVG9aVFVLa3UxLW9iSkN5S3FBTXBIUGt3TnBuSWZxR3FDZzBrdlNfcFJVeVY3TzhUVl9NREdaYmpsSURHdG5CRl9kZm9ZSWdXdjVVUTNCNXZBSHpJaEk2Rm5qN3FKMXJVVEJEcFk?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-06T09:12:17Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9003bc95463fa2ad",
-          "title": "玉木宏、ブラジリアン柔術世界大会で3位 岡田准一も祝福「悔しいと連絡きたけど、凄いよ。」（オリコン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vRWJXUzZHYXpnanFCNDY2amhienRyMGYtYVZJXzh5MnZ6RTlJNTdhTWJ0cFNpejBXX1ppOUt5S1AxTUtTWUtScXZJYlh6cVVYeWY2TkVra3Q4V2tSMEhGSS1VaS1WTktub2RvekI1Unh1TmxQS2VvZW1ZeXF5SE0?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-06T05:21:51Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "beb989098157e446",
-          "title": "国連総会、世界地図に「イコールアース図法」使用促す決議 アフリカの実際の大きさ反映",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5pSm5URktvQlo2ZXV4Q2hhMWlOYVJMdjBUbTZvYVhqaGJKVEFDbTUxbDRVaXB4b09OVXl4enpKeDFSUjAtdXo5OVM1STZveHZ3Y1ZR?oc=5",
-          "source": "CNN.co.jp",
-          "published_at": "2026-09-06T02:35:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f849baf9c9802f86",
-          "title": "国民民主党福岡県連・大田京子氏が代表辞任へ…海外視察で「タイタニック」ポーズ披露「反省している」（読売新聞オンライン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yMW11ZzZ0WVYxZmtQQWlnSWpzYUYyNmx1TEl5Wk9FMHREZERuTjVtS2RWbkszRmdFZTNWcWtXaFFkWlpSYzhzcmJlYUlKRmxnQkEtZnF2XzlJb0RscnZ6UEcwYUc5dkctMERYeHBiaDdqUG85cEtsWnlxZ2loX1U?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-06T00:52:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "13330690469a70ca",
-          "title": "世界地図「メルカトル図法」ではなく「イコールアース図法」使用促す国連決議、日本も賛成…各国面積がより正確",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZMTE1Y3UwYVVud2ZVVG1Tekx6b1NpZExpZmhMRlZMYl8zVTJCd1dneXNZUzZGVFE1WWJKeFNUckdtTHJNV3YxTjdSNjJFQW9YU2hwUzhKdVhUd2todnNITldabVRHbHFqaDZVZk5yT2NOSVI2dHpuVzJYbGMxNGs?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-05T23:48:30Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -180,6 +179,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "0bd432bb3f15f9cb",
+          "title": "GoldenHarvest、横浜市「TECH-PoC」に採択 市内食品工場の残渣をアメリカミズアブで飼料用タンパクへ変換する実証を開始",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Qd21ZUVp2Y1E0dU9vQmpyYWxtUGtnLWhna1JLS0dpOVk0bEs5cS14M05kbEZyOU1nTjJ0Nk1HcXphUnNnQldXRVAwMldZYTJFOGtYODE3NDItajU5Z01lYWROQ3JSemF5Wm5N?oc=5",
+          "source": "jiji.com",
+          "published_at": "2026-09-07T02:45:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "e1d5ccdf871d84a2",
           "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
@@ -228,22 +237,22 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "60ef901336748543",
-          "title": "特集・食品工場の設備保全・予兆保全2026：技術FOCUS2＝アンリツ",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vWkk3WWY3VlVaVWRtbFlFZTZNM0lERktta2xoVm82RHM2cE9TU0t5NHd3WXdNMzZEYmU1Wlhva0N1Z2gtOXpGb2ZwUTh6UDJwSVlzTG5EZ2FJakpyWFh6Q2FFVk9xZGpaRGUw?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-31T15:59:14Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "5afabeeb87640dfe",
+          "title": "猿田彦珈琲／皇居東御苑内に新店舗11月3日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aVUpvd0xZa0J6MzhVX1RBRVNuY3hBZ1Z6Tk1ndDAzaWZUbzZBU25keHlqR1pXVHo2bFRmUUd2WEk4OXJfMi1hcjNDZVRWbkhUM3ZXTg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-07T01:05:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "e8fcd9681f993593",
           "title": "バロー／「スーパーマーケットバロー豊中島江店」9月11日オープン、コーナンに出店",
@@ -275,19 +284,19 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a560c63a907c65de",
-          "title": "モスバーガー／埼玉県に「八潮店」9月3日オープン、郊外立地の次世代型店舗",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Dd3FyMFpzcThOMTdySFpXLVdjOGpPeHd3bV9IbGRYQ0VfaGh0Zjd1a29zSjd6WkdTaTFHeFJ1VVBESjA3UXQ4NTIxQmc2QnN4dUV2Tg?oc=5",
+          "id": "65177bac6b476850",
+          "title": "ダイレックス／福岡県・鹿児島県に計3店舗、27年3月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWF9tbnpwbkJSdVplYnc1STBYMUlnZDZwRmJtRk8wX25mbV9XbjFIY3lrdWlSZlp6Z0wzcVVwM1pWcWQxT2o5Q3ZSNUxOYVZmbk5yaVdB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-09-01T05:19:00Z",
+          "published_at": "2026-08-28T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "65177bac6b476850",
-          "title": "ダイレックス／福岡県・鹿児島県に計3店舗、27年3月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWF9tbnpwbkJSdVplYnc1STBYMUlnZDZwRmJtRk8wX25mbV9XbjFIY3lrdWlSZlp6Z0wzcVVwM1pWcWQxT2o5Q3ZSNUxOYVZmbk5yaVdB?oc=5",
+          "id": "e88d412383f38f69",
+          "title": "ヨークベニマル／福島県郡山市に「（仮称）ヨークタウン富久山（店舗面積3480m2）」27年3月17日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FbW9PVEIxZk5kQXNGdEw2Q08xNVFBa0xmQTVEQWEzcm9DYjFqenFNTmgzeGZ5Q3FRNEJ5X19ZeXNkV3dlemhzc2lkd0JsYzcwREZvTEN3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-28T07:00:00Z",
           "language": "ja",
@@ -300,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ldHU5NjlOYW5USlo3NzVOY3ZaYXZMVjM0TWlWa3dwTDV0MU1aa2x5c1p4OVFwQUhYOGF0N25KLXp1eUhpeURUbHJWaGtmS3R0MjhxXw?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fb681f05a1202ffb",
-          "title": "ヤマダデンキ／愛知県豊田市に「（仮称）テックライフセレクト豊田広路店（店舗面積8752m2）」27年3月4日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oVzBrd0w3SnNsR3lQVmdJUkh6LTZIblN6RUxBNWRDVmdnWWw0bDZqVFN2QW1mVG9HZy04d3NDOFV4SWNCVXlrMjZ4VVdLakVXaS1HWGxR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-27T01:32:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -392,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-06T20:30:34Z",
-  "last_success_at": "2026-09-06T20:30:34Z",
+  "last_attempt_at": "2026-09-07T04:54:40Z",
+  "last_success_at": "2026-09-07T04:54:40Z",
   "consecutive_failure_count": 0
 }
