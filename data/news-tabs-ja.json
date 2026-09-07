@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-07T04:54:40Z",
+  "generated_at": "2026-09-07T12:45:48Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,16 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "b0f006b6fbdb1cc8",
+          "title": "三洋貿易[3176]：自己株式の取得状況に関するお知らせ 2026年9月7日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZTNDRkhva2RYcUF2VDU2eUdIQ1NmY256b3FDUHBiMnlEaGp3T3F4Nm1ZR2dYMGVuN1VvZ2pGdmtkZnhldkt5aUlBSkMtYkJMOU5zbC04allsY1JqX20wVGRDaFBZS0FtSFFNRUJJVzVWdUFpZmxTbC0taUhfMTFXVWU3V0VsM09pZV91TGcwZFZhSWVVbldMa1ViNWlidkJEMEdFRmNUOS1EX3BKOEhhZXQwandJWlVRU1Jzd3psTDBRd3lxaFVnSVJQbk4?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-09-07T05:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "fca35924e318e9e8",
           "title": "100年前に描かれた「幸福によって支配される世界」が現実に？──堤未果さんと読む、ハクスリー『すばらしい新世界』【NHK100分de名著】",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WTzQxNWt3YWN3dzYzVTZKcy11U0k5M0VydDBYcVJDUVNtWE84c3BZc0VYWnNNQmNxaERwUURuTWdid1VCZ3I0WDNqVFg5Z0VDZkE?oc=5",
@@ -29,61 +39,51 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d58466e0b71aa083",
-          "title": "「タイ語は話せず通訳もしない」のに…元県議が公費で海外視察に2回同行 議長がコーディネーターを委嘱 知事は第三者委員会で調査へ 福岡県議会（TNCテレビ西日本）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uUE5xSi1sVUhXOUt1dHgzNzVybGdjT0hGbmNQal96dTJsdmlJMTZ1WWFuSm1FaVY2cWNSNGc2dzItTDFOWng0dm1pblluODZlWEJJb1pZVkkyWmtpR1JYaGFNelp0ajhuVzRKc3F3bkdqbUVuNzFIN3dhb3I5UkE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-07T02:51:01Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-07T09:50:01Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "570dca66d4a5ebd5",
-          "title": "第9回なら国際映画祭 ベルリン国際映画祭とSSFF & ASIAからの優秀作を10代が審査する「ユース審査員」ラインナップ発表！",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KQ3VqM2E5TVZTY1phXzItVGlfV3lpMm1VUmJzZDZYeGx0d1lqQ2sxNHNocFlVT05qUDVCTTNkbHdUZzRXdFpNRnBXcVFWOFdCSWZGNHp3?oc=5",
-          "source": "ショートショート フィルム",
-          "published_at": "2026-09-07T01:04:47Z",
+          "id": "19ca6816aa8a001f",
+          "title": "世界銀行グループ セミナー「ユニバーサルヘルスカバレッジ（UHC）達成に向けた持続的なファイナンスの支援」",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbDF1RENYaVBPOGQzUWJ6WlcwQVl1VHo2dHhSTFZDaHQ2ODlXNk1iZXIzV0FVaWlpN1FIbjRkclQyYXcycUI4X1NTZEo0NnVCYjJiYjdfSXBPSWVGdjJaN3ROM3hxazZTTGZfYm11UWc4bDdxS1hQajdzVEg4UXF4dlJHX2Q1cF9DU3JHQjJTc29WOS1iMG1DQkJQZmlla09GZC1PMl9WM0VIT2ZyQXc?oc=5",
+          "source": "World Bank Group",
+          "published_at": "2026-09-07T08:30:09Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "983ffbc6f393c943",
-          "title": "海外では｢日本人の貧困＝政府の失策｣は常識だが…｢自己責任｣という言葉を広めて責任逃れした\"するい首相\"",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05SFo2X1A1VFFHWmRxbXZ6VWZkT1lEcmt4X1FhZ3J6NUdxVXBJemEzTWtlNDZEOWhBSUg1QkpKcEUteHBiRW5qcncyWWF1RTNZUlFYWDR6QlJGT1AxV0I2Y2hOZ2w1cjFMUzU4TTR0R19MYktpN1UzMU1BSjNBS0U?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-06T22:15:37Z",
+          "id": "be305bab7d4a965b",
+          "title": "立教大学・共愛学園前橋国際大学相互協力・連携協定を締結",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PeGxtVHViWlBjTUpQYURSTk4wWTRBMXJmc2ZWb1VsRHUyV2VkZ0EzWGEyYzFnOU0wd2JqRmpadzg1MXJpS2YzVE54TEJ0SjJxX252Qi1sTkwtWm9hNUtMbzhia2FwdXFWWk5N?oc=5",
+          "source": "rikkyo.ac.jp",
+          "published_at": "2026-09-07T07:28:31Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "7ea5c91007fe2da0",
-          "title": "【令和8年10月】国際物流特区制度、産業イノベーション特区制度税制活用オンラインセミナーの開催について",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBka3l6Z1RWeDRDVXhiUllETEdwRnJjLUpic1JMQTZ2QlZqZlAyLXZBQ3BKYUJBUjdGOER2VDcxTnBvb3psRW9KWDNKSzZ4QjNPbmtHVWdYUmtMbW1vVjZFWQ?oc=5",
-          "source": "city.itoman.lg.jp",
-          "published_at": "2026-09-06T17:33:38Z",
+          "id": "94c6c7fcfb867061",
+          "title": "長谷川理事長が第32回国際園芸学会議で気候変動への農業分野の適応策について基調講演",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85MUFNUkdHZHBYSWJVLWdlbHBoWmVRaElVLTE5MFdJTlZ5ay0tYjJoUW4za0FLTlB1eWxwMHpnMW9kQm5VOG9JUWZXekI2dkxlOEdZYjFQeHFzM0pnOXlxUWJB?oc=5",
+          "source": "jircas.go.jp",
+          "published_at": "2026-09-07T07:24:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "4ed84ecdedfa0b76",
-          "title": "アラル海からの警鐘 世界4位の湖が消える日",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hNWdsS3oyX1B6VGRvMV9WcFBqS29TQk0tOXdmcHBELWtNQmhNM1U0M2d1blB5aUdZM1Vxem0wQkxKWWRmanEtbWYxTGdtMEVURTZ5ZzN0RnJNVkpISkZ3QllvZw?oc=5",
-          "source": "natgeo.nikkeibp.co.jp",
-          "published_at": "2026-09-06T11:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4cae9ca40f458fb8",
-          "title": "韓国・国際結婚90日で急死の50代男性…生前に「妻から激しい暴力」と遺書、知人が真相究明訴え（KOREA WAVE）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nQUFEMHl6TWNZWUpqUmpYdzVoVG9aVFVLa3UxLW9iSkN5S3FBTXBIUGt3TnBuSWZxR3FDZzBrdlNfcFJVeVY3TzhUVl9NREdaYmpsSURHdG5CRl9kZm9ZSWdXdjVVUTNCNXZBSHpJaEk2Rm5qN3FKMXJVVEJEcFk?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-06T09:12:17Z",
+          "id": "37a30ccbd6f8b184",
+          "title": "国際知的財産保護フォーラム（IIPPF）、JASAと詐欺広告情報の共有を開始(世界、日本) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5TN0ZwQWJVRzRKSkxrRms3RmhUSW9QazJCQmlLanR5b2Nxb2dMWjF1MGdfc1Eyc2YwdnptMFlmWFZ2bjlqNkt3d1Vxem9ST2p5bGtzRFFXelhPdkVodzFCVHJSNlpDVmViTUhvOHNR?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-09-07T07:06:27Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -154,11 +154,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "acc176fde3f8a4e1",
-          "title": "【FOOMA JAPAN 2026出展】未利用資源を微生物のチカラでアップサイクル",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEZlJmVF81NUFnYXFpY0ZUOGZHVlRpWFBpRHJNUy1HU2xZQ21FV0JyOUVqZFJFMVVXS19pRTN4azVwUk9jcm51c1NpV3lIQXpCcHpUUl9WckJiODZP?oc=5",
-          "source": "山陽新聞",
-          "published_at": "2026-09-04T07:00:00Z",
+          "id": "ee1bb5176171cef3",
+          "title": "2026冷媒充填機市場規模マップ：シェア・動向・フレームワーク、年平均成長率（CAGR）4.3%の安定成長",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DRmtUWVRyaWtSV1VsbENWWUF2RkRiYjduSURMdDlVenNJaGVPM0ZHejBORnYyLUQ2R01SOWVEMm52d3Z2RzBENl84Z0FsLWlBZHFz?oc=5",
+          "source": "ドリームニュース",
+          "published_at": "2026-09-07T04:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -168,6 +168,16 @@
     "food_factory": {
       "label": "食品工場",
       "articles": [
+        {
+          "id": "e1d5ccdf871d84a2",
+          "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-31T16:04:47Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "56b76612a9a8629b",
           "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
@@ -182,18 +192,8 @@
           "id": "0bd432bb3f15f9cb",
           "title": "GoldenHarvest、横浜市「TECH-PoC」に採択 市内食品工場の残渣をアメリカミズアブで飼料用タンパクへ変換する実証を開始",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Qd21ZUVp2Y1E0dU9vQmpyYWxtUGtnLWhna1JLS0dpOVk0bEs5cS14M05kbEZyOU1nTjJ0Nk1HcXphUnNnQldXRVAwMldZYTJFOGtYODE3NDItajU5Z01lYWROQ3JSemF5Wm5N?oc=5",
-          "source": "jiji.com",
+          "source": "時事ドットコム",
           "published_at": "2026-09-07T02:45:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e1d5ccdf871d84a2",
-          "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
-          "source": "news.nissyoku.co.jp",
-          "published_at": "2026-08-31T16:04:47Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -212,7 +212,7 @@
           "id": "4a4031dcf4ae9bd6",
           "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
-          "source": "LOGISTICS TODAY",
+          "source": "logi-today.com",
           "published_at": "2026-08-20T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -244,11 +244,51 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "39f4ac2189f7dc73",
+          "title": "イオンフードスタイル 価値提案型スーパーマーケット「ＦｏｏｄＳｔｙｌｅ」都内８店舗目「フードスタイル東大島店」がオープン！",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZnBHSXNTdHRUWGp6alVFT2tFUUlhUTh1NHV2UTVHV1FBbG9qMHdUd1lTd0JrTjlpTHM4NTk2MHd1UjNua0RuaUN6MlJPdmc2VkZYRnNUT0VqaXBxd1dRaHk0end3Y2EycGc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "5afabeeb87640dfe",
           "title": "猿田彦珈琲／皇居東御苑内に新店舗11月3日オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aVUpvd0xZa0J6MzhVX1RBRVNuY3hBZ1Z6Tk1ndDAzaWZUbzZBU25keHlqR1pXVHo2bFRmUUd2WEk4OXJfMi1hcjNDZVRWbkhUM3ZXTg?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-07T01:05:00Z",
+          "source": "ryutsuu.biz",
+          "published_at": "2026-09-07T01:11:20Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "dc8a4e879791c84c",
+          "title": "スーパー生鮮館TAIGA荏子田店、2026年9月開店－横浜青葉区「アドバンスビラ」丸正チェーン跡、約6年ぶり食品スーパー復活",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0ydnJVTVBpRkxrRjQxT3lnY0dzTy1Cdkdvb2hBWFRwRjFYWGM4QWtHU0NwSzV3VmFsbmFDbVVzT0JzYk95MlE?oc=5",
+          "source": "都市商業研究所",
+          "published_at": "2026-09-06T20:50:47Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "623bdc36ffa2ede7",
+          "title": "スポーツと食がつながる新拠点へ 「SPOPIAシラトリ」店舗内に「クックマート」オープン 地域の活性化にも期待=静岡・浜松市",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55VWVyLTVsa2FDTWtJTUw4R1drS1BHRDFUaGNiWW40ZkpJdUg3dGtMNWpNMllXVVhYRnktNVhnSmtaYlI4NEFadGQwbTdKcFNtcmYwNk9rcjVMMWtheEJ4dUNnRVdiVVFxcEczcmxzcmEyTVVUd2daYWs1YTgxMjQ?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-04T11:48:18Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6e84350657fe3c68",
+          "title": "備前市補助のコンビニ後継店決定 市誘致、３月２日開店予定",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92dXBkam9UV3JsZmQ1UlMtS21saVZsaVV1U0hJazZsQ2JQR2hMQmpqb1ZsWmZmRVhqMU5jbGpWWElvbTNFUGFfdzI0YjhvRGZ6ZWc?oc=5",
+          "source": "山陽新聞",
+          "published_at": "2026-09-04T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -257,7 +297,7 @@
           "id": "e8fcd9681f993593",
           "title": "バロー／「スーパーマーケットバロー豊中島江店」9月11日オープン、コーナンに出店",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhMWV4SlJyVDlGUnNTWW9KamM5dVVPbXMzRkVpQzRzaWhKY3hCeGR2TW5Lc3lZUjVESlRnTkxmOGt2NTlJaHRyMVN1dmtfSE12X0FEUw?oc=5",
-          "source": "流通ニュース",
+          "source": "ryutsuu.biz",
           "published_at": "2026-09-04T05:50:00Z",
           "language": "ja",
           "category": "retail",
@@ -267,48 +307,8 @@
           "id": "0f795321d13e6019",
           "title": "ロフト／京都府内3店舗目「イオンモールKYOTOロフト」11月27日オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyaEZrLWxPWHRwSzUxT18wUkxkMTVHdEJSNi1XQmJfSnZBc285QVVVQm9ESFN1R1ZYYXYyMEZtRzdicWJHOTZMRGJYTENNSklHdXltZg?oc=5",
-          "source": "流通ニュース",
+          "source": "ryutsuu.biz",
           "published_at": "2026-09-04T01:19:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9bd88acecffcffd4",
-          "title": "アクロスプラザ富山掛尾／平和堂、サンドラッグ、ヤマダデンキ、ゼビオが新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCcmplVWpubF9XMnNGY0MyWWUtNDBsV2JxVHVDbHg1aTJTX3VJeDMwUGJsaVVqM1BWdWZZbktlYVptTUx0VTFmdFUtcnM4Rmh5dEJmaQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-02T05:39:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "65177bac6b476850",
-          "title": "ダイレックス／福岡県・鹿児島県に計3店舗、27年3月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWF9tbnpwbkJSdVplYnc1STBYMUlnZDZwRmJtRk8wX25mbV9XbjFIY3lrdWlSZlp6Z0wzcVVwM1pWcWQxT2o5Q3ZSNUxOYVZmbk5yaVdB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e88d412383f38f69",
-          "title": "ヨークベニマル／福島県郡山市に「（仮称）ヨークタウン富久山（店舗面積3480m2）」27年3月17日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FbW9PVEIxZk5kQXNGdEw2Q08xNVFBa0xmQTVEQWEzcm9DYjFqenFNTmgzeGZ5Q3FRNEJ5X19ZeXNkV3dlemhzc2lkd0JsYzcwREZvTEN3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e3790a2a21c30472",
-          "title": "りんくうプレミアム・アウトレット／9～10月に5店舗オープン、イッセイミヤケ・TASAKIなど登場",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ldHU5NjlOYW5USlo3NzVOY3ZaYXZMVjM0TWlWa3dwTDV0MU1aa2x5c1p4OVFwQUhYOGF0N25KLXp1eUhpeURUbHJWaGtmS3R0MjhxXw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-28T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-07T04:54:40Z",
-  "last_success_at": "2026-09-07T04:54:40Z",
+  "last_attempt_at": "2026-09-07T12:45:48Z",
+  "last_success_at": "2026-09-07T12:45:48Z",
   "consecutive_failure_count": 0
 }
