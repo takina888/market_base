@@ -11,7 +11,7 @@
   var LAST_TOOL_KEY='market_base_last_tool_v1';
   function lastTool(){try{return localStorage.getItem(LAST_TOOL_KEY)==='calculator'?'calculator':'currency';}catch(_e){return 'currency';}}
   function href(target){
-    if(target==='market-base-currency-converter-v273-r29.html')return root+target+'?tool='+lastTool()+'&v=20260907-v333-19-jfm-v077-currency-hf2';
+    if(target==='market-base-currency-converter-v273-r29.html')return root+target+'?tool='+lastTool()+'&v=20260907-v333-19-jfm-v077-currency-hf3';
     return root+target;
   }
   function icon(name){

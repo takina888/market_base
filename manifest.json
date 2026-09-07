@@ -2,7 +2,7 @@
   "name": "MARKET BASE V.333.19",
   "short_name": "MARKET BASE",
   "description": "国・地域と市場情報を確認できるMARKET BASE",
-  "start_url": "./index.html?v=20260907-v333-19-jfm-v077-currency-hf2",
+  "start_url": "./index.html?v=20260907-v333-19-jfm-v077-currency-hf3",
   "scope": "./",
   "display": "standalone",
   "background_color": "#EEF3F9",
@@ -23,5 +23,5 @@
   ],
   "id": "./?v=20260803-v333-10-cloudflare-web-analytics",
   "version": "V333.19",
-  "build_id": "MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907"
+  "build_id": "MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF3_20260907"
 }

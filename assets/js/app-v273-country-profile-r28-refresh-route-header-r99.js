@@ -529,7 +529,7 @@ function ensureCrossDbSearchIndex(){
     ? window.MarketBaseRuntime.loadScript(CROSS_DB_SEARCH_INDEX_PATH,'MARKET_BASE_CROSS_DB_SEARCH_INDEX')
     : new Promise((resolve,reject)=>{
       const script=document.createElement('script');
-      const token=window.MARKET_BASE_BUILD?.assetVersion||'20260907-v333-19-jfm-v077-currency-hf2';
+      const token=window.MARKET_BASE_BUILD?.assetVersion||'20260907-v333-19-jfm-v077-currency-hf3';
       script.src=`${CROSS_DB_SEARCH_INDEX_PATH}?v=${encodeURIComponent(token)}`;
       script.onload=resolve;
       script.onerror=()=>reject(new Error('cross database search index failed to load'));

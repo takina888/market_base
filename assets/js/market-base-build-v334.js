@@ -1,10 +1,10 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907',
+    id: 'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF3_20260907',
     label: 'MARKET BASE V.333.19',
     release: 'V.333.19',
     date: '2026-09-07',
-    assetVersion: '20260907-v333-19-jfm-v077-currency-hf2'
+    assetVersion: '20260907-v333-19-jfm-v077-currency-hf3'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseRuntimeBuild = build.id;

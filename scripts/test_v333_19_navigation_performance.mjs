@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=relative=>fs.readFileSync(path.join(root,relative),'utf8');
-const TOKEN='20260907-v333-19-jfm-v077-currency-hf2';
+const TOKEN='20260907-v333-19-jfm-v077-currency-hf3';
 const html=read('index.html');
 const app=read('assets/js/app-v273-country-profile-r28-refresh-route-header-r99.js');
 const deferred=read('assets/js/market-base-home-deferred-v333-18.js');

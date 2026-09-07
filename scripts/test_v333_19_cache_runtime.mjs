@@ -14,8 +14,8 @@ const controllerSource=fs.readFileSync(
 const offlineSource=fs.readFileSync(
   path.join(ROOT,'settings/assets/offline-settings-v335.js'),'utf8'
 );
-const BUILD='MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907';
-const TOKEN='20260907-v333-19-jfm-v077-currency-hf2';
+const BUILD='MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF3_20260907';
+const TOKEN='20260907-v333-19-jfm-v077-currency-hf3';
 const BASE='https://example.test/app/';
 const RUNTIME=`market-base-${BUILD}`;
 const OFFLINE_TEXT='mb-user-offline-v324-text';

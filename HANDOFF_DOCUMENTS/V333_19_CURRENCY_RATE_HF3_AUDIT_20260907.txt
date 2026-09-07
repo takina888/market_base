@@ -1,0 +1,51 @@
+MARKET BASE V333.19 / Currency HF3 Audit / 2026-09-07
+
+ROOT CAUSE
+- HF2 primary provider = Frankfurter v2.
+- Frankfurter is reference-rate oriented and cannot guarantee intraday market moves.
+- Manual refresh therefore could successfully fetch yet return the same reference value.
+
+HF3 BROWSER-MOCK REGRESSION
+- 28 / 28 PASS
+- primary fxapi.app request
+- source timestamp display
+- manual refresh applies changed intraday quote immediately
+- primary failure -> 9 pair live backup requests
+- backup source still labeled market data
+- both market sources fail -> Frankfurter daily reference
+- daily fallback never masquerades as market data
+- new market cache verification
+- legacy Frankfurter cache demotion to saved reference
+- wrong-base primary rejection
+- reorder during request
+- active input focus/value preservation
+- rapid base switching / abort safety
+- 5-minute freshness policy
+- zero amount preservation
+- 37 configured currencies retained
+
+V333.19 RELEASE INTEGRITY
+- PASS
+- public HTML: 38
+- controller pages: 37
+- SW references: 202
+- offline text assets: 339
+- JavaScript syntax checks: PASS
+
+CACHE / OFFLINE / INSTALL
+- Cache coherence: PASS
+- Cache runtime lifecycle: PASS
+- Offline manifest hardening: PASS
+- Android API 36 install contract: PASS
+- Navigation/performance contract: PASS
+- Samsung install-helper contract: PASS
+
+JAPAN FOOD MACHINERY V077 PRESERVATION
+- 32 / 32 PASS
+- manufacturers: 191
+- products/models: 2,528
+- cross-search JFM records: 2,719
+- cross-search total: 5,175
+
+CONCLUSION
+HF3 fixes the remaining functional mismatch: "refresh" now targets market-rate sources first. Frankfurter remains only as an explicitly labeled daily-reference fallback.

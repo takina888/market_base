@@ -18,8 +18,8 @@ from urllib.parse import parse_qs, urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BUILD_ID = "MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907"
-TOKEN = "20260907-v333-19-jfm-v077-currency-hf2"
+BUILD_ID = "MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF3_20260907"
+TOKEN = "20260907-v333-19-jfm-v077-currency-hf3"
 VERSION = "V333.19"
 EXPECTED_HTML = 38
 PLAYER = "world-radio/player.html"
@@ -350,7 +350,7 @@ def main() -> int:
         failures.append(f"offline manifest could not be parsed: {error}")
     check(
         offline_manifest.get("version")
-        == "MARKET_BASE_OFFLINE_MANIFEST_V333_19_JFM_V077_CURRENCY_HF2_20260907"
+        == "MARKET_BASE_OFFLINE_MANIFEST_V333_19_JFM_V077_CURRENCY_HF3_20260907"
         and offline_manifest.get("buildId") == BUILD_ID
         and offline_manifest.get("assetVersion") == TOKEN,
         "offline manifest metadata matches V333.19",

@@ -2,7 +2,7 @@
   'use strict';
   if(global.MarketBaseNavigation)return;
 
-  var TOKEN='20260907-v333-19-jfm-v077-currency-hf2';
+  var TOKEN='20260907-v333-19-jfm-v077-currency-hf3';
   var script=document.currentScript;
   var scriptUrl=script&&script.src?new URL(script.src):new URL('assets/js/market-base-navigation-v333-18.js',location.href);
   var siteRoot=new URL('../../',scriptUrl);

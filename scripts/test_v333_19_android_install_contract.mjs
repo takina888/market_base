@@ -33,8 +33,8 @@ const PUBLIC_BASE = new URL('https://takina888.github.io/market_base/');
 const EXPECTED_PACKAGE = 'io.github.takina888.marketbase';
 const EXPECTED_STABLE_PWA_ID =
   'https://takina888.github.io/market_base/?v=20260803-v333-10-cloudflare-web-analytics';
-const RELEASE_TOKEN = '20260907-v333-19-jfm-v077-currency-hf2';
-const RELEASE_BUILD_ID = 'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907';
+const RELEASE_TOKEN = '20260907-v333-19-jfm-v077-currency-hf3';
+const RELEASE_BUILD_ID = 'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF3_20260907';
 const EXPECTED_NORMALIZED_RADIO_SHA256 = Object.freeze({
   'assets/css/market-base-dual-dock-v331.css': 'a4b1c9f69593fd93ca99c4d22505c5f4b3abfb0c7b4c60fb3866f643660fc3ec',
   'assets/css/market-base-radio-dock-v333-16.css': '878cac37613d28904f0879b1155e7d217fa8a4385f49c8a33bfe5f956d4a0d7b',
@@ -214,8 +214,8 @@ contract('index links one same-origin V333.19 manifest and the install helper as
   assert.equal(linkedManifest.origin, PUBLIC_BASE.origin);
   assert.equal(linkedManifest.pathname, `${PUBLIC_BASE.pathname}manifest.json`);
   assert.equal(linkedManifest.searchParams.get('v'), RELEASE_TOKEN);
-  assert.match(indexHtml, /assets\/css\/market-base-install-helper-v333-19\.css\?v=20260907-v333-19-jfm-v077-currency-hf2/);
-  assert.match(indexHtml, /assets\/js\/market-base-install-helper-v333-19\.js\?v=20260907-v333-19-jfm-v077-currency-hf2/);
+  assert.match(indexHtml, /assets\/css\/market-base-install-helper-v333-19\.css\?v=20260907-v333-19-jfm-v077-currency-hf3/);
+  assert.match(indexHtml, /assets\/js\/market-base-install-helper-v333-19\.js\?v=20260907-v333-19-jfm-v077-currency-hf3/);
 });
 
 let configuredPackageUrl = '';
@@ -298,9 +298,9 @@ contract('radio implementation matches the frozen V333.18 contract except for th
     if (['.js', '.css', '.html', '.json'].includes(extension)) {
       const normalizeReleaseIdentity = source => source
         .replaceAll('20260810-v333-18-cache-radio-navigation-stability', '__RELEASE_TOKEN__')
-        .replaceAll('20260907-v333-19-jfm-v077-currency-hf2', '__RELEASE_TOKEN__')
+        .replaceAll('20260907-v333-19-jfm-v077-currency-hf3', '__RELEASE_TOKEN__')
         .replaceAll('MARKET_BASE_V333_18_CACHE_RADIO_NAVIGATION_STABILITY_20260810', '__BUILD_ID__')
-        .replaceAll('MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907', '__BUILD_ID__');
+        .replaceAll('MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF3_20260907', '__BUILD_ID__');
       const normalizedCurrent = normalizeReleaseIdentity(fs.readFileSync(current, 'utf8'));
       assert.equal(sha256Value(normalizedCurrent), EXPECTED_NORMALIZED_RADIO_SHA256[relativePath],
         `frozen radio hash mismatch: ${relativePath}`);
@@ -352,7 +352,7 @@ contract('offline manifest generation is coherent with V333.19 and includes inst
   assert.ok(offlineManifest, 'offline manifest global was not initialized');
   assert.equal(
     offlineManifest.version,
-    'MARKET_BASE_OFFLINE_MANIFEST_V333_19_JFM_V077_CURRENCY_HF2_20260907'
+    'MARKET_BASE_OFFLINE_MANIFEST_V333_19_JFM_V077_CURRENCY_HF3_20260907'
   );
   assert.equal(offlineManifest.buildId, RELEASE_BUILD_ID);
   assert.equal(offlineManifest.assetVersion, RELEASE_TOKEN);
@@ -393,7 +393,7 @@ contract('service worker keeps live radio outside CacheStorage and ships the ins
   ]) {
     assert.ok(swSource.includes(asset), `service worker release shell is missing ${asset}`);
   }
-  assert.match(swSource, /manifest\.json\?v=20260907-v333-19-jfm-v077-currency-hf2/);
+  assert.match(swSource, /manifest\.json\?v=20260907-v333-19-jfm-v077-currency-hf3/);
   return { requiredAssets: required.length, mediaAssets: 0 };
 });
 

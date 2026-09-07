@@ -16,8 +16,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TOKEN = "20260907-v333-19-jfm-v077-currency-hf2"
-BUILD_ID = "MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907"
+TOKEN = "20260907-v333-19-jfm-v077-currency-hf3"
+BUILD_ID = "MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF3_20260907"
 PRODUCTION_PWA_ID = "./?v=20260803-v333-10-cloudflare-web-analytics"
 HELPER_JS = "assets/js/market-base-install-helper-v333-19.js"
 HELPER_CSS = "assets/css/market-base-install-helper-v333-19.css"

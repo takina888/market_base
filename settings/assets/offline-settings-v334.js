@@ -14,7 +14,7 @@
     localPhotoAssets: [],
     remotePhotoAliases: {}
   };
-  const BUILD_ID = 'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907';
+  const BUILD_ID = 'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF3_20260907';
   const MAX_IMAGE_EDGE = 960;
   const IMAGE_QUALITY = 0.64;
   const MIN_FREE_BYTES = 8 * 1024 * 1024;

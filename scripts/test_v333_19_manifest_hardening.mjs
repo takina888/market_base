@@ -17,10 +17,10 @@ assert(currentApp, 'index.html current app reference was not found');
 
 assert.equal(
   manifest.version,
-  'MARKET_BASE_OFFLINE_MANIFEST_V333_19_JFM_V077_CURRENCY_HF2_20260907'
+  'MARKET_BASE_OFFLINE_MANIFEST_V333_19_JFM_V077_CURRENCY_HF3_20260907'
 );
-assert.equal(manifest.buildId, 'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907');
-assert.equal(manifest.assetVersion, '20260907-v333-19-jfm-v077-currency-hf2');
+assert.equal(manifest.buildId, 'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF3_20260907');
+assert.equal(manifest.assetVersion, '20260907-v333-19-jfm-v077-currency-hf3');
 assert.equal(new Set(textAssets).size, textAssets.length, 'manifest paths must be unique');
 
 const required = [
@@ -88,7 +88,7 @@ assert(
 );
 
 const offlineSettings = read('settings/assets/offline-settings-v335.js');
-assert(offlineSettings.includes('MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907'));
+assert(offlineSettings.includes('MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF3_20260907'));
 assert(offlineSettings.includes("url.searchParams.set('mb-offline-save', '1')"));
 assert.equal(
   (offlineSettings.match(/fetch\(offlineSaveFetchUrl\(url\)/g) || []).length,

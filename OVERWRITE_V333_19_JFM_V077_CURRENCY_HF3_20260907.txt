@@ -1,0 +1,5 @@
+MARKET BASE V333_19 cumulative overwrite
+Build: MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF3_20260907
+Includes: Japan Food Machinery DB V077 + Currency HF1/HF2 + Currency HF3 intraday-market fix.
+Extract directly over the V333_19 root and overwrite matching files.
+After deployment, press MARKET BASE "更新" once.

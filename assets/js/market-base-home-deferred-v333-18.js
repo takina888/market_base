@@ -2,7 +2,7 @@
   'use strict';
   if(global.MarketBaseHomeDeferred)return;
 
-  var TOKEN='20260907-v333-19-jfm-v077-currency-hf2';
+  var TOKEN='20260907-v333-19-jfm-v077-currency-hf3';
   var promises=Object.create(null);
   var failures=Object.create(null);
   var states=Object.create(null);
