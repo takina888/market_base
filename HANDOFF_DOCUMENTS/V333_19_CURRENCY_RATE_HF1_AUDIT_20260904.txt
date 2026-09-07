@@ -1,0 +1,21 @@
+MARKET BASE V333.19 Currency Rate HF1 Audit
+Date: 2026-09-04
+Base: MARKET_BASE_V333_19_FULL_HANDOFF_AND_DATA_20260810(2).zip
+
+Existing public files changed:
+- market-base-currency-converter-v273-r29.html
+
+Existing public files deleted: 0
+Unrelated existing public files changed: 0
+Global BUILD_ID changed: NO
+version.txt changed: NO
+sw.js changed: NO
+Android/install files changed: NO
+
+Code syntax: PASS
+Playwright mocked-rate scenarios: PASS (3/3)
+- fresh cache still checks network
+- base-switch async race blocked
+- 16-minute focus refresh works
+
+Device deployment test: NOT RUN in this container; verify on real iPhone/Android after upload.

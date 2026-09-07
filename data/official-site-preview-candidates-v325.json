@@ -1,9 +1,9 @@
 {
   "version": "V325",
   "selection_policy": "Only explicitly identified official company URLs. Retail main URLs additionally require a host match against a retail master source marked official. Related/reference/news/social links are excluded before frameability testing.",
-  "generated_at": "2026-08-01T04:28:01.871876+00:00",
-  "unique_url_count": 938,
-  "reference_count": 1249,
+  "generated_at": "2026-09-07T09:19:58.011354+00:00",
+  "unique_url_count": 1017,
+  "reference_count": 1328,
   "candidates": [
     {
       "url": "http://www.bhgmarketplace.com.cn/",
@@ -55,6 +55,19 @@
       ],
       "entity_ids": [
         "mb-ifm-0174"
+      ]
+    },
+    {
+      "url": "http://www.iwatsuki-ss.co.jp/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0114",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0114"
       ]
     },
     {
@@ -133,6 +146,19 @@
       ],
       "entity_ids": [
         "mb-gohan-0038"
+      ]
+    },
+    {
+      "url": "https://aichi-mfg.co.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0154",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0154"
       ]
     },
     {
@@ -253,6 +279,19 @@
       ]
     },
     {
+      "url": "https://amagi-inc.co.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0147",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0147"
+      ]
+    },
+    {
       "url": "https://ame.vn/",
       "source_page": "imported-food-machinery-v273-db-title-r27.html",
       "entity_id": "mb-ifm-0027",
@@ -315,6 +354,19 @@
       ],
       "entity_ids": [
         "maker-0003"
+      ]
+    },
+    {
+      "url": "https://asahim.com/aboutus/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0162",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0162"
       ]
     },
     {
@@ -969,6 +1021,19 @@
       ]
     },
     {
+      "url": "https://daihan1.com/company",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0189",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0189"
+      ]
+    },
+    {
       "url": "https://dainty.ca/",
       "source_page": "gohan-food-manufacturers-v273-db-title-r27.html",
       "entity_id": "mb-gohan-0036",
@@ -1070,6 +1135,19 @@
       ],
       "entity_ids": [
         "mb-cvs-0100"
+      ]
+    },
+    {
+      "url": "https://e-astra.co.jp/about/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0160",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0160"
       ]
     },
     {
@@ -1399,6 +1477,19 @@
       ]
     },
     {
+      "url": "https://fuji-royal.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0161",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0161"
+      ]
+    },
+    {
       "url": "https://fuji-seiki.co.jp/company/",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0001",
@@ -1700,6 +1791,32 @@
       ]
     },
     {
+      "url": "https://i-taiki.com/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0119",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0119"
+      ]
+    },
+    {
+      "url": "https://idealshop.shop23.makeshop.jp/html/info.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0110",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0110"
+      ]
+    },
+    {
       "url": "https://ikameshi.co.jp/",
       "source_page": "rail-food-kitchen-v273-db-title-r27.html",
       "entity_id": "mb-rail-0024",
@@ -1726,7 +1843,7 @@
       ]
     },
     {
-      "url": "https://inamoku.jp/",
+      "url": "https://inamoku.jp/company/",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0108",
       "label": "会社HP",
@@ -1880,6 +1997,19 @@
       ],
       "entity_ids": [
         "mb-gohan-0011"
+      ]
+    },
+    {
+      "url": "https://ishikawa-machine.co.jp/pages/2/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0137",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0137"
       ]
     },
     {
@@ -2041,6 +2171,32 @@
       ]
     },
     {
+      "url": "https://kamigakiworks.co.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0170",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0170"
+      ]
+    },
+    {
+      "url": "https://kane8.co.jp/company-profile/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0183",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0183"
+      ]
+    },
+    {
       "url": "https://kanto-mixer.co.jp/?page_id=148",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0024",
@@ -2064,6 +2220,19 @@
       ],
       "entity_ids": [
         "mb-retail-0617"
+      ]
+    },
+    {
+      "url": "https://katahisa.co.jp/company.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0138",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0138"
       ]
     },
     {
@@ -2210,6 +2379,32 @@
       ]
     },
     {
+      "url": "https://kneader.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0126",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0126"
+      ]
+    },
+    {
+      "url": "https://kobird.co.jp/company-profile/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0131",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0131"
+      ]
+    },
+    {
       "url": "https://kohinoorfoods.in/",
       "source_page": "gohan-food-manufacturers-v273-db-title-r27.html",
       "entity_id": "mb-gohan-0055",
@@ -2236,6 +2431,32 @@
       ]
     },
     {
+      "url": "https://koki.company/company.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0117",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0117"
+      ]
+    },
+    {
+      "url": "https://komine-k.jp/pages/2/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0116",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0116"
+      ]
+    },
+    {
       "url": "https://kortlever.nl/snacks/rheon/?lang=en",
       "source_page": "imported-food-machinery-v273-db-title-r27.html",
       "entity_id": "mb-ifm-0113",
@@ -2259,6 +2480,19 @@
       ],
       "entity_ids": [
         "mb-retail-0545"
+      ]
+    },
+    {
+      "url": "https://koyomc.co.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0118",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0118"
       ]
     },
     {
@@ -2693,6 +2927,19 @@
       ]
     },
     {
+      "url": "https://ndss.co.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0146",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0146"
+      ]
+    },
+    {
       "url": "https://newlandvj.com/vi/",
       "source_page": "cvs-vendor-v273-db-title-r27.html",
       "entity_id": "mb-cvs-0142",
@@ -2742,6 +2989,19 @@
       ],
       "entity_ids": [
         "maker-0047"
+      ]
+    },
+    {
+      "url": "https://nippon-polystar.co.jp/company/overview.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0178",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0178"
       ]
     },
     {
@@ -2810,6 +3070,19 @@
       ]
     },
     {
+      "url": "https://ohta-kikai.co.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0139",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0139"
+      ]
+    },
+    {
       "url": "https://oishiisushi.ie/",
       "source_page": "gohan-food-manufacturers-v273-db-title-r27.html",
       "entity_id": "mb-gohan-0008",
@@ -2875,6 +3148,19 @@
       ]
     },
     {
+      "url": "https://onomori.co.jp/about/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0169",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0169"
+      ]
+    },
+    {
       "url": "https://ooda-nousui.com/",
       "source_page": "gohan-food-manufacturers-v273-db-title-r27.html",
       "entity_id": "mb-gohan-0089",
@@ -2937,6 +3223,19 @@
       ],
       "entity_ids": [
         "mb-ifm-0120"
+      ]
+    },
+    {
+      "url": "https://osaka-auto.jimdofree.com/%E4%BC%9A%E7%A4%BE%E6%A6%82%E8%A6%81/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0152",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0152"
       ]
     },
     {
@@ -3180,6 +3479,19 @@
       ]
     },
     {
+      "url": "https://rfs.proton-01.com/company/summary/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0171",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0171"
+      ]
+    },
+    {
       "url": "https://rgmtsinc.com/",
       "source_page": "imported-food-machinery-v273-db-title-r27.html",
       "entity_id": "mb-ifm-0077",
@@ -3336,6 +3648,19 @@
       ],
       "entity_ids": [
         "mb-retail-0771"
+      ]
+    },
+    {
+      "url": "https://sanko-ov.bgst.jp/?mode=gaiyou",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0124",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0124"
       ]
     },
     {
@@ -3795,6 +4120,19 @@
       ]
     },
     {
+      "url": "https://tanizawakaki.co.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0134",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0134"
+      ]
+    },
+    {
       "url": "https://tanphuongvinh.com/pages/frontpage",
       "source_page": "imported-food-machinery-v273-db-title-r27.html",
       "entity_id": "mb-ifm-0024",
@@ -3912,6 +4250,19 @@
       ]
     },
     {
+      "url": "https://tkm-g.com/company",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0191",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0191"
+      ]
+    },
+    {
       "url": "https://tochikuken.co.jp/",
       "source_page": "rail-food-kitchen-v273-db-title-r27.html",
       "entity_id": "mb-rail-0009",
@@ -4026,6 +4377,19 @@
       ],
       "entity_ids": [
         "mb-rail-0031"
+      ]
+    },
+    {
+      "url": "https://tsuji.co.jp/company/profile",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0122",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0122"
       ]
     },
     {
@@ -4198,7 +4562,7 @@
       ]
     },
     {
-      "url": "https://world-seiki.jp/",
+      "url": "https://world-seiki.jp/company/",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0080",
       "label": "会社HP",
@@ -4286,6 +4650,19 @@
       ],
       "entity_ids": [
         "mb-cvs-0136"
+      ]
+    },
+    {
+      "url": "https://www.a-creo.co.jp/company-outline.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0115",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0115"
       ]
     },
     {
@@ -4380,6 +4757,19 @@
       ]
     },
     {
+      "url": "https://www.aiho.co.jp/company/profile/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0113",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0113"
+      ]
+    },
+    {
       "url": "https://www.ajinomotofoods.com/",
       "source_page": "gohan-food-manufacturers-v273-db-title-r27.html",
       "entity_id": "mb-gohan-0050",
@@ -4390,6 +4780,19 @@
       ],
       "entity_ids": [
         "mb-gohan-0050"
+      ]
+    },
+    {
+      "url": "https://www.akiba-food.jp/company",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0149",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0149"
       ]
     },
     {
@@ -4586,6 +4989,19 @@
       ],
       "entity_ids": [
         "mb-ifm-0152"
+      ]
+    },
+    {
+      "url": "https://www.anritsu.com/ja-jp/anritsu-infivis/about-us/corporate-info",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0185",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0185"
       ]
     },
     {
@@ -5674,6 +6090,19 @@
       ]
     },
     {
+      "url": "https://www.daiichi-housouki.co.jp/profile/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0143",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0143"
+      ]
+    },
+    {
       "url": "https://www.dailyservice.co.jp/company/overview",
       "source_page": "rail-food-kitchen-v273-db-title-r27.html",
       "entity_id": "mb-rail-0175",
@@ -6017,6 +6446,19 @@
       ]
     },
     {
+      "url": "https://www.econmw.co.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0153",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0153"
+      ]
+    },
+    {
       "url": "https://www.eetafoodhq.com.my/",
       "source_page": "gohan-food-manufacturers-v273-db-title-r27.html",
       "entity_id": "mb-gohan-0149",
@@ -6278,6 +6720,19 @@
       ]
     },
     {
+      "url": "https://www.fks-fujii.co.jp/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0128",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0128"
+      ]
+    },
+    {
       "url": "https://www.foodequipment.co.th/",
       "source_page": "imported-food-machinery-v273-db-title-r27.html",
       "entity_id": "mb-ifm-0040",
@@ -6434,6 +6889,19 @@
       ]
     },
     {
+      "url": "https://www.fuji-info-systema.co.jp/company",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0129",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0129"
+      ]
+    },
+    {
       "url": "https://www.fuji-machinery.com/corporate/international_offices",
       "source_page": "imported-food-machinery-v273-db-title-r27.html",
       "entity_id": "mb-ifm-0031",
@@ -6470,6 +6938,19 @@
       ],
       "entity_ids": [
         "mb-cvs-0093"
+      ]
+    },
+    {
+      "url": "https://www.fujiimpulse.co.jp/docs/abut-us/_co_guide/co_guide.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0144",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0144"
       ]
     },
     {
@@ -6735,6 +7216,19 @@
       ]
     },
     {
+      "url": "https://www.goto-eng.jp/about/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0141",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0141"
+      ]
+    },
+    {
       "url": "https://www.gourmet-service.jp/",
       "source_page": "cvs-vendor-v273-db-title-r27.html",
       "entity_id": "mb-cvs-0114",
@@ -6893,6 +7387,19 @@
       ]
     },
     {
+      "url": "https://www.hakura-seiki.co.jp/?mode=profile",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0125",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0125"
+      ]
+    },
+    {
       "url": "https://www.haldirams.com/",
       "source_page": "gohan-food-manufacturers-v273-db-title-r27.html",
       "entity_id": "mb-gohan-0056",
@@ -6997,6 +7504,19 @@
       ]
     },
     {
+      "url": "https://www.higashimoto.co.jp/company.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0175",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0175"
+      ]
+    },
+    {
       "url": "https://www.highfield.com.tw/",
       "source_page": "imported-food-machinery-v273-db-title-r27.html",
       "entity_id": "mb-ifm-0011",
@@ -7036,7 +7556,7 @@
       ]
     },
     {
-      "url": "https://www.hiranojp.com/",
+      "url": "https://www.hiranojp.com/company/",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0087",
       "label": "会社HP",
@@ -7098,6 +7618,19 @@
       ],
       "entity_ids": [
         "mb-rail-0014"
+      ]
+    },
+    {
+      "url": "https://www.hopgiken.com/%E4%BC%9A%E7%A4%BE%E6%A1%88%E5%86%85/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0151",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0151"
       ]
     },
     {
@@ -7221,7 +7754,7 @@
       ]
     },
     {
-      "url": "https://www.hosoda.jp/",
+      "url": "https://www.hosoda.jp/company/",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0088",
       "label": "会社HP",
@@ -7299,6 +7832,19 @@
       ]
     },
     {
+      "url": "https://www.i-plant.jp/company/index.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0157",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0157"
+      ]
+    },
+    {
       "url": "https://www.ichibanuk.com/",
       "source_page": "gohan-food-manufacturers-v273-db-title-r27.html",
       "entity_id": "mb-gohan-0028",
@@ -7325,19 +7871,6 @@
       ]
     },
     {
-      "url": "https://www.ideal-shinkousha.co.jp/info/",
-      "source_page": "japan-food-machinery-v273-r58.html",
-      "entity_id": "maker-0110",
-      "label": "会社HP",
-      "kind": "japan_machinery_company_home",
-      "source_pages": [
-        "japan-food-machinery-v273-r58.html"
-      ],
-      "entity_ids": [
-        "maker-0110"
-      ]
-    },
-    {
       "url": "https://www.idfreshfood.com/",
       "source_page": "cvs-vendor-v273-db-title-r27.html",
       "entity_id": "mb-cvs-0273",
@@ -7348,6 +7881,19 @@
       ],
       "entity_ids": [
         "mb-cvs-0273"
+      ]
+    },
+    {
+      "url": "https://www.iida-seisakusho.co.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0135",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0135"
       ]
     },
     {
@@ -7494,6 +8040,19 @@
       ]
     },
     {
+      "url": "https://www.ishidachuki.com/about/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0184",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0184"
+      ]
+    },
+    {
       "url": "https://www.ishidaeurope.com/en/",
       "source_page": "imported-food-machinery-v273-db-title-r27.html",
       "entity_id": "mb-ifm-0105",
@@ -7530,6 +8089,19 @@
       ],
       "entity_ids": [
         "mb-retail-0362"
+      ]
+    },
+    {
+      "url": "https://www.iwai.co.jp/company/corporate.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0177",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0177"
       ]
     },
     {
@@ -7845,7 +8417,7 @@
       ]
     },
     {
-      "url": "https://www.kamata-machine.co.jp/company/",
+      "url": "https://www.kamata-machine.co.jp/",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0077",
       "label": "会社HP",
@@ -7946,6 +8518,19 @@
       ],
       "entity_ids": [
         "maker-0091"
+      ]
+    },
+    {
+      "url": "https://www.kitamura-fcm.co.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0148",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0148"
       ]
     },
     {
@@ -8080,6 +8665,19 @@
       ]
     },
     {
+      "url": "https://www.kotobuki-baking.co.jp/company/outline/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0123",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0123"
+      ]
+    },
+    {
       "url": "https://www.kumeta-mnf.co.jp/company.php",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0085",
@@ -8116,6 +8714,32 @@
       ],
       "entity_ids": [
         "mb-gohan-0140"
+      ]
+    },
+    {
+      "url": "https://www.kyoritsu-plant.com/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0155",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0155"
+      ]
+    },
+    {
+      "url": "https://www.kyotoss.co.jp/profile/company.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0166",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0166"
       ]
     },
     {
@@ -8511,6 +9135,19 @@
       ]
     },
     {
+      "url": "https://www.maruyasukikai.co.jp/corporate-info/overview-history/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0168",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0168"
+      ]
+    },
+    {
       "url": "https://www.maruzen-kitchen.co.jp/company/main/",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0034",
@@ -8521,6 +9158,32 @@
       ],
       "entity_ids": [
         "maker-0034"
+      ]
+    },
+    {
+      "url": "https://www.maruzen-kitchen.co.jp/fujisawa/about/about_02.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0120",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0120"
+      ]
+    },
+    {
+      "url": "https://www.masakipr.com/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0127",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0127"
       ]
     },
     {
@@ -8707,7 +9370,7 @@
       ]
     },
     {
-      "url": "https://www.menki.co.jp/company",
+      "url": "https://www.menki.net/company",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0072",
       "label": "会社HP",
@@ -8825,6 +9488,19 @@
       ]
     },
     {
+      "url": "https://www.mitsuhashi-corp.co.jp/company/about",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0145",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0145"
+      ]
+    },
+    {
       "url": "https://www.mitsuwa-daily.co.jp/",
       "source_page": "cvs-vendor-v273-db-title-r27.html",
       "entity_id": "mb-cvs-0110",
@@ -8835,6 +9511,32 @@
       ],
       "entity_ids": [
         "mb-cvs-0110"
+      ]
+    },
+    {
+      "url": "https://www.miuraz.co.jp/corporate/profile.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0180",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0180"
+      ]
+    },
+    {
+      "url": "https://www.mizunoroki.co.jp/pages/2/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0130",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0130"
       ]
     },
     {
@@ -8900,6 +9602,19 @@
       ],
       "entity_ids": [
         "mb-gohan-0007"
+      ]
+    },
+    {
+      "url": "https://www.morikawa-fm.co.jp/kaisha.htm",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0133",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0133"
       ]
     },
     {
@@ -9021,6 +9736,19 @@
       ]
     },
     {
+      "url": "https://www.nagata-bm.co.jp/company/office.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0188",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0188"
+      ]
+    },
+    {
       "url": "https://www.nakanishi.co.jp/corporate/outline.html",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0011",
@@ -9096,6 +9824,19 @@
       ],
       "entity_ids": [
         "maker-0023"
+      ]
+    },
+    {
+      "url": "https://www.nara-m.co.jp/company.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0174",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0174"
       ]
     },
     {
@@ -9203,6 +9944,19 @@
       ]
     },
     {
+      "url": "https://www.nikka-densok.co.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0165",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0165"
+      ]
+    },
+    {
       "url": "https://www.nippon-delica.co.jp/",
       "source_page": "cvs-vendor-v273-db-title-r27.html",
       "entity_id": "mb-cvs-0034",
@@ -9294,6 +10048,19 @@
       ]
     },
     {
+      "url": "https://www.noa-c.co.jp/company.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0190",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0190"
+      ]
+    },
+    {
       "url": "https://www.obento-matsuura.co.jp/corporate/company/index.html",
       "source_page": "rail-food-kitchen-v273-db-title-r27.html",
       "entity_id": "mb-rail-0008",
@@ -9359,7 +10126,7 @@
       ]
     },
     {
-      "url": "https://www.okawara.co.jp/",
+      "url": "https://www.okawara.co.jp/corporate/companyabout/",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0086",
       "label": "会社HP",
@@ -9408,6 +10175,19 @@
       ],
       "entity_ids": [
         "mb-retail-0627"
+      ]
+    },
+    {
+      "url": "https://www.omltd.co.jp/omm/company.html?id=3",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0142",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0142"
       ]
     },
     {
@@ -9486,6 +10266,19 @@
       ],
       "entity_ids": [
         "mb-gohan-0090"
+      ]
+    },
+    {
+      "url": "https://www.orihiro.com/engineering/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0179",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0179"
       ]
     },
     {
@@ -9746,6 +10539,19 @@
       ],
       "entity_ids": [
         "mb-retail-0656"
+      ]
+    },
+    {
+      "url": "https://www.primix.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0187",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0187"
       ]
     },
     {
@@ -10425,7 +11231,7 @@
       ]
     },
     {
-      "url": "https://www.samson.co.jp/",
+      "url": "https://www.samson.co.jp/company/company-info.html",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0098",
       "label": "会社HP",
@@ -10461,6 +11267,19 @@
       ],
       "entity_ids": [
         "mb-retail-0372"
+      ]
+    },
+    {
+      "url": "https://www.sanko-kikai.co.jp/company",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0181",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0181"
       ]
     },
     {
@@ -10646,6 +11465,19 @@
       ]
     },
     {
+      "url": "https://www.seiko-co.com/company/overview/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0186",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0186"
+      ]
+    },
+    {
       "url": "https://www.seiyu.co.jp/company/about/",
       "source_page": "retail-sales-v273-db-title-r27.html",
       "entity_id": "mb-retail-0401",
@@ -10711,6 +11543,19 @@
       ]
     },
     {
+      "url": "https://www.shiga-hosoki.co.jp/sm/infosm/infosm.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0140",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0140"
+      ]
+    },
+    {
       "url": "https://www.shikoku-kakoki.co.jp/company/profile.html",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0033",
@@ -10763,6 +11608,19 @@
       ]
     },
     {
+      "url": "https://www.shintaku-kogyo.co.jp/about/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0182",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0182"
+      ]
+    },
+    {
       "url": "https://www.shopmarketbasket.com/",
       "source_page": "retail-sales-v273-db-title-r27.html",
       "entity_id": "mb-retail-0454",
@@ -10812,6 +11670,19 @@
       ],
       "entity_ids": [
         "mb-retail-1060"
+      ]
+    },
+    {
+      "url": "https://www.sinagawa.co.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0176",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0176"
       ]
     },
     {
@@ -10882,7 +11753,7 @@
       ]
     },
     {
-      "url": "https://www.soki-nakata.co.jp/business/",
+      "url": "https://www.soki-nakata.co.jp/company/",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0107",
       "label": "会社HP",
@@ -11272,7 +12143,7 @@
       ]
     },
     {
-      "url": "https://www.tagaele.com/",
+      "url": "https://www.tagaele.com/info/company.html",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0102",
       "label": "会社HP",
@@ -11428,6 +12299,19 @@
       ]
     },
     {
+      "url": "https://www.tenchi.jp/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0156",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0156"
+      ]
+    },
+    {
       "url": "https://www.teraokaseiko.com/jp/company/company-profile/",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0041",
@@ -11530,6 +12414,19 @@
       ],
       "entity_ids": [
         "maker-0027"
+      ]
+    },
+    {
+      "url": "https://www.tiger-k.co.jp/global/company/company-overview/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0173",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0173"
       ]
     },
     {
@@ -11663,6 +12560,19 @@
       ]
     },
     {
+      "url": "https://www.topack.co.jp/corporate/profile.php",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0163",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0163"
+      ]
+    },
+    {
       "url": "https://www.tosei-corporation.co.jp/company/overview.html",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0042",
@@ -11699,6 +12609,19 @@
       ],
       "entity_ids": [
         "mb-rail-0033"
+      ]
+    },
+    {
+      "url": "https://www.toyo-mc-mfg.com/info/overview.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0167",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0167"
       ]
     },
     {
@@ -11868,6 +12791,19 @@
       ],
       "entity_ids": [
         "mb-ifm-0045"
+      ]
+    },
+    {
+      "url": "https://www.w-meiwa.co.jp/company.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0132",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0132"
       ]
     },
     {
@@ -12067,6 +13003,19 @@
       ]
     },
     {
+      "url": "https://www.yabuta.co.jp/english/company/index.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0159",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0159"
+      ]
+    },
+    {
       "url": "https://www.yamamoto-ss.co.jp/company/",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0038",
@@ -12080,6 +13029,19 @@
       ]
     },
     {
+      "url": "https://www.yamato-scale.co.jp/about/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0164",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0164"
+      ]
+    },
+    {
       "url": "https://www.yamatoamericas.com/",
       "source_page": "imported-food-machinery-v273-db-title-r27.html",
       "entity_id": "mb-ifm-0147",
@@ -12090,6 +13052,19 @@
       ],
       "entity_ids": [
         "mb-ifm-0147"
+      ]
+    },
+    {
+      "url": "https://www.yamatomfg.com/company/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0158",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0158"
       ]
     },
     {
@@ -12142,6 +13117,19 @@
       ],
       "entity_ids": [
         "mb-gohan-0081"
+      ]
+    },
+    {
+      "url": "https://www.yokoyama-works.jp/%E4%BC%9A%E7%A4%BE%E6%A1%88%E5%86%85/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0150",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0150"
       ]
     },
     {
@@ -12223,6 +13211,19 @@
       ]
     },
     {
+      "url": "https://yasudaft.co.jp/company/outline/",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0172",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0172"
+      ]
+    },
+    {
       "url": "https://ymd-s.com/company.html",
       "source_page": "japan-food-machinery-v273-r58.html",
       "entity_id": "maker-0055",
@@ -12262,6 +13263,19 @@
       ]
     },
     {
+      "url": "https://yorodzu.co.jp/profile.html",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0136",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0136"
+      ]
+    },
+    {
       "url": "https://yoshida-ya.net/",
       "source_page": "rail-food-kitchen-v273-db-title-r27.html",
       "entity_id": "mb-rail-0035",
@@ -12285,6 +13299,19 @@
       ],
       "entity_ids": [
         "maker-0071"
+      ]
+    },
+    {
+      "url": "https://yoshizaki-sim.com/index.htm",
+      "source_page": "japan-food-machinery-v273-r58.html",
+      "entity_id": "maker-0121",
+      "label": "会社HP",
+      "kind": "japan_machinery_company_home",
+      "source_pages": [
+        "japan-food-machinery-v273-r58.html"
+      ],
+      "entity_ids": [
+        "maker-0121"
       ]
     },
     {

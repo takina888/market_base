@@ -9,8 +9,8 @@ import { fileURLToPath } from 'node:url';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const swSource=fs.readFileSync(path.join(ROOT,'sw.js'),'utf8');
 const controllerSource=fs.readFileSync(path.join(ROOT,'assets/js/market-base-update-controller-v335.js'),'utf8');
-const TOKEN='20260810-v333-19-android-install-stability';
-const BUILD='MARKET_BASE_V333_19_ANDROID_INSTALL_STABILITY_20260810';
+const TOKEN='20260907-v333-19-jfm-v077-currency-hf2';
+const BUILD='MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907';
 
 function mockResponse(label){
   return {label,ok:true,status:200,clone(){return mockResponse(`${label}:clone`);}};

@@ -2,7 +2,7 @@
   'use strict';
   if(global.MarketBaseHomeDeferred)return;
 
-  var TOKEN='20260810-v333-19-android-install-stability';
+  var TOKEN='20260907-v333-19-jfm-v077-currency-hf2';
   var promises=Object.create(null);
   var failures=Object.create(null);
   var states=Object.create(null);

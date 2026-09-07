@@ -1,6 +1,6 @@
 (function(global){
   'use strict';
-  const build=global.MARKET_BASE_BUILD||{id:'MARKET_BASE_V333_19_ANDROID_INSTALL_STABILITY_20260810',assetVersion:'20260810-v333-19-android-install-stability'};
+  const build=global.MARKET_BASE_BUILD||{id:'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907',assetVersion:'20260907-v333-19-jfm-v077-currency-hf2'};
   global.MarketBaseRuntime=Object.freeze({
     build,
     isFile:global.location?.protocol==='file:',

@@ -1,0 +1,37 @@
+MARKET BASE V333.19 Currency Rate HF2 Re-Audit
+Date: 2026-09-07
+Base: MARKET_BASE_V333_19_FULL_HANDOFF_AND_DATA_20260810(2).zip
+Previous patch: Currency Rate HF1
+
+Existing public runtime files changed:
+- market-base-currency-converter-v273-r29.html
+
+Existing public runtime files deleted: 0
+Unrelated existing public runtime files changed: 0
+Global BUILD_ID changed: NO
+version.txt changed: NO
+sw.js changed: NO
+Android/install files changed: NO
+Radio files changed: NO
+
+Additional HF1 defects reproduced before repair:
+1. Active-currency replacement could reuse old-base rates as the new base after refresh failure (CRITICAL wrong conversion).
+2. Reordering cards while a request was in flight could discard a valid current response.
+3. Async rate refresh could rebuild the active input and steal focus while typing.
+
+HF2 validation:
+- Playwright mocked-rate re-audit: PASS 44/44
+- V333.19 release integrity script: PASS
+- Currency page inline JavaScript node --check: PASS 2/2
+- HF1 -> HF2 existing-file diff before audit-doc additions: only currency converter HTML changed
+
+Key safety behavior:
+- Rates carry explicit base provenance and are never converted under another base.
+- Invalid/missing/non-positive API rates are rejected.
+- Wrong-base API responses are rejected.
+- Fast base switching aborts/discards obsolete requests.
+- Reordering does not invalidate a response when the currency set is unchanged.
+- Input focus/value are retained across asynchronous rate refresh.
+- Offline fallback never uses rates tagged to a different base.
+
+Device deployment test: NOT RUN in this container; verify on real iPhone/Android after upload.

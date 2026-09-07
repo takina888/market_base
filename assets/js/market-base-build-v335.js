@@ -1,10 +1,10 @@
 (() => {
   const build = Object.freeze({
-    id: 'MARKET_BASE_V333_19_ANDROID_INSTALL_STABILITY_20260810',
+    id: 'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907',
     label: 'MARKET BASE V.333.19',
     release: 'V.333.19',
-    date: '2026-08-10',
-    assetVersion: '20260810-v333-19-android-install-stability'
+    date: '2026-09-07',
+    assetVersion: '20260907-v333-19-jfm-v077-currency-hf2'
   });
   window.MARKET_BASE_BUILD = build;
   document.documentElement.dataset.marketBaseRuntimeBuild = build.id;

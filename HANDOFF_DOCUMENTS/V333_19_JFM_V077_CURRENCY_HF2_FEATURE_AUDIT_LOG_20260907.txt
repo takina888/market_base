@@ -1,0 +1,94 @@
+===== Currency HF2 full re-audit =====
+PASS default amount is 1000 
+PASS initial network request issued ['https://api.frankfurter.dev/v2/rates?base=JPY&quotes=USD%2CCNY%2CTWD%2CEUR%2CVND%2CTHB%2CKRW%2CSGD%2CHKD']
+PASS Frankfurter v2 rates endpoint https://api.frankfurter.dev/v2/rates?base=JPY&quotes=USD%2CCNY%2CTWD%2CEUR%2CVND%2CTHB%2CKRW%2CSGD%2CHKD
+PASS request base is JPY {'base': ['JPY'], 'quotes': ['USD,CNY,TWD,EUR,VND,THB,KRW,SGD,HKD']}
+PASS request has exactly 9 quote currencies {'base': ['JPY'], 'quotes': ['USD,CNY,TWD,EUR,VND,THB,KRW,SGD,HKD']}
+PASS no undocumented cache-buster query {'base': ['JPY'], 'quotes': ['USD,CNY,TWD,EUR,VND,THB,KRW,SGD,HKD']}
+PASS mock TWD conversion applies 
+PASS saved zero amount preserved 
+PASS invalid favorite code resets defaults ['JPY', 'USD', 'CNY', 'TWD', 'EUR', 'VND', 'THB', 'KRW', 'SGD', 'HKD']
+PASS fresh cache shown during verification 保存レート レート日 2026/09/06 ・取得 2286/11/20 17:46 ・更新確認中
+PASS fresh cache still starts network 
+PASS network replaces fresh cache 
+PASS newer built-in chosen over older cache 内蔵参考レート レート日 2026/07/16 ・更新確認中
+PASS built-in fallback value used NT$ 198.32
+PASS newer cache chosen over built-in 保存レート レート日 2026/09/06 ・取得 2026/09/06 13:06 ・更新確認中
+PASS newer cache fallback value used 
+PASS wrong-base response rejected 内蔵参考レート レート日 2026/07/16 ・オンライン更新失敗
+PASS wrong-base values not applied 
+PASS zero rate response rejected 内蔵参考レート レート日 2026/07/16 ・オンライン更新失敗
+PASS reorder persisted while response accepted ['USD', 'JPY']
+PASS reordered page uses live rate 
+PASS input focus preserved after async refresh 
+PASS typed amount preserved after async refresh 
+PASS live rate recalculates typed amount 
+PASS base switch preserves equivalent amount immediately 6.20
+PASS base switch keeps TWD value stable before network 
+PASS derived base rates remain correct after refresh failure 最新取得 レート日 2026/09/07 ・取得 2026/09/07 09:25 ・オンライン更新失敗
+PASS active replacement keeps numeric input 
+PASS active replacement rebases TWD correctly NT$ 32,258.06
+PASS unknown new base fails closed レートを取得できません
+PASS unknown new base does not show stale TWD math NT$ —
+PASS known quote remains usable after failed new quote 
+PASS missing new quote shown as unavailable د.إ —
+PASS partial saved cache is retained on failure 保存レート レート日 2026/09/06 ・取得 2026/09/06 13:06 ・オンライン更新失敗
+PASS partial cache known value shown 
+PASS partial cache unknown value stays dash 
+PASS intermediate base request aborted [{'url': 'https://api.frankfurter.dev/v2/rates?base=JPY&quotes=USD%2CCNY%2CTWD%2CEUR%2CVND%2CTHB%2CKRW%2CSGD%2CHKD', 'state': 'resolved'}, {'url': 'https://api.frankfurter.dev/v2/rates?base=TWD&quotes=JPY%2CUSD%2CCNY%2CEUR%2CVND%2CTHB%2CKRW%2CSGD%2CHKD', 'state': 'aborted'}, {'url': 'https://api.frankfurter.dev/v2/rates?base=USD&quotes=JPY%2CCNY%2CTWD%2CEUR%2CVND%2CTHB%2CKRW%2CSGD%2CHKD', 'state': 'pending'}]
+PASS final rapid-switch base is USD 
+PASS final USD/TWD conversion consistent NT$ 200.00
+PASS online event triggers immediate refresh 
+PASS 10-minute-old rate does not re-fetch 
+PASS 16-minute-old rate re-fetches 
+PASS currency chooser contains all 37 configured currencies 37
+PASS cache tagged to wrong base ignored 内蔵参考レート レート日 2026/07/16 ・更新確認中
+
+SUMMARY 44 / 44 PASS
+
+===== Japan Food Machinery V077 integrated audit =====
+PASS manufacturer count 191 {'manufacturers': 191, 'machines': 2528, 'manufacturers_with_products': 169, 'manufacturers_without_products': 22, 'numeric_capacity': 1309, 'flagship': 40, 'pdf': 83, 'overseas': 43, 'manufacturers_with_export_evidence': 44, 'manufacturers_with_overseas_network': 21, 'manufacturers_with_overseas_support_only': 18, 'manufacturers_no_export_or_domestic_spec': 2, 'manufacturers_export_unconfirmed': 106, 'manufacturers_external_source_enriched': 74}
+PASS machine count 2528 {'manufacturers': 191, 'machines': 2528, 'manufacturers_with_products': 169, 'manufacturers_without_products': 22, 'numeric_capacity': 1309, 'flagship': 40, 'pdf': 83, 'overseas': 43, 'manufacturers_with_export_evidence': 44, 'manufacturers_with_overseas_network': 21, 'manufacturers_with_overseas_support_only': 18, 'manufacturers_no_export_or_domestic_spec': 2, 'manufacturers_export_unconfirmed': 106, 'manufacturers_external_source_enriched': 74}
+PASS array counts match declarations 
+PASS machine IDs unique 
+PASS all legacy JFM-0001..0485 IDs preserved 
+PASS manufacturer names unique 
+PASS all machine maker refs resolve 
+PASS obsolete export research-note key removed 
+PASS new additional info populated 
+PASS legacy search terms retained 
+PASS legacy public info retained 
+PASS JS mirror wrapper parseable 
+PASS JS mirror equals JSON 
+PASS cross-search summary parseable 
+PASS cross-search JFM count 2719 {'id': 'japan_food_machinery', 'title': '日本の食品機械メーカー・製品DB', 'category': '食品機械・メーカー', 'url': 'japan-food-machinery-v273-r58.html', 'record_count': 2719, 'countries': ['日本']}
+PASS cross-search total count 5175 {'version': 'V333_19_JFM_V077_JA_SUMMARY_20260903', 'purpose': '本体から国・地域名、企業・ブランド名、商品・本文を検索し、専門DB別HTMLへ検索語を渡す全文索引', 'db_count': 8, 'record_title_count': 5175, 'fulltext_enabled': False, 'source': 'embedded-cross-db-search-index-v273-db-title-r27.js'}
+PASS cross-search index prefix 
+PASS cross-search index parseable 
+PASS full cross-search JFM records 2719 2719
+PASS full cross-search total 5175 {'version': 'V333_19_JFM_V077_JA_20260903', 'purpose': '本体から国・地域名、企業・ブランド名、商品・本文を検索し、専門DB別HTMLへ検索語を渡す全文索引', 'db_count': 8, 'record_title_count': 5175, 'fulltext_enabled': True}
+PASS home fixed card shows 191 makers 
+PASS home fixed card shows 2,528 products 
+PASS JFM UI no obsolete note row 
+PASS JFM product search includes new public fields 
+PASS JFM details include additional info 
+PASS JFM details include legacy terms 
+PASS JFM details include legacy public info 
+PASS preview candidates regenerated for 191 JFM maker refs 191
+PASS browser renders updated JFM counts 191
+メーカー
+2,528
+製品・型式
+44
+輸出実績確認
+21
+海外拠点・代理店
+18
+海外対応情報
+106
+公開情報未確認
+PASS legacy model FRT-10 is searchable 
+PASS additional public info is rendered in product details JFM-0003小型成形機＋小型おにぎり自動包装機GSE-1800 + PS-1800不二精機株式会社｜FUJISEIKIおにぎり成形・包装ライン包あんおにぎりの成形から包装までを連続化する中型ラインです。要望に応じた製品仕様にも対応しています。対象食品包あんおにぎり / おにぎり工程成形・供給・包装能力1,800個/時電源三相200V公式情報同じメーカーを見る仕様・衛生・ライン接続の詳細を見る主な効果成形包装自動化 / 省人化 / 包あん対応 / 品質安定バッチ容量ホッパー容量3升（約9kg）タクト確認できません対応重量確認できません対応サイズ確認できません消費電力1.2kW熱源確認できません圧縮空気確認できません外形寸法W2,030×D900×H1,650mm重量約520kg衛生・洗浄確認できませんライン接続成形機と包装機を直結オプション確認できません海外関連確認できません追加情報飯温
+PASS maker UI does not render obsolete research note 
+
+SUMMARY 32 / 32 PASS

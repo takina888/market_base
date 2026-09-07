@@ -239,10 +239,10 @@ supportAssets.sort();
 localPhotoAssets.sort();
 
 const payload = {
-  version: 'MARKET_BASE_OFFLINE_MANIFEST_V333_19_ANDROID_INSTALL_STABILITY_20260810',
-  buildId: 'MARKET_BASE_V333_19_ANDROID_INSTALL_STABILITY_20260810',
-  assetVersion: '20260810-v333-19-android-install-stability',
-  generatedAt: '2026-08-10T12:00:00+08:00',
+  version: 'MARKET_BASE_OFFLINE_MANIFEST_V333_19_JFM_V077_CURRENCY_HF2_20260907',
+  buildId: 'MARKET_BASE_V333_19_JFM_V077_CURRENCY_HF2_20260907',
+  assetVersion: '20260907-v333-19-jfm-v077-currency-hf2',
+  generatedAt: '2026-09-07T16:35:00+08:00',
   datePhotoWindowDays: 10,
   textAssets,
   supportAssets,

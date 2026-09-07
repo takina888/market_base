@@ -1,0 +1,242 @@
+===== python3 scripts/test_v333_19_release_integrity.py =====
+PASS  public HTML pages = 38
+PASS  all public HTML has exact V333.19 build/site metadata
+PASS  37 pages use one current controller; radio player intentionally uses none
+PASS  update controller is the final page-local boot script
+PASS  all local HTML v/mbv cache queries use the V333.19 token
+PASS  no V333.16/V333.17/V333.18 build or token remains in public HTML
+PASS  12 shell pages use V333.19 JavaScript and no public HTML references old app/shell JavaScript
+PASS  version.txt matches V333.19 BUILD_ID
+PASS  manifest version is V333.19
+PASS  manifest build_id matches V333.19
+PASS  manifest start_url uses V333.19 while PWA id preserves the public V333.10 identity
+PASS  all V333.19 navigation/performance assets exist
+PASS  index.html references every V333.19 asset
+PASS  index.html omits old app and old shell JavaScript
+PASS  Service Worker declares the V333.19 generation
+PASS  Service Worker REQUIRED and CORE arrays are parseable
+PASS  all local SW references exist and use the current token
+PASS  refresh/navigation surfaces contain no destructive cache reset
+PASS  offline manifest metadata matches V333.19
+PASS  offline manifest includes every V333.19 asset
+PASS  offline manifest omits old app/shell/controller/dock generations
+PASS  compatibility aliases are byte-identical
+PASS  current Service Worker and JavaScript pass node --check
+
+SUMMARY
+HTML pages: 38
+Controller pages: 37
+SW references: 202
+Offline text assets: 339
+PASSED: V333.19 release integrity
+
+===== python3 scripts/test_v333_19_samsung_install_helper.py =====
+PASS  PWA id preserves the deployed V333.10 app identity
+PASS  manifest version is V333.19
+PASS  manifest build id is V333.19
+PASS  manifest start_url uses the V333.19 release token
+PASS  PWA id is independent from the V333.19 release token
+PASS  official signed Android package URL is configured and present
+PASS  index loads helper CSS exactly once
+PASS  index loads helper JavaScript exactly once
+PASS  helper loads before the final update controller
+PASS  helper targets Samsung Internet by its SamsungBrowser user agent
+PASS  helper observes Samsung beforeinstallprompt
+PASS  Samsung beforeinstallprompt is not automatically launched
+PASS  helper never calls the browser WebAPK prompt
+PASS  non-Samsung browsers keep their normal install behavior
+PASS  official package action appears only after an HTTPS URL is configured
+PASS  official Android package configuration rejects HTTP URLs
+PASS  helper remains fail-closed if a future package URL is missing
+PASS  signed APK settings guidance appears only with an official package
+PASS  Samsung source-permission steps cover Japanese and Traditional Chinese labels
+PASS  guidance keeps Google Play Protect enabled
+PASS  official APK action provides a stable download filename
+PASS  Samsung shortcut fallback is wired
+PASS  Chrome PWA fallback is wired
+PASS  copy does not claim control over Samsung's own install icon
+PASS  install guidance can be reopened by the app
+PASS  Samsung shortcut page intentionally has no PWA manifest
+PASS  home-screen shortcut redirects to MARKET BASE on later launches
+PASS  there is only one canonical Samsung shortcut page
+PASS  helper JavaScript syntax is valid
+
+Samsung Internet install-helper contract: OK
+
+===== node scripts/test_v333_19_manifest_hardening.mjs =====
+{
+  "ok": true,
+  "manifestVersion": "MARKET_BASE_OFFLINE_MANIFEST_V333_19_JFM_V077_CURRENCY_HF2_20260907",
+  "textAssets": 339,
+  "textBytes": 94604544,
+  "dataAssets": 62,
+  "htmlPages": 38,
+  "offlineSaveMarker": "mb-offline-save=1",
+  "destructiveFallbacks": 0
+}
+
+===== node scripts/test_v333_19_cache_coherence.mjs =====
+V333.19 cache coherence: PASS
+
+===== node scripts/test_v333_19_cache_runtime.mjs =====
+V333.19 cache/runtime lifecycle: PASS
+
+===== node scripts/test_v333_19_android_install_contract.mjs =====
+{
+  "ok": true,
+  "mode": "source-template",
+  "root": "/mnt/data/v33319_integrated_20260907",
+  "passes": [
+    {
+      "name": "PWA identity stays compatible with the already-distributed V333.10 identity",
+      "detail": "https://takina888.github.io/market_base/?v=20260803-v333-10-cloudflare-web-analytics"
+    },
+    {
+      "name": "web app manifest remains installable and release-coherent",
+      "detail": {
+        "startUrl": "https://takina888.github.io/market_base/index.html?v=20260907-v333-19-jfm-v077-currency-hf2",
+        "scope": "https://takina888.github.io/market_base/",
+        "display": "standalone"
+      }
+    },
+    {
+      "name": "PWA icons contain real 192px and 512px PNGs",
+      "detail": [
+        {
+          "size": 192,
+          "file": "icons/market-base-icon-192.png"
+        },
+        {
+          "size": 512,
+          "file": "icons/market-base-icon-512.png"
+        }
+      ]
+    },
+    {
+      "name": "index links one same-origin V333.19 manifest and the install helper assets"
+    },
+    {
+      "name": "Samsung Internet suppresses only its generated WebAPK prompt"
+    },
+    {
+      "name": "official APK action is fail-closed until an HTTPS package is configured",
+      "detail": "https://takina888.github.io/market_base/downloads/android/MARKET_BASE_V333_19_ANDROID_API36_RELEASE_20260810.apk"
+    },
+    {
+      "name": "Samsung shortcut page cannot trigger PWA/WebAPK installation"
+    },
+    {
+      "name": "radio implementation matches the frozen V333.18 contract except for the release token",
+      "detail": {
+        "files": 12,
+        "externalBaselineCompared": false
+      }
+    },
+    {
+      "name": "existing radio drag, collision, lifetime, and viewport contract still passes",
+      "detail": "PASS — V333.16 radio dock ready gate, whole-tab drag, validUntil, and four-viewport collision contract"
+    },
+    {
+      "name": "offline manifest generation is coherent with V333.19 and includes install guidance",
+      "detail": {
+        "textAssets": 339
+      }
+    },
+    {
+      "name": "service worker keeps live radio outside CacheStorage and ships the install helper",
+      "detail": {
+        "requiredAssets": 31,
+        "mediaAssets": 0
+      }
+    },
+    {
+      "name": "Android wrapper is a TWA project targeting Android API 36",
+      "detail": {
+        "packageName": "io.github.takina888.marketbase",
+        "compileSdk": 36,
+        "targetSdk": 36,
+        "minSdk": 23
+      }
+    },
+    {
+      "name": "Android manifest exposes only the HTTPS MARKET BASE route with minimal permissions",
+      "detail": {
+        "permissions": [
+          "android.permission.INTERNET"
+        ]
+      }
+    },
+    {
+      "name": "Digital Asset Links template binds the release package at the origin root",
+      "detail": "https://takina888.github.io/.well-known/assetlinks.json"
+    },
+    {
+      "name": "release signing is secret-backed, stable across updates, and never publishes debug APKs"
+    },
+    {
+      "name": "GitHub build template installs API 36 and preserves a verifiable release artifact"
+    },
+    {
+      "name": "documentation does not claim that a web manifest can fix Samsung-generated WebAPK targetSdk"
+    }
+  ],
+  "warnings": [],
+  "failures": [],
+  "releaseState": {
+    "pwaIdentity": "frozen-v333.10-compatible",
+    "androidPackageUrlConfigured": true,
+    "staticTargetSdk": 36,
+    "apkSignatureVerified": false,
+    "deviceChecksRequired": true
+  },
+  "manualDeviceContract": [
+    {
+      "id": "SAMSUNG-WEB-01",
+      "device": "Samsung Internet, current stable",
+      "action": "Open /market_base/?install=samsung",
+      "expected": "No browser-generated WebAPK prompt is invoked; the MARKET BASE guidance dialog opens."
+    },
+    {
+      "id": "SAMSUNG-SHORTCUT-02",
+      "device": "Samsung Internet, current stable",
+      "action": "Open the shortcut page and use Page to add > Home screen",
+      "expected": "A browser shortcut is created without an APK and opens MARKET BASE on the next launch."
+    },
+    {
+      "id": "SAMSUNG-APK-03",
+      "device": "Samsung phone with Play Protect enabled",
+      "action": "Download the signed release APK from the configured HTTPS link and open it",
+      "expected": "The package installer opens. A per-source install permission and/or Play Protect scan may still appear for direct distribution."
+    },
+    {
+      "id": "TARGET-SDK-04",
+      "device": "Current Android / Samsung phone",
+      "action": "Install the API 36 release APK",
+      "expected": "The specific “built for an older version of Android” target-SDK warning does not appear."
+    },
+    {
+      "id": "DAL-TWA-05",
+      "device": "Online device with a browser that supports TWA",
+      "action": "Launch the installed package after origin-root assetlinks is live",
+      "expected": "MARKET BASE opens at /market_base/ as a verified TWA without a browser URL bar."
+    },
+    {
+      "id": "UPDATE-06",
+      "device": "Device with the immediately previous signed MARKET BASE APK",
+      "action": "Install a higher-versionCode APK signed by the same release key",
+      "expected": "Android accepts it as an in-place update and retains app identity/data."
+    },
+    {
+      "id": "RADIO-SW-07",
+      "device": "Samsung and non-Samsung Android phones",
+      "action": "Play radio, background/foreground the app, wait, change pages, then stop/restart",
+      "expected": "No catch-up/fast-forward playback; drag still works; live audio and Range requests bypass the service worker."
+    }
+  ]
+}
+
+===== node scripts/test_v333_19_navigation_performance.mjs =====
+V333.19 navigation/performance contracts passed (937304 initial raw JS bytes).
+
+
+FINAL KEY TESTS COMPLETED
