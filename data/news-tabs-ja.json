@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-08T11:28:15Z",
+  "generated_at": "2026-09-08T16:43:36Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,6 +29,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "be651d2a9b1d4371",
+          "title": "ヘルベルト・ブロムシュテットが「高松宮殿下記念世界文化賞」受賞",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBEVmp1YXR2UG5ZNFdCMEVPRWVrUWxUN1RyMTdvcEQxRjlRNmtSQVFGel9SanN3cTRILWFOY0I0V2ZldXllN2RLMQ?oc=5",
+          "source": "ぶらあぼONLINE | クラシック音楽情報ポータル",
+          "published_at": "2026-09-08T09:58:07Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "fb9f93a5e52f9f96",
           "title": "大林組、成田国際空港で自動物流道路の実現に向けた実証実験を実施",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2VW80dkd6V1F2YWZZcGpHbEpOamdoM0RLaTUwS1ExN3lnbFl0ZDRCNkpZZktueXo5b1UtMk9BR0RJRkdZdzVzXzlDY2pqT2ljWERlUmtuSmdfYWMwa1J1X3lFZ1ZVazd3VVE?oc=5",
@@ -39,11 +49,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "539f51ee21b360aa",
-          "title": "異世界・ファンタジーアニメ4チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53cEZQMldVUW91SEJyZmh0ZHowSTBCenBkZUthMTR6ZTVxM2h5bWFORFFKRk5YdnRVY0NtbklqWTE4X1BHZFpTbjhacHJyeDhMRnY3MQ?oc=5",
-          "source": "abema.tv",
-          "published_at": "2026-09-08T08:50:45Z",
+          "id": "f4c01821600992a4",
+          "title": "OECD国際学力調査、日本が全分野で1位 読解・数学・科学 平均低下の中で横ばい維持（産経新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pbl82UUhKV1Bsam1fcHRfb2pwVXVQdUluTUsyZnNnd3ZMU2VwVUYwZElpTllMWFBFeGJBcjVMUm1pQ0stRlVzVEpfNE9oWVl6N1QxTTZmQ3VsS0ZFdTlNVlNsRVhadFBsb0Q1bzMwQXpNbVdnbVpzQzNxTWlnSEE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-08T08:35:21Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4fe50cdc84ded66f",
+          "title": "三田国際大学、2028年4月開設に向け設置構想中…発表会12/13（リセマム）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85NklfMEFzWGR5V0tVR2ZUM2ZKODNpUE83dGZqd0hvMzRiZmhMVVluUWM5enNWcmRwVTZSekMxQUNDRnd5RTNVUzJFWVl5a0FRUGFsS09EdWlIVzRETGYzZWd6WWQ3bFRhbXJySERsajJ5TWxRNzVnVnpsMldTbTg?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-08T08:15:03Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e742316ecd983e1a",
+          "title": "世界市場に試練の秋、波乱含み－日本がストレスの震源となる可能性（Bloomberg）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBraTY4WEVNQVQyel96UXJDWnYtUjdXQWRBYV9iN2RYZkNpdVFEUXVUdm0wZ1dfSE53WVJFcy1oSEFIelNlMEdxT1FEeE13NGVIYlV4NGNGZjROb1ZiOV9IbWIzUV9RZ1dHRC1RRy1XTGNHUUoybUZzNTVFdS1ZdWs?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-08T06:36:43Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -54,36 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA5V1Q3dGxyWm9QcFJLdlI3YWNrZFFXZWFEenFCaXhwNUdJd3lDR3h0cDN4SnJXZDhTQi1vdHhyQzVhZDBKYzlNQzNyWl8ySEFzd0xxZ2lJTXhzMUZ2WEEwVjA0bmdqUGM?oc=5",
           "source": "千葉市",
           "published_at": "2026-09-08T06:29:52Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "827ae2ec67c89e76",
-          "title": "【報告】インド工科大学ブバネシュワール校と国際交流協定および学生交流覚書を締結",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43SzFDQ3NlX3dYNmtBX0xSY3VWalRZa0lSVHpwM3ZwRC15cGhJMVV6TmZPLVBuTHFCNFY2ZDBuU2VIT2ZpZ2xZaDNLYjZrdzBxRHNCWWhzRHlnMVZQa0J0MTNqanlmTVZvVWxKaDMwSEk?oc=5",
-          "source": "国立大学法人 電気通信大学",
-          "published_at": "2026-09-08T04:28:30Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fa5a9b666da707f3",
-          "title": "中国の貿易統計（26年8月）～輸出入ともに加速、半導体関連は高い伸びを維持",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NSG82aHNKNlVnYk9zV1Fkbk9jTUJaa0tFcDhOZllVWUV5VWhQYkExQkNLdGdCUGc0MkxSRFRjTDZGSVNqb0c1M2c5VVVZaUhVX3RiMkc4d0V1dG90TWFDVG50M09NWGpiajl0Ukd4VVU4b0RqaGhzRzFEZDYwTUnSAX9BVV95cUxOTUhvNmhzSjZVZ2JPc1dRZG5PY01CWmtLRXA4TmZZVVlFeVVoUGJBMUJDS3RnQlBnNDJMUkRUY0w2RklTam9HNTNnOVVVWWlIVV90YjJHOHdFdXRvdE1hQ1RudDNPTVhqYmo5dFJHeFVVOG9Eamhoc0cxRGQ2ME1J?oc=5",
-          "source": "nli-research.co.jp",
-          "published_at": "2026-09-08T04:19:43Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "692f233e607b305c",
-          "title": "世界大学ランキング2026、ハーバードが首位独占で米国勢が圧倒",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NZUVUcmtvTm5Qb2xiYk9nQ3lCTHhLa0J6bFgtTW9LS3VPWFBoRnhtNGNTNW05aS1IOWlBU21pVlZaTzNsdVhNR3BUbFdocTJHNW0tT2hndExaYmFyNEZyOFZIT180TnhTdEVPQU1sSlN6dlUxLXdVc3lfMEFNYzQ?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-08T04:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -109,16 +109,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZGQ0M0tCdGlfNEdSR1lXUHF6NXhkNWhEcjNSQVlNVUtuVmdlUVdKM3VXa1I4UExReEU5WXJ5WE5WZDdOUnBVYUdDYTJkc3NIQjcxSl9PcUlJTUdDNkxremdqLUhXOFh0bmc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-24T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8ff79b0d57f49dd6",
-          "title": "フジワラテクノアート、「小型通気式固体培養装置」がFOOMA AWARD最優秀賞受賞",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uZzhtZkMwck5YUzc4VzdkVUdSNzFxQ0VPT29EWTdfQW16Sk1BWXFqaWdlVGpfUzBSdXZEWW1kTE96eDJ4WnZ2dDVWVzNnNXZydWN0bVBobUZxV3BQdVZuRVpqOEJCUQ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-06T15:07:51Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -159,6 +149,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LbUlhc2Q0X3c1QTdaYjVtTEdPNTUzYmhPdktDeXJmRFpSM3k4b3lHLXFPbV9UVC1BRDJIRkFJS1NWM1JybWxPYkl1SDZNeFQwZDdxeTAwc0tWRTRZTE03eFhCZ3Z2TVpuaXc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-06-15T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ee1bb5176171cef3",
+          "title": "2026冷媒充填機市場規模マップ：シェア・動向・フレームワーク、年平均成長率（CAGR）4.3%の安定成長",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DRmtUWVRyaWtSV1VsbENWWUF2RkRiYjduSURMdDlVenNJaGVPM0ZHejBORnYyLUQ2R01SOWVEMm52d3Z2RzBENl84Z0FsLWlBZHFz?oc=5",
+          "source": "dreamnews.jp",
+          "published_at": "2026-09-07T04:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -274,6 +274,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "cf75f32db13d6fb4",
+          "title": "トライアル／鹿児島県曾於郡大崎町に「スーパーセンタートライアル大崎店（店舗面積4054m2）」27年3月7日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IbkEydFo2ZmNSdlhSQlplQTNyWnk0a25CWDRzdnhvZWhwR2Rxc1l1MS1nS3ZZbWl4b2Mtc3laZkVQU3o3VXd6YnZJQmRvSmlCUmZlUg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-31T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "f6f5fc423947453e",
           "title": "平和堂／大阪府吹田市に「（仮称）岸辺店（店舗面積3651m2）」27年3月2日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jdms2RzRDLXQ1NjltTUs3enpVREw2ZWNmX215S0lUUDVyZklmRFBHQVhTRWViZVNaSmhESHhCZG5BX20wOW9vZENCWlBXdnJQYjdCZnVn?oc=5",
@@ -299,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LZWZxLU5TcHFQMFZ2S0JMdFVmOEZ6N21MS3VsQVBGaTZCOE1mRWN2bUlCWXMwOEVDWnZhVmVsbjZFalBlWG1OcEFINEoweDBUcEctU2FB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-24T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "39f4ac2189f7dc73",
-          "title": "イオンフードスタイル 価値提案型スーパーマーケット「ＦｏｏｄＳｔｙｌｅ」都内８店舗目「フードスタイル東大島店」がオープン！",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZnBHSXNTdHRUWGp6alVFT2tFUUlhUTh1NHV2UTVHV1FBbG9qMHdUd1lTd0JrTjlpTHM4NTk2MHd1UjNua0RuaUN6MlJPdmc2VkZYRnNUT0VqaXBxd1dRaHk0end3Y2EycGc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-08T11:28:15Z",
-  "last_success_at": "2026-09-08T11:28:15Z",
+  "last_attempt_at": "2026-09-08T16:43:36Z",
+  "last_success_at": "2026-09-08T16:43:36Z",
   "consecutive_failure_count": 0
 }
