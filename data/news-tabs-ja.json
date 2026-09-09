@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-09T16:45:19Z",
+  "generated_at": "2026-09-09T21:00:01Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -11,8 +11,7 @@
     "overseas"
   ],
   "retained_categories": [
-    "regulations",
-    "food_factory"
+    "regulations"
   ],
   "failed_categories": {},
   "categories": {
@@ -20,21 +19,21 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "aec3ae8977e4ea1c",
-          "title": "Re:ゼロから始める異世界生活 4th #82【地上波先行・WEB最速】",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRclRUaUNlakN5YlpWYU1uSFo2cjB2aDc2Z3ZiZ3BSSEhYME9jdE1ZUmxDV21pN192RW5GZkJCa0N3X19PZkF4OGFLbm56WXl0UThUYzhPMm1uelUxNmVjdlMzV2xXSzBaMkE?oc=5",
-          "source": "ABEMA",
-          "published_at": "2026-09-09T13:32:15Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-09T19:00:28Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-09T12:58:47Z",
+          "id": "aec3ae8977e4ea1c",
+          "title": "Re:ゼロから始める異世界生活 4th #82【地上波先行・WEB最速】",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRclRUaUNlakN5YlpWYU1uSFo2cjB2aDc2Z3ZiZ3BSSEhYME9jdE1ZUmxDV21pN192RW5GZkJCa0N3X19PZkF4OGFLbm56WXl0UThUYzhPMm1uelUxNmVjdlMzV2xXSzBaMkE?oc=5",
+          "source": "ABEMA",
+          "published_at": "2026-09-09T13:32:15Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -200,6 +199,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "e0efcb7f91cbda9e",
+          "title": "多品種小ロットの「手書き・配合ミス」を克服 キャニオンスパイスの食品工場DX",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JVzFFdGtmaGVCVWRDc1h2aEliR0t2VEVzbTFHTWdOWHZOR05OcGpJamhITkVGZzlRX2ZRQnczSzNlb3ZHbnVpWHRId0FBT3dMd0N6SjFMTkdZTTliVF84VmJVTHB2aGp2dUkzaW15Rmw?oc=5",
+          "source": "TechTargetジャパン",
+          "published_at": "2026-09-09T20:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "05be2d7c5a0244ed",
           "title": "GoldenHarvest、横浜市「TECH-PoC」に採択 市内食品工場の残渣をアメリカミズアブで飼料用タンパクへ変換する実証を開始",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41X1dKTWQxV08wT0R1R0N2QkI5TnZxbjA1T0VEcVNOVGZxVzZlXzdYdFVBaE5EOVZqaUk4OWxmdnVpcVVLX3BBQmtmbEVEUjkxWGRjSVR1b0xiZw?oc=5",
@@ -228,22 +237,22 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4a4031dcf4ae9bd6",
-          "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
-          "source": "LOGISTICS TODAY",
-          "published_at": "2026-08-20T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "f76c9cdcf276c203",
+          "title": "平和堂／京都府城陽市に「（仮称）大久保店（店舗面積3805m2）」27年1月2日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxZzVCSzA1eTVNVTY5RWYwclF3bjRlS3BzWVBVbHotUmVTZmx0WFhPczVHVEMzd2NDTjdWaTgwWnJpTmJ0WUdqWUxwT2RseFh0bE1QZWN3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-09T01:31:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "ad488a34b0c14961",
           "title": "トフロム八重洲 タワー／商業ゾーンに老舗や新業態など55店舗オープン、9月10日開業",
@@ -303,16 +312,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "735893c68c58cf24",
-          "title": "ベイシア／千葉県八千代市に「（仮称）八千代市緑が丘店（店舗面積3896m2）」27年2月20日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BaEFYUlN3OVk0bWJ1dmlNcnBwVVY4aUJJNkJ1SmRuUHhTSDI5dWdSZGNWRXpPUjdhd1hYVENDSERhNzUyYmFRWHhHbUZNdlJmMkg4MXVn?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-20T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -350,21 +349,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e8dc2b1dc051806f",
-          "title": "米国包装材規制の今（4）プラスチック規制の現状と先取権法 | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-06-04T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "a42eaf13c40076e7",
           "title": "米国流通市場を読む（3）マーケティングに影響する超加工食品基準 | 地域・分析レポート - 海外ビジネス情報",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HdmFWWjZnclp3VjBZNEtpd3NaOGwwM0ZiS04wU3dlNzBHWUJxMGhUTTQwclpLdVZaN1dzSndnNENQX3hvdVZjUmpqMFdXdzhUM1k5bkdWTWN5MDdfZXZ3MmVIOGcwbFNiQXgxT2t0YUNJT0FF?oc=5",
           "source": "jetro.go.jp",
           "published_at": "2026-06-18T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e8dc2b1dc051806f",
+          "title": "米国包装材規制の今（4）プラスチック規制の現状と先取権法 | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-06-04T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -392,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-09T16:45:19Z",
-  "last_success_at": "2026-09-09T16:45:19Z",
+  "last_attempt_at": "2026-09-09T21:00:01Z",
+  "last_success_at": "2026-09-09T21:00:01Z",
   "consecutive_failure_count": 0
 }
