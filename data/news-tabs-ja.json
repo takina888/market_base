@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-08T21:15:13Z",
+  "generated_at": "2026-09-09T04:52:42Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,11 +29,31 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "25db3c409ee8fcc0",
+          "title": "国際卓越研究大学に早稲田が挑戦した意義（下）",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE54MjBKV21vWmhqcnhfbDRXUGRaZ0JQcy1nbnVBRFQ1eDVhMTJmcnExS1RZZVNNaGRJRGY1WHYwY09MXzJPTi1TZXl4Q0xoUQ?oc=5",
+          "source": "waseda.jp",
+          "published_at": "2026-09-09T02:33:42Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "7c60b6b753f3b33d",
           "title": "マツコの知らない世界 純喫茶ホットケーキと令和パンケーキ&農業キャラクターの世界",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42VGhyaXN3eXhlallXQ19QZ2JQUDFmY09KUlAzQnJueGVDVGI5MzBORGlRN2RjdjlUcWJpMU1TeVFoYjZYRGNEa3dZWE9RdlBqV28zbElR?oc=5",
           "source": "tbs.co.jp",
           "published_at": "2026-09-08T13:31:45Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "dd5e177ab8da0647",
+          "title": "日本の公立校で国際教育が受けられる「国際バカロレア」の公立高校からトロント大学、北海道大、早稲田大に合格。共通テストなしで大学に行った吉田志織さんの体験記（HugKum）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNZ3htYVJCNnVua21mSU43V3dTQm9FOVZDMzlCQ0ZJYTJVZkVhVENlZHJjZDZnUndDakp4WHFnOC1Rb091bzVKQlhIZDhULXZrcDQzdG1pYkNwb1VDRERhenViMEhBRWVSMlAwVVpBdmhTY0tQLU9tMnlYUng5T2c?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-08T12:30:10Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,31 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f4c01821600992a4",
-          "title": "OECD国際学力調査、日本が全分野で1位 読解・数学・科学 平均低下の中で横ばい維持（産経新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pbl82UUhKV1Bsam1fcHRfb2pwVXVQdUluTUsyZnNnd3ZMU2VwVUYwZElpTllMWFBFeGJBcjVMUm1pQ0stRlVzVEpfNE9oWVl6N1QxTTZmQ3VsS0ZFdTlNVlNsRVhadFBsb0Q1bzMwQXpNbVdnbVpzQzNxTWlnSEE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-08T08:35:21Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e742316ecd983e1a",
-          "title": "世界市場に試練の秋、波乱含み－日本がストレスの震源となる可能性（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBraTY4WEVNQVQyel96UXJDWnYtUjdXQWRBYV9iN2RYZkNpdVFEUXVUdm0wZ1dfSE53WVJFcy1oSEFIelNlMEdxT1FEeE13NGVIYlV4NGNGZjROb1ZiOV9IbWIzUV9RZ1dHRC1RRy1XTGNHUUoybUZzNTVFdS1ZdWs?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-08T06:36:43Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ffdf3bd0902a1fee",
-          "title": "国際レッサーパンダDAYイベント",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA5V1Q3dGxyWm9QcFJLdlI3YWNrZFFXZWFEenFCaXhwNUdJd3lDR3h0cDN4SnJXZDhTQi1vdHhyQzVhZDBKYzlNQzNyWl8ySEFzd0xxZ2lJTXhzMUZ2WEEwVjA0bmdqUGM?oc=5",
-          "source": "千葉市",
-          "published_at": "2026-09-08T06:29:52Z",
+          "id": "fff79a6b7bfc9f21",
+          "title": "国際物流総合展／人手不足背景に「自動化」機器など多様化、過去最大規模で開幕",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1JaUVnOWxLVjhuVDk4RFdzaUs3QjI5Wm5wcHgyT256MUxoMTZneW5TM0dBVnUtYklyM3E5NzhXeU1yTEI3T0RQUm1ueU9VYnF2enJUWg?oc=5",
+          "source": "物流ニュースのLNEWS",
+          "published_at": "2026-09-08T08:38:52Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -222,7 +222,7 @@
           "id": "4a4031dcf4ae9bd6",
           "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
-          "source": "LOGISTICS TODAY",
+          "source": "logi-today.com",
           "published_at": "2026-08-20T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -232,7 +232,7 @@
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "MONOist",
+          "source": "monoist.itmedia.co.jp",
           "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -244,71 +244,71 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "39f4ac2189f7dc73",
+          "title": "イオンフードスタイル 価値提案型スーパーマーケット「ＦｏｏｄＳｔｙｌｅ」都内８店舗目「フードスタイル東大島店」がオープン！",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZnBHSXNTdHRUWGp6alVFT2tFUUlhUTh1NHV2UTVHV1FBbG9qMHdUd1lTd0JrTjlpTHM4NTk2MHd1UjNua0RuaUN6MlJPdmc2VkZYRnNUT0VqaXBxd1dRaHk0end3Y2EycGc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2f8f3b6317a0c8c3",
+          "title": "「ドン・キホーテ」が山口市初出店へ 山口県内の店舗では初の24時間営業 2027年春以降のオープン見通し（ｔｙｓテレビ山口）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14M0FxeVIxQ0lzeXNNa2VPYTdsWWwyLXVtUUstTC1LX291cjF3UkdDajJLZGdDVzZvTUtCMnR3UFZzUENoWjZyaWFyVjMxcDBCOXVSeEdpeWFyTUc4ck1lUFZMdkxMOFU1djBiZTFoU01Mbk1OV281Q1V2WExPalU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-09T03:41:14Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "ad488a34b0c14961",
           "title": "トフロム八重洲 タワー／商業ゾーンに老舗や新業態など55店舗オープン、9月10日開業",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRTjdDQW9LX3ZxWmY0ZGJ1YTZITmd6ZGpLZmw2TzRfUThaMFZVWUpOcW81eDZLV1IwM1JZbS0xTU9RNFAzZUswZF9RS0Zkc2xGcDhoX2ln?oc=5",
-          "source": "流通ニュース",
+          "source": "ryutsuu.biz",
           "published_at": "2026-09-07T08:29:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e8fcd9681f993593",
-          "title": "バロー／「スーパーマーケットバロー豊中島江店」9月11日オープン、コーナンに出店",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhMWV4SlJyVDlGUnNTWW9KamM5dVVPbXMzRkVpQzRzaWhKY3hCeGR2TW5Lc3lZUjVESlRnTkxmOGt2NTlJaHRyMVN1dmtfSE12X0FEUw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-04T05:50:00Z",
+          "id": "dc8a4e879791c84c",
+          "title": "スーパー生鮮館TAIGA荏子田店、2026年9月開店－横浜青葉区「アドバンスビラ」丸正チェーン跡、約6年ぶり食品スーパー復活",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0ydnJVTVBpRkxrRjQxT3lnY0dzTy1Cdkdvb2hBWFRwRjFYWGM4QWtHU0NwSzV3VmFsbmFDbVVzT0JzYk95MlE?oc=5",
+          "source": "都市商業研究所",
+          "published_at": "2026-09-06T20:50:47Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9bd88acecffcffd4",
-          "title": "アクロスプラザ富山掛尾／平和堂、サンドラッグ、ヤマダデンキ、ゼビオが新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCcmplVWpubF9XMnNGY0MyWWUtNDBsV2JxVHVDbHg1aTJTX3VJeDMwUGJsaVVqM1BWdWZZbktlYVptTUx0VTFmdFUtcnM4Rmh5dEJmaQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-02T05:39:00Z",
+          "id": "623bdc36ffa2ede7",
+          "title": "スポーツと食がつながる新拠点へ 「SPOPIAシラトリ」店舗内に「クックマート」オープン 地域の活性化にも期待=静岡・浜松市",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55VWVyLTVsa2FDTWtJTUw4R1drS1BHRDFUaGNiWW40ZkpJdUg3dGtMNWpNMllXVVhYRnktNVhnSmtaYlI4NEFadGQwbTdKcFNtcmYwNk9rcjVMMWtheEJ4dUNnRVdiVVFxcEczcmxzcmEyTVVUd2daYWs1YTgxMjQ?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-04T11:48:18Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cf75f32db13d6fb4",
-          "title": "トライアル／鹿児島県曾於郡大崎町に「スーパーセンタートライアル大崎店（店舗面積4054m2）」27年3月7日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IbkEydFo2ZmNSdlhSQlplQTNyWnk0a25CWDRzdnhvZWhwR2Rxc1l1MS1nS3ZZbWl4b2Mtc3laZkVQU3o3VXd6YnZJQmRvSmlCUmZlUg?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-31T07:00:00Z",
+          "id": "5abaa31ee1052e30",
+          "title": "スーパーマーケットとスポーツ用品店が一体となった店舗が浜松市にオープン（静岡朝日テレビ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpcHpYaHg3MWk5czNsN2FQVzdNVm5GbW1wWVZYMEpFd1IwcG5ETDltd1BFaEhUWGRuSl9tbnVBWFd1NEI4cU9DX216M0RRTEFDckMtZm1pWjVWQWFnd3R4SFNZQmdQVWxoMWNONURDNFpPekxIODNOMDJFMVJJNjQ?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-04T10:13:21Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f6f5fc423947453e",
-          "title": "平和堂／大阪府吹田市に「（仮称）岸辺店（店舗面積3651m2）」27年3月2日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jdms2RzRDLXQ1NjltTUs3enpVREw2ZWNmX215S0lUUDVyZklmRFBHQVhTRWViZVNaSmhESHhCZG5BX20wOW9vZENCWlBXdnJQYjdCZnVn?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-26T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "bbd227da8dab972e",
-          "title": "シャミネ松江／スーパーマーケットマルイの新業態など2店舗今秋オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oY2NSeDZxMDQweXdaVzlHYjhZNkZZTFk4bXRFZTVwWC1aTW5zNmU0RDZMdlZQVkNSMldHVFFpTjVVNW5SZmJpZ3VvQWYzbXItV1NPTw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-25T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9b6369b8b4f8693d",
-          "title": "オーケー／神奈川県横須賀市に「横須賀店（店舗面積2286m2）」27年2月5日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LZWZxLU5TcHFQMFZ2S0JMdFVmOEZ6N21MS3VsQVBGaTZCOE1mRWN2bUlCWXMwOEVDWnZhVmVsbjZFalBlWG1OcEFINEoweDBUcEctU2FB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-24T07:00:00Z",
+          "id": "6e84350657fe3c68",
+          "title": "備前市補助のコンビニ後継店決定 市誘致、３月２日開店予定",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92dXBkam9UV3JsZmQ1UlMtS21saVZsaVV1U0hJazZsQ2JQR2hMQmpqb1ZsWmZmRVhqMU5jbGpWWElvbTNFUGFfdzI0YjhvRGZ6ZWc?oc=5",
+          "source": "山陽新聞",
+          "published_at": "2026-09-04T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -322,7 +322,7 @@
           "id": "6fec7f365bdc3f4e",
           "title": "アルゼンチン政府、食品輸入手続き簡素化の対象品目を拡大（アルゼンチン）",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuYUZVb2dlclU3d2pkTWpPUXN4ekFmc1FOcVJXZmxCTDRNRDBiSUdfcGEyWEVKME1pNDZ6R0l4NDZpRllqS3lDM01McUtBMlBaQUtBcUI5aE5WdlpheVpSSDBucTJvaXlSd21n?oc=5",
-          "source": "Infoseek",
+          "source": "news.infoseek.co.jp",
           "published_at": "2026-08-10T07:00:00Z",
           "language": "ja",
           "category": "regulations",
@@ -342,18 +342,8 @@
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
+          "source": "alic.go.jp",
           "published_at": "2026-06-25T10:48:49Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e8dc2b1dc051806f",
-          "title": "米国包装材規制の今（4）プラスチック規制の現状と先取権法 | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-06-04T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -364,6 +354,16 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HdmFWWjZnclp3VjBZNEtpd3NaOGwwM0ZiS04wU3dlNzBHWUJxMGhUTTQwclpLdVZaN1dzSndnNENQX3hvdVZjUmpqMFdXdzhUM1k5bkdWTWN5MDdfZXZ3MmVIOGcwbFNiQXgxT2t0YUNJT0FF?oc=5",
           "source": "jetro.go.jp",
           "published_at": "2026-06-18T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e8dc2b1dc051806f",
+          "title": "米国包装材規制の今（4）プラスチック規制の現状と先取権法 | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-06-04T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-08T21:15:13Z",
-  "last_success_at": "2026-09-08T21:15:13Z",
+  "last_attempt_at": "2026-09-09T04:52:42Z",
+  "last_success_at": "2026-09-09T04:52:42Z",
   "consecutive_failure_count": 0
 }
