@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-09T11:33:52Z",
+  "generated_at": "2026-09-09T16:45:19Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -11,13 +11,54 @@
     "overseas"
   ],
   "retained_categories": [
-    "regulations"
+    "regulations",
+    "food_factory"
   ],
   "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "aec3ae8977e4ea1c",
+          "title": "Re:ゼロから始める異世界生活 4th #82【地上波先行・WEB最速】",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRclRUaUNlakN5YlpWYU1uSFo2cjB2aDc2Z3ZiZ3BSSEhYME9jdE1ZUmxDV21pN192RW5GZkJCa0N3X19PZkF4OGFLbm56WXl0UThUYzhPMm1uelUxNmVjdlMzV2xXSzBaMkE?oc=5",
+          "source": "ABEMA",
+          "published_at": "2026-09-09T13:32:15Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-09T12:58:47Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "cb866d6e0e380400",
+          "title": "ペネロペ・クルス＆ハビエル・バルデムも来場！ ヴェネチア国際映画祭2026のベストルック集",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVDJQOFkxazh2NFU5ekpVdy1UTG82VUg2M0x3Q1dJNFFEUVpac0pQdVJiU1N4M1JXamRyeDRURlBPY25qYU5YWTlfSDRBbk5HVjgyX0I1eFZZUzFLWU41enVuRUxXbmVwQTVSN1NiQWZQSGw2Rm0tYjNEYy1hcks3M1lwdldWcndKOTB1eEVyMA?oc=5",
+          "source": "Vogue Japan",
+          "published_at": "2026-09-09T10:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "634437b0cb4e5373",
+          "title": "エディブルフラワーでひらく花き輸出市場（日本） | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TT1pLYmd5OG5aTEN5dXN5WnJxN3k5RzBDUGVsTHpzdVVuaXBEejNYV3M1VHFFSHJLQXlKOG4yNmR2SkJDXzdwQzFKbkgzTlplZHpPNDRncUlzNHBEdVhBVVNLN25JSnp3czg0LTRRc1JOdFRv?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-09-09T09:43:31Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "be651d2a9b1d4371",
           "title": "ヘルベルト・ブロムシュテットが「高松宮殿下記念世界文化賞」受賞",
@@ -29,11 +70,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "634437b0cb4e5373",
-          "title": "エディブルフラワーでひらく花き輸出市場（日本） | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TT1pLYmd5OG5aTEN5dXN5WnJxN3k5RzBDUGVsTHpzdVVuaXBEejNYV3M1VHFFSHJLQXlKOG4yNmR2SkJDXzdwQzFKbkgzTlplZHpPNDRncUlzNHBEdVhBVVNLN25JSnp3czg0LTRRc1JOdFRv?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-09-09T08:03:45Z",
+          "id": "064a4c3f8e8162aa",
+          "title": "AAIC 2026：世界の認知症研究の最前線へ",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aZEQ2dHFiWWNuRGV3OHQ3MmVsV2Vfb1d3cTl2RC1yV2NiX1dyY0FjbUQxREljZVVsUWdSdk5tM0Z2eHk0WjVheHQwdU1jaDhMSUFvYk5hWDI4bXdf?oc=5",
+          "source": "shimadzu.co.jp",
+          "published_at": "2026-09-09T07:42:59Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -44,46 +85,6 @@
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80U0UyQzdDX2RJN0FnbTMwWHJsb2pDa3Q4MkV1RDFKb2tWZFBuNWVMYjJlYWhmZ1paMmpnb3NObUJVRkQ1MFE1cHZPbDNDOFZRTGk0Umc1WnVtQk1OR2c?oc=5",
           "source": "jimin.jp",
           "published_at": "2026-09-09T07:36:58Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7c60b6b753f3b33d",
-          "title": "マツコの知らない世界 純喫茶ホットケーキと令和パンケーキ&農業キャラクターの世界",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42VGhyaXN3eXhlallXQ19QZ2JQUDFmY09KUlAzQnJueGVDVGI5MzBORGlRN2RjdjlUcWJpMU1TeVFoYjZYRGNEa3dZWE9RdlBqV28zbElR?oc=5",
-          "source": "tbs.co.jp",
-          "published_at": "2026-09-09T04:36:41Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3db3fbe01926c4a3",
-          "title": "理解を深め平和を考える 外国人の作品・海外の装飾品など展示｜ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wdk05U2RvVnh5VldtN1B3VGQ3UHd3eVNDLUk2SGE4RnJMNC02a0lyejh2ZXBKZ3NESExDemFveXhjYnFTNl9vd01VSnJNdkJtc0FEemwxV2c3TXZtSXhv?oc=5",
-          "source": "UMKテレビ宮崎",
-          "published_at": "2026-09-09T03:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "25db3c409ee8fcc0",
-          "title": "国際卓越研究大学に早稲田が挑戦した意義（下）",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE54MjBKV21vWmhqcnhfbDRXUGRaZ0JQcy1nbnVBRFQ1eDVhMTJmcnExS1RZZVNNaGRJRGY1WHYwY09MXzJPTi1TZXl4Q0xoUQ?oc=5",
-          "source": "waseda.jp",
-          "published_at": "2026-09-09T02:33:42Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fa5d50bf62db47b3",
-          "title": "大学院医歯保健学研究科の大橋瑠子教授らがスイス Leading House Asia Pacific Research Network Grantに採択されました－スイス・オーストラリア・日本による国際共同研究プロジェクトを開始－ | トピックス | ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80NkdNTENoQ1FNMnNZMTFZMXUxQmxlaVctNEMycTFUckMzc0xxNEFqakZ6T3E4aF8ybXJwYUF1TlJGbjdFaF83ck01LTRLX3ZPQk11RnZJQVREQQ?oc=5",
-          "source": "niigata-u.ac.jp",
-          "published_at": "2026-09-09T01:57:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -202,7 +203,7 @@
           "id": "05be2d7c5a0244ed",
           "title": "GoldenHarvest、横浜市「TECH-PoC」に採択 市内食品工場の残渣をアメリカミズアブで飼料用タンパクへ変換する実証を開始",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41X1dKTWQxV08wT0R1R0N2QkI5TnZxbjA1T0VEcVNOVGZxVzZlXzdYdFVBaE5EOVZqaUk4OWxmdnVpcVVLX3BBQmtmbEVEUjkxWGRjSVR1b0xiZw?oc=5",
-          "source": "agrinews.co.jp",
+          "source": "日本農業新聞",
           "published_at": "2026-09-07T03:04:33Z",
           "language": "ja",
           "category": "food_factory",
@@ -219,21 +220,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "4a4031dcf4ae9bd6",
-          "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
-          "source": "LOGISTICS TODAY",
-          "published_at": "2026-08-20T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4a4031dcf4ae9bd6",
+          "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-08-20T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -243,16 +244,6 @@
     "retail": {
       "label": "小売店",
       "articles": [
-        {
-          "id": "f76c9cdcf276c203",
-          "title": "平和堂／京都府城陽市に「（仮称）大久保店（店舗面積3805m2）」27年1月2日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxZzVCSzA1eTVNVTY5RWYwclF3bjRlS3BzWVBVbHotUmVTZmx0WFhPczVHVEMzd2NDTjdWaTgwWnJpTmJ0WUdqWUxwT2RseFh0bE1QZWN3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-09T01:31:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "ad488a34b0c14961",
           "title": "トフロム八重洲 タワー／商業ゾーンに老舗や新業態など55店舗オープン、9月10日開業",
@@ -304,11 +295,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9b6369b8b4f8693d",
-          "title": "オーケー／神奈川県横須賀市に「横須賀店（店舗面積2286m2）」27年2月5日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LZWZxLU5TcHFQMFZ2S0JMdFVmOEZ6N21MS3VsQVBGaTZCOE1mRWN2bUlCWXMwOEVDWnZhVmVsbjZFalBlWG1OcEFINEoweDBUcEctU2FB?oc=5",
+          "id": "39f4ac2189f7dc73",
+          "title": "イオンフードスタイル 価値提案型スーパーマーケット「ＦｏｏｄＳｔｙｌｅ」都内８店舗目「フードスタイル東大島店」がオープン！",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZnBHSXNTdHRUWGp6alVFT2tFUUlhUTh1NHV2UTVHV1FBbG9qMHdUd1lTd0JrTjlpTHM4NTk2MHd1UjNua0RuaUN6MlJPdmc2VkZYRnNUT0VqaXBxd1dRaHk0end3Y2EycGc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "735893c68c58cf24",
+          "title": "ベイシア／千葉県八千代市に「（仮称）八千代市緑が丘店（店舗面積3896m2）」27年2月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BaEFYUlN3OVk0bWJ1dmlNcnBwVVY4aUJJNkJ1SmRuUHhTSDI5dWdSZGNWRXpPUjdhd1hYVENDSERhNzUyYmFRWHhHbUZNdlJmMkg4MXVn?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-08-24T07:00:00Z",
+          "published_at": "2026-08-20T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -349,21 +350,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a42eaf13c40076e7",
-          "title": "米国流通市場を読む（3）マーケティングに影響する超加工食品基準 | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HdmFWWjZnclp3VjBZNEtpd3NaOGwwM0ZiS04wU3dlNzBHWUJxMGhUTTQwclpLdVZaN1dzSndnNENQX3hvdVZjUmpqMFdXdzhUM1k5bkdWTWN5MDdfZXZ3MmVIOGcwbFNiQXgxT2t0YUNJT0FF?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-06-18T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "e8dc2b1dc051806f",
           "title": "米国包装材規制の今（4）プラスチック規制の現状と先取権法 | 地域・分析レポート - 海外ビジネス情報",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
           "source": "jetro.go.jp",
           "published_at": "2026-06-04T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a42eaf13c40076e7",
+          "title": "米国流通市場を読む（3）マーケティングに影響する超加工食品基準 | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HdmFWWjZnclp3VjBZNEtpd3NaOGwwM0ZiS04wU3dlNzBHWUJxMGhUTTQwclpLdVZaN1dzSndnNENQX3hvdVZjUmpqMFdXdzhUM1k5bkdWTWN5MDdfZXZ3MmVIOGcwbFNiQXgxT2t0YUNJT0FF?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-06-18T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-09T11:33:52Z",
-  "last_success_at": "2026-09-09T11:33:52Z",
+  "last_attempt_at": "2026-09-09T16:45:19Z",
+  "last_success_at": "2026-09-09T16:45:19Z",
   "consecutive_failure_count": 0
 }
