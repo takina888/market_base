@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-10T16:31:23Z",
+  "generated_at": "2026-09-10T20:57:26Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,31 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "24b7daa6a42137e2",
+          "title": "【お知らせ】国際緊急援助活動に係る輸送艦「くにさき」のインドネシア（キジン港）入港について",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KeV9YYlh5ZWZQTUdDblZUVDNHNDFOOXJRQzN2dGk0dU1ydzJyTnY0ME1BY00tanBPemxrZHhCYVBZa2FTbXdXWUpFdHVKeTR6SFVJQjYwbHZVR0k0aHJlVQ?oc=5",
+          "source": "mod.go.jp",
+          "published_at": "2026-09-10T10:00:04Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "45738cfbda2762d8",
           "title": "国連採択の“新図法”世界地図の変更点とメリットは? 新たな問題も「北方領土がロシア領のよう」日本が修正申し入れ",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kWnRCcnJHMWR3MEVlRVhfRGFybHhNVmtpLVd5MUExSmNZQUFRMElxRHlwT0VMNG81OWlFd3Uta2J5V3duSzJfdkFzYzNlTE5aX2FQSnRXVEE0VjVvZlFHREhyZFJMY2FmbURnWVU1aEdaRktHZVA3S2NyM1VKOFE?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-10T08:15:40Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8d32c3e07c482101",
+          "title": "NATOにおける宇宙安全保障の国際化 ――日本の宇宙戦略への示唆",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0teDNKaVZZY0h2aTNhTFRZaFdvVWxjS1pOVFRvc2VXQTF1XzdLODA4aVR0M3ZtUUlxc1NwTlBHT1hFYnRONkNPRTRBRThjcnBuYjhJbkpNTGRIbm9NYnVpVw?oc=5",
+          "source": "笹川平和財団",
+          "published_at": "2026-09-10T08:12:28Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -49,16 +69,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8c7ba80c4b9b4277",
-          "title": "「Hello! インディー」バイキングとなり広大な世界を切り拓け『Valheim』",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbjJDeUVzaHFtOWdEMG5xZGhwLVYzQjM0UDhMTExYb3FabDZEcWJ0Q2oxN0JCSURIVVVWNUtRM3d1cHFhUlJfbHNBbkQ0ZTNYN0F6dUhKZFdhdGl3NjY2dFdSVXBRM1E0TERLYm5PNVlIZWNJeG96Z1B3N3BZTnZJOXNXRDVGUQ?oc=5",
-          "source": "nintendo.com",
-          "published_at": "2026-09-10T06:08:02Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "81b1796262e31943",
           "title": "ニュース :: 【研究発表】世界最高レベルの「白」を印刷する新技術を確立",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2TVNmZUpxU05aMkhlNEVfeTRIbmpGaXlWdm1NdE5ubEo0ZmVPajNFNi1jSThaZkI3MTMyOUdjQXBFNUVIY0ppbk1URDNMRl9tZ3NySHJ6Zw?oc=5",
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oR1JXNDZNOUpxcUhLR0RpaEhPeHVCOC1rTk1oYVIyalFCaU5wc0ctLVBWVlhteTFOUkVVSEJpSmtJenEybmRHQng3VGptMXQ0NDZLemhUcVlNMXFRbWVPaFhJbTI5VlRMRVhwaWs0aGhZajdOQTRINlIyWQ?oc=5",
           "source": "tohoku.ac.jp",
           "published_at": "2026-09-10T05:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6d55134e7a4e3273",
-          "title": "国連採択の世界地図で北方領土がロシアと同色 製作者「日本語版は色変更も英語版は現状維持」 政府は修正を申し入れ",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LdTlkaDloZU1oOGxYLVhKcFZnWkRmTnE3YVVfc1I1MnotM0FaaVU3YXR3RzBVb2pvTEFOc2t2X1RNN2VWYW04QlI0Qk8xcFlLWk5nLXFWYmwxUDIwUWFuNzlVNnc4NG85Njk1SnQyVUJ4YW5Ca3VVVzRSOFk0Mkk?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-10T04:40:33Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -124,6 +124,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "e780d8ff9c3cf320",
+          "title": "マスダック、食品機械事業を強化 入間工場新棟で生産能力向上",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tUUVwQjFkRVluZmNja3BKT2lrZmFDUkhEcTF6UkNVb0x5UnF0elFSQWhtTk1YOEl5b1ExM25Nc3k2VnMxXzJ5YnFJZTBHSFg1UTR5eTEtVUxSQnh4MWdPM0pjRjJXUQ?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-16T15:04:11Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "05cf05b47710b11c",
           "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
@@ -152,22 +162,22 @@
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ee1bb5176171cef3",
-          "title": "2026冷媒充填機市場規模マップ：シェア・動向・フレームワーク、年平均成長率（CAGR）4.3%の安定成長",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DRmtUWVRyaWtSV1VsbENWWUF2RkRiYjduSURMdDlVenNJaGVPM0ZHejBORnYyLUQ2R01SOWVEMm52d3Z2RzBENl84Z0FsLWlBZHFz?oc=5",
-          "source": "ドリームニュース",
-          "published_at": "2026-09-07T04:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "food_factory": {
       "label": "食品工場",
       "articles": [
+        {
+          "id": "e1d5ccdf871d84a2",
+          "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-31T16:04:47Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "56b76612a9a8629b",
           "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
@@ -182,7 +192,7 @@
           "id": "e0efcb7f91cbda9e",
           "title": "多品種小ロットの「手書き・配合ミス」を克服 キャニオンスパイスの食品工場DX",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JVzFFdGtmaGVCVWRDc1h2aEliR0t2VEVzbTFHTWdOWHZOR05OcGpJamhITkVGZzlRX2ZRQnczSzNlb3ZHbnVpWHRId0FBT3dMd0N6SjFMTkdZTTliVF84VmJVTHB2aGp2dUkzaW15Rmw?oc=5",
-          "source": "techtarget.itmedia.co.jp",
+          "source": "TechTargetジャパン",
           "published_at": "2026-09-09T20:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -194,16 +204,6 @@
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41X1dKTWQxV08wT0R1R0N2QkI5TnZxbjA1T0VEcVNOVGZxVzZlXzdYdFVBaE5EOVZqaUk4OWxmdnVpcVVLX3BBQmtmbEVEUjkxWGRjSVR1b0xiZw?oc=5",
           "source": "日本農業新聞",
           "published_at": "2026-09-07T03:04:33Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e1d5ccdf871d84a2",
-          "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
-          "source": "news.nissyoku.co.jp",
-          "published_at": "2026-08-31T16:04:47Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -222,7 +222,7 @@
           "id": "490326a0a5021998",
           "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
-          "source": "Infoseek",
+          "source": "news.infoseek.co.jp",
           "published_at": "2026-08-21T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -319,16 +319,6 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "6f67dd68729d9d71",
-          "title": "イタリアへの輸出には新たな包装規制が適用される。",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbEp4OTVHdmwyM3VjMEZnLUJ2dkVXWWVSdkFJSjFIUHhsYmo3Z2NKTHY1U0ZzM3NQN041SldZSU81a1lkOGNZRXR6R3l3V1c1bXRjMlNfQXFpdEc0SWMzaVpKR3VTRU1GR2VBaXh0MTExNWRuQU02R2JSRVZoOEhqWlpjTFhPZw?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-09T08:26:47Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "a923c392a2786ef4",
           "title": "イタリアが包装規制を強化。ベトナム企業は迅速な対応が求められる。",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0kyY2U5NWtuWXJ0bmIxN2VZWUgwWWFvLVZOZ3RGV2NoNnBoTXEyQ3BVZmNjTEJJclM0RDhvZTJBVk1mVUp2QjE1Z3RuTjYzQmJMaWxmdmhDVkNLdlBCT2pqXzFvOTdBRTlGVWxCMGN1LUdFSkRuUFBmMVM4Y0xSTmlsZGp5YkxEZ0NIUGdmMTVMLXND?oc=5",
@@ -379,6 +369,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "6f67dd68729d9d71",
+          "title": "イタリアへの輸出には新たな包装規制が適用される。",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbEp4OTVHdmwyM3VjMEZnLUJ2dkVXWWVSdkFJSjFIUHhsYmo3Z2NKTHY1U0ZzM3NQN041SldZSU81a1lkOGNZRXR6R3l3V1c1bXRjMlNfQXFpdEc0SWMzaVpKR3VTRU1GR2VBaXh0MTExNWRuQU02R2JSRVZoOEhqWlpjTFhPZw?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-09T08:26:47Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "6fec7f365bdc3f4e",
           "title": "アルゼンチン政府、食品輸入手続き簡素化の対象品目を拡大（アルゼンチン）",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuYUZVb2dlclU3d2pkTWpPUXN4ekFmc1FOcVJXZmxCTDRNRDBiSUdfcGEyWEVKME1pNDZ6R0l4NDZpRllqS3lDM01McUtBMlBaQUtBcUI5aE5WdlpheVpSSDBucTJvaXlSd21n?oc=5",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-10T16:31:23Z",
-  "last_success_at": "2026-09-10T16:31:23Z",
+  "last_attempt_at": "2026-09-10T20:57:26Z",
+  "last_success_at": "2026-09-10T20:57:26Z",
   "consecutive_failure_count": 0
 }
