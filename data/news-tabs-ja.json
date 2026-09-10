@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-09T21:00:01Z",
+  "generated_at": "2026-09-10T04:53:57Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,31 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-09T19:00:28Z",
+          "id": "fca35924e318e9e8",
+          "title": "100年前に描かれた「幸福によって支配される世界」が現実に？──堤未果さんと読む、ハクスリー『すばらしい新世界』【NHK100分de名著】",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WTzQxNWt3YWN3dzYzVTZKcy11U0k5M0VydDBYcVJDUVNtWE84c3BZc0VYWnNNQmNxaERwUURuTWdid1VCZ3I0WDNqVFg5Z0VDZkE?oc=5",
+          "source": "NHK出版デジタルマガジン",
+          "published_at": "2026-09-03T11:02:15Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "10f4a722381cbc67",
+          "title": "Kjøp 不確定世界の探偵紳士～悪行双麻の事件ファイル～ | XBOX",
+          "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQcndwNzJLMmxEWmlrbU5xNjZPNHJJUk4xMGtWb1FKdlJybWRQU2tRWTNhXzZLalF3Nm1KT1RHTEw2d19yN2N6YVlLbC15RjRJcFFkaUpFemlEdkdmbnpndVNmVDdPYkVFNHdrSnB1UVhwV05uV3lkLWxXVmhEWWRZWXBxamdtdFU4SWxKc09ORnh2UVNvRm5JMjJObFBnZnFRalo0Zl8zbXN1RVE4Yy1qai1kVG5DSHVnZ0t6VlNNZlNOd01GTUFTUndmSFRvbk5ocGRIOS13MkJqQm1aNlRyVDljRlV4V2Q5Mm56V0VGV0gzZ1laTjgtWHhveFpQZG1zUG9KYUxNdkJOaWt2eFVfb1JTeGQyaUVtQkZnc1M3S1VOU2hHLVZjN3p5QXBySFZPT0hnUFNPUDZDNVlPWDJQSEIwM1FSMVhSVWoybHhqSXpSQ1BrWFdnQQ?oc=5",
+          "source": "Microsoft",
+          "published_at": "2026-09-10T03:05:58Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "40ab419a32123cc3",
+          "title": "不確定世界の探偵紳士～悪行双麻の事件ファイル～ kopen | XBOX",
+          "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQWTRpaHBVenlKVlVCZnBaTHNCaHFQdVVMOHdXc3ZOV2lGZDFpak9uRi1RQXJzTHdNRFRaV0dMelp4T0VMckc2Q1J2NjFTVmRZWm1RaUo1MWNjMV93TGNJVVNVVDZ5akllM2R4cnc3blBvMGxpcVYyRWpaUndMc2Nqb3hlcjdOcFppTXVZYUI2OGhzYXF1alRKcHZESTRHZHNiUVJ0ZGQ1dlUyakRzWUtvMDlxMlNtYUlubEZxcjJrT0VpaGhrV0xUUTV4aW9sQ25vdElBSzRyMlRiVlFxd1NhTG9KeGIydzMxbVRvd1BvenpmU1pDRDNmMHFmd1N6UmlEUGFUUi1DMkh3U3NUVEV2b05JbHpyUkhsRlQ1M0RCVjhmblpfN2NNS1R0aEdtcVJlU25PZHYyMHFsNENDTmdnRGVmUXBnRmNOWnU0bU5oTnNxc0ZEZUhyeg?oc=5",
+          "source": "Microsoft",
+          "published_at": "2026-09-10T02:17:44Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -33,57 +53,37 @@
           "title": "Re:ゼロから始める異世界生活 4th #82【地上波先行・WEB最速】",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRclRUaUNlakN5YlpWYU1uSFo2cjB2aDc2Z3ZiZ3BSSEhYME9jdE1ZUmxDV21pN192RW5GZkJCa0N3X19PZkF4OGFLbm56WXl0UThUYzhPMm1uelUxNmVjdlMzV2xXSzBaMkE?oc=5",
           "source": "ABEMA",
-          "published_at": "2026-09-09T13:32:15Z",
+          "published_at": "2026-09-10T01:35:38Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cb866d6e0e380400",
-          "title": "ペネロペ・クルス＆ハビエル・バルデムも来場！ ヴェネチア国際映画祭2026のベストルック集",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVDJQOFkxazh2NFU5ekpVdy1UTG82VUg2M0x3Q1dJNFFEUVpac0pQdVJiU1N4M1JXamRyeDRURlBPY25qYU5YWTlfSDRBbk5HVjgyX0I1eFZZUzFLWU41enVuRUxXbmVwQTVSN1NiQWZQSGw2Rm0tYjNEYy1hcks3M1lwdldWcndKOTB1eEVyMA?oc=5",
-          "source": "Vogue Japan",
-          "published_at": "2026-09-09T10:00:00Z",
+          "id": "7a0ade93174fb0ee",
+          "title": "中国：堅調な貿易の一方で、内需・不動産に課題",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uZ2N5ZE9QMXFIUktjLURlcUFzSjAycVdidzYzRXN5MW5BcXlHWVRwZ0RVNVdTNzBHY1NGQzg0eE5Ecnh2bGw1ZEwyMkNvNFRWMFZteUJXLUEtdDJfYlVYaEdueXZ1bjNGV05BbU5lTWxlRmZqcEdFMWgtSHBLTW8?oc=5",
+          "source": "ピクテ・ジャパン",
+          "published_at": "2026-09-09T23:51:58Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "634437b0cb4e5373",
-          "title": "エディブルフラワーでひらく花き輸出市場（日本） | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TT1pLYmd5OG5aTEN5dXN5WnJxN3k5RzBDUGVsTHpzdVVuaXBEejNYV3M1VHFFSHJLQXlKOG4yNmR2SkJDXzdwQzFKbkgzTlplZHpPNDRncUlzNHBEdVhBVVNLN25JSnp3czg0LTRRc1JOdFRv?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-09-09T09:43:31Z",
+          "id": "c50a15376837c1e7",
+          "title": "北方領土がロシア領と同じ色に 国連が使用促す世界地図 製作者、日本語版は変更へ（FNNプライムオンライン（フジテレビ系））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wdGxMSVFLd25iUTM4N091Z1ladm9Qem80Nm83cXlnWHdnVFl6eEJqcWdTV0Y5TUdUcGw4MV9pRWkxMGhVY0RBc0cwVXpPUzVNMC1nMXRieEpHOEJ6b0JLNlVBQWtLUk9pZEhWOXAzSHZzQzJzX3Q1NTVTR0tfdUE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-09T21:28:26Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "be651d2a9b1d4371",
-          "title": "ヘルベルト・ブロムシュテットが「高松宮殿下記念世界文化賞」受賞",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBEVmp1YXR2UG5ZNFdCMEVPRWVrUWxUN1RyMTdvcEQxRjlRNmtSQVFGel9SanN3cTRILWFOY0I0V2ZldXllN2RLMQ?oc=5",
-          "source": "ぶらあぼONLINE | クラシック音楽情報ポータル",
-          "published_at": "2026-09-09T08:27:54Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "064a4c3f8e8162aa",
-          "title": "AAIC 2026：世界の認知症研究の最前線へ",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aZEQ2dHFiWWNuRGV3OHQ3MmVsV2Vfb1d3cTl2RC1yV2NiX1dyY0FjbUQxREljZVVsUWdSdk5tM0Z2eHk0WjVheHQwdU1jaDhMSUFvYk5hWDI4bXdf?oc=5",
-          "source": "shimadzu.co.jp",
-          "published_at": "2026-09-09T07:42:59Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7f64dc910162cdbb",
-          "title": "もう一度、\"世界のてっぺん\"へ経済安保の要として造船力の再興を | お知らせ | ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80U0UyQzdDX2RJN0FnbTMwWHJsb2pDa3Q4MkV1RDFKb2tWZFBuNWVMYjJlYWhmZ1paMmpnb3NObUJVRkQ1MFE1cHZPbDNDOFZRTGk0Umc1WnVtQk1OR2c?oc=5",
-          "source": "jimin.jp",
-          "published_at": "2026-09-09T07:36:58Z",
+          "id": "3bc4228afca21cf4",
+          "title": "10日夜「国際宇宙ステーション(ISS)きぼう」が日本の上空を通過 見られる所は(気象予報士 吉田 友海 2026年09月10日)",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FcWlITnJxM2ZxczFlQ2JXOVVVX0FHemVsZURQMkxxN2R5UEZlNDhBbmdPZFVES3k5d1Q0NFdpWWxLc20yTWhfV2k4a1A1OTFKZVVJMkxXa3NkeGxQSzNrbmM2bk5ibW5FYTRZ0gFwQVVfeXFMUGl2VXZhNnE0Yk9ZenI0enVCOVRpRE5LTVc1TkVRc2ljMGNwcnY3OGlpNnpVdzlqY0daV09jMFdQeDFNc3piWTRHV01Ca2tTSjF0OWhRYlhncVRrVkpRUDZjVDBhX2Y5WUtOTkZLcG9Icw?oc=5",
+          "source": "tenki.jp",
+          "published_at": "2026-09-09T20:24:22Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -189,16 +189,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cbbbd1904db9d4a2",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "e0efcb7f91cbda9e",
           "title": "多品種小ロットの「手書き・配合ミス」を克服 キャニオンスパイスの食品工場DX",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JVzFFdGtmaGVCVWRDc1h2aEliR0t2VEVzbTFHTWdOWHZOR05OcGpJamhITkVGZzlRX2ZRQnczSzNlb3ZHbnVpWHRId0FBT3dMd0N6SjFMTkdZTTliVF84VmJVTHB2aGp2dUkzaW15Rmw?oc=5",
@@ -229,10 +219,20 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "490326a0a5021998",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
+          "source": "Infoseek",
+          "published_at": "2026-08-21T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "MONOist",
+          "source": "monoist.itmedia.co.jp",
           "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -243,6 +243,16 @@
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "a0f8bc147fe19585",
+          "title": "平和堂／「アルプラフーズマーケット富山掛尾」オープン、富山県に食品スーパー初出店",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAteVpZcmhubVF3ZGhKMHBtSzlHa1FaZnRGMU50V2ptMlRselltRGtxVG1NUnduaEhXVmxIRk9ya054bVdMR2dNdHJxUHVZaTZNZnR0LQ?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-10T03:04:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "f76c9cdcf276c203",
           "title": "平和堂／京都府城陽市に「（仮称）大久保店（店舗面積3805m2）」27年1月2日新設",
@@ -302,16 +312,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "39f4ac2189f7dc73",
-          "title": "イオンフードスタイル 価値提案型スーパーマーケット「ＦｏｏｄＳｔｙｌｅ」都内８店舗目「フードスタイル東大島店」がオープン！",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZnBHSXNTdHRUWGp6alVFT2tFUUlhUTh1NHV2UTVHV1FBbG9qMHdUd1lTd0JrTjlpTHM4NTk2MHd1UjNua0RuaUN6MlJPdmc2VkZYRnNUT0VqaXBxd1dRaHk0end3Y2EycGc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -324,6 +324,16 @@
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbEp4OTVHdmwyM3VjMEZnLUJ2dkVXWWVSdkFJSjFIUHhsYmo3Z2NKTHY1U0ZzM3NQN041SldZSU81a1lkOGNZRXR6R3l3V1c1bXRjMlNfQXFpdEc0SWMzaVpKR3VTRU1GR2VBaXh0MTExNWRuQU02R2JSRVZoOEhqWlpjTFhPZw?oc=5",
           "source": "Vietnam.vn",
           "published_at": "2026-09-09T08:26:47Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a923c392a2786ef4",
+          "title": "イタリアが包装規制を強化。ベトナム企業は迅速な対応が求められる。",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0kyY2U5NWtuWXJ0bmIxN2VZWUgwWWFvLVZOZ3RGV2NoNnBoTXEyQ3BVZmNjTEJJclM0RDhvZTJBVk1mVUp2QjE1Z3RuTjYzQmJMaWxmdmhDVkNLdlBCT2pqXzFvOTdBRTlGVWxCMGN1LUdFSkRuUFBmMVM4Y0xSTmlsZGp5YkxEZ0NIUGdmMTVMLXND?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-08T10:24:17Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4180320d0efa326b",
-          "title": "EUへの輸出は、厳格な包装基準を遵守しなければならない。",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaTcxblduOWlVUVpobHhtTXJIc1U1cEVXMEVoUndnQjdGaXo4YnVETFZ0Y3UyNGVlcXFxYTN3WG82QXZWb0dBdDhRU1dhSFVjVF9SMlM5M0JnVTEtRHJPdkt4RzRNQUQxNHVrWkZyMXJSY2dIcGNzOHlaZFozTGhzOENFd3JnRTV3VU9Uc3RqOVY?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-08-17T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-09T21:00:01Z",
-  "last_success_at": "2026-09-09T21:00:01Z",
+  "last_attempt_at": "2026-09-10T04:53:57Z",
+  "last_success_at": "2026-09-10T04:53:57Z",
   "consecutive_failure_count": 0
 }
