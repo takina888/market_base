@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-13T04:57:53Z",
+  "generated_at": "2026-09-13T12:03:26Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -20,21 +20,31 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "251400ea76a5cbd3",
-          "title": "富士山閉山後の登山道に“海外の団体客”も 閉山期に“年間1万人”の実態明らかに（テレビ朝日系（ANN））",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BTEd4R3NtWTYxZ3NXek83d0MwWFhwbHdCdHM5WHpnQjN6WVBETDRhc3FEZmxNbzkzOTZkaTlzc2V5aVpKa1lHVUtHSC1SZExrYVh6OE9hcC0tZ2JPQmJ1di1PWndHbTFwVzVLeVA0XzBDMEN2QWRSWjBWZm9Gdms?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-13T01:18:16Z",
+          "id": "9099e6cc45d2bee7",
+          "title": "世界遺産／ビートルズを育んだ港町（ドイツ・ハンブルク） [解] [字]",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSbzVrODlLVG1jejZDUGE5ckxyWlJNejI4NHZVb3paMF8ybEx0U1ZRYTZBT1lSSkpsaGREMDd6S0QxNkJMSkFlSTdfN0d2UXd0LTRTZmd3?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-09-13T10:42:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5138febf793816b5",
-          "title": "【速報】第83回ヴェネツィア国際映画祭 受賞結果一覧 金獅子賞はデンマークの『Kvinde Ukendt（Woman Unknown）』",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVEFncFdtVzRmYkxvUDhWcElidzFReDNFLS1yU29EMEhMS3U3Qld6WHVJRXB2YlgwNzkzYVZteDdQeXFXc2owc2U0SnhZOHpDSXd2RHdYSEFDZUFKTWlRQ3ZhRjhVSlk0ckRYRzJOSndrQ180UzlWb3VIQmFIZmMzZGxNWU0tdTU0N2plS1EyU2N0UDJQUUVlcXFlLVJHTXNxbmRsWDVuLTNyN0RLNVozSUYyYXViT2VU?oc=5",
-          "source": "Esquire",
-          "published_at": "2026-09-12T22:26:30Z",
+          "id": "88ac473fe77812e4",
+          "title": "ウズベキスタンの世界遺産ヒヴァ、なぜ行きやすくなったのか",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2TVB0R3hJYl9JXzNJdDRob25NTkhQNjFUNW16RUZzZ0VwSEtnLWI1SC1XcHNsdC0yMThLbm5tUElXY2FlT2R3ZnpPZmxDRXB1Uk5XaUloaENNM3h3cW9EaGh6MA?oc=5",
+          "source": "ナショナルジオグラフィック日本版",
+          "published_at": "2026-09-13T03:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "fbf016a34e585ff7",
+          "title": "2028年・三田国際大学が開設へ～戸板女子短期大学・三田国際科学学園高校を運営の学校法人が計画 #エキスパートトピ",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZERvMlVQUWFkanFDbm5FZXBYODA4MW0xYjNsVmNBTDV2OVlGdnJyTE9FcHcycXNsMmJlSEU5S0dZemdtbnVFVlk3dV9wWUNUem9VQ1A4Q0tIc3lmQ01YQXBBR1B3aElsb0lnOVlDenlhZ2ptSnk4Z0ZvZ2xnZ0o5U05vU2ZKY3JO?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-13T01:05:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -43,8 +53,18 @@
           "id": "a7efa01ffd9856ef",
           "title": "ARDミュンヘン国際音楽コンクール 弦楽四重奏部門でカルテット風雅が第3位入賞",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1zMWdvMHZkZUd3NFBIS1EyUllrcExDNHdleHMyLVN6T1F1cmEyNF80NzlUaVh4NHlsdl9ickQ0ajI3aDRtOWRvLQ?oc=5",
-          "source": "ebravo.jp",
+          "source": "ぶらあぼONLINE | クラシック音楽情報ポータル",
           "published_at": "2026-09-12T20:12:01Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "251400ea76a5cbd3",
+          "title": "富士山閉山後の登山道に“海外の団体客”も 閉山期に“年間1万人”の実態明らかに（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BTEd4R3NtWTYxZ3NXek83d0MwWFhwbHdCdHM5WHpnQjN6WVBETDRhc3FEZmxNbzkzOTZkaTlzc2V5aVpKa1lHVUtHSC1SZExrYVh6OE9hcC0tZ2JPQmJ1di1PWndHbTFwVzVLeVA0XzBDMEN2QWRSWjBWZm9Gdms?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-12T16:18:16Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -53,38 +73,18 @@
           "id": "b9e4a1b7c24be0c2",
           "title": "三田国際大学（仮称）の開設構想 東京都港区の戸板女子短大キャンパス内に",
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE82d1ItcjdYbzhpTVVkaVhOelBmY3V6M3VfZGlvOXBXaUdLOHlWVHltY3JPdUoyaFdzRFFseGFxMWQyUVRJUGVz?oc=5",
-          "source": "univ-journal.jp",
+          "source": "大学ジャーナルオンライン",
           "published_at": "2026-09-12T00:25:33Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e03b55d7adf84926",
-          "title": "ＯＥＣＤ国際学力調査、日本が数学・科学・読解で１位を総なめ…ＡＩの活用は最下位圏（ハンギョレ新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zQVFIUGNrVzdhWkNKUkpYN2YyakZ2eElWS3Nyano2Uy0yUGJnQi1PZk1uLUtYNU9mRFduS1lsOV85enRRckJhNHdfdm5MUi1aOF9VVVY5WmpOQWh2RFYtWFJSSkZJYXdlMlFyUHhzOEJJUkFyZnhOVkpVQ2c0Zms?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-11T21:49:17Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b60c3f8dd29d8bdd",
-          "title": "国際園芸博覧会記念貨幣 純銀製の記念千円銀貨を発行（みんなの経済新聞ネットワーク）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CTTQ5dmhBYXVINkNzTGdTNE5QMW9aQVJPWkYyZTRwWnVmdkFmd1VoRmdGTkhnWE1maWE1UTJhUHUtTEJXZExuTW84clRtaXJoQUJaNDBwZDlSOHNaUXRINEJ6aTZIVExIVXZRRzhoXzN4MndzWDlQU0RkdDlEMzA?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-11T14:39:10Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c06e5ae4385169f2",
-          "title": "台湾教育部と「台湾青年百億海外圓夢基金計画」にかかる協議書を締結しました",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3emE0X2QyTFRuUXFZdTZaRW1LQWE1eXlNSUJHZ0lySDJoa2l5UGdYRDZvQXY2OHRna1QxczNmV3JpNUFhZWtCYXMzVVhqR1NZYVhXRWZZNA?oc=5",
-          "source": "京都大学",
-          "published_at": "2026-09-11T12:00:00Z",
+          "id": "f67142b32cda8a8c",
+          "title": "第83回ヴェネチア国際映画祭 公式独立賞3冠達成！",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9DNGkxV2NsWU51MER5dXVEMzNyRXBWcnhxQ3BWLXdoNDVPUlBuYTZGZUFtYXljUklIeDBDUThhVEVWX1U4?oc=5",
+          "source": "K2 Pictures",
+          "published_at": "2026-09-11T21:58:45Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -125,16 +125,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e780d8ff9c3cf320",
-          "title": "マスダック、食品機械事業を強化 入間工場新棟で生産能力向上",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tUUVwQjFkRVluZmNja3BKT2lrZmFDUkhEcTF6UkNVb0x5UnF0elFSQWhtTk1YOEl5b1ExM25Nc3k2VnMxXzJ5YnFJZTBHSFg1UTR5eTEtVUxSQnh4MWdPM0pjRjJXUQ?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-16T15:04:11Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "05cf05b47710b11c",
           "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
@@ -155,11 +145,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "4180d1106bcbc393",
-          "title": "【出展レポート】世界最大級の食品製造総合展「FOOMA JAPAN 2026」 | 株式会社ロビットのプレスリリース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LbUlhc2Q0X3c1QTdaYjVtTEdPNTUzYmhPdktDeXJmRFpSM3k4b3lHLXFPbV9UVC1BRDJIRkFJS1NWM1JybWxPYkl1SDZNeFQwZDdxeTAwc0tWRTRZTE03eFhCZ3Z2TVpuaXc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-15T07:00:00Z",
+          "id": "866e4566f0bd6032",
+          "title": "同心型渦電流選別機の世界市場2026年、グローバル市場規模（大粒子用選別機、小粒子用選別機）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CTEliSXJMSFBTOTFtNG0tcWFsN0twSXpUUmhqMjNoY3BrRjlLUDd0aFV2eV84X1VUOG53S2VZV2w1MnRjUlJZYnNJN1doWTJ5aWlJ?oc=5",
+          "source": "ドリームニュース",
+          "published_at": "2026-09-11T05:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ee1bb5176171cef3",
+          "title": "2026冷媒充填機市場規模マップ：シェア・動向・フレームワーク、年平均成長率（CAGR）4.3%の安定成長",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DRmtUWVRyaWtSV1VsbENWWUF2RkRiYjduSURMdDlVenNJaGVPM0ZHejBORnYyLUQ2R01SOWVEMm52d3Z2RzBENl84Z0FsLWlBZHFz?oc=5",
+          "source": "ドリームニュース",
+          "published_at": "2026-09-07T04:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -255,16 +255,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c713e5ed3ff95374",
-          "title": "フライングタイガー／池袋・サンシャインシティに10月16日新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWOElkNFhSclVqZFRPa2lJazYtenZLZUc5VFZMZm1hWHhNdlNrNDh6NkdydTUzNUczalM5VTRscEUwSUMwUFM2SGRzUUpaY1pfTzloWA?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-11T02:16:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "a0f8bc147fe19585",
           "title": "平和堂／「アルプラフーズマーケット富山掛尾」オープン、富山県に食品スーパー初出店",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAteVpZcmhubVF3ZGhKMHBtSzlHa1FaZnRGMU50V2ptMlRselltRGtxVG1NUnduaEhXVmxIRk9ya054bVdMR2dNdHJxUHVZaTZNZnR0LQ?oc=5",
@@ -299,7 +289,17 @@
           "title": "バロー／「スーパーマーケットバロー豊中島江店」9月11日オープン、コーナンに出店",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhMWV4SlJyVDlGUnNTWW9KamM5dVVPbXMzRkVpQzRzaWhKY3hCeGR2TW5Lc3lZUjVESlRnTkxmOGt2NTlJaHRyMVN1dmtfSE12X0FEUw?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-09-04T05:50:00Z",
+          "published_at": "2026-09-04T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0f795321d13e6019",
+          "title": "ロフト／京都府内3店舗目「イオンモールKYOTOロフト」11月27日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyaEZrLWxPWHRwSzUxT18wUkxkMTVHdEJSNi1XQmJfSnZBc285QVVVQm9ESFN1R1ZYYXYyMEZtRzdicWJHOTZMRGJYTENNSklHdXltZg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-04T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-13T04:57:53Z",
-  "last_success_at": "2026-09-13T04:57:53Z",
+  "last_attempt_at": "2026-09-13T12:03:26Z",
+  "last_success_at": "2026-09-13T12:03:26Z",
   "consecutive_failure_count": 0
 }
