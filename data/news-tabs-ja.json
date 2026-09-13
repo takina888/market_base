@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-12T20:39:33Z",
+  "generated_at": "2026-09-13T04:57:53Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -20,11 +20,51 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-12T18:05:54Z",
+          "id": "251400ea76a5cbd3",
+          "title": "富士山閉山後の登山道に“海外の団体客”も 閉山期に“年間1万人”の実態明らかに（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BTEd4R3NtWTYxZ3NXek83d0MwWFhwbHdCdHM5WHpnQjN6WVBETDRhc3FEZmxNbzkzOTZkaTlzc2V5aVpKa1lHVUtHSC1SZExrYVh6OE9hcC0tZ2JPQmJ1di1PWndHbTFwVzVLeVA0XzBDMEN2QWRSWjBWZm9Gdms?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-13T01:18:16Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5138febf793816b5",
+          "title": "【速報】第83回ヴェネツィア国際映画祭 受賞結果一覧 金獅子賞はデンマークの『Kvinde Ukendt（Woman Unknown）』",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVEFncFdtVzRmYkxvUDhWcElidzFReDNFLS1yU29EMEhMS3U3Qld6WHVJRXB2YlgwNzkzYVZteDdQeXFXc2owc2U0SnhZOHpDSXd2RHdYSEFDZUFKTWlRQ3ZhRjhVSlk0ckRYRzJOSndrQ180UzlWb3VIQmFIZmMzZGxNWU0tdTU0N2plS1EyU2N0UDJQUUVlcXFlLVJHTXNxbmRsWDVuLTNyN0RLNVozSUYyYXViT2VU?oc=5",
+          "source": "Esquire",
+          "published_at": "2026-09-12T22:26:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a7efa01ffd9856ef",
+          "title": "ARDミュンヘン国際音楽コンクール 弦楽四重奏部門でカルテット風雅が第3位入賞",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1zMWdvMHZkZUd3NFBIS1EyUllrcExDNHdleHMyLVN6T1F1cmEyNF80NzlUaVh4NHlsdl9ickQ0ajI3aDRtOWRvLQ?oc=5",
+          "source": "ebravo.jp",
+          "published_at": "2026-09-12T20:12:01Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b9e4a1b7c24be0c2",
+          "title": "三田国際大学（仮称）の開設構想 東京都港区の戸板女子短大キャンパス内に",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE82d1ItcjdYbzhpTVVkaVhOelBmY3V6M3VfZGlvOXBXaUdLOHlWVHltY3JPdUoyaFdzRFFseGFxMWQyUVRJUGVz?oc=5",
+          "source": "univ-journal.jp",
+          "published_at": "2026-09-12T00:25:33Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e03b55d7adf84926",
+          "title": "ＯＥＣＤ国際学力調査、日本が数学・科学・読解で１位を総なめ…ＡＩの活用は最下位圏（ハンギョレ新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zQVFIUGNrVzdhWkNKUkpYN2YyakZ2eElWS3Nyano2Uy0yUGJnQi1PZk1uLUtYNU9mRFduS1lsOV85enRRckJhNHdfdm5MUi1aOF9VVVY5WmpOQWh2RFYtWFJSSkZJYXdlMlFyUHhzOEJJUkFyZnhOVkpVQ2c0Zms?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-11T21:49:17Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -33,7 +73,7 @@
           "id": "b60c3f8dd29d8bdd",
           "title": "国際園芸博覧会記念貨幣 純銀製の記念千円銀貨を発行（みんなの経済新聞ネットワーク）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CTTQ5dmhBYXVINkNzTGdTNE5QMW9aQVJPWkYyZTRwWnVmdkFmd1VoRmdGTkhnWE1maWE1UTJhUHUtTEJXZExuTW84clRtaXJoQUJaNDBwZDlSOHNaUXRINEJ6aTZIVExIVXZRRzhoXzN4MndzWDlQU0RkdDlEMzA?oc=5",
-          "source": "news.yahoo.co.jp",
+          "source": "Yahoo!ニュース",
           "published_at": "2026-09-11T14:39:10Z",
           "language": "ja",
           "category": "overseas",
@@ -48,52 +88,22 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "34665d71f85f0511",
-          "title": "日本映画として初の快挙！第83回ヴェネチア国際映画祭公式独立賞「Cinema & Arts Award」最優秀作品賞を受賞",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1GbUNsY2NPd0VlaE5KZlhTSXcySE5iYXFnWktyS1lWQno1YWUzZ01JS2RLMWk5bTNTQ2dSZHU1MEdrN2Na?oc=5",
-          "source": "K2 Pictures",
-          "published_at": "2026-09-11T11:29:45Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d08d2e2966fd5f32",
-          "title": "第51回トロント国際映画祭でワールドプレミア開催！ 西川美和監督、小八重葵美が登壇",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9IRDVuWUtsY2FLLXJNQm5lUFhELTBURGZBUEFaNjlibll1NEFpcGlmUkU3Y0hvbUtVU3hhclBlUUtSTG5N?oc=5",
-          "source": "K2 Pictures",
-          "published_at": "2026-09-11T09:57:29Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "187de5b438437a27",
-          "title": "「世界分散×高配当」ｅＭＡＸＩＳ 高配当全世界株式（オール・カントリー）配当払出型／資産成長型〈愛称：オルカン高配当〉",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84bVo4U0VMV3UyNmlidFBiRDRGYjZURVFORFBmNjJqRGk5Q0UzNWgzdkJwMkk5WGEteGxHcjFydUlCeGxlanFFbnpteDZUVEdpaEViOXlJVHQyMDljei1lQlFjdllLRmphdnQxaGh3YXBTekE?oc=5",
-          "source": "SBI証券",
-          "published_at": "2026-09-11T09:01:23Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4825f68cd5789384",
-          "title": "学部を超えて フィリピンで得た主体性と国際的視野｜ニュース一覧",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9RcWZSUnEwLTRNX2JlcVpzU1d0dUg4V29VSS1WZnNqTjhVUTYybHBlYjBzZTRXWkE4ZWUtaGlPSkl0dWY5eFpidHdtX0xyenctZFRTeHhWVzJPVkdi?oc=5",
-          "source": "kyoto-su.ac.jp",
-          "published_at": "2026-09-11T07:56:48Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "4667b3bae1f17474",
+          "title": "FOOMA JAPAN 2027、2027年6月8日から東京ビッグサイトで開催 出展申込は10/15まで",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MaFJLeENfZWd2UDRfM3dGd0c3eS1UTlFZdmVOdzVHSEREV3lDamFXMlZ0SzhWbjFDMkZqZVlqdUtvQnFhV0VUcEhhdDJCNGxMbDBTRUhDVW8wdw?oc=5",
+          "source": "オートメーション新聞WEB",
+          "published_at": "2026-09-10T06:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "7b3ce71c979c7072",
           "title": "FOOMA JAPAN 2027 会期：2027年6月8日（火）～11日（金）の4日間 出展申込受付は、2026年9月1日（火）～10月15日（木）",
@@ -110,6 +120,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZGQ0M0tCdGlfNEdSR1lXUHF6NXhkNWhEcjNSQVlNVUtuVmdlUVdKM3VXa1I4UExReEU5WXJ5WE5WZDdOUnBVYUdDYTJkc3NIQjcxSl9PcUlJTUdDNkxremdqLUhXOFh0bmc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-24T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e780d8ff9c3cf320",
+          "title": "マスダック、食品機械事業を強化 入間工場新棟で生産能力向上",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tUUVwQjFkRVluZmNja3BKT2lrZmFDUkhEcTF6UkNVb0x5UnF0elFSQWhtTk1YOEl5b1ExM25Nc3k2VnMxXzJ5YnFJZTBHSFg1UTR5eTEtVUxSQnh4MWdPM0pjRjJXUQ?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-16T15:04:11Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -143,26 +163,6 @@
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "866e4566f0bd6032",
-          "title": "同心型渦電流選別機の世界市場2026年、グローバル市場規模（大粒子用選別機、小粒子用選別機）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CTEliSXJMSFBTOTFtNG0tcWFsN0twSXpUUmhqMjNoY3BrRjlLUDd0aFV2eV84X1VUOG53S2VZV2w1MnRjUlJZYnNJN1doWTJ5aWlJ?oc=5",
-          "source": "ドリームニュース",
-          "published_at": "2026-09-11T05:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4667b3bae1f17474",
-          "title": "FOOMA JAPAN 2027、2027年6月8日から東京ビッグサイトで開催 出展申込は10/15まで",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MaFJLeENfZWd2UDRfM3dGd0c3eS1UTlFZdmVOdzVHSEREV3lDamFXMlZ0SzhWbjFDMkZqZVlqdUtvQnFhV0VUcEhhdDJCNGxMbDBTRUhDVW8wdw?oc=5",
-          "source": "automation-news.jp",
-          "published_at": "2026-09-10T06:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -180,31 +180,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cbbbd1904db9d4a2",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "05be2d7c5a0244ed",
           "title": "GoldenHarvest、横浜市「TECH-PoC」に採択 市内食品工場の残渣をアメリカミズアブで飼料用タンパクへ変換する実証を開始",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41X1dKTWQxV08wT0R1R0N2QkI5TnZxbjA1T0VEcVNOVGZxVzZlXzdYdFVBaE5EOVZqaUk4OWxmdnVpcVVLX3BBQmtmbEVEUjkxWGRjSVR1b0xiZw?oc=5",
           "source": "日本農業新聞",
           "published_at": "2026-09-07T03:04:33Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e1d5ccdf871d84a2",
-          "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
-          "source": "news.nissyoku.co.jp",
-          "published_at": "2026-08-31T16:04:47Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -220,11 +200,31 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "490326a0a5021998",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
+          "source": "Infoseek",
+          "published_at": "2026-08-21T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b2ea39a0e775737c",
           "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e1d5ccdf871d84a2",
+          "title": "特集・食品工場の設備保全・予兆保全2026：企業事例＝築野食品工業・和歌山工場",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
+          "source": "news.nissyoku.co.jp",
+          "published_at": "2026-08-31T16:04:47Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -250,6 +250,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tMkd6TmNJMnkxZUtST2MzWWtseGRoNmM3SExSc0htWS1HeUwzbUQ4bHdDOHhna3VOaWdacXhEajZRVWxkTHpIbW51MUpsb0trLXR4Nw?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-11T04:40:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c713e5ed3ff95374",
+          "title": "フライングタイガー／池袋・サンシャインシティに10月16日新店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWOElkNFhSclVqZFRPa2lJazYtenZLZUc5VFZMZm1hWHhNdlNrNDh6NkdydTUzNUczalM5VTRscEUwSUMwUFM2SGRzUUpaY1pfTzloWA?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-11T02:16:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -295,16 +305,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0f795321d13e6019",
-          "title": "ロフト／京都府内3店舗目「イオンモールKYOTOロフト」11月27日オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyaEZrLWxPWHRwSzUxT18wUkxkMTVHdEJSNi1XQmJfSnZBc285QVVVQm9ESFN1R1ZYYXYyMEZtRzdicWJHOTZMRGJYTENNSklHdXltZg?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-04T01:19:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "9bd88acecffcffd4",
           "title": "アクロスプラザ富山掛尾／平和堂、サンドラッグ、ヤマダデンキ、ゼビオが新店舗オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCcmplVWpubF9XMnNGY0MyWWUtNDBsV2JxVHVDbHg1aTJTX3VJeDMwUGJsaVVqM1BWdWZZbktlYVptTUx0VTFmdFUtcnM4Rmh5dEJmaQ?oc=5",
@@ -319,6 +319,16 @@
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "df62a794dde7fd0c",
+          "title": "食品用水処理凝集剤市場、2035年へ：食品安全規制の厳格化が成長を牽引 - ニュースと統計",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdkp4U2hYUEVsNzlzLTIzZ3M1ckxUQUUzbTdsYlZicnhFOHFWUTRIT2Y0QVJjZEVkLS1QVlRFWDROSE45ZFlDck41aHFOQ1VreDRTYXVwaE1yVTU3cVBqaFNtakZyZ3ktTTc2MVFCZUdDYjlHREVzX1NZNWVqOVBKRzdPSXZ4MmpsMzhVWV9sREdoUkpUalg4dms5TnNVeWlXQlRqaWEzRFJnS3NkNjVZcU45RUs0ZUFMNnRZSVFzZHg2S3pZR3VQQmIxcWQ?oc=5",
+          "source": "IndexBox",
+          "published_at": "2026-09-12T20:11:20Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
@@ -378,21 +388,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6fec7f365bdc3f4e",
-          "title": "アルゼンチン政府、食品輸入手続き簡素化の対象品目を拡大（アルゼンチン）",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuYUZVb2dlclU3d2pkTWpPUXN4ekFmc1FOcVJXZmxCTDRNRDBiSUdfcGEyWEVKME1pNDZ6R0l4NDZpRllqS3lDM01McUtBMlBaQUtBcUI5aE5WdlpheVpSSDBucTJvaXlSd21n?oc=5",
-          "source": "news.infoseek.co.jp",
-          "published_at": "2026-08-10T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-12T20:39:33Z",
-  "last_success_at": "2026-09-12T20:39:33Z",
+  "last_attempt_at": "2026-09-13T04:57:53Z",
+  "last_success_at": "2026-09-13T04:57:53Z",
   "consecutive_failure_count": 0
 }
