@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-13T16:27:14Z",
+  "generated_at": "2026-09-13T20:56:19Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -20,11 +20,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-13T13:16:44Z",
+          "id": "48ead5a46768ea4f",
+          "title": "世界最大級のゲーム見本市「gamescom 2026」、前年を上回る規模で開催、多くの来場者でにぎわう",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PR2JfMFNTQ09oTnVubDBlTDhydmJ2N1JYR2FoUWFKN3VNR0V6dW04Z1daY1Fac2VCZlk1VmdfX1c4cmFNTnhRSmN3YW9NN0ZaQ0pUUmx4WUcwUVVwUFU5ZlFZWC1ZOWpmY09GWExB?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-09-13T15:05:27Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -43,8 +43,18 @@
           "id": "2117918d93cecde5",
           "title": "「全部ほしい…！」スタバ×ディズニーの秋限定コラボにファン歓喜 ミニーの「かぼちゃタンブラー」が可愛すぎる【海外スタバ】",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RRE1Ud2hVbG1KT3hqNDhPOVZpaE0tRUFYX3R2RXI2Sm53TTdyRVB6ZGlTRU9ORERiOUZEWGFZcVdDT0U5bE9SNmxLV0VPdlJyOVhHZVpncEExWGVENUtCY09WTTdZc0hZMDRMdXdraktPbGFEWDBOVl9LRmo1LUk?oc=5",
-          "source": "news.yahoo.co.jp",
+          "source": "Yahoo!ニュース",
           "published_at": "2026-09-13T10:02:13Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "88ac473fe77812e4",
+          "title": "ウズベキスタンの世界遺産ヒヴァ、なぜ行きやすくなったのか",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2TVB0R3hJYl9JXzNJdDRob25NTkhQNjFUNW16RUZzZ0VwSEtnLWI1SC1XcHNsdC0yMThLbm5tUElXY2FlT2R3ZnpPZmxDRXB1Uk5XaUloaENNM3h3cW9EaGh6MA?oc=5",
+          "source": "ナショナルジオグラフィック日本版",
+          "published_at": "2026-09-13T03:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -53,7 +63,7 @@
           "id": "fbf016a34e585ff7",
           "title": "2028年・三田国際大学が開設へ～戸板女子短期大学・三田国際科学学園高校を運営の学校法人が計画 #エキスパートトピ",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZERvMlVQUWFkanFDbm5FZXBYODA4MW0xYjNsVmNBTDV2OVlGdnJyTE9FcHcycXNsMmJlSEU5S0dZemdtbnVFVlk3dV9wWUNUem9VQ1A4Q0tIc3lmQ01YQXBBR1B3aElsb0lnOVlDenlhZ2ptSnk4Z0ZvZ2xnZ0o5U05vU2ZKY3JO?oc=5",
-          "source": "news.yahoo.co.jp",
+          "source": "Yahoo!ニュース",
           "published_at": "2026-09-13T01:05:41Z",
           "language": "ja",
           "category": "overseas",
@@ -75,16 +85,6 @@
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1zMWdvMHZkZUd3NFBIS1EyUllrcExDNHdleHMyLVN6T1F1cmEyNF80NzlUaVh4NHlsdl9ickQ0ajI3aDRtOWRvLQ?oc=5",
           "source": "ぶらあぼONLINE | クラシック音楽情報ポータル",
           "published_at": "2026-09-12T20:12:01Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "251400ea76a5cbd3",
-          "title": "富士山閉山後の登山道に“海外の団体客”も 閉山期に“年間1万人”の実態明らかに（テレビ朝日系（ANN））",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BTEd4R3NtWTYxZ3NXek83d0MwWFhwbHdCdHM5WHpnQjN6WVBETDRhc3FEZmxNbzkzOTZkaTlzc2V5aVpKa1lHVUtHSC1SZExrYVh6OE9hcC0tZ2JPQmJ1di1PWndHbTFwVzVLeVA0XzBDMEN2QWRSWjBWZm9Gdms?oc=5",
-          "source": "news.yahoo.co.jp",
-          "published_at": "2026-09-12T16:18:16Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -155,11 +155,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "866e4566f0bd6032",
-          "title": "同心型渦電流選別機の世界市場2026年、グローバル市場規模（大粒子用選別機、小粒子用選別機）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CTEliSXJMSFBTOTFtNG0tcWFsN0twSXpUUmhqMjNoY3BrRjlLUDd0aFV2eV84X1VUOG53S2VZV2w1MnRjUlJZYnNJN1doWTJ5aWlJ?oc=5",
-          "source": "ドリームニュース",
-          "published_at": "2026-09-11T05:00:00Z",
+          "id": "39c8e82ea1ae296e",
+          "title": "株式会社マスダック 入間工場に新棟「M5棟」を竣工 食品機械事業の体制を強化し、生産性向上と事業拡大を推進",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQTmRRQUVrRFI3Y3RPX1l4empSM0FqdVlZcmxqN29zQTJnR3c1OXZNenV5Q1R2VFROaXRLekdSc3dBaWlnMWtNTmtmcjFCRDY1OEhlbHA3aHlEel9aYTBwVUs4eHB5QnhYa3c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-25T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -193,7 +193,7 @@
           "id": "6a9ac4aa5ed315d3",
           "title": "倉庫・食品工場の冷凍冷蔵設備に最大6,700万円！東京都の省エネ型ノンフロン機器補助",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tTDgtV1VSTENZcTZwdmhHSG9uZlcwc0l3ODk0N19jLUNhb3lOQ3Zzc2FPWHNITnk5SkRiaTRYdnhJRmMxMEh1dVRFRmFaWkRobk8wYUN5eVVXc2NsRUE?oc=5",
-          "source": "補助金ポータル",
+          "source": "hojyokin-portal.jp",
           "published_at": "2026-08-24T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -203,8 +203,18 @@
           "id": "490326a0a5021998",
           "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
-          "source": "Infoseek",
+          "source": "news.infoseek.co.jp",
           "published_at": "2026-08-21T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4a4031dcf4ae9bd6",
+          "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-08-20T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -225,16 +235,6 @@
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrNHdBRmNjN21BSlRyQ3FFbnV4dHpJU0puRnVCcmRjSWg1U1JrUnZTd3pUd2llSTVHcy1zRnR3VGlsamt2YVljTTRXbWw2N3M0NTRDQVlJcVNMU0FMdmVzNVl6TEFRbkZoVUlJ?oc=5",
           "source": "news.nissyoku.co.jp",
           "published_at": "2026-08-31T16:04:47Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "37718cf83fa5445c",
-          "title": "5億食売れた納豆のタレにも入っている…食品工場に持ち込むことがタブー視されていた”乳酸菌”の逆転劇",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPb1Z6WUMtWlRUanByanRabERXOG1WbTJtZHVqTk5LUEZYMDNuVmhKcjd0MVpUUTBIZ2lPd214WU1qRzNkSGQ0RVFHN3lkdEZTb0lEWnRKRDZlY3laaDJ4SDRjZWxuazlIS2RPM2ozTGhhZWVfRVk3ZmZJMDZfWVBTNdIBhgFBVV95cUxNbFlhZWxOQU1pUFNrT2oxS1lnYkdCSC15Nlk5cmRPb1Zaa29wNi1aLThxWFpmeXhEOHI3dGRDbUQ0NG9rV0tsT21ZMmF2UFFVc1Y1aTlHRS1tYW9wMVdqUlQ1YU5PU29kWjRjUVBUN2ZEQzczb1p3LXRRbkVQVFlYVWFJRUc4QQ?oc=5",
-          "source": "ｄメニューニュース",
-          "published_at": "2026-08-20T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -285,6 +285,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "ad488a34b0c14961",
+          "title": "トフロム八重洲 タワー／商業ゾーンに老舗や新業態など55店舗オープン、9月10日開業",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRTjdDQW9LX3ZxWmY0ZGJ1YTZITmd6ZGpLZmw2TzRfUThaMFZVWUpOcW81eDZLV1IwM1JZbS0xTU9RNFAzZUswZF9RS0Zkc2xGcDhoX2ln?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-07T08:29:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "5afabeeb87640dfe",
           "title": "猿田彦珈琲／皇居東御苑内に新店舗11月3日オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aVUpvd0xZa0J6MzhVX1RBRVNuY3hBZ1Z6Tk1ndDAzaWZUbzZBU25keHlqR1pXVHo2bFRmUUd2WEk4OXJfMi1hcjNDZVRWbkhUM3ZXTg?oc=5",
@@ -300,16 +310,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhMWV4SlJyVDlGUnNTWW9KamM5dVVPbXMzRkVpQzRzaWhKY3hCeGR2TW5Lc3lZUjVESlRnTkxmOGt2NTlJaHRyMVN1dmtfSE12X0FEUw?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-04T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "afc3fd5f50b24f9d",
-          "title": "スーパーマーケット万代 滋賀県初出店！ 2026年12月上旬に２店舗同時オープン",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tcm1PTjFfSDF6QlJQNGhqVThHOUxNblhmQmRIZHpWUHBIRXhpV3hjZ1BrdjRjSUZGVkd6ejhGMXFac3JuaDBPNFF1Z2k1UnhqeEY2MXBLZ3BXWEIwS0Fya2F1QmlQblRkU0E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-09-03T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-13T16:27:14Z",
-  "last_success_at": "2026-09-13T16:27:14Z",
+  "last_attempt_at": "2026-09-13T20:56:19Z",
+  "last_success_at": "2026-09-13T20:56:19Z",
   "consecutive_failure_count": 0
 }
