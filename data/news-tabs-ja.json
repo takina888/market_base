@@ -1,87 +1,90 @@
 {
   "schema_version": 2,
-  "status": "stale",
+  "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-14T13:01:56Z",
-  "successful_categories": [],
-  "retained_categories": [],
-  "failed_categories": {
-    "regulations": "HTTPError: HTTP Error 503: Service Unavailable",
-    "food_machinery": "HTTPError: HTTP Error 503: Service Unavailable",
-    "food_factory": "HTTPError: HTTP Error 503: Service Unavailable",
-    "retail": "HTTPError: HTTP Error 503: Service Unavailable",
-    "overseas": "HTTPError: HTTP Error 503: Service Unavailable"
-  },
+  "generated_at": "2026-09-14T21:54:13Z",
+  "successful_categories": [
+    "regulations",
+    "food_machinery",
+    "food_factory",
+    "retail",
+    "overseas"
+  ],
+  "retained_categories": [
+    "regulations",
+    "food_factory"
+  ],
+  "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "a26210d76cadda90",
-          "title": "世界をひとつに！ 国連ってどんなところ？",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xVHZ3cWVkQW5QQ01iSnZFSGhvOFZFRUlRMzA1b29acFBlNmV4b0YyTFkxazVUbWZnMFNua3BVMGxUZFU4UkY4NVVUdmk1MEpIbl8zdEljQ3RSS0VWT3FFVngyU3dQVFk2MGVJ?oc=5",
-          "source": "政府広報オンライン",
-          "published_at": "2026-09-14T02:04:40Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-14T19:25:38Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1a92432262022d4b",
-          "title": "崩壊するリベラルな国際秩序 ―民主主義の後退がもたらす不安な時代―",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GSVB5Q1lSVDAtWFdNVGxYM0hNcnBIeGhuTTF3UjdrQ3VkdGxfaDE2bFhTR2JRNHZLLVhVbEc2MFFuSnoxODIyLVVRQm1wZUQ0Q0s4OHZfaUtxYmZwbkFMeVlTcWlpWTA?oc=5",
-          "source": "地経学研究所",
-          "published_at": "2026-09-14T01:09:40Z",
+          "id": "33050a35396bd139",
+          "title": "茂木外務大臣とファティ・ビロル国際エネルギー機関（IEA）事務局長との会談｜外務省",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DbGNZd1pVVG83MjgtYnUwZFQ0clVDLU1KT3JXTTVCRGJ1ZThUdXdOa0RKTFlhUmhwc3pxZmNGd0JhaHA0cHFVUjcxTlNfUDhUR0xSQlo4djlTUmZjQS1kMmpzNTdfc0Y1Mm5KNWJpWVJjM3FjQ1hB?oc=5",
+          "source": "mofa.go.jp",
+          "published_at": "2026-09-14T10:51:46Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "48ead5a46768ea4f",
-          "title": "世界最大級のゲーム見本市「gamescom 2026」、前年を上回る規模で開催、多くの来場者でにぎわう",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PR2JfMFNTQ09oTnVubDBlTDhydmJ2N1JYR2FoUWFKN3VNR0V6dW04Z1daY1Fac2VCZlk1VmdfX1c4cmFNTnhRSmN3YW9NN0ZaQ0pUUmx4WUcwUVVwUFU5ZlFZWC1ZOWpmY09GWExB?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-09-13T16:48:40Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9099e6cc45d2bee7",
-          "title": "世界遺産／ビートルズを育んだ港町（ドイツ・ハンブルク） [解] [字]",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSbzVrODlLVG1jejZDUGE5ckxyWlJNejI4NHZVb3paMF8ybEx0U1ZRYTZBT1lSSkpsaGREMDd6S0QxNkJMSkFlSTdfN0d2UXd0LTRTZmd3?oc=5",
-          "source": "tbs.co.jp",
-          "published_at": "2026-09-13T10:42:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2117918d93cecde5",
-          "title": "「全部ほしい…！」スタバ×ディズニーの秋限定コラボにファン歓喜 ミニーの「かぼちゃタンブラー」が可愛すぎる【海外スタバ】",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RRE1Ud2hVbG1KT3hqNDhPOVZpaE0tRUFYX3R2RXI2Sm53TTdyRVB6ZGlTRU9ORERiOUZEWGFZcVdDT0U5bE9SNmxLV0VPdlJyOVhHZVpncEExWGVENUtCY09WTTdZc0hZMDRMdXdraktPbGFEWDBOVl9LRmo1LUk?oc=5",
+          "id": "684db15be57506e4",
+          "title": "開発減速の声受け「世界のAI関連株」が同時急落 孫正義の資産は1.2兆円減",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kTXU1eXltcnIwM0t3anBPTlRvempFanZDamN4bEdMR1JLa0M5NHlQMVl2bUFITmk3V0tFWlNnRDM1d1YwdnQ5SzlZSTBUQWpfRTdLODY5eldWUUljZEpacXRkZVhqbTktczkxaHdPZkxpV0Y5dmYxOHZTejdiNjQ?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-09-13T10:02:13Z",
+          "published_at": "2026-09-14T10:15:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "fbf016a34e585ff7",
-          "title": "2028年・三田国際大学が開設へ～戸板女子短期大学・三田国際科学学園高校を運営の学校法人が計画 #エキスパートトピ",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZERvMlVQUWFkanFDbm5FZXBYODA4MW0xYjNsVmNBTDV2OVlGdnJyTE9FcHcycXNsMmJlSEU5S0dZemdtbnVFVlk3dV9wWUNUem9VQ1A4Q0tIc3lmQ01YQXBBR1B3aElsb0lnOVlDenlhZ2ptSnk4Z0ZvZ2xnZ0o5U05vU2ZKY3JO?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-13T01:05:41Z",
+          "id": "4964be7107f00604",
+          "title": "ビロル国際エネルギー機関（ＩＥＡ）事務局長による表敬",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0RnRqQW1JdDM5TmlaYmtIZ3lNX0E4VWFLMHNTY0EwaWFyZmtIQ283UHowY0F3cmg1c2NnMTdmZ09BTTFyZkV6cmZFd1lUanliVl8zd3V2S1dJQktUM1prZzhZZHlqNERyM0txUkRB?oc=5",
+          "source": "首相官邸",
+          "published_at": "2026-09-14T09:30:57Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a7efa01ffd9856ef",
-          "title": "ARDミュンヘン国際音楽コンクール 弦楽四重奏部門でカルテット風雅が第3位入賞",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1zMWdvMHZkZUd3NFBIS1EyUllrcExDNHdleHMyLVN6T1F1cmEyNF80NzlUaVh4NHlsdl9ickQ0ajI3aDRtOWRvLQ?oc=5",
-          "source": "ぶらあぼONLINE | クラシック音楽情報ポータル",
-          "published_at": "2026-09-12T20:12:01Z",
+          "id": "787d135e60438cd5",
+          "title": "赤澤経済産業大臣がビロル国際エネルギー機関（IEA）事務局長と会談を行いました",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBQS13UHdmWjVBZ1BOTDNqc2Jwb3NRVTk3ZUk5bnlyMkgwTXI5TUFFbm95NWFDdENVV1k5bzBTQ0ZkNjdtQWNybWd2Q2pBbEs1RWpYbFYtNkFsbjVYZ2YtSGhkOA?oc=5",
+          "source": "meti.go.jp",
+          "published_at": "2026-09-14T07:45:29Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3de20e30c35f27b8",
+          "title": "カンボジア国道5号線改修工事プロジェクトがJAPANコンストラクション国際賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12OGxVV2czTUNEWWo2VWJsWUF2MExqY2FtakJEOFRyVVpwbFUzQlZwM1oxb0dvVVQ2TTMtSGN2N1BmY0wyWDJ6Mm9ZeFQzRDdrUVhDZGdoQzlGTDZzSVpDQ2M0VlUzbHhUbGc?oc=5",
+          "source": "obayashi.co.jp",
+          "published_at": "2026-09-14T06:04:28Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6cbbcdecf0cb0880",
+          "title": "TUFS地域研究センター研究会 「国際刑事裁判所（ICC）に対する米国の制裁とEUブロッキング規則」 | 2026年度 | EVENTS",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWSm1PNWEtcFc1TFZKOVdDMldlc1Mzdk81U29GNHUzNkVKX0pyOXFEc2oyZjRMa2ljYklTNHV2bHAzUUIxWUJhVlVTdnFFRXdSVnJublhaNV83RFU?oc=5",
+          "source": "tufs.ac.jp",
+          "published_at": "2026-09-14T04:48:19Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -207,21 +210,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b2ea39a0e775737c",
-          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-07-06T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "4a4031dcf4ae9bd6",
           "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
           "source": "LOGISTICS TODAY",
           "published_at": "2026-08-20T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b2ea39a0e775737c",
+          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -252,6 +255,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "c713e5ed3ff95374",
+          "title": "フライングタイガー／池袋・サンシャインシティに10月16日新店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWOElkNFhSclVqZFRPa2lJazYtenZLZUc5VFZMZm1hWHhNdlNrNDh6NkdydTUzNUczalM5VTRscEUwSUMwUFM2SGRzUUpaY1pfTzloWA?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-11T02:16:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "a0f8bc147fe19585",
           "title": "平和堂／「アルプラフーズマーケット富山掛尾」オープン、富山県に食品スーパー初出店",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAteVpZcmhubVF3ZGhKMHBtSzlHa1FaZnRGMU50V2ptMlRselltRGtxVG1NUnduaEhXVmxIRk9ya054bVdMR2dNdHJxUHVZaTZNZnR0LQ?oc=5",
@@ -267,16 +280,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxZzVCSzA1eTVNVTY5RWYwclF3bjRlS3BzWVBVbHotUmVTZmx0WFhPczVHVEMzd2NDTjdWaTgwWnJpTmJ0WUdqWUxwT2RseFh0bE1QZWN3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-09T01:31:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ad488a34b0c14961",
-          "title": "トフロム八重洲 タワー／商業ゾーンに老舗や新業態など55店舗オープン、9月10日開業",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRTjdDQW9LX3ZxWmY0ZGJ1YTZITmd6ZGpLZmw2TzRfUThaMFZVWUpOcW81eDZLV1IwM1JZbS0xTU9RNFAzZUswZF9RS0Zkc2xGcDhoX2ln?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-07T08:29:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -317,20 +320,10 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "df62a794dde7fd0c",
-          "title": "食品用水処理凝集剤市場、2035年へ：食品安全規制の厳格化が成長を牽引 - ニュースと統計",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdkp4U2hYUEVsNzlzLTIzZ3M1ckxUQUUzbTdsYlZicnhFOHFWUTRIT2Y0QVJjZEVkLS1QVlRFWDROSE45ZFlDck41aHFOQ1VreDRTYXVwaE1yVTU3cVBqaFNtakZyZ3ktTTc2MVFCZUdDYjlHREVzX1NZNWVqOVBKRzdPSXZ4MmpsMzhVWV9sREdoUkpUalg4dms5TnNVeWlXQlRqaWEzRFJnS3NkNjVZcU45RUs0ZUFMNnRZSVFzZHg2S3pZR3VQQmIxcWQ?oc=5",
-          "source": "IndexBox",
-          "published_at": "2026-09-12T20:11:20Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "alic.go.jp",
+          "source": "独立行政法人 農畜産業振興機構",
           "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
@@ -352,6 +345,16 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
           "source": "jetro.go.jp",
           "published_at": "2026-06-04T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "df62a794dde7fd0c",
+          "title": "食品用水処理凝集剤市場、2035年へ：食品安全規制の厳格化が成長を牽引 - ニュースと統計",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdkp4U2hYUEVsNzlzLTIzZ3M1ckxUQUUzbTdsYlZicnhFOHFWUTRIT2Y0QVJjZEVkLS1QVlRFWDROSE45ZFlDck41aHFOQ1VreDRTYXVwaE1yVTU3cVBqaFNtakZyZ3ktTTc2MVFCZUdDYjlHREVzX1NZNWVqOVBKRzdPSXZ4MmpsMzhVWV9sREdoUkpUalg4dms5TnNVeWlXQlRqaWEzRFJnS3NkNjVZcU45RUs0ZUFMNnRZSVFzZHg2S3pZR3VQQmIxcWQ?oc=5",
+          "source": "IndexBox",
+          "published_at": "2026-09-12T20:11:20Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -389,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-14T13:01:56Z",
-  "last_success_at": "2026-09-14T05:07:01Z",
-  "consecutive_failure_count": 1
+  "last_attempt_at": "2026-09-14T21:54:13Z",
+  "last_success_at": "2026-09-14T21:54:13Z",
+  "consecutive_failure_count": 0
 }
