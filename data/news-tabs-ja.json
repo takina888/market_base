@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-13T20:56:19Z",
+  "generated_at": "2026-09-14T05:07:01Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -20,11 +20,31 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "a26210d76cadda90",
+          "title": "世界をひとつに！ 国連ってどんなところ？",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xVHZ3cWVkQW5QQ01iSnZFSGhvOFZFRUlRMzA1b29acFBlNmV4b0YyTFkxazVUbWZnMFNua3BVMGxUZFU4UkY4NVVUdmk1MEpIbl8zdEljQ3RSS0VWT3FFVngyU3dQVFk2MGVJ?oc=5",
+          "source": "政府広報オンライン",
+          "published_at": "2026-09-14T02:04:40Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1a92432262022d4b",
+          "title": "崩壊するリベラルな国際秩序 ―民主主義の後退がもたらす不安な時代―",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GSVB5Q1lSVDAtWFdNVGxYM0hNcnBIeGhuTTF3UjdrQ3VkdGxfaDE2bFhTR2JRNHZLLVhVbEc2MFFuSnoxODIyLVVRQm1wZUQ0Q0s4OHZfaUtxYmZwbkFMeVlTcWlpWTA?oc=5",
+          "source": "地経学研究所",
+          "published_at": "2026-09-14T01:09:40Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "48ead5a46768ea4f",
           "title": "世界最大級のゲーム見本市「gamescom 2026」、前年を上回る規模で開催、多くの来場者でにぎわう",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PR2JfMFNTQ09oTnVubDBlTDhydmJ2N1JYR2FoUWFKN3VNR0V6dW04Z1daY1Fac2VCZlk1VmdfX1c4cmFNTnhRSmN3YW9NN0ZaQ0pUUmx4WUcwUVVwUFU5ZlFZWC1ZOWpmY09GWExB?oc=5",
           "source": "jetro.go.jp",
-          "published_at": "2026-09-13T15:05:27Z",
+          "published_at": "2026-09-13T16:48:40Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -50,31 +70,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "88ac473fe77812e4",
-          "title": "ウズベキスタンの世界遺産ヒヴァ、なぜ行きやすくなったのか",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2TVB0R3hJYl9JXzNJdDRob25NTkhQNjFUNW16RUZzZ0VwSEtnLWI1SC1XcHNsdC0yMThLbm5tUElXY2FlT2R3ZnpPZmxDRXB1Uk5XaUloaENNM3h3cW9EaGh6MA?oc=5",
-          "source": "ナショナルジオグラフィック日本版",
-          "published_at": "2026-09-13T03:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "fbf016a34e585ff7",
           "title": "2028年・三田国際大学が開設へ～戸板女子短期大学・三田国際科学学園高校を運営の学校法人が計画 #エキスパートトピ",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZERvMlVQUWFkanFDbm5FZXBYODA4MW0xYjNsVmNBTDV2OVlGdnJyTE9FcHcycXNsMmJlSEU5S0dZemdtbnVFVlk3dV9wWUNUem9VQ1A4Q0tIc3lmQ01YQXBBR1B3aElsb0lnOVlDenlhZ2ptSnk4Z0ZvZ2xnZ0o5U05vU2ZKY3JO?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-13T01:05:41Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5138febf793816b5",
-          "title": "【速報】第83回ヴェネツィア国際映画祭 受賞結果一覧 金獅子賞はデンマークの『Kvinde Ukendt（Woman Unknown）』",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVEFncFdtVzRmYkxvUDhWcElidzFReDNFLS1yU29EMEhMS3U3Qld6WHVJRXB2YlgwNzkzYVZteDdQeXFXc2owc2U0SnhZOHpDSXd2RHdYSEFDZUFKTWlRQ3ZhRjhVSlk0ckRYRzJOSndrQ180UzlWb3VIQmFIZmMzZGxNWU0tdTU0N2plS1EyU2N0UDJQUUVlcXFlLVJHTXNxbmRsWDVuLTNyN0RLNVozSUYyYXViT2VU?oc=5",
-          "source": "Esquire",
-          "published_at": "2026-09-12T22:26:30Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -94,16 +94,6 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
-        {
-          "id": "bd4ed6093f8dc40d",
-          "title": "安川電機、e-メカサイトでFOOMA JAPAN 2026出展のAIロボティクスなどデモ動画を公開",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zeGswemZKVXVqajBFM2dIbFBTOG1mUFpNN1hRSzgwTkIyYnNfZWRSemNmOHgzRFZJTHpnMFQ1cWc5bkZDMDVJWktHU0oxTFhiVC1neGdGOEtLdw?oc=5",
-          "source": "オートメーション新聞WEB",
-          "published_at": "2026-09-13T03:25:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "4667b3bae1f17474",
           "title": "FOOMA JAPAN 2027、2027年6月8日から東京ビッグサイトで開催 出展申込は10/15まで",
@@ -163,6 +153,16 @@
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "866e4566f0bd6032",
+          "title": "同心型渦電流選別機の世界市場2026年、グローバル市場規模（大粒子用選別機、小粒子用選別機）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CTEliSXJMSFBTOTFtNG0tcWFsN0twSXpUUmhqMjNoY3BrRjlLUDd0aFV2eV84X1VUOG53S2VZV2w1MnRjUlJZYnNJN1doWTJ5aWlJ?oc=5",
+          "source": "ドリームニュース",
+          "published_at": "2026-09-11T05:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -193,7 +193,7 @@
           "id": "6a9ac4aa5ed315d3",
           "title": "倉庫・食品工場の冷凍冷蔵設備に最大6,700万円！東京都の省エネ型ノンフロン機器補助",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tTDgtV1VSTENZcTZwdmhHSG9uZlcwc0l3ODk0N19jLUNhb3lOQ3Zzc2FPWHNITnk5SkRiaTRYdnhJRmMxMEh1dVRFRmFaWkRobk8wYUN5eVVXc2NsRUE?oc=5",
-          "source": "hojyokin-portal.jp",
+          "source": "補助金ポータル",
           "published_at": "2026-08-24T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -203,18 +203,8 @@
           "id": "490326a0a5021998",
           "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
-          "source": "news.infoseek.co.jp",
+          "source": "Infoseek",
           "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4a4031dcf4ae9bd6",
-          "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
-          "source": "LOGISTICS TODAY",
-          "published_at": "2026-08-20T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -225,6 +215,16 @@
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
           "source": "MONOist",
           "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4a4031dcf4ae9bd6",
+          "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-08-20T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -250,16 +250,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tMkd6TmNJMnkxZUtST2MzWWtseGRoNmM3SExSc0htWS1HeUwzbUQ4bHdDOHhna3VOaWdacXhEajZRVWxkTHpIbW51MUpsb0trLXR4Nw?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-11T04:40:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c713e5ed3ff95374",
-          "title": "フライングタイガー／池袋・サンシャインシティに10月16日新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWOElkNFhSclVqZFRPa2lJazYtenZLZUc5VFZMZm1hWHhNdlNrNDh6NkdydTUzNUczalM5VTRscEUwSUMwUFM2SGRzUUpaY1pfTzloWA?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-11T02:16:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -313,6 +303,16 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "afc3fd5f50b24f9d",
+          "title": "スーパーマーケット万代 滋賀県初出店！ 2026年12月上旬に２店舗同時オープン",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tcm1PTjFfSDF6QlJQNGhqVThHOUxNblhmQmRIZHpWUHBIRXhpV3hjZ1BrdjRjSUZGVkd6ejhGMXFac3JuaDBPNFF1Z2k1UnhqeEY2MXBLZ3BXWEIwS0Fya2F1QmlQblRkU0E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-03T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -333,7 +333,7 @@
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
+          "source": "alic.go.jp",
           "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
@@ -392,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-13T20:56:19Z",
-  "last_success_at": "2026-09-13T20:56:19Z",
+  "last_attempt_at": "2026-09-14T05:07:01Z",
+  "last_success_at": "2026-09-14T05:07:01Z",
   "consecutive_failure_count": 0
 }
