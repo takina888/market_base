@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-15T11:53:40Z",
+  "generated_at": "2026-09-15T17:08:03Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,6 +18,16 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "e3b5346737fe7177",
+          "title": "マツコの知らない世界",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rRzhsNy11RmxhZ05Ra0JsckN3Y3dLMEYtU1hnajg2VjdKTU96S3dHQVhUUFhLcnhoTTkwbTJYUW1ESUtzYU52cVpSNDBfV1N1RlBGdnJIWWk5MS1JdUw0MUttQ0M?oc=5",
+          "source": "tbs.co.jp",
+          "published_at": "2026-09-15T13:01:45Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "78cdaad2ad0028ca",
           "title": "２０２７年国際園芸博覧会半年前イベント 高市総理ビデオメッセージ",
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44RUNrV0tWRHU5cmZfT0xmaXdhcFdsUWdUcVhDRTJIOU1iZHJyOGh6VEo2Z2d5Qk0tUlo4WnpJNF9WUlJjM2szU3J3NDU0a0dOQm5jeGpIemFDZjNBeHc?oc=5",
           "source": "株式会社セガ",
           "published_at": "2026-09-15T01:25:28Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "71fd1997e69ecdc9",
-          "title": "史上最強「スーパーエルニーニョ」発生、世界の気象は未知の領域に",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2bnZhZ1pYZWxuc1lpaTRQUkhMTG5QTjRpUmp2WnU3cWx4RGdxdG1ZaVoxSDVxbFRzczItQi1heE5oaVVoUDVNNnA0MHNETEpJUWJCbA?oc=5",
-          "source": "CNN.co.jp",
-          "published_at": "2026-09-15T01:05:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -212,7 +212,7 @@
           "id": "490326a0a5021998",
           "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
-          "source": "news.infoseek.co.jp",
+          "source": "Infoseek",
           "published_at": "2026-08-21T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -284,16 +284,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e8fcd9681f993593",
-          "title": "バロー／「スーパーマーケットバロー豊中島江店」9月11日オープン、コーナンに出店",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhMWV4SlJyVDlGUnNTWW9KamM5dVVPbXMzRkVpQzRzaWhKY3hCeGR2TW5Lc3lZUjVESlRnTkxmOGt2NTlJaHRyMVN1dmtfSE12X0FEUw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-04T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "afc3fd5f50b24f9d",
           "title": "スーパーマーケット万代 滋賀県初出店！ 2026年12月上旬に２店舗同時オープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tcm1PTjFfSDF6QlJQNGhqVThHOUxNblhmQmRIZHpWUHBIRXhpV3hjZ1BrdjRjSUZGVkd6ejhGMXFac3JuaDBPNFF1Z2k1UnhqeEY2MXBLZ3BXWEIwS0Fya2F1QmlQblRkU0E?oc=5",
@@ -312,6 +302,16 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a560c63a907c65de",
+          "title": "モスバーガー／埼玉県に「八潮店」9月3日オープン、郊外立地の次世代型店舗",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Dd3FyMFpzcThOMTdySFpXLVdjOGpPeHd3bV9IbGRYQ0VfaGh0Zjd1a29zSjd6WkdTaTFHeFJ1VVBESjA3UXQ4NTIxQmc2QnN4dUV2Tg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-01T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -322,7 +322,7 @@
           "id": "fee1381a70d461de",
           "title": "ホルムアルデヒド白菜は氷山の一角》日本に輸入された「発がん性」食品 ピーナッツ製品からカビ毒「アフラトキシン」検出事例 日本国内では中国産製品が数多く流通（マネーポストWEB",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxeEktZm9nVzZjT3dqV0JvakFjd0NUUjJQdzFMZUoxZm9pLXh2eVpnMWJXMFIxVkV4eE40MVZFWEFVZ3luczBoOU5GU3BHcUdJeUo1MWN2NVpFVnRiVm1BTXBnQnlkVFVxX3RFSlh5NXBmVmpPbXpoZWtYU0VyWEE?oc=5",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "published_at": "2026-09-15T07:16:00Z",
           "language": "ja",
           "category": "regulations",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-15T11:53:40Z",
-  "last_success_at": "2026-09-15T11:53:40Z",
+  "last_attempt_at": "2026-09-15T17:08:03Z",
+  "last_success_at": "2026-09-15T17:08:03Z",
   "consecutive_failure_count": 0
 }
