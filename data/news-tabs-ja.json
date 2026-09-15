@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-15T05:02:09Z",
+  "generated_at": "2026-09-15T11:53:40Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "78cdaad2ad0028ca",
+          "title": "２０２７年国際園芸博覧会半年前イベント 高市総理ビデオメッセージ",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE41ejBoX3Y0S21DSDNyWWFXOV9mRkMxTENOdW5PdDBUeWdOd3Q0WnUxaWFMN1dRcVBHMWJicmc2RjZzMW5RTXNIOTg5dkFSckN2RDU2NXNab3JZTDJxY0tiWlU0UjYzRmJHeVZlMDJlZw?oc=5",
+          "source": "首相官邸",
+          "published_at": "2026-09-15T06:34:08Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9d5b60e08d5bb5df",
+          "title": "YAO大躍進! 2ndシングル“ありふれた世界の果てに”がApple Music /LINE MUSICで総合1位を獲得! グローバルチャートでも9位にランクイン",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5jSk9QeG5EbUJrM1pXRDdHSmhQN085VGNfSTJPaWZIU0R1N1RFRVJTVFhseHpZcXJ3cGZhNjJOYU9yUXFZaDY5RDFR?oc=5",
+          "source": "EYESCREAM",
+          "published_at": "2026-09-15T06:02:21Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "d8148d2943546a51",
           "title": "2028年技能五輪国際大会（日本・愛知大会） ボランティア魅力発信セミナーを開催します！",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNXRyR1BCRWpseU52MG9FU1p5WDdnblZJcnlwbWFtaXFfbGlDbERzSnZxckJXSlVZZ1pQRGZJaV82WDQwLW1vcmVFQmRwVEU4UDFhSFBDTzg3dWk1akk0RFJRRFVjeVV2OWRyNnVrZHR0QmRjOGxBNXl4a19vT21sb05Pc3lCRU0?oc=5",
           "source": "pref.aichi.jp",
           "published_at": "2026-09-15T02:35:26Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4920ff3f48029a60",
+          "title": "2049年までに世界の1型糖尿病患者数が約3割増加と予測｜ニュース",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hcUc5ZlRGLWpmWmJEb2ZadkF2QlRTamdVU1VzdnJHbV9YRl8yc2xodmk3dlBkTHhhWWJSWTdLZHBmbEZYLU40MHRFQi1zWm1sU3lwbHNzcHRUUlpEWTBPOWhGdFdzdThyNDNScGU5Sl85bms3anJj?oc=5",
+          "source": "dm-net.co.jp",
+          "published_at": "2026-09-15T02:29:54Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -39,11 +69,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "finance.yahoo.co.jp",
-          "published_at": "2026-09-15T01:27:15Z",
+          "id": "5ad4d62e8db40969",
+          "title": "世界最大級のクリエイティビティの祭典 「Cannes Lions International Festival of Creativity 2026」レポート",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44RUNrV0tWRHU5cmZfT0xmaXdhcFdsUWdUcVhDRTJIOU1iZHJyOGh6VEo2Z2d5Qk0tUlo4WnpJNF9WUlJjM2szU3J3NDU0a0dOQm5jeGpIemFDZjNBeHc?oc=5",
+          "source": "株式会社セガ",
+          "published_at": "2026-09-15T01:25:28Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -54,36 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2bnZhZ1pYZWxuc1lpaTRQUkhMTG5QTjRpUmp2WnU3cWx4RGdxdG1ZaVoxSDVxbFRzczItQi1heE5oaVVoUDVNNnA0MHNETEpJUWJCbA?oc=5",
           "source": "CNN.co.jp",
           "published_at": "2026-09-15T01:05:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3a700c7d6773ce92",
-          "title": "同志社国際高教諭が死亡 辺野古沖転覆で死亡生徒の遺族「重さみんなで分かちあうべき」（産経新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PZzZGdDFJX21lRGIwek5KYVY1TVdIMzdzYTJKb2VlNXZSMmktOTRxdzFqS1pwVGE0OUFyZEVvbTRsTlc1R0xqQ2pyLW1XWVgxWWthT0otb2dvdnZ4QXdKTkNNZjMxVzVfakpFTzNPT2hMNEpqWHlBY3BGeUhyNnc?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-14T23:06:44Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "33050a35396bd139",
-          "title": "茂木外務大臣とファティ・ビロル国際エネルギー機関（IEA）事務局長との会談｜外務省",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DbGNZd1pVVG83MjgtYnUwZFQ0clVDLU1KT3JXTTVCRGJ1ZThUdXdOa0RKTFlhUmhwc3pxZmNGd0JhaHA0cHFVUjcxTlNfUDhUR0xSQlo4djlTUmZjQS1kMmpzNTdfc0Y1Mm5KNWJpWVJjM3FjQ1hB?oc=5",
-          "source": "mofa.go.jp",
-          "published_at": "2026-09-14T10:51:46Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "684db15be57506e4",
-          "title": "開発減速の声受け「世界のAI関連株」が同時急落 孫正義の資産は1.2兆円減",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kTXU1eXltcnIwM0t3anBPTlRvempFanZDamN4bEdMR1JLa0M5NHlQMVl2bUFITmk3V0tFWlNnRDM1d1YwdnQ5SzlZSTBUQWpfRTdLODY5eldWUUljZEpacXRkZVhqbTktczkxaHdPZkxpV0Y5dmYxOHZTejdiNjQ?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-14T10:15:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -157,7 +157,7 @@
           "id": "866e4566f0bd6032",
           "title": "同心型渦電流選別機の世界市場2026年、グローバル市場規模（大粒子用選別機、小粒子用選別機）・分析レポートを発表",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CTEliSXJMSFBTOTFtNG0tcWFsN0twSXpUUmhqMjNoY3BrRjlLUDd0aFV2eV84X1VUOG53S2VZV2w1MnRjUlJZYnNJN1doWTJ5aWlJ?oc=5",
-          "source": "dreamnews.jp",
+          "source": "ドリームニュース",
           "published_at": "2026-09-11T05:00:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -189,16 +189,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cbbbd1904db9d4a2",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "05be2d7c5a0244ed",
           "title": "GoldenHarvest、横浜市「TECH-PoC」に採択 市内食品工場の残渣をアメリカミズアブで飼料用タンパクへ変換する実証を開始",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41X1dKTWQxV08wT0R1R0N2QkI5TnZxbjA1T0VEcVNOVGZxVzZlXzdYdFVBaE5EOVZqaUk4OWxmdnVpcVVLX3BBQmtmbEVEUjkxWGRjSVR1b0xiZw?oc=5",
@@ -214,6 +204,16 @@
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tTDgtV1VSTENZcTZwdmhHSG9uZlcwc0l3ODk0N19jLUNhb3lOQ3Zzc2FPWHNITnk5SkRiaTRYdnhJRmMxMEh1dVRFRmFaWkRobk8wYUN5eVVXc2NsRUE?oc=5",
           "source": "補助金ポータル",
           "published_at": "2026-08-24T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "490326a0a5021998",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
+          "source": "news.infoseek.co.jp",
+          "published_at": "2026-08-21T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -319,6 +319,16 @@
       "label": "規制関連",
       "articles": [
         {
+          "id": "fee1381a70d461de",
+          "title": "ホルムアルデヒド白菜は氷山の一角》日本に輸入された「発がん性」食品 ピーナッツ製品からカビ毒「アフラトキシン」検出事例 日本国内では中国産製品が数多く流通（マネーポストWEB",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxeEktZm9nVzZjT3dqV0JvakFjd0NUUjJQdzFMZUoxZm9pLXh2eVpnMWJXMFIxVkV4eE40MVZFWEFVZ3luczBoOU5GU3BHcUdJeUo1MWN2NVpFVnRiVm1BTXBnQnlkVFVxX3RFSlh5NXBmVmpPbXpoZWtYU0VyWEE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-15T07:16:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6f67dd68729d9d71",
-          "title": "イタリアへの輸出には新たな包装規制が適用される。",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbEp4OTVHdmwyM3VjMEZnLUJ2dkVXWWVSdkFJSjFIUHhsYmo3Z2NKTHY1U0ZzM3NQN041SldZSU81a1lkOGNZRXR6R3l3V1c1bXRjMlNfQXFpdEc0SWMzaVpKR3VTRU1GR2VBaXh0MTExNWRuQU02R2JSRVZoOEhqWlpjTFhPZw?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-09T08:26:47Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-15T05:02:09Z",
-  "last_success_at": "2026-09-15T05:02:09Z",
+  "last_attempt_at": "2026-09-15T11:53:40Z",
+  "last_success_at": "2026-09-15T11:53:40Z",
   "consecutive_failure_count": 0
 }
