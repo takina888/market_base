@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-15T21:29:25Z",
+  "generated_at": "2026-09-16T04:57:50Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,31 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-15T19:31:53Z",
+          "id": "748133b932432f6c",
+          "title": "国際交流センター（NEXT）主催 2つの英語プログラムを実施しました | 2026のお知らせ | お知らせ一覧",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5fT19DdjY2VFRiQ0tHdzVJOUdXNlUySVdRQm9PbnpOdXRERUJaamlNM244aUxqbEVoNWc4OU13V1VrWThBX3kxX2dJSDZCb190Qm5yaFRqeHkxbGM1ZWQw?oc=5",
+          "source": "teu.ac.jp",
+          "published_at": "2026-09-16T04:51:04Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d762d519da48e3a0",
+          "title": "『ママがもうこの世界にいなくても』夫と娘の“その後の物語” 家族の証を残すために向き合った日記の編集作業「打ち合わせ中に声を出して泣いたこともあった」（女性セブンプラス）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94SDlPcjhNdmFYdjhxckhYa3A1WjNMY1NzUm4zZU1lY3Q2X0NCLWhqallzaG9QcVRJZFBwZmVrSk5TYXNJc290WXhqRjdSa0E5eWxmTjlvSjBObFdrWlRfY0xkTWZ5NW1kTWNGdnJFcVVVU01tOEIycFNZZGVfSG8?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-15T22:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "da105529395e7f43",
+          "title": "貿易統計26年8月－原油輸入は数量・価格ともに前年を上回り、貿易収支の悪化要因に",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YSzJVM1NiRnNjVVM0VnVHbjNZSnNZS3VGVm5Yc1JXdEpBb1kwcHJsNkNuamhxeHJ3c24zZU80RzFVREhJVjktYll4S2FmQlJNT0FxR2ZVOEFzd1hrQnB2Rk1IZ091eVRDV3JYRG5HS3dwbER2SXVkbzFLNmZ1bHPSAX9BVV95cUxOWEsyVTNTYkZzY1VTNFZ1R24zWUpzWUt1RlZuWHNSV3RKQW9ZMHBybDZDbmpocXhyd3NuM2VPNEcxVURISVY5LWJZeEthZkJSTU9BcUdmVThBc3dYa0JwdkZNSGdPdXlUQ1dyWERuR0t3cGxEdkl1ZG8xSzZmdWxz?oc=5",
+          "source": "nli-research.co.jp",
+          "published_at": "2026-09-15T15:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -39,51 +59,31 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "f2f06acc56a00be6",
+          "title": "トロント国際映画祭で北米プレミア！是枝裕和監督が登壇",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBlLXhxSWtYTF9DWHdwdkd2ekdsU3pOSUQ0clRyWHRvQmNiSHJNbEdacWhnZGdDeFZ0eThISTRpa2owRmt1?oc=5",
+          "source": "K2 Pictures",
+          "published_at": "2026-09-15T11:22:42Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "53202a9219a5e746",
+          "title": "日本のiPhone販売価格は世界40の国・地域の中で安値圏",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sSmRGUWRLTXV1WjVNQmM3d0ZOeTR6YnVYOVZLaGF3QWFHLXhoNDJqNlhQVHh1cjBrdmZ1dGozNF9KZVZHaFBMaGRjRW02am0za2lNYVJndVRZQQ?oc=5",
+          "source": "m2ri.jp",
+          "published_at": "2026-09-15T07:02:10Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "78cdaad2ad0028ca",
           "title": "２０２７年国際園芸博覧会半年前イベント 高市総理ビデオメッセージ",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE41ejBoX3Y0S21DSDNyWWFXOV9mRkMxTENOdW5PdDBUeWdOd3Q0WnUxaWFMN1dRcVBHMWJicmc2RjZzMW5RTXNIOTg5dkFSckN2RDU2NXNab3JZTDJxY0tiWlU0UjYzRmJHeVZlMDJlZw?oc=5",
           "source": "首相官邸",
           "published_at": "2026-09-15T06:34:08Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9d5b60e08d5bb5df",
-          "title": "YAO大躍進! 2ndシングル“ありふれた世界の果てに”がApple Music /LINE MUSICで総合1位を獲得! グローバルチャートでも9位にランクイン",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5jSk9QeG5EbUJrM1pXRDdHSmhQN085VGNfSTJPaWZIU0R1N1RFRVJTVFhseHpZcXJ3cGZhNjJOYU9yUXFZaDY5RDFR?oc=5",
-          "source": "eyescream.jp",
-          "published_at": "2026-09-15T06:02:21Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "cfedb33986440434",
-          "title": "覚醒・睡眠・麻酔下の世界最大規模の神経活動データ公開",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xZE9xekcyOFpSWWlmaE9scmpUWk9jSTl6akk1SnhIcndxRGJMNzIyQWJHRnFlNlBLWjRYaDV6c1M1aVVmUWJIc3UzVUlhaERVTEc0OWFUTmF2dGxPcWlQUElTaw?oc=5",
-          "source": "riken.jp",
-          "published_at": "2026-09-15T05:06:22Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d8148d2943546a51",
-          "title": "2028年技能五輪国際大会（日本・愛知大会） ボランティア魅力発信セミナーを開催します！",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNXRyR1BCRWpseU52MG9FU1p5WDdnblZJcnlwbWFtaXFfbGlDbERzSnZxckJXSlVZZ1pQRGZJaV82WDQwLW1vcmVFQmRwVEU4UDFhSFBDTzg3dWk1akk0RFJRRFVjeVV2OWRyNnVrZHR0QmRjOGxBNXl4a19vT21sb05Pc3lCRU0?oc=5",
-          "source": "pref.aichi.jp",
-          "published_at": "2026-09-15T02:35:26Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "56dd7c0f775b00bd",
-          "title": "東本 はるか（HIGASHIMOTO, Haruka）",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtcjdwZGt4TGR4cXFSalpSN0V1M3ZzY2puOTZRWDBsU3ZtLXFJTDlCRERvWGRkc3lwbXE3NzdQTjlmWjZ6Tk00bHNjcVJWQ0dIS1RMNWNmYjdiMlV2c3ZmV3ZodXE?oc=5",
-          "source": "waseda.jp",
-          "published_at": "2026-09-15T02:28:25Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -124,6 +124,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "a772bd383a2af7eb",
+          "title": "日本盛、大型紙パック充填機を移設",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-16T15:06:10Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "05cf05b47710b11c",
           "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
@@ -144,21 +154,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "866e4566f0bd6032",
-          "title": "同心型渦電流選別機の世界市場2026年、グローバル市場規模（大粒子用選別機、小粒子用選別機）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CTEliSXJMSFBTOTFtNG0tcWFsN0twSXpUUmhqMjNoY3BrRjlLUDd0aFV2eV84X1VUOG53S2VZV2w1MnRjUlJZYnNJN1doWTJ5aWlJ?oc=5",
-          "source": "ドリームニュース",
-          "published_at": "2026-09-11T05:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ee1bb5176171cef3",
-          "title": "2026冷媒充填機市場規模マップ：シェア・動向・フレームワーク、年平均成長率（CAGR）4.3%の安定成長",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DRmtUWVRyaWtSV1VsbENWWUF2RkRiYjduSURMdDlVenNJaGVPM0ZHejBORnYyLUQ2R01SOWVEMm52d3Z2RzBENl84Z0FsLWlBZHFz?oc=5",
-          "source": "ドリームニュース",
-          "published_at": "2026-09-07T04:00:00Z",
+          "id": "39c8e82ea1ae296e",
+          "title": "株式会社マスダック 入間工場に新棟「M5棟」を竣工 食品機械事業の体制を強化し、生産性向上と事業拡大を推進",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQTmRRQUVrRFI3Y3RPX1l4empSM0FqdVlZcmxqN29zQTJnR3c1OXZNenV5Q1R2VFROaXRLekdSc3dBaWlnMWtNTmtmcjFCRDY1OEhlbHA3aHlEel9aYTBwVUs4eHB5QnhYa3c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-25T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -168,6 +168,16 @@
     "food_factory": {
       "label": "食品工場",
       "articles": [
+        {
+          "id": "c909072b8c5f87b0",
+          "title": "「食品工場Week 大阪 2026」に出展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52Q0dBbjg4YmkwVFl3czZjUE1UaWVvcTItMzAzQzY1X0JuV0xTMkkzTWtYenhvdS1NSllaa0NsNzY5bEZyNzRGeDBTTU1jTHQ4bW5IbTdGbXJpa2Jia01qaFIyekZ6QU9DMFE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-16T02:00:02Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "d8eb749f3473be48",
           "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
@@ -189,6 +199,26 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "cbbbd1904db9d4a2",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "63935ecd11878814",
+          "title": "第5回 食品工場の自動化・DX展 大阪（フードテック ジャパン）【9/30〜10/2・インテックス大阪】｜RX Japan株式会社",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Bc0NXbFpzTjFWaVFWZjVGQ1g2MUhxMkNZMWNzcGlQYk1PaXpNV25MX3RHdGxrNFRsbXJ1MVRPRkxZMmE4MERhZVI1bjJLVFFNWjRSSXBtUTUtaEU5UENvWTM5NXVocjU4M2ZjVVIxYTBESTRLLVhN?oc=5",
+          "source": "event-marketing.co.jp",
+          "published_at": "2026-09-16T03:18:23Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "05be2d7c5a0244ed",
           "title": "GoldenHarvest、横浜市「TECH-PoC」に採択 市内食品工場の残渣をアメリカミズアブで飼料用タンパクへ変換する実証を開始",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41X1dKTWQxV08wT0R1R0N2QkI5TnZxbjA1T0VEcVNOVGZxVzZlXzdYdFVBaE5EOVZqaUk4OWxmdnVpcVVLX3BBQmtmbEVEUjkxWGRjSVR1b0xiZw?oc=5",
@@ -204,36 +234,6 @@
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tTDgtV1VSTENZcTZwdmhHSG9uZlcwc0l3ODk0N19jLUNhb3lOQ3Zzc2FPWHNITnk5SkRiaTRYdnhJRmMxMEh1dVRFRmFaWkRobk8wYUN5eVVXc2NsRUE?oc=5",
           "source": "補助金ポータル",
           "published_at": "2026-08-24T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "490326a0a5021998",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
-          "source": "news.infoseek.co.jp",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4a4031dcf4ae9bd6",
-          "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
-          "source": "LOGISTICS TODAY",
-          "published_at": "2026-08-20T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b2ea39a0e775737c",
-          "title": "「人を育てる自動化」が食品工場を変える、省力化投資の先にある人材育成：FOOMA JAPAN 2026（1/3 ページ）",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40cnpZb3E4NXhsaGVubHFZekZJc3hlaGxBQWRBQ2hTSzdRUFdEMWhiSnZYWkE2TUZsd2c0Z3J3MFpQaWtBU2l5cHBCN3N2NllTSFhjRDVhMHFoV2ZMZkVvSDFvMFUxZmVCY1BDNTRqTQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-07-06T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -284,6 +284,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "e8fcd9681f993593",
+          "title": "バロー／「スーパーマーケットバロー豊中島江店」9月11日オープン、コーナンに出店",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhMWV4SlJyVDlGUnNTWW9KamM5dVVPbXMzRkVpQzRzaWhKY3hCeGR2TW5Lc3lZUjVESlRnTkxmOGt2NTlJaHRyMVN1dmtfSE12X0FEUw?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-04T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "9bd88acecffcffd4",
           "title": "アクロスプラザ富山掛尾／平和堂、サンドラッグ、ヤマダデンキ、ゼビオが新店舗オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCcmplVWpubF9XMnNGY0MyWWUtNDBsV2JxVHVDbHg1aTJTX3VJeDMwUGJsaVVqM1BWdWZZbktlYVptTUx0VTFmdFUtcnM4Rmh5dEJmaQ?oc=5",
@@ -294,21 +304,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a560c63a907c65de",
-          "title": "モスバーガー／埼玉県に「八潮店」9月3日オープン、郊外立地の次世代型店舗",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Dd3FyMFpzcThOMTdySFpXLVdjOGpPeHd3bV9IbGRYQ0VfaGh0Zjd1a29zSjd6WkdTaTFHeFJ1VVBESjA3UXQ4NTIxQmc2QnN4dUV2Tg?oc=5",
-          "source": "流通ニュース",
+          "id": "112715125e88d3e8",
+          "title": "月会費3,300円の「アッティーボジム」、名古屋市内2店舗目を9/25（金）にオープン！「カネスエ木場店」2階に新店舗",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pNzNYclNmQjlHMkRIWDVvWTRla0xVTFZOYXVlb2RPSnlGcjdRTkk3M2ljcjA0enB5Z0F2eUxBSFlDNGVqS0o1UG9aU04tMG9ick5tSElPYTFGRWwwZVRoMzE0M1QxYTZ3M1E?oc=5",
+          "source": "PR TIMES",
           "published_at": "2026-09-01T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "65177bac6b476850",
-          "title": "ダイレックス／福岡県・鹿児島県に計3店舗、27年3月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWF9tbnpwbkJSdVplYnc1STBYMUlnZDZwRmJtRk8wX25mbV9XbjFIY3lrdWlSZlp6Z0wzcVVwM1pWcWQxT2o5Q3ZSNUxOYVZmbk5yaVdB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-28T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-15T21:29:25Z",
-  "last_success_at": "2026-09-15T21:29:25Z",
+  "last_attempt_at": "2026-09-16T04:57:50Z",
+  "last_success_at": "2026-09-16T04:57:50Z",
   "consecutive_failure_count": 0
 }
