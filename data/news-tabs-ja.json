@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-16T11:48:11Z",
+  "generated_at": "2026-09-16T17:07:33Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,6 +18,46 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "7bc7d78666b70753",
+          "title": "サウジと中国の経済関係が深化、貿易額が1,000億ドルを超える",
+          "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxQVFM3UUFwbmhYRmRnRUx0ay1SMV95azVXcFFhZkRZNS1oc1hIbFV5QU1oTmFCalBucWVxLUZ6MVlmWndzNXVrSEhKQW5ad2o0bUhudUlTV0dUOTJOb1VsVmdELXNXaHF4TzdBZ0Z2WEhDa19ZcGRTV2V4N2hIZEhiQU9TSWpvMGYxZkNycjQxTjdtWU42UjhCdGZiSkRVRHVYYjUzZGNTdTgyWTREWXpzQ3J4Y0p2X1MwcTVXYjgwRWNXNUdHSERQSE9zRzNIc1l3RmV5d2tVVmdwREg4VGwxaGNzNlh3eG95YzBQeWJSd3pXdHNnaURlY1dVLW9Xc3ZISUl2bDFmTlFUeVFrUENfNGxWZThraXVkbGZ4WGphZW51S0pZVnJZSjB1eVBsYUtGcnFaNERzSi1sMWREWi1CTXdvSVNGbFJUZWJLZDZnWF9NN29oQ2RJbVVQbTQxdkgycThhOFo2MXNYSmxOb2lPRkg5c2U3N0pWMDlsbEFXWHh4SXBS?oc=5",
+          "source": "アラブニュース",
+          "published_at": "2026-09-16T17:06:04Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a395639743b729c4",
+          "title": "Re:ゼロから始める異世界生活 4th #83【地上波先行・WEB最速】",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5OW03WmN3RDM5MXRBUmJSVmQ4VGxDUWdoenNzR09vQ1ZJQnZHaDJ2MTRNckpQTHEyTkNuUDA2ZHVTTlI4bWhLcXNBWTBWaDlGbGlZYkVfUURWT2RnNUh3X09YRnVYYXY0VFE?oc=5",
+          "source": "ABEMA",
+          "published_at": "2026-09-16T13:47:40Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "finance.yahoo.co.jp",
+          "published_at": "2026-09-16T13:36:24Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "714ae2609a7ec9f1",
+          "title": "“パリで食事会 議員5人で100万円”は県が負担 福岡県議会、総額約2億6500万円の海外視察も第三者委員会の調査対象に",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GWmVpN04zQU5jMVFIT3FzRXlnTi1rcnMwV0lDcF9iVWZzOUwyTlI0OGlpMHlVY0hRZmhNRkJnbmhwU1pheW1kcXl4NFZwS2JKSmFuU2lBUlBwSWd2ZVJYMWtUZ1EyUDR4Z2RvMzYtX0gwUU5zSnBDSFRyaGRFUmc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-16T08:24:18Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "dda674bb32c73545",
           "title": "米オープンAIのアルトマン氏、世界がAIを「恐れるのはもっとも」だが「企業を信頼すべき」と主張",
@@ -39,51 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2298d43ef2403c3b",
-          "title": "幻想的な世界が広がる 週末限定！青島をライトアップ｜ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qb2lrMGZxWG1pdmVzSFdrSUNuOThxbE9INW9JNDc0Y0lKZ3FIM2NkQVZaSHJaeFRRNGlFZHFjRlNLZU40RHRPQVN6aW4wcmRLd3RRdzZSZVZwb2N0XzY0?oc=5",
-          "source": "umk.co.jp",
-          "published_at": "2026-09-16T03:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e82da2551250fee3",
-          "title": "【速報】生徒死亡の同志社国際高校側がコメント「深い哀悼の意」「生徒の平穏な生活を取り戻せていない 対応が十分でないことをお詫び」辺野古沖船転覆から半年…“教育の適切性”検討まとまり次第会見の意向",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Ga2RMNGZZQXEyTTVlTWluWjRnUlIwaUJzUVVkZ29VUXlBWDg3aUZYVUR2XzBEa09CR1hqVTlyRlRVcjJ6NlF3Z3RfMllMYURvMlZTaGhLcnVSMG1rN3NhbVlLc0VyNmxMTDdVSUVKOUU0dFhEeUFUbDRSS0RKV2M?oc=5",
+          "id": "3c11dbb8755d7a0f",
+          "title": "ボクシング元世界王者の薬師寺保栄被告に執行猶予付き有罪判決 養子縁組届を偽造し提出 名古屋地裁",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PbEFER25xTGlxTG9ObkN1MzdzTklobWhTemFodGtQd09mY3VwQ1FoS1NTT2l5WlFNaU5LcUJtV005em11TEpNbDc2SXBjejl6VFJsX0oxVnRiVjA3ckFxVTY3cE1VOE1ycHV1RGtEbnByVzFvLUxINVNSc2FlTEU?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-09-16T02:40:56Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c36abe16f8dc5bc4",
-          "title": "薬師寺保栄被告に有罪 元世界王者、養子縁組届偽造 名古屋地裁（時事通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wQ19pZ0FxbjlVWXdDcmRNcnZVc05fRHZkQ0NxTEpqTDZRRzJlcUFrME1KWXFmQnJOOWZlOU5YQUg5S0FTNmZ2bE43d0didWtLb1NwOERvN3lfdlU1OEFEc1RXbFg4dlo3c1BoN3RWZURqaUhEczFVdzJXWjNoaU0?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-16T01:56:16Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "494fc3204ee977c8",
-          "title": "【レンタル新作】伏瀬原作による人気異世界ファンタジーアニメの劇場版第2弾『劇場版 転生したらスライムだった件 蒼海の涙編』2026年9月25日（金）リリース",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSSUVwWXNRQkZGd1VYT05WbDZRNTdpdk0tUmczNjdybWpyeXhoRHNqcE4tN3c4R1NJV1RLaVo5RC1OQ1Z4eThWXzN4VERUMmozWGVXQzRMRQ?oc=5",
-          "source": "TSUTAYA",
-          "published_at": "2026-09-16T01:13:05Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "52e90c6346cf0cfa",
-          "title": "国際糖尿病支援基金 森田会長の「わが友、糖尿病」 フィリピンを訪問して｜ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DQUVSRVRmUlExaFdveVdkSE5QcEhpR2NRUWhxVE54VDVaNDZkSEZKblpyTU13QUd0bnUzd2xBRnQ5ejNiTGdqYTYzbHFGN3RzQ0xNSW9EY3o?oc=5",
-          "source": "dm-net.co.jp",
-          "published_at": "2026-09-16T01:02:17Z",
+          "published_at": "2026-09-16T03:50:01Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -124,6 +124,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "a772bd383a2af7eb",
+          "title": "日本盛、大型紙パック充填機を移設",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-16T15:06:10Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "05cf05b47710b11c",
           "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
@@ -147,18 +157,8 @@
           "id": "866e4566f0bd6032",
           "title": "同心型渦電流選別機の世界市場2026年、グローバル市場規模（大粒子用選別機、小粒子用選別機）・分析レポートを発表",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CTEliSXJMSFBTOTFtNG0tcWFsN0twSXpUUmhqMjNoY3BrRjlLUDd0aFV2eV84X1VUOG53S2VZV2w1MnRjUlJZYnNJN1doWTJ5aWlJ?oc=5",
-          "source": "dreamnews.jp",
+          "source": "ドリームニュース",
           "published_at": "2026-09-11T05:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8bcc2a0037bd30e2",
-          "title": "食品加工機械市場の規模、シェア、成長率、分析（2034年まで）",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5vWEx5UzJBcTB6X0c4eTB6cnhTTmlQUWVhRWRacjByQ3FDdVNjMXc4NmxWTGZwcnFaV051Yl96cmlRV0F5bWhRWGpXSGE5OEVXa1p6bDY3WFV2eGpiUmJNR1BLSzZzR3V5aExUZjRjRDMyVFNhUVhxMHd3?oc=5",
-          "source": "Straits Research",
-          "published_at": "2026-09-08T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -189,21 +189,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cbbbd1904db9d4a2",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1182e3c76491b1b1",
-          "title": "「食品工場Week 大阪 2026」に出展",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tc1E5WWw4djRQR0l0SGl5R29aS1piVElHRU15VjI3RGFmYUJkckFETDZGeGVBcmp5aVBLdmQya0xiRGtFZUY5MU5BYkl1QXkxU2YzSWNkMFdvdkZmbUY1enpqVko4WkVnVWNuMjlqVTVpUm9rVGhKSDd1UQ?oc=5",
-          "source": "ニコニコニュース",
-          "published_at": "2026-09-16T10:30:15Z",
+          "id": "661eb4e19962b7bb",
+          "title": "「食品工場Week 大阪 2026」に出展（PR TIMES）",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEOGFvUkNQeXZsUDdIVFJlSUpaRzRGZDl1UTNXMTdNTE9BamJqQlJ1aVhFZVprLVI4VnVHT3NpX2pSVC1Bak85QnhVLUQyWkFkczB3cXdJZ213UExsQ1dScnlnMld5VDhG?oc=5",
+          "source": "毎日新聞",
+          "published_at": "2026-09-16T04:52:40Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -237,12 +227,32 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "490326a0a5021998",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hZW0zbEtFYXI2Y1BzMkJIekpVMjBpcS04dDdrclhUeUVNdTBZakktbl9yZ1Y2Mmo1UUR2T04xblpjcDc2eDBQTjhiRjBVNDZWYlRNcHM5MGxoN2tSdm0zNmpWMGcyeUV1ZG1sSTVPNmY0dw?oc=5",
+          "source": "news.infoseek.co.jp",
+          "published_at": "2026-08-21T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "c390998419acd8c9",
+          "title": "ヤマダストアー／兵庫県宝塚市に「（仮称）宝塚市伊孑志計画（店舗面積3099m2）」27年3月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMWVhLQkVpbjZWa2VqNGNzRUVZS0lDVVBGNWpzeW1lVjkwbWVjYkg0eGRnVkRnWE84eFcyb1FveVM2VWFqN09jMnhpOFl6N0Q4cW9aS1VR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-16T01:31:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "ca823d396389331e",
           "title": "バロー／名古屋市に「スーパーマーケットバロー矢田店」9月18日オープン",
@@ -302,16 +312,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "65177bac6b476850",
-          "title": "ダイレックス／福岡県・鹿児島県に計3店舗、27年3月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWF9tbnpwbkJSdVplYnc1STBYMUlnZDZwRmJtRk8wX25mbV9XbjFIY3lrdWlSZlp6Z0wzcVVwM1pWcWQxT2o5Q3ZSNUxOYVZmbk5yaVdB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -324,6 +324,16 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxeEktZm9nVzZjT3dqV0JvakFjd0NUUjJQdzFMZUoxZm9pLXh2eVpnMWJXMFIxVkV4eE40MVZFWEFVZ3luczBoOU5GU3BHcUdJeUo1MWN2NVpFVnRiVm1BTXBnQnlkVFVxX3RFSlh5NXBmVmpPbXpoZWtYU0VyWEE?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-15T07:16:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e3eb956f85cd4512",
+          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-07-15T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -369,16 +379,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e3eb956f85cd4512",
-          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-07-15T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "a923c392a2786ef4",
           "title": "イタリアが包装規制を強化。ベトナム企業は迅速な対応が求められる。",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0kyY2U5NWtuWXJ0bmIxN2VZWUgwWWFvLVZOZ3RGV2NoNnBoTXEyQ3BVZmNjTEJJclM0RDhvZTJBVk1mVUp2QjE1Z3RuTjYzQmJMaWxmdmhDVkNLdlBCT2pqXzFvOTdBRTlGVWxCMGN1LUdFSkRuUFBmMVM4Y0xSTmlsZGp5YkxEZ0NIUGdmMTVMLXND?oc=5",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-16T11:48:11Z",
-  "last_success_at": "2026-09-16T11:48:11Z",
+  "last_attempt_at": "2026-09-16T17:07:33Z",
+  "last_success_at": "2026-09-16T17:07:33Z",
   "consecutive_failure_count": 0
 }
