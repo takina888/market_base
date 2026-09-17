@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-16T21:25:18Z",
+  "generated_at": "2026-09-17T05:00:09Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,71 +19,71 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "44cae1a60009f177",
+          "title": "金鉱脈求め外資が鹿児島で試掘 世界になお眠る6万トン超",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qLTlQRjljRmI4NEhoR1JfNmlHYnNwRlNqcGRUZG9FSmZURmFOT2RMU0xob3dBeHRKenhTemxxYUZrUjVabV9sME5VM2FGSVRGRG1lUmRlY3c3X2hlUVFGcV9ZQTJndTVXZGROcl9NUG5SQV93RDdWNnRjWl9Tdw?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-09-16T20:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "570ad89efe977f0b",
+          "title": "アンモニア燃料によるナフサ分解炉運転で世界最高水準の混焼率85％を達成しました",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DU3dfdENla3BPYlhWSzhqdGJudXBZckpKSS0wcjJrYmllRXpLSkZzblY5ZHB3OGdZSXlzUUZNSGR6ZjVleXk4eWI1S25OWUNCQVp1Y3lCLVFzbTdTdXc?oc=5",
+          "source": "nedo.go.jp",
+          "published_at": "2026-09-17T01:05:16Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f5cefc172f7624e5",
+          "title": "令和８年度「海外教育旅行の促進及びプログラムの付加価値向上事業」採択結果のお知らせ | 2026年 | 公募情報 | 観光庁",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zY2pQczJCRmhrNXJEZ0FLOWkwMlZZMk1HQW5HcWNUQklvQkF5dmNJSmFMTU5tdmNwbDBDY0J1VkNnR3hnZ3dZM1dLVHFpMGI1WExSTU96VFROLXVCNkE?oc=5",
+          "source": "mlit.go.jp",
+          "published_at": "2026-09-17T01:04:43Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e9710911c5e014ad",
+          "title": "プレスリリース：Gartner、2026年の世界のAI支出は前年比49.5%増の2.7兆ドルに達すると予測",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYzdlVUFzbXhuOUJQRFREQWR5TGlQRE9hXzA1eWdrS2tyOXhsenFVLVJmVk1MUXpVWHl5REFIaFN2V1Exa3BrZEZCTG5CbGRZNXI0TnNaeWdrWjlFYVJ6VlR2YmdzemRUQ2lwSmJYUUJNYXF0SE84TlhXZ2NISjY0N1JvRTZaM0F3c0F0Z1lVNDZRcExiQS13X3lNcENuZnY5eURHTnAxZWhxUWo2MkJKcVBVU2c1RjY5QTZZaUNydHBFTHhGR0I2NDVPLUxqLVd2cVRN?oc=5",
+          "source": "Gartner",
+          "published_at": "2026-09-17T00:56:29Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "54e7195f5a1bcda6",
+          "title": "二宮和也も登壇！ 第39回東京国際映画祭 提携企画 ケリング「ウーマン・イン・モーション」トークが開催",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdGxBQzFSZnVISDZKRldpcVN6MFRuSTVYRUJtNzhSa3lWWVJjWXRIcGpyazJEQjdOYjJaQ1VRamRjQWtFX2dOcUZ3U3puVVpHdktyMWtwR01FXzJ2TzBsdThZVkhMZmlYbkMxZlJFMVR2SUNieW1nNXZTOUl4TnBlQTdyYw?oc=5",
+          "source": "ELLE",
+          "published_at": "2026-09-16T23:03:10Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5402fb962538d830",
+          "title": "なぜ日本の若者は海外旅行しないのか？→ひろゆきの答えがド正論すぎて、ぐうの音もでなかった〈2026年度上期2位〉",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE00R0g3R1ZlU3I1VzAtUXdUajBQdHNkTGFEQm1oSlA0R20yZkdsTEV2eDZFWkkzQjE4SGRHQkZwTUpyRUhNeGIxbXA4U1LSAU9BVV95cUxNSjVQQ2xraWRXWmR5SV95THI5Y0hOVElZSGR3bmpNc2VsdlVseGdSbFIzejdIWm81NzBsWHVEY2FoV2RORE9LNzR1aldPb0dB?oc=5",
+          "source": "ダイヤモンド・オンライン",
+          "published_at": "2026-09-16T21:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "7bc7d78666b70753",
           "title": "サウジと中国の経済関係が深化、貿易額が1,000億ドルを超える",
           "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxQVFM3UUFwbmhYRmRnRUx0ay1SMV95azVXcFFhZkRZNS1oc1hIbFV5QU1oTmFCalBucWVxLUZ6MVlmWndzNXVrSEhKQW5ad2o0bUhudUlTV0dUOTJOb1VsVmdELXNXaHF4TzdBZ0Z2WEhDa19ZcGRTV2V4N2hIZEhiQU9TSWpvMGYxZkNycjQxTjdtWU42UjhCdGZiSkRVRHVYYjUzZGNTdTgyWTREWXpzQ3J4Y0p2X1MwcTVXYjgwRWNXNUdHSERQSE9zRzNIc1l3RmV5d2tVVmdwREg4VGwxaGNzNlh3eG95YzBQeWJSd3pXdHNnaURlY1dVLW9Xc3ZISUl2bDFmTlFUeVFrUENfNGxWZThraXVkbGZ4WGphZW51S0pZVnJZSjB1eVBsYUtGcnFaNERzSi1sMWREWi1CTXdvSVNGbFJUZWJLZDZnWF9NN29oQ2RJbVVQbTQxdkgycThhOFo2MXNYSmxOb2lPRkg5c2U3N0pWMDlsbEFXWHh4SXBS?oc=5",
           "source": "arabnews.jp",
-          "published_at": "2026-09-16T19:12:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a395639743b729c4",
-          "title": "Re:ゼロから始める異世界生活 4th #83【地上波先行・WEB最速】",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5OW03WmN3RDM5MXRBUmJSVmQ4VGxDUWdoenNzR09vQ1ZJQnZHaDJ2MTRNckpQTHEyTkNuUDA2ZHVTTlI4bWhLcXNBWTBWaDlGbGlZYkVfUURWT2RnNUh3X09YRnVYYXY0VFE?oc=5",
-          "source": "abema.tv",
-          "published_at": "2026-09-16T16:41:37Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "94de32a92adac7b0",
-          "title": "森林樹木根系の研究成果を国際誌に公開～高齢コナラを伐採し萌芽した根の土壌補強強度は8年後まで低下",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBiZ1JLeklWS1ExUGZxaFRJLWtxVEtkYk5NbXZaUkF3ZURucDRyZEFKang1cTdTTks1S2tCVFpDdTYtXzZwRHBSVDB5ZEJjVWdyc2ozWkx5RktMbUZzT1RwUHNkYw?oc=5",
-          "source": "京都大学",
-          "published_at": "2026-09-16T12:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "714ae2609a7ec9f1",
-          "title": "“パリで食事会 議員5人で100万円”は県が負担 福岡県議会、総額約2億6500万円の海外視察も第三者委員会の調査対象に",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GWmVpN04zQU5jMVFIT3FzRXlnTi1rcnMwV0lDcF9iVWZzOUwyTlI0OGlpMHlVY0hRZmhNRkJnbmhwU1pheW1kcXl4NFZwS2JKSmFuU2lBUlBwSWd2ZVJYMWtUZ1EyUDR4Z2RvMzYtX0gwUU5zSnBDSFRyaGRFUmc?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-16T08:24:18Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "612b6c4038e8c020",
-          "title": "GMOサイバーセキュリティ byイエラエ、世界の宇宙産業が集う「IAC 2026」にスタンド出展～JAXA「Japan Pavilion」から",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HYjBVa2hfdlNTTmhEZlIyVWNMMUFsenhlbDFidkJxMklLZmpNS0NyUlRCS3RfOVFLTi14QnJISGVfT0RacTBIWFUzWXdaaWVwV1FCQV9nbw?oc=5",
-          "source": "gmo-cybersecurity.com",
-          "published_at": "2026-09-16T06:53:20Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "dda674bb32c73545",
-          "title": "米オープンAIのアルトマン氏、世界がAIを「恐れるのはもっとも」だが「企業を信頼すべき」と主張",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkMXBIUW44dXZPR2JiWjY0Y2J6YVdFTllGeVh3azdoZm1LY2k3dHNUcGZzUDFJclVWNkFleDkzLURFeFhaMzdOQlNQRWg4YTNUSm85U2FIV1FPQWY2QkxOLdIBZkFVX3lxTFBuLWJ6WkRmclhYQzNrejRva2REdVVaa0VWLUdKa1FhZ2ZsckN3QWtDYUtKMGQySzBMRDc1SjJSa3dZSjR6MWk2bU5HQ1Ewc3dPZVlMMlMtRmdUS2s5TlNsRl9QdEJrUQ?oc=5",
-          "source": "bbc.com",
-          "published_at": "2026-09-16T05:55:23Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "748133b932432f6c",
-          "title": "国際交流センター（NEXT）主催 2つの英語プログラムを実施しました | 2026のお知らせ | お知らせ一覧",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5fT19DdjY2VFRiQ0tHdzVJOUdXNlUySVdRQm9PbnpOdXRERUJaamlNM244aUxqbEVoNWc4OU13V1VrWThBX3kxX2dJSDZCb190Qm5yaFRqeHkxbGM1ZWQw?oc=5",
-          "source": "teu.ac.jp",
-          "published_at": "2026-09-16T05:05:53Z",
+          "published_at": "2026-09-16T20:05:34Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -99,6 +99,46 @@
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MaFJLeENfZWd2UDRfM3dGd0c3eS1UTlFZdmVOdzVHSEREV3lDamFXMlZ0SzhWbjFDMkZqZVlqdUtvQnFhV0VUcEhhdDJCNGxMbDBTRUhDVW8wdw?oc=5",
           "source": "オートメーション新聞WEB",
           "published_at": "2026-09-10T06:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7b3ce71c979c7072",
+          "title": "FOOMA JAPAN 2027 会期：2027年6月8日（火）～11日（金）の4日間 出展申込受付は、2026年9月1日（火）～10月15日（木）",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41TURZeUVaUUZUNmFNVXRzUE9Xc0xxU1ZEQ2FLWmt0LVVMMEJRR0lsbkpnZXJJeEJhWGJ4TGJfSVRIUlpxRmhYSGlseWN6SXJCMWl4SDQyX0p0OUE3aXJYbTlDWFBUTUo2WkE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-28T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6de479b68f1ffe25",
+          "title": "日本包装機械工業会×東京工科大学デザイン学部の産学共同研究プロジェクト、包装業界の魅力を発信するコンセプトムービーなどを制作",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZGQ0M0tCdGlfNEdSR1lXUHF6NXhkNWhEcjNSQVlNVUtuVmdlUVdKM3VXa1I4UExReEU5WXJ5WE5WZDdOUnBVYUdDYTJkc3NIQjcxSl9PcUlJTUdDNkxremdqLUhXOFh0bmc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-24T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a772bd383a2af7eb",
+          "title": "日本盛、大型紙パック充填機を移設",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-16T15:06:10Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "05cf05b47710b11c",
+          "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-16T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -122,46 +162,6 @@
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "55290f0b5178b00e",
-          "title": "ソディック 工作・産業・食品機械のグローバル企業へ進化を遂げる 国境を越える理念体系を策定",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BUkJxa0VvbmdIWXF6QUhGaWdRc0QzZTBCYk1ianItZDF2YjZmMkFyNUxTN1pFR0hnUmFfMnptV0toQlJhU0plaGdZaTJUclloMllYcE1Rclljc01fem1abUlsUlF3VmUtZnlwS2c0bTdCaEdsVk1qQVJQd0l2c28?oc=5",
-          "source": "projectdesign.jp",
-          "published_at": "2026-08-31T11:02:38Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7b3ce71c979c7072",
-          "title": "FOOMA JAPAN 2027 会期：2027年6月8日（火）～11日（金）の4日間 出展申込受付は、2026年9月1日（火）～10月15日（木）",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41TURZeUVaUUZUNmFNVXRzUE9Xc0xxU1ZEQ2FLWmt0LVVMMEJRR0lsbkpnZXJJeEJhWGJ4TGJfSVRIUlpxRmhYSGlseWN6SXJCMWl4SDQyX0p0OUE3aXJYbTlDWFBUTUo2WkE?oc=5",
-          "source": "prtimes.jp",
-          "published_at": "2026-08-28T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "adb9c70e08eddba8",
-          "title": "韓国・釜山の工場で20代外国人労働者が包装機械に挟まれ重体",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0wWWhWU1RUODZLZlRnYTlHYW14S3hXQjVVLWdSYVZ4ZXM4eWhUX2F2d2hHTl9fVGJaWUoxOHMwRFZsc2hnS3JqbVJLNzMxTl9JQVI3VXlnYXp2UzdaRnBpZ21udlktUW_SAWxBVV95cUxPNmZMZ2UtdFpRazhIZjl5dzRLa3pTSnhodVVzMFhuT1VNN1Y2c094V1liYTRjaUZrbjB3a3Rwb1ZiTE9JUWlXQmxqNU1CUG5MNmVjWVMwcmNtaWs3aWg4NUZIYVRNM2xEbFp2MTA?oc=5",
-          "source": "news.infoseek.co.jp",
-          "published_at": "2026-08-27T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f3e9753a01ca0b73",
-          "title": "日本包装機械工業会×東京工科大学デザイン学部の産学共同研究プロジェクト、包装業界の魅力を発信するコンセプトムービーなどを制作 | 2026年のプレスリリース | プレスリリース",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5HNUc5dFdDa2pzRHAxZF9CamtvQ0FJNVRoZHRpRmgyRFZFM2E3bjhZLTI2a1ZCMl9KaVp2LWhaWFc0VFBZbVRQeUJqcVExVHVFVVlZLVJ1QQ?oc=5",
-          "source": "teu.ac.jp",
-          "published_at": "2026-08-24T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -169,11 +169,51 @@
       "label": "食品工場",
       "articles": [
         {
-          "id": "5c8b5741708562a8",
-          "title": "「食品工場Week 大阪 2026」に出展",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CS0xRM1FHMnMxXzg5Vnowc25iRzUxZ3dTRnlfX0Z1b054NFlzNlhBVHBVZW5nbnZWY3E0Um85WkcxY3hKNmEwbnVTQnlocFRtZVpOdWdFYW5zajRpX2prWDRUekdOOGNDeXBOZ1FfSFpyODk2?oc=5",
-          "source": "Excite エキサイト",
-          "published_at": "2026-09-16T14:15:00Z",
+          "id": "5d9ee8e480fa31ab",
+          "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90dm9YN0NadWhSd05lcFdHWFpXS3EwdXdJVGJxallud3FvUzFOa1RNakhtWHNZNlM3eDJJNGhRUXNhTDhiU2l0VURSeEhUZnhjMk00OTRVUlBlZmFxVkZyYlR4VHJBRktubGc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-17T01:30:01Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d8eb749f3473be48",
+          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-15T03:00:01Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "56b76612a9a8629b",
+          "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-25T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "cbbbd1904db9d4a2",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6d865337a2a677d3",
+          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-14T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -194,46 +234,6 @@
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Bc0NXbFpzTjFWaVFWZjVGQ1g2MUhxMkNZMWNzcGlQYk1PaXpNV25MX3RHdGxrNFRsbXJ1MVRPRkxZMmE4MERhZVI1bjJLVFFNWjRSSXBtUTUtaEU5UENvWTM5NXVocjU4M2ZjVVIxYTBESTRLLVhN?oc=5",
           "source": "event-marketing.co.jp",
           "published_at": "2026-09-16T03:18:23Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d8eb749f3473be48",
-          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
-          "source": "prtimes.jp",
-          "published_at": "2026-09-15T03:00:01Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "05be2d7c5a0244ed",
-          "title": "GoldenHarvest、横浜市「TECH-PoC」に採択 市内食品工場の残渣をアメリカミズアブで飼料用タンパクへ変換する実証を開始",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41X1dKTWQxV08wT0R1R0N2QkI5TnZxbjA1T0VEcVNOVGZxVzZlXzdYdFVBaE5EOVZqaUk4OWxmdnVpcVVLX3BBQmtmbEVEUjkxWGRjSVR1b0xiZw?oc=5",
-          "source": "agrinews.co.jp",
-          "published_at": "2026-09-07T03:04:33Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "56b76612a9a8629b",
-          "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
-          "source": "prtimes.jp",
-          "published_at": "2026-08-25T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6a9ac4aa5ed315d3",
-          "title": "倉庫・食品工場の冷凍冷蔵設備に最大6,700万円！東京都の省エネ型ノンフロン機器補助",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tTDgtV1VSTENZcTZwdmhHSG9uZlcwc0l3ODk0N19jLUNhb3lOQ3Zzc2FPWHNITnk5SkRiaTRYdnhJRmMxMEh1dVRFRmFaWkRobk8wYUN5eVVXc2NsRUE?oc=5",
-          "source": "補助金ポータル",
-          "published_at": "2026-08-24T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-16T21:25:18Z",
-  "last_success_at": "2026-09-16T21:25:18Z",
+  "last_attempt_at": "2026-09-17T05:00:09Z",
+  "last_success_at": "2026-09-17T05:00:09Z",
   "consecutive_failure_count": 0
 }
