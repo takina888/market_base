@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-18T16:32:38Z",
+  "generated_at": "2026-09-18T20:59:50Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "finance.yahoo.co.jp",
-          "published_at": "2026-09-18T13:49:03Z",
+          "id": "7b087e0ce66b406f",
+          "title": "10/10(土) 国際文化学科オープンキャンパスのご案内",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pU00wSWVieFJfbVN6RUlBUzF1WEJ2RmRmMW5LTzdHTG0zcFcxb1YzcS1pVG1CQkx6alozaUd4VUhxT0lIUk5JR0E1bVBHTm5lbGZYdEV0OFVhQlFZLTR1Qzd6WHNKZw?oc=5",
+          "source": "jiu.ac.jp",
+          "published_at": "2026-09-18T16:52:02Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -32,8 +32,18 @@
           "id": "9d13f2a23475dfc1",
           "title": "次期国際高等教育院長に馬渕教授を指名しました",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fOWdlV25LeU9VSU41V0NMOU9MRDVfR09zc25FN2dJWW14d1lqU0lObDJGTUJwZWNLWUdjaHBJU0xSWmZocGctMjBKdEgyZjlpZGhleHFFZ09pWmM?oc=5",
-          "source": "kyoto-u.ac.jp",
+          "source": "京都大学",
           "published_at": "2026-09-18T12:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5b035841bbd969f7",
+          "title": "9/23は「手話言語の国際デー」＆「手話の日」 水戸キャンパスで啓発のブルーライトアップを実施",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDQWJkSDlRLUlpZXcyeGJvanN6eVE5VGJzRzc3eDEzX19DTHc1Z2lyNmhDR09PSWhSQzZwSmhJS3c1OUpHZk1POTRqdlZ3OFZGbklHUHNXb2RTTEJyRkotN3Vqc2c?oc=5",
+          "source": "ibaraki.ac.jp",
+          "published_at": "2026-09-18T10:00:05Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -62,7 +72,7 @@
           "id": "d66708e185649a1b",
           "title": "B&ZAI本高 国際論文誌の賞を受賞",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JbmFhVDkzU0EyYll1MkdMRHNXY2hEcXVzd3U2SnMzU2hQOHM2R2RoT1BoVXRybVoxZGdaUTM0ZHVUY21mNDU5ckQ2aWhibWY0?oc=5",
-          "source": "news.yahoo.co.jp",
+          "source": "Yahoo!ニュース",
           "published_at": "2026-09-18T07:13:08Z",
           "language": "ja",
           "category": "overseas",
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SN2ZuSi03TV9ra0lzZWdNb1FaalEza2hycUxJTXQ2eTItRzQyU2hTZ2VXZUczMnpqOFlJclk3WThOVEpUWHVQaG9qWjd6THMxb2lxazNsazBzV0VoekNkbTluSmR3dF9nM3JCUE9hOXk2UEx5VXNtNzlhX3ltcXM?oc=5",
           "source": "毎日新聞",
           "published_at": "2026-09-18T06:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "305668927ddb2e2e",
-          "title": "世界初、アンモニア燃料船へShip-to-Ship方式で燃料アンモニア補給",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LM2JvaXkwTS1BNVp0TE8xRnBzQ1pYb2pCOUtBTGxZSDBiYUtfbW1tLUotY2otSDV4MGRYelFpT0YyWEVDcUVTZm91REFiZWhpLVVCOGdPMVVSUQ?oc=5",
-          "source": "nyk.com",
-          "published_at": "2026-09-18T05:13:12Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -157,7 +157,7 @@
           "id": "9863fa1e378c15e6",
           "title": "米粒選別機市場規模760百万米ドル予測：世界の産業現状、競合分析、成長動向2026",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44dF84eXNMN3F6R3F6THZYOVg5cUFucjI4WThuN3kzb21SaTFJOXJXaG5ISXhHTUZER1hqTXZiOXE2QllEWmR1MzFOSS1kRWc?oc=5",
-          "source": "アットプレス",
+          "source": "atpress.ne.jp",
           "published_at": "2026-09-18T11:14:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -268,7 +268,7 @@
           "title": "平和堂／「アルプラフーズマーケット富山掛尾」オープン、富山県に食品スーパー初出店",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAteVpZcmhubVF3ZGhKMHBtSzlHa1FaZnRGMU50V2ptMlRselltRGtxVG1NUnduaEhXVmxIRk9ya054bVdMR2dNdHJxUHVZaTZNZnR0LQ?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-09-10T03:04:00Z",
+          "published_at": "2026-09-10T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -322,7 +322,7 @@
           "id": "fee1381a70d461de",
           "title": "ホルムアルデヒド白菜は氷山の一角》日本に輸入された「発がん性」食品 ピーナッツ製品からカビ毒「アフラトキシン」検出事例 日本国内では中国産製品が数多く流通（マネーポストWEB",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxeEktZm9nVzZjT3dqV0JvakFjd0NUUjJQdzFMZUoxZm9pLXh2eVpnMWJXMFIxVkV4eE40MVZFWEFVZ3luczBoOU5GU3BHcUdJeUo1MWN2NVpFVnRiVm1BTXBnQnlkVFVxX3RFSlh5NXBmVmpPbXpoZWtYU0VyWEE?oc=5",
-          "source": "news.yahoo.co.jp",
+          "source": "Yahoo!ニュース",
           "published_at": "2026-09-15T07:16:00Z",
           "language": "ja",
           "category": "regulations",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-18T16:32:38Z",
-  "last_success_at": "2026-09-18T16:32:38Z",
+  "last_attempt_at": "2026-09-18T20:59:50Z",
+  "last_success_at": "2026-09-18T20:59:50Z",
   "consecutive_failure_count": 0
 }
