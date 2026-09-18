@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-18T11:27:29Z",
+  "generated_at": "2026-09-18T16:32:38Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,21 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "e0ab7cf4c74b3363",
-          "title": "金鉱脈求め外資が鹿児島で試掘 世界になお眠る6万トン超 - 日経ヴェリタス",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qLTlQRjljRmI4NEhoR1JfNmlHYnNwRlNqcGRUZG9FSmZURmFOT2RMU0xob3dBeHRKenhTemxxYUZrUjVabV9sME5VM2FGSVRGRG1lUmRlY3c3X2hlUVFGcV9ZQTJndTVXZGROcl9NUG5SQV93RDdWNnRjWl9Tdw?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-09-16T20:00:00Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "finance.yahoo.co.jp",
+          "published_at": "2026-09-18T13:49:03Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9d13f2a23475dfc1",
+          "title": "次期国際高等教育院長に馬渕教授を指名しました",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fOWdlV25LeU9VSU41V0NMOU9MRDVfR09zc25FN2dJWW14d1lqU0lObDJGTUJwZWNLWUdjaHBJU0xSWmZocGctMjBKdEgyZjlpZGhleHFFZ09pWmM?oc=5",
+          "source": "kyoto-u.ac.jp",
+          "published_at": "2026-09-18T12:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -52,7 +62,7 @@
           "id": "d66708e185649a1b",
           "title": "B&ZAI本高 国際論文誌の賞を受賞",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JbmFhVDkzU0EyYll1MkdMRHNXY2hEcXVzd3U2SnMzU2hQOHM2R2RoT1BoVXRybVoxZGdaUTM0ZHVUY21mNDU5ckQ2aWhibWY0?oc=5",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "published_at": "2026-09-18T07:13:08Z",
           "language": "ja",
           "category": "overseas",
@@ -72,18 +82,8 @@
           "id": "305668927ddb2e2e",
           "title": "世界初、アンモニア燃料船へShip-to-Ship方式で燃料アンモニア補給",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LM2JvaXkwTS1BNVp0TE8xRnBzQ1pYb2pCOUtBTGxZSDBiYUtfbW1tLUotY2otSDV4MGRYelFpT0YyWEVDcUVTZm91REFiZWhpLVVCOGdPMVVSUQ?oc=5",
-          "source": "日本郵船株式会社",
+          "source": "nyk.com",
           "published_at": "2026-09-18T05:13:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-18T04:48:44Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -94,51 +94,11 @@
       "label": "食品機械",
       "articles": [
         {
-          "id": "9863fa1e378c15e6",
-          "title": "米粒選別機市場規模760百万米ドル予測：世界の産業現状、競合分析、成長動向2026",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44dF84eXNMN3F6R3F6THZYOVg5cUFucjI4WThuN3kzb21SaTFJOXJXaG5ISXhHTUZER1hqTXZiOXE2QllEWmR1MzFOSS1kRWc?oc=5",
-          "source": "アットプレス",
-          "published_at": "2026-09-18T11:14:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fa052b04b35fceee",
-          "title": "紙幣計数機・選別機の世界市場（2026年～2032年）、市場規模（スタンド型紙幣計数機、デスクトップ型紙幣計数機）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tbEJMR1d4T2JEdWItaDhCU3czRFlxSER4WHFZQTZLVzA5NVN1TE14UmZwSkd5TGdZZTRrNXZzSFNGSEI5NkFjOE5XU3J5YkU?oc=5",
-          "source": "Newscast.jp",
-          "published_at": "2026-09-18T00:30:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "866e4566f0bd6032",
-          "title": "同心型渦電流選別機の世界市場2026年、グローバル市場規模（大粒子用選別機、小粒子用選別機）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CTEliSXJMSFBTOTFtNG0tcWFsN0twSXpUUmhqMjNoY3BrRjlLUDd0aFV2eV84X1VUOG53S2VZV2w1MnRjUlJZYnNJN1doWTJ5aWlJ?oc=5",
-          "source": "ドリームニュース",
-          "published_at": "2026-09-11T05:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ee1bb5176171cef3",
-          "title": "2026冷媒充填機市場規模マップ：シェア・動向・フレームワーク、年平均成長率（CAGR）4.3%の安定成長",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DRmtUWVRyaWtSV1VsbENWWUF2RkRiYjduSURMdDlVenNJaGVPM0ZHejBORnYyLUQ2R01SOWVEMm52d3Z2RzBENl84Z0FsLWlBZHFz?oc=5",
-          "source": "ドリームニュース",
-          "published_at": "2026-09-07T04:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "55290f0b5178b00e",
-          "title": "ソディック 工作・産業・食品機械のグローバル企業へ進化を遂げる 国境を越える理念体系を策定",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BUkJxa0VvbmdIWXF6QUhGaWdRc0QzZTBCYk1ianItZDF2YjZmMkFyNUxTN1pFR0hnUmFfMnptV0toQlJhU0plaGdZaTJUclloMllYcE1Rclljc01fem1abUlsUlF3VmUtZnlwS2c0bTdCaEdsVk1qQVJQd0l2c28?oc=5",
-          "source": "projectdesign.jp",
-          "published_at": "2026-08-31T11:02:38Z",
+          "id": "4667b3bae1f17474",
+          "title": "FOOMA JAPAN 2027、2027年6月8日から東京ビッグサイトで開催 出展申込は10/15まで",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MaFJLeENfZWd2UDRfM3dGd0c3eS1UTlFZdmVOdzVHSEREV3lDamFXMlZ0SzhWbjFDMkZqZVlqdUtvQnFhV0VUcEhhdDJCNGxMbDBTRUhDVW8wdw?oc=5",
+          "source": "オートメーション新聞WEB",
+          "published_at": "2026-09-10T06:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -147,18 +107,58 @@
           "id": "7b3ce71c979c7072",
           "title": "FOOMA JAPAN 2027 会期：2027年6月8日（火）～11日（金）の4日間 出展申込受付は、2026年9月1日（火）～10月15日（木）",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41TURZeUVaUUZUNmFNVXRzUE9Xc0xxU1ZEQ2FLWmt0LVVMMEJRR0lsbkpnZXJJeEJhWGJ4TGJfSVRIUlpxRmhYSGlseWN6SXJCMWl4SDQyX0p0OUE3aXJYbTlDWFBUTUo2WkE?oc=5",
-          "source": "prtimes.jp",
+          "source": "PR TIMES",
           "published_at": "2026-08-28T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f3e9753a01ca0b73",
-          "title": "日本包装機械工業会×東京工科大学デザイン学部の産学共同研究プロジェクト、包装業界の魅力を発信するコンセプトムービーなどを制作 | 2026年のプレスリリース | プレスリリース",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5HNUc5dFdDa2pzRHAxZF9CamtvQ0FJNVRoZHRpRmgyRFZFM2E3bjhZLTI2a1ZCMl9KaVp2LWhaWFc0VFBZbVRQeUJqcVExVHVFVVlZLVJ1QQ?oc=5",
-          "source": "teu.ac.jp",
+          "id": "6de479b68f1ffe25",
+          "title": "日本包装機械工業会×東京工科大学デザイン学部の産学共同研究プロジェクト、包装業界の魅力を発信するコンセプトムービーなどを制作",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZGQ0M0tCdGlfNEdSR1lXUHF6NXhkNWhEcjNSQVlNVUtuVmdlUVdKM3VXa1I4UExReEU5WXJ5WE5WZDdOUnBVYUdDYTJkc3NIQjcxSl9PcUlJTUdDNkxremdqLUhXOFh0bmc?oc=5",
+          "source": "PR TIMES",
           "published_at": "2026-08-24T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "05cf05b47710b11c",
+          "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-16T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c5b26c7796e664db",
+          "title": "【出展報告】前川製作所、「FOOMA JAPAN 2026」に出展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZSWMzbkg2bWxJbTd2M2F1UUhpUjd6Mkdha3VxdTVHVWJIeXBXYXEwZXFGeWQwUHNWM2pFd2hvRU9yMkwtaUxfX3hVbzlnRzZ0UXo2cjFjOGQ5SzRzMkUyZEV4YTNTTktDalE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "39c8e82ea1ae296e",
+          "title": "株式会社マスダック 入間工場に新棟「M5棟」を竣工 食品機械事業の体制を強化し、生産性向上と事業拡大を推進",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQTmRRQUVrRFI3Y3RPX1l4empSM0FqdVlZcmxqN29zQTJnR3c1OXZNenV5Q1R2VFROaXRLekdSc3dBaWlnMWtNTmtmcjFCRDY1OEhlbHA3aHlEel9aYTBwVUs4eHB5QnhYa3c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-06-25T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9863fa1e378c15e6",
+          "title": "米粒選別機市場規模760百万米ドル予測：世界の産業現状、競合分析、成長動向2026",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44dF84eXNMN3F6R3F6THZYOVg5cUFucjI4WThuN3kzb21SaTFJOXJXaG5ISXhHTUZER1hqTXZiOXE2QllEWmR1MzFOSS1kRWc?oc=5",
+          "source": "アットプレス",
+          "published_at": "2026-09-18T11:14:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -168,6 +168,56 @@
     "food_factory": {
       "label": "食品工場",
       "articles": [
+        {
+          "id": "5d9ee8e480fa31ab",
+          "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90dm9YN0NadWhSd05lcFdHWFpXS3EwdXdJVGJxallud3FvUzFOa1RNakhtWHNZNlM3eDJJNGhRUXNhTDhiU2l0VURSeEhUZnhjMk00OTRVUlBlZmFxVkZyYlR4VHJBRktubGc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-17T01:30:01Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d8eb749f3473be48",
+          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-15T03:00:01Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "56b76612a9a8629b",
+          "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-25T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "cbbbd1904db9d4a2",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6d865337a2a677d3",
+          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-14T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "825c54bc5667649b",
           "title": "食品工場Week大阪、省人化・物流効率化技術が集結",
@@ -179,61 +229,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5d9ee8e480fa31ab",
-          "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90dm9YN0NadWhSd05lcFdHWFpXS3EwdXdJVGJxallud3FvUzFOa1RNakhtWHNZNlM3eDJJNGhRUXNhTDhiU2l0VURSeEhUZnhjMk00OTRVUlBlZmFxVkZyYlR4VHJBRktubGc?oc=5",
-          "source": "prtimes.jp",
-          "published_at": "2026-09-17T01:30:01Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "e93a1211e426a73f",
           "title": "「食品工場Week 大阪 2026」に出展｜Infoseekニュース",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vRE4zM3FjbHd3LW9RTXhKaVkzemRGeTJXNzdZbG9ZNnJOY0FzakhKdEItbHNWVkI4N3Iwc1VBOWFmWGZMU2NkbzJka05yZTV4TTV4bzJuTHVjc1lYZkxRLXAyOHI5aE5ta3BFSVo4OHAzUQ?oc=5",
           "source": "Infoseek",
           "published_at": "2026-09-16T14:15:21Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "63935ecd11878814",
-          "title": "第5回 食品工場の自動化・DX展 大阪（フードテック ジャパン）【9/30〜10/2・インテックス大阪】｜RX Japan株式会社",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Bc0NXbFpzTjFWaVFWZjVGQ1g2MUhxMkNZMWNzcGlQYk1PaXpNV25MX3RHdGxrNFRsbXJ1MVRPRkxZMmE4MERhZVI1bjJLVFFNWjRSSXBtUTUtaEU5UENvWTM5NXVocjU4M2ZjVVIxYTBESTRLLVhN?oc=5",
-          "source": "event-marketing.co.jp",
-          "published_at": "2026-09-16T03:18:23Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d8eb749f3473be48",
-          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
-          "source": "prtimes.jp",
-          "published_at": "2026-09-15T03:00:01Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "56b76612a9a8629b",
-          "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
-          "source": "prtimes.jp",
-          "published_at": "2026-08-25T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6a9ac4aa5ed315d3",
-          "title": "倉庫・食品工場の冷凍冷蔵設備に最大6,700万円！東京都の省エネ型ノンフロン機器補助",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tTDgtV1VSTENZcTZwdmhHSG9uZlcwc0l3ODk0N19jLUNhb3lOQ3Zzc2FPWHNITnk5SkRiaTRYdnhJRmMxMEh1dVRFRmFaWkRobk8wYUN5eVVXc2NsRUE?oc=5",
-          "source": "補助金ポータル",
-          "published_at": "2026-08-24T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -259,16 +259,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tMkd6TmNJMnkxZUtST2MzWWtseGRoNmM3SExSc0htWS1HeUwzbUQ4bHdDOHhna3VOaWdacXhEajZRVWxkTHpIbW51MUpsb0trLXR4Nw?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-11T04:40:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "487463e80f72acae",
-          "title": "ケーズデンキ／宮城県名取市に「（仮称）新仙台南店（店舗面積5988.15m2）」27年3月23日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pU2dYNDVacEpvTkVzOGc3VXlsUmhQSGRmUWhHc19oR0lVSktjTjZON1RneHJhQjlIYi1DbWF0djZaYkFVT0xaUENlNU9zczZGOXNTTlZB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-11T01:31:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -312,6 +302,16 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a560c63a907c65de",
+          "title": "モスバーガー／埼玉県に「八潮店」9月3日オープン、郊外立地の次世代型店舗",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Dd3FyMFpzcThOMTdySFpXLVdjOGpPeHd3bV9IbGRYQ0VfaGh0Zjd1a29zSjd6WkdTaTFHeFJ1VVBESjA3UXQ4NTIxQmc2QnN4dUV2Tg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-01T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -322,18 +322,18 @@
           "id": "fee1381a70d461de",
           "title": "ホルムアルデヒド白菜は氷山の一角》日本に輸入された「発がん性」食品 ピーナッツ製品からカビ毒「アフラトキシン」検出事例 日本国内では中国産製品が数多く流通（マネーポストWEB",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxeEktZm9nVzZjT3dqV0JvakFjd0NUUjJQdzFMZUoxZm9pLXh2eVpnMWJXMFIxVkV4eE40MVZFWEFVZ3luczBoOU5GU3BHcUdJeUo1MWN2NVpFVnRiVm1BTXBnQnlkVFVxX3RFSlh5NXBmVmpPbXpoZWtYU0VyWEE?oc=5",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "published_at": "2026-09-15T07:16:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e3eb956f85cd4512",
-          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-07-15T07:00:00Z",
+          "id": "7338dc41e445e013",
+          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
+          "source": "独立行政法人 農畜産業振興機構",
+          "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -359,11 +359,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "7338dc41e445e013",
-          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
-          "published_at": "2026-06-25T10:48:49Z",
+          "id": "e3eb956f85cd4512",
+          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-07-15T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-18T11:27:29Z",
-  "last_success_at": "2026-09-18T11:27:29Z",
+  "last_attempt_at": "2026-09-18T16:32:38Z",
+  "last_success_at": "2026-09-18T16:32:38Z",
   "consecutive_failure_count": 0
 }
