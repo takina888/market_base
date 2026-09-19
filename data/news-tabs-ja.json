@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-19T04:45:18Z",
+  "generated_at": "2026-09-19T11:11:09Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,31 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "8ea2407782b621f9",
+          "title": "10/10 世界渡り鳥の日スペシャルトーク「日本の探鳥地へ、渡り鳥たちと出会いに行こう！」を開催します",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zYk9RX0d6YkVBNDE2dWZ3RDYtcHlwakNyTF9MR1VkRmR4cFdPNjMwN0VNNlo0TnBtMlViRVFGOE9VYmV4WGVYaWt1SW8tOGtNNU00VXk1cmNWUDZBT1FhY3Vn?oc=5",
+          "source": "tokyo-zoo.net",
+          "published_at": "2026-09-19T05:09:59Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "c0fc38f3f437d76a",
           "title": "同志社国際高辺野古沖事故 第三者調査報告書から 学校安全を考える（上）",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKQkItX0tfWWRISUI4Mjk5VnBsaW9KTkgxbU9uNzEtZGROTGtTZnhqOFI2SEEzUGZPX1hUUDUyM1JDZFR0UFBlYnNzTWNwQi10V1hLelB5UHBDbTI1d0ZIcUZOcVVGT0t2bWU2b0ZDX0dKdDlC?oc=5",
           "source": "jcp.or.jp",
           "published_at": "2026-09-19T00:28:35Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7de03a036b30496d",
+          "title": "【世界恐慌】「株は上がり続けるはずだった」株を買った人々を絶望させた「暗黒の火曜日」（ダイヤモンド・オンライン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Sd0h3X1pId3Q1OERHYzhxaExWNkoxU1RGZ2hfNHdvSDhTWXZhZTlfb0JmZUJjckszQnpNcTM5cDVMWUx4TDMwRE15Mk93Mnk3c3pUTUo2Z3gyU3RReDhTdUk3bHI5TTZKNHRXYVJLOXQzRVJ6T0JZZTdoU2lIMmM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-18T22:27:18Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -67,26 +87,6 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f83b4245629ab414",
-          "title": "タイ王立森林局創立130周年記念式典で国際農研を表彰―30年以上にわたる森林研究協力とタイ林業への貢献を評価",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pSWNCQlhxNDhxOVJ0cEp0YWJCdGR6TFdvVjNDNERIVHhMZ0JTN3pndWgxbEFTWEFOcEhibHhidVhFNWZ0ajE1UUxqV3FCRVVZcjZyUUxvZ3ZZREZpQjI4QWln?oc=5",
-          "source": "jircas.go.jp",
-          "published_at": "2026-09-18T08:04:51Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ebefb6cb9044c37c",
-          "title": "【国際交流】駐大阪大韓民国総領事館から総領事ご一行が来学されました。",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tSDBtMk9sckxFczB1eVYxakwzcy1ka0hqVnJZVWJ2SVlDN2hOQ2pXOGoyNXBZbG9oMnpMYnlJYWtHTjBnRmlTeEZKbEc5bm80elVBN25R?oc=5",
-          "source": "setsunan.ac.jp",
-          "published_at": "2026-09-18T07:58:59Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -97,7 +97,7 @@
           "id": "f363b98798d90d47",
           "title": "米粒選別機市場規模760百万米ドル予測：世界の産業現状、競合分析、成長動向2026",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4ybXZqbkI0NUtCbU5Za3ZHTXJCM3lZVk02UFFKclNxNGhoMHdhTkZOdURwSW5rMlZiUFdhQXZyazMwNC1ZbEFWNExrUmhpZw?oc=5",
-          "source": "atpress.ne.jp",
+          "source": "アットプレス",
           "published_at": "2026-09-18T11:14:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -107,7 +107,7 @@
           "id": "3a050dc6142ee542",
           "title": "紙幣計数機・選別機の世界市場（2026年～2032年）、市場規模（スタンド型紙幣計数機、デスクトップ型紙幣計数機）・分析レポートを発表",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3LVZYeE5EMzFVS3pNamdVVS1ab1JGYk9IeUF0VmZHenNaa3BzT0JKeUFfb1B2amlXYXlUZkxVRmc5RXpHUFJZb2lmMFRJQQ?oc=5",
-          "source": "atpress.ne.jp",
+          "source": "アットプレス",
           "published_at": "2026-09-18T00:30:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -157,7 +157,7 @@
           "id": "adb9c70e08eddba8",
           "title": "韓国・釜山の工場で20代外国人労働者が包装機械に挟まれ重体",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0wWWhWU1RUODZLZlRnYTlHYW14S3hXQjVVLWdSYVZ4ZXM4eWhUX2F2d2hHTl9fVGJaWUoxOHMwRFZsc2hnS3JqbVJLNzMxTl9JQVI3VXlnYXp2UzdaRnBpZ21udlktUW_SAWxBVV95cUxPNmZMZ2UtdFpRazhIZjl5dzRLa3pTSnhodVVzMFhuT1VNN1Y2c094V1liYTRjaUZrbjB3a3Rwb1ZiTE9JUWlXQmxqNU1CUG5MNmVjWVMwcmNtaWs3aWg4NUZIYVRNM2xEbFp2MTA?oc=5",
-          "source": "news.infoseek.co.jp",
+          "source": "Infoseek",
           "published_at": "2026-08-27T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -169,10 +169,40 @@
       "label": "食品工場",
       "articles": [
         {
+          "id": "c7ac976e6d5f3041",
+          "title": "InsightFlow(インサイトフロー) ／食品工場の設備支援で培った現場知見を、Tableau活用のBIダッシュボード構築支援として本格展開",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1wSVVvX21JdnlwakhlVHlCX0NIQjJQXzE4ZkxoWXYzUC1QbzlUdXdfNnN0Q3hvVjQ5MGMxUGxxVDJFclhwclE?oc=5",
+          "source": "pr-free.jp",
+          "published_at": "2026-09-19T03:09:07Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8825d9e0204199f1",
+          "title": "食品工場で働いた結果→潔癖症になった50代女性 カバンは3日に1回、財布も洗濯機で洗う、ゴム手袋300枚、ゴミ袋など500枚以上ストック",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tR3lOU3M3TTVybTFaM0hCWkRMQ3kzYUoxQWNubmRRSUw2d0l1U0otOWxrVTEwMzcyVkNLYjEyQlZkdy1lVDNOalc2WEZLMTlfRVZ5YWM0Q3RMOFlNbUhj?oc=5",
+          "source": "キャリコネニュース",
+          "published_at": "2026-09-18T21:02:06Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "825c54bc5667649b",
+          "title": "食品工場Week大阪、省人化・物流効率化技術が集結",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAzc1U4M3lNZ0FRZHkxWTd2NFF0U09EUkhFdHg3TVF3aklhRmtTaXhSTEduYXpfS1lkU20wMWwzcTlvSm5PSWRudjJn?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-09-17T08:26:16Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "5d9ee8e480fa31ab",
           "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90dm9YN0NadWhSd05lcFdHWFpXS3EwdXdJVGJxallud3FvUzFOa1RNakhtWHNZNlM3eDJJNGhRUXNhTDhiU2l0VURSeEhUZnhjMk00OTRVUlBlZmFxVkZyYlR4VHJBRktubGc?oc=5",
-          "source": "PR TIMES",
+          "source": "prtimes.jp",
           "published_at": "2026-09-17T01:30:01Z",
           "language": "ja",
           "category": "food_factory",
@@ -182,7 +212,7 @@
           "id": "c909072b8c5f87b0",
           "title": "「食品工場Week 大阪 2026」に出展",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52Q0dBbjg4YmkwVFl3czZjUE1UaWVvcTItMzAzQzY1X0JuV0xTMkkzTWtYenhvdS1NSllaa0NsNzY5bEZyNzRGeDBTTU1jTHQ4bW5IbTdGbXJpa2Jia01qaFIyekZ6QU9DMFE?oc=5",
-          "source": "PR TIMES",
+          "source": "prtimes.jp",
           "published_at": "2026-09-16T02:00:02Z",
           "language": "ja",
           "category": "food_factory",
@@ -192,48 +222,18 @@
           "id": "d8eb749f3473be48",
           "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
-          "source": "PR TIMES",
+          "source": "prtimes.jp",
           "published_at": "2026-09-15T03:00:01Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "56b76612a9a8629b",
-          "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-25T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "cbbbd1904db9d4a2",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6d865337a2a677d3",
-          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-14T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c7ac976e6d5f3041",
-          "title": "InsightFlow(インサイトフロー) ／食品工場の設備支援で培った現場知見を、Tableau活用のBIダッシュボード構築支援として本格展開",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1wSVVvX21JdnlwakhlVHlCX0NIQjJQXzE4ZkxoWXYzUC1QbzlUdXdfNnN0Q3hvVjQ5MGMxUGxxVDJFclhwclE?oc=5",
-          "source": "pr-free.jp",
-          "published_at": "2026-09-19T03:09:07Z",
+          "id": "05be2d7c5a0244ed",
+          "title": "GoldenHarvest、横浜市「TECH-PoC」に採択 市内食品工場の残渣をアメリカミズアブで飼料用タンパクへ変換する実証を開始",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41X1dKTWQxV08wT0R1R0N2QkI5TnZxbjA1T0VEcVNOVGZxVzZlXzdYdFVBaE5EOVZqaUk4OWxmdnVpcVVLX3BBQmtmbEVEUjkxWGRjSVR1b0xiZw?oc=5",
+          "source": "日本農業新聞",
+          "published_at": "2026-09-07T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -329,11 +329,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "7338dc41e445e013",
-          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
-          "published_at": "2026-06-25T10:48:49Z",
+          "id": "e562ccf4b6c61668",
+          "title": "環境と食品包装に関するイタリアの新法令：ベトナム企業が留意すべき事項。",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQXdzekVmdVZhV0h1NlQ0OGJPY3U5bFlCbjYzUEFrWW5yTV9uejU3QjJZVjhhUnhSZ3JaM1gyMEpuTzYwQnN4M0d6eTdGdy1MTVZMZmFGc1lYMy15MVctTUFCM0Q2ZVZ4VXFISnd0V19jUHBPcTd1NFZvbWJnUE9zT2xVNXlKQlhuc1JabHhtT3RoMWQyRWU5SXRjRm1sX1NSY2R3UTZiMFNPMDA0TmQwcFk4WF95UnRfTTNaSE1OQQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-08T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e3eb956f85cd4512",
+          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-07-15T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -359,11 +369,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e3eb956f85cd4512",
-          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-07-15T07:00:00Z",
+          "id": "7338dc41e445e013",
+          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
+          "source": "独立行政法人 農畜産業振興機構",
+          "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a923c392a2786ef4",
-          "title": "イタリアが包装規制を強化。ベトナム企業は迅速な対応が求められる。",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0kyY2U5NWtuWXJ0bmIxN2VZWUgwWWFvLVZOZ3RGV2NoNnBoTXEyQ3BVZmNjTEJJclM0RDhvZTJBVk1mVUp2QjE1Z3RuTjYzQmJMaWxmdmhDVkNLdlBCT2pqXzFvOTdBRTlGVWxCMGN1LUdFSkRuUFBmMVM4Y0xSTmlsZGp5YkxEZ0NIUGdmMTVMLXND?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-08T10:24:17Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-19T04:45:18Z",
-  "last_success_at": "2026-09-19T04:45:18Z",
+  "last_attempt_at": "2026-09-19T11:11:09Z",
+  "last_success_at": "2026-09-19T11:11:09Z",
   "consecutive_failure_count": 0
 }
