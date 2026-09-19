@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-19T15:57:14Z",
+  "generated_at": "2026-09-19T20:49:37Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,31 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "b531b6f95e64fca8",
-          "title": "三洋貿易[3176]：米国子会社財務責任者による不正疑義及び特別調査委員会の設置に関するお知らせ 2026年9月18日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GcTNGcFlqQXpOZl9qRldQMUtESHdIRlJRY213MGp0T3JJRFJ5MEJOVDBocExuRWVSOHFqUlhPYkY2NmlCOWRQNjFQa2tNODRNbFBuLWhxaVU5WVNtQUFxMG5lS3JYNks3OXc?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-09-18T07:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "6521d525532ae447",
           "title": "リヤドが世界金融センターランキングで急上昇、ドバイはトップ10を維持",
           "url": "https://news.google.com/rss/articles/CBMiygNBVV95cUxNb1QxbUVBbG1wbjhiQ1B6SEdZd0lxdmJyVkVVQXd6SUZxVktLYjFIVFdjcl9SUUk1MVBNTkxKTlB4ZU81blp1Uk9DbU1sY2NKYnpWMl9jZXQ4TWlQbkI0ZGUxRnpKWjRIVDhIbHQyb0ZHSWNLTE1zVHpxeHk1T0QtR0NfcGlnQzQ5cnNyRS1LcjRLYlpCclhoTDkzNThSbGp2RnRiRFhFb0dBZDF3dWhiYzNHV3djODlwQjVvTnlwUmRIQ3Jrdi1zemNfbDdxNmJKNlQyc2ZqUFU2VGtXd25neEVsRklsSHhyX21ib1p3WnJmcExQdlhkVFZiMWQwUE9hejROTm1RbFJpd1l5NXBzUEh4SVJkeHREVG9QbzZzMnlydjZpQlgwUnk3djZRbHI1eHF1X0NFTmJzdENPWFJqcTdUdnAwc1RjWDE2dkRVTGN4M00xcWttdEpGeGpGbFI0anVpZnlmYUFSZXFGRDNINVY0SU91MFR2R0RfRElQak5TS0VlWW1kb0ZZS000R3BnaE01RW1sRjMzNHY0WVZHVlJNMk91amNrbnctcldHQXJkWlF1UnVTUzUyNnBRMHV2NU96VzJyNFN3Zw?oc=5",
-          "source": "アラブニュース",
+          "source": "arabnews.jp",
           "published_at": "2026-09-19T15:40:30Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-19T10:56:04Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,21 +39,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c0fc38f3f437d76a",
-          "title": "同志社国際高辺野古沖事故 第三者調査報告書から 学校安全を考える（上）",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKQkItX0tfWWRISUI4Mjk5VnBsaW9KTkgxbU9uNzEtZGROTGtTZnhqOFI2SEEzUGZPX1hUUDUyM1JDZFR0UFBlYnNzTWNwQi10V1hLelB5UHBDbTI1d0ZIcUZOcVVGT0t2bWU2b0ZDX0dKdDlC?oc=5",
-          "source": "jcp.or.jp",
-          "published_at": "2026-09-19T00:28:35Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "7de03a036b30496d",
           "title": "【世界恐慌】「株は上がり続けるはずだった」株を買った人々を絶望させた「暗黒の火曜日」（ダイヤモンド・オンライン）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Sd0h3X1pId3Q1OERHYzhxaExWNkoxU1RGZ2hfNHdvSDhTWXZhZTlfb0JmZUJjckszQnpNcTM5cDVMWUx4TDMwRE15Mk93Mnk3c3pUTUo2Z3gyU3RReDhTdUk3bHI5TTZKNHRXYVJLOXQzRVJ6T0JZZTdoU2lIMmM?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-18T22:27:18Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ab7cad524a55724f",
+          "title": "前橋国際芸術祭2026で見るべき10作品。マルジェラから蜷川実花まで、初開催を歩くためのアートガイド",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fTnZucDZJbGNiOXpOS0pzQk1RSTZSaEYwN1B1NlVKNXVsMHF2YklhMjJoTWhWaWRXalREc29sVUI3VGlzTUMxYkFDdkRrN0hMczB0c0puMm5lXzJ0cTJ4UQ?oc=5",
+          "source": "美術手帖",
+          "published_at": "2026-09-18T22:07:24Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7b087e0ce66b406f",
+          "title": "10/10(土) 国際文化学科オープンキャンパスのご案内",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pU00wSWVieFJfbVN6RUlBUzF1WEJ2RmRmMW5LTzdHTG0zcFcxb1YzcS1pVG1CQkx6alozaUd4VUhxT0lIUk5JR0E1bVBHTm5lbGZYdEV0OFVhQlFZLTR1Qzd6WHNKZw?oc=5",
+          "source": "jiu.ac.jp",
+          "published_at": "2026-09-18T16:52:02Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -87,22 +77,22 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5b035841bbd969f7",
+          "title": "9/23は「手話言語の国際デー」＆「手話の日」 水戸キャンパスで啓発のブルーライトアップを実施",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDQWJkSDlRLUlpZXcyeGJvanN6eVE5VGJzRzc3eDEzX19DTHc1Z2lyNmhDR09PSWhSQzZwSmhJS3c1OUpHZk1POTRqdlZ3OFZGbklHUHNXb2RTTEJyRkotN3Vqc2c?oc=5",
+          "source": "ibaraki.ac.jp",
+          "published_at": "2026-09-18T10:00:05Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "food_machinery": {
       "label": "食品機械",
       "articles": [
-        {
-          "id": "4667b3bae1f17474",
-          "title": "FOOMA JAPAN 2027、2027年6月8日から東京ビッグサイトで開催 出展申込は10/15まで",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MaFJLeENfZWd2UDRfM3dGd0c3eS1UTlFZdmVOdzVHSEREV3lDamFXMlZ0SzhWbjFDMkZqZVlqdUtvQnFhV0VUcEhhdDJCNGxMbDBTRUhDVW8wdw?oc=5",
-          "source": "オートメーション新聞WEB",
-          "published_at": "2026-09-10T06:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "7b3ce71c979c7072",
           "title": "FOOMA JAPAN 2027 会期：2027年6月8日（火）～11日（金）の4日間 出展申込受付は、2026年9月1日（火）～10月15日（木）",
@@ -144,21 +134,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "39c8e82ea1ae296e",
-          "title": "株式会社マスダック 入間工場に新棟「M5棟」を竣工 食品機械事業の体制を強化し、生産性向上と事業拡大を推進",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQTmRRQUVrRFI3Y3RPX1l4empSM0FqdVlZcmxqN29zQTJnR3c1OXZNenV5Q1R2VFROaXRLekdSc3dBaWlnMWtNTmtmcjFCRDY1OEhlbHA3aHlEel9aYTBwVUs4eHB5QnhYa3c?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-06-25T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "f363b98798d90d47",
           "title": "米粒選別機市場規模760百万米ドル予測：世界の産業現状、競合分析、成長動向2026",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4ybXZqbkI0NUtCbU5Za3ZHTXJCM3lZVk02UFFKclNxNGhoMHdhTkZOdURwSW5rMlZiUFdhQXZyazMwNC1ZbEFWNExrUmhpZw?oc=5",
           "source": "アットプレス",
           "published_at": "2026-09-18T11:14:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3a050dc6142ee542",
+          "title": "紙幣計数機・選別機の世界市場（2026年～2032年）、市場規模（スタンド型紙幣計数機、デスクトップ型紙幣計数機）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3LVZYeE5EMzFVS3pNamdVVS1ab1JGYk9IeUF0VmZHenNaa3BzT0JKeUFfb1B2amlXYXlUZkxVRmc5RXpHUFJZb2lmMFRJQQ?oc=5",
+          "source": "アットプレス",
+          "published_at": "2026-09-18T00:30:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "866e4566f0bd6032",
+          "title": "同心型渦電流選別機の世界市場2026年、グローバル市場規模（大粒子用選別機、小粒子用選別機）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CTEliSXJMSFBTOTFtNG0tcWFsN0twSXpUUmhqMjNoY3BrRjlLUDd0aFV2eV84X1VUOG53S2VZV2w1MnRjUlJZYnNJN1doWTJ5aWlJ?oc=5",
+          "source": "ドリームニュース",
+          "published_at": "2026-09-11T05:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -329,6 +329,26 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "e562ccf4b6c61668",
+          "title": "環境と食品包装に関するイタリアの新法令：ベトナム企業が留意すべき事項。",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQXdzekVmdVZhV0h1NlQ0OGJPY3U5bFlCbjYzUEFrWW5yTV9uejU3QjJZVjhhUnhSZ3JaM1gyMEpuTzYwQnN4M0d6eTdGdy1MTVZMZmFGc1lYMy15MVctTUFCM0Q2ZVZ4VXFISnd0V19jUHBPcTd1NFZvbWJnUE9zT2xVNXlKQlhuc1JabHhtT3RoMWQyRWU5SXRjRm1sX1NSY2R3UTZiMFNPMDA0TmQwcFk4WF95UnRfTTNaSE1OQQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-08T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e3eb956f85cd4512",
+          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-07-15T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
@@ -359,26 +379,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e562ccf4b6c61668",
-          "title": "環境と食品包装に関するイタリアの新法令：ベトナム企業が留意すべき事項。",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQXdzekVmdVZhV0h1NlQ0OGJPY3U5bFlCbjYzUEFrWW5yTV9uejU3QjJZVjhhUnhSZ3JaM1gyMEpuTzYwQnN4M0d6eTdGdy1MTVZMZmFGc1lYMy15MVctTUFCM0Q2ZVZ4VXFISnd0V19jUHBPcTd1NFZvbWJnUE9zT2xVNXlKQlhuc1JabHhtT3RoMWQyRWU5SXRjRm1sX1NSY2R3UTZiMFNPMDA0TmQwcFk4WF95UnRfTTNaSE1OQQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-08T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e3eb956f85cd4512",
-          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-07-15T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "df62a794dde7fd0c",
           "title": "食品用水処理凝集剤市場、2035年へ：食品安全規制の厳格化が成長を牽引 - ニュースと統計",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdkp4U2hYUEVsNzlzLTIzZ3M1ckxUQUUzbTdsYlZicnhFOHFWUTRIT2Y0QVJjZEVkLS1QVlRFWDROSE45ZFlDck41aHFOQ1VreDRTYXVwaE1yVTU3cVBqaFNtakZyZ3ktTTc2MVFCZUdDYjlHREVzX1NZNWVqOVBKRzdPSXZ4MmpsMzhVWV9sREdoUkpUalg4dms5TnNVeWlXQlRqaWEzRFJnS3NkNjVZcU45RUs0ZUFMNnRZSVFzZHg2S3pZR3VQQmIxcWQ?oc=5",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-19T15:57:14Z",
-  "last_success_at": "2026-09-19T15:57:14Z",
+  "last_attempt_at": "2026-09-19T20:49:37Z",
+  "last_success_at": "2026-09-19T20:49:37Z",
   "consecutive_failure_count": 0
 }
