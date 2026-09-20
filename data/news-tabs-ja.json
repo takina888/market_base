@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-20T11:35:41Z",
+  "generated_at": "2026-09-20T16:15:53Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,26 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-20T14:04:52Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2255246bb4bfe0ad",
+          "title": "2026年世界最高の航空会社、発表 日本の2社もランクイン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EclJTMzl3SUpFaEZwN3ZHdHJUMHhmcTd5NExMX29fSkZoeERBd3MtS1otWUc5TVVLRjdDZTZ1a21BeGN4WHFvLTF5bmVfQ1B0VmVWeQ?oc=5",
+          "source": "CNN.co.jp",
+          "published_at": "2026-09-20T07:50:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "69199284b6547e53",
           "title": "海外の巨額マネーが\"ノロマな亀\"に賭け始めた…世界が習近平の中国を｢再考｣し日本を｢再発見｣する納得の理由",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tN2swS3ZyVFFFXzZfYzlQTU5RV1picmZyUTBNbGZPNkJtZTJJZ2JWcEZuWVBoMkEwenVJeUtlQlAyQkVWcjJUR0FoNm5tVTZBemZYeEd4RmJ6WnI2N296eHc0Wl90MGZkU3dyQkxvbUw0NTlvMHBHNThfUTNBRGc?oc=5",
@@ -29,21 +49,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8ea2407782b621f9",
-          "title": "10/10 世界渡り鳥の日スペシャルトーク「日本の探鳥地へ、渡り鳥たちと出会いに行こう！」を開催します",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zYk9RX0d6YkVBNDE2dWZ3RDYtcHlwakNyTF9MR1VkRmR4cFdPNjMwN0VNNlo0TnBtMlViRVFGOE9VYmV4WGVYaWt1SW8tOGtNNU00VXk1cmNWUDZBT1FhY3Vn?oc=5",
-          "source": "tokyo-zoo.net",
-          "published_at": "2026-09-19T05:09:59Z",
+          "id": "8093cda07a262836",
+          "title": "“世界最悪”の仕事をAIが引き受け始めた",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tbEk3REFLUjNvUzUwaVMyLURBOHpQWTZ1RDZ6dUU3WVVaU1pWMGVvczdyUmpNNDFlN1JMQk9qWEZoLVdQV3o1XzZSYjQ2N0luMzNQUllkakp4MHBsX0FOOGpGVnhXNHpDLUE?oc=5",
+          "source": "WIRED.jp",
+          "published_at": "2026-09-19T22:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b13d727ab20fbc8c",
-          "title": "高円寺が「世界で最もクールな街」8位 独自の文化とコミュニティーを評価（みんなの経済新聞ネットワーク）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43OUlIYWRKWmpEZldFdW95bHRaUElMZ09TZ25VTldoYWRJd3FpSXdldnF0VXdvc19vSHp0WHRMa0JYOGxnNmVIY3puamlTdldCMW14ajQ3alliTjdpQjJSWXhIekxCelVhQ1V4TEprU2lsN1NlY2hEQnI5dERjWm8?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-19T02:59:38Z",
+          "id": "8ea2407782b621f9",
+          "title": "10/10 世界渡り鳥の日スペシャルトーク「日本の探鳥地へ、渡り鳥たちと出会いに行こう！」を開催します",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zYk9RX0d6YkVBNDE2dWZ3RDYtcHlwakNyTF9MR1VkRmR4cFdPNjMwN0VNNlo0TnBtMlViRVFGOE9VYmV4WGVYaWt1SW8tOGtNNU00VXk1cmNWUDZBT1FhY3Vn?oc=5",
+          "source": "tokyo-zoo.net",
+          "published_at": "2026-09-19T05:09:59Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -64,26 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Sd0h3X1pId3Q1OERHYzhxaExWNkoxU1RGZ2hfNHdvSDhTWXZhZTlfb0JmZUJjckszQnpNcTM5cDVMWUx4TDMwRE15Mk93Mnk3c3pUTUo2Z3gyU3RReDhTdUk3bHI5TTZKNHRXYVJLOXQzRVJ6T0JZZTdoU2lIMmM?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-18T22:27:18Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ab7cad524a55724f",
-          "title": "前橋国際芸術祭2026で見るべき10作品。マルジェラから蜷川実花まで、初開催を歩くためのアートガイド",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fTnZucDZJbGNiOXpOS0pzQk1RSTZSaEYwN1B1NlVKNXVsMHF2YklhMjJoTWhWaWRXalREc29sVUI3VGlzTUMxYkFDdkRrN0hMczB0c0puMm5lXzJ0cTJ4UQ?oc=5",
-          "source": "美術手帖",
-          "published_at": "2026-09-18T22:07:24Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7b087e0ce66b406f",
-          "title": "10/10(土) 国際文化学科オープンキャンパスのご案内",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pU00wSWVieFJfbVN6RUlBUzF1WEJ2RmRmMW5LTzdHTG0zcFcxb1YzcS1pVG1CQkx6alozaUd4VUhxT0lIUk5JR0E1bVBHTm5lbGZYdEV0OFVhQlFZLTR1Qzd6WHNKZw?oc=5",
-          "source": "jiu.ac.jp",
-          "published_at": "2026-09-18T16:52:02Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -137,7 +137,7 @@
           "id": "f363b98798d90d47",
           "title": "米粒選別機市場規模760百万米ドル予測：世界の産業現状、競合分析、成長動向2026",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4ybXZqbkI0NUtCbU5Za3ZHTXJCM3lZVk02UFFKclNxNGhoMHdhTkZOdURwSW5rMlZiUFdhQXZyazMwNC1ZbEFWNExrUmhpZw?oc=5",
-          "source": "atpress.ne.jp",
+          "source": "アットプレス",
           "published_at": "2026-09-18T11:14:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -147,18 +147,18 @@
           "id": "3a050dc6142ee542",
           "title": "紙幣計数機・選別機の世界市場（2026年～2032年）、市場規模（スタンド型紙幣計数機、デスクトップ型紙幣計数機）・分析レポートを発表",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3LVZYeE5EMzFVS3pNamdVVS1ab1JGYk9IeUF0VmZHenNaa3BzT0JKeUFfb1B2amlXYXlUZkxVRmc5RXpHUFJZb2lmMFRJQQ?oc=5",
-          "source": "atpress.ne.jp",
+          "source": "アットプレス",
           "published_at": "2026-09-18T00:30:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "866e4566f0bd6032",
+          "id": "6323c35152334a1a",
           "title": "同心型渦電流選別機の世界市場2026年、グローバル市場規模（大粒子用選別機、小粒子用選別機）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CTEliSXJMSFBTOTFtNG0tcWFsN0twSXpUUmhqMjNoY3BrRjlLUDd0aFV2eV84X1VUOG53S2VZV2w1MnRjUlJZYnNJN1doWTJ5aWlJ?oc=5",
-          "source": "ドリームニュース",
-          "published_at": "2026-09-11T05:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sdFpvTklpZjJYbWRyVmMxVHZlZGNQYkVJcFNZdTk1REgxTU5Pc3V6OGZ1TlpfSmx0TnViQk9nczh4amJISC1iNk9HNjZVa0xzUWNyaA?oc=5",
+          "source": "ニコニコニュース",
+          "published_at": "2026-09-11T05:03:18Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -184,16 +184,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52Q0dBbjg4YmkwVFl3czZjUE1UaWVvcTItMzAzQzY1X0JuV0xTMkkzTWtYenhvdS1NSllaa0NsNzY5bEZyNzRGeDBTTU1jTHQ4bW5IbTdGbXJpa2Jia01qaFIyekZ6QU9DMFE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-09-16T02:00:02Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d8eb749f3473be48",
-          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-09-15T03:00:01Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -237,6 +227,16 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "825c54bc5667649b",
+          "title": "食品工場Week大阪、省人化・物流効率化技術が集結",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAzc1U4M3lNZ0FRZHkxWTd2NFF0U09EUkhFdHg3TVF3aklhRmtTaXhSTEduYXpfS1lkU20wMWwzcTlvSm5PSWRudjJn?oc=5",
+          "source": "logi-today.com",
+          "published_at": "2026-09-17T08:26:16Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -264,21 +264,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a0f8bc147fe19585",
-          "title": "平和堂／「アルプラフーズマーケット富山掛尾」オープン、富山県に食品スーパー初出店",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAteVpZcmhubVF3ZGhKMHBtSzlHa1FaZnRGMU50V2ptMlRselltRGtxVG1NUnduaEhXVmxIRk9ya054bVdMR2dNdHJxUHVZaTZNZnR0LQ?oc=5",
+          "id": "487463e80f72acae",
+          "title": "ケーズデンキ／宮城県名取市に「（仮称）新仙台南店（店舗面積5988.15m2）」27年3月23日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pU2dYNDVacEpvTkVzOGc3VXlsUmhQSGRmUWhHc19oR0lVSktjTjZON1RneHJhQjlIYi1DbWF0djZaYkFVT0xaUENlNU9zczZGOXNTTlZB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-09-10T07:00:00Z",
+          "published_at": "2026-09-11T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f76c9cdcf276c203",
-          "title": "平和堂／京都府城陽市に「（仮称）大久保店（店舗面積3805m2）」27年1月2日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxZzVCSzA1eTVNVTY5RWYwclF3bjRlS3BzWVBVbHotUmVTZmx0WFhPczVHVEMzd2NDTjdWaTgwWnJpTmJ0WUdqWUxwT2RseFh0bE1QZWN3?oc=5",
+          "id": "a0f8bc147fe19585",
+          "title": "平和堂／「アルプラフーズマーケット富山掛尾」オープン、富山県に食品スーパー初出店",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAteVpZcmhubVF3ZGhKMHBtSzlHa1FaZnRGMU50V2ptMlRselltRGtxVG1NUnduaEhXVmxIRk9ya054bVdMR2dNdHJxUHVZaTZNZnR0LQ?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-09-09T07:00:00Z",
+          "published_at": "2026-09-10T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -304,11 +304,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ad416bc4e95190a7",
-          "title": "原信ほか／新潟県加茂市に「原信加茂店（店舗面積3498m2）」27年3月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ocHdiWGUxQ3R2TW1ONnFFRmpuaUFjRFp3NzhDX2c3OFNidEpJMm5JZEkxZXJDVUxQeDNjT0dxRXVyS3d5SW00Zk9yajlkWEhFYkVBNE9R?oc=5",
+          "id": "bbd227da8dab972e",
+          "title": "シャミネ松江／スーパーマーケットマルイの新業態など2店舗今秋オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oY2NSeDZxMDQweXdaVzlHYjhZNkZZTFk4bXRFZTVwWC1aTW5zNmU0RDZMdlZQVkNSMldHVFFpTjVVNW5SZmJpZ3VvQWYzbXItV1NPTw?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-08-26T07:00:00Z",
+          "published_at": "2026-08-25T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -329,11 +329,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e562ccf4b6c61668",
-          "title": "環境と食品包装に関するイタリアの新法令：ベトナム企業が留意すべき事項。",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQXdzekVmdVZhV0h1NlQ0OGJPY3U5bFlCbjYzUEFrWW5yTV9uejU3QjJZVjhhUnhSZ3JaM1gyMEpuTzYwQnN4M0d6eTdGdy1MTVZMZmFGc1lYMy15MVctTUFCM0Q2ZVZ4VXFISnd0V19jUHBPcTd1NFZvbWJnUE9zT2xVNXlKQlhuc1JabHhtT3RoMWQyRWU5SXRjRm1sX1NSY2R3UTZiMFNPMDA0TmQwcFk4WF95UnRfTTNaSE1OQQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-08T07:00:00Z",
+          "id": "e3eb956f85cd4512",
+          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-07-15T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -369,11 +369,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e3eb956f85cd4512",
-          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-07-15T07:00:00Z",
+          "id": "e562ccf4b6c61668",
+          "title": "環境と食品包装に関するイタリアの新法令：ベトナム企業が留意すべき事項。",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQXdzekVmdVZhV0h1NlQ0OGJPY3U5bFlCbjYzUEFrWW5yTV9uejU3QjJZVjhhUnhSZ3JaM1gyMEpuTzYwQnN4M0d6eTdGdy1MTVZMZmFGc1lYMy15MVctTUFCM0Q2ZVZ4VXFISnd0V19jUHBPcTd1NFZvbWJnUE9zT2xVNXlKQlhuc1JabHhtT3RoMWQyRWU5SXRjRm1sX1NSY2R3UTZiMFNPMDA0TmQwcFk4WF95UnRfTTNaSE1OQQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-08T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-20T11:35:41Z",
-  "last_success_at": "2026-09-20T11:35:41Z",
+  "last_attempt_at": "2026-09-20T16:15:53Z",
+  "last_success_at": "2026-09-20T16:15:53Z",
   "consecutive_failure_count": 0
 }
