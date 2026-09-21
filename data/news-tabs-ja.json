@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-21T05:07:23Z",
+  "generated_at": "2026-09-21T13:00:12Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,10 +19,40 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "491ae6e6dc701974",
+          "title": "教皇：ソマリアの人道危機に国際社会の支援を",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbTNzYVdMcFljd01fd214LVFZdWtQQ1ZfdGFpQm1pZlJHVTJhbnNvMlREc01BMVdPanA4RlBpbTlZUXhRX2xSMzU1R2NxQXJFbzB6ay1wQ05kT0VVSXRCYjAzWHRTOTNPLV82Sk82cEk4Y3NHOHpZMHlyZk5BV1V5cjAzUjZOOE01Sk1NSTdnN3dldkJNaTJtQUxkdlI3cGszdnk4TQ?oc=5",
+          "source": "Vatican News",
+          "published_at": "2026-09-21T09:04:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e4d086bcf9b56d28",
+          "title": "【9.21 世界アルツハイマーデー】アリーナ オレンジライトアップ（KOBEライトアップDAY）のお知らせ",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MSFFFbktFX3hTU25zbFI4VHJOVFYwVGJuVzVvN2lUSEt5MXJiZDlfWlRYMF9wdFNNRDFYWGhMejFiekNZemFLN19pT21zOFZfb0o3UmtpUQ?oc=5",
+          "source": "TOTTEI | GLION ARENA KOBE",
+          "published_at": "2026-09-21T04:24:38Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7d38b58932abc3d9",
+          "title": "なぜ日本の「ETC」は世界標準にならなかったのか？ 利用率96％でも海外へ広がらず！ クルマと道路をつなぐ仕組みに何が起きたのか――日本式ETCの次なる展開とは（Merkmal）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sa3VBMTQ1aXhYWkdmWVQ0YkdkbHdxalAyN0dsVWZFeWU3Qm82aEwzUl9EMXhGN2pWa3VTbXdJSzFZdDBvVFp4YlpDTS1uWkFhQkNXTGZFRVZZRlk5d1ZoaGV6TzdhN0RxdHZvUlRsbVY2ZmZZc1RVWlpFcTBkV2s?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-20T11:51:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "2255246bb4bfe0ad",
           "title": "2026年世界最高の航空会社、発表 日本の2社もランクイン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EclJTMzl3SUpFaEZwN3ZHdHJUMHhmcTd5NExMX29fSkZoeERBd3MtS1otWUc5TVVLRjdDZTZ1a21BeGN4WHFvLTF5bmVfQ1B0VmVWeQ?oc=5",
-          "source": "cnn.co.jp",
+          "source": "CNN.co.jp",
           "published_at": "2026-09-20T07:50:00Z",
           "language": "ja",
           "category": "overseas",
@@ -54,36 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiygNBVV95cUxNb1QxbUVBbG1wbjhiQ1B6SEdZd0lxdmJyVkVVQXd6SUZxVktLYjFIVFdjcl9SUUk1MVBNTkxKTlB4ZU81blp1Uk9DbU1sY2NKYnpWMl9jZXQ4TWlQbkI0ZGUxRnpKWjRIVDhIbHQyb0ZHSWNLTE1zVHpxeHk1T0QtR0NfcGlnQzQ5cnNyRS1LcjRLYlpCclhoTDkzNThSbGp2RnRiRFhFb0dBZDF3dWhiYzNHV3djODlwQjVvTnlwUmRIQ3Jrdi1zemNfbDdxNmJKNlQyc2ZqUFU2VGtXd25neEVsRklsSHhyX21ib1p3WnJmcExQdlhkVFZiMWQwUE9hejROTm1RbFJpd1l5NXBzUEh4SVJkeHREVG9QbzZzMnlydjZpQlgwUnk3djZRbHI1eHF1X0NFTmJzdENPWFJqcTdUdnAwc1RjWDE2dkRVTGN4M00xcWttdEpGeGpGbFI0anVpZnlmYUFSZXFGRDNINVY0SU91MFR2R0RfRElQak5TS0VlWW1kb0ZZS000R3BnaE01RW1sRjMzNHY0WVZHVlJNMk91amNrbnctcldHQXJkWlF1UnVTUzUyNnBRMHV2NU96VzJyNFN3Zw?oc=5",
           "source": "アラブニュース",
           "published_at": "2026-09-19T18:38:19Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8ea2407782b621f9",
-          "title": "10/10 世界渡り鳥の日スペシャルトーク「日本の探鳥地へ、渡り鳥たちと出会いに行こう！」を開催します",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zYk9RX0d6YkVBNDE2dWZ3RDYtcHlwakNyTF9MR1VkRmR4cFdPNjMwN0VNNlo0TnBtMlViRVFGOE9VYmV4WGVYaWt1SW8tOGtNNU00VXk1cmNWUDZBT1FhY3Vn?oc=5",
-          "source": "tokyo-zoo.net",
-          "published_at": "2026-09-19T05:09:59Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c0fc38f3f437d76a",
-          "title": "同志社国際高辺野古沖事故 第三者調査報告書から 学校安全を考える（上）",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKQkItX0tfWWRISUI4Mjk5VnBsaW9KTkgxbU9uNzEtZGROTGtTZnhqOFI2SEEzUGZPX1hUUDUyM1JDZFR0UFBlYnNzTWNwQi10V1hLelB5UHBDbTI1d0ZIcUZOcVVGT0t2bWU2b0ZDX0dKdDlC?oc=5",
-          "source": "jcp.or.jp",
-          "published_at": "2026-09-19T00:28:35Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7de03a036b30496d",
-          "title": "【世界恐慌】「株は上がり続けるはずだった」株を買った人々を絶望させた「暗黒の火曜日」（ダイヤモンド・オンライン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Sd0h3X1pId3Q1OERHYzhxaExWNkoxU1RGZ2hfNHdvSDhTWXZhZTlfb0JmZUJjckszQnpNcTM5cDVMWUx4TDMwRE15Mk93Mnk3c3pUTUo2Z3gyU3RReDhTdUk3bHI5TTZKNHRXYVJLOXQzRVJ6T0JZZTdoU2lIMmM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-18T22:27:18Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -247,7 +247,7 @@
           "id": "7f50172f8e9d68a9",
           "title": "県内新規出店は２６年ぶり 平和堂が新店舗 競争激化する県内市場で戦略は？ 富山県富山市",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTWg0OXlYV1RUcEVUTkU5VjBVTXFGMWktZGpSdmVrMTY1MnJCbTdJRUQ1aUVqbmhOc1BZWHZzVU05UXJmUTVUWUhwMkJNN2NUVUxNYWtkU3BwSkp5NzUzWkZCQTZCUnViOWE5aEtMUVBhRXdWU1o0ZnVfOVdYWFBia0tQaURmOWs?oc=5",
-          "source": "日テレNEWS NNN",
+          "source": "news.ntv.co.jp",
           "published_at": "2026-09-18T11:08:00Z",
           "language": "ja",
           "category": "retail",
@@ -294,21 +294,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "65968007e2d9a9cc",
-          "title": "「アクロスプラザ富山掛尾」オープン！平和堂の食品スーパーに開店前から100人の列",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA4MXAyRHlPN1NiSzdsVWM5WWRHdG1aNm1PRFRaN1ZkcndFN2theU8zb3d3R0xyQXVNc2JlZEpDcjl6MzE2Y3VZMW85LXB3dw?oc=5",
-          "source": "fnn.jp",
-          "published_at": "2026-09-18T03:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "74d995bb26de030b",
           "title": "小売業者は市場拡大を加速させている。",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDLTJSaTNINlh5dW1rbDhBa2xjeEd1Vm9tYUJjY0ZSVDF5VUE5VTlyd0dfMkFJTXJpMWVpMjl0dngzSFUwVlQyVWVBLUt2TjJUak1sUnFMdXZBNG1memhQMHNySGxqcVBaaGlJbXh4MTRYd28?oc=5",
           "source": "Vietnam.vn",
           "published_at": "2026-09-17T09:14:22Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4fa41cef01398540",
+          "title": "小売りも“体験”の時代 スーパーで職人の握りたて寿司にライブハウスも！ 大阪のあの‟激安”スーパーに驚きの新店舗 「リテールテイメント」の取り組みとは",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wX1ZSd05uM1BPWHhnc2J0Nk1iY0dnM0QzZXhjMDN4Q1BBcDdBWWRSTVJQUi1MLXFQZkhHR0tIQy03eGhITmpjazRraWpienBnd1pLNUo0YUxTNUNRbXViMjc5NTRjUzAwTUdwSzgzOThERTRKTk5ibVViNXFjV28?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-17T04:14:32Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-21T05:07:23Z",
-  "last_success_at": "2026-09-21T05:07:23Z",
+  "last_attempt_at": "2026-09-21T13:00:12Z",
+  "last_success_at": "2026-09-21T13:00:12Z",
   "consecutive_failure_count": 0
 }
