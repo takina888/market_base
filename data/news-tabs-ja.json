@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-20T20:55:17Z",
+  "generated_at": "2026-09-21T05:07:23Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -22,7 +22,7 @@
           "id": "2255246bb4bfe0ad",
           "title": "2026年世界最高の航空会社、発表 日本の2社もランクイン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EclJTMzl3SUpFaEZwN3ZHdHJUMHhmcTd5NExMX29fSkZoeERBd3MtS1otWUc5TVVLRjdDZTZ1a21BeGN4WHFvLTF5bmVfQ1B0VmVWeQ?oc=5",
-          "source": "CNN.co.jp",
+          "source": "cnn.co.jp",
           "published_at": "2026-09-20T07:50:00Z",
           "language": "ja",
           "category": "overseas",
@@ -49,6 +49,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "6521d525532ae447",
+          "title": "リヤドが世界金融センターランキングで急上昇、ドバイはトップ10を維持",
+          "url": "https://news.google.com/rss/articles/CBMiygNBVV95cUxNb1QxbUVBbG1wbjhiQ1B6SEdZd0lxdmJyVkVVQXd6SUZxVktLYjFIVFdjcl9SUUk1MVBNTkxKTlB4ZU81blp1Uk9DbU1sY2NKYnpWMl9jZXQ4TWlQbkI0ZGUxRnpKWjRIVDhIbHQyb0ZHSWNLTE1zVHpxeHk1T0QtR0NfcGlnQzQ5cnNyRS1LcjRLYlpCclhoTDkzNThSbGp2RnRiRFhFb0dBZDF3dWhiYzNHV3djODlwQjVvTnlwUmRIQ3Jrdi1zemNfbDdxNmJKNlQyc2ZqUFU2VGtXd25neEVsRklsSHhyX21ib1p3WnJmcExQdlhkVFZiMWQwUE9hejROTm1RbFJpd1l5NXBzUEh4SVJkeHREVG9QbzZzMnlydjZpQlgwUnk3djZRbHI1eHF1X0NFTmJzdENPWFJqcTdUdnAwc1RjWDE2dkRVTGN4M00xcWttdEpGeGpGbFI0anVpZnlmYUFSZXFGRDNINVY0SU91MFR2R0RfRElQak5TS0VlWW1kb0ZZS000R3BnaE01RW1sRjMzNHY0WVZHVlJNMk91amNrbnctcldHQXJkWlF1UnVTUzUyNnBRMHV2NU96VzJyNFN3Zw?oc=5",
+          "source": "アラブニュース",
+          "published_at": "2026-09-19T18:38:19Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "8ea2407782b621f9",
           "title": "10/10 世界渡り鳥の日スペシャルトーク「日本の探鳥地へ、渡り鳥たちと出会いに行こう！」を開催します",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zYk9RX0d6YkVBNDE2dWZ3RDYtcHlwakNyTF9MR1VkRmR4cFdPNjMwN0VNNlo0TnBtMlViRVFGOE9VYmV4WGVYaWt1SW8tOGtNNU00VXk1cmNWUDZBT1FhY3Vn?oc=5",
@@ -59,11 +69,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5f9f8036795732d0",
-          "title": "年間約50人が祖国を捨て――》海外で保護を求める「日本人難民」の知られざる現実（女性自身",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aTlJVSnRZeDlCZzRKQ3dmeTNsa080SVU4R0dpRUJ4ZHNMbmpVYy1RWlJkYlFHRHFlM0N1Y0RBcEZoeHFfN3Yzd0VNZHdheFIwQ3ZUbnFiMHppdXZlQTVPUnFtakhVVTQ2OEU5US1BUFpIRFVHZE9JUmdiQjMyZDg?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-19T02:00:56Z",
+          "id": "c0fc38f3f437d76a",
+          "title": "同志社国際高辺野古沖事故 第三者調査報告書から 学校安全を考える（上）",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKQkItX0tfWWRISUI4Mjk5VnBsaW9KTkgxbU9uNzEtZGROTGtTZnhqOFI2SEEzUGZPX1hUUDUyM1JDZFR0UFBlYnNzTWNwQi10V1hLelB5UHBDbTI1d0ZIcUZOcVVGT0t2bWU2b0ZDX0dKdDlC?oc=5",
+          "source": "jcp.or.jp",
+          "published_at": "2026-09-19T00:28:35Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Sd0h3X1pId3Q1OERHYzhxaExWNkoxU1RGZ2hfNHdvSDhTWXZhZTlfb0JmZUJjckszQnpNcTM5cDVMWUx4TDMwRE15Mk93Mnk3c3pUTUo2Z3gyU3RReDhTdUk3bHI5TTZKNHRXYVJLOXQzRVJ6T0JZZTdoU2lIMmM?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-18T22:27:18Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ab7cad524a55724f",
-          "title": "前橋国際芸術祭2026で見るべき10作品。マルジェラから蜷川実花まで、初開催を歩くためのアートガイド",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fTnZucDZJbGNiOXpOS0pzQk1RSTZSaEYwN1B1NlVKNXVsMHF2YklhMjJoTWhWaWRXalREc29sVUI3VGlzTUMxYkFDdkRrN0hMczB0c0puMm5lXzJ0cTJ4UQ?oc=5",
-          "source": "美術手帖",
-          "published_at": "2026-09-18T22:07:24Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,6 +179,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "d8eb749f3473be48",
+          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-15T03:00:01Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "56b76612a9a8629b",
           "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
@@ -219,21 +229,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "873ce89070940e0d",
-          "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CdkNZVnFXQXR6Nkk5bjdtZFlneXVxaWZYTWRHVjNFQU5iOHdXbURpWFY4dmx6UmNDS0E2Vm1sTlJrczhBLTI0SDhYWGtHaXpoSWtoZl9n?oc=5",
-          "source": "フーズチャネル",
-          "published_at": "2026-09-17T12:05:52Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "825c54bc5667649b",
-          "title": "食品工場Week大阪、省人化・物流効率化技術が集結",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAzc1U4M3lNZ0FRZHkxWTd2NFF0U09EUkhFdHg3TVF3aklhRmtTaXhSTEduYXpfS1lkU20wMWwzcTlvSm5PSWRudjJn?oc=5",
-          "source": "LOGISTICS TODAY",
-          "published_at": "2026-09-17T08:26:16Z",
+          "id": "8825d9e0204199f1",
+          "title": "食品工場で働いた結果→潔癖症になった50代女性 カバンは3日に1回、財布も洗濯機で洗う、ゴム手袋300枚、ゴミ袋など500枚以上ストック",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tR3lOU3M3TTVybTFaM0hCWkRMQ3kzYUoxQWNubmRRSUw2d0l1U0otOWxrVTEwMzcyVkNLYjEyQlZkdy1lVDNOalc2WEZLMTlfRVZ5YWM0Q3RMOFlNbUhj?oc=5",
+          "source": "キャリコネニュース",
+          "published_at": "2026-09-18T21:02:06Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -244,71 +244,71 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "c390998419acd8c9",
-          "title": "ヤマダストアー／兵庫県宝塚市に「（仮称）宝塚市伊孑志計画（店舗面積3099m2）」27年3月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMWVhLQkVpbjZWa2VqNGNzRUVZS0lDVVBGNWpzeW1lVjkwbWVjYkg0eGRnVkRnWE84eFcyb1FveVM2VWFqN09jMnhpOFl6N0Q4cW9aS1VR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-16T01:31:00Z",
+          "id": "7f50172f8e9d68a9",
+          "title": "県内新規出店は２６年ぶり 平和堂が新店舗 競争激化する県内市場で戦略は？ 富山県富山市",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTWg0OXlYV1RUcEVUTkU5VjBVTXFGMWktZGpSdmVrMTY1MnJCbTdJRUQ1aUVqbmhOc1BZWHZzVU05UXJmUTVUWUhwMkJNN2NUVUxNYWtkU3BwSkp5NzUzWkZCQTZCUnViOWE5aEtMUVBhRXdWU1o0ZnVfOVdYWFBia0tQaURmOWs?oc=5",
+          "source": "日テレNEWS NNN",
+          "published_at": "2026-09-18T11:08:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ca823d396389331e",
-          "title": "バロー／名古屋市に「スーパーマーケットバロー矢田店」9月18日オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tMkd6TmNJMnkxZUtST2MzWWtseGRoNmM3SExSc0htWS1HeUwzbUQ4bHdDOHhna3VOaWdacXhEajZRVWxkTHpIbW51MUpsb0trLXR4Nw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-11T07:00:00Z",
+          "id": "32f1942897d134ac",
+          "title": "【東区】『スーパーマーケット バロー 矢田店』2026年9月18日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1CSmdfVUhMNThXVDZxbGYwQm53SzBldjhWckk1ZEpCUTFEZUM5RHIxc2QtQmtsbkVGNkdmbzN3R2Zmc21vb1ktZQ?oc=5",
+          "source": "名古屋情報通",
+          "published_at": "2026-09-18T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a0f8bc147fe19585",
-          "title": "平和堂／「アルプラフーズマーケット富山掛尾」オープン、富山県に食品スーパー初出店",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAteVpZcmhubVF3ZGhKMHBtSzlHa1FaZnRGMU50V2ptMlRselltRGtxVG1NUnduaEhXVmxIRk9ya054bVdMR2dNdHJxUHVZaTZNZnR0LQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-10T07:00:00Z",
+          "id": "b080a9085fc61261",
+          "title": "鳥取県倉吉市に新店舗オープン！「ワッツウィズ 生田ウェルネス店」でお得な生活を。",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GUU9OWUZFMkhubVVpamNRTjlYbFdSRkpsQ3ZTQUNfczZqemxVeGl0cnJPcEcwUFY1bHJoeWFtS3JzR3dqVjY2Z0hTNXp5V1FHb2c?oc=5",
+          "source": "山陽新聞",
+          "published_at": "2026-09-18T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f76c9cdcf276c203",
-          "title": "平和堂／京都府城陽市に「（仮称）大久保店（店舗面積3805m2）」27年1月2日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxZzVCSzA1eTVNVTY5RWYwclF3bjRlS3BzWVBVbHotUmVTZmx0WFhPczVHVEMzd2NDTjdWaTgwWnJpTmJ0WUdqWUxwT2RseFh0bE1QZWN3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-09T07:00:00Z",
+          "id": "b2d495d5fe3618e6",
+          "title": "島根県隠岐郡隠岐の島町に新店舗オープン！「ワッツウィズ 隠岐の島ウェルネス店」でお得な生活を。",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZVUZkYjJQbHZ5YmJKcWw2NlFRVzJmc1dua1RNQmZZVXhkVFgxWEZIY05oUFZ3bnhyN0hEbTBJWnRteW9zM2RiYUVqV295bU96LWc?oc=5",
+          "source": "山陽新聞",
+          "published_at": "2026-09-18T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e8fcd9681f993593",
-          "title": "バロー／「スーパーマーケットバロー豊中島江店」9月11日オープン、コーナンに出店",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhMWV4SlJyVDlGUnNTWW9KamM5dVVPbXMzRkVpQzRzaWhKY3hCeGR2TW5Lc3lZUjVESlRnTkxmOGt2NTlJaHRyMVN1dmtfSE12X0FEUw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-04T07:00:00Z",
+          "id": "b0cf771eb3df0450",
+          "title": "エネルギー消費を実質ゼロに 道内初のコンビニがオープン セコマが北電と連携して整備 北海道旭川市",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yZVd3dVp2ZzdiTmVNdnFUTUY1SGF2RHc2SUFjTnlwQVJicVBuWnlyVE9KSWJaaHZnMjFUUzhmV3hRZW9ua01TaG5PeEZuUl9fTFRFU3dRVDB0SFI3a1MxV21sTV9PUGxRNExFYnFwRkIzV3h0VjhVUHlLa0JYdUk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-18T03:09:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9bd88acecffcffd4",
-          "title": "アクロスプラザ富山掛尾／平和堂、サンドラッグ、ヤマダデンキ、ゼビオが新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCcmplVWpubF9XMnNGY0MyWWUtNDBsV2JxVHVDbHg1aTJTX3VJeDMwUGJsaVVqM1BWdWZZbktlYVptTUx0VTFmdFUtcnM4Rmh5dEJmaQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-02T07:00:00Z",
+          "id": "65968007e2d9a9cc",
+          "title": "「アクロスプラザ富山掛尾」オープン！平和堂の食品スーパーに開店前から100人の列",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA4MXAyRHlPN1NiSzdsVWM5WWRHdG1aNm1PRFRaN1ZkcndFN2theU8zb3d3R0xyQXVNc2JlZEpDcjl6MzE2Y3VZMW85LXB3dw?oc=5",
+          "source": "fnn.jp",
+          "published_at": "2026-09-18T03:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "bbd227da8dab972e",
-          "title": "シャミネ松江／スーパーマーケットマルイの新業態など2店舗今秋オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oY2NSeDZxMDQweXdaVzlHYjhZNkZZTFk4bXRFZTVwWC1aTW5zNmU0RDZMdlZQVkNSMldHVFFpTjVVNW5SZmJpZ3VvQWYzbXItV1NPTw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-08-25T07:00:00Z",
+          "id": "74d995bb26de030b",
+          "title": "小売業者は市場拡大を加速させている。",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDLTJSaTNINlh5dW1rbDhBa2xjeEd1Vm9tYUJjY0ZSVDF5VUE5VTlyd0dfMkFJTXJpMWVpMjl0dngzSFUwVlQyVWVBLUt2TjJUak1sUnFMdXZBNG1memhQMHNySGxqcVBaaGlJbXh4MTRYd28?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-17T09:14:22Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-20T20:55:17Z",
-  "last_success_at": "2026-09-20T20:55:17Z",
+  "last_attempt_at": "2026-09-21T05:07:23Z",
+  "last_success_at": "2026-09-21T05:07:23Z",
   "consecutive_failure_count": 0
 }
