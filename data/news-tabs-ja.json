@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-21T22:02:58Z",
+  "generated_at": "2026-09-22T05:09:01Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,16 +19,6 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-21T20:14:21Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "b7fe54e9eb47f5b6",
           "title": "「世界宇宙週間」で「宇宙飛行ピカチュウ」と一緒に出発しよう",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kQ1VUNXJneTFNSFVraVkydGQ2WWh5T3RHekVRVk1IRElwaVBqck0zamJoYms4SnVSaUU5b3VFRXotclFyM3dlTTR1bm5yVFlTdXk4X1BYVVl2ZUpDM2Jmag?oc=5",
@@ -39,11 +29,41 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "0d39a5bc6e4389e9",
+          "title": "「国際平和デー」に長崎市で250人のオーケストラ・合唱団が集い音楽祭｜ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BLXY5WG9DZlpmY3BfaUJ2Uk5JM05GeWZMMndHM0tJOXNwaUszUGE1VTZZdmhMZGNrZE1ZZU5NVDNzRkNKdGRCZTVmakxhb2ZLT05TMkpOcUdiMGZJVzVxdmFB?oc=5",
+          "source": "ktn.co.jp",
+          "published_at": "2026-09-21T10:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "491ae6e6dc701974",
           "title": "教皇：ソマリアの人道危機に国際社会の支援を",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbTNzYVdMcFljd01fd214LVFZdWtQQ1ZfdGFpQm1pZlJHVTJhbnNvMlREc01BMVdPanA4RlBpbTlZUXhRX2xSMzU1R2NxQXJFbzB6ay1wQ05kT0VVSXRCYjAzWHRTOTNPLV82Sk82cEk4Y3NHOHpZMHlyZk5BV1V5cjAzUjZOOE01Sk1NSTdnN3dldkJNaTJtQUxkdlI3cGszdnk4TQ?oc=5",
-          "source": "Vatican News",
+          "source": "vaticannews.va",
           "published_at": "2026-09-21T09:04:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "fcc5f34a816ad25e",
+          "title": "海外では課税され広告規制されるのに…日本人がガブガブ飲んでいる､肝臓外科医が警鐘鳴らす\"身近な飲み物\"",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mUENYWThLQnRXc0NIUWpjcG5vejNWeWlSTlMtTFJpWW1fWVdoaDNGYUxycm41VTFJTUdQUnZ3eXprR05GalNnaDduZXJ3YjgyM3dSUTdzbXI1ZExTM0tRSGpUajFNX2FxeUpPRk8wOWdDdTFHa004ajRYN1M5T3M?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-21T08:15:41Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "68bc165b2af9512e",
+          "title": "骸骨騎士様、只今異世界へお出掛け中Ⅱ #1〜11【無料ビデオ1週間】",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtM25mSGdnbzdjaW1mbXo1SE1OZFZtQy1aWXZvY2hQSVpjV3kyWDM1REZGY21hdjNDck9XSDdGT3NFbzNzTFlrcTNBZEpPZDhuaTJiNTJUdldDQTZCbEZYVmItM0NnRGhzb3c?oc=5",
+          "source": "ABEMA",
+          "published_at": "2026-09-21T05:15:34Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,31 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0bf6d566bfaf96e7",
-          "title": "水が少しだけ硬くなった世界…人間が徐々に慣れはじめた先に訪れる衝撃の結末に「ゾッとした」【独特な世界観の漫画3選】",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAySWw1ekVCTW4yQUlTdUM2RW1IMWVGZmkwcExIZk8xYjFid203UngwVzA3dENMX3ZhdF9QU0YxcVgtaE1XM0lIelI2QjFLaDVlSVEwcUU2ckp4R3hkVWY0dUh2QVRLcGpLbEh4UzNXcWNOOGUtV2dVb19IUGhSQUU?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-20T12:05:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7d38b58932abc3d9",
-          "title": "なぜ日本の「ETC」は世界標準にならなかったのか？ 利用率96％でも海外へ広がらず！ クルマと道路をつなぐ仕組みに何が起きたのか――日本式ETCの次なる展開とは（Merkmal）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sa3VBMTQ1aXhYWkdmWVQ0YkdkbHdxalAyN0dsVWZFeWU3Qm82aEwzUl9EMXhGN2pWa3VTbXdJSzFZdDBvVFp4YlpDTS1uWkFhQkNXTGZFRVZZRlk5d1ZoaGV6TzdhN0RxdHZvUlRsbVY2ZmZZc1RVWlpFcTBkV2s?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-20T11:51:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2255246bb4bfe0ad",
-          "title": "2026年世界最高の航空会社、発表 日本の2社もランクイン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EclJTMzl3SUpFaEZwN3ZHdHJUMHhmcTd5NExMX29fSkZoeERBd3MtS1otWUc5TVVLRjdDZTZ1a21BeGN4WHFvLTF5bmVfQ1B0VmVWeQ?oc=5",
-          "source": "CNN.co.jp",
-          "published_at": "2026-09-20T07:50:00Z",
+          "id": "74b5b18ebc828bc1",
+          "title": "もう海外旅行をあきらめない スマートAIめがねで通訳もナビも",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91MmR6S1lGbjJvMlZVTjFyakR5dVBhckQxczJHOXA4SmFDWlFZOXZxYnhOR054TFhFMk5CbWVDeS1MS01VQ1BRb1ZpOXBldkVFWnQzTnM4WlA?oc=5",
+          "source": "朝日新聞",
+          "published_at": "2026-09-21T02:02:12Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -93,6 +93,16 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "e4d0785965cd92b6",
+          "title": "マスダック、埼玉県入間市の入間工場に食品機械を製造する新棟M5棟が竣工",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5eDFyZ2xQcDlXQzhoYkJxempGdEpITnRyMTFoUXRvMUlYdzcwUDNrbjhUX0Q1SjV1c19KNjFMY0pGay0wM25td3htaHhJVS0zOE1wQWFfRFJVdw?oc=5",
+          "source": "オートメーション新聞WEB",
+          "published_at": "2026-09-22T00:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "7b3ce71c979c7072",
           "title": "FOOMA JAPAN 2027 会期：2027年6月8日（火）～11日（金）の4日間 出展申込受付は、2026年9月1日（火）～10月15日（木）",
@@ -147,18 +157,8 @@
           "id": "90f617a297047ded",
           "title": "米粒選別機市場規模760百万米ドル予測：世界の産業現状、競合分析、成長動向2026",
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE94US16bzh3MmF2VGJFNGRXcS1ZZTVScDV3cVJmSnlTdDVUc2tEd2pxd2ozYXJrdnF5V29YVmMyM2V3OS1RTlVN?oc=5",
-          "source": "newscast.jp",
+          "source": "Newscast.jp",
           "published_at": "2026-09-18T11:14:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0da329b85459f2bb",
-          "title": "フジワラテクノアート「小型通気式固体培養装置」が第5回FOOMAアワード2026 経済産業省製造産業局長賞/最優秀賞を受賞",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5bXAtZlk4VENKZWhRSWpKMUVqV3RGendYVzFzX0V0YWRYeWd4MVppZlJmWkhuZEVRcEhCOW9abGVPVGNrMW01VzdKRUw4Y0RIQUE?oc=5",
-          "source": "山陽新聞",
-          "published_at": "2026-09-18T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -274,16 +274,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f76c9cdcf276c203",
-          "title": "平和堂／京都府城陽市に「（仮称）大久保店（店舗面積3805m2）」27年1月2日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxZzVCSzA1eTVNVTY5RWYwclF3bjRlS3BzWVBVbHotUmVTZmx0WFhPczVHVEMzd2NDTjdWaTgwWnJpTmJ0WUdqWUxwT2RseFh0bE1QZWN3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-09T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "e8fcd9681f993593",
           "title": "バロー／「スーパーマーケットバロー豊中島江店」9月11日オープン、コーナンに出店",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhMWV4SlJyVDlGUnNTWW9KamM5dVVPbXMzRkVpQzRzaWhKY3hCeGR2TW5Lc3lZUjVESlRnTkxmOGt2NTlJaHRyMVN1dmtfSE12X0FEUw?oc=5",
@@ -309,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ocHdiWGUxQ3R2TW1ONnFFRmpuaUFjRFp3NzhDX2c3OFNidEpJMm5JZEkxZXJDVUxQeDNjT0dxRXVyS3d5SW00Zk9yajlkWEhFYkVBNE9R?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-08-26T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "bbd227da8dab972e",
+          "title": "シャミネ松江／スーパーマーケットマルイの新業態など2店舗今秋オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oY2NSeDZxMDQweXdaVzlHYjhZNkZZTFk4bXRFZTVwWC1aTW5zNmU0RDZMdlZQVkNSMldHVFFpTjVVNW5SZmJpZ3VvQWYzbXItV1NPTw?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-08-25T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -342,7 +342,7 @@
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
+          "source": "alic.go.jp",
           "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-21T22:02:58Z",
-  "last_success_at": "2026-09-21T22:02:58Z",
+  "last_attempt_at": "2026-09-22T05:09:01Z",
+  "last_success_at": "2026-09-22T05:09:01Z",
   "consecutive_failure_count": 0
 }
