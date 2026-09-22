@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-22T17:03:37Z",
+  "generated_at": "2026-09-22T21:27:54Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,6 +18,36 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-22T17:18:05Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-22T16:21:50Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8945b02003b9a9a2",
+          "title": "ハイロー新作映画にTHE RAMPAGEの武知海青とFANTASTICSの八木勇征出演へ『HiGH＆LOW THE 新世界』",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yNnprT09RLTlsVDF1ZXZUQVFxVmtRNFM0cV9zQi0zVmJKdmx1MmZ0RzhIN2RRRVBET2tMa0twMjRJWmJNWHhZa2Rrd2pIbXZqTGp5QU10WHd3Wm1CMFR2UlJ4UHpOR3RDcFNUM1pnUnFfVWc3ZGViUnFVd081U28?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-22T13:23:39Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "67c31012ecddbb63",
           "title": "2027年公開 新作映画『HiGH&LOW THE 新世界』の新キャストとして武知海青・八木勇征の出演が決定！ティザー映像「琥珀」が解禁！",
@@ -39,51 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "0760ffd59f83b527",
+          "title": "海外でかけ子、帰国後逮捕が増加 若年層に漫画動画で注意呼びかけ（朝日新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vRVJSd0k0Nkw5M0pCNERSTHlLbE9QLVJlWWtJZlFnbV9DMm8ySXMwN3BkT3AwXzRqZzVWSzR6V0Jha0dJem5YMG9mTjJyZy11MllGTU83VUFrd0VhUlo2d191NVo1ZzNSaFdQdmlyNEs0Q0FDM0pjQ2NJWFYtTlk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-21T22:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "477aa39f8accbe60",
           "title": "サウジアラビア、国際平和と安全へのコミットを外相が強調",
           "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxNV19HY3BvZmVhSDNCRE5lclBPWmNodC04SHc3MzdzVTNKX3EwdTZFTHBqUmQxNlk2RjFFZVoySVpsOUxWX1RROWkxNmRpMDdXdWlxM2dBaVlpMFB3dWlUdGVQU2ZMdEV2NkZTa1owOUxMVXN4aXFhR3FOWDd0TGlJemlVT3I0WnJGY29fdDIwcUhZSkF2WXBVQlJmOXFRdjEzOGNNUzhjQS1wbmNRLWNxckc5NnhJc19US2dfWlpQdWZVQ1R0MTRoV2dQb2lhSF9DSEFZQUcwM0otU2tSaDJlMUdCdVNyVkZuaU5HZDFDc0YxQWVXZWlER0xvRUgwbmQxTjBTd2JTYkNhV0h5R201dUFMekUtMXRFU0tHbS1OcmlUeFJEVU1zcnVIR2RjazFraldNdXJ6X19PTXJkYjFuQTZnQnFoQTdxbWx5MUkxWUd2R3RVbWloYm93TXJmWmRiV1NSbEZGd0pTMmNaTklMazhBZEVqS2NyRk1kXzVVc0FWRFA1RjR2VktGeVJpcmRk?oc=5",
           "source": "アラブニュース",
           "published_at": "2026-09-21T17:19:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b7fe54e9eb47f5b6",
-          "title": "「世界宇宙週間」で「宇宙飛行ピカチュウ」と一緒に出発しよう",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kQ1VUNXJneTFNSFVraVkydGQ2WWh5T3RHekVRVk1IRElwaVBqck0zamJoYms4SnVSaUU5b3VFRXotclFyM3dlTTR1bm5yVFlTdXk4X1BYVVl2ZUpDM2Jmag?oc=5",
-          "source": "Pokémon GO",
-          "published_at": "2026-09-21T14:05:58Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0d39a5bc6e4389e9",
-          "title": "「国際平和デー」に長崎市で250人のオーケストラ・合唱団が集い音楽祭｜ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BLXY5WG9DZlpmY3BfaUJ2Uk5JM05GeWZMMndHM0tJOXNwaUszUGE1VTZZdmhMZGNrZE1ZZU5NVDNzRkNKdGRCZTVmakxhb2ZLT05TMkpOcUdiMGZJVzVxdmFB?oc=5",
-          "source": "ktn.co.jp",
-          "published_at": "2026-09-21T10:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "491ae6e6dc701974",
-          "title": "教皇：ソマリアの人道危機に国際社会の支援を",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbTNzYVdMcFljd01fd214LVFZdWtQQ1ZfdGFpQm1pZlJHVTJhbnNvMlREc01BMVdPanA4RlBpbTlZUXhRX2xSMzU1R2NxQXJFbzB6ay1wQ05kT0VVSXRCYjAzWHRTOTNPLV82Sk82cEk4Y3NHOHpZMHlyZk5BV1V5cjAzUjZOOE01Sk1NSTdnN3dldkJNaTJtQUxkdlI3cGszdnk4TQ?oc=5",
-          "source": "Vatican News",
-          "published_at": "2026-09-21T09:04:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fcc5f34a816ad25e",
-          "title": "海外では課税され広告規制されるのに…日本人がガブガブ飲んでいる､肝臓外科医が警鐘鳴らす\"身近な飲み物\"",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mUENYWThLQnRXc0NIUWpjcG5vejNWeWlSTlMtTFJpWW1fWVdoaDNGYUxycm41VTFJTUdQUnZ3eXprR05GalNnaDduZXJ3YjgyM3dSUTdzbXI1ZExTM0tRSGpUajFNX2FxeUpPRk8wOWdDdTFHa004ajRYN1M5T3M?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-21T08:15:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-22T17:03:37Z",
-  "last_success_at": "2026-09-22T17:03:37Z",
+  "last_attempt_at": "2026-09-22T21:27:54Z",
+  "last_success_at": "2026-09-22T21:27:54Z",
   "consecutive_failure_count": 0
 }
