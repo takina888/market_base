@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-22T05:09:01Z",
+  "generated_at": "2026-09-22T11:50:28Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,6 +18,26 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "e63ed839dd82d667",
+          "title": "中国こそが世界に｢トランプ現象｣を輸出している…産業空洞化で過激政治が加速､もはや保護政策以外に対策はない",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZYW1SWjE0T3lld3FlVjVwM0Y3Tjh6NlJ1X0I4SDFiRWpuanNramxORWpKRXBCT1NscE5SZTkwd19FeVRQdnlZMEx5RHlFWVVFdkMtNmY0Z0R2b05lLU44?oc=5",
+          "source": "東洋経済オンライン",
+          "published_at": "2026-09-21T21:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "477aa39f8accbe60",
+          "title": "サウジアラビア、国際平和と安全へのコミットを外相が強調",
+          "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxNV19HY3BvZmVhSDNCRE5lclBPWmNodC04SHc3MzdzVTNKX3EwdTZFTHBqUmQxNlk2RjFFZVoySVpsOUxWX1RROWkxNmRpMDdXdWlxM2dBaVlpMFB3dWlUdGVQU2ZMdEV2NkZTa1owOUxMVXN4aXFhR3FOWDd0TGlJemlVT3I0WnJGY29fdDIwcUhZSkF2WXBVQlJmOXFRdjEzOGNNUzhjQS1wbmNRLWNxckc5NnhJc19US2dfWlpQdWZVQ1R0MTRoV2dQb2lhSF9DSEFZQUcwM0otU2tSaDJlMUdCdVNyVkZuaU5HZDFDc0YxQWVXZWlER0xvRUgwbmQxTjBTd2JTYkNhV0h5R201dUFMekUtMXRFU0tHbS1OcmlUeFJEVU1zcnVIR2RjazFraldNdXJ6X19PTXJkYjFuQTZnQnFoQTdxbWx5MUkxWUd2R3RVbWloYm93TXJmWmRiV1NSbEZGd0pTMmNaTklMazhBZEVqS2NyRk1kXzVVc0FWRFA1RjR2VktGeVJpcmRk?oc=5",
+          "source": "アラブニュース",
+          "published_at": "2026-09-21T17:19:12Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "b7fe54e9eb47f5b6",
           "title": "「世界宇宙週間」で「宇宙飛行ピカチュウ」と一緒に出発しよう",
@@ -42,7 +62,7 @@
           "id": "491ae6e6dc701974",
           "title": "教皇：ソマリアの人道危機に国際社会の支援を",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbTNzYVdMcFljd01fd214LVFZdWtQQ1ZfdGFpQm1pZlJHVTJhbnNvMlREc01BMVdPanA4RlBpbTlZUXhRX2xSMzU1R2NxQXJFbzB6ay1wQ05kT0VVSXRCYjAzWHRTOTNPLV82Sk82cEk4Y3NHOHpZMHlyZk5BV1V5cjAzUjZOOE01Sk1NSTdnN3dldkJNaTJtQUxkdlI3cGszdnk4TQ?oc=5",
-          "source": "vaticannews.va",
+          "source": "Vatican News",
           "published_at": "2026-09-21T09:04:00Z",
           "language": "ja",
           "category": "overseas",
@@ -67,42 +87,12 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e4d086bcf9b56d28",
-          "title": "【9.21 世界アルツハイマーデー】アリーナ オレンジライトアップ（KOBEライトアップDAY）のお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MSFFFbktFX3hTU25zbFI4VHJOVFYwVGJuVzVvN2lUSEt5MXJiZDlfWlRYMF9wdFNNRDFYWGhMejFiekNZemFLN19pT21zOFZfb0o3UmtpUQ?oc=5",
-          "source": "TOTTEI | GLION ARENA KOBE",
-          "published_at": "2026-09-21T04:24:38Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "74b5b18ebc828bc1",
-          "title": "もう海外旅行をあきらめない スマートAIめがねで通訳もナビも",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91MmR6S1lGbjJvMlZVTjFyakR5dVBhckQxczJHOXA4SmFDWlFZOXZxYnhOR054TFhFMk5CbWVDeS1MS01VQ1BRb1ZpOXBldkVFWnQzTnM4WlA?oc=5",
-          "source": "朝日新聞",
-          "published_at": "2026-09-21T02:02:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "food_machinery": {
       "label": "食品機械",
       "articles": [
-        {
-          "id": "e4d0785965cd92b6",
-          "title": "マスダック、埼玉県入間市の入間工場に食品機械を製造する新棟M5棟が竣工",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5eDFyZ2xQcDlXQzhoYkJxempGdEpITnRyMTFoUXRvMUlYdzcwUDNrbjhUX0Q1SjV1c19KNjFMY0pGay0wM25td3htaHhJVS0zOE1wQWFfRFJVdw?oc=5",
-          "source": "オートメーション新聞WEB",
-          "published_at": "2026-09-22T00:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "7b3ce71c979c7072",
           "title": "FOOMA JAPAN 2027 会期：2027年6月8日（火）～11日（金）の4日間 出展申込受付は、2026年9月1日（火）～10月15日（木）",
@@ -139,6 +129,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZSWMzbkg2bWxJbTd2M2F1UUhpUjd6Mkdha3VxdTVHVWJIeXBXYXEwZXFGeWQwUHNWM2pFd2hvRU9yMkwtaUxfX3hVbzlnRzZ0UXo2cjFjOGQ5SzRzMkUyZEV4YTNTTktDalE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e4d0785965cd92b6",
+          "title": "マスダック、埼玉県入間市の入間工場に食品機械を製造する新棟M5棟が竣工",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5eDFyZ2xQcDlXQzhoYkJxempGdEpITnRyMTFoUXRvMUlYdzcwUDNrbjhUX0Q1SjV1c19KNjFMY0pGay0wM25td3htaHhJVS0zOE1wQWFfRFJVdw?oc=5",
+          "source": "automation-news.jp",
+          "published_at": "2026-09-22T00:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -342,7 +342,7 @@
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "alic.go.jp",
+          "source": "独立行政法人 農畜産業振興機構",
           "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-22T05:09:01Z",
-  "last_success_at": "2026-09-22T05:09:01Z",
+  "last_attempt_at": "2026-09-22T11:50:28Z",
+  "last_success_at": "2026-09-22T11:50:28Z",
   "consecutive_failure_count": 0
 }
