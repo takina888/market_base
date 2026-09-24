@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-09-24T11:57:13Z",
+  "generated_at": "2026-09-24T17:19:41Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,61 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "368fab95fa581c59",
-          "title": "余興のつもりが「世界最高の発明品」に… 姿が消える「光学迷彩」を東大教授が実現、 きっかけは「この漫画を読んで」 ＳＦ漫画・攻殻機動隊の先見性（前編）（47NEWS）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QdjlFempLbk83SkI3MHhrdzhGaWNBbWs0ejZSdk5XMnBxTDhtNHZPX0wyNF96aTJxT0xQaDBiLU5mUWNXUEllcWN0dFdZVjZOaUxYZ0F2VUlaeElHeVRzTGl4TVZxazl1ZlN6M2xvaWVmNE9MbURkc2dBYmxDMWM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-24T10:57:53Z",
+          "id": "b354e52b28b75602",
+          "title": "日本企業が成長するために アジアから世界を見据えて",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBIZFUwX3M1cTFONXVBR0o0UUFscjdldDQ3MUVBWW81V0gzUW5EOWFxakZPV1k0TFVXc29QYlFPUEh4akdMNl80Y3ZTNkJlaDJiWEJuQVA5aw?oc=5",
+          "source": "ps.nikkei.com",
+          "published_at": "2026-09-24T15:14:09Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f097ee65850c1612",
-          "title": "Re:ゼロから始める異世界生活 4th #84【地上波先行・WEB最速】",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BSktmUW1zUDMzVnRBMmU0MTZtSXl3QVdNdVp5d3NNRnpKSEhacFQzSmZGRFlZSEFJNHZKNGpiSHFTV2RUVEFNbTNoTDBOSTk1QkNpYnpyZEg5VFd6d3FKaGlvSU0xejJUbnc?oc=5",
-          "source": "ABEMA",
-          "published_at": "2026-09-24T09:56:49Z",
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-24T15:01:32Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "368fab95fa581c59",
+          "title": "余興のつもりが「世界最高の発明品」に… 姿が消える「光学迷彩」を東大教授が実現、 きっかけは「この漫画を読んで」 ＳＦ漫画・攻殻機動隊の先見性（前編）（47NEWS）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QdjlFempLbk83SkI3MHhrdzhGaWNBbWs0ejZSdk5XMnBxTDhtNHZPX0wyNF96aTJxT0xQaDBiLU5mUWNXUEllcWN0dFdZVjZOaUxYZ0F2VUlaeElHeVRzTGl4TVZxazl1ZlN6M2xvaWVmNE9MbURkc2dBYmxDMWM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-24T14:01:46Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b9fc42b113c65229",
+          "title": "「日本は反中・嫌中の世界チャンピオン」 「斬首投稿」の中国総領事、騒動後初めて姿（時事通信）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02Y21xSFhXVEpJc0VQMExEMWJ4Nl9LNDlWanVTODBjM09PYlpVR3UweGQ2akFWeUZsbWM4RS13RklFVS15U0NXMmd1S3BhaklTY0I4WXBhUWx2SkJqN0hmZ08tOTRLbE8tN0VXX2hkdzRlNkZVUy1CS0tWREsyUGs?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-24T10:35:05Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7603922cb4d8cda2",
+          "title": "『レイトン教授と蒸気の新世界』ファミ通DXパックが予約受付中。ひらめきコインのレプリカや舞台をイメージしたラゲージタグが付属",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZOFpnZU9OWW5IU2tCd0NrRnR3Rk9xb1NxaEdtd1UxcmdoZ0xKYzNYZGJKLW9KWVdmaE9UMjJuMEo1d0NZNTZ3MUlnU0hiVXJxeWVDM3c0bw?oc=5",
+          "source": "ファミ通",
+          "published_at": "2026-09-24T10:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "fd70b635bb3146b5",
+          "title": "「守ろうともしない首相」「空っぽな言葉」高市首相を痛烈批判の2世ミュージシャン 海外アーティストにも苦言（女性自身）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TaXd3c1paYUdLZjB6RmEySk5sV1RIYjRHb0g1SXdoa2hfa2ZvOXVMNU03cEZwTVpOSzNnYnUtaGNoNDc0NHg1TWZtZ01fWUtKLWU1eFU0MmpjYjFZZGxHUFZ4bERVOUVaSHdvS3RPZFNjZ0pkMWh1V1Z4N1dOcTg?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-24T09:45:48Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -44,46 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLeEoydU1qci1DTmJYUjR6b2MzQTlRcGVscjYyLUF4VmYyUGdBTXF6VDd2RGlfMmROckNSTE52QXlxcGFBYnlQS2RUUTYweU1DS2pvdzFzWExEZHk0cjVfeg?oc=5",
           "source": "otsuma.ac.jp",
           "published_at": "2026-09-24T09:26:42Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-24T09:08:48Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-24T08:32:45Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "bb9d8bdbd7d095ec",
-          "title": "習氏が米到着、トランプ氏自ら出迎える厚遇 台湾問題や貿易戦争の「休戦」延長など協議へ",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fSG16RjRKdmVJLTd4NndFNlZxTW9HUW1CSVlmZUlFLVBDUnVVSlljVURmUDlERWxPREZLVjJvNnp1cDdXOXdYY0VfSzNNSG1Pb3ljLVctYjcwUEdrTHM5d9IBZkFVX3lxTE9PbDFDNUhyM2JQajdTdEY4VVNkV24zNEpVbVR1X1VuSkFiZ2pGZ1NnZ3ZLTkI0QlpVTEVCNkNBdUt1cnkwU3lWeGwxd2VJQk5FUXpRY2Y1bEJIVmVXQTBxWlhkSlJCQQ?oc=5",
-          "source": "BBC",
-          "published_at": "2026-09-24T08:30:47Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c260c5125469b196",
-          "title": "【報告】インド工科大学インドール校と国際交流協定および学生交流覚書を締結",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfRXJFRHlOWUxOemwxMWo4eEN2elhTQkVFc1Z6eVF2aWRWR2pyM2ZNYUozdXJDSkhlZUxURzFxWWg2MUlkVjJWVE5HLWpEQktoYTR1ZTJsRzlDYU45OEowN2U1d0pNQVRKUUo3RF9JNkM?oc=5",
-          "source": "国立大学法人 電気通信大学",
-          "published_at": "2026-09-24T08:22:40Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -232,7 +232,7 @@
           "id": "8825d9e0204199f1",
           "title": "食品工場で働いた結果→潔癖症になった50代女性 カバンは3日に1回、財布も洗濯機で洗う、ゴム手袋300枚、ゴミ袋など500枚以上ストック",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tR3lOU3M3TTVybTFaM0hCWkRMQ3kzYUoxQWNubmRRSUw2d0l1U0otOWxrVTEwMzcyVkNLYjEyQlZkdy1lVDNOalc2WEZLMTlfRVZ5YWM0Q3RMOFlNbUhj?oc=5",
-          "source": "news.careerconnection.jp",
+          "source": "キャリコネニュース",
           "published_at": "2026-09-18T21:02:06Z",
           "language": "ja",
           "category": "food_factory",
@@ -342,7 +342,7 @@
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
+          "source": "alic.go.jp",
           "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-24T11:57:13Z",
-  "last_success_at": "2026-09-24T11:57:13Z",
+  "last_attempt_at": "2026-09-24T17:19:41Z",
+  "last_success_at": "2026-09-24T17:19:41Z",
   "consecutive_failure_count": 0
 }
