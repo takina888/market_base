@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "status": "partial",
+  "status": "live",
   "language": "ja",
-  "generated_at": "2026-09-25T05:05:46Z",
+  "generated_at": "2026-09-25T11:59:19Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -10,80 +10,78 @@
     "retail",
     "overseas"
   ],
-  "retained_categories": [
-    "regulations"
-  ],
+  "retained_categories": [],
   "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "5d5f93738d6ce365",
-          "title": "習近平氏、第２次世界大戦で中国とアメリカは「日本軍国主義の侵略者との戦闘で肩を並べて戦った」（読売新聞オンライン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOVFVXdXI2cDBMRVhqTWRXQUVURmF5eVk1RkJtcTJock9MdjhHMHYtWmg0VXR2cFlWUXJRYVlNNngwNFpja1IyNThIY1dzVWF2MUU0eUI1eEtTY2dNNjEtbGwxQjNvUFVhRG83SkFpN0dsVGhEUlFuVTZSUEpnWk0?oc=5",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-25T10:49:01Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-25T09:46:37Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "31a758dfbeeb96a8",
+          "title": "愛子さま 世界医学検査学会に出席「安心して暮らすことのできる日常が一日も早く戻ることを切に願います」",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rV2RWOXUwTFRZTHNEMTdFcjJoLThjazE5NDFoR3hCM0lLdmJWSFJwMVE4RVptUFZ4QUl0MGFIUnJ5eTNqQWs5VGxoYkE5bVltQUx4cmltNDRxS3pzYWwyYzJnMnpuSFk1cDB2SUdpTnIyZlpuXzhwYTloZzM4bFU?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-09-25T03:55:00Z",
+          "published_at": "2026-09-25T08:05:08Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "52a8bcefb4a50728",
-          "title": "nagomi-vol.60｜【世界から見る和歌山の魅力】Adam Baran（NOMCRAFT Brewing）",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE00YmV4QTdLNnQ1bzRRWFZPdEMzRWhCN01oWF9EUVBpUG9MZGxTSTBSQUo3QnJ0QkVaZlE2NVhHY3BfQ1hQcE1KWThEOHExWDM5YkFfZEg3dlhhSlM5dDdFMHlaVmM4Z3o0cG1tbldhNU5aWFJlQlFJUA?oc=5",
-          "source": "pref.wakayama.lg.jp",
-          "published_at": "2026-09-25T02:08:33Z",
+          "id": "a89259ff3cbdf56a",
+          "title": "米中首脳会談 世界の二大権力者は対面して何を話したのか",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GX2I4WjJUMTBTZ0JpeFk1eUFwMjFobEVDNF9Ha0tDbUowOEltWkFYa1E1VDZoNGZWelh1SlBVLUd6ZnZmNXJmS0NWUUVOR0l5c2E3M0lWVlJUd1B4ai14bNIBZkFVX3lxTE9TLUZnb18yakFLc0ZwYk0yWElBOUVOQks3aU9idDRNZURtTm0xalUwdjF3bWlpOTdCeW5pVWVxYnk4T1dFLXp1ODFmMDFROXpiOEthdTFSejQxTmJjUjEzRzZpTGUydw?oc=5",
+          "source": "bbc.com",
+          "published_at": "2026-09-25T07:25:54Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "bd6b32de889b85e4",
-          "title": "「脱炭素化・エネルギー転換に資する我が国技術の国際実証事業」の2026年度第2回公募について",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5YdURnNlQtbW0wNG1QcFBkaV9QZ1FOd1hlc1V1Y1hDNndwZ0Y2MHlCY2RtQU9IWk1BY2RWRFBkR2pGVU8wcHNSZEhIY1ZaY2ZsRDVpWkk0bE5jWGxKLWVZ?oc=5",
-          "source": "nedo.go.jp",
-          "published_at": "2026-09-25T00:57:23Z",
+          "id": "ecbb5f21012d97ec",
+          "title": "世界は過去最高の暑さ それでも関東は違った? 2026年の夏を振り返る(気象予報士 白石 圭子 2026年09月25日)",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1yUHNOclMyUDJNVGlsejZacGExdkZmTVpIVzl4bHdteGZyU21IbVZ6R29fYjl0V1hzdkQ4Z1F1ZkFQbk5oSnJzeXNabnplY1hLLXJnOGhkSFBoRC1feTFQRncyZDJVOEZFOENpeFdn0gFzQVVfeXFMTnRpYlNvM3dHajd3ZjRFdmtDTFlneEhRaDVsa0U5OEgtbGNWWmRsTWJUVm44SUY2WHI2aVViVjVUa2traGd5LWwtU2t1VzdfWVpPVXZRMk1iX240ZzRYQmZicjQ1Z00xVDZwWmdvbjcxQU9vbw?oc=5",
+          "source": "tenki.jp",
+          "published_at": "2026-09-25T05:12:26Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b1c5e963d58a179d",
-          "title": "【#佐藤優のシン世界地図探索179】日米首脳会談で高市政権は「ICC問題」をどう扱ったのか？（週プレNEWS）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hdEZvZlpvS1MwTW1CNVNoTXRKWE5hYW1iWHJpWXJhRm5uX2FhT3RGX2ExdkViYnNTSUx6WTFOWjk4bUZxaXdJVjNPdGlzSXZIRHZkWENlVmcwanhFQzJLak9jak9YdjVzSmphNTZYeHBNb0k4NkFwd0lFLS1ick0?oc=5",
+          "id": "7a47013dc9cfb797",
+          "title": "日本は「反中・嫌中世界チャンピオン」 斬首発言の中国在大阪総領事（朝日新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54ZmF0RldqY3otZmpzT1lma0YwNG9iWVNUSHR2QkxiaEJHY3huTWN0U096dEdVdDJ2TGVRQ3Eyc3pvVFVIc1V4WGRqVkpFRk9NazkwX2RCeWdNek12cTRJb05zX1lRa3gzbXVyLUQzYTlZRjJwd1d0VVFJbFNIV3M?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-09-24T23:01:48Z",
+          "published_at": "2026-09-25T05:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8f9c69c370f44aa7",
-          "title": "イベント: 国際シンポジウム「The 27th RIES-HOKUDAI International Symposium 耀（You）」開催のお知らせ【電子科学研究所】（2026年10月28日（水）、29日（木）開催）",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbVhqSDlzOS1VQm1tLXloaXk2Q2Z1OG52WWtMbEdYM2VIdFpZLUJYUW5iUGdnNGwxekR1Q0drZ1dRS3BEM3BORFR6c3VpSEFWdXIwLURKYTM2T1lub1hMUHA3UUQ5cjc5d252VndZNEpRR2tFcm5KdGZxUGxaWi1JNEJ2NG1Ya1QzMnV6WXdXc3hLYm9sb2tqTThUdV9idFA4eml6Tzc1aFM?oc=5",
-          "source": "hokudai.ac.jp",
-          "published_at": "2026-09-24T21:24:35Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "eda2251f13ef04c0",
-          "title": "1571. 世界のイネ研究を支えるIRRI―日本とともに考える、気候変動下のコメ生産―",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xVjB5ejJvUURmQXJHeGRBVFhEamo3MDhlQkxnQjE4MjdDRjZJaklFSG5QTWVDUzRNQkVpbXo2eE9pUkQzQlNvRTRtcDE0MDdITzR6eUhtd2pCdExMWURVUnVxNHc?oc=5",
-          "source": "jircas.go.jp",
-          "published_at": "2026-09-24T21:02:39Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9f0dd45e0f8e1013",
-          "title": "はじめに：『世界は「値段」でできている レシートから読み解く教養としての経済学』",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wV2MzNklNOWkxbjlSR0UxMEZZelRvT3BiLXFDaFBJOXpnVS1SaWhVZXByWWkzTXFxV1o3T0VrZEd4WmlLVVhFXzZiTjhvcG1sZDFRM1VMckRLVE5XcWNYUnhxRG52dzhkN3ZkNg?oc=5",
-          "source": "日経BOOKプラス",
-          "published_at": "2026-09-24T20:06:00Z",
+          "id": "30fd3db972517fb1",
+          "title": "ついに九州へ ～九州佐賀国際空港をゲートウェイに、新潟と九州をつなぐ2WAYチャーター～｜お知らせ｜トキエア",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE05ZXdHVFE4cXZSZkh4aGNKWFhrcEE0R0hfdk5UZkduZnBPM0xvWDFULWxqYWZReS0taGhSb2QxdkdQN0Zs?oc=5",
+          "source": "トキエア",
+          "published_at": "2026-09-25T03:01:09Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -147,7 +145,7 @@
           "id": "90f617a297047ded",
           "title": "米粒選別機市場規模760百万米ドル予測：世界の産業現状、競合分析、成長動向2026",
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE94US16bzh3MmF2VGJFNGRXcS1ZZTVScDV3cVJmSnlTdDVUc2tEd2pxd2ozYXJrdnF5V29YVmMyM2V3OS1RTlVN?oc=5",
-          "source": "newscast.jp",
+          "source": "Newscast.jp",
           "published_at": "2026-09-18T11:14:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -229,11 +227,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8825d9e0204199f1",
-          "title": "食品工場で働いた結果→潔癖症になった50代女性 カバンは3日に1回、財布も洗濯機で洗う、ゴム手袋300枚、ゴミ袋など500枚以上ストック",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tR3lOU3M3TTVybTFaM0hCWkRMQ3kzYUoxQWNubmRRSUw2d0l1U0otOWxrVTEwMzcyVkNLYjEyQlZkdy1lVDNOalc2WEZLMTlfRVZ5YWM0Q3RMOFlNbUhj?oc=5",
-          "source": "キャリコネニュース",
-          "published_at": "2026-09-18T21:02:06Z",
+          "id": "873ce89070940e0d",
+          "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CdkNZVnFXQXR6Nkk5bjdtZFlneXVxaWZYTWRHVjNFQU5iOHdXbURpWFY4dmx6UmNDS0E2Vm1sTlJrczhBLTI0SDhYWGtHaXpoSWtoZl9n?oc=5",
+          "source": "フーズチャネル",
+          "published_at": "2026-09-17T12:05:52Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -319,6 +317,26 @@
       "label": "規制関連",
       "articles": [
         {
+          "id": "0c38f8461be22446",
+          "title": "政府は米の輸出入に関する新たな規制を発表した。",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQlhDRnVkY1lHd2djcUJOaTBMbGo5VnBfZUZuYUtoVXc1WHFHWTNlMUlFdGk0UFh0anY3Y3hJY214TTlqeFJKbWVhUzFzTjhOcE9GaTFJaFdvd2JjSkVyZU5RdXd0NVpWdlJzRVRyVGlDSUtlNEluLW1fTWR3OWZKWmgtOVJPWGRFY3N2dzVmZWlPX2dG?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-25T10:12:58Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e0126121f00c38f4",
+          "title": "政府は米の輸出入事業に関する政令を発布した。",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRUgyM2sxazYzYWhrTldYVU80YVBmOWlkVnZYUnpJWjZNTk8yMEJuSlJ4b2tndEpwcXUzcWt6Ml9uOW1aeHVIX0E2dGZLa0h5UVd6bl9NX0dOdnNLbHNGX2RzNnBuVUNrMHVJa2lJUTY1SWU4WEI1QUllTFVOaGZGOVg0VEtUczFUOW0xbUlCS3A?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-25T08:31:52Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "e3eb956f85cd4512",
           "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
@@ -367,31 +385,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fee1381a70d461de",
-          "title": "ホルムアルデヒド白菜は氷山の一角》日本に輸入された「発がん性」食品 ピーナッツ製品からカビ毒「アフラトキシン」検出事例 日本国内では中国産製品が数多く流通（マネーポストWEB",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxeEktZm9nVzZjT3dqV0JvakFjd0NUUjJQdzFMZUoxZm9pLXh2eVpnMWJXMFIxVkV4eE40MVZFWEFVZ3luczBoOU5GU3BHcUdJeUo1MWN2NVpFVnRiVm1BTXBnQnlkVFVxX3RFSlh5NXBmVmpPbXpoZWtYU0VyWEE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-15T07:16:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e562ccf4b6c61668",
-          "title": "環境と食品包装に関するイタリアの新法令：ベトナム企業が留意すべき事項。",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQXdzekVmdVZhV0h1NlQ0OGJPY3U5bFlCbjYzUEFrWW5yTV9uejU3QjJZVjhhUnhSZ3JaM1gyMEpuTzYwQnN4M0d6eTdGdy1MTVZMZmFGc1lYMy15MVctTUFCM0Q2ZVZ4VXFISnd0V19jUHBPcTd1NFZvbWJnUE9zT2xVNXlKQlhuc1JabHhtT3RoMWQyRWU5SXRjRm1sX1NSY2R3UTZiMFNPMDA0TmQwcFk4WF95UnRfTTNaSE1OQQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-08T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-25T05:05:46Z",
-  "last_success_at": "2026-09-25T05:05:46Z",
+  "last_attempt_at": "2026-09-25T11:59:19Z",
+  "last_success_at": "2026-09-25T11:59:19Z",
   "consecutive_failure_count": 0
 }
