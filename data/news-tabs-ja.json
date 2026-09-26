@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-09-26T16:30:36Z",
+  "generated_at": "2026-09-26T21:17:16Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -37,16 +37,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "70c15f1d4691ed22",
-          "title": "スター・ウォーズ、ジブリ、エイリアン…世界の映画博物館6選",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QYWo5c1k2aTZVNlJyZ01XTjc3ZGJxZVQwakxnbGM5TE9WTC1HOVNFZ0lOWC0zVm5zYlMxZUY4enRsYVpZaS1FVlA4QzV0MU1UQi16SG1qV3RTN3U1aTdMVTh6QQ?oc=5",
-          "source": "ナショナルジオグラフィック日本版",
-          "published_at": "2026-09-26T03:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "c3f632d1d1690052",
           "title": "日本韓国語教育学会国際学術大会を本学で開催します―北海道では11年ぶりの開催―",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JVkhsS3FWc0t1aGlaVVA1ekhWLVl6Vm9oc1RJeU1fMDRWR0pQeUZTdU5JamtabHZfSEVUMGw4cm10TnlNMTVvcWszSndhenltREU5dzhDMXJacmozdU0w?oc=5",
@@ -60,7 +50,7 @@
           "id": "a47e49d04585e39c",
           "title": "トランプ大統領の脅しは国際刑事裁判所の将来を変えるか？",
           "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQSU5JU212RGxKdVdhM1ZCUTZjZ0lvaEcwRFhkTUZWTmZlZWhfSFZ5UTNzaFVEdkd3UVFkQ0hfdmZSY3RjdzdqWDdzN241NTQ3ZVB1Q0FoUmFSanRBTVdZTDV6dkxreXpGY2EwdDQ0ZnRmd1BiellhLTVsU1NjNl9kcGVqLUZQWU5jbFFBMlVUYWtsSHhNbE1DLXk4WGMyZWxyeXlZNS0xZXhHUDV6ZEpWdjJoU1ZsdUExYXZhcGdVRjdwZHhwLVhMdGt4LVkyMlhnY3JYQ2U3cHNQelpxWXBNT21YTXlxbkU0NDJiLXVSU2dWNmZkVHRNX0h6N2FBeXdQT05KbUY3NkRBRnBJNlVmS2tvNlpFckhJZ2pZMFg2T3JOMTFJVkY1X2w1WVZOQmVOSDFzSTJCY1VKbEl1S3BfRko3RThIQ2ZKME10OWVLSUpxdkR6VjI2bjlicUQyb1F6RnZZaDNKLU1aVUFrUlpHampvUzhwX25ETTUxQUlwMlJwX19JSEh4RlJoT0JETlE?oc=5",
-          "source": "アラブニュース",
+          "source": "arabnews.jp",
           "published_at": "2026-09-25T20:20:29Z",
           "language": "ja",
           "category": "overseas",
@@ -77,11 +67,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "95f82eb045ff3fc4",
-          "title": "郡仙台市長の海外出張費が高額と市議会議員が指摘 出張費を公開へ（khb東日本放送）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42RWgwb0pYV1JSeVczanZweDFuMFNWTVFvOGllZTJoT0wwS2xUUnRWMGFxWFBwM1Z1QWxLWGpDZTZVVk42bk5NRzk1Sm9zMnd4ZWJyU2hQVTFWb0c0V2MzVG1tUW5KQ0Y5MTducWtGWEh1UkNiZmtsZE94cG1zV1k?oc=5",
+          "id": "e9bc7fd7429c2db0",
+          "title": "世界を旅する中で生まれた出会いを音楽に。Bearniez feat. Haru「HANA」本日配信スタート！ | ニュース | エイベックス・ポータル",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9VdHQxNE14dnBsNGFrZHB0Wk9YV3Nfa2NZdzJhalVHSTU1UnhjZFFfRWM2VDltNFJfeEMxWXUtUkd0cVV0MVE?oc=5",
+          "source": "エイベックス・ポータル",
+          "published_at": "2026-09-25T08:23:15Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "31a758dfbeeb96a8",
+          "title": "愛子さま 世界医学検査学会に出席「安心して暮らすことのできる日常が一日も早く戻ることを切に願います」",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rV2RWOXUwTFRZTHNEMTdFcjJoLThjazE5NDFoR3hCM0lLdmJWSFJwMVE4RVptUFZ4QUl0MGFIUnJ5eTNqQWs5VGxoYkE5bVltQUx4cmltNDRxS3pzYWwyYzJnMnpuSFk1cDB2SUdpTnIyZlpuXzhwYTloZzM4bFU?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-09-25T09:35:42Z",
+          "published_at": "2026-09-25T08:05:08Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -337,6 +337,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "7eb6dd3f502575b5",
+          "title": "米の輸出入に関する新たな条件は、2026年10月1日から適用されます。",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVEhpdmg3QkZ3WGR0VGZrVG5jYmx0aHNBN09ZbEpaQnhkeVNWT0RvMkZYeVhnSWQ3NWhIMndxOWdkYXBFbldFOGZoZ0R4UHhWV2EyS0lnNk1xLXY4X1JmSXdiT1U4TklQUkFCRmxXTUlhUG1LS3dISk1OZnZTYUZZSWZ6NF9yX0NQRjVXSXdQcV8xd0VBUVFzMg?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-25T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "899cd0b710aea772",
           "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
@@ -375,21 +385,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e8dc2b1dc051806f",
-          "title": "米国包装材規制の今（4）プラスチック規制の現状と先取権法 | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-06-04T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-26T16:30:36Z",
-  "last_success_at": "2026-09-26T16:30:36Z",
+  "last_attempt_at": "2026-09-26T21:17:16Z",
+  "last_success_at": "2026-09-26T21:17:16Z",
   "consecutive_failure_count": 0
 }
