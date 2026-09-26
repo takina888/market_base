@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "status": "partial",
+  "status": "live",
   "language": "ja",
-  "generated_at": "2026-09-26T11:33:52Z",
+  "generated_at": "2026-09-26T16:30:36Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -10,34 +10,12 @@
     "retail",
     "overseas"
   ],
-  "retained_categories": [
-    "regulations"
-  ],
+  "retained_categories": [],
   "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
-        {
-          "id": "ebc0098f9bdd8bce",
-          "title": "ほっとニュース北海道「洞爺湖有珠火山マイスター 世界でも注目“非常に興味深い”」NHK ONE配信中10/1まで",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKOWpPRHAyQlJYaGdsYnpLMVB2V3dUUkhHYmRvZGN4TTZvYXhFWU1yMTdFcUdqS2NLZGlQcWFTMzdUM2V5MU1pdHZyWXNyeVNXRkhYN3AtQUNGcVgyRGlpLUx1ZWtVVm8?oc=5",
-          "source": "nhk.or.jp",
-          "published_at": "2026-09-24T11:12:34Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-26T08:35:25Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "ba6a8ad2dfd2dca1",
           "title": "横川尚隆 世界最高峰の舞台で7位",
@@ -84,6 +62,26 @@
           "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQSU5JU212RGxKdVdhM1ZCUTZjZ0lvaEcwRFhkTUZWTmZlZWhfSFZ5UTNzaFVEdkd3UVFkQ0hfdmZSY3RjdzdqWDdzN241NTQ3ZVB1Q0FoUmFSanRBTVdZTDV6dkxreXpGY2EwdDQ0ZnRmd1BiellhLTVsU1NjNl9kcGVqLUZQWU5jbFFBMlVUYWtsSHhNbE1DLXk4WGMyZWxyeXlZNS0xZXhHUDV6ZEpWdjJoU1ZsdUExYXZhcGdVRjdwZHhwLVhMdGt4LVkyMlhnY3JYQ2U3cHNQelpxWXBNT21YTXlxbkU0NDJiLXVSU2dWNmZkVHRNX0h6N2FBeXdQT05KbUY3NkRBRnBJNlVmS2tvNlpFckhJZ2pZMFg2T3JOMTFJVkY1X2w1WVZOQmVOSDFzSTJCY1VKbEl1S3BfRko3RThIQ2ZKME10OWVLSUpxdkR6VjI2bjlicUQyb1F6RnZZaDNKLU1aVUFrUlpHampvUzhwX25ETTUxQUlwMlJwX19JSEh4RlJoT0JETlE?oc=5",
           "source": "アラブニュース",
           "published_at": "2026-09-25T20:20:29Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9078dd746e4d23ec",
+          "title": "愛子さま 臨床検査技師が集まる国際学会の開会式に出席 被災者に哀悼の意とお見舞いの気持ちも（日テレNEWS NNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QWE56Z1lRME84Yy1BdnNhOEtybDcxZW9TbFVlSUNPWHZ5NlFMSjNJX1ozZlFDbmZiOTJoN19DeGNsRlZwQTBReWFkM3ZBemRlNl9FVjZ1NTVKSno5UW5jajF4WjFTTUNBSVk0R2hlaWJxcUxzRXFPM29iajFwRkU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-25T10:10:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "95f82eb045ff3fc4",
+          "title": "郡仙台市長の海外出張費が高額と市議会議員が指摘 出張費を公開へ（khb東日本放送）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42RWgwb0pYV1JSeVczanZweDFuMFNWTVFvOGllZTJoT0wwS2xUUnRWMGFxWFBwM1Z1QWxLWGpDZTZVVk42bk5NRzk1Sm9zMnd4ZWJyU2hQVTFWb0c0V2MzVG1tUW5KQ0Y5MTducWtGWEh1UkNiZmtsZE94cG1zV1k?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-25T09:35:42Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -144,21 +142,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0da329b85459f2bb",
-          "title": "フジワラテクノアート「小型通気式固体培養装置」が第5回FOOMAアワード2026 経済産業省製造産業局長賞/最優秀賞を受賞",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5bXAtZlk4VENKZWhRSWpKMUVqV3RGendYVzFzX0V0YWRYeWd4MVppZlJmWkhuZEVRcEhCOW9abGVPVGNrMW01VzdKRUw4Y0RIQUE?oc=5",
-          "source": "山陽新聞",
+          "id": "fa052b04b35fceee",
+          "title": "紙幣計数機・選別機の世界市場（2026年～2032年）、市場規模（スタンド型紙幣計数機、デスクトップ型紙幣計数機）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tbEJMR1d4T2JEdWItaDhCU3czRFlxSER4WHFZQTZLVzA5NVN1TE14UmZwSkd5TGdZZTRrNXZzSFNGSEI5NkFjOE5XU3J5YkU?oc=5",
+          "source": "Newscast.jp",
           "published_at": "2026-09-18T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "3a050dc6142ee542",
-          "title": "紙幣計数機・選別機の世界市場（2026年～2032年）、市場規模（スタンド型紙幣計数機、デスクトップ型紙幣計数機）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3LVZYeE5EMzFVS3pNamdVVS1ab1JGYk9IeUF0VmZHenNaa3BzT0JKeUFfb1B2amlXYXlUZkxVRmc5RXpHUFJZb2lmMFRJQQ?oc=5",
-          "source": "アットプレス",
-          "published_at": "2026-09-18T00:30:00Z",
+          "id": "0da329b85459f2bb",
+          "title": "フジワラテクノアート「小型通気式固体培養装置」が第5回FOOMAアワード2026 経済産業省製造産業局長賞/最優秀賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5bXAtZlk4VENKZWhRSWpKMUVqV3RGendYVzFzX0V0YWRYeWd4MVppZlJmWkhuZEVRcEhCOW9abGVPVGNrMW01VzdKRUw4Y0RIQUE?oc=5",
+          "source": "山陽新聞",
+          "published_at": "2026-09-18T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -329,6 +327,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "e0126121f00c38f4",
+          "title": "政府は米の輸出入事業に関する政令を発布した。",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRUgyM2sxazYzYWhrTldYVU80YVBmOWlkVnZYUnpJWjZNTk8yMEJuSlJ4b2tndEpwcXUzcWt6Ml9uOW1aeHVIX0E2dGZLa0h5UVd6bl9NX0dOdnNLbHNGX2RzNnBuVUNrMHVJa2lJUTY1SWU4WEI1QUllTFVOaGZGOVg0VEtUczFUOW0xbUlCS3A?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-25T08:31:52Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "899cd0b710aea772",
           "title": "EUの環境配慮型包装基準を満たすため、リサイクルにおけるボトルネックを解消する。",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2trYmRJcTZackZQRDh1YWpmT2VIQWRWZzNENEYtWjBiNkJqZ3d1RnFsTzFDc0U3Mi1HcHBkY0Q4MW9NaFYxeVFRUFZmLVdKODF3Y2xPWm5nM2Zqd2tLSHBxbHllOG9VRU1rTHNQTGx1Tk4wS19SVFRkTkdRNHk0aXpocEdqNWZtSnlHa2lVYmRPQQ?oc=5",
@@ -377,21 +385,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e0126121f00c38f4",
-          "title": "政府は米の輸出入事業に関する政令を発布した。",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRUgyM2sxazYzYWhrTldYVU80YVBmOWlkVnZYUnpJWjZNTk8yMEJuSlJ4b2tndEpwcXUzcWt6Ml9uOW1aeHVIX0E2dGZLa0h5UVd6bl9NX0dOdnNLbHNGX2RzNnBuVUNrMHVJa2lJUTY1SWU4WEI1QUllTFVOaGZGOVg0VEtUczFUOW0xbUlCS3A?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-25T08:31:52Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-26T11:33:52Z",
-  "last_success_at": "2026-09-26T11:33:52Z",
+  "last_attempt_at": "2026-09-26T16:30:36Z",
+  "last_success_at": "2026-09-26T16:30:36Z",
   "consecutive_failure_count": 0
 }
