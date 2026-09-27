@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-09-26T21:17:16Z",
+  "generated_at": "2026-09-27T05:26:32Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -17,11 +17,41 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "274a24b5287e0140",
+          "title": "辺野古沖事故で同志社国際高校「交通事故」基準を持ち込み～石戸諭氏の遺族インタビューで判明 #エキスパートトピ",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS3FmMXdaSEZnNF82MDlBTVJ3U3EtS243N1N1R292RlFGU0xmQmhrNV9USmVWZjAtdHZIUTM1c3JvLS1hWWNxUWJLQkpIbXdRN05FblNVM0kwY3l4WTA0Q1dORTkyc19EOHhPWXZXVjg5X21pR0l1RWxqX25rVzlscktrUFdyeEpy?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-27T01:38:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4a4002ab60090d1f",
+          "title": "岩屋前外務大臣ら「日本国際貿易促進協会」代表団が中国訪問へ羽田空港を出発（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Xc09ncXBhakNmcDBfTzlWM3gya2xBSG5pN1hFaUxmRHRVa2l2SHpOQjZfbV9OSjdSS19pVmZQNm5tcGZzTWdEXy12eFhNYXZKQnBXWUx1bFZsU01PTVV2MDRQdFVtZVQzUURCUVZOSzFRaUxWczNOMmx1MWNRT1E?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-27T01:29:39Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "ba6a8ad2dfd2dca1",
           "title": "横川尚隆 世界最高峰の舞台で7位",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWNjVXUHF5SW0tSEQ0XzRsSTEtd1pjaFJGV0djaU53eEllRkM2T0pMbDhUZXJ3LWF2UTBZU1lNNGJtVFNGMmNFWklzeW5nb0pL?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-26T07:34:04Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8e5522aee730a886",
+          "title": "【アジア大会】スナッチ154キロ成功で世界記録! ウエイトリフティング70キロ級・宮本昌典（那覇市出身）（RBC琉球放送）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16UWZJOTdpdFE0X0luRFdmYlAzeHBwVzRxU3U3QkRoWW41dERjU1JmdmhMLWRRQk16RXFWYzdpQ0szdHAxeFBxS0xzRlhDZmZ3UV81bnlOaTcwcWgwM0g5R2N6VzNGSlZaSEpWYVRzamw2WmFYRGNhYktRdndPU1U?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-26T07:04:13Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -37,51 +67,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "70c15f1d4691ed22",
+          "title": "スター・ウォーズ、ジブリ、エイリアン…世界の映画博物館6選",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QYWo5c1k2aTZVNlJyZ01XTjc3ZGJxZVQwakxnbGM5TE9WTC1HOVNFZ0lOWC0zVm5zYlMxZUY4enRsYVpZaS1FVlA4QzV0MU1UQi16SG1qV3RTN3U1aTdMVTh6QQ?oc=5",
+          "source": "ナショナルジオグラフィック日本版",
+          "published_at": "2026-09-26T03:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "c3f632d1d1690052",
           "title": "日本韓国語教育学会国際学術大会を本学で開催します―北海道では11年ぶりの開催―",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JVkhsS3FWc0t1aGlaVVA1ekhWLVl6Vm9oc1RJeU1fMDRWR0pQeUZTdU5JamtabHZfSEVUMGw4cm10TnlNMTVvcWszSndhenltREU5dzhDMXJacmozdU0w?oc=5",
           "source": "hokkai.ac.jp",
           "published_at": "2026-09-26T01:03:47Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a47e49d04585e39c",
-          "title": "トランプ大統領の脅しは国際刑事裁判所の将来を変えるか？",
-          "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQSU5JU212RGxKdVdhM1ZCUTZjZ0lvaEcwRFhkTUZWTmZlZWhfSFZ5UTNzaFVEdkd3UVFkQ0hfdmZSY3RjdzdqWDdzN241NTQ3ZVB1Q0FoUmFSanRBTVdZTDV6dkxreXpGY2EwdDQ0ZnRmd1BiellhLTVsU1NjNl9kcGVqLUZQWU5jbFFBMlVUYWtsSHhNbE1DLXk4WGMyZWxyeXlZNS0xZXhHUDV6ZEpWdjJoU1ZsdUExYXZhcGdVRjdwZHhwLVhMdGt4LVkyMlhnY3JYQ2U3cHNQelpxWXBNT21YTXlxbkU0NDJiLXVSU2dWNmZkVHRNX0h6N2FBeXdQT05KbUY3NkRBRnBJNlVmS2tvNlpFckhJZ2pZMFg2T3JOMTFJVkY1X2w1WVZOQmVOSDFzSTJCY1VKbEl1S3BfRko3RThIQ2ZKME10OWVLSUpxdkR6VjI2bjlicUQyb1F6RnZZaDNKLU1aVUFrUlpHampvUzhwX25ETTUxQUlwMlJwX19JSEh4RlJoT0JETlE?oc=5",
-          "source": "arabnews.jp",
-          "published_at": "2026-09-25T20:20:29Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9078dd746e4d23ec",
-          "title": "愛子さま 臨床検査技師が集まる国際学会の開会式に出席 被災者に哀悼の意とお見舞いの気持ちも（日テレNEWS NNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QWE56Z1lRME84Yy1BdnNhOEtybDcxZW9TbFVlSUNPWHZ5NlFMSjNJX1ozZlFDbmZiOTJoN19DeGNsRlZwQTBReWFkM3ZBemRlNl9FVjZ1NTVKSno5UW5jajF4WjFTTUNBSVk0R2hlaWJxcUxzRXFPM29iajFwRkU?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-25T10:10:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e9bc7fd7429c2db0",
-          "title": "世界を旅する中で生まれた出会いを音楽に。Bearniez feat. Haru「HANA」本日配信スタート！ | ニュース | エイベックス・ポータル",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9VdHQxNE14dnBsNGFrZHB0Wk9YV3Nfa2NZdzJhalVHSTU1UnhjZFFfRWM2VDltNFJfeEMxWXUtUkd0cVV0MVE?oc=5",
-          "source": "エイベックス・ポータル",
-          "published_at": "2026-09-25T08:23:15Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "31a758dfbeeb96a8",
-          "title": "愛子さま 世界医学検査学会に出席「安心して暮らすことのできる日常が一日も早く戻ることを切に願います」",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rV2RWOXUwTFRZTHNEMTdFcjJoLThjazE5NDFoR3hCM0lLdmJWSFJwMVE4RVptUFZ4QUl0MGFIUnJ5eTNqQWs5VGxoYkE5bVltQUx4cmltNDRxS3pzYWwyYzJnMnpuSFk1cDB2SUdpTnIyZlpuXzhwYTloZzM4bFU?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-25T08:05:08Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -122,6 +122,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "2d5bd5e091a7f020",
+          "title": "食品用自動選別機の世界市場（2026年～2032年）、市場規模（光学選別機、重力／重量選別機、その他）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1lUTk2eXY5aEdZWVM3LUFtc2JLeDZvTzZTdnRXVjJBUHR2VWwydHA0RjdsWVlDQWdZdHlZcDYwZTdGQUMtcUJGMEI3cXJOMm8?oc=5",
+          "source": "アットプレス",
+          "published_at": "2026-09-27T04:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b095593a601ea09c",
           "title": "【FOOMA JAPAN 2026出展】未利用資源を微生物のチカラでアップサイクル",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0NlQwNFFqU1dIc2J2dnc2Mk9QMllaNk1TUzNqeWJJRHE1TDFEcjI1SUphTTFZQlV0V1p3aWdRcDBRczNrYm1TeWRmWWs0OTBfemc?oc=5",
@@ -146,16 +156,6 @@
           "title": "紙幣計数機・選別機の世界市場（2026年～2032年）、市場規模（スタンド型紙幣計数機、デスクトップ型紙幣計数機）・分析レポートを発表",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tbEJMR1d4T2JEdWItaDhCU3czRFlxSER4WHFZQTZLVzA5NVN1TE14UmZwSkd5TGdZZTRrNXZzSFNGSEI5NkFjOE5XU3J5YkU?oc=5",
           "source": "Newscast.jp",
-          "published_at": "2026-09-18T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0da329b85459f2bb",
-          "title": "フジワラテクノアート「小型通気式固体培養装置」が第5回FOOMAアワード2026 経済産業省製造産業局長賞/最優秀賞を受賞",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5bXAtZlk4VENKZWhRSWpKMUVqV3RGendYVzFzX0V0YWRYeWd4MVppZlJmWkhuZEVRcEhCOW9abGVPVGNrMW01VzdKRUw4Y0RIQUE?oc=5",
-          "source": "山陽新聞",
           "published_at": "2026-09-18T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -242,16 +242,6 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "44ad950d3fb2e0a2",
-          "title": "関西中四国小売流通特集：さとう・佐藤祥一社長 売上げ・利益が過去最高",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Dc0FZMmh0WFVlWXRnakhYbUVnUmNsNjBhd2hQcm45Mi04LUVrX0JxWjNNemYxMHBZVUZSUzA1Q1JBeGhnbDFQbGlCMmxuWC1PYmphMzQySDdPckhEMkFBUDRZZFFKUTJq?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-09-25T15:16:42Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "c390998419acd8c9",
           "title": "ヤマダストアー／兵庫県宝塚市に「（仮称）宝塚市伊孑志計画（店舗面積3099m2）」27年3月1日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMWVhLQkVpbjZWa2VqNGNzRUVZS0lDVVBGNWpzeW1lVjkwbWVjYkg0eGRnVkRnWE84eFcyb1FveVM2VWFqN09jMnhpOFl6N0Q4cW9aS1VR?oc=5",
@@ -310,12 +300,32 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "112715125e88d3e8",
+          "title": "月会費3,300円の「アッティーボジム」、名古屋市内2店舗目を9/25（金）にオープン！「カネスエ木場店」2階に新店舗",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pNzNYclNmQjlHMkRIWDVvWTRla0xVTFZOYXVlb2RPSnlGcjdRTkk3M2ljcjA0enB5Z0F2eUxBSFlDNGVqS0o1UG9aU04tMG9ick5tSElPYTFGRWwwZVRoMzE0M1QxYTZ3M1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-01T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "9aaf8859156934e5",
+          "title": "米の輸出入に関する規制",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tNlpCcGZ0eWZULTdHQVFxTGtLb3Z4Qk9qRUEta1BzR1RYQXZrMW1iV3ZBenhISGczWC03dkRSUmtHNzJhNDFPUEtBYXQwelBobUpQVnFpZW9NZmNadjJTQ0xEQ3hEVUtJMGlYVkJpQXc5WGFoSlE?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-25T17:25:25Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "0c38f8461be22446",
           "title": "政府は米の輸出入に関する新たな規制を発表した。",
@@ -375,21 +385,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a42eaf13c40076e7",
-          "title": "米国流通市場を読む（3）マーケティングに影響する超加工食品基準 | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HdmFWWjZnclp3VjBZNEtpd3NaOGwwM0ZiS04wU3dlNzBHWUJxMGhUTTQwclpLdVZaN1dzSndnNENQX3hvdVZjUmpqMFdXdzhUM1k5bkdWTWN5MDdfZXZ3MmVIOGcwbFNiQXgxT2t0YUNJT0FF?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-06-18T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-26T21:17:16Z",
-  "last_success_at": "2026-09-26T21:17:16Z",
+  "last_attempt_at": "2026-09-27T05:26:32Z",
+  "last_success_at": "2026-09-27T05:26:32Z",
   "consecutive_failure_count": 0
 }
