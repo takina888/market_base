@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-09-27T12:12:26Z",
+  "generated_at": "2026-09-27T17:03:52Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -16,6 +16,16 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-09-27T14:46:14Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "386dda02df9e2b9f",
           "title": "岩屋前外相らが訪中 関係改善探る",
@@ -47,6 +57,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "d6c045c5feb6663b",
+          "title": "「日本国際貿易促進協会」訪中団、羽田空港を出発 中国との貿易促進はかる（日テレNEWS NNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iWUEzc3h4R0RrNExZaFhSTzh6UkZ0c29USnBLakhpTFJVc3NDVHp6Z0luRlBqQl9wSGYwSl94YTdKYmlyTzVSa1owNEhIZ3k1Y1JQMGdDbkgtalNpaktpSHgwNm83WC01dldiQ1JTSUdOVjBwSHprWF9xMGVSSE0?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-27T01:33:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "4a4002ab60090d1f",
           "title": "岩屋前外務大臣ら「日本国際貿易促進協会」代表団が中国訪問へ羽田空港を出発（TBS NEWS DIG Powered by JNN）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Xc09ncXBhakNmcDBfTzlWM3gya2xBSG5pN1hFaUxmRHRVa2l2SHpOQjZfbV9OSjdSS19pVmZQNm5tcGZzTWdEXy12eFhNYXZKQnBXWUx1bFZsU01PTVV2MDRQdFVtZVQzUURCUVZOSzFRaUxWczNOMmx1MWNRT1E?oc=5",
@@ -62,26 +82,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tbXdJaEdYMFZRdnFJeHdQSmpXdnllUVczTGNXU3dpbGFDNUhqUWVFOG5faVh1cm1nZTVPU2J6dHpsUkNydEFvUmRtY2NaNFVBbldRU1I4NjdXSVpLWU5oMFhHdS1qOXVjcGxxUjhtN3BqeWhwbm5yV1ZJdExyUzA?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-26T22:08:44Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ba6a8ad2dfd2dca1",
-          "title": "横川尚隆 世界最高峰の舞台で7位",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWNjVXUHF5SW0tSEQ0XzRsSTEtd1pjaFJGV0djaU53eEllRkM2T0pMbDhUZXJ3LWF2UTBZU1lNNGJtVFNGMmNFWklzeW5nb0pL?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-26T07:34:04Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8e5522aee730a886",
-          "title": "【アジア大会】スナッチ154キロ成功で世界記録! ウエイトリフティング70キロ級・宮本昌典（那覇市出身）（RBC琉球放送）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16UWZJOTdpdFE0X0luRFdmYlAzeHBwVzRxU3U3QkRoWW41dERjU1JmdmhMLWRRQk16RXFWYzdpQ0szdHAxeFBxS0xzRlhDZmZ3UV81bnlOaTcwcWgwM0g5R2N6VzNGSlZaSEpWYVRzamw2WmFYRGNhYktRdndPU1U?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-26T07:04:13Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -327,16 +327,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f9ed4cf983170143",
-          "title": "米の輸出条件",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBLUNsRDBsb0JfNG9XZFNQYm5yQW5fZGlpaHFCbUFvdVZCTE1Gb25iWHowQVNYMFVQWS01NnVmaTVPYWNfQnZ5bXlJUXEzYmJOTUoxM0dsUHV2LU9URlp5VVpkYVUxb0RGeC1zTw?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-25T10:14:29Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "0c38f8461be22446",
           "title": "政府は米の輸出入に関する新たな規制を発表した。",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQlhDRnVkY1lHd2djcUJOaTBMbGo5VnBfZUZuYUtoVXc1WHFHWTNlMUlFdGk0UFh0anY3Y3hJY214TTlqeFJKbWVhUzFzTjhOcE9GaTFJaFdvd2JjSkVyZU5RdXd0NVpWdlJzRVRyVGlDSUtlNEluLW1fTWR3OWZKWmgtOVJPWGRFY3N2dzVmZWlPX2dG?oc=5",
@@ -352,16 +342,6 @@
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRUgyM2sxazYzYWhrTldYVU80YVBmOWlkVnZYUnpJWjZNTk8yMEJuSlJ4b2tndEpwcXUzcWt6Ml9uOW1aeHVIX0E2dGZLa0h5UVd6bl9NX0dOdnNLbHNGX2RzNnBuVUNrMHVJa2lJUTY1SWU4WEI1QUllTFVOaGZGOVg0VEtUczFUOW0xbUlCS3A?oc=5",
           "source": "Vietnam.vn",
           "published_at": "2026-09-25T08:31:52Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7eb6dd3f502575b5",
-          "title": "米の輸出入に関する新たな条件は、2026年10月1日から適用されます。",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVEhpdmg3QkZ3WGR0VGZrVG5jYmx0aHNBN09ZbEpaQnhkeVNWT0RvMkZYeVhnSWQ3NWhIMndxOWdkYXBFbldFOGZoZ0R4UHhWV2EyS0lnNk1xLXY4X1JmSXdiT1U4TklQUkFCRmxXTUlhUG1LS3dISk1OZnZTYUZZSWZ6NF9yX0NQRjVXSXdQcV8xd0VBUVFzMg?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-25T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -385,11 +365,31 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7338dc41e445e013",
+          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
+          "source": "独立行政法人 農畜産業振興機構",
+          "published_at": "2026-06-25T10:48:49Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a42eaf13c40076e7",
+          "title": "米国流通市場を読む（3）マーケティングに影響する超加工食品基準 | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HdmFWWjZnclp3VjBZNEtpd3NaOGwwM0ZiS04wU3dlNzBHWUJxMGhUTTQwclpLdVZaN1dzSndnNENQX3hvdVZjUmpqMFdXdzhUM1k5bkdWTWN5MDdfZXZ3MmVIOGcwbFNiQXgxT2t0YUNJT0FF?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-06-18T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-27T12:12:26Z",
-  "last_success_at": "2026-09-27T12:12:26Z",
+  "last_attempt_at": "2026-09-27T17:03:52Z",
+  "last_success_at": "2026-09-27T17:03:52Z",
   "consecutive_failure_count": 0
 }
