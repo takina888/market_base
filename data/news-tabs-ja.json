@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-09-27T17:03:52Z",
+  "generated_at": "2026-09-27T21:26:51Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -17,11 +17,41 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "758c471b76736bbe",
+          "title": "1572. 病原性を測る世界共通の「ものさし」の開発史と国際的な貢献",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIRHowdTVXNnA3d0JMTk15bnZIQ2JqWW9BU1BBZk5EZlJBY0dwSmNTZTNBeFhqTU5nRDh6MUdOVUwxejZYTlFhUzR1U2o0eTBRSWJzQlhjRFRpVTQ2MFFpY3Fqby0?oc=5",
+          "source": "jircas.go.jp",
+          "published_at": "2026-09-27T21:02:09Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "0e3abe33082bbb54",
           "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-27T14:46:14Z",
+          "published_at": "2026-09-27T17:48:37Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3acd5ff5e403dab0",
+          "title": "サバ国際博覧会で東ASEAN成長地域とハラール産業をテーマに会議開催",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBKZm50UWhJUlN1VllmRHdsYlpOcmRlRDdkMEZ3Wjc5RmVKRmRYeWJDSzN0ODZIbF9GVEZIcy1CR251cFVVaXQzanhfTXRSOWlGWE1UN0VnVkpJVk9aM2VadDBYZnRFejk5RWV6Yml3?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-09-27T15:17:12Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "579c3fe5033476e3",
+          "title": "中国要人と面会調整 「日本国際貿易促進協会」の訪中団が北京に到着（日テレNEWS NNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00YWxSTF9SSTJlSWYtZUJJeDhWeDR4MlBSN1pVU0JYXzVZa05LZ0tTUldLWVdpRHhUeElJejVqSEFKQ18zMFZzZk11YzViTnJwRWN0b3hWRFhoNGRXejBnVFRzc2RUTVVZcUdqeE4wb2JTUHd4UmgxdGJnMHNIcVk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-09-27T08:02:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -52,36 +82,6 @@
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS3FmMXdaSEZnNF82MDlBTVJ3U3EtS243N1N1R292RlFGU0xmQmhrNV9USmVWZjAtdHZIUTM1c3JvLS1hWWNxUWJLQkpIbXdRN05FblNVM0kwY3l4WTA0Q1dORTkyc19EOHhPWXZXVjg5X21pR0l1RWxqX25rVzlscktrUFdyeEpy?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-09-27T01:38:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d6c045c5feb6663b",
-          "title": "「日本国際貿易促進協会」訪中団、羽田空港を出発 中国との貿易促進はかる（日テレNEWS NNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iWUEzc3h4R0RrNExZaFhSTzh6UkZ0c29USnBLakhpTFJVc3NDVHp6Z0luRlBqQl9wSGYwSl94YTdKYmlyTzVSa1owNEhIZ3k1Y1JQMGdDbkgtalNpaktpSHgwNm83WC01dldiQ1JTSUdOVjBwSHprWF9xMGVSSE0?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-27T01:33:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4a4002ab60090d1f",
-          "title": "岩屋前外務大臣ら「日本国際貿易促進協会」代表団が中国訪問へ羽田空港を出発（TBS NEWS DIG Powered by JNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Xc09ncXBhakNmcDBfTzlWM3gya2xBSG5pN1hFaUxmRHRVa2l2SHpOQjZfbV9OSjdSS19pVmZQNm5tcGZzTWdEXy12eFhNYXZKQnBXWUx1bFZsU01PTVV2MDRQdFVtZVQzUURCUVZOSzFRaUxWczNOMmx1MWNRT1E?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-27T01:29:39Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5e7a93b68d443a0a",
-          "title": "国際空港拡張、1500億円供与 日モンゴル合意へ（時事通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tbXdJaEdYMFZRdnFJeHdQSmpXdnllUVczTGNXU3dpbGFDNUhqUWVFOG5faVh1cm1nZTVPU2J6dHpsUkNydEFvUmRtY2NaNFVBbldRU1I4NjdXSVpLWU5oMFhHdS1qOXVjcGxxUjhtN3BqeWhwbm5yV1ZJdExyUzA?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-26T22:08:44Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -122,6 +122,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "6d9fc246fae73998",
+          "title": "【ダイキアクシス】世界最大級の食品製造総合展「FOOMA JAPAN 2026」に出展",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4amtRRzhGWmRxdjdUM2FfUFZoRTBPR1FwSjBqbHVXQ0o0WVhqT0gwNDZlOVkwMXNfbm5sRThpVG82dHdEYVVoQzU2LVRfQWk5OEE?oc=5",
+          "source": "山陽新聞",
+          "published_at": "2026-09-27T07:39:34Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "2d5bd5e091a7f020",
           "title": "食品用自動選別機の世界市場（2026年～2032年）、市場規模（光学選別機、重力／重量選別機、その他）・分析レポートを発表",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1lUTk2eXY5aEdZWVM3LUFtc2JLeDZvTzZTdnRXVjJBUHR2VWwydHA0RjdsWVlDQWdZdHlZcDYwZTdGQUMtcUJGMEI3cXJOMm8?oc=5",
@@ -147,16 +157,6 @@
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE94US16bzh3MmF2VGJFNGRXcS1ZZTVScDV3cVJmSnlTdDVUc2tEd2pxd2ozYXJrdnF5V29YVmMyM2V3OS1RTlVN?oc=5",
           "source": "Newscast.jp",
           "published_at": "2026-09-18T11:14:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fa052b04b35fceee",
-          "title": "紙幣計数機・選別機の世界市場（2026年～2032年）、市場規模（スタンド型紙幣計数機、デスクトップ型紙幣計数機）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tbEJMR1d4T2JEdWItaDhCU3czRFlxSER4WHFZQTZLVzA5NVN1TE14UmZwSkd5TGdZZTRrNXZzSFNGSEI5NkFjOE5XU3J5YkU?oc=5",
-          "source": "Newscast.jp",
-          "published_at": "2026-09-18T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -327,6 +327,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "f9ed4cf983170143",
+          "title": "米の輸出条件",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBLUNsRDBsb0JfNG9XZFNQYm5yQW5fZGlpaHFCbUFvdVZCTE1Gb25iWHowQVNYMFVQWS01NnVmaTVPYWNfQnZ5bXlJUXEzYmJOTUoxM0dsUHV2LU9URlp5VVpkYVUxb0RGeC1zTw?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-25T10:14:29Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "0c38f8461be22446",
           "title": "政府は米の輸出入に関する新たな規制を発表した。",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQlhDRnVkY1lHd2djcUJOaTBMbGo5VnBfZUZuYUtoVXc1WHFHWTNlMUlFdGk0UFh0anY3Y3hJY214TTlqeFJKbWVhUzFzTjhOcE9GaTFJaFdvd2JjSkVyZU5RdXd0NVpWdlJzRVRyVGlDSUtlNEluLW1fTWR3OWZKWmgtOVJPWGRFY3N2dzVmZWlPX2dG?oc=5",
@@ -375,21 +385,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a42eaf13c40076e7",
-          "title": "米国流通市場を読む（3）マーケティングに影響する超加工食品基準 | 地域・分析レポート - 海外ビジネス情報",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HdmFWWjZnclp3VjBZNEtpd3NaOGwwM0ZiS04wU3dlNzBHWUJxMGhUTTQwclpLdVZaN1dzSndnNENQX3hvdVZjUmpqMFdXdzhUM1k5bkdWTWN5MDdfZXZ3MmVIOGcwbFNiQXgxT2t0YUNJT0FF?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-06-18T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-27T17:03:52Z",
-  "last_success_at": "2026-09-27T17:03:52Z",
+  "last_attempt_at": "2026-09-27T21:26:51Z",
+  "last_success_at": "2026-09-27T21:26:51Z",
   "consecutive_failure_count": 0
 }
