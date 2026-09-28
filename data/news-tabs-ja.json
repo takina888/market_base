@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-09-27T21:26:51Z",
+  "generated_at": "2026-09-28T05:34:40Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -17,71 +17,71 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "758c471b76736bbe",
-          "title": "1572. 病原性を測る世界共通の「ものさし」の開発史と国際的な貢献",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIRHowdTVXNnA3d0JMTk15bnZIQ2JqWW9BU1BBZk5EZlJBY0dwSmNTZTNBeFhqTU5nRDh6MUdOVUwxejZYTlFhUzR1U2o0eTBRSWJzQlhjRFRpVTQ2MFFpY3Fqby0?oc=5",
-          "source": "jircas.go.jp",
-          "published_at": "2026-09-27T21:02:09Z",
+          "id": "204dfc9d07e49138",
+          "title": "【10月7日(水)】埼玉発世界行き奨学金留学促進出前講座及び奨学生による体験談",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9aWHM1ME92QUVRbEludllVQ3U1UGltenpYdU1mY2Q3SlRxUXluR3c4NlNMd0hyU0xsc1haRGNaRXQ3SEwtYlZVbk5tajU0WDEzd3VMMGMxSk5FRFlGb1ZBUEh0emVfZVU4T0tCYlNEMi13T0cyZnRj?oc=5",
+          "source": "saitama-u.ac.jp",
+          "published_at": "2026-09-28T05:02:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-09-27T17:48:37Z",
+          "id": "cf610c08d25647f2",
+          "title": "電通総研、AIエージェントを実装した安全保障貿易管理ソリューション「GREENLIGHT（グリーンライト）」シリーズ第1弾を開発・提供へ | ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xU3FhbEFLWlF0LWVKZjVfRjdLLU1TMHVPVE9GbzMwYmtEOXMwSDlYZktiWGg3aUt3czU1QlZTWk81bFFraE5oTWVkZEVVZksyb0Fpbl9WUlV5a2VZZlNpR1ZLckk1Zw?oc=5",
+          "source": "dentsusoken.com",
+          "published_at": "2026-09-28T04:04:52Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "3acd5ff5e403dab0",
-          "title": "サバ国際博覧会で東ASEAN成長地域とハラール産業をテーマに会議開催",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBKZm50UWhJUlN1VllmRHdsYlpOcmRlRDdkMEZ3Wjc5RmVKRmRYeWJDSzN0ODZIbF9GVEZIcy1CR251cFVVaXQzanhfTXRSOWlGWE1UN0VnVkpJVk9aM2VadDBYZnRFejk5RWV6Yml3?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-09-27T15:17:12Z",
+          "id": "c5c1e86ec755719c",
+          "title": "「留学」と「就職」－留学と就職の両立について－（オンライン開催） | 国際交流・留学ニュース | 国際交流・留学",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAteERoYXA2NFBwUmYzV2lFS0hIQjBDcDBpeTlxRUVoZEpmSm12SXpRdHVOYTBjVl9KNXNrWkxvUHJYSVByUlVkQ2dWeFFaMjhwTlBZcTFXa2NjV0E2R1MzdXczOXBtckVyWXc4TGZGVnNIUkhRWUZvNw?oc=5",
+          "source": "niigata-u.ac.jp",
+          "published_at": "2026-09-28T02:48:18Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "579c3fe5033476e3",
-          "title": "中国要人と面会調整 「日本国際貿易促進協会」の訪中団が北京に到着（日テレNEWS NNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00YWxSTF9SSTJlSWYtZUJJeDhWeDR4MlBSN1pVU0JYXzVZa05LZ0tTUldLWVdpRHhUeElJejVqSEFKQ18zMFZzZk11YzViTnJwRWN0b3hWRFhoNGRXejBnVFRzc2RUTVVZcUdqeE4wb2JTUHd4UmgxdGJnMHNIcVk?oc=5",
+          "id": "f2a911e8710493b2",
+          "title": "【TSUTAYA限定特典あり】『天才詐欺師の異世界世直し 1巻』お買い上げの方に「イラストカード」をプレゼント！",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EWlRhaHI4allLMHJnVkh2Vy1pblFjdE1ZNjdRLTZFa3RHN0VTekhsZlluRzJVUjNCRjZZeURDMGpWdGZGSU5WOU9SbGtydTFCZUg0YXIwQ3NlWUxiYUE?oc=5",
+          "source": "TSUTAYA",
+          "published_at": "2026-09-28T01:56:14Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "abba5b9e987d8cef",
+          "title": "第48回技能五輪国際大会「付加製造」職種で銀賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fRGVvMTRwR3c1MWRfM2R4WGhuZHdJQTc2UzNvUk5vMlY3NFBmcTFFQW1oV01yR0tnY09PVml1cDE2OVJPVS1Qb3J1TDJ6RzZERThuZFVVSnBKdzZEMFFvdFpQSXVXdGkxQXJma3hvSHhCa0E?oc=5",
+          "source": "toyota-shokki.co.jp",
+          "published_at": "2026-09-28T01:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1f42fee384568d25",
+          "title": "WannaCry（ワナクライ）とは｜2017年に世界へ広がったランサムウェアの仕組み・被害・教訓を解説",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lZFdDdXptV09GVXhuTGNKazNFWG0zM3E3Qlh5LUVpTVNfMURhNWluam5jdG1SWjJaRlQxdE5Wa3IxNTR3Tm1wQzNsZUY5a1U5Y0E2b0Y5OEZ3YnpnbmFXTmYtR3k5b0loVlZlU2EybW5zd25kV0E?oc=5",
+          "source": "GMOインターネットグループ株式会社",
+          "published_at": "2026-09-28T00:56:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "77779962c9af1143",
+          "title": "倉木麻衣、9年ぶりギネス世界記録更新 『名探偵コナン』30周年でテーマ曲30作品達成「誇りです」【歴代楽曲一覧】（オリコン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ULWp0cWZzSlRLVkYwWGhrUjVKV2E0VDBNWldDV29oZEZGR28zRjJWUmlUR09ES2pZenBmb1U3NnQ0S0NDZ3NmM3NTQ242OVFTX0ZacWJIQmJrNTk5SVB3bkRtQUdJS2Nuc1JVX3BKY1IxRUsyQURsRU1nRVcwZHc?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-09-27T08:02:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "386dda02df9e2b9f",
-          "title": "岩屋前外相らが訪中 関係改善探る",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mZHNtekpMRm01QWkxRFhIekU5V3dJQ0lfem5jY0xQU2VEN25tQ2FxN3k1TVZaandtSmVFbzI3MmtRd2dySmQ1MlJlZkZoNS1o?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-27T04:38:03Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d5673416f05a989c",
-          "title": "岩屋前外相ら訪中、関係改善探る 国際貿易代表団（共同通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CYmxmdHRfd2FLQnJ4cnhQVnRFVnktcVpwZzBWeUVpQjZGTTBfVVFXVGNhcmJlTm5jRFV4M053Q2JDWDMzUWhHcHVVZEh0bUxWcE9kSVRrS3k2aEdSQjZIZEhWREVJMWNQWnQzWTIzLWZLYlJhdGZ4cmhNX18za0E?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-27T04:05:18Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "274a24b5287e0140",
-          "title": "辺野古沖事故で同志社国際高校「交通事故」基準を持ち込み～石戸諭氏の遺族インタビューで判明 #エキスパートトピ",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS3FmMXdaSEZnNF82MDlBTVJ3U3EtS243N1N1R292RlFGU0xmQmhrNV9USmVWZjAtdHZIUTM1c3JvLS1hWWNxUWJLQkpIbXdRN05FblNVM0kwY3l4WTA0Q1dORTkyc19EOHhPWXZXVjg5X21pR0l1RWxqX25rVzlscktrUFdyeEpy?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-09-27T01:38:00Z",
+          "published_at": "2026-09-28T00:37:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -317,26 +317,6 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "9aaf8859156934e5",
-          "title": "米の輸出入に関する規制",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tNlpCcGZ0eWZULTdHQVFxTGtLb3Z4Qk9qRUEta1BzR1RYQXZrMW1iV3ZBenhISGczWC03dkRSUmtHNzJhNDFPUEtBYXQwelBobUpQVnFpZW9NZmNadjJTQ0xEQ3hEVUtJMGlYVkJpQXc5WGFoSlE?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-25T17:25:25Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f9ed4cf983170143",
-          "title": "米の輸出条件",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBLUNsRDBsb0JfNG9XZFNQYm5yQW5fZGlpaHFCbUFvdVZCTE1Gb25iWHowQVNYMFVQWS01NnVmaTVPYWNfQnZ5bXlJUXEzYmJOTUoxM0dsUHV2LU9URlp5VVpkYVUxb0RGeC1zTw?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-25T10:14:29Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "0c38f8461be22446",
           "title": "政府は米の輸出入に関する新たな規制を発表した。",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQlhDRnVkY1lHd2djcUJOaTBMbGo5VnBfZUZuYUtoVXc1WHFHWTNlMUlFdGk0UFh0anY3Y3hJY214TTlqeFJKbWVhUzFzTjhOcE9GaTFJaFdvd2JjSkVyZU5RdXd0NVpWdlJzRVRyVGlDSUtlNEluLW1fTWR3OWZKWmgtOVJPWGRFY3N2dzVmZWlPX2dG?oc=5",
@@ -385,11 +365,31 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a42eaf13c40076e7",
+          "title": "米国流通市場を読む（3）マーケティングに影響する超加工食品基準 | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HdmFWWjZnclp3VjBZNEtpd3NaOGwwM0ZiS04wU3dlNzBHWUJxMGhUTTQwclpLdVZaN1dzSndnNENQX3hvdVZjUmpqMFdXdzhUM1k5bkdWTWN5MDdfZXZ3MmVIOGcwbFNiQXgxT2t0YUNJT0FF?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-06-18T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e8dc2b1dc051806f",
+          "title": "米国包装材規制の今（4）プラスチック規制の現状と先取権法 | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Gd1RTaGgtUEU4cldCZF9mWHptdGgtQmVEN0IzMGphU0JteFhVQ2VxbEdfdWJWR0Z6OFc2UXk5M0FBRmp1cXdwOUJBN0V6T05tLU04NmpSaU1kSHhqNFlJbXl0ZDJIZHZyMTN0T1F3Nkh1d3c5?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-06-04T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-09-27T21:26:51Z",
-  "last_success_at": "2026-09-27T21:26:51Z",
+  "last_attempt_at": "2026-09-28T05:34:40Z",
+  "last_success_at": "2026-09-28T05:34:40Z",
   "consecutive_failure_count": 0
 }
