@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-09-29T13:06:17Z",
+  "generated_at": "2026-09-29T22:23:39Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -17,71 +17,71 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "finance.yahoo.co.jp",
+          "published_at": "2026-09-29T17:57:55Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b33987d004084b35",
+          "title": "海外進出や外国人患者対応を後押し、AI模擬患者に英語版が登場",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DMklBSVhaeHhBOFBZcnJYcmhzM2lvLXV4clJVV0t3ZGxrV2xFOHNhU1FnMk5VR2tYUUFjNTQ1Q1d3MFFNUWp4MEZhZEVYNWFnY3JJaExtODVqdkJUVVRRWDhkTnN4Mml1d01wQUd2d1NQNUFVMElXSHZCbTR2STQ?oc=5",
+          "source": "medical.nikkeibp.co.jp",
+          "published_at": "2026-09-29T14:45:05Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "40984af6161fce8e",
+          "title": "モンゴルに対する円借款「チンギス・ハーン国際空港拡張計画」に関する書簡の交換｜外務省",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NZXVzcEZMT2hsLVRVc0loVXl0c29TY3U1aGI2bXd2WklSaTdHOXc0emN1NkhNR2xwUUlHMDhjTmF4UmEyQVhvMW50TnR4c1N1dG9sQXRPWjdTZWp6c0tibzZkLUdfLTQzclhRNHBnT0ZzQlE?oc=5",
+          "source": "mofa.go.jp",
+          "published_at": "2026-09-29T12:21:58Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3721c3e355029d62",
+          "title": "【お知らせ】インドネシア共和国における国際緊急援助活動の終結について",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZS09TQnVpWkxIdjFEUnR3VXY1aFAwcTktSTdpREtwcUxJbzFPNHNFSXZqU21ncmNpdVc3RTBQaU90bHZaQWRVNnZ1TE5GcWRtQWhrMVRnMTVUZw?oc=5",
+          "source": "mod.go.jp",
+          "published_at": "2026-09-29T12:09:26Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "364c951e826e598f",
+          "title": "日常の断片から、摩訶不思議な空想の世界へ。＿ 「眼に眼にマカフシギな宇宙」カミジョウミカ個展",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5JNHo4N1FJLXM0NnVHZk1OWkt1UkRNUmcxbl9nZVJ3NUtBbkl1X054TzNPd0pGZkxHdjZpcjBIdGxvenV5ZlhTMm9zQV8?oc=5",
+          "source": "株式会社ヘラルボニー",
+          "published_at": "2026-09-29T08:05:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "aded426de8143c17",
+          "title": "王毅氏が日本国際貿易促進協会の岩屋毅会長と会談",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDOGpGWWV5cHg5SGlLbWR2TU5fWXVlWXFZNTV6aG1NSTdBSTd1aWVOT2NTMVl2WU0tbmpWY0dOUnZVN1hMTkVFYmxhSlo3NTd4eXRhVjdJbldRQ0J3Wngyand4VmI5Mk9o?oc=5",
+          "source": "人民網日本語版",
+          "published_at": "2026-09-29T06:05:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "30f5df5b1196666e",
           "title": "中国国際オートバイ博覧会が重慶市で開催(中国) | ビジネス短信",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13ZGFHSlFLUmxHNXBaSlJTcWFjejFNLTRJZ2tKdEh4QXBpTHZZamt3YU9lT053RGZ4Zjk4czR4VTlpcThIblZOaExVbnktVnpxQ2laczBJOEY3NEMxYWtSY21NT3Z6QlI4ZXVWV09R?oc=5",
           "source": "jetro.go.jp",
           "published_at": "2026-09-29T05:19:37Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "860295dcfcd5266c",
-          "title": "円キャリー取引の巻き戻し、世界的な債券売りを加速も－ヤルデニ氏（Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOMWo1TENtRDU2cTAxd1VSckFuYlB3ZU5tOFlhWFN1d2ZoNmtlRlVGTF9tdzVYNGhWb29EWGhoSlFPRldxcnFqVlRFVkJyN0hEMjVJekEzZ1lQT3pLUGVvMjZPcXNKVjVvZzFfdVZTV2hzUDNtSjBtbVNDRDdxelE?oc=5",
-          "source": "news.yahoo.co.jp",
-          "published_at": "2026-09-29T04:37:26Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2cb4ef9b09f9fc9d",
-          "title": "資源回収ステーションを設置しました",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTWZzbDZDZnZnam5TN1M2R2hRNFNiMGFKQlRwSHNCMEJ3Q0psWTFHS2g5SjNmVzNsTVd2Szc3d29QNEVWbkZlOGZBdTMxWGJuWWVPTWh2N1hzeTlJRlVFTjd3NnlYa19TQ2lMaTFoQUpRWVZQLWNaM1JTVUxEeF95d2IyTQ?oc=5",
-          "source": "pref.saitama.lg.jp",
-          "published_at": "2026-09-29T02:59:20Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1a54c7879d8dd3cd",
-          "title": "メキシコ合衆国マリアナ・デル・カルメン・ディアス・イ・マクシル観光省プロモーション・国際担当総局長による笹路観光庁国際観光部長への表敬訪問 | 2026年 | トピックス | 観光庁",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vSUlLenhQMVRyd0hheXU4RXBNeFRNYjJsY1ZRREI4cWNUeEROYTBUYnVaS040M0dTbGdpd2xkSWtMOG1rSnJrV19HVTZ1eGtfQzN4UG4tZmdTam9FZmpBMw?oc=5",
-          "source": "mlit.go.jp",
-          "published_at": "2026-09-29T01:08:07Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b80dbbce885b5e80",
-          "title": "「アフリカ」は大きくなり「アメリカ・欧州」は縮小…世界地図が「メルカトル図法」ではなくなると”不均衡な世界観“はどう変わるのか？（AERA DIGITAL）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CZlpTMUJ3NkpHTnpUQ3MzQTl5UDdDYXVEUkIwZ2dHLVNYbURJWVV1emRaaTQ3VEZqaW9wRWtSSDRnaWRKU3FtaUNJR2xUV3doMXI0NXN5bl9TQ2RLYjRPQ2dMMk1YR0JPLUdoaFB2QnRSNGE0NnlXZjEwVnJLeGM?oc=5",
-          "source": "news.yahoo.co.jp",
-          "published_at": "2026-09-28T22:30:36Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a4229f68a1d3cdfb",
-          "title": "秋夕の海外旅行先1位は日本ではなかった…韓国人が多く訪れた国は中国（中央日報日本語版）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tbEFKMnNuOE9UelBTUkFuSkVEajlMd0dXNWEwZ19OZDhNWFFjemhKVmljU3RWQ2hqdTlKUHYteTRybUh6T2tlLVNvQkVlTTZvVGtEODJiTXdRRThjOE9EZEdGRnRYNkQzV2pfNFZmY1RHbDZIWUYzZklNcTNQT2M?oc=5",
-          "source": "news.yahoo.co.jp",
-          "published_at": "2026-09-28T22:22:48Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "607051f7ba4e9c13",
-          "title": "日本の「中東離れ」、世界の石油地図を塗り替えへ－需要抑制も鍵に",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yWlVJeWtNNUZ1Vk1pdjlGRkpKQzhHSDlVSG1YNkZmR1JOajBOUi1qOXhzbWN6aUJkaGpXUW4tYU1XM0FlM1FpX0RaTVIzUDlMNzhsQmV4M1hrZnBsdTBtdE9QdDRGV0lwcm0zM01ZcVYyOE5LR2w4?oc=5",
-          "source": "Bloomberg",
-          "published_at": "2026-09-28T17:54:37Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -217,21 +217,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c7ac976e6d5f3041",
-          "title": "InsightFlow(インサイトフロー) ／食品工場の設備支援で培った現場知見を、Tableau活用のBIダッシュボード構築支援として本格展開",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1wSVVvX21JdnlwakhlVHlCX0NIQjJQXzE4ZkxoWXYzUC1QbzlUdXdfNnN0Q3hvVjQ5MGMxUGxxVDJFclhwclE?oc=5",
-          "source": "pr-free.jp",
-          "published_at": "2026-09-19T03:09:07Z",
+          "id": "710d0e20ca07d5d5",
+          "title": "FOOD展2026、冷凍倉庫や省人化テーマに80講演",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9DOFpENFZzTVBIM0JqRXhZOFE4WlZoNjdGVEtxTnc2RGFZU1Vma1ZlbHRYS0VQalVRVlA5N3M0ZnVvempwOVd3TFZR?oc=5",
+          "source": "logi-today.com",
+          "published_at": "2026-09-28T23:59:06Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "873ce89070940e0d",
-          "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CdkNZVnFXQXR6Nkk5bjdtZFlneXVxaWZYTWRHVjNFQU5iOHdXbURpWFY4dmx6UmNDS0E2Vm1sTlJrczhBLTI0SDhYWGtHaXpoSWtoZl9n?oc=5",
-          "source": "フーズチャネル",
-          "published_at": "2026-09-17T12:05:52Z",
+          "id": "c7ac976e6d5f3041",
+          "title": "InsightFlow(インサイトフロー) ／食品工場の設備支援で培った現場知見を、Tableau活用のBIダッシュボード構築支援として本格展開",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1wSVVvX21JdnlwakhlVHlCX0NIQjJQXzE4ZkxoWXYzUC1QbzlUdXdfNnN0Q3hvVjQ5MGMxUGxxVDJFclhwclE?oc=5",
+          "source": "pr-free.jp",
+          "published_at": "2026-09-19T03:09:07Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -252,11 +252,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "44ad950d3fb2e0a2",
-          "title": "関西中四国小売流通特集：さとう・佐藤祥一社長 売上げ・利益が過去最高",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Dc0FZMmh0WFVlWXRnakhYbUVnUmNsNjBhd2hQcm45Mi04LUVrX0JxWjNNemYxMHBZVUZSUzA1Q1JBeGhnbDFQbGlCMmxuWC1PYmphMzQySDdPckhEMkFBUDRZZFFKUTJq?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-09-25T15:16:42Z",
+          "id": "d96c8d62bc8a4bd6",
+          "title": "カインズ／神奈川県綾瀬市に「（仮称）綾瀬店（店舗面積7560m2）」27年3月29日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fWTJxMW8zbTJrcjlOX0w1M1dBODNURzlqSUZ4OUVkaUNQOThrZ1VGS1ZBUnpsa2RSRkxDT1kzeGhCYzdxNVBHYkwyZEluY0gwZUtlRGdn?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-24T01:31:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -389,7 +389,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-29T13:06:17Z",
-  "last_success_at": "2026-09-29T13:06:17Z",
+  "last_attempt_at": "2026-09-29T22:23:39Z",
+  "last_success_at": "2026-09-29T22:23:39Z",
   "consecutive_failure_count": 0
 }
