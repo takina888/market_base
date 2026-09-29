@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-09-29T05:52:16Z",
+  "generated_at": "2026-09-29T13:06:17Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -16,6 +16,26 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "30f5df5b1196666e",
+          "title": "中国国際オートバイ博覧会が重慶市で開催(中国) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13ZGFHSlFLUmxHNXBaSlJTcWFjejFNLTRJZ2tKdEh4QXBpTHZZamt3YU9lT053RGZ4Zjk4czR4VTlpcThIblZOaExVbnktVnpxQ2laczBJOEY3NEMxYWtSY21NT3Z6QlI4ZXVWV09R?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-09-29T05:19:37Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "860295dcfcd5266c",
+          "title": "円キャリー取引の巻き戻し、世界的な債券売りを加速も－ヤルデニ氏（Bloomberg）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOMWo1TENtRDU2cTAxd1VSckFuYlB3ZU5tOFlhWFN1d2ZoNmtlRlVGTF9tdzVYNGhWb29EWGhoSlFPRldxcnFqVlRFVkJyN0hEMjVJekEzZ1lQT3pLUGVvMjZPcXNKVjVvZzFfdVZTV2hzUDNtSjBtbVNDRDdxelE?oc=5",
+          "source": "news.yahoo.co.jp",
+          "published_at": "2026-09-29T04:37:26Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "2cb4ef9b09f9fc9d",
           "title": "資源回収ステーションを設置しました",
@@ -37,11 +57,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c007b26af50a55a9",
-          "title": "シリア、中央銀行総裁が語る新銀行への海外資本1億ドル超を予期",
-          "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxOVl9fSXV0TVdFcHRyLTNGZHlkYTdMNDJMUExxTkpPVHAtZzRQNEFXRENaMmhYcjVCTmxnTk1aWXI2RkV3ZXdLOW5DYlpDdjByYjh2WURIZlRhT1o4emFaVUdXZEI2NFdXQ0VINzVZQzNGcW9wcl9UaGJKZ0U0dzlia3JqZlVLQlg2QXZ6RWdhcFFjY2FBYW1qQkk4UjkzcmZ6dEZmVlluQ01Bbi1lV0I3ZWFiMmQtTVhDamo5T3dKcE04VFFJT0pQNzFDaVdtN3lmWG1jWk1IaTZMZkJPS0dGT2Z4bUxqWkdFYUpTTjFmTXRmVVByOEs4RlV0VS1ETElNWnlQQUROQk9KQUJpUmQ0S2pCdzctMVVmSzZRcEgtNl9sam9wUDlVdjBWekNJTDdHWG9qRWFLSkhXRzVTVGs4REhuNVM1VUtaSDBCZXUtcjRGYXUxb2tuNVVFS0ZHNWE4akV3SWNISTdSMzdlcU5lQnc4MDA4cGlLWnY2X1BwRm1OM0pHTnhkZlBQem5oUTkzcXJZYm1kdU1ZS3lGdHlxS085OUJrUWtp?oc=5",
-          "source": "アラブニュース",
-          "published_at": "2026-09-29T00:10:32Z",
+          "id": "b80dbbce885b5e80",
+          "title": "「アフリカ」は大きくなり「アメリカ・欧州」は縮小…世界地図が「メルカトル図法」ではなくなると”不均衡な世界観“はどう変わるのか？（AERA DIGITAL）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CZlpTMUJ3NkpHTnpUQ3MzQTl5UDdDYXVEUkIwZ2dHLVNYbURJWVV1emRaaTQ3VEZqaW9wRWtSSDRnaWRKU3FtaUNJR2xUV3doMXI0NXN5bl9TQ2RLYjRPQ2dMMk1YR0JPLUdoaFB2QnRSNGE0NnlXZjEwVnJLeGM?oc=5",
+          "source": "news.yahoo.co.jp",
+          "published_at": "2026-09-28T22:30:36Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a4229f68a1d3cdfb",
+          "title": "秋夕の海外旅行先1位は日本ではなかった…韓国人が多く訪れた国は中国（中央日報日本語版）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tbEFKMnNuOE9UelBTUkFuSkVEajlMd0dXNWEwZ19OZDhNWFFjemhKVmljU3RWQ2hqdTlKUHYteTRybUh6T2tlLVNvQkVlTTZvVGtEODJiTXdRRThjOE9EZEdGRnRYNkQzV2pfNFZmY1RHbDZIWUYzZklNcTNQT2M?oc=5",
+          "source": "news.yahoo.co.jp",
+          "published_at": "2026-09-28T22:22:48Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -50,38 +80,8 @@
           "id": "607051f7ba4e9c13",
           "title": "日本の「中東離れ」、世界の石油地図を塗り替えへ－需要抑制も鍵に",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yWlVJeWtNNUZ1Vk1pdjlGRkpKQzhHSDlVSG1YNkZmR1JOajBOUi1qOXhzbWN6aUJkaGpXUW4tYU1XM0FlM1FpX0RaTVIzUDlMNzhsQmV4M1hrZnBsdTBtdE9QdDRGV0lwcm0zM01ZcVYyOE5LR2w4?oc=5",
-          "source": "Bloomberg.com",
-          "published_at": "2026-09-28T17:51:59Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "733698783977a343",
-          "title": "中国国際投資貿易商談会、アモイ市で開催、フィンランドとサウジアラビアが主賓国(中国) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xQVFRUkVOY0NfWWJuNDVmb3FiTTg1b19KdVV4LWdfXzRBZVJUejlERnVBMXJVZTQ1b094YjZzaGYwM3VaNkNvam5CbU5zaHYxOWdsOWVuZ25DejI4SU85MkZ2dXNxMl9fX3VhdDZ3?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-09-28T15:08:37Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "75cfa35d71d02407",
-          "title": "マレーシア日本国際工科院 (MJIIT) 院長一行が国際農研を訪問",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDUUlDZ093N2gwdFctSnROVFhzWGU4alZQWi1BaGN3TXZVbmd6cXZvelp5MWkzZ1VVMmU0S1lMVlJ4dnBvcWNUUHRCR0NsM29teHZFd0l4aklPMVRiSWtR?oc=5",
-          "source": "jircas.go.jp",
-          "published_at": "2026-09-28T12:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3bdfcccb6b56e605",
-          "title": "国際交流学科 開設30周年記念ホームカミングイベントを開催",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jZlk4c2xfS3FsZ0hMT25VSUo5SjRjVkVlYW94ZjlkWXhMaGZhX2tqVWNhSzgwZVlLWk9wV0dGVmIyY1ZvcjR3MHZRRW91aU5Kc0l5Umx5bkJwRVp0RFFpUHIwUFNOMHBZLTNoRw?oc=5",
-          "source": "jiu.ac.jp",
-          "published_at": "2026-09-28T10:45:24Z",
+          "source": "Bloomberg",
+          "published_at": "2026-09-28T17:54:37Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -122,6 +122,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "c5b26c7796e664db",
+          "title": "【出展報告】前川製作所、「FOOMA JAPAN 2026」に出展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZSWMzbkg2bWxJbTd2M2F1UUhpUjd6Mkdha3VxdTVHVWJIeXBXYXEwZXFGeWQwUHNWM2pFd2hvRU9yMkwtaUxfX3hVbzlnRzZ0UXo2cjFjOGQ5SzRzMkUyZEV4YTNTTktDalE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-07-06T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "dad94ddadadf98d0",
           "title": "市場調査レポート：光学式プラスチック選別機市場の成長と予測、2026年から2033年にか",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1BTFNJZTR5UGRCeWllbmJHMFA2cXY0WHdCTEVlMFRJMUp5OTlhSDZFampyX1B5YkJSLUw2OEoxX2ZUbWd2eDVWSmVB?oc=5",
@@ -147,16 +157,6 @@
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1lUTk2eXY5aEdZWVM3LUFtc2JLeDZvTzZTdnRXVjJBUHR2VWwydHA0RjdsWVlDQWdZdHlZcDYwZTdGQUMtcUJGMEI3cXJOMm8?oc=5",
           "source": "アットプレス",
           "published_at": "2026-09-27T04:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "90f617a297047ded",
-          "title": "米粒選別機市場規模760百万米ドル予測：世界の産業現状、競合分析、成長動向2026",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE94US16bzh3MmF2VGJFNGRXcS1ZZTVScDV3cVJmSnlTdDVUc2tEd2pxd2ozYXJrdnF5V29YVmMyM2V3OS1RTlVN?oc=5",
-          "source": "Newscast.jp",
-          "published_at": "2026-09-18T11:14:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -217,21 +217,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "710d0e20ca07d5d5",
-          "title": "FOOD展2026、冷凍倉庫や省人化テーマに80講演",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9DOFpENFZzTVBIM0JqRXhZOFE4WlZoNjdGVEtxTnc2RGFZU1Vma1ZlbHRYS0VQalVRVlA5N3M0ZnVvempwOVd3TFZR?oc=5",
-          "source": "logi-today.com",
-          "published_at": "2026-09-28T23:59:06Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "c7ac976e6d5f3041",
           "title": "InsightFlow(インサイトフロー) ／食品工場の設備支援で培った現場知見を、Tableau活用のBIダッシュボード構築支援として本格展開",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1wSVVvX21JdnlwakhlVHlCX0NIQjJQXzE4ZkxoWXYzUC1QbzlUdXdfNnN0Q3hvVjQ5MGMxUGxxVDJFclhwclE?oc=5",
           "source": "pr-free.jp",
           "published_at": "2026-09-19T03:09:07Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "873ce89070940e0d",
+          "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CdkNZVnFXQXR6Nkk5bjdtZFlneXVxaWZYTWRHVjNFQU5iOHdXbURpWFY4dmx6UmNDS0E2Vm1sTlJrczhBLTI0SDhYWGtHaXpoSWtoZl9n?oc=5",
+          "source": "フーズチャネル",
+          "published_at": "2026-09-17T12:05:52Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -241,6 +241,16 @@
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "0c91fcf8503009c7",
+          "title": "ノジマ／千葉県「イオン新松戸」に新店舗10月2日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54NS0yTVVnNW01T0M3b2UyVXFRaEdneWZ4eEpHSGVzeldrQXc0bXRfRFFGQVpabk9oLW9XaXd6djlsb2RKN1BmOURRRmI2ZTh0MVRhSA?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-29T01:21:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "44ad950d3fb2e0a2",
           "title": "関西中四国小売流通特集：さとう・佐藤祥一社長 売上げ・利益が過去最高",
@@ -272,6 +282,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "487463e80f72acae",
+          "title": "ケーズデンキ／宮城県名取市に「（仮称）新仙台南店（店舗面積5988.15m2）」27年3月23日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pU2dYNDVacEpvTkVzOGc3VXlsUmhQSGRmUWhHc19oR0lVSktjTjZON1RneHJhQjlIYi1DbWF0djZaYkFVT0xaUENlNU9zczZGOXNTTlZB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-11T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "a0f8bc147fe19585",
           "title": "平和堂／「アルプラフーズマーケット富山掛尾」オープン、富山県に食品スーパー初出店",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAteVpZcmhubVF3ZGhKMHBtSzlHa1FaZnRGMU50V2ptMlRselltRGtxVG1NUnduaEhXVmxIRk9ya054bVdMR2dNdHJxUHVZaTZNZnR0LQ?oc=5",
@@ -287,26 +307,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxZzVCSzA1eTVNVTY5RWYwclF3bjRlS3BzWVBVbHotUmVTZmx0WFhPczVHVEMzd2NDTjdWaTgwWnJpTmJ0WUdqWUxwT2RseFh0bE1QZWN3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-09T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e8fcd9681f993593",
-          "title": "バロー／「スーパーマーケットバロー豊中島江店」9月11日オープン、コーナンに出店",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhMWV4SlJyVDlGUnNTWW9KamM5dVVPbXMzRkVpQzRzaWhKY3hCeGR2TW5Lc3lZUjVESlRnTkxmOGt2NTlJaHRyMVN1dmtfSE12X0FEUw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-04T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9bd88acecffcffd4",
-          "title": "アクロスプラザ富山掛尾／平和堂、サンドラッグ、ヤマダデンキ、ゼビオが新店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCcmplVWpubF9XMnNGY0MyWWUtNDBsV2JxVHVDbHg1aTJTX3VJeDMwUGJsaVVqM1BWdWZZbktlYVptTUx0VTFmdFUtcnM4Rmh5dEJmaQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-02T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -360,7 +360,7 @@
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "alic.go.jp",
+          "source": "独立行政法人 農畜産業振興機構",
           "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
@@ -389,7 +389,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-09-29T05:52:16Z",
-  "last_success_at": "2026-09-29T05:52:16Z",
+  "last_attempt_at": "2026-09-29T13:06:17Z",
+  "last_success_at": "2026-09-29T13:06:17Z",
   "consecutive_failure_count": 0
 }
