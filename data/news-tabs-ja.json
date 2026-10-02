@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-02T05:52:12Z",
+  "generated_at": "2026-10-02T12:50:11Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,31 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "e9334663d7574376",
-          "title": "G20貿易相 過剰生産巡り意見対立",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4tS1VOaVJtM19NaUJsQlcxeEhVRnhFUENNOXRVeUlDNGRob0lKV1EzSEk1Q2VDQ0ZYM3dFNFdrd2hVbHVsSVNJa0xwa0FvbUdR?oc=5",
-          "source": "news.yahoo.co.jp",
-          "published_at": "2026-10-02T05:01:18Z",
+          "id": "296da695f67511c3",
+          "title": "極東貿易[8093]：自己株式の取得状況に関するお知らせ 2026年10月1日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNVlPMnFTZEwtSmxoNUlmTkFvRE1RVWNoNjMzMC1URkw2dXE0bFFKb1ctYm9RYVJicUt6ZGxqRXBDdC1ha3lHMnliVGtpbE5qd01lUWJ5OURyU0tVOGNMQUxjcnZYd2t1T3VHRmpCVlJ3UkVWWmNfTnJGODVxSng4LUZ0azNtSk5MRnYyLWZWQ093QTAxdmo2Z1ZPNmhfVV9LS2kxMG4wTHNWOVhkZFM2UEpjb05YSjZfNGlhcUhhdngydU5lUHZXSEY1dXg?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-10-01T07:20:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "03f60a4323b25a60",
+          "title": "「『小さな島国』に見える日本ですが…」世界地図が“イコールアース図法”に変わるとどうなる？〈池上彰さんが解説〉",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CU0czN2pjc211clFlLXZKdkcyRklIQUdsdjFkMlR6TERzSWV3aC1PM01UOFE0dndURFhObmUxbzFBbXc3MEE4aXl2Y1ZNeExnMkNUcmViYzFGd0Vsa1JGbFpUMkYxZnE1TkxuM2k1YzlyMlBHWkdoczFWQW8td3c?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-02T08:15:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1f16037cf2b1841a",
+          "title": "Translators Talk 海外に広がる日本文学——サム・マリッサ、日英翻訳を語る 11月4日（水）開催",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HUXJrczgyUkpRMWxjVTlCOHF1ZVVXbllVaC1iX2tCbDNtUmpmWUJ2ajdfb1AzZGlfRGoydmJXbDlGWkp3QmtGc1N0Sk5LZjlINS14blEtRnN5dw?oc=5",
+          "source": "waseda.jp",
+          "published_at": "2026-10-02T04:31:33Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -49,41 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "769f7de1bf870acc",
+          "title": "世界のベンチャー投資、クリエーティブ産業向けは0.4％、ASEANビジネス対話で資金不足やIP活用を議論(東ティモール、ブルネイ、ASEAN、インドネシア、カンボジア、シンガポール、タイ、フィリピン、ベトナム、マレーシア、ミャンマー、ラオス) | ビジネス短信 ―ジェトロの海外ニュ",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vUFQtd3l1d3FPc2pqMWdKTk5Md2xXRXp5Vmt5UVZLUWIxWVozcThCUmlXUEE5Y1IxOEpFa01NcGlOUlBrT1hMWTFlN29jTFVJV3I4dGx2QzR1SmxJQ192Zy0yYXJNX29BRk93LUxn?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-10-02T02:58:02Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "dfd7a712be2b20ec",
           "title": "【活動報告】未来のコメを世界とつくる「さくらサイエンスプログラム」成果報告会を開催しました",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0yWFRTZzNocEVEZlowcUJoUS1IWjIwdjYyaGstaThIVldMTTlXR0Vlb04xb0RjUmlKbERWY2IxM3BQTi1pbE5WZUhGUUs1Z0tzalVJemVhNjYtZE5pUkE?oc=5",
           "source": "niigata-u.ac.jp",
           "published_at": "2026-10-02T02:25:48Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2ff2a81ea933babe",
-          "title": "FGLプログラム（国際学士コース）入学式を開催しました",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjSF83S0JhUGh4MW14TzR4dFhEb1hRM1N3TG1UTXB5V1Z2dmhSaWdrSlpXLUtjVlZ2aHlTa2NjRjFwN2VrelUtRTYzLXBOWllRb0M3VE45Qi1jNlVWdTdwSUxzOWxtVmdUZXJ3SXVSLXA?oc=5",
-          "source": "tohoku.ac.jp",
-          "published_at": "2026-10-02T01:30:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f0e07a621ecfe8d0",
-          "title": "秋田の高級菓子メーカーが台湾に海外初店舗を出店(台湾、日本) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mR2gwc0tGeUtuQ0M4ZWNOWk9rc0Z2eTJxSXBEUnVvWXpDdE5xTVk3R19PMjR5OUt5dU1lOXlFYVFqR2pGbnI4bUpKS3pHZ1hwQk5vd2ZWcjhjdzd5MG9yaWZPRVNSQ2IyQmF6QWZn?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-10-01T15:12:59Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ed3138098f0e0e1a",
-          "title": "「2026年国際ジャーナリスト会議」における茂木外務大臣ビデオ・メッセージの発出｜外務省",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90ei1rV0k4dEduTDVodE82bUJLcS1XZmxOczBibFJUbEMwMF9VRG5yLWpzRURBR2lveDdTR21qLUgtdmctR1hhRzNKNUtsVjZhM0JXcWpHWHc3ejVTVGJmRy1nTTVWdmF0bm1XaG5hQ0NNWWVZYmg0?oc=5",
-          "source": "mofa.go.jp",
-          "published_at": "2026-10-01T11:25:20Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -209,16 +209,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cbbbd1904db9d4a2",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "d3cfa2f77b7bd6e1",
           "title": "写真：三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wcFJ3QmFBdEx1SWtYOVE3VGZkXzFXRjRhX3N5VFFHU2RCanNyNm9WMkdmZm54VUhXUkFqZ3NwdHo0X2xGLTRiYnByUFV1ZUdMVnVCcHctMzFjRXJaWjMxNmtwMzUtdw?oc=5",
@@ -237,6 +227,16 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b87d38a0c9f125de",
+          "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE96OHpXRElibWRER3BtWkxfLTRRbVRkZ3d5ekNIRFV4ZGFxU1ZGQnRDRWxoWmx4dTZSRmMyRWV4MFBJeGN0TzU0Uml1QXREOTAtRlM3TXk1TGhzbjNCSmNPNmVyOXNlY0lsNzNXSVJ3SGVrT1I3M2Rkb1lB?oc=5",
+          "source": "毎日キレイ",
+          "published_at": "2026-09-17T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -249,16 +249,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ3ZSVnJaeGVnYWVIT2ZIa0wxa0lOQXpJVGhodkN5YnRhNThqUVNFeUZzUTJJVEp1Q3RWUGVsX0pEZzh5R2k2RFJtc29wYWxoQVhoaFJmQTZHNDRLVVd2VXZmam9FeElteHc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-10-01T03:00:02Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2ae604176a3eaf97",
-          "title": "オーケーほか／東京都北区に「（仮称）北区豊島四丁目SC計画（店舗面積2670m2）」27年3月23日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TTkQzOHpQRjZLbFJVRExvRm8zeU4zNGh6WEFFTldXRDJYU0gxODE5bU9BYkNzTHNMUFZTU0gtQ3U3NjdRQ2JIbHRURlpsSjFfYlhSa1FR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-01T01:47:17Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -312,6 +302,16 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3560f18eb7a90c8d",
+          "title": "Zoff／長野県「イオン上田ショッピングセンター」に新店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9VYTlCWjE2aGw3QkVXa2NYWDNQbWc3dWk5NVdJMDNTd1J3NTlFS291VVRNZTFjSFZVc0VCT3VsOXFIMW5DUjFjMmpzZmhZbDdHdkhCNA?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-18T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -359,6 +359,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "8155d426af0e2c28",
+          "title": "処方箋薬ユーザーフィー法改正を議論、創薬・バイオ分野の国際展示会「BIO 2026」(米国) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IWnppSUxuOWg4TFhuSWF1REYxUTVmdmMybF9DazNtRVZSVmxidjI5WHdUNElpMHdTM2hULS1GX3RvRHBnaUhwd3lGZHQ1RjZDYUdvUjk5allLdGVQQnNTX2ZsZy1wS2xYc1BrX1BR?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-07-09T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e3eb956f85cd4512",
-          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-07-15T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-02T05:52:12Z",
-  "last_success_at": "2026-10-02T05:52:12Z",
+  "last_attempt_at": "2026-10-02T12:50:11Z",
+  "last_success_at": "2026-10-02T12:50:11Z",
   "consecutive_failure_count": 0
 }
