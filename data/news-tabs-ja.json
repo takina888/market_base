@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-03T05:27:23Z",
+  "generated_at": "2026-10-03T11:49:02Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,21 +29,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "id": "015670fd61b2ba38",
+          "title": "eMAXIS 高配当全世界株式(オール・カントリー)配当払出型【03312269】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WMmt4NXAxbzBteHU3RF9VUU5KQXo2XzQzVVFRYnVpdVp2SlhvNDVyZmtqcjRhVTFoYVJxRTNNRGtyQWdZSHJtbV9ieXEwc2FHNmp3Mw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-03T03:18:43Z",
+          "published_at": "2026-10-03T08:49:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "015670fd61b2ba38",
-          "title": "eMAXIS 高配当全世界株式(オール・カントリー)配当払出型【03312269】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WMmt4NXAxbzBteHU3RF9VUU5KQXo2XzQzVVFRYnVpdVp2SlhvNDVyZmtqcjRhVTFoYVJxRTNNRGtyQWdZSHJtbV9ieXEwc2FHNmp3Mw?oc=5",
+          "id": "4d5038adafa27069",
+          "title": "eMAXIS 高配当全世界株式(オール・カントリー)資産成長型【03313269】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FRE01cTBFSVJVMGt5TWZTT0wya1dyWkFqWkNhdko4c2MyUWVDNGpzNjdJUGlmcVYxYXQtWGN5eFBDaFM4eVR1NDVMZU1Za092ZUZ6cg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-03T02:50:37Z",
+          "published_at": "2026-10-03T08:12:36Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -53,7 +53,7 @@
           "title": "幻のモグラ、もっといるかも 世界遺産白神山地で初確認（共同通信）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGRV9NejU3blNXbHNEYTVHNUxoVG93RkdOU1dRMUdDTjJVNVNmbTlPX25hSjNMVmFOQzhHT1RXOFl2blktQXA2bi1yOGdFcFJpTXpReFNGTzhyWEFtOTMxaTNVQWk5eDAtajRpZTRDaVhBbmxYSGhtNGZEX0FRNFE?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-03T02:47:55Z",
+          "published_at": "2026-10-02T20:38:14Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -93,6 +93,16 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "ea1a6ec14e61cde0",
+          "title": "特集・食品工場のスマートファクトリー化と省力化・自動化2026：FOOMAセミナー",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KYVpBazNzLU5zTkw3MHhid3pYQk1DOTZUVkNMYjFZM204OGxDVkZXd3pNcndLWXhDRmZuSjQ1NVFLNWdkYVVZNkxFQVdweWNESHFBTV84QU5YSm5vdEVzVTRqejdrWEVrUkg0?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-09-30T16:25:35Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "2d26b68bdd209f67",
           "title": "AIコーヒー豆選別機 beAns-Eye（ビーンズ・アイ）をSCAJ2026で先行公開",
@@ -147,18 +157,8 @@
           "id": "d45bfa331ef170a5",
           "title": "X線鉱石選別機の世界市場（2026年～2032年）、市場規模（XRT選別機、XRF選別機、デュアルエネルギーX線選別機）・分析レポートを発表",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55b0pmVUc0TXQtbHBtT0dqSkxOWnAtaWJLd1RBbmdBRDkwcHJtOVFSMW9ZUlMzSXgtYVFNdE1rcjJ0TzJBLUdTZzczcElqVkE?oc=5",
-          "source": "アットプレス",
+          "source": "atpress.ne.jp",
           "published_at": "2026-10-01T09:30:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ead0b99f40859ad1",
-          "title": "2026自動カプセル充填機市場規模マップ：シェア・動向・フレームワーク、年平均成長率（CAGR）1.8%の安定成長",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUeEd2V3p5cDFwdjhLSU1VUDhLSUI3d2w0ZHBwM0JtYWNDRDhyVy1UZEVnd0NyZHZsNzVabGhENkNiY0JvbWRockF3U0VLYk0xaERV?oc=5",
-          "source": "ドリームニュース",
-          "published_at": "2026-10-01T03:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -168,6 +168,16 @@
     "food_factory": {
       "label": "食品工場",
       "articles": [
+        {
+          "id": "7c2c01232a569eab",
+          "title": "特集・食品工場のスマートファクトリー化と省力化・自動化2026：企業事例2＝三島食品・広島工場",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5WSGd3djU1RnVpT0JIN2l0N2lQbkE0cjgyamhDaEw5NldHUzVDQVRKMUZGN1MzSkpNOHF0QmtQR040MTVJbFRDa0FrVl8yQ1ZMUFdoOC1ITjZkRi1BcF9qZFIweG1wTGpxQTVR?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-09-30T16:25:33Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "ac470e6e0246557b",
           "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
@@ -209,30 +219,20 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ea1a6ec14e61cde0",
-          "title": "特集・食品工場のスマートファクトリー化と省力化・自動化2026：FOOMAセミナー",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KYVpBazNzLU5zTkw3MHhid3pYQk1DOTZUVkNMYjFZM204OGxDVkZXd3pNcndLWXhDRmZuSjQ1NVFLNWdkYVVZNkxFQVdweWNESHFBTV84QU5YSm5vdEVzVTRqejdrWEVrUkg0?oc=5",
-          "source": "news.nissyoku.co.jp",
-          "published_at": "2026-09-30T16:25:35Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7c2c01232a569eab",
-          "title": "特集・食品工場のスマートファクトリー化と省力化・自動化2026：企業事例2＝三島食品・広島工場",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5WSGd3djU1RnVpT0JIN2l0N2lQbkE0cjgyamhDaEw5NldHUzVDQVRKMUZGN1MzSkpNOHF0QmtQR040MTVJbFRDa0FrVl8yQ1ZMUFdoOC1ITjZkRi1BcF9qZFIweG1wTGpxQTVR?oc=5",
-          "source": "news.nissyoku.co.jp",
-          "published_at": "2026-09-30T16:25:33Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "d3cfa2f77b7bd6e1",
           "title": "写真：三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wcFJ3QmFBdEx1SWtYOVE3VGZkXzFXRjRhX3N5VFFHU2RCanNyNm9WMkdmZm54VUhXUkFqZ3NwdHo0X2xGLTRiYnByUFV1ZUdMVnVCcHctMzFjRXJaWjMxNmtwMzUtdw?oc=5",
           "source": "沖縄タイムス社",
+          "published_at": "2026-09-30T02:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e3036d7449e1a8bd",
+          "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入 (2026年9月30日掲載)",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJRmxqSjI2bGUxaHZJREJVN1ZSakZzZFlVeE9ael8zWjFnbFlWM1kxYXd2ZUJ4M1gtMjU2OEp4dXQtMEstVXhhYzE5SXB5SnBMX090eW0wZFhNVlhjUTVTNi1n?oc=5",
+          "source": "news.livedoor.com",
           "published_at": "2026-09-30T02:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -264,11 +264,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "51ef72633e75c4aa",
-          "title": "マックスバリュ東海／愛知県豊橋市に「（仮称）マックスバリュ豊橋西幸町店（店舗面積4344m2）」27年4月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
+          "id": "44ad950d3fb2e0a2",
+          "title": "関西中四国小売流通特集：さとう・佐藤祥一社長 売上げ・利益が過去最高",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Dc0FZMmh0WFVlWXRnakhYbUVnUmNsNjBhd2hQcm45Mi04LUVrX0JxWjNNemYxMHBZVUZSUzA1Q1JBeGhnbDFQbGlCMmxuWC1PYmphMzQySDdPckhEMkFBUDRZZFFKUTJq?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-09-25T15:16:42Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b606d4d6116ceaba",
+          "title": "日本小売業協会／イオン・セブン＆アイなど出展「RETAIL EXPO Tokyo 2026」10月8・9日東京で開催",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hSklMcVZBNEl5WUlDLUZXTzdQUldULS1sOW9VSUNrWmM1YTBycGFoOHFqSmlSMm9uOXFfbVR2WEZzNkstVFJtU2txWjlsTkxCLXZHNW50OA?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-09-28T01:41:43Z",
+          "published_at": "2026-09-25T04:32:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -299,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pU2dYNDVacEpvTkVzOGc3VXlsUmhQSGRmUWhHc19oR0lVSktjTjZON1RneHJhQjlIYi1DbWF0djZaYkFVT0xaUENlNU9zczZGOXNTTlZB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-11T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a0f8bc147fe19585",
-          "title": "平和堂／「アルプラフーズマーケット富山掛尾」オープン、富山県に食品スーパー初出店",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAteVpZcmhubVF3ZGhKMHBtSzlHa1FaZnRGMU50V2ptMlRselltRGtxVG1NUnduaEhXVmxIRk9ya054bVdMR2dNdHJxUHVZaTZNZnR0LQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-10T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -372,7 +372,7 @@
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "alic.go.jp",
+          "source": "独立行政法人 農畜産業振興機構",
           "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-03T05:27:23Z",
-  "last_success_at": "2026-10-03T05:27:23Z",
+  "last_attempt_at": "2026-10-03T11:49:02Z",
+  "last_success_at": "2026-10-03T11:49:02Z",
   "consecutive_failure_count": 0
 }
