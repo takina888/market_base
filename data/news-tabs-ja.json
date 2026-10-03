@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-03T11:49:02Z",
+  "generated_at": "2026-10-03T16:31:15Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "296da695f67511c3",
-          "title": "極東貿易[8093]：自己株式の取得状況に関するお知らせ 2026年10月1日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNVlPMnFTZEwtSmxoNUlmTkFvRE1RVWNoNjMzMC1URkw2dXE0bFFKb1ctYm9RYVJicUt6ZGxqRXBDdC1ha3lHMnliVGtpbE5qd01lUWJ5OURyU0tVOGNMQUxjcnZYd2t1T3VHRmpCVlJ3UkVWWmNfTnJGODVxSng4LUZ0azNtSk5MRnYyLWZWQ093QTAxdmo2Z1ZPNmhfVV9LS2kxMG4wTHNWOVhkZFM2UEpjb05YSjZfNGlhcUhhdngydU5lUHZXSEY1dXg?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-10-01T07:20:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "015670fd61b2ba38",
           "title": "eMAXIS 高配当全世界株式(オール・カントリー)配当払出型【03312269】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WMmt4NXAxbzBteHU3RF9VUU5KQXo2XzQzVVFRYnVpdVp2SlhvNDVyZmtqcjRhVTFoYVJxRTNNRGtyQWdZSHJtbV9ieXEwc2FHNmp3Mw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-03T08:49:55Z",
+          "published_at": "2026-10-03T11:52:58Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -84,6 +74,16 @@
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HUXJrczgyUkpRMWxjVTlCOHF1ZVVXbllVaC1iX2tCbDNtUmpmWUJ2ajdfb1AzZGlfRGoydmJXbDlGWkp3QmtGc1N0Sk5LZjlINS14blEtRnN5dw?oc=5",
           "source": "waseda.jp",
           "published_at": "2026-10-02T04:31:33Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "95ce636977a60788",
+          "title": "宮本経済産業副大臣が米国へ出張しました",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51ZUdxOGhHd0UyMjYzem9DNE5VYVJJQ1RteVcwVTdOT05LbkliLVN5b3U2Mlk4YWFCVUdJeDBsRUIwekFpazh4ZjN6dnhucGsyMGxwS0pMbUFQNXRPeHBfUWtHOA?oc=5",
+          "source": "meti.go.jp",
+          "published_at": "2026-10-02T03:48:20Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -157,7 +157,7 @@
           "id": "d45bfa331ef170a5",
           "title": "X線鉱石選別機の世界市場（2026年～2032年）、市場規模（XRT選別機、XRF選別機、デュアルエネルギーX線選別機）・分析レポートを発表",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55b0pmVUc0TXQtbHBtT0dqSkxOWnAtaWJLd1RBbmdBRDkwcHJtOVFSMW9ZUlMzSXgtYVFNdE1rcjJ0TzJBLUdTZzczcElqVkE?oc=5",
-          "source": "atpress.ne.jp",
+          "source": "アットプレス",
           "published_at": "2026-10-01T09:30:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -232,7 +232,7 @@
           "id": "e3036d7449e1a8bd",
           "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入 (2026年9月30日掲載)",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJRmxqSjI2bGUxaHZJREJVN1ZSakZzZFlVeE9ael8zWjFnbFlWM1kxYXd2ZUJ4M1gtMjU2OEp4dXQtMEstVXhhYzE5SXB5SnBMX090eW0wZFhNVlhjUTVTNi1n?oc=5",
-          "source": "news.livedoor.com",
+          "source": "ライブドアニュース",
           "published_at": "2026-09-30T02:00:00Z",
           "language": "ja",
           "category": "food_factory",
@@ -259,6 +259,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iSmw0SmhmdkEtY2lWRVgwZW9zQkhia2NiN3J2QURLRW8ydGxiSHBodHpFRE4yQzJ6WWRnMWlCWG5oekdPZkJMUW5vVHlKbzFmZXJlcHZ3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-29T01:30:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "51ef72633e75c4aa",
+          "title": "マックスバリュ東海／愛知県豊橋市に「（仮称）マックスバリュ豊橋西幸町店（店舗面積4344m2）」27年4月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-28T01:41:43Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -299,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMWVhLQkVpbjZWa2VqNGNzRUVZS0lDVVBGNWpzeW1lVjkwbWVjYkg0eGRnVkRnWE84eFcyb1FveVM2VWFqN09jMnhpOFl6N0Q4cW9aS1VR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-16T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "487463e80f72acae",
-          "title": "ケーズデンキ／宮城県名取市に「（仮称）新仙台南店（店舗面積5988.15m2）」27年3月23日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pU2dYNDVacEpvTkVzOGc3VXlsUmhQSGRmUWhHc19oR0lVSktjTjZON1RneHJhQjlIYi1DbWF0djZaYkFVT0xaUENlNU9zczZGOXNTTlZB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-11T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-03T11:49:02Z",
-  "last_success_at": "2026-10-03T11:49:02Z",
+  "last_attempt_at": "2026-10-03T16:31:15Z",
+  "last_success_at": "2026-10-03T16:31:15Z",
   "consecutive_failure_count": 0
 }
