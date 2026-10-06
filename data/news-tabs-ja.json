@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-05T14:57:16Z",
+  "generated_at": "2026-10-06T00:09:47Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,26 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-05T21:17:33Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "01528bddd6d00913",
+          "title": "モルドバ・ビジネス・ウィーク開催、新たな国際証券取引所が始動(モルドバ、欧州) | ビジネス短信 ―ジェトロの海外ニュース",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fWlNuZWl1cVRSS25ldDVKRVkzdkJnRE5tZ0RmUW42YWM3WXlQNXQ4V1I5c2x2Tll4alVwMHJ5TVR4TllBeEhSZVZVVHgzd0ZCQ0VBV1dVYXBzQmFldncwNXliWGRCVkZNR1BmQ1R3?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-10-05T14:41:56Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "319abb5324279c62",
           "title": "天文情報センター職員が東北大学国際功労賞を受賞",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5ZEk3ZHpDcUY0X1BraUpURTRISEVNMkNZcGFfc1ZJZjlXZHZ2a2FzMkNtQUdUN1NTMzIyM2JZLU9sXzlZOWVjeFJ6MDMtbTVfTUpjcmdubnE4RnJDdFFZMzdXZlR2c09SZFE?oc=5",
@@ -33,17 +53,7 @@
           "title": "関西国際大 学内システムで不正アクセス確認 学生の出欠登録などアクセスできず 兵庫（神戸新聞NEXT）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zbEFjWUVSRHBROFZCcTZsUHZ6dWN3d2RXZm52WXpjRk91TV9UdGgxS2hFT1RCTXNWR2VZSEFNdTVCSGtTMHN4WVRwYWIya3lnM2NJRmstTlZxdG5ic3hzdUNaZHFnZlFIek9fOG9nbHRPZ3ZsRVhiR3hMbG5Nd1k?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-05T13:47:43Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "01528bddd6d00913",
-          "title": "モルドバ・ビジネス・ウィーク開催、新たな国際証券取引所が始動(モルドバ、欧州) | ビジネス短信 ―ジェトロの海外ニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fWlNuZWl1cVRSS25ldDVKRVkzdkJnRE5tZ0RmUW42YWM3WXlQNXQ4V1I5c2x2Tll4alVwMHJ5TVR4TllBeEhSZVZVVHgzd0ZCQ0VBV1dVYXBzQmFldncwNXliWGRCVkZNR1BmQ1R3?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-10-05T09:03:37Z",
+          "published_at": "2026-10-05T10:28:05Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnSmZMMkVuUXQ3bk5kYzVXVmJPbGdPOENsUW10VjlObGxDeWQwM2d2djdVeHdSM2VkM1hKT1VVWVJCLVVDakZmSWQ4NS1lWFpydmVqNDFYZWF1WWdxOE9kbnhlTlpxYkRwQ2E5dDN6NWhlcldpeUhVR2EzOVlDZlE?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-10-05T07:29:13Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9f891bbdf44fd9bc",
-          "title": "国際性で７年連続国内私大１位 Times Higher Education（THE）の「世界大学ランキング2027」が公開",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTU3NGanlKNHdfbWdUUmRoYlVvOC1IaFNMdWVXZ1hQb0o5REVkWno0RW9HbmFCeGtfVVpJQWVwNHp2ejAzVDAzOGN4S2hCMGNjcUpHYm9sbVB0X0ljY0tfWG1WUEU2bHZhWHVB?oc=5",
-          "source": "rikkyo.ac.jp",
-          "published_at": "2026-10-05T06:42:52Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,6 +179,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "ac470e6e0246557b",
+          "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94YWQ3eFJXbDRXNlQ2YVRiMnE3ZU5tclZ5NUZ3Y3pHbVNTcDdzSXhEQjdlSmhZOXB1Uk9XaXdjYjU2a256VUNlNTZIUFZBTDhwVjV1d3pVeEZuYlE?oc=5",
+          "source": "共同通信PRワイヤー",
+          "published_at": "2026-09-30T02:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "c909072b8c5f87b0",
           "title": "「食品工場Week 大阪 2026」に出展",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52Q0dBbjg4YmkwVFl3czZjUE1UaWVvcTItMzAzQzY1X0JuV0xTMkkzTWtYenhvdS1NSllaa0NsNzY5bEZyNzRGeDBTTU1jTHQ4bW5IbTdGbXJpa2Jia01qaFIyekZ6QU9DMFE?oc=5",
@@ -209,21 +219,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6d865337a2a677d3",
-          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-14T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ac470e6e0246557b",
-          "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94YWQ3eFJXbDRXNlQ2YVRiMnE3ZU5tclZ5NUZ3Y3pHbVNTcDdzSXhEQjdlSmhZOXB1Uk9XaXdjYjU2a256VUNlNTZIUFZBTDhwVjV1d3pVeEZuYlE?oc=5",
-          "source": "kyodonewsprwire.jp",
-          "published_at": "2026-09-30T02:00:00Z",
+          "id": "8f47d9b1da0f4310",
+          "title": "「食品工場Week大阪」開催、省人化・品質向上を支援するDX技術が集結",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hUjB6ZkhsMG1TbGFaTHRfRmZMdUVQc3hleWJfLWhwRmhqbllFTzF5RS1JejdHNFE0NDBOZkFlLVF6eEhiS2V5UVRuak1HQ0YwaGc?oc=5",
+          "source": "電波新聞デジタル",
+          "published_at": "2026-10-05T14:13:49Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-05T14:57:16Z",
-  "last_success_at": "2026-10-05T14:57:16Z",
+  "last_attempt_at": "2026-10-06T00:09:47Z",
+  "last_success_at": "2026-10-06T00:09:47Z",
   "consecutive_failure_count": 0
 }
