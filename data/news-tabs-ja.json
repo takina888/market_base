@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-06T00:09:47Z",
+  "generated_at": "2026-10-06T06:32:08Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,21 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-05T21:17:33Z",
+          "id": "c918195a21c595cb",
+          "title": "【国際学部】ホテル ラ・スイート神戸ハーバーランドでの特別実習を実施しました",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoS2VvbzBPbHV2VnY4SXBRSUtRbHZmVWI5U1pTd0x6ZTExeTBod1NIRTVYbzZ1dFQ2Tm1xa0hzdGEzeFBHNUVrU3l5T3psWS05Tm1aR1ln?oc=5",
+          "source": "setsunan.ac.jp",
+          "published_at": "2026-10-06T04:00:30Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "01528bddd6d00913",
-          "title": "モルドバ・ビジネス・ウィーク開催、新たな国際証券取引所が始動(モルドバ、欧州) | ビジネス短信 ―ジェトロの海外ニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fWlNuZWl1cVRSS25ldDVKRVkzdkJnRE5tZ0RmUW42YWM3WXlQNXQ4V1I5c2x2Tll4alVwMHJ5TVR4TllBeEhSZVZVVHgzd0ZCQ0VBV1dVYXBzQmFldncwNXliWGRCVkZNR1BmQ1R3?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-10-05T14:41:56Z",
+          "id": "e6567d867ea75878",
+          "title": "中曽根外務副大臣とトゥズジュ・トルコ貿易副大臣との会談",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE11Vm1oMUZyaTg4WjlGb0JXaThiS2Y3V1B2OG45T25CS0FvdEJKNWdtWGZ6djVISjFsTDFxUzNQbmpIMW1ZSEVrUi1rUWcwSVZmdTVnYXFwX1E4OTlCbmZiWWJDVDZBdTg1Sk04cjBoMlQ0dFE?oc=5",
+          "source": "mofa.go.jp",
+          "published_at": "2026-10-06T00:57:56Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,6 +59,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "5811b290e3766705",
+          "title": "モルドバ・ビジネス・ウィーク開催、新たな国際証券取引所が始動(モルドバ、欧州) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fWlNuZWl1cVRSS25ldDVKRVkzdkJnRE5tZ0RmUW42YWM3WXlQNXQ4V1I5c2x2Tll4alVwMHJ5TVR4TllBeEhSZVZVVHgzd0ZCQ0VBV1dVYXBzQmFldncwNXliWGRCVkZNR1BmQ1R3?oc=5",
+          "source": "jetro.go.jp",
+          "published_at": "2026-10-05T09:03:37Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "870c88aa94ef41b1",
           "title": "Translators Talk 海外に広がる日本文学 ドイツの場合 11月11日(水)開催",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KZkEtUDFZLUVPeUEtLWtfOFJNRVBCeWlvMkh1X0Q1SWZSUlFyNkMtZkZWQ0ZHS0h3S25zWEJIRllfUElnWkZJU1V4cnB2c1VJb3RMZjdsRnBZQQ?oc=5",
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5jYmxvak8ycG1QU19VUVhKbzhZV3Z4ejVYUHZLaUZ2M3pnM09qWDNfUjFEckc4REx2cnp6RkROVkRTdDNiWGc?oc=5",
           "source": "月刊高専",
           "published_at": "2026-10-05T08:17:17Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ce9a48fb49020116",
-          "title": "川口春奈主演「ママがもうこの世界にいなくても」公開初日から絶賛の声相次ぐ…クランクアップ写真公開（WEBザテレビジョン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnSmZMMkVuUXQ3bk5kYzVXVmJPbGdPOENsUW10VjlObGxDeWQwM2d2djdVeHdSM2VkM1hKT1VVWVJCLVVDakZmSWQ4NS1lWFpydmVqNDFYZWF1WWdxOE9kbnhlTlpxYkRwQ2E5dDN6NWhlcldpeUhVR2EzOVlDZlE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-05T07:29:13Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,16 +179,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ac470e6e0246557b",
-          "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94YWQ3eFJXbDRXNlQ2YVRiMnE3ZU5tclZ5NUZ3Y3pHbVNTcDdzSXhEQjdlSmhZOXB1Uk9XaXdjYjU2a256VUNlNTZIUFZBTDhwVjV1d3pVeEZuYlE?oc=5",
-          "source": "共同通信PRワイヤー",
-          "published_at": "2026-09-30T02:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "c909072b8c5f87b0",
           "title": "「食品工場Week 大阪 2026」に出展",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52Q0dBbjg4YmkwVFl3czZjUE1UaWVvcTItMzAzQzY1X0JuV0xTMkkzTWtYenhvdS1NSllaa0NsNzY5bEZyNzRGeDBTTU1jTHQ4bW5IbTdGbXJpa2Jia01qaFIyekZ6QU9DMFE?oc=5",
@@ -229,6 +219,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "ac470e6e0246557b",
+          "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94YWQ3eFJXbDRXNlQ2YVRiMnE3ZU5tclZ5NUZ3Y3pHbVNTcDdzSXhEQjdlSmhZOXB1Uk9XaXdjYjU2a256VUNlNTZIUFZBTDhwVjV1d3pVeEZuYlE?oc=5",
+          "source": "kyodonewsprwire.jp",
+          "published_at": "2026-09-30T02:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "d3cfa2f77b7bd6e1",
           "title": "写真：三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wcFJ3QmFBdEx1SWtYOVE3VGZkXzFXRjRhX3N5VFFHU2RCanNyNm9WMkdmZm54VUhXUkFqZ3NwdHo0X2xGLTRiYnByUFV1ZUdMVnVCcHctMzFjRXJaWjMxNmtwMzUtdw?oc=5",
@@ -254,61 +254,61 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "cfc6787d9ed6ed36",
+          "title": "ルーカス・レイバがリバプールFCの3番目の小売店を南アフリカにオープン",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVllfU2Z5bXh5R243QlAybVFTYzFtbkg2MnRkNlJIM04wTDRQR0lNV0hnYy00SGZQSE1PTVJtN3hXX2NWdm1fM3pNZWlWMFRZMkRlVW5xdXo2YXlCYnltVm1TMS1ueTFTRzhxNVUzWXFWa1NKaFFZSzZCMDlCNFQ4WS03TEw0U2tBMi1oSUZNV2k1akxoQkdyZGc2QVBDbklQ?oc=5",
+          "source": "Liverpool FC",
+          "published_at": "2026-10-05T09:22:58Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b63f5ae649112fc6",
+          "title": "ベトナム、CPTPP加盟国向けに小売店舗追加の際の「経済需要審査（ENT）」免除を明確化（ベトナム）",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10bEcxdXlEd0pHVE1VTVFZaFYxT3c3Z1BMVVExYWlLd0p2VVBkemRzSFNlbHpKbWRkbzQzOHZWX1B6N1NtUF9URnpHbjhJNnZHQXBFRTg4clBBZlBxNVlrQW40ekE4WTl5ZUJr?oc=5",
+          "source": "Infoseek",
+          "published_at": "2026-10-02T01:50:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e54e84c7452a17ce",
+          "title": "【さいたま市緑区】市内4店舗目！ディスカウント型スーパーマーケット「マミープラス」が三室にオープンします。圧倒的な安さのオープンチラシは必見です！",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNU1VV2RjUEd1OV9jbVNhNGxxZThNYjgzbzJ1Yk5qWU9ES3hvVTJTcHhYTG8zN0VadFJNVkJFWE9tZVJZMGdHaTBLWm1jcTl2cWdETThkU0tpUFpZSEFsdzlzdGs3ZWdyejU5dFZwbnJGYktqaUtEd0oteVVhT0N4M0N6N05ROHZRSTd5YTRlTENXQQ?oc=5",
+          "source": "地域ニュースサイト号外NET",
+          "published_at": "2026-10-01T14:59:28Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "01525a9789b8dabd",
+          "title": "マックスバリュ浜松三方原店跡に愛知展開のスーパー｢ドミー｣ 11月下旬オープン予定、県内初出店",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3UkV3OEROcm5LbmNpYkh1WjM3djcxLTJST21NSXZzWXlNckZHbWw3bi1tdEhrSDlGSl84aWxLR3J1XzZ0dHRsbVg5eHczZw?oc=5",
+          "source": "静岡新聞DIGITAL",
+          "published_at": "2026-10-01T14:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b99788efe77995e3",
+          "title": "ガソリンスタンドに小売店を誘致するという実験。",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00eThmOXVMVDdGZEVQenBvZE84M0pqRkdwMjNlQWQyU3FzR2xBdFJ6SHR5aURRMkhaS3MyeG1CaHd6WDBtQzNzUmFHc3RnTlRadzFEQ0NaWVItSGkzQ1FWQllOSjVwV2Z3ek1HSnI0SE5YVWEycWI0?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-01T02:45:06Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "2ae604176a3eaf97",
           "title": "オーケーほか／東京都北区に「（仮称）北区豊島四丁目SC計画（店舗面積2670m2）」27年3月23日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TTkQzOHpQRjZLbFJVRExvRm8zeU4zNGh6WEFFTldXRDJYU0gxODE5bU9BYkNzTHNMUFZTU0gtQ3U3NjdRQ2JIbHRURlpsSjFfYlhSa1FR?oc=5",
-          "source": "流通ニュース",
+          "source": "ryutsuu.biz",
           "published_at": "2026-10-01T01:47:17Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e334769b0f16ddcd",
-          "title": "マルト／福島県いわき市に「（仮称）いわきスマートタウン計画（店舗面積2813m2）」27年4月20日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iSmw0SmhmdkEtY2lWRVgwZW9zQkhia2NiN3J2QURLRW8ydGxiSHBodHpFRE4yQzJ6WWRnMWlCWG5oekdPZkJMUW5vVHlKbzFmZXJlcHZ3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-29T01:30:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b606d4d6116ceaba",
-          "title": "日本小売業協会／イオン・セブン＆アイなど出展「RETAIL EXPO Tokyo 2026」10月8・9日東京で開催",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hSklMcVZBNEl5WUlDLUZXTzdQUldULS1sOW9VSUNrWmM1YTBycGFoOHFqSmlSMm9uOXFfbVR2WEZzNkstVFJtU2txWjlsTkxCLXZHNW50OA?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-25T04:32:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c390998419acd8c9",
-          "title": "ヤマダストアー／兵庫県宝塚市に「（仮称）宝塚市伊孑志計画（店舗面積3099m2）」27年3月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMWVhLQkVpbjZWa2VqNGNzRUVZS0lDVVBGNWpzeW1lVjkwbWVjYkg0eGRnVkRnWE84eFcyb1FveVM2VWFqN09jMnhpOFl6N0Q4cW9aS1VR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-16T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "487463e80f72acae",
-          "title": "ケーズデンキ／宮城県名取市に「（仮称）新仙台南店（店舗面積5988.15m2）」27年3月23日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pU2dYNDVacEpvTkVzOGc3VXlsUmhQSGRmUWhHc19oR0lVSktjTjZON1RneHJhQjlIYi1DbWF0djZaYkFVT0xaUENlNU9zczZGOXNTTlZB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-11T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a0f8bc147fe19585",
-          "title": "平和堂／「アルプラフーズマーケット富山掛尾」オープン、富山県に食品スーパー初出店",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAteVpZcmhubVF3ZGhKMHBtSzlHa1FaZnRGMU50V2ptMlRselltRGtxVG1NUnduaEhXVmxIRk9ya054bVdMR2dNdHJxUHVZaTZNZnR0LQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-10T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-06T00:09:47Z",
-  "last_success_at": "2026-10-06T00:09:47Z",
+  "last_attempt_at": "2026-10-06T06:32:08Z",
+  "last_success_at": "2026-10-06T06:32:08Z",
   "consecutive_failure_count": 0
 }
