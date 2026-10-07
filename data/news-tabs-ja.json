@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-07T06:10:33Z",
+  "generated_at": "2026-10-07T13:36:23Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -69,21 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d809832971c9658c",
-          "title": "【独自】“日本は世界最悪のコンピュータセキュリティ体制” ハッカー集団「Qilin」中心メンバー拘束で取材に応じる アサヒビールなどにサイバー攻撃（TBS NEWS DIG Powered by JNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01bnFyaWRvNjFTRy1QQXhHMGRPZGhhbXJDd2g3RE1ERzUtRkliZEo5dHhpa2N3SjY3V195VnNDYXhLSXF3a1l1S0N1MnhKcVVYcDRqYUZ6RWp5X0daME5MWjVpTWcxaF9uWkJEZTRfdkNwSF9Ec3ItXzZXR3lldGs?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-07T03:54:48Z",
+          "id": "3d9bb214651b2302",
+          "title": "世界13カ国より144人の海外大学の学生が広島に集結！ Peace Study Tour 2026",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12OUFTZ0wzdnVZT0RuTDY4UmpjN3BiM0F1Q0ZRalZLVUt0UUdWdk9uUlU0OEowdmxxTV8yT2pmTnpGSGFOMUxwUkUydXhJV3VhWXQ0RWlpM2lxNnltcE8xRlJxX0Z4QQ?oc=5",
+          "source": "広島大学",
+          "published_at": "2026-10-07T06:55:04Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "88a3116e2f105613",
-          "title": "2026年度「国際交流週間」を開催します！",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HUEpvU0t5TWN5RGR6YzFfVEVURTFvdlR0RmpKZzZlQjNDbkp3b3B6WXZDZ21rdXhETUVON2VkaTZQTTFUa3VjQjNSVnJpX1V5b3c?oc=5",
-          "source": "小樽商科大学",
-          "published_at": "2026-10-07T02:42:10Z",
+          "id": "749840dc5ffad2e2",
+          "title": "国際的エンジニア育成特別選抜について",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IUFphWEFKT05Yd3JpY1lVTk40RG1lSkRraXprUEdHWlJxYnJMTFpwXzN2dnBLR0RueENzV1RrZlBTTVRVd05kUFM1V0VqWHZkRFlONmJSOVJaczFLakxZeS1ISTVQeUxQclNGeFVod09TZw?oc=5",
+          "source": "八戸工業高等専門学校",
+          "published_at": "2026-10-07T06:36:02Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -219,21 +219,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8f47d9b1da0f4310",
-          "title": "「食品工場Week大阪」開催、省人化・品質向上を支援するDX技術が集結",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hUjB6ZkhsMG1TbGFaTHRfRmZMdUVQc3hleWJfLWhwRmhqbllFTzF5RS1JejdHNFE0NDBOZkFlLVF6eEhiS2V5UVRuak1HQ0YwaGc?oc=5",
-          "source": "電波新聞デジタル",
-          "published_at": "2026-10-05T14:13:49Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "d3cfa2f77b7bd6e1",
           "title": "写真：三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wcFJ3QmFBdEx1SWtYOVE3VGZkXzFXRjRhX3N5VFFHU2RCanNyNm9WMkdmZm54VUhXUkFqZ3NwdHo0X2xGLTRiYnByUFV1ZUdMVnVCcHctMzFjRXJaWjMxNmtwMzUtdw?oc=5",
           "source": "沖縄タイムス社",
           "published_at": "2026-09-30T02:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "825c54bc5667649b",
+          "title": "食品工場Week大阪、省人化・物流効率化技術が集結",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAzc1U4M3lNZ0FRZHkxWTd2NFF0U09EUkhFdHg3TVF3aklhRmtTaXhSTEduYXpfS1lkU20wMWwzcTlvSm5PSWRudjJn?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-09-17T08:26:16Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-07T06:10:33Z",
-  "last_success_at": "2026-10-07T06:10:33Z",
+  "last_attempt_at": "2026-10-07T13:36:23Z",
+  "last_success_at": "2026-10-07T13:36:23Z",
   "consecutive_failure_count": 0
 }
