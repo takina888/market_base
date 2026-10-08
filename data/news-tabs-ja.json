@@ -2,48 +2,57 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-08T06:18:05Z",
+  "generated_at": "2026-10-08T13:42:35Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
     "food_factory",
-    "retail",
     "overseas"
   ],
-  "retained_categories": [
-    "regulations"
-  ],
-  "failed_categories": {},
+  "retained_categories": [],
+  "failed_categories": {
+    "retail": "RuntimeError: 条件に合う日本語記事を取得できませんでした"
+  },
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "1d8db614c7a19298",
-          "title": "世界最大級のエレクトロニクス産業の専門展示会 「electronica 2026」ジャパン・パビリオンに10社出展 ―欧州最大のエレクトロニクス市場で日本企業の挑戦を支援― | 2026年 - 記者発表 - お知らせ・記者発表",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5QMW9ncVgwVmxvLTVpc25tMFVNSlo4cnRmZXpkQXZlSWF6ckhzM2lMNGRpcWZiaGNyQ3pwV0E3RDNINDRSNUxFbFVNQnlCaFlFaC1hUDBfa1IzeHhqWXpKejJkNWgycEJ0TGo0RXljSDV0UQ?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-10-06T15:03:35Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-08T09:48:43Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "568f7fcc69e76248",
-          "title": "中東情勢の緊迫化が変える世界のエネルギー戦略（世界）",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUThXd29hTk1nb1ctUjJXeGMtY2Rhby1jMEdselJFVXlZejhZM3ZnR3pCeExZYjZad013RWd2Q3pMTlhqUjZiTmRTdXIxVDloQVp5Slh1UURYNGtHZmNxNFlPVklhQXZKbWtaNGhyZ19vekN1TmZqb1Z3OVBFOXdWS3pIUDloZw?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-10-06T09:00:33Z",
+          "id": "c2452672cb09d7ed",
+          "title": "「ユニクロ」がH＆M抜き、アパレル世界2位へ（朝日新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NVlIMDRXU0lrNWFQVHBWR1JrbnRXU194eHB6aWZ1cFRFTzYtQnRPRk45ajBKWnYybEgtNXlCVUxHMkJWUWNjVk5WS3FtRDVpVzNOVnFhR09ENTVOMlF3QThCTHdhNEswVFQ5djZNd0FmdDBTQlRfcVFURHUwMVE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-08T08:55:29Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c8c47d5fa448aad8",
-          "title": "「海外展開サポート窓口ふくやま」開所記念式典・セミナーを開催(日本) | ビジネス短信 ―ジェトロの海外ニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zeHdEZk5tTDg3TmZoYUhORG00NjFBZmlleFgyQmkwS2dtT1M0TzRRVTA2UkpTY1Italh5MGYxblktTFAtMl9UUDQ4dzRnV2RNNFdObmZ3aS1FNERqa1N5YmRWVy1ZNWptR3B2Z0NB?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-10-06T06:44:14Z",
+          "id": "7ffdf44f7ae65504",
+          "title": "第66回海外日系人大会開会式における高市総理大臣の祝辞の発出｜外務省",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zOHhMbG9kWkZwN1FrU3hvZVlxTXQ1cER3VV9WTnNRcmt5eUhOTG11VUI2UFc3TmtIbWdRRzZBb2M5M1h1LU0wODFVRGgyNXJhYW5hTGFPdEh6ZXh0ZGJiTzZnUWc2VnJpYU5V?oc=5",
+          "source": "Ministry of Foreign Affairs of Japan",
+          "published_at": "2026-10-08T05:19:27Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b12d14c23a0747ce",
+          "title": "自分の「物語」を描くーA ”Tale” of One’s Own（国際日本学コース：小林未來さん）",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PRWpoLXk5QTNCeFJZeHE4Wm94ZDdLdm51ZzdhZ1VMSjZtQmUxVmNRVUNQV2syVy0zTFhSSk83dEhwRllpM0MwTGFEcGx3N1k1RGlBb25TMk0xWE1jVUgtWFJya2w?oc=5",
+          "source": "早稲田大学",
+          "published_at": "2026-10-08T05:16:13Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,31 +68,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "cebcdd9646baaccc",
+          "title": "「国際ビジネスコミュニケーション学会第86回全国大会」が御殿山キャンパス・グローバルタウンで開かれました",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QMXIzVlRUWmVQZTJaVTg1UjFTT1dFemVEOW9ZUEtyRHJBVXZlalAwS3A1U3pSQnNxSVotdFM1dVA2dUZ1cm1vbWFiTFd5NmdHaThyN1g2ZU5tM2UxYTlNR01R?oc=5",
+          "source": "関西外国語大学",
+          "published_at": "2026-10-08T04:09:12Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "e1ec8f02b1f851d2",
           "title": "卒業生による特別講義「国際協力の理想と現実」を実施しました｜ニュース一覧",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aY1lJV2UydlQ3RXRSdDRTQ01rZTdiMkkzRWxqVktYUzRIbVFsQXUwNkRVR2dBNWJBMDRfQVUtS3Vpb2lyQjl1UVB2QkFVMEs4Tzl5eE90S0d6RW9J?oc=5",
           "source": "京都産業大学",
           "published_at": "2026-10-08T04:07:59Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "463af81160d98406",
-          "title": "国際的幹部人材の必要性",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02bFdmY182NlNyUUhuaHRJSEFTOEZwQnc5SEx3anh3LVlvNlYwaUk1TUUzRVdGeXg1ZnRYaURxYk1zYmttdlc5R0NsUnEyZ0pDWUdtcGRmeVZsdw?oc=5",
-          "source": "キヤノングローバル戦略研究所",
-          "published_at": "2026-10-08T03:58:46Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-08T03:49:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -319,6 +318,16 @@
       "label": "規制関連",
       "articles": [
         {
+          "id": "281c0915fcbfbe8c",
+          "title": "11月15日から、ペーパータオルとトイレットペーパーに関する新たな規制が適用されます。",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd1k0SHM5LWF4cWh3VkJoTF9rX1NTLUx1XzZGSzlSc3BUTEpnTVc2MjdjdTluTGFIWDJmSUc1R0xZangwMC1QelQ1ckRKZjdvbzdNcHJ1ZHVpRnU3VzZsal9nRDJBMnBCbHZybGR4aEZZYXhaOGZQb285dHNyMWxTaFZJejRqNnRFV0E?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-05T14:20:46Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "877aca1009bde7c0",
           "title": "EUが包装基準を引き上げ：加工・輸出企業は、この新たな競争環境に対応するためにどのような準備をすべきか？",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSVFnSk9tYlUtY0NQTHlfRkhkczA2bXg4LVY5WTB2dVBUbkhRT2lNTWdVbzNKYmhPb09ZV3RPTjAtSnlqUXg1Z29QSXpYZUZsUHU5YzdwdVgxM0ttR0loMFJBOEtGR3M2Z2h4ZnlCNGh5Z0NTVlhNUm9KSU8zOTB6RWZkVlBKOHlnMGdmS19icUJLTHQwblRtUVlFbjhyd3VRTWkyMDJCMktaeXNsZjJmXzdhZlpTQQ?oc=5",
@@ -334,6 +343,16 @@
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcWZHWWVuRS1Wd2t4Yi1aTXQtSVNOMDc2SXBjMTBDbThoQ2d1ckRFc1hnUjlFOUVhQUpLVGNPOUFJUk80UVRGRUIxc1dvdFg0RVYyWWZyeDhqNjRmaWdRdEI1NTdqbHQxLWU5MHotcndqTV9mbDhOVVdzaWRCbkpoYUxYOG1oZVlWQnhNaTJzSkllXzJKSlpMdlFEUm55eVFtUnBEVlFaYXR1ZTB5SmpEX0VSU2ptdTA4RGtieE9ub2pLa1MyX3Vj?oc=5",
           "source": "IndexBox",
           "published_at": "2026-10-04T21:46:04Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "94f16d8b1407f485",
+          "title": "栄養成分表示に関する警告表示：改正食品安全法において不可欠な要素。",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVZXTV9aYnhSem9HZ1BGTlc4cG43NVA5TlBFRlJqSnRBTWM5a0l2QklIUTJBbk0zNzM5djl2NkFITjhrZzdpM1VNOFpqXzhxTG5CT2ZzaG5aVXpxajFIRlBRalZ2eUEyNEI3NXg2ZnlxQ0xUMWdYUVRFV1lRd002UGhNVjZsUjA0VURLVmczT3ZVeHpablpfWFR1aUNDYWpEcktBQVBxZlE0QWs?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-02T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -367,31 +386,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8155d426af0e2c28",
-          "title": "処方箋薬ユーザーフィー法改正を議論、創薬・バイオ分野の国際展示会「BIO 2026」(米国) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IWnppSUxuOWg4TFhuSWF1REYxUTVmdmMybF9DazNtRVZSVmxidjI5WHdUNElpMHdTM2hULS1GX3RvRHBnaUhwd3lGZHQ1RjZDYUdvUjk5allLdGVQQnNTX2ZsZy1wS2xYc1BrX1BR?oc=5",
-          "source": "jetro.go.jp",
-          "published_at": "2026-07-09T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f9ed4cf983170143",
-          "title": "米の輸出条件",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBLUNsRDBsb0JfNG9XZFNQYm5yQW5fZGlpaHFCbUFvdVZCTE1Gb25iWHowQVNYMFVQWS01NnVmaTVPYWNfQnZ5bXlJUXEzYmJOTUoxM0dsUHV2LU9URlp5VVpkYVUxb0RGeC1zTw?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-25T10:14:29Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-08T06:18:05Z",
-  "last_success_at": "2026-10-08T06:18:05Z",
+  "last_attempt_at": "2026-10-08T13:42:35Z",
+  "last_success_at": "2026-10-08T13:42:35Z",
   "consecutive_failure_count": 0
 }
