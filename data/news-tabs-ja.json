@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-10-09T06:20:08Z",
+  "generated_at": "2026-10-09T13:29:41Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -17,11 +17,51 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "fb582f2f6800d9ff",
-          "title": "同志社国際高校への補助金をカット 辺野古沖転覆事故受け、京都府（朝日新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5naURXMlBFQW92UGlxNVBMUWNxYWprcEtkSzBieGY5UWZuQ2RpeENGN2MzNG85eWdZU01EZ2J4QW9jcHR4aVpVTERZTHNTb2pHMlk4T2lWbWtNeDA2TzhIQzhTcU1YNGtRejgtRV9UbWZQZGVORkl6RjlSZ0pZQzQ?oc=5",
+          "id": "88c810365314d851",
+          "title": "第8回カーボンリサイクル産学官国際会議2026を開催しました",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zMHdpcFJ5dkVxdExTOWMyTzI5SGV2MFlkYTZzb0RNY1N3aHBSU200N2Ruc015dWhPWnBhd1RDME9US2U3blpoOG5yeFNFNzBJa2hHZUxfRFloTDJYZGJXemxVRQ?oc=5",
+          "source": "経済産業省",
+          "published_at": "2026-10-09T09:40:09Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3f2c240ebba160a4",
+          "title": "タイで豪雨洪水警報発令中！スワンナプーム国際空港洪水時の移動や冠水注意の空港周辺ホテルエリアはどこ？",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeEV1UWZTdjkxRWV1NkJaSzJaYXE5aUFLSW4wd3VNVS1LaWppcHBFZVJfWlhncWdfQzZ2UU0xSWNPeVVqQmJfWmd0TjBWX0RZWjByMmc1aXFOblpVSHViYmZyMEIzRXNzX3NWakp3RWszbWtWdU5sa2ZDSkMwb2RxRHdxSkZFcEI1?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-09T06:02:40Z",
+          "published_at": "2026-10-09T09:02:22Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "67eefebd2e41059e",
+          "title": "Event | 世界銀行グループ ミッドキャリア向けキャリアイベント",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUo4SmlsaVdmVWE3NUJFODB4SDF6Unh1ZHYxWDEzN0ZraHF3LTAzUGt3NEE2ZXRhLUtEb090a3hHTjA5dkVJQlUybXZTaVdNVzlfVTg3dTVVZ3A4dlh0a3lVNEx3UmpYZ3BMRno2WFVueEt3NjlrcnhZaGh3UFV4RlNtVHJxN2pCYml3M2wwbEhRbTBEUkw5R21BWFUwd25hQnN5Tndick0?oc=5",
+          "source": "World Bank Group",
+          "published_at": "2026-10-09T08:57:33Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e2d3264fb53cd3e4",
+          "title": "多専門領域にわたる国際学生ワークショップ（MISW2026）を開催",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nS2Vua0dnTWdMNWVuSnk5UHFwaXdaQXc1RUpxZjZNb2pMT1FMYkZpd0g5bW1ROHJoVnBqcjlTeGNDSWNFb2tVcXVzX0RPaFgtbDZadHpB?oc=5",
+          "source": "Science Tokyo",
+          "published_at": "2026-10-09T08:35:51Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "45036c1cd2ee9783",
+          "title": "国際郵便、料金最大2倍に 27年2月、円安など影響（共同通信）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Yb2tXRENqN241bmZGbXhJNy0xblQtOVVTOE1kRGtoSFVwc1FSZVNDaTN2dXVXdlNiUUllVHh5UGVZbEFYM3NERGpyUC1ZdFRiWWU5ODZkR3Q1NUlycEtQRVJUYmp0YWRzYkFsYVRjQTdGQ0dmMnpXakRzbmN5WUE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-09T08:26:48Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -31,7 +71,7 @@
           "title": "米・ジョージタウン大学WPS研究所と和平調停に関する国際会議を共催",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyX01ORV9oWDhfQmp1Nk1mckQtYWVSX21kMEdZYlhzYWFoVEhkRTktU01lYklqSXlWMXhiTHNvakY1M1RQYUVmYkZadHZJX19kV2pGZUpZeERnWWsxUEhac1p3aG95Z1k?oc=5",
           "source": "笹川平和財団",
-          "published_at": "2026-10-09T05:02:26Z",
+          "published_at": "2026-10-09T05:02:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -42,46 +82,6 @@
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JcUQtOGxyeFo5LXVHd0FzQk1MNDFmRkFZRFZ5Nl9uUG8wOHptekw2WkJqejI3dG9Wbzk4RlpjYzlleURHZzR6Tm9NenNxZWZUeE91cGFwcmVyZ0pxMFQ0dVRRV3E?oc=5",
           "source": "茨城大学",
           "published_at": "2026-10-09T04:02:53Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e0c2689b550179a5",
-          "title": "ハードパワーで読む国際秩序の変化 激化する米中の覇権争い | MRIエコノミック・レビュー | エコノミックインサイト",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMa3VmRUhnSU5FQWtPYkJueWJSNEtzSl9yWGd4Z2xLUWdGd2pLeF9iUW5zYlphcTJVUThYNF9oU0lnOFBnQmh1b3BYM0F6aVhSMXhqN1I0dy01U0FTM1YtUTg2OA?oc=5",
-          "source": "MRI 三菱総合研究所",
-          "published_at": "2026-10-09T03:27:14Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "65942e587767481b",
-          "title": "第13回 新千歳空港国際アニメーション映画祭 上映＆トークショー実施決定！",
-          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNellVRTJLUkxlS2N3R3JvcElQUjg4Nk9yM05YazFzZDZxVkY3UlhuWHdzX3g4ZFc3V2dieGhoWVNaMm52U2FteEd6LUZidlYxbl9VajNZQmFaTjZKb2lQRWQyRC1aaVJ6Yi00ZHJuczkyNkNycFRjeGlVUXRVRm1MTUdhZFpFRlFETHpBVXlZajByak9IcnJjQ3F6QmdselVLejcyUVhjQmFrNnJKWUFZQVhMeE5Td3dDUVVUZGMzb2F5Y2JhVW5ZcjRPdzVsNHh3bmV1a3dfR1F5bUdoS0wwY285QWxXSlpzRzlNQl83LWNNNEZ6Sy1oLUg0S25QRWtWaFpXaXc2VnliclpzbjhaZnNpNk81ZXpIYW90WVNrOURjdFRhcWNqaTdxUmJ1WTdWa0xoYTZEa3czM3k3TElwc1hBM3lCZm5WNXc?oc=5",
-          "source": "機動警察パトレイバー公式サイト",
-          "published_at": "2026-10-09T03:03:09Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "28ef4e60b3828f4c",
-          "title": "[提言] 世界の電化目標35%への日本の積極的な関与と賛同を | 報告書・提言",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HQzNwWjNNY1B2aUhvYUZNRXFkTmVGMmxXQkVZc3lFUHV5MFo1NnQ5bzdNV2g5T29VMmVUR2NIbkFOeE5jUTB3eVV3SE80Nm9iSE5HMGhjLXhXbHowVVNmVjRFMnUzNzBmYzJQZw?oc=5",
-          "source": "自然エネルギー財団",
-          "published_at": "2026-10-09T02:24:35Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "73caf9fa9b8f22d8",
-          "title": "ビジネス・イノベーション・科学・貿易省の事務次官にキャット・リトル氏を任命｜海外記事検索｜研究開発戦略センター（CRDS）",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE93RUtHcUowbm9pZkRBWjd0eDJJbjVGc2hJY3JyYzhvUmtUeGgtYWdNTzVHbjF4Yy1pT0tRX0ZBUW5IbjlUSG5JT3o1M1ZQdVdRTmVtRWEzWlpHWl8zZWl6YjlWSQ?oc=5",
-          "source": "科学技術振興機構（JST）",
-          "published_at": "2026-10-09T02:21:59Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -256,7 +256,7 @@
           "title": "食品スーパーマーケット「大阪屋ショップ日進店」10月2日(金)オープンのお知らせ",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ3ZSVnJaeGVnYWVIT2ZIa0wxa0lOQXpJVGhodkN5YnRhNThqUVNFeUZzUTJJVEp1Q3RWUGVsX0pEZzh5R2k2RFJtc29wYWxoQVhoaFJmQTZHNDRLVVd2VXZmam9FeElteHc?oc=5",
           "source": "PR TIMES",
-          "published_at": "2026-10-01T03:00:02Z",
+          "published_at": "2026-10-01T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -266,7 +266,7 @@
           "title": "オーケーほか／東京都北区に「（仮称）北区豊島四丁目SC計画（店舗面積2670m2）」27年3月23日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TTkQzOHpQRjZLbFJVRExvRm8zeU4zNGh6WEFFTldXRDJYU0gxODE5bU9BYkNzTHNMUFZTU0gtQ3U3NjdRQ2JIbHRURlpsSjFfYlhSa1FR?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-01T01:47:17Z",
+          "published_at": "2026-10-01T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -292,21 +292,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b606d4d6116ceaba",
-          "title": "日本小売業協会／イオン・セブン＆アイなど出展「RETAIL EXPO Tokyo 2026」10月8・9日東京で開催",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hSklMcVZBNEl5WUlDLUZXTzdQUldULS1sOW9VSUNrWmM1YTBycGFoOHFqSmlSMm9uOXFfbVR2WEZzNkstVFJtU2txWjlsTkxCLXZHNW50OA?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-25T07:00:00Z",
+          "id": "44ad950d3fb2e0a2",
+          "title": "関西中四国小売流通特集：さとう・佐藤祥一社長 売上げ・利益が過去最高",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Dc0FZMmh0WFVlWXRnakhYbUVnUmNsNjBhd2hQcm45Mi04LUVrX0JxWjNNemYxMHBZVUZSUzA1Q1JBeGhnbDFQbGlCMmxuWC1PYmphMzQySDdPckhEMkFBUDRZZFFKUTJq?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-09-26T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c390998419acd8c9",
-          "title": "ヤマダストアー／兵庫県宝塚市に「（仮称）宝塚市伊孑志計画（店舗面積3099m2）」27年3月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMWVhLQkVpbjZWa2VqNGNzRUVZS0lDVVBGNWpzeW1lVjkwbWVjYkg0eGRnVkRnWE84eFcyb1FveVM2VWFqN09jMnhpOFl6N0Q4cW9aS1VR?oc=5",
+          "id": "b606d4d6116ceaba",
+          "title": "日本小売業協会／イオン・セブン＆アイなど出展「RETAIL EXPO Tokyo 2026」10月8・9日東京で開催",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hSklMcVZBNEl5WUlDLUZXTzdQUldULS1sOW9VSUNrWmM1YTBycGFoOHFqSmlSMm9uOXFfbVR2WEZzNkstVFJtU2txWjlsTkxCLXZHNW50OA?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-09-16T07:00:00Z",
+          "published_at": "2026-09-25T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -389,7 +389,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-09T06:20:08Z",
-  "last_success_at": "2026-10-09T06:20:08Z",
+  "last_attempt_at": "2026-10-09T13:29:41Z",
+  "last_success_at": "2026-10-09T13:29:41Z",
   "consecutive_failure_count": 0
 }
