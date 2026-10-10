@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-10T06:02:27Z",
+  "generated_at": "2026-10-10T12:43:24Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -49,6 +49,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "2b72ce2db3df5cf4",
+          "title": "ノーベル平和賞はピレイ元ICC判事に 平和と国際法に貢献",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5wTTRrMTY5azctMFhqQ212UmxOSnYyV2tVRHNVWWpUa3hpdXduM0ZubFJyUDdBbVc0dGJ4dm1haFF3SGVUTTNUVl84Rmx2VVlhbVBYa2ZRenV1WUNOWl9PZNIBZkFVX3lxTE5QQnZXN0x3c3lpYlI2U1FvbTZkUGhLXzBIclBNOHRBLVFhTkF4QndoaUpjTjhRRzE5ZHg1cGFvTHMxTWVQaEtzc3NXQ0RGT3FTQzg1ZkdTMlNrZE5mQ0F0MlJoajZSZw?oc=5",
+          "source": "BBC",
+          "published_at": "2026-10-10T03:04:12Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "5d396960652c204c",
           "title": "アニメ『ゾンビのあふれた世界で俺だけが襲われない』「抱かせろ」のシーンを収録したメインPVが公開。黒瀬時子役は伊藤りかこ、牧浦さやか役は三宅麻理恵",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRR3h0ci1ndG1pQVEyQnpzM0IxTnhaNGFBS3RDWjZRRWRXQy16OGRYaG93aFdxTF9FdGpuQmE2YXVSRVA3V2IzMEg4TkFGc1NoX3QtU3hRNA?oc=5",
@@ -59,31 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "3f2c240ebba160a4",
-          "title": "タイで豪雨洪水警報発令中！スワンナプーム国際空港洪水時の移動や冠水注意の空港周辺ホテルエリアはどこ？",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeEV1UWZTdjkxRWV1NkJaSzJaYXE5aUFLSW4wd3VNVS1LaWppcHBFZVJfWlhncWdfQzZ2UU0xSWNPeVVqQmJfWmd0TjBWX0RZWjByMmc1aXFOblpVSHViYmZyMEIzRXNzX3NWakp3RWszbWtWdU5sa2ZDSkMwb2RxRHdxSkZFcEI1?oc=5",
+          "id": "e40e0e10dd8a49e7",
+          "title": "福岡県議会の海外視察 旅行会社への業務委託費、内訳保存せず（毎日新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6ek5sYW1BN3NGZEFpTG14ZEJTVEFXbGREWF9zQnBKY2NwdlFMS3N0RWp5ZEhNWmdHbUtwdmFKcTllZzRnOFBwdmV1anhWZjNWa0RnYTVSbHRESDA3cXZVTU1QeUVFNDVYdDNUVkRIV3Z2UHotbk1VZ19tNzFfOWc?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-09T09:02:22Z",
+          "published_at": "2026-10-10T02:45:21Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "67eefebd2e41059e",
-          "title": "Event | 世界銀行グループ ミッドキャリア向けキャリアイベント",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUo4SmlsaVdmVWE3NUJFODB4SDF6Unh1ZHYxWDEzN0ZraHF3LTAzUGt3NEE2ZXRhLUtEb090a3hHTjA5dkVJQlUybXZTaVdNVzlfVTg3dTVVZ3A4dlh0a3lVNEx3UmpYZ3BMRno2WFVueEt3NjlrcnhZaGh3UFV4RlNtVHJxN2pCYml3M2wwbEhRbTBEUkw5R21BWFUwd25hQnN5Tndick0?oc=5",
-          "source": "World Bank Group",
-          "published_at": "2026-10-09T08:57:33Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e2d3264fb53cd3e4",
-          "title": "多専門領域にわたる国際学生ワークショップ（MISW2026）を開催",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nS2Vua0dnTWdMNWVuSnk5UHFwaXdaQXc1RUpxZjZNb2pMT1FMYkZpd0g5bW1ROHJoVnBqcjlTeGNDSWNFb2tVcXVzX0RPaFgtbDZadHpB?oc=5",
-          "source": "Science Tokyo",
-          "published_at": "2026-10-09T08:35:51Z",
+          "id": "c1ea6c8006f941d4",
+          "title": "次の世界金融危機はここから始まる可能性が高い…米金融大手幹部がゴキブリと非難した｢富裕層に人気の商品｣",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuaXhGU3pzUHZha0hLZ0hzUUFqQW1LNFctMnlOalFvVE1IcUIyeGc4OHlWNlhuekk2TjV5R3VvQXJvSU5HdVNGNHVHR0JkY2ZWN2ZPLVZBVGhxX2p3WmFhR3ZpcjQzUEZEdlMzQUtnWHQ3SnN5a2U0T1UzeHJ5RFE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-10T01:15:49Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -219,21 +219,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6d865337a2a677d3",
-          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-14T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "8f47d9b1da0f4310",
           "title": "「食品工場Week大阪」開催、省人化・品質向上を支援するDX技術が集結",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hUjB6ZkhsMG1TbGFaTHRfRmZMdUVQc3hleWJfLWhwRmhqbllFTzF5RS1JejdHNFE0NDBOZkFlLVF6eEhiS2V5UVRuak1HQ0YwaGc?oc=5",
           "source": "電波新聞デジタル",
           "published_at": "2026-10-05T14:13:49Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d3cfa2f77b7bd6e1",
+          "title": "写真：三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wcFJ3QmFBdEx1SWtYOVE3VGZkXzFXRjRhX3N5VFFHU2RCanNyNm9WMkdmZm54VUhXUkFqZ3NwdHo0X2xGLTRiYnByUFV1ZUdMVnVCcHctMzFjRXJaWjMxNmtwMzUtdw?oc=5",
+          "source": "沖縄タイムス社",
+          "published_at": "2026-09-30T02:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -284,6 +284,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "51ef72633e75c4aa",
+          "title": "マックスバリュ東海／愛知県豊橋市に「（仮称）マックスバリュ豊橋西幸町店（店舗面積4344m2）」27年4月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-28T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "44ad950d3fb2e0a2",
           "title": "関西中四国小売流通特集：さとう・佐藤祥一社長 売上げ・利益が過去最高",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Dc0FZMmh0WFVlWXRnakhYbUVnUmNsNjBhd2hQcm45Mi04LUVrX0JxWjNNemYxMHBZVUZSUzA1Q1JBeGhnbDFQbGlCMmxuWC1PYmphMzQySDdPckhEMkFBUDRZZFFKUTJq?oc=5",
@@ -299,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hSklMcVZBNEl5WUlDLUZXTzdQUldULS1sOW9VSUNrWmM1YTBycGFoOHFqSmlSMm9uOXFfbVR2WEZzNkstVFJtU2txWjlsTkxCLXZHNW50OA?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-25T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c390998419acd8c9",
-          "title": "ヤマダストアー／兵庫県宝塚市に「（仮称）宝塚市伊孑志計画（店舗面積3099m2）」27年3月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMWVhLQkVpbjZWa2VqNGNzRUVZS0lDVVBGNWpzeW1lVjkwbWVjYkg0eGRnVkRnWE84eFcyb1FveVM2VWFqN09jMnhpOFl6N0Q4cW9aS1VR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-16T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-10T06:02:27Z",
-  "last_success_at": "2026-10-10T06:02:27Z",
+  "last_attempt_at": "2026-10-10T12:43:24Z",
+  "last_success_at": "2026-10-10T12:43:24Z",
   "consecutive_failure_count": 0
 }
