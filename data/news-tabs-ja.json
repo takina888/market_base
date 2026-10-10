@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-10T12:43:24Z",
+  "generated_at": "2026-10-10T21:51:44Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "4b2f909ab66794aa",
+          "title": "森下農林水産大臣政務官の海外出張（韓国）結果概要について",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14dDNFNW4ycDF2WHZ1S01TSkE4SjJJd1BTSFVsSWx0NGZKYWMzMXoxUHJGNUxid1dlcXE3b0RHZ2MyUTBmOEFmR3FkaGh6VlBLOVNlRm5iR1hhb2dpZ3UxOXIxM05mWEp4ZmpzS3U5bEM2NUhh?oc=5",
+          "source": "農林水産省",
+          "published_at": "2026-10-10T10:01:36Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "88c810365314d851",
           "title": "第8回カーボンリサイクル産学官国際会議2026を開催しました",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zMHdpcFJ5dkVxdExTOWMyTzI5SGV2MFlkYTZzb0RNY1N3aHBSU200N2Ruc015dWhPWnBhd1RDME9US2U3blpoOG5yeFNFNzBJa2hHZUxfRFloTDJYZGJXemxVRQ?oc=5",
           "source": "経済産業省",
           "published_at": "2026-10-09T09:40:09Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "fffc72c5a0915378",
+          "title": "「世界キツネザルの日」に関するイベントを開催します",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ubExPUEluSE5kMGczS0x4Z285THFHOGNkRWZSN3BkNldNUkxXVmdfbEtwTjM4bjRwRlo3WjRBOG9wcnBvTmVFOTNQVFBBZHVWb3lnTDBEdk9WWnVCdWRfVUFn?oc=5",
+          "source": "東京ズーネット",
+          "published_at": "2026-10-10T07:52:14Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "cbe267d6347f7bd5",
+          "title": "【声明】国際刑事裁判所（ICC）に対する米国政府の包括的制裁措置への抗議と日本政府への要望",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWRlNpV25jcDEtVkhoSkxRWnZGSmRrcU84NWNQQXZ1eUFIazhJUEZZd2NuTFl5c2ZnaXlOcDRkLTlYRDBwNng0aU5nc2tTQjFmMkRaSGhqZGQ2ZXZE?oc=5",
+          "source": "新・国民民主党",
+          "published_at": "2026-10-10T06:00:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -54,36 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5wTTRrMTY5azctMFhqQ212UmxOSnYyV2tVRHNVWWpUa3hpdXduM0ZubFJyUDdBbVc0dGJ4dm1haFF3SGVUTTNUVl84Rmx2VVlhbVBYa2ZRenV1WUNOWl9PZNIBZkFVX3lxTE5QQnZXN0x3c3lpYlI2U1FvbTZkUGhLXzBIclBNOHRBLVFhTkF4QndoaUpjTjhRRzE5ZHg1cGFvTHMxTWVQaEtzc3NXQ0RGT3FTQzg1ZkdTMlNrZE5mQ0F0MlJoajZSZw?oc=5",
           "source": "BBC",
           "published_at": "2026-10-10T03:04:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5d396960652c204c",
-          "title": "アニメ『ゾンビのあふれた世界で俺だけが襲われない』「抱かせろ」のシーンを収録したメインPVが公開。黒瀬時子役は伊藤りかこ、牧浦さやか役は三宅麻理恵",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRR3h0ci1ndG1pQVEyQnpzM0IxTnhaNGFBS3RDWjZRRWRXQy16OGRYaG93aFdxTF9FdGpuQmE2YXVSRVA3V2IzMEg4TkFGc1NoX3QtU3hRNA?oc=5",
-          "source": "ファミ通",
-          "published_at": "2026-10-10T03:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e40e0e10dd8a49e7",
-          "title": "福岡県議会の海外視察 旅行会社への業務委託費、内訳保存せず（毎日新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6ek5sYW1BN3NGZEFpTG14ZEJTVEFXbGREWF9zQnBKY2NwdlFMS3N0RWp5ZEhNWmdHbUtwdmFKcTllZzRnOFBwdmV1anhWZjNWa0RnYTVSbHRESDA3cXZVTU1QeUVFNDVYdDNUVkRIV3Z2UHotbk1VZ19tNzFfOWc?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-10T02:45:21Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c1ea6c8006f941d4",
-          "title": "次の世界金融危機はここから始まる可能性が高い…米金融大手幹部がゴキブリと非難した｢富裕層に人気の商品｣",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuaXhGU3pzUHZha0hLZ0hzUUFqQW1LNFctMnlOalFvVE1IcUIyeGc4OHlWNlhuekk2TjV5R3VvQXJvSU5HdVNGNHVHR0JkY2ZWN2ZPLVZBVGhxX2p3WmFhR3ZpcjQzUEZEdlMzQUtnWHQ3SnN5a2U0T1UzeHJ5RFE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-10T01:15:49Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -219,11 +219,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8f47d9b1da0f4310",
-          "title": "「食品工場Week大阪」開催、省人化・品質向上を支援するDX技術が集結",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hUjB6ZkhsMG1TbGFaTHRfRmZMdUVQc3hleWJfLWhwRmhqbllFTzF5RS1JejdHNFE0NDBOZkFlLVF6eEhiS2V5UVRuak1HQ0YwaGc?oc=5",
-          "source": "電波新聞デジタル",
-          "published_at": "2026-10-05T14:13:49Z",
+          "id": "6d865337a2a677d3",
+          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-14T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -284,31 +284,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "51ef72633e75c4aa",
-          "title": "マックスバリュ東海／愛知県豊橋市に「（仮称）マックスバリュ豊橋西幸町店（店舗面積4344m2）」27年4月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "44ad950d3fb2e0a2",
-          "title": "関西中四国小売流通特集：さとう・佐藤祥一社長 売上げ・利益が過去最高",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Dc0FZMmh0WFVlWXRnakhYbUVnUmNsNjBhd2hQcm45Mi04LUVrX0JxWjNNemYxMHBZVUZSUzA1Q1JBeGhnbDFQbGlCMmxuWC1PYmphMzQySDdPckhEMkFBUDRZZFFKUTJq?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-09-26T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "b606d4d6116ceaba",
           "title": "日本小売業協会／イオン・セブン＆アイなど出展「RETAIL EXPO Tokyo 2026」10月8・9日東京で開催",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hSklMcVZBNEl5WUlDLUZXTzdQUldULS1sOW9VSUNrWmM1YTBycGFoOHFqSmlSMm9uOXFfbVR2WEZzNkstVFJtU2txWjlsTkxCLXZHNW50OA?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-25T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c390998419acd8c9",
+          "title": "ヤマダストアー／兵庫県宝塚市に「（仮称）宝塚市伊孑志計画（店舗面積3099m2）」27年3月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMWVhLQkVpbjZWa2VqNGNzRUVZS0lDVVBGNWpzeW1lVjkwbWVjYkg0eGRnVkRnWE84eFcyb1FveVM2VWFqN09jMnhpOFl6N0Q4cW9aS1VR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-16T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ca823d396389331e",
+          "title": "バロー／名古屋市に「スーパーマーケットバロー矢田店」9月18日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tMkd6TmNJMnkxZUtST2MzWWtseGRoNmM3SExSc0htWS1HeUwzbUQ4bHdDOHhna3VOaWdacXhEajZRVWxkTHpIbW51MUpsb0trLXR4Nw?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-11T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-10T12:43:24Z",
-  "last_success_at": "2026-10-10T12:43:24Z",
+  "last_attempt_at": "2026-10-10T21:51:44Z",
+  "last_success_at": "2026-10-10T21:51:44Z",
   "consecutive_failure_count": 0
 }
