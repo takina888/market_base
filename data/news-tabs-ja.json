@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "status": "live",
+  "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-09T22:44:33Z",
+  "generated_at": "2026-10-10T06:02:27Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -10,7 +10,9 @@
     "retail",
     "overseas"
   ],
-  "retained_categories": [],
+  "retained_categories": [
+    "regulations"
+  ],
   "failed_categories": {},
   "categories": {
     "overseas": {
@@ -27,11 +29,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6daa1df966d3f021",
-          "title": "ノーベル平和賞に南アフリカの国際法学者ナバネセム・ピレイさん（日テレNEWS NNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XalF6djFMRU8wSFpVOHZteVRZZkJPY3RTT0ZWM0V3UVV3Y1diUTdhU0MxcW5lU2VkZGRlOWdnWmJ3S3AzdTBuRDVaSGg4WkZuMXUyaV93clB4NWswblNrYk9IcHBWVUFMVG5JdlR3MmZQaFhTTTJaa3lCOGJHcHc?oc=5",
+          "id": "bf7aa8e45dbff07b",
+          "title": "アメリカが国際刑事裁判所への制裁発表、 ICCは「法の支配への攻撃」と非難",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05dGxRV1M1bDM2XzMxYTBlLVdMZDRMM21TTW9BZ0l6RXdZWE5ra0ktTkVyWEVZYTlWYXBsbWJUT3BzelRGMkR0am53V1kxVGtEeHZobDI1LXBJMzRGSWJNM9IBZkFVX3lxTE1xZnBTQ2V1dG1CMjkxaUdnTjJWc1pTTElmdDlGVldtczJvaG9FcDdIc0haVWpKS0VRdW85YVhHbXR0SnRvQXgzWWlyU2UyWEQ5OVl4eXFvejBUZTY4Z0UwQUtBbEc3QQ?oc=5",
+          "source": "BBC",
+          "published_at": "2026-10-10T04:39:12Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ae0e37f5ac77cca0",
+          "title": "レオ14世アッシジへ、世界平和祈祷集会の創始から40年に",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY1lGUEg2YUlKTmlNaUF6SnBxSGRad3lBRFBNWlNzMjNrZUdZdWNmamp4T2V2cGNaQUJqYWM3VGpsbGJBOTJSUVVYdkJVUk81Y1RUN3JiQ3lDT3NEdXQyMndnMVlRTGdxR2EwNGg5Y2FNWHdfZXduNEVPV3U5dFhYVGZ5M2dPeXNtNWVqd2QxVkdJT2wtUnRXODM2UUZ6eE9KUEE?oc=5",
+          "source": "Vatican News",
+          "published_at": "2026-10-10T03:20:16Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5d396960652c204c",
+          "title": "アニメ『ゾンビのあふれた世界で俺だけが襲われない』「抱かせろ」のシーンを収録したメインPVが公開。黒瀬時子役は伊藤りかこ、牧浦さやか役は三宅麻理恵",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRR3h0ci1ndG1pQVEyQnpzM0IxTnhaNGFBS3RDWjZRRWRXQy16OGRYaG93aFdxTF9FdGpuQmE2YXVSRVA3V2IzMEg4TkFGc1NoX3QtU3hRNA?oc=5",
+          "source": "ファミ通",
+          "published_at": "2026-10-10T03:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3f2c240ebba160a4",
+          "title": "タイで豪雨洪水警報発令中！スワンナプーム国際空港洪水時の移動や冠水注意の空港周辺ホテルエリアはどこ？",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeEV1UWZTdjkxRWV1NkJaSzJaYXE5aUFLSW4wd3VNVS1LaWppcHBFZVJfWlhncWdfQzZ2UU0xSWNPeVVqQmJfWmd0TjBWX0RZWjByMmc1aXFOblpVSHViYmZyMEIzRXNzX3NWakp3RWszbWtWdU5sa2ZDSkMwb2RxRHdxSkZFcEI1?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-09T09:09:00Z",
+          "published_at": "2026-10-09T09:02:22Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -52,36 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nS2Vua0dnTWdMNWVuSnk5UHFwaXdaQXc1RUpxZjZNb2pMT1FMYkZpd0g5bW1ROHJoVnBqcjlTeGNDSWNFb2tVcXVzX0RPaFgtbDZadHpB?oc=5",
           "source": "Science Tokyo",
           "published_at": "2026-10-09T08:35:51Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "45036c1cd2ee9783",
-          "title": "国際郵便、料金最大2倍に 27年2月、円安など影響（共同通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Yb2tXRENqN241bmZGbXhJNy0xblQtOVVTOE1kRGtoSFVwc1FSZVNDaTN2dXVXdlNiUUllVHh5UGVZbEFYM3NERGpyUC1ZdFRiWWU5ODZkR3Q1NUlycEtQRVJUYmp0YWRzYkFsYVRjQTdGQ0dmMnpXakRzbmN5WUE?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-09T08:26:48Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "332ab17967bc3219",
-          "title": "舞台『世界の終りとハードボイルド・ワンダーランド』ロンドン公演10月8日(木)～10月11日(日)開幕！／藤原竜也・森田望智よりコメント到着｜【公式】ホリプロステージ｜チケット情報・販売・購入・予約",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NRGVHajJDeDlxRHAyTHcycThoNUZKZGZSR1VpWWJQVFZvb1Uxd1NvcFZpN2J1eVJJQnAwWEZMbGdZSExiLW8wWmZaQVhWWFJ3VUVlN1E2c04xWEFPdmZFTHp0RHY?oc=5",
-          "source": "HORIPRO STAGE",
-          "published_at": "2026-10-09T08:01:26Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9249cc27555b91e8",
-          "title": "「レイトン教授と蒸気の新世界」，パッケージ版の早期購入特典・ダウンロード版の予約特典は「シリーズサウンドセレクション」",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5aDAwamxIOUZsVFpBMjRqbHA5LTd2Y1lNYkRxMVA1ZFhTNTQwdVJnbGtESTNMWTlDQ1JZRUNaY05GN1A3TkRXQ2xWNXZ5UTFYWGV1aS1DaXJtdjV2d1lTNDJmcw?oc=5",
-          "source": "4Gamer.net",
-          "published_at": "2026-10-09T06:36:33Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -106,7 +108,7 @@
           "title": "AIコーヒー豆選別機 beAns-Eye（ビーンズ・アイ）をSCAJ2026で先行公開",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBNDVGVFBna0pldTVTZHg5ZTk5Q1c5ck5BZ0hoLTIwWlk5ck9qQVVrbGc5N1RXVWhleTB1OHVuUXdsN2xTUWwwcWJBUTdXVVFvVWc5WWNkWXVMbGRuVE9rbVBoXzRqU1lhVWc?oc=5",
           "source": "PR TIMES",
-          "published_at": "2026-09-30T01:00:02Z",
+          "published_at": "2026-09-30T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -132,6 +134,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "ee7a4d47f365962f",
+          "title": "新馬鈴薯共同選別機安全操業祈願祭に参列しました。：北海道農政事務所",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdm9LVGJSMVZERXI0clMwc2h3b1h1bmY4OUhWNWhFRERGUGY3NWFnLXVULXFBUXlUNGhwWVhYamNiS3RSb2poRmRqV1JYS01jejhzcURHR3F6cTlQM1V1emtReU90OGNPRTdla3ZCczJUSFA3ZmFvcW5QNTNnMFE4eXE2ZGRFSEE?oc=5",
+          "source": "農林水産省",
+          "published_at": "2026-08-18T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "a772bd383a2af7eb",
           "title": "日本盛、大型紙パック充填機を移設",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
@@ -147,16 +159,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-07-16T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ddba8030e0d23987",
-          "title": "鈴木知事が今金男しゃくの選別機など視察 生食用の輸入「万全な対策なければ受け入れられない」",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNTmhydms0eWthb0VzOFFFXzlTNVg2VnVsODVvekJjVHY5YlJqWS1KT3AxbXllUzdXVnVLUTgxaDVoS0ZuS3V0M053cDBPQTlGY1JBcEhZMDZrQQ?oc=5",
-          "source": "北海道新聞デジタル",
-          "published_at": "2026-10-06T07:59:35Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -217,21 +219,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8f47d9b1da0f4310",
-          "title": "「食品工場Week大阪」開催、省人化・品質向上を支援するDX技術が集結",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hUjB6ZkhsMG1TbGFaTHRfRmZMdUVQc3hleWJfLWhwRmhqbllFTzF5RS1JejdHNFE0NDBOZkFlLVF6eEhiS2V5UVRuak1HQ0YwaGc?oc=5",
-          "source": "電波新聞デジタル",
-          "published_at": "2026-10-05T14:13:49Z",
+          "id": "6d865337a2a677d3",
+          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-14T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d3cfa2f77b7bd6e1",
-          "title": "写真：三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wcFJ3QmFBdEx1SWtYOVE3VGZkXzFXRjRhX3N5VFFHU2RCanNyNm9WMkdmZm54VUhXUkFqZ3NwdHo0X2xGLTRiYnByUFV1ZUdMVnVCcHctMzFjRXJaWjMxNmtwMzUtdw?oc=5",
-          "source": "沖縄タイムス社",
-          "published_at": "2026-09-30T02:00:00Z",
+          "id": "8f47d9b1da0f4310",
+          "title": "「食品工場Week大阪」開催、省人化・品質向上を支援するDX技術が集結",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hUjB6ZkhsMG1TbGFaTHRfRmZMdUVQc3hleWJfLWhwRmhqbllFTzF5RS1JejdHNFE0NDBOZkFlLVF6eEhiS2V5UVRuak1HQ0YwaGc?oc=5",
+          "source": "電波新聞デジタル",
+          "published_at": "2026-10-05T14:13:49Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -347,16 +349,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8d53ef1d55d67506",
-          "title": "不純物標準物質市場2035年予測：医薬品規制の厳格化が成長を牽引",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcWZHWWVuRS1Wd2t4Yi1aTXQtSVNOMDc2SXBjMTBDbThoQ2d1ckRFc1hnUjlFOUVhQUpLVGNPOUFJUk80UVRGRUIxc1dvdFg0RVYyWWZyeDhqNjRmaWdRdEI1NTdqbHQxLWU5MHotcndqTV9mbDhOVVdzaWRCbkpoYUxYOG1oZVlWQnhNaTJzSkllXzJKSlpMdlFEUm55eVFtUnBEVlFaYXR1ZTB5SmpEX0VSU2ptdTA4RGtieE9ub2pLa1MyX3Vj?oc=5",
-          "source": "IndexBox",
-          "published_at": "2026-10-04T21:46:04Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "94f16d8b1407f485",
           "title": "栄養成分表示に関する警告表示：改正食品安全法において不可欠な要素。",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVZXTV9aYnhSem9HZ1BGTlc4cG43NVA5TlBFRlJqSnRBTWM5a0l2QklIUTJBbk0zNzM5djl2NkFITjhrZzdpM1VNOFpqXzhxTG5CT2ZzaG5aVXpxajFIRlBRalZ2eUEyNEI3NXg2ZnlxQ0xUMWdYUVRFV1lRd002UGhNVjZsUjA0VURLVmczT3ZVeHpablpfWFR1aUNDYWpEcktBQVBxZlE0QWs?oc=5",
@@ -385,11 +377,21 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8d53ef1d55d67506",
+          "title": "不純物標準物質市場2035年予測：医薬品規制の厳格化が成長を牽引",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcWZHWWVuRS1Wd2t4Yi1aTXQtSVNOMDc2SXBjMTBDbThoQ2d1ckRFc1hnUjlFOUVhQUpLVGNPOUFJUk80UVRGRUIxc1dvdFg0RVYyWWZyeDhqNjRmaWdRdEI1NTdqbHQxLWU5MHotcndqTV9mbDhOVVdzaWRCbkpoYUxYOG1oZVlWQnhNaTJzSkllXzJKSlpMdlFEUm55eVFtUnBEVlFaYXR1ZTB5SmpEX0VSU2ptdTA4RGtieE9ub2pLa1MyX3Vj?oc=5",
+          "source": "IndexBox",
+          "published_at": "2026-10-04T21:46:04Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-09T22:44:33Z",
-  "last_success_at": "2026-10-09T22:44:33Z",
+  "last_attempt_at": "2026-10-10T06:02:27Z",
+  "last_success_at": "2026-10-10T06:02:27Z",
   "consecutive_failure_count": 0
 }
