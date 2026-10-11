@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-10T21:51:44Z",
+  "generated_at": "2026-10-11T05:59:51Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -23,7 +23,7 @@
           "title": "森下農林水産大臣政務官の海外出張（韓国）結果概要について",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14dDNFNW4ycDF2WHZ1S01TSkE4SjJJd1BTSFVsSWx0NGZKYWMzMXoxUHJGNUxid1dlcXE3b0RHZ2MyUTBmOEFmR3FkaGh6VlBLOVNlRm5iR1hhb2dpZ3UxOXIxM05mWEp4ZmpzS3U5bEM2NUhh?oc=5",
           "source": "農林水産省",
-          "published_at": "2026-10-10T10:01:36Z",
+          "published_at": "2026-10-10T20:03:50Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -34,6 +34,16 @@
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zMHdpcFJ5dkVxdExTOWMyTzI5SGV2MFlkYTZzb0RNY1N3aHBSU200N2Ruc015dWhPWnBhd1RDME9US2U3blpoOG5yeFNFNzBJa2hHZUxfRFloTDJYZGJXemxVRQ?oc=5",
           "source": "経済産業省",
           "published_at": "2026-10-09T09:40:09Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "74bdd6d222beccfd",
+          "title": "この素晴らしい世界に祝福を！チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBWLU5jdWJ2ZWdJVlEtX3Z3aWozZDB4SlJIZ0JqMVNzUERsYm9WV19mUDBDdjZfNGwwb3dNd0p3b0tkalZTQTZJckx2MlE?oc=5",
+          "source": "ABEMA",
+          "published_at": "2026-10-10T15:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -64,16 +74,6 @@
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05dGxRV1M1bDM2XzMxYTBlLVdMZDRMM21TTW9BZ0l6RXdZWE5ra0ktTkVyWEVZYTlWYXBsbWJUT3BzelRGMkR0am53V1kxVGtEeHZobDI1LXBJMzRGSWJNM9IBZkFVX3lxTE1xZnBTQ2V1dG1CMjkxaUdnTjJWc1pTTElmdDlGVldtczJvaG9FcDdIc0haVWpKS0VRdW85YVhHbXR0SnRvQXgzWWlyU2UyWEQ5OVl4eXFvejBUZTY4Z0UwQUtBbEc3QQ?oc=5",
           "source": "BBC",
           "published_at": "2026-10-10T04:39:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ae0e37f5ac77cca0",
-          "title": "レオ14世アッシジへ、世界平和祈祷集会の創始から40年に",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY1lGUEg2YUlKTmlNaUF6SnBxSGRad3lBRFBNWlNzMjNrZUdZdWNmamp4T2V2cGNaQUJqYWM3VGpsbGJBOTJSUVVYdkJVUk81Y1RUN3JiQ3lDT3NEdXQyMndnMVlRTGdxR2EwNGg5Y2FNWHdfZXduNEVPV3U5dFhYVGZ5M2dPeXNtNWVqd2QxVkdJT2wtUnRXODM2UUZ6eE9KUEE?oc=5",
-          "source": "Vatican News",
-          "published_at": "2026-10-10T03:20:16Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -199,6 +199,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "d8eb749f3473be48",
+          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-15T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "56b76612a9a8629b",
           "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
@@ -224,16 +234,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-14T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d3cfa2f77b7bd6e1",
-          "title": "写真：三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wcFJ3QmFBdEx1SWtYOVE3VGZkXzFXRjRhX3N5VFFHU2RCanNyNm9WMkdmZm54VUhXUkFqZ3NwdHo0X2xGLTRiYnByUFV1ZUdMVnVCcHctMzFjRXJaWjMxNmtwMzUtdw?oc=5",
-          "source": "沖縄タイムス社",
-          "published_at": "2026-09-30T02:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -284,6 +284,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "44ad950d3fb2e0a2",
+          "title": "関西中四国小売流通特集：さとう・佐藤祥一社長 売上げ・利益が過去最高",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Dc0FZMmh0WFVlWXRnakhYbUVnUmNsNjBhd2hQcm45Mi04LUVrX0JxWjNNemYxMHBZVUZSUzA1Q1JBeGhnbDFQbGlCMmxuWC1PYmphMzQySDdPckhEMkFBUDRZZFFKUTJq?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-09-26T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b606d4d6116ceaba",
           "title": "日本小売業協会／イオン・セブン＆アイなど出展「RETAIL EXPO Tokyo 2026」10月8・9日東京で開催",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hSklMcVZBNEl5WUlDLUZXTzdQUldULS1sOW9VSUNrWmM1YTBycGFoOHFqSmlSMm9uOXFfbVR2WEZzNkstVFJtU2txWjlsTkxCLXZHNW50OA?oc=5",
@@ -302,22 +312,22 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ca823d396389331e",
-          "title": "バロー／名古屋市に「スーパーマーケットバロー矢田店」9月18日オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tMkd6TmNJMnkxZUtST2MzWWtseGRoNmM3SExSc0htWS1HeUwzbUQ4bHdDOHhna3VOaWdacXhEajZRVWxkTHpIbW51MUpsb0trLXR4Nw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-11T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "1898e3179c601256",
+          "title": "シンガポールに香辛料やインスタントラーメンを輸出する企業は、新たな規制に留意すべきである。",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM00wQkhwczQ2cDVFTk5DS0MzUEF0QlBFRFlXOThrY1NuYlB1TC1KTTJRb0hiRmJZUG1NcVFEWktkc0pwWTl3QjFtRmZUWnNhUmU5NVUweGdIVTRBNUtBVHduRVhMWXFvOU00TWFnTDB5clprOEFienQ5WUNzTlBhZXE5RWt1UnlHSmtOVUJic3B0S3ZVWTN1dUJOWTVuamowSnc?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-11T01:12:27Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "281c0915fcbfbe8c",
           "title": "11月15日から、ペーパータオルとトイレットペーパーに関する新たな規制が適用されます。",
@@ -359,16 +369,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0c38f8461be22446",
-          "title": "政府は米の輸出入に関する新たな規制を発表した。",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQlhDRnVkY1lHd2djcUJOaTBMbGo5VnBfZUZuYUtoVXc1WHFHWTNlMUlFdGk0UFh0anY3Y3hJY214TTlqeFJKbWVhUzFzTjhOcE9GaTFJaFdvd2JjSkVyZU5RdXd0NVpWdlJzRVRyVGlDSUtlNEluLW1fTWR3OWZKWmgtOVJPWGRFY3N2dzVmZWlPX2dG?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-01T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
@@ -379,11 +379,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8d53ef1d55d67506",
-          "title": "不純物標準物質市場2035年予測：医薬品規制の厳格化が成長を牽引",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcWZHWWVuRS1Wd2t4Yi1aTXQtSVNOMDc2SXBjMTBDbThoQ2d1ckRFc1hnUjlFOUVhQUpLVGNPOUFJUk80UVRGRUIxc1dvdFg0RVYyWWZyeDhqNjRmaWdRdEI1NTdqbHQxLWU5MHotcndqTV9mbDhOVVdzaWRCbkpoYUxYOG1oZVlWQnhNaTJzSkllXzJKSlpMdlFEUm55eVFtUnBEVlFaYXR1ZTB5SmpEX0VSU2ptdTA4RGtieE9ub2pLa1MyX3Vj?oc=5",
-          "source": "IndexBox",
-          "published_at": "2026-10-04T21:46:04Z",
+          "id": "0c38f8461be22446",
+          "title": "政府は米の輸出入に関する新たな規制を発表した。",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQlhDRnVkY1lHd2djcUJOaTBMbGo5VnBfZUZuYUtoVXc1WHFHWTNlMUlFdGk0UFh0anY3Y3hJY214TTlqeFJKbWVhUzFzTjhOcE9GaTFJaFdvd2JjSkVyZU5RdXd0NVpWdlJzRVRyVGlDSUtlNEluLW1fTWR3OWZKWmgtOVJPWGRFY3N2dzVmZWlPX2dG?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-01T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-10T21:51:44Z",
-  "last_success_at": "2026-10-10T21:51:44Z",
+  "last_attempt_at": "2026-10-11T05:59:51Z",
+  "last_success_at": "2026-10-11T05:59:51Z",
   "consecutive_failure_count": 0
 }
