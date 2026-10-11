@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-11T05:59:51Z",
+  "generated_at": "2026-10-11T13:05:29Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -39,6 +39,36 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "625d8d2fa76e3fba",
+          "title": "来たれ！異世界の来訪者！ | エンタテインメント",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONDZjSUkxQmFMYVdUVDM4ZThCdjgwSjRfOEQ2N0FFQ3hMLWpwdjNlN2g5dnFqQXpJVnZhUEhxMi14VUtDZ01ZZzc2Wm1rSEU1OXA1MEd0S041cjREV25BSGtKbE1kU0NoWFVBaWpERmQwQ3lhSk41VUd0T09nUnZ0dzBCYmc?oc=5",
+          "source": "東映株式会社",
+          "published_at": "2026-10-11T02:41:13Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a735dbec0091b083",
+          "title": "東京・臨海部で初開催、国際美術展「TOKYO ATLAS」が開幕。都市の風景に介入し、歴史や記憶を呼び覚ます",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81ek9CSmRSV1FhTFlvejV1SkVja1RKX0lGdXdoQTFXclplRXBfUXlZSXBDQ2Z6T2JLelBhYVpiNFhiYkdDQlVjUXM3WU5GUkVfTU1HNjhnSzJnSmVoNlVvamNLVFlwRnptTmxQMVIwamVNZTg?oc=5",
+          "source": "Tokyo Art Beat",
+          "published_at": "2026-10-11T00:14:32Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9188cb182cdb0be2",
+          "title": "サウジ首都の国際空港に攻撃 12人が死亡 300人以上けが フーシ派関与か（TBS NEWS DIG Powered by JNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNdWp3U2RuUWdSX2dZZHpxRHFFOEpKUnBrMUlXdklZQjlCUGd2bTN0QW1xeHFfeWlUSGFBZ1VUSk5ETHZZMW1SNkEzbmNuMENVLWlNb0h3SjN2azUteEQxVS1laG9RYWRhSGd4TjdzZVpSaVlGNkVxWXhIeW5YaWc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-10T22:57:16Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "74bdd6d222beccfd",
           "title": "この素晴らしい世界に祝福を！チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBWLU5jdWJ2ZWdJVlEtX3Z3aWozZDB4SlJIZ0JqMVNzUERsYm9WV19mUDBDdjZfNGwwb3dNd0p3b0tkalZTQTZJckx2MlE?oc=5",
@@ -54,36 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ubExPUEluSE5kMGczS0x4Z285THFHOGNkRWZSN3BkNldNUkxXVmdfbEtwTjM4bjRwRlo3WjRBOG9wcnBvTmVFOTNQVFBBZHVWb3lnTDBEdk9WWnVCdWRfVUFn?oc=5",
           "source": "東京ズーネット",
           "published_at": "2026-10-10T07:52:14Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "cbe267d6347f7bd5",
-          "title": "【声明】国際刑事裁判所（ICC）に対する米国政府の包括的制裁措置への抗議と日本政府への要望",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWRlNpV25jcDEtVkhoSkxRWnZGSmRrcU84NWNQQXZ1eUFIazhJUEZZd2NuTFl5c2ZnaXlOcDRkLTlYRDBwNng0aU5nc2tTQjFmMkRaSGhqZGQ2ZXZE?oc=5",
-          "source": "新・国民民主党",
-          "published_at": "2026-10-10T06:00:06Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "bf7aa8e45dbff07b",
-          "title": "アメリカが国際刑事裁判所への制裁発表、 ICCは「法の支配への攻撃」と非難",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05dGxRV1M1bDM2XzMxYTBlLVdMZDRMM21TTW9BZ0l6RXdZWE5ra0ktTkVyWEVZYTlWYXBsbWJUT3BzelRGMkR0am53V1kxVGtEeHZobDI1LXBJMzRGSWJNM9IBZkFVX3lxTE1xZnBTQ2V1dG1CMjkxaUdnTjJWc1pTTElmdDlGVldtczJvaG9FcDdIc0haVWpKS0VRdW85YVhHbXR0SnRvQXgzWWlyU2UyWEQ5OVl4eXFvejBUZTY4Z0UwQUtBbEc3QQ?oc=5",
-          "source": "BBC",
-          "published_at": "2026-10-10T04:39:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2b72ce2db3df5cf4",
-          "title": "ノーベル平和賞はピレイ元ICC判事に 平和と国際法に貢献",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5wTTRrMTY5azctMFhqQ212UmxOSnYyV2tVRHNVWWpUa3hpdXduM0ZubFJyUDdBbVc0dGJ4dm1haFF3SGVUTTNUVl84Rmx2VVlhbVBYa2ZRenV1WUNOWl9PZNIBZkFVX3lxTE5QQnZXN0x3c3lpYlI2U1FvbTZkUGhLXzBIclBNOHRBLVFhTkF4QndoaUpjTjhRRzE5ZHg1cGFvTHMxTWVQaEtzc3NXQ0RGT3FTQzg1ZkdTMlNrZE5mQ0F0MlJoajZSZw?oc=5",
-          "source": "BBC",
-          "published_at": "2026-10-10T03:04:12Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -294,21 +294,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b606d4d6116ceaba",
-          "title": "日本小売業協会／イオン・セブン＆アイなど出展「RETAIL EXPO Tokyo 2026」10月8・9日東京で開催",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hSklMcVZBNEl5WUlDLUZXTzdQUldULS1sOW9VSUNrWmM1YTBycGFoOHFqSmlSMm9uOXFfbVR2WEZzNkstVFJtU2txWjlsTkxCLXZHNW50OA?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-25T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "c390998419acd8c9",
           "title": "ヤマダストアー／兵庫県宝塚市に「（仮称）宝塚市伊孑志計画（店舗面積3099m2）」27年3月1日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMWVhLQkVpbjZWa2VqNGNzRUVZS0lDVVBGNWpzeW1lVjkwbWVjYkg0eGRnVkRnWE84eFcyb1FveVM2VWFqN09jMnhpOFl6N0Q4cW9aS1VR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-16T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d884928892a28959",
+          "title": "マックスバリュ浜松三方原店跡に愛知展開のスーパー「ドミー」 11月下旬オープン予定、県内初出店 浜松市中央区",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5lRHJyRVRSMHZWVlllMVQ3cG5heTFOOHlrei1HZW94aFFhd2c4dnJ3ZjVITTBkbkN6VTl6SkNhVF9LckRzRUtESTdvZFNyZkNCVGs0LV9SSW5BTEVPOE5QV21pRkZUMHhjd2I0a3l2OE44VF9wQTBJR25VUDYxbGc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-10T02:15:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-11T05:59:51Z",
-  "last_success_at": "2026-10-11T05:59:51Z",
+  "last_attempt_at": "2026-10-11T13:05:29Z",
+  "last_success_at": "2026-10-11T13:05:29Z",
   "consecutive_failure_count": 0
 }
