@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-12T06:10:15Z",
+  "generated_at": "2026-10-12T15:43:52Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -49,41 +49,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "3472a699c4ae2236",
-          "title": "中野窃盗 被告は国際的窃盗団か",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1JYUQwV0Z5b3RCQ0Y4ZlEtZ08xM19IbVBFMlhkckkzSk95MjVQbnplZ1lzU0FKSmloYkp0b1ptVC1zQjN4dDBxb3ItS2Y2cGlZ?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-12T01:42:07Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-12T13:16:47Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b9a3c515a365e275",
-          "title": "不正アクセス、世界で急増 「隅っこの脆弱性をAIが見逃さず」 AIが自律的攻撃のケースも",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LNjhQUThRTDdPRUFrT3FBbVZiY3dMQURSei1oVmFSbXpTSmJVVGJFa1hQay1jUzRMNF9oWnFOVnFYb1l6T3F4MFc5RzZPV3FVR2JLRmQxeWJjVmJjSlU0cDFvZGdDdFVvcVowYlkweWpreXpiNWF1MGxSMU11VWs?oc=5",
+          "id": "96760ffff2c3a9e2",
+          "title": "旧統一教会、韓総裁の孫が最上位機関「世界本部」のトップに就任（毎日新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xckdtTlJzNW12N0RKZzlZdWhKQW0yZ2JYblZkbHB5cXRIb2tFZ3VTbGVaMi1YblpTc1phN1ZJbnNHN0RCUUJjUkJ2RHN0U3ZvSkdiTXdwdDlWVllXc2ZjR18xV1RyR2NHUjlORGJhc1F2cEg1WUpDcF85dGd2YXc?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-11T09:00:44Z",
+          "published_at": "2026-10-12T11:52:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f2df838520a8bb27",
-          "title": "海外メディアの警鐘「反移民フェイクニュース」が日本経済に大打撃を与える（クーリエ・ジャポン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82TEJXY2x4QmZaRS1ZMWdLUzB4MWdUTG9RaWtsejNQcnhwdmdXMWd4b0lEZS1oZ2VESVZybkF4dmJqdU5lZTQ4T040Q1JGd0FHR3pkc2Q3Z2kyWlJiT24wcTFBWWVfVmJQRzZvMnZ0ekNWS05WeVR2eERrNlNWQVU?oc=5",
+          "id": "8faf9fc1d27ce0bf",
+          "title": "日本は意外な順位？「国際学力調査」の結果が公表…先進国が軒並み「過去最低点」を記録（ニューズウィーク日本版）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxMVQxQUs5UUVSZ2Y0QmhaWExCeExCZXVwSkZlaWJFd0pLTHUxa2lLYkc5SVY0NUM1MU50eFMyeWJ5QXhnRndDQjB4ckozZjh4SGw5TDdEMmkxT0pLQXhsajRIajNVMy1FVGk2eE9HTWNPUW9WSWl0TlJRVG9zNTQ?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-11T03:03:00Z",
+          "published_at": "2026-10-12T10:10:02Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "625d8d2fa76e3fba",
-          "title": "来たれ！異世界の来訪者！ | エンタテインメント",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONDZjSUkxQmFMYVdUVDM4ZThCdjgwSjRfOEQ2N0FFQ3hMLWpwdjNlN2g5dnFqQXpJVnZhUEhxMi14VUtDZ01ZZzc2Wm1rSEU1OXA1MEd0S041cjREV25BSGtKbE1kU0NoWFVBaWpERmQwQ3lhSk41VUd0T09nUnZ0dzBCYmc?oc=5",
-          "source": "東映株式会社",
-          "published_at": "2026-10-11T02:41:13Z",
+          "id": "018bb373f905133d",
+          "title": "万博の熱気ふたたび！大阪・中之島で「世界縁日」タイのキッチンカー・ヨルダンのデーツシェイクなど…「万博の思い出を話したりして楽しかった」【まもなく閉幕から１年】（MBSニュース）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vbFlJd05IUHpDdGhGcjgxRkx6MUF0VDhiZnYzZG9DTjE4bDdDNmtDTjBWY3NmLUUwa21tQ3VmRDItUHJKWXVaTE9sZ3IzdVhkaEpGOTdFcXpfc2NCSUg2VENaR1VTQkNueVJDY0JhVkpBenprODVNS1VRZnlkRUU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-12T07:56:36Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -319,21 +319,31 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "281c0915fcbfbe8c",
-          "title": "11月15日から、ペーパータオルとトイレットペーパーに関する新たな規制が適用されます。",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd1k0SHM5LWF4cWh3VkJoTF9rX1NTLUx1XzZGSzlSc3BUTEpnTVc2MjdjdTluTGFIWDJmSUc1R0xZangwMC1QelQ1ckRKZjdvbzdNcHJ1ZHVpRnU3VzZsal9nRDJBMnBCbHZybGR4aEZZYXhaOGZQb285dHNyMWxTaFZJejRqNnRFV0E?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-05T14:20:46Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "877aca1009bde7c0",
           "title": "EUが包装基準を引き上げ：加工・輸出企業は、この新たな競争環境に対応するためにどのような準備をすべきか？",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSVFnSk9tYlUtY0NQTHlfRkhkczA2bXg4LVY5WTB2dVBUbkhRT2lNTWdVbzNKYmhPb09ZV3RPTjAtSnlqUXg1Z29QSXpYZUZsUHU5YzdwdVgxM0ttR0loMFJBOEtGR3M2Z2h4ZnlCNGh5Z0NTVlhNUm9KSU8zOTB6RWZkVlBKOHlnMGdmS19icUJLTHQwblRtUVlFbjhyd3VRTWkyMDJCMktaeXNsZjJmXzdhZlpTQQ?oc=5",
           "source": "Vietnam.vn",
           "published_at": "2026-10-05T14:03:33Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7338dc41e445e013",
+          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
+          "source": "独立行政法人 農畜産業振興機構",
+          "published_at": "2026-06-25T10:48:49Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "281c0915fcbfbe8c",
+          "title": "11月15日から、ペーパータオルとトイレットペーパーに関する新たな規制が適用されます。",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd1k0SHM5LWF4cWh3VkJoTF9rX1NTLUx1XzZGSzlSc3BUTEpnTVc2MjdjdTluTGFIWDJmSUc1R0xZangwMC1QelQ1ckRKZjdvbzdNcHJ1ZHVpRnU3VzZsal9nRDJBMnBCbHZybGR4aEZZYXhaOGZQb285dHNyMWxTaFZJejRqNnRFV0E?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-05T14:20:46Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -354,16 +364,6 @@
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVZXTV9aYnhSem9HZ1BGTlc4cG43NVA5TlBFRlJqSnRBTWM5a0l2QklIUTJBbk0zNzM5djl2NkFITjhrZzdpM1VNOFpqXzhxTG5CT2ZzaG5aVXpxajFIRlBRalZ2eUEyNEI3NXg2ZnlxQ0xUMWdYUVRFV1lRd002UGhNVjZsUjA0VURLVmczT3ZVeHpablpfWFR1aUNDYWpEcktBQVBxZlE0QWs?oc=5",
           "source": "Vietnam.vn",
           "published_at": "2026-10-02T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7338dc41e445e013",
-          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
-          "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-12T06:10:15Z",
-  "last_success_at": "2026-10-12T06:10:15Z",
+  "last_attempt_at": "2026-10-12T15:43:52Z",
+  "last_success_at": "2026-10-12T15:43:52Z",
   "consecutive_failure_count": 0
 }
