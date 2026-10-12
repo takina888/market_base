@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-11T22:07:39Z",
+  "generated_at": "2026-10-12T06:10:15Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -49,6 +49,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "3472a699c4ae2236",
+          "title": "中野窃盗 被告は国際的窃盗団か",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1JYUQwV0Z5b3RCQ0Y4ZlEtZ08xM19IbVBFMlhkckkzSk95MjVQbnplZ1lzU0FKSmloYkp0b1ptVC1zQjN4dDBxb3ItS2Y2cGlZ?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-12T01:42:07Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b9a3c515a365e275",
           "title": "不正アクセス、世界で急増 「隅っこの脆弱性をAIが見逃さず」 AIが自律的攻撃のケースも",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LNjhQUThRTDdPRUFrT3FBbVZiY3dMQURSei1oVmFSbXpTSmJVVGJFa1hQay1jUzRMNF9oWnFOVnFYb1l6T3F4MFc5RzZPV3FVR2JLRmQxeWJjVmJjSlU0cDFvZGdDdFVvcVowYlkweWpreXpiNWF1MGxSMU11VWs?oc=5",
@@ -74,16 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONDZjSUkxQmFMYVdUVDM4ZThCdjgwSjRfOEQ2N0FFQ3hMLWpwdjNlN2g5dnFqQXpJVnZhUEhxMi14VUtDZ01ZZzc2Wm1rSEU1OXA1MEd0S041cjREV25BSGtKbE1kU0NoWFVBaWpERmQwQ3lhSk41VUd0T09nUnZ0dzBCYmc?oc=5",
           "source": "東映株式会社",
           "published_at": "2026-10-11T02:41:13Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a735dbec0091b083",
-          "title": "東京・臨海部で初開催、国際美術展「TOKYO ATLAS」が開幕。都市の風景に介入し、歴史や記憶を呼び覚ます",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81ek9CSmRSV1FhTFlvejV1SkVja1RKX0lGdXdoQTFXclplRXBfUXlZSXBDQ2Z6T2JLelBhYVpiNFhiYkdDQlVjUXM3WU5GUkVfTU1HNjhnSzJnSmVoNlVvamNLVFlwRnptTmxQMVIwamVNZTg?oc=5",
-          "source": "Tokyo Art Beat",
-          "published_at": "2026-10-11T00:14:32Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -319,16 +319,6 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "1898e3179c601256",
-          "title": "シンガポールに香辛料やインスタントラーメンを輸出する企業は、新たな規制に留意すべきである。",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM00wQkhwczQ2cDVFTk5DS0MzUEF0QlBFRFlXOThrY1NuYlB1TC1KTTJRb0hiRmJZUG1NcVFEWktkc0pwWTl3QjFtRmZUWnNhUmU5NVUweGdIVTRBNUtBVHduRVhMWXFvOU00TWFnTDB5clprOEFienQ5WUNzTlBhZXE5RWt1UnlHSmtOVUJic3B0S3ZVWTN1dUJOWTVuamowSnc?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-11T01:12:27Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "281c0915fcbfbe8c",
           "title": "11月15日から、ペーパータオルとトイレットペーパーに関する新たな規制が適用されます。",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd1k0SHM5LWF4cWh3VkJoTF9rX1NTLUx1XzZGSzlSc3BUTEpnTVc2MjdjdTluTGFIWDJmSUc1R0xZangwMC1QelQ1ckRKZjdvbzdNcHJ1ZHVpRnU3VzZsal9nRDJBMnBCbHZybGR4aEZZYXhaOGZQb285dHNyMWxTaFZJejRqNnRFV0E?oc=5",
@@ -379,6 +369,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "1898e3179c601256",
+          "title": "シンガポールに香辛料やインスタントラーメンを輸出する企業は、新たな規制に留意すべきである。",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM00wQkhwczQ2cDVFTk5DS0MzUEF0QlBFRFlXOThrY1NuYlB1TC1KTTJRb0hiRmJZUG1NcVFEWktkc0pwWTl3QjFtRmZUWnNhUmU5NVUweGdIVTRBNUtBVHduRVhMWXFvOU00TWFnTDB5clprOEFienQ5WUNzTlBhZXE5RWt1UnlHSmtOVUJic3B0S3ZVWTN1dUJOWTVuamowSnc?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-11T01:12:27Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "0c38f8461be22446",
           "title": "政府は米の輸出入に関する新たな規制を発表した。",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQlhDRnVkY1lHd2djcUJOaTBMbGo5VnBfZUZuYUtoVXc1WHFHWTNlMUlFdGk0UFh0anY3Y3hJY214TTlqeFJKbWVhUzFzTjhOcE9GaTFJaFdvd2JjSkVyZU5RdXd0NVpWdlJzRVRyVGlDSUtlNEluLW1fTWR3OWZKWmgtOVJPWGRFY3N2dzVmZWlPX2dG?oc=5",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-11T22:07:39Z",
-  "last_success_at": "2026-10-11T22:07:39Z",
+  "last_attempt_at": "2026-10-12T06:10:15Z",
+  "last_success_at": "2026-10-12T06:10:15Z",
   "consecutive_failure_count": 0
 }
