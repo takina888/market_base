@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-13T00:50:07Z",
+  "generated_at": "2026-10-13T14:23:02Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -39,41 +39,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "88c810365314d851",
-          "title": "第8回カーボンリサイクル産学官国際会議2026を開催しました",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zMHdpcFJ5dkVxdExTOWMyTzI5SGV2MFlkYTZzb0RNY1N3aHBSU200N2Ruc015dWhPWnBhd1RDME9US2U3blpoOG5yeFNFNzBJa2hHZUxfRFloTDJYZGJXemxVRQ?oc=5",
-          "source": "経済産業省",
-          "published_at": "2026-10-09T09:40:09Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c244913312b47cd4",
-          "title": "【国際学部】ANA関西空港見学会を行いました！",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtYkYwZGlhRXJWaDlHejh0ZFRKcS1qRDV5T3dyaGxGMUlFR0preEk5ejJ6OGtDbEV0dUZmTWk0Qm9fRFdyTlVueS1UTlNXSGNBTlJMRm1B?oc=5",
-          "source": "摂南大学",
-          "published_at": "2026-10-13T00:33:45Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "62119cc07adc66aa",
-          "title": "14日の明け方に国際宇宙ステーション(ISS)きぼうが見える 東京など好条件(気象予報士 中川 裕美子 2026年10月13日)",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZRmhCaHM0RXIySXlVbnVsd0VKUDB5U1k3T3M5V3JCY3lGRVhJeFczVHF6ckJ3SHJjZHhCRUFUblhFa2Fral9NR1I0djNFWU9aTUJETlo1eXV1cTExUkNUeDdDN2ZwSWdLbmdqWtIBckFVX3lxTE5adWVKMVVRcjBwaklSa1VTSF9Mc2xhd09RcDJGYWVjRE5BWXNSZWtwSE0wU0NsR0xWall2WHVJRDM0N1ItMktZM0kwTXhQVjM2cXp1NDVweFJwMEdLSFZhc3p3YWpaMFdxMUxCcXhiMEFGdw?oc=5",
-          "source": "tenki.jp",
-          "published_at": "2026-10-13T00:28:28Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e40ba67ecd36544a",
-          "title": "【国際経営学科】現地企業訪問や異文化交流を通して学ぶ「海外企業研修・モンゴル」を実施しました",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5JZ0pXY3B5Ukx5MVZzUzZhN2dCVjJnV1A0cUpCSjZiOEtRaVZpcEVvcGRhUFFUTExfbEtnSm9SejJ1cjEt?oc=5",
-          "source": "別府大学",
-          "published_at": "2026-10-12T23:52:21Z",
+          "id": "eaef3f89b22adf87",
+          "title": "Oishii・Kawaii、世界を席巻 日本ブランド奮戦記① - 日経ヴェリタス",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NM0hWQWNmVkxfVmRkN2pLMzRsOHpuRHlnZUpDZ056UDhZTlMxN29lUVh5WXFhTGxzQUE4NFNSSnI4NjZQVFVlMEtDdkpHTWQxYlp6LTc2YjVVRUlPSEJNQ3lSVnpLRnhBcEY4aHRkU3U4T3pMVXhZci1Dc0tSdw?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-10-09T20:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -83,7 +53,37 @@
           "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-12T22:18:14Z",
+          "published_at": "2026-10-13T10:19:48Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "125dcd0794440142",
+          "title": "公開講座「海外の日本語教育とことば・文化の仲介(メディエーション)」｜上智大学",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1OUltVU11RXIzOW12RkJObEFjTWRwOTdCVmFMN1ZvLUhYaVJ4YXZlQl9QYlY4cDQwQzZ0S2pWTWNvbFdVVXpub1hxUDcyUkVTSEpETUlENG8wUW1rSUNRR3RubVVKSS1MQUE?oc=5",
+          "source": "Sophia University",
+          "published_at": "2026-10-13T09:31:53Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1f60fd5096201c75",
+          "title": "日本人学生の海外派遣数、コロナ禍以降初の減少…私大連調査",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwUVF6SGNYNzN5a1NhRGJQUHk0d2pnQ1VrU0NTR2lLSnQySkQ0cGF1UUFGQkdtZWJURDV6TG8wcmxwSWxaTVN3REh3cjc3VDNSX2R3SUQ3Y2VKdkRNTGwxWUx3UWg1QQ?oc=5",
+          "source": "リセマム",
+          "published_at": "2026-10-13T09:15:03Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "418765c747149170",
+          "title": "世界へ飛び出す経済学部生！『関大通信』特集Vol.522－海外渡航の前と後 〈出発前編〉 に経済学部生２名が取り上げられました",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCd05TUGpyRldBREs2NmNpdFlGV0VPRzkzUjFpNGdMdk9ib0poU2hXR1E1V1UtdTM2RVhuR01YbEhqY25jSUFwbmpTOXN0SmVsaVBHbXNjclp0MGZ4QUUyS01XYjNmNm82bVAxaGFuOWloODg?oc=5",
+          "source": "関西大学",
+          "published_at": "2026-10-13T08:20:51Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -154,11 +154,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1d778f17da6a9acb",
-          "title": "世界のビール缶充填機市場：規模、動向、2035年までの予測",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYlRJQXdCcEZuSk9OTnpwQXNlejJYWkZCbWRXWC1sLW91ckZ1UWJrMTI4VjNJRENwMjdwcHViX3dUV0E0TjFvelNWX3hxQTRQY1dEaE9HanJtLWNySEQwdktSSEl6SEFiN2Z4dEpXWDBETzd4V0VkQ0ZseHRMdEtLS1htTS1MTDZ4TmU1bDMwZlFEaXNndmFrcUMxaTVadHVwVHgyZXhoYXZCQXNNSUxZTQ?oc=5",
-          "source": "IndexBox",
-          "published_at": "2026-10-07T07:00:00Z",
+          "id": "e8c3a25cefb0b26c",
+          "title": "中村建設・石川建設 竜洋防潮堤で自走式選別機の施工現場見学会",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdnh2Q0dxLUJJbkZvMEVrN2FSbmNZMVVRa2Jna3N4N0RYeHMzMFE4RldIV3hXYU1nSUVHSzNNTmhsakw1UExkSnFhMGJzQUVuWVU3dEVjcDQtTm94NmlTTDRyVkt5bTJFdzdkeFRhc0VqLWwwRTFKUzBYVkUtT2dQUw?oc=5",
+          "source": "建通新聞",
+          "published_at": "2026-10-13T03:15:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -264,16 +264,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e334769b0f16ddcd",
-          "title": "マルト／福島県いわき市に「（仮称）いわきスマートタウン計画（店舗面積2813m2）」27年4月20日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iSmw0SmhmdkEtY2lWRVgwZW9zQkhia2NiN3J2QURLRW8ydGxiSHBodHpFRE4yQzJ6WWRnMWlCWG5oekdPZkJMUW5vVHlKbzFmZXJlcHZ3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-29T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "8ef122714accb147",
           "title": "関西中四国小売流通特集：ライフコーポレーション・荒井信一郎専務執行役員 自社商品力の強化図る",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zWkpsMmlWVzM2czZWWmRLSDJidDdSbHVabzdJci1FWUpFTDM2RXFDaFdjMlNEdXVBdmJtdm1KUHlaNk16RUpDYUI0MFlCNlpJTnI5Z1lpX2t3YzYzd0l4a0JhZDAwMGl5aWc?oc=5",
@@ -312,12 +302,32 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5eecb3770a7b052b",
+          "title": "ららぽーと豊洲、大規模リニューアルで「31店舗」順次オープン 江東区初のスーパーマーケットやゴディパン、ユニクロ拡大など【一覧】",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4yR3lXQjY3NEx2TmdlLWtIMnVrNXhwNTJkbEhvSkxhUWZzZEFLZU1mTXphOWhMdXotbUlNa2dZQXRRTVFCWi1EMEdPMl9DajZYUXhZWHoteDA?oc=5",
+          "source": "山陽新聞",
+          "published_at": "2026-10-10T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "02d0d1bb11d517ee",
+          "title": "米国の食品添加物検査という「障壁」に対し、水産物輸出業者はどのように対応しているのか？",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSHNLN1JiSlhKZ19jUnpKN3VIamNabFQ4TGRHZDBpeUNBZk1zMTFOOTJIQWpLUFVnRE13cWQxaVZfbmRuTDBQMGhJa25JaHZ6bzQ2S2NXTzhEbEhZdkp4cy1uM1Bxc25DclJLajU1SjhxVmVVVGtjMXFxX0dLVDFjbXVBSjNxWm8xeXhUZDlnOTdFWnpCT3JyMTByaHF0VDdhQ0RxUVAzWld5eVBzWkxSUlFsZEtfeHVfaHNxWQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-13T03:36:30Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "1898e3179c601256",
           "title": "シンガポールに香辛料やインスタントラーメンを輸出する企業は、新たな規制に留意すべきである。",
@@ -339,21 +349,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cfab8d8274dc5c19",
-          "title": "日本マクドナルドが北海道91店でハンバーガー10商品を販売停止、台湾当局「同じ原材料は輸入していない」―台湾メディア",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRLWZKOHRnMlRBOHpMUjBoczlBYjdubDFvc2FmR1JGT1doaGl4c3pzU1I1X2d2X0dKMF85NWxrSWszTlloNlh6aU12RGxPVmg1S282OUZ2bUFXQXBkVl9LZnFad2xjNVU?oc=5",
-          "source": "Excite エキサイト",
-          "published_at": "2026-10-05T03:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
           "source": "独立行政法人 農畜産業振興機構",
           "published_at": "2026-06-25T10:48:49Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "cfab8d8274dc5c19",
+          "title": "日本マクドナルドが北海道91店でハンバーガー10商品を販売停止、台湾当局「同じ原材料は輸入していない」―台湾メディア",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRLWZKOHRnMlRBOHpMUjBoczlBYjdubDFvc2FmR1JGT1doaGl4c3pzU1I1X2d2X0dKMF85NWxrSWszTlloNlh6aU12RGxPVmg1S282OUZ2bUFXQXBkVl9LZnFad2xjNVU?oc=5",
+          "source": "Excite エキサイト",
+          "published_at": "2026-10-05T03:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0c38f8461be22446",
-          "title": "政府は米の輸出入に関する新たな規制を発表した。",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQlhDRnVkY1lHd2djcUJOaTBMbGo5VnBfZUZuYUtoVXc1WHFHWTNlMUlFdGk0UFh0anY3Y3hJY214TTlqeFJKbWVhUzFzTjhOcE9GaTFJaFdvd2JjSkVyZU5RdXd0NVpWdlJzRVRyVGlDSUtlNEluLW1fTWR3OWZKWmgtOVJPWGRFY3N2dzVmZWlPX2dG?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-01T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-13T00:50:07Z",
-  "last_success_at": "2026-10-13T00:50:07Z",
+  "last_attempt_at": "2026-10-13T14:23:02Z",
+  "last_success_at": "2026-10-13T14:23:02Z",
   "consecutive_failure_count": 0
 }
