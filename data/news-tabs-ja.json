@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-13T14:23:02Z",
+  "generated_at": "2026-10-13T22:55:09Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,31 +29,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "4b2f909ab66794aa",
-          "title": "森下農林水産大臣政務官の海外出張（韓国）結果概要について",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14dDNFNW4ycDF2WHZ1S01TSkE4SjJJd1BTSFVsSWx0NGZKYWMzMXoxUHJGNUxid1dlcXE3b0RHZ2MyUTBmOEFmR3FkaGh6VlBLOVNlRm5iR1hhb2dpZ3UxOXIxM05mWEp4ZmpzS3U5bEM2NUhh?oc=5",
-          "source": "農林水産省",
-          "published_at": "2026-10-10T20:03:50Z",
+          "id": "10e791fa018521f1",
+          "title": "日本のＧＤＰ、来年はインドと英国に抜かれ「世界６位」の見込み…ＩＭＦ「世界経済見通し」で明らかに（読売新聞オンライン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nb1lWN3pXLV9DNDJQdGJ6UFRXYVl2UnVNZGdvbFhxRVlCa2tKTU9zOE1DNnJHV2txMWtuZ2pHbkpkZWlGeTItTUE1T1ppb2ZXWFBoNnFXdlpZWC1xRXlyMWdJN0I5b3JwMHNzQ2ZkNU1FeWU4cFp1cy04cV9oQlk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-13T21:28:01Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "eaef3f89b22adf87",
-          "title": "Oishii・Kawaii、世界を席巻 日本ブランド奮戦記① - 日経ヴェリタス",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NM0hWQWNmVkxfVmRkN2pLMzRsOHpuRHlnZUpDZ056UDhZTlMxN29lUVh5WXFhTGxzQUE4NFNSSnI4NjZQVFVlMEtDdkpHTWQxYlp6LTc2YjVVRUlPSEJNQ3lSVnpLRnhBcEY4aHRkU3U4T3pMVXhZci1Dc0tSdw?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-10-09T20:00:00Z",
+          "id": "0757efedb3c51dbe",
+          "title": "マツコの知らない世界 [字] [解] 一大ブーム再び！古着とヴィンテージ1時間SP",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmTlJDaUZCTEVHdktkd25kWi1KeGVoMm1QNWVrbTBBV0JaRHVQbnJ0NG9uQ2JCQk9YLUZUQjRCY3pTQUpjRmQxZFV2OTJ1NEhMYUQybDd3?oc=5",
+          "source": "TBSテレビ",
+          "published_at": "2026-10-13T16:13:19Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "id": "0195a4a2077d271a",
+          "title": "【速報】国際通貨基金（IMF）「世界経済活動は回復力がある」(フィスコ)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONUt6Sk5CbnRDM2RTV3pZOFMyYjZHTUlPMks4RDVJTHlyY0V6MHI5N2N2bDZwbmVzRVNlV0pKblZSLVJHUm1GMFlVUWFTR25ZX2NqNFFRcWk2MXFjUWhNRFlOZ1MxT3pVNWhRSG9tMXp4LUM3akNSNkVjOWw4THBQZDYtdzc5SGc?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-13T10:19:48Z",
+          "published_at": "2026-10-13T16:08:56Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "105d9c05838d4201",
+          "title": "日本のＧＤＰ、来年はインドと英国に抜かれ「世界６位」の見込み…ＩＭＦ「世界経済見通し」で明らかに",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Cc2ptRGFLbTFRMExFVGwweDRMbFU4elJsSy1RN0NnYXhyOXpvRkEyMEttRDVtMGJPYTFFMHhoblZPWDk0NHBBay10RENFSVlx?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-13T14:25:23Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -77,16 +87,6 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "418765c747149170",
-          "title": "世界へ飛び出す経済学部生！『関大通信』特集Vol.522－海外渡航の前と後 〈出発前編〉 に経済学部生２名が取り上げられました",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCd05TUGpyRldBREs2NmNpdFlGV0VPRzkzUjFpNGdMdk9ib0poU2hXR1E1V1UtdTM2RVhuR01YbEhqY25jSUFwbmpTOXN0SmVsaVBHbXNjclp0MGZ4QUUyS01XYjNmNm82bVAxaGFuOWloODg?oc=5",
-          "source": "関西大学",
-          "published_at": "2026-10-13T08:20:51Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -98,7 +98,7 @@
           "title": "特集・食品工場のスマートファクトリー化と省力化・自動化2026：FOOMAセミナー",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KYVpBazNzLU5zTkw3MHhid3pYQk1DOTZUVkNMYjFZM204OGxDVkZXd3pNcndLWXhDRmZuSjQ1NVFLNWdkYVVZNkxFQVdweWNESHFBTV84QU5YSm5vdEVzVTRqejdrWEVrUkg0?oc=5",
           "source": "日本食糧新聞・電子版",
-          "published_at": "2026-09-30T16:25:35Z",
+          "published_at": "2026-10-01T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -319,6 +319,16 @@
       "label": "規制関連",
       "articles": [
         {
+          "id": "e3eb956f85cd4512",
+          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-07-15T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "02d0d1bb11d517ee",
           "title": "米国の食品添加物検査という「障壁」に対し、水産物輸出業者はどのように対応しているのか？",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSHNLN1JiSlhKZ19jUnpKN3VIamNabFQ4TGRHZDBpeUNBZk1zMTFOOTJIQWpLUFVnRE13cWQxaVZfbmRuTDBQMGhJa25JaHZ6bzQ2S2NXTzhEbEhZdkp4cy1uM1Bxc25DclJLajU1SjhxVmVVVGtjMXFxX0dLVDFjbXVBSjNxWm8xeXhUZDlnOTdFWnpCT3JyMTByaHF0VDdhQ0RxUVAzWld5eVBzWkxSUlFsZEtfeHVfaHNxWQ?oc=5",
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "94f16d8b1407f485",
-          "title": "栄養成分表示に関する警告表示：改正食品安全法において不可欠な要素。",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVZXTV9aYnhSem9HZ1BGTlc4cG43NVA5TlBFRlJqSnRBTWM5a0l2QklIUTJBbk0zNzM5djl2NkFITjhrZzdpM1VNOFpqXzhxTG5CT2ZzaG5aVXpxajFIRlBRalZ2eUEyNEI3NXg2ZnlxQ0xUMWdYUVRFV1lRd002UGhNVjZsUjA0VURLVmczT3ZVeHpablpfWFR1aUNDYWpEcktBQVBxZlE0QWs?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-02T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-13T14:23:02Z",
-  "last_success_at": "2026-10-13T14:23:02Z",
+  "last_attempt_at": "2026-10-13T22:55:09Z",
+  "last_success_at": "2026-10-13T22:55:09Z",
   "consecutive_failure_count": 0
 }
