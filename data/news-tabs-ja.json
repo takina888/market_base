@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-14T05:02:59Z",
+  "generated_at": "2026-10-14T12:06:08Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,61 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0d2f55dc16ac2841",
-          "title": "赤澤経済産業大臣が国際エネルギー・フォーラム（IEF）閣僚会合にオンライン出席しました",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pS1Vzdno5M2VVR3hTM28yQzkzSzFfaUdDMXN5aFNhZ005ZUx0VlVtRDI3U3dYRlVleFZhWTZyUUpVOHJ5QXZncWN1TDVXSF9Fa1ZDWVlqWVZ6Q3ljaXU0eGVsVQ?oc=5",
-          "source": "経済産業省",
-          "published_at": "2026-10-11T15:20:39Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f4af804941ea2720",
-          "title": "世界最先端のBeyond 2 nm半導体で微細化の限界突破に挑む",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BaHpTQ2xSS3FVTWNIQjVnaXA2Y1RIWk5JTHhlZi1pWjNCUDBOdHRIbnhLMHdSNEdVaU9DTWU2dGNtVERHaHFjem84RE1SbVpKdUFpZVQyUElsM0VTRGt1NVd3?oc=5",
-          "source": "AIST： 産業技術総合研究所",
-          "published_at": "2026-10-14T04:08:43Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2f8b30b9e7ec6184",
-          "title": "ＩＭＦ世界経済見通し－世界経済はよく持ちこたえていると評価",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wSERMaVl4d3F2ZDlXVXlyd0Zza1NUZktSTERjT1NtOGFuUFZnY0F1TmpOcVlHVWRwSnFtcDhjdzN1ZUxjZW9BMlNzOGF0bXRzUDNlU29tbTNWbFgzR3N1cG5HT2hBNjNnZVYwS2E5dVdmdU9YdHlmUndoQjN3c03SAX9BVV95cUxNMEhETGlZeHdxdmQ5V1V5cndGc2tTVGZLUkxEY09TbThhblBWZ2NBdU5qTnFZR1VkcEpxbXA4Y3czdWVMY2VvQTJTczhhdG10c1AzZVNvbW0zVmxYM0dzdXBuR09oQTYzZ2VWMEthOXVXZnVPWHR5ZlJ3aEIzd3NN?oc=5",
-          "source": "ニッセイ基礎研究所",
-          "published_at": "2026-10-14T04:08:22Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-14T02:54:06Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-14T01:23:08Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "dffd7ea047324b5c",
-          "title": "日本の名目GDP インドとイギリスに抜かれて来年「世界6位」に IMF経済見通しで判明（TBS NEWS DIG Powered by JNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCT1pRT2JhUFBrNW1hWFRnZWRCSVhhWFZtdm02SUxsTGRFbFVVX1lSVVpRQ2dDbVdsdkN4dS1iTEZ4dlhTMHpSeUtNcjljU3dwdGg2WUdlTXhLSFhZeE1GSWVnYWNpQ2FSRU1mYW1iRG41X2ZRTGk2RHpGQkpVWjQ?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-14T01:19:40Z",
+          "id": "d834b13449054085",
+          "title": "メルカリ、没入型体験イベント「世界の誰かの推し部屋展」を10月28日より原宿で5日間限定開催",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DZUhiQmV1a1lUSWZXdTdMNXp6eWdsS2p5dTgtWVRyaW1FMG9nemI0MVRmMWpUNkYxbFJESHozaWgxWDdaSzdvWUpQc3h5VGNTR016QldOSm9ZV2w3LWJvZjZrNjR3RGhiX3JKMnpVd0ZTVkk?oc=5",
+          "source": "株式会社メルカリ",
+          "published_at": "2026-10-14T11:07:19Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -83,7 +33,57 @@
           "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-14T01:14:12Z",
+          "published_at": "2026-10-14T10:15:41Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0be7236199d13a5f",
+          "title": "中国1-9月の貿易が前年比18.8％増",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vdXpEQnp4WExRclNXQlpxMUhBZnM1bjB4UlF0eG55dVZoZllMVHBxOHQ2b29GczJfVVREYngtVkZBZHQ0d0dfSGtTVzhZLVJhTUNoQV9adlVBMG1IYmNjZjZWSGtoX00?oc=5",
+          "source": "人民網日本語版",
+          "published_at": "2026-10-14T07:54:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-14T07:27:24Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "10e791fa018521f1",
+          "title": "日本のＧＤＰ、来年はインドと英国に抜かれ「世界６位」の見込み…ＩＭＦ「世界経済見通し」で明らかに（読売新聞オンライン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nb1lWN3pXLV9DNDJQdGJ6UFRXYVl2UnVNZGdvbFhxRVlCa2tKTU9zOE1DNnJHV2txMWtuZ2pHbkpkZWlGeTItTUE1T1ppb2ZXWFBoNnFXdlpZWC1xRXlyMWdJN0I5b3JwMHNzQ2ZkNU1FeWU4cFp1cy04cV9oQlk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-14T06:42:19Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "70416b1bc5f30c38",
+          "title": "世界で最も影響力のある研究者トップ2％に薬学部の奈邉教授がランクインしました！",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MTnZNZ1RwaW9SbUJmQm1fbWdoSkRXZXdxa0VLVk1sejNBNFp1aHE4dWdxdFVuamZvbk4wNG9CeG93d3JodWJKdVprYTJyclFvMmRic3NB?oc=5",
+          "source": "摂南大学",
+          "published_at": "2026-10-14T06:37:58Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6b15bf8fe7293710",
+          "title": "国際講義：中国の再生、1895-1912年―地方主義、日本の知、大清帝国の再編（10.26開催）",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uQzhxQmdtZVNuT1RFYUVzT1Q2cXZoREtIUHktU0ljYThPZWhwMXdWSzkxaGZhT1E2dEp3STNodnZoMEg3OUVFZGVReUJwMUZvSGxZdEdiQ1BTWWh5OFp1NUVTbUI3QWFGcWRwTzNhZkl2TW5IVGc4OXRn?oc=5",
+          "source": "Tohoku University",
+          "published_at": "2026-10-14T06:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -98,7 +98,7 @@
           "title": "特集・食品工場のスマートファクトリー化と省力化・自動化2026：FOOMAセミナー",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KYVpBazNzLU5zTkw3MHhid3pYQk1DOTZUVkNMYjFZM204OGxDVkZXd3pNcndLWXhDRmZuSjQ1NVFLNWdkYVVZNkxFQVdweWNESHFBTV84QU5YSm5vdEVzVTRqejdrWEVrUkg0?oc=5",
           "source": "日本食糧新聞・電子版",
-          "published_at": "2026-10-01T07:00:00Z",
+          "published_at": "2026-09-30T16:25:35Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -144,11 +144,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "05cf05b47710b11c",
-          "title": "包装機械メーカーが地元神戸でオリジナル日本酒缶制作に挑戦。 | 日本テクノロジーソリューション株式会社のプレスリリース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uS3pGdUZZZnN4a2lyX0VMQTY5Q2dXdVdMdEdjNUZTLVp4RXB0M0NDXzdWSVNsNTE1a0IxdGxhT0ZGWUpILXVRTkNvbGRHeUdaZXJ4UU9KdUcwVHZGNXdMUmxrTjhQUzBtOWc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-07-16T07:00:00Z",
+          "id": "b37a801dbf03c33d",
+          "title": "無菌バッグ・イン・ボックス充填機の世界市場（2026年～2032年）、市場規模（手動、半自動、全自動）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wYWhZQWh3Q0g4d1ZDU2NkbUpyZ0xCR0NYU3ZQM0FPVFJ0M1dpY3o4ZVhUZVg0eEU2X2dXX1pwMjBDMUx2YkgyQlNhU1B4a1E?oc=5",
+          "source": "アットプレス",
+          "published_at": "2026-10-14T08:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -244,6 +244,16 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "e21faa2bdc81edcc",
+          "title": "イオン／吉田社長「U.S.M.Hの閉店する100店舗はウエルシア、まいばすけっとに転換も」",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uYmxNaE1iaUdMcjhob1A3R3h6UlFQSmc5VnBjMFROMGR6ZDRjcGFPZVg1NVEtRFpGODBibi1OcmxoZkRablBIb2tjZ3ZtRzZCMmVSOEZMeGQ?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-14T02:38:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "3c8d81ff316d2a22",
           "title": "マキヤ／静岡県裾野市に「（仮称）裾野複合店舗A棟・B棟」27年2月25日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
@@ -299,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSEROTTV4Wk01OUgtZy1objN3OGVfeDh3WkRxX180LVVWRUVZR0N5eWhkaFEtaWFNQzFZb3AydHpIV0k1Y2I4N2dxVjlXWWRKQkNXZG4yanlhamNfQm9Xd0REeFlGM3ZIeHpMVlpJOHNYTC1OLWlfZjY5OFdiV1ppejlhMGtlal9OSFE?oc=5",
           "source": "Vietnam.vn",
           "published_at": "2026-10-12T08:01:31Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5eecb3770a7b052b",
-          "title": "ららぽーと豊洲、大規模リニューアルで「31店舗」順次オープン 江東区初のスーパーマーケットやゴディパン、ユニクロ拡大など【一覧】",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4yR3lXQjY3NEx2TmdlLWtIMnVrNXhwNTJkbEhvSkxhUWZzZEFLZU1mTXphOWhMdXotbUlNa2dZQXRRTVFCWi1EMEdPMl9DajZYUXhZWHoteDA?oc=5",
-          "source": "山陽新聞",
-          "published_at": "2026-10-10T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-14T05:02:59Z",
-  "last_success_at": "2026-10-14T05:02:59Z",
+  "last_attempt_at": "2026-10-14T12:06:08Z",
+  "last_success_at": "2026-10-14T12:06:08Z",
   "consecutive_failure_count": 0
 }
