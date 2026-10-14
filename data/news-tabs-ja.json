@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-14T17:21:55Z",
+  "generated_at": "2026-10-14T21:48:04Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -43,7 +43,7 @@
           "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-14T13:24:24Z",
+          "published_at": "2026-10-14T20:47:26Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -53,7 +53,7 @@
           "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-14T13:16:29Z",
+          "published_at": "2026-10-14T19:22:13Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -93,6 +93,16 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "89cee931dd1d365a",
+          "title": "国内の包装機械大手2社、米国で共同生産 日系企業の進出追い風に",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GVkpoa0NwMXM0a1FBay1heEFZTnFuc1dOVVAzVE1OelA5TnNxcUZfRW9Eak8yY1ZlWFdtcnJWVHFpY3VxSkVLaDFIbTZOYlRpb3RUU2JnSUNDUlZDZldDSHN6anJZWEJ5eW81QQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-10-14T20:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "ea1a6ec14e61cde0",
           "title": "特集・食品工場のスマートファクトリー化と省力化・自動化2026：FOOMAセミナー",
@@ -149,16 +159,6 @@
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wYWhZQWh3Q0g4d1ZDU2NkbUpyZ0xCR0NYU3ZQM0FPVFJ0M1dpY3o4ZVhUZVg0eEU2X2dXX1pwMjBDMUx2YkgyQlNhU1B4a1E?oc=5",
           "source": "アットプレス",
           "published_at": "2026-10-14T08:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e8c3a25cefb0b26c",
-          "title": "中村建設・石川建設 竜洋防潮堤で自走式選別機の施工現場見学会",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdnh2Q0dxLUJJbkZvMEVrN2FSbmNZMVVRa2Jna3N4N0RYeHMzMFE4RldIV3hXYU1nSUVHSzNNTmhsakw1UExkSnFhMGJzQUVuWVU3dEVjcDQtTm94NmlTTDRyVkt5bTJFdzdkeFRhc0VqLWwwRTFKUzBYVkUtT2dQUw?oc=5",
-          "source": "建通新聞",
-          "published_at": "2026-10-13T03:15:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -353,7 +353,7 @@
           "title": "EUが包装基準を引き上げ：加工・輸出企業は、この新たな競争環境に対応するためにどのような準備が必要か？",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSVFnSk9tYlUtY0NQTHlfRkhkczA2bXg4LVY5WTB2dVBUbkhRT2lNTWdVbzNKYmhPb09ZV3RPTjAtSnlqUXg1Z29QSXpYZUZsUHU5YzdwdVgxM0ttR0loMFJBOEtGR3M2Z2h4ZnlCNGh5Z0NTVlhNUm9KSU8zOTB6RWZkVlBKOHlnMGdmS19icUJLTHQwblRtUVlFbjhyd3VRTWkyMDJCMktaeXNsZjJmXzdhZlpTQQ?oc=5",
           "source": "Vietnam.vn",
-          "published_at": "2026-10-05T14:03:33Z",
+          "published_at": "2026-10-05T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-14T17:21:55Z",
-  "last_success_at": "2026-10-14T17:21:55Z",
+  "last_attempt_at": "2026-10-14T21:48:04Z",
+  "last_success_at": "2026-10-14T21:48:04Z",
   "consecutive_failure_count": 0
 }
