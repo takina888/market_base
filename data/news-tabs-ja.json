@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-14T12:06:08Z",
+  "generated_at": "2026-10-14T17:21:55Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,31 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "d834b13449054085",
-          "title": "メルカリ、没入型体験イベント「世界の誰かの推し部屋展」を10月28日より原宿で5日間限定開催",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DZUhiQmV1a1lUSWZXdTdMNXp6eWdsS2p5dTgtWVRyaW1FMG9nemI0MVRmMWpUNkYxbFJESHozaWgxWDdaSzdvWUpQc3h5VGNTR016QldOSm9ZV2w3LWJvZjZrNjR3RGhiX3JKMnpVd0ZTVkk?oc=5",
-          "source": "株式会社メルカリ",
-          "published_at": "2026-10-14T11:07:19Z",
+          "id": "c4bad0e3c0476b32",
+          "title": "ジェトロ、「武漢国際シルバー経済博覧会」にジャパンパビリオン設置、日系企業14社が出展",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WN2ZzZFQ0eTdEamR2SGpVMXdySHZRejN6M2dTdGZEU1JCaVVYOFVJMUp1empwaDVlcG1yTk5BZjl6UVpwM2xvVGR6dXVZNjVWTWEwYXE2RGdJUF9kQ3ViVEZwYm9MQWp6NC1EanF3?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-10-14T15:07:05Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ead4c6439438e767",
+          "title": "中東情勢の緊迫化と日本の対中東貿易・エネルギー調達",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNTgzRmFzNmlFQWZweEpIc2RVdjZmWVJoMWxEdWxSUnZ0WEVpV0VxTUlKXzRBUEp0SDhCMDNQb2VIOVg4LVdtRTU0Q2owR2UtOTA0bm1UVzIyU1dvYVE1MmV1MGFWb3FFNGU4UXhmaEtheW5VdHJjTzMyNFFrWVFWalh6N0oyQQ?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-10-14T09:30:27Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-14T13:24:24Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -33,7 +53,17 @@
           "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-14T10:15:41Z",
+          "published_at": "2026-10-14T13:16:29Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "76676daefb1cd2e5",
+          "title": "IMF世界経済見通し：二極化と強まる下方リスク",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sbVAtcVp0cDFtMUdac1VjU21jUHZMT0R2U05vdUlIWllnYy01aUtPY1MzVm9WTkRSQXFrR05MQW5JelZlWWY4bDNJbHQ5eEF3VDZRMjFoeHdkOE4tdEdBeDBaZHpPTm9WSGV6QnJXTkFkd21IbkFIUHJVMkgzYUU?oc=5",
+          "source": "ピクテ・ジャパン",
+          "published_at": "2026-10-14T12:06:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -44,36 +74,6 @@
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vdXpEQnp4WExRclNXQlpxMUhBZnM1bjB4UlF0eG55dVZoZllMVHBxOHQ2b29GczJfVVREYngtVkZBZHQ0d0dfSGtTVzhZLVJhTUNoQV9adlVBMG1IYmNjZjZWSGtoX00?oc=5",
           "source": "人民網日本語版",
           "published_at": "2026-10-14T07:54:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-14T07:27:24Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "10e791fa018521f1",
-          "title": "日本のＧＤＰ、来年はインドと英国に抜かれ「世界６位」の見込み…ＩＭＦ「世界経済見通し」で明らかに（読売新聞オンライン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nb1lWN3pXLV9DNDJQdGJ6UFRXYVl2UnVNZGdvbFhxRVlCa2tKTU9zOE1DNnJHV2txMWtuZ2pHbkpkZWlGeTItTUE1T1ppb2ZXWFBoNnFXdlpZWC1xRXlyMWdJN0I5b3JwMHNzQ2ZkNU1FeWU4cFp1cy04cV9oQlk?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-14T06:42:19Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "70416b1bc5f30c38",
-          "title": "世界で最も影響力のある研究者トップ2％に薬学部の奈邉教授がランクインしました！",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MTnZNZ1RwaW9SbUJmQm1fbWdoSkRXZXdxa0VLVk1sejNBNFp1aHE4dWdxdFVuamZvbk4wNG9CeG93d3JodWJKdVprYTJyclFvMmRic3NB?oc=5",
-          "source": "摂南大学",
-          "published_at": "2026-10-14T06:37:58Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -98,7 +98,7 @@
           "title": "特集・食品工場のスマートファクトリー化と省力化・自動化2026：FOOMAセミナー",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KYVpBazNzLU5zTkw3MHhid3pYQk1DOTZUVkNMYjFZM204OGxDVkZXd3pNcndLWXhDRmZuSjQ1NVFLNWdkYVVZNkxFQVdweWNESHFBTV84QU5YSm5vdEVzVTRqejdrWEVrUkg0?oc=5",
           "source": "日本食糧新聞・電子版",
-          "published_at": "2026-09-30T16:25:35Z",
+          "published_at": "2026-10-01T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -284,6 +284,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "d96c8d62bc8a4bd6",
+          "title": "カインズ／神奈川県綾瀬市に「（仮称）綾瀬店（店舗面積7560m2）」27年3月29日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fWTJxMW8zbTJrcjlOX0w1M1dBODNURzlqSUZ4OUVkaUNQOThrZ1VGS1ZBUnpsa2RSRkxDT1kzeGhCYzdxNVBHYkwyZEluY0gwZUtlRGdn?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-24T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "c390998419acd8c9",
           "title": "ヤマダストアー／兵庫県宝塚市に「（仮称）宝塚市伊孑志計画（店舗面積3099m2）」27年3月1日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMWVhLQkVpbjZWa2VqNGNzRUVZS0lDVVBGNWpzeW1lVjkwbWVjYkg0eGRnVkRnWE84eFcyb1FveVM2VWFqN09jMnhpOFl6N0Q4cW9aS1VR?oc=5",
@@ -302,22 +312,22 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2bd0e95c3ce875ee",
-          "title": "ミニスーパーマーケットが急増しており、大手小売業者も地方に続々と進出している。",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSEROTTV4Wk01OUgtZy1objN3OGVfeDh3WkRxX180LVVWRUVZR0N5eWhkaFEtaWFNQzFZb3AydHpIV0k1Y2I4N2dxVjlXWWRKQkNXZG4yanlhamNfQm9Xd0REeFlGM3ZIeHpMVlpJOHNYTC1OLWlfZjY5OFdiV1ppejlhMGtlal9OSFE?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-12T08:01:31Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "e3eb956f85cd4512",
+          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-07-15T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "02d0d1bb11d517ee",
           "title": "米国の食品添加物検査という「障壁」に対し、水産物輸出業者はどのように対応しているのか？",
@@ -359,16 +369,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e3eb956f85cd4512",
-          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-07-15T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "cfab8d8274dc5c19",
           "title": "日本マクドナルドが北海道91店でハンバーガー10商品を販売停止、台湾当局「同じ原材料は輸入していない」―台湾メディア",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRLWZKOHRnMlRBOHpMUjBoczlBYjdubDFvc2FmR1JGT1doaGl4c3pzU1I1X2d2X0dKMF85NWxrSWszTlloNlh6aU12RGxPVmg1S282OUZ2bUFXQXBkVl9LZnFad2xjNVU?oc=5",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-14T12:06:08Z",
-  "last_success_at": "2026-10-14T12:06:08Z",
+  "last_attempt_at": "2026-10-14T17:21:55Z",
+  "last_success_at": "2026-10-14T17:21:55Z",
   "consecutive_failure_count": 0
 }
