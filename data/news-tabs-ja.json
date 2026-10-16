@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-16T11:36:04Z",
+  "generated_at": "2026-10-16T16:46:26Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -69,21 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ead4c6439438e767",
-          "title": "中東情勢の緊迫化と日本の対中東貿易・エネルギー調達",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNTgzRmFzNmlFQWZweEpIc2RVdjZmWVJoMWxEdWxSUnZ0WEVpV0VxTUlKXzRBUEp0SDhCMDNQb2VIOVg4LVdtRTU0Q2owR2UtOTA0bm1UVzIyU1dvYVE1MmV1MGFWb3FFNGU4UXhmaEtheW5VdHJjTzMyNFFrWVFWalh6N0oyQQ?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-10-14T09:30:27Z",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-16T13:32:11Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cec6b3806fa197ce",
-          "title": "「国際商取引の法的基盤形成の現代的課題」 １１月７日（土）開催",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DandPTXJxSjh1N2tzREdPdUd3LVRfQmU5a2hiZ0FBNVphSFQtREJJRTFHcUhLUkpuN0p3VTVCVlVPYmxYWGg0cVlFQTlqZ0tEdEo3MFFvU0drV0NPMjF1cWlvTFI?oc=5",
-          "source": "早稲田大学",
-          "published_at": "2026-10-16T09:33:40Z",
+          "id": "0a99bbb2fd725e0e",
+          "title": "ビジネス・イノベーション・科学・貿易省の事務次官にキャット・リトル氏を任命｜海外記事検索｜研究開発戦略センター（CRDS）",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1NdWplZHB1Nnk2aWNhVkh5ck5WLVJxVzBNSFVnenpmYWFfWHkyekpvQkNObmVZVWk5T0IwYlQzNW5WMUdWb181Sy1hSUJLbFhvMzgyZVdDcW1OTk1jcWdBaHFXQ0Y?oc=5",
+          "source": "科学技術振興機構（JST）",
+          "published_at": "2026-10-16T10:03:09Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -258,7 +258,17 @@
           "title": "マキヤ／静岡県裾野市に「（仮称）裾野複合店舗A棟・B棟」27年2月25日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-08T01:31:00Z",
+          "published_at": "2026-10-08T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "49258c2e80e73508",
+          "title": "ロイヤルホームセンター／京都府城陽市に「ロイヤルプロ城陽インター（店舗面積2400m2）」27年5月21日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tQ0FyTng3UllxZHpoYzhyNTdabi15VTlPaTEyUGcydjU5bldUT3pNZnN1ZXNpZUJYelJ3ejdIeW16RFdGOHhLX0pRMjQyOFNOcGhLcUt3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-02T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -284,31 +294,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "51ef72633e75c4aa",
+          "title": "マックスバリュ東海／愛知県豊橋市に「（仮称）マックスバリュ豊橋西幸町店（店舗面積4344m2）」27年4月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-28T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "8ef122714accb147",
           "title": "関西中四国小売流通特集：ライフコーポレーション・荒井信一郎専務執行役員 自社商品力の強化図る",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zWkpsMmlWVzM2czZWWmRLSDJidDdSbHVabzdJci1FWUpFTDM2RXFDaFdjMlNEdXVBdmJtdm1KUHlaNk16RUpDYUI0MFlCNlpJTnI5Z1lpX2t3YzYzd0l4a0JhZDAwMGl5aWc?oc=5",
           "source": "日本食糧新聞・電子版",
           "published_at": "2026-09-26T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d96c8d62bc8a4bd6",
-          "title": "カインズ／神奈川県綾瀬市に「（仮称）綾瀬店（店舗面積7560m2）」27年3月29日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fWTJxMW8zbTJrcjlOX0w1M1dBODNURzlqSUZ4OUVkaUNQOThrZ1VGS1ZBUnpsa2RSRkxDT1kzeGhCYzdxNVBHYkwyZEluY0gwZUtlRGdn?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-24T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "621f006039b3e66e",
-          "title": "コーナン商事／兵庫県姫路市に「（仮称）コーナンPRO姫路飾磨店（店舗面積2089m2）」27年4月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YWGJPZDFuM2l3VTZ1eDVKOS04aFB2OHc3eG1TWGctY0NrSkc1RUFOUHphc1E1SGJqay1KaWxRQUV0ZVFvNXVpMkdpR0hWVld4MW8ybGZ3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-18T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -334,6 +334,16 @@
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSHNLN1JiSlhKZ19jUnpKN3VIamNabFQ4TGRHZDBpeUNBZk1zMTFOOTJIQWpLUFVnRE13cWQxaVZfbmRuTDBQMGhJa25JaHZ6bzQ2S2NXTzhEbEhZdkp4cy1uM1Bxc25DclJLajU1SjhxVmVVVGtjMXFxX0dLVDFjbXVBSjNxWm8xeXhUZDlnOTdFWnpCT3JyMTByaHF0VDdhQ0RxUVAzWld5eVBzWkxSUlFsZEtfeHVfaHNxWQ?oc=5",
           "source": "Vietnam.vn",
           "published_at": "2026-10-13T03:36:30Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f1373329bb758bf1",
+          "title": "米国による食品添加物規制の強化は、ベトナムにどのような影響を与えるだろうか？",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORnlrRTNfRjlPbGU4NW1VMF9ra2lweWJrLXkyRHJDM19KVDRTeDh2TlFNSzhjOHN6S2lvNnJDQXloTHlKRFl6RXphNjF6S09SaWh3b2ZEN3pwcFpnNndqTUFJM2pZUUNneUtGUG1CRE9ocXlCbXJZbnVCS3VfV2VjV3BFTDhsc05oTW1FZVQ5RQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-12T09:37:22Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "281c0915fcbfbe8c",
-          "title": "11月15日から、ペーパータオルとトイレットペーパーに関する新たな規制が適用されます。",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd1k0SHM5LWF4cWh3VkJoTF9rX1NTLUx1XzZGSzlSc3BUTEpnTVc2MjdjdTluTGFIWDJmSUc1R0xZangwMC1QelQ1ckRKZjdvbzdNcHJ1ZHVpRnU3VzZsal9nRDJBMnBCbHZybGR4aEZZYXhaOGZQb285dHNyMWxTaFZJejRqNnRFV0E?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-05T14:20:46Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-16T11:36:04Z",
-  "last_success_at": "2026-10-16T11:36:04Z",
+  "last_attempt_at": "2026-10-16T16:46:26Z",
+  "last_success_at": "2026-10-16T16:46:26Z",
   "consecutive_failure_count": 0
 }
