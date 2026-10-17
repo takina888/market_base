@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "status": "partial",
+  "status": "live",
   "language": "ja",
-  "generated_at": "2026-10-16T21:21:52Z",
+  "generated_at": "2026-10-17T04:40:04Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -10,9 +10,7 @@
     "retail",
     "overseas"
   ],
-  "retained_categories": [
-    "regulations"
-  ],
+  "retained_categories": [],
   "failed_categories": {},
   "categories": {
     "overseas": {
@@ -69,21 +67,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-16T19:33:24Z",
+          "id": "8a111f979a31f659",
+          "title": "サンドウィッチマンが負の世界遺産アウシュビッツに特別潜入「想像以上」「“証拠”として大切な場所」＜博士ちゃん＞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55U25jZUNQZjJEVjZ5VXZ6ZThqS01MdndIT3hSZ1lxb2ZVMEpoUW9uR1podWpjS1pIeHF6QmpjaXdnUmNQWW9ZdFJBa19wU3NhV0xRajZraEFjcld4T1VRZ3Rqdl9GazZ5RGl4dUMtRndEMUUwVk52OUZVWm9uZDQ?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-16T22:30:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0a99bbb2fd725e0e",
-          "title": "ビジネス・イノベーション・科学・貿易省の事務次官にキャット・リトル氏を任命｜海外記事検索｜研究開発戦略センター（CRDS）",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1NdWplZHB1Nnk2aWNhVkh5ck5WLVJxVzBNSFVnenpmYWFfWHkyekpvQkNObmVZVWk5T0IwYlQzNW5WMUdWb181Sy1hSUJLbFhvMzgyZVdDcW1OTk1jcWdBaHFXQ0Y?oc=5",
-          "source": "科学技術振興機構（JST）",
-          "published_at": "2026-10-16T10:03:09Z",
+          "id": "89ed450e1a65f39a",
+          "title": "「遠い選択肢」だった海外へ",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1vZXY0a0JHXzJrNFZaN045RGdOb0R1M1VENFRSVTF2Y3R1cHY1Nzl4TUhic3FMNmZXXzNiQU1UQ2lFRTBvZ29WcXZCQjdsUQ?oc=5",
+          "source": "早稲田大学",
+          "published_at": "2026-10-16T22:24:18Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -144,20 +142,20 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "07b3c87415719f73",
-          "title": "【FISCO銘柄コメント】靜甲---包装機械などの産業機械、冷間鍛造製品の製造・販売、電機機器の…(フィスコ)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVnJ5NE1QSUFMbHgtdGptT1lEZ1c0eXZsMG5ISXBQald0TE1hWWpFeHVVQjFrZHBoTWZYcWcyTVNpN09XMTdzWEVjNEtVY295NlFVSHBjTkFiYjFQeEdEU0Roek50SE50Y3JjdkMwakNvUlg4eDdxX1NFdUVfcXMzUW56QjZCZjg?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-16T02:00:56Z",
+          "id": "18a869ac254940ed",
+          "title": "X線透過式鉱石選別機の世界市場2026年、グローバル市場規模（60mm以下、60mm～150mm、150mm以上）・分",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYVVg4aUdjQ1JpN2VielNsTzZlNkc5Rlc3cVBocnY4V29VQTJvdWNkcnVOdk5XZ0N0U0lfX0VjS1lHdzU2RjNVc3V5UjFCWl93TVdFTnlXZnljRzhoTFQ4RE5KWU51bExxX0swckFGM0RiR21PYUdBMXlOUQ?oc=5",
+          "source": "ニコニコニュース",
+          "published_at": "2026-10-16T04:03:23Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a9d1d2735a0e4898",
+          "id": "3d30126548cbe722",
           "title": "偏心渦電流選別機の世界市場（2026年～2032年）、市場規模（大粒子分離機、小粒子分離機）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE41WnBiT3JieUxEODhyRHlqY1B5a3g5QmlRRWpnQTZLMFo5NEhybU5WZlJlTmJBS3dXeXYwcTZ4TDhUeC1aLXJyN09tekozNE0?oc=5",
-          "source": "アットプレス",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wVGxVaDdxM0xMbVhhMHp6VlRCQWRIOEJuM0MwdG1SVGlEY01LMTJmQWl0dGpjbHRBZkpUUEVlSXBDMHZRUEd5Z2VvUnlVejA?oc=5",
+          "source": "Newscast.jp",
           "published_at": "2026-10-16T02:00:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -244,6 +242,16 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "eea4eda6acd09417",
+          "title": "バロー／大府市に「大府北山店」10月23日オープン、愛知県70店舗目",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nejU0QjM4SmRFU21CdTFOdEtrUG1LY01XRVQ0akhWb3Vzd2VvczAwNjd2alpDZjdtWVJwNVpONGJDTE8wenU2Znh3Z0tlY1NXNUppcw?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-16T04:53:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "24fb84123e0947c5",
           "title": "イオンリテール／兵庫県小野市に「（仮称）そよら小野（店舗面積1万360m2）」27年4月1日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zQjdWVnRvM05NZmtRdmE2LVhVdTRESk9iY3pnWmd5aUk1OXNkQWJNUXJlb3BtWVE3azlMUmdacklSSEtjSk1ZZTF5YkZxVUt4UklUZzF3?oc=5",
@@ -299,16 +307,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8ef122714accb147",
-          "title": "関西中四国小売流通特集：ライフコーポレーション・荒井信一郎専務執行役員 自社商品力の強化図る",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zWkpsMmlWVzM2czZWWmRLSDJidDdSbHVabzdJci1FWUpFTDM2RXFDaFdjMlNEdXVBdmJtdm1KUHlaNk16RUpDYUI0MFlCNlpJTnI5Z1lpX2t3YzYzd0l4a0JhZDAwMGl5aWc?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-09-26T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -369,6 +367,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "a6b70d2ddf5b6649",
+          "title": "《ホルムアルデヒド白菜は氷山の一角》日本に輸入された「発がん性」食品 ピーナッツ製品からカビ毒「アフラトキシン」検出事例 日本国内では中国産製品が数多く流通",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4xenh1aWhuMWRVOWp1dTlLMG5pY3VZejMyWmVycVg3aTdFZ1BMbmdybHhDTEc5dkpsUkU1ekVtdlpjbTVwMERV?oc=5",
+          "source": "マネーポストWEB",
+          "published_at": "2026-09-15T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
@@ -377,21 +385,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "cfab8d8274dc5c19",
-          "title": "日本マクドナルドが北海道91店でハンバーガー10商品を販売停止、台湾当局「同じ原材料は輸入していない」―台湾メディア",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRLWZKOHRnMlRBOHpMUjBoczlBYjdubDFvc2FmR1JGT1doaGl4c3pzU1I1X2d2X0dKMF85NWxrSWszTlloNlh6aU12RGxPVmg1S282OUZ2bUFXQXBkVl9LZnFad2xjNVU?oc=5",
-          "source": "Excite エキサイト",
-          "published_at": "2026-10-05T03:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-16T21:21:52Z",
-  "last_success_at": "2026-10-16T21:21:52Z",
+  "last_attempt_at": "2026-10-17T04:40:04Z",
+  "last_success_at": "2026-10-17T04:40:04Z",
   "consecutive_failure_count": 0
 }
