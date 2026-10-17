@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-10-17T10:56:13Z",
+  "generated_at": "2026-10-17T15:43:09Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -16,6 +16,16 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "599fec127ca5809e",
+          "title": "東京ゲームショウ（TGS）で海外展開セミナー、関係者が知見や成功体験を語る(日本) | ビジネス短信 ―ジェトロの海外ニュース",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GYU8tS2l6akh4OXZCemZNelgxNlUyV1ZkcVNaRUlYd2Y0V0tZMVVNUXp6M3RYdXh1OEpiMTUxU1EtbkNfZXVhV1RRSHVGMW5Qcm11VnNPenh1X2lCWDgyZGlJMFN6am9XQmNZenJ3?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-10-16T06:07:34Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "a10930952fb8e6b5",
           "title": "ジェトロ、釜山国際映画祭で「Japan Film Night」を開催(韓国、日本) | ビジネス短信 ―ジェトロの海外ニュース",
@@ -37,6 +47,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "f602663b460adeda",
+          "title": "水産大国復活への「勝ち筋」 世界市場から逆算する魚づくり",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zYi1qSEs3Sjg1MFVwMTh4WVZXTzNTdnM0RFJvN3NrVnhhMXhscFdydUprOEdlWkJjM2w3azJVOHR4ZGFPbk16cWNkVzhiY1BqNEY2enFMa3JhUFYyN1BYUkRURElacWRMS2RiYUQ5UWx0Rnc?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-10-15T16:41:14Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "5ec833a5536be0dc",
           "title": "髙木経済産業副大臣が英国のテイラー対日貿易特使と会談を行いました",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PckFuaEwyR3FWOURvSG5LT3pDX3ZvOWc3cmVGVVJwY2dmZXcxNDFodEEyQUNtVFNrcE5WdmxRMDgzbE1aWEFONlZkZUFkTjZkM2NKRHJWalVOQ29zUFpjZ1pKWQ?oc=5",
@@ -47,41 +67,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "54a46af3cf2d5e51",
-          "title": "「世界最大のペンギン繁殖地」に異変、その座を失った理由とは(1/2)",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8zckxpQzVQZG9VbXQ4aEZFeFhmcnBvTDFlQk56RzR4RjkwZ0tSTlRjNU4yRWNYZWNnMTY2TGJueHR6US0yZWJZS0NxZjdhWEx0akZBVQ?oc=5",
-          "source": "CNN.co.jp",
-          "published_at": "2026-10-17T02:22:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8a111f979a31f659",
-          "title": "サンドウィッチマンが負の世界遺産アウシュビッツに特別潜入「想像以上」「“証拠”として大切な場所」＜博士ちゃん＞",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55U25jZUNQZjJEVjZ5VXZ6ZThqS01MdndIT3hSZ1lxb2ZVMEpoUW9uR1podWpjS1pIeHF6QmpjaXdnUmNQWW9ZdFJBa19wU3NhV0xRajZraEFjcld4T1VRZ3Rqdl9GazZ5RGl4dUMtRndEMUUwVk52OUZVWm9uZDQ?oc=5",
+          "id": "e46187b2caec8225",
+          "title": "進む物価高と円安 海外進学の今",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YU1BpczVKcGtCQ09yM25uQ0F0bVlCMnYxOGtnRmxERHhDSU83ZUoyMnhOdTM0b0QtbzZPQ2FnbkVTMmNPN3pIQ3pIU1djNHFK?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-16T22:30:00Z",
+          "published_at": "2026-10-17T14:49:12Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "89ed450e1a65f39a",
-          "title": "「遠い選択肢」だった海外へ",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1vZXY0a0JHXzJrNFZaN045RGdOb0R1M1VENFRSVTF2Y3R1cHY1Nzl4TUhic3FMNmZXXzNiQU1UQ2lFRTBvZ29WcXZCQjdsUQ?oc=5",
-          "source": "早稲田大学",
-          "published_at": "2026-10-16T22:24:18Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "62b326eea05e51d2",
-          "title": "【お知らせ】小泉防衛大臣のインドネシア国際緊急援助活動に係る帰国行事への参加の予定について",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zazVobGdQRXk0dnJya3BYcll3SndoZnNfNmc5dXdtRnpWaDZZMDNCWDMyM1c3TWtVVjFTWnpfUmRBU1hGc09MdzQtMWJSSWVwZVdiVDVGeEVmLWIwbS1aQw?oc=5",
-          "source": "防衛省",
-          "published_at": "2026-10-16T15:03:05Z",
+          "id": "1ee18e15db47c726",
+          "title": "ITシステムの弱点 世界で発見急増",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5HQ0RrN1oyS2VKdkh6MTdZWkF3VE05d292eFNYZTZFQngtUGpNWTMta3ZKV1pPYzlrR0xrbTlqQkc2M29QZ1RfOWhyamR0YllE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-17T13:50:29Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -292,21 +292,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e334769b0f16ddcd",
-          "title": "マルト／福島県いわき市に「（仮称）いわきスマートタウン計画（店舗面積2813m2）」27年4月20日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iSmw0SmhmdkEtY2lWRVgwZW9zQkhia2NiN3J2QURLRW8ydGxiSHBodHpFRE4yQzJ6WWRnMWlCWG5oekdPZkJMUW5vVHlKbzFmZXJlcHZ3?oc=5",
+          "id": "2ae604176a3eaf97",
+          "title": "オーケーほか／東京都北区に「（仮称）北区豊島四丁目SC計画（店舗面積2670m2）」27年3月23日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TTkQzOHpQRjZLbFJVRExvRm8zeU4zNGh6WEFFTldXRDJYU0gxODE5bU9BYkNzTHNMUFZTU0gtQ3U3NjdRQ2JIbHRURlpsSjFfYlhSa1FR?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-09-29T07:00:00Z",
+          "published_at": "2026-10-01T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "51ef72633e75c4aa",
-          "title": "マックスバリュ東海／愛知県豊橋市に「（仮称）マックスバリュ豊橋西幸町店（店舗面積4344m2）」27年4月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
+          "id": "e334769b0f16ddcd",
+          "title": "マルト／福島県いわき市に「（仮称）いわきスマートタウン計画（店舗面積2813m2）」27年4月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iSmw0SmhmdkEtY2lWRVgwZW9zQkhia2NiN3J2QURLRW8ydGxiSHBodHpFRE4yQzJ6WWRnMWlCWG5oekdPZkJMUW5vVHlKbzFmZXJlcHZ3?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-09-28T07:00:00Z",
+          "published_at": "2026-09-29T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -389,7 +389,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-17T10:56:13Z",
-  "last_success_at": "2026-10-17T10:56:13Z",
+  "last_attempt_at": "2026-10-17T15:43:09Z",
+  "last_success_at": "2026-10-17T15:43:09Z",
   "consecutive_failure_count": 0
 }
