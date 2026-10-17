@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-10-17T15:43:09Z",
+  "generated_at": "2026-10-17T20:43:58Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -47,16 +47,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f602663b460adeda",
-          "title": "水産大国復活への「勝ち筋」 世界市場から逆算する魚づくり",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zYi1qSEs3Sjg1MFVwMTh4WVZXTzNTdnM0RFJvN3NrVnhhMXhscFdydUprOEdlWkJjM2w3azJVOHR4ZGFPbk16cWNkVzhiY1BqNEY2enFMa3JhUFYyN1BYUkRURElacWRMS2RiYUQ5UWx0Rnc?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-10-15T16:41:14Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "5ec833a5536be0dc",
           "title": "髙木経済産業副大臣が英国のテイラー対日貿易特使と会談を行いました",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PckFuaEwyR3FWOURvSG5LT3pDX3ZvOWc3cmVGVVJwY2dmZXcxNDFodEEyQUNtVFNrcE5WdmxRMDgzbE1aWEFONlZkZUFkTjZkM2NKRHJWalVOQ29zUFpjZ1pKWQ?oc=5",
@@ -67,21 +57,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e46187b2caec8225",
-          "title": "進む物価高と円安 海外進学の今",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YU1BpczVKcGtCQ09yM25uQ0F0bVlCMnYxOGtnRmxERHhDSU83ZUoyMnhOdTM0b0QtbzZPQ2FnbkVTMmNPN3pIQ3pIU1djNHFK?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-17T14:49:12Z",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-17T19:46:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1ee18e15db47c726",
-          "title": "ITシステムの弱点 世界で発見急増",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5HQ0RrN1oyS2VKdkh6MTdZWkF3VE05d292eFNYZTZFQngtUGpNWTMta3ZKV1pPYzlrR0xrbTlqQkc2M29QZ1RfOWhyamR0YllE?oc=5",
+          "id": "625d8d2fa76e3fba",
+          "title": "来たれ！異世界の来訪者！ | エンタテインメント",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONDZjSUkxQmFMYVdUVDM4ZThCdjgwSjRfOEQ2N0FFQ3hMLWpwdjNlN2g5dnFqQXpJVnZhUEhxMi14VUtDZ01ZZzc2Wm1rSEU1OXA1MEd0S041cjREV25BSGtKbE1kU0NoWFVBaWpERmQwQ3lhSk41VUd0T09nUnZ0dzBCYmc?oc=5",
+          "source": "東映株式会社",
+          "published_at": "2026-10-17T15:00:08Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e46187b2caec8225",
+          "title": "進む物価高と円安 海外進学の今",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YU1BpczVKcGtCQ09yM25uQ0F0bVlCMnYxOGtnRmxERHhDSU83ZUoyMnhOdTM0b0QtbzZPQ2FnbkVTMmNPN3pIQ3pIU1djNHFK?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-17T13:50:29Z",
+          "published_at": "2026-10-17T11:32:49Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -266,7 +266,7 @@
           "title": "イオンリテールほか／兵庫県三田市に「（仮称）そよら三田・サンフラワー（店舗面積7481m2）」27年4月27日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1haXhLZm83WVRSTUotX2JDR21ibVpyY25ZM3VKTUZMV1B0elJkR3JlOWFza3pwdmlVNG94OHVfRjR1NDZ4MVV5bmkwRExwSGpkSG9wQVpB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-09T01:31:00Z",
+          "published_at": "2026-10-09T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -277,6 +277,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-08T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "49258c2e80e73508",
+          "title": "ロイヤルホームセンター／京都府城陽市に「ロイヤルプロ城陽インター（店舗面積2400m2）」27年5月21日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tQ0FyTng3UllxZHpoYzhyNTdabi15VTlPaTEyUGcydjU5bldUT3pNZnN1ZXNpZUJYelJ3ejdIeW16RFdGOHhLX0pRMjQyOFNOcGhLcUt3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-02T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -300,16 +310,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e334769b0f16ddcd",
-          "title": "マルト／福島県いわき市に「（仮称）いわきスマートタウン計画（店舗面積2813m2）」27年4月20日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iSmw0SmhmdkEtY2lWRVgwZW9zQkhia2NiN3J2QURLRW8ydGxiSHBodHpFRE4yQzJ6WWRnMWlCWG5oekdPZkJMUW5vVHlKbzFmZXJlcHZ3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-29T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -322,16 +322,6 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
           "source": "ジェトロ（日本貿易振興機構）",
           "published_at": "2026-07-15T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "02d0d1bb11d517ee",
-          "title": "米国の食品添加物検査という「障壁」に対し、水産物輸出業者はどのように対応しているのか？",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSHNLN1JiSlhKZ19jUnpKN3VIamNabFQ4TGRHZDBpeUNBZk1zMTFOOTJIQWpLUFVnRE13cWQxaVZfbmRuTDBQMGhJa25JaHZ6bzQ2S2NXTzhEbEhZdkp4cy1uM1Bxc25DclJLajU1SjhxVmVVVGtjMXFxX0dLVDFjbXVBSjNxWm8xeXhUZDlnOTdFWnpCT3JyMTByaHF0VDdhQ0RxUVAzWld5eVBzWkxSUlFsZEtfeHVfaHNxWQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-13T03:36:30Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -385,11 +375,21 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7338dc41e445e013",
+          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
+          "source": "独立行政法人 農畜産業振興機構",
+          "published_at": "2026-06-25T10:48:49Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-17T15:43:09Z",
-  "last_success_at": "2026-10-17T15:43:09Z",
+  "last_attempt_at": "2026-10-17T20:43:58Z",
+  "last_success_at": "2026-10-17T20:43:58Z",
   "consecutive_failure_count": 0
 }
