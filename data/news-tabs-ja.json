@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-10-18T11:22:12Z",
+  "generated_at": "2026-10-18T15:58:30Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -27,21 +27,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5ec833a5536be0dc",
-          "title": "髙木経済産業副大臣が英国のテイラー対日貿易特使と会談を行いました",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PckFuaEwyR3FWOURvSG5LT3pDX3ZvOWc3cmVGVVJwY2dmZXcxNDFodEEyQUNtVFNrcE5WdmxRMDgzbE1aWEFONlZkZUFkTjZkM2NKRHJWalVOQ29zUFpjZ1pKWQ?oc=5",
-          "source": "経済産業省",
-          "published_at": "2026-10-15T07:55:51Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "625d8d2fa76e3fba",
           "title": "来たれ！異世界の来訪者！ | エンタテインメント",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONDZjSUkxQmFMYVdUVDM4ZThCdjgwSjRfOEQ2N0FFQ3hMLWpwdjNlN2g5dnFqQXpJVnZhUEhxMi14VUtDZ01ZZzc2Wm1rSEU1OXA1MEd0S041cjREV25BSGtKbE1kU0NoWFVBaWpERmQwQ3lhSk41VUd0T09nUnZ0dzBCYmc?oc=5",
           "source": "東映株式会社",
-          "published_at": "2026-10-18T10:09:33Z",
+          "published_at": "2026-10-18T14:03:18Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -51,17 +41,7 @@
           "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-18T07:47:56Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-18T07:45:59Z",
+          "published_at": "2026-10-18T13:48:42Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -82,6 +62,26 @@
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8tTlE4cE1oVzVDSWJJYWZaWjlwU25Lb0dIY2RhVWhpOG1kS0IyQTFIXzBJcm9aNXBZdk01WmpPY1RYVktSbFY1VTFXNmrSAU9BVV95cUxNdU0yUWdxeUpxM1pkOEZOSEN4Q0hxSkllZ21FcDhIOWladmtvamtYRE9haHYwT1ppTW95Z1o4NXowOWtidEdCbWR6SXA1TTVF?oc=5",
           "source": "ダイヤモンド・オンライン",
           "published_at": "2026-10-17T19:55:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3ec945cc9d682238",
+          "title": "「利きワイン」世界大会 日本準V",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE56by1ScW95ZE54bjctS2xtdnFrWVpMRjh0MlQxSnFJeF85bFIzaVRNV2l6MFNUdklVSEx1MHd4Vk8zSjdCWEdoemNIXzNUY2M1?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-17T13:25:06Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f76ba1e0be2cb96c",
+          "title": "フランスの“利きワイン”世界大会 日本代表チームが準優勝（日テレNEWS NNN）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fU0xmUjlFdDR0RFhFV2NMb0xnY3pqTVpfajlOd0NSZjRRb3J4VHBwb1dVNW1yYWNzcEhyazRaWFI5eFRoQ3dqcy1xUkQyZ29OLWozNEV1NjRBZ0dGdEVkN1M2WUp2WXU1RzhRdllYam5vWnRtNnM5X3o0Tjk3cGM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-17T12:26:01Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -152,11 +152,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "3d30126548cbe722",
-          "title": "偏心渦電流選別機の世界市場（2026年～2032年）、市場規模（大粒子分離機、小粒子分離機）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wVGxVaDdxM0xMbVhhMHp6VlRCQWRIOEJuM0MwdG1SVGlEY01LMTJmQWl0dGpjbHRBZkpUUEVlSXBDMHZRUEd5Z2VvUnlVejA?oc=5",
-          "source": "Newscast.jp",
-          "published_at": "2026-10-16T02:00:00Z",
+          "id": "c0ccd2df1db3a53e",
+          "title": "X線透過式鉱石選別機の世界市場2026年、グローバル市場規模（60mm以下、60mm～150mm、150mm以上）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrNEdzSjFra3lzZzdFalpsV1o4akVmdG9sVlFDcGdTYmZDVDhCTEdkQW54ZEVvZVBWZ3VfOUd2YURidTRlTUFwaG51eklWcGF1UmVITEJBSE0yQ0pwQzRyeU5pRWFRVDAxbVE?oc=5",
+          "source": "Excite エキサイト",
+          "published_at": "2026-10-16T04:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -252,6 +252,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "97034af285b87059",
+          "title": "京阪HD／京都府に「三条PJ本館新築工事（店舗面積6895m2）」27年5月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mYXdMb3ZZNnNJQ1czd0xtYkZzcDhGbnd4UUEzQlpTN3pKcHhtcXFaSWloWDVzNDFmdHk3cXZlYWtGdEpnSUJGZW84XzY5MDlTQXpQVklB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-16T01:31:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "24fb84123e0947c5",
           "title": "イオンリテール／兵庫県小野市に「（仮称）そよら小野（店舗面積1万360m2）」27年4月1日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zQjdWVnRvM05NZmtRdmE2LVhVdTRESk9iY3pnWmd5aUk1OXNkQWJNUXJlb3BtWVE3azlMUmdacklSSEtjSk1ZZTF5YkZxVUt4UklUZzF3?oc=5",
@@ -300,16 +310,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2ae604176a3eaf97",
-          "title": "オーケーほか／東京都北区に「（仮称）北区豊島四丁目SC計画（店舗面積2670m2）」27年3月23日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TTkQzOHpQRjZLbFJVRExvRm8zeU4zNGh6WEFFTldXRDJYU0gxODE5bU9BYkNzTHNMUFZTU0gtQ3U3NjdRQ2JIbHRURlpsSjFfYlhSa1FR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-01T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -347,16 +347,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "02d0d1bb11d517ee",
-          "title": "米国の食品添加物検査という「障壁」に対し、水産物輸出業者はどのように対応しているのか？",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSHNLN1JiSlhKZ19jUnpKN3VIamNabFQ4TGRHZDBpeUNBZk1zMTFOOTJIQWpLUFVnRE13cWQxaVZfbmRuTDBQMGhJa25JaHZ6bzQ2S2NXTzhEbEhZdkp4cy1uM1Bxc25DclJLajU1SjhxVmVVVGtjMXFxX0dLVDFjbXVBSjNxWm8xeXhUZDlnOTdFWnpCT3JyMTByaHF0VDdhQ0RxUVAzWld5eVBzWkxSUlFsZEtfeHVfaHNxWQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-13T03:36:30Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "f1373329bb758bf1",
           "title": "米国による食品添加物規制の強化は、ベトナムにどのような影響を与えるだろうか？",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORnlrRTNfRjlPbGU4NW1VMF9ra2lweWJrLXkyRHJDM19KVDRTeDh2TlFNSzhjOHN6S2lvNnJDQXloTHlKRFl6RXphNjF6S09SaWh3b2ZEN3pwcFpnNndqTUFJM2pZUUNneUtGUG1CRE9ocXlCbXJZbnVCS3VfV2VjV3BFTDhsc05oTW1FZVQ5RQ?oc=5",
@@ -385,11 +375,21 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "cfab8d8274dc5c19",
+          "title": "日本マクドナルドが北海道91店でハンバーガー10商品を販売停止、台湾当局「同じ原材料は輸入していない」―台湾メディア",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRLWZKOHRnMlRBOHpMUjBoczlBYjdubDFvc2FmR1JGT1doaGl4c3pzU1I1X2d2X0dKMF85NWxrSWszTlloNlh6aU12RGxPVmg1S282OUZ2bUFXQXBkVl9LZnFad2xjNVU?oc=5",
+          "source": "Excite エキサイト",
+          "published_at": "2026-10-05T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-18T11:22:12Z",
-  "last_success_at": "2026-10-18T11:22:12Z",
+  "last_attempt_at": "2026-10-18T15:58:30Z",
+  "last_success_at": "2026-10-18T15:58:30Z",
   "consecutive_failure_count": 0
 }
