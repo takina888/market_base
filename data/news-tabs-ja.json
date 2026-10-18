@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-10-18T15:58:30Z",
+  "generated_at": "2026-10-18T20:53:31Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -32,16 +32,6 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONDZjSUkxQmFMYVdUVDM4ZThCdjgwSjRfOEQ2N0FFQ3hMLWpwdjNlN2g5dnFqQXpJVnZhUEhxMi14VUtDZ01ZZzc2Wm1rSEU1OXA1MEd0S041cjREV25BSGtKbE1kU0NoWFVBaWpERmQwQ3lhSk41VUd0T09nUnZ0dzBCYmc?oc=5",
           "source": "東映株式会社",
           "published_at": "2026-10-18T14:03:18Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-18T13:48:42Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -85,6 +75,16 @@
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "855cd099ac86e32e",
+          "title": "国際開発金融機関代表者ら、マニラでの会合において、更なる資金動員と開発効果の拡大に向け連携を強化",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVBMb2I0dUluRm5OSnV6WUlxd0xpSlB2LUIySW45UnBXcm9FT0IwM3ZCRTB5UUhXMi1tdHdvNDlJY2VZQ3FMTmdDSkpzRVZ4NDFud0JoTlFCOEdyR29tOUNfb19TVjhhOFI2N19TalI0bFVjdWZnaG1qMEZvQTlIa085YlVDeTdBZDlxakcwNTlycF9aT2trekxodlUzMjFka0Q5eXk5T0p0Tlp0ck1z?oc=5",
+          "source": "Asian Development Bank",
+          "published_at": "2026-10-17T11:29:51Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -122,16 +122,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ee7a4d47f365962f",
-          "title": "新馬鈴薯共同選別機安全操業祈願祭に参列しました。：北海道農政事務所",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdm9LVGJSMVZERXI0clMwc2h3b1h1bmY4OUhWNWhFRERGUGY3NWFnLXVULXFBUXlUNGhwWVhYamNiS3RSb2poRmRqV1JYS01jejhzcURHR3F6cTlQM1V1emtReU90OGNPRTdla3ZCczJUSFA3ZmFvcW5QNTNnMFE4eXE2ZGRFSEE?oc=5",
-          "source": "農林水産省",
-          "published_at": "2026-08-18T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "a772bd383a2af7eb",
           "title": "日本盛、大型紙パック充填機を移設",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
@@ -157,6 +147,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrNEdzSjFra3lzZzdFalpsV1o4akVmdG9sVlFDcGdTYmZDVDhCTEdkQW54ZEVvZVBWZ3VfOUd2YURidTRlTUFwaG51eklWcGF1UmVITEJBSE0yQ0pwQzRyeU5pRWFRVDAxbVE?oc=5",
           "source": "Excite エキサイト",
           "published_at": "2026-10-16T04:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3d30126548cbe722",
+          "title": "偏心渦電流選別機の世界市場（2026年～2032年）、市場規模（大粒子分離機、小粒子分離機）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wVGxVaDdxM0xMbVhhMHp6VlRCQWRIOEJuM0MwdG1SVGlEY01LMTJmQWl0dGpjbHRBZkpUUEVlSXBDMHZRUEd5Z2VvUnlVejA?oc=5",
+          "source": "Newscast.jp",
+          "published_at": "2026-10-16T02:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -317,26 +317,6 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "e3eb956f85cd4512",
-          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-07-15T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8155d426af0e2c28",
-          "title": "処方箋薬ユーザーフィー法改正を議論、創薬・バイオ分野の国際展示会「BIO 2026」(米国) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IWnppSUxuOWg4TFhuSWF1REYxUTVmdmMybF9DazNtRVZSVmxidjI5WHdUNElpMHdTM2hULS1GX3RvRHBnaUhwd3lGZHQ1RjZDYUdvUjk5allLdGVQQnNTX2ZsZy1wS2xYc1BrX1BR?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-07-09T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "181ae67a5df6677e",
           "title": "1日あたりの金取引額が500万ベトナムドンを超える場合は、現金以外の決済方法を用いなければならない。",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQTJtaUUwejA4U29XXzd4TmJZeWNtajZHR2QwRFlDT0NNVE5jVkFnSG1xekpqM3ZXbWpUQ05Cbk0wTTd4YUpacUZmWGM4M19kNE9CMTF3XzE1bVVzcnZtelpjVTZla2FmV0Z4MzA1Q1dkR2w2T1VadVE2V3ZhRm43MDIwb3UxaWhMYkRLZHZUNk5vWUxJdEJVYzgzZ0k?oc=5",
@@ -385,11 +365,31 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "82908306dc7c3ee3",
+          "title": "政府は米の輸出入事業に関する新たな政令を発布した。",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYzhyM1pVZzZQaHBDNDJuOFZqV243LVFTVkQ3aGRfZklLUWFPSVhaQkhieHR4TmVxUXE5SjMwTG9veFdwbnZoNFFQLTVJTHpmNzBUdnVBVV90UGw5ZDJHbGlMUnhnaDJWNEplbjVzQ1V4cmVLZWR0OThtR1lrVldJVlNBZFNXc1pvcXlEQk85Mkp3NGtUU0E?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-26T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7338dc41e445e013",
+          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
+          "source": "独立行政法人 農畜産業振興機構",
+          "published_at": "2026-06-25T10:48:49Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-18T15:58:30Z",
-  "last_success_at": "2026-10-18T15:58:30Z",
+  "last_attempt_at": "2026-10-18T20:53:31Z",
+  "last_success_at": "2026-10-18T20:53:31Z",
   "consecutive_failure_count": 0
 }
