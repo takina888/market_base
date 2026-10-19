@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-10-18T20:53:31Z",
+  "generated_at": "2026-10-19T04:53:37Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -17,6 +17,16 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "599fec127ca5809e",
+          "title": "東京ゲームショウ（TGS）で海外展開セミナー、関係者が知見や成功体験を語る(日本) | ビジネス短信 ―ジェトロの海外ニュース",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GYU8tS2l6akh4OXZCemZNelgxNlUyV1ZkcVNaRUlYd2Y0V0tZMVVNUXp6M3RYdXh1OEpiMTUxU1EtbkNfZXVhV1RRSHVGMW5Qcm11VnNPenh1X2lCWDgyZGlJMFN6am9XQmNZenJ3?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-10-16T06:07:34Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "818cf9a390abbe67",
           "title": "ワルシャワ国際映画祭で日本映画「mentor」が世界初公開(日本、ポーランド) | ビジネス短信",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBFamNtVUhwRGtNRWZwRW16SW9JbTN6U21rRmFhQU52QjRrdnkxOUZ0aUNmSk1BTzN6eDhtanQwb3RBODUzMjFscUluZm1uT2tnbmdZNEpMdXpyTmVVYVFrSi1DQWpaNTlLM2xVaVF3?oc=5",
@@ -27,11 +37,31 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "59b0f7cbd9aa8dd0",
+          "title": "『ウマ娘』海外の大型イベント、現時点でビザの承認が下りず 現地で22日・23日開催予定（オリコン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKdTZOdUNpNTV1T3Z4VEVTRThPMmpJTUo5eklnSUhEUjBFWFNneXRDdkRrR1JSVzl3OEZ2T2MtZkJUbUVEZzRJaFhNZWxFcllrcGNMcXBZdldUWjQtZGh6R1FWX0c5VkVrNHBIb2EtX0t4X0pJbmFMTGNDcENWZ1k?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-19T03:08:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "30c0078a4f67d7a9",
+          "title": "中国の貿易黒字、約190兆円で最高更新記録へ──それでも国内で負けている理由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByWUlrTzlLOWhMa201NjBBQXVxSko2czNicEtqUFRCcDFRUHFpZlpWWWVzR2h5SldhM2hLbS14eHRZZ1NNSGYwR2JhS295TFNrWXUycFhXMUtoWU5fcUtwdkhOTVN3enFUbDRrM2w4RDRoUkoyaEVSV3ZHYmNzVUk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-19T00:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "625d8d2fa76e3fba",
           "title": "来たれ！異世界の来訪者！ | エンタテインメント",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONDZjSUkxQmFMYVdUVDM4ZThCdjgwSjRfOEQ2N0FFQ3hMLWpwdjNlN2g5dnFqQXpJVnZhUEhxMi14VUtDZ01ZZzc2Wm1rSEU1OXA1MEd0S041cjREV25BSGtKbE1kU0NoWFVBaWpERmQwQ3lhSk41VUd0T09nUnZ0dzBCYmc?oc=5",
           "source": "東映株式会社",
-          "published_at": "2026-10-18T14:03:18Z",
+          "published_at": "2026-10-18T23:28:18Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -52,36 +82,6 @@
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8tTlE4cE1oVzVDSWJJYWZaWjlwU25Lb0dIY2RhVWhpOG1kS0IyQTFIXzBJcm9aNXBZdk01WmpPY1RYVktSbFY1VTFXNmrSAU9BVV95cUxNdU0yUWdxeUpxM1pkOEZOSEN4Q0hxSkllZ21FcDhIOWladmtvamtYRE9haHYwT1ppTW95Z1o4NXowOWtidEdCbWR6SXA1TTVF?oc=5",
           "source": "ダイヤモンド・オンライン",
           "published_at": "2026-10-17T19:55:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3ec945cc9d682238",
-          "title": "「利きワイン」世界大会 日本準V",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE56by1ScW95ZE54bjctS2xtdnFrWVpMRjh0MlQxSnFJeF85bFIzaVRNV2l6MFNUdklVSEx1MHd4Vk8zSjdCWEdoemNIXzNUY2M1?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-17T13:25:06Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f76ba1e0be2cb96c",
-          "title": "フランスの“利きワイン”世界大会 日本代表チームが準優勝（日テレNEWS NNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fU0xmUjlFdDR0RFhFV2NMb0xnY3pqTVpfajlOd0NSZjRRb3J4VHBwb1dVNW1yYWNzcEhyazRaWFI5eFRoQ3dqcy1xUkQyZ29OLWozNEV1NjRBZ0dGdEVkN1M2WUp2WXU1RzhRdllYam5vWnRtNnM5X3o0Tjk3cGM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-17T12:26:01Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "855cd099ac86e32e",
-          "title": "国際開発金融機関代表者ら、マニラでの会合において、更なる資金動員と開発効果の拡大に向け連携を強化",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVBMb2I0dUluRm5OSnV6WUlxd0xpSlB2LUIySW45UnBXcm9FT0IwM3ZCRTB5UUhXMi1tdHdvNDlJY2VZQ3FMTmdDSkpzRVZ4NDFud0JoTlFCOEdyR29tOUNfb19TVjhhOFI2N19TalI0bFVjdWZnaG1qMEZvQTlIa085YlVDeTdBZDlxakcwNTlycF9aT2trekxodlUzMjFka0Q5eXk5T0p0Tlp0ck1z?oc=5",
-          "source": "Asian Development Bank",
-          "published_at": "2026-10-17T11:29:51Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -132,6 +132,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "417cb0ad7d80feed",
+          "title": "食品機械用潤滑剤市場統計2026：2032年426百万米ドル規模へ発展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmTF9KOEZkRzF5dUZyQ1hSTUZwTGkyWTBrYjRxQlhQTVFuUWpnWG1uendOOExSNjZ4eWpUTWJUMnZyXzVFQmloUWtqMXE3cnBMYzhRejR0aGlXMEMwLXVNSkRoZ09ENzlEY0E?oc=5",
+          "source": "Excite エキサイト",
+          "published_at": "2026-10-19T03:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "18a869ac254940ed",
           "title": "X線透過式鉱石選別機の世界市場2026年、グローバル市場規模（60mm以下、60mm～150mm、150mm以上）・分",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYVVg4aUdjQ1JpN2VielNsTzZlNkc5Rlc3cVBocnY4V29VQTJvdWNkcnVOdk5XZ0N0U0lfX0VjS1lHdzU2RjNVc3V5UjFCWl93TVdFTnlXZnljRzhoTFQ4RE5KWU51bExxX0swckFGM0RiR21PYUdBMXlOUQ?oc=5",
@@ -147,16 +157,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrNEdzSjFra3lzZzdFalpsV1o4akVmdG9sVlFDcGdTYmZDVDhCTEdkQW54ZEVvZVBWZ3VfOUd2YURidTRlTUFwaG51eklWcGF1UmVITEJBSE0yQ0pwQzRyeU5pRWFRVDAxbVE?oc=5",
           "source": "Excite エキサイト",
           "published_at": "2026-10-16T04:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3d30126548cbe722",
-          "title": "偏心渦電流選別機の世界市場（2026年～2032年）、市場規模（大粒子分離機、小粒子分離機）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wVGxVaDdxM0xMbVhhMHp6VlRCQWRIOEJuM0MwdG1SVGlEY01LMTJmQWl0dGpjbHRBZkpUUEVlSXBDMHZRUEd5Z2VvUnlVejA?oc=5",
-          "source": "Newscast.jp",
-          "published_at": "2026-10-16T02:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -292,20 +292,20 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "49258c2e80e73508",
-          "title": "ロイヤルホームセンター／京都府城陽市に「ロイヤルプロ城陽インター（店舗面積2400m2）」27年5月21日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tQ0FyTng3UllxZHpoYzhyNTdabi15VTlPaTEyUGcydjU5bldUT3pNZnN1ZXNpZUJYelJ3ejdIeW16RFdGOHhLX0pRMjQyOFNOcGhLcUt3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-02T07:00:00Z",
+          "id": "a2ae2d609b915546",
+          "title": "食品スーパーマーケット「大阪屋ショップ日進店」10月2日(金)オープンのお知らせ",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ3ZSVnJaeGVnYWVIT2ZIa0wxa0lOQXpJVGhodkN5YnRhNThqUVNFeUZzUTJJVEp1Q3RWUGVsX0pEZzh5R2k2RFJtc29wYWxoQVhoaFJmQTZHNDRLVVd2VXZmam9FeElteHc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-10-01T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a2ae2d609b915546",
-          "title": "食品スーパーマーケット「大阪屋ショップ日進店」10月2日(金)オープンのお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ3ZSVnJaeGVnYWVIT2ZIa0wxa0lOQXpJVGhodkN5YnRhNThqUVNFeUZzUTJJVEp1Q3RWUGVsX0pEZzh5R2k2RFJtc29wYWxoQVhoaFJmQTZHNDRLVVd2VXZmam9FeElteHc?oc=5",
-          "source": "PR TIMES",
+          "id": "2ae604176a3eaf97",
+          "title": "オーケーほか／東京都北区に「（仮称）北区豊島四丁目SC計画（店舗面積2670m2）」27年3月23日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TTkQzOHpQRjZLbFJVRExvRm8zeU4zNGh6WEFFTldXRDJYU0gxODE5bU9BYkNzTHNMUFZTU0gtQ3U3NjdRQ2JIbHRURlpsSjFfYlhSa1FR?oc=5",
+          "source": "流通ニュース",
           "published_at": "2026-10-01T07:00:00Z",
           "language": "ja",
           "category": "retail",
@@ -316,6 +316,16 @@
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "8155d426af0e2c28",
+          "title": "処方箋薬ユーザーフィー法改正を議論、創薬・バイオ分野の国際展示会「BIO 2026」(米国) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IWnppSUxuOWg4TFhuSWF1REYxUTVmdmMybF9DazNtRVZSVmxidjI5WHdUNElpMHdTM2hULS1GX3RvRHBnaUhwd3lGZHQ1RjZDYUdvUjk5allLdGVQQnNTX2ZsZy1wS2xYc1BrX1BR?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-07-09T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "181ae67a5df6677e",
           "title": "1日あたりの金取引額が500万ベトナムドンを超える場合は、現金以外の決済方法を用いなければならない。",
@@ -375,21 +385,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7338dc41e445e013",
-          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
-          "published_at": "2026-06-25T10:48:49Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-18T20:53:31Z",
-  "last_success_at": "2026-10-18T20:53:31Z",
+  "last_attempt_at": "2026-10-19T04:53:37Z",
+  "last_success_at": "2026-10-19T04:53:37Z",
   "consecutive_failure_count": 0
 }
