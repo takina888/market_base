@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-19T13:36:32Z",
+  "generated_at": "2026-10-19T22:28:17Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -33,7 +33,7 @@
           "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-19T10:54:41Z",
+          "published_at": "2026-10-19T19:55:58Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -69,21 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "62f1de09b3d4545d",
-          "title": "「世界一しかやらない」医療機器マニー、技術起点の勝ちパターン手放す新事業",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzZ3JaMjMyMzNPVlAySmRNYWMzSzhBcEYyWVFzdnV0bDNZcnBrWTVZeGtWYUlqRW5ZRlkwQUdVbFFiS2tWMUpxb05XNm85aG1KaGUwYTFnbUN4QVlpVXB6anNNTDVwekU?oc=5",
-          "source": "日経ビジネス電子版",
-          "published_at": "2026-10-19T08:00:00Z",
+          "id": "83c05a18cd052747",
+          "title": "タイ国際航空、洪水の影響を受けた乗客への補償措置を決定",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9IYU1HNWtXV3hlRWxYSjlpaUV0VExidGFycXlGenhLZnRLdmx6V1M3d09sUlI4T2ljSGRJUFdDSk5lSG90bDhUcG1tMno5bWdMX2NSRzQ4SQ?oc=5",
+          "source": "TRAICY（トライシー）",
+          "published_at": "2026-10-19T08:17:31Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "67bd788bd636d2e4",
-          "title": "イランの司令官ら、さらなる戦争に備え 「世界は驚愕する」",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvbTJBeHN5UVZKdnNJWVp6TldxcGdJd3UtZU9CaHZnanBPOW5iNHNaZWNVMU1XWWlHcmxOWVJ0eWQ1eVBaZkhfczdWMFZJMV9jcVU0?oc=5",
-          "source": "CNN.co.jp",
-          "published_at": "2026-10-19T06:06:00Z",
+          "id": "62f1de09b3d4545d",
+          "title": "「世界一しかやらない」医療機器マニー、技術起点の勝ちパターン手放す新事業",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzZ3JaMjMyMzNPVlAySmRNYWMzSzhBcEYyWVFzdnV0bDNZcnBrWTVZeGtWYUlqRW5ZRlkwQUdVbFFiS2tWMUpxb05XNm85aG1KaGUwYTFnbUN4QVlpVXB6anNNTDVwekU?oc=5",
+          "source": "日経ビジネス電子版",
+          "published_at": "2026-10-19T08:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -254,16 +254,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "97034af285b87059",
-          "title": "京阪HD／京都府に「三条PJ本館新築工事（店舗面積6895m2）」27年5月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mYXdMb3ZZNnNJQ1czd0xtYkZzcDhGbnd4UUEzQlpTN3pKcHhtcXFaSWloWDVzNDFmdHk3cXZlYWtGdEpnSUJGZW84XzY5MDlTQXpQVklB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-16T01:31:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "3c8d81ff316d2a22",
           "title": "マキヤ／静岡県裾野市に「（仮称）裾野複合店舗A棟・B棟」27年2月25日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
@@ -312,6 +302,16 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "51ef72633e75c4aa",
+          "title": "マックスバリュ東海／愛知県豊橋市に「（仮称）マックスバリュ豊橋西幸町店（店舗面積4344m2）」27年4月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-28T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -343,7 +343,7 @@
           "title": "シンガポールに香辛料やインスタントラーメンを輸出する企業は、新たな規制に留意すべきである。",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM00wQkhwczQ2cDVFTk5DS0MzUEF0QlBFRFlXOThrY1NuYlB1TC1KTTJRb0hiRmJZUG1NcVFEWktkc0pwWTl3QjFtRmZUWnNhUmU5NVUweGdIVTRBNUtBVHduRVhMWXFvOU00TWFnTDB5clprOEFienQ5WUNzTlBhZXE5RWt1UnlHSmtOVUJic3B0S3ZVWTN1dUJOWTVuamowSnc?oc=5",
           "source": "Vietnam.vn",
-          "published_at": "2026-10-11T01:12:27Z",
+          "published_at": "2026-10-11T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-19T13:36:32Z",
-  "last_success_at": "2026-10-19T13:36:32Z",
+  "last_attempt_at": "2026-10-19T22:28:17Z",
+  "last_success_at": "2026-10-19T22:28:17Z",
   "consecutive_failure_count": 0
 }
