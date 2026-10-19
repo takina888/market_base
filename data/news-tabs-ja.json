@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "status": "live",
+  "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-19T04:53:37Z",
+  "generated_at": "2026-10-19T13:36:32Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -10,78 +10,80 @@
     "retail",
     "overseas"
   ],
-  "retained_categories": [],
+  "retained_categories": [
+    "regulations"
+  ],
   "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "599fec127ca5809e",
-          "title": "東京ゲームショウ（TGS）で海外展開セミナー、関係者が知見や成功体験を語る(日本) | ビジネス短信 ―ジェトロの海外ニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GYU8tS2l6akh4OXZCemZNelgxNlUyV1ZkcVNaRUlYd2Y0V0tZMVVNUXp6M3RYdXh1OEpiMTUxU1EtbkNfZXVhV1RRSHVGMW5Qcm11VnNPenh1X2lCWDgyZGlJMFN6am9XQmNZenJ3?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-10-16T06:07:34Z",
+          "id": "93ac4c7e6622bd91",
+          "title": "国際セミナー「植物品種保護が切り拓く農業の未来」開催",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSVDlobDFhdFYzaHJ2aHQ5b21oNDJrcWVXY05RNGwtd3g4cEJ3WFpmTng2dlJZOXNTOHA2Q1M3SlpTZ2JsTy1IUmRuV1VPa0tMLTF0MkFQZ2dOR3NzUUVaWFVQU3ZYbHJ6WUJQLWJNTk1Fb00?oc=5",
+          "source": "農林水産省",
+          "published_at": "2026-10-19T01:32:29Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "818cf9a390abbe67",
-          "title": "ワルシャワ国際映画祭で日本映画「mentor」が世界初公開(日本、ポーランド) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBFamNtVUhwRGtNRWZwRW16SW9JbTN6U21rRmFhQU52QjRrdnkxOUZ0aUNmSk1BTzN6eDhtanQwb3RBODUzMjFscUluZm1uT2tnbmdZNEpMdXpyTmVVYVFrSi1DQWpaNTlLM2xVaVF3?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-10-16T01:20:12Z",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-19T10:54:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "59b0f7cbd9aa8dd0",
-          "title": "『ウマ娘』海外の大型イベント、現時点でビザの承認が下りず 現地で22日・23日開催予定（オリコン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKdTZOdUNpNTV1T3Z4VEVTRThPMmpJTUo5eklnSUhEUjBFWFNneXRDdkRrR1JSVzl3OEZ2T2MtZkJUbUVEZzRJaFhNZWxFcllrcGNMcXBZdldUWjQtZGh6R1FWX0c5VkVrNHBIb2EtX0t4X0pJbmFMTGNDcENWZ1k?oc=5",
+          "id": "3aad24a3cb6445c1",
+          "title": "世界食料デー2026イベント「今日のイノベーションが、明日の食を支える。」",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOV2FaeFRBV3JEU3I2VEwyeFNZeVpUNHoxQnlKMlI0WEM1bXYtY29UMFoxNVdGQkVfNndoTHVWMEIxMF9MdjRyZXU0LU9XYmFrbkRPRUM1dllELTBKaWgxN01kMUR5bjktb0FWdEhXWGxFT2p6WHdpaFZSSHQyc1hzYkgtOElUdmtTNzV2STJDbnlCOWJlSGc?oc=5",
+          "source": "WFP世界食糧計画",
+          "published_at": "2026-10-19T09:43:05Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b4a7b40597bfce25",
+          "title": "超低出生体重児の治療成功、静岡 356グラム、世界最小か（共同通信）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tbmwzbHJzM2R6Y0hBUF9oT3pMbno1YVJxc1hLaE5CMFFJMk5JV3h1LThxOThxSE16WENPNkQtTU1PLXNOM3BDMFdZM3c0c1FSbE9ocG5sY0txNzY3MUVUSU5lZ25DNHFfVTJCX0pObHNLcTBBdmFXbXp4NDdYN0E?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-19T03:08:00Z",
+          "published_at": "2026-10-19T08:45:43Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "30c0078a4f67d7a9",
-          "title": "中国の貿易黒字、約190兆円で最高更新記録へ──それでも国内で負けている理由",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByWUlrTzlLOWhMa201NjBBQXVxSko2czNicEtqUFRCcDFRUHFpZlpWWWVzR2h5SldhM2hLbS14eHRZZ1NNSGYwR2JhS295TFNrWXUycFhXMUtoWU5fcUtwdkhOTVN3enFUbDRrM2w4RDRoUkoyaEVSV3ZHYmNzVUk?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-19T00:30:00Z",
+          "id": "e8206b5d41b2f8ed",
+          "title": "シナピ国際水路機関（IHO）事務局長による中曽根外務副大臣表敬｜外務省",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PdHRac3QxLTQxWkRONHd6Wjg0VVQ1dkhQbzdyNHJqSThCSF82M3lwRmRkLVJ0LUJGRFBfdmQzZmdHQkk2UVk4X1BDSDVKVTJjTzJRUFhwMjhjWURDcm9PMzM2eW5oWGRuWHUzS0NYSHEzZGVhZDVJ?oc=5",
+          "source": "Ministry of Foreign Affairs of Japan",
+          "published_at": "2026-10-19T08:20:40Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "625d8d2fa76e3fba",
-          "title": "来たれ！異世界の来訪者！ | エンタテインメント",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONDZjSUkxQmFMYVdUVDM4ZThCdjgwSjRfOEQ2N0FFQ3hMLWpwdjNlN2g5dnFqQXpJVnZhUEhxMi14VUtDZ01ZZzc2Wm1rSEU1OXA1MEd0S041cjREV25BSGtKbE1kU0NoWFVBaWpERmQwQ3lhSk41VUd0T09nUnZ0dzBCYmc?oc=5",
-          "source": "東映株式会社",
-          "published_at": "2026-10-18T23:28:18Z",
+          "id": "62f1de09b3d4545d",
+          "title": "「世界一しかやらない」医療機器マニー、技術起点の勝ちパターン手放す新事業",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzZ3JaMjMyMzNPVlAySmRNYWMzSzhBcEYyWVFzdnV0bDNZcnBrWTVZeGtWYUlqRW5ZRlkwQUdVbFFiS2tWMUpxb05XNm85aG1KaGUwYTFnbUN4QVlpVXB6anNNTDVwekU?oc=5",
+          "source": "日経ビジネス電子版",
+          "published_at": "2026-10-19T08:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "63f2f6cbb51bd16a",
-          "title": "12歳で「世界一のイケメン」と称されたモデル ⇒10年後…〝驚きの成長姿〟に「まじかよ」「信じられない！」ウィリアム・フランクリン・ミラーの最新姿が話題（西スポWEB OTTO!）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mZmM3OHduc1NMU3otR3QxSEF4YVVBZG8xOVk4YnVERUpnaWc5MHFjX1djSG5tMzdGWmtONVpfamR6WGZRejRoM2IzWjhmbU9QS2RNVUhrVEprd0dSN1F5VTJvd2JSS0tfUlNIcnFkQzJZTnpTaU5JR0RvWkloYUk?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-17T23:04:53Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "620965307816b324",
-          "title": "「米カナダ貿易戦争」米中間選挙の波乱要因に、カナダ輸出依存度高い“4接戦州”で共和党に逆風",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8tTlE4cE1oVzVDSWJJYWZaWjlwU25Lb0dIY2RhVWhpOG1kS0IyQTFIXzBJcm9aNXBZdk01WmpPY1RYVktSbFY1VTFXNmrSAU9BVV95cUxNdU0yUWdxeUpxM1pkOEZOSEN4Q0hxSkllZ21FcDhIOWladmtvamtYRE9haHYwT1ppTW95Z1o4NXowOWtidEdCbWR6SXA1TTVF?oc=5",
-          "source": "ダイヤモンド・オンライン",
-          "published_at": "2026-10-17T19:55:00Z",
+          "id": "67bd788bd636d2e4",
+          "title": "イランの司令官ら、さらなる戦争に備え 「世界は驚愕する」",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvbTJBeHN5UVZKdnNJWVp6TldxcGdJd3UtZU9CaHZnanBPOW5iNHNaZWNVMU1XWWlHcmxOWVJ0eWQ1eVBaZkhfczdWMFZJMV9jcVU0?oc=5",
+          "source": "CNN.co.jp",
+          "published_at": "2026-10-19T06:06:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -107,6 +109,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBNDVGVFBna0pldTVTZHg5ZTk5Q1c5ck5BZ0hoLTIwWlk5ck9qQVVrbGc5N1RXVWhleTB1OHVuUXdsN2xTUWwwcWJBUTdXVVFvVWc5WWNkWXVMbGRuVE9rbVBoXzRqU1lhVWc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-09-30T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e4d0785965cd92b6",
+          "title": "マスダック、埼玉県入間市の入間工場に食品機械を製造する新棟M5棟が竣工",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5eDFyZ2xQcDlXQzhoYkJxempGdEpITnRyMTFoUXRvMUlYdzcwUDNrbjhUX0Q1SjV1c19KNjFMY0pGay0wM25td3htaHhJVS0zOE1wQWFfRFJVdw?oc=5",
+          "source": "オートメーション新聞WEB",
+          "published_at": "2026-09-22T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -142,21 +154,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "18a869ac254940ed",
+          "id": "536c7e605aadffd6",
           "title": "X線透過式鉱石選別機の世界市場2026年、グローバル市場規模（60mm以下、60mm～150mm、150mm以上）・分",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYVVg4aUdjQ1JpN2VielNsTzZlNkc5Rlc3cVBocnY4V29VQTJvdWNkcnVOdk5XZ0N0U0lfX0VjS1lHdzU2RjNVc3V5UjFCWl93TVdFTnlXZnljRzhoTFQ4RE5KWU51bExxX0swckFGM0RiR21PYUdBMXlOUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyelVNS05XZ2NIQmp6dG0zZ083TFJsOHhKbVVKWkg3bGItT3BoREJlUkcybEp5aDFqemU3eVJfaGJkRHpSWGZKb0V2cUNsSnNJS0J3Sw?oc=5",
           "source": "ニコニコニュース",
           "published_at": "2026-10-16T04:03:23Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c0ccd2df1db3a53e",
-          "title": "X線透過式鉱石選別機の世界市場2026年、グローバル市場規模（60mm以下、60mm～150mm、150mm以上）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrNEdzSjFra3lzZzdFalpsV1o4akVmdG9sVlFDcGdTYmZDVDhCTEdkQW54ZEVvZVBWZ3VfOUd2YURidTRlTUFwaG51eklWcGF1UmVITEJBSE0yQ0pwQzRyeU5pRWFRVDAxbVE?oc=5",
-          "source": "Excite エキサイト",
-          "published_at": "2026-10-16T04:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -262,31 +264,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "24fb84123e0947c5",
-          "title": "イオンリテール／兵庫県小野市に「（仮称）そよら小野（店舗面積1万360m2）」27年4月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zQjdWVnRvM05NZmtRdmE2LVhVdTRESk9iY3pnWmd5aUk1OXNkQWJNUXJlb3BtWVE3azlMUmdacklSSEtjSk1ZZTF5YkZxVUt4UklUZzF3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-13T01:30:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d52e7bace846e0df",
-          "title": "イオンリテールほか／兵庫県三田市に「（仮称）そよら三田・サンフラワー（店舗面積7481m2）」27年4月27日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1haXhLZm83WVRSTUotX2JDR21ibVpyY25ZM3VKTUZMV1B0elJkR3JlOWFza3pwdmlVNG94OHVfRjR1NDZ4MVV5bmkwRExwSGpkSG9wQVpB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-09T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "3c8d81ff316d2a22",
           "title": "マキヤ／静岡県裾野市に「（仮称）裾野複合店舗A棟・B棟」27年2月25日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-08T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "49258c2e80e73508",
+          "title": "ロイヤルホームセンター／京都府城陽市に「ロイヤルプロ城陽インター（店舗面積2400m2）」27年5月21日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tQ0FyTng3UllxZHpoYzhyNTdabi15VTlPaTEyUGcydjU5bldUT3pNZnN1ZXNpZUJYelJ3ejdIeW16RFdGOHhLX0pRMjQyOFNOcGhLcUt3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-02T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -307,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TTkQzOHpQRjZLbFJVRExvRm8zeU4zNGh6WEFFTldXRDJYU0gxODE5bU9BYkNzTHNMUFZTU0gtQ3U3NjdRQ2JIbHRURlpsSjFfYlhSa1FR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-01T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e334769b0f16ddcd",
+          "title": "マルト／福島県いわき市に「（仮称）いわきスマートタウン計画（店舗面積2813m2）」27年4月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iSmw0SmhmdkEtY2lWRVgwZW9zQkhia2NiN3J2QURLRW8ydGxiSHBodHpFRE4yQzJ6WWRnMWlCWG5oekdPZkJMUW5vVHlKbzFmZXJlcHZ3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-29T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -337,16 +339,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f1373329bb758bf1",
-          "title": "米国による食品添加物規制の強化は、ベトナムにどのような影響を与えるだろうか？",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORnlrRTNfRjlPbGU4NW1VMF9ra2lweWJrLXkyRHJDM19KVDRTeDh2TlFNSzhjOHN6S2lvNnJDQXloTHlKRFl6RXphNjF6S09SaWh3b2ZEN3pwcFpnNndqTUFJM2pZUUNneUtGUG1CRE9ocXlCbXJZbnVCS3VfV2VjV3BFTDhsc05oTW1FZVQ5RQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-12T09:37:22Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "1898e3179c601256",
           "title": "シンガポールに香辛料やインスタントラーメンを輸出する企業は、新たな規制に留意すべきである。",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM00wQkhwczQ2cDVFTk5DS0MzUEF0QlBFRFlXOThrY1NuYlB1TC1KTTJRb0hiRmJZUG1NcVFEWktkc0pwWTl3QjFtRmZUWnNhUmU5NVUweGdIVTRBNUtBVHduRVhMWXFvOU00TWFnTDB5clprOEFienQ5WUNzTlBhZXE5RWt1UnlHSmtOVUJic3B0S3ZVWTN1dUJOWTVuamowSnc?oc=5",
@@ -367,16 +359,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cfab8d8274dc5c19",
-          "title": "日本マクドナルドが北海道91店でハンバーガー10商品を販売停止、台湾当局「同じ原材料は輸入していない」―台湾メディア",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRLWZKOHRnMlRBOHpMUjBoczlBYjdubDFvc2FmR1JGT1doaGl4c3pzU1I1X2d2X0dKMF85NWxrSWszTlloNlh6aU12RGxPVmg1S282OUZ2bUFXQXBkVl9LZnFad2xjNVU?oc=5",
-          "source": "Excite エキサイト",
-          "published_at": "2026-10-05T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "82908306dc7c3ee3",
           "title": "政府は米の輸出入事業に関する新たな政令を発布した。",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYzhyM1pVZzZQaHBDNDJuOFZqV243LVFTVkQ3aGRfZklLUWFPSVhaQkhieHR4TmVxUXE5SjMwTG9veFdwbnZoNFFQLTVJTHpmNzBUdnVBVV90UGw5ZDJHbGlMUnhnaDJWNEplbjVzQ1V4cmVLZWR0OThtR1lrVldJVlNBZFNXc1pvcXlEQk85Mkp3NGtUU0E?oc=5",
@@ -385,11 +367,31 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7338dc41e445e013",
+          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
+          "source": "独立行政法人 農畜産業振興機構",
+          "published_at": "2026-06-25T10:48:49Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f1373329bb758bf1",
+          "title": "米国による食品添加物規制の強化は、ベトナムにどのような影響を与えるだろうか？",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORnlrRTNfRjlPbGU4NW1VMF9ra2lweWJrLXkyRHJDM19KVDRTeDh2TlFNSzhjOHN6S2lvNnJDQXloTHlKRFl6RXphNjF6S09SaWh3b2ZEN3pwcFpnNndqTUFJM2pZUUNneUtGUG1CRE9ocXlCbXJZbnVCS3VfV2VjV3BFTDhsc05oTW1FZVQ5RQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-12T09:37:22Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-19T04:53:37Z",
-  "last_success_at": "2026-10-19T04:53:37Z",
+  "last_attempt_at": "2026-10-19T13:36:32Z",
+  "last_success_at": "2026-10-19T13:36:32Z",
   "consecutive_failure_count": 0
 }
