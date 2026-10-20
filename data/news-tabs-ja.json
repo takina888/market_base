@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-20T17:19:38Z",
+  "generated_at": "2026-10-20T21:43:14Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -33,27 +33,7 @@
           "title": "マツコの知らない世界 シンプルなのに奥深い！卵かけごはん&抜け毛",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pNEpNNWZUZ2xyOXNWUzUzUDlveExlWXBjSHgtcl9nOEdvcnM0XzhSMUVacWFhVkw5eTBYaUN2TVF6VTY5VXRYR2M0MjdmMFpVOVBWbUFn?oc=5",
           "source": "TBSテレビ",
-          "published_at": "2026-10-20T13:52:32Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "89fa85fc03fdfd78",
-          "title": "マツコの知らない世界",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iRUdWMkxOaHlVQVpBalYwYU04MUZ1MDA1RTQtUURWSDFEMzN0SjBHY2x2dG4wY3ctVDZEbEJLbHhYTjFscm9kemxTVldRWU5fbmswUUsyWWtqcmhoNWpDMVpfYnY?oc=5",
-          "source": "TBSテレビ",
-          "published_at": "2026-10-20T13:03:41Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0b7cc0b9565c9414",
-          "title": "明日の経済スケジュール ─ ★貿易収支に注目(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRWhad2Jxclk4LUtsQ1RVbFZvcWQ2Qk9rbC1kX0p4ZE1SLXdfWWZDSzk5YThibkNILXJUbnp3aVNvOUloc0VIbGhSNXRDMzRjdjFhdFczYVZ0VDVPQktVYnVYa2U1N2tHa0ZQRVRyRDFucWN5aERhdlc1azRTbWJoV3NIWnRET0k?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-20T11:05:25Z",
+          "published_at": "2026-10-20T19:10:37Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -84,6 +64,26 @@
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45N3pSNXFvVUMzQk1femlIOTk1aUtpLTcyeHd5MUlKejhSWmtvR1dGM0U3OGx4OGQ0MHFZQ25mVjNROGpaUnhYbHhsMzBYY2ljM2s3V3BHeHZzVGx4?oc=5",
           "source": "京都産業大学",
           "published_at": "2026-10-20T08:01:31Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c77c1a3a6f1d8d5c",
+          "title": "「第8回カーボンリサイクル産学官国際会議2026」を開催しました",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6UUIxbzUyamJralVlNWhJUXBzb2NNY285VTJKdmxKVzRhaVpmcTQ0a0ZQcDlXVkxnTGg3RTMzT0JwTk9jNTJBSHZuRl9qOThLLWpsa2pR?oc=5",
+          "source": "NEDO",
+          "published_at": "2026-10-20T07:07:06Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a222641b16ea3450",
+          "title": "LINKAGE国際シンポジウム2026の開催について",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5PMG5rbl9NOWVjVHowYXdBVXQ1Z2dLMzZmWU5DcnczdHlUa1ltem50TEhzMUZrZC1LeDdEUHMxbnpYZHVvOHhpRzVoNnlPcE54?oc=5",
+          "source": "琉球大学",
+          "published_at": "2026-10-20T07:04:07Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -169,6 +169,16 @@
       "label": "食品工場",
       "articles": [
         {
+          "id": "ea8cc79be8189080",
+          "title": "帳票管理のカミナシ、物流・食品工場のAI活用支援 22億円調達",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91WE5EVU15VE00eWU0LWl3Z0tsaGtyRUVJQUx6ZHhPOEl2MWFQTmM3MmZ2VXlnZmtwM1BJTW4ySk96LURYb09teU9IR1NUa3pkbjltOU5SNDJuQXp1QTdWUFg2UzRLeWUyWG5YQQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-10-20T20:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "ac470e6e0246557b",
           "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94YWQ3eFJXbDRXNlQ2YVRiMnE3ZU5tclZ5NUZ3Y3pHbVNTcDdzSXhEQjdlSmhZOXB1Uk9XaXdjYjU2a256VUNlNTZIUFZBTDhwVjV1d3pVeEZuYlE?oc=5",
@@ -224,16 +234,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-14T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8a38fba145f57e52",
-          "title": "RX Japanがインテックス大阪で第5回 食品工場Weekを2026年9月に開催へ",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TWDUwMG5sek1EWTdfeXo2TGhhTl9Ma2R3aUp5NFZwMlFBSlFaSEo2R255M1JwSWNXN3c2cFo0b1RrWnRtNGp3MU5fVnd4SFZsRjg0Wi1NQ29uSWNXUXNHVFNMMEpya2d4?oc=5",
-          "source": "Dellows News",
-          "published_at": "2026-09-30T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -329,31 +329,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "7338dc41e445e013",
-          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
-          "published_at": "2026-06-25T10:48:49Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "26fc6d70dac603ed",
           "title": "港湾における輸入混雑を解消するための緊急措置が必要である。",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sekNWdUhvSFQ0VUZ1dmxhR1ZaWkJTaXQ1RzkyZFB6S2YwaWxtc2NkTTFWdmY2dXMteEhzWnB6U3FtVHBQT3VfM0Z6aVlKZkxIODhTTnRyOUNCTDR3WEEtZ3lUYU82LUpyeU1RSEVqdmVheTlrOGZILUhn?oc=5",
           "source": "Vietnam.vn",
           "published_at": "2026-10-19T02:48:40Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "181ae67a5df6677e",
-          "title": "1日あたりの金取引額が500万ベトナムドンを超える場合は、現金以外の決済方法を用いなければならない。",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQTJtaUUwejA4U29XXzd4TmJZeWNtajZHR2QwRFlDT0NNVE5jVkFnSG1xekpqM3ZXbWpUQ05Cbk0wTTd4YUpacUZmWGM4M19kNE9CMTF3XzE1bVVzcnZtelpjVTZla2FmV0Z4MzA1Q1dkR2w2T1VadVE2V3ZhRm43MDIwb3UxaWhMYkRLZHZUNk5vWUxJdEJVYzgzZ0k?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-16T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -369,16 +349,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "82908306dc7c3ee3",
-          "title": "政府は米の輸出入事業に関する新たな政令を発布した。",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYzhyM1pVZzZQaHBDNDJuOFZqV243LVFTVkQ3aGRfZklLUWFPSVhaQkhieHR4TmVxUXE5SjMwTG9veFdwbnZoNFFQLTVJTHpmNzBUdnVBVV90UGw5ZDJHbGlMUnhnaDJWNEplbjVzQ1V4cmVLZWR0OThtR1lrVldJVlNBZFNXc1pvcXlEQk85Mkp3NGtUU0E?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-26T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "a6b70d2ddf5b6649",
           "title": "《ホルムアルデヒド白菜は氷山の一角》日本に輸入された「発がん性」食品 ピーナッツ製品からカビ毒「アフラトキシン」検出事例 日本国内では中国産製品が数多く流通",
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4xenh1aWhuMWRVOWp1dTlLMG5pY3VZejMyWmVycVg3aTdFZ1BMbmdybHhDTEc5dkpsUkU1ekVtdlpjbTVwMERV?oc=5",
@@ -387,11 +357,41 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7338dc41e445e013",
+          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
+          "source": "独立行政法人 農畜産業振興機構",
+          "published_at": "2026-06-25T10:48:49Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "181ae67a5df6677e",
+          "title": "1日あたりの金取引額が500万ベトナムドンを超える場合は、現金以外の決済方法を用いなければならない。",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQTJtaUUwejA4U29XXzd4TmJZeWNtajZHR2QwRFlDT0NNVE5jVkFnSG1xekpqM3ZXbWpUQ05Cbk0wTTd4YUpacUZmWGM4M19kNE9CMTF3XzE1bVVzcnZtelpjVTZla2FmV0Z4MzA1Q1dkR2w2T1VadVE2V3ZhRm43MDIwb3UxaWhMYkRLZHZUNk5vWUxJdEJVYzgzZ0k?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-16T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "82908306dc7c3ee3",
+          "title": "政府は米の輸出入事業に関する新たな政令を発布した。",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYzhyM1pVZzZQaHBDNDJuOFZqV243LVFTVkQ3aGRfZklLUWFPSVhaQkhieHR4TmVxUXE5SjMwTG9veFdwbnZoNFFQLTVJTHpmNzBUdnVBVV90UGw5ZDJHbGlMUnhnaDJWNEplbjVzQ1V4cmVLZWR0OThtR1lrVldJVlNBZFNXc1pvcXlEQk85Mkp3NGtUU0E?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-09-26T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-20T17:19:38Z",
-  "last_success_at": "2026-10-20T17:19:38Z",
+  "last_attempt_at": "2026-10-20T21:43:14Z",
+  "last_success_at": "2026-10-20T21:43:14Z",
   "consecutive_failure_count": 0
 }
