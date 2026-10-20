@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "status": "partial",
+  "status": "live",
   "language": "ja",
-  "generated_at": "2026-10-20T05:01:06Z",
+  "generated_at": "2026-10-20T11:50:36Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -10,9 +10,7 @@
     "retail",
     "overseas"
   ],
-  "retained_categories": [
-    "regulations"
-  ],
+  "retained_categories": [],
   "failed_categories": {},
   "categories": {
     "overseas": {
@@ -24,6 +22,36 @@
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSVDlobDFhdFYzaHJ2aHQ5b21oNDJrcWVXY05RNGwtd3g4cEJ3WFpmTng2dlJZOXNTOHA2Q1M3SlpTZ2JsTy1IUmRuV1VPa0tMLTF0MkFQZ2dOR3NzUUVaWFVQU3ZYbHJ6WUJQLWJNTk1Fb00?oc=5",
           "source": "農林水産省",
           "published_at": "2026-10-19T01:32:29Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c77c1a3a6f1d8d5c",
+          "title": "「第8回カーボンリサイクル産学官国際会議2026」を開催しました",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6UUIxbzUyamJralVlNWhJUXBzb2NNY285VTJKdmxKVzRhaVpmcTQ0a0ZQcDlXVkxnTGg3RTMzT0JwTk9jNTJBSHZuRl9qOThLLWpsa2pR?oc=5",
+          "source": "NEDO",
+          "published_at": "2026-10-20T07:07:06Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a222641b16ea3450",
+          "title": "LINKAGE国際シンポジウム2026の開催について",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5PMG5rbl9NOWVjVHowYXdBVXQ1Z2dLMzZmWU5DcnczdHlUa1ltem50TEhzMUZrZC1LeDdEUHMxbnpYZHVvOHhpRzVoNnlPcE54?oc=5",
+          "source": "琉球大学",
+          "published_at": "2026-10-20T07:04:07Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2ae7b5a98c0e893f",
+          "title": "『ウマ娘』海外ライブ公演、開催中止 必要な米国ビザ取得できず苦渋の決断 払い戻し対応へ（オリコン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjRXJVU3BOZmlSTWpwbEx5LURVSVVUUnRkZi15a2JhVHJlQ0FKMG9LRzUtRU5obW9fS1hocUtXZ0JqRU54S01BZEl1RlFhQ3haWUtUendicmJkVGdjZDAxRWxLVWZQNGpRMEYwR0NiQVhDUkIwaGNMa1JSeDhmdjQ?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-20T04:34:22Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -49,41 +77,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9f96fa2a4ddd66ee",
-          "title": "Waste to Methanol 社会実装に向け協業開始 ～世界でも希少な廃棄物ガス化技術と世界有数のメタノール事業基盤が連携",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NRXBBS2Nlc3g4cEc0bFY3RVVaZTJ0TXBXT2JKeWthYk1TZlJsOGZidHlJbUZZNUhpSkpYbkNGV2RnbDZicWdBY3hTd2dMS2xCcWZISkZXaXpSM2p4MlE?oc=5",
-          "source": "JFEエンジニアリング株式会社",
-          "published_at": "2026-10-20T02:00:20Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "c8f2b848a2c4597a",
           "title": "【募集】12月 ＨＳＫ試験実施のお知らせ／お知らせ／国際交流・留学",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hNGREdjBrYnpia1Z5QUlQV3Z5WU8xZFVfRmFQQl9KSGdNclZKcWRJbVhXZXFWNzJqdks5TVQ5Nmx1Zkk5Ri1sNFB1bUoyTnZnZTIzd2FSSk5qRnBqd3JUUVFEUVJEZEpPbkVHc2V0dFhwU00?oc=5",
           "source": "神奈川大学",
           "published_at": "2026-10-20T01:56:48Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7a1c7c1cce9cb51d",
-          "title": "「地震予知と異常気象予測」をテーマとする国際ワークショップ【11月12日、13日開催】 | ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VbjI5WWFnVTFWWHplTVFvU050SndxVTRjQkw3bHgtb25GYWVlMTFheVoyc3Nobm9JZXg5aThnX2NoLW1vTmlQbmVwQ3R0Tm5rc3VaREtRY1F3RWRGTTN4Sk13NGN1QTg?oc=5",
-          "source": "国立大学法人 電気通信大学",
-          "published_at": "2026-10-20T00:51:24Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2871e86653850e0d",
-          "title": "世界初、単発X線パルスでナノ〜サブマイクロメートル構造をカメラ一台で同時計測―微細な初期プラズマ構造がレーザー固体相互作用を劇的に変化させる機構を解明",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1IRHJUVE1JcU5YRXdJNTBKOXNOaU9jbWhoOFhReDVVdDluQjlGSHU0MS15NldQdk40bXdjb0FqUTBFTXo1Mnl1UmZRMFhEREtmaFdZcjluWHZocnoxUzBxd3lzYw?oc=5",
-          "source": "京都大学",
-          "published_at": "2026-10-19T12:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -144,21 +142,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "417cb0ad7d80feed",
-          "title": "食品機械用潤滑剤市場統計2026：2032年426百万米ドル規模へ発展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmTF9KOEZkRzF5dUZyQ1hSTUZwTGkyWTBrYjRxQlhQTVFuUWpnWG1uendOOExSNjZ4eWpUTWJUMnZyXzVFQmloUWtqMXE3cnBMYzhRejR0aGlXMEMwLXVNSkRoZ09ENzlEY0E?oc=5",
-          "source": "Excite エキサイト",
-          "published_at": "2026-10-19T03:00:00Z",
+          "id": "fe7b82809cea2273",
+          "title": "化粧品包装機械市場の詳細分析：拡大の可能性、競争に関する洞察、および2026年から203",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LUXdybW40eU9JSC03TjZ5TVNqNEptai1PandITGpPaHVwVWJ3dGJONGVWOVZlYUh3NW56eHJXbjNwOEhoRDFqZmVn?oc=5",
+          "source": "pando.life",
+          "published_at": "2026-10-20T07:03:11Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "536c7e605aadffd6",
-          "title": "X線透過式鉱石選別機の世界市場2026年、グローバル市場規模（60mm以下、60mm～150mm、150mm以上）・分",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyelVNS05XZ2NIQmp6dG0zZ083TFJsOHhKbVVKWkg3bGItT3BoREJlUkcybEp5aDFqemU3eVJfaGJkRHpSWGZKb0V2cUNsSnNJS0J3Sw?oc=5",
-          "source": "ニコニコニュース",
-          "published_at": "2026-10-16T04:03:23Z",
+          "id": "417cb0ad7d80feed",
+          "title": "食品機械用潤滑剤市場統計2026：2032年426百万米ドル規模へ発展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmTF9KOEZkRzF5dUZyQ1hSTUZwTGkyWTBrYjRxQlhQTVFuUWpnWG1uendOOExSNjZ4eWpUTWJUMnZyXzVFQmloUWtqMXE3cnBMYzhRejR0aGlXMEMwLXVNSkRoZ09ENzlEY0E?oc=5",
+          "source": "Excite エキサイト",
+          "published_at": "2026-10-19T03:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -229,9 +227,9 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d585ab05c26097d3",
-          "title": "RX Japan、医薬品や食品工場の専門展示会を2026年9月に大阪で合同開催へ",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5CTHhqZHU1UXJORjhOZUZBc05OUTdCanpRN0JkQlAwRW4wc25iUHBac1VEcGN5bGphTDFLRk5XcWMzRWdXZWc?oc=5",
+          "id": "8a38fba145f57e52",
+          "title": "RX Japanがインテックス大阪で第5回 食品工場Weekを2026年9月に開催へ",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TWDUwMG5sek1EWTdfeXo2TGhhTl9Ma2R3aUp5NFZwMlFBSlFaSEo2R255M1JwSWNXN3c2cFo0b1RrWnRtNGp3MU5fVnd4SFZsRjg0Wi1NQ29uSWNXUXNHVFNMMEpya2d4?oc=5",
           "source": "Dellows News",
           "published_at": "2026-09-30T07:00:00Z",
           "language": "ja",
@@ -259,16 +257,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-08T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "49258c2e80e73508",
-          "title": "ロイヤルホームセンター／京都府城陽市に「ロイヤルプロ城陽インター（店舗面積2400m2）」27年5月21日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tQ0FyTng3UllxZHpoYzhyNTdabi15VTlPaTEyUGcydjU5bldUT3pNZnN1ZXNpZUJYelJ3ejdIeW16RFdGOHhLX0pRMjQyOFNOcGhLcUt3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-02T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -312,6 +300,16 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8ef122714accb147",
+          "title": "関西中四国小売流通特集：ライフコーポレーション・荒井信一郎専務執行役員 自社商品力の強化図る",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zWkpsMmlWVzM2czZWWmRLSDJidDdSbHVabzdJci1FWUpFTDM2RXFDaFdjMlNEdXVBdmJtdm1KUHlaNk16RUpDYUI0MFlCNlpJTnI5Z1lpX2t3YzYzd0l4a0JhZDAwMGl5aWc?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-09-26T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -324,6 +322,16 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IWnppSUxuOWg4TFhuSWF1REYxUTVmdmMybF9DazNtRVZSVmxidjI5WHdUNElpMHdTM2hULS1GX3RvRHBnaUhwd3lGZHQ1RjZDYUdvUjk5allLdGVQQnNTX2ZsZy1wS2xYc1BrX1BR?oc=5",
           "source": "ジェトロ（日本貿易振興機構）",
           "published_at": "2026-07-09T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "26fc6d70dac603ed",
+          "title": "港湾における輸入混雑を解消するための緊急措置が必要である。",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sekNWdUhvSFQ0VUZ1dmxhR1ZaWkJTaXQ1RzkyZFB6S2YwaWxtc2NkTTFWdmY2dXMteEhzWnB6U3FtVHBQT3VfM0Z6aVlKZkxIODhTTnRyOUNCTDR3WEEtZ3lUYU82LUpyeU1RSEVqdmVheTlrOGZILUhn?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-19T02:48:40Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -377,21 +385,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "877aca1009bde7c0",
-          "title": "EUが包装基準を引き上げ：加工・輸出企業は、この新たな競争環境に対応するためにどのような準備をすべきか？",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSVFnSk9tYlUtY0NQTHlfRkhkczA2bXg4LVY5WTB2dVBUbkhRT2lNTWdVbzNKYmhPb09ZV3RPTjAtSnlqUXg1Z29QSXpYZUZsUHU5YzdwdVgxM0ttR0loMFJBOEtGR3M2Z2h4ZnlCNGh5Z0NTVlhNUm9KSU8zOTB6RWZkVlBKOHlnMGdmS19icUJLTHQwblRtUVlFbjhyd3VRTWkyMDJCMktaeXNsZjJmXzdhZlpTQQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-05T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-20T05:01:06Z",
-  "last_success_at": "2026-10-20T05:01:06Z",
+  "last_attempt_at": "2026-10-20T11:50:36Z",
+  "last_success_at": "2026-10-20T11:50:36Z",
   "consecutive_failure_count": 0
 }
