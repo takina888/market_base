@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "status": "live",
+  "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-20T11:50:36Z",
+  "generated_at": "2026-10-20T17:19:38Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -10,7 +10,9 @@
     "retail",
     "overseas"
   ],
-  "retained_categories": [],
+  "retained_categories": [
+    "regulations"
+  ],
   "failed_categories": {},
   "categories": {
     "overseas": {
@@ -27,61 +29,61 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c77c1a3a6f1d8d5c",
-          "title": "「第8回カーボンリサイクル産学官国際会議2026」を開催しました",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6UUIxbzUyamJralVlNWhJUXBzb2NNY285VTJKdmxKVzRhaVpmcTQ0a0ZQcDlXVkxnTGg3RTMzT0JwTk9jNTJBSHZuRl9qOThLLWpsa2pR?oc=5",
-          "source": "NEDO",
-          "published_at": "2026-10-20T07:07:06Z",
+          "id": "90f626f4450b81c5",
+          "title": "マツコの知らない世界 シンプルなのに奥深い！卵かけごはん&抜け毛",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pNEpNNWZUZ2xyOXNWUzUzUDlveExlWXBjSHgtcl9nOEdvcnM0XzhSMUVacWFhVkw5eTBYaUN2TVF6VTY5VXRYR2M0MjdmMFpVOVBWbUFn?oc=5",
+          "source": "TBSテレビ",
+          "published_at": "2026-10-20T13:52:32Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a222641b16ea3450",
-          "title": "LINKAGE国際シンポジウム2026の開催について",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5PMG5rbl9NOWVjVHowYXdBVXQ1Z2dLMzZmWU5DcnczdHlUa1ltem50TEhzMUZrZC1LeDdEUHMxbnpYZHVvOHhpRzVoNnlPcE54?oc=5",
-          "source": "琉球大学",
-          "published_at": "2026-10-20T07:04:07Z",
+          "id": "89fa85fc03fdfd78",
+          "title": "マツコの知らない世界",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iRUdWMkxOaHlVQVpBalYwYU04MUZ1MDA1RTQtUURWSDFEMzN0SjBHY2x2dG4wY3ctVDZEbEJLbHhYTjFscm9kemxTVldRWU5fbmswUUsyWWtqcmhoNWpDMVpfYnY?oc=5",
+          "source": "TBSテレビ",
+          "published_at": "2026-10-20T13:03:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2ae7b5a98c0e893f",
-          "title": "『ウマ娘』海外ライブ公演、開催中止 必要な米国ビザ取得できず苦渋の決断 払い戻し対応へ（オリコン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjRXJVU3BOZmlSTWpwbEx5LURVSVVUUnRkZi15a2JhVHJlQ0FKMG9LRzUtRU5obW9fS1hocUtXZ0JqRU54S01BZEl1RlFhQ3haWUtUendicmJkVGdjZDAxRWxLVWZQNGpRMEYwR0NiQVhDUkIwaGNMa1JSeDhmdjQ?oc=5",
+          "id": "0b7cc0b9565c9414",
+          "title": "明日の経済スケジュール ─ ★貿易収支に注目(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRWhad2Jxclk4LUtsQ1RVbFZvcWQ2Qk9rbC1kX0p4ZE1SLXdfWWZDSzk5YThibkNILXJUbnp3aVNvOUloc0VIbGhSNXRDMzRjdjFhdFczYVZ0VDVPQktVYnVYa2U1N2tHa0ZQRVRyRDFucWN5aERhdlc1azRTbWJoV3NIWnRET0k?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-20T11:05:25Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "bd715e6827f1394e",
+          "title": "歴史家が指摘「現在の空気は第一次世界大戦前とそっくりだ」 世界各国で着々と進む戦争の準備（クーリエ・ジャポン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MUVRmQXFidkJSVEZjYktYNk9Hb0tZTmR1RUhDNklkV3l0dm1WbWZWTXl4Skd4NDhfSXJYa1FkWHNoUTRndVg4RDE4am9zVEVZcVNXcmtSMHVrT0hMRVJwX1ZFTmRSZnczQnByQWV6UENXR2NxeV84bE80d1k4RWM?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-20T04:34:22Z",
+          "published_at": "2026-10-20T10:10:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e9dc5ac63c965011",
-          "title": "【12月開催】海外渡航前安全管理オリエンテーションのお知らせ | 国際交流・留学ニュース | 国際交流・留学",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE80OEdLbEFFRUUzNWVLeVNUTWF3aTJ0NGpKMzlQRF8yM0JTdVVhYzBUb0w1S25TTjZkSlZQSU9SMzlPN002MzdENklfREZyTHZReGJjWkU2OUU3RWl1c2hIMVB1Z3oyRnlWZnBSM0dqTFpPZ3FQSVZ3cA?oc=5",
-          "source": "新潟大学",
-          "published_at": "2026-10-20T02:10:22Z",
+          "id": "a23f52debf48eaef",
+          "title": "台風30号に世界が注目 過小評価、AIと物理モデルの予想対決（森さやか） - エキスパート",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaTNIMjQ1MDJuRHV1cVlQQ1loM0wyeFFpZGVCcWFSQlhqZDFVa3ItQjEwVDdodFBGZ2U2NldOX3lvT2FhREZTSkwzeWNDQ2hyWFdyUjJEYXVWM2JPOEcxM0NwTzE1Z2xROGlfS3ZuZVl4SjNqN3hicWNjY2FBY2IxLWxrdndZd1ln?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-20T09:59:27Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cb8370efba882d5a",
-          "title": "世界で人気のクラフトビール「ブルックリン・ブルワリー」から「ブルックリンディフェンダーIPA」を数量限定発売",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZdDQ1S1IxT2ZWbDZrWGlvOFN0c1ZYSk9jLVNhb3pNNE4tZm8zOEx0LXdBVnNsMjBKX1ZTVmtqcHBlQ1ZvaEVkMWhnQ0g5ZG5LX21tQ3luU0dRSHg0VXNfQXB4SzAzb0RxTzMzd1NyeHZNQjV4THc?oc=5",
-          "source": "Kirin Holdings Company, Limited",
-          "published_at": "2026-10-20T02:03:46Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c8f2b848a2c4597a",
-          "title": "【募集】12月 ＨＳＫ試験実施のお知らせ／お知らせ／国際交流・留学",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hNGREdjBrYnpia1Z5QUlQV3Z5WU8xZFVfRmFQQl9KSGdNclZKcWRJbVhXZXFWNzJqdks5TVQ5Nmx1Zkk5Ri1sNFB1bUoyTnZnZTIzd2FSSk5qRnBqd3JUUVFEUVJEZEpPbkVHc2V0dFhwU00?oc=5",
-          "source": "神奈川大学",
-          "published_at": "2026-10-20T01:56:48Z",
+          "id": "55ffc103d63a3860",
+          "title": "「国際キャリア開発リサーチ（CDR-A）」をカンボジアで実施しました｜ニュース一覧",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45N3pSNXFvVUMzQk1femlIOTk1aUtpLTcyeHd5MUlKejhSWmtvR1dGM0U3OGx4OGQ0MHFZQ25mVjNROGpaUnhYbHhsMzBYY2ljM2s3V3BHeHZzVGx4?oc=5",
+          "source": "京都産業大学",
+          "published_at": "2026-10-20T08:01:31Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -262,6 +264,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "49258c2e80e73508",
+          "title": "ロイヤルホームセンター／京都府城陽市に「ロイヤルプロ城陽インター（店舗面積2400m2）」27年5月21日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tQ0FyTng3UllxZHpoYzhyNTdabi15VTlPaTEyUGcydjU5bldUT3pNZnN1ZXNpZUJYelJ3ejdIeW16RFdGOHhLX0pRMjQyOFNOcGhLcUt3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-02T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "a2ae2d609b915546",
           "title": "食品スーパーマーケット「大阪屋ショップ日進店」10月2日(金)オープンのお知らせ",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ3ZSVnJaeGVnYWVIT2ZIa0wxa0lOQXpJVGhodkN5YnRhNThqUVNFeUZzUTJJVEp1Q3RWUGVsX0pEZzh5R2k2RFJtc29wYWxoQVhoaFJmQTZHNDRLVVd2VXZmam9FeElteHc?oc=5",
@@ -300,16 +312,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8ef122714accb147",
-          "title": "関西中四国小売流通特集：ライフコーポレーション・荒井信一郎専務執行役員 自社商品力の強化図る",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zWkpsMmlWVzM2czZWWmRLSDJidDdSbHVabzdJci1FWUpFTDM2RXFDaFdjMlNEdXVBdmJtdm1KUHlaNk16RUpDYUI0MFlCNlpJTnI5Z1lpX2t3YzYzd0l4a0JhZDAwMGl5aWc?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-09-26T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -322,6 +324,16 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IWnppSUxuOWg4TFhuSWF1REYxUTVmdmMybF9DazNtRVZSVmxidjI5WHdUNElpMHdTM2hULS1GX3RvRHBnaUhwd3lGZHQ1RjZDYUdvUjk5allLdGVQQnNTX2ZsZy1wS2xYc1BrX1BR?oc=5",
           "source": "ジェトロ（日本貿易振興機構）",
           "published_at": "2026-07-09T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7338dc41e445e013",
+          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
+          "source": "独立行政法人 農畜産業振興機構",
+          "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -375,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7338dc41e445e013",
-          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
-          "published_at": "2026-06-25T10:48:49Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-20T11:50:36Z",
-  "last_success_at": "2026-10-20T11:50:36Z",
+  "last_attempt_at": "2026-10-20T17:19:38Z",
+  "last_success_at": "2026-10-20T17:19:38Z",
   "consecutive_failure_count": 0
 }
