@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-21T05:00:13Z",
+  "generated_at": "2026-10-21T12:02:22Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "93ac4c7e6622bd91",
-          "title": "国際セミナー「植物品種保護が切り拓く農業の未来」開催",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSVDlobDFhdFYzaHJ2aHQ5b21oNDJrcWVXY05RNGwtd3g4cEJ3WFpmTng2dlJZOXNTOHA2Q1M3SlpTZ2JsTy1IUmRuV1VPa0tMLTF0MkFQZ2dOR3NzUUVaWFVQU3ZYbHJ6WUJQLWJNTk1Fb00?oc=5",
-          "source": "農林水産省",
-          "published_at": "2026-10-19T01:32:29Z",
+          "id": "67d3359af42c520e",
+          "title": "海外研修で成長を実感！",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2LVhnbTNjd2NUd3JzSUhxNk9qdXRtaEJiUU54Vzd3alVjUmwwWEt2aVhqRU1JVGI0aUdKUzdqclBiOC15ZmFxOXBQcmNSWHk5TmZnOUNnU0FmZWJMdFVYR2tLZExWa3hwYng5T3RRT18zdEpIdmRIMA?oc=5",
+          "source": "九州産業大学",
+          "published_at": "2026-10-21T09:49:57Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "90f626f4450b81c5",
+          "title": "マツコの知らない世界 シンプルなのに奥深い！卵かけごはん&抜け毛",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pNEpNNWZUZ2xyOXNWUzUzUDlveExlWXBjSHgtcl9nOEdvcnM0XzhSMUVacWFhVkw5eTBYaUN2TVF6VTY5VXRYR2M0MjdmMFpVOVBWbUFn?oc=5",
+          "source": "TBSテレビ",
+          "published_at": "2026-10-21T08:30:40Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1a6bf6dc30487620",
+          "title": "世界に負けないアート振興策を議論文化立国調査会「アート振興小委員会」 | お知らせ | ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BeGhvdHFQNk5zTHVaQ2t3X3M3LWtieVRITXNDdTFpaEZXSVhCQ0NmSHlWX2FmMjdkeHpad3B2TmVhN2JYekR1SXNoSlA2VlNGbmpWakRGRS1oTENBOWc?oc=5",
+          "source": "自由民主党",
+          "published_at": "2026-10-21T07:57:39Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "703d06856d192bbb",
+          "title": "海外不動産業官民ネットワーク（J-NORE） シンガポールセミナー参加者募集！ ～企業間のネットワーキングの場としてもご活用下さい～",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYWpTY3A5UnRnVXQtcUFwRW5QMm02Y2p0QUU5dnU2UTYxUjc5YnkwX0VOUDF1cEpWZFNUQ3pTYlpiaWFBMzl4VHhFT1NpaVEtX0wyaS1QNjlMdEQ1VFdUSjBYNTRRa3MxQjVjMnc3T3M3MEJBYmFHSldjcnJOUm5qdEsweXNlbDJiZk1oZGZn?oc=5",
+          "source": "国土交通省",
+          "published_at": "2026-10-21T05:10:36Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -33,7 +63,17 @@
           "title": "海外展開セミナー「ハラール市場の多様性を知る」を開催します",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12SUNtMk9GRjc5LVk5RnJpcUw4Q2V0LU1sT2gyRDdEY3hOSThjM2cta2VSWFZ4ZTdYY3pyRkFDS3NhRGVKWk51U2ZxZERiMEhoOG1zT2RiYWdGV3p6TE1NZHV2eWM?oc=5",
           "source": "九州経済産業局",
-          "published_at": "2026-10-21T04:44:33Z",
+          "published_at": "2026-10-21T04:54:28Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e3ecbd317966bbcd",
+          "title": "【商学部】「海外インターンシップ」成果報告会を開催しました",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JaWNFSk5Hb0pfQzM3Y3hyVWFKajBfTWhnemM0NVhzcHBZNlZGVS1UMlFVZDZqS2xFUktDbFd1TEphMU5lUjVxcTdBQmVkcHFIcmZoTnUyOW9kcWM5c2o0Ti0xWXg?oc=5",
+          "source": "西南学院大学",
+          "published_at": "2026-10-21T03:55:15Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -44,46 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QelQyNGtzcmlSRERoaTBiTXFVMWp3aTYySUFhcFo4dGJrQ3Q1NWN2MVhJUlhwUks4NzJHaWZETHVIOWFueUdFbzA4Z2I0a1BQMHZXTm1fblpjekttR0RoQnlKM0h2WGVkNVp2TGJjeWwtZUdSODRyS2xKbDdLX1E?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-10-21T03:07:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "90f626f4450b81c5",
-          "title": "マツコの知らない世界 シンプルなのに奥深い！卵かけごはん&抜け毛",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pNEpNNWZUZ2xyOXNWUzUzUDlveExlWXBjSHgtcl9nOEdvcnM0XzhSMUVacWFhVkw5eTBYaUN2TVF6VTY5VXRYR2M0MjdmMFpVOVBWbUFn?oc=5",
-          "source": "TBSテレビ",
-          "published_at": "2026-10-21T02:28:51Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4fd3ab5347e7882e",
-          "title": "「関大世界とつながるフェア」を開催",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYkRLcVNjcHRQaHc2Sy1kOHVJNDZWaWdVQjRaOE41cEdVZjVITS1CbXQya21aUVJlZ2dpcTlfM3NoLTgzRmd5M2JSSHFnb0dnMlg2UlJCZVRVTE9QTGhlNVZiMTd0ZmhuUzU2SzhfVzI5VjlFNFlqUDB0STFiZ0N4S1NYMHRFRVRn?oc=5",
-          "source": "関西大学",
-          "published_at": "2026-10-21T01:03:49Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "26be5daa6493c71c",
-          "title": "海外の大学院との連携が実を結ぶ！ ― 経済学研究科ダブルディグリープログラム初の修了生が誕生しました",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLbWtpYTNqOUpEZEYxenRKSW16WVRGUTV5bzNUanV6a1ZFR3JCeXFhZU10ZC1keGZDdk5DQzZPcmNSbWZxd0VOZ0xnYjgzZ0RVMExYYzBLMnYyVTd4YkFZaHp2Nk4zLUFYRVFCbVFDa2Q?oc=5",
-          "source": "大阪経済大学",
-          "published_at": "2026-10-21T00:45:25Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9856aea73ce08883",
-          "title": "貿易統計26年9月－原油輸入量の急回復を主因として7-9月期の外需寄与度はマイナスに",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KNkk1cE01X2lHRVA3bUFPM3JPY3kwb3huWmFDb2NmR3dzNG5IYkR0UkFQMjFIc0wzTk4tSzNiYmFUbkNFM1d4R09tYWFLVGpBOGRmeldpOFAwY0ZBN3Q0NmVuMjhjclJCMGhOTVF5NNIBf0FVX3lxTFBtZFkzT3VjYUsyd1FjUm9nSkxoZjZ2OFowVVc5cFlPQ3g3UEZCd1MzakVicUVUZHlPQU5IWGtJeHhNSlZiOE5OV3FVWjgzeDZ3V056b012QnY0cXJ1eFpmd3pBWE9aSkp2Z3dRNGNaMkFjeTdmUklWY25Ya0FuWjA?oc=5",
-          "source": "ニッセイ基礎研究所",
-          "published_at": "2026-10-20T15:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -254,6 +254,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "e21faa2bdc81edcc",
+          "title": "イオン／吉田社長「U.S.M.Hの閉店する100店舗はウエルシア、まいばすけっとに転換も」",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uYmxNaE1iaUdMcjhob1A3R3h6UlFQSmc5VnBjMFROMGR6ZDRjcGFPZVg1NVEtRFpGODBibi1OcmxoZkRablBIb2tjZ3ZtRzZCMmVSOEZMeGQ?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-14T02:38:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "3c8d81ff316d2a22",
           "title": "マキヤ／静岡県裾野市に「（仮称）裾野複合店舗A棟・B棟」27年2月25日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
@@ -268,6 +278,16 @@
           "title": "食品スーパーマーケット「大阪屋ショップ日進店」10月2日(金)オープンのお知らせ",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ3ZSVnJaeGVnYWVIT2ZIa0wxa0lOQXpJVGhodkN5YnRhNThqUVNFeUZzUTJJVEp1Q3RWUGVsX0pEZzh5R2k2RFJtc29wYWxoQVhoaFJmQTZHNDRLVVd2VXZmam9FeElteHc?oc=5",
           "source": "PR TIMES",
+          "published_at": "2026-10-01T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2ae604176a3eaf97",
+          "title": "オーケーほか／東京都北区に「（仮称）北区豊島四丁目SC計画（店舗面積2670m2）」27年3月23日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TTkQzOHpQRjZLbFJVRExvRm8zeU4zNGh6WEFFTldXRDJYU0gxODE5bU9BYkNzTHNMUFZTU0gtQ3U3NjdRQ2JIbHRURlpsSjFfYlhSa1FR?oc=5",
+          "source": "流通ニュース",
           "published_at": "2026-10-01T07:00:00Z",
           "language": "ja",
           "category": "retail",
@@ -289,26 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8ef122714accb147",
-          "title": "関西中四国小売流通特集：ライフコーポレーション・荒井信一郎専務執行役員 自社商品力の強化図る",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zWkpsMmlWVzM2czZWWmRLSDJidDdSbHVabzdJci1FWUpFTDM2RXFDaFdjMlNEdXVBdmJtdm1KUHlaNk16RUpDYUI0MFlCNlpJTnI5Z1lpX2t3YzYzd0l4a0JhZDAwMGl5aWc?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-09-26T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b606d4d6116ceaba",
-          "title": "日本小売業協会／イオン・セブン＆アイなど出展「RETAIL EXPO Tokyo 2026」10月8・9日東京で開催",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hSklMcVZBNEl5WUlDLUZXTzdQUldULS1sOW9VSUNrWmM1YTBycGFoOHFqSmlSMm9uOXFfbVR2WEZzNkstVFJtU2txWjlsTkxCLXZHNW50OA?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-25T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -339,11 +339,31 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "181ae67a5df6677e",
+          "title": "1日あたりの金取引額が500万ベトナムドンを超える場合は、現金以外の決済方法を用いなければならない。",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQTJtaUUwejA4U29XXzd4TmJZeWNtajZHR2QwRFlDT0NNVE5jVkFnSG1xekpqM3ZXbWpUQ05Cbk0wTTd4YUpacUZmWGM4M19kNE9CMTF3XzE1bVVzcnZtelpjVTZla2FmV0Z4MzA1Q1dkR2w2T1VadVE2V3ZhRm43MDIwb3UxaWhMYkRLZHZUNk5vWUxJdEJVYzgzZ0k?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-16T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "1898e3179c601256",
           "title": "シンガポールに香辛料やインスタントラーメンを輸出する企業は、新たな規制に留意すべきである。",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM00wQkhwczQ2cDVFTk5DS0MzUEF0QlBFRFlXOThrY1NuYlB1TC1KTTJRb0hiRmJZUG1NcVFEWktkc0pwWTl3QjFtRmZUWnNhUmU5NVUweGdIVTRBNUtBVHduRVhMWXFvOU00TWFnTDB5clprOEFienQ5WUNzTlBhZXE5RWt1UnlHSmtOVUJic3B0S3ZVWTN1dUJOWTVuamowSnc?oc=5",
           "source": "Vietnam.vn",
           "published_at": "2026-10-11T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7338dc41e445e013",
+          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
+          "source": "独立行政法人 農畜産業振興機構",
+          "published_at": "2026-06-25T10:48:49Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -367,31 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7338dc41e445e013",
-          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
-          "published_at": "2026-06-25T10:48:49Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "181ae67a5df6677e",
-          "title": "1日あたりの金取引額が500万ベトナムドンを超える場合は、現金以外の決済方法を用いなければならない。",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQTJtaUUwejA4U29XXzd4TmJZeWNtajZHR2QwRFlDT0NNVE5jVkFnSG1xekpqM3ZXbWpUQ05Cbk0wTTd4YUpacUZmWGM4M19kNE9CMTF3XzE1bVVzcnZtelpjVTZla2FmV0Z4MzA1Q1dkR2w2T1VadVE2V3ZhRm43MDIwb3UxaWhMYkRLZHZUNk5vWUxJdEJVYzgzZ0k?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-16T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-21T05:00:13Z",
-  "last_success_at": "2026-10-21T05:00:13Z",
+  "last_attempt_at": "2026-10-21T12:02:22Z",
+  "last_success_at": "2026-10-21T12:02:22Z",
   "consecutive_failure_count": 0
 }
