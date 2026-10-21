@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-21T17:22:01Z",
+  "generated_at": "2026-10-21T21:49:28Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,41 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "fdbed08489d602a7",
-          "title": "スペースX、スーパー・マイクロ・コンピューター 海外市場ビュー&米国株ピックアップ（10月21日）",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBGOHk1dlBYVWlqLWpMS0kzZGsxOVlDWmlkWVQ2aUExRXJzcV9Ga3ZJTC1ISFNhLVVPeHVITi1rT0llRFdWa2x4T2p6RGh3SEd4TzJXaWc0RDE5TjdmSXdoLTkxMWNtWEdnTk9PLWZCQm1zdnEzZGdIRzdFYlVQQQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-10-21T01:22:07Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "72178d3ae9c6bfe1",
-          "title": "香港の新世界発展株が低迷 多額損失で増資懸念、「愛国投資」にも警戒感",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5aSTRMSW5yWERVdWhoQURYZ1VpYVhEd0xTQXJUZ21pX1BPZWExQTlCR3l3Wk85T2x3U09vUkh5YmgzM2dHQk55WDZSUnFvUFNKQk5meWtHZHI2ZmFXa0dsUmh5Y0ZRdklQMmhWWkNuaGpSZmdoRHBuOVk1NFJuQQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-10-20T20:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5ec833a5536be0dc",
-          "title": "髙木経済産業副大臣が英国のテイラー対日貿易特使と会談を行いました",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PckFuaEwyR3FWOURvSG5LT3pDX3ZvOWc3cmVGVVJwY2dmZXcxNDFodEEyQUNtVFNrcE5WdmxRMDgzbE1aWEFONlZkZUFkTjZkM2NKRHJWalVOQ29zUFpjZ1pKWQ?oc=5",
-          "source": "経済産業省",
-          "published_at": "2026-10-15T07:55:51Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "27ee308f9b623157",
-          "title": "半導体関連 世界株式戦略ファンド【64311237】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBJa3ZKeU1fQVc1ZEhUT2ZqaHE2TWFqMFBnaVlfazA5d0h1Tld2bG1lcU1YSmItUnByVXlHZ0tpdnVjNWlQMW1RWm5FRjhubWN0N0MzRQ?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-21T15:34:24Z",
+          "id": "26be5daa6493c71c",
+          "title": "海外の大学院との連携が実を結ぶ！ ― 経済学研究科ダブルディグリープログラム初の修了生が誕生しました",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLbWtpYTNqOUpEZEYxenRKSW16WVRGUTV5bzNUanV6a1ZFR3JCeXFhZU10ZC1keGZDdk5DQzZPcmNSbWZxd0VOZ0xnYjgzZ0RVMExYYzBLMnYyVTd4YkFZaHp2Nk4zLUFYRVFCbVFDa2Q?oc=5",
+          "source": "大阪経済大学",
+          "published_at": "2026-10-21T18:45:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -63,27 +33,57 @@
           "title": "海外拠点の競争力はコストからケイパビリティーへ",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xbEd6a0t4b1dabHRzVFRJZ3pNanI5TjU5RGIyZjc2U3VrSmNfeklrNlZmQllyQ1F6SlJpalRialhpdVNPUmNxanE2dldabnE1Z0Z3cA?oc=5",
           "source": "ps.nikkei.com",
-          "published_at": "2026-10-21T15:12:36Z",
+          "published_at": "2026-10-21T15:12:07Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1a5355b24021bf46",
-          "title": "プログラミング言語「PHP」に欠陥 修正プログラムを配布へ 世界のサイトの7割で使用（産経新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KejhpWHJUZC11MnFGdV9MazhLakFqQkdJbngxUlY3Tm9idUlEa1FDWVprN09Zd1VPcUlMcENGejhRVUZYd0tmVWtvOF8zc3c3dUxRVVhuM1o0d0ptVFVkWnNIRVFCNFF5SHpIUGJ4ZDdObDZuU2gzR0lnSHNrZHc?oc=5",
+          "id": "262e55c04e326ff4",
+          "title": "世界的プログラミング言語に欠陥 「PHP」 EUはウェブサイト停止の検討をと警告（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Bd3Fhczc5ZHp6UHdNQ3g2dldLQ1FzTllwb1dpT1ZJNUNwRU1rdVFBbDBjMS1oRzZwNnpSMXhFbTZLX2loa1NHRGdIV3BxMDVfdDlnb19KdC1jSkhUYUlWRWRuQ2JCWkxoQkQ2dHJfSjZEalBEY290RWhRcTRhUm8?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-21T15:02:15Z",
+          "published_at": "2026-10-21T14:08:52Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f64b0babe36c22b9",
-          "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-21T14:58:04Z",
+          "id": "a2c15e300e3c767f",
+          "title": "「世界津波の日」２０２６高校生サミットin岩手 高市総理ビデオメッセージ",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JUjRHWUNtZ0s1dm9FOEp0M1RKRnFwaWYtTHJpOUhJU1ZKWEpQVDRrRXpvTE45SFJSRUdZSDBXQ3JPUHJ0TjJwc1lVWk1PLURDQU9hOXdVV0pUXy1aaHB1WTRNNXRyOVlLaUVsVlFzZw?oc=5",
+          "source": "首相官邸",
+          "published_at": "2026-10-21T12:08:59Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f120646f8cd47f54",
+          "title": "『ウマ娘』海外ライブ中止で異例の返金対応 現地参加者へ宿泊費・交通費に関する費用の返金を予定（オリコン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16a0k1UHRwUVlVZzFkRFZySVkyZ0RzVzM3ZjNNNmswcWlZN0FOcjN3aTl1eWlvUWladnpCUmt4Y3NGZk5CeTh4czBhTnFKSlVTcGtfWGt0dC1sYURRUHNHaUlJWGtia2E4aWNFNURMYTExWGVzM3NZOWp3UGZPMXM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-21T11:39:20Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "67d3359af42c520e",
+          "title": "海外研修で成長を実感！",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2LVhnbTNjd2NUd3JzSUhxNk9qdXRtaEJiUU54Vzd3alVjUmwwWEt2aVhqRU1JVGI0aUdKUzdqclBiOC15ZmFxOXBQcmNSWHk5TmZnOUNnU0FmZWJMdFVYR2tLZExWa3hwYng5T3RRT18zdEpIdmRIMA?oc=5",
+          "source": "九州産業大学",
+          "published_at": "2026-10-21T09:49:57Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4de75d7f17e280d8",
+          "title": "日本から唯一「2027年に行くべき世界の旅行先25選」に新潟県が選出! 大地の芸術祭や発酵文化を評価 ナショナルジオグラフィック（ＢＳＮ新潟放送）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRbHpsWWJhYnRKWF8wTmJHa3NRbGVNZXlLUzRCUS1DSWhaVG0tMEgwX0c2SC1XN2pGaFJoWklxNnFhSDlrZ3QzVlZBR1VGUkNhMHRZdnl1Z2t3dUtFZy1Wb3lxQkJuaFNuQ1k5UDhQc0ZNTE01WC1penZ3T1RTWHM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-21T09:33:18Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -134,31 +134,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a772bd383a2af7eb",
-          "title": "日本盛、大型紙パック充填機を移設",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-16T15:06:10Z",
+          "id": "98ec04beb533e628",
+          "title": "食品機械の設計、製造など手がける日進化工機（佐賀市）が破産申請へ 負債3億6400万円見込み | 経済 | 佐賀県のニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aVFhYRHl0TVpOS2ZGNW9rY29ONTFvaGpuQzdUd0EzVlRpVjdHMTRiLTBHbHY1Q2pva21XdjBBeW9aS2JyVlBXRDNCQ3hGVTNMN0pTV0x3?oc=5",
+          "source": "佐賀新聞",
+          "published_at": "2026-10-21T20:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "417cb0ad7d80feed",
-          "title": "食品機械用潤滑剤市場統計2026：2032年426百万米ドル規模へ発展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmTF9KOEZkRzF5dUZyQ1hSTUZwTGkyWTBrYjRxQlhQTVFuUWpnWG1uendOOExSNjZ4eWpUTWJUMnZyXzVFQmloUWtqMXE3cnBMYzhRejR0aGlXMEMwLXVNSkRoZ09ENzlEY0E?oc=5",
-          "source": "Excite エキサイト",
-          "published_at": "2026-10-19T03:00:00Z",
+          "id": "07b3c87415719f73",
+          "title": "【FISCO銘柄コメント】靜甲---包装機械などの産業機械、冷間鍛造製品の製造・販売、電機機器の…(フィスコ)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVnJ5NE1QSUFMbHgtdGptT1lEZ1c0eXZsMG5ISXBQald0TE1hWWpFeHVVQjFrZHBoTWZYcWcyTVNpN09XMTdzWEVjNEtVY295NlFVSHBjTkFiYjFQeEdEU0Roek50SE50Y3JjdkMwakNvUlg4eDdxX1NFdUVfcXMzUW56QjZCZjg?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-16T02:00:56Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "66e5a69d05451637",
-          "title": "食品機械用潤滑剤市場統計2026：2032年426百万米ドル規模へ発展 (2026年10月19日掲載)",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9lWEJJWjdBOEJyMnI0ZV95NFJZUjZoUUxEVGtFWFdGTUVYY0k5RThKWVpZM21HMFJFQkl1ZDNKWGE0RWY3QnhfQ0RlUDZDeVhLYVBBaXpTRGlhVUVkV3VnMkF3?oc=5",
-          "source": "ライブドアニュース",
-          "published_at": "2026-10-19T03:00:00Z",
+          "id": "3d30126548cbe722",
+          "title": "偏心渦電流選別機の世界市場（2026年～2032年）、市場規模（大粒子分離機、小粒子分離機）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wVGxVaDdxM0xMbVhhMHp6VlRCQWRIOEJuM0MwdG1SVGlEY01LMTJmQWl0dGpjbHRBZkpUUEVlSXBDMHZRUEd5Z2VvUnlVejA?oc=5",
+          "source": "Newscast.jp",
+          "published_at": "2026-10-16T02:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -304,9 +304,9 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "44d1c6144b6486e5",
-          "title": "コープさっぽろ／北海道函館市に「（仮称）北海道教育大学函館校店（店舗面積4892m2）」27年3月4日新設",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53T0NIMm05VHc1S09Fd2FoeFZtWTVsbEM2Tjg3M3AwSnZGM1pKT2xoZXUzYTZ5Qk1UZnNKdHlXSUZvLVNlUmxRRnMyUXBwMXJ4LUpkUlhOdF8?oc=5",
+          "id": "51ef72633e75c4aa",
+          "title": "マックスバリュ東海／愛知県豊橋市に「（仮称）マックスバリュ豊橋西幸町店（店舗面積4344m2）」27年4月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-28T07:00:00Z",
           "language": "ja",
@@ -319,16 +319,6 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "26fc6d70dac603ed",
-          "title": "港湾における輸入混雑を解消するための緊急措置が必要である。",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sekNWdUhvSFQ0VUZ1dmxhR1ZaWkJTaXQ1RzkyZFB6S2YwaWxtc2NkTTFWdmY2dXMteEhzWnB6U3FtVHBQT3VfM0Z6aVlKZkxIODhTTnRyOUNCTDR3WEEtZ3lUYU82LUpyeU1RSEVqdmVheTlrOGZILUhn?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-20T02:48:41Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "181ae67a5df6677e",
           "title": "1日あたりの金取引額が500万ベトナムドンを超える場合は、現金以外の決済方法を用いなければならない。",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQTJtaUUwejA4U29XXzd4TmJZeWNtajZHR2QwRFlDT0NNVE5jVkFnSG1xekpqM3ZXbWpUQ05Cbk0wTTd4YUpacUZmWGM4M19kNE9CMTF3XzE1bVVzcnZtelpjVTZla2FmV0Z4MzA1Q1dkR2w2T1VadVE2V3ZhRm43MDIwb3UxaWhMYkRLZHZUNk5vWUxJdEJVYzgzZ0k?oc=5",
@@ -339,21 +329,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1898e3179c601256",
-          "title": "シンガポールに香辛料やインスタントラーメンを輸出する企業は、新たな規制に留意すべきである。",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM00wQkhwczQ2cDVFTk5DS0MzUEF0QlBFRFlXOThrY1NuYlB1TC1KTTJRb0hiRmJZUG1NcVFEWktkc0pwWTl3QjFtRmZUWnNhUmU5NVUweGdIVTRBNUtBVHduRVhMWXFvOU00TWFnTDB5clprOEFienQ5WUNzTlBhZXE5RWt1UnlHSmtOVUJic3B0S3ZVWTN1dUJOWTVuamowSnc?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-11T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "7338dc41e445e013",
           "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
           "source": "独立行政法人 農畜産業振興機構",
           "published_at": "2026-06-25T10:48:49Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "26fc6d70dac603ed",
+          "title": "港湾における輸入混雑を解消するための緊急措置が必要である。",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sekNWdUhvSFQ0VUZ1dmxhR1ZaWkJTaXQ1RzkyZFB6S2YwaWxtc2NkTTFWdmY2dXMteEhzWnB6U3FtVHBQT3VfM0Z6aVlKZkxIODhTTnRyOUNCTDR3WEEtZ3lUYU82LUpyeU1RSEVqdmVheTlrOGZILUhn?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-20T02:48:41Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1898e3179c601256",
+          "title": "シンガポールに香辛料やインスタントラーメンを輸出する企業は、新たな規制に留意すべきである。",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM00wQkhwczQ2cDVFTk5DS0MzUEF0QlBFRFlXOThrY1NuYlB1TC1KTTJRb0hiRmJZUG1NcVFEWktkc0pwWTl3QjFtRmZUWnNhUmU5NVUweGdIVTRBNUtBVHduRVhMWXFvOU00TWFnTDB5clprOEFienQ5WUNzTlBhZXE5RWt1UnlHSmtOVUJic3B0S3ZVWTN1dUJOWTVuamowSnc?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-11T07:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-21T17:22:01Z",
-  "last_success_at": "2026-10-21T17:22:01Z",
+  "last_attempt_at": "2026-10-21T21:49:28Z",
+  "last_success_at": "2026-10-21T21:49:28Z",
   "consecutive_failure_count": 0
 }
