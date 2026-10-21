@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-21T12:02:22Z",
+  "generated_at": "2026-10-21T17:22:01Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,71 +19,71 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "67d3359af42c520e",
-          "title": "海外研修で成長を実感！",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2LVhnbTNjd2NUd3JzSUhxNk9qdXRtaEJiUU54Vzd3alVjUmwwWEt2aVhqRU1JVGI0aUdKUzdqclBiOC15ZmFxOXBQcmNSWHk5TmZnOUNnU0FmZWJMdFVYR2tLZExWa3hwYng5T3RRT18zdEpIdmRIMA?oc=5",
-          "source": "九州産業大学",
-          "published_at": "2026-10-21T09:49:57Z",
+          "id": "fdbed08489d602a7",
+          "title": "スペースX、スーパー・マイクロ・コンピューター 海外市場ビュー&米国株ピックアップ（10月21日）",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBGOHk1dlBYVWlqLWpMS0kzZGsxOVlDWmlkWVQ2aUExRXJzcV9Ga3ZJTC1ISFNhLVVPeHVITi1rT0llRFdWa2x4T2p6RGh3SEd4TzJXaWc0RDE5TjdmSXdoLTkxMWNtWEdnTk9PLWZCQm1zdnEzZGdIRzdFYlVQQQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-10-21T01:22:07Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "90f626f4450b81c5",
-          "title": "マツコの知らない世界 シンプルなのに奥深い！卵かけごはん&抜け毛",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pNEpNNWZUZ2xyOXNWUzUzUDlveExlWXBjSHgtcl9nOEdvcnM0XzhSMUVacWFhVkw5eTBYaUN2TVF6VTY5VXRYR2M0MjdmMFpVOVBWbUFn?oc=5",
-          "source": "TBSテレビ",
-          "published_at": "2026-10-21T08:30:40Z",
+          "id": "72178d3ae9c6bfe1",
+          "title": "香港の新世界発展株が低迷 多額損失で増資懸念、「愛国投資」にも警戒感",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5aSTRMSW5yWERVdWhoQURYZ1VpYVhEd0xTQXJUZ21pX1BPZWExQTlCR3l3Wk85T2x3U09vUkh5YmgzM2dHQk55WDZSUnFvUFNKQk5meWtHZHI2ZmFXa0dsUmh5Y0ZRdklQMmhWWkNuaGpSZmdoRHBuOVk1NFJuQQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-10-20T20:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "1a6bf6dc30487620",
-          "title": "世界に負けないアート振興策を議論文化立国調査会「アート振興小委員会」 | お知らせ | ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BeGhvdHFQNk5zTHVaQ2t3X3M3LWtieVRITXNDdTFpaEZXSVhCQ0NmSHlWX2FmMjdkeHpad3B2TmVhN2JYekR1SXNoSlA2VlNGbmpWakRGRS1oTENBOWc?oc=5",
-          "source": "自由民主党",
-          "published_at": "2026-10-21T07:57:39Z",
+          "id": "5ec833a5536be0dc",
+          "title": "髙木経済産業副大臣が英国のテイラー対日貿易特使と会談を行いました",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PckFuaEwyR3FWOURvSG5LT3pDX3ZvOWc3cmVGVVJwY2dmZXcxNDFodEEyQUNtVFNrcE5WdmxRMDgzbE1aWEFONlZkZUFkTjZkM2NKRHJWalVOQ29zUFpjZ1pKWQ?oc=5",
+          "source": "経済産業省",
+          "published_at": "2026-10-15T07:55:51Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "703d06856d192bbb",
-          "title": "海外不動産業官民ネットワーク（J-NORE） シンガポールセミナー参加者募集！ ～企業間のネットワーキングの場としてもご活用下さい～",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYWpTY3A5UnRnVXQtcUFwRW5QMm02Y2p0QUU5dnU2UTYxUjc5YnkwX0VOUDF1cEpWZFNUQ3pTYlpiaWFBMzl4VHhFT1NpaVEtX0wyaS1QNjlMdEQ1VFdUSjBYNTRRa3MxQjVjMnc3T3M3MEJBYmFHSldjcnJOUm5qdEsweXNlbDJiZk1oZGZn?oc=5",
-          "source": "国土交通省",
-          "published_at": "2026-10-21T05:10:36Z",
+          "id": "27ee308f9b623157",
+          "title": "半導体関連 世界株式戦略ファンド【64311237】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBJa3ZKeU1fQVc1ZEhUT2ZqaHE2TWFqMFBnaVlfazA5d0h1Tld2bG1lcU1YSmItUnByVXlHZ0tpdnVjNWlQMW1RWm5FRjhubWN0N0MzRQ?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-21T15:34:24Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "fcc423a5d907c8c5",
-          "title": "海外展開セミナー「ハラール市場の多様性を知る」を開催します",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12SUNtMk9GRjc5LVk5RnJpcUw4Q2V0LU1sT2gyRDdEY3hOSThjM2cta2VSWFZ4ZTdYY3pyRkFDS3NhRGVKWk51U2ZxZERiMEhoOG1zT2RiYWdGV3p6TE1NZHV2eWM?oc=5",
-          "source": "九州経済産業局",
-          "published_at": "2026-10-21T04:54:28Z",
+          "id": "1565be1fa5596c64",
+          "title": "海外拠点の競争力はコストからケイパビリティーへ",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xbEd6a0t4b1dabHRzVFRJZ3pNanI5TjU5RGIyZjc2U3VrSmNfeklrNlZmQllyQ1F6SlJpalRialhpdVNPUmNxanE2dldabnE1Z0Z3cA?oc=5",
+          "source": "ps.nikkei.com",
+          "published_at": "2026-10-21T15:12:36Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e3ecbd317966bbcd",
-          "title": "【商学部】「海外インターンシップ」成果報告会を開催しました",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JaWNFSk5Hb0pfQzM3Y3hyVWFKajBfTWhnemM0NVhzcHBZNlZGVS1UMlFVZDZqS2xFUktDbFd1TEphMU5lUjVxcTdBQmVkcHFIcmZoTnUyOW9kcWM5c2o0Ti0xWXg?oc=5",
-          "source": "西南学院大学",
-          "published_at": "2026-10-21T03:55:15Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3516f2e2bbc06c44",
-          "title": "新潟県が「2027年に行くべき世界の旅行先25選」に 大地の芸術祭や発酵文化を紹介 ナショナルジオグラフィックが選出",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QelQyNGtzcmlSRERoaTBiTXFVMWp3aTYySUFhcFo4dGJrQ3Q1NWN2MVhJUlhwUks4NzJHaWZETHVIOWFueUdFbzA4Z2I0a1BQMHZXTm1fblpjekttR0RoQnlKM0h2WGVkNVp2TGJjeWwtZUdSODRyS2xKbDdLX1E?oc=5",
+          "id": "1a5355b24021bf46",
+          "title": "プログラミング言語「PHP」に欠陥 修正プログラムを配布へ 世界のサイトの7割で使用（産経新聞）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KejhpWHJUZC11MnFGdV9MazhLakFqQkdJbngxUlY3Tm9idUlEa1FDWVprN09Zd1VPcUlMcENGejhRVUZYd0tmVWtvOF8zc3c3dUxRVVhuM1o0d0ptVFVkWnNIRVFCNFF5SHpIUGJ4ZDdObDZuU2gzR0lnSHNrZHc?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-21T03:07:12Z",
+          "published_at": "2026-10-21T15:02:15Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f64b0babe36c22b9",
+          "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-21T14:58:04Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -144,20 +144,20 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "fe7b82809cea2273",
-          "title": "化粧品包装機械市場の詳細分析：拡大の可能性、競争に関する洞察、および2026年から203",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LUXdybW40eU9JSC03TjZ5TVNqNEptai1PandITGpPaHVwVWJ3dGJONGVWOVZlYUh3NW56eHJXbjNwOEhoRDFqZmVn?oc=5",
-          "source": "pando.life",
-          "published_at": "2026-10-20T07:03:11Z",
+          "id": "417cb0ad7d80feed",
+          "title": "食品機械用潤滑剤市場統計2026：2032年426百万米ドル規模へ発展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmTF9KOEZkRzF5dUZyQ1hSTUZwTGkyWTBrYjRxQlhQTVFuUWpnWG1uendOOExSNjZ4eWpUTWJUMnZyXzVFQmloUWtqMXE3cnBMYzhRejR0aGlXMEMwLXVNSkRoZ09ENzlEY0E?oc=5",
+          "source": "Excite エキサイト",
+          "published_at": "2026-10-19T03:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "417cb0ad7d80feed",
-          "title": "食品機械用潤滑剤市場統計2026：2032年426百万米ドル規模へ発展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmTF9KOEZkRzF5dUZyQ1hSTUZwTGkyWTBrYjRxQlhQTVFuUWpnWG1uendOOExSNjZ4eWpUTWJUMnZyXzVFQmloUWtqMXE3cnBMYzhRejR0aGlXMEMwLXVNSkRoZ09ENzlEY0E?oc=5",
-          "source": "Excite エキサイト",
+          "id": "66e5a69d05451637",
+          "title": "食品機械用潤滑剤市場統計2026：2032年426百万米ドル規模へ発展 (2026年10月19日掲載)",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9lWEJJWjdBOEJyMnI0ZV95NFJZUjZoUUxEVGtFWFdGTUVYY0k5RThKWVpZM21HMFJFQkl1ZDNKWGE0RWY3QnhfQ0RlUDZDeVhLYVBBaXpTRGlhVUVkV3VnMkF3?oc=5",
+          "source": "ライブドアニュース",
           "published_at": "2026-10-19T03:00:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -304,9 +304,9 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "51ef72633e75c4aa",
-          "title": "マックスバリュ東海／愛知県豊橋市に「（仮称）マックスバリュ豊橋西幸町店（店舗面積4344m2）」27年4月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
+          "id": "44d1c6144b6486e5",
+          "title": "コープさっぽろ／北海道函館市に「（仮称）北海道教育大学函館校店（店舗面積4892m2）」27年3月4日新設",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53T0NIMm05VHc1S09Fd2FoeFZtWTVsbEM2Tjg3M3AwSnZGM1pKT2xoZXUzYTZ5Qk1UZnNKdHlXSUZvLVNlUmxRRnMyUXBwMXJ4LUpkUlhOdF8?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-28T07:00:00Z",
           "language": "ja",
@@ -318,16 +318,6 @@
     "regulations": {
       "label": "規制関連",
       "articles": [
-        {
-          "id": "8155d426af0e2c28",
-          "title": "処方箋薬ユーザーフィー法改正を議論、創薬・バイオ分野の国際展示会「BIO 2026」(米国) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IWnppSUxuOWg4TFhuSWF1REYxUTVmdmMybF9DazNtRVZSVmxidjI5WHdUNElpMHdTM2hULS1GX3RvRHBnaUhwd3lGZHQ1RjZDYUdvUjk5allLdGVQQnNTX2ZsZy1wS2xYc1BrX1BR?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-07-09T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "26fc6d70dac603ed",
           "title": "港湾における輸入混雑を解消するための緊急措置が必要である。",
@@ -369,6 +359,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "8155d426af0e2c28",
+          "title": "処方箋薬ユーザーフィー法改正を議論、創薬・バイオ分野の国際展示会「BIO 2026」(米国) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IWnppSUxuOWg4TFhuSWF1REYxUTVmdmMybF9DazNtRVZSVmxidjI5WHdUNElpMHdTM2hULS1GX3RvRHBnaUhwd3lGZHQ1RjZDYUdvUjk5allLdGVQQnNTX2ZsZy1wS2xYc1BrX1BR?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-07-09T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "82908306dc7c3ee3",
           "title": "政府は米の輸出入事業に関する新たな政令を発布した。",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYzhyM1pVZzZQaHBDNDJuOFZqV243LVFTVkQ3aGRfZklLUWFPSVhaQkhieHR4TmVxUXE5SjMwTG9veFdwbnZoNFFQLTVJTHpmNzBUdnVBVV90UGw5ZDJHbGlMUnhnaDJWNEplbjVzQ1V4cmVLZWR0OThtR1lrVldJVlNBZFNXc1pvcXlEQk85Mkp3NGtUU0E?oc=5",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-21T12:02:22Z",
-  "last_success_at": "2026-10-21T12:02:22Z",
+  "last_attempt_at": "2026-10-21T17:22:01Z",
+  "last_success_at": "2026-10-21T17:22:01Z",
   "consecutive_failure_count": 0
 }
