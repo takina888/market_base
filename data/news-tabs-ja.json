@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-22T05:02:34Z",
+  "generated_at": "2026-10-22T12:05:06Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,71 +19,71 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "2c7c12dcd77120f3",
+          "title": "海外のインパクト投資 (2026年10月22日 No.3748)",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3NEhQR2xOS1BMYnNPc0V4MXR5S1lyWV96SHJSSHRBNzFMS21UWVI2SmNadlVqQWE0QjJjRTY2RjV6czVCQUxYUndid1ZRVWtxcnU1SlZTd29UcFpuNUJ3dWk3ZjNYM3YxNEh3?oc=5",
+          "source": "日本経済団体連合会",
+          "published_at": "2026-10-22T07:19:40Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "89183edd7f718691",
+          "title": "PHP脆弱性、海外では“政府サイトごと停止”も オランダの電子認証やWikipedia関連サービスなどにも影響",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fVmVIUWNKUDl3Xzh2ckQzYTd0cVFObW9WUEowcU5sOVFjanl6dk9aQndCTzBtYTMwS3B1bjFfTkFJRUJjd3NIZEZTQUN4N041NkxJNEtySEFCYWxwOExhSTBMdGxpdGtleGc?oc=5",
+          "source": "ITmedia",
+          "published_at": "2026-10-22T06:21:08Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "73cf572a49dec8c2",
+          "title": "「世界津波の日」2026高校生サミット in 岩手の開催｜外務省",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xLXNNaF9KQW9kQnI4YzR0Zkkza2hrUVM5SzQ4aElWSzBpTng5TFF0ODZRcF90M05HaldBYTl6WnJLelVSRWY2WXZGaXJfdElJQ0NsQ3ZpRjZzaGkyY3YwZVdzTUlMZWxSYkxSRlFTUHE5ay1ZTFJv?oc=5",
+          "source": "Ministry of Foreign Affairs of Japan",
+          "published_at": "2026-10-22T05:18:26Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "aa5df59e83b3d8a3",
+          "title": "堀井外務副大臣の「2026年度国際交流基金賞授賞式」への出席｜外務省",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hOXUzbjZLdjl0LXZhT19hZ1dBUEllQmpyTDU5Mi0tNGtCaDRNVmZ3Ym1wcDZuZG55aHZCYzNLWjJjMzh3QXVkcG8yaWJaNnJXTjdDeE5NejdoZVM5RDZlUkRyUmFwemR2b0hNaTV1bHdVamQxZnNr?oc=5",
+          "source": "Ministry of Foreign Affairs of Japan",
+          "published_at": "2026-10-22T05:13:23Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b3f05bbacc4e8b6e",
+          "title": "世界初、高効率なトップエミッション型深紫外LEDの開発に成功",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pbU5EQnF1Z2lGRThtMFNMX1hjVW5HV1lmTE04WjFVd1RpY1pENDNfeFVoZDhQSjliUG1tb25aUk9CbFIwTlBDYmJ1anlfX1JnUzExUndvQ0NSQQ?oc=5",
+          "source": "NICT",
+          "published_at": "2026-10-22T05:13:22Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "400173d8709cd6cd",
+          "title": "国際テナガザルの日 特別ガイド",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMNTE4a1NyRUtWRnVsS080WlMtM0NJNTJkREt2VWtxX2V5SkVPZjRXbkxldWgxeDRFMGFoV01pakM5dkU0MFFuN21OVzRZU3Zlb1F1N1ZVRHdzYlJrSXlzS0d2cw?oc=5",
+          "source": "千葉市",
+          "published_at": "2026-10-22T05:10:55Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "d57164badaa7ea4f",
           "title": "世界のウェブサイトに「ハッキング警報」…AIが致命的な脆弱性発見（中央日報日本語版）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBocVVUOXRfNHdCTWxQNWxON25uTUxvMU1rYWotTHl0OFptWUkyU0puWWw3Qmhoa2tZRGhmZ1JuT2pxNWNNV0ZBTGVrRkN6aE1HdmFyeEtKajlPd0JGVWRJZVIzNW03SjRHYzNlZXdGcGJVazZoWXZZSWhMNkVBTU0?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-10-22T03:05:41Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8f747b5aac02f7fe",
-          "title": "プログラミング言語「PHP」に重大な脆弱性、世界中で多くのウェブサイト休止",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PelpVaWh0MjZMR1B1R3JWUDZvVzJHb0QyX01vdTRibVJiOUkyaHFkLURBeFRsU3FMRURBMDRiQnpqZlVOYktDeE1wQW42OEJpcGR2RG1uZnlUVzZkaldPNtIBZkFVX3lxTE4yNGQ1UXRWMzY1dmo3LS1HZExvSEt0NFNRd0R2d0VaVzVJbVJTQWl5NDlobVlyeDY4UmhrWjB3bTY5S2YxZ3k1ZjVrUGdxQ2FLNGpBbG9CWXNnYk9mME5Hcm0yc3NaZw?oc=5",
-          "source": "BBC",
-          "published_at": "2026-10-22T02:23:38Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fc024e3552fc193d",
-          "title": "【解説】世界のサイト7割で使用「PHP」に重大な脆弱性――AIが発見 急がれる『バグマゲドン』への備え（日テレNEWS NNN）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84VUtFNko2Um15d3BnSXhVTlZsSTBaSDluRjEteXhMclR2dHJIUmYyc3JNbHhQZXJKTElNOE1aUWR1dTRqMjA1cE9oNzJ1VzktUDdZUUJaaS12VG5jYXNoRFRVSjdhcEUzYk1uWURMS2lFN1BxUzBlYTZyMWhjb1E?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-22T02:03:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6288dc2e15cc7edf",
-          "title": "世界の森林再生支援に52,234本の樹木を寄付",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oa2xBTGRRTUVESWRNcFlQcmtRR2d2ZDdjR0NJcWRBY090ZWJtWWw0eExHclRDeExiZ0NhRkhaa0tfZ1NBa1hIdktnWmIxdDNnVkFkQnBJTWtWdw?oc=5",
-          "source": "日本郵船株式会社",
-          "published_at": "2026-10-22T02:00:25Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "cc572d0b8699345d",
-          "title": "プログラミング言語「PHP」に脆弱性 世界のサイト7割が危険に（時事通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTTS1Hb2pPb09DV3lHOHRPMXRuWk9QMlhVQUU0OWdkVUFUN1huOXZRN3ZuX2lYc25VclhHZFpTZmNWUXAzNWd1bl9VVXprQUl4V0xubzRQV0lJLTJ6aDF0ekVsSnlyZl82OEhHek1PQmQ5MDVLdDdleEtIYjlqbGM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-22T01:23:26Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6a0e5b0df8e14653",
-          "title": "世界中で広く使われるプログラミング言語「PHP」に重大な脆弱性、各国でウェブサイト停止などの対応 高市首相も対策呼びかけ",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WaldLLV9pWUJrelFjRmtFd2lya3JsTklmVnotTWJzTjNPOVJTSm9XeEpPOWF1TGNUN0V6MGVxeFdyVmcxbEpreDdhWExfT3ZiUjFxSl9kWnFFaU9ja1JVLWJ2RmdpcEYwclNqQUctTkhGQ05LNVE0SUxVd3ZXR0k?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-22T00:20:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "67e3ee984c8b176c",
-          "title": "日中対立「原因を作ったのはこちら」岩屋毅、発言を中国政府にまんまと利用されて日本は世界の笑い者…「異例の厚遇」の実態",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nemx5Y2FRYld1R0dxakd2emdDUUtyUk5BNm9wQUxtdXo4SU1JQm9oTFc0cS1RRGZjYkFtMHA4UWlFZ1BmY1JTUG1KcXp0cktzSGQtUG41S2dmcm5vR0w3RDRzdUtlbWNYTXBoSEhORjh3cVNGbnVUencyclVoeXc?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-21T22:00:36Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -93,6 +93,16 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "5ebf8ab0a7336239",
+          "title": "ソディック、加賀事業所に食品機械展示エリアオープン",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzcDJJYVdaRUk5TW1KMlgxQ1dVUF9wSDFSMHQ0WEFxQUxCUDlyTElNb1dKdTVXbWNOWjhwdFo5U2RPT2ZsdXNoeWdNZ3lPSTNDVGFfaGFEWlhDYjlOczJNQUFIdkFPMEFxZ1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-10-22T01:01:09Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "89cee931dd1d365a",
           "title": "国内の包装機械大手2社、米国で共同生産 日系企業の進出追い風に",
@@ -144,21 +154,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ca2f799a8921b397",
-          "title": "ソディック、加賀事業所に食品機械展示エリアオープン",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oMU9LMldhUGxXWUVwWk1mcjdBbHpjMm5vektrZFV2MWdkcDlpOTFpbWtFN2VSYnBIb2wzcko4bWV0dmg5LUI3dWc1d1o5VFJ1OVFXaW5URHNkeEk5QkY1cUFWa0d6YmFCbHZmQmlLVGx1RWVhckxhcnNoZw?oc=5",
-          "source": "ニコニコニュース",
-          "published_at": "2026-10-22T04:51:19Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "98ec04beb533e628",
-          "title": "食品機械の設計、製造など手がける日進化工機（佐賀市）が破産申請へ 負債3億6400万円見込み | 経済 | 佐賀県のニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aVFhYRHl0TVpOS2ZGNW9rY29ONTFvaGpuQzdUd0EzVlRpVjdHMTRiLTBHbHY1Q2pva21XdjBBeW9aS2JyVlBXRDNCQ3hGVTNMN0pTV0x3?oc=5",
-          "source": "佐賀新聞",
-          "published_at": "2026-10-21T20:00:00Z",
+          "id": "5b0d88510507fec7",
+          "title": "ソディック、加賀事業所に展示場 最新の食品機械提案",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamlpZnljeVJOdXhPaDdaLTNDbHZNdm5RQVY2TFlfS0ZOeXItc21zeFN2WU1SSDBxZEUteE04OEhOV1hra1JhZVJuc3p1SlE5LVBGUzBXU1k?oc=5",
+          "source": "日刊工業新聞 電子版",
+          "published_at": "2026-10-22T08:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -244,11 +244,21 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "eea4eda6acd09417",
+          "title": "バロー／大府市に「大府北山店」10月23日オープン、愛知県70店舗目",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nejU0QjM4SmRFU21CdTFOdEtrUG1LY01XRVQ0akhWb3Vzd2VvczAwNjd2alpDZjdtWVJwNVpONGJDTE8wenU2Znh3Z0tlY1NXNUppcw?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-16T04:53:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "e21faa2bdc81edcc",
           "title": "イオン／吉田社長「U.S.M.Hの閉店する100店舗はウエルシア、まいばすけっとに転換も」",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uYmxNaE1iaUdMcjhob1A3R3h6UlFQSmc5VnBjMFROMGR6ZDRjcGFPZVg1NVEtRFpGODBibi1OcmxoZkRablBIb2tjZ3ZtRzZCMmVSOEZMeGQ?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-14T02:38:00Z",
+          "published_at": "2026-10-14T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -259,16 +269,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-08T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a2ae2d609b915546",
-          "title": "食品スーパーマーケット「大阪屋ショップ日進店」10月2日(金)オープンのお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ3ZSVnJaeGVnYWVIT2ZIa0wxa0lOQXpJVGhodkN5YnRhNThqUVNFeUZzUTJJVEp1Q3RWUGVsX0pEZzh5R2k2RFJtc29wYWxoQVhoaFJmQTZHNDRLVVd2VXZmam9FeElteHc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-10-01T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-22T05:02:34Z",
-  "last_success_at": "2026-10-22T05:02:34Z",
+  "last_attempt_at": "2026-10-22T12:05:06Z",
+  "last_success_at": "2026-10-22T12:05:06Z",
   "consecutive_failure_count": 0
 }
