@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-22T12:05:06Z",
+  "generated_at": "2026-10-22T17:19:25Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,31 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "a78a852ae0762087",
+          "title": "ＰＨＰ脆弱性、世界で修正急ぐ 攻撃試行は数百万件に（ロイター）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kYlJhb01zTS1FMS1ieGUxenRVeEM3T0M4bDhONDN5cG1QU2ltVmxVdE5WLU1oQldSV3Ayckpaeno4SGU5NmFBVjZjZE53TGJDR0FaZEYyUDJxUVFNMTN5aFVGSzA0R1E0T2pQd09YWmlqb200S0N6OUNLYmo5UU0?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-22T11:42:35Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "2c7c12dcd77120f3",
           "title": "海外のインパクト投資 (2026年10月22日 No.3748)",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3NEhQR2xOS1BMYnNPc0V4MXR5S1lyWV96SHJSSHRBNzFMS21UWVI2SmNadlVqQWE0QjJjRTY2RjV6czVCQUxYUndid1ZRVWtxcnU1SlZTd29UcFpuNUJ3dWk3ZjNYM3YxNEh3?oc=5",
           "source": "日本経済団体連合会",
           "published_at": "2026-10-22T07:19:40Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "76a4f84e6e3b119d",
+          "title": "「国際教育フェア2026秋」に出展します！",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5qUVVVQXU1ZTE4Y3hzbE1tLWdwX3dOMnNxTkNoUmp6b1NEdDA1RnNTLUIxVkNOM3F0TDdhSFVEWDhnWk9qR0Q2Zg?oc=5",
+          "source": "金蘭会高等学校・中学校",
+          "published_at": "2026-10-22T06:57:54Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -64,26 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pbU5EQnF1Z2lGRThtMFNMX1hjVW5HV1lmTE04WjFVd1RpY1pENDNfeFVoZDhQSjliUG1tb25aUk9CbFIwTlBDYmJ1anlfX1JnUzExUndvQ0NSQQ?oc=5",
           "source": "NICT",
           "published_at": "2026-10-22T05:13:22Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "400173d8709cd6cd",
-          "title": "国際テナガザルの日 特別ガイド",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMNTE4a1NyRUtWRnVsS080WlMtM0NJNTJkREt2VWtxX2V5SkVPZjRXbkxldWgxeDRFMGFoV01pakM5dkU0MFFuN21OVzRZU3Zlb1F1N1ZVRHdzYlJrSXlzS0d2cw?oc=5",
-          "source": "千葉市",
-          "published_at": "2026-10-22T05:10:55Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d57164badaa7ea4f",
-          "title": "世界のウェブサイトに「ハッキング警報」…AIが致命的な脆弱性発見（中央日報日本語版）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBocVVUOXRfNHdCTWxQNWxON25uTUxvMU1rYWotTHl0OFptWUkyU0puWWw3Qmhoa2tZRGhmZ1JuT2pxNWNNV0ZBTGVrRkN6aE1HdmFyeEtKajlPd0JGVWRJZVIzNW03SjRHYzNlZXdGcGJVazZoWXZZSWhMNkVBTU0?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-22T03:05:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -144,20 +144,20 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a772bd383a2af7eb",
-          "title": "日本盛、大型紙パック充填機を移設",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-16T15:06:10Z",
+          "id": "5b0d88510507fec7",
+          "title": "ソディック、加賀事業所に展示場 最新の食品機械提案",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamlpZnljeVJOdXhPaDdaLTNDbHZNdm5RQVY2TFlfS0ZOeXItc21zeFN2WU1SSDBxZEUteE04OEhOV1hra1JhZVJuc3p1SlE5LVBGUzBXU1k?oc=5",
+          "source": "日刊工業新聞 電子版",
+          "published_at": "2026-10-22T08:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5b0d88510507fec7",
-          "title": "ソディック、加賀事業所に展示場 最新の食品機械提案",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamlpZnljeVJOdXhPaDdaLTNDbHZNdm5RQVY2TFlfS0ZOeXItc21zeFN2WU1SSDBxZEUteE04OEhOV1hra1JhZVJuc3p1SlE5LVBGUzBXU1k?oc=5",
-          "source": "日刊工業新聞 電子版",
+          "id": "cbba3aceef40e7cc",
+          "title": "全自動二液式液体接着剤充填機の世界市場（2026年～2032年）、市場規模（比例制御式、流量制御式、その他）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RNWVqaXBhbFdDdHRHX0NvZkh5T0U4YzZSV0R2VmdPRVp6bjJEdkQ1VnV0UWRKbnNhUlkxU2NURlgzem5lT2hFcmU5Zk15OXc?oc=5",
+          "source": "アットプレス",
           "published_at": "2026-10-22T08:00:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -294,9 +294,9 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "51ef72633e75c4aa",
-          "title": "マックスバリュ東海／愛知県豊橋市に「（仮称）マックスバリュ豊橋西幸町店（店舗面積4344m2）」27年4月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
+          "id": "44d1c6144b6486e5",
+          "title": "コープさっぽろ／北海道函館市に「（仮称）北海道教育大学函館校店（店舗面積4892m2）」27年3月4日新設",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53T0NIMm05VHc1S09Fd2FoeFZtWTVsbEM2Tjg3M3AwSnZGM1pKT2xoZXUzYTZ5Qk1UZnNKdHlXSUZvLVNlUmxRRnMyUXBwMXJ4LUpkUlhOdF8?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-28T07:00:00Z",
           "language": "ja",
@@ -304,11 +304,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8ef122714accb147",
-          "title": "関西中四国小売流通特集：ライフコーポレーション・荒井信一郎専務執行役員 自社商品力の強化図る",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zWkpsMmlWVzM2czZWWmRLSDJidDdSbHVabzdJci1FWUpFTDM2RXFDaFdjMlNEdXVBdmJtdm1KUHlaNk16RUpDYUI0MFlCNlpJTnI5Z1lpX2t3YzYzd0l4a0JhZDAwMGl5aWc?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-09-26T07:00:00Z",
+          "id": "51ef72633e75c4aa",
+          "title": "マックスバリュ東海／愛知県豊橋市に「（仮称）マックスバリュ豊橋西幸町店（店舗面積4344m2）」27年4月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-28T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-22T12:05:06Z",
-  "last_success_at": "2026-10-22T12:05:06Z",
+  "last_attempt_at": "2026-10-22T17:19:25Z",
+  "last_success_at": "2026-10-22T17:19:25Z",
   "consecutive_failure_count": 0
 }
