@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-22T17:19:25Z",
+  "generated_at": "2026-10-22T21:44:42Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -144,20 +144,20 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5b0d88510507fec7",
-          "title": "ソディック、加賀事業所に展示場 最新の食品機械提案",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamlpZnljeVJOdXhPaDdaLTNDbHZNdm5RQVY2TFlfS0ZOeXItc21zeFN2WU1SSDBxZEUteE04OEhOV1hra1JhZVJuc3p1SlE5LVBGUzBXU1k?oc=5",
-          "source": "日刊工業新聞 電子版",
-          "published_at": "2026-10-22T08:00:00Z",
+          "id": "a772bd383a2af7eb",
+          "title": "日本盛、大型紙パック充填機を移設",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-08-16T15:06:10Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cbba3aceef40e7cc",
-          "title": "全自動二液式液体接着剤充填機の世界市場（2026年～2032年）、市場規模（比例制御式、流量制御式、その他）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RNWVqaXBhbFdDdHRHX0NvZkh5T0U4YzZSV0R2VmdPRVp6bjJEdkQ1VnV0UWRKbnNhUlkxU2NURlgzem5lT2hFcmU5Zk15OXc?oc=5",
-          "source": "アットプレス",
+          "id": "5b0d88510507fec7",
+          "title": "ソディック、加賀事業所に展示場 最新の食品機械提案",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamlpZnljeVJOdXhPaDdaLTNDbHZNdm5RQVY2TFlfS0ZOeXItc21zeFN2WU1SSDBxZEUteE04OEhOV1hra1JhZVJuc3p1SlE5LVBGUzBXU1k?oc=5",
+          "source": "日刊工業新聞 電子版",
           "published_at": "2026-10-22T08:00:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -244,21 +244,21 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "eea4eda6acd09417",
-          "title": "バロー／大府市に「大府北山店」10月23日オープン、愛知県70店舗目",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nejU0QjM4SmRFU21CdTFOdEtrUG1LY01XRVQ0akhWb3Vzd2VvczAwNjd2alpDZjdtWVJwNVpONGJDTE8wenU2Znh3Z0tlY1NXNUppcw?oc=5",
+          "id": "03956ba6ece1bd45",
+          "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-16T04:53:00Z",
+          "published_at": "2026-10-19T01:39:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e21faa2bdc81edcc",
-          "title": "イオン／吉田社長「U.S.M.Hの閉店する100店舗はウエルシア、まいばすけっとに転換も」",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uYmxNaE1iaUdMcjhob1A3R3h6UlFQSmc5VnBjMFROMGR6ZDRjcGFPZVg1NVEtRFpGODBibi1OcmxoZkRablBIb2tjZ3ZtRzZCMmVSOEZMeGQ?oc=5",
+          "id": "d52e7bace846e0df",
+          "title": "イオンリテールほか／兵庫県三田市に「（仮称）そよら三田・サンフラワー（店舗面積7481m2）」27年4月27日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1haXhLZm83WVRSTUotX2JDR21ibVpyY25ZM3VKTUZMV1B0elJkR3JlOWFza3pwdmlVNG94OHVfRjR1NDZ4MVV5bmkwRExwSGpkSG9wQVpB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-14T07:00:00Z",
+          "published_at": "2026-10-09T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -284,21 +284,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e334769b0f16ddcd",
-          "title": "マルト／福島県いわき市に「（仮称）いわきスマートタウン計画（店舗面積2813m2）」27年4月20日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iSmw0SmhmdkEtY2lWRVgwZW9zQkhia2NiN3J2QURLRW8ydGxiSHBodHpFRE4yQzJ6WWRnMWlCWG5oekdPZkJMUW5vVHlKbzFmZXJlcHZ3?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-09-29T07:00:00Z",
+          "id": "a2ae2d609b915546",
+          "title": "食品スーパーマーケット「大阪屋ショップ日進店」10月2日(金)オープンのお知らせ",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ3ZSVnJaeGVnYWVIT2ZIa0wxa0lOQXpJVGhodkN5YnRhNThqUVNFeUZzUTJJVEp1Q3RWUGVsX0pEZzh5R2k2RFJtc29wYWxoQVhoaFJmQTZHNDRLVVd2VXZmam9FeElteHc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-10-01T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "44d1c6144b6486e5",
-          "title": "コープさっぽろ／北海道函館市に「（仮称）北海道教育大学函館校店（店舗面積4892m2）」27年3月4日新設",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53T0NIMm05VHc1S09Fd2FoeFZtWTVsbEM2Tjg3M3AwSnZGM1pKT2xoZXUzYTZ5Qk1UZnNKdHlXSUZvLVNlUmxRRnMyUXBwMXJ4LUpkUlhOdF8?oc=5",
+          "id": "e334769b0f16ddcd",
+          "title": "マルト／福島県いわき市に「（仮称）いわきスマートタウン計画（店舗面積2813m2）」27年4月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iSmw0SmhmdkEtY2lWRVgwZW9zQkhia2NiN3J2QURLRW8ydGxiSHBodHpFRE4yQzJ6WWRnMWlCWG5oekdPZkJMUW5vVHlKbzFmZXJlcHZ3?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-09-28T07:00:00Z",
+          "published_at": "2026-09-29T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -323,7 +323,7 @@
           "title": "港湾における輸入混雑を解消するための緊急措置が必要である。",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sekNWdUhvSFQ0VUZ1dmxhR1ZaWkJTaXQ1RzkyZFB6S2YwaWxtc2NkTTFWdmY2dXMteEhzWnB6U3FtVHBQT3VfM0Z6aVlKZkxIODhTTnRyOUNCTDR3WEEtZ3lUYU82LUpyeU1RSEVqdmVheTlrOGZILUhn?oc=5",
           "source": "Vietnam.vn",
-          "published_at": "2026-10-20T02:48:41Z",
+          "published_at": "2026-10-21T17:21:41Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-22T17:19:25Z",
-  "last_success_at": "2026-10-22T17:19:25Z",
+  "last_attempt_at": "2026-10-22T21:44:42Z",
+  "last_success_at": "2026-10-22T21:44:42Z",
   "consecutive_failure_count": 0
 }
