@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-22T21:44:42Z",
+  "generated_at": "2026-10-23T05:02:43Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,36 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "c9b532da7c64e5bc",
+          "title": "【#佐藤優のシン世界地図探索183】ロシアより\"連載に\"愛を込めて（週プレNEWS）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzTXlIYVBrblczT0w1ZG9sMmctOXpGZV9kNU9YbFpDLUVoc0N1dHA2VHRzOUVXREcxei13LWpHdlpMU0JFbk5RWnlhVkRIZlRVRWUzaFBGRkx4UlBIZ1BsOWFRTDZkS09FVlotaV9YQkVUSjJWb21BZ1R3YTZlejQ?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-22T22:47:31Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f044e47ef0df2057",
+          "title": "中国政府系ハッカー集団がサイバー攻撃か 世界中の企業など標的に 米マイクロソフトが発表",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXdUVsTWliT3l0QmhXYTdIYy1XeTZhd2FhY05JWE9tS0UzWXdST2dzcFd2YzIyVkZrbWVzMnBzbXJVVEIxZXg2Q283UUxSM1NMYkM5QmExTGFlMndYdHRyQ2pXRkR4YTlJMW9kek5xcjdyWWMySU4xenN3STk2U2s?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-22T16:39:25Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7ecb82531f00cc61",
+          "title": "世界の7割で使用『PHP』とは？重大欠陥で“影響拡大”ホームページの一時閉鎖相次ぐ（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yS09MOUVqYlB3WmJnenUyenJXSjM5N0xhQ2EzQzM5aDJvS2JVbVhJaXdNak9DdWlTV3k5d2ZiMkN3VFBFZEJrYkNQNHZObzhWSkpWSk5zMnhHSS14NThMbHFVaWVpYUJoRVBTUzBqOFUxT2YteExib1Zxb0lyR2c?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-22T15:30:40Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "a78a852ae0762087",
           "title": "ＰＨＰ脆弱性、世界で修正急ぐ 攻撃試行は数百万件に（ロイター）",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kYlJhb01zTS1FMS1ieGUxenRVeEM3T0M4bDhONDN5cG1QU2ltVmxVdE5WLU1oQldSV3Ayckpaeno4SGU5NmFBVjZjZE53TGJDR0FaZEYyUDJxUVFNMTN5aFVGSzA0R1E0T2pQd09YWmlqb200S0N6OUNLYmo5UU0?oc=5",
@@ -29,61 +59,31 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "0698e7c83e455cfc",
+          "title": "世界が混乱「PHP」とは？ 企業、自治体も“一時停止”（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OVnAxbUxIdWhSV1JaZ3hveGcyN09nR0FvVTBGT1JVdTRRVEE5dlJGb2dDSEFXWnpRc0sxNWpBa2c0UmF1MG1NYVloMGRESUMyZ3NZcEhjMnQ1R0RROEFCLV9mV2Q0QmxYalZlNkpRaEVNX0J5R3lWZjQtY2p0YUk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-22T11:12:16Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ecc79a87331d55cf",
+          "title": "東京国際文化芸術祭「ＡＲＴＥ ＴＯＫＹＯ」にサポーターとして参画し、 渋谷駅周辺で多彩なプログラムを提供します",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wOEowaHZvSmE1d2tVakxZVlRrWmtlQnZONUFMNHcxRFZJLXgwZ2I3Y2pyZUJ1d3hnZHZ4dVFsS3QxWFRjOXNlOTczc1Y1RWo0MFp2Mm9OcngtenZkVUFBRGxNU1NvdGNQNVVMUEtn?oc=5",
+          "source": "東急・東急電鉄公式サイト",
+          "published_at": "2026-10-22T09:09:32Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "2c7c12dcd77120f3",
           "title": "海外のインパクト投資 (2026年10月22日 No.3748)",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3NEhQR2xOS1BMYnNPc0V4MXR5S1lyWV96SHJSSHRBNzFMS21UWVI2SmNadlVqQWE0QjJjRTY2RjV6czVCQUxYUndid1ZRVWtxcnU1SlZTd29UcFpuNUJ3dWk3ZjNYM3YxNEh3?oc=5",
           "source": "日本経済団体連合会",
           "published_at": "2026-10-22T07:19:40Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "76a4f84e6e3b119d",
-          "title": "「国際教育フェア2026秋」に出展します！",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5qUVVVQXU1ZTE4Y3hzbE1tLWdwX3dOMnNxTkNoUmp6b1NEdDA1RnNTLUIxVkNOM3F0TDdhSFVEWDhnWk9qR0Q2Zg?oc=5",
-          "source": "金蘭会高等学校・中学校",
-          "published_at": "2026-10-22T06:57:54Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "89183edd7f718691",
-          "title": "PHP脆弱性、海外では“政府サイトごと停止”も オランダの電子認証やWikipedia関連サービスなどにも影響",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fVmVIUWNKUDl3Xzh2ckQzYTd0cVFObW9WUEowcU5sOVFjanl6dk9aQndCTzBtYTMwS3B1bjFfTkFJRUJjd3NIZEZTQUN4N041NkxJNEtySEFCYWxwOExhSTBMdGxpdGtleGc?oc=5",
-          "source": "ITmedia",
-          "published_at": "2026-10-22T06:21:08Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "73cf572a49dec8c2",
-          "title": "「世界津波の日」2026高校生サミット in 岩手の開催｜外務省",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xLXNNaF9KQW9kQnI4YzR0Zkkza2hrUVM5SzQ4aElWSzBpTng5TFF0ODZRcF90M05HaldBYTl6WnJLelVSRWY2WXZGaXJfdElJQ0NsQ3ZpRjZzaGkyY3YwZVdzTUlMZWxSYkxSRlFTUHE5ay1ZTFJv?oc=5",
-          "source": "Ministry of Foreign Affairs of Japan",
-          "published_at": "2026-10-22T05:18:26Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "aa5df59e83b3d8a3",
-          "title": "堀井外務副大臣の「2026年度国際交流基金賞授賞式」への出席｜外務省",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hOXUzbjZLdjl0LXZhT19hZ1dBUEllQmpyTDU5Mi0tNGtCaDRNVmZ3Ym1wcDZuZG55aHZCYzNLWjJjMzh3QXVkcG8yaWJaNnJXTjdDeE5NejdoZVM5RDZlUkRyUmFwemR2b0hNaTV1bHdVamQxZnNr?oc=5",
-          "source": "Ministry of Foreign Affairs of Japan",
-          "published_at": "2026-10-22T05:13:23Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b3f05bbacc4e8b6e",
-          "title": "世界初、高効率なトップエミッション型深紫外LEDの開発に成功",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pbU5EQnF1Z2lGRThtMFNMX1hjVW5HV1lmTE04WjFVd1RpY1pENDNfeFVoZDhQSjliUG1tb25aUk9CbFIwTlBDYmJ1anlfX1JnUzExUndvQ0NSQQ?oc=5",
-          "source": "NICT",
-          "published_at": "2026-10-22T05:13:22Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -144,20 +144,20 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a772bd383a2af7eb",
-          "title": "日本盛、大型紙パック充填機を移設",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-16T15:06:10Z",
+          "id": "5b0d88510507fec7",
+          "title": "ソディック、加賀事業所に展示場 最新の食品機械提案",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamlpZnljeVJOdXhPaDdaLTNDbHZNdm5RQVY2TFlfS0ZOeXItc21zeFN2WU1SSDBxZEUteE04OEhOV1hra1JhZVJuc3p1SlE5LVBGUzBXU1k?oc=5",
+          "source": "日刊工業新聞 電子版",
+          "published_at": "2026-10-22T08:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5b0d88510507fec7",
-          "title": "ソディック、加賀事業所に展示場 最新の食品機械提案",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamlpZnljeVJOdXhPaDdaLTNDbHZNdm5RQVY2TFlfS0ZOeXItc21zeFN2WU1SSDBxZEUteE04OEhOV1hra1JhZVJuc3p1SlE5LVBGUzBXU1k?oc=5",
-          "source": "日刊工業新聞 電子版",
+          "id": "cbba3aceef40e7cc",
+          "title": "全自動二液式液体接着剤充填機の世界市場（2026年～2032年）、市場規模（比例制御式、流量制御式、その他）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RNWVqaXBhbFdDdHRHX0NvZkh5T0U4YzZSV0R2VmdPRVp6bjJEdkQ1VnV0UWRKbnNhUlkxU2NURlgzem5lT2hFcmU5Zk15OXc?oc=5",
+          "source": "アットプレス",
           "published_at": "2026-10-22T08:00:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -254,11 +254,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d52e7bace846e0df",
-          "title": "イオンリテールほか／兵庫県三田市に「（仮称）そよら三田・サンフラワー（店舗面積7481m2）」27年4月27日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1haXhLZm83WVRSTUotX2JDR21ibVpyY25ZM3VKTUZMV1B0elJkR3JlOWFza3pwdmlVNG94OHVfRjR1NDZ4MVV5bmkwRExwSGpkSG9wQVpB?oc=5",
+          "id": "eea4eda6acd09417",
+          "title": "バロー／大府市に「大府北山店」10月23日オープン、愛知県70店舗目",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nejU0QjM4SmRFU21CdTFOdEtrUG1LY01XRVQ0akhWb3Vzd2VvczAwNjd2alpDZjdtWVJwNVpONGJDTE8wenU2Znh3Z0tlY1NXNUppcw?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-09T07:00:00Z",
+          "published_at": "2026-10-16T04:53:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e21faa2bdc81edcc",
+          "title": "イオン／吉田社長「U.S.M.Hの閉店する100店舗はウエルシア、まいばすけっとに転換も」",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uYmxNaE1iaUdMcjhob1A3R3h6UlFQSmc5VnBjMFROMGR6ZDRjcGFPZVg1NVEtRFpGODBibi1OcmxoZkRablBIb2tjZ3ZtRzZCMmVSOEZMeGQ?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-14T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -284,16 +294,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a2ae2d609b915546",
-          "title": "食品スーパーマーケット「大阪屋ショップ日進店」10月2日(金)オープンのお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ3ZSVnJaeGVnYWVIT2ZIa0wxa0lOQXpJVGhodkN5YnRhNThqUVNFeUZzUTJJVEp1Q3RWUGVsX0pEZzh5R2k2RFJtc29wYWxoQVhoaFJmQTZHNDRLVVd2VXZmam9FeElteHc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-10-01T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "e334769b0f16ddcd",
           "title": "マルト／福島県いわき市に「（仮称）いわきスマートタウン計画（店舗面積2813m2）」27年4月20日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iSmw0SmhmdkEtY2lWRVgwZW9zQkhia2NiN3J2QURLRW8ydGxiSHBodHpFRE4yQzJ6WWRnMWlCWG5oekdPZkJMUW5vVHlKbzFmZXJlcHZ3?oc=5",
@@ -304,9 +304,9 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "51ef72633e75c4aa",
-          "title": "マックスバリュ東海／愛知県豊橋市に「（仮称）マックスバリュ豊橋西幸町店（店舗面積4344m2）」27年4月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
+          "id": "44d1c6144b6486e5",
+          "title": "コープさっぽろ／北海道函館市に「（仮称）北海道教育大学函館校店（店舗面積4892m2）」27年3月4日新設",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53T0NIMm05VHc1S09Fd2FoeFZtWTVsbEM2Tjg3M3AwSnZGM1pKT2xoZXUzYTZ5Qk1UZnNKdHlXSUZvLVNlUmxRRnMyUXBwMXJ4LUpkUlhOdF8?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-28T07:00:00Z",
           "language": "ja",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-22T21:44:42Z",
-  "last_success_at": "2026-10-22T21:44:42Z",
+  "last_attempt_at": "2026-10-23T05:02:43Z",
+  "last_success_at": "2026-10-23T05:02:43Z",
   "consecutive_failure_count": 0
 }
