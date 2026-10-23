@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-23T11:49:47Z",
+  "generated_at": "2026-10-23T17:16:38Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -144,21 +144,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a772bd383a2af7eb",
-          "title": "日本盛、大型紙パック充填機を移設",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HOEliQXdZWVdpb3BvT1NEY1lxMWU4SUM0NnRHU242cEZsd3dSNHNQaXB5b29FeUtGNVVqS0ZYaEZnS3Z1VkF4VXp0Q09pcGUyNjZ1bWlabTR6QlpvLUxwRGVndlZHaTdmUGFpVk93?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-08-16T15:06:10Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "d5a66f6cc20a40cc",
           "title": "風力選別機の世界市場（2026年～2032年）、市場規模（シングルドラム、ダブルドラム）・分析レポートを発表",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9NU3l2bk9fdF9Vem4zazJxOElTdkY0enlvZ240Q0JnLTBHdXYtNFJ3T3ZQaks3WHlidXE0bUM4Rkc5UVU5alpVUjNBcGhPZw?oc=5",
           "source": "アットプレス",
           "published_at": "2026-10-23T06:30:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5b0d88510507fec7",
+          "title": "ソディック、加賀事業所に展示場 最新の食品機械提案",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamlpZnljeVJOdXhPaDdaLTNDbHZNdm5RQVY2TFlfS0ZOeXItc21zeFN2WU1SSDBxZEUteE04OEhOV1hra1JhZVJuc3p1SlE5LVBGUzBXU1k?oc=5",
+          "source": "日刊工業新聞 電子版",
+          "published_at": "2026-10-22T08:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -189,31 +189,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5d9ee8e480fa31ab",
-          "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90dm9YN0NadWhSd05lcFdHWFpXS3EwdXdJVGJxallud3FvUzFOa1RNakhtWHNZNlM3eDJJNGhRUXNhTDhiU2l0VURSeEhUZnhjMk00OTRVUlBlZmFxVkZyYlR4VHJBRktubGc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-09-17T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "c909072b8c5f87b0",
           "title": "「食品工場Week 大阪 2026」に出展",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52Q0dBbjg4YmkwVFl3czZjUE1UaWVvcTItMzAzQzY1X0JuV0xTMkkzTWtYenhvdS1NSllaa0NsNzY5bEZyNzRGeDBTTU1jTHQ4bW5IbTdGbXJpa2Jia01qaFIyekZ6QU9DMFE?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-09-16T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d8eb749f3473be48",
-          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-09-15T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -237,6 +217,26 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ecb7946808733849",
+          "title": "FOOD展2026、冷凍物流と省人化の最新策集結",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iMTV2T21RUzRKZkV1MFR4cTgwSDhQQXNhOWUzc3M5VXZtY2tCQzBUSGtTWWw2SkxQMEU3aVZnRWRjbl9OVkI0aHRn?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-10-22T21:21:43Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b6c66ad97630eb5f",
+          "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催｜Infoseekニュース",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RSEN0RHNmc1FKTFBxeXkzUldDbEhjeDktUlhXTlFFXzJGcGZXREFBeXZfS2pNWkdGTWtSZi1laE9pTzYxRzljMEw4RUVyeGVKV1ZkQ2hvZUlqVWw1akdYbE1DUGx1QW5vRGZFWDJ2TnJJdw?oc=5",
+          "source": "Infoseek",
+          "published_at": "2026-09-17T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -249,16 +249,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-19T01:39:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "eea4eda6acd09417",
-          "title": "バロー／大府市に「大府北山店」10月23日オープン、愛知県70店舗目",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nejU0QjM4SmRFU21CdTFOdEtrUG1LY01XRVQ0akhWb3Vzd2VvczAwNjd2alpDZjdtWVJwNVpONGJDTE8wenU2Znh3Z0tlY1NXNUppcw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-16T04:53:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -309,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-28T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8ef122714accb147",
+          "title": "関西中四国小売流通特集：ライフコーポレーション・荒井信一郎専務執行役員 自社商品力の強化図る",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zWkpsMmlWVzM2czZWWmRLSDJidDdSbHVabzdJci1FWUpFTDM2RXFDaFdjMlNEdXVBdmJtdm1KUHlaNk16RUpDYUI0MFlCNlpJTnI5Z1lpX2t3YzYzd0l4a0JhZDAwMGl5aWc?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-09-26T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-23T11:49:47Z",
-  "last_success_at": "2026-10-23T11:49:47Z",
+  "last_attempt_at": "2026-10-23T17:16:38Z",
+  "last_success_at": "2026-10-23T17:16:38Z",
   "consecutive_failure_count": 0
 }
