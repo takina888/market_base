@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-24T11:16:05Z",
+  "generated_at": "2026-10-24T16:04:14Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -11,7 +11,8 @@
     "overseas"
   ],
   "retained_categories": [
-    "regulations"
+    "regulations",
+    "food_factory"
   ],
   "failed_categories": {},
   "categories": {
@@ -19,11 +20,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-24T08:25:32Z",
+          "published_at": "2026-10-24T14:25:53Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -144,21 +145,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d5a66f6cc20a40cc",
-          "title": "風力選別機の世界市場（2026年～2032年）、市場規模（シングルドラム、ダブルドラム）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9NU3l2bk9fdF9Vem4zazJxOElTdkY0enlvZ240Q0JnLTBHdXYtNFJ3T3ZQaks3WHlidXE0bUM4Rkc5UVU5alpVUjNBcGhPZw?oc=5",
-          "source": "アットプレス",
-          "published_at": "2026-10-23T06:30:00Z",
+          "id": "d6bf1133cbfe91c1",
+          "title": "国内光学プラスチック選別機市場の現状と今後",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1lSHY3aHIwajFCclcycTlja0d0VXI5QjlXaVVNRzhyWXFOYVVUbmx3ajZXX2wzQm5ZWGNaeUJFUEJzaUZiUnRVQkpR?oc=5",
+          "source": "pando.life",
+          "published_at": "2026-10-24T13:01:57Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5b0d88510507fec7",
-          "title": "ソディック、加賀事業所に展示場 最新の食品機械提案",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamlpZnljeVJOdXhPaDdaLTNDbHZNdm5RQVY2TFlfS0ZOeXItc21zeFN2WU1SSDBxZEUteE04OEhOV1hra1JhZVJuc3p1SlE5LVBGUzBXU1k?oc=5",
-          "source": "日刊工業新聞 電子版",
-          "published_at": "2026-10-22T08:00:00Z",
+          "id": "d5a66f6cc20a40cc",
+          "title": "風力選別機の世界市場（2026年～2032年）、市場規模（シングルドラム、ダブルドラム）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9NU3l2bk9fdF9Vem4zazJxOElTdkY0enlvZ240Q0JnLTBHdXYtNFJ3T3ZQaks3WHlidXE0bUM4Rkc5UVU5alpVUjNBcGhPZw?oc=5",
+          "source": "アットプレス",
+          "published_at": "2026-10-23T06:30:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -168,16 +169,6 @@
     "food_factory": {
       "label": "食品工場",
       "articles": [
-        {
-          "id": "ea8cc79be8189080",
-          "title": "帳票管理のカミナシ、物流・食品工場のAI活用支援 22億円調達",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91WE5EVU15VE00eWU0LWl3Z0tsaGtyRUVJQUx6ZHhPOEl2MWFQTmM3MmZ2VXlnZmtwM1BJTW4ySk96LURYb09teU9IR1NUa3pkbjltOU5SNDJuQXp1QTdWUFg2UzRLeWUyWG5YQQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-10-20T20:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "ac470e6e0246557b",
           "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
@@ -209,16 +200,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d8eb749f3473be48",
-          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-09-15T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "56b76612a9a8629b",
           "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
@@ -229,11 +210,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cbbbd1904db9d4a2",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
+          "id": "e0efcb7f91cbda9e",
+          "title": "多品種小ロットの「手書き・配合ミス」を克服 キャニオンスパイスの食品工場DX",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JVzFFdGtmaGVCVWRDc1h2aEliR0t2VEVzbTFHTWdOWHZOR05OcGpJamhITkVGZzlRX2ZRQnczSzNlb3ZHbnVpWHRId0FBT3dMd0N6SjFMTkdZTTliVF84VmJVTHB2aGp2dUkzaW15Rmw?oc=5",
+          "source": "TechTargetジャパン",
+          "published_at": "2026-09-10T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4a4031dcf4ae9bd6",
+          "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-08-20T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ea8cc79be8189080",
+          "title": "帳票管理のカミナシ、物流・食品工場のAI活用支援 22億円調達",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91WE5EVU15VE00eWU0LWl3Z0tsaGtyRUVJQUx6ZHhPOEl2MWFQTmM3MmZ2VXlnZmtwM1BJTW4ySk96LURYb09teU9IR1NUa3pkbjltOU5SNDJuQXp1QTdWUFg2UzRLeWUyWG5YQQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-10-20T20:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -319,6 +320,16 @@
       "label": "規制関連",
       "articles": [
         {
+          "id": "3757b087791d2403",
+          "title": "食品安全法を改正し、サプライチェーン全体における説明責任を再確立する。",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUlpzYlJFMTFtbjNhSE50VU9GUzM4d1ExTGN5M2U2WHhIeFRubklTOUhnbm9yOTR2NHB6N2tadXAzZHlIcVN6WG1kZ0hOOFRHOWhKTWplT0s3TGJYWF8yTXcyUVEzUHVOeXlMbF94RmFiV0FZbFRXVWM3VlktSzgtVzlsSmxFNWlqYi1RZjdzU0dxdjU2cUkxOG5GVGNpMTRKTkYwM3Rzc3ZJOTQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-24T06:15:22Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "26fc6d70dac603ed",
           "title": "港湾における輸入混雑を解消するための緊急措置が必要である。",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sekNWdUhvSFQ0VUZ1dmxhR1ZaWkJTaXQ1RzkyZFB6S2YwaWxtc2NkTTFWdmY2dXMteEhzWnB6U3FtVHBQT3VfM0Z6aVlKZkxIODhTTnRyOUNCTDR3WEEtZ3lUYU82LUpyeU1RSEVqdmVheTlrOGZILUhn?oc=5",
@@ -377,21 +388,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "82908306dc7c3ee3",
-          "title": "政府は米の輸出入事業に関する新たな政令を発布した。",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYzhyM1pVZzZQaHBDNDJuOFZqV243LVFTVkQ3aGRfZklLUWFPSVhaQkhieHR4TmVxUXE5SjMwTG9veFdwbnZoNFFQLTVJTHpmNzBUdnVBVV90UGw5ZDJHbGlMUnhnaDJWNEplbjVzQ1V4cmVLZWR0OThtR1lrVldJVlNBZFNXc1pvcXlEQk85Mkp3NGtUU0E?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-09-26T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-24T11:16:05Z",
-  "last_success_at": "2026-10-24T11:16:05Z",
+  "last_attempt_at": "2026-10-24T16:04:14Z",
+  "last_success_at": "2026-10-24T16:04:14Z",
   "consecutive_failure_count": 0
 }
