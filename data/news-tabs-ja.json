@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-24T16:04:14Z",
+  "generated_at": "2026-10-24T20:58:12Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -11,8 +11,7 @@
     "overseas"
   ],
   "retained_categories": [
-    "regulations",
-    "food_factory"
+    "regulations"
   ],
   "failed_categories": {},
   "categories": {
@@ -20,31 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-24T14:25:53Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "66eae06c4eb633fa",
           "title": "中国とオーストラリアの貿易摩擦が激化 鉄鉱石の価格巡る対立で出荷量が減少",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5RVZwYm9PbEF1Mkh1R0ljeDNYZEFYTFRFSmhHRklVbTZ4a1R6anRvUk9laEQyS0tLbkhyMDZ3ei1GOV9iZGxid0NzRGw5ZnN4ZXhrbTNsSUc4cmI1Y2NjdVl1ZUx1ODMwc1lqNFE0WEcwTHJKaDl4ZHhfVnZVdFU?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-10-24T01:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "bd5bb59bae4a4b75",
-          "title": "【AI世界大戦前夜】OpenAIも警告 PHPは序章に過ぎないこれから日本を襲う恐怖の数カ月（ビジネス＋IT）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ITlVfcFdhZmtDbmZDODhWS21xMTZSZnRvMlJrcHBFbFItdldxMUwyMTgzWFVocDloZnVRMms1VmZ5dmdvUFJiMHY2VXJaRXM1UVZvM1djSkpvb3duSEw4OS1DVWVHQmsybkdiRUxHVTRpbXZmRGNqR1JUb3J0SGM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-23T12:15:05Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -70,11 +49,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d09d35447c16a053",
-          "title": "【国際コミュニケーション学科】学生の声も生かした新商品「STEP by rom＆nd」が10月23日に発売～韓国高麗人蔘社との産学連携で、1年生がコミュニケーション戦略を実践 | 大学からのお知らせ | 相模女子大学・相模女子大学短期大学部",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nWEgzVTJxSzk0SDAyMk9hbDJZRERzMjlxbG5jX1Buc19qMU9DTDZtcUp1ajNRSS04elowd3JyTm9ESnhheWk5YUlYU0t3dVZHVzRSS2lFa3M?oc=5",
-          "source": "相模女子大学",
-          "published_at": "2026-10-23T07:23:10Z",
+          "id": "6b31e2c6946686ab",
+          "title": "国際共創プログラム「Global Exchange Project 2026 Discover World CAMP」を実施",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcGlDTWFMS2JGNkVSSmtWNjB3NVpMTWJ4NXoyUDBQY2lfZnpISmhoSkFDalA5VjJkejFKMy16djJLcTNXazB4OHhOYTluaGotWE1BMEhLRmdvYXBuRmQ2TW8wWEY0aDl4dVJZY0E5dXpXSTVlOFpvbVlUSlJLaGYxSmtR?oc=5",
+          "source": "九州産業大学",
+          "published_at": "2026-10-23T04:50:10Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -85,6 +64,26 @@
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RcE1SSnJzd3FldHhxeUVRRHMtckhyelpuSjlsaHd5SEV5VW1rV1pzWDFFZDBrZHIzS2xZRWN3cEpwNjR3VlM2dEgtRnhjakZkV0YzVS1nOUhUZWtuUTVJWG9aUDE?oc=5",
           "source": "茨城大学",
           "published_at": "2026-10-23T04:44:58Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "587116e5d758209c",
+          "title": "「海外大だけじゃない」国内大学に進んだIB卒業生4人が語る（後編） 入試の壁と学びの強みは",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94UzF2Qnk4M2hjdm83QUpKTEFFXzktWmlCbkZyMVZTZlhSdUZmY1o2ZXM1dFl0QXE2WXZvcVRobGF1WG1PRUJxbXpRcmpmN1dDRXJ0aXh3?oc=5",
+          "source": "朝日新聞",
+          "published_at": "2026-10-23T03:00:57Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8dbdfb8c0e033331",
+          "title": "「発電するガラス」は高価だが、一部の海外市場で注目されるワケ：素材／化学メルマガ 編集後記",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EWjNjX0FHaVJCVkppemYyUmtVcGw0bGtZYUcwRGRLbkNvUHFpOXhBX3dEYjVBcDBJem02SG90MVR4YlZRdWVEMVhGblZ5dmh4LUNjMU1BMHRpck5uODFWU1lPdEZ2cDNaenZEZkN5WQ?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-10-23T03:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -170,6 +169,16 @@
       "label": "食品工場",
       "articles": [
         {
+          "id": "ea8cc79be8189080",
+          "title": "帳票管理のカミナシ、物流・食品工場のAI活用支援 22億円調達",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91WE5EVU15VE00eWU0LWl3Z0tsaGtyRUVJQUx6ZHhPOEl2MWFQTmM3MmZ2VXlnZmtwM1BJTW4ySk96LURYb09teU9IR1NUa3pkbjltOU5SNDJuQXp1QTdWUFg2UzRLeWUyWG5YQQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-10-20T20:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "ac470e6e0246557b",
           "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94YWQ3eFJXbDRXNlQ2YVRiMnE3ZU5tclZ5NUZ3Y3pHbVNTcDdzSXhEQjdlSmhZOXB1Uk9XaXdjYjU2a256VUNlNTZIUFZBTDhwVjV1d3pVeEZuYlE?oc=5",
@@ -200,6 +209,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "d8eb749f3473be48",
+          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-15T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "56b76612a9a8629b",
           "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
@@ -210,31 +229,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e0efcb7f91cbda9e",
-          "title": "多品種小ロットの「手書き・配合ミス」を克服 キャニオンスパイスの食品工場DX",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JVzFFdGtmaGVCVWRDc1h2aEliR0t2VEVzbTFHTWdOWHZOR05OcGpJamhITkVGZzlRX2ZRQnczSzNlb3ZHbnVpWHRId0FBT3dMd0N6SjFMTkdZTTliVF84VmJVTHB2aGp2dUkzaW15Rmw?oc=5",
-          "source": "TechTargetジャパン",
-          "published_at": "2026-09-10T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4a4031dcf4ae9bd6",
-          "title": "食品物流&3PL展が今秋開催、物流DXや省人化焦点",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lT3JPczBCWk1mbXVrM1JySXlyZExqNXFzSURCakJOcWQydWRHX2p1THl0NEZGRnY4ZGZPZzhicUtVM3BIWXlwSg?oc=5",
-          "source": "LOGISTICS TODAY",
-          "published_at": "2026-08-20T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ea8cc79be8189080",
-          "title": "帳票管理のカミナシ、物流・食品工場のAI活用支援 22億円調達",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91WE5EVU15VE00eWU0LWl3Z0tsaGtyRUVJQUx6ZHhPOEl2MWFQTmM3MmZ2VXlnZmtwM1BJTW4ySk96LURYb09teU9IR1NUa3pkbjltOU5SNDJuQXp1QTdWUFg2UzRLeWUyWG5YQQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-10-20T20:00:00Z",
+          "id": "cbbbd1904db9d4a2",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -392,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-24T16:04:14Z",
-  "last_success_at": "2026-10-24T16:04:14Z",
+  "last_attempt_at": "2026-10-24T20:58:12Z",
+  "last_success_at": "2026-10-24T20:58:12Z",
   "consecutive_failure_count": 0
 }
