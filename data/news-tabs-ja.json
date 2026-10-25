@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-24T20:58:12Z",
+  "generated_at": "2026-10-25T04:55:45Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,11 +29,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8d225ece0a364433",
-          "title": "『ママがもうこの世界にいなくても』はジャンル映画を逸脱する 作品に潜む“異様さ”の正体（リアルサウンド）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXdVBIRDRFb2xUZ3FtaWZWbFZ0dGF5em9Ma1pYX1ZfbGUtQXBnWGVzampWeXBGZzJsMTlHSGRfZVN4NVBLajR5TS1LX2xmWlpMV1N2cEljOHl4SEVTNmRwU2hyY0xrVnhYeTg2SXlfMC13aE1aWGZiSTZyTkp2ZTQ?oc=5",
+          "id": "bd5bb59bae4a4b75",
+          "title": "【AI世界大戦前夜】OpenAIも警告 PHPは序章に過ぎないこれから日本を襲う恐怖の数カ月（ビジネス＋IT）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ITlVfcFdhZmtDbmZDODhWS21xMTZSZnRvMlJrcHBFbFItdldxMUwyMTgzWFVocDloZnVRMms1VmZ5dmdvUFJiMHY2VXJaRXM1UVZvM1djSkpvb3duSEw4OS1DVWVHQmsybkdiRUxHVTRpbXZmRGNqR1JUb3J0SGM?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-23T09:30:03Z",
+          "published_at": "2026-10-23T12:15:05Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -44,6 +44,26 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80ZGpBN0ZlY3I2ZFA0c0pNY19FemRyQk5GalBtbEp6VjhwYVhDUFdwb040QWh2V2Q4bkQ2WklfemhSeGQ5Rk9GVW9jRlB0YzRaekxxYWxhaTNhN1RNRzF2bUtBdzNweGo4VmZ1WVJrQXF2cy10?oc=5",
           "source": "埼玉大学",
           "published_at": "2026-10-23T07:30:37Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d09d35447c16a053",
+          "title": "【国際コミュニケーション学科】学生の声も生かした新商品「STEP by rom＆nd」が10月23日に発売～韓国高麗人蔘社との産学連携で、1年生がコミュニケーション戦略を実践 | 大学からのお知らせ | 相模女子大学・相模女子大学短期大学部",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nWEgzVTJxSzk0SDAyMk9hbDJZRERzMjlxbG5jX1Buc19qMU9DTDZtcUp1ajNRSS04elowd3JyTm9ESnhheWk5YUlYU0t3dVZHVzRSS2lFa3M?oc=5",
+          "source": "相模女子大学",
+          "published_at": "2026-10-23T07:23:10Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "942e7e8f470e3ac2",
+          "title": "中間決算超序盤まとめ 製造業の海外向けなど好調な一方、小売りは弱い 野村證券ストラテジストが解説",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGLTRqbndVaHhlVG12OGszbFJrTVBhUFhxUEd6eVVXVWFCaGlxZmU5ODVpZEJWSXBlUDdMNmZNQ0NKczI2Sm9oUElHWFQ4X1ZVUHRlMU9Wb1QwcTFHUXRN?oc=5",
+          "source": "野村證券",
+          "published_at": "2026-10-23T07:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -64,26 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RcE1SSnJzd3FldHhxeUVRRHMtckhyelpuSjlsaHd5SEV5VW1rV1pzWDFFZDBrZHIzS2xZRWN3cEpwNjR3VlM2dEgtRnhjakZkV0YzVS1nOUhUZWtuUTVJWG9aUDE?oc=5",
           "source": "茨城大学",
           "published_at": "2026-10-23T04:44:58Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "587116e5d758209c",
-          "title": "「海外大だけじゃない」国内大学に進んだIB卒業生4人が語る（後編） 入試の壁と学びの強みは",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94UzF2Qnk4M2hjdm83QUpKTEFFXzktWmlCbkZyMVZTZlhSdUZmY1o2ZXM1dFl0QXE2WXZvcVRobGF1WG1PRUJxbXpRcmpmN1dDRXJ0aXh3?oc=5",
-          "source": "朝日新聞",
-          "published_at": "2026-10-23T03:00:57Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8dbdfb8c0e033331",
-          "title": "「発電するガラス」は高価だが、一部の海外市場で注目されるワケ：素材／化学メルマガ 編集後記",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EWjNjX0FHaVJCVkppemYyUmtVcGw0bGtZYUcwRGRLbkNvUHFpOXhBX3dEYjVBcDBJem02SG90MVR4YlZRdWVEMVhGblZ5dmh4LUNjMU1BMHRpck5uODFWU1lPdEZ2cDNaenZEZkN5WQ?oc=5",
-          "source": "MONOist",
-          "published_at": "2026-10-23T03:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -258,7 +258,7 @@
           "title": "バロー／大府市に「大府北山店」10月23日オープン、愛知県70店舗目",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nejU0QjM4SmRFU21CdTFOdEtrUG1LY01XRVQ0akhWb3Vzd2VvczAwNjd2alpDZjdtWVJwNVpONGJDTE8wenU2Znh3Z0tlY1NXNUppcw?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-16T04:53:00Z",
+          "published_at": "2026-10-16T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-24T20:58:12Z",
-  "last_success_at": "2026-10-24T20:58:12Z",
+  "last_attempt_at": "2026-10-25T04:55:45Z",
+  "last_success_at": "2026-10-25T04:55:45Z",
   "consecutive_failure_count": 0
 }
