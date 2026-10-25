@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-25T11:45:21Z",
+  "generated_at": "2026-10-25T16:34:20Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,31 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-25T08:32:03Z",
+          "id": "93ac4c7e6622bd91",
+          "title": "国際セミナー「植物品種保護が切り拓く農業の未来」開催",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSVDlobDFhdFYzaHJ2aHQ5b21oNDJrcWVXY05RNGwtd3g4cEJ3WFpmTng2dlJZOXNTOHA2Q1M3SlpTZ2JsTy1IUmRuV1VPa0tMLTF0MkFQZ2dOR3NzUUVaWFVQU3ZYbHJ6WUJQLWJNTk1Fb00?oc=5",
+          "source": "農林水産省",
+          "published_at": "2026-10-19T01:32:29Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-25T08:27:56Z",
+          "published_at": "2026-10-25T11:33:01Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "759b3e8bbbc6eb2c",
+          "title": "日本のGDP、世界6位転落へ…“生産性の低い国”になったワケ。「ダラダラ働いた方が得」になってしまう歪な労働環境とは",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vWG81dHozRlhrSi1DNUNUSVNfeG9tS1NZRTlsdEJLUklNMWIwanV0QTN3T3hTbEtNRHMzb2JRMUpPUm5CSk9lRjg2YXdiaWxBWlRUdkZVTTRvemZsNHRFVlA3Z3NmMmdNRmI0VFV2OTdybEo2TUhFVTJKZU9LU0E?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-25T06:53:02Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,31 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "fd9c0e8122ec00b2",
+          "title": "世界最強だった米軍をここまで「弱く」「不人気に」した…ヘグセス国防長官の「罪状」（ニューズウィーク日本版）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94TzFadEFmazlCUTRlQ0k4VVhRQS14TXpKRW53bDFleW9rb2ZqNHRqZmhsLUQ0VXF5WW94WDF3WTBkMTdUbkZGejJNOGpPUVB3VTktZFNjOC1UR0xzRDBKVFIwbm5NdW96UXE2aHNWOExCTzBpcFRMQ08zXy0tQnM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-24T10:10:09Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "66eae06c4eb633fa",
           "title": "中国とオーストラリアの貿易摩擦が激化 鉄鉱石の価格巡る対立で出荷量が減少",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5RVZwYm9PbEF1Mkh1R0ljeDNYZEFYTFRFSmhHRklVbTZ4a1R6anRvUk9laEQyS0tLbkhyMDZ3ei1GOV9iZGxid0NzRGw5ZnN4ZXhrbTNsSUc4cmI1Y2NjdVl1ZUx1ODMwc1lqNFE0WEcwTHJKaDl4ZHhfVnZVdFU?oc=5",
           "source": "Yahoo!ニュース",
           "published_at": "2026-10-24T01:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "bd5bb59bae4a4b75",
-          "title": "【AI世界大戦前夜】OpenAIも警告 PHPは序章に過ぎないこれから日本を襲う恐怖の数カ月（ビジネス＋IT）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ITlVfcFdhZmtDbmZDODhWS21xMTZSZnRvMlJrcHBFbFItdldxMUwyMTgzWFVocDloZnVRMms1VmZ5dmdvUFJiMHY2VXJaRXM1UVZvM1djSkpvb3duSEw4OS1DVWVHQmsybkdiRUxHVTRpbXZmRGNqR1JUb3J0SGM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-23T12:15:05Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "eb2ab36f2672589c",
-          "title": "世界銀行グループが表敬訪問",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80ZGpBN0ZlY3I2ZFA0c0pNY19FemRyQk5GalBtbEp6VjhwYVhDUFdwb040QWh2V2Q4bkQ2WklfemhSeGQ5Rk9GVW9jRlB0YzRaekxxYWxhaTNhN1RNRzF2bUtBdzNweGo4VmZ1WVJrQXF2cy10?oc=5",
-          "source": "埼玉大学",
-          "published_at": "2026-10-23T07:30:37Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -144,21 +144,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d6bf1133cbfe91c1",
-          "title": "国内光学プラスチック選別機市場の現状と今後",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1lSHY3aHIwajFCclcycTlja0d0VXI5QjlXaVVNRzhyWXFOYVVUbmx3ajZXX2wzQm5ZWGNaeUJFUEJzaUZiUnRVQkpR?oc=5",
+          "id": "619c33aa0b5a2460",
+          "title": "化粧品包装機械市場の主要10社まとめ",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ZZVU1TVBLWjJ3VDI4MmZKT1I0aklCbWZ1NmF6MVpWVG53NW1uYk1XZlRtUjJoaWxqZU5OUmVvaVo1T0FOZ1Nnd3BB?oc=5",
           "source": "pando.life",
-          "published_at": "2026-10-24T13:01:57Z",
+          "published_at": "2026-10-25T11:02:05Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d5a66f6cc20a40cc",
-          "title": "風力選別機の世界市場（2026年～2032年）、市場規模（シングルドラム、ダブルドラム）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9NU3l2bk9fdF9Vem4zazJxOElTdkY0enlvZ240Q0JnLTBHdXYtNFJ3T3ZQaks3WHlidXE0bUM4Rkc5UVU5alpVUjNBcGhPZw?oc=5",
-          "source": "アットプレス",
-          "published_at": "2026-10-23T06:30:00Z",
+          "id": "d6bf1133cbfe91c1",
+          "title": "国内光学プラスチック選別機市場の現状と今後",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1lSHY3aHIwajFCclcycTlja0d0VXI5QjlXaVVNRzhyWXFOYVVUbmx3ajZXX2wzQm5ZWGNaeUJFUEJzaUZiUnRVQkpR?oc=5",
+          "source": "pando.life",
+          "published_at": "2026-10-24T13:01:57Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -254,21 +254,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "eea4eda6acd09417",
-          "title": "バロー／大府市に「大府北山店」10月23日オープン、愛知県70店舗目",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nejU0QjM4SmRFU21CdTFOdEtrUG1LY01XRVQ0akhWb3Vzd2VvczAwNjd2alpDZjdtWVJwNVpONGJDTE8wenU2Znh3Z0tlY1NXNUppcw?oc=5",
+          "id": "70de708faecf6507",
+          "title": "コスモス薬品／京都府・静岡県に「ドラッグコスモス」計2店舗、27年4月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2T2ZBbzcxY1FfT1Y1WWhacEswSVNjVUVJYkdTU0hnMjU2UG1kSndGUjZ3UDZuREJqQ2xOeGhsZHNQYXMzejZzMDlLOWV1R2FXWkhUdl9B?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-16T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e21faa2bdc81edcc",
-          "title": "イオン／吉田社長「U.S.M.Hの閉店する100店舗はウエルシア、まいばすけっとに転換も」",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uYmxNaE1iaUdMcjhob1A3R3h6UlFQSmc5VnBjMFROMGR6ZDRjcGFPZVg1NVEtRFpGODBibi1OcmxoZkRablBIb2tjZ3ZtRzZCMmVSOEZMeGQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-14T07:00:00Z",
+          "published_at": "2026-10-15T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -309,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-28T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8ef122714accb147",
+          "title": "関西中四国小売流通特集：ライフコーポレーション・荒井信一郎専務執行役員 自社商品力の強化図る",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zWkpsMmlWVzM2czZWWmRLSDJidDdSbHVabzdJci1FWUpFTDM2RXFDaFdjMlNEdXVBdmJtdm1KUHlaNk16RUpDYUI0MFlCNlpJTnI5Z1lpX2t3YzYzd0l4a0JhZDAwMGl5aWc?oc=5",
+          "source": "日本食糧新聞・電子版",
+          "published_at": "2026-09-26T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-25T11:45:21Z",
-  "last_success_at": "2026-10-25T11:45:21Z",
+  "last_attempt_at": "2026-10-25T16:34:20Z",
+  "last_success_at": "2026-10-25T16:34:20Z",
   "consecutive_failure_count": 0
 }
