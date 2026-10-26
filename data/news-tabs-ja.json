@@ -1,37 +1,59 @@
 {
   "schema_version": 2,
-  "status": "stale",
+  "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-25T20:58:56Z",
-  "successful_categories": [],
-  "retained_categories": [],
-  "failed_categories": {
-    "regulations": "HTTPError: HTTP Error 503: Service Unavailable",
-    "food_machinery": "HTTPError: HTTP Error 503: Service Unavailable",
-    "food_factory": "HTTPError: HTTP Error 503: Service Unavailable",
-    "retail": "HTTPError: HTTP Error 503: Service Unavailable",
-    "overseas": "HTTPError: HTTP Error 503: Service Unavailable"
-  },
+  "generated_at": "2026-10-26T04:58:56Z",
+  "successful_categories": [
+    "regulations",
+    "food_machinery",
+    "food_factory",
+    "retail",
+    "overseas"
+  ],
+  "retained_categories": [
+    "regulations"
+  ],
+  "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "93ac4c7e6622bd91",
-          "title": "国際セミナー「植物品種保護が切り拓く農業の未来」開催",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSVDlobDFhdFYzaHJ2aHQ5b21oNDJrcWVXY05RNGwtd3g4cEJ3WFpmTng2dlJZOXNTOHA2Q1M3SlpTZ2JsTy1IUmRuV1VPa0tMLTF0MkFQZ2dOR3NzUUVaWFVQU3ZYbHJ6WUJQLWJNTk1Fb00?oc=5",
-          "source": "農林水産省",
-          "published_at": "2026-10-19T01:32:29Z",
+          "id": "58ffd7fbd0869d6d",
+          "title": "実はすべて生きた菊！福島・二本松の菊人形の世界【あさイチ】",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WZW1XMTQySDIyMW1wc3NlYUVzaW5nLXAwYXkxRl9XZm5NdW9BT0xzNTBCVWxlaTZ0QVI5WGhWVURHUUtzNHNJMHp0NDFjZGM2d0pNQ0hrWnlqcFJlZ2VETWhfbXM?oc=5",
+          "source": "NHK",
+          "published_at": "2026-10-26T01:18:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-25T11:33:01Z",
+          "id": "9543b8ea1bd763f5",
+          "title": "国際援助は無駄じゃない 海外で高校生が考えた与える国の強みとは？｜with Planet",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qUUZ5R2NYeTdnczJTaVhDTy1OX2M2UkpqeXRsTGJBUHpQN2FtemYzSFR6OFZubXFrRThMUHNGNGRYNXliUXBScWFZUUhDajZYMVdjUzNlUjdXNS1CcHc?oc=5",
+          "source": "朝日新聞",
+          "published_at": "2026-10-26T01:13:49Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "dd8421808c59b68d",
+          "title": "｢あれほど空気の悪い職場は見たことがなかった｣…｢累損赤字540億円｣クールジャパン機構のカオスな投資会議",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03dzg0MThQV093cm9HZFU2d3BBaU1yVWp6XzhUSkhuNEhfX05ncnNpc3ZkN24yd1BSdXZXRlFQVHJPNWxaRV9LX2JPSVF1VFJBNzkzQTM1LXVXSkZlZzFPUFcwRTh2RXFOaWZnVmZ4Y1o0NG9hR0plMTVrRllabVk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-26T00:15:43Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c590632f57094d89",
+          "title": "【国際交流】国際交流カフェを開催～ハロウィンイベントお菓子と手作りケーキで交流～",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5WbGwycHpjREY4UWhZenJGRDZxcm9zcDRkYlgxMGhFZXdyeGJwU0s5NEZQWGg0Y0dUbzBNM1dWRHdtQ1RiS1E?oc=5",
+          "source": "別府大学",
+          "published_at": "2026-10-25T23:17:16Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -47,41 +69,21 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "f06a9120125325d5",
+          "title": "海外視察、2年間で公費6億円超 24～25年度、29道府県議会（共同通信）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtaHFZX1o2eFVzTHpESVRHdVZzQnRTZXlGeHZETFVQbDlIdE4tcUM5WXRadDVtaG5NUTNyMGVQeDV1V3o3dGpTZlNNczFqbU5xYzhnNkgxQS1oMjhJeGlhVlNPbXEyRkVGeHktY1VnQ0xrQzIxZlhXek55aktaZ2c?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-25T06:33:26Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "af7a7f16a22683c1",
           "title": "【速報】フィッシャーズがギネス世界記録™達成！富士急ハイランドでの「最大のかくれんぼ」で世界一に！",
           "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1CUm5CNkUzeEdHVXFYZ2N1OXhUZkxaZnN0bUxodXpua2NwMnF4aU9rWkdBRzZreGFaREVuQ2dTZXdhQTg?oc=5",
           "source": "UUUM",
           "published_at": "2026-10-25T04:44:56Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "bb172cc079a05df2",
-          "title": "タイ国際航空、11月発券分から日本～バンコク線の燃油サーチャージを引き上げ",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4elVUb2dtTjlIRzd5cUd1SjNQYlMzblBHdDVVTTE3V3VUNW1pQ3l6VGJxSURhS2NYMUJyRDNtUVd2Vkc0LXAzek5vY2xtOEtCeVh4bkY4bXY5eWZ1NkVIVE9pY1U4c1FCTkducg?oc=5",
-          "source": "sky-budget スカイバジェット",
-          "published_at": "2026-10-25T04:13:14Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fd9c0e8122ec00b2",
-          "title": "世界最強だった米軍をここまで「弱く」「不人気に」した…ヘグセス国防長官の「罪状」（ニューズウィーク日本版）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94TzFadEFmazlCUTRlQ0k4VVhRQS14TXpKRW53bDFleW9rb2ZqNHRqZmhsLUQ0VXF5WW94WDF3WTBkMTdUbkZGejJNOGpPUVB3VTktZFNjOC1UR0xzRDBKVFIwbm5NdW96UXE2aHNWOExCTzBpcFRMQ08zXy0tQnM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-24T10:10:09Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "66eae06c4eb633fa",
-          "title": "中国とオーストラリアの貿易摩擦が激化 鉄鉱石の価格巡る対立で出荷量が減少",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5RVZwYm9PbEF1Mkh1R0ljeDNYZEFYTFRFSmhHRklVbTZ4a1R6anRvUk9laEQyS0tLbkhyMDZ3ei1GOV9iZGxid0NzRGw5ZnN4ZXhrbTNsSUc4cmI1Y2NjdVl1ZUx1ODMwc1lqNFE0WEcwTHJKaDl4ZHhfVnZVdFU?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-24T01:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -142,11 +144,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "619c33aa0b5a2460",
-          "title": "化粧品包装機械市場の主要10社まとめ",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ZZVU1TVBLWjJ3VDI4MmZKT1I0aklCbWZ1NmF6MVpWVG53NW1uYk1XZlRtUjJoaWxqZU5OUmVvaVo1T0FOZ1Nnd3BB?oc=5",
-          "source": "pando.life",
-          "published_at": "2026-10-25T11:02:05Z",
+          "id": "140e8974f6305a8a",
+          "title": "世界ベルト磁気選別機市場調査：シェア分布、需要予測、成長率分析2026",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zaFMxOFZtWTJFazJmbDJVZHdoOGFpMndSRUlFcmFoa0M5ZVBMUFVRZElnVGdWZWFNLUFja2tycnFrZW40a3djbF9NWnZlRUU?oc=5",
+          "source": "Newscast.jp",
+          "published_at": "2026-10-26T02:53:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -252,6 +254,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "eea4eda6acd09417",
+          "title": "バロー／大府市に「大府北山店」10月23日オープン、愛知県70店舗目",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nejU0QjM4SmRFU21CdTFOdEtrUG1LY01XRVQ0akhWb3Vzd2VvczAwNjd2alpDZjdtWVJwNVpONGJDTE8wenU2Znh3Z0tlY1NXNUppcw?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-16T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "70de708faecf6507",
           "title": "コスモス薬品／京都府・静岡県に「ドラッグコスモス」計2店舗、27年4月新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2T2ZBbzcxY1FfT1Y1WWhacEswSVNjVUVJYkdTU0hnMjU2UG1kSndGUjZ3UDZuREJqQ2xOeGhsZHNQYXMzejZzMDlLOWV1R2FXWkhUdl9B?oc=5",
@@ -297,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSjl0N3NkNHNsUXNFaHlzcm44RVdkM0tjNWdGNHpsUFI0SFRIZHFpX0Q2UGFUYVIyNXZFVllralZGTmtfV3lrNkVVS3dfb2xsUTE3Rmt3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-09-28T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8ef122714accb147",
-          "title": "関西中四国小売流通特集：ライフコーポレーション・荒井信一郎専務執行役員 自社商品力の強化図る",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zWkpsMmlWVzM2czZWWmRLSDJidDdSbHVabzdJci1FWUpFTDM2RXFDaFdjMlNEdXVBdmJtdm1KUHlaNk16RUpDYUI0MFlCNlpJTnI5Z1lpX2t3YzYzd0l4a0JhZDAwMGl5aWc?oc=5",
-          "source": "日本食糧新聞・電子版",
-          "published_at": "2026-09-26T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -357,6 +359,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "a6b70d2ddf5b6649",
+          "title": "《ホルムアルデヒド白菜は氷山の一角》日本に輸入された「発がん性」食品 ピーナッツ製品からカビ毒「アフラトキシン」検出事例 日本国内では中国産製品が数多く流通",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4xenh1aWhuMWRVOWp1dTlLMG5pY3VZejMyWmVycVg3aTdFZ1BMbmdybHhDTEc5dkpsUkU1ekVtdlpjbTVwMERV?oc=5",
+          "source": "マネーポストWEB",
+          "published_at": "2026-09-15T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "181ae67a5df6677e",
           "title": "1日あたりの金取引額が500万ベトナムドンを超える場合は、現金以外の決済方法を用いなければならない。",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQTJtaUUwejA4U29XXzd4TmJZeWNtajZHR2QwRFlDT0NNVE5jVkFnSG1xekpqM3ZXbWpUQ05Cbk0wTTd4YUpacUZmWGM4M19kNE9CMTF3XzE1bVVzcnZtelpjVTZla2FmV0Z4MzA1Q1dkR2w2T1VadVE2V3ZhRm43MDIwb3UxaWhMYkRLZHZUNk5vWUxJdEJVYzgzZ0k?oc=5",
@@ -375,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7338dc41e445e013",
-          "title": "拡大するEU向け牛肉輸出の成長要因と課題～課題となる関連規制の概要と動向～",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52M19UQ0RheFlCX0haRVpFRU1SLV9Zdml0cFhYWDY0NlE0ejlqT1oybW15OEVXSl9SeUVHQ2FsUDlzN29DYURjcXg0R2NDdVdLODJpY18tVFpSYmNK?oc=5",
-          "source": "独立行政法人 農畜産業振興機構",
-          "published_at": "2026-06-25T10:48:49Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-25T20:58:56Z",
-  "last_success_at": "2026-10-25T16:34:20Z",
-  "consecutive_failure_count": 1
+  "last_attempt_at": "2026-10-26T04:58:56Z",
+  "last_success_at": "2026-10-26T04:58:56Z",
+  "consecutive_failure_count": 0
 }
