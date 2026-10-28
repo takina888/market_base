@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-28T05:55:10Z",
+  "generated_at": "2026-10-28T13:12:18Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -49,41 +49,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "15fbe92ce5e82e61",
-          "title": "【11月は毎週火曜日開催！】～GLOBAL TUESDAY～留学/国際交流イベントのお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1rcFJ2UHdNaUVGeHo1OW9WS1JLdXN6QVRrMVV3LU0yMU8wNXZ6WWlnU1oyZ0gtX2ZINGFmVVFoajBpQ2dJbHNLUUZoYlVxYWpLS1Fja19obW8zLS1EbGJYc2Jlcjg2YWRHd04wNmlVRmR5RkJiU3Aw?oc=5",
-          "source": "埼玉大学",
-          "published_at": "2026-10-28T04:30:30Z",
+          "id": "5937e8f984d534cc",
+          "title": "「メルカリ グローバルアプリ」、海外での利用拡大を背景に購入体験を拡充",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRUDc2N3hmeV83R0x0a0ZWTVhnaUIzczRvbHdVM1BWVlVnaU1hYUpIamVVN3JKVGEyNVVLWGs0aVdxdk1TT0MzZ25SSEFSMzV0dVlfWm5sZW9jMmJHd01wek9WQUlIcWtyT2c?oc=5",
+          "source": "株式会社メルカリ",
+          "published_at": "2026-10-28T12:20:22Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b614eaaf7309fe79",
-          "title": "「2027年に行くべき世界の旅行先25選」に新潟県が日本で唯一選出!なぜ新潟?「まるで魔法のような世界に」と称賛",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0ZWJ6Z1ducUVBUl9JQktmVnQ5bDJBM0NzOTRlQXNWeXpTOUNfTVFzSHVqMnRwOGJnai1VSGg2MFZ1SFIyMVVpSDNfWWZETE5SdTZrQTlHYk9XZkN5NVJ6SjhsN1ZGWk9tUWNZZms0MmNLOHh3M0RpRVkxczlXRTA?oc=5",
+          "id": "c06405faf92c28bd",
+          "title": "楽天トラベルに不正アクセス 海外予約サイト等で最大約350万件の個人情報が対象に（ビジネス＋IT）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mYXJjT2NRRDVTcWdhZEhCQ1VnWmE4clZ4dmRxRzRRTkpqdEh6TDlqMjBCc0txdlBscHd4aGFneElXU19sak43MndxdHEwakJLVXJLMmpBQmVEbWluUEpxZ3M2MWVOYWl0a1JtZUZoREozVHJzQkxQcXNXMmhhZEE?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-28T02:30:43Z",
+          "published_at": "2026-10-28T10:50:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "63b8573dd3f2bcce",
-          "title": "世界初、AIで人工衛星の表面帯電を自動検出する手法を開発―約19年分の観測データから帯電しやすい宇宙環境を解明 衛星の安全運用と故障リスク低減に貢献― | 研究成果 | ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00cmdBdGk3RTRmcFg3YlUyRS1kdE5OUXFzMkdtRnhqZjRGTnQyX2lXQ0twOTVWdG9wT3ZpMURIVUFBaS1rNUNORFZkaHd4T2dUQkkyV09tOTlqZw?oc=5",
-          "source": "新潟大学",
-          "published_at": "2026-10-28T01:25:22Z",
+          "id": "49f8848d87be92f9",
+          "title": "第三次世界大戦？AI攻撃で社会麻痺？11/2に政府が全国民に最低3日分の備蓄を緊急要請（ビジネス＋IT）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LZzFLVkZFTFplV1p6ZXRzVldSWXNYQjV0eXJJOVBwdDFkc3lpWFU3WVE5X2V1R252NGdYOTVvQm96WE8wVEtIa2RMX1dKSERhdGs5ak5kVFFSb1RydnRPdksybVBUXy15ZVVDeWRGQWx1NXY1aGI5UlBsOGxVT3M?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-10-28T10:00:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "135c2e574612ea6f",
-          "title": "Google DeepMind、音声も同時に生成するリアルタイム世界モデル「Genie 4」を発表",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEWGMyYVRkQTBsQ1g1SUJBV1BuS04yWlVycWNKMVFGS2JyeVJiM0MyM19WM2s3ekJINE1QZXk5bUdIU2JvRjVnU1hJTmtBMHZaWEZ2SE5XZmtYTWxVNHplVFcyR3psYVlfbGlJWWVSZFQ2QQ?oc=5",
-          "source": "BRIDGE（ブリッジ）",
-          "published_at": "2026-10-28T00:46:49Z",
+          "id": "eef010635ea0a227",
+          "title": "秋葉丈志教授が沖縄国際大学と合同ゼミを実施しました。",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pWU80ZGFweTl5ZE5malZQTjVscXZ4MmFnS1ZDRE9jVnN3bTN2YXhTOU9fdWktR2VSR3lrZWtVM3lkWFpzUTdKNUFyUnZjWkFjdzZ4RW9RVDZUM2ZzQzdERjJRb3I?oc=5",
+          "source": "早稲田大学",
+          "published_at": "2026-10-28T09:29:31Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -154,10 +154,10 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e97c35429e3e79a",
+          "id": "7eb433026224f73d",
           "title": "食品・飲料充填機の世界市場（2026年～2032年）、市場規模（手動、半自動、自動）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yUXB0ZDhiNXVXSk1zWkFETVdqQW1XV1hZUDBvYnpPZFF2V0dRSHQ4Ul93aEI3bEI4TnU1SDUtVkhaZ0Y5RkxfYVRVUWl3YzA?oc=5",
-          "source": "アットプレス",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xS1NnTlhBX3hNdFdKNERCdkZzZjNUSVlvQ3gwOGFXUkhaZW5lQWxJam1CblZicDNMZEdFM2liYlhpUVdvRVRDRFBBTVd5bG8?oc=5",
+          "source": "Newscast.jp",
           "published_at": "2026-10-28T05:30:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -184,16 +184,6 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94YWQ3eFJXbDRXNlQ2YVRiMnE3ZU5tclZ5NUZ3Y3pHbVNTcDdzSXhEQjdlSmhZOXB1Uk9XaXdjYjU2a256VUNlNTZIUFZBTDhwVjV1d3pVeEZuYlE?oc=5",
           "source": "共同通信PRワイヤー",
           "published_at": "2026-09-30T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "5d9ee8e480fa31ab",
-          "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90dm9YN0NadWhSd05lcFdHWFpXS3EwdXdJVGJxallud3FvUzFOa1RNakhtWHNZNlM3eDJJNGhRUXNhTDhiU2l0VURSeEhUZnhjMk00OTRVUlBlZmFxVkZyYlR4VHJBRktubGc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-09-17T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -237,32 +227,22 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6d865337a2a677d3",
+          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-14T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "retail": {
       "label": "小売店",
       "articles": [
-        {
-          "id": "88bd28b8de57b445",
-          "title": "ベイシア 新たな都市型店舗「Beisia Foods Park 幕張店」11月18日（水）グランドオープン | 株式会社ベイシアのプレスリリース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TSl8yZThLUHdfWWpQclZLb2RPTC1MLXVLc3lfeHpKc2o4cUhuS3NlZ0pLY0ljVk1tVGdJclF5bUVONkt4MzVZVldwV3FnNUNRem4wU21mZmo4a3c1eWJmazdVLUttLTZhaHc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-10-28T02:00:02Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9b31ae860dae1039",
-          "title": "トライアル／茨城県土浦市に「スーパーセンタートライアル荒川沖店（店舗面積4200m2）」27年5月25日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CVlRsWW9fZGROcGZIWU1sZnFVQWc1TWZtS3ZhUGxZMUlkdUN6aUs0UDRNZnBrWWlvaTNUQWpXclFCcHAtTHc0Z19sM3JFZzV1NDVuOFpR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-27T02:30:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "6562e1db83b38006",
           "title": "ミスターマックスほか／茨城県つくば市に「（仮称）つくば市上河原崎商業施設（店舗面積1万4854m2）」27年6月1日新設",
@@ -274,11 +254,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f63fc77c9f333403",
-          "title": "トライアル／徳島県阿波市に「スーパーセンタートライアル阿波岩津店（店舗面積3292m2）」27年5月12日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tNW5oVmdSdjh5WnlIQ0lxdExoRWlTckRFOVZzMmhhOTdNbnlFZHJyWFdxRktDTmZENk5GN0FzQVliWGZlQU9uSkEtbFhLVVBxU29Ja0Vn?oc=5",
+          "id": "e9024160fefd65da",
+          "title": "ベルクほか／埼玉県入間市に「（仮称）フレスポ入間（店舗面積3210m2）」28年3月31日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8weEVkeW5YTGUzazF6U190MlQzUzJzeENhbDY0aWN0c2EtbUxVX3pFYXdpMEQxdWJ6dEc1OTZGaWVqRkdKRE1CamlfZE5NT2hDazdhWldB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-21T01:31:00Z",
+          "published_at": "2026-10-22T01:32:16Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -294,21 +274,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "24fb84123e0947c5",
-          "title": "イオンリテール／兵庫県小野市に「（仮称）そよら小野（店舗面積1万360m2）」27年4月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zQjdWVnRvM05NZmtRdmE2LVhVdTRESk9iY3pnWmd5aUk1OXNkQWJNUXJlb3BtWVE3azlMUmdacklSSEtjSk1ZZTF5YkZxVUt4UklUZzF3?oc=5",
+          "id": "eea4eda6acd09417",
+          "title": "バロー／大府市に「大府北山店」10月23日オープン、愛知県70店舗目",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nejU0QjM4SmRFU21CdTFOdEtrUG1LY01XRVQ0akhWb3Vzd2VvczAwNjd2alpDZjdtWVJwNVpONGJDTE8wenU2Znh3Z0tlY1NXNUppcw?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-13T07:00:00Z",
+          "published_at": "2026-10-16T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d52e7bace846e0df",
-          "title": "イオンリテールほか／兵庫県三田市に「（仮称）そよら三田・サンフラワー（店舗面積7481m2）」27年4月27日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1haXhLZm83WVRSTUotX2JDR21ibVpyY25ZM3VKTUZMV1B0elJkR3JlOWFza3pwdmlVNG94OHVfRjR1NDZ4MVV5bmkwRExwSGpkSG9wQVpB?oc=5",
+          "id": "3c8d81ff316d2a22",
+          "title": "マキヤ／静岡県裾野市に「（仮称）裾野複合店舗A棟・B棟」27年2月25日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-09T07:00:00Z",
+          "published_at": "2026-10-08T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2ae604176a3eaf97",
+          "title": "オーケーほか／東京都北区に「（仮称）北区豊島四丁目SC計画（店舗面積2670m2）」27年3月23日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TTkQzOHpQRjZLbFJVRExvRm8zeU4zNGh6WEFFTldXRDJYU0gxODE5bU9BYkNzTHNMUFZTU0gtQ3U3NjdRQ2JIbHRURlpsSjFfYlhSa1FR?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-01T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e334769b0f16ddcd",
+          "title": "マルト／福島県いわき市に「（仮称）いわきスマートタウン計画（店舗面積2813m2）」27年4月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iSmw0SmhmdkEtY2lWRVgwZW9zQkhia2NiN3J2QURLRW8ydGxiSHBodHpFRE4yQzJ6WWRnMWlCWG5oekdPZkJMUW5vVHlKbzFmZXJlcHZ3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-09-29T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -318,6 +318,16 @@
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "43769bf974ca9784",
+          "title": "食品包装：環境に優しいだけでは不十分です。安全で、法律に準拠している必要もあります。",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa2hUZ0RvbWFxU180dXdGdFVpeWxlVWFCdW0zdkViREE4Zy1vNkpmTXBKbUFySlhoNEVPLTJ4UXJSWS1xVXlYaU1TeG9GR1k4VEthN1ZoZjdoM3I2eVRkWnlHaURBQ1ZDMGxKbFVfUGQtVU5IV0VuWUlJTEY2MnY5TEJtdGs5Q1QyZzlxMHpn?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-28T10:56:53Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "02d0d1bb11d517ee",
           "title": "米国の食品添加物検査という「障壁」に対し、水産物輸出業者はどのように対応しているのか？",
@@ -329,21 +339,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f9aad91c93250214",
-          "title": "寄稿／中国が化学品管理法規体系を再構築",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42VVMycmQwUTNQdlF3bFd4LVJNS0dzeVlSRHdkQUxNU1g0WkVRWDFYdmNLUExBQ2VWWWRxWF9xb2d2OWlaRTE5ZDJjVlV2VU9oTE9B?oc=5",
-          "source": "化学工業日報 電子版",
-          "published_at": "2026-10-08T01:53:32Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "a6b70d2ddf5b6649",
           "title": "《ホルムアルデヒド白菜は氷山の一角》日本に輸入された「発がん性」食品 ピーナッツ製品からカビ毒「アフラトキシン」検出事例 日本国内では中国産製品が数多く流通",
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4xenh1aWhuMWRVOWp1dTlLMG5pY3VZejMyWmVycVg3aTdFZ1BMbmdybHhDTEc5dkpsUkU1ekVtdlpjbTVwMERV?oc=5",
           "source": "マネーポストWEB",
           "published_at": "2026-09-15T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f9aad91c93250214",
+          "title": "寄稿／中国が化学品管理法規体系を再構築",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42VVMycmQwUTNQdlF3bFd4LVJNS0dzeVlSRHdkQUxNU1g0WkVRWDFYdmNLUExBQ2VWWWRxWF9xb2d2OWlaRTE5ZDJjVlV2VU9oTE9B?oc=5",
+          "source": "化学工業日報 電子版",
+          "published_at": "2026-10-08T01:53:32Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1898e3179c601256",
-          "title": "シンガポールに香辛料やインスタントラーメンを輸出する企業は、新たな規制に留意すべきである。",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM00wQkhwczQ2cDVFTk5DS0MzUEF0QlBFRFlXOThrY1NuYlB1TC1KTTJRb0hiRmJZUG1NcVFEWktkc0pwWTl3QjFtRmZUWnNhUmU5NVUweGdIVTRBNUtBVHduRVhMWXFvOU00TWFnTDB5clprOEFienQ5WUNzTlBhZXE5RWt1UnlHSmtOVUJic3B0S3ZVWTN1dUJOWTVuamowSnc?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-11T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-10-28T05:55:10Z",
-  "last_success_at": "2026-10-28T05:55:10Z",
+  "last_attempt_at": "2026-10-28T13:12:18Z",
+  "last_success_at": "2026-10-28T13:12:18Z",
   "consecutive_failure_count": 0
 }
