@@ -2,18 +2,17 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-31T12:47:21Z",
+  "generated_at": "2026-10-31T21:43:57Z",
   "successful_categories": [
-    "regulations",
     "food_machinery",
     "food_factory",
     "retail",
     "overseas"
   ],
-  "retained_categories": [
-    "regulations"
-  ],
-  "failed_categories": {},
+  "retained_categories": [],
+  "failed_categories": {
+    "regulations": "RuntimeError: 条件に合う日本語記事を取得できませんでした"
+  },
   "categories": {
     "overseas": {
       "label": "海外ニュース",
@@ -29,21 +28,51 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cbb5627b4eda1f61",
-          "title": "ジェトロ、海外バイヤーとの商談会を実施、東海4県の酒類事業者の販路開拓を支援",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ia2Y1NHhCcjdYUjJTMUJwaVd6ODc2OUZKWktSTFluYnZJLWVkeFhRQ01tWklXRnU4cFczZmlGVkRIbEhXY3JvSlc2WEhRbUk5REUzeGxXNURHV1h0YU5VSENZQnZaalRnb1A0TjN3?oc=5",
+          "id": "dee2d2602af973b7",
+          "title": "「海外大学コネクションデスク」の対象国にインドネシアを追加 ―「海外大学サーチ」の公開により、検索機能も向上―",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TMTc5RzVudGdMZEhYdEZ2MTlhOGo3aXg4bTd3c05fNUlRcmRuT2Q2QzhYZUlyQjk1eUNJWnRteUVLZGt4RHh1UnRycnNCMFhfT0ZfTlBMWUszbDdDVmtvVlIyLXNub0h6OUlFb09zY1FoeVVZejF3?oc=5",
           "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-10-29T15:31:34Z",
+          "published_at": "2026-10-27T09:32:23Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "3c997dbb90063908",
-          "title": "「希望を、贈ろう。」ワールド・ビジョン クリスマスキャンペーン2026",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE56RFF4N1A0STZ6WkFIT0JxNm84QVJkal9CVmNMRzExcUU3UzlQdDN6RjRqamUtQlNqZktia3k2V0p0QmdRQnphY2N5WS1UVEJ2Y1loS1U4UG1SY1pETVE?oc=5",
-          "source": "国際協力NGOワールド・ビジョン・ジャパン",
-          "published_at": "2026-10-31T11:46:35Z",
+          "id": "e81b3424d05d98ed",
+          "title": "インベスコ 世界ブロックチェーン株式ファンド(予想分配金提示型)【18311213】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44OEw4Q1hhbHZjbVA2RXg4bTFOTDlHR3JvT0VEY0M1V3RQUmM0RGlWUFlSMER0eFN0NW9oZzBhVXlCcUF5V0pXLTZxNHRwOUZCZFJseA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-31T20:01:37Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-31T19:25:48Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ab4ec6baf433a829",
+          "title": "結果 | 2026ブリーダーズカップクラシック | JRA-VAN World - 海外競馬情報サイト",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LTFZkM3RzQjBYNGQxMXdRQW1uX0E0LVFLd1ZHSjhfZUpaa2ZjS0ZMQ2V0WFc3a3hfZDJEcGdDdWtNcDFEMXU5cGxlVElBQjNtQUFpMDgwNi1pQkc3cEpmVUZtRjNoSm9Tbmpvd0R4RQ?oc=5",
+          "source": "JRA-VAN Ver.World",
+          "published_at": "2026-10-31T18:51:31Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-31T18:43:37Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -53,37 +82,7 @@
           "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-31T09:34:21Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3f605feeeffc6884",
-          "title": "1日は早起きして国際宇宙ステーション(ISS)「きぼう」を見よう 関東など好条件(気象予報士 藤川 徹)",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tVExlM29weDJ6QXBCYlJScDBIMEZLZ1FuUFBtNEx6c0tlamZhOU9XTmJjSkFGMTBzdG0xNHRwNkhuZFB6XzdqUWt6YU9hejJzY0NyOG44Z1dwWFEzY3dHWG5OYnZWLWVmUzJaMQ?oc=5",
-          "source": "tenki.jp",
-          "published_at": "2026-10-31T04:53:54Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "dad1cd8337cd85c2",
-          "title": "仁川空港でシステム障害、中国系航空3社で発券が一時中断…1200人長蛇の列（朝鮮日報日本語版）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lVFBoZGpSSDNVWHFEQVAzdmQxdVJKNFA3dU5BdnBsZzViS0FxZlVtMVBDQjhHMGFKTW55aHFaclNIVHQ5R29JSmJaTWp4NW5uM1pwVTB1NVZRRGhLUUgwVEw1UmlHM0JqR2VwOEJ0anpGQzgtQXRBZkVPUXdneHM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-10-31T02:14:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "be7711466b32449c",
-          "title": "世界は、思っていたより近かった",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBzZUtlbVRmNnVONm50TnlGMlJjMjFzZFBJdjVuaEFKTmcyWV9kaW5LMXNUS19ZZ2l3akIzU0JFVjlsNVVpRDJjVU1oMVNDUQ?oc=5",
-          "source": "早稲田大学",
-          "published_at": "2026-10-31T00:22:26Z",
+          "published_at": "2026-10-31T18:35:37Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -98,7 +97,7 @@
           "title": "ソディック、加賀事業所に食品機械展示エリアオープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzcDJJYVdaRUk5TW1KMlgxQ1dVUF9wSDFSMHQ0WEFxQUxCUDlyTElNb1dKdTVXbWNOWjhwdFo5U2RPT2ZsdXNoeWdNZ3lPSTNDVGFfaGFEWlhDYjlOczJNQUFIdkFPMEFxZ1E?oc=5",
           "source": "PR TIMES",
-          "published_at": "2026-10-22T01:01:09Z",
+          "published_at": "2026-10-22T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -264,16 +263,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ee1adc0132d4e5c1",
-          "title": "マックスバリュ東海／名古屋で「マックスバリュエクスプレス」11月に2店舗オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YckllYzZ0ejJpeE5sWWo0RERkc0p2ZC1MMkpwU1F1SUdkdS1Gb2FTd1NjRVM5VExtWFA4aWNzQVBDaFR5cm14SHNOTmVmY1ZZeXEwYg?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-29T06:32:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "9b31ae860dae1039",
           "title": "トライアル／茨城県土浦市に「スーパーセンタートライアル荒川沖店（店舗面積4200m2）」27年5月25日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CVlRsWW9fZGROcGZIWU1sZnFVQWc1TWZtS3ZhUGxZMUlkdUN6aUs0UDRNZnBrWWlvaTNUQWpXclFCcHAtTHc0Z19sM3JFZzV1NDVuOFpR?oc=5",
@@ -304,11 +293,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f63fc77c9f333403",
-          "title": "トライアル／徳島県阿波市に「スーパーセンタートライアル阿波岩津店（店舗面積3292m2）」27年5月12日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tNW5oVmdSdjh5WnlIQ0lxdExoRWlTckRFOVZzMmhhOTdNbnlFZHJyWFdxRktDTmZENk5GN0FzQVliWGZlQU9uSkEtbFhLVVBxU29Ja0Vn?oc=5",
+          "id": "03956ba6ece1bd45",
+          "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-21T07:00:00Z",
+          "published_at": "2026-10-19T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3c8d81ff316d2a22",
+          "title": "マキヤ／静岡県裾野市に「（仮称）裾野複合店舗A棟・B棟」27年2月25日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-08T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +390,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-31T12:47:21Z",
-  "last_success_at": "2026-10-31T12:47:21Z",
+  "last_attempt_at": "2026-10-31T21:43:57Z",
+  "last_success_at": "2026-10-31T21:43:57Z",
   "consecutive_failure_count": 0
 }
