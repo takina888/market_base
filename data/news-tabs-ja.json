@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-31T05:56:19Z",
+  "generated_at": "2026-10-31T12:47:21Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -43,7 +43,17 @@
           "title": "「希望を、贈ろう。」ワールド・ビジョン クリスマスキャンペーン2026",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE56RFF4N1A0STZ6WkFIT0JxNm84QVJkal9CVmNMRzExcUU3UzlQdDN6RjRqamUtQlNqZktia3k2V0p0QmdRQnphY2N5WS1UVEJ2Y1loS1U4UG1SY1pETVE?oc=5",
           "source": "国際協力NGOワールド・ビジョン・ジャパン",
-          "published_at": "2026-10-31T05:46:35Z",
+          "published_at": "2026-10-31T11:46:35Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-10-31T09:34:21Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,21 +69,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-31T03:33:29Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "241b7b72f83f50be",
-          "title": "日本で廃車「水没車」も海外では“宝の山” 平均47万円に 豪雨被害1700台集結（テレビ朝日系（ANN））",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41QXM0QllqRmhhMFZTWTdJd0VIRWpQNHd0c2kwbUlWd0ZBMENlbVJSRlM1Z0NidUJFVEItYkFVVTZLUW9FOEtMdUNRNm5SYS1UMVNMcHFyQUxlSDlhUDFIVW9QYmQtVzN0N3A1S2dLbVBJS1V3SDE2a09aNlk4X28?oc=5",
+          "id": "dad1cd8337cd85c2",
+          "title": "仁川空港でシステム障害、中国系航空3社で発券が一時中断…1200人長蛇の列（朝鮮日報日本語版）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lVFBoZGpSSDNVWHFEQVAzdmQxdVJKNFA3dU5BdnBsZzViS0FxZlVtMVBDQjhHMGFKTW55aHFaclNIVHQ5R29JSmJaTWp4NW5uM1pwVTB1NVZRRGhLUUgwVEw1UmlHM0JqR2VwOEJ0anpGQzgtQXRBZkVPUXdneHM?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-10-31T03:33:14Z",
+          "published_at": "2026-10-31T02:14:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -154,11 +154,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "4bf4090c34ad0b86",
-          "title": "窒素式消火器充填機の世界市場（2026年～2032年）、市場規模（半自動、全自動、手動）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1adzRaTFNyM2w0TUxRbE4tRnMwdlp1a2RQaEs4UUpMMV9CaW5nYXppenZZRDV0UHJXUk80UzdxaGpDck1yNjdZbTR0UGRBaHc?oc=5",
-          "source": "アットプレス",
-          "published_at": "2026-10-31T03:30:00Z",
+          "id": "aa94dcca36f3aa5d",
+          "title": "シュート式色選別機の世界市場（2026年～2032年）、市場規模（シングルシュート選別機、マルチシュート選別機）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB3RmJxR2VCMndrT2dWZndpREdvb1J0amtJS0xOSUwtVVBnNnpzSGpkcUtSWlh5cVlGWnM5QVVaNXkzM1REMXNz?oc=5",
+          "source": "Newscast.jp",
+          "published_at": "2026-10-31T07:30:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -184,6 +184,16 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94YWQ3eFJXbDRXNlQ2YVRiMnE3ZU5tclZ5NUZ3Y3pHbVNTcDdzSXhEQjdlSmhZOXB1Uk9XaXdjYjU2a256VUNlNTZIUFZBTDhwVjV1d3pVeEZuYlE?oc=5",
           "source": "共同通信PRワイヤー",
           "published_at": "2026-09-30T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5d9ee8e480fa31ab",
+          "title": "人手不足、食品ロス、異物混入、衛生管理、安全対策など、食品工場の課題解決につながる「第5回 食品工場Week大阪」9月30日（水）から開催",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90dm9YN0NadWhSd05lcFdHWFpXS3EwdXdJVGJxallud3FvUzFOa1RNakhtWHNZNlM3eDJJNGhRUXNhTDhiU2l0VURSeEhUZnhjMk00OTRVUlBlZmFxVkZyYlR4VHJBRktubGc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-17T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -227,16 +237,6 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6d865337a2a677d3",
-          "title": "【技術動向レポート】食品工場×AI、日本企業の勝機はどこに？ ― 技術課題と特許動向から読み解く3つの注目領域",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QnJKMHFwRUVsY2dUd1FnMGlKa2dKdHRxOF9tTS1yN21CMGJlRGNYOUFKckpWQ2JlcHB2bnZRYTdQRThZeHEtS0hraUtlUXF1dnA4emxleUJnNTVzLTJaMXBvRUZGQUVGV0E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-14T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -249,6 +249,26 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lai1xMlJ5aW5sb2Y4YzVCS1BSMUk1RktWd2hrVUNsR0ZzTXFhXzU4b005X0tUemNTOU5ybXkwckNWS25zZVJiem44RTh4eVh1aXlmdA?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-30T04:35:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3c4efd9343a6d45d",
+          "title": "バロー／都内初出店「スーパーマーケット バロー本羽田店」11月6日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RWGFITkhVN004ZUJRcWJvM0ViYlJCenpuY1ZrV0ltMkZsUFBYOG41SHl3Skdnc01EMHpuVHhRVEFsMGJhd29IMDdUazlBcDBkTTdZNw?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-30T04:25:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ee1adc0132d4e5c1",
+          "title": "マックスバリュ東海／名古屋で「マックスバリュエクスプレス」11月に2店舗オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YckllYzZ0ejJpeE5sWWo0RERkc0p2ZC1MMkpwU1F1SUdkdS1Gb2FTd1NjRVM5VExtWFA4aWNzQVBDaFR5cm14SHNOTmVmY1ZZeXEwYg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-29T06:32:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -284,31 +304,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "03956ba6ece1bd45",
-          "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
+          "id": "f63fc77c9f333403",
+          "title": "トライアル／徳島県阿波市に「スーパーセンタートライアル阿波岩津店（店舗面積3292m2）」27年5月12日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tNW5oVmdSdjh5WnlIQ0lxdExoRWlTckRFOVZzMmhhOTdNbnlFZHJyWFdxRktDTmZENk5GN0FzQVliWGZlQU9uSkEtbFhLVVBxU29Ja0Vn?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-19T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3c8d81ff316d2a22",
-          "title": "マキヤ／静岡県裾野市に「（仮称）裾野複合店舗A棟・B棟」27年2月25日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-08T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2ae604176a3eaf97",
-          "title": "オーケーほか／東京都北区に「（仮称）北区豊島四丁目SC計画（店舗面積2670m2）」27年3月23日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TTkQzOHpQRjZLbFJVRExvRm8zeU4zNGh6WEFFTldXRDJYU0gxODE5bU9BYkNzTHNMUFZTU0gtQ3U3NjdRQ2JIbHRURlpsSjFfYlhSa1FR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-01T07:00:00Z",
+          "published_at": "2026-10-21T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-31T05:56:19Z",
-  "last_success_at": "2026-10-31T05:56:19Z",
+  "last_attempt_at": "2026-10-31T12:47:21Z",
+  "last_success_at": "2026-10-31T12:47:21Z",
   "consecutive_failure_count": 0
 }
