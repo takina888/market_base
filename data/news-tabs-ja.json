@@ -2,17 +2,18 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-10-31T21:43:57Z",
+  "generated_at": "2026-11-01T06:24:33Z",
   "successful_categories": [
+    "regulations",
     "food_machinery",
     "food_factory",
     "retail",
     "overseas"
   ],
-  "retained_categories": [],
-  "failed_categories": {
-    "regulations": "RuntimeError: 条件に合う日本語記事を取得できませんでした"
-  },
+  "retained_categories": [
+    "regulations"
+  ],
+  "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
@@ -38,11 +39,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e81b3424d05d98ed",
-          "title": "インベスコ 世界ブロックチェーン株式ファンド(予想分配金提示型)【18311213】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44OEw4Q1hhbHZjbVA2RXg4bTFOTDlHR3JvT0VEY0M1V3RQUmM0RGlWUFlSMER0eFN0NW9oZzBhVXlCcUF5V0pXLTZxNHRwOUZCZFJseA?oc=5",
+          "id": "37aa9ce55d1b3417",
+          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-31T20:01:37Z",
+          "published_at": "2026-11-01T04:47:38Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -52,17 +53,7 @@
           "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-31T19:25:48Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ab4ec6baf433a829",
-          "title": "結果 | 2026ブリーダーズカップクラシック | JRA-VAN World - 海外競馬情報サイト",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LTFZkM3RzQjBYNGQxMXdRQW1uX0E0LVFLd1ZHSjhfZUpaa2ZjS0ZMQ2V0WFc3a3hfZDJEcGdDdWtNcDFEMXU5cGxlVElBQjNtQUFpMDgwNi1pQkc3cEpmVUZtRjNoSm9Tbmpvd0R4RQ?oc=5",
-          "source": "JRA-VAN Ver.World",
-          "published_at": "2026-10-31T18:51:31Z",
+          "published_at": "2026-11-01T04:31:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -72,7 +63,7 @@
           "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-31T18:43:37Z",
+          "published_at": "2026-11-01T03:45:21Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -82,7 +73,17 @@
           "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-10-31T18:35:37Z",
+          "published_at": "2026-11-01T03:39:14Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4e1164e230f891d1",
+          "title": "韓国、10月の貿易収支黒字425億ドル…2カ月連続で400億ドル台（中央日報日本語版）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KdkN6WFJXbDhFd05ycnhIR0tjNXQ5bUY1S0pUZTRsRWVVczI1YXE2N0E3V00xZXY5SkI2S2I5Ym81SVFxTjNDbHNOaFdfUmxfSW56bUs0WEZVZUpKWUx5V3JIS2ZpZmhLa0Zjc2pHd0xDc0xxVHNwYW5rN0VaNGM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-01T03:36:25Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -243,6 +244,16 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "fa126b44c448ed01",
+          "title": "買取専科 11月に全国4エリアに新店舗を順次オープン決定！(東京都・埼玉県・京都府・大阪府）",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1UGE2SVl6WFVpWVFIa3BUMS1Fb3BveU4zMlQxUjFkWWlOdDdqYWVwQTZEVWFkbkc5cFZqZEVKNmZ5T0FYcG5HbkpqTjlQcFFXS3pCbzFKUjJTR3I0SXJULWVUZV9CR2VScUE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-11-01T01:06:10Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "c0693e6b0b4efea3",
           "title": "資さんうどん／大阪府「アクロスプラザ和泉観音寺」に新店舗11月25日オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lai1xMlJ5aW5sb2Y4YzVCS1BSMUk1RktWd2hrVUNsR0ZzTXFhXzU4b005X0tUemNTOU5ybXkwckNWS25zZVJiem44RTh4eVh1aXlmdA?oc=5",
@@ -293,21 +304,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "03956ba6ece1bd45",
-          "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
+          "id": "f63fc77c9f333403",
+          "title": "トライアル／徳島県阿波市に「スーパーセンタートライアル阿波岩津店（店舗面積3292m2）」27年5月12日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tNW5oVmdSdjh5WnlIQ0lxdExoRWlTckRFOVZzMmhhOTdNbnlFZHJyWFdxRktDTmZENk5GN0FzQVliWGZlQU9uSkEtbFhLVVBxU29Ja0Vn?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-19T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3c8d81ff316d2a22",
-          "title": "マキヤ／静岡県裾野市に「（仮称）裾野複合店舗A棟・B棟」27年2月25日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-08T07:00:00Z",
+          "published_at": "2026-10-21T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -318,21 +319,21 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "43769bf974ca9784",
-          "title": "食品包装：環境に優しいだけでは不十分です。安全で、法律に準拠している必要もあります。",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa2hUZ0RvbWFxU180dXdGdFVpeWxlVWFCdW0zdkViREE4Zy1vNkpmTXBKbUFySlhoNEVPLTJ4UXJSWS1xVXlYaU1TeG9GR1k4VEthN1ZoZjdoM3I2eVRkWnlHaURBQ1ZDMGxKbFVfUGQtVU5IV0VuWUlJTEY2MnY5TEJtdGs5Q1QyZzlxMHpn?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-28T10:56:53Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "a6b70d2ddf5b6649",
           "title": "《ホルムアルデヒド白菜は氷山の一角》日本に輸入された「発がん性」食品 ピーナッツ製品からカビ毒「アフラトキシン」検出事例 日本国内では中国産製品が数多く流通",
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4xenh1aWhuMWRVOWp1dTlLMG5pY3VZejMyWmVycVg3aTdFZ1BMbmdybHhDTEc5dkpsUkU1ekVtdlpjbTVwMERV?oc=5",
           "source": "マネーポストWEB",
           "published_at": "2026-09-15T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "43769bf974ca9784",
+          "title": "食品包装：環境に優しいだけでは不十分です。安全で、法律に準拠している必要もあります。",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa2hUZ0RvbWFxU180dXdGdFVpeWxlVWFCdW0zdkViREE4Zy1vNkpmTXBKbUFySlhoNEVPLTJ4UXJSWS1xVXlYaU1TeG9GR1k4VEthN1ZoZjdoM3I2eVRkWnlHaURBQ1ZDMGxKbFVfUGQtVU5IV0VuWUlJTEY2MnY5TEJtdGs5Q1QyZzlxMHpn?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-10-28T10:56:53Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -390,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-10-31T21:43:57Z",
-  "last_success_at": "2026-10-31T21:43:57Z",
+  "last_attempt_at": "2026-11-01T06:24:33Z",
+  "last_success_at": "2026-11-01T06:24:33Z",
   "consecutive_failure_count": 0
 }
