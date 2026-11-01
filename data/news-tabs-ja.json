@@ -2,18 +2,17 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-01T17:58:34Z",
+  "generated_at": "2026-11-01T22:11:01Z",
   "successful_categories": [
-    "regulations",
     "food_machinery",
     "food_factory",
     "retail",
     "overseas"
   ],
-  "retained_categories": [
-    "regulations"
-  ],
-  "failed_categories": {},
+  "retained_categories": [],
+  "failed_categories": {
+    "regulations": "RuntimeError: 条件に合う日本語記事を取得できませんでした"
+  },
   "categories": {
     "overseas": {
       "label": "海外ニュース",
@@ -49,31 +48,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "234a41c46eb69f1a",
-          "title": "共家事・共育てに関するアンケート",
-          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5xOUFkX2Z5YkdqZkhuRkZpUHltRUUxN0ZSbUdRMFVKcFVSSUFNYURpWkFuOVZjX0drWF9SQXNESGY?oc=5",
-          "source": "長崎国際テレビ",
-          "published_at": "2026-11-01T15:01:11Z",
+          "id": "f168be9667b3d3a3",
+          "title": "なぜアメリカは国際秩序を｢守る｣→｢壊す｣になったのか…トランプ大統領が嗅ぎ取った\"敗者となった国民\"の本音",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04VklreU5ncGJnZ1VpNGVmUm9EamxpU1hqSWF3RGczQjFvaXIzRThiWGgxdTFGeExZQkU2eHhhcDlpSDZHYVdLUWU2dFJoSGV0NG9NekloNklUY1g0N1dRcUh4VTFJZnhmUUFBMjVuMkJKMFlqeEl6OXR5am1TTWM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-01T21:19:30Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "015670fd61b2ba38",
-          "title": "eMAXIS 高配当全世界株式(オール・カントリー)配当払出型【03312269】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WMmt4NXAxbzBteHU3RF9VUU5KQXo2XzQzVVFRYnVpdVp2SlhvNDVyZmtqcjRhVTFoYVJxRTNNRGtyQWdZSHJtbV9ieXEwc2FHNmp3Mw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-01T13:55:27Z",
+          "id": "d85f8284eaeb8664",
+          "title": "封じられたら中国の産業が止まる…世界の海上貿易がもっとも依存する「幅2.8キロの細い水路」という急所",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50Q2lIdVIxdHNMX2RvazJBTG9rekF1bUFhMnhubFVvTGYtdWhQSUdrVUVOZWdJbzlCcmJWZlBFcGZwUlkxQjl5YW9MSU1ZZm9yNnItaGFaQ1lMR2pFaE56eGxvMnM4RXB0dkJQWXFmVkp0eUtpd1k2LTJ3MTd4RkE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-01T21:19:26Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "bb2d01242c7e7169",
-          "title": "海上自衛隊 護衛艦「ひゅうが」一般公開 in 別府国際観光港 第4埠頭｜2026年11月3日(火･祝)",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN3RyTHBzZEx4ZGxHcWhfdlVyMXg1QUhHSk1qdHpZVzBjWjZvQ2U5U3dzWG1WMFZHbkpBWEtqR1QyTU5WWkZWWTBqd2ZKdlpLcDZ2dXRyYWRaLWg1eFlfWXhPbG1IeTRSbWwxa3Byam84U3VHRXB0UURFNE9GVU9HdXM0cw?oc=5",
-          "source": "陸自調査団",
-          "published_at": "2026-11-01T13:44:27Z",
+          "id": "f808f80d1adc45ca",
+          "title": "海外移住を望むZ世代はわずか19.4％ イギリスの若者が選ぶ「移住しないグローバルキャリア」とは（AMP［アンプ］）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kWkhiYUQ2VmZNSXJrXzE2NWc4Ym9uQjlWaVNXdXR5SGdHZWg4aTU1dzFYU2FXSmFzaWdfNE54UjRqakhMX2M0Q3I2SEg2Qm1oaENCM1E4ZUtDbkI3WDR4SndVbTd4OWFvZWs3Rk1PRUs5MWFwOVNTeFZ4SWU0eWc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-01T21:08:44Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -83,7 +82,7 @@
           "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-01T13:37:25Z",
+          "published_at": "2026-11-01T19:38:02Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -134,6 +133,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "6de479b68f1ffe25",
+          "title": "日本包装機械工業会×東京工科大学デザイン学部の産学共同研究プロジェクト、包装業界の魅力を発信するコンセプトムービーなどを制作",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZGQ0M0tCdGlfNEdSR1lXUHF6NXhkNWhEcjNSQVlNVUtuVmdlUVdKM3VXa1I4UExReEU5WXJ5WE5WZDdOUnBVYUdDYTJkc3NIQjcxSl9PcUlJTUdDNkxremdqLUhXOFh0bmc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-24T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "831dc65d9795bec1",
           "title": "スクリュー式粉末充填機の世界市場（2026年～2032年）、市場規模（半自動、全自動）・分析レポートを発表",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11bURYYmtpY0UyYmNDeGhveWwxQkcxZGlKN3JtTkZXY1FJTmdXbDkxSVFSdktrVGJwajByYlVfRXVPNEJnRk5hQnRfNnRYaTQ?oc=5",
@@ -149,16 +158,6 @@
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBHeW1XeGp6NktEY1ZncHQyUGlIYzNrQUJFQ25xeFFSZlF4Q1RSWS1DSzMtTndXTy10alRmSFhjYlpsay1UQnNoZExB?oc=5",
           "source": "pando.life",
           "published_at": "2026-10-31T21:03:27Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6480c57aaa5f07e0",
-          "title": "化粧品包装機械市場の成長軌跡 – 2026年から2033年にかけての5.70%のCAGR",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5pblZVUi1CWTdYNTV5aWxlZmJLV0pYZHNPamc0LVBzQm5DZ1djLTRNRFVhQjZzOVQ4c1JoQWQxWU5leVRyeWdRbVBB?oc=5",
-          "source": "pando.life",
-          "published_at": "2026-10-31T11:03:51Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -209,16 +208,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d8eb749f3473be48",
-          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-09-15T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "56b76612a9a8629b",
           "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
@@ -237,6 +226,16 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3b77f26d62fddc9c",
+          "title": "食品工場Week東京、物流効率化技術も展示",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UeEpVS0otc2YxckJ1R2NyLXljQUEzWVAyUDNwc3NwX3RPLURhdW1rQ3hIY3p5WnBrZDROTEx1bWxHNmk0VkI1M2V3?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-10-26T05:58:30Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -244,11 +243,41 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "fa126b44c448ed01",
+          "title": "買取専科 11月に全国4エリアに新店舗を順次オープン決定！(東京都・埼玉県・京都府・大阪府）",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1UGE2SVl6WFVpWVFIa3BUMS1Fb3BveU4zMlQxUjFkWWlOdDdqYWVwQTZEVWFkbkc5cFZqZEVKNmZ5T0FYcG5HbkpqTjlQcFFXS3pCbzFKUjJTR3I0SXJULWVUZV9CR2VScUE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-11-01T01:06:10Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c0693e6b0b4efea3",
+          "title": "資さんうどん／大阪府「アクロスプラザ和泉観音寺」に新店舗11月25日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lai1xMlJ5aW5sb2Y4YzVCS1BSMUk1RktWd2hrVUNsR0ZzTXFhXzU4b005X0tUemNTOU5ybXkwckNWS25zZVJiem44RTh4eVh1aXlmdA?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-30T04:35:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "3c4efd9343a6d45d",
           "title": "バロー／都内初出店「スーパーマーケット バロー本羽田店」11月6日オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RWGFITkhVN004ZUJRcWJvM0ViYlJCenpuY1ZrV0ltMkZsUFBYOG41SHl3Skdnc01EMHpuVHhRVEFsMGJhd29IMDdUazlBcDBkTTdZNw?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-30T04:25:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d0da64b60d1c7136",
+          "title": "ミスターマックス／27年2月期下期は計4店舗オープン、28年2月期2店舗出店の計画",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8zcldLV1hEZTVJZ2RqMG15c0tYS1lYZVhUSVFId3EyUlhBYUJjWDRETVBCNXNreFpEeEdmSmtvYmw1Y1pHbll6QjFPeUxIb1U5MS02dg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-30T01:10:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -279,36 +308,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8weEVkeW5YTGUzazF6U190MlQzUzJzeENhbDY0aWN0c2EtbUxVX3pFYXdpMEQxdWJ6dEc1OTZGaWVqRkdKRE1CamlfZE5NT2hDazdhWldB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-22T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "03956ba6ece1bd45",
-          "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-19T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "282d57ae4adf6c0d",
-          "title": "まいばすけっと／東京・横浜・川崎に新店舗10月16日オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5adGJyWXY4TFFseGI5MkZmZUJvU2NleC1hREhBNFpweXpTU2Q4ZjRjMnFseERjYlQ1aXZPd2VzQldNLU1YamNXamlPRm5iQzE1d05jaA?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-13T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3c8d81ff316d2a22",
-          "title": "マキヤ／静岡県裾野市に「（仮称）裾野複合店舗A棟・B棟」27年2月25日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-08T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +390,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-01T17:58:34Z",
-  "last_success_at": "2026-11-01T17:58:34Z",
+  "last_attempt_at": "2026-11-01T22:11:01Z",
+  "last_success_at": "2026-11-01T22:11:01Z",
   "consecutive_failure_count": 0
 }
