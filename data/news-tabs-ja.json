@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-02T06:25:27Z",
+  "generated_at": "2026-11-02T21:47:23Z",
   "successful_categories": [
     "food_machinery",
     "food_factory",
@@ -18,11 +18,31 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "d33ef0a32ec7886b",
+          "title": "極東貿易[8093]：自己株式の取得状況に関するお知らせ 2026年11月2日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMktFY0RrNjgwS3F0VXJwZVFUdWJjYl9YbnhMOC1MWDdaTzVYVFQyRmphSnh3OWJXZVpNLUdaYmVzZjZMYjlUZkw5TjJna0pfTlE5RmgwUWVLamdrV09teG5Dc2FMVzlxOF9QRjFianBuMDA5TXcxOUNZbnk2NldQU2xLTm9XWUpNRWdtZzk2RW1kZDYyZ1JTRmh1V3ByTk0zZExXY09wT1Nrc0U2NWtfN3c0OVlfSlZxLUdnSDhjV0lOWlFHU0o2Z2xYR1Y?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-11-02T06:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "9a97ce1c3357fe89",
           "title": "GGX Finance Summit 2026を開催しました",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKWERmZDBpZ3VMOHRTV2REeUZ2VEdLczRTY2NzQ0xxRF9BNXEyLUZNMWE1QlIwNGpsanhfdkNQcGhoSDVubHNQRWhPNEk5eC15ZjAzVEVlNUczQTRaNzRjSUx4MA?oc=5",
           "source": "経済産業省",
           "published_at": "2026-11-02T05:40:31Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "88a525766cbb3423",
+          "title": "食文化の海外展開・インバウンド拡大に取り組む外食事業者及び地方公共団体の支援対象を決定しました",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtZ1N1OXduQVE2TkhlYTJ6VldpTU10c3pZUFMySGdtZ2RtRzF0YTdMa09JVmxHaGFrTllOcmd3YTJ2bWVGUGpHeTQ1dGtZckdMMlV2RW03ZmNRbTE1REc5YUdOTGZ0TV9QY3c?oc=5",
+          "source": "農林水産省",
+          "published_at": "2026-10-30T01:33:25Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -38,51 +58,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "bcdf9b88d284d920",
-          "title": "りそなHD／トレードワルツと資本業務提携、貿易業務の高度化目指す",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKV2M5NHhYMWltQ0RiTm5salNsdnlWOXRpTVZzQXlJTW12elJybHFKX1JxXzdPVHVNeS0ycWkyUVNNQlBVOUZmZnlrOEJETmRYeUFYdg?oc=5",
-          "source": "物流ニュースのLNEWS",
-          "published_at": "2026-11-02T06:18:01Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-02T18:54:56Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "64bdcbc2dca2e945",
-          "title": "オマーン国王、中国に優遇措置伴う貿易・投資協定を提案（ロイター）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MaXV3Wk5HTEdUaC0wWmdYMFp0dzZYbjB6NnlpTURscy1uSUV6X3ZtRnNSQXc3R0loYVdwWnFjYUh2aHhKNmZXZ01wWVZpUlA1c01QcVFWcXdNdkR4Y1BTNDJVdzZqWHJabFZrRTIwM2FTSEFTT2dtbHduM1M2S1k?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-02T06:14:19Z",
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-02T16:44:02Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c942f547bd6f912e",
-          "title": "インドネシア、9月輸出予想上回る伸び 貿易黒字も予想超え（ロイター）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43WGtnREJ6R3VyRnlLT2t3UnRTRDhiVnJKWi0wU19iMW9heDRVNDNmRDdmSTBUZFk1WEVTTDlydXY0RUNHY2Y4SklTOWFsWEFMWjZDRTFwQmZranRQQk1nYUZoRzVodmRMRUlZREdIeGNOTzYzVU8zU0VNMy13SWs?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-02T06:10:38Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8438592399a3fe19",
-          "title": "インドネシア、9月輸出予想上回る伸び 貿易黒字も予想超え",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84d0x3bk04R25GbGpzNWdPTVBTcUs2NkZrOWFXb1JubHduNjVnRTBCWThTcWxvTGZ2VWdnQUVDbHFHN3pfYkxLWE5SeE4wYTV0MWJxWVlUeXhiZw?oc=5",
-          "source": "ニューズウィーク日本版",
-          "published_at": "2026-11-02T06:10:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a6ca3ca46241599b",
-          "title": "SMBC信託銀行プレスティア、地図から海外情報を探せる「グローバルコンパスNavi」を公開（株式会社SMBC信託銀行）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rc0NWNEZ0b05NNjRVdW52eENXbXRtVHFzbFB0WTBMNXEwMGlPT1RRV0xRdDZnN20wWDFHOGZqMjRyT2FOZlpfVzJBZ2EyeFNOenUtOHNyVW1ZaGVYM25fZFAxMDRfUmlUQnZEem1pQ0xYc1N2RC1LZUhJeXVlc0U?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-02T06:05:41Z",
+          "id": "4d5038adafa27069",
+          "title": "eMAXIS 高配当全世界株式(オール・カントリー)資産成長型【03313269】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FRE01cTBFSVJVMGt5TWZTT0wya1dyWkFqWkNhdko4c2MyUWVDNGpzNjdJUGlmcVYxYXQtWGN5eFBDaFM4eVR1NDVMZU1Za092ZUZ6cg?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-02T16:27:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -92,16 +92,6 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
-        {
-          "id": "5ebf8ab0a7336239",
-          "title": "ソディック、加賀事業所に食品機械展示エリアオープン",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzcDJJYVdaRUk5TW1KMlgxQ1dVUF9wSDFSMHQ0WEFxQUxCUDlyTElNb1dKdTVXbWNOWjhwdFo5U2RPT2ZsdXNoeWdNZ3lPSTNDVGFfaGFEWlhDYjlOczJNQUFIdkFPMEFxZ1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-10-22T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "89cee931dd1d365a",
           "title": "国内の包装機械大手2社、米国で共同生産 日系企業の進出追い風に",
@@ -148,6 +138,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZGQ0M0tCdGlfNEdSR1lXUHF6NXhkNWhEcjNSQVlNVUtuVmdlUVdKM3VXa1I4UExReEU5WXJ5WE5WZDdOUnBVYUdDYTJkc3NIQjcxSl9PcUlJTUdDNkxremdqLUhXOFh0bmc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-24T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "97f853709ac22d33",
+          "title": "多穀物選別機の世界市場（2026年～2032年）、市場規模（半自動、全自動）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5OVFg0WDJwTnFiZ0kyeVhKcVdHR0Z6Y1JmRlEteVI4a1BwTWlFM3ZuZjMwS1dQS3kxVlhRUEE5Tzkxa0h3ZC1sY2JyUjNqclE?oc=5",
+          "source": "アットプレス",
+          "published_at": "2026-11-02T09:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -390,7 +390,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-02T06:25:27Z",
-  "last_success_at": "2026-11-02T06:25:27Z",
+  "last_attempt_at": "2026-11-02T21:47:23Z",
+  "last_success_at": "2026-11-02T21:47:23Z",
   "consecutive_failure_count": 0
 }
