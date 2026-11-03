@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-02T21:47:23Z",
+  "generated_at": "2026-11-03T06:58:55Z",
   "successful_categories": [
     "food_machinery",
     "food_factory",
@@ -18,26 +18,6 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "d33ef0a32ec7886b",
-          "title": "極東貿易[8093]：自己株式の取得状況に関するお知らせ 2026年11月2日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMktFY0RrNjgwS3F0VXJwZVFUdWJjYl9YbnhMOC1MWDdaTzVYVFQyRmphSnh3OWJXZVpNLUdaYmVzZjZMYjlUZkw5TjJna0pfTlE5RmgwUWVLamdrV09teG5Dc2FMVzlxOF9QRjFianBuMDA5TXcxOUNZbnk2NldQU2xLTm9XWUpNRWdtZzk2RW1kZDYyZ1JTRmh1V3ByTk0zZExXY09wT1Nrc0U2NWtfN3c0OVlfSlZxLUdnSDhjV0lOWlFHU0o2Z2xYR1Y?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-02T06:30:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9a97ce1c3357fe89",
-          "title": "GGX Finance Summit 2026を開催しました",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKWERmZDBpZ3VMOHRTV2REeUZ2VEdLczRTY2NzQ0xxRF9BNXEyLUZNMWE1QlIwNGpsanhfdkNQcGhoSDVubHNQRWhPNEk5eC15ZjAzVEVlNUczQTRaNzRjSUx4MA?oc=5",
-          "source": "経済産業省",
-          "published_at": "2026-11-02T05:40:31Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "88a525766cbb3423",
           "title": "食文化の海外展開・インバウンド拡大に取り組む外食事業者及び地方公共団体の支援対象を決定しました",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtZ1N1OXduQVE2TkhlYTJ6VldpTU10c3pZUFMySGdtZ2RtRzF0YTdMa09JVmxHaGFrTllOcmd3YTJ2bWVGUGpHeTQ1dGtZckdMMlV2RW03ZmNRbTE1REc5YUdOTGZ0TV9QY3c?oc=5",
@@ -48,21 +28,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "dee2d2602af973b7",
-          "title": "「海外大学コネクションデスク」の対象国にインドネシアを追加 ―「海外大学サーチ」の公開により、検索機能も向上―",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TMTc5RzVudGdMZEhYdEZ2MTlhOGo3aXg4bTd3c05fNUlRcmRuT2Q2QzhYZUlyQjk1eUNJWnRteUVLZGt4RHh1UnRycnNCMFhfT0ZfTlBMWUszbDdDVmtvVlIyLXNub0h6OUlFb09zY1FoeVVZejF3?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-10-27T09:32:23Z",
+          "id": "db6316d6740b95ac",
+          "title": "日本コンテンツの海外展開政策「IP360」の効果とは？映画・アニメ・テレビ関係者が抱く期待と懸念",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fTGdzRXFuOVFjNVVpLXNUS04zdUNLVlQwS01Xd0J1MEs4bnpIQk83Rkp0ZVQ0MGZ6N3NnOUVaQ1U3c1Z4Vll4NldTekZzSW56YTFfQnlrQURPZUVIb0ZLeTlWZG9YaGVqYUFGQ01oTklqYzdqOG9xM0lsM0lCM2M?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-03T06:09:25Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-02T18:54:56Z",
+          "id": "bb2d01242c7e7169",
+          "title": "海上自衛隊 護衛艦「ひゅうが」一般公開 in 別府国際観光港 第4埠頭｜2026年11月3日(火･祝)",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN3RyTHBzZEx4ZGxHcWhfdlVyMXg1QUhHSk1qdHpZVzBjWjZvQ2U5U3dzWG1WMFZHbkpBWEtqR1QyTU5WWkZWWTBqd2ZKdlpLcDZ2dXRyYWRaLWg1eFlfWXhPbG1IeTRSbWwxa3Byam84U3VHRXB0UURFNE9GVU9HdXM0cw?oc=5",
+          "source": "陸自調査団",
+          "published_at": "2026-11-03T05:07:37Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -72,7 +52,7 @@
           "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-02T16:44:02Z",
+          "published_at": "2026-11-03T04:49:37Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -82,7 +62,27 @@
           "title": "eMAXIS 高配当全世界株式(オール・カントリー)資産成長型【03313269】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FRE01cTBFSVJVMGt5TWZTT0wya1dyWkFqWkNhdko4c2MyUWVDNGpzNjdJUGlmcVYxYXQtWGN5eFBDaFM4eVR1NDVMZU1Za092ZUZ6cg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-02T16:27:55Z",
+          "published_at": "2026-11-03T04:43:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "af6718caaca8a720",
+          "title": "次世代通信関連 世界株式戦略ファンド(予想分配金提示型)【64311215】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SVJjbk1Wb0h3VW1pUUMzbFVMOVJRZlRnMm45bzQ2VndhWTNSeFZrelRnLXJRZHlGLUpFZENEb1NpUlNEdXgycXByWXd6Z0RSakhMTg?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-03T04:27:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1a3d0bf1c1baa4a7",
+          "title": "四方大使によるトゥアンク・チャンセラー国際法会議2026における基調講演",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82dV9XRVB0cXd1aVZtSlNLTWxueHdvTVFEbDJLanRsTm90RkFmWmRZTVBsWHJxM1AxWE5oQmxSaXpBLXlyN3YyTUJIeUtrbWJ4V2c1Rmp3cXh5ajVzdUJYbnNaa1p4ckQzbFRHdlRn?oc=5",
+          "source": "Embassy of Japan in Malaysia",
+          "published_at": "2026-11-03T03:57:34Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -92,6 +92,16 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "5ebf8ab0a7336239",
+          "title": "ソディック、加賀事業所に食品機械展示エリアオープン",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzcDJJYVdaRUk5TW1KMlgxQ1dVUF9wSDFSMHQ0WEFxQUxCUDlyTElNb1dKdTVXbWNOWjhwdFo5U2RPT2ZsdXNoeWdNZ3lPSTNDVGFfaGFEWlhDYjlOczJNQUFIdkFPMEFxZ1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-10-22T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "89cee931dd1d365a",
           "title": "国内の包装機械大手2社、米国で共同生産 日系企業の進出追い風に",
@@ -143,21 +153,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "97f853709ac22d33",
-          "title": "多穀物選別機の世界市場（2026年～2032年）、市場規模（半自動、全自動）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5OVFg0WDJwTnFiZ0kyeVhKcVdHR0Z6Y1JmRlEteVI4a1BwTWlFM3ZuZjMwS1dQS3kxVlhRUEE5Tzkxa0h3ZC1sY2JyUjNqclE?oc=5",
-          "source": "アットプレス",
-          "published_at": "2026-11-02T09:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "625f5fa0749a700a",
-          "title": "AIカラーソーターの世界市場（2026年～2032年）、市場規模（シュート式選別機、ベルト式選別機、フリーフォール式選別機、その他）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05US1DRDBodTdEcmw0aDZfcV85YThWZnp4N0tXdXJkS3dFeDVZdE1GRXA4YXVtV3h5VVZYZDFuc2JIdjQyY1hWWHhjUUxIcVU?oc=5",
-          "source": "Newscast.jp",
-          "published_at": "2026-11-02T01:00:00Z",
+          "id": "cc6dce5babae4dca",
+          "title": "食品加工機械製造市場2035年予測：老朽設備の更新と食品安全規制が成長を下支え - ニュースと統計",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSUcxMF9uMWJBNjYtV2NzcC0zYXJyM3FrLU16NHc5b3htYV9wNXhXdEVRelBIbS1zaUQ4UE1vVEVmVFZHc2FiZ3RoekRSaGhBVUROVVdKTXJmVkNmMzVxMEUzSXE2MnBBR1c5cTZ6NHotNjRodGVPRTF1Q05BdGsxZ25QbG9vWUlCVlA4cUotOUxBRDAyU2RxMWVaVkwwNkdqb0FWdXVHeGt1aDlELXYzTm5LX2ZILU9GMnY0d011T1JOVko4Vzg3T3NTdDRzZVgzS3VpaG1BTzltalQzamp3b0R3?oc=5",
+          "source": "IndexBox",
+          "published_at": "2026-11-03T00:31:04Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -243,6 +243,26 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "fa126b44c448ed01",
+          "title": "買取専科 11月に全国4エリアに新店舗を順次オープン決定！(東京都・埼玉県・京都府・大阪府）",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1UGE2SVl6WFVpWVFIa3BUMS1Fb3BveU4zMlQxUjFkWWlOdDdqYWVwQTZEVWFkbkc5cFZqZEVKNmZ5T0FYcG5HbkpqTjlQcFFXS3pCbzFKUjJTR3I0SXJULWVUZV9CR2VScUE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-11-01T01:06:10Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "c0693e6b0b4efea3",
+          "title": "資さんうどん／大阪府「アクロスプラザ和泉観音寺」に新店舗11月25日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lai1xMlJ5aW5sb2Y4YzVCS1BSMUk1RktWd2hrVUNsR0ZzTXFhXzU4b005X0tUemNTOU5ybXkwckNWS25zZVJiem44RTh4eVh1aXlmdA?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-30T04:35:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "3c4efd9343a6d45d",
           "title": "バロー／都内初出店「スーパーマーケット バロー本羽田店」11月6日オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RWGFITkhVN004ZUJRcWJvM0ViYlJCenpuY1ZrV0ltMkZsUFBYOG41SHl3Skdnc01EMHpuVHhRVEFsMGJhd29IMDdUazlBcDBkTTdZNw?oc=5",
@@ -288,26 +308,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8weEVkeW5YTGUzazF6U190MlQzUzJzeENhbDY0aWN0c2EtbUxVX3pFYXdpMEQxdWJ6dEc1OTZGaWVqRkdKRE1CamlfZE5NT2hDazdhWldB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-22T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "03956ba6ece1bd45",
-          "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-19T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "eea4eda6acd09417",
-          "title": "バロー／大府市に「大府北山店」10月23日オープン、愛知県70店舗目",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nejU0QjM4SmRFU21CdTFOdEtrUG1LY01XRVQ0akhWb3Vzd2VvczAwNjd2alpDZjdtWVJwNVpONGJDTE8wenU2Znh3Z0tlY1NXNUppcw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-16T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -390,7 +390,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-02T21:47:23Z",
-  "last_success_at": "2026-11-02T21:47:23Z",
+  "last_attempt_at": "2026-11-03T06:58:55Z",
+  "last_success_at": "2026-11-03T06:58:55Z",
   "consecutive_failure_count": 0
 }
