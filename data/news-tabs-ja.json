@@ -2,22 +2,41 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-03T19:38:08Z",
+  "generated_at": "2026-11-04T06:41:05Z",
   "successful_categories": [
-    "regulations",
     "food_machinery",
     "food_factory",
     "retail",
     "overseas"
   ],
-  "retained_categories": [
-    "regulations"
-  ],
-  "failed_categories": {},
+  "retained_categories": [],
+  "failed_categories": {
+    "regulations": "RuntimeError: 条件に合う日本語記事を取得できませんでした"
+  },
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "d33ef0a32ec7886b",
+          "title": "極東貿易[8093]：自己株式の取得状況に関するお知らせ 2026年11月2日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMktFY0RrNjgwS3F0VXJwZVFUdWJjYl9YbnhMOC1MWDdaTzVYVFQyRmphSnh3OWJXZVpNLUdaYmVzZjZMYjlUZkw5TjJna0pfTlE5RmgwUWVLamdrV09teG5Dc2FMVzlxOF9QRjFianBuMDA5TXcxOUNZbnk2NldQU2xLTm9XWUpNRWdtZzk2RW1kZDYyZ1JTRmh1V3ByTk0zZExXY09wT1Nrc0U2NWtfN3c0OVlfSlZxLUdnSDhjV0lOWlFHU0o2Z2xYR1Y?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-11-02T06:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9a97ce1c3357fe89",
+          "title": "GGX Finance Summit 2026を開催しました",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKWERmZDBpZ3VMOHRTV2REeUZ2VEdLczRTY2NzQ0xxRF9BNXEyLUZNMWE1QlIwNGpsanhfdkNQcGhoSDVubHNQRWhPNEk5eC15ZjAzVEVlNUczQTRaNzRjSUx4MA?oc=5",
+          "source": "経済産業省",
+          "published_at": "2026-11-02T05:40:31Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "88a525766cbb3423",
           "title": "食文化の海外展開・インバウンド拡大に取り組む外食事業者及び地方公共団体の支援対象を決定しました",
@@ -29,41 +48,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "37aa9ce55d1b3417",
-          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-03T18:19:39Z",
+          "id": "b297bf8b2518ebac",
+          "title": "「学生海外チャレンジ応援事業報告2026」を掲載しました",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUTmR2UlJnYWVRajV3NHBncVhmaVJKMzhVMlo5M1pEN1lLWTlIS0w5eE5zUEdRcnNnOHhNWUxQaVRuQzk4WjI3RU9xVy1RbEVmbnBhb3VqZVFKLU9rSUI4U1BDc0xxclZjRnc?oc=5",
+          "source": "三重大学",
+          "published_at": "2026-11-04T06:09:38Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-03T16:53:40Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "af6718caaca8a720",
-          "title": "次世代通信関連 世界株式戦略ファンド(予想分配金提示型)【64311215】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SVJjbk1Wb0h3VW1pUUMzbFVMOVJRZlRnMm45bzQ2VndhWTNSeFZrelRnLXJRZHlGLUpFZENEb1NpUlNEdXgycXByWXd6Z0RSakhMTg?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-03T16:41:01Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f64b0babe36c22b9",
-          "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-03T16:13:11Z",
+          "id": "b4cd397a83639ad9",
+          "title": "国際関係研究所 研究会 「フランスのデモはなぜ荒れるのか ― 欧州が抱える危機とポピュリスト政治」 | 2026年度 | EVENTS",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yaGFWbUFfcWZDRjliMElqU3JOWnI3MW5GdnBCUDlfakQ3R2I3aGpZRGtocXdOUVIxSHFEbEoyUVVWbG1sNGlGcXBaUGxpOUVoV2FabjBscWtWbXM?oc=5",
+          "source": "東京外国語大学",
+          "published_at": "2026-11-04T05:04:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -73,17 +72,17 @@
           "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-03T16:02:54Z",
+          "published_at": "2026-11-04T04:04:11Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "447c67a00c9a4172",
-          "title": "ＢＴＳ「ＡＲＩＲＡＮＧ」−再び７人で、世界へ−",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5waXFScllaeXdsc0Mwb3lVZkZMcW1iMkgtTjBaczlEa1lsVFZvaGhmZ29Od1NSekZMemtKaUFPQThVQ0ltdnZHblNkWHNuMUdZTGowMkVB?oc=5",
-          "source": "TBSテレビ",
-          "published_at": "2026-11-03T15:22:22Z",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-04T04:02:17Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -93,6 +92,16 @@
     "food_machinery": {
       "label": "食品機械",
       "articles": [
+        {
+          "id": "5ebf8ab0a7336239",
+          "title": "ソディック、加賀事業所に食品機械展示エリアオープン",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzcDJJYVdaRUk5TW1KMlgxQ1dVUF9wSDFSMHQ0WEFxQUxCUDlyTElNb1dKdTVXbWNOWjhwdFo5U2RPT2ZsdXNoeWdNZ3lPSTNDVGFfaGFEWlhDYjlOczJNQUFIdkFPMEFxZ1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-10-22T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "89cee931dd1d365a",
           "title": "国内の包装機械大手2社、米国で共同生産 日系企業の進出追い風に",
@@ -134,31 +143,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cc6dce5babae4dca",
-          "title": "食品加工機械製造市場2035年予測：老朽設備の更新と食品安全規制が成長を下支え - ニュースと統計",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSUcxMF9uMWJBNjYtV2NzcC0zYXJyM3FrLU16NHc5b3htYV9wNXhXdEVRelBIbS1zaUQ4UE1vVEVmVFZHc2FiZ3RoekRSaGhBVUROVVdKTXJmVkNmMzVxMEUzSXE2MnBBR1c5cTZ6NHotNjRodGVPRTF1Q05BdGsxZ25QbG9vWUlCVlA4cUotOUxBRDAyU2RxMWVaVkwwNkdqb0FWdXVHeGt1aDlELXYzTm5LX2ZILU9GMnY0d011T1JOVko4Vzg3T3NTdDRzZVgzS3VpaG1BTzltalQzamp3b0R3?oc=5",
-          "source": "IndexBox",
-          "published_at": "2026-11-03T00:31:04Z",
+          "id": "6de479b68f1ffe25",
+          "title": "日本包装機械工業会×東京工科大学デザイン学部の産学共同研究プロジェクト、包装業界の魅力を発信するコンセプトムービーなどを制作",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZGQ0M0tCdGlfNEdSR1lXUHF6NXhkNWhEcjNSQVlNVUtuVmdlUVdKM3VXa1I4UExReEU5WXJ5WE5WZDdOUnBVYUdDYTJkc3NIQjcxSl9PcUlJTUdDNkxremdqLUhXOFh0bmc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-24T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "97f853709ac22d33",
-          "title": "多穀物選別機の世界市場（2026年～2032年）、市場規模（半自動、全自動）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5OVFg0WDJwTnFiZ0kyeVhKcVdHR0Z6Y1JmRlEteVI4a1BwTWlFM3ZuZjMwS1dQS3kxVlhRUEE5Tzkxa0h3ZC1sY2JyUjNqclE?oc=5",
-          "source": "アットプレス",
-          "published_at": "2026-11-02T09:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "625f5fa0749a700a",
-          "title": "AIカラーソーターの世界市場（2026年～2032年）、市場規模（シュート式選別機、ベルト式選別機、フリーフォール式選別機、その他）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05US1DRDBodTdEcmw0aDZfcV85YThWZnp4N0tXdXJkS3dFeDVZdE1GRXA4YXVtV3h5VVZYZDFuc2JIdjQyY1hWWHhjUUxIcVU?oc=5",
+          "id": "eb0ded89170b16a5",
+          "title": "計量顆粒充填機の世界市場（2026年～2032年）、市場規模（半自動、全自動）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5iOFNCTWRZTWZ2cWJEazdvNzdNUk9ZcHM4S2UwWndsWEs4MmZ5VUk3ZUNnVEpkdFVLcDRvaHYwQVJHLVZSZm1zSlBPYkItek0?oc=5",
           "source": "Newscast.jp",
-          "published_at": "2026-11-02T01:00:00Z",
+          "published_at": "2026-11-04T06:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -168,6 +167,16 @@
     "food_factory": {
       "label": "食品工場",
       "articles": [
+        {
+          "id": "bfa81123b86b262a",
+          "title": "「食品工場 Week 東京」に出展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9zZ1cza2FqcGFxbEI0MnJkVkZudG4yX2Jtcl9yMkREWklPZUpWTlhvczItdklnMGhnU0w3eG1Ua1RvcHNKUWhIeTlUUVdVMjdLOUFLM1B4TEFSYy1VeS1MM2JRX1lldXNhMmc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-11-04T05:00:02Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "ea8cc79be8189080",
           "title": "帳票管理のカミナシ、物流・食品工場のAI活用支援 22億円調達",
@@ -227,16 +236,6 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "cbbbd1904db9d4a2",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -249,16 +248,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RWGFITkhVN004ZUJRcWJvM0ViYlJCenpuY1ZrV0ltMkZsUFBYOG41SHl3Skdnc01EMHpuVHhRVEFsMGJhd29IMDdUazlBcDBkTTdZNw?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-30T04:25:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9b31ae860dae1039",
-          "title": "トライアル／茨城県土浦市に「スーパーセンタートライアル荒川沖店（店舗面積4200m2）」27年5月25日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CVlRsWW9fZGROcGZIWU1sZnFVQWc1TWZtS3ZhUGxZMUlkdUN6aUs0UDRNZnBrWWlvaTNUQWpXclFCcHAtTHc0Z19sM3JFZzV1NDVuOFpR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-27T02:30:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -309,6 +298,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZU2NQSDMtZ2J5UVdEYWNGT2NpelZ3N0xMaU9Lc1FwVmZkUG42UEQtelM2SlZaUGMxWVJ0QjE0LWdrcXBSSmJ4VHgxY3VWeVhmNHZUTEFB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-08T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d29aa2813ff7d3d9",
+          "title": "【新店舗】宇佐市森山にファミリーマートが新しく登場！現在工事中！！",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mWVVJbE9YLXU4ZDBUNjd3SS1Lb292QTRBaF94V3hiemdGUExVLVYxNlRfUkN2ZGZaR3pKUGF6ZkItd3dpRVZ0eXU2ZllhRXc?oc=5",
+          "source": "ジモッシュ！",
+          "published_at": "2026-11-04T02:00:12Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +390,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-03T19:38:08Z",
-  "last_success_at": "2026-11-03T19:38:08Z",
+  "last_attempt_at": "2026-11-04T06:41:05Z",
+  "last_success_at": "2026-11-04T06:41:05Z",
   "consecutive_failure_count": 0
 }
