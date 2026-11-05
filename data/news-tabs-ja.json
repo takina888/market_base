@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-05T06:59:54Z",
+  "generated_at": "2026-11-05T20:05:53Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,21 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "975732268d66e772",
-          "title": "ソラコム[147A]：AECCの国際会議で、コネクテッドカー向け次世代通信「IRIGATE」の遠隔操作デモを展示 2026年11月5日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTHowNzJkSWNKNjJJNWVxY3h0WElGeHR2NUNjckJmeXU5ZlZpSW9VSC1IbEFDOWxVRnhMU1lKRlhBTGNVcUVodi04QUZfeS1MTE01aHN0Y3dwdkE4R3EwQU4xelJyMUh5YmpJWEUwOFJDZVZnZ3BVQmZqQU91SmNuMk9EeTVSd2lQbU5QRVNOY19aTjR3YUZqSW14LXJrRFlDOVZuaUVacEpkOUxZN2hnSnl5Z0tObjVVekl3YWJwcXMzQlFBZlBqeGNvRW4?oc=5",
+          "id": "f969e82659f1a5a2",
+          "title": "アジア最大級の化粧品・美容関連製品等の国際見本市「Cosmoprof Asia 2026」ジャパン・パビリオンに29社が出展 ―J-ビューティーの魅力を発信― | 2026年 - お知らせ - お知らせ・記者発表",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80T01VTHBicUtUc1Q0N0dxaEs3WThYRTRYMkxtUjY1Q0RHeFpwU2Q0d0UxaVFpNV91SENGVDFPVzg4VGtZV1hpVzZaMDRWVWdwc2w4SFRvZWZvLUxvVzRYRnJEbzJrZjNyaUNRNW1JSjJvWU10NVhr?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-05T07:01:47Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3bbff22eb8d3e424",
+          "title": "アドベンチャー[6030]：「Newsweek」国際版に当社代表 中村俊一のインタビュー記事が掲載 -AIで旅の選択肢を広げるskyticketの取り組みを紹介- 2026年11月5日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVnVkMUJwU3hMVmdzRnZPU3h2SGZqZ2g3UWEzSFFTZjRPcGVueGxzc1hYMlV0b3YwblN0b3VRLTNERXJhaTlhWTcycldfSFhqdG5FdFdKRnR4V0ZhRl9aUm1TZGdaUHJrbDM1dEJjZE9BZkp6UEJkOWJOaTFyQ2Zxc1EwNXVVY0F5OFVXNm9lMzdxQlR6cC1EM04xRFdaZ0dLYm42RDd4RngzdWJDWHFSUzFlWTI3dnFfNjVwYXB5Nkl2TjZ5bjlpUG5STDY?oc=5",
           "source": "日本経済新聞",
-          "published_at": "2026-11-05T03:00:00Z",
+          "published_at": "2026-11-05T06:30:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -39,21 +49,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "318ba5ba79995aa9",
-          "title": "「世界津波の日」に語り継がれる「稲むらの火」…緊急停止した電車から高台へ走って避難訓練（読売新聞オンライン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80Ql9KbmNHazR2QW9wWTdfblU5UmNwYXJDNXNzMFY5WjA1bzRFRmw5QlN6d1N6RFBmdkpOUUdad2VqeDZjc1BUTkxRYkFTVFR5a1BoTzZGa1h5MTJQLVhlcXMzOFRkcjlEbmZuZVo2c3hTNGRaOG8wbGs0UktYR3M?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-05T05:41:31Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6729f1695a6425fa",
-          "title": "中国1-9月のサービス貿易、輸出入総額が前年比8.5％増",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vdWdMcDNoX3ZKb1Nxc2RZU21OcjY3NUp2SU1xZEx3Z0FzeFU3VDJXZThVcGt5T0g4MnlQNXAwekdUTUU3U1VMT2ktZDNHQUY0dGZlN2Jwb0IyWmlyc1EtU2lmNTl3RWs?oc=5",
-          "source": "人民網日本語版",
-          "published_at": "2026-11-05T05:34:00Z",
+          "id": "447c67a00c9a4172",
+          "title": "ＢＴＳ「ＡＲＩＲＡＮＧ」−再び７人で、世界へ−",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5waXFScllaeXdsc0Mwb3lVZkZMcW1iMkgtTjBaczlEa1lsVFZvaGhmZ29Od1NSekZMemtKaUFPQThVQ0ltdnZHblNkWHNuMUdZTGowMkVB?oc=5",
+          "source": "TBSテレビ",
+          "published_at": "2026-11-05T18:45:40Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -63,7 +63,17 @@
           "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-05T05:33:34Z",
+          "published_at": "2026-11-05T17:24:46Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e17f5a9574801a19",
+          "title": "MAXIS 全世界株式(オール・カントリー)上場投信【2559】：株価・株式情報（夜間PTS含む）",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xSWxxalI3TmVNN1IyLW1hX1ZCUW1Od0dwTkNxM0twMHZuYm1WdHVZdUNmRTcyZmlhNVBlUWNvQnFIOTc1Yl8tdlhHd1JIYUVtTGc?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-05T17:17:48Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -73,17 +83,7 @@
           "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-05T05:20:46Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2ccf5901a0e6b965",
-          "title": "国際学会で専門分野別最優秀論文賞を受賞",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LclZ5b1MycEs1aTdHN3FJN3NpNlRnYWhHNHd2OXNVUzR4Wlg5VkNpaFhCaEVOOXZDZEh2M2FDZTZ5ZVJWTjF2MFNyVXk4dXAyYkNQUmp2OTRIakY0YkJlZFF4Q3JLQQ?oc=5",
-          "source": "九州産業大学",
-          "published_at": "2026-11-05T05:17:19Z",
+          "published_at": "2026-11-05T17:09:20Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -209,21 +209,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cbbbd1904db9d4a2",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "1d164ab1c727073d",
           "title": "【設備保全DX】食品工場Week 2026に次世代設備保全クラウド「M2X」ブースを出展",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB1WkRCb25TQllwUEJ3Ml9WS1g2QW9GQ2lsN1lES2hScGpEUC1VNVFwSWZ0SkhnLUNESERJdllFd1R2bWVhTUxmWTA2S0Flek9JSFJtem9HN0tOLW43SGpvSkwwWDJlc1ktLXJTVnJpMXA1LW1aMTFxVW00Zw?oc=5",
           "source": "ニコニコニュース",
           "published_at": "2026-11-05T02:15:19Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b55fd7850ceeec6b",
+          "title": "【設備保全DX】食品工場Week 2026に次世代設備保全クラウド「M2X」ブースを出展 (2026年11月5日掲載)",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZZ2V1cjlTMmxiWTJmT24zWXFPcWw2NTFudjhEY3FVN3VHLUZuX2RVUUhpa19wRzZnVVhQNkdiNjF3OFFCV18ta2pTcjVyTVBVU0tGTHJMY3oyZC1UeFpwMDFn?oc=5",
+          "source": "ライブドアニュース",
+          "published_at": "2026-11-05T00:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -243,16 +243,6 @@
     "retail": {
       "label": "小売店",
       "articles": [
-        {
-          "id": "82ad0c57f3da7aa4",
-          "title": "九州エリア初出店となる新店舗 『 WIND AND SEA FUKUOKA 』 11/7.sat オープン",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTYlU3OU1PZ3VPSUh2TFFERWxVb2VxSzcya1J3N2hwR3AwR2hocEhnZUJySEVNeUdpaFpFbS1INEhNeFJ5STQ5VHFQNXAybXBLTkZvNk5ORjZyX1BxbFg5eGR3T3YzZUNfUFE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-02T11:00:02Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "3c4efd9343a6d45d",
           "title": "バロー／都内初出店「スーパーマーケット バロー本羽田店」11月6日オープン",
@@ -304,11 +294,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "057fec4c982d8e12",
-          "title": "コスモス薬品／香川県・愛媛県に「ドラッグコスモス」計2店舗、27年5月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BcGVIR1cyMXdjaHp4YU9OeU1fcXNjSl9SSVI5LUR4ODV6TVJmeHZPWC0ybm5MOTlObE83S3VsZ1Z2UU5SRkpsbVZ2X3FLUWlHT1JaSXNR?oc=5",
+          "id": "03956ba6ece1bd45",
+          "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-20T07:00:00Z",
+          "published_at": "2026-10-19T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "24fb84123e0947c5",
+          "title": "イオンリテール／兵庫県小野市に「（仮称）そよら小野（店舗面積1万360m2）」27年4月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zQjdWVnRvM05NZmtRdmE2LVhVdTRESk9iY3pnWmd5aUk1OXNkQWJNUXJlb3BtWVE3azlMUmdacklSSEtjSk1ZZTF5YkZxVUt4UklUZzF3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-13T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-05T06:59:54Z",
-  "last_success_at": "2026-11-05T06:59:54Z",
+  "last_attempt_at": "2026-11-05T20:05:53Z",
+  "last_success_at": "2026-11-05T20:05:53Z",
   "consecutive_failure_count": 0
 }
