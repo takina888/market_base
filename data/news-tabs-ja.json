@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-04T19:53:05Z",
+  "generated_at": "2026-11-05T06:59:54Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "12a5279e40247b16",
-          "title": "日本のGDP「世界6位転落」は衰退の証しか、円安で縮む経済規模と脱デフレで見え始めた国内経済の変化",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5fNGVBcTA3RU5YZkJHS3FPNWlaWUYzNXlQTWZneWlYQU1Ca2F4WGY1ZVgwZk9XUjFtVzdDR2J0YWlGd2hyQjNVXzJzX2k?oc=5",
-          "source": "ダイヤモンド・オンライン",
-          "published_at": "2026-11-04T19:35:00Z",
+          "id": "975732268d66e772",
+          "title": "ソラコム[147A]：AECCの国際会議で、コネクテッドカー向け次世代通信「IRIGATE」の遠隔操作デモを展示 2026年11月5日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTHowNzJkSWNKNjJJNWVxY3h0WElGeHR2NUNjckJmeXU5ZlZpSW9VSC1IbEFDOWxVRnhMU1lKRlhBTGNVcUVodi04QUZfeS1MTE01aHN0Y3dwdkE4R3EwQU4xelJyMUh5YmpJWEUwOFJDZVZnZ3BVQmZqQU91SmNuMk9EeTVSd2lQbU5QRVNOY19aTjR3YUZqSW14LXJrRFlDOVZuaUVacEpkOUxZN2hnSnl5Z0tObjVVekl3YWJwcXMzQlFBZlBqeGNvRW4?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-11-05T03:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "015670fd61b2ba38",
-          "title": "eMAXIS 高配当全世界株式(オール・カントリー)配当払出型【03312269】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WMmt4NXAxbzBteHU3RF9VUU5KQXo2XzQzVVFRYnVpdVp2SlhvNDVyZmtqcjRhVTFoYVJxRTNNRGtyQWdZSHJtbV9ieXEwc2FHNmp3Mw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-04T17:08:47Z",
+          "id": "88a525766cbb3423",
+          "title": "食文化の海外展開・インバウンド拡大に取り組む外食事業者及び地方公共団体の支援対象を決定しました",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtZ1N1OXduQVE2TkhlYTJ6VldpTU10c3pZUFMySGdtZ2RtRzF0YTdMa09JVmxHaGFrTllOcmd3YTJ2bWVGUGpHeTQ1dGtZckdMMlV2RW03ZmNRbTE1REc5YUdOTGZ0TV9QY3c?oc=5",
+          "source": "農林水産省",
+          "published_at": "2026-10-30T01:33:25Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "318ba5ba79995aa9",
+          "title": "「世界津波の日」に語り継がれる「稲むらの火」…緊急停止した電車から高台へ走って避難訓練（読売新聞オンライン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80Ql9KbmNHazR2QW9wWTdfblU5UmNwYXJDNXNzMFY5WjA1bzRFRmw5QlN6d1N6RFBmdkpOUUdad2VqeDZjc1BUTkxRYkFTVFR5a1BoTzZGa1h5MTJQLVhlcXMzOFRkcjlEbmZuZVo2c3hTNGRaOG8wbGs0UktYR3M?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-05T05:41:31Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6729f1695a6425fa",
+          "title": "中国1-9月のサービス貿易、輸出入総額が前年比8.5％増",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vdWdMcDNoX3ZKb1Nxc2RZU21OcjY3NUp2SU1xZEx3Z0FzeFU3VDJXZThVcGt5T0g4MnlQNXAwekdUTUU3U1VMT2ktZDNHQUY0dGZlN2Jwb0IyWmlyc1EtU2lmNTl3RWs?oc=5",
+          "source": "人民網日本語版",
+          "published_at": "2026-11-05T05:34:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -43,47 +63,27 @@
           "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-04T17:00:37Z",
+          "published_at": "2026-11-05T05:33:34Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f6fd7ea5a209b16c",
-          "title": "eMAXIS Slim全世界株式(除く日本)【03316183】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqb2lvTnJ0Y3d6T2ZjNTBDZlozTnNKQzFBM2EwUEhEekk3alpReC02UWtxY19NUkIwN1pzMlB5aUZCbFprSG9HZS1DaGdmUlZyQ0ROdg?oc=5",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-04T16:50:58Z",
+          "published_at": "2026-11-05T05:20:46Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f64b0babe36c22b9",
-          "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-04T16:30:35Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0fac681ee13930d8",
-          "title": "WCM 世界成長株厳選ファンド(資産成長型)【6831121A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02RGYyeE9kSVF1UHdNbFVMQzMzNHNhcjYwWkZtcFZORjRkc0NMZ2s3UEZCNmZ1RDhBRUVDbXpweFBUX25QZkc3bkx6c1JPX1hXWk9PZQ?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-04T16:24:34Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6ab3fa20835bffa5",
-          "title": "米貿易赤字、0．7％減＝輸入最高も輸出伸びが上回る―9月☆差替(時事通信)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdUNvR1hVblh0bTQ4WFR4Z2ZOY2F0UDVsaDNKaUpOMXN5WExmVXJycldYbThVNWlXOHV5ZXdvektBeFgxN3pOWk1DQmwyLWVtWUlWbTg0dXBkaFRibF9yOERMclZ1UUs5Qlp5Ri1rbEhMUVlSZFUxVWtvTVJEM1hvV21JTkxmcTg?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-04T16:15:49Z",
+          "id": "2ccf5901a0e6b965",
+          "title": "国際学会で専門分野別最優秀論文賞を受賞",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LclZ5b1MycEs1aTdHN3FJN3NpNlRnYWhHNHd2OXNVUzR4Wlg5VkNpaFhCaEVOOXZDZEh2M2FDZTZ5ZVJWTjF2MFNyVXk4dXAyYkNQUmp2OTRIakY0YkJlZFF4Q3JLQQ?oc=5",
+          "source": "九州産業大学",
+          "published_at": "2026-11-05T05:17:19Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -219,21 +219,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6b72da5f6e5029b4",
-          "title": "「食品工場 Week 東京」に出展",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tUkJHbmFOMlhtVWdkdU5rX2ZjWGNNOWlXajRvME8yLTV1dVJQY19kdGJGM2I5NkpsVktSMjZKcS1NUEVUWmlsV28xb1UwNDAySi04Rkd3Z09EZng3d3dLb0ZyZGdTRVF5WFdJNHZ3VnRjUQ?oc=5",
-          "source": "Infoseek",
-          "published_at": "2026-11-04T17:15:23Z",
+          "id": "1d164ab1c727073d",
+          "title": "【設備保全DX】食品工場Week 2026に次世代設備保全クラウド「M2X」ブースを出展",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB1WkRCb25TQllwUEJ3Ml9WS1g2QW9GQ2lsN1lES2hScGpEUC1VNVFwSWZ0SkhnLUNESERJdllFd1R2bWVhTUxmWTA2S0Flek9JSFJtem9HN0tOLW43SGpvSkwwWDJlc1ktLXJTVnJpMXA1LW1aMTFxVW00Zw?oc=5",
+          "source": "ニコニコニュース",
+          "published_at": "2026-11-05T02:15:19Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "3b77f26d62fddc9c",
-          "title": "食品工場Week東京、物流効率化技術も展示",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UeEpVS0otc2YxckJ1R2NyLXljQUEzWVAyUDNwc3NwX3RPLURhdW1rQ3hIY3p5WnBrZDROTEx1bWxHNmk0VkI1M2V3?oc=5",
-          "source": "LOGISTICS TODAY",
-          "published_at": "2026-10-26T07:00:00Z",
+          "id": "6b72da5f6e5029b4",
+          "title": "「食品工場 Week 東京」に出展",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tUkJHbmFOMlhtVWdkdU5rX2ZjWGNNOWlXajRvME8yLTV1dVJQY19kdGJGM2I5NkpsVktSMjZKcS1NUEVUWmlsV28xb1UwNDAySi04Rkd3Z09EZng3d3dLb0ZyZGdTRVF5WFdJNHZ3VnRjUQ?oc=5",
+          "source": "Infoseek",
+          "published_at": "2026-11-04T17:15:23Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -243,6 +243,16 @@
     "retail": {
       "label": "小売店",
       "articles": [
+        {
+          "id": "82ad0c57f3da7aa4",
+          "title": "九州エリア初出店となる新店舗 『 WIND AND SEA FUKUOKA 』 11/7.sat オープン",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTYlU3OU1PZ3VPSUh2TFFERWxVb2VxSzcya1J3N2hwR3AwR2hocEhnZUJySEVNeUdpaFpFbS1INEhNeFJ5STQ5VHFQNXAybXBLTkZvNk5ORjZyX1BxbFg5eGR3T3YzZUNfUFE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-11-02T11:00:02Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "3c4efd9343a6d45d",
           "title": "バロー／都内初出店「スーパーマーケット バロー本羽田店」11月6日オープン",
@@ -268,7 +278,7 @@
           "title": "トライアル／茨城県土浦市に「スーパーセンタートライアル荒川沖店（店舗面積4200m2）」27年5月25日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CVlRsWW9fZGROcGZIWU1sZnFVQWc1TWZtS3ZhUGxZMUlkdUN6aUs0UDRNZnBrWWlvaTNUQWpXclFCcHAtTHc0Z19sM3JFZzV1NDVuOFpR?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-27T02:30:00Z",
+          "published_at": "2026-10-27T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -299,16 +309,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BcGVIR1cyMXdjaHp4YU9OeU1fcXNjSl9SSVI5LUR4ODV6TVJmeHZPWC0ybm5MOTlObE83S3VsZ1Z2UU5SRkpsbVZ2X3FLUWlHT1JaSXNR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-20T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "03956ba6ece1bd45",
-          "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-19T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-04T19:53:05Z",
-  "last_success_at": "2026-11-04T19:53:05Z",
+  "last_attempt_at": "2026-11-05T06:59:54Z",
+  "last_success_at": "2026-11-05T06:59:54Z",
   "consecutive_failure_count": 0
 }
