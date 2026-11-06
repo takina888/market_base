@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-05T20:05:53Z",
+  "generated_at": "2026-11-06T06:59:39Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,61 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "f969e82659f1a5a2",
-          "title": "アジア最大級の化粧品・美容関連製品等の国際見本市「Cosmoprof Asia 2026」ジャパン・パビリオンに29社が出展 ―J-ビューティーの魅力を発信― | 2026年 - お知らせ - お知らせ・記者発表",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80T01VTHBicUtUc1Q0N0dxaEs3WThYRTRYMkxtUjY1Q0RHeFpwU2Q0d0UxaVFpNV91SENGVDFPVzg4VGtZV1hpVzZaMDRWVWdwc2w4SFRvZWZvLUxvVzRYRnJEbzJrZjNyaUNRNW1JSjJvWU10NVhr?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-05T07:01:47Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3bbff22eb8d3e424",
-          "title": "アドベンチャー[6030]：「Newsweek」国際版に当社代表 中村俊一のインタビュー記事が掲載 -AIで旅の選択肢を広げるskyticketの取り組みを紹介- 2026年11月5日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVnVkMUJwU3hMVmdzRnZPU3h2SGZqZ2g3UWEzSFFTZjRPcGVueGxzc1hYMlV0b3YwblN0b3VRLTNERXJhaTlhWTcycldfSFhqdG5FdFdKRnR4V0ZhRl9aUm1TZGdaUHJrbDM1dEJjZE9BZkp6UEJkOWJOaTFyQ2Zxc1EwNXVVY0F5OFVXNm9lMzdxQlR6cC1EM04xRFdaZ0dLYm42RDd4RngzdWJDWHFSUzFlWTI3dnFfNjVwYXB5Nkl2TjZ5bjlpUG5STDY?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-05T06:30:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "88a525766cbb3423",
-          "title": "食文化の海外展開・インバウンド拡大に取り組む外食事業者及び地方公共団体の支援対象を決定しました",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtZ1N1OXduQVE2TkhlYTJ6VldpTU10c3pZUFMySGdtZ2RtRzF0YTdMa09JVmxHaGFrTllOcmd3YTJ2bWVGUGpHeTQ1dGtZckdMMlV2RW03ZmNRbTE1REc5YUdOTGZ0TV9QY3c?oc=5",
-          "source": "農林水産省",
-          "published_at": "2026-10-30T01:33:25Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "447c67a00c9a4172",
-          "title": "ＢＴＳ「ＡＲＩＲＡＮＧ」−再び７人で、世界へ−",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5waXFScllaeXdsc0Mwb3lVZkZMcW1iMkgtTjBaczlEa1lsVFZvaGhmZ29Od1NSekZMemtKaUFPQThVQ0ltdnZHblNkWHNuMUdZTGowMkVB?oc=5",
-          "source": "TBSテレビ",
-          "published_at": "2026-11-05T18:45:40Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-05T17:24:46Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e17f5a9574801a19",
-          "title": "MAXIS 全世界株式(オール・カントリー)上場投信【2559】：株価・株式情報（夜間PTS含む）",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xSWxxalI3TmVNN1IyLW1hX1ZCUW1Od0dwTkNxM0twMHZuYm1WdHVZdUNmRTcyZmlhNVBlUWNvQnFIOTc1Yl8tdlhHd1JIYUVtTGc?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-05T17:17:48Z",
+          "id": "e9a2dbaac306ad39",
+          "title": "2027年度の国際学生寮入寮者およびレジデント・アシスタント募集を開始",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JcWdJd2F5RDhobUlZbEdMX2w1bTQ5MVdLazJ2N2dsdlJ5NUxuQWVrUXg5M01tb05rT1lJUjdRN0FmNElBeTRkZkRIekJIVkUwanhsTUYxOE80VU0?oc=5",
+          "source": "静岡県立大学",
+          "published_at": "2026-11-06T06:02:48Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -83,7 +33,57 @@
           "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-05T17:09:20Z",
+          "published_at": "2026-11-06T05:53:12Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "11a04a578043a27f",
+          "title": "〈関連企画：オンライン講演会〉 ガリツィア・ユダヤ博物館の展覧会「世界に何かを残したい レーニャ・シュピゲルの日記の向こう側」",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84SEpPaE9KUEVZNXR2NHVPX1pUY1B0cTU1cXJKNnZyYkd0U25Pd3E5WEdyX0pjQXFTQ0JkbjhVTk5aVUNDQXhjOXBMeU9JNWpZYTdXczZBWlZYNzg?oc=5",
+          "source": "東京外国語大学",
+          "published_at": "2026-11-06T05:38:27Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e17f5a9574801a19",
+          "title": "MAXIS 全世界株式(オール・カントリー)上場投信【2559】：株価・株式情報（夜間PTS含む）",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xSWxxalI3TmVNN1IyLW1hX1ZCUW1Od0dwTkNxM0twMHZuYm1WdHVZdUNmRTcyZmlhNVBlUWNvQnFIOTc1Yl8tdlhHd1JIYUVtTGc?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-06T05:27:09Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f64b0babe36c22b9",
+          "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-06T04:56:55Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-06T04:16:47Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-06T04:10:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -154,11 +154,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "eb0ded89170b16a5",
-          "title": "計量顆粒充填機の世界市場（2026年～2032年）、市場規模（半自動、全自動）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5iOFNCTWRZTWZ2cWJEazdvNzdNUk9ZcHM4S2UwWndsWEs4MmZ5VUk3ZUNnVEpkdFVLcDRvaHYwQVJHLVZSZm1zSlBPYkItek0?oc=5",
-          "source": "Newscast.jp",
-          "published_at": "2026-11-04T06:00:00Z",
+          "id": "5e0a768b35b892d8",
+          "title": "食品選別機市場2035年予測：AIによる品質保証と食品安全規制で成長が加速",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRFlvYS1iNjEtYlk0Y1dodTNkRGl0NWt3QV9LUGlQVHp6X0pwZFJWSVdzRGdkazJRMTN3V3BSbU5IV0d0SlJxUTREOUFYUWJIRVB4WU1QTURMLVN5Mk9zd0p0YTc4d3kwVGZySmYwRUZ0S2lLM3dIYTdaUTluQUJRWFRDYUtvRkNadFRaY2U3bUZhSUx3VUM0NDk0bzU1VUppYUFCNVdCcU5ndE0wakE3R1JISVlmaWU5VHY1ZVoyaWQ2b3ZyVHdEbmVhZENXeUtmVk5OX21QNWtTODhEYkNibDhVQzVmMnVf?oc=5",
+          "source": "IndexBox",
+          "published_at": "2026-11-06T04:51:04Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -168,16 +168,6 @@
     "food_factory": {
       "label": "食品工場",
       "articles": [
-        {
-          "id": "ea8cc79be8189080",
-          "title": "帳票管理のカミナシ、物流・食品工場のAI活用支援 22億円調達",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91WE5EVU15VE00eWU0LWl3Z0tsaGtyRUVJQUx6ZHhPOEl2MWFQTmM3MmZ2VXlnZmtwM1BJTW4ySk96LURYb09teU9IR1NUa3pkbjltOU5SNDJuQXp1QTdWUFg2UzRLeWUyWG5YQQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-10-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "ac470e6e0246557b",
           "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
@@ -229,11 +219,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6b72da5f6e5029b4",
+          "id": "08eea3ab04e6bc40",
           "title": "「食品工場 Week 東京」に出展",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tUkJHbmFOMlhtVWdkdU5rX2ZjWGNNOWlXajRvME8yLTV1dVJQY19kdGJGM2I5NkpsVktSMjZKcS1NUEVUWmlsV28xb1UwNDAySi04Rkd3Z09EZng3d3dLb0ZyZGdTRVF5WFdJNHZ3VnRjUQ?oc=5",
-          "source": "Infoseek",
-          "published_at": "2026-11-04T17:15:23Z",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE92VG9fU0ktejQ0b3loZkh1UmNENGZtd1Y4YlVwYWxiT1l3VEhKWU5Nal8xd2g3cXNfeFd2Ri01OU1KWnIyRXppN3R2ZHZ1dWI1ckJvNHd2RTZpRmZHQ1ZBdmZjbTBfdGpJcEIzd0x0VWJTYWpVMmx3MTV2WQ?oc=5",
+          "source": "産経ニュース",
+          "published_at": "2026-11-04T05:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3b77f26d62fddc9c",
+          "title": "食品工場Week東京、物流効率化技術も展示",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UeEpVS0otc2YxckJ1R2NyLXljQUEzWVAyUDNwc3NwX3RPLURhdW1rQ3hIY3p5WnBrZDROTEx1bWxHNmk0VkI1M2V3?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-10-26T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-05T20:05:53Z",
-  "last_success_at": "2026-11-05T20:05:53Z",
+  "last_attempt_at": "2026-11-06T06:59:39Z",
+  "last_success_at": "2026-11-06T06:59:39Z",
   "consecutive_failure_count": 0
 }
