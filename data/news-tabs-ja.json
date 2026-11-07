@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-07T06:13:35Z",
+  "generated_at": "2026-11-07T13:17:23Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "9539f3d776d2de65",
-          "title": "『National Geographic』「2027年に行くべき世界の旅行先25選」大地の芸術祭が新潟県選出理由として掲載",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11TUdNM3F1SlI4cjY2bnhGZlRxdHVxclBkQjNPUFlDYlU5UmhZbFdTd1A4NEJfTmpSbnlVb0h5dXpodHZWR0ZsdDR6UGtrSkVZbFhCbHEwd2JUUGVWOXRUVFhfZGpDdDBnTjQw?oc=5",
-          "source": "大地の芸術祭",
-          "published_at": "2026-11-07T05:25:35Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6c75fa4ad5d7c5eb",
-          "title": "米財務長官とUSTR代表、中国の貿易合意順守巡り懸念示す－閣僚級協議",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY0V6bnA0UVc2N1poeXhvZy1ld19kUnNoZ2tUeWRId1UzSDBSOUVhbW1pV0F5OE9JUUx6cFJ6ZmZkYUJhVGl0ODZqUHk5dl9vSkhpRXJPNThpQ3U4aWtCSGxzOXYzcEZHSE56U1I2cHhlQ0EyLTk2WE5zbnU5djVqbUtsYWVVNGxRblRmMmtR?oc=5",
-          "source": "Bloomberg.com",
-          "published_at": "2026-11-07T04:57:00Z",
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-07T12:01:36Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -43,47 +33,57 @@
           "title": "たわらノーロード 全世界株式【47312197】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44cVRKdGliUWhFTl8wdlNUeXpFTGtWcXNjS3ZhWW14Rl9fWDBieWNBcm90YUdPN3dDY0FPTHNBbFhILVVnLTRVVEVNSmhqQVBJMlV6Yg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T04:56:29Z",
+          "published_at": "2026-11-07T11:51:31Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+          "id": "f64b0babe36c22b9",
+          "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T04:00:46Z",
+          "published_at": "2026-11-07T11:14:59Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "af6718caaca8a720",
-          "title": "次世代通信関連 世界株式戦略ファンド(予想分配金提示型)【64311215】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SVJjbk1Wb0h3VW1pUUMzbFVMOVJRZlRnMm45bzQ2VndhWTNSeFZrelRnLXJRZHlGLUpFZENEb1NpUlNEdXgycXByWXd6Z0RSakhMTg?oc=5",
+          "id": "9383756c58874eae",
+          "title": "2026年11月7日：バーミンガムが世界で最も汚染された都市トップ10に",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWVSbUV4NXpuaVRhbjVFenhBazJsZFhzX2Eyckl1ejZmQ1UtRHF1MEZielREY0tQa3VZNmRKQ1lUVVpwQS00VUhwT25NTVFXQnJhRTVpRXJTZHRBeDJZSTROUkFIa1N6Vmp1WHBRTGVFR2RLeFFDUTdZNllNcjRhM3hrYTRRMm1KNm5xSmt2MTR2VF9sU2NxYXpHVlRjWmdjdUZj?oc=5",
+          "source": "IQAir",
+          "published_at": "2026-11-07T10:40:49Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T03:56:04Z",
+          "published_at": "2026-11-07T10:25:52Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d7d9749f4df8766b",
-          "title": "世界くらべてみたら★VIVANT堺雅人阿部寛二宮和也×アゼルバイジャン [字]",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lQnJzaV9uOHBLckpvaXpfaDhnMDZSTEhjeDl0Tm9tNGxETnZsNjN1U19feEdEelg4OVJYSXdiakMycVdhLWNoQkl2cGk0VkMtNDUzS3RR?oc=5",
-          "source": "TBSテレビ",
-          "published_at": "2026-11-07T03:51:11Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a2ec51b38e04ca45",
-          "title": "SBI 全世界高配当株式ファンド(年4回決算型)【8931124A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16dFl2cllWV181b1RuSVNkS0pfYlVqMUtidmdWTnk5bm5JdU5XaGV5MmpORzBQQnRWSmNOWDlQdUx1blNFc3g4YlFOenhhb0VzVGYtbw?oc=5",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T03:16:06Z",
+          "published_at": "2026-11-07T10:22:07Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a6d3051129a66c12",
+          "title": "iFreePlus 世界トレンド・テクノロジー株(Zテック20)【0431124C】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aU2Jsa2tjRm02UVdPdEQzOFM5aGJTY3Y1TWphX3JBTXl2aTBwSVJaaGR2RHE1djR0b0UzRF9uZm9vbXdWVGJya2RTT3NRSk9UWWNMZw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-07T10:09:46Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -169,6 +169,16 @@
       "label": "食品工場",
       "articles": [
         {
+          "id": "493fd235ced80624",
+          "title": "【設備保全DX】食品工場Week 2026に次世代設備保全クラウド「M2X」ブースを出展",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBNzg2N2dvbS1paTRxb0pBaUpjMENlRS1NbGNFaWJyM1RKYWxCZkViVGpuOWtGc3BveDczZ1J5UVczdDdCOE1iTXRHVjFoUHBucVh3VFBhTmh1dlBMTk1VSlREbWxrUHVTTUE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-11-05T00:00:01Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "ac470e6e0246557b",
           "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94YWQ3eFJXbDRXNlQ2YVRiMnE3ZU5tclZ5NUZ3Y3pHbVNTcDdzSXhEQjdlSmhZOXB1Uk9XaXdjYjU2a256VUNlNTZIUFZBTDhwVjV1d3pVeEZuYlE?oc=5",
@@ -194,16 +204,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-25T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "1d164ab1c727073d",
-          "title": "【設備保全DX】食品工場Week 2026に次世代設備保全クラウド「M2X」ブースを出展",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB1WkRCb25TQllwUEJ3Ml9WS1g2QW9GQ2lsN1lES2hScGpEUC1VNVFwSWZ0SkhnLUNESERJdllFd1R2bWVhTUxmWTA2S0Flek9JSFJtem9HN0tOLW43SGpvSkwwWDJlc1ktLXJTVnJpMXA1LW1aMTFxVW00Zw?oc=5",
-          "source": "ニコニコニュース",
-          "published_at": "2026-11-05T02:15:19Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -294,21 +294,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "03956ba6ece1bd45",
-          "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
+          "id": "057fec4c982d8e12",
+          "title": "コスモス薬品／香川県・愛媛県に「ドラッグコスモス」計2店舗、27年5月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BcGVIR1cyMXdjaHp4YU9OeU1fcXNjSl9SSVI5LUR4ODV6TVJmeHZPWC0ybm5MOTlObE83S3VsZ1Z2UU5SRkpsbVZ2X3FLUWlHT1JaSXNR?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-19T07:00:00Z",
+          "published_at": "2026-10-20T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "24fb84123e0947c5",
-          "title": "イオンリテール／兵庫県小野市に「（仮称）そよら小野（店舗面積1万360m2）」27年4月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zQjdWVnRvM05NZmtRdmE2LVhVdTRESk9iY3pnWmd5aUk1OXNkQWJNUXJlb3BtWVE3azlMUmdacklSSEtjSk1ZZTF5YkZxVUt4UklUZzF3?oc=5",
+          "id": "03956ba6ece1bd45",
+          "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-13T07:00:00Z",
+          "published_at": "2026-10-19T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-07T06:13:35Z",
-  "last_success_at": "2026-11-07T06:13:35Z",
+  "last_attempt_at": "2026-11-07T13:17:23Z",
+  "last_success_at": "2026-11-07T13:17:23Z",
   "consecutive_failure_count": 0
 }
