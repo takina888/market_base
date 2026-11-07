@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-06T19:31:23Z",
+  "generated_at": "2026-11-07T06:13:35Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,51 +19,41 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "9539f3d776d2de65",
+          "title": "『National Geographic』「2027年に行くべき世界の旅行先25選」大地の芸術祭が新潟県選出理由として掲載",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11TUdNM3F1SlI4cjY2bnhGZlRxdHVxclBkQjNPUFlDYlU5UmhZbFdTd1A4NEJfTmpSbnlVb0h5dXpodHZWR0ZsdDR6UGtrSkVZbFhCbHEwd2JUUGVWOXRUVFhfZGpDdDBnTjQw?oc=5",
+          "source": "大地の芸術祭",
+          "published_at": "2026-11-07T05:25:35Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6c75fa4ad5d7c5eb",
+          "title": "米財務長官とUSTR代表、中国の貿易合意順守巡り懸念示す－閣僚級協議",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY0V6bnA0UVc2N1poeXhvZy1ld19kUnNoZ2tUeWRId1UzSDBSOUVhbW1pV0F5OE9JUUx6cFJ6ZmZkYUJhVGl0ODZqUHk5dl9vSkhpRXJPNThpQ3U4aWtCSGxzOXYzcEZHSE56U1I2cHhlQ0EyLTk2WE5zbnU5djVqbUtsYWVVNGxRblRmMmtR?oc=5",
+          "source": "Bloomberg.com",
+          "published_at": "2026-11-07T04:57:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "02228848766591c5",
+          "title": "たわらノーロード 全世界株式【47312197】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44cVRKdGliUWhFTl8wdlNUeXpFTGtWcXNjS3ZhWW14Rl9fWDBieWNBcm90YUdPN3dDY0FPTHNBbFhILVVnLTRVVEVNSmhqQVBJMlV6Yg?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-07T04:56:29Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "2fb2ef7c2e5617dd",
           "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-06T18:10:54Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-06T17:44:11Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e17f5a9574801a19",
-          "title": "MAXIS 全世界株式(オール・カントリー)上場投信【2559】：株価・株式情報（夜間PTS含む）",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xSWxxalI3TmVNN1IyLW1hX1ZCUW1Od0dwTkNxM0twMHZuYm1WdHVZdUNmRTcyZmlhNVBlUWNvQnFIOTc1Yl8tdlhHd1JIYUVtTGc?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-06T17:24:06Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f64b0babe36c22b9",
-          "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-06T17:17:58Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "314934741d7d523e",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(年1回決算型)【1831218A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IZzJjMm9nUUYzZ2pIQTh1R1UycUhMMERSbzZsMDhWck81VkhYN2c3bEVoSXdSdXpwWWFxdkw0dXZxZ3R3bFJzX05jdHdVc2NjR2dscQ?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-06T16:47:36Z",
+          "published_at": "2026-11-07T04:00:46Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -73,17 +63,27 @@
           "title": "次世代通信関連 世界株式戦略ファンド(予想分配金提示型)【64311215】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SVJjbk1Wb0h3VW1pUUMzbFVMOVJRZlRnMm45bzQ2VndhWTNSeFZrelRnLXJRZHlGLUpFZENEb1NpUlNEdXgycXByWXd6Z0RSakhMTg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-06T15:48:41Z",
+          "published_at": "2026-11-07T03:56:04Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a6d3051129a66c12",
-          "title": "iFreePlus 世界トレンド・テクノロジー株(Zテック20)【0431124C】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aU2Jsa2tjRm02UVdPdEQzOFM5aGJTY3Y1TWphX3JBTXl2aTBwSVJaaGR2RHE1djR0b0UzRF9uZm9vbXdWVGJya2RTT3NRSk9UWWNMZw?oc=5",
+          "id": "d7d9749f4df8766b",
+          "title": "世界くらべてみたら★VIVANT堺雅人阿部寛二宮和也×アゼルバイジャン [字]",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lQnJzaV9uOHBLckpvaXpfaDhnMDZSTEhjeDl0Tm9tNGxETnZsNjN1U19feEdEelg4OVJYSXdiakMycVdhLWNoQkl2cGk0VkMtNDUzS3RR?oc=5",
+          "source": "TBSテレビ",
+          "published_at": "2026-11-07T03:51:11Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a2ec51b38e04ca45",
+          "title": "SBI 全世界高配当株式ファンド(年4回決算型)【8931124A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16dFl2cllWV181b1RuSVNkS0pfYlVqMUtidmdWTnk5bm5JdU5XaGV5MmpORzBQQnRWSmNOWDlQdUx1blNFc3g4YlFOenhhb0VzVGYtbw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-06T15:48:41Z",
+          "published_at": "2026-11-07T03:16:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -154,11 +154,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5e0a768b35b892d8",
-          "title": "食品選別機市場2035年予測：AIによる品質保証と食品安全規制で成長が加速",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRFlvYS1iNjEtYlk0Y1dodTNkRGl0NWt3QV9LUGlQVHp6X0pwZFJWSVdzRGdkazJRMTN3V3BSbU5IV0d0SlJxUTREOUFYUWJIRVB4WU1QTURMLVN5Mk9zd0p0YTc4d3kwVGZySmYwRUZ0S2lLM3dIYTdaUTluQUJRWFRDYUtvRkNadFRaY2U3bUZhSUx3VUM0NDk0bzU1VUppYUFCNVdCcU5ndE0wakE3R1JISVlmaWU5VHY1ZVoyaWQ2b3ZyVHdEbmVhZENXeUtmVk5OX21QNWtTODhEYkNibDhVQzVmMnVf?oc=5",
-          "source": "IndexBox",
-          "published_at": "2026-11-06T04:51:04Z",
+          "id": "eb0ded89170b16a5",
+          "title": "計量顆粒充填機の世界市場（2026年～2032年）、市場規模（半自動、全自動）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5iOFNCTWRZTWZ2cWJEazdvNzdNUk9ZcHM4S2UwWndsWEs4MmZ5VUk3ZUNnVEpkdFVLcDRvaHYwQVJHLVZSZm1zSlBPYkItek0?oc=5",
+          "source": "Newscast.jp",
+          "published_at": "2026-11-04T06:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -219,11 +219,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "08eea3ab04e6bc40",
+          "id": "6b72da5f6e5029b4",
           "title": "「食品工場 Week 東京」に出展",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE92VG9fU0ktejQ0b3loZkh1UmNENGZtd1Y4YlVwYWxiT1l3VEhKWU5Nal8xd2g3cXNfeFd2Ri01OU1KWnIyRXppN3R2ZHZ1dWI1ckJvNHd2RTZpRmZHQ1ZBdmZjbTBfdGpJcEIzd0x0VWJTYWpVMmx3MTV2WQ?oc=5",
-          "source": "産経ニュース",
-          "published_at": "2026-11-04T05:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tUkJHbmFOMlhtVWdkdU5rX2ZjWGNNOWlXajRvME8yLTV1dVJQY19kdGJGM2I5NkpsVktSMjZKcS1NUEVUWmlsV28xb1UwNDAySi04Rkd3Z09EZng3d3dLb0ZyZGdTRVF5WFdJNHZ3VnRjUQ?oc=5",
+          "source": "Infoseek",
+          "published_at": "2026-11-04T17:15:23Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -294,21 +294,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f63fc77c9f333403",
-          "title": "トライアル／徳島県阿波市に「スーパーセンタートライアル阿波岩津店（店舗面積3292m2）」27年5月12日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tNW5oVmdSdjh5WnlIQ0lxdExoRWlTckRFOVZzMmhhOTdNbnlFZHJyWFdxRktDTmZENk5GN0FzQVliWGZlQU9uSkEtbFhLVVBxU29Ja0Vn?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-21T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "03956ba6ece1bd45",
           "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-19T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "24fb84123e0947c5",
+          "title": "イオンリテール／兵庫県小野市に「（仮称）そよら小野（店舗面積1万360m2）」27年4月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zQjdWVnRvM05NZmtRdmE2LVhVdTRESk9iY3pnWmd5aUk1OXNkQWJNUXJlb3BtWVE3azlMUmdacklSSEtjSk1ZZTF5YkZxVUt4UklUZzF3?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-13T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -318,6 +318,26 @@
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "e3eb956f85cd4512",
+          "title": "「“日本の食品”輸出EXPO」開催、欧州向け輸出企業は規制対応を模索(日本、EU) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wSlJSVGJNM3JMb2hfUXI3NlZUVERvQmh3MEkyN3Zad3hMVHg1WllJd0thV0dIUDIzdlZLbFVIdU5CVGdhLVdlQkl6ZmI4NThDSTZYaEQ3bjBfZFMyNEdvdEREaU5QSUxEM0l2VFd3?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-07-15T07:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "512f9cd11702a82b",
+          "title": "抗菌性プラスチックに関する調査研究：市場見通し、規制動向、および2026年から2033年",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA4d2JsNGRXZ2RxQ3N2QmJRVFZGMWFqZ3podk1zY3g3eEtLT0NLVHZEbkZueTZWQ0ZrNzhZWkc1WnNhWU9wczF1Q2ln?oc=5",
+          "source": "pando.life",
+          "published_at": "2026-11-06T22:12:31Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "ef503c10ab6704c7",
           "title": "ヘルシーDo(北海道食品機能性表示制度) - 経済部食関連産業局食産業振興課",
@@ -367,31 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "02d0d1bb11d517ee",
-          "title": "米国の食品添加物検査という「障壁」に対し、水産物輸出業者はどのように対応しているのか？",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSHNLN1JiSlhKZ19jUnpKN3VIamNabFQ4TGRHZDBpeUNBZk1zMTFOOTJIQWpLUFVnRE13cWQxaVZfbmRuTDBQMGhJa25JaHZ6bzQ2S2NXTzhEbEhZdkp4cy1uM1Bxc25DclJLajU1SjhxVmVVVGtjMXFxX0dLVDFjbXVBSjNxWm8xeXhUZDlnOTdFWnpCT3JyMTByaHF0VDdhQ0RxUVAzWld5eVBzWkxSUlFsZEtfeHVfaHNxWQ?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-13T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f9aad91c93250214",
-          "title": "寄稿／中国が化学品管理法規体系を再構築",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42VVMycmQwUTNQdlF3bFd4LVJNS0dzeVlSRHdkQUxNU1g0WkVRWDFYdmNLUExBQ2VWWWRxWF9xb2d2OWlaRTE5ZDJjVlV2VU9oTE9B?oc=5",
-          "source": "化学工業日報 電子版",
-          "published_at": "2026-10-08T01:53:32Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-11-06T19:31:23Z",
-  "last_success_at": "2026-11-06T19:31:23Z",
+  "last_attempt_at": "2026-11-07T06:13:35Z",
+  "last_success_at": "2026-11-07T06:13:35Z",
   "consecutive_failure_count": 0
 }
