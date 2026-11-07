@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-07T13:17:23Z",
+  "generated_at": "2026-11-07T21:59:45Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T12:01:36Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "02228848766591c5",
-          "title": "たわらノーロード 全世界株式【47312197】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44cVRKdGliUWhFTl8wdlNUeXpFTGtWcXNjS3ZhWW14Rl9fWDBieWNBcm90YUdPN3dDY0FPTHNBbFhILVVnLTRVVEVNSmhqQVBJMlV6Yg?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T11:51:31Z",
+          "id": "14af4a9e19dadc45",
+          "title": "田中均氏「国際秩序を捨てた米国 日中関係を調整せよ」",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4YWFOWmZtek5jSW5KMlhXMjg1dnJERlVzdEVkYWZlOFRTbF92MmdNWVBocTZmWWx0NnV4MmR6blQ2TldPdTV4SWJGN1N2U2J1VGhfS3o2d0hEaFNKYTBobFNVY2lpVVl6My1KWVNhdE40am9XM3BjRDE5QkFXd3M?oc=5",
+          "source": "毎日新聞",
+          "published_at": "2026-11-07T21:30:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -43,27 +33,27 @@
           "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T11:14:59Z",
+          "published_at": "2026-11-07T21:24:24Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9383756c58874eae",
-          "title": "2026年11月7日：バーミンガムが世界で最も汚染された都市トップ10に",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWVSbUV4NXpuaVRhbjVFenhBazJsZFhzX2Eyckl1ejZmQ1UtRHF1MEZielREY0tQa3VZNmRKQ1lUVVpwQS00VUhwT25NTVFXQnJhRTVpRXJTZHRBeDJZSTROUkFIa1N6Vmp1WHBRTGVFR2RLeFFDUTdZNllNcjRhM3hrYTRRMm1KNm5xSmt2MTR2VF9sU2NxYXpHVlRjWmdjdUZj?oc=5",
-          "source": "IQAir",
-          "published_at": "2026-11-07T10:40:49Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "id": "02228848766591c5",
+          "title": "たわらノーロード 全世界株式【47312197】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44cVRKdGliUWhFTl8wdlNUeXpFTGtWcXNjS3ZhWW14Rl9fWDBieWNBcm90YUdPN3dDY0FPTHNBbFhILVVnLTRVVEVNSmhqQVBJMlV6Yg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T10:25:52Z",
+          "published_at": "2026-11-07T20:44:09Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-07T19:54:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -73,17 +63,27 @@
           "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T10:22:07Z",
+          "published_at": "2026-11-07T19:52:54Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a6d3051129a66c12",
-          "title": "iFreePlus 世界トレンド・テクノロジー株(Zテック20)【0431124C】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aU2Jsa2tjRm02UVdPdEQzOFM5aGJTY3Y1TWphX3JBTXl2aTBwSVJaaGR2RHE1djR0b0UzRF9uZm9vbXdWVGJya2RTT3NRSk9UWWNMZw?oc=5",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T10:09:46Z",
+          "published_at": "2026-11-07T19:31:53Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "65f01cf5b8b5d062",
+          "title": "中部国際空港設備に不具合なし（共同通信）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vRVNxbDlsY1ljNThVTnFHSkJSOVc0U0t6VWtIQnZLc2RPSjFYaFFLMVFyT2hUMlJRbXMzclhxR0VIUWFPU1dYWGYxajlFZmJPUlZDYjhNWW80eVRzbUhCV1NPQnFfYXJCYU5KRWxEc0RNQXJNU2JGaDk1RG5ua0E?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-07T19:07:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -199,16 +199,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "56b76612a9a8629b",
-          "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-25T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "b55fd7850ceeec6b",
           "title": "【設備保全DX】食品工場Week 2026に次世代設備保全クラウド「M2X」ブースを出展 (2026年11月5日掲載)",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZZ2V1cjlTMmxiWTJmT24zWXFPcWw2NTFudjhEY3FVN3VHLUZuX2RVUUhpa19wRzZnVVhQNkdiNjF3OFFCV18ta2pTcjVyTVBVU0tGTHJMY3oyZC1UeFpwMDFn?oc=5",
@@ -237,6 +227,16 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8f47d9b1da0f4310",
+          "title": "「食品工場Week大阪」開催、省人化・品質向上を支援するDX技術が集結",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hUjB6ZkhsMG1TbGFaTHRfRmZMdUVQc3hleWJfLWhwRmhqbllFTzF5RS1JejdHNFE0NDBOZkFlLVF6eEhiS2V5UVRuak1HQ0YwaGc?oc=5",
+          "source": "電波新聞デジタル",
+          "published_at": "2026-10-05T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -248,7 +248,7 @@
           "title": "バロー／都内初出店「スーパーマーケット バロー本羽田店」11月6日オープン",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RWGFITkhVN004ZUJRcWJvM0ViYlJCenpuY1ZrV0ltMkZsUFBYOG41SHl3Skdnc01EMHpuVHhRVEFsMGJhd29IMDdUazlBcDBkTTdZNw?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-30T04:25:00Z",
+          "published_at": "2026-10-30T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-07T13:17:23Z",
-  "last_success_at": "2026-11-07T13:17:23Z",
+  "last_attempt_at": "2026-11-07T21:59:45Z",
+  "last_success_at": "2026-11-07T21:59:45Z",
   "consecutive_failure_count": 0
 }
