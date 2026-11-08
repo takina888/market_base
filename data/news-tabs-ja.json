@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-07T21:59:45Z",
+  "generated_at": "2026-11-08T06:18:25Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "14af4a9e19dadc45",
-          "title": "田中均氏「国際秩序を捨てた米国 日中関係を調整せよ」",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4YWFOWmZtek5jSW5KMlhXMjg1dnJERlVzdEVkYWZlOFRTbF92MmdNWVBocTZmWWx0NnV4MmR6blQ2TldPdTV4SWJGN1N2U2J1VGhfS3o2d0hEaFNKYTBobFNVY2lpVVl6My1KWVNhdE40am9XM3BjRDE5QkFXd3M?oc=5",
-          "source": "毎日新聞",
-          "published_at": "2026-11-07T21:30:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f64b0babe36c22b9",
-          "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T21:24:24Z",
+          "id": "f99127d723381fd1",
+          "title": "海外活動の資料を独自分析 契約めぐる“不透明な実態”とは",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqbGt0OGhtVUh5ZzZ4RzBqY0NucDkwWElGejZMVUhVQU9oZVk5VC1qSEViRnJjem5WQXlDQmR4bnF2QUJEVDRqYjNCTjVPVl9nX2RxenU2TmhuLWRWMTFKdGNnOFRWZw?oc=5",
+          "source": "NHK",
+          "published_at": "2026-11-05T12:48:54Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -43,17 +33,7 @@
           "title": "たわらノーロード 全世界株式【47312197】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44cVRKdGliUWhFTl8wdlNUeXpFTGtWcXNjS3ZhWW14Rl9fWDBieWNBcm90YUdPN3dDY0FPTHNBbFhILVVnLTRVVEVNSmhqQVBJMlV6Yg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T20:44:09Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T19:54:00Z",
+          "published_at": "2026-11-08T04:33:12Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -63,27 +43,47 @@
           "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T19:52:54Z",
+          "published_at": "2026-11-08T04:27:11Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-07T19:31:53Z",
+          "published_at": "2026-11-08T02:44:47Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "65f01cf5b8b5d062",
-          "title": "中部国際空港設備に不具合なし（共同通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vRVNxbDlsY1ljNThVTnFHSkJSOVc0U0t6VWtIQnZLc2RPSjFYaFFLMVFyT2hUMlJRbXMzclhxR0VIUWFPU1dYWGYxajlFZmJPUlZDYjhNWW80eVRzbUhCV1NPQnFfYXJCYU5KRWxEc0RNQXJNU2JGaDk1RG5ua0E?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-07T19:07:00Z",
+          "id": "27ee308f9b623157",
+          "title": "半導体関連 世界株式戦略ファンド【64311237】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBJa3ZKeU1fQVc1ZEhUT2ZqaHE2TWFqMFBnaVlfazA5d0h1Tld2bG1lcU1YSmItUnByVXlHZ0tpdnVjNWlQMW1RWm5FRjhubWN0N0MzRQ?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-08T02:30:44Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f64b0babe36c22b9",
+          "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-08T02:14:48Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "a6d3051129a66c12",
+          "title": "iFreePlus 世界トレンド・テクノロジー株(Zテック20)【0431124C】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aU2Jsa2tjRm02UVdPdEQzOFM5aGJTY3Y1TWphX3JBTXl2aTBwSVJaaGR2RHE1djR0b0UzRF9uZm9vbXdWVGJya2RTT3NRSk9UWWNMZw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-08T02:07:51Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -154,11 +154,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "eb0ded89170b16a5",
-          "title": "計量顆粒充填機の世界市場（2026年～2032年）、市場規模（半自動、全自動）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5iOFNCTWRZTWZ2cWJEazdvNzdNUk9ZcHM4S2UwWndsWEs4MmZ5VUk3ZUNnVEpkdFVLcDRvaHYwQVJHLVZSZm1zSlBPYkItek0?oc=5",
-          "source": "Newscast.jp",
-          "published_at": "2026-11-04T06:00:00Z",
+          "id": "ad639529415c4b0a",
+          "title": "声だけの選別機に、画面がつきました。防水はかり×タブレットの音声選果はかり",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlUzdtLTRrUjlkV0ptQjlfc0NySFBmN2RoR3RzczJRUUFTZWlYaUx3STZ1SEN4WHhteE9IN0duMVMyTXJNYmRVdGYtT0d4UFpNTWVN?oc=5",
+          "source": "CAMPFIRE (キャンプファイヤー)",
+          "published_at": "2026-11-06T03:06:23Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -219,21 +219,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "3b77f26d62fddc9c",
-          "title": "食品工場Week東京、物流効率化技術も展示",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UeEpVS0otc2YxckJ1R2NyLXljQUEzWVAyUDNwc3NwX3RPLURhdW1rQ3hIY3p5WnBrZDROTEx1bWxHNmk0VkI1M2V3?oc=5",
-          "source": "LOGISTICS TODAY",
-          "published_at": "2026-10-26T07:00:00Z",
+          "id": "d81a8b2e867f488f",
+          "title": "「食品工場 Week 東京」に出展 (2026年11月4日掲載)",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmd0N2N1pwaHdJcmU0MHJXMVJkQU1rTlFlblhxRE5rSzYxd3ZMbnNIMnhIWU1uQjdSbE9FTW9QR1NBRTJTb1p3Zkx6WGtsN1N0UHRjY2lieThLeTdfdjRGdkN3?oc=5",
+          "source": "ライブドアニュース",
+          "published_at": "2026-11-04T05:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8f47d9b1da0f4310",
-          "title": "「食品工場Week大阪」開催、省人化・品質向上を支援するDX技術が集結",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hUjB6ZkhsMG1TbGFaTHRfRmZMdUVQc3hleWJfLWhwRmhqbllFTzF5RS1JejdHNFE0NDBOZkFlLVF6eEhiS2V5UVRuak1HQ0YwaGc?oc=5",
-          "source": "電波新聞デジタル",
-          "published_at": "2026-10-05T07:00:00Z",
+          "id": "3b77f26d62fddc9c",
+          "title": "食品工場Week東京、物流効率化技術も展示",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UeEpVS0otc2YxckJ1R2NyLXljQUEzWVAyUDNwc3NwX3RPLURhdW1rQ3hIY3p5WnBrZDROTEx1bWxHNmk0VkI1M2V3?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-10-26T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-07T21:59:45Z",
-  "last_success_at": "2026-11-07T21:59:45Z",
+  "last_attempt_at": "2026-11-08T06:18:25Z",
+  "last_success_at": "2026-11-08T06:18:25Z",
   "consecutive_failure_count": 0
 }
