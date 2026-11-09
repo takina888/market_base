@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-08T22:15:31Z",
+  "generated_at": "2026-11-09T06:51:35Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,41 +19,51 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "f99127d723381fd1",
-          "title": "海外活動の資料を独自分析 契約めぐる“不透明な実態”とは",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqbGt0OGhtVUh5ZzZ4RzBqY0NucDkwWElGejZMVUhVQU9oZVk5VC1qSEViRnJjem5WQXlDQmR4bnF2QUJEVDRqYjNCTjVPVl9nX2RxenU2TmhuLWRWMTFKdGNnOFRWZw?oc=5",
-          "source": "NHK",
-          "published_at": "2026-11-05T12:48:54Z",
+          "id": "b9a30bb367d4752c",
+          "title": "カップヌードル 異世界合体、9日に3品発売 銀だこ・カラムーチョの味も",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9jeUloeG12b2FWeGxEenp5Mmp0dGJIS2hYTzU3cmdDeHVHWnRXS0tVckgzRjB6OGplZ096dk5OYmxTTm1zcmV6OE4yZVdvYVFQcEJKa0xCWQ?oc=5",
+          "source": "共同通信PRワイヤー",
+          "published_at": "2026-11-09T03:52:10Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-08T21:08:32Z",
+          "id": "557c17a8d66af327",
+          "title": "北海道大学とジェトロ、包括的連携推進協定を締結 ―先端技術の国際展開、グローバル人材育成、産学連携を通じて北海道の発展に貢献― | 2026年 - お知らせ - お知らせ・記者発表",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByUVU0UXBjNkpTcHpxaURXbVQ3S1lycW43aDBGZURmOS1GRTJSeDlVTGJOU29jM0ZPTmJYVndRSEE3ZmM0ZDZVdy1PeHVLYmRUVzVuaXBWb2hrbVBySlZ5elgxY01SaVdDMmF0UWh4NGt1OGJxQkg0?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-09T02:35:03Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-08T20:40:49Z",
+          "id": "137769a530b7d9af",
+          "title": "1 EUの150ユーロ以下免税措置の撤廃およびユニオンハンドリングフィー（UHF）の導入",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMUVHWDJmLTBJSzhDLWtXOFM4ZHZJOVN5c3lVel9RNWJvQndQV3FSMWRsOEpDcXdId3AyRERZcmJ3UmJVRjBrTUI3UzRUbG1oeGZkUXdMM3dhNDd1RGNNRUxQN2JNdUhVeTA5Y0lVR1c2V1hIRFhVczJQWWpLZENkc05yS2tZRlU?oc=5",
+          "source": "郵便局",
+          "published_at": "2026-11-09T06:08:33Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0cbb0799a666c38e",
-          "title": "動き出すインド半導体、狙うは「世界の工場」 ラピダスも参戦",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yRTA4cTRWY0xUbnhDTGVuNlg0LWdkMXlfSXZnbHF1N0RGMXpxaGtVa2V4a2NkUjZJeUhuYW95N3NhNUJCV2dkRko0cEJzMVoxdS1mS2tQNGdEMldsYnExaTYwTlNVTFdnVXJQLQ?oc=5",
-          "source": "日経クロステック",
-          "published_at": "2026-11-08T20:00:00Z",
+          "id": "da3d073f03d5918e",
+          "title": "「開設コスト低下が背景か」 偽基地局、海外でも摘発 専門家指摘（時事通信）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VYUYtNlFHZ0g2LVBhSmE2VmI0UThlUEpmTVVlakhySVdqMXQwNksyWXJTWDh4d0lXNl9tbnhRcVNoVHZDWGMwR2Y1S0dGcklYS2ctT1NoTFZsNmlrbi1QdDRKdlVUX1JOOXFUWkJ1cVh3V21YTTdIZXpaLUh6VkU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-09T05:33:32Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b77deaed982b16c1",
+          "title": "世界の優秀な人材と超富裕層をめぐる各国の競争： ライフスタイル重視から人材重視へ",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeEpxcm5wd3I0U3ItZmNuMUFtcXhST1BZV3RkRHJBRWtRaExyU2Jib2RndkxLRWFLWWtHMVFkaVRNb1MtallfYXRCamNFWDZaRFM3LXhiODVhdEdhT24zcjNHOUlBelVLU19fZEczTUZPLThCTTBoWldTVVN6VFM1U29uWUFwbWxDUW9OUjhfQTBva0VaMTdkYVlkc0tTQkhxVGh3N2JIb1h0X1hNVzV2ckt1UklBZkk?oc=5",
+          "source": "ピクテ・ジャパン",
+          "published_at": "2026-11-09T05:31:44Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -63,27 +73,17 @@
           "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-08T19:44:37Z",
+          "published_at": "2026-11-09T04:44:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f6fd7ea5a209b16c",
-          "title": "eMAXIS Slim全世界株式(除く日本)【03316183】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqb2lvTnJ0Y3d6T2ZjNTBDZlozTnNKQzFBM2EwUEhEekk3alpReC02UWtxY19NUkIwN1pzMlB5aUZCbFprSG9HZS1DaGdmUlZyQ0ROdg?oc=5",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-08T17:40:24Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "015670fd61b2ba38",
-          "title": "eMAXIS 高配当全世界株式(オール・カントリー)配当払出型【03312269】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WMmt4NXAxbzBteHU3RF9VUU5KQXo2XzQzVVFRYnVpdVp2SlhvNDVyZmtqcjRhVTFoYVJxRTNNRGtyQWdZSHJtbV9ieXEwc2FHNmp3Mw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-08T17:08:47Z",
+          "published_at": "2026-11-09T04:35:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -154,11 +154,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "175217f576dfb5e8",
-          "title": "豆類選別機市場、2035年まで拡大へ―食品安全規制と人手不足が成長を後押し - ニュースと統計",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNR0FKb0Q4UXZMbTBIVHVRNG5RQ0UxT05falMwc24xX214Qnk1c3JJY3RLZEVBWDh6bWtwX01yU2JVcVhKMDZiV0puOURnajNrX1lXT01qMmdHaUlXcE9FUjhlN1l2MXc3bE9KTDVzZTYyN0k0azJSSFNkVkUtNTJiMF85dGhkS3MxYmJuZ0d1bU5oWjR5TGQ5SWVEQ29TX1pfaVF5SVVzV0hsaXEzcTNzRDlueW5hbHgyQnVnRTY2Mm1DRmFfeUE4?oc=5",
-          "source": "IndexBox",
-          "published_at": "2026-11-06T00:11:04Z",
+          "id": "ff1444c13d1ed590",
+          "title": "静的ふるい選別機・分離機の世界市場（2026年～2032年）、市場規模（乾式、湿式）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mWmM5cFZVR0lNOGNQM3RraXV1T0hmcG1QN3gxY2RwQU1UTTlKcS1TREtTSm5ZZWRsaUFaZUVLOEZvUkhGM21qblJRTGZxX28?oc=5",
+          "source": "アットプレス",
+          "published_at": "2026-11-09T04:30:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -199,6 +199,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "56b76612a9a8629b",
+          "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-25T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "b55fd7850ceeec6b",
           "title": "【設備保全DX】食品工場Week 2026に次世代設備保全クラウド「M2X」ブースを出展 (2026年11月5日掲載)",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZZ2V1cjlTMmxiWTJmT24zWXFPcWw2NTFudjhEY3FVN3VHLUZuX2RVUUhpa19wRzZnVVhQNkdiNjF3OFFCV18ta2pTcjVyTVBVU0tGTHJMY3oyZC1UeFpwMDFn?oc=5",
@@ -213,17 +223,7 @@
           "title": "「食品工場 Week 東京」に出展",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tUkJHbmFOMlhtVWdkdU5rX2ZjWGNNOWlXajRvME8yLTV1dVJQY19kdGJGM2I5NkpsVktSMjZKcS1NUEVUWmlsV28xb1UwNDAySi04Rkd3Z09EZng3d3dLb0ZyZGdTRVF5WFdJNHZ3VnRjUQ?oc=5",
           "source": "Infoseek",
-          "published_at": "2026-11-04T17:15:23Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "d81a8b2e867f488f",
-          "title": "「食品工場 Week 東京」に出展 (2026年11月4日掲載)",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmd0N2N1pwaHdJcmU0MHJXMVJkQU1rTlFlblhxRE5rSzYxd3ZMbnNIMnhIWU1uQjdSbE9FTW9QR1NBRTJTb1p3Zkx6WGtsN1N0UHRjY2lieThLeTdfdjRGdkN3?oc=5",
-          "source": "ライブドアニュース",
-          "published_at": "2026-11-04T05:00:00Z",
+          "published_at": "2026-11-04T23:10:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-08T22:15:31Z",
-  "last_success_at": "2026-11-08T22:15:31Z",
+  "last_attempt_at": "2026-11-09T06:51:35Z",
+  "last_success_at": "2026-11-09T06:51:35Z",
   "consecutive_failure_count": 0
 }
