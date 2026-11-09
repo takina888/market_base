@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-09T06:51:35Z",
+  "generated_at": "2026-11-09T22:30:16Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,21 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "b9a30bb367d4752c",
-          "title": "カップヌードル 異世界合体、9日に3品発売 銀だこ・カラムーチョの味も",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9jeUloeG12b2FWeGxEenp5Mmp0dGJIS2hYTzU3cmdDeHVHWnRXS0tVckgzRjB6OGplZ096dk5OYmxTTm1zcmV6OE4yZVdvYVFQcEJKa0xCWQ?oc=5",
-          "source": "共同通信PRワイヤー",
-          "published_at": "2026-11-09T03:52:10Z",
+          "id": "8389f17cc63643be",
+          "title": "赤澤経済産業大臣が第8回「日ベトナム産業・貿易・エネルギー協力委員会」を開催し、ベトナム社会主義共和国のラム共産党書記長兼国家主席を表敬しました（METI",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VM3hjcE5uUUxQNi10LVl0MXNqVElpbWhxRlB0Yk1zMk81VXdyVERNTGVwM3podkFPbDNaRFN1ajBhZ29ITThKSUdJVHZiN29CbmZLQTZJcHRlbmRYeTJkTllYZw?oc=5",
+          "source": "経済産業省",
+          "published_at": "2026-11-09T13:15:47Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "336ef4f6b35a1a96",
+          "title": "「日本らしい体験」ラムネを世界へ | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkbElKSTBSN05Wanp5U2xxTkctN1pDZThzcTJyeVdKSm5ndnJKanp0bWQ0ZktiRFRzSDk5S3VCVjYtVTYyZDJ5SmdwT3JkRV9LdnB2TUVqNnlJNzlpS2hTakFLMU1MTWNLR2xCWDZCUmFmbjU1?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-09T08:39:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -39,51 +49,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "137769a530b7d9af",
-          "title": "1 EUの150ユーロ以下免税措置の撤廃およびユニオンハンドリングフィー（UHF）の導入",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMUVHWDJmLTBJSzhDLWtXOFM4ZHZJOVN5c3lVel9RNWJvQndQV3FSMWRsOEpDcXdId3AyRERZcmJ3UmJVRjBrTUI3UzRUbG1oeGZkUXdMM3dhNDd1RGNNRUxQN2JNdUhVeTA5Y0lVR1c2V1hIRFhVczJQWWpLZENkc05yS2tZRlU?oc=5",
-          "source": "郵便局",
-          "published_at": "2026-11-09T06:08:33Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "da3d073f03d5918e",
-          "title": "「開設コスト低下が背景か」 偽基地局、海外でも摘発 専門家指摘（時事通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VYUYtNlFHZ0g2LVBhSmE2VmI0UThlUEpmTVVlakhySVdqMXQwNksyWXJTWDh4d0lXNl9tbnhRcVNoVHZDWGMwR2Y1S0dGcklYS2ctT1NoTFZsNmlrbi1QdDRKdlVUX1JOOXFUWkJ1cVh3V21YTTdIZXpaLUh6VkU?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-09T05:33:32Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b77deaed982b16c1",
-          "title": "世界の優秀な人材と超富裕層をめぐる各国の競争： ライフスタイル重視から人材重視へ",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeEpxcm5wd3I0U3ItZmNuMUFtcXhST1BZV3RkRHJBRWtRaExyU2Jib2RndkxLRWFLWWtHMVFkaVRNb1MtallfYXRCamNFWDZaRFM3LXhiODVhdEdhT24zcjNHOUlBelVLU19fZEczTUZPLThCTTBoWldTVVN6VFM1U29uWUFwbWxDUW9OUjhfQTBva0VaMTdkYVlkc0tTQkhxVGh3N2JIb1h0X1hNVzV2ckt1UklBZkk?oc=5",
-          "source": "ピクテ・ジャパン",
-          "published_at": "2026-11-09T05:31:44Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "id": "d2823c8c5cb1f7eb",
+          "title": "今日の注目スケジュール：国際収支(経常収支)、米CPI、中貿易収支など(フィスコ)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMzlGX3RvY2JNOXJweHY3eE5xYWVZMHA5RWVUSWxyYlZpazJLcjNHUGhMdE1wX0k1WmhGOVFNZG9MYlRhVUs3cnZKT0c5VHNYRjdENU8xOWNBbTZFYnYzXzM0OUJkQ2FtVjdGaDRUTUZvVjZJU291V1M2Wk1qemV0ZG9qbEpsb2s?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-09T04:44:55Z",
+          "published_at": "2026-11-09T21:30:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "id": "353d55955ed6a1fb",
+          "title": "1577. 2026年の世界の年平均気温、1.5℃超えがほぼ確実に －気候情報と適応を現場の行動につなぐ",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzdVRZM1N4T0tibzhDWUd5UTlEMzZQc3lnUDZHY2MtcEZ6cVNDR3JpUFA3SldZMkxhcW5YTHg1X09HZHNSV243WnVTTlZta05neHNTQjYzcWZDU0ZuVmVlV2ZHcE4?oc=5",
+          "source": "国際農林水産業研究センター | JIRCAS",
+          "published_at": "2026-11-09T21:02:08Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d2ae640e1e7daab0",
+          "title": "「ものづくり中小企業こそ、グローバルへ」海外との連携・協業の可能性を探る 12月16日 大阪で開催 upCRAFT OSAKA",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9rREpNcXFRRlhsWGpDNFNLcDU5Z29ERXI0WTV6RHgxRDlILWNFTm9pNGxfaXktZG1OYkdmbk5RVGpaYnVJaDRiUFAySQ?oc=5",
+          "source": "電通報",
+          "published_at": "2026-11-09T20:56:40Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-09T04:35:06Z",
+          "published_at": "2026-11-09T20:45:50Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,6 +179,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "ea8cc79be8189080",
+          "title": "帳票管理のカミナシ、物流・食品工場のAI活用支援 22億円調達",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91WE5EVU15VE00eWU0LWl3Z0tsaGtyRUVJQUx6ZHhPOEl2MWFQTmM3MmZ2VXlnZmtwM1BJTW4ySk96LURYb09teU9IR1NUa3pkbjltOU5SNDJuQXp1QTdWUFg2UzRLeWUyWG5YQQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-10-21T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "ac470e6e0246557b",
           "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94YWQ3eFJXbDRXNlQ2YVRiMnE3ZU5tclZ5NUZ3Y3pHbVNTcDdzSXhEQjdlSmhZOXB1Uk9XaXdjYjU2a256VUNlNTZIUFZBTDhwVjV1d3pVeEZuYlE?oc=5",
@@ -204,16 +214,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-25T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b55fd7850ceeec6b",
-          "title": "【設備保全DX】食品工場Week 2026に次世代設備保全クラウド「M2X」ブースを出展 (2026年11月5日掲載)",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZZ2V1cjlTMmxiWTJmT24zWXFPcWw2NTFudjhEY3FVN3VHLUZuX2RVUUhpa19wRzZnVVhQNkdiNjF3OFFCV18ta2pTcjVyTVBVU0tGTHJMY3oyZC1UeFpwMDFn?oc=5",
-          "source": "ライブドアニュース",
-          "published_at": "2026-11-05T00:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -294,21 +294,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f63fc77c9f333403",
-          "title": "トライアル／徳島県阿波市に「スーパーセンタートライアル阿波岩津店（店舗面積3292m2）」27年5月12日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tNW5oVmdSdjh5WnlIQ0lxdExoRWlTckRFOVZzMmhhOTdNbnlFZHJyWFdxRktDTmZENk5GN0FzQVliWGZlQU9uSkEtbFhLVVBxU29Ja0Vn?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-21T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "057fec4c982d8e12",
           "title": "コスモス薬品／香川県・愛媛県に「ドラッグコスモス」計2店舗、27年5月新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BcGVIR1cyMXdjaHp4YU9OeU1fcXNjSl9SSVI5LUR4ODV6TVJmeHZPWC0ybm5MOTlObE83S3VsZ1Z2UU5SRkpsbVZ2X3FLUWlHT1JaSXNR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-20T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "03956ba6ece1bd45",
+          "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-19T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-09T06:51:35Z",
-  "last_success_at": "2026-11-09T06:51:35Z",
+  "last_attempt_at": "2026-11-09T22:30:16Z",
+  "last_success_at": "2026-11-09T22:30:16Z",
   "consecutive_failure_count": 0
 }
