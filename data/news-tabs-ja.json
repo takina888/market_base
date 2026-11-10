@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-10T07:29:35Z",
+  "generated_at": "2026-11-10T19:51:27Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -39,41 +39,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9dbbdb79fb9f8d18",
-          "title": "レッサーパンダ「風太」がギネス世界記録™に認定されます！ ～飼育下で存命中の最高齢のレッサーパンダ～",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEdFduNUoxVWlhN1JsNGlDVkNmS3gwYTRLYllCR0dqSjR0cFB5c19zcFV6NEoybUk2ZnR1UGE4RzhhN1picUh2aEZlWlBteFgyUXloWWJzWTZtN0x2YTRGbWpnYXYwdFE?oc=5",
-          "source": "千葉市",
-          "published_at": "2026-11-10T05:39:22Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a6d3051129a66c12",
-          "title": "iFreePlus 世界トレンド・テクノロジー株(Zテック20)【0431124C】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aU2Jsa2tjRm02UVdPdEQzOFM5aGJTY3Y1TWphX3JBTXl2aTBwSVJaaGR2RHE1djR0b0UzRF9uZm9vbXdWVGJya2RTT3NRSk9UWWNMZw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-10T04:53:24Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0a1894a1c4cc2696",
-          "title": "中国：１０月の元建て貿易３１．２％増、輸出は２８．７％拡大(サーチナ)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYkRyMDhvYXlDRTBBSDZYV3BEMkpiRmYyOXhrZGpDVE1IWG9SR05XRURQZW9RT05UVDFLQUEySWxZbV9mYWhMMENsUTRYMVdXY0MxOHdRZDVjektkeUFSa1RSUnNFcm14LXJST0pDWUVGZDFxSWw0WURUYXFKYjZnVDJmaG15cVE?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-10T04:52:16Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0ad6a4a7b37ba0b0",
-          "title": "世界初の「海底」世界地質遺産が誕生！",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PZ0NIOUFWTHo4N1lfbVpiS2FmTEVaclE0VUYwTjVGa2I0YXNtcTdaY2pvZC1UdTVBVURMbXZwT1pxSHBBQnlTRzd6R1ZBa3RSQXRSR2FkenF5SEMtNV9DSFNjcVMyWnJ5SkNmdw?oc=5",
-          "source": "東京大学",
-          "published_at": "2026-11-10T04:49:54Z",
+          "id": "336ef4f6b35a1a96",
+          "title": "「日本らしい体験」ラムネを世界へ | 地域・分析レポート - 海外ビジネス情報",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkbElKSTBSN05Wanp5U2xxTkctN1pDZThzcTJyeVdKSm5ndnJKanp0bWQ0ZktiRFRzSDk5S3VCVjYtVTYyZDJ5SmdwT3JkRV9LdnB2TUVqNnlJNzlpS2hTakFLMU1MTWNLR2xCWDZCUmFmbjU1?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-09T08:39:55Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -83,7 +53,37 @@
           "title": "たわらノーロード 全世界株式【47312197】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44cVRKdGliUWhFTl8wdlNUeXpFTGtWcXNjS3ZhWW14Rl9fWDBieWNBcm90YUdPN3dDY0FPTHNBbFhILVVnLTRVVEVNSmhqQVBJMlV6Yg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-10T04:39:22Z",
+          "published_at": "2026-11-10T17:27:01Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-10T16:54:48Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "37aa9ce55d1b3417",
+          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-10T16:30:40Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "af6718caaca8a720",
+          "title": "次世代通信関連 世界株式戦略ファンド(予想分配金提示型)【64311215】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SVJjbk1Wb0h3VW1pUUMzbFVMOVJRZlRnMm45bzQ2VndhWTNSeFZrelRnLXJRZHlGLUpFZENEb1NpUlNEdXgycXByWXd6Z0RSakhMTg?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-10T16:02:30Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -219,21 +219,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6b72da5f6e5029b4",
-          "title": "「食品工場 Week 東京」に出展",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tUkJHbmFOMlhtVWdkdU5rX2ZjWGNNOWlXajRvME8yLTV1dVJQY19kdGJGM2I5NkpsVktSMjZKcS1NUEVUWmlsV28xb1UwNDAySi04Rkd3Z09EZng3d3dLb0ZyZGdTRVF5WFdJNHZ3VnRjUQ?oc=5",
-          "source": "Infoseek",
-          "published_at": "2026-11-04T23:10:00Z",
+          "id": "cbbbd1904db9d4a2",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "d81a8b2e867f488f",
-          "title": "「食品工場 Week 東京」に出展 (2026年11月4日掲載)",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmd0N2N1pwaHdJcmU0MHJXMVJkQU1rTlFlblhxRE5rSzYxd3ZMbnNIMnhIWU1uQjdSbE9FTW9QR1NBRTJTb1p3Zkx6WGtsN1N0UHRjY2lieThLeTdfdjRGdkN3?oc=5",
-          "source": "ライブドアニュース",
-          "published_at": "2026-11-04T05:00:00Z",
+          "id": "6b72da5f6e5029b4",
+          "title": "「食品工場 Week 東京」に出展",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tUkJHbmFOMlhtVWdkdU5rX2ZjWGNNOWlXajRvME8yLTV1dVJQY19kdGJGM2I5NkpsVktSMjZKcS1NUEVUWmlsV28xb1UwNDAySi04Rkd3Z09EZng3d3dLb0ZyZGdTRVF5WFdJNHZ3VnRjUQ?oc=5",
+          "source": "Infoseek",
+          "published_at": "2026-11-04T23:10:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -243,16 +243,6 @@
     "retail": {
       "label": "小売店",
       "articles": [
-        {
-          "id": "9d94cfae35175c08",
-          "title": "推しの写真が“お守り”に！好きな写真で作れる「推守り」をコンビニで手軽に印刷！『推写フレーム』に新登場",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ncmpEQ0VFcGIwWm9Pb01MTjJ2LXJ0SEw5RGppUVp5aUI0dnA5enRveFNtMG40YkJhbWJJR1h2YXdmMGlwV2ZqNUJlWUhoX3J6UEF6VGdKeHpXUEFpb0Rtb3gtcmpVcWZjSGc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-10T01:22:12Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "3c4efd9343a6d45d",
           "title": "バロー／都内初出店「スーパーマーケット バロー本羽田店」11月6日オープン",
@@ -309,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BcGVIR1cyMXdjaHp4YU9OeU1fcXNjSl9SSVI5LUR4ODV6TVJmeHZPWC0ybm5MOTlObE83S3VsZ1Z2UU5SRkpsbVZ2X3FLUWlHT1JaSXNR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-20T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "03956ba6ece1bd45",
+          "title": "マミーマートほか／埼玉県川口市に「（仮称）川口市上青木プロジェクト（店舗面積3054m2）」27年5月4日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OT0VGWDQwZnZNUTR3QTczdHI2NmEyd0hiUnlDYzhtYWtycE5NVi0wZGFFSjFCa2hZcUpvRTNVU3c4bkdSZUM2RTRTNUw4dkhxQXRYenNB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-19T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-10T07:29:35Z",
-  "last_success_at": "2026-11-10T07:29:35Z",
+  "last_attempt_at": "2026-11-10T19:51:27Z",
+  "last_success_at": "2026-11-10T19:51:27Z",
   "consecutive_failure_count": 0
 }
