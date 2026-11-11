@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-11T06:45:19Z",
+  "generated_at": "2026-11-11T19:43:09Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -29,6 +29,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "68b32bc9538b1c0b",
+          "title": "オーストラリア貿易投資促進庁、日系企業向けに大型蓄電池施設視察プログラムを実施(日本、オーストラリア) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTWU82MlFWMXE1YlI5VkRqeDhjTEZTU3VaNWhvaFh3ZVZhOUttWVFHdHc2TzdGZW5qVFVLdWFlWVFVR3REY005NEFhTmdhRkxyQmNNam9EREh1S1FuYXpFeEpyRzRMQ0JEeklPZjVR?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-11T01:32:47Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "114597004302f5eb",
           "title": "世界最大規模の書籍見本市「フランクフルト・ブックフェア2026」、さまざまなコンテンツ産業が集う場に",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43a3QyWnloR2lqbE1ka2gzVVN6TlpxWlpPY3ctUGJGNGtOUFRUOHk3eTdDRVU5dlh6RDZYSVdnemR5MVdoX25RaWpDWDd3eE9HcDZ1VHpvaExZZHZLN3hjeFM5MUlzMGJGOFB2Z3pn?oc=5",
@@ -49,41 +59,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "14d6afb613578f93",
-          "title": "「あつめてたのしい りんごの棚スタンプラリー 〜いろんな世界を見てみよう〜 開催報告 （10月3日、11月7日）」",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAwSkRVMUxrOTBGSlZDZWRUT3pCSDNOV3NVM0hwZ2puRGxnV3JxeEc4TlBxN0JNSE1aNk5iel9haWZrMm5PcDVaUHBGLVh0Y0g0UUJjOHhGVFFPRXFlTFpz?oc=5",
-          "source": "大妻女子大学",
-          "published_at": "2026-11-11T05:28:58Z",
+          "id": "f99127d723381fd1",
+          "title": "海外活動の資料を独自分析 契約めぐる“不透明な実態”とは",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqbGt0OGhtVUh5ZzZ4RzBqY0NucDkwWElGejZMVUhVQU9oZVk5VC1qSEViRnJjem5WQXlDQmR4bnF2QUJEVDRqYjNCTjVPVl9nX2RxenU2TmhuLWRWMTFKdGNnOFRWZw?oc=5",
+          "source": "NHK",
+          "published_at": "2026-11-05T12:48:54Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ec22211ad0f7b7c7",
-          "title": "第18回地域イノベーション学に関する国際ワークショップの優秀論文賞授賞式を開催しました",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51YmZuSDNCelNGRXFKa1ZLTUM3dTkxRnQ2V1M2RW0zRy05T0JiSjE5Qlc1ZmM2d3VIZE80Ni1yS1o5VnczWFMwVTdEZktyY0hkYWZsakVHVS14RFRtTTlqTHFWX0s1dWk5Y2c?oc=5",
-          "source": "三重大学",
-          "published_at": "2026-11-11T05:24:47Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "38615245a6a3d92d",
-          "title": "世界初公開・アジア初展示・中国初披露が480点以上 輸入博から見える中国の大規模市場の磁力",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Ya2t4RUNpcnl5QVFVWURINXlrbFRENWdHcDhkR0JHQVhISGM3R2F4RWhSLUE3M0NTX2Rsa0JJZ2xPUkhrb3JsQXgyNWo4UFV5dGwxUy0ybGtnTHd5QS15WlJoaXNMMjA?oc=5",
-          "source": "人民網日本語版",
-          "published_at": "2026-11-11T05:21:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "02228848766591c5",
-          "title": "たわらノーロード 全世界株式【47312197】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44cVRKdGliUWhFTl8wdlNUeXpFTGtWcXNjS3ZhWW14Rl9fWDBieWNBcm90YUdPN3dDY0FPTHNBbFhILVVnLTRVVEVNSmhqQVBJMlV6Yg?oc=5",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-11T05:16:22Z",
+          "published_at": "2026-11-11T16:57:28Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f64b0babe36c22b9",
+          "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-11T16:25:18Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -229,11 +229,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6b72da5f6e5029b4",
-          "title": "「食品工場 Week 東京」に出展",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tUkJHbmFOMlhtVWdkdU5rX2ZjWGNNOWlXajRvME8yLTV1dVJQY19kdGJGM2I5NkpsVktSMjZKcS1NUEVUWmlsV28xb1UwNDAySi04Rkd3Z09EZng3d3dLb0ZyZGdTRVF5WFdJNHZ3VnRjUQ?oc=5",
+          "id": "0970336089f2c77a",
+          "title": "食品・物流工場の保全人手不足を解決！コンベヤの周辺部品交換が専門知識なしで誰でも可能に。大手食品工場で採用が進む『セパレートジョイント』の活用実例を公開",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1aeGJmaWl5TE5RZXVHTVV0Y2ZMa1V0S0RkUDh5YkxUeFdmaEhRRWo0Z2JOMWJQcWpOT1JGYzc3eHd5T0laUlRJdkR0UTdYdy1nUnZOVnRCSTgwYUR6OUVYYTZMMDdtbDRtZ2lmd2d6UE5NUQ?oc=5",
           "source": "Infoseek",
-          "published_at": "2026-11-04T23:10:00Z",
+          "published_at": "2026-11-11T13:10:02Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -319,6 +319,16 @@
       "label": "規制関連",
       "articles": [
         {
+          "id": "9b5dcd6ad0e83db9",
+          "title": "タバコ規制：目標が正しければ、適切なロードマップが必要となる。",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdWF6U0FFRTRiWmdJcWRQS2k0N2Z1QXlIV3cyVjBNTGN1bkF2T2lQQUx2UG5nOEtzZEpvd1pDaE84WHQ5SUtTWGtVX3RDRlFFdkVYaXBtRU9IQVhZd3hXcThVZGhMZzQ3TFhuMXlzOXdDNzViV2hjWEhvc0FfNU8xcUFrcVVkTmxPek41c2xVVDc?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-11-11T08:35:36Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "6ed46dcd15e35476",
           "title": "食品安全管理を革新し、検査後の監視体制を強化する。",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcHRPTWcwT1k1ajYwdUF6VG9Ra19TdTVPb2R5QS1COHZJMXRyM3BEUFlvRmg0bndMQzFjVVcydlBzU3dZakFTem1SYlozMm1jQnVCMzFPYjdMR1lhTFFGWXdTMTVVSmh5aE1BZFZiU2RLSTV4dWJlODVkdklrRTB4VTZnZ2Fpdw?oc=5",
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "43769bf974ca9784",
-          "title": "食品包装：環境に優しいだけでは不十分です。安全で、法律に準拠している必要もあります。",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa2hUZ0RvbWFxU180dXdGdFVpeWxlVWFCdW0zdkViREE4Zy1vNkpmTXBKbUFySlhoNEVPLTJ4UXJSWS1xVXlYaU1TeG9GR1k4VEthN1ZoZjdoM3I2eVRkWnlHaURBQ1ZDMGxKbFVfUGQtVU5IV0VuWUlJTEY2MnY5TEJtdGs5Q1QyZzlxMHpn?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-10-28T10:56:53Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-11-11T06:45:19Z",
-  "last_success_at": "2026-11-11T06:45:19Z",
+  "last_attempt_at": "2026-11-11T19:43:09Z",
+  "last_success_at": "2026-11-11T19:43:09Z",
   "consecutive_failure_count": 0
 }
