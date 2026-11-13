@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-12T20:07:03Z",
+  "generated_at": "2026-11-13T06:56:40Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,46 +19,6 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "218d1613647bac67",
-          "title": "リョーサン菱洋ホールディングス[167A]：リョーサン菱洋、台湾の世界有数の半導体メーカー MediaTekと代理店契約を締結 2026年11月12日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSFhuTmVNV2xxTWF2VHpSSXJXb1NfZ1k2bkxTY3Ntcy1neVVnY3ZVYkY1MjVwR2RacGliQWdtd1FSZjkxLVhKNUluUXpwQ28xekVlMlBEWmlwdl9BeW1LQU5fR1lESUdoZ3Jvd0lVemQ0MnZHbWR1X0dtb2ZFdU9MdWRBZkhjWXdWNjhRR001UF83OE1odFBhMmZLTHBBT0ZCdFZLM1dEdk04clJGdlNsOXJTYXlKVnlVUk5qazVBTEVZWVFXQ0RZZnIzLWo?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-12T07:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a0c136b3eb4ae293",
-          "title": "極東貿易[8093]：2026年3月期通期業績予想の修正に関するお知らせ 2026年11月12日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZ1VxSUxsek1QbmhucC0zYWk3djRUYXhOWVo5SndRSzZZMFl0SE50MHV6V2ljVE45Ui02dzJmOVV3WWVxamdMbWtUendTODFmUk1NdXhoNEVWb29EZ2N0RE9VeEcxZHNhTkxveXEzYVdzVjdhMWo4SXJYS1NYalEzbE1PQ0UwRWY0V2Rza3hPNi1RLTZYdzQyQ0lXMjljSUQ3Z3JXc3FwRnFVMlEtTkxrNklTU3lFMG9VQmxIekJia3VyRGNFbjM1aDNsYVI?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-12T06:30:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b19958099392786c",
-          "title": "極東貿易[8093]：特別損失の計上に関するお知らせ 2026年11月12日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxON3pENnFkeks0ZFdpNVRROHJadHhHbWNvLUpsRzViWGZwelhzZlpZVmY4bVZuSGxENDhJcnZFUkpZUTJmZmc2ZkI0aTIwTGZ0QVd6Y041NE43dE5DUTBIa0tUTGlvUEREanZtMkpMZXA0dXhPa1J2dG03eEI2anNxa2wyMU5Ec3RkbHpHNUNZNl90T3hXUGFzaEJGMlQ5a2hhcEV4RGkxMDYtZWtqMHBPQmdYMWNzRHZ6UF9seXJ2V2lRQ3p4aW1wSWhOQnE?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-12T06:30:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9e4e3908769b6f54",
-          "title": "極東貿易[8093]：剰余金の配当（中間配当）に関するお知らせ 2026年11月12日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWnoweFNCQ2ptYkMtOUVGb2VaaXB0VldiOU9aQWtoRy1IX3c3SDVVbDVPOURvV05DbFJiUVhhTHlkQldCXzFxc0xqbTJSYzhGN1J0MFUzclhWZGN0eUwtMFRNcnlTSVhUeVRvblpyQTAxckJPZkY5SVhlYl9FampOQ2JSdktIcURCOHc0SmY3UHB4MVhEdGE3TmpORlltUUIzN2R5VVdjUXJfdUdTeXBBdXROQnZmTVNjQTBzRlJsS0JadjE3M0NxOWpCaG0?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-12T06:30:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "8389f17cc63643be",
           "title": "赤澤経済産業大臣が第8回「日ベトナム産業・貿易・エネルギー協力委員会」を開催し、ベトナム社会主義共和国のラム共産党書記長兼国家主席を表敬しました（METI",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VM3hjcE5uUUxQNi10LVl0MXNqVElpbWhxRlB0Yk1zMk81VXdyVERNTGVwM3podkFPbDNaRFN1ajBhZ29ITThKSUdJVHZiN29CbmZLQTZJcHRlbmRYeTJkTllYZw?oc=5",
@@ -69,11 +29,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a4df586aa7e3c35c",
-          "title": "三洋貿易[3176]：代表取締役の異動および役員人事等に関するお知らせ 2026年11月9日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQUM5WXE3MnM1ZGpTbEhJM0hnMnpRUGRlbDBxYTRlcVdlLU1wVUxQV2xOZ0NxcDlDbEdxS1daaG9MbHhFcDBid0N3WTVxUFhrSXpJTlNDZVRHZkszcWxJYzA0RHNvb2JXZzZjYXRLOFZyQmZGX0ZUaHdCbS1ES21GVUdNUEVIc25uNmRhZW84di1XZXp6VDc2QzZib1RGWm1NY1kyV1UtWGgxQ2JFNUhna2RQN3B4NERsMzg1bDZBUm8teUp3UEhLV1pleEY?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-09T07:00:00Z",
+          "id": "237bf86f4c5b2617",
+          "title": "宗廟が招いた世界遺産登録への住民反発…「漢陽都城を登録するな」＝韓国（中央日報日本語版）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CT1Bsa3FxbDk4c0JmWTE3cHRzUGFLLVk5NVFkMUFjYm84Yk5BUUpLemdkbzNhWnhiREFxYmp4S2FRemVxa1dmMnRjU29UYlBuWWpKdFp4SkxTb3dzTS1RUnVJLU9jaHdLMUxaZEhoQ0xIdjJubHdhMWR1N3g1ZlU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-13T05:50:26Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "669db14a7e5bcead",
+          "title": "銭湯侵入疑い 男は国際的犯罪Gか",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9hdlBIWmRvRTl5NXJPZ3FWejRmeW9kcTl4eHhfUEJsR3lKX1R3dUs3b00xQzcyTzNic3lnakpMLXg3VHFUT0V6MDdPenkwY0x5?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-13T05:19:30Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -83,7 +53,37 @@
           "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-12T18:25:26Z",
+          "published_at": "2026-11-13T05:14:10Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "50d235d77a337bc8",
+          "title": "【11.14 世界糖尿病デー】アリーナ ブルーライトアップ（KOBEライトアップDAY）のお知らせ",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9XbTR4T204aHF1c1EwRU5fSThpZDVWbUFOR0NobG9tVktiazFOOXFmLXI1QkpiMkkxbGRkb2kwYXRZWFR1QjdnN0EyWFJBN3A5X2xrRi1pWQ?oc=5",
+          "source": "TOTTEI | GLION ARENA KOBE",
+          "published_at": "2026-11-13T04:57:04Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "af6718caaca8a720",
+          "title": "次世代通信関連 世界株式戦略ファンド(予想分配金提示型)【64311215】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SVJjbk1Wb0h3VW1pUUMzbFVMOVJRZlRnMm45bzQ2VndhWTNSeFZrelRnLXJRZHlGLUpFZENEb1NpUlNEdXgycXByWXd6Z0RSakhMTg?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-13T04:56:06Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e97aabaf64df124d",
+          "title": "マイクロソフト大規模障害、復旧が難航 世界の企業・政府機関に影響（ロイター）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxUTJFSWdmRU03a01LSnVnX0I5aUtzVjNvZWpUQ3lVdDA2cTdUZTRKMjljQnhqVVE4MkhBd01tV0tnUV9CWDNrcFE5eWNjQXgwNUNiQlNJWmZHMy1ORXZzclI0TS1FZklaWVZmTHlOWHdJZVlmZWkyekt1dFNLcGc?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-13T04:54:09Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -154,11 +154,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "73180551dd80e39a",
-          "title": "業務用冷凍冷蔵庫などの「ガリレイHD」M＆Aで食品加工機械の技術力強化へ 過去の買収先は営業利益が最大8.6倍に",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRZ3VWbjV4NmpqLU54VkU5NEpxRU92aWtSLVlZYzlEVkx1QmhxV2c1N1NGeE9uLS0xZEU5eEM5N1cxT1JvN1VFMTBOSjkwNjkyZkMzY3MwTjFaeGZFQUhkTw?oc=5",
-          "source": "M&A Online",
-          "published_at": "2026-11-11T21:30:00Z",
+          "id": "ee7a4d47f365962f",
+          "title": "新馬鈴薯共同選別機安全操業祈願祭に参列しました。：北海道農政事務所",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdm9LVGJSMVZERXI0clMwc2h3b1h1bmY4OUhWNWhFRERGUGY3NWFnLXVULXFBUXlUNGhwWVhYamNiS3RSb2poRmRqV1JYS01jejhzcURHR3F6cTlQM1V1emtReU90OGNPRTdla3ZCczJUSFA3ZmFvcW5QNTNnMFE4eXE2ZGRFSEE?oc=5",
+          "source": "農林水産省",
+          "published_at": "2026-08-18T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -244,6 +244,16 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "b07c2fbfc09e0864",
+          "title": "OICグループ／京王百貨店新宿店に韓国コスメ・食品専門店「リアコ」の旗艦店11月26日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oTktnLVUzM3dyMDBubXo1U2FJUHk5VjZ4Q3hKX3dTdWhoeUVUM25valNfZmhmNG54LTFIdjRIN3drNWd5Q0FNeWN4ZWVQcElEMHRlcQ?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-11-13T04:56:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "4a47aa28a65b8196",
           "title": "＜杜の街グレースからのお知らせ＞明日の朝に食べる分だけ。杜の街グレースで、量り売りを一品から その取り組みが全国で話題のスーパーマーケット「斗々屋」が11月17日から期間限定出店",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wUDQzeTNRZGVpRzdNdVQ4cV9qNDRBTGp2d0ZFTFRITGVRUEstV1F5anZFd19lRURqYW5mQUd4MVd1OFhFLXJiakVQclp4UHFfLUtSbDdkdTQ2akZtdWxTVFdSMHhSYjZvM2c?oc=5",
@@ -259,6 +269,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OOVltZ1R2ZF8tQVUwaXVEc3IxUFlQWnBzdXMya1NpQnhtOGQwaDMtdTNELTZUMlhCa1ZoT3RVcHZlUkZZOWZ2a29BY1o0RWZDWFotcVln?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-11-12T01:31:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5f77b0d66047441d",
+          "title": "コーナン、早朝・深夜営業の新店「コーナンmini＋」 23区中心に出店し「職人向けのコンビニ」へ",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTY1kxZkNOWWJqQUVPTjUwLUpDT1M4d3kwZ0Ixb0toNHJkR241dzY3NUdNV1VkNHp1TVlhelM2Mk5oQkdzaU5tVHBvNFYtdGdiY25wcmVWNEwyOC00SDFSbU9RZ1VYNWhKR2FUVQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-11-11T17:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -292,32 +312,22 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6562e1db83b38006",
-          "title": "ミスターマックスほか／茨城県つくば市に「（仮称）つくば市上河原崎商業施設（店舗面積1万4854m2）」27年6月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbkVDMnhJbkpHN0Vjd284X0xxVF9YekgtcEhjMG9sQnQ0R2dsbmwyMFloVm9GallzZGtVMWRJZTBQc1NEdlRpUTVmaGozaE14SEtHa1VB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-27T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9b31ae860dae1039",
-          "title": "トライアル／茨城県土浦市に「スーパーセンタートライアル荒川沖店（店舗面積4200m2）」27年5月25日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CVlRsWW9fZGROcGZIWU1sZnFVQWc1TWZtS3ZhUGxZMUlkdUN6aUs0UDRNZnBrWWlvaTNUQWpXclFCcHAtTHc0Z19sM3JFZzV1NDVuOFpR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-27T07:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "9b5dcd6ad0e83db9",
+          "title": "タバコ規制：目標が正しければ、適切なロードマップが必要となる。",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdWF6U0FFRTRiWmdJcWRQS2k0N2Z1QXlIV3cyVjBNTGN1bkF2T2lQQUx2UG5nOEtzZEpvd1pDaE84WHQ5SUtTWGtVX3RDRlFFdkVYaXBtRU9IQVhZd3hXcThVZGhMZzQ3TFhuMXlzOXdDNzViV2hjWEhvc0FfNU8xcUFrcVVkTmxPek41c2xVVDc?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-11-11T08:35:36Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "6ed46dcd15e35476",
           "title": "食品安全管理を革新し、検査後の監視体制を強化する。",
@@ -334,16 +344,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1veTRGMGlHNnUzZDJBaDdkX29PR1IwM3pITkMyT2JYVGN2RWMyTXdyeXNFWElEcGQyaVBHRGZ5VV94V3FoZXVEOEZ3dmJzeWM5NnBsNG5rdUFNTndNNm9JMW1DNmlQT1N6MWc?oc=5",
           "source": "北海道のホームページ",
           "published_at": "2026-11-02T08:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9b5dcd6ad0e83db9",
-          "title": "タバコ規制：目標が正しければ、適切なロードマップが必要となる。",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdWF6U0FFRTRiWmdJcWRQS2k0N2Z1QXlIV3cyVjBNTGN1bkF2T2lQQUx2UG5nOEtzZEpvd1pDaE84WHQ5SUtTWGtVX3RDRlFFdkVYaXBtRU9IQVhZd3hXcThVZGhMZzQ3TFhuMXlzOXdDNzViV2hjWEhvc0FfNU8xcUFrcVVkTmxPek41c2xVVDc?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-11-11T08:35:36Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-12T20:07:03Z",
-  "last_success_at": "2026-11-12T20:07:03Z",
+  "last_attempt_at": "2026-11-13T06:56:40Z",
+  "last_success_at": "2026-11-13T06:56:40Z",
   "consecutive_failure_count": 0
 }
