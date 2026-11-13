@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-13T06:56:40Z",
+  "generated_at": "2026-11-13T19:51:52Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,36 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "6f005371f4ea694c",
+          "title": "東プレ[5975]：海外子会社であるTopre America Corporationにおける設備投資について 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeXR5QUhkTzFfdWxRck1fMm42U0dwQ001R2N1RkZ2YUt0Umd5aFh3djQ1TEhJbHZzQWQ2SjA5MVV5UUpDSjJEeFY5T085VWRodWxwdVN3NmMzYWpiWWVHSzRLbk9IeFBBdmJ3d1JNYnlQTXhkNGJJYkxxU016MFQ5c2dBQ3Zva1hHWEpmM0pQRE9IQW41TFVkM3B4aDhnVWtTVk0tTnJyVTN3cUdVNmtxMXA5N1VYM0loUVJIenNUd2NWS1pJeU13WktOcmQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-11-13T07:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8c48c2fff8460cc1",
+          "title": "ピエトロ[2818]：海外子会社における事業譲受に関するお知らせ 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbU85QWZDOGpLNDRqRHhMVWhOb05qSk44bXpDNkVXcHIwR1lXMXI0RjVTU1pLTkV0MmtOLXNIeG8ySFQxTWlORHFvRkEzZmt2X2tsYTNKZ2dlU0ZDLVZwbTE5NXNtZU5QazdnbkktNHV2OVg4dS03T1loQVpfUlJOT19Va2NwM1NsY1RVNGl6U3NVV1RCTGgwTWU2YnhCTUNQbXRia0VNV2Y3M3MwN3hIX1pPNXg1RElSdzk5UjQ3VFZQcDhYdm1BcGhjd24?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-11-13T06:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8ec0250e2f688da7",
+          "title": "ジェトロ、中国国際医療機器展にJapan Street広報ブースを出展(中国、日本) | ビジネス短信 ―ジェトロの海外ニュース",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5MRWlXUDM0bkxMSTRGMUhOMkM5YlNET1ZQblhLWk9xZ3l4SVpJaFpjTk0zcEo5M1lpWmVpeWpjMTM0WEFScDNJZGJwd25lazBOeTFwUklfQllJYnRtMFFSSWZhTmtubWYwcHNDcDFB?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-13T04:32:04Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "8389f17cc63643be",
           "title": "赤澤経済産業大臣が第8回「日ベトナム産業・貿易・エネルギー協力委員会」を開催し、ベトナム社会主義共和国のラム共産党書記長兼国家主席を表敬しました（METI",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VM3hjcE5uUUxQNi10LVl0MXNqVElpbWhxRlB0Yk1zMk81VXdyVERNTGVwM3podkFPbDNaRFN1ajBhZ29ITThKSUdJVHZiN29CbmZLQTZJcHRlbmRYeTJkTllYZw?oc=5",
@@ -29,61 +59,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "237bf86f4c5b2617",
-          "title": "宗廟が招いた世界遺産登録への住民反発…「漢陽都城を登録するな」＝韓国（中央日報日本語版）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CT1Bsa3FxbDk4c0JmWTE3cHRzUGFLLVk5NVFkMUFjYm84Yk5BUUpLemdkbzNhWnhiREFxYmp4S2FRemVxa1dmMnRjU29UYlBuWWpKdFp4SkxTb3dzTS1RUnVJLU9jaHdLMUxaZEhoQ0xIdjJubHdhMWR1N3g1ZlU?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-13T05:50:26Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "669db14a7e5bcead",
-          "title": "銭湯侵入疑い 男は国際的犯罪Gか",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9hdlBIWmRvRTl5NXJPZ3FWejRmeW9kcTl4eHhfUEJsR3lKX1R3dUs3b00xQzcyTzNic3lnakpMLXg3VHFUT0V6MDdPenkwY0x5?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-13T05:19:30Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "id": "02228848766591c5",
+          "title": "たわらノーロード 全世界株式【47312197】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44cVRKdGliUWhFTl8wdlNUeXpFTGtWcXNjS3ZhWW14Rl9fWDBieWNBcm90YUdPN3dDY0FPTHNBbFhILVVnLTRVVEVNSmhqQVBJMlV6Yg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-13T05:14:10Z",
+          "published_at": "2026-11-13T19:02:10Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "50d235d77a337bc8",
-          "title": "【11.14 世界糖尿病デー】アリーナ ブルーライトアップ（KOBEライトアップDAY）のお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9XbTR4T204aHF1c1EwRU5fSThpZDVWbUFOR0NobG9tVktiazFOOXFmLXI1QkpiMkkxbGRkb2kwYXRZWFR1QjdnN0EyWFJBN3A5X2xrRi1pWQ?oc=5",
-          "source": "TOTTEI | GLION ARENA KOBE",
-          "published_at": "2026-11-13T04:57:04Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "af6718caaca8a720",
-          "title": "次世代通信関連 世界株式戦略ファンド(予想分配金提示型)【64311215】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SVJjbk1Wb0h3VW1pUUMzbFVMOVJRZlRnMm45bzQ2VndhWTNSeFZrelRnLXJRZHlGLUpFZENEb1NpUlNEdXgycXByWXd6Z0RSakhMTg?oc=5",
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-13T04:56:06Z",
+          "published_at": "2026-11-13T18:36:24Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e97aabaf64df124d",
-          "title": "マイクロソフト大規模障害、復旧が難航 世界の企業・政府機関に影響（ロイター）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxUTJFSWdmRU03a01LSnVnX0I5aUtzVjNvZWpUQ3lVdDA2cTdUZTRKMjljQnhqVVE4MkhBd01tV0tnUV9CWDNrcFE5eWNjQXgwNUNiQlNJWmZHMy1ORXZzclI0TS1FZklaWVZmTHlOWHdJZVlmZWkyekt1dFNLcGc?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-13T04:54:09Z",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-13T17:22:39Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -254,16 +254,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "4a47aa28a65b8196",
-          "title": "＜杜の街グレースからのお知らせ＞明日の朝に食べる分だけ。杜の街グレースで、量り売りを一品から その取り組みが全国で話題のスーパーマーケット「斗々屋」が11月17日から期間限定出店",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wUDQzeTNRZGVpRzdNdVQ4cV9qNDRBTGp2d0ZFTFRITGVRUEstV1F5anZFd19lRURqYW5mQUd4MVd1OFhFLXJiakVQclp4UHFfLUtSbDdkdTQ2akZtdWxTVFdSMHhSYjZvM2c?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-12T08:23:17Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "605d9e80d1ab47b0",
           "title": "バロー、コーナン商事／奈良県生駒市に「生駒壱分商業施設（店舗面積4752m2）」27年5月18日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OOVltZ1R2ZF8tQVUwaXVEc3IxUFlQWnBzdXMya1NpQnhtOGQwaDMtdTNELTZUMlhCa1ZoT3RVcHZlUkZZOWZ2a29BY1o0RWZDWFotcVln?oc=5",
@@ -312,12 +302,32 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "d0da64b60d1c7136",
+          "title": "ミスターマックス／27年2月期下期は計4店舗オープン、28年2月期2店舗出店の計画",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8zcldLV1hEZTVJZ2RqMG15c0tYS1lYZVhUSVFId3EyUlhBYUJjWDRETVBCNXNreFpEeEdmSmtvYmw1Y1pHbll6QjFPeUxIb1U5MS02dg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-30T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "fd64c35513771cb4",
+          "title": "EUのバッテリー・包装材規制が輸出企業に負担、政府がWTOで貿易障壁を提起",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NWVBHTXdwdUt2amR5VkJoQWp2a3RJVXA3NXZLcEdTNkF1SC05X2pndy1TXy0yU1pXZENhMy1pOEt6TGtBRmJDU3EyVk9fdjNtcGI5Vkx4NGNKalU?oc=5",
+          "source": "亜州日報",
+          "published_at": "2026-11-12T21:08:10Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "9b5dcd6ad0e83db9",
           "title": "タバコ規制：目標が正しければ、適切なロードマップが必要となる。",
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a6b70d2ddf5b6649",
-          "title": "《ホルムアルデヒド白菜は氷山の一角》日本に輸入された「発がん性」食品 ピーナッツ製品からカビ毒「アフラトキシン」検出事例 日本国内では中国産製品が数多く流通",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4xenh1aWhuMWRVOWp1dTlLMG5pY3VZejMyWmVycVg3aTdFZ1BMbmdybHhDTEc5dkpsUkU1ekVtdlpjbTVwMERV?oc=5",
-          "source": "マネーポストWEB",
-          "published_at": "2026-09-15T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-11-13T06:56:40Z",
-  "last_success_at": "2026-11-13T06:56:40Z",
+  "last_attempt_at": "2026-11-13T19:51:52Z",
+  "last_success_at": "2026-11-13T19:51:52Z",
   "consecutive_failure_count": 0
 }
