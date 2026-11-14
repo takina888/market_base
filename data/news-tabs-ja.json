@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-14T06:43:19Z",
+  "generated_at": "2026-11-14T18:17:01Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,6 +18,16 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "648e01576dac4cce",
+          "title": "世界糖尿病デー、14日は都内でブルーライトアップ 東京ゲートブリッジや隅田川の橋は当日だけ青く点灯",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42Tm9GeGxuNm45cDd5M3VuUjVPaUN6OUF1VWFsS1lOTnRXZ2lCeW1WOXFWQlMxN0JPREsxamtDeDlNS1JsdS00RGZlejBES3R0UDhIeUNUSQ?oc=5",
+          "source": "共同通信PRワイヤー",
+          "published_at": "2026-11-13T23:35:18Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "8ec0250e2f688da7",
           "title": "ジェトロ、中国国際医療機器展にJapan Street広報ブースを出展(中国、日本) | ビジネス短信 ―ジェトロの海外ニュース",
@@ -39,51 +49,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-14T05:27:04Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e771ba57ae3e21ec",
-          "title": "APEC、自由貿易議論へ 18日から中国で首脳会議（共同通信）",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTm9LRG42MDlrU3pGUGtSc1hObldXbU1LbHNqM1ROb2ZmdF95VDJQeXlXb2ltMHBsQU1JRDZwQ2x1X1JqczFPMWI1NmNObURyY1pjdE5YTzcyX3l4ZkZ0QmdJRXdBTUhrcTJwaFctSFBIYWJuWFN4dG1SZVNySDhwc3FoLURjTHh4a2NlM3lR?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-14T05:23:57Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "02228848766591c5",
-          "title": "たわらノーロード 全世界株式【47312197】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44cVRKdGliUWhFTl8wdlNUeXpFTGtWcXNjS3ZhWW14Rl9fWDBieWNBcm90YUdPN3dDY0FPTHNBbFhILVVnLTRVVEVNSmhqQVBJMlV6Yg?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-14T04:55:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "2fb2ef7c2e5617dd",
           "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-14T03:28:50Z",
+          "published_at": "2026-11-14T15:34:24Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e1c0f0a3b7f8da76",
-          "title": "「文化」は世界を変える（1）",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxOUxHYUZramM2NGRtdkJtcVJOdVJQSjVYQWhfZlBvSXl2OF9sYUNjU3pSOWQ0Q1VoWU4wSnk0cEVWOFBvM2tIQWlOcXlhd2dxb19PUTBxMi1RZzllaUNrdWZuLWlpODRSb2c?oc=5",
-          "source": "みんなのミシマガジン",
-          "published_at": "2026-11-14T03:04:54Z",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-14T14:46:01Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "37aa9ce55d1b3417",
+          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-14T14:29:58Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9dbbdb79fb9f8d18",
+          "title": "レッサーパンダ「風太」がギネス世界記録™に認定されます！ ～飼育下で存命中の最高齢のレッサーパンダ～",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEdFduNUoxVWlhN1JsNGlDVkNmS3gwYTRLYllCR0dqSjR0cFB5c19zcFV6NEoybUk2ZnR1UGE4RzhhN1picUh2aEZlWlBteFgyUXloWWJzWTZtN0x2YTRGbWpnYXYwdFE?oc=5",
+          "source": "千葉市",
+          "published_at": "2026-11-14T14:01:33Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -134,6 +134,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "4667b3bae1f17474",
+          "title": "FOOMA JAPAN 2027、2027年6月8日から東京ビッグサイトで開催 出展申込は10/15まで",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MaFJLeENfZWd2UDRfM3dGd0c3eS1UTlFZdmVOdzVHSEREV3lDamFXMlZ0SzhWbjFDMkZqZVlqdUtvQnFhV0VUcEhhdDJCNGxMbDBTRUhDVW8wdw?oc=5",
+          "source": "オートメーション新聞WEB",
+          "published_at": "2026-09-10T07:00:00Z",
+          "language": "ja",
+          "category": "food_machinery",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "7b3ce71c979c7072",
           "title": "FOOMA JAPAN 2027 会期：2027年6月8日（火）～11日（金）の4日間 出展申込受付は、2026年9月1日（火）～10月15日（木）",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41TURZeUVaUUZUNmFNVXRzUE9Xc0xxU1ZEQ2FLWmt0LVVMMEJRR0lsbkpnZXJJeEJhWGJ4TGJfSVRIUlpxRmhYSGlseWN6SXJCMWl4SDQyX0p0OUE3aXJYbTlDWFBUTUo2WkE?oc=5",
@@ -149,16 +159,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZGQ0M0tCdGlfNEdSR1lXUHF6NXhkNWhEcjNSQVlNVUtuVmdlUVdKM3VXa1I4UExReEU5WXJ5WE5WZDdOUnBVYUdDYTJkc3NIQjcxSl9PcUlJTUdDNkxremdqLUhXOFh0bmc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-08-24T07:00:00Z",
-          "language": "ja",
-          "category": "food_machinery",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ee7a4d47f365962f",
-          "title": "新馬鈴薯共同選別機安全操業祈願祭に参列しました。：北海道農政事務所",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdm9LVGJSMVZERXI0clMwc2h3b1h1bmY4OUhWNWhFRERGUGY3NWFnLXVULXFBUXlUNGhwWVhYamNiS3RSb2poRmRqV1JYS01jejhzcURHR3F6cTlQM1V1emtReU90OGNPRTdla3ZCczJUSFA3ZmFvcW5QNTNnMFE4eXE2ZGRFSEE?oc=5",
-          "source": "農林水産省",
-          "published_at": "2026-08-18T07:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -264,16 +264,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5f77b0d66047441d",
-          "title": "コーナン、早朝・深夜営業の新店「コーナンmini＋」 23区中心に出店し「職人向けのコンビニ」へ",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTY1kxZkNOWWJqQUVPTjUwLUpDT1M4d3kwZ0Ixb0toNHJkR241dzY3NUdNV1VkNHp1TVlhelM2Mk5oQkdzaU5tVHBvNFYtdGdiY25wcmVWNEwyOC00SDFSbU9RZ1VYNWhKR2FUVQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-11T17:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "b5331be75e7921ad",
           "title": "コンビニで見た、あの「TONGARI」がお店になった！ 濃縮豚骨ニンニク調味料のまぜ麺屋「蒲田まぜ麺屋 尖」が11月12日、京急蒲田にオープン",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkbV9hb2lTSEFHUXNLTW5UQ1lORDNWWVFQSlFZR1Q4LU1scG9mSG5aRm54TWZKeGU1NXdjS1RMYVFtNmlUYUxad00ya0tOdEJDaElUazR4V0RTU2I2cnM1WXFITndaOG5kWGc?oc=5",
@@ -312,12 +302,32 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6562e1db83b38006",
+          "title": "ミスターマックスほか／茨城県つくば市に「（仮称）つくば市上河原崎商業施設（店舗面積1万4854m2）」27年6月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbkVDMnhJbkpHN0Vjd284X0xxVF9YekgtcEhjMG9sQnQ0R2dsbmwyMFloVm9GallzZGtVMWRJZTBQc1NEdlRpUTVmaGozaE14SEtHa1VB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-27T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "regulations": {
       "label": "規制関連",
       "articles": [
+        {
+          "id": "fd64c35513771cb4",
+          "title": "EUのバッテリー・包装材規制が輸出企業に負担、政府がWTOで貿易障壁を提起",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NWVBHTXdwdUt2amR5VkJoQWp2a3RJVXA3NXZLcEdTNkF1SC05X2pndy1TXy0yU1pXZENhMy1pOEt6TGtBRmJDU3EyVk9fdjNtcGI5Vkx4NGNKalU?oc=5",
+          "source": "亜州日報",
+          "published_at": "2026-11-12T21:08:10Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "6ed46dcd15e35476",
           "title": "食品安全管理を革新し、検査後の監視体制を強化する。",
@@ -334,16 +344,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1veTRGMGlHNnUzZDJBaDdkX29PR1IwM3pITkMyT2JYVGN2RWMyTXdyeXNFWElEcGQyaVBHRGZ5VV94V3FoZXVEOEZ3dmJzeWM5NnBsNG5rdUFNTndNNm9JMW1DNmlQT1N6MWc?oc=5",
           "source": "北海道のホームページ",
           "published_at": "2026-11-02T08:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fd64c35513771cb4",
-          "title": "EUのバッテリー・包装材規制が輸出企業に負担、政府がWTOで貿易障壁を提起",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NWVBHTXdwdUt2amR5VkJoQWp2a3RJVXA3NXZLcEdTNkF1SC05X2pndy1TXy0yU1pXZENhMy1pOEt6TGtBRmJDU3EyVk9fdjNtcGI5Vkx4NGNKalU?oc=5",
-          "source": "亜州日報",
-          "published_at": "2026-11-12T21:08:10Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-14T06:43:19Z",
-  "last_success_at": "2026-11-14T06:43:19Z",
+  "last_attempt_at": "2026-11-14T18:17:01Z",
+  "last_success_at": "2026-11-14T18:17:01Z",
   "consecutive_failure_count": 0
 }
