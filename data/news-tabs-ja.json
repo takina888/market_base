@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-14T18:17:01Z",
+  "generated_at": "2026-11-14T22:34:23Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,16 +18,6 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
-        {
-          "id": "648e01576dac4cce",
-          "title": "世界糖尿病デー、14日は都内でブルーライトアップ 東京ゲートブリッジや隅田川の橋は当日だけ青く点灯",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42Tm9GeGxuNm45cDd5M3VuUjVPaUN6OUF1VWFsS1lOTnRXZ2lCeW1WOXFWQlMxN0JPREsxamtDeDlNS1JsdS00RGZlejBES3R0UDhIeUNUSQ?oc=5",
-          "source": "共同通信PRワイヤー",
-          "published_at": "2026-11-13T23:35:18Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "8ec0250e2f688da7",
           "title": "ジェトロ、中国国際医療機器展にJapan Street広報ブースを出展(中国、日本) | ビジネス短信 ―ジェトロの海外ニュース",
@@ -49,21 +39,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-14T15:34:24Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-14T14:46:01Z",
+          "published_at": "2026-11-14T21:32:02Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -73,7 +53,27 @@
           "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-14T14:29:58Z",
+          "published_at": "2026-11-14T20:33:53Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "75a83a399571b550",
+          "title": "高市首相“パフォーマンス外交”は限界、「米中接近」国際情勢の変化への戦略見えず | 高市政権1年 サナエノミクスの功罪",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5DOVRnYlVEaDRuU2R0TlZVOTVROW5IZVowWFFGUkJINEh4dHp4TW5ldXBQYUZqMVpsVjVRbnlMM3RaM1JaZXdHYllCYUc?oc=5",
+          "source": "ダイヤモンド・オンライン",
+          "published_at": "2026-11-14T19:55:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-14T18:35:20Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -264,11 +264,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "b5331be75e7921ad",
-          "title": "コンビニで見た、あの「TONGARI」がお店になった！ 濃縮豚骨ニンニク調味料のまぜ麺屋「蒲田まぜ麺屋 尖」が11月12日、京急蒲田にオープン",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkbV9hb2lTSEFHUXNLTW5UQ1lORDNWWVFQSlFZR1Q4LU1scG9mSG5aRm54TWZKeGU1NXdjS1RMYVFtNmlUYUxad00ya0tOdEJDaElUazR4V0RTU2I2cnM1WXFITndaOG5kWGc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-11T10:20:14Z",
+          "id": "5f77b0d66047441d",
+          "title": "コーナン、早朝・深夜営業の新店「コーナンmini＋」 23区中心に出店し「職人向けのコンビニ」へ",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTY1kxZkNOWWJqQUVPTjUwLUpDT1M4d3kwZ0Ixb0toNHJkR241dzY3NUdNV1VkNHp1TVlhelM2Mk5oQkdzaU5tVHBvNFYtdGdiY25wcmVWNEwyOC00SDFSbU9RZ1VYNWhKR2FUVQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-11-11T17:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-14T18:17:01Z",
-  "last_success_at": "2026-11-14T18:17:01Z",
+  "last_attempt_at": "2026-11-14T22:34:23Z",
+  "last_success_at": "2026-11-14T22:34:23Z",
   "consecutive_failure_count": 0
 }
