@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-13T19:51:52Z",
+  "generated_at": "2026-11-14T06:43:19Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,26 +18,6 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
-        {
-          "id": "6f005371f4ea694c",
-          "title": "東プレ[5975]：海外子会社であるTopre America Corporationにおける設備投資について 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeXR5QUhkTzFfdWxRck1fMm42U0dwQ001R2N1RkZ2YUt0Umd5aFh3djQ1TEhJbHZzQWQ2SjA5MVV5UUpDSjJEeFY5T085VWRodWxwdVN3NmMzYWpiWWVHSzRLbk9IeFBBdmJ3d1JNYnlQTXhkNGJJYkxxU016MFQ5c2dBQ3Zva1hHWEpmM0pQRE9IQW41TFVkM3B4aDhnVWtTVk0tTnJyVTN3cUdVNmtxMXA5N1VYM0loUVJIenNUd2NWS1pJeU13WktOcmQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-13T07:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8c48c2fff8460cc1",
-          "title": "ピエトロ[2818]：海外子会社における事業譲受に関するお知らせ 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbU85QWZDOGpLNDRqRHhMVWhOb05qSk44bXpDNkVXcHIwR1lXMXI0RjVTU1pLTkV0MmtOLXNIeG8ySFQxTWlORHFvRkEzZmt2X2tsYTNKZ2dlU0ZDLVZwbTE5NXNtZU5QazdnbkktNHV2OVg4dS03T1loQVpfUlJOT19Va2NwM1NsY1RVNGl6U3NVV1RCTGgwTWU2YnhCTUNQbXRia0VNV2Y3M3MwN3hIX1pPNXg1RElSdzk5UjQ3VFZQcDhYdm1BcGhjd24?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-13T06:30:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "8ec0250e2f688da7",
           "title": "ジェトロ、中国国際医療機器展にJapan Street広報ブースを出展(中国、日本) | ビジネス短信 ―ジェトロの海外ニュース",
@@ -59,11 +39,31 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-14T05:27:04Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e771ba57ae3e21ec",
+          "title": "APEC、自由貿易議論へ 18日から中国で首脳会議（共同通信）",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTm9LRG42MDlrU3pGUGtSc1hObldXbU1LbHNqM1ROb2ZmdF95VDJQeXlXb2ltMHBsQU1JRDZwQ2x1X1JqczFPMWI1NmNObURyY1pjdE5YTzcyX3l4ZkZ0QmdJRXdBTUhrcTJwaFctSFBIYWJuWFN4dG1SZVNySDhwc3FoLURjTHh4a2NlM3lR?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-14T05:23:57Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "02228848766591c5",
           "title": "たわらノーロード 全世界株式【47312197】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44cVRKdGliUWhFTl8wdlNUeXpFTGtWcXNjS3ZhWW14Rl9fWDBieWNBcm90YUdPN3dDY0FPTHNBbFhILVVnLTRVVEVNSmhqQVBJMlV6Yg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-13T19:02:10Z",
+          "published_at": "2026-11-14T04:55:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -73,17 +73,17 @@
           "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-13T18:36:24Z",
+          "published_at": "2026-11-14T03:28:50Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-13T17:22:39Z",
+          "id": "e1c0f0a3b7f8da76",
+          "title": "「文化」は世界を変える（1）",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxOUxHYUZramM2NGRtdkJtcVJOdVJQSjVYQWhfZlBvSXl2OF9sYUNjU3pSOWQ0Q1VoWU4wSnk0cEVWOFBvM2tIQWlOcXlhd2dxb19PUTBxMi1RZzllaUNrdWZuLWlpODRSb2c?oc=5",
+          "source": "みんなのミシマガジン",
+          "published_at": "2026-11-14T03:04:54Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -244,11 +244,11 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "b07c2fbfc09e0864",
-          "title": "OICグループ／京王百貨店新宿店に韓国コスメ・食品専門店「リアコ」の旗艦店11月26日オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oTktnLVUzM3dyMDBubXo1U2FJUHk5VjZ4Q3hKX3dTdWhoeUVUM25valNfZmhmNG54LTFIdjRIN3drNWd5Q0FNeWN4ZWVQcElEMHRlcQ?oc=5",
+          "id": "8b8193ad987288b6",
+          "title": "イトーヨーカドー／大井町店をリニューアルオープン、食品強化のモデル店舗に",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ad29LcUJjUFpQeTlHdEphNXR6OUtUdkczR3M3LXlEODJhNFF1VEFTdUd1dDNCdm13dG9hWXlZWWNFZGNqM0djdkVubmNnbUJqcW5aT3pB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-11-13T04:56:00Z",
+          "published_at": "2026-11-13T06:27:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -319,26 +319,6 @@
       "label": "規制関連",
       "articles": [
         {
-          "id": "fd64c35513771cb4",
-          "title": "EUのバッテリー・包装材規制が輸出企業に負担、政府がWTOで貿易障壁を提起",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NWVBHTXdwdUt2amR5VkJoQWp2a3RJVXA3NXZLcEdTNkF1SC05X2pndy1TXy0yU1pXZENhMy1pOEt6TGtBRmJDU3EyVk9fdjNtcGI5Vkx4NGNKalU?oc=5",
-          "source": "亜州日報",
-          "published_at": "2026-11-12T21:08:10Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "9b5dcd6ad0e83db9",
-          "title": "タバコ規制：目標が正しければ、適切なロードマップが必要となる。",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdWF6U0FFRTRiWmdJcWRQS2k0N2Z1QXlIV3cyVjBNTGN1bkF2T2lQQUx2UG5nOEtzZEpvd1pDaE84WHQ5SUtTWGtVX3RDRlFFdkVYaXBtRU9IQVhZd3hXcThVZGhMZzQ3TFhuMXlzOXdDNzViV2hjWEhvc0FfNU8xcUFrcVVkTmxPek41c2xVVDc?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-11-11T08:35:36Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "6ed46dcd15e35476",
           "title": "食品安全管理を革新し、検査後の監視体制を強化する。",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcHRPTWcwT1k1ajYwdUF6VG9Ra19TdTVPb2R5QS1COHZJMXRyM3BEUFlvRmg0bndMQzFjVVcydlBzU3dZakFTem1SYlozMm1jQnVCMzFPYjdMR1lhTFFGWXdTMTVVSmh5aE1BZFZiU2RLSTV4dWJlODVkdklrRTB4VTZnZ2Fpdw?oc=5",
@@ -354,6 +334,26 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1veTRGMGlHNnUzZDJBaDdkX29PR1IwM3pITkMyT2JYVGN2RWMyTXdyeXNFWElEcGQyaVBHRGZ5VV94V3FoZXVEOEZ3dmJzeWM5NnBsNG5rdUFNTndNNm9JMW1DNmlQT1N6MWc?oc=5",
           "source": "北海道のホームページ",
           "published_at": "2026-11-02T08:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "fd64c35513771cb4",
+          "title": "EUのバッテリー・包装材規制が輸出企業に負担、政府がWTOで貿易障壁を提起",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NWVBHTXdwdUt2amR5VkJoQWp2a3RJVXA3NXZLcEdTNkF1SC05X2pndy1TXy0yU1pXZENhMy1pOEt6TGtBRmJDU3EyVk9fdjNtcGI5Vkx4NGNKalU?oc=5",
+          "source": "亜州日報",
+          "published_at": "2026-11-12T21:08:10Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9b5dcd6ad0e83db9",
+          "title": "タバコ規制：目標が正しければ、適切なロードマップが必要となる。",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdWF6U0FFRTRiWmdJcWRQS2k0N2Z1QXlIV3cyVjBNTGN1bkF2T2lQQUx2UG5nOEtzZEpvd1pDaE84WHQ5SUtTWGtVX3RDRlFFdkVYaXBtRU9IQVhZd3hXcThVZGhMZzQ3TFhuMXlzOXdDNzViV2hjWEhvc0FfNU8xcUFrcVVkTmxPek41c2xVVDc?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-11-11T08:35:36Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-13T19:51:52Z",
-  "last_success_at": "2026-11-13T19:51:52Z",
+  "last_attempt_at": "2026-11-14T06:43:19Z",
+  "last_success_at": "2026-11-14T06:43:19Z",
   "consecutive_failure_count": 0
 }
