@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-14T22:34:23Z",
+  "generated_at": "2026-11-15T06:48:21Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,16 +19,6 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "8ec0250e2f688da7",
-          "title": "ジェトロ、中国国際医療機器展にJapan Street広報ブースを出展(中国、日本) | ビジネス短信 ―ジェトロの海外ニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5MRWlXUDM0bkxMSTRGMUhOMkM5YlNET1ZQblhLWk9xZ3l4SVpJaFpjTk0zcEo5M1lpWmVpeWpjMTM0WEFScDNJZGJwd25lazBOeTFwUklfQllJYnRtMFFSSWZhTmtubWYwcHNDcDFB?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-13T04:32:04Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "8389f17cc63643be",
           "title": "赤澤経済産業大臣が第8回「日ベトナム産業・貿易・エネルギー協力委員会」を開催し、ベトナム社会主義共和国のラム共産党書記長兼国家主席を表敬しました（METI",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VM3hjcE5uUUxQNi10LVl0MXNqVElpbWhxRlB0Yk1zMk81VXdyVERNTGVwM3podkFPbDNaRFN1ajBhZ29ITThKSUdJVHZiN29CbmZLQTZJcHRlbmRYeTJkTllYZw?oc=5",
@@ -39,31 +29,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-14T21:32:02Z",
+          "id": "880c1108e1c05cd6",
+          "title": "中国製AIサイバー攻撃ツール世界へ拡散、サイバー攻撃拠点を世界で約1000台確認（ビジネス＋IT）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DSnlnVDRnVkFtU2hoUHlZNmxteWlCZEkwSThpMGh3eUozd1lGVlFSNFRLZWlDdV9TZUIxQmJtZUNtMV9oZXo2OXlXb1hyZHdDSmQzY2hBZWVyZXV5MFVHb0NIRnZVZEtQQTE1d3FWaWJoTXVBWk5ucEYtRXRPTUU?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-15T04:45:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "37aa9ce55d1b3417",
-          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-14T20:33:53Z",
+          "id": "25e6410c39d9e32d",
+          "title": "中小企業が「海外での知名度を上げる」のは夢じゃない？「人手なし･お金なし」でも問題なしの【海外PR術】（東洋経済オンライン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HLTBhMzhPVURubmVLdlJiOEdyT1JDalFXZ1d0OHk1TkFUTk14YjBkcEFuM0dvOHg3OFdOeUpfRWNYT1BpRFVqamNhOVIxM3dkWm9VUG1UR1hQRmRheEdVRUpwTzZfV216MVB4RXBDeHlJZXpKVWRkOG1XRDJpRnM?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-15T04:00:39Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "75a83a399571b550",
-          "title": "高市首相“パフォーマンス外交”は限界、「米中接近」国際情勢の変化への戦略見えず | 高市政権1年 サナエノミクスの功罪",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5DOVRnYlVEaDRuU2R0TlZVOTVROW5IZVowWFFGUkJINEh4dHp4TW5ldXBQYUZqMVpsVjVRbnlMM3RaM1JaZXdHYllCYUc?oc=5",
-          "source": "ダイヤモンド・オンライン",
-          "published_at": "2026-11-14T19:55:00Z",
+          "id": "b7c26698e2d5d11b",
+          "title": "中小企業が｢海外での知名度を上げる｣のは夢じゃない？｢人手なし･お金なし｣でも問題なしの【海外PR術】",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wclg2Y0xsMEctUnRqLUkzdGNUTUwxTmIycWdERlpsX0piWFdJU2tjSjRQMXFGd3BxVVpROFF0cU1DUm15NXh4UXpHc0hGQlZMbEE?oc=5",
+          "source": "東洋経済オンライン",
+          "published_at": "2026-11-15T04:00:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "42a06e61834ca47f",
+          "title": "ペンギンに関わる世界中の人が集まる「国際ペンギン会議」に参加してきました",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmbFl5aHdQMElmblB5b1p2NWxfN05KRkp2LV9wQWkzN3MxYmZXanAwc0p2ZElKVGtkaHVqdF8tckp5UnFfTmJqQ0c5NElDRFozbnNzZWQwVXBvUjMtWTBV?oc=5",
+          "source": "すみだ水族館",
+          "published_at": "2026-11-15T03:51:19Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -73,17 +73,17 @@
           "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-14T18:35:20Z",
+          "published_at": "2026-11-15T03:39:44Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9dbbdb79fb9f8d18",
-          "title": "レッサーパンダ「風太」がギネス世界記録™に認定されます！ ～飼育下で存命中の最高齢のレッサーパンダ～",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEdFduNUoxVWlhN1JsNGlDVkNmS3gwYTRLYllCR0dqSjR0cFB5c19zcFV6NEoybUk2ZnR1UGE4RzhhN1picUh2aEZlWlBteFgyUXloWWJzWTZtN0x2YTRGbWpnYXYwdFE?oc=5",
-          "source": "千葉市",
-          "published_at": "2026-11-14T14:01:33Z",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-15T02:35:24Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,16 +179,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ea8cc79be8189080",
-          "title": "帳票管理のカミナシ、物流・食品工場のAI活用支援 22億円調達",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91WE5EVU15VE00eWU0LWl3Z0tsaGtyRUVJQUx6ZHhPOEl2MWFQTmM3MmZ2VXlnZmtwM1BJTW4ySk96LURYb09teU9IR1NUa3pkbjltOU5SNDJuQXp1QTdWUFg2UzRLeWUyWG5YQQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-10-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "ac470e6e0246557b",
           "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94YWQ3eFJXbDRXNlQ2YVRiMnE3ZU5tclZ5NUZ3Y3pHbVNTcDdzSXhEQjdlSmhZOXB1Uk9XaXdjYjU2a256VUNlNTZIUFZBTDhwVjV1d3pVeEZuYlE?oc=5",
@@ -219,21 +209,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "cbbbd1904db9d4a2",
-          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-21T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "6b72da5f6e5029b4",
           "title": "「食品工場 Week 東京」に出展",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tUkJHbmFOMlhtVWdkdU5rX2ZjWGNNOWlXajRvME8yLTV1dVJQY19kdGJGM2I5NkpsVktSMjZKcS1NUEVUWmlsV28xb1UwNDAySi04Rkd3Z09EZng3d3dLb0ZyZGdTRVF5WFdJNHZ3VnRjUQ?oc=5",
           "source": "Infoseek",
           "published_at": "2026-11-04T23:10:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3b77f26d62fddc9c",
+          "title": "食品工場Week東京、物流効率化技術も展示",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UeEpVS0otc2YxckJ1R2NyLXljQUEzWVAyUDNwc3NwX3RPLURhdW1rQ3hIY3p5WnBrZDROTEx1bWxHNmk0VkI1M2V3?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-10-26T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "825c54bc5667649b",
+          "title": "食品工場Week大阪、省人化・物流効率化技術が集結",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAzc1U4M3lNZ0FRZHkxWTd2NFF0U09EUkhFdHg3TVF3aklhRmtTaXhSTEduYXpfS1lkU20wMWwzcTlvSm5PSWRudjJn?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-09-17T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -254,21 +254,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "605d9e80d1ab47b0",
-          "title": "バロー、コーナン商事／奈良県生駒市に「生駒壱分商業施設（店舗面積4752m2）」27年5月18日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OOVltZ1R2ZF8tQVUwaXVEc3IxUFlQWnBzdXMya1NpQnhtOGQwaDMtdTNELTZUMlhCa1ZoT3RVcHZlUkZZOWZ2a29BY1o0RWZDWFotcVln?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-11-12T01:31:00Z",
+          "id": "4a47aa28a65b8196",
+          "title": "＜杜の街グレースからのお知らせ＞明日の朝に食べる分だけ。杜の街グレースで、量り売りを一品から その取り組みが全国で話題のスーパーマーケット「斗々屋」が11月17日から期間限定出店",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wUDQzeTNRZGVpRzdNdVQ4cV9qNDRBTGp2d0ZFTFRITGVRUEstV1F5anZFd19lRURqYW5mQUd4MVd1OFhFLXJiakVQclp4UHFfLUtSbDdkdTQ2akZtdWxTVFdSMHhSYjZvM2c?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-11-12T08:23:17Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5f77b0d66047441d",
-          "title": "コーナン、早朝・深夜営業の新店「コーナンmini＋」 23区中心に出店し「職人向けのコンビニ」へ",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTY1kxZkNOWWJqQUVPTjUwLUpDT1M4d3kwZ0Ixb0toNHJkR241dzY3NUdNV1VkNHp1TVlhelM2Mk5oQkdzaU5tVHBvNFYtdGdiY25wcmVWNEwyOC00SDFSbU9RZ1VYNWhKR2FUVQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-11T17:00:00Z",
+          "id": "605d9e80d1ab47b0",
+          "title": "バロー、コーナン商事／奈良県生駒市に「生駒壱分商業施設（店舗面積4752m2）」27年5月18日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OOVltZ1R2ZF8tQVUwaXVEc3IxUFlQWnBzdXMya1NpQnhtOGQwaDMtdTNELTZUMlhCa1ZoT3RVcHZlUkZZOWZ2a29BY1o0RWZDWFotcVln?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-11-12T01:31:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -329,21 +329,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6ed46dcd15e35476",
-          "title": "食品安全管理を革新し、検査後の監視体制を強化する。",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcHRPTWcwT1k1ajYwdUF6VG9Ra19TdTVPb2R5QS1COHZJMXRyM3BEUFlvRmg0bndMQzFjVVcydlBzU3dZakFTem1SYlozMm1jQnVCMzFPYjdMR1lhTFFGWXdTMTVVSmh5aE1BZFZiU2RLSTV4dWJlODVkdklrRTB4VTZnZ2Fpdw?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-11-08T12:22:32Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "ef503c10ab6704c7",
           "title": "ヘルシーDo(北海道食品機能性表示制度) - 経済部食関連産業局食産業振興課",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1veTRGMGlHNnUzZDJBaDdkX29PR1IwM3pITkMyT2JYVGN2RWMyTXdyeXNFWElEcGQyaVBHRGZ5VV94V3FoZXVEOEZ3dmJzeWM5NnBsNG5rdUFNTndNNm9JMW1DNmlQT1N6MWc?oc=5",
           "source": "北海道のホームページ",
           "published_at": "2026-11-02T08:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6ed46dcd15e35476",
+          "title": "食品安全管理を革新し、検査後の監視体制を強化する。",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcHRPTWcwT1k1ajYwdUF6VG9Ra19TdTVPb2R5QS1COHZJMXRyM3BEUFlvRmg0bndMQzFjVVcydlBzU3dZakFTem1SYlozMm1jQnVCMzFPYjdMR1lhTFFGWXdTMTVVSmh5aE1BZFZiU2RLSTV4dWJlODVkdklrRTB4VTZnZ2Fpdw?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-11-08T12:22:32Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-14T22:34:23Z",
-  "last_success_at": "2026-11-14T22:34:23Z",
+  "last_attempt_at": "2026-11-15T06:48:21Z",
+  "last_success_at": "2026-11-15T06:48:21Z",
   "consecutive_failure_count": 0
 }
