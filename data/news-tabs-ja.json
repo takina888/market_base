@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-15T06:48:21Z",
+  "generated_at": "2026-11-15T18:57:46Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,26 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "86173f2bded2d66e",
+          "title": "「海外展開サポート窓口たま」開所記念式典・セミナーを開催(日本) | ビジネス短信 ―ジェトロの海外ニュース",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Od2JpNU4xaU1GV252TzBTVlNPOHZHelNGbHlUaURiSEhfRFBSUV9aYVdiZW5zUHE5QTVUcTR6YTg5WmZSTmozYUpjTF8ybjhtOW1IWEh0SEEyYzdVNzRsSGs4RllBX0ZubmZzdmNR?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-15T15:33:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "5496de253554fe53",
+          "title": "中国国際漁業博覧会に3年連続出展、「Japan Street」で商談機会を創出(中国、日本) | ビジネス短信 ―ジェトロの海外ニュース",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GdDNMN1dicjRqV0Joa2NIWEVvTVdaWDFsY0dOLXkydTliaUs0ZG1tN1Z5QzdoUTdmSjVYZ2tRQUZGMzhuR3FDbUE0SGI3U2dHN1JfX3BKdXNJSWswbnZ5QWg0aG5YbWY3RlBHOWZB?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-15T15:33:30Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "8389f17cc63643be",
           "title": "赤澤経済産業大臣が第8回「日ベトナム産業・貿易・エネルギー協力委員会」を開催し、ベトナム社会主義共和国のラム共産党書記長兼国家主席を表敬しました（METI",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VM3hjcE5uUUxQNi10LVl0MXNqVElpbWhxRlB0Yk1zMk81VXdyVERNTGVwM3podkFPbDNaRFN1ajBhZ29ITThKSUdJVHZiN29CbmZLQTZJcHRlbmRYeTJkTllYZw?oc=5",
@@ -29,51 +49,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "880c1108e1c05cd6",
-          "title": "中国製AIサイバー攻撃ツール世界へ拡散、サイバー攻撃拠点を世界で約1000台確認（ビジネス＋IT）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DSnlnVDRnVkFtU2hoUHlZNmxteWlCZEkwSThpMGh3eUozd1lGVlFSNFRLZWlDdV9TZUIxQmJtZUNtMV9oZXo2OXlXb1hyZHdDSmQzY2hBZWVyZXV5MFVHb0NIRnZVZEtQQTE1d3FWaWJoTXVBWk5ucEYtRXRPTUU?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-15T04:45:06Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "25e6410c39d9e32d",
-          "title": "中小企業が「海外での知名度を上げる」のは夢じゃない？「人手なし･お金なし」でも問題なしの【海外PR術】（東洋経済オンライン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HLTBhMzhPVURubmVLdlJiOEdyT1JDalFXZ1d0OHk1TkFUTk14YjBkcEFuM0dvOHg3OFdOeUpfRWNYT1BpRFVqamNhOVIxM3dkWm9VUG1UR1hQRmRheEdVRUpwTzZfV216MVB4RXBDeHlJZXpKVWRkOG1XRDJpRnM?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-15T04:00:39Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b7c26698e2d5d11b",
-          "title": "中小企業が｢海外での知名度を上げる｣のは夢じゃない？｢人手なし･お金なし｣でも問題なしの【海外PR術】",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wclg2Y0xsMEctUnRqLUkzdGNUTUwxTmIycWdERlpsX0piWFdJU2tjSjRQMXFGd3BxVVpROFF0cU1DUm15NXh4UXpHc0hGQlZMbEE?oc=5",
-          "source": "東洋経済オンライン",
-          "published_at": "2026-11-15T04:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "42a06e61834ca47f",
-          "title": "ペンギンに関わる世界中の人が集まる「国際ペンギン会議」に参加してきました",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmbFl5aHdQMElmblB5b1p2NWxfN05KRkp2LV9wQWkzN3MxYmZXanAwc0p2ZElKVGtkaHVqdF8tckp5UnFfTmJqQ0c5NElDRFozbnNzZWQwVXBvUjMtWTBV?oc=5",
-          "source": "すみだ水族館",
-          "published_at": "2026-11-15T03:51:19Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "2fb2ef7c2e5617dd",
           "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-15T03:39:44Z",
+          "published_at": "2026-11-15T15:48:38Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "37aa9ce55d1b3417",
+          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-15T14:49:36Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -83,7 +73,17 @@
           "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-15T02:35:24Z",
+          "published_at": "2026-11-15T14:42:19Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4000f2c0d87e0ec8",
+          "title": "中国・広東省、APEC経済圏との貿易額が5.74兆元 深圳市の貿易総額は初の5兆元突破",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5icEMtYUpWWXdOZTVFbFR0N0FseGhFR196eVoxUXFTUXFSWVROd0RrWnZIMHBfNmJGLThXRUVQbUpKYkhoOUFBcThWUnhHazI5UGd4a3Z6WTRNdzNuVnNsdU5RRmVOWTdXTU9tTFhnaGtmbGlI?oc=5",
+          "source": "BigGo ファイナンス",
+          "published_at": "2026-11-15T12:55:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-15T06:48:21Z",
-  "last_success_at": "2026-11-15T06:48:21Z",
+  "last_attempt_at": "2026-11-15T18:57:46Z",
+  "last_success_at": "2026-11-15T18:57:46Z",
   "consecutive_failure_count": 0
 }
