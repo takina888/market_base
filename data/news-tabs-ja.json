@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-16T06:48:13Z",
+  "generated_at": "2026-11-16T22:18:56Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,6 +19,16 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "b872505f27cf3499",
+          "title": "トルコ、脱炭素化に向け国際資金の呼び込みを強化(トルコ) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00RzJqVEU5bzBJZDEzM2pfZ20tbUxSODBSQk1fMnU1Z0staXVOb1ZINExrM1BwZmhwdTE3dW8wZ2NFOFBQaWlsaU5nM0cwMTl5SWNEeU9GUFJ6UTVtYnVNQml6U1J1SXBPWGdvUnFR?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-16T03:33:49Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "3463b2f34fc9e8f1",
           "title": "エヌビディア、海外市場ビュー&米国株ピックアップ（11月16日）",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0TWhOdktlUjI5eTR0WmM0Y2lRS09XX2NtUy1pdjB1MXdRWG5WdlpQZmpYVVdLaDZkUnpzWW1VcXlSQkFJLXdzUlRYNlJQWkdoY2x2SUZ4UXFVakFwNGwtNEFFd0p2TFZJOWVUUnIyZEhTa1R5NEdfeUJGNU1vQQ?oc=5",
@@ -29,61 +39,51 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "5496de253554fe53",
-          "title": "中国国際漁業博覧会に3年連続出展、「Japan Street」で商談機会を創出(中国、日本) | ビジネス短信 ―ジェトロの海外ニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GdDNMN1dicjRqV0Joa2NIWEVvTVdaWDFsY0dOLXkydTliaUs0ZG1tN1Z5QzdoUTdmSjVYZ2tRQUZGMzhuR3FDbUE0SGI3U2dHN1JfX3BKdXNJSWswbnZ5QWg0aG5YbWY3RlBHOWZB?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-15T15:33:30Z",
+          "id": "dfcabaad8fd6b2e9",
+          "title": "2027年3月の海外公演情報",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE15cW1oeks3blJ3UW8tdnBPUURXQm9jSVlObTdVeExtNHN0U1R6aE9Sb2dnYjEtTHpWcVYtb0dfUHJDc0t1UlhmdA?oc=5",
+          "source": "ぶらあぼONLINE | クラシック音楽情報ポータル",
+          "published_at": "2026-11-16T22:05:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "8389f17cc63643be",
-          "title": "赤澤経済産業大臣が第8回「日ベトナム産業・貿易・エネルギー協力委員会」を開催し、ベトナム社会主義共和国のラム共産党書記長兼国家主席を表敬しました（METI",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VM3hjcE5uUUxQNi10LVl0MXNqVElpbWhxRlB0Yk1zMk81VXdyVERNTGVwM3podkFPbDNaRFN1ajBhZ29ITThKSUdJVHZiN29CbmZLQTZJcHRlbmRYeTJkTllYZw?oc=5",
-          "source": "経済産業省",
-          "published_at": "2026-11-09T13:15:47Z",
+          "id": "6b27454d9d3c1d1c",
+          "title": "【締切1/20】2026年度「ディープテック・スタートアップ支援基金／国際共同研究開発」公募",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53RnNUS19jcmNoYzZPVmJzOFdNeC1SdEczM1UxX3BfWUl5TGwzQmRYcEl6UnQya2czZHlGdy10elVHN0VNa21hM2xJUnBUTzcyMWZ2SzVpT01FZmNoeGYxeFhGOVNyLWs?oc=5",
+          "source": "スタートアップポートヨコハマ",
+          "published_at": "2026-11-16T21:43:29Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a51701e190648ee2",
-          "title": "輸出1兆ドルの逆説…「FTA破棄」まで警告する韓国の貿易相手国（中央日報日本語版）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwSGJrRTVrZDRvUUQ1WVA0M1J0aEtkTkk4TEE2Ul8tdzhGN01iX2M1Vkl5bkpTZXdIdHctaEFvczB1Y2NLWEVmeUhWR0lyY0V5a0FtY3VOV20yejVsenZsNGo3WFFKVWt5NE1iZTZMY2ZhTlVtcXJHNHNkd3Nkelk?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-16T05:19:50Z",
+          "id": "9f49a9e13790d466",
+          "title": "マツコの知らない世界 [解] [字] 【毎週火曜よる８時５５分！マツコ仰天！驚きの世界】",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ULThXMk41RWJ2VXNxQzFwakpHWjBXbWVsSWplbWRkQklUQmZINUlmS2IwakRBRzBHeWpTX0hybmQtNWJ5d0N5cXFSTWtaa1lMNktWaUhn?oc=5",
+          "source": "TBSテレビ",
+          "published_at": "2026-11-16T19:07:02Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a5444cae43ebd905",
-          "title": "【海外市場の注目ポイント】ウォーシュ米ＦＲＢ議長の発言など",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA3TVVQMkJ4TWdPVUhVa1duWHotbThmaUM5aklnS3A0NlFKakdHb1BpR1dUUS1xNk5xX1pOZGUwalV0VGtoQzJzeA?oc=5",
-          "source": "みんかぶ FX/為替",
-          "published_at": "2026-11-16T05:10:29Z",
+          "id": "37aa9ce55d1b3417",
+          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-16T18:19:57Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "a96fc2a29c236b0c",
-          "title": "「風力発電で未来を拓く世界宣言」に賛同｜活動記録｜自然エネルギー財団",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CZnVpRXZYTmR2MThrSmRRc0dnTHNwLWJGNThqODZzT3lxSnh6dERhSGRmZy1jdEVmY1Vub2owTmpSUVdmcllfblUySjlMaWI4OUl1NjlZcnZmY1hGOHI5S2NmWUNhZzhuZW5ZQnZOTTQ?oc=5",
-          "source": "自然エネルギー財団",
-          "published_at": "2026-11-16T04:04:21Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c9904d00ffd8fe7a",
-          "title": "豪、中国の鉄鉱石貿易「操作」に懸念 経済への打撃警戒（ＡＦＰ＝時事）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kelo2UWdxc3YwOTNfTndHSjVYWTlXRjhKb01KZklRVXFTakNXWVdzLWVXeUpiZUxuR2JpSzVSZjFvdWRGRzA1MnA3WjRQY2ladDlmRnBlSHcyU3dPODFMVzV0enN5MlhSajZvZERKSmVsT2psVk1yMWVGQ0t5R0k?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-16T03:58:20Z",
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-16T18:06:13Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -244,16 +244,6 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "b07c2fbfc09e0864",
-          "title": "OICグループ／京王百貨店新宿店に韓国コスメ・食品専門店「リアコ」の旗艦店11月26日オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oTktnLVUzM3dyMDBubXo1U2FJUHk5VjZ4Q3hKX3dTdWhoeUVUM25valNfZmhmNG54LTFIdjRIN3drNWd5Q0FNeWN4ZWVQcElEMHRlcQ?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-11-13T04:56:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "605d9e80d1ab47b0",
           "title": "バロー、コーナン商事／奈良県生駒市に「生駒壱分商業施設（店舗面積4752m2）」27年5月18日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OOVltZ1R2ZF8tQVUwaXVEc3IxUFlQWnBzdXMya1NpQnhtOGQwaDMtdTNELTZUMlhCa1ZoT3RVcHZlUkZZOWZ2a29BY1o0RWZDWFotcVln?oc=5",
@@ -309,6 +299,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CVlRsWW9fZGROcGZIWU1sZnFVQWc1TWZtS3ZhUGxZMUlkdUN6aUs0UDRNZnBrWWlvaTNUQWpXclFCcHAtTHc0Z19sM3JFZzV1NDVuOFpR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-27T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "e9024160fefd65da",
+          "title": "ベルクほか／埼玉県入間市に「（仮称）フレスポ入間（店舗面積3210m2）」28年3月31日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8weEVkeW5YTGUzazF6U190MlQzUzJzeENhbDY0aWN0c2EtbUxVX3pFYXdpMEQxdWJ6dEc1OTZGaWVqRkdKRE1CamlfZE5NT2hDazdhWldB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-22T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-16T06:48:13Z",
-  "last_success_at": "2026-11-16T06:48:13Z",
+  "last_attempt_at": "2026-11-16T22:18:56Z",
+  "last_success_at": "2026-11-16T22:18:56Z",
   "consecutive_failure_count": 0
 }
