@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-15T18:57:46Z",
+  "generated_at": "2026-11-16T06:48:13Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,11 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "86173f2bded2d66e",
-          "title": "「海外展開サポート窓口たま」開所記念式典・セミナーを開催(日本) | ビジネス短信 ―ジェトロの海外ニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Od2JpNU4xaU1GV252TzBTVlNPOHZHelNGbHlUaURiSEhfRFBSUV9aYVdiZW5zUHE5QTVUcTR6YTg5WmZSTmozYUpjTF8ybjhtOW1IWEh0SEEyYzdVNzRsSGs4RllBX0ZubmZzdmNR?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-15T15:33:30Z",
+          "id": "3463b2f34fc9e8f1",
+          "title": "エヌビディア、海外市場ビュー&米国株ピックアップ（11月16日）",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0TWhOdktlUjI5eTR0WmM0Y2lRS09XX2NtUy1pdjB1MXdRWG5WdlpQZmpYVVdLaDZkUnpzWW1VcXlSQkFJLXdzUlRYNlJQWkdoY2x2SUZ4UXFVakFwNGwtNEFFd0p2TFZJOWVUUnIyZEhTa1R5NEdfeUJGNU1vQQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-11-16T01:17:51Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -49,41 +49,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "2fb2ef7c2e5617dd",
-          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-15T15:48:38Z",
+          "id": "a51701e190648ee2",
+          "title": "輸出1兆ドルの逆説…「FTA破棄」まで警告する韓国の貿易相手国（中央日報日本語版）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwSGJrRTVrZDRvUUQ1WVA0M1J0aEtkTkk4TEE2Ul8tdzhGN01iX2M1Vkl5bkpTZXdIdHctaEFvczB1Y2NLWEVmeUhWR0lyY0V5a0FtY3VOV20yejVsenZsNGo3WFFKVWt5NE1iZTZMY2ZhTlVtcXJHNHNkd3Nkelk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-16T05:19:50Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "37aa9ce55d1b3417",
-          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-15T14:49:36Z",
+          "id": "a5444cae43ebd905",
+          "title": "【海外市場の注目ポイント】ウォーシュ米ＦＲＢ議長の発言など",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA3TVVQMkJ4TWdPVUhVa1duWHotbThmaUM5aklnS3A0NlFKakdHb1BpR1dUUS1xNk5xX1pOZGUwalV0VGtoQzJzeA?oc=5",
+          "source": "みんかぶ FX/為替",
+          "published_at": "2026-11-16T05:10:29Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-15T14:42:19Z",
+          "id": "a96fc2a29c236b0c",
+          "title": "「風力発電で未来を拓く世界宣言」に賛同｜活動記録｜自然エネルギー財団",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CZnVpRXZYTmR2MThrSmRRc0dnTHNwLWJGNThqODZzT3lxSnh6dERhSGRmZy1jdEVmY1Vub2owTmpSUVdmcllfblUySjlMaWI4OUl1NjlZcnZmY1hGOHI5S2NmWUNhZzhuZW5ZQnZOTTQ?oc=5",
+          "source": "自然エネルギー財団",
+          "published_at": "2026-11-16T04:04:21Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "4000f2c0d87e0ec8",
-          "title": "中国・広東省、APEC経済圏との貿易額が5.74兆元 深圳市の貿易総額は初の5兆元突破",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5icEMtYUpWWXdOZTVFbFR0N0FseGhFR196eVoxUXFTUXFSWVROd0RrWnZIMHBfNmJGLThXRUVQbUpKYkhoOUFBcThWUnhHazI5UGd4a3Z6WTRNdzNuVnNsdU5RRmVOWTdXTU9tTFhnaGtmbGlI?oc=5",
-          "source": "BigGo ファイナンス",
-          "published_at": "2026-11-15T12:55:00Z",
+          "id": "c9904d00ffd8fe7a",
+          "title": "豪、中国の鉄鉱石貿易「操作」に懸念 経済への打撃警戒（ＡＦＰ＝時事）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kelo2UWdxc3YwOTNfTndHSjVYWTlXRjhKb01KZklRVXFTakNXWVdzLWVXeUpiZUxuR2JpSzVSZjFvdWRGRzA1MnA3WjRQY2ladDlmRnBlSHcyU3dPODFMVzV0enN5MlhSajZvZERKSmVsT2psVk1yMWVGQ0t5R0k?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-16T03:58:20Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -179,6 +179,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "ea8cc79be8189080",
+          "title": "帳票管理のカミナシ、物流・食品工場のAI活用支援 22億円調達",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91WE5EVU15VE00eWU0LWl3Z0tsaGtyRUVJQUx6ZHhPOEl2MWFQTmM3MmZ2VXlnZmtwM1BJTW4ySk96LURYb09teU9IR1NUa3pkbjltOU5SNDJuQXp1QTdWUFg2UzRLeWUyWG5YQQ?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-10-21T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "ac470e6e0246557b",
           "title": "三井情報、スターゼンの食品工場DX支援に回転機器故障予兆検知ソリューション「AssetWatch」を導入",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94YWQ3eFJXbDRXNlQ2YVRiMnE3ZU5tclZ5NUZ3Y3pHbVNTcDdzSXhEQjdlSmhZOXB1Uk9XaXdjYjU2a256VUNlNTZIUFZBTDhwVjV1d3pVeEZuYlE?oc=5",
@@ -209,31 +219,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6b72da5f6e5029b4",
-          "title": "「食品工場 Week 東京」に出展",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tUkJHbmFOMlhtVWdkdU5rX2ZjWGNNOWlXajRvME8yLTV1dVJQY19kdGJGM2I5NkpsVktSMjZKcS1NUEVUWmlsV28xb1UwNDAySi04Rkd3Z09EZng3d3dLb0ZyZGdTRVF5WFdJNHZ3VnRjUQ?oc=5",
-          "source": "Infoseek",
-          "published_at": "2026-11-04T23:10:00Z",
+          "id": "cbbbd1904db9d4a2",
+          "title": "大規模な設備投資に頼らず、食品工場のムダを現場から改善する株式会社HAKADORIを設立",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSGpsTDhSQ1RHWDJQSXI3Zmw0ME80T2xrYUxCamxOQU5OWnRFT0JNY1ZzS1lWRERnOE52Vld0QnYwa0lWeGpocTgzRE9WaE1JbnlIVlg4ZU40Tll6eHRRNWZLM21ob2U3M1E?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-21T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "3b77f26d62fddc9c",
-          "title": "食品工場Week東京、物流効率化技術も展示",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UeEpVS0otc2YxckJ1R2NyLXljQUEzWVAyUDNwc3NwX3RPLURhdW1rQ3hIY3p5WnBrZDROTEx1bWxHNmk0VkI1M2V3?oc=5",
-          "source": "LOGISTICS TODAY",
-          "published_at": "2026-10-26T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "825c54bc5667649b",
-          "title": "食品工場Week大阪、省人化・物流効率化技術が集結",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAzc1U4M3lNZ0FRZHkxWTd2NFF0U09EUkhFdHg3TVF3aklhRmtTaXhSTEduYXpfS1lkU20wMWwzcTlvSm5PSWRudjJn?oc=5",
-          "source": "LOGISTICS TODAY",
-          "published_at": "2026-09-17T07:00:00Z",
+          "id": "7cf99bf211754396",
+          "title": "元トヨタ生技が見た食品工場のなぜ：電子ブックレット（FA）",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90SkhVYkdtN2JwV1BpRXpmVkx6dTRwNS1SX1VzZTJyQmwzNU9YVUh4LXFnbDFlWGtKWmpZVk94WlFMZENhWFZxRDBQbGQxbHUzLUNHeXRvSS1MNTB5TExCSFlWM3o0STVpSzFianJtbw?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-11-16T03:30:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -244,21 +244,11 @@
       "label": "小売店",
       "articles": [
         {
-          "id": "8b8193ad987288b6",
-          "title": "イトーヨーカドー／大井町店をリニューアルオープン、食品強化のモデル店舗に",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ad29LcUJjUFpQeTlHdEphNXR6OUtUdkczR3M3LXlEODJhNFF1VEFTdUd1dDNCdm13dG9hWXlZWWNFZGNqM0djdkVubmNnbUJqcW5aT3pB?oc=5",
+          "id": "b07c2fbfc09e0864",
+          "title": "OICグループ／京王百貨店新宿店に韓国コスメ・食品専門店「リアコ」の旗艦店11月26日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oTktnLVUzM3dyMDBubXo1U2FJUHk5VjZ4Q3hKX3dTdWhoeUVUM25valNfZmhmNG54LTFIdjRIN3drNWd5Q0FNeWN4ZWVQcElEMHRlcQ?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-11-13T06:27:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4a47aa28a65b8196",
-          "title": "＜杜の街グレースからのお知らせ＞明日の朝に食べる分だけ。杜の街グレースで、量り売りを一品から その取り組みが全国で話題のスーパーマーケット「斗々屋」が11月17日から期間限定出店",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wUDQzeTNRZGVpRzdNdVQ4cV9qNDRBTGp2d0ZFTFRITGVRUEstV1F5anZFd19lRURqYW5mQUd4MVd1OFhFLXJiakVQclp4UHFfLUtSbDdkdTQ2akZtdWxTVFdSMHhSYjZvM2c?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-12T08:23:17Z",
+          "published_at": "2026-11-13T04:56:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -307,6 +297,16 @@
           "id": "6562e1db83b38006",
           "title": "ミスターマックスほか／茨城県つくば市に「（仮称）つくば市上河原崎商業施設（店舗面積1万4854m2）」27年6月1日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbkVDMnhJbkpHN0Vjd284X0xxVF9YekgtcEhjMG9sQnQ0R2dsbmwyMFloVm9GallzZGtVMWRJZTBQc1NEdlRpUTVmaGozaE14SEtHa1VB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-27T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9b31ae860dae1039",
+          "title": "トライアル／茨城県土浦市に「スーパーセンタートライアル荒川沖店（店舗面積4200m2）」27年5月25日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CVlRsWW9fZGROcGZIWU1sZnFVQWc1TWZtS3ZhUGxZMUlkdUN6aUs0UDRNZnBrWWlvaTNUQWpXclFCcHAtTHc0Z19sM3JFZzV1NDVuOFpR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-27T07:00:00Z",
           "language": "ja",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-15T18:57:46Z",
-  "last_success_at": "2026-11-15T18:57:46Z",
+  "last_attempt_at": "2026-11-16T06:48:13Z",
+  "last_success_at": "2026-11-16T06:48:13Z",
   "consecutive_failure_count": 0
 }
