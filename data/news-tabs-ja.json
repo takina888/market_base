@@ -2,88 +2,89 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-16T22:18:56Z",
+  "generated_at": "2026-11-17T08:07:38Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
     "food_factory",
-    "retail",
     "overseas"
   ],
   "retained_categories": [
     "regulations"
   ],
-  "failed_categories": {},
+  "failed_categories": {
+    "retail": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "b872505f27cf3499",
-          "title": "トルコ、脱炭素化に向け国際資金の呼び込みを強化(トルコ) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00RzJqVEU5bzBJZDEzM2pfZ20tbUxSODBSQk1fMnU1Z0staXVOb1ZINExrM1BwZmhwdTE3dW8wZ2NFOFBQaWlsaU5nM0cwMTl5SWNEeU9GUFJ6UTVtYnVNQml6U1J1SXBPWGdvUnFR?oc=5",
+          "id": "78e641c8c3c32ed3",
+          "title": "次世代タンパク質の国際イベント「The Future of Protein Production」開催(オランダ) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kVGJSclFMb1ByUDlMNjYydzJkQmt3THZ1MkNkX0hRV01PVFRPcmUzTzlmc093eGx1LWY3WFpUa18xbTJoVFNNNVR5WWx1T05QLUpfRVA0Q19oNEdUdE5tUG5ma1d2RFpmSnFLdklR?oc=5",
           "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-16T03:33:49Z",
+          "published_at": "2026-11-17T05:34:41Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "3463b2f34fc9e8f1",
-          "title": "エヌビディア、海外市場ビュー&米国株ピックアップ（11月16日）",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0TWhOdktlUjI5eTR0WmM0Y2lRS09XX2NtUy1pdjB1MXdRWG5WdlpQZmpYVVdLaDZkUnpzWW1VcXlSQkFJLXdzUlRYNlJQWkdoY2x2SUZ4UXFVakFwNGwtNEFFd0p2TFZJOWVUUnIyZEhTa1R5NEdfeUJGNU1vQQ?oc=5",
+          "id": "f3408c1aaff8eafb",
+          "title": "国際花卉見本市「IFTF 2026」開催、日本の全国団体が出展(日本、オランダ) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XRkM2T2dFNDNMMnkxUllTbGhoWTg5cjlPNVlSSnVqWC01VVByd2pHNFFNR05jaVJwN0ZrZi1DWFYwSDFfYmt1cnBYUFNFTzdaRUZFWEtxTkh4U2ROb0RwZFVsQmpXdzRsZGZSS1N3?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-17T03:34:36Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8a98eba89ae00dc9",
+          "title": "エヌビディア、L3ハリス・テクノロジーズ 海外市場ビュー&米国株ピックアップ（11月17日）",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBqNWZpNFZGdU9KT09YWEpBcGlNN1BiX094SERpbW9vVGF1VW84RTBZbXpDVWUzR3RvSDNvQTZfT2N5S3BDU3hnelJjWGVOZEJSMHM0TUhGZHcyeVdjQkZ4SXhkbndsUmpzdFpoNk9hejBDLWtralJweG11NUx5QQ?oc=5",
           "source": "日本経済新聞",
-          "published_at": "2026-11-16T01:17:51Z",
+          "published_at": "2026-11-17T01:21:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "dfcabaad8fd6b2e9",
-          "title": "2027年3月の海外公演情報",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE15cW1oeks3blJ3UW8tdnBPUURXQm9jSVlObTdVeExtNHN0U1R6aE9Sb2dnYjEtTHpWcVYtb0dfUHJDc0t1UlhmdA?oc=5",
-          "source": "ぶらあぼONLINE | クラシック音楽情報ポータル",
-          "published_at": "2026-11-16T22:05:00Z",
+          "id": "ef79e9422045b518",
+          "title": "韓国産業通商資源部・KOTRA、世界一流商品を989品目に拡大…新規75社のうち94%が中小・中堅企業",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GMEwtd054bEd6NzJLSVNaSVVldk9ielJ2bnlrQ3NKYThZRUxtekdrRTUtTF9VRjUxN2ZKRE81WnduZVBQV3lYVDZkV2JrUmdmX0pnbkNLSGJfYmJiYmp6SFdYQkpuY3NWRWJTbUJPTFBNZ3RL?oc=5",
+          "source": "BigGo ファイナンス",
+          "published_at": "2026-11-17T07:35:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6b27454d9d3c1d1c",
-          "title": "【締切1/20】2026年度「ディープテック・スタートアップ支援基金／国際共同研究開発」公募",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53RnNUS19jcmNoYzZPVmJzOFdNeC1SdEczM1UxX3BfWUl5TGwzQmRYcEl6UnQya2czZHlGdy10elVHN0VNa21hM2xJUnBUTzcyMWZ2SzVpT01FZmNoeGYxeFhGOVNyLWs?oc=5",
-          "source": "スタートアップポートヨコハマ",
-          "published_at": "2026-11-16T21:43:29Z",
+          "id": "57922d5f7e9f66cf",
+          "title": "グロイン債券｜利回りの上昇で改めて注目したい世界公益債券",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeDd5R0tmRlItcnItbEFJMGhicVJwd1lDcUU0a0k0bzVQaVBBVlFVY0otSHhKMEdOVEFiN2tOY1IzOTFQZE1PRWIwcFNzUjdNc2FVbWFFVWVROVlySTJ0c1FFWWdIUk9LVmdncmxJQXdzOVZzTzJ6Q1hId181X0FiTTAwOUptYk1ZTVJtMGEtRzZKdWVnVkpmVEc3QzQ3Y2xZT2ZZY21FUU1jYUVhUzdHeHNQbzU?oc=5",
+          "source": "ピクテ・ジャパン",
+          "published_at": "2026-11-17T06:59:51Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "9f49a9e13790d466",
-          "title": "マツコの知らない世界 [解] [字] 【毎週火曜よる８時５５分！マツコ仰天！驚きの世界】",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ULThXMk41RWJ2VXNxQzFwakpHWjBXbWVsSWplbWRkQklUQmZINUlmS2IwakRBRzBHeWpTX0hybmQtNWJ5d0N5cXFSTWtaa1lMNktWaUhn?oc=5",
-          "source": "TBSテレビ",
-          "published_at": "2026-11-16T19:07:02Z",
+          "id": "6304b31ea69de640",
+          "title": "第９回サステナブル生産に関する国際ワークショップ【11月25日開催】 | ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JZ2tHTm82aENFdl9sRll0bHFVcGlrelQ4RnI0VENOSXpuQm9pX1d0ZkFOOWtTcGwzU3g2RU1NRXpvdnNJazV0ODh5ZnFBVDNzZ05YV2lGOV8wbl93cGNHYTFXRGFGYnM?oc=5",
+          "source": "国立大学法人 電気通信大学",
+          "published_at": "2026-11-17T06:49:03Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "37aa9ce55d1b3417",
-          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
+          "id": "af6718caaca8a720",
+          "title": "次世代通信関連 世界株式戦略ファンド(予想分配金提示型)【64311215】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SVJjbk1Wb0h3VW1pUUMzbFVMOVJRZlRnMm45bzQ2VndhWTNSeFZrelRnLXJRZHlGLUpFZENEb1NpUlNEdXgycXByWXd6Z0RSakhMTg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-16T18:19:57Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-16T18:06:13Z",
+          "published_at": "2026-11-17T06:11:37Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -391,7 +392,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-16T22:18:56Z",
-  "last_success_at": "2026-11-16T22:18:56Z",
+  "last_attempt_at": "2026-11-17T08:07:38Z",
+  "last_success_at": "2026-11-17T08:07:38Z",
   "consecutive_failure_count": 0
 }
