@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-18T07:42:18Z",
+  "generated_at": "2026-11-18T20:42:17Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,21 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "88736b3f9074da12",
-          "title": "「海外展開サポート窓口たま」立川拠点の開所記念セミナーを開催(日本) | ビジネス短信 ―ジェトロの海外ニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QM0ZCd0lmTnBKNGUwTW9yXzVkU2xya2ZQNk51d1lvOG1FdkNBSExXcXJaLTcyTUoxOXBmSXF6cTlsRU94U3NWRmJLZEpZWFV3d1A4WV81VUJFMkJQdDBvalQ1d1BMRzVwOXNxY1dn?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-18T02:35:21Z",
+          "id": "41ae26f207f6f1d2",
+          "title": "世界遺産登録！ 「飛鳥・藤原の宮都」を大特集 #番組情報 #放送局からのお知らせ | NHK奈良",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EYkhqMnNUYUM1WGI0SUd3VXRYeHo5YXhZSFd1ZzJnVzlUT29ac2c1NlpaRW9rS2NkLW42RHk2QkZGMGQ0LUxDTmlfWjZzdVFDbjZEb3B3N0RVLWFuZVQ3a0lR?oc=5",
+          "source": "NHK",
+          "published_at": "2026-11-18T08:12:16Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6a6fbd824194cd3d",
-          "title": "海外市場ビュー&米国株ピックアップ（11月18日）",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1LXNWSUhmSnFlMzVtb1FTQTVBWko2N0lFUnpSODhQS2owMHN1UWcxMDZpalNrZm5nMDE4Ml9Ka0RGT3pkYWhnU0RMa29sR3BDc3NRQ0lPeS1VeUZpaDdTVl85M1JlV2M5Uk9WdTBYVTlxeDJmZGJRWWx0Y1FzQQ?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-18T01:20:18Z",
+          "id": "88736b3f9074da12",
+          "title": "「海外展開サポート窓口たま」立川拠点の開所記念セミナーを開催(日本) | ビジネス短信 ―ジェトロの海外ニュース",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QM0ZCd0lmTnBKNGUwTW9yXzVkU2xya2ZQNk51d1lvOG1FdkNBSExXcXJaLTcyTUoxOXBmSXF6cTlsRU94U3NWRmJLZEpZWFV3d1A4WV81VUJFMkJQdDBvalQ1d1BMRzVwOXNxY1dn?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-18T02:35:21Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -49,41 +49,41 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6a14d3a7e90db185",
-          "title": "コンピュータサイエンス学部の武博専任講師が国際会議「PICom 2026」でOutstanding Service Awardを受賞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zY2FiZzNFWWFBeF90OXdIV3VJeHJ5ampxWFRxblhFcmhrYjlkTTZRZkhPWlg0NXREd0Y0blR4RkZ3MzN6eEFCUDZGMkttSDZFZ0FCR1Bn?oc=5",
-          "source": "東京工科大学",
-          "published_at": "2026-11-18T07:19:47Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "dc018b472d1430b4",
-          "title": "海外で学ぶ子どもたちに科学の魅力を届けるイギリスと中国でグループ会社社員が地域貢献",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBKTzRTbU8zX3paQV85T0VwaFRLS3VITjg5NXlyWER5VF90clIzN1NBQVdlLWFNUnd4NHJJbFR3amhrMmtXa3ZWb254eWJKYXdsVWRvM1ozWEhrNXhV?oc=5",
-          "source": "島津製作所",
-          "published_at": "2026-11-18T06:42:05Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ca90dc0869270303",
-          "title": "APEC開幕へ 自由貿易へ積極メッセージ打ち出せるか、AIも焦点（朝日新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iN2F0UER5a1paaWZnME1EWno0d3RCeVgydkhibXRCVDV4dGVsdmdKUWZudXlvQ0F1Z2RqQjlJM3ZUTjNjWnlpSzZfa3BpS0g1SEQ2dndrV1diMGVWb2x4d3QyVGlNeFhtWVZfOTVVWDY3dTRrY2M0RUhGbHY4ejg?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-18T06:35:12Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "37aa9ce55d1b3417",
-          "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
+          "id": "f64b0babe36c22b9",
+          "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-18T05:26:44Z",
+          "published_at": "2026-11-18T16:26:04Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "aa85227d2ae1d1fa",
+          "title": "世界的サーバーソフトに脆弱性 「エンジンエックス」攻撃の恐れ（共同通信）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aWlNNMDZXdEJKMlVoLThxa1ViMnNhcnpmcnhrdlJwRmJhMGRUNV9vczFWZ2pRSW1PdDBRYjZCblk3UDZpVFcwcWNBTElfTzJ5ZGdWeEo2Q0lpUFkyQm9KZ2RObzBMcG5rQTFURmgwNHk1V0I2X0w1ZG1QZzRQY2c?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-18T15:53:53Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "35c8850b5f208a0d",
+          "title": "レッサーパンダ「風太」がギネス世界記録™に認定されました！ ～飼育下で存命中の最高齢のレッサーパンダ～",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEdFduNUoxVWlhN1JsNGlDVkNmS3gwYTRLYllCR0dqSjR0cFB5c19zcFV6NEoybUk2ZnR1UGE4RzhhN1picUh2aEZlWlBteFgyUXloWWJzWTZtN0x2YTRGbWpnYXYwdFE?oc=5",
+          "source": "千葉市",
+          "published_at": "2026-11-18T14:49:26Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "06cd787c04062c6e",
+          "title": "証券監督者国際機構（IOSCO）による「市場仲介業者（証券会社等）の個人顧客を標的とした詐欺の増加に係る声明」の公表について",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1YlNYc2hadkZqYWNLc29BNjlZdi1iUkloNnVyZTBsQmZIcVdEb0tHSTVtOVpudGRZeUFrdGpaaldaM09GRzRKOFlDMzJLaGMzLWhzd1lkOGhFSWFKc1RRVkNHdmo?oc=5",
+          "source": "金融庁",
+          "published_at": "2026-11-18T09:35:30Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -169,21 +169,11 @@
       "label": "食品工場",
       "articles": [
         {
-          "id": "2635ea62a911ccc7",
-          "title": "TBグローバルテクノロジーズ 第11回ドリンクジャパン出展 食品工場の人手不足と高度化する衛生管理に応える回転継手を現物でご紹介",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95RDg2ZExfNDU3N1o1T00zV1YtVkxaSFk4OTcyQzU0Yi1OUjFodHdMaTU3YzVvaF94Z2tjSlZ5WkMtaWYybThVaFdpakFZZ0MxUzZsRDMyU0tOem9HdEU3R080VU1Rc3BCSWc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-12T02:00:02Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "493fd235ced80624",
           "title": "【設備保全DX】食品工場Week 2026に次世代設備保全クラウド「M2X」ブースを出展",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBNzg2N2dvbS1paTRxb0pBaUpjMENlRS1NbGNFaWJyM1RKYWxCZkViVGpuOWtGc3BveDczZ1J5UVczdDdCOE1iTXRHVjFoUHBucVh3VFBhTmh1dlBMTk1VSlREbWxrUHVTTUE?oc=5",
           "source": "PR TIMES",
-          "published_at": "2026-11-05T00:00:01Z",
+          "published_at": "2026-11-05T08:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -237,6 +227,16 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "56b76612a9a8629b",
+          "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-25T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -249,6 +249,16 @@
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByQkdDQWRUNWowLWZHSVFyQWFnSkpURjNvcHlKbEpQYWZfMS0wM0QtYWd1VmcyMG5ZREVzTmVESzlEQmRvaHRmTGRta29EeDVoRzBscUl3?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-11-17T06:42:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ced6a6fb43f3552f",
+          "title": "成城石井が九州・福岡に“初”出店！ 2027年春、博多駅ビルの商業施設「アミュプラザ博多」に新店舗をオープン",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlUDNGQ3V5WHhGLTg0c09rNWt1ZE5fTXBrQkgzWnI1RHpyUm9pOWl3c0dhZmc5dzdPOVBvZGFhS3M5azZMVy1wOGhobkRaTXh4YUJXSDl6TUJjMW9UUzF6UGgwNDFLaTdidkE?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-11-17T05:00:02Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -289,16 +299,6 @@
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xd0dZWHllanExaHBpR2FzT1AxaW1rVU5PMnJQckh6SHN1MmpSd2dZVU9pTmRaQ253UzBXMkM4YnZ1RW5mSGhXZGpDcnV1N0NZ?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-11-06T08:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "3c4efd9343a6d45d",
-          "title": "バロー／都内初出店「スーパーマーケット バロー本羽田店」11月6日オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RWGFITkhVN004ZUJRcWJvM0ViYlJCenpuY1ZrV0ltMkZsUFBYOG41SHl3Skdnc01EMHpuVHhRVEFsMGJhd29IMDdUazlBcDBkTTdZNw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-10-30T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-18T07:42:18Z",
-  "last_success_at": "2026-11-18T07:42:18Z",
+  "last_attempt_at": "2026-11-18T20:42:17Z",
+  "last_success_at": "2026-11-18T20:42:17Z",
   "consecutive_failure_count": 0
 }
