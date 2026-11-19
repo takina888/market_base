@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-18T20:42:17Z",
+  "generated_at": "2026-11-19T07:38:40Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,21 +19,11 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "41ae26f207f6f1d2",
-          "title": "世界遺産登録！ 「飛鳥・藤原の宮都」を大特集 #番組情報 #放送局からのお知らせ | NHK奈良",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EYkhqMnNUYUM1WGI0SUd3VXRYeHo5YXhZSFd1ZzJnVzlUT29ac2c1NlpaRW9rS2NkLW42RHk2QkZGMGQ0LUxDTmlfWjZzdVFDbjZEb3B3N0RVLWFuZVQ3a0lR?oc=5",
-          "source": "NHK",
-          "published_at": "2026-11-18T08:12:16Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "88736b3f9074da12",
-          "title": "「海外展開サポート窓口たま」立川拠点の開所記念セミナーを開催(日本) | ビジネス短信 ―ジェトロの海外ニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QM0ZCd0lmTnBKNGUwTW9yXzVkU2xya2ZQNk51d1lvOG1FdkNBSExXcXJaLTcyTUoxOXBmSXF6cTlsRU94U3NWRmJLZEpZWFV3d1A4WV81VUJFMkJQdDBvalQ1d1BMRzVwOXNxY1dn?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-18T02:35:21Z",
+          "id": "fce539204da6796b",
+          "title": "ソーシャルワイヤー[3929]：アットクリッピング、海外企業から引き合い 東アジア初のメディア調査国際会議「FIBEP WMIC 2026」開催のお知らせ 2026年11月19日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhMGpCcFF4UW9ROTdYWXJESWNnazNEVlJZeFlDWTlnVExIaEhfWGNxeEFNR1FzN0RXZ3NmNlhhSTlNdWJtMHBSaDVrd2dKVlE5N0ppZV8tUjlpOHRpNHluV0p4UXZBM2VNWEE?oc=5",
+          "source": "日本経済新聞",
+          "published_at": "2026-11-19T06:30:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -49,41 +39,51 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "f64b0babe36c22b9",
-          "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-18T16:26:04Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "aa85227d2ae1d1fa",
-          "title": "世界的サーバーソフトに脆弱性 「エンジンエックス」攻撃の恐れ（共同通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aWlNNMDZXdEJKMlVoLThxa1ViMnNhcnpmcnhrdlJwRmJhMGRUNV9vczFWZ2pRSW1PdDBRYjZCblk3UDZpVFcwcWNBTElfTzJ5ZGdWeEo2Q0lpUFkyQm9KZ2RObzBMcG5rQTFURmgwNHk1V0I2X0w1ZG1QZzRQY2c?oc=5",
+          "id": "b1f4fcb528e93069",
+          "title": "韓国の年間輸出額 初の1兆ドル突破＝世界で4カ国目",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FRXBoNkUzOGMxbUEtenJmTllhSUNrTFRCN25zUnpFVzNEd3VlR1Jma1JCZFViemFzaGZBVDF1bkpGcVFuMDRMR1IwU3Z5LUU2a2QzX0VKTGdxNjhfUmdmMXExY0d3a3VNanVtSDdVWks3TEdSVWVDV3JRVHVSMVk?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-11-18T15:53:53Z",
+          "published_at": "2026-11-19T07:07:54Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "35c8850b5f208a0d",
-          "title": "レッサーパンダ「風太」がギネス世界記録™に認定されました！ ～飼育下で存命中の最高齢のレッサーパンダ～",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEdFduNUoxVWlhN1JsNGlDVkNmS3gwYTRLYllCR0dqSjR0cFB5c19zcFV6NEoybUk2ZnR1UGE4RzhhN1picUh2aEZlWlBteFgyUXloWWJzWTZtN0x2YTRGbWpnYXYwdFE?oc=5",
-          "source": "千葉市",
-          "published_at": "2026-11-18T14:49:26Z",
+          "id": "9c4fb3c1f7fdf19e",
+          "title": "世界中で急上昇中！最新シングル「Nicole Kidman」を紐解く特集記事が掲載",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XdDNSaFRGeV9qbVIyUkNJY0ZfUEhQRG5SQ0otQ3lsTFE4ckxvb2E1Wk82eFdTcDl5LURfT2NyVkFVeEx2a0FyU1VmamdybDFrSGNTLVpKR1U0UlJxNTJ2VGFKWVJsYlE?oc=5",
+          "source": "UNIVERSAL MUSIC JAPAN",
+          "published_at": "2026-11-19T06:50:23Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "06cd787c04062c6e",
-          "title": "証券監督者国際機構（IOSCO）による「市場仲介業者（証券会社等）の個人顧客を標的とした詐欺の増加に係る声明」の公表について",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1YlNYc2hadkZqYWNLc29BNjlZdi1iUkloNnVyZTBsQmZIcVdEb0tHSTVtOVpudGRZeUFrdGpaaldaM09GRzRKOFlDMzJLaGMzLWhzd1lkOGhFSWFKc1RRVkNHdmo?oc=5",
-          "source": "金融庁",
-          "published_at": "2026-11-18T09:35:30Z",
+          "id": "a7a6e0967f806dab",
+          "title": "「少子高齢化と外国人労働者――世界の潮流と日本の経験――」",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMRkJ2WFlBc2k5N3NmSXRubVZPcFdhbWlUbmVwMG05NjM3T3BPNTluMy1pRkZHZlZpQ19jUEJhMEJBQ1R6ZG9hSk14OW1YOThmaF9qQ19MSEhyMWJjdXgzMU1jQVU?oc=5",
+          "source": "Institute of Developing Economies",
+          "published_at": "2026-11-19T06:20:37Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "57a04e2742077b2d",
+          "title": "第179回博覧会国際事務局（BIE）総会に出席しました ～草間国土交通大臣政務官がGREEN×EXPO 2027の開幕に向けた決意を世界に発信～",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3LTY5ZmJGLXhudTlCbWF0RXloeUNETS1seHBxV2hMRGJhV29lcFZncFJzWExUd3NnUkYtU2ZuTXhWZjBtdWhmNVhMTlJ4TmdrREg5LTRQd2RZWEd4M2hqc1dZUlRFajR4WlE?oc=5",
+          "source": "国土交通省",
+          "published_at": "2026-11-19T06:03:34Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-19T05:51:48Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -274,16 +274,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "605d9e80d1ab47b0",
-          "title": "バロー、コーナン商事／奈良県生駒市に「生駒壱分商業施設（店舗面積4752m2）」27年5月18日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OOVltZ1R2ZF8tQVUwaXVEc3IxUFlQWnBzdXMya1NpQnhtOGQwaDMtdTNELTZUMlhCa1ZoT3RVcHZlUkZZOWZ2a29BY1o0RWZDWFotcVln?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-11-12T01:31:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "b6e09f88636c8eed",
           "title": "クスリのアオキ／宮城県・香川県に計3店舗、27年6月新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jQXRTaWRMcE1rVGZTbzBkTC1lVWFkUGtJUmE0bG9INjFXM01XYXdSMjZZTjQ1ZV9Qc2ZSdzlRRXNKejF6Rmo1OEJhS0JmamlqTWdISTdR?oc=5",
@@ -294,11 +284,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "e1521378b03789fa",
-          "title": "シノプス／「需要予測×自動納品」の実証実験、食品スーパー「ぎゅーとら」店舗で",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xd0dZWHllanExaHBpR2FzT1AxaW1rVU5PMnJQckh6SHN1MmpSd2dZVU9pTmRaQ253UzBXMkM4YnZ1RW5mSGhXZGpDcnV1N0NZ?oc=5",
+          "id": "04f3743167ba0b3b",
+          "title": "ヤオコーほか／神奈川県横浜市に「（仮称）戸塚駅西口商業施設計画（店舗面積3618m2）」27年6月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11VEY5LWdnbm1Fb1VwSHhJLWktNVNVclZoRHNRT2hjX1lWVXdhcGVEWnMxWnlEOEE4eFRUYm9rRTJlRU5QZnExdkRjRXdtcG1NdGU5eUlB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-11-06T08:00:00Z",
+          "published_at": "2026-11-11T01:30:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -307,6 +297,16 @@
           "id": "a1f3af9f45280a03",
           "title": "スーパーマーケット／9月の販売額1.7％増、既存店は0.7％増に（経産省調べ）",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1NZlFZd0hLWlR6a0lfVi0tZmw1aU9jOUM2WGEwcUFXX09oYzhoRG1oS01ZT29DcEZGV1IzR3RvQ2dCWTVlR1c5ME56RThVTWJ6YVdNUA?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-30T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3c4efd9343a6d45d",
+          "title": "バロー／都内初出店「スーパーマーケット バロー本羽田店」11月6日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RWGFITkhVN004ZUJRcWJvM0ViYlJCenpuY1ZrV0ltMkZsUFBYOG41SHl3Skdnc01EMHpuVHhRVEFsMGJhd29IMDdUazlBcDBkTTdZNw?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-30T07:00:00Z",
           "language": "ja",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-18T20:42:17Z",
-  "last_success_at": "2026-11-18T20:42:17Z",
+  "last_attempt_at": "2026-11-19T07:38:40Z",
+  "last_success_at": "2026-11-19T07:38:40Z",
   "consecutive_failure_count": 0
 }
