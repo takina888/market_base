@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-20T07:29:30Z",
+  "generated_at": "2026-11-20T20:31:25Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,31 +19,31 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "3888ae7a506e1102",
-          "title": "メキシコ最大級の農業・食品国際展示会に日本企業も出展(日本、メキシコ) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0weHZXWnpNQ0kwZXJMR0xzYnFNWkpFeF9GTW1mVkl6aUUtLUpNMHdhQlV2aDMtSXJvdzREMXdNOTNLTmY5b1hjX3RMZTVPZFhKVEpsNTNVeWJMRDUwU1VicW93WW1EOV9MRk1VcXV3?oc=5",
+          "id": "cc9020c21b6a42bf",
+          "title": "京いちにち ▽学研都市国際高等研究所とは?研究成果や取り組み",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE93eUxaN2hVYkNOTktnQ3UwaEdYdzVfVTlvdER5OTlIZ3VUSzY3NU9jODRDNFhwbkhqN21nWF9wNDNDLVo4QUlpalFOU0VRRmRUUVNOQ0FjNjRWMEd1RTJHaVpEMA?oc=5",
+          "source": "NHK",
+          "published_at": "2026-11-20T06:00:56Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3a3a75b8c572030d",
+          "title": "防衛分野の国際イベント「ヨーロピアン・ディフェンス・ウィーク2026」がパリで開催、日本企業も登壇",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HVG1tX2t0bjV0aXByaFcwSUhHVTljbXQ2Y0hVOWpkSDlhc1JYSXVBQWhkX1lpaWVXQTJVcklZenlWd0ZSZTNVSV83OTFrcVUzdlUwTW9fa1FsM05iV1FhdGR6Y2NSS1Z4V0JneFBB?oc=5",
           "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-20T01:32:33Z",
+          "published_at": "2026-11-20T05:34:13Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ccf91d16f0687fed",
-          "title": "AMD、パロ・アルト 海外市場ビュー&米国株ピックアップ（11月20日）",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zWTB6WEVmdDdVb0prRXFncUNUM1NnMHpzV0VLcjkwWGxobjYyR09ueTk4Ump4VVV6d0ppNzJtdk1BZkJPXzVjUEhQaVMyMzJPcjE1UEZUOGl1SnlNeVZKS3pfYkZxVTFOOWVfUS1NV1JMem43aktJQ21iTE9OZw?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-20T01:10:55Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "de6c334a0fff8f3f",
-          "title": "アイ・ピー・エス（アイピーエス）[4390]：米国貿易開発庁（USTDA）との助成契約締結に関するお知らせ 2026年11月20日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlVW5OdGNoZzZEQzZHWWZQVVBxcmFCLVN5MlBMY2RINUJINmhZVzlYZTRkUVI1S3VNY3NGbXpSX3VlQ29FQUY0LUZmczNfbVhnWlhVQ0FQMjNiSHlUeFF1NzlMN0VHaWgyc0E?oc=5",
-          "source": "日本経済新聞",
-          "published_at": "2026-11-20T00:00:00Z",
+          "id": "e04add8db8f3b442",
+          "title": "世界へ挑む北陸三県の美味 極上の一皿で挑む商談",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OcEI0RkVFWVJhMnJOWVlGeDRSeWlDb0pxZVRfVWJqbHg2eFkyVGtmOGRBRzNOMWpBMm9JLTFZN2lBWG83RmZHdllWWlNkaGdMX3NKY1NrREZ4Y3VkRlY2LUJyRUNMWWc3eXNGN3ZQLWhNMWc?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-19T18:41:01Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -59,31 +59,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0a0c35c1e5acc60b",
-          "title": "岩合光昭の世界ネコ歩き 4Kスペシャル 三八上北〜青森〜【三八上北スペシャル】",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjY0dZV1plOW44ZDVCLUpxUEZnd3dyWFlQMGxubGd3NUtfaURpSG5tWDdydkowOTVDaURRcjZxakNJQWJiVFVRa3hWOVlIa2RfWl9KR2tKTXZQVWoycTJ5Nm9MVnQ?oc=5",
+          "id": "48498dce17b15923",
+          "title": "世界に誇る高畠のワインを生中継！",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXTEdLVnNnWGluaF9hUW5WbWNvX2VBeW9hYXNHZmZuVUhZQldzZWJFdEdrRF9Sd3hHZUZVUnhYTy1BT3Z5S2RqZWNOelFTS2pnNmNjaTgxSy1KdHFNY1drYlVfWFN3Tm8?oc=5",
           "source": "NHK",
-          "published_at": "2026-11-17T05:54:41Z",
+          "published_at": "2026-11-19T12:41:28Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "4bec27f77ded9fdb",
-          "title": "「国際青少年サイエンス交流事業（さくらサイエンスプログラム）」 2026年度募集「A・B・Cコース（第3回）」の交流計画の採択について",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PdG9UNUdHMUZ4ZmVENllMQUZkY2JGSTFzNjk2Vk9oSmQ0Rkc1QmJsdXRDdkRvejVBLWM1dmVGVXo3SmFaTm1OYnFtcE5yeGtOZVRCdDhkTkxSRjlfeEE?oc=5",
-          "source": "科学技術振興機構（JST）",
-          "published_at": "2026-11-20T07:02:28Z",
+          "id": "41ae26f207f6f1d2",
+          "title": "世界遺産登録！ 「飛鳥・藤原の宮都」を大特集 #番組情報 #放送局からのお知らせ | NHK奈良",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EYkhqMnNUYUM1WGI0SUd3VXRYeHo5YXhZSFd1ZzJnVzlUT29ac2c1NlpaRW9rS2NkLW42RHk2QkZGMGQ0LUxDTmlfWjZzdVFDbjZEb3B3N0RVLWFuZVQ3a0lR?oc=5",
+          "source": "NHK",
+          "published_at": "2026-11-18T08:12:16Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "49d2ba05063b5fc7",
-          "title": "教育コンテンツの国際コンクール｢第53回 日本賞｣ グランプリ･企画部門賞決定！―― 台湾､バングラデシュ､ブラジルの作品が受賞‼",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11TDZYTTc0eGw5QWRMMERhVUx6MWtfNWNTNEg4YWFrYnhaTnZhcGtFdkpsbjdjN0QtMzR2eHpTanZYT3Bsa1J3eVNuaXhtekVO?oc=5",
-          "source": "ステラnet",
-          "published_at": "2026-11-20T07:01:31Z",
+          "id": "187656e3385dd26c",
+          "title": "2027年春の奨学金付き海外インターンシップが始動。第1回の説明会を開催しました | NEWS | 広報サイト",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBkUkJrUUVMNFhia3NKazhwd0pfZVN1cE9lQW1na1BJQTlSVncwOURmQUNNd1dSTHA1d1pBNm5UQUJXbnA5S1VzeEU0V2E5cEpkSEhuMjl0Vlh5VF80R1ZXYlJn?oc=5",
+          "source": "関西外国語大学",
+          "published_at": "2026-11-20T11:48:16Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -169,16 +169,6 @@
       "label": "食品工場",
       "articles": [
         {
-          "id": "2635ea62a911ccc7",
-          "title": "TBグローバルテクノロジーズ 第11回ドリンクジャパン出展 食品工場の人手不足と高度化する衛生管理に応える回転継手を現物でご紹介",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95RDg2ZExfNDU3N1o1T00zV1YtVkxaSFk4OTcyQzU0Yi1OUjFodHdMaTU3YzVvaF94Z2tjSlZ5WkMtaWYybThVaFdpakFZZ0MxUzZsRDMyU0tOem9HdEU3R080VU1Rc3BCSWc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-12T02:00:02Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "493fd235ced80624",
           "title": "【設備保全DX】食品工場Week 2026に次世代設備保全クラウド「M2X」ブースを出展",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBNzg2N2dvbS1paTRxb0pBaUpjMENlRS1NbGNFaWJyM1RKYWxCZkViVGpuOWtGc3BveDczZ1J5UVczdDdCOE1iTXRHVjFoUHBucVh3VFBhTmh1dlBMTk1VSlREbWxrUHVTTUE?oc=5",
@@ -237,6 +227,16 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "56b76612a9a8629b",
+          "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-08-25T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -278,7 +278,7 @@
           "title": "バロー、コーナン商事／奈良県生駒市に「生駒壱分商業施設（店舗面積4752m2）」27年5月18日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OOVltZ1R2ZF8tQVUwaXVEc3IxUFlQWnBzdXMya1NpQnhtOGQwaDMtdTNELTZUMlhCa1ZoT3RVcHZlUkZZOWZ2a29BY1o0RWZDWFotcVln?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-11-12T01:31:00Z",
+          "published_at": "2026-11-12T08:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -294,21 +294,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "3c4efd9343a6d45d",
-          "title": "バロー／都内初出店「スーパーマーケット バロー本羽田店」11月6日オープン",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RWGFITkhVN004ZUJRcWJvM0ViYlJCenpuY1ZrV0ltMkZsUFBYOG41SHl3Skdnc01EMHpuVHhRVEFsMGJhd29IMDdUazlBcDBkTTdZNw?oc=5",
+          "id": "04f3743167ba0b3b",
+          "title": "ヤオコーほか／神奈川県横浜市に「（仮称）戸塚駅西口商業施設計画（店舗面積3618m2）」27年6月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11VEY5LWdnbm1Fb1VwSHhJLWktNVNVclZoRHNRT2hjX1lWVXdhcGVEWnMxWnlEOEE4eFRUYm9rRTJlRU5QZnExdkRjRXdtcG1NdGU5eUlB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-30T07:00:00Z",
+          "published_at": "2026-11-11T08:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "6562e1db83b38006",
-          "title": "ミスターマックスほか／茨城県つくば市に「（仮称）つくば市上河原崎商業施設（店舗面積1万4854m2）」27年6月1日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbkVDMnhJbkpHN0Vjd284X0xxVF9YekgtcEhjMG9sQnQ0R2dsbmwyMFloVm9GallzZGtVMWRJZTBQc1NEdlRpUTVmaGozaE14SEtHa1VB?oc=5",
+          "id": "3c4efd9343a6d45d",
+          "title": "バロー／都内初出店「スーパーマーケット バロー本羽田店」11月6日オープン",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RWGFITkhVN004ZUJRcWJvM0ViYlJCenpuY1ZrV0ltMkZsUFBYOG41SHl3Skdnc01EMHpuVHhRVEFsMGJhd29IMDdUazlBcDBkTTdZNw?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-10-27T07:00:00Z",
+          "published_at": "2026-10-30T07:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-20T07:29:30Z",
-  "last_success_at": "2026-11-20T07:29:30Z",
+  "last_attempt_at": "2026-11-20T20:31:25Z",
+  "last_success_at": "2026-11-20T20:31:25Z",
   "consecutive_failure_count": 0
 }
