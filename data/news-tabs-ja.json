@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-21T07:24:29Z",
+  "generated_at": "2026-11-21T19:28:45Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,41 +19,21 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "e557e2f1452c3511",
-          "title": "◎英ＥＵ、食品貿易などで関係強化",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9wM0kxR0VFcW1xNHFGdEFuYnBrTFpoc2ROSWI0Ymk4RTFxTFpUc2lVRjc2SXg0SnBLdGR2YlNVT3pNVWhrdjhfdm5oT2xUbUtkYjFnYg?oc=5",
-          "source": "時事通信ニュース",
-          "published_at": "2026-11-20T23:53:00Z",
+          "id": "3a3a75b8c572030d",
+          "title": "防衛分野の国際イベント「ヨーロピアン・ディフェンス・ウィーク2026」がパリで開催、日本企業も登壇",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HVG1tX2t0bjV0aXByaFcwSUhHVTljbXQ2Y0hVOWpkSDlhc1JYSXVBQWhkX1lpaWVXQTJVcklZenlWd0ZSZTNVSV83OTFrcVUzdlUwTW9fa1FsM05iV1FhdGR6Y2NSS1Z4V0JneFBB?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-20T05:34:13Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "id": "2fb2ef7c2e5617dd",
+          "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-21T06:24:37Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "e81b3424d05d98ed",
-          "title": "インベスコ 世界ブロックチェーン株式ファンド(予想分配金提示型)【18311213】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44OEw4Q1hhbHZjbVA2RXg4bTFOTDlHR3JvT0VEY0M1V3RQUmM0RGlWUFlSMER0eFN0NW9oZzBhVXlCcUF5V0pXLTZxNHRwOUZCZFJseA?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-21T06:13:40Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "933744ec97e78356",
-          "title": "福岡県議会の海外視察の記録、百条委員会が請求…議会事務局に提出を指示するよう議長に申し入れ（読売新聞オンライン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxVEVCb25DeV9NQ2lTRldOSWN3OFFxMHVJMkxzdS1BVnRueGlBa2x6UG5ydGhsQVcyRUxjNkMtZ3lUZmswdWNneDhNY00xUC1JRFBxVUdBXy1tTkVyTGlUWFIyc2h2bVJaelBZajZ4VXpvZU1ySFZEbDZkUVktVTQ?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-21T05:07:48Z",
+          "published_at": "2026-11-21T17:17:06Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -63,7 +43,7 @@
           "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-21T04:27:38Z",
+          "published_at": "2026-11-21T17:02:42Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -73,17 +53,37 @@
           "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-21T03:27:21Z",
+          "published_at": "2026-11-21T15:33:03Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "14d9d06d90caef8b",
-          "title": "大磯出身の起業家、国際賞受賞を町長に報告 介護の実践知を世界へ（みんなの経済新聞ネットワーク）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5leGg2UGJVRUpwRVdoTVBrRTVZRHlEbG5nU3kxTkd0RDl5R0xFUUpDQWY2b09odmp6NVEzRXYtVlpKaG5OMVdpSG9PRXJsSktyM0UtS3hEZ2F5UEJOVHpoaDF3ZWhRZ2NsT2ZVeUxBSnlWRjF5WGVyRi1sYlZhSDQ?oc=5",
+          "id": "af6718caaca8a720",
+          "title": "次世代通信関連 世界株式戦略ファンド(予想分配金提示型)【64311215】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SVJjbk1Wb0h3VW1pUUMzbFVMOVJRZlRnMm45bzQ2VndhWTNSeFZrelRnLXJRZHlGLUpFZENEb1NpUlNEdXgycXByWXd6Z0RSakhMTg?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-21T15:02:47Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0eaab8ad55ac20c9",
+          "title": "〔海外地震〕東ティモールでM6.8(11/21)（レスキューナウニュース）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54WFZSRGRMbGw5blVoMkRHMjJKbHoxUVdLck9VdHNyUkhtUGZBOUZWZFFqWFpQUnI5NG1EdDdzQlZJaVA3LVBRbHdzSzVyT0pfcnZ2bnJGZ1JsMkVjeXlKZnA5WWpzVDFEQW9VRDJBRmNIRHowT2xDNG53TWFyb2s?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-11-21T02:30:04Z",
+          "published_at": "2026-11-21T10:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "adccf919068a0f16",
+          "title": "「ヨウ素」埋蔵量世界一 千葉に“次世代エネルギー”資源（テレビ朝日系（ANN））",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sOU1Ic3l6Vi12UWFMallscGdYa3hOcndaODYyZEl5YWV1R19yQmZUa2J4SWdwdklocUFGd0VKQ283cldSTXpEQ3VhSklPbWQ4RzNmcnpYZDI4V09ENFI3NEtKWkxLLTVDX3pNZWlaUXBxcnY3TFhfazJrV1JHMkk?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-21T09:06:56Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -254,16 +254,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ced6a6fb43f3552f",
-          "title": "成城石井が九州・福岡に“初”出店！ 2027年春、博多駅ビルの商業施設「アミュプラザ博多」に新店舗をオープン",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlUDNGQ3V5WHhGLTg0c09rNWt1ZE5fTXBrQkgzWnI1RHpyUm9pOWl3c0dhZmc5dzdPOVBvZGFhS3M5azZMVy1wOGhobkRaTXh4YUJXSDl6TUJjMW9UUzF6UGgwNDFLaTdidkE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-17T05:00:02Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "0cbe744676f4ceee",
           "title": "カネスエ商事／愛知県安城市に「（仮称）安城市新明町複合商業施設（店舗面積2956m2）」27年5月31日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lQXBoajYxOW80OHhRYmNHVm5tRnEwbmxDdV9seDBheWNFZ3lhRUozbUdSUVQyNUtKT2N5bGJEdzRlMVB0UXZzSDVpd2hUSHJVSmhWQlJ3?oc=5",
@@ -307,6 +297,16 @@
           "id": "6562e1db83b38006",
           "title": "ミスターマックスほか／茨城県つくば市に「（仮称）つくば市上河原崎商業施設（店舗面積1万4854m2）」27年6月1日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbkVDMnhJbkpHN0Vjd284X0xxVF9YekgtcEhjMG9sQnQ0R2dsbmwyMFloVm9GallzZGtVMWRJZTBQc1NEdlRpUTVmaGozaE14SEtHa1VB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-27T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9b31ae860dae1039",
+          "title": "トライアル／茨城県土浦市に「スーパーセンタートライアル荒川沖店（店舗面積4200m2）」27年5月25日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CVlRsWW9fZGROcGZIWU1sZnFVQWc1TWZtS3ZhUGxZMUlkdUN6aUs0UDRNZnBrWWlvaTNUQWpXclFCcHAtTHc0Z19sM3JFZzV1NDVuOFpR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-27T07:00:00Z",
           "language": "ja",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-21T07:24:29Z",
-  "last_success_at": "2026-11-21T07:24:29Z",
+  "last_attempt_at": "2026-11-21T19:28:45Z",
+  "last_success_at": "2026-11-21T19:28:45Z",
   "consecutive_failure_count": 0
 }
