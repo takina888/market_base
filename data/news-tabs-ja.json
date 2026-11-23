@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-22T19:50:27Z",
+  "generated_at": "2026-11-23T07:52:50Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,71 +19,71 @@
       "label": "海外ニュース",
       "articles": [
         {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-22T18:45:22Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "37aa9ce55d1b3417",
           "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-22T16:44:37Z",
+          "published_at": "2026-11-23T06:58:03Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "010a3e7a7a77d42c",
-          "title": "『魔法使いの夜』と〈ゼロ年代〉の精神――「世界を睨み返す」ことについて｜北出栞 siori kitade",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VdWRKcVZkRV9KMGFodGlRY2xZZmwxaUhHeDhWR3R6VGFiYW5MQ2FHQnlSWTV1Zm5pYWJVSkV0ZWkzUlk2dll2aVk4a1Y0Uktl?oc=5",
-          "source": "note",
-          "published_at": "2026-11-22T10:00:09Z",
+          "id": "0e3abe33082bbb54",
+          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "published_at": "2026-11-23T03:40:38Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c7f4b6d7d3c3f450",
-          "title": "「飛鳥・藤原の宮都」上空にブルーインパルス、観光客らが歓声…世界文化遺産登録を記念（読売新聞オンライン）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JeVhuRnBVaVNfNm9Gc2xxMTNjTnZwWGJBYkMtOFNoOUJJbU53ZG9UdWVXUktkZzRvM1FOeUFnNEhjdDNTbHRSeFZrWEJOTXVzaURXOU4yQzMxaVF1UUFOeE9YcU5oR1VpYjNmWUxILVNqc0V3aEN2Y1hBQXdoVUE?oc=5",
+          "id": "4c997959b2ad0663",
+          "title": "〔海外深発地震〕バヌアツ地域でM6.5(11/23)（レスキューナウニュース）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VV1NpRGVxZFlJUUIwX0x6b2h6eHQydXp1UTFjdTVYX3p0SjdFN1RFR1B1MUFraHVUT2pHVFRqNTdqNmZXeVFjNDU5bE0zQWVpTmpEM1JHRVRRejhfUnVVNjREY2xpR0FGWGN6ZnNQVmgzeFY5YWEzZTB1V0JsMDQ?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-11-22T07:34:18Z",
+          "published_at": "2026-11-23T03:10:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "14554211c863c6f0",
-          "title": "小学生ら350人らが一斉に餅まき ギネス世界記録に認定 山口（毎日新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JOGN6NkNfbHp5ZDVoYkVSMWZsZlFqNzJmckVWcHh3U19jZDhYQ2EySUV0WnhCZmdEZVJHZzFUMFNoeXlvYmxMNk9wZ1pjLWlKUzRzblVNMDI2U2tGcVBkbDdFaEZCcVJ0eHBIcnJEWHVqYXgxY0gweGVnSno1UWM?oc=5",
+          "id": "29720f2c0ed75559",
+          "title": "韓国の美容医療機器メーカー、海外で販路拡大…装置販売後の消耗品供給も強化（KOREA WAVE）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ldFQ5OUxZVUdsbkxaNmUyVWVpU0pRcW9PV1lhbVN0UDg5M0xIQmtKd1RzZkhPUHZHcWMxemhFMGoyYS1tbjJHRm5hY3dQendwb2wwbFdxMlRfQWZocWMxWWdpbmZpRjQxbE5qdC1iTGh2Z1VmZ3ZHYUZ3emZLMTQ?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-11-22T06:52:44Z",
+          "published_at": "2026-11-23T02:33:16Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "23378ffe6386696b",
-          "title": "乳がんの早期発見・早期治療へ ライオンズクラブ国際協会が寄付金を贈呈",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1DMHd3LTkyaEt4aGt6MVFOY05IemllSHowQmxsNXEtNjZucFE1SGZkVjU5alR1RmJFN0hOckdWY1BaX2g0S2hreER2R3JXdFRr?oc=5",
-          "source": "YTS山形テレビ",
-          "published_at": "2026-11-22T06:40:35Z",
+          "id": "0a18433bc1acb78e",
+          "title": "能登の宇出津商店街巡りも終盤、 続いて野鍛治の「ふくべ鍛治」さんへ向かいます。",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yV2pYMTBEQ0dqS3RWNHRnTmVJMF9HbTRGYk1LeDVqNE45OFhLSmFSTEtIRktjOTZraVJOSjdvY2RjOF9LSmZTelZSTjlfa1NtSnJZdHBxcnNCYlZWOEhmS1VKVXhBalo4aktMTVlIWUpVdw?oc=5",
+          "source": "ほぼ日",
+          "published_at": "2026-11-23T02:00:00Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "eb1ff633cf319dae",
-          "title": "「夜職」相次ぐ海外入国トラブル",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5aQW1oSWJwMmdOa1BsVmx1MzBzdW5fN1Z1R3VkNDhlUGVnbEE4STdDRlV2dTV4T29nZmhCbTUtWGdGSGQwZ3pwb2JUNlN4TTVr?oc=5",
+          "id": "7bd67057f9c288e5",
+          "title": "【カンボジア医療活動】「国際技術移転プロジェクト」の実践と現場での取り組み | カンボジア | 活動レポート",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzMmsyT05aZDBmdWllSVN6Z3RSQl9Pc3hoRjlzajNyUWxYdE13aGVlRnpTa0lkSkhhc3ExRHhlQ1NkR2RIZzB4NDBEcTRWQ1JwbmpVSEN6OThFM1hKdnBVcFQ5bUtQeFNLMmR3UURVbGM?oc=5",
+          "source": "ジャパンハート JAPAN HEART",
+          "published_at": "2026-11-23T01:01:43Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6f2b4505b6fc89b5",
+          "title": "「ほぼ日手帳」海外で人気のワケ",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CQWtyUU13R1ZxdlRmQ1F3UV92OTQ4TGZuUDRaaG16dWtIcUtmS3hsMkxORkRmekRhWk9ESUNfS25oVWJtRUYzdXJHNWxXNkI0?oc=5",
           "source": "Yahoo!ニュース",
-          "published_at": "2026-11-22T06:36:19Z",
+          "published_at": "2026-11-23T00:20:14Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -154,11 +154,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "41d670229db135ca",
-          "title": "【FISCO銘柄コメント】東京自働機械製作所---包装機械メーカー(フィスコ)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVW8teVNscWFxRkpkLXhEZnVEei1nSkJDNmF1WGhQZDFpUm1mSmxaTjhvcld5RUx6UG51ZWRQcHg1YmRHVy1zckpCVnpHWXp3cGlSTHVna0FSRjZQaUxVUjVJZlhxNHlzenpHTTNPaXVXVktrTlZndXpUQmlQX0h3aVY5RVJRX2s?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-20T05:30:44Z",
+          "id": "b095593a601ea09c",
+          "title": "【FOOMA JAPAN 2026出展】未利用資源を微生物のチカラでアップサイクル",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0NlQwNFFqU1dIc2J2dnc2Mk9QMllaNk1TUzNqeWJJRHE1TDFEcjI1SUphTTFZQlV0V1p3aWdRcDBRczNrYm1TeWRmWWs0OTBfemc?oc=5",
+          "source": "山陽新聞",
+          "published_at": "2026-11-21T08:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -168,16 +168,6 @@
     "food_factory": {
       "label": "食品工場",
       "articles": [
-        {
-          "id": "493fd235ced80624",
-          "title": "【設備保全DX】食品工場Week 2026に次世代設備保全クラウド「M2X」ブースを出展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBNzg2N2dvbS1paTRxb0pBaUpjMENlRS1NbGNFaWJyM1RKYWxCZkViVGpuOWtGc3BveDczZ1J5UVczdDdCOE1iTXRHVjFoUHBucVh3VFBhTmh1dlBMTk1VSlREbWxrUHVTTUE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-05T08:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "bfa81123b86b262a",
           "title": "「食品工場 Week 東京」に出展",
@@ -229,11 +219,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "56b76612a9a8629b",
-          "title": "食品工場の労災は全産業の2倍。ゴーグル不要、ブラウザ完結の当事者目線安全教育『現場安全360』提供開始",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PSFBrZldtR09mYU9qVDhheVhXYi1fLXBpbUJrZHIxRGZFZDFleklXOGl4UEh2a1h6Tk52WGxnS2w2MmVZeGVxVFF5Mjc5WWk0TTBIT3EyS2V0MFRubHk4RzFiUnNrTGtaUnc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-25T07:00:00Z",
+          "id": "da08e62b375963e9",
+          "title": "第7回 食品工場Week【11/18〜11/20・東京ビッグサイト】｜RX Japan合同会社",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QX2J0Wk04SjIzdXFySm5vUnVEUWh6T0dPcXUzaG15UTBOVDRNdEo1ZjIwZ09GMzRFQzlObGdhbm1vSl9DRWRsWmF6TENxTFZ6cHo0aGdRUUxvTHdJX3BUVl92b1BGaDdhLWVWcGNIQk5jRVk?oc=5",
+          "source": "event-marketing.co.jp",
+          "published_at": "2026-11-18T08:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7cf99bf211754396",
+          "title": "元トヨタ生技が見た食品工場のなぜ：電子ブックレット（FA）",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90SkhVYkdtN2JwV1BpRXpmVkx6dTRwNS1SX1VzZTJyQmwzNU9YVUh4LXFnbDFlWGtKWmpZVk94WlFMZENhWFZxRDBQbGQxbHUzLUNHeXRvSS1MNTB5TExCSFlWM3o0STVpSzFianJtbw?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-11-16T03:30:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -243,16 +243,6 @@
     "retail": {
       "label": "小売店",
       "articles": [
-        {
-          "id": "826db8891e8120fe",
-          "title": "食品スーパーマーケット「大阪屋ショップGO！粟島店」オープンのお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtSjZESmtCT2VTaGFDUDgxRTVibVp1QVRWQzlPc25ZMWRQN3JkLU5zSmMxSlhyT2diSlJtWjJmS2FoMVFsNGFaN3llWEZTeHF0aExiTWVia0JNX0FxNkdNYzJ2ZTg2OXFwSWc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-19T03:00:02Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "c3e76fed59a3fa4b",
           "title": "ヤオコー／大宮市場内に新店舗オープン、鮮度訴求に注力・時間帯別ニーズに対応",
@@ -307,6 +297,16 @@
           "id": "6562e1db83b38006",
           "title": "ミスターマックスほか／茨城県つくば市に「（仮称）つくば市上河原崎商業施設（店舗面積1万4854m2）」27年6月1日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbkVDMnhJbkpHN0Vjd284X0xxVF9YekgtcEhjMG9sQnQ0R2dsbmwyMFloVm9GallzZGtVMWRJZTBQc1NEdlRpUTVmaGozaE14SEtHa1VB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-10-27T07:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "9b31ae860dae1039",
+          "title": "トライアル／茨城県土浦市に「スーパーセンタートライアル荒川沖店（店舗面積4200m2）」27年5月25日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CVlRsWW9fZGROcGZIWU1sZnFVQWc1TWZtS3ZhUGxZMUlkdUN6aUs0UDRNZnBrWWlvaTNUQWpXclFCcHAtTHc0Z19sM3JFZzV1NDVuOFpR?oc=5",
           "source": "流通ニュース",
           "published_at": "2026-10-27T07:00:00Z",
           "language": "ja",
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-22T19:50:27Z",
-  "last_success_at": "2026-11-22T19:50:27Z",
+  "last_attempt_at": "2026-11-23T07:52:50Z",
+  "last_success_at": "2026-11-23T07:52:50Z",
   "consecutive_failure_count": 0
 }
