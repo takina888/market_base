@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-23T07:52:50Z",
+  "generated_at": "2026-11-24T00:03:53Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -19,71 +19,71 @@
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "4e5e1fb886f3e6a9",
+          "title": "【国際言語・文化学科】「国語教育実践懇談会」を開催しました～卒業生の現役国語教員から学ぶ教員の魅力と採用試験対策",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9fVjFLLVJSZTNkMzZtVDdnMURTRld4cVBYNlBUUGJCOGVDRFFpUVF6bm1sbE5vNDdLS1NoaDJ5di1sZDNm?oc=5",
+          "source": "別府大学",
+          "published_at": "2026-11-23T23:55:53Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "91e2a72de763e54d",
+          "title": "米､メガスピードを貿易ブラックリストに追加-エヌビディア危機の焦点",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtWE12dmFMVU90Xy1xUGVvWGNTZnF6aGhOZUxYWVFXYkV2bF96SG5UbVV4amlxZ3RyaWhEYTdlWlpFQ3ozOXExcGRFVTlwdXJNOFd2WjMwd1lrcHlUWFJiQm5YOGgtXzA?oc=5",
+          "source": "TBS NEWS DIG",
+          "published_at": "2026-11-23T23:01:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "35c8850b5f208a0d",
+          "title": "レッサーパンダ「風太」がギネス世界記録™に認定されました！ ～飼育下で存命中の最高齢のレッサーパンダ～",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEdFduNUoxVWlhN1JsNGlDVkNmS3gwYTRLYllCR0dqSjR0cFB5c19zcFV6NEoybUk2ZnR1UGE4RzhhN1picUh2aEZlWlBteFgyUXloWWJzWTZtN0x2YTRGbWpnYXYwdFE?oc=5",
+          "source": "千葉市",
+          "published_at": "2026-11-23T21:47:09Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "0092e4f410970f73",
+          "title": "1579. 警報を「行動」につなぐ －世界の早期警戒システムの現状と課題、国際シンポジウムで考える農業現場への実装",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PZ0ZWM2lTRXlIS29sNzNfWk1zTjJvM1hkUUd5bERDd0ZDdnk4OGtoalgtc0hGR21CamZqT3owZVVRdHNnQmUyRDlwUGN4bmotRzFrcUFad25ydzA2UTVma2RQV1U?oc=5",
+          "source": "国際農林水産業研究センター | JIRCAS",
+          "published_at": "2026-11-23T21:03:51Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "37aa9ce55d1b3417",
           "title": "野村 世界業種別投資シリーズ(世界半導体株投資)【01313098】：基準価格・投資信託情報",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13U2tSeDgwM2x6NWhvM3FQd3VfcU94dTd0MFRoUFVUZVZGOGNpWDdXQ1FoQk5kSmkxWHpxNkZyWDJoWjVrcVNZNWh4WWlVMUkxMDZHRA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-23T06:58:03Z",
+          "published_at": "2026-11-23T19:30:53Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "0e3abe33082bbb54",
-          "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+          "id": "91ea54de614c07d2",
+          "title": "マツコの知らない世界 [解] [字] 【毎週火曜よる８時５５分！マツコ仰天！驚きの世界】",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pekg0elBqenlUWU9Sd0JhU2ltYXRRZzlvRm11eVAyMGlDMEktenBZX2d0d0tPTUs3WVctb0VFa19nVjd3Nk9VMTI3ZC1fY2pEM2RCMFVR?oc=5",
+          "source": "TBSテレビ",
+          "published_at": "2026-11-23T19:14:14Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "47ca560e1ad8af49",
+          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
           "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-23T03:40:38Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4c997959b2ad0663",
-          "title": "〔海外深発地震〕バヌアツ地域でM6.5(11/23)（レスキューナウニュース）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VV1NpRGVxZFlJUUIwX0x6b2h6eHQydXp1UTFjdTVYX3p0SjdFN1RFR1B1MUFraHVUT2pHVFRqNTdqNmZXeVFjNDU5bE0zQWVpTmpEM1JHRVRRejhfUnVVNjREY2xpR0FGWGN6ZnNQVmgzeFY5YWEzZTB1V0JsMDQ?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-23T03:10:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "29720f2c0ed75559",
-          "title": "韓国の美容医療機器メーカー、海外で販路拡大…装置販売後の消耗品供給も強化（KOREA WAVE）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ldFQ5OUxZVUdsbkxaNmUyVWVpU0pRcW9PV1lhbVN0UDg5M0xIQmtKd1RzZkhPUHZHcWMxemhFMGoyYS1tbjJHRm5hY3dQendwb2wwbFdxMlRfQWZocWMxWWdpbmZpRjQxbE5qdC1iTGh2Z1VmZ3ZHYUZ3emZLMTQ?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-23T02:33:16Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "0a18433bc1acb78e",
-          "title": "能登の宇出津商店街巡りも終盤、 続いて野鍛治の「ふくべ鍛治」さんへ向かいます。",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yV2pYMTBEQ0dqS3RWNHRnTmVJMF9HbTRGYk1LeDVqNE45OFhLSmFSTEtIRktjOTZraVJOSjdvY2RjOF9LSmZTelZSTjlfa1NtSnJZdHBxcnNCYlZWOEhmS1VKVXhBalo4aktMTVlIWUpVdw?oc=5",
-          "source": "ほぼ日",
-          "published_at": "2026-11-23T02:00:00Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "7bd67057f9c288e5",
-          "title": "【カンボジア医療活動】「国際技術移転プロジェクト」の実践と現場での取り組み | カンボジア | 活動レポート",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzMmsyT05aZDBmdWllSVN6Z3RSQl9Pc3hoRjlzajNyUWxYdE13aGVlRnpTa0lkSkhhc3ExRHhlQ1NkR2RIZzB4NDBEcTRWQ1JwbmpVSEN6OThFM1hKdnBVcFQ5bUtQeFNLMmR3UURVbGM?oc=5",
-          "source": "ジャパンハート JAPAN HEART",
-          "published_at": "2026-11-23T01:01:43Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6f2b4505b6fc89b5",
-          "title": "「ほぼ日手帳」海外で人気のワケ",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CQWtyUU13R1ZxdlRmQ1F3UV92OTQ4TGZuUDRaaG16dWtIcUtmS3hsMkxORkRmekRhWk9ESUNfS25oVWJtRUYzdXJHNWxXNkI0?oc=5",
-          "source": "Yahoo!ニュース",
-          "published_at": "2026-11-23T00:20:14Z",
+          "published_at": "2026-11-23T19:05:04Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -209,16 +209,6 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c909072b8c5f87b0",
-          "title": "「食品工場Week 大阪 2026」に出展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52Q0dBbjg4YmkwVFl3czZjUE1UaWVvcTItMzAzQzY1X0JuV0xTMkkzTWtYenhvdS1NSllaa0NsNzY5bEZyNzRGeDBTTU1jTHQ4bW5IbTdGbXJpa2Jia01qaFIyekZ6QU9DMFE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-09-16T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "da08e62b375963e9",
           "title": "第7回 食品工場Week【11/18〜11/20・東京ビッグサイト】｜RX Japan合同会社",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QX2J0Wk04SjIzdXFySm5vUnVEUWh6T0dPcXUzaG15UTBOVDRNdEo1ZjIwZ09GMzRFQzlObGdhbm1vSl9DRWRsWmF6TENxTFZ6cHo0aGdRUUxvTHdJX3BUVl92b1BGaDdhLWVWcGNIQk5jRVk?oc=5",
@@ -234,6 +224,16 @@
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90SkhVYkdtN2JwV1BpRXpmVkx6dTRwNS1SX1VzZTJyQmwzNU9YVUh4LXFnbDFlWGtKWmpZVk94WlFMZENhWFZxRDBQbGQxbHUzLUNHeXRvSS1MNTB5TExCSFlWM3o0STVpSzFianJtbw?oc=5",
           "source": "MONOist",
           "published_at": "2026-11-16T03:30:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3b77f26d62fddc9c",
+          "title": "食品工場Week東京、物流効率化技術も展示",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UeEpVS0otc2YxckJ1R2NyLXljQUEzWVAyUDNwc3NwX3RPLURhdW1rQ3hIY3p5WnBrZDROTEx1bWxHNmk0VkI1M2V3?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-10-26T07:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -319,6 +319,16 @@
       "label": "規制関連",
       "articles": [
         {
+          "id": "6a63004d733919c0",
+          "title": "マルチプレックスタンパク質プロファイリング市場、食品安全規制と多項目スクリーニング需要を背景に2035年まで拡大へ",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQalNPTXlGX0I3YjFFVzNrb00yRFZqaU1lM1hOUDhrcWxLbmNEc1F1VXhJcFZCel85MGJadGFMeVc0N0RMcWhLczBGQjFjbEZPX182U0VSbHBHQVAtTWVzaXZidzEzeWRMeTd4akV0Z3ZrVV9RQXYtY3doYl9XYmVuQzlRVFlNSEJ1YTYtRnVlYVJVc1JBMWdZQU1tYWg3U3BtTHF6TldEYXhVSzhoZzBoVktKZWVfbE9VUmZsRkVfdi1nT3FEMy1raUpyT2FuVm1tYzBZX2hHOXVPNTIzY3ViWGZkLWotUQ?oc=5",
+          "source": "IndexBox",
+          "published_at": "2026-11-21T10:11:04Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "fd64c35513771cb4",
           "title": "EUのバッテリー・包装材規制が輸出企業に負担、政府がWTOで貿易障壁を提起",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NWVBHTXdwdUt2amR5VkJoQWp2a3RJVXA3NXZLcEdTNkF1SC05X2pndy1TXy0yU1pXZENhMy1pOEt6TGtBRmJDU3EyVk9fdjNtcGI5Vkx4NGNKalU?oc=5",
@@ -377,21 +387,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8155d426af0e2c28",
-          "title": "処方箋薬ユーザーフィー法改正を議論、創薬・バイオ分野の国際展示会「BIO 2026」(米国) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IWnppSUxuOWg4TFhuSWF1REYxUTVmdmMybF9DazNtRVZSVmxidjI5WHdUNElpMHdTM2hULS1GX3RvRHBnaUhwd3lGZHQ1RjZDYUdvUjk5allLdGVQQnNTX2ZsZy1wS2xYc1BrX1BR?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-07-09T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-11-23T07:52:50Z",
-  "last_success_at": "2026-11-23T07:52:50Z",
+  "last_attempt_at": "2026-11-24T00:03:53Z",
+  "last_success_at": "2026-11-24T00:03:53Z",
   "consecutive_failure_count": 0
 }
