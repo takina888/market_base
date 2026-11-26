@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "partial",
   "language": "ja",
-  "generated_at": "2026-11-25T21:49:47Z",
+  "generated_at": "2026-11-26T08:36:17Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -18,6 +18,36 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "280f1e607ba8d427",
+          "title": "世界市場を目指すインド半導体産業 インドのAI・半導体（3）",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdU1EX011TEJNRkdrZEt5LXJuQXVQYS04RVYtTFctV2JRZFRpeXRiOXE1T05PdXhLWjNEbnZ4RURjUG5naU0xdmQxRDhFM0VwOEFJRVd1UVJpbTRPcFFRMUNpMm5wN0lHQjhFazMyR3pSTlhkWlBkZUdJdmg3WWxQMF80LUd1UQ?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-26T07:30:00Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "4fe238cee2b1f1c8",
+          "title": "中国国際輸入博覧会にジャパンパビリオン、延べ1万3,000人が来場、日本の「食」×「コンテンツ」の魅力を発信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5raGM5aFlTTW1maWRJOThkTGxfTTlJaUkyQTNfbnNibllVYklWbVMxZTJHTENtVVRUUURqdnJHM1BlODB2dXc2emFHLWxFQ2JHZmFYdjd1MXVObDl4X2ZNVDVwcVhoOXYwQlZPSE13?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-26T01:34:07Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "489b73f4babf25cb",
+          "title": "ジェトロ、海外バイヤー8社を招き広島で食品輸出商談会を開催(日本) | ビジネス短信 ―ジェトロの海外ニュース",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoZ2pOYVRyM2lSNmdpR2pVVGJvSlRzRnctYWpmdl9wbGFIOXdGX25yVTRJOXkzV1lxMV9NZUoxLUVxcDM2RDV5UlFVUXprYk1XZWxKSFJDd09oR09tMTJFdlRPNmpLSnUxWUJMQWFB?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-26T01:32:17Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "a6c1dfd161387f88",
           "title": "海外宇宙企業4社が宮城と福島で日本企業と18件の商談(日本) | ビジネス短信",
@@ -49,41 +79,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "bbf559c67875c822",
-          "title": "国際電気標準会議（IEC）2029年大会の横浜開催が決定しました",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JRnVidXd1aGZLd2FyZjBDUG9XV05kTnVoTjEyWE1NNXNNdURzZFNqbzVfNXVraWNCWEhBTk84ZjZQWGJwSGR5TXFTZXdSaUQ1V1pxb0FlemJqcy1fN0pCUHdUZw?oc=5",
-          "source": "経済産業省",
-          "published_at": "2026-11-24T01:18:08Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "47ca560e1ad8af49",
-          "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "published_at": "2026-11-25T20:02:34Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "cb8ba2e0b09d0922",
-          "title": "【プレビュー】「ティム・バートンのラビリンス」が東京・豊洲で2月21日まで ティム・バートンの創造世界を体感できる没入型展覧会",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xUThOUUxhWXBUYV9tRjNrMzFZdlRNdFRISDVOMFpaLVY0VHhTZnp2ZkNKblZMQXVYbVZTdkt3ODg1Qy1uVG44UENOYnhWZy1sb3JKYWpUcTZZRTh0VHkybFY1ZzhtVUhf?oc=5",
-          "source": "美術展ナビ",
-          "published_at": "2026-11-25T19:35:10Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "35c8850b5f208a0d",
-          "title": "レッサーパンダ「風太」がギネス世界記録™に認定されました！ ～飼育下で存命中の最高齢のレッサーパンダ～",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEdFduNUoxVWlhN1JsNGlDVkNmS3gwYTRLYllCR0dqSjR0cFB5c19zcFV6NEoybUk2ZnR1UGE4RzhhN1picUh2aEZlWlBteFgyUXloWWJzWTZtN0x2YTRGbWpnYXYwdFE?oc=5",
-          "source": "千葉市",
-          "published_at": "2026-11-25T19:10:04Z",
+          "id": "839af207d25a1ca1",
+          "title": "第140回広州交易会が開催、海外バイヤー35万人超で過去最多(中国、日本) | ビジネス短信",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyQVNNMExtMng0VTlUVkpWeGp5NkxQUGFYcFduMnZOX21kT1M4dUNKM3dheHlZWk9lLV9xTXd1cjZWaC1LVE9sT3pUTURua09ENm95X3ctY1RPTV9fR3pOR0J6X2dnLVhKdC1CN0pB?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-24T15:36:36Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -144,21 +144,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "7b3ce71c979c7072",
-          "title": "FOOMA JAPAN 2027 会期：2027年6月8日（火）～11日（金）の4日間 出展申込受付は、2026年9月1日（火）～10月15日（木）",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41TURZeUVaUUZUNmFNVXRzUE9Xc0xxU1ZEQ2FLWmt0LVVMMEJRR0lsbkpnZXJJeEJhWGJ4TGJfSVRIUlpxRmhYSGlseWN6SXJCMWl4SDQyX0p0OUE3aXJYbTlDWFBUTUo2WkE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-08-28T07:00:00Z",
+          "id": "125e8a78603ad6f5",
+          "title": "ナオミ、液体・粘体・粉体に対応する1台3役の小型充填機を展開",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PdTdUYVlQT0c2eFdRTmFUcHcwdmtsMWdRb1A5ZHBDZFZQeDlva1NKczEySmpaTDRtVktiZjNjT21Na2loOWg2Yi1jN3dUWXpWc3F6YjBRcV9Pdw?oc=5",
+          "source": "週刊粧業オンライン",
+          "published_at": "2026-11-26T02:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "7d874cbd325aa998",
-          "title": "トランスレーショナルチップ試験・選別機の世界市場（2026年～2032年）、市場規模（常温／高温ピックアンドプレースハンドラー、3温度対応ピックアンドプレースハンドラー）...",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5XcUVreFcxUHN0dEtRREJkTWpCYm01dV9BeGFkU2pvSDR0VDVUMkZzcHlMaGt4MVZhN0xEa3ZpaDdkLWg1UlNVWWRPQ0ZyOHc?oc=5",
-          "source": "アットプレス",
-          "published_at": "2026-11-25T09:30:00Z",
+          "id": "24254bc6b13782b7",
+          "title": "無菌カートン包装システムの世界市場（2026年～2032年）、市場規模（充填機、キャップ装着機、ストロー装着機、段ボール梱包機、その他）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hOHo0YnBiMWsyQ3Ytelltb2dWTERRRmdvS1pJcTV0OGw3ZUF6UzFYZkd5VVpha01JY3hQdW4xWm0weGlmalpzRXlyaXBVejg?oc=5",
+          "source": "Newscast.jp",
+          "published_at": "2026-11-26T02:00:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
@@ -172,16 +172,6 @@
           "id": "2635ea62a911ccc7",
           "title": "TBグローバルテクノロジーズ 第11回ドリンクジャパン出展 食品工場の人手不足と高度化する衛生管理に応える回転継手を現物でご紹介",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95RDg2ZExfNDU3N1o1T00zV1YtVkxaSFk4OTcyQzU0Yi1OUjFodHdMaTU3YzVvaF94Z2tjSlZ5WkMtaWYybThVaFdpakFZZ0MxUzZsRDMyU0tOem9HdEU3R080VU1Rc3BCSWc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-12T08:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4a6517fbbf03e8ec",
-          "title": "ネッスー、国分グループ本社と「食品工場Week【東京】」に出展・講演｜食品メーカー17社が参画する、未利用食品を、児童扶養手当を受給する子育て家庭へ届ける仕組みを紹介",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WZWlWMUFOdzBLYXBsRUZ6bThxamNaRFlNVFNWdll5OXFjWW9UMlBRZXdjSkxvZC0yNEdOWUdlYV9yQTJFSENZY01GRjB3dElIR1J3T0tEVHpwZ0J0a2FGRllHdHRNeDVYMGc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-11-12T08:00:00Z",
           "language": "ja",
@@ -237,22 +227,22 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "8ec815a542383c8d",
+          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展 | 株式会社澤村のプレスリリース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-09-15T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
     "retail": {
       "label": "小売店",
       "articles": [
-        {
-          "id": "b4830af748eabbac",
-          "title": "堺東駅直結の新たな商業施設「HiViE（ヒビエ）堺東」始動!１階「ライフ」のオープンが２０２６年１２月９日に決定しました-２０２７年春のグランドオープンに向け、出店店舗が続々決定-",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jXzJBeWJnVFloQ3dkQjZON3NLcXhNdzBhMjEteTgwNFgzZ3daNF9IWUJNYW4xUm9SUnVSeERzTVFyZnFCVUxjVTRrRkJYazVNbE5xTHc2S3dCOVNqVmhrNU15bTNRSGVEb1E?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-25T05:41:57Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
         {
           "id": "75f47ed2a7abfd6d",
           "title": "トライアル／茨城県常陸太田市に「スーパーセンタートライアル常陸太田店（店舗面積3844m2）」27年6月8日新設",
@@ -304,6 +294,16 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "c3f7b2b73462ff74",
+          "title": "イトーヨーカドー／伊藤常務「26年度46店舗、27年度は70店舗改装。小岩店はS＆Bの新店に」",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vWjlHdHZiVlJOZW1kazhBRXNQM2xKSE1sNGdEeTI0bXZnRWhxb2pjV3Z4OW9ZbTFybkQwaEtFWGluMEZTc0cycl9TaElaYlFXaXN4Sg?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-11-13T08:00:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "605d9e80d1ab47b0",
           "title": "バロー、コーナン商事／奈良県生駒市に「生駒壱分商業施設（店舗面積4752m2）」27年5月18日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OOVltZ1R2ZF8tQVUwaXVEc3IxUFlQWnBzdXMya1NpQnhtOGQwaDMtdTNELTZUMlhCa1ZoT3RVcHZlUkZZOWZ2a29BY1o0RWZDWFotcVln?oc=5",
@@ -343,7 +343,7 @@
           "title": "EUのバッテリー・包装材規制が輸出企業に負担、政府がWTOで貿易障壁を提起",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NWVBHTXdwdUt2amR5VkJoQWp2a3RJVXA3NXZLcEdTNkF1SC05X2pndy1TXy0yU1pXZENhMy1pOEt6TGtBRmJDU3EyVk9fdjNtcGI5Vkx4NGNKalU?oc=5",
           "source": "亜州日報",
-          "published_at": "2026-11-12T21:08:10Z",
+          "published_at": "2026-11-13T08:00:00Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -391,7 +391,7 @@
       ]
     }
   },
-  "last_attempt_at": "2026-11-25T21:49:47Z",
-  "last_success_at": "2026-11-25T21:49:47Z",
+  "last_attempt_at": "2026-11-26T08:36:17Z",
+  "last_success_at": "2026-11-26T08:36:17Z",
   "consecutive_failure_count": 0
 }
