@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "status": "partial",
+  "status": "live",
   "language": "ja",
-  "generated_at": "2026-11-26T08:36:17Z",
+  "generated_at": "2026-11-26T21:43:24Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -10,20 +10,38 @@
     "retail",
     "overseas"
   ],
-  "retained_categories": [
-    "regulations"
-  ],
+  "retained_categories": [],
   "failed_categories": {},
   "categories": {
     "overseas": {
       "label": "海外ニュース",
       "articles": [
         {
+          "id": "e40437aa82a14846",
+          "title": "若山経済産業大臣政務官はモロッコ王国のムッズール産業・貿易・投資・経済包摂大臣とオンライン会談を実施しました",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RNmgzVXR3cWxzVk1QbW4yMVVRWXNTRDNCMWU2NUNwUHBKamZIVXJvRkx2ZUpNcDM2MWo0V0xmNnhBUTlIbVN2Z3hDcHlaQmxYLS1fOXp5ZnpEbm8ybW4za0dfYw?oc=5",
+          "source": "経済産業省",
+          "published_at": "2026-11-26T10:33:14Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "280f1e607ba8d427",
           "title": "世界市場を目指すインド半導体産業 インドのAI・半導体（3）",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdU1EX011TEJNRkdrZEt5LXJuQXVQYS04RVYtTFctV2JRZFRpeXRiOXE1T05PdXhLWjNEbnZ4RURjUG5naU0xdmQxRDhFM0VwOEFJRVd1UVJpbTRPcFFRMUNpMm5wN0lHQjhFazMyR3pSTlhkWlBkZUdJdmg3WWxQMF80LUd1UQ?oc=5",
           "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-26T07:30:00Z",
+          "published_at": "2026-11-26T07:36:51Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "489b73f4babf25cb",
+          "title": "ジェトロ、海外バイヤー8社を招き広島で食品輸出商談会を開催(日本) | ビジネス短信 ―ジェトロの海外ニュース",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoZ2pOYVRyM2lSNmdpR2pVVGJvSlRzRnctYWpmdl9wbGFIOXdGX25yVTRJOXkzV1lxMV9NZUoxLUVxcDM2RDV5UlFVUXprYk1XZWxKSFJDd09oR09tMTJFdlRPNmpLSnUxWUJMQWFB?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-26T01:34:07Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -34,16 +52,6 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5raGM5aFlTTW1maWRJOThkTGxfTTlJaUkyQTNfbnNibllVYklWbVMxZTJHTENtVVRUUURqdnJHM1BlODB2dXc2emFHLWxFQ2JHZmFYdjd1MXVObDl4X2ZNVDVwcVhoOXYwQlZPSE13?oc=5",
           "source": "ジェトロ（日本貿易振興機構）",
           "published_at": "2026-11-26T01:34:07Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "489b73f4babf25cb",
-          "title": "ジェトロ、海外バイヤー8社を招き広島で食品輸出商談会を開催(日本) | ビジネス短信 ―ジェトロの海外ニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoZ2pOYVRyM2lSNmdpR2pVVGJvSlRzRnctYWpmdl9wbGFIOXdGX25yVTRJOXkzV1lxMV9NZUoxLUVxcDM2RDV5UlFVUXprYk1XZWxKSFJDd09oR09tMTJFdlRPNmpLSnUxWUJMQWFB?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-26T01:32:17Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -74,16 +82,6 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GclIzOEFGUHZBTWJEVXdsRmxLNHhiR2RCSzRzYmJGdzJZdXN1STdDLWRaclFZVE1GUEt4ODViZVFTdlhvRFlFZlJYSmg1Z0JYUXFya1dUdFhaUE5POEFXeFNqTFZhZ0ZYeG5scS1n?oc=5",
           "source": "ジェトロ（日本貿易振興機構）",
           "published_at": "2026-11-25T01:33:51Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "839af207d25a1ca1",
-          "title": "第140回広州交易会が開催、海外バイヤー35万人超で過去最多(中国、日本) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyQVNNMExtMng0VTlUVkpWeGp5NkxQUGFYcFduMnZOX21kT1M4dUNKM3dheHlZWk9lLV9xTXd1cjZWaC1LVE9sT3pUTURua09ENm95X3ctY1RPTV9fR3pOR0J6X2dnLVhKdC1CN0pB?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-24T15:36:36Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -169,26 +167,6 @@
       "label": "食品工場",
       "articles": [
         {
-          "id": "2635ea62a911ccc7",
-          "title": "TBグローバルテクノロジーズ 第11回ドリンクジャパン出展 食品工場の人手不足と高度化する衛生管理に応える回転継手を現物でご紹介",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95RDg2ZExfNDU3N1o1T00zV1YtVkxaSFk4OTcyQzU0Yi1OUjFodHdMaTU3YzVvaF94Z2tjSlZ5WkMtaWYybThVaFdpakFZZ0MxUzZsRDMyU0tOem9HdEU3R080VU1Rc3BCSWc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-12T08:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "bfa81123b86b262a",
-          "title": "「食品工場 Week 東京」に出展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9zZ1cza2FqcGFxbEI0MnJkVkZudG4yX2Jtcl9yMkREWklPZUpWTlhvczItdklnMGhnU0w3eG1Ua1RvcHNKUWhIeTlUUVdVMjdLOUFLM1B4TEFSYy1VeS1MM2JRX1lldXNhMmc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-04T08:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "ea8cc79be8189080",
           "title": "帳票管理のカミナシ、物流・食品工場のAI活用支援 22億円調達",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91WE5EVU15VE00eWU0LWl3Z0tsaGtyRUVJQUx6ZHhPOEl2MWFQTmM3MmZ2VXlnZmtwM1BJTW4ySk96LURYb09teU9IR1NUa3pkbjltOU5SNDJuQXp1QTdWUFg2UzRLeWUyWG5YQQ?oc=5",
@@ -234,6 +212,26 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-09-15T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "da08e62b375963e9",
+          "title": "第7回 食品工場Week【11/18〜11/20・東京ビッグサイト】｜RX Japan合同会社",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QX2J0Wk04SjIzdXFySm5vUnVEUWh6T0dPcXUzaG15UTBOVDRNdEo1ZjIwZ09GMzRFQzlObGdhbm1vSl9DRWRsWmF6TENxTFZ6cHo0aGdRUUxvTHdJX3BUVl92b1BGaDdhLWVWcGNIQk5jRVk?oc=5",
+          "source": "event-marketing.co.jp",
+          "published_at": "2026-11-18T08:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "7cf99bf211754396",
+          "title": "元トヨタ生技が見た食品工場のなぜ：電子ブックレット（FA）",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90SkhVYkdtN2JwV1BpRXpmVkx6dTRwNS1SX1VzZTJyQmwzNU9YVUh4LXFnbDFlWGtKWmpZVk94WlFMZENhWFZxRDBQbGQxbHUzLUNHeXRvSS1MNTB5TExCSFlWM3o0STVpSzFianJtbw?oc=5",
+          "source": "MONOist",
+          "published_at": "2026-11-16T08:00:00Z",
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
@@ -329,11 +327,41 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "f586a07d736311d1",
+          "title": "産業貿易省は、スナック菓子の食品安全基準を定めている。",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYXlSaHVLLUpEemoyaWh4ZWJfVjdzZWNPR2JyQjZ0Y2hqcVVnX2V5VFJ0cTlTcVZMTnFjOWVqWDhZQ2l4ZDlvVFBabHVVaDA1WVdYanN6Zy1zUWJUSWtvOHNrcDU5YmYyMFVGVzZNWE1QZEg1eVZ4aG4tNUJvUFhEeG1VY05sOGZRWnZjXzlpRXYwWndMalc4M0pxRQ?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-11-26T15:58:57Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "1ccb9a02a7dd4acc",
+          "title": "商工省は、スナック菓子に関する国家技術基準を策定した。",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc0JxWHdUNDdEUm1LOVJvR2Q2N3ZUU3NxUjVMR3FaT2U1UzZUUlBtZlhjbUxtN2VkVlhENWRPQ3BONGF1dGo2MVEzV1hxNnRIWHcwLWtaVWhiUzRpUGw0TU1IdW5Tajh2QVM3bkhXTGlnaTF6LTM1d2dZdkhTNndUZ1NjWlA1dDBzNjJKcFUwYU9EaHhsWUtrMl9jbTY?oc=5",
+          "source": "Vietnam.vn",
+          "published_at": "2026-11-26T15:02:43Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "30adf57b3540814d",
           "title": "ベトナムの食品をEUに輸出するには、企業は最初から包装について検討する必要がある。",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcmJKVmJFQ3kyNVM3dDZMalN5WFpaV1l4RjdrRlV5Zng3VGprdEJHd0M0SVhkUTlFcGV6RW91SThfOWxRVzFlYm93c1NOQW9aNHJ2dTIxYldTLVBad1B5YUwzLWNwNnN2aUhxRldoNWc1TlBzS0laUzl0b1BYcGNqb2hSQkxFZEZ0aElpajlNNXFlMUlYa2I3Z0p5NHpGbUVXY1JPQ3JqeTA4dw?oc=5",
           "source": "Vietnam.vn",
           "published_at": "2026-11-24T09:35:25Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6a63004d733919c0",
+          "title": "マルチプレックスタンパク質プロファイリング市場、食品安全規制と多項目スクリーニング需要を背景に2035年まで拡大へ",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQalNPTXlGX0I3YjFFVzNrb00yRFZqaU1lM1hOUDhrcWxLbmNEc1F1VXhJcFZCel85MGJadGFMeVc0N0RMcWhLczBGQjFjbEZPX182U0VSbHBHQVAtTWVzaXZidzEzeWRMeTd4akV0Z3ZrVV9RQXYtY3doYl9XYmVuQzlRVFlNSEJ1YTYtRnVlYVJVc1JBMWdZQU1tYWg3U3BtTHF6TldEYXhVSzhoZzBoVktKZWVfbE9VUmZsRkVfdi1nT3FEMy1raUpyT2FuVm1tYzBZX2hHOXVPNTIzY3ViWGZkLWotUQ?oc=5",
+          "source": "IndexBox",
+          "published_at": "2026-11-21T10:11:04Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -357,41 +385,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6a63004d733919c0",
-          "title": "マルチプレックスタンパク質プロファイリング市場、食品安全規制と多項目スクリーニング需要を背景に2035年まで拡大へ",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQalNPTXlGX0I3YjFFVzNrb00yRFZqaU1lM1hOUDhrcWxLbmNEc1F1VXhJcFZCel85MGJadGFMeVc0N0RMcWhLczBGQjFjbEZPX182U0VSbHBHQVAtTWVzaXZidzEzeWRMeTd4akV0Z3ZrVV9RQXYtY3doYl9XYmVuQzlRVFlNSEJ1YTYtRnVlYVJVc1JBMWdZQU1tYWg3U3BtTHF6TldEYXhVSzhoZzBoVktKZWVfbE9VUmZsRkVfdi1nT3FEMy1raUpyT2FuVm1tYzBZX2hHOXVPNTIzY3ViWGZkLWotUQ?oc=5",
-          "source": "IndexBox",
-          "published_at": "2026-11-21T10:11:04Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f9aad91c93250214",
-          "title": "寄稿／中国が化学品管理法規体系を再構築",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42VVMycmQwUTNQdlF3bFd4LVJNS0dzeVlSRHdkQUxNU1g0WkVRWDFYdmNLUExBQ2VWWWRxWF9xb2d2OWlaRTE5ZDJjVlV2VU9oTE9B?oc=5",
-          "source": "化学工業日報 電子版",
-          "published_at": "2026-10-08T07:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "6ed46dcd15e35476",
-          "title": "食品安全管理を革新し、検査後の監視体制を強化する。",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcHRPTWcwT1k1ajYwdUF6VG9Ra19TdTVPb2R5QS1COHZJMXRyM3BEUFlvRmg0bndMQzFjVVcydlBzU3dZakFTem1SYlozMm1jQnVCMzFPYjdMR1lhTFFGWXdTMTVVSmh5aE1BZFZiU2RLSTV4dWJlODVkdklrRTB4VTZnZ2Fpdw?oc=5",
-          "source": "Vietnam.vn",
-          "published_at": "2026-11-08T12:22:32Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-11-26T08:36:17Z",
-  "last_success_at": "2026-11-26T08:36:17Z",
+  "last_attempt_at": "2026-11-26T21:43:24Z",
+  "last_success_at": "2026-11-26T21:43:24Z",
   "consecutive_failure_count": 0
 }
