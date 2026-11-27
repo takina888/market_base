@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-11-27T08:47:48Z",
+  "generated_at": "2026-11-27T21:27:38Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -16,6 +16,26 @@
     "overseas": {
       "label": "海外ニュース",
       "articles": [
+        {
+          "id": "09fa509126e07356",
+          "title": "中国企業のグローバル展開と各国・地域への影響 過去最高を記録した中国の海外投資、政府は規範化推進へ",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaUJYWmwxalZ5LU9hV2JOQ2ZyYkpkb05WNXZoekdXTi1LY240U3hkQ1JiNzdGa19ydVhyanlmeTNDUVdxc1Q2M3JHcTNTeXpkNV9mU0U0SmxzcXJkSjFrSmluZlVxVm5EQzI3OEVvR0VlQXhUNmw1NDQtWXh6TEVCY0F5NGFCQQ?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-27T08:31:36Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "b7f92b4bf37697ee",
+          "title": "重点産業の高度化が促す海外展開 中国の製造業と海外投資（2）",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPa1ZrcEt4QXBUNkNRSGJOZkp3dVVpU2oyR3dyMnZjekl1c2JhUHc2aU1MVjBDZ3B5Mm1jWklWWU1GNHo5YjFMcFdLMWhfWU9VMEotSF9qOHJNR3JkVS10TE1IaXl4Z1ZiU3hESU9hN1Qtc3lSZFRxQU1ZbVltaEZ6cnVGNU9BUQ?oc=5",
+          "source": "ジェトロ（日本貿易振興機構）",
+          "published_at": "2026-11-27T03:37:31Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
         {
           "id": "e40437aa82a14846",
           "title": "若山経済産業大臣政務官はモロッコ王国のムッズール産業・貿易・投資・経済包摂大臣とオンライン会談を実施しました",
@@ -37,51 +57,31 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "489b73f4babf25cb",
-          "title": "ジェトロ、海外バイヤー8社を招き広島で食品輸出商談会を開催(日本) | ビジネス短信 ―ジェトロの海外ニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoZ2pOYVRyM2lSNmdpR2pVVGJvSlRzRnctYWpmdl9wbGFIOXdGX25yVTRJOXkzV1lxMV9NZUoxLUVxcDM2RDV5UlFVUXprYk1XZWxKSFJDd09oR09tMTJFdlRPNmpLSnUxWUJMQWFB?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-26T01:34:07Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "4fe238cee2b1f1c8",
-          "title": "中国国際輸入博覧会にジャパンパビリオン、延べ1万3,000人が来場、日本の「食」×「コンテンツ」の魅力を発信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5raGM5aFlTTW1maWRJOThkTGxfTTlJaUkyQTNfbnNibllVYklWbVMxZTJHTENtVVRUUURqdnJHM1BlODB2dXc2emFHLWxFQ2JHZmFYdjd1MXVObDl4X2ZNVDVwcVhoOXYwQlZPSE13?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-26T01:34:07Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "a6c1dfd161387f88",
-          "title": "海外宇宙企業4社が宮城と福島で日本企業と18件の商談(日本) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5EWktyQ25aQUcxYTJ2dENJV1F3X3F6Y1BrSi1TSE9Bblo4YlRiNldjcUZBb0ZhWkFPY1Q5LVBabVdVTVlnZ0FDeFlWM21fRi1XcWgyUUlNTlUxX2lKUFFNRnpoWlhVYWN1QjFWSmp3?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-25T15:36:10Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "f060d22112945aff",
-          "title": "ジェトロ、北海道で海外宇宙企業4社と日本企業の連携機会を創出(日本) | ビジネス短信 ―ジェトロの海外ニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Sb2Y0dHFsTlV4M3A5N0VQTmMzZkhFb2JqQVp3QVNNN1JpOFdOaHZnU2dwQXdIVXktcHJOOGlvcFEzWVlJRjREZ2p4alF4WkVLM0N3ZDlsektESXVlbmNjNWZsRGNBaUdKaGJDS3Vn?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-25T15:36:10Z",
-          "language": "ja",
-          "category": "overseas",
-          "link_provider": "google_news_rss"
-        },
-        {
           "id": "bbf559c67875c822",
           "title": "国際電気標準会議（IEC）2029年大会の横浜開催が決定しました",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JRnVidXd1aGZLd2FyZjBDUG9XV05kTnVoTjEyWE1NNXNNdURzZFNqbzVfNXVraWNCWEhBTk84ZjZQWGJwSGR5TXFTZXdSaUQ1V1pxb0FlemJqcy1fN0pCUHdUZw?oc=5",
           "source": "経済産業省",
           "published_at": "2026-11-24T01:18:08Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6a2b51a46b51ef63",
+          "title": "【会期延長】「ティム・バートンのラビリンス」が東京・豊洲で3月21日まで ティム・バートンの創造世界を体感できる没入型展覧会",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xUThOUUxhWXBUYV9tRjNrMzFZdlRNdFRISDVOMFpaLVY0VHhTZnp2ZkNKblZMQXVYbVZTdkt3ODg1Qy1uVG44UENOYnhWZy1sb3JKYWpUcTZZRTh0VHkybFY1ZzhtVUhf?oc=5",
+          "source": "美術展ナビ",
+          "published_at": "2026-11-27T15:20:11Z",
+          "language": "ja",
+          "category": "overseas",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "6ece1d78463bf87d",
+          "title": "ヨウ素に商機、日本は世界有数の生産地…市場拡大と価格上昇見込み増産へ（読売新聞オンライン）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzXzJ6Vkp5ejZ2LWRRajRBMnV1ZW43VnVXSThHQ1pEd0pZUW5GdFZULW03N2ExVGdLdUVpOHg2NXlQMWtDQ1FlVTk0YVV0Sl80SkJ4M211N2VRT3FsRlZwNDlRYmp1YUlrUXNWb1o2OWgxMUVOc2dIbmpQQUVaOVE?oc=5",
+          "source": "Yahoo!ニュース",
+          "published_at": "2026-11-27T14:30:49Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -197,18 +197,8 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c909072b8c5f87b0",
-          "title": "「食品工場Week 大阪 2026」に出展",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52Q0dBbjg4YmkwVFl3czZjUE1UaWVvcTItMzAzQzY1X0JuV0xTMkkzTWtYenhvdS1NSllaa0NsNzY5bEZyNzRGeDBTTU1jTHQ4bW5IbTdGbXJpa2Jia01qaFIyekZ6QU9DMFE?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-09-16T07:00:00Z",
-          "language": "ja",
-          "category": "food_factory",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "8ec815a542383c8d",
-          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展 | 株式会社澤村のプレスリリース",
+          "id": "d8eb749f3473be48",
+          "title": "【建築×衛生検査】食品工場の「HACCP・衛生管理」の悩みを解決。SAWAMURAと日本細菌検査が「食品安全・衛生イノベーション展 大阪」に共同出展",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRHpISHJ2NGE4Y2pDRFV4SWk3SnhXYnRCb0VHdk9kSnRQM1lnVlFXd3N4ZnRldXB0SGFwYmFMTXNWaHZJQjktbVRQVWltQ1ZFQ3hHZi1QaTNwUGR3MHZCSnZzS0FoTGhGRnc?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-09-15T07:00:00Z",
@@ -235,6 +225,16 @@
           "language": "ja",
           "category": "food_factory",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "3b77f26d62fddc9c",
+          "title": "食品工場Week東京、物流効率化技術も展示",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UeEpVS0otc2YxckJ1R2NyLXljQUEzWVAyUDNwc3NwX3RPLURhdW1rQ3hIY3p5WnBrZDROTEx1bWxHNmk0VkI1M2V3?oc=5",
+          "source": "LOGISTICS TODAY",
+          "published_at": "2026-10-26T07:00:00Z",
+          "language": "ja",
+          "category": "food_factory",
+          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -252,6 +252,26 @@
           "link_provider": "google_news_rss"
         },
         {
+          "id": "0d0144a825e7d602",
+          "title": "ニシムタ／鹿児島市に「（仮称）スーパーセンターニシムタ明和店（店舗面積7249m2）」27年10月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ObDhteThzeUI4QTFqSlF4N2tXXzVEX2MzZGJwNXVvNUVYTHhTb0ppWktkb0FoamJLNHVtNkZYVkNQajdIU1NISElpVWVKbVBzZTU3WjVB?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-11-26T01:30:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "f07793271ea107ce",
+          "title": "いちい、ハシドラッグ／福島市に「ライブリータウン岡部（店舗面積2585m2）」27年6月16日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zTHlTd1NWTnUzb1VyZDdpeWxfWE5pV2RxcmZaX1VpU0RjbjVaLTJvZG9GRU16SjFfRThweW16V202WVJmR2MxUFh3MDhHcTRZQ2hRRWNn?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-11-25T01:31:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "75f47ed2a7abfd6d",
           "title": "トライアル／茨城県常陸太田市に「スーパーセンタートライアル常陸太田店（店舗面積3844m2）」27年6月8日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iRXgyZ3VXYmkyTGg4bDU0SG5Yem5QZUdFLUY1Ukowa00zVkQzakpJLTZUU3poX3c5R05XaVM0NlYxZ29FcXFSM2wwemNzYzB5SjhNYkxB?oc=5",
@@ -262,11 +282,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "826db8891e8120fe",
-          "title": "食品スーパーマーケット「大阪屋ショップGO！粟島店」オープンのお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtSjZESmtCT2VTaGFDUDgxRTVibVp1QVRWQzlPc25ZMWRQN3JkLU5zSmMxSlhyT2diSlJtWjJmS2FoMVFsNGFaN3llWEZTeHF0aExiTWVia0JNX0FxNkdNYzJ2ZTg2OXFwSWc?oc=5",
-          "source": "PR TIMES",
-          "published_at": "2026-11-19T03:00:02Z",
+          "id": "73dacda224b4d4fd",
+          "title": "マミーマート／29年9月期120店舗体制へ、神奈川を重点出店エリアに",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00MU0wV01fZVpjYW4zUFQtNmkwdXhWemd5UmRiX3NyaVhGSlB6MnQ0RkE1VXNkOVl6T3VWTGtWNUdDdjUzd2NwWmZkY1loOGI1WjJmdw?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-11-20T08:16:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -290,26 +310,6 @@
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "b6e09f88636c8eed",
-          "title": "クスリのアオキ／宮城県・香川県に計3店舗、27年6月新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jQXRTaWRMcE1rVGZTbzBkTC1lVWFkUGtJUmE0bG9INjFXM01XYXdSMjZZTjQ1ZV9Qc2ZSdzlRRXNKejF6Rmo1OEJhS0JmamlqTWdISTdR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-11-11T08:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "04f3743167ba0b3b",
-          "title": "ヤオコーほか／神奈川県横浜市に「（仮称）戸塚駅西口商業施設計画（店舗面積3618m2）」27年6月20日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11VEY5LWdnbm1Fb1VwSHhJLWktNVNVclZoRHNRT2hjX1lWVXdhcGVEWnMxWnlEOEE4eFRUYm9rRTJlRU5QZnExdkRjRXdtcG1NdGU5eUlB?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-11-11T08:00:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
         }
       ]
     },
@@ -322,16 +322,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PNFJrcy1leEJnNlYySU5LUXloQVM2b1liMDJkZzRCSUtuRHNJcUl6QXdUOEY1Q3BFYlBiYVU4LXRob3NjbFJzM3NqWTc4YmNjQ0hjaVdKdlN4N1NBSjF1a2FWXzFtVnNDZ2c?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-11-25T02:00:02Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "fe34f88541fd8461",
-          "title": "中国のCCC認証切替期限が12月末に迫る！ISTソフトウェア、強制GB規格・CELの最新動向を解説する無料ウェビナーを",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pemt0LWR4aHRYb3dyajllb3J6VTlLTlBtWjE4eXFVdW93R1FUaXIyVkNYd01iS1dtdGh5d2xnaEJRN2hsSk5KUTZZazRVWVh0QWFmQ1FTOVZ6U0lfeXQ0RTZDLVM4b2t6?oc=5",
-          "source": "ニコニコニュース",
-          "published_at": "2026-11-26T21:21:30Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -385,11 +375,21 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
+        },
+        {
+          "id": "ef503c10ab6704c7",
+          "title": "ヘルシーDo(北海道食品機能性表示制度) - 経済部食関連産業局食産業振興課",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1veTRGMGlHNnUzZDJBaDdkX29PR1IwM3pITkMyT2JYVGN2RWMyTXdyeXNFWElEcGQyaVBHRGZ5VV94V3FoZXVEOEZ3dmJzeWM5NnBsNG5rdUFNTndNNm9JMW1DNmlQT1N6MWc?oc=5",
+          "source": "北海道のホームページ",
+          "published_at": "2026-11-02T08:00:00Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-11-27T08:47:48Z",
-  "last_success_at": "2026-11-27T08:47:48Z",
+  "last_attempt_at": "2026-11-27T21:27:38Z",
+  "last_success_at": "2026-11-27T21:27:38Z",
   "consecutive_failure_count": 0
 }
