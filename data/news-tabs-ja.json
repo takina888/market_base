@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "live",
   "language": "ja",
-  "generated_at": "2026-11-26T21:43:24Z",
+  "generated_at": "2026-11-27T08:47:48Z",
   "successful_categories": [
     "regulations",
     "food_machinery",
@@ -77,11 +77,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "ff565e672e28f303",
-          "title": "深セン市で国際礼品展が開催、ジャパンブースに36社出展(中国、日本) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GclIzOEFGUHZBTWJEVXdsRmxLNHhiR2RCSzRzYmJGdzJZdXN1STdDLWRaclFZVE1GUEt4ODViZVFTdlhvRFlFZlJYSmg1Z0JYUXFya1dUdFhaUE5POEFXeFNqTFZhZ0ZYeG5scS1n?oc=5",
-          "source": "ジェトロ（日本貿易振興機構）",
-          "published_at": "2026-11-25T01:33:51Z",
+          "id": "bbf559c67875c822",
+          "title": "国際電気標準会議（IEC）2029年大会の横浜開催が決定しました",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JRnVidXd1aGZLd2FyZjBDUG9XV05kTnVoTjEyWE1NNXNNdURzZFNqbzVfNXVraWNCWEhBTk84ZjZQWGJwSGR5TXFTZXdSaUQ1V1pxb0FlemJqcy1fN0pCUHdUZw?oc=5",
+          "source": "経済産業省",
+          "published_at": "2026-11-24T01:18:08Z",
           "language": "ja",
           "category": "overseas",
           "link_provider": "google_news_rss"
@@ -142,20 +142,20 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "125e8a78603ad6f5",
-          "title": "ナオミ、液体・粘体・粉体に対応する1台3役の小型充填機を展開",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PdTdUYVlQT0c2eFdRTmFUcHcwdmtsMWdRb1A5ZHBDZFZQeDlva1NKczEySmpaTDRtVktiZjNjT21Na2loOWg2Yi1jN3dUWXpWc3F6YjBRcV9Pdw?oc=5",
-          "source": "週刊粧業オンライン",
-          "published_at": "2026-11-26T02:00:00Z",
+          "id": "6f6230a3cce75238",
+          "title": "インテリジェント鉱石選別機の世界市場（2026年～2032年）、市場規模（光学式鉱石選別機、X線式鉱石選別機、センサー式鉱石選別機）・分析レポートを発表",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE83bVFHZWRuU0pOZTROTUJqOWUtRDA3Wms4dFN2dlB5eDFBcWVMZlg5azdnRExzNEpRRUxvX1hZREVEaXNPN0JTNHdrM3c0OXM?oc=5",
+          "source": "アットプレス",
+          "published_at": "2026-11-27T03:30:00Z",
           "language": "ja",
           "category": "food_machinery",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "24254bc6b13782b7",
-          "title": "無菌カートン包装システムの世界市場（2026年～2032年）、市場規模（充填機、キャップ装着機、ストロー装着機、段ボール梱包機、その他）・分析レポートを発表",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hOHo0YnBiMWsyQ3Ytelltb2dWTERRRmdvS1pJcTV0OGw3ZUF6UzFYZkd5VVpha01JY3hQdW4xWm0weGlmalpzRXlyaXBVejg?oc=5",
-          "source": "Newscast.jp",
+          "id": "125e8a78603ad6f5",
+          "title": "ナオミ、液体・粘体・粉体に対応する1台3役の小型充填機を展開",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PdTdUYVlQT0c2eFdRTmFUcHcwdmtsMWdRb1A5ZHBDZFZQeDlva1NKczEySmpaTDRtVktiZjNjT21Na2loOWg2Yi1jN3dUWXpWc3F6YjBRcV9Pdw?oc=5",
+          "source": "週刊粧業オンライン",
           "published_at": "2026-11-26T02:00:00Z",
           "language": "ja",
           "category": "food_machinery",
@@ -242,6 +242,16 @@
       "label": "小売店",
       "articles": [
         {
+          "id": "b388853f84e0e78e",
+          "title": "松源／和歌山県新宮市に「新宮店（店舗面積3690m2）」27年7月1日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pYUY4bHhiZmxjUEU4NDNCZlc2VnBnLXdiT0hOTERXMHVHQW1CZWptaGlxemRYM18yLUpaN1FWNW1xalZ1cXZrRGdWU0FUYzFtV0pSZU13?oc=5",
+          "source": "流通ニュース",
+          "published_at": "2026-11-26T01:31:00Z",
+          "language": "ja",
+          "category": "retail",
+          "link_provider": "google_news_rss"
+        },
+        {
           "id": "75f47ed2a7abfd6d",
           "title": "トライアル／茨城県常陸太田市に「スーパーセンタートライアル常陸太田店（店舗面積3844m2）」27年6月8日新設",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iRXgyZ3VXYmkyTGg4bDU0SG5Yem5QZUdFLUY1Ukowa00zVkQzakpJLTZUU3poX3c5R05XaVM0NlYxZ29FcXFSM2wwemNzYzB5SjhNYkxB?oc=5",
@@ -252,21 +262,11 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "73dacda224b4d4fd",
-          "title": "マミーマート／29年9月期120店舗体制へ、神奈川を重点出店エリアに",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00MU0wV01fZVpjYW4zUFQtNmkwdXhWemd5UmRiX3NyaVhGSlB6MnQ0RkE1VXNkOVl6T3VWTGtWNUdDdjUzd2NwWmZkY1loOGI1WjJmdw?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-11-20T08:16:00Z",
-          "language": "ja",
-          "category": "retail",
-          "link_provider": "google_news_rss"
-        },
-        {
-          "id": "c1837eeb67326bb8",
-          "title": "イオン東北／福島県相馬市に「（仮称）イオン相馬店（店舗面積5802m2）」27年6月14日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUaXdaOUJ2b3FrQkowZ2cxMmhrREFIZS1Wb2RzRTNuU1MxRTRKQ2F2Vkd3d0hONl9UeTJLNS1oTUxPUzd5WnRwUmhpSk5Qb1RFOXJtR0pR?oc=5",
-          "source": "流通ニュース",
-          "published_at": "2026-11-20T01:34:06Z",
+          "id": "826db8891e8120fe",
+          "title": "食品スーパーマーケット「大阪屋ショップGO！粟島店」オープンのお知らせ",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtSjZESmtCT2VTaGFDUDgxRTVibVp1QVRWQzlPc25ZMWRQN3JkLU5zSmMxSlhyT2diSlJtWjJmS2FoMVFsNGFaN3llWEZTeHF0aExiTWVia0JNX0FxNkdNYzJ2ZTg2OXFwSWc?oc=5",
+          "source": "PR TIMES",
+          "published_at": "2026-11-19T03:00:02Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -292,21 +292,21 @@
           "link_provider": "google_news_rss"
         },
         {
-          "id": "c3f7b2b73462ff74",
-          "title": "イトーヨーカドー／伊藤常務「26年度46店舗、27年度は70店舗改装。小岩店はS＆Bの新店に」",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vWjlHdHZiVlJOZW1kazhBRXNQM2xKSE1sNGdEeTI0bXZnRWhxb2pjV3Z4OW9ZbTFybkQwaEtFWGluMEZTc0cycl9TaElaYlFXaXN4Sg?oc=5",
+          "id": "b6e09f88636c8eed",
+          "title": "クスリのアオキ／宮城県・香川県に計3店舗、27年6月新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jQXRTaWRMcE1rVGZTbzBkTC1lVWFkUGtJUmE0bG9INjFXM01XYXdSMjZZTjQ1ZV9Qc2ZSdzlRRXNKejF6Rmo1OEJhS0JmamlqTWdISTdR?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-11-13T08:00:00Z",
+          "published_at": "2026-11-11T08:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
         },
         {
-          "id": "605d9e80d1ab47b0",
-          "title": "バロー、コーナン商事／奈良県生駒市に「生駒壱分商業施設（店舗面積4752m2）」27年5月18日新設",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OOVltZ1R2ZF8tQVUwaXVEc3IxUFlQWnBzdXMya1NpQnhtOGQwaDMtdTNELTZUMlhCa1ZoT3RVcHZlUkZZOWZ2a29BY1o0RWZDWFotcVln?oc=5",
+          "id": "04f3743167ba0b3b",
+          "title": "ヤオコーほか／神奈川県横浜市に「（仮称）戸塚駅西口商業施設計画（店舗面積3618m2）」27年6月20日新設",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11VEY5LWdnbm1Fb1VwSHhJLWktNVNVclZoRHNRT2hjX1lWVXdhcGVEWnMxWnlEOEE4eFRUYm9rRTJlRU5QZnExdkRjRXdtcG1NdGU5eUlB?oc=5",
           "source": "流通ニュース",
-          "published_at": "2026-11-12T08:00:00Z",
+          "published_at": "2026-11-11T08:00:00Z",
           "language": "ja",
           "category": "retail",
           "link_provider": "google_news_rss"
@@ -322,6 +322,16 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PNFJrcy1leEJnNlYySU5LUXloQVM2b1liMDJkZzRCSUtuRHNJcUl6QXdUOEY1Q3BFYlBiYVU4LXRob3NjbFJzM3NqWTc4YmNjQ0hjaVdKdlN4N1NBSjF1a2FWXzFtVnNDZ2c?oc=5",
           "source": "PR TIMES",
           "published_at": "2026-11-25T02:00:02Z",
+          "language": "ja",
+          "category": "regulations",
+          "link_provider": "google_news_rss"
+        },
+        {
+          "id": "fe34f88541fd8461",
+          "title": "中国のCCC認証切替期限が12月末に迫る！ISTソフトウェア、強制GB規格・CELの最新動向を解説する無料ウェビナーを",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pemt0LWR4aHRYb3dyajllb3J6VTlLTlBtWjE4eXFVdW93R1FUaXIyVkNYd01iS1dtdGh5d2xnaEJRN2hsSk5KUTZZazRVWVh0QWFmQ1FTOVZ6U0lfeXQ0RTZDLVM4b2t6?oc=5",
+          "source": "ニコニコニュース",
+          "published_at": "2026-11-26T21:21:30Z",
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
@@ -375,21 +385,11 @@
           "language": "ja",
           "category": "regulations",
           "link_provider": "google_news_rss"
-        },
-        {
-          "id": "ef503c10ab6704c7",
-          "title": "ヘルシーDo(北海道食品機能性表示制度) - 経済部食関連産業局食産業振興課",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1veTRGMGlHNnUzZDJBaDdkX29PR1IwM3pITkMyT2JYVGN2RWMyTXdyeXNFWElEcGQyaVBHRGZ5VV94V3FoZXVEOEZ3dmJzeWM5NnBsNG5rdUFNTndNNm9JMW1DNmlQT1N6MWc?oc=5",
-          "source": "北海道のホームページ",
-          "published_at": "2026-11-02T08:00:00Z",
-          "language": "ja",
-          "category": "regulations",
-          "link_provider": "google_news_rss"
         }
       ]
     }
   },
-  "last_attempt_at": "2026-11-26T21:43:24Z",
-  "last_success_at": "2026-11-26T21:43:24Z",
+  "last_attempt_at": "2026-11-27T08:47:48Z",
+  "last_success_at": "2026-11-27T08:47:48Z",
   "consecutive_failure_count": 0
 }
